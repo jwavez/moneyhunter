@@ -30,6 +30,8 @@ def find(title: str, comps: list) -> Optional[Comp]:
     for c in comps:
         if c.category == "gaming" and "oled" not in c.match and any(k in t for k in ("console", "oled", "bundle")):
             continue  # a game comp must not price a console bundle
+        if c.category == "trainers" and any(k in t for k in ("girls", "boys", "kids", "junior", "infant", "toddler", "child", "youth")):
+            continue  # adult sold prices must not price kids' sizes
         if all(w in t for w in c.match.split()):
             if best is None or len(c.match) > len(best.match):
                 best = c
