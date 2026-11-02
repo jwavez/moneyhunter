@@ -8,4 +8,12 @@ GITHUB_REPO = "jwavez/moneyhunter"
 GITHUB_REF = "main"
 DEALS_URL = "https://raw.githubusercontent.com/jwavez/moneyhunter/state/deals.json"
 COMPS_URL = "https://raw.githubusercontent.com/jwavez/moneyhunter/state/comps.csv"
-# Secrets (set with `wrangler secret put NAME`, never commit): DISCORD_PUBLIC_KEY, GITHUB_TOKEN
+# Community channels
+WINS_CHANNEL = "1566920011740610660"
+FLIPLOG_CHANNEL = "1566920009106591744"
+SOLDCOMPS_CHANNEL = "1566920013078724701"
+# Secrets (set with `wrangler secret put NAME`, never commit): DISCORD_PUBLIC_KEY, DISCORD_BOT_TOKEN (posts big wins to #wins), GITHUB_TOKEN (optional)
+
+[[kv_namespaces]]
+binding = "MH"
+id = "93e5c58111dd40fbb82d07d338a23604"

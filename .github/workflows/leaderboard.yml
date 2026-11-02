@@ -1,0 +1,25 @@
+name: moneyhunter-weekly-leaderboard
+on:
+  schedule:
+    - cron: "0 8,9 * * 1"   # both GMT and BST hours; the gate keeps only 09 UK
+  workflow_dispatch: {}
+permissions: { contents: read }
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: UK-hour gate
+        id: gate
+        run: |
+          h=$(TZ=Europe/London date +%H)
+          if [ "${{ github.event_name }}" = workflow_dispatch ] || [ "$h" = "09" ]; then echo run=1 >> $GITHUB_OUTPUT; fi
+      - name: Post
+        if: steps.gate.outputs.run == '1'
+        env:
+          MONEYHUNTER_WEBHOOKS: ${{ secrets.MONEYHUNTER_WEBHOOKS }}
+        run: |
+          python -m moneyhunter.cli leaderboard

@@ -46,9 +46,12 @@ def _load_seen():
 def _key(d):
     return hotukdeals.dedupe_key(d.title, d.buy_price)
 
+LAST_RAWS = []
+
 def run_scan():
     br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.COMMUNITY_MAX_PRICE)
-    raws = hotukdeals.scan(); comps = CP.load()
+    global LAST_RAWS
+    raws = hotukdeals.scan(); LAST_RAWS = raws; comps = CP.load()
     graded, unpriced = [], []
     for r in raws:
         comp = CP.find(r["title"], comps)
@@ -99,23 +102,21 @@ def cmd_scan(a):
     if a.show_all:
         for d in unpriced[:40]: print(f"  [unpriced {d.category:10}] £{d.buy_price:7.2f} {d.title[:70]}")
     seen = _load_seen()
-    cards = [(d, r) for d, r in affordable if r.grade[0] in "AB" and _key(d) not in seen]
-    if a.include_rejects and not cards:
-        cards = [(d, r) for d, r in affordable if _key(d) not in seen][: a.include_rejects]
-    cards = cards[: a.max_posts]
     near = [(d, r) for d, r in affordable if r.grade == "REJECT"][:6]
-    posted = []
-    summary_due = bool(cards) or a.summary
-    if summary_due:
-        st = D.post([E.scan_summary(stats, near, a.preview)], dry_run=a.dry_run); print(f"[discord] summary: {st or 'dry-run'}")
-    for d, r in cards:
-        st = D.post(E.deal_card(d, r, a.preview), dry_run=a.dry_run, components=E.link_buttons(d)); print(f"[discord] card: {st or 'dry-run'}")
-        if st and 200 <= st < 300: posted.append(_key(d))
-    if posted:
-        json.dump(sorted(seen | set(posted)), open(STATE, "w"))
+    from . import hub
+    raws = LAST_RAWS
+    new = hub.route(raws, graded, stats, near, seen, dry=a.dry_run, max_cards=a.max_posts)
+    if new and not a.dry_run:
+        json.dump(sorted(seen | new), open(STATE, "w"))
     if a.export:
         export_public(a.export, stats, graded)
-    if not summary_due: print("No new A/B deals under your tier cap; nothing posted.")
+    print(f"[hub] {len(new)} new items routed")
+
+def cmd_digest(a):
+    from . import hub; hub.digest(a.deals, dry=a.dry_run)
+
+def cmd_leaderboard(a):
+    from . import hub; hub.leaderboard(a.api, dry=a.dry_run)
 
 def private_report(a) -> str:
     """LOCAL ONLY. Never posted to Discord."""
@@ -160,6 +161,8 @@ def cmd_uc(a):
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="moneyhunter"); sp = ap.add_subparsers(dest="cmd", required=True)
     s = sp.add_parser("scan"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--max-posts", type=int, default=5); s.add_argument("--show-all", action="store_true"); s.add_argument("--include-rejects", type=int, default=0); s.add_argument("--summary", action="store_true", help="post the scan report even with no cards"); s.add_argument("--preview", action="store_true"); s.add_argument("--export", help="write community deals JSON, e.g. public/deals.json"); s.set_defaults(f=cmd_scan)
+    s = sp.add_parser("digest"); s.add_argument("--deals", default="public/deals.json"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(f=cmd_digest)
+    s = sp.add_parser("leaderboard"); s.add_argument("--api", default="https://moneyhunter-bot.moneyhunter.workers.dev/api/leaderboard"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(f=cmd_leaderboard)
     s = sp.add_parser("hud", help="LOCAL ONLY private report"); s.add_argument("--private", action="store_true", help="also write data/private_report.md"); s.add_argument("--period-day", type=int, default=1, help="day of month your UC assessment period starts"); s.set_defaults(f=cmd_hud)
     s = sp.add_parser("test-webhook"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(f=cmd_test)
     s = sp.add_parser("capital"); s.add_argument("amount", type=float); s.add_argument("note", nargs="?", default="top-up"); s.set_defaults(f=lambda a: L.add_capital(a.amount, a.note))

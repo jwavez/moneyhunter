@@ -56,6 +56,7 @@ FEEDS = {
     "tools": ["tag/dewalt", "tag/makita"],
     "gaming": ["tag/nintendo-switch", "tag/playstation"],
     "fragrance": ["tag/perfume", "tag/aftershave"],
+    "tech": ["tag/headphones", "tag/apple"],
     "any": ["trending", "new"],
 }
 
@@ -66,6 +67,7 @@ CATEGORY_KEYWORDS = {
     "tools": ["dewalt", "makita", "milwaukee", "body only", "tool only"],
     "gaming": ["controller", "switch", "ps5", "playstation", "xbox", "dualsense"],
     "fragrance": ["eau de parfum", "eau de toilette", "edp", "edt", "aftershave", "perfume"],
+    "tech": ["airpods", "headphones", "earbuds", "ipad", "macbook", "iphone", "apple watch", "sony wh-", "bose", "kindle", "galaxy buds"],
     "sportswear": ["sweatshirt", "hoodie", "football shirt", "umbro"],
 }
 

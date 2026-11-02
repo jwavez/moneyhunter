@@ -1,5 +1,6 @@
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
 import { calc, parseCsv, findComp, gbp, verifyDiscord } from "./logic.js";
+import * as CM from "./community.js";
 
 const C = { A: 0x22c55e, B: 0xf59e0b, R: 0xef4444, BRAND: 0x8b5cf6, INFO: 0x3b82f6 };
 const EPH = 64;
@@ -173,6 +174,15 @@ async function handleCommand(i, env) {
     case "calc": return msg(calcView(opt(i, "buy"), opt(i, "sell"), opt(i, "platform") ?? "ebay_business", opt(i, "category") ?? "", null));
     case "scan": return msg({ content: "⚡ Manual scan is coming soon. Scans already run automatically every 30 min." });
     case "help": return msg(howView());
+    case "logflip": return modal(CM.flipModal());
+    case "soldprice": return modal(CM.compModal());
+    case "leaderboard": return msg({ embeds: [CM.lbEmbed(await CM.leaderboard(env))] });
+    case "review": {
+      if (!isAdmin(i)) return msg({ content: "Only members with **Manage Server** can review submissions." });
+      const p = await CM.pendingComps(env);
+      return msg({ embeds: [{ title: `🧾 Latest sold-price submissions (${p.length})`, color: C.INFO,
+        description: p.map(x => `• **${x.item}** £${x.price} · ${x.date} · ${x.condition || "?"} · [listing](${x.link}) · by ${x.name}`).join("\n").slice(0, 4000) || "None yet." }] });
+    }
   }
   return msg({ content: "Unknown command." });
 }
@@ -187,6 +197,9 @@ async function handleComponent(i, env) {
   if (id === "p:price") return modal(priceModal());
   if (id === "p:cats") return show(catsView());
   if (id === "p:how") return show(howView());
+  if (id === "fl:open") return modal(CM.flipModal());
+  if (id === "sc:open") return modal(CM.compModal());
+  if (id === "lb:show") return msg({ embeds: [CM.lbEmbed(await CM.leaderboard(env))] });
   if (id === "p:scan") return msg({ content: "⚡ **Scan Now is coming soon.** Scans already run automatically every 30 min, 24/7." });
   if (id === "cat") { const d = await getDeals(env); const c = i.data.values[0]; return show(dealView(d, filterDeals(d.deals, c), c, 0)); }
   const d = await getDeals(env), list = filterDeals(d.deals, f), x = list[((+n % (list.length || 1)) + list.length) % (list.length || 1)];
@@ -197,7 +210,7 @@ async function handleComponent(i, env) {
   return msg({ content: "Unknown button." });
 }
 
-async function handleModal(i, env) {
+async function handleModal(i, env, ctx) {
   const v = fieldVals(i);
   if (i.data.custom_id === "m:calc") {
     const buy = num(v.buy), sell = num(v.sell);
@@ -206,12 +219,24 @@ async function handleModal(i, env) {
     if (!platform) return msg({ content: "Platform not recognised. Use: ebay, ebay private, vinted, depop, stockx or fb." });
     return msg(calcView(buy, sell, platform, String(v.category || "").trim().toLowerCase(), num(v.postage)));
   }
+  if (i.data.custom_id === "m:flip") {
+    const r = await CM.logFlip(i, v, env);
+    if (r.error) return msg({ content: r.error });
+    if (r.net >= 20 && i.channel_id !== env.WINS_CHANNEL) ctx.waitUntil(CM.postToChannel(env, env.WINS_CHANNEL, { embeds: [{ ...r.embed, title: "🏆 " + r.embed.title }] }));
+    return msg({ embeds: [r.embed] }, false);
+  }
+  if (i.data.custom_id === "m:comp") {
+    const r = await CM.submitComp(i, v, env);
+    return msg({ content: r.error ?? `✅ Thanks! Sold price £${r.p.toFixed(2)} saved for review.` });
+  }
   if (i.data.custom_id === "m:price") return msg(await priceView(String(v.item || "").trim(), num(v.buy), env));
   return msg({ content: "Unknown form." });
 }
 
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
+    const url = new URL(req.url || "https://x/");
+    if (req.method === "GET" && url.pathname === "/api/leaderboard") return json({ top: await CM.leaderboard(env, 25) });
     if (req.method !== "POST") return new Response("MONEYHUNTER bot is running", { status: 200 });
     const body = await req.text();
     if (!(await verifyDiscord(req, body, env.DISCORD_PUBLIC_KEY))) return new Response("invalid request signature", { status: 401 });
@@ -220,9 +245,9 @@ export default {
       if (i.type === 1) return json({ type: 1 });
       if (i.type === 2) return await handleCommand(i, env);
       if (i.type === 3) return await handleComponent(i, env);
-      if (i.type === 5) return await handleModal(i, env);
+      if (i.type === 5) return await handleModal(i, env, ctx);
       return msg({ content: "Unsupported." });
     } catch (e) { return msg({ content: "⚠️ Something went wrong: " + String(e.message).slice(0, 150) }); }
   },
 };
-export const _test = { panel, dealView, calcView, filterDeals, planView, catsView };
+export const _test = { flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView };

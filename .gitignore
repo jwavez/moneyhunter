@@ -17,3 +17,4 @@ data/*.private.*
 worker/node_modules/
 worker/.wrangler/
 public/
+data/prices.json

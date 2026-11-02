@@ -5,8 +5,8 @@ import json, os, time, urllib.request, urllib.error
 ENV = "MONEYHUNTER_DISCORD_WEBHOOK"
 COLORS = {"A": 0x2ECC71, "B": 0xF1C40F, "R": 0xE74C3C, "T": 0x3498DB}
 
-def post(embeds: list, content: str = "", dry_run: bool = False, components: list = None) -> int:
-    url = os.getenv(ENV)
+def post(embeds: list, content: str = "", dry_run: bool = False, components: list = None, url: str = None) -> int:
+    url = url or os.getenv(ENV)
     payload = {"username": "MONEYHUNTER", "content": content, "embeds": embeds[:10]}
     if os.getenv("MONEYHUNTER_AVATAR_URL"):
         payload["avatar_url"] = os.environ["MONEYHUNTER_AVATAR_URL"]

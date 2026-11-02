@@ -16,6 +16,10 @@ export const COMMANDS = [
       { type: S, name: "platform", description: "Where you sell", choices: platforms }, { type: S, name: "category", description: "Item category", choices: cats }] },
   { name: "scan", description: "Start a fresh scan now (coming soon)" },
   { name: "help", description: "How MONEYHUNTER works" },
+  { name: "logflip", description: "Log a buy/sell flip and earn XP" },
+  { name: "soldprice", description: "Submit a real sold price for review" },
+  { name: "leaderboard", description: "Community XP leaderboard" },
+  { name: "review", description: "Latest sold-price submissions (Manage Server)", default_member_permissions: "32" },
 ];
 if (import.meta.url === `file://${process.argv[1]}`) {
   if (!app || !tok) { console.error("Set DISCORD_APP_ID and DISCORD_BOT_TOKEN"); process.exit(1); }

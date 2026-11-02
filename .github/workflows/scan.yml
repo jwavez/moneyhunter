@@ -19,18 +19,21 @@ jobs:
         with: { python-version: "3.12" }
       - name: Restore state (seen.json) from the 'state' branch
         run: |
-          git fetch origin state --depth 1 && git show origin/state:seen.json > data/seen.json || echo "[]" > data/seen.json
+          git fetch origin state --depth 1 || true
+          git show origin/state:seen.json > data/seen.json 2>/dev/null || echo "[]" > data/seen.json
+          git show origin/state:prices.json > data/prices.json 2>/dev/null || echo "{}" > data/prices.json
       - name: Scan, post, export
         env:
           MONEYHUNTER_COMMUNITY: "1"   # public rule set; no personal bankroll in the cloud
           MONEYHUNTER_DISCORD_WEBHOOK: ${{ secrets.MONEYHUNTER_DISCORD_WEBHOOK }}
+          MONEYHUNTER_WEBHOOKS: ${{ secrets.MONEYHUNTER_WEBHOOKS }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: python -m moneyhunter.cli scan --max-posts 5 --export public/deals.json
       - name: Publish state branch (deals.json, seen.json, comps.csv) as one rewritten commit
         if: always()
         run: |
-          mkdir -p /tmp/state && cp data/seen.json data/comps.csv /tmp/state/ && cp public/deals.json /tmp/state/ 2>/dev/null || true
+          mkdir -p /tmp/state && cp data/seen.json data/prices.json data/comps.csv /tmp/state/ && cp public/deals.json /tmp/state/ 2>/dev/null || true
           cd /tmp/state && git init -q -b state && git add -A
           git -c user.name="moneyhunter-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "state $(date -u +%FT%TZ)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" state

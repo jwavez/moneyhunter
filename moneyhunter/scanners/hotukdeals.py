@@ -33,7 +33,7 @@ def dedupe_key(title: str, price: float) -> str:
     return " ".join(t.split()[:8]) + f"|{price:.2f}"
 
 def scan(log=print) -> list:
-    out, seen, keys = [], set(), set()
+    out, seen, keys, by_link = [], set(), set(), {}
     for hint, paths in C.FEEDS.items():
         for p in paths:
             try:
@@ -43,7 +43,10 @@ def scan(log=print) -> list:
                 continue
             for it in root.iter("item"):
                 link = (it.findtext("link") or "").strip()
-                if link in seen: continue
+                if link in seen:
+                    m0 = re.match(r"(-?\d+)°", (it.findtext("title") or "").strip())
+                    if m0 and link in by_link: by_link[link]["heat"] = int(m0.group(1))   # heat only shows in trending
+                    continue
                 seen.add(link)
                 title = (it.findtext("title") or "").strip()
                 heat = None
@@ -56,11 +59,13 @@ def scan(log=print) -> list:
                 th = it.find("media:thumbnail", NS)
                 thumb = th.get("url", "").replace("/re/150x150/", "/re/300x300/") if th is not None else ""
                 cat = classify(title, hint)
+                if cat is None and heat is not None: cat = "other"   # keep trending items for #trending / #price-errors
                 if price is None or cat is None: continue
                 k = dedupe_key(title, price)
                 if k in keys: continue
                 keys.add(k)
-                out.append({"title": title, "url": link, "price": price, "merchant": merchant,
+                by_link[link] = {}; out.append(by_link[link])
+                by_link[link].update({"title": title, "url": link, "price": price, "merchant": merchant,
                             "category": cat, "heat": heat, "thumb": thumb, "feed": p,
                             "delivery": delivery_speed(title, merchant)})
     return out
