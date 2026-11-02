@@ -1,5 +1,7 @@
 // Pure logic shared by the Worker and tests. Fee rates mirror moneyhunter/fees.py [S] (checked 2 Nov 2026).
-export const PACKAGING = 0.5, RETURNS = 0.03, POSTAGE = { evri: 2.62, rm2: 4.4 };
+export const PACKAGING = 0.5, RETURNS = 0.03;
+// Home-delivery postage by category [S] evri.com/our-services/our-prices, checked 2 Nov 2026 (mirrors config.py)
+export const POSTAGE_BY_CAT = { gaming: 2.70, fragrance: 3.04, tech: 3.04, sportswear: 3.04, trainers: 3.52, lego: 4.79, tools: 6.59, default: 3.52 };
 export const MIN_NET = 8, MIN_ROI = 40; // [H] neutral community max-buy rule
 const FVF = { sportswear: 0.119, lego: 0.109, fragrance: 0.109, gaming: 0.099, default: 0.129 };
 
@@ -11,7 +13,8 @@ export function ebayBusinessFee(price, cat, post = 0) {
   return r2(f + (t <= 10 ? 0.3 : 0.4) + t * 0.0035);
 }
 export function platformFee(pl, price, cat) {
-  if (["ebay_private", "vinted", "fb"].includes(pl)) return 0;
+  if (["ebay_private", "vinted", "fb_cash"].includes(pl)) return 0;
+  if (pl === "fb" || pl === "paypal") return r2(price * 0.029 + 0.3);   // PayPal UK goods & services
   if (pl === "ebay_business") return ebayBusinessFee(price, cat);
   if (pl === "depop") return r2(price * 0.029 + 0.3);
   if (pl === "stockx") return r2(Math.max(4.5, price * 0.09) + price * 0.03 + 4);
@@ -19,11 +22,11 @@ export function platformFee(pl, price, cat) {
 }
 export function calc(buy, sell, pl = "ebay_business", cat = "default") {
   const fee = platformFee(pl, sell, cat);
-  const post = pl === "vinted" ? 0 : (["tools", "lego"].includes(cat) ? POSTAGE.rm2 : POSTAGE.evri);
+  const post = pl === "vinted" || pl === "fb_cash" ? 0 : (POSTAGE_BY_CAT[cat] ?? POSTAGE_BY_CAT.default);
   const ret = r2(sell * RETURNS);
   const net = r2(sell - fee - post - PACKAGING - ret - buy);
   const proceeds = sell - fee - post - PACKAGING - ret;
-  const maxBuy = r2(Math.max(0, Math.min(proceeds - MIN_NET, proceeds / (1 + MIN_ROI / 100))));
+  const maxBuy = Math.floor(Math.max(0, Math.min(proceeds - MIN_NET, proceeds / (1 + MIN_ROI / 100))) * 100) / 100;
   return { buy, sell, platform: pl, category: cat, fee, postage: post, packaging: PACKAGING, returns: ret, net, roi: buy ? r2(net / buy * 100) : null, maxBuy };
 }
 export function parseCsv(text) {
@@ -37,19 +40,23 @@ export function parseCsv(text) {
   if (cur || row.length) { row.push(cur); rows.push(row); }
   const [h, ...b] = rows; return b.filter(r => r.length > 1).map(r => Object.fromEntries(h.map((k, i) => [k, r[i] ?? ""])));
 }
+// Strict match only (mirrors moneyhunter/matching.py): every comp word must appear as a whole word,
+// and kids / bundle / pre-order / used / edition words in the query that the comp lacks block the match.
+const GUARD = ["girls", "boys", "kids", "junior", "infant", "toddler", "child", "youth", "baby", "bundle", "pack", "set of",
+  "pre order", "preorder", "used", "pre owned", "refurbished", "refurb", "renewed", "resale", "open box", "grey import", "tester",
+  "deluxe edition", "collectors", "limited edition", "special edition", "switch 2", "digital", "kit", "battery", "console"];
+const norm = s => " " + s.toLowerCase().replace(/[’'`.]/g, "").replace(/[^a-z0-9£+]+/g, " ").trim() + " ";
+const hasW = (t, w) => t.includes(" " + w + " ");
 export function findComp(query, comps) {
-  const t = query.toLowerCase(); let best = null;
+  const t = norm(query); let best = null, blocked = "";
   for (const c of comps) {
-    const words = c.match.toLowerCase().split(/\s+/);
-    if (words.every(w => t.includes(w)) && (!best || c.match.length > best.match.length)) best = c;
+    const m = norm(c.match); const words = m.trim().split(" ");
+    if (!words.every(w => hasW(t, w))) continue;
+    const g = GUARD.find(w => hasW(t, w) && !hasW(m, w));
+    if (g) { blocked = blocked || `${c.match} (${g})`; continue; }
+    if (!best || c.match.length > best.match.length) best = c;
   }
-  if (best) return best;
-  // loose fallback: comp whose words mostly appear in the query
-  let score = 0;
-  for (const c of comps) {
-    const w = c.match.toLowerCase().split(/\s+/); const s = w.filter(x => t.includes(x)).length / w.length;
-    if (s > score && s >= 0.6) { score = s; best = c; }
-  }
+  if (!best && blocked) return { blocked };
   return best;
 }
 export const r2 = x => Math.round(x * 100) / 100;

@@ -1,19 +1,32 @@
-"""Comps store: sold-price ranges you verify (Terapeak / eBay sold search).
-Seeded only with sourced ranges. Add rows as you check items; fill floor (CeX cash
-price checked same day), sold_90d, sell_through and days_to_sell to unlock A grades."""
-import csv, os
+"""Comps store: sold-price ranges you verify (Terapeak / eBay sold search / PriceCharting).
+Each row's date is read from its source ("fetched 2026-11-02" or "6 Oct 2026").
+Rows older than C.MAX_COMP_AGE_DAYS are stale: they never produce a BUY or VERIFY grade."""
+import csv, os, re, datetime as dt
 from dataclasses import dataclass
 from typing import Optional
+from . import matching as M
 
 PATH = os.path.join(os.path.dirname(__file__), "..", "data", "comps.csv")
+MONTHS = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split())}
 
 @dataclass
 class Comp:
     match: str; category: str; low: float; high: float; evidence: str; source: str
     floor: Optional[float]; floor_source: str
     sold_90d: Optional[int]; sell_through: Optional[float]; days_to_sell: Optional[float]
+    as_of: Optional[dt.date] = None
+
+    def age_days(self, today: dt.date = None) -> Optional[int]:
+        return None if self.as_of is None else ((today or dt.date.today()) - self.as_of).days
 
 def _f(x): return float(x) if x not in ("", None) else None
+
+def parse_date(s: str) -> Optional[dt.date]:
+    m = re.search(r"(20\d\d)-(\d\d)-(\d\d)", s or "")
+    if m: return dt.date(int(m[1]), int(m[2]), int(m[3]))
+    m = re.search(r"(\d{1,2}) ([A-Za-z]{3})[a-z]* (20\d\d)", s or "")
+    if m and m[2].lower() in MONTHS: return dt.date(int(m[3]), MONTHS[m[2].lower()], int(m[1]))
+    return None
 
 def load(path: str = PATH) -> list:
     out = []
@@ -21,18 +34,12 @@ def load(path: str = PATH) -> list:
         for r in csv.DictReader(fh):
             out.append(Comp(r["match"].lower(), r["category"], float(r["low"]), float(r["high"]),
                             r["sold_evidence"], r["source"], _f(r["floor"]), r["floor_source"],
-                            int(r["sold_90d"]) if r["sold_90d"] else None, _f(r["sell_through"]), _f(r["days_to_sell"])))
+                            int(r["sold_90d"]) if r["sold_90d"] else None, _f(r["sell_through"]), _f(r["days_to_sell"]),
+                            parse_date(r.get("as_of") or "") or parse_date(r["source"])))
     return out
 
-def find(title: str, comps: list) -> Optional[Comp]:
-    t = title.lower()
-    best = None
-    for c in comps:
-        if c.category == "gaming" and "oled" not in c.match and any(k in t for k in ("console", "oled", "bundle")):
-            continue  # a game comp must not price a console bundle
-        if c.category == "trainers" and any(k in t for k in ("girls", "boys", "kids", "junior", "infant", "toddler", "child", "youth")):
-            continue  # adult sold prices must not price kids' sizes
-        if all(w in t for w in c.match.split()):
-            if best is None or len(c.match) > len(best.match):
-                best = c
-    return best
+def find(title: str, comps: list, extra: str = "") -> Optional[Comp]:
+    return M.find(title, comps, extra)[0]
+
+def find_with_reason(title: str, comps: list, extra: str = ""):
+    return M.find(title, comps, extra)

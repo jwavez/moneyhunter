@@ -6,6 +6,12 @@ const T = process.env.DISCORD_BOT_TOKEN, API = "https://discord.com/api/v10";
 const H = { authorization: "Bot " + T, "content-type": "application/json" };
 const id = n => Object.fromEntries(Object.entries(ch))[n];
 async function postPin(name, body) {
+  if (process.env.EDIT === "1") {
+    const pins = await (await fetch(`${API}/channels/${id(name)}/pins`, { headers: H })).json();
+    const me = (await (await fetch(`${API}/users/@me`, { headers: H })).json()).id;
+    const m = pins.find(p => p.author?.id === me);
+    if (m) { const r = await fetch(`${API}/channels/${id(name)}/messages/${m.id}`, { method: "PATCH", headers: H, body: JSON.stringify(body) }); console.log(`#${name}: edited ${r.status}`); return; }
+  }
   const r = await fetch(`${API}/channels/${id(name)}/messages`, { method: "POST", headers: H, body: JSON.stringify({ allowed_mentions: { parse: [] }, ...body }) });
   const m = await r.json(); if (!r.ok) { console.log(name, "post", r.status, JSON.stringify(m).slice(0, 200)); return; }
   const p = await fetch(`${API}/channels/${id(name)}/pins/${m.id}`, { method: "PUT", headers: H });
@@ -17,14 +23,15 @@ const welcome = { embeds: [
     "MONEYHUNTER scans UK deals every 30 minutes, works out every fee and posts only deals that can resell for profit.\n\n" +
     `**Start:** open ${L("control-panel")} and click the buttons. Everything there is private to you.` },
   { title: "🟢🟡🔴 Grades", color: 0x22c55e, description:
-    "🟢 **BUY** (A): all 8 checks pass: profit, ROI, speed, demand, comps, confidence, safe exit, price cap.\n" +
-    "🟡 **VERIFY** (B): the money works but check eBay sold first.\n🔴 **PASS**: fails a money check. Shown only as near-misses.\n" +
-    "**Max buy** = the highest price that still leaves £8 net and 40% ROI after fees, postage, packaging and 3% returns." },
+    "🟢 **BUY** (A): all 9 checks pass: profit, ROI, sell speed, demand, 5+ sold comps, confidence, verified exit, price cap, sold prices under 30 days old.\n" +
+    "🟡 **VERIFY** (B): profit works on estimated prices, but speed or exit is not proven. Check eBay sold for the exact item first.\n🔴 **PASS**: fails a check. Shown only as near-misses.\n" +
+    "🛡️ **Never priced:** kids' sizes, bundles, multipacks, pre-orders, used/refurbished/resale, other editions or platforms, kits vs body-only, other bottle sizes. Expired deals never alert.\n" +
+    "**Max buy** = the highest price that still leaves £8 net and 40% ROI after eBay business fees, home-delivery postage, packaging and 3% returns.\n**Worst case (est.)** = selling at half the target on eBay after all costs, until a real floor price is verified." },
   { title: "🗺️ Channels", color: 0x3b82f6, description:
     `${L("buy-now")} A-grade deals · ${L("verify")} B-grade · ${L("price-errors")} price errors and very hot deals\n` +
     `${L("trainers")} ${L("lego")} ${L("games-consoles")} ${L("tools")} ${L("fragrance")} ${L("tech")} category feeds\n` +
     `${L("price-drops")} prices that fell · ${L("trending")} hottest deals · ${L("near-misses")} 8am digest · ${L("seasonal-calendar")} when to buy and sell\n` +
-    `${L("flip-log")} log flips for XP · ${L("wins")} share wins · ${L("sold-comps")} submit sold prices · ${L("leaderboard")} Monday 9am · ${L("flip-chat")} chat\n${L("bot-status")} scan health` },
+    `${L("flip-log")} log flips for XP · ${L("wins")} share wins · ${L("sold-comps")} submit sold prices · ${L("leaderboard")} Monday 9am · ${L("flip-chat")} chat\n${L("bot-status")} hourly scan summary, errors straight away` },
   { title: "⚠️ Rules and honesty", color: 0xef4444, description:
     "1. Always check **eBay sold** before you buy. Prices are estimates, not guarantees. No guaranteed profits.\n" +
     "2. Price errors may be cancelled by the retailer. Never buy more than you can afford to return.\n" +

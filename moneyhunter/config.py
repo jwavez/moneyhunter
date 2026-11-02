@@ -43,10 +43,20 @@ UNVERIFIED_FLOOR_FACTOR = 0.50  # floor guess when no CeX/floor price known
 PACKAGING = 0.50
 RETURNS_ALLOWANCE = 0.03
 
-# ---- Postage out [S] (royalmail.com, evri.com, InPost via lockerrules.co.uk; Nov 2026) ----
-POSTAGE = {"inpost": 1.99, "evri": 2.62, "rm2": 4.40, "collect": 0.0}
-DEFAULT_POSTAGE = "evri"
-LARGE_POSTAGE = "rm2"   # used for boxes/tools
+MAX_COMP_AGE_DAYS = 30       # comps older than this never give BUY/VERIFY
+MIN_COMPS_FOR_A = MIN_COMPS
+
+# ---- Postage out [S] checked 2 Nov 2026: evri.com/our-services/our-prices (home delivery, drop-off),
+# royalmail.com/sending/uk/2nd-class (small parcel online £4.40), inpost.co.uk/send/parcel-prices.
+# Evri £2.62 is to-ParcelShop only, so home-delivery prices are used (what eBay buyers expect).
+POSTAGE = {"evri_postable": 2.70, "evri_small_1kg": 3.04, "evri_small_2kg": 3.52, "evri_std_2kg": 4.79,
+           "evri_2_5kg": 6.59, "rm2_small": 4.40, "inpost_locker": 1.99, "inpost_home_small": 2.89, "collect": 0.0}
+POSTAGE_BY_CAT = {"gaming": "evri_postable", "fragrance": "evri_small_1kg", "tech": "evri_small_1kg",
+                  "trainers": "evri_small_2kg", "sportswear": "evri_small_1kg", "lego": "evri_std_2kg", "tools": "evri_2_5kg"}
+DEFAULT_POSTAGE = "evri_small_2kg"
+
+def postage_for(category: str) -> float:
+    return POSTAGE[POSTAGE_BY_CAT.get(category, DEFAULT_POSTAGE)]
 
 # ---- hotukdeals feeds (public RSS) mapped to target categories ----
 HUKD = "https://www.hotukdeals.com/rss/"
@@ -54,10 +64,10 @@ FEEDS = {
     "trainers": ["tag/trainers", "tag/nike", "tag/adidas"],
     "lego": ["tag/lego"],
     "tools": ["tag/dewalt", "tag/makita"],
-    "gaming": ["tag/nintendo-switch", "tag/playstation"],
+    "gaming": ["tag/nintendo-switch", "tag/playstation", "tag/xbox"],
     "fragrance": ["tag/perfume", "tag/aftershave"],
     "tech": ["tag/headphones", "tag/apple"],
-    "any": ["trending", "new"],
+    "any": ["trending", "new", "tag/clearance", "tag/price-glitch", "tag/amazon-warehouse"],
 }
 
 # Category keywords used to keep only target categories from the general feeds

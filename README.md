@@ -1,6 +1,6 @@
 # MONEYHUNTER
 
-An online-to-online UK flipping scanner. It reads public hotukdeals RSS feeds for the target categories (trainers, sportswear, LEGO, power tools, gaming, fragrance), prices each deal against sold-price comps you keep in `data/comps.csv`, and works out the real profit after every fee and cost. Each deal is graded A (buy), B (verify) or REJECT using 8 checks, and A/B deals go to your Discord channel through a webhook. No dependencies beyond the Python 3.10+ standard library.
+An online-to-online UK flipping scanner. It reads public hotukdeals RSS feeds for the target categories (trainers, sportswear, LEGO, power tools, gaming, fragrance), prices each deal against sold-price comps you keep in `data/comps.csv`, and works out the real profit after every fee and cost. Each deal is graded A (buy), B (verify) or REJECT using 9 checks (incl. comps no older than 30 days), and A/B deals go to your Discord channel through a webhook. No dependencies beyond the Python 3.10+ standard library.
 
 Labels: [S] means sourced (see the Page), [H] means a house rule you can change in `moneyhunter/config.py`.
 
@@ -36,7 +36,7 @@ Your ledger (`data/ledger.db`) is git-ignored, so your money data never goes to 
 Deals without comps are listed as *unpriced* by `scan --show-all`.
 
 Grades:
-- **A, BUY:** all 8 checks pass. Expected net and ROI meet the tier minimums, days-to-sell, sell-through, comp count and confidence all pass, the **verified floor exit is at or above breakeven** (the no-loss rule), and the cost is within the tier's max item size.
+- **A, BUY:** all 9 checks pass, including sold prices no older than 30 days. Expected net and ROI meet the tier minimums, days-to-sell, sell-through, comp count and confidence all pass, the **verified floor exit is at or above breakeven** (the no-loss rule), and the cost is within the tier's max item size.
 - **B, VERIFY:** the money works, but your own comps or floor check is missing.
 - **REJECT:** anything else. A floor can't guarantee zero losses; the system keeps losses small.
 
@@ -60,7 +60,7 @@ Platforms: `ebay_private`, `ebay_business`, `vinted`, `depop`, `stockx`, `fb`. F
 
 ## Files
 - `moneyhunter/fees.py`: fee and cost engine
-- `moneyhunter/grading.py`: EV, the 8 checks, tiers, quarter-Kelly, no-loss floor
+- `moneyhunter/grading.py`: EV, the 9 checks, tiers, quarter-Kelly, no-loss floor
 - `moneyhunter/scanners/`: `hotukdeals.py` (live), `ebay.py` (needs keys), `cex.py` (blocked, HTTP 403)
 - `moneyhunter/discord.py`: webhook embeds, handles 429 rate limits
 - `moneyhunter/ledger.py`: SQLite ledger and audit log

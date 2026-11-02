@@ -55,7 +55,9 @@ def scan(log=print) -> list:
                 mer = it.find("pepper:merchant", NS)
                 merchant = mer.get("name", "") if mer is not None else ""
                 price = _price(mer.get("price", "")) if mer is not None else None
-                if price is None: price = _price(it.findtext("description") or "")
+                desc_html = it.findtext("description") or ""
+                if price is None: price = _price(desc_html)
+                desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", desc_html)).strip()[:800]
                 th = it.find("media:thumbnail", NS)
                 thumb = th.get("url", "").replace("/re/150x150/", "/re/300x300/") if th is not None else ""
                 cat = classify(title, hint)
@@ -67,5 +69,17 @@ def scan(log=print) -> list:
                 by_link[link] = {}; out.append(by_link[link])
                 by_link[link].update({"title": title, "url": link, "price": price, "merchant": merchant,
                             "category": cat, "heat": heat, "thumb": thumb, "feed": p,
-                            "delivery": delivery_speed(title, merchant)})
+                            "delivery": delivery_speed(title, merchant), "desc": desc,
+                            "pub": (it.findtext("pubDate") or "").strip()})
     return out
+
+def is_live(url: str) -> bool:
+    """True unless the deal page says it has expired. [S] hotukdeals pages carry "isExpired":true|false.
+    Network errors count as live-unknown (True) so a blip never hides deals; callers label it."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (" + C.USER_AGENT + ")"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read(400000).decode("utf-8", "replace")
+    except Exception:
+        return True
+    return '"isExpired":true' not in html

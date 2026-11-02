@@ -8,7 +8,11 @@ assert.equal(ebayBusinessFee(120, "trainers"), Math.round((120*0.07+0.40+120*0.0
 assert.equal(ebayBusinessFee(800, "tools"), Math.round((750*0.069+50*0.03+0.40+800*0.0035)*100)/100);
 const v = calc(10, 30, "vinted", "gaming"); assert.equal(v.fee, 0); assert.equal(v.postage, 0); assert.equal(v.net, Math.round((30-0.5-0.9-10)*100)/100);
 const comps = parseCsv(readFileSync("../data/comps.csv", "utf8")); assert.ok(comps.length >= 40, "comps " + comps.length);
-assert.equal(findComp("Mario Kart 8 Deluxe Switch", comps).match, "mario kart 8");
+assert.equal(findComp("Mario Kart 8 Deluxe Switch", comps).match, "mario kart 8 deluxe");
+assert.ok(findComp("Girls Samba OG Trainers", comps).blocked);
+assert.ok(findComp("Nintendo Switch OLED Refurbished", comps).blocked);
+assert.equal(calc(30, 65, "ebay_business", "trainers").net, 20.67);
+assert.equal(calc(20, 40, "fb", "gaming").fee, 1.46);
 // ed25519 signature check with a throwaway key
 const kp = await webcrypto.subtle.generateKey({ name: "Ed25519" }, true, ["sign", "verify"]);
 const pub = Buffer.from(await webcrypto.subtle.exportKey("raw", kp.publicKey)).toString("hex");

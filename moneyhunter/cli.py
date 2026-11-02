@@ -38,6 +38,8 @@ def build_deal(raw: dict, comp) -> G.Deal:
         d.floor, d.floor_verified = comp.floor, comp.floor is not None
         d.sold_90d, d.sell_through, d.days_to_sell = comp.sold_90d, comp.sell_through, comp.days_to_sell
         d.comp_note = f"Range £{comp.low:g}–£{comp.high:g}: {comp.evidence} ({comp.source})"
+        d.comp_age_days = comp.age_days()
+        d.comp_match = comp.match
     return d
 
 def _load_seen():
@@ -47,29 +49,55 @@ def _key(d):
     return hotukdeals.dedupe_key(d.title, d.buy_price)
 
 LAST_RAWS = []
+LIVE_CHECKS = 12   # [H] max deal-page expiry checks per scan (politeness)
+
+def _intel(d, r):
+    from . import intel as I, hub
+    import json as _j
+    prices = _j.load(open(hub.PRICES)) if os.path.exists(hub.PRICES) else {}
+    return {"retailer": I.retailer(d.merchant, d.title)["label"], "fake": I.fake_risk(d.category, d.merchant, d.title)["label"],
+            "cashback": I.cashback(d.merchant), "history": I.price_history(hub.title_key(d.title), d.buy_price, prices),
+            "camel": I.camel_url(d.url, d.title) if (d.merchant or "").lower() == "amazon" else ""}
+
+def drop_expired(graded):
+    """Re-check A/B deals on hotukdeals; expired ones are downgraded to PASS so they never alert."""
+    n = 0
+    for d, r in graded:
+        if r.grade[0] in "AB" and n < LIVE_CHECKS:
+            n += 1
+            if not hotukdeals.is_live(d.url):
+                r.grade = "REJECT"; r.reasons.insert(0, "Deal expired on hotukdeals"); d.expired = True
 
 def run_scan():
     br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.COMMUNITY_MAX_PRICE)
     global LAST_RAWS
-    raws = hotukdeals.scan(); LAST_RAWS = raws; comps = CP.load()
+    errors = []
+    raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m))); LAST_RAWS = raws; comps = CP.load()
     graded, unpriced = [], []
     for r in raws:
-        comp = CP.find(r["title"], comps)
+        comp, why_not = CP.find_with_reason(r["title"], comps, r.get("desc", ""))
         d = build_deal(r, comp); d.thumb = r.get("thumb", "")
+        d.match_warning = why_not
         res = G.grade(d, br)
         if res is None: unpriced.append(d); continue
+        d.intel = _intel(d, r)
         if ebay.available():
             try:
                 st = ebay.active_stats(comp.match); d.comp_note += f" · eBay active {st['active']}, median ask £{st['median_ask']}"
             except Exception as e:
                 print(f"[ebay] {type(e).__name__}")
         graded.append((d, res))
+    drop_expired(graded)
     order = {"A": 0, "B": 1, "R": 2}
     graded.sort(key=lambda x: (order[x[1].grade[0]], -x[1].ev_net))
     affordable = [(d, r) for d, r in graded if r.cost <= cap]
     stats = {"scanned": len(raws), "priced": len(graded), "unpriced": len(unpriced), "affordable": len(affordable),
              "A": sum(r.grade[0] == "A" for _, r in affordable), "B": sum(r.grade[0] == "B" for _, r in affordable),
-             "R": sum(r.grade == "REJECT" for _, r in graded)}
+             "R": sum(r.grade == "REJECT" for _, r in graded),
+             "uncertain": sum(bool(getattr(d, "match_warning", "")) for d in unpriced),
+             "stale": sum(any("older than" in x for x in E.gates_failed(r)) for _, r in graded),
+             "expired": sum(getattr(d, "expired", False) for d, _ in graded), "errors": errors[:10]}
+    if not raws: errors.append("No deals read from any feed")
     return br, tier, graded, affordable, unpriced, stats
 
 def _public_deal(d, r):
@@ -78,12 +106,14 @@ def _public_deal(d, r):
     e_rev = r.cost + r.ev_net
     return {"title": d.title[:200], "url": d.url, "merchant": d.merchant, "category": d.category, "grade": r.grade[0] if r.grade[0] in "AB" else "R",
             "buy": round(r.cost, 2), "target": round(r.plan["target"], 2), "net": round(r.ev_net, 2), "roi": round(r.ev_roi, 1),
-            "worst": round(r.worst, 2), "confidence": int(r.confidence),
-            "max_buy": round(max(0.0, min(e_rev - E.COMMUNITY_MIN_NET, e_rev / (1 + E.COMMUNITY_MIN_ROI / 100))), 2),
-            "why": E.gates_failed(r)[:2], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
+            "worst": round(r.worst, 2), "worst_verified": r.worst_verified, "confidence": int(r.confidence),
+            "comp_age_days": d.comp_age_days, "expired": getattr(d, "expired", False), "intel": getattr(d, "intel", {}),
+            "postage": r.postage, "fees_basis": "eBay business seller fees (worst case), postage, £0.50 packaging, 3% returns",
+            "max_buy": E.max_buy(r),
+            "why": (["Deal expired"] if getattr(d, "expired", False) else []) + E.gates_failed(r)[:3], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
             "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title)),
             "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.COMMUNITY_MAX_PRICE,
-            "plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "platforms")}}
+            "plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "time_stop_rule", "platforms")}}
 
 def export_public(path, stats, graded):
     import datetime as dt

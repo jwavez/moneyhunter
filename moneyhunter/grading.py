@@ -12,12 +12,14 @@ class Deal:
     floor: Optional[float] = None; floor_verified: bool = False
     sold_90d: Optional[int] = None; sell_through: Optional[float] = None; days_to_sell: Optional[float] = None
     comp_note: str = ""; heat: Optional[int] = None
+    comp_age_days: Optional[int] = None; comp_has_evidence: bool = True
 
 @dataclass
 class Result:
     grade: str; ev_net: float; ev_roi: float; worst: float; annual_roi: Optional[float]
     confidence: float; kelly_stake: float; outcomes: list; gates: list; cost: float
     platform: str; plan: dict = field(default_factory=dict); reasons: list = field(default_factory=list)
+    worst_verified: bool = False; postage: float = 0.0
 
 def grade(d: Deal, bankroll: float, platform: str = "ebay_business") -> Optional[Result]:
     if d.target is None:
@@ -27,16 +29,18 @@ def grade(d: Deal, bankroll: float, platform: str = "ebay_business") -> Optional
     stretch = d.stretch or d.target
     quick = round(d.target * C.QUICK_FACTOR, 2)
     floor = d.floor if d.floor is not None else round(d.target * C.UNVERIFIED_FLOOR_FACTOR, 2)
-    post = C.POSTAGE[C.LARGE_POSTAGE if d.category in ("tools", "lego") else C.DEFAULT_POSTAGE]
+    post = C.postage_for(d.category)
     net = lambda p: net_profit(p, cost, platform, d.category, post, C.PACKAGING, C.RETURNS_ALLOWANCE).net
     pf = max(0.0, 1 - C.P_STRETCH - C.P_TARGET - C.P_QUICK)
     outs = [("Stretch", stretch, C.P_STRETCH, net(stretch)), ("Target", d.target, C.P_TARGET, net(d.target)),
             ("Quick-sale", quick, C.P_QUICK, net(quick)),
-            ("Floor exit" + ("" if d.floor_verified else " (unverified est.)"), floor, pf, round(floor - cost, 2))]
+            ("Floor exit" + ("" if d.floor_verified else " (unverified est.)"), floor, pf,
+             round(floor - cost, 2) if d.floor_verified else net(floor))]   # verified floor = CeX cash (no fees); else sold on eBay
     ev = sum(p * n for _, _, p, n in outs)
     roi = ev / cost * 100 if cost else 0.0
     worst = outs[3][3]
     dts = d.days_to_sell
+    fresh = d.comp_age_days is not None and d.comp_age_days <= C.MAX_COMP_AGE_DAYS
     annual = roi * 365 / (dts + 3) if dts else None
     # confidence from comp evidence
     conf = 0.0
@@ -61,17 +65,18 @@ def grade(d: Deal, bankroll: float, platform: str = "ebay_business") -> Optional
         (f"Confidence >= {C.MIN_CONFIDENCE:.0f}", conf >= C.MIN_CONFIDENCE),
         ("No-loss: verified floor >= breakeven", d.floor_verified and worst >= 0),
         (f"Cost <= max item £{max_item:.2f}", cost <= max_item),
+        (f"Sold prices <= {C.MAX_COMP_AGE_DAYS} days old", fresh),
     ]
     passed = sum(ok for _, ok in gates)
     money_ok = gates[0][1] and gates[1][1] and gates[7][1]
-    if passed == 8: g = "A — BUY"
-    elif money_ok and ev > 0: g = "B — VERIFY"   # numbers work; missing your own comps/floor check
+    if passed == len(gates): g = "A — BUY"
+    elif money_ok and ev > 0 and fresh and d.comp_has_evidence and worst >= -0.25 * cost: g = "B — VERIFY"   # numbers work; missing your own comps/floor check
     else: g = "REJECT"
     if g == "REJECT": stake = 0.0
     reasons = [name for name, ok in gates if not ok]
     plan = {"entry": cost, "list": stretch, "target": d.target, "quick": quick, "floor": floor,
-            "time_stop_day": tier.max_dts + 7,
+            "time_stop_day": tier.max_dts + 7, "time_stop_rule": dts is None,
             "reprice": "D3 target · D7 −5% + cross-list · D10 quick-sale",
             "platforms": "eBay → Vinted (clothing) → Depop → CeX floor"}
     return Result(g, round(ev, 2), round(roi, 1), worst, round(annual, 0) if annual else None, conf, stake,
-                  outs, gates, cost, platform, plan, reasons)
+                  outs, gates, cost, platform, plan, reasons, d.floor_verified, post)

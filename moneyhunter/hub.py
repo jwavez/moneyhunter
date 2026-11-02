@@ -10,6 +10,9 @@ CAT_CHANNEL = {"trainers": "trainers", "sportswear": "trainers", "lego": "lego",
                "tools": "tools", "fragrance": "fragrance", "tech": "tech"}
 PRICE_ERROR_RE = re.compile(r"price (error|glitch|mistake)|pricing error|glitch|mispric", re.I)   # [H]
 HOT_HEAT, ERROR_HEAT, DROP_PCT = 200, 500, 10   # [H] hot ≥200° to category channels, very hot ≥500° to #price-errors, drop ≥10%
+GROCERY_RE = re.compile(r"\b(tesco|asda|sainsbury|iceland|morrisons|aldi|lidl|co-?op|ocado|waitrose|clubcard|nectar|"
+                        r"farmfoods|heron|b&m|home bargains|poundland|fuel|petrol|takeaway|just eat|deliveroo|uber eats|"
+                        r"greggs|mcdonald|kfc|subway|costa|starbucks|burger king|nando)\b", re.I)   # not flippable
 TREND_MIN = 100                                   # [H] minimum heat to list in #trending
 
 def hooks() -> dict:
@@ -80,10 +83,12 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         k = "pe:" + it["url"]
         if k in seen: continue
         if PRICE_ERROR_RE.search(it["title"]) or (it.get("heat") or 0) >= ERROR_HEAT:
+            if not hotukdeals.is_live(it["url"]): new.add(k); continue
             st = send("price-errors", [mini(it, 0xF97316, "⚡ ")], buttons(it), dry)
             if ok(st) or dry: new.add(k)
     # 3) trending digest: new hot items, one message, up to 10
-    hot = sorted([it for it in raws if (it.get("heat") or 0) >= TREND_MIN and "tr:" + it["url"] not in seen],
+    hot = sorted([it for it in raws if (it.get("heat") or 0) >= TREND_MIN and "tr:" + it["url"] not in seen
+                  and not (it["category"] == "other" and GROCERY_RE.search(it.get("merchant", "") + " " + it["title"]))],
                  key=lambda x: -x["heat"])[:10]
     if hot:
         lines = [f"**{it['heat']}°** · [{it['title'][:70]}]({it['url']}) · £{it['price']:.2f}" for it in hot]
@@ -103,8 +108,14 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         e["description"] = f"**£{prev['price']:.2f} → £{it['price']:.2f}** (−{(1 - it['price'] / prev['price']) * 100:.0f}%) since {prev['ts'][:10]}\n" + e["description"].split("\n", 1)[1]
         if ok(send("price-drops", [e], buttons(it), dry)) or dry: new.add(k)
     if not dry: json.dump(prices, open(PRICES, "w"))
-    # 5) health report every scan
-    send("bot-status", [E.scan_summary(stats, near)], None, dry)
+    # 5) #bot-status: errors immediately, otherwise one summary per hour (the :07 run) [H]
+    errs = stats.get("errors") or []
+    if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
+        e = E.scan_summary(stats, near)
+        if errs:
+            e["color"] = 0xEF4444; e["title"] = "⚠️ Scan problem · " + e["title"]
+            e["fields"].insert(0, {"name": "Errors", "value": "\n".join(errs)[:1000], "inline": False})
+        send("bot-status", [e], None, dry)
     return new
 
 def digest(deals_path, dry=False):
