@@ -5,11 +5,14 @@ import json, os, time, urllib.request, urllib.error
 ENV = "MONEYHUNTER_DISCORD_WEBHOOK"
 COLORS = {"A": 0x2ECC71, "B": 0xF1C40F, "R": 0xE74C3C, "T": 0x3498DB}
 
-def post(embeds: list, content: str = "", dry_run: bool = False) -> int:
+def post(embeds: list, content: str = "", dry_run: bool = False, components: list = None) -> int:
     url = os.getenv(ENV)
     payload = {"username": "MONEYHUNTER", "content": content, "embeds": embeds[:10]}
     if os.getenv("MONEYHUNTER_AVATAR_URL"):
         payload["avatar_url"] = os.environ["MONEYHUNTER_AVATAR_URL"]
+    if components:
+        payload["components"] = components   # link buttons only (non-app webhook)
+        url = url and url + ("&" if "?" in url else "?") + "with_components=true"
     if dry_run or not url:
         print(f"[discord] DRY RUN ({'no webhook set' if not url else 'dry-run flag'}): {len(embeds)} embed(s)")
         print(json.dumps(payload, indent=2, ensure_ascii=False)[:4000])

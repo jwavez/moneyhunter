@@ -78,12 +78,14 @@ def _public_deal(d, r):
             "worst": round(r.worst, 2), "confidence": int(r.confidence),
             "max_buy": round(max(0.0, min(e_rev - E.COMMUNITY_MIN_NET, e_rev / (1 + E.COMMUNITY_MIN_ROI / 100))), 2),
             "why": E.gates_failed(r)[:2], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
-            "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title))}
+            "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title)),
+            "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.COMMUNITY_MAX_PRICE,
+            "plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "platforms")}}
 
-def export_public(path, stats, affordable):
+def export_public(path, stats, graded):
     import datetime as dt
     out = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.COMMUNITY_MAX_PRICE,
-           "stats": stats, "deals": [_public_deal(d, r) for d, r in affordable[:25]]}
+           "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     json.dump(out, open(path, "w"), indent=1); print(f"[export] {path}: {len(out['deals'])} deals")
 
@@ -107,12 +109,12 @@ def cmd_scan(a):
     if summary_due:
         st = D.post([E.scan_summary(stats, near, a.preview)], dry_run=a.dry_run); print(f"[discord] summary: {st or 'dry-run'}")
     for d, r in cards:
-        st = D.post(E.deal_card(d, r, a.preview), dry_run=a.dry_run); print(f"[discord] card: {st or 'dry-run'}")
+        st = D.post(E.deal_card(d, r, a.preview), dry_run=a.dry_run, components=E.link_buttons(d)); print(f"[discord] card: {st or 'dry-run'}")
         if st and 200 <= st < 300: posted.append(_key(d))
     if posted:
         json.dump(sorted(seen | set(posted)), open(STATE, "w"))
     if a.export:
-        export_public(a.export, stats, affordable)
+        export_public(a.export, stats, graded)
     if not summary_due: print("No new A/B deals under your tier cap; nothing posted.")
 
 def private_report(a) -> str:

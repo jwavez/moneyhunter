@@ -113,3 +113,9 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
     }
 
+
+def link_buttons(d) -> list:
+    """Non-interactive link buttons; allowed on plain webhooks with ?with_components=true [S docs.discord.com]."""
+    q = short_query(d.title)
+    btn = lambda label, url, emoji: {"type": 2, "style": 5, "label": label, "url": url[:512], "emoji": {"name": emoji}}
+    return [{"type": 1, "components": [btn("Open deal", d.url, "🛒"), btn("eBay sold", ebay_sold_url(q), "📊"), btn("Vinted", vinted_url(q), "👕")]}]

@@ -6,13 +6,15 @@ const S = 3, N = 10; // option types: string, number
 const platforms = ["ebay_business", "ebay_private", "vinted", "depop", "stockx", "fb"].map(v => ({ name: v, value: v }));
 const cats = ["trainers", "sportswear", "lego", "fragrance", "gaming", "tools", "default"].map(v => ({ name: v, value: v }));
 export const COMMANDS = [
-  { name: "deal", description: "Latest graded deals from the last scan" },
+  { name: "menu", description: "Open the MONEYHUNTER control panel" },
+  { name: "deal", description: "Browse the latest graded deals" },
+  { name: "setup", description: "Post the control panel in this channel (Manage Server)", default_member_permissions: "32" },
   { name: "price", description: "Sold range, max buy and profit for an item",
     options: [{ type: S, name: "item", description: "e.g. mario kart 8", required: true }, { type: N, name: "buy", description: "Your buy price in £", min_value: 0 }] },
   { name: "calc", description: "Fee and profit calculator",
     options: [{ type: N, name: "buy", description: "Buy price £", required: true, min_value: 0 }, { type: N, name: "sell", description: "Sell price £", required: true, min_value: 0 },
       { type: S, name: "platform", description: "Where you sell", choices: platforms }, { type: S, name: "category", description: "Item category", choices: cats }] },
-  { name: "scan", description: "Start a fresh scan now (Manage Server only)", default_member_permissions: "32" },
+  { name: "scan", description: "Start a fresh scan now (coming soon)" },
   { name: "help", description: "How MONEYHUNTER works" },
 ];
 if (import.meta.url === `file://${process.argv[1]}`) {
