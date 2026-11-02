@@ -73,6 +73,7 @@ export default {
         case "scan": {
           const perms = BigInt(i.member?.permissions ?? "0");
           if (!(perms & 0x20n)) return reply({ content: "Only members with Manage Server can start a scan. Scans also run automatically every 30 min." }, true);
+          if (!env.GITHUB_TOKEN) return reply({ content: "Manual scan is not enabled yet. Scans run automatically every 30 min." }, true);
           ctx.waitUntil(dispatchScan(i, env));
           return json({ type: 5 }); // deferred: answer within 3 s, edit within 15 min
         }
