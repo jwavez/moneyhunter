@@ -9,7 +9,7 @@ TRUSTED = {"amazon", "argos", "currys", "very", "jd sports", "jd", "john lewis",
            "sports direct", "office", "schuh", "footasylum", "size?", "end.", "adidas", "nike", "lego", "zavvi",
            "the entertainer", "tesco", "asda", "sainsburys", "very.co.uk", "ao", "ao.com", "costco", "selfridges",
            "next", "marks & spencer", "m&s", "debenhams", "jacamo", "wex", "ebuyer", "scan", "ccl", "hughes", "richer sounds",
-           "decathlon", "b&q", "wickes", "homebase", "ffx", "itsco", "toolstop", "d&m tools", "base", "shopto", "coolshop"}
+           "decathlon", "urban outfitters", "asos", "jd williams", "very", "flannels", "foot locker", "footlocker", "pro:direct", "prodirect", "b&q", "wickes", "homebase", "ffx", "itsco", "toolstop", "d&m tools", "base", "shopto", "coolshop"}
 MARKETPLACE = ("ebay", "aliexpress", "temu", "wish", "onbuy", "fruugo", "facebook", "vinted", "depop", "gumtree",
                "sold by", "marketplace", "third party", "3rd party", "fulfilled by")
 FAKE_PRONE = {"trainers": "high", "sportswear": "high", "fragrance": "high", "tech": "medium", "lego": "low",
