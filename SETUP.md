@@ -36,5 +36,4 @@ Your ledger, UC and tax data stay on your own machine (git-ignored) and are neve
 `/deal` latest deals · `/price item [buy]` sold range + max buy · `/calc buy sell [platform] [category]` · `/scan` (Manage Server) · `/help`
 
 ## Keeping it alive
-Public repos auto-disable scheduled workflows after 60 days with no repo activity. The workflow's keepalive step re-enables it
-through the API when main has no commits for 45 days. If it ever stops, Actions tab > Enable workflow.
+Public repos auto-disable scheduled workflows after 60 days with no repo activity. The workflow's own keepalive step calls GitHub's enable-workflow API when main has no commits for 45 days. If it ever stops, Actions tab > Enable workflow.

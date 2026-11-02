@@ -35,6 +35,11 @@ jobs:
           git -c user.name="moneyhunter-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "state $(date -u +%FT%TZ)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" state
       # Public repos: scheduled workflows auto-disable after 60 days with no repository activity.
-      # API mode re-enables this workflow when the last commit on main is older than 45 days (no dummy commits).
-      - uses: gautamkrishnar/keepalive-workflow@v2
-        with: { time_elapsed: 45 }
+      # This calls GitHub's documented "enable workflow" API when main has had no commit for 45+ days.
+      - name: Keepalive (re-enable workflow if main is idle 45+ days)
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          last=$(gh api repos/${{ github.repository }}/commits/main --jq .commit.committer.date)
+          age=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 ))
+          echo "main last commit $age days ago"
+          if [ "$age" -ge 45 ]; then gh api -X PUT repos/${{ github.repository }}/actions/workflows/scan.yml/enable && echo re-enabled; fi
