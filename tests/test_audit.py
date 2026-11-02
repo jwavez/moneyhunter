@@ -95,4 +95,19 @@ class CompsFile(unittest.TestCase):
     def test_every_comp_has_a_date(self):
         for c in CP.load(): self.assertIsNotNone(c.as_of, c.match)
 
+
+
+class Hub(unittest.TestCase):
+    def test_trending_filter(self):
+        from moneyhunter import hub
+        bad = [("Kikkoman Soy Sauce 1 Litre", "other"), ("LEGO Star Wars Skywalker Saga - PC Game Steam", "lego"),
+               ("Fairy Dishwasher Tablets 130", "other"), ("Equalizer 4K - To Buy Prime Video", "gaming")]
+        for t, c in bad: self.assertFalse(hub.resellable({"title": t, "category": c}), t)
+        self.assertTrue(hub.resellable({"title": "LEGO 76449 Hogwarts", "category": "lego"}))
+    def test_sell_needed(self):
+        from moneyhunter import hub, fees as F
+        be, tgt, post = hub.sell_needed(48, "trainers")
+        n = lambda p: F.net_profit(p, 48, "ebay_business", "trainers", post, 0.5, 0.03).net
+        self.assertGreaterEqual(n(be), 0); self.assertLess(n(be - 0.05), 0)
+        self.assertGreaterEqual(n(tgt), 48 * 0.40)
 if __name__ == "__main__": unittest.main()

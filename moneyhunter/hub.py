@@ -13,6 +13,67 @@ HOT_HEAT, ERROR_HEAT, DROP_PCT = 200, 500, 10   # [H] hot ≥200° to category c
 GROCERY_RE = re.compile(r"\b(tesco|asda|sainsbury|iceland|morrisons|aldi|lidl|co-?op|ocado|waitrose|clubcard|nectar|"
                         r"farmfoods|heron|b&m|home bargains|poundland|fuel|petrol|takeaway|just eat|deliveroo|uber eats|"
                         r"greggs|mcdonald|kfc|subway|costa|starbucks|burger king|nando)\b", re.I)   # not flippable
+NOT_RESELLABLE_RE = re.compile(
+    r"\b(steam|pc game|pc code|cd ?key|game key|digital|download|dlc|season pass|code in a box|e-?gift|gift card|voucher|"
+    r"subscription|membership|game pass|ps plus|playstation plus|nintendo online|prime video|to buy prime|to rent|rental|"
+    r"rent |streaming|ebook|kindle edition|audible|audiobook|app store|in-app|vpn|broadband|sim only|sim card|insurance|"
+    r"soy sauce|sauce|coffee|tea bags|snack|chocolate|crisps|biscuit|cereal|drink|bottle of|wine|beer|lager|gin|vodka|whisky|"
+    r"water|juice|protein|vitamin|food|munch|meal|pizza|"
+    r"dishwasher|detergent|laundry|washing (up|liquid|powder|capsules|pods)|fabric|toilet|kitchen roll|bin bags|cleaner|"
+    r"bleach|shampoo|conditioner|toothpaste|razor blades|nappies|wipes|tablets|capsules|pods|batteries|light ?bulb|"
+    r"thermo bottle|flask|food storage|container|tupperware|plant|compost|pet food|cat litter)\b", re.I)   # [H]
+CAT_LABEL = {"trainers": "👟 Trainers", "sportswear": "👕 Sportswear", "lego": "🧱 LEGO", "gaming": "🎮 Games & consoles",
+             "tools": "🛠️ Tools", "fragrance": "🧴 Fragrance", "tech": "🎧 Tech"}
+WATCH_PER_CHANNEL = 3   # [H] max WATCH cards per category channel per run
+
+def resellable(it) -> bool:
+    """Physical goods in a category we price; never food, household, consumables, digital or rentals."""
+    return it.get("category") in CAT_LABEL and not NOT_RESELLABLE_RE.search(it["title"])
+
+def sell_needed(buy: float, category: str):
+    """From the fee engine at this buy price: breakeven sell price, and the sell price for £8 net and 40% ROI."""
+    from . import config as C
+    from .fees import net_profit
+    post = C.postage_for(category)
+    net = lambda p: net_profit(p, buy, "ebay_business", category, post, C.PACKAGING, C.RETURNS_ALLOWANCE).net
+    def solve(goal):
+        lo, hi = 0.0, buy * 4 + 50
+        for _ in range(50):
+            mid = (lo + hi) / 2
+            lo, hi = (mid, hi) if net(mid) < goal else (lo, mid)
+        import math; return math.ceil(hi * 100) / 100
+    return solve(0.0), solve(max(8.0, buy * 0.40)), post
+
+def watch_card(it, prices):
+    from . import intel as I
+    from . import matching as M
+    be, tgt, post = sell_needed(it["price"], it["category"])
+    t = M.norm(it["title"] + " " + it.get("desc", ""))
+    kids = it["category"] in ("trainers", "sportswear") and any(M.has(t, w) for w in M.KIDS)
+    heat = f" · 🌡️ {it['heat']}°" if it.get("heat") is not None else ""
+    e = {"author": {"name": f"{CAT_LABEL[it['category']]} · WATCH · not priced"},
+         "title": ("👀 " + it["title"])[:250], "url": it["url"], "color": 0x64748B,
+         "description": f"**£{it['price']:.2f}** at {it.get('merchant') or 'retailer'}{heat}\n"
+                        "No verified sold price yet, so no profit is shown. Check eBay sold for this exact item."
+                        + ("\n⚠️ Kids' sizes: adult sold prices do not apply." if kids else ""),
+         "fields": [{"name": "Breakeven sell price", "value": f"£{be:.2f}", "inline": True},
+                    {"name": "Sell price for a deal", "value": f"£{tgt:.2f}+", "inline": True},
+                    {"name": "Price history", "value": I.price_history(title_key(it["title"]), it["price"], prices), "inline": True},
+                    {"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
+         "footer": {"text": f"Sell prices after eBay business fees, £{post:.2f} postage, £0.50 packaging, 3% returns · deal = £8 net and 40% ROI"}}
+    if it.get("thumb"): e["thumbnail"] = {"url": it["thumb"]}
+    return e
+
+def market_pulse(raws, stats) -> str:
+    cats = {}
+    for it in raws:
+        if resellable(it): cats[it["category"]] = cats.get(it["category"], 0) + 1
+    top = sorted(cats.items(), key=lambda x: -x[1])
+    hot = max((it for it in raws if resellable(it) and it.get("heat") is not None), key=lambda x: x["heat"], default=None)
+    s = " · ".join(f"{CAT_LABEL[c]} {n}" for c, n in top) or "no category deals"
+    if hot: s += f"\nHottest: {hot['heat']}° {hot['title'][:60]} (£{hot['price']:.2f})"
+    return s
+
 TREND_MIN = 100                                   # [H] minimum heat to list in #trending
 
 def hooks() -> dict:
@@ -88,20 +149,37 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             if ok(st) or dry: new.add(k)
     # 3) trending digest: new hot items, one message, up to 10
     hot = sorted([it for it in raws if (it.get("heat") or 0) >= TREND_MIN and "tr:" + it["url"] not in seen
-                  and not (it["category"] == "other" and GROCERY_RE.search(it.get("merchant", "") + " " + it["title"]))],
+                  and resellable(it) and not GROCERY_RE.search(it.get("merchant", ""))],
                  key=lambda x: -x["heat"])[:10]
     if hot:
-        lines = [f"**{it['heat']}°** · [{it['title'][:70]}]({it['url']}) · £{it['price']:.2f}" for it in hot]
+        priced = {d.url for d, _ in graded}
+        lines = [f"**{it['heat']}°** · {CAT_LABEL[it['category']]} · [{it['title'][:65]}]({it['url']}) · £{it['price']:.2f}"
+                 + (" · priced, see the category feed" if it["url"] in priced else f" · sell £{sell_needed(it['price'], it['category'])[0]:.2f}+ to break even")
+                 for it in hot]
         st = send("trending", [{"title": f"🌡️ Trending on hotukdeals · {len(hot)} new", "color": 0xEF4444,
-                                "description": "\n".join(lines)[:4000], "footer": {"text": "Heat = community votes · not priced by MONEYHUNTER"}}], None, dry)
+                                "description": "\n".join(lines)[:4000], "footer": {"text": "Resellable items in our categories only · heat = community votes · breakeven after eBay fees, postage, packaging, returns"}}], None, dry)
         if ok(st) or dry: new |= {"tr:" + it["url"] for it in hot}
         for it in hot:   # hot items also go to their category channel
             ch = CAT_CHANNEL.get(it["category"])
             if ch and it["heat"] >= HOT_HEAT and "cat:" + it["url"] not in seen:
                 if ok(send(ch, [mini(it, 0xEF4444, "🔥 ")], buttons(it), dry)) or dry: new.add("cat:" + it["url"])
+    # 3b) WATCH cards: relevant new deals per category channel (no profit claimed)
+    graded_urls = {d.url for d, r in graded if r.grade[0] in "AB"}
+    prices_now = json.load(open(PRICES)) if os.path.exists(PRICES) else {}
+    per = {}
+    for it in sorted(raws, key=lambda x: -(x.get("heat") or 0)):
+        ch = CAT_CHANNEL.get(it.get("category"))
+        k = "w:" + it["url"]
+        if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in graded_urls or not resellable(it): continue
+        if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
+        if it["price"] > E.COMMUNITY_MAX_PRICE * 2: continue
+        if re.search(r"in.?store|pre.?order|tester", it["title"], re.I): continue   # no car; no pre-orders or testers
+        if not hotukdeals.is_live(it["url"]): new.add(k); continue
+        if ok(send(ch, [watch_card(it, prices_now)], buttons(it), dry)) or dry:
+            new.add(k); per[ch] = per.get(ch, 0) + 1
     # 4) price drops
     drops, prices = price_drops(raws)
-    for it, prev in drops[:5]:
+    for it, prev in [x for x in drops if resellable(x[0])][:5]:
         k = f"pd:{it['url']}:{it['price']}"
         if k in seen: continue
         e = mini(it, 0x06B6D4, "📉 ")
@@ -112,6 +190,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     errs = stats.get("errors") or []
     if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
         e = E.scan_summary(stats, near)
+        e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(raws, stats)[:1000], "inline": False})
         if errs:
             e["color"] = 0xEF4444; e["title"] = "⚠️ Scan problem · " + e["title"]
             e["fields"].insert(0, {"name": "Errors", "value": "\n".join(errs)[:1000], "inline": False})
