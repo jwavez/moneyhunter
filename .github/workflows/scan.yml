@@ -1,0 +1,40 @@
+name: moneyhunter-scan
+# Public repo: standard GitHub-hosted runners are free and unlimited (docs.github.com, checked 2 Nov 2026).
+# Scheduled runs can be delayed by GitHub; every 30 min is best effort.
+on:
+  schedule:
+    - cron: "7,37 * * * *"        # every 30 min, 24/7 (off the :00 rush)
+  workflow_dispatch: {}           # used by the Discord /scan command
+permissions:
+  contents: write                 # push state branch
+  actions: write                  # keepalive re-enable
+concurrency: { group: moneyhunter-scan, cancel-in-progress: false }
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Restore state (seen.json) from the 'state' branch
+        run: |
+          git fetch origin state --depth 1 && git show origin/state:seen.json > data/seen.json || echo "[]" > data/seen.json
+      - name: Scan, post, export
+        env:
+          MONEYHUNTER_COMMUNITY: "1"   # public rule set; no personal bankroll in the cloud
+          MONEYHUNTER_DISCORD_WEBHOOK: ${{ secrets.MONEYHUNTER_DISCORD_WEBHOOK }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: python -m moneyhunter.cli scan --max-posts 5 --export public/deals.json
+      - name: Publish state branch (deals.json, seen.json, comps.csv) as one rewritten commit
+        if: always()
+        run: |
+          mkdir -p /tmp/state && cp data/seen.json data/comps.csv /tmp/state/ && cp public/deals.json /tmp/state/ 2>/dev/null || true
+          cd /tmp/state && git init -q -b state && git add -A
+          git -c user.name="moneyhunter-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "state $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" state
+      # Public repos: scheduled workflows auto-disable after 60 days with no repository activity.
+      # API mode re-enables this workflow when the last commit on main is older than 45 days (no dummy commits).
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        with: { time_elapsed: 45 }

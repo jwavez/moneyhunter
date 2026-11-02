@@ -1,0 +1,11 @@
+name = "moneyhunter-bot"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Fill these after creating the public GitHub repo (jwavez/moneyhunter)
+GITHUB_REPO = "jwavez/moneyhunter"
+GITHUB_REF = "main"
+DEALS_URL = "https://raw.githubusercontent.com/jwavez/moneyhunter/state/deals.json"
+COMPS_URL = "https://raw.githubusercontent.com/jwavez/moneyhunter/state/comps.csv"
+# Secrets (set with `wrangler secret put NAME`, never commit): DISCORD_PUBLIC_KEY, GITHUB_TOKEN

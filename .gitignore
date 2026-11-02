@@ -1,0 +1,19 @@
+data/ledger.db
+data/seen.json
+__pycache__/
+*.pyc
+.env
+data/private_report.md
+# personal / local-only (never in the public repo)
+data/*.db
+data/*.db-*
+data/ledger*
+data/private_report*
+data/comps.before.csv
+data/*.private.*
+*.sqlite
+.env*
+.dev.vars
+worker/node_modules/
+worker/.wrangler/
+public/
