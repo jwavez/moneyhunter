@@ -12,4 +12,4 @@ jobs:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
           COMPS: ${{ inputs.comps }}
-        run: IFS='|' read -ra A <<< "$COMPS"; python tools/ebay_dryrun.py "${A[@]}"
+        run: IFS='|' read -ra A <<< "$COMPS"; PYTHONPATH=. python tools/ebay_dryrun.py "${A[@]}"
