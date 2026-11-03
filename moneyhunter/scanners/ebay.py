@@ -64,6 +64,8 @@ def active_comp(comp, items: list, check, today=None):
     Returns a new Comp or None. sold_90d stays None, so it can never pass the sold-comps gate (no grade A)."""
     import datetime as dt, dataclasses
     prices = [it["price"] for it in items if it["price"] > 0 and check(it["title"], "", comp) == ""]
+    if len(prices) >= 3:   # drop likely fakes/errors (way under) and collabs/rarities (way over) [H]
+        med = statistics.median(prices); prices = [p for p in prices if 0.6 * med <= p <= 1.8 * med]
     if len(prices) < MIN_ACTIVE: return None
     p25, p50 = _pct(prices, 0.25), _pct(prices, 0.50)
     low = round(min(p25 * ASK_HAIRCUT, comp.low), 2)
