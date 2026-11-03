@@ -22,6 +22,17 @@ jobs:
           git fetch origin state --depth 1 || true
           git show origin/state:seen.json > data/seen.json 2>/dev/null || echo "[]" > data/seen.json
           git show origin/state:prices.json > data/prices.json 2>/dev/null || echo "{}" > data/prices.json
+      - name: Read private tier (tier number 0-4 only; falls back to 0)
+        env:
+          MH_PRIVATE_TOKEN: ${{ secrets.MH_PRIVATE_TOKEN }}
+        run: |
+          T=0
+          if [ -n "$MH_PRIVATE_TOKEN" ]; then
+            T=$(curl -fsS -H "Authorization: Bearer $MH_PRIVATE_TOKEN" -H "Accept: application/vnd.github.raw" \
+              "https://api.github.com/repos/jwavez/moneyhunter-private/contents/tier.json?ref=data" 2>/dev/null \
+              | python3 -c 'import json,sys;t=int(json.load(sys.stdin).get("tier",0));print(t if 0<=t<=4 else 0)' || echo 0)
+          fi
+          echo "Active tier: $T"; echo "MH_TIER=$T" >> "$GITHUB_ENV"
       - name: Scan, post, export
         env:
           MONEYHUNTER_COMMUNITY: "1"   # public rule set; no personal bankroll in the cloud

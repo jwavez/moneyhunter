@@ -20,7 +20,7 @@ COMMUNITY_BANKROLL = 200.0   # [H] public starter (T1) rule set used by the shar
 
 def bankroll() -> float:
     if os.getenv("MONEYHUNTER_COMMUNITY") == "1":
-        return COMMUNITY_BANKROLL
+        return E.TIER_BANKROLL[E.active_tier()]   # tier number only; no personal £ in the cloud
     env = os.getenv("MONEYHUNTER_BANKROLL")
     if env: return float(env)
     try:
@@ -99,7 +99,7 @@ def ebay_status() -> str:
 
 def run_scan():
     print(f"[ebay] {ebay_status()}")
-    br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.COMMUNITY_MAX_PRICE)
+    br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.community_cap())
     global LAST_RAWS
     errors = []
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m))); LAST_RAWS = raws; comps = CP.load()
@@ -143,12 +143,12 @@ def _public_deal(d, r):
             "max_buy": E.max_buy(r),
             "why": (["Deal expired"] if getattr(d, "expired", False) else []) + E.gates_failed(r)[:3], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
             "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title)),
-            "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.COMMUNITY_MAX_PRICE,
+            "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.community_cap(),
             "plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "time_stop_rule", "platforms")}}
 
 def export_public(path, stats, graded):
     import datetime as dt
-    out = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.COMMUNITY_MAX_PRICE,
+    out = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
            "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     json.dump(out, open(path, "w"), indent=1); print(f"[export] {path}: {len(out['deals'])} deals")

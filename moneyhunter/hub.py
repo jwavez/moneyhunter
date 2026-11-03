@@ -131,7 +131,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     n = 0
     for d, r in graded:
         g = r.grade[0]
-        if g not in "AB" or r.cost > E.COMMUNITY_MAX_PRICE: continue
+        if g not in "AB" or r.cost > E.community_cap(): continue
         k = hotukdeals.dedupe_key(d.title, d.buy_price)
         if k in seen or n >= max_cards: continue
         card, comps = E.deal_card(d, r), E.link_buttons(d)
@@ -172,7 +172,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         k = "w:" + it["url"]
         if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in graded_urls or not resellable(it): continue
         if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
-        if it["price"] > E.COMMUNITY_MAX_PRICE * 2: continue
+        if it["price"] > E.community_cap() * 2: continue
         if re.search(r"in.?store|pre.?order|tester", it["title"], re.I): continue   # no car; no pre-orders or testers
         if not hotukdeals.is_live(it["url"]): new.add(k); continue
         if ok(send(ch, [watch_card(it, prices_now)], buttons(it), dry)) or dry:

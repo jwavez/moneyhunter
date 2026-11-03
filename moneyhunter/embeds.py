@@ -4,7 +4,21 @@ from . import config as C
 
 GREEN, AMBER, RED, BLUE, GOLD = 0x22C55E, 0xF59E0B, 0xEF4444, 0x3B82F6, 0xEAB308
 SCHEDULE = "Scans every 30 min, 24/7"
-COMMUNITY_MAX_PRICE = 60.0   # [H] fixed public price cap shown in reports
+COMMUNITY_MAX_PRICE = 60.0   # [H] T0 public price cap
+import os as _os
+TIER_CAPS = [60.0, 120.0, 300.0, 600.0, 1200.0]            # [H] max buy per tier (matches private app ladder)
+TIER_BANKROLL = [200.0, 500.0, 1500.0, 4000.0, 12000.0]    # [H] representative bankroll so grading gates fit each cap
+
+def active_tier() -> int:
+    """Tier number only (0-4), synced from the private app via the workflow. Anything invalid -> 0 (safest)."""
+    try:
+        t = int(str(_os.getenv("MH_TIER", "0")).strip())
+    except ValueError:
+        return 0
+    return t if 0 <= t < len(TIER_CAPS) else 0
+
+def community_cap() -> float:
+    return TIER_CAPS[active_tier()]
 COMMUNITY_MIN_NET, COMMUNITY_MIN_ROI = 8.0, 40.0   # [H] neutral max-buy rule
 GATE_NAMES = {0: "Profit too small", 1: "Return too low", 2: "Sell speed not proven", 3: "Sell-through not proven",
               4: "Fewer than 5 sold comps", 5: "Low confidence", 6: "No verified exit price", 7: "Over the price cap",
@@ -129,7 +143,7 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
         "fields": [
             {"name": "Scanned", "value": str(stats["scanned"]), "inline": True},
             {"name": "Priced", "value": str(stats["priced"]), "inline": True},
-            {"name": f"Under {gbp(COMMUNITY_MAX_PRICE)} cap", "value": str(stats["affordable"]), "inline": True},
+            {"name": f"Under {gbp(community_cap())} cap (Tier {active_tier()})", "value": str(stats["affordable"]), "inline": True},
             {"name": "🟢 A", "value": str(stats["A"]), "inline": True},
             {"name": "🟡 B", "value": str(stats["B"]), "inline": True},
             {"name": "🔴 Rejected", "value": str(stats["R"]), "inline": True},
