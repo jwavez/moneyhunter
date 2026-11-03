@@ -42,3 +42,8 @@ class Filters(unittest.TestCase):
         items = [{"title": "Adidas Samba OG UK9", "price": p} for p in (20, 60, 62, 64, 66, 68, 200)]
         c = ebay.active_comp(comp(), items, M.check, dt.date(2026, 11, 3))
         self.assertIn("5 matched", c.evidence)
+
+class Brand(unittest.TestCase):
+    def test_unbranded_tool(self):
+        c = Comp("dcd796", "tools", 1, 2, "x", "s", None, "", None, None, None, None)
+        self.assertNotEqual(M.check("18V Cordless Brushless Impact Drill Driver DCD796 Compact Power Tool Bare Unit", "", c), "")

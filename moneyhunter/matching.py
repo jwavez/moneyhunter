@@ -25,6 +25,7 @@ ACCESSORY = ("amiibo", "case", "controller", "skin", "charger", "stand", "dock",
              "keyring", "poster", "guide", "artbook", "soundtrack", "vinyl", "t shirt", "hoodie", "mug")
 TOOL_KIT = ("kit", "battery", "batteries", "charger", "ah", "2ah", "4ah", "5ah", "p1", "p2", "d1", "d2", "m1", "m2",
             "case", "tstak", "makpac", "twin", "combo")
+TOOL_BRANDS = ("dewalt", "makita", "milwaukee", "bosch", "ryobi", "hikoki", "einhell", "festool", "metabo")
 TOOL_PARTS = ("chuck", "gearbox", "replacement", "spare", "spares", "parts", "part", "housing", "motor", "switch", "brushes", "n438603")
 NON_GENUINE = ("for dewalt", "for makita", "fit for", "fits", "compatible", "20v", "20v max", "2000rpm", "xcat", "type")
 TOOL_EXTRAS = ("bit set", "bit holder", "tool bag", "bag", "set", "drills", "toughsystem", "with case", "in case", "impact driver with", "with")
@@ -73,6 +74,7 @@ def check(title: str, extra: str, comp) -> str:
     if not r and cat == "tools":
         r = guard(TOOL_KIT, "kit/batteries, comp is body only") or guard(TOOL_PARTS, "part/accessory, not the tool") \
             or guard(NON_GENUINE, "compatible/non-genuine") or guard(TOOL_EXTRAS, "comes with extras")
+        if not r and not has(t, *TOOL_BRANDS): r = "no brand in title (possible clone)"
         if not r and re.search(r"(?<![a-z0-9])dck\d", t) and not re.search(r"dck\d", m): r = "kit/batteries, comp is body only (dck kit)"
     if not r and cat == "fragrance":
         a, b = _ml(t), _ml(m)
