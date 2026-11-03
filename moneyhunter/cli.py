@@ -86,7 +86,15 @@ def refresh_stale(comp):
 def ebay_status() -> str:
     if not ebay.available(): return "skipped (no keys)"
     try: ebay._auth()
-    except Exception as e: return f"token FAILED ({type(e).__name__})"
+    except Exception as e:
+        import os, json as _j
+        detail = ""
+        try: detail = _j.loads(e.read().decode()).get("error", "")
+        except Exception: pass
+        cid, sec = os.environ["EBAY_CLIENT_ID"], os.environ["EBAY_CLIENT_SECRET"]
+        shape = (f"id has -PRD-: {'-PRD-' in cid}, id has -SBX-: {'-SBX-' in cid}, secret starts PRD-: {sec.startswith('PRD-')}, "
+                 f"whitespace/quotes: {any(ch in cid + sec for ch in ' \t\n\"' + chr(39))}")
+        return f"token FAILED (HTTP {getattr(e, 'code', '?')} {detail}; {shape})"
     return "token OK" + (", sold data (Insights) ON" if ebay.insights_available() else ", active listings only (no Insights)")
 
 def run_scan():
