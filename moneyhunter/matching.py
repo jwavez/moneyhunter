@@ -26,7 +26,7 @@ ACCESSORY = ("amiibo", "case", "controller", "skin", "charger", "stand", "dock",
 TOOL_KIT = ("kit", "battery", "batteries", "charger", "ah", "2ah", "4ah", "5ah", "p1", "p2", "d1", "d2", "m1", "m2",
             "case", "tstak", "makpac", "twin", "combo")
 TOOL_BRANDS = ("dewalt", "makita", "milwaukee", "bosch", "ryobi", "hikoki", "einhell", "festool", "metabo")
-TOOL_PARTS = ("chuck", "gearbox", "replacement", "spare", "spares", "parts", "part", "housing", "motor", "switch", "brushes", "n438603")
+TOOL_PARTS = ("chuck", "armature", "for cordless", "rotor", "stator", "gear", "clutch", "trigger", "carbon brushes", "gearbox", "replacement", "spare", "spares", "parts", "part", "housing", "motor", "switch", "brushes", "n438603")
 NON_GENUINE = ("for dewalt", "for makita", "fit for", "fits", "compatible", "20v", "20v max", "2000rpm", "xcat", "type")
 TOOL_EXTRAS = ("bit set", "bit holder", "tool bag", "bag", "set", "drills", "toughsystem", "with case", "in case", "impact driver with", "with")
 PLATFORMS = ("ps4", "ps5", "xbox", "switch", "pc", "xbox one", "series x")

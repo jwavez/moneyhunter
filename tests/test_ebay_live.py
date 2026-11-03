@@ -47,3 +47,9 @@ class Brand(unittest.TestCase):
     def test_unbranded_tool(self):
         c = Comp("dcd796", "tools", 1, 2, "x", "s", None, "", None, None, None, None)
         self.assertNotEqual(M.check("18V Cordless Brushless Impact Drill Driver DCD796 Compact Power Tool Bare Unit", "", c), "")
+
+class Parts(unittest.TestCase):
+    def test_armature(self):
+        c = Comp("dhp482", "tools", 1, 2, "x", "s", None, "", None, None, None, None)
+        self.assertNotEqual(M.check("Makita 619583-5 Armature For Cordless Combi Hammer Drill Driver DHP482 DDF482", "", c), "")
+        self.assertEqual(M.check("Makita DHP482Z 18V LXT Combi Drill Body Only", "", c), "")
