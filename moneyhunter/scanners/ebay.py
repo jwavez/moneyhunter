@@ -26,3 +26,49 @@ def active_stats(query: str) -> dict:
         js = json.load(r)
     prices = [float(i["price"]["value"]) for i in js.get("itemSummaries", []) if i.get("price", {}).get("currency") == "GBP"]
     return {"active": js.get("total", 0), "median_ask": statistics.median(prices) if prices else None}
+
+
+# ---- Live active-listing comps (used only when a stored sold comp is stale) ----
+INSIGHTS_SCOPE = "https://api.ebay.com/oauth/api_scope/buy.marketplace.insights"
+ASK_HAIRCUT = 0.95      # asking prices sit above sale prices; take 5% off [H]
+MIN_ACTIVE = 5          # need at least this many strictly-matched listings
+
+def insights_available() -> bool:
+    """True only if eBay granted Marketplace Insights (sold data) to this keyset. Never logs secrets."""
+    cred = base64.b64encode(f"{os.environ['EBAY_CLIENT_ID']}:{os.environ['EBAY_CLIENT_SECRET']}".encode()).decode()
+    data = urllib.parse.urlencode({"grant_type": "client_credentials", "scope": INSIGHTS_SCOPE}).encode()
+    req = urllib.request.Request("https://api.ebay.com/identity/v1/oauth2/token", data=data,
+                                 headers={"Authorization": "Basic " + cred, "Content-Type": "application/x-www-form-urlencoded"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return "access_token" in json.load(r)
+    except Exception:
+        return False
+
+def _pct(xs, p):
+    xs = sorted(xs); k = (len(xs) - 1) * p; f = int(k)
+    return xs[f] if f + 1 >= len(xs) else xs[f] + (xs[f + 1] - xs[f]) * (k - f)
+
+def search_new_gb(query: str, limit: int = 100) -> list:
+    q = urllib.parse.urlencode({"q": query, "limit": limit,
+                                "filter": "buyingOptions:{FIXED_PRICE},itemLocationCountry:GB,conditionIds:{1000},priceCurrency:GBP"})
+    req = urllib.request.Request("https://api.ebay.com/buy/browse/v1/item_summary/search?" + q,
+                                 headers={"Authorization": "Bearer " + _auth(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_GB"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        js = json.load(r)
+    return [{"title": i.get("title", ""), "price": float(i["price"]["value"])}
+            for i in js.get("itemSummaries", []) if i.get("price", {}).get("currency") == "GBP"]
+
+def active_comp(comp, items: list, check, today=None):
+    """Conservative comp from active asks. Strict matching (check) is applied to every listing title.
+    Returns a new Comp or None. sold_90d stays None, so it can never pass the sold-comps gate (no grade A)."""
+    import datetime as dt, dataclasses
+    prices = [it["price"] for it in items if it["price"] > 0 and check(it["title"], "", comp) == ""]
+    if len(prices) < MIN_ACTIVE: return None
+    p25, p50 = _pct(prices, 0.25), _pct(prices, 0.50)
+    low = round(min(p25 * ASK_HAIRCUT, comp.low), 2)
+    high = round(max(low, min(p50 * ASK_HAIRCUT, comp.high)), 2)
+    return dataclasses.replace(comp, low=low, high=high,
+        evidence=f"{len(prices)} matched new UK listings, 25th pct ask £{p25:.2f} (ACTIVE asks, not sold)",
+        source=f"eBay UK active listings (live) {(today or dt.date.today()).isoformat()}",
+        sold_90d=None, sell_through=None, as_of=today or dt.date.today())

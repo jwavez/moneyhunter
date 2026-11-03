@@ -68,7 +68,29 @@ def drop_expired(graded):
             if not hotukdeals.is_live(d.url):
                 r.grade = "REJECT"; r.reasons.insert(0, "Deal expired on hotukdeals"); d.expired = True
 
+_LIVE = {}
+def refresh_stale(comp):
+    """Stale stored comp -> replace with a conservative live eBay active-listing comp (cached per run)."""
+    if comp is None or not ebay.available(): return comp
+    age = comp.age_days()
+    if age is not None and age <= C.MAX_COMP_AGE_DAYS: return comp
+    if comp.match not in _LIVE:
+        try:
+            from . import matching as M
+            _LIVE[comp.match] = ebay.active_comp(comp, ebay.search_new_gb(comp.match), M.check)
+            print(f"[ebay] live comp {comp.match!r}: {'ok' if _LIVE[comp.match] else 'too few matched listings'}")
+        except Exception as e:
+            print(f"[ebay] live comp failed: {type(e).__name__}"); _LIVE[comp.match] = None
+    return _LIVE[comp.match] or comp
+
+def ebay_status() -> str:
+    if not ebay.available(): return "skipped (no keys)"
+    try: ebay._auth()
+    except Exception as e: return f"token FAILED ({type(e).__name__})"
+    return "token OK" + (", sold data (Insights) ON" if ebay.insights_available() else ", active listings only (no Insights)")
+
 def run_scan():
+    print(f"[ebay] {ebay_status()}")
     br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.COMMUNITY_MAX_PRICE)
     global LAST_RAWS
     errors = []
@@ -76,6 +98,7 @@ def run_scan():
     graded, unpriced = [], []
     for r in raws:
         comp, why_not = CP.find_with_reason(r["title"], comps, r.get("desc", ""))
+        comp = refresh_stale(comp)
         d = build_deal(r, comp); d.thumb = r.get("thumb", "")
         d.match_warning = why_not
         res = G.grade(d, br)
@@ -125,7 +148,7 @@ def export_public(path, stats, graded):
 def cmd_scan(a):
     br, tier, graded, affordable, unpriced, stats = run_scan()
     who = "Rules: community starter set" if os.getenv("MONEYHUNTER_COMMUNITY") == "1" else f"Bankroll £{br:.2f} → {tier.name}"
-    print(f"{who}. eBay API: {'on' if ebay.available() else 'skipped (no keys)'}. CeX: {'reachable' if cex.available() else 'blocked (403)'}.")
+    print(f"{who}. eBay API: {ebay_status()}. CeX: {'reachable' if cex.available() else 'blocked (403)'}.")
     print(f"Scanned {stats['scanned']} · priced {stats['priced']} · under cap {stats['affordable']} · A {stats['A']} · B {stats['B']} · rejected {stats['R']} · unpriced {stats['unpriced']}")
     for d, r in graded:
         print(f"  [{r.grade:10}] {d.title[:60]:60} £{r.cost:7.2f} → £{r.plan['target']:.2f} · EV £{r.ev_net:6.2f} · {', '.join(E.gates_failed(r)[:2])}")
