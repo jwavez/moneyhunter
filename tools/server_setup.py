@@ -8,6 +8,7 @@ LAYOUT = [
                     ("control-panel", "Click the pinned panel: deals, calculator, price check", True)]),
   ("🔥 LIVE DEALS", [("buy-now", "🟢 A-grade: every check passes. Act fast, verify sold comps", True),
                     ("verify", "🟡 B-grade: numbers work, check comps before buying", True),
+                    ("fast-movers", "⚡ A/B deals expected to sell in 10 days or less", True),
                     ("price-errors", "⚡ Possible price errors and very hot deals (may be cancelled)", True),
                     ("trainers", "👟 Trainer and sportswear deals", True), ("lego", "🧱 LEGO deals", True),
                     ("games-consoles", "🎮 Games, consoles, accessories", True), ("tools", "🛠️ Power tool deals", True),

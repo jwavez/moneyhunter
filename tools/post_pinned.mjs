@@ -28,10 +28,15 @@ const welcome = { embeds: [
     "🛡️ **Never priced:** kids' sizes, bundles, multipacks, pre-orders, used/refurbished/resale, other editions or platforms, kits vs body-only, other bottle sizes. Expired deals never alert.\n" +
     "**Max buy** = the highest price that still leaves £8 net and 40% ROI after eBay business fees, home-delivery postage, packaging and 3% returns.\n**Worst case (est.)** = selling at half the target on eBay after all costs, until a real floor price is verified." },
   { title: "🗺️ Channels", color: 0x3b82f6, description:
-    `${L("buy-now")} A-grade deals · ${L("verify")} B-grade · ${L("price-errors")} price errors and very hot deals\n` +
+    `${L("buy-now")} A-grade deals · ${L("verify")} B-grade · ${L("fast-movers")} sells in ≤10 days · ${L("price-errors")} price errors and very hot deals\n` +
     `${L("trainers")} ${L("lego")} ${L("games-consoles")} ${L("tools")} ${L("fragrance")} ${L("tech")} category feeds\n` +
     `${L("price-drops")} prices that fell · ${L("trending")} hottest deals · ${L("near-misses")} 8am digest · ${L("seasonal-calendar")} when to buy and sell\n` +
     `${L("flip-log")} log flips for XP · ${L("wins")} share wins · ${L("sold-comps")} submit sold prices · ${L("leaderboard")} Monday 9am · ${L("flip-chat")} chat\n${L("bot-status")} hourly scan summary, errors straight away` },
+  { title: "🧭 Where to sell", color: 0x10b981, description:
+    "👟 **Trainers:** Vinted first (under ~£80), eBay for limited/£80+, Depop for streetwear\n🧱 **LEGO:** eBay by set number, sealed only, skip slow retired sets\n" +
+    "🎮 **Games:** eBay, CeX/musicMagpie as quick-cash floor\n🛠️ **Tools:** eBay, Facebook Marketplace collection for heavy kits\n" +
+    "🧴 **Fragrance:** eBay, exact size\n🎧 **Tech:** eBay, CeX floor\n" +
+    `⚡ **FAST** = expected to sell in ≤10 days, copied to ${L("fast-movers")}. Aim to sell within 10 days: cut price D7, quick-sale D10. Every category channel has a pinned guide.` },
   { title: "⚠️ Rules and honesty", color: 0xef4444, description:
     "1. Always check **eBay sold** before you buy. Prices are estimates, not guarantees. No guaranteed profits.\n" +
     "2. Price errors may be cancelled by the retailer. Never buy more than you can afford to return.\n" +

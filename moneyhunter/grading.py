@@ -1,6 +1,7 @@
 """Grading engine: EV across 4 outcomes, no-loss floor, 8 gates, tiers, quarter-Kelly."""
 from dataclasses import dataclass, field
 from typing import Optional
+from . import sell as S
 from . import config as C
 from .fees import net_profit
 
@@ -77,6 +78,6 @@ def grade(d: Deal, bankroll: float, platform: str = "ebay_business") -> Optional
     plan = {"entry": cost, "list": stretch, "target": d.target, "quick": quick, "floor": floor,
             "time_stop_day": tier.max_dts + 7, "time_stop_rule": dts is None,
             "reprice": "D3 target · D7 −5% + cross-list · D10 quick-sale",
-            "platforms": "eBay → Vinted (clothing) → Depop → CeX floor"}
+            "platforms": S.platforms_text(d.category, d.target)}
     return Result(g, round(ev, 2), round(roi, 1), worst, round(annual, 0) if annual else None, conf, stake,
                   outs, gates, cost, platform, plan, reasons, d.floor_verified, post)

@@ -1,6 +1,6 @@
 """Discord embed layouts: deal card and scan summary only. No personal data."""
 import datetime as dt, urllib.parse
-from . import config as C
+from . import config as C, sell as S
 
 GREEN, AMBER, RED, BLUE, GOLD = 0x22C55E, 0xF59E0B, 0xEF4444, 0x3B82F6, 0xEAB308
 SCHEDULE = "Scans every 30 min, 24/7"
@@ -83,11 +83,12 @@ def deal_card(d, r, preview: bool = False) -> list:
     else: why = " · ".join(failed[:2])
     mb = max_buy(r)
     conf = int(r.confidence)
-    dts = dts_text(d.days_to_sell)
-    links = f"[🛒 Buy]({d.url}) · [📊 eBay sold]({ebay_sold_url(q)}) · [👕 Vinted]({vinted_url(q)})"
+    dts = S.dts_label(d.category, d.days_to_sell)
+    alt = f"[👕 Vinted]({vinted_url(q)})" if d.category in S.CLOTHING else f"[💷 CeX]({S.cex_url(q)})" if d.category in S.CEX_FLOOR else ""
+    links = f"[🛒 Buy]({d.url}) · [📊 eBay sold]({ebay_sold_url(q)})" + (f" · {alt}" if alt else "")
     card = {
         "author": {"name": f"{'PREVIEW · ' if preview else ''}{d.merchant or d.source} via hotukdeals · {speed_emoji(d.delivery)} {d.delivery}"[:256]},
-        "title": f"{icon} {word} · {gbp(r.ev_net, True)} net · {r.ev_roi:+.0f}% ROI".replace("-", "−"),
+        "title": ("⚡ FAST · " if S.fast_route(g, d.category, d.days_to_sell) else "") + f"{icon} {word} · {gbp(r.ev_net, True)} net · {r.ev_roi:+.0f}% ROI".replace("-", "−"),
         "url": d.url,
         "description": f"**{d.title[:180]}**\n{links}",
         "color": color,
@@ -101,6 +102,8 @@ def deal_card(d, r, preview: bool = False) -> list:
             {"name": "Worst case", "value": worst_text(r), "inline": True},
             {"name": "Confidence", "value": f"{bar(conf)} {conf}", "inline": True},
             {"name": "Why" if g == "A" else "Why not BUY", "value": why[:300], "inline": False},
+            {"name": "Sell on", "value": S.sell_on_value(d.category, r.plan["target"]), "inline": False},
+            {"name": "Max hold", "value": S.HOLD_TIP, "inline": False},
             {"name": "Risks", "value": RISK_BY_CAT.get(d.category, "Condition and returns"), "inline": False},
         ] + _intel_fields(d),
         "footer": {"text": f"MONEYHUNTER · {SCHEDULE} · not financial advice"},
@@ -160,4 +163,25 @@ def link_buttons(d) -> list:
     """Non-interactive link buttons; allowed on plain webhooks with ?with_components=true [S docs.discord.com]."""
     q = short_query(d.title)
     btn = lambda label, url, emoji: {"type": 2, "style": 5, "label": label, "url": url[:512], "emoji": {"name": emoji}}
-    return [{"type": 1, "components": [btn("Open deal", d.url, "🛒"), btn("eBay sold", ebay_sold_url(q), "📊"), btn("Vinted", vinted_url(q), "👕")]}]
+    row = [btn("Open deal", d.url, "🛒"), btn("eBay sold", ebay_sold_url(q), "📊")]
+    if d.category in S.CLOTHING: row.append(btn("Vinted", vinted_url(q), "👕"))
+    elif d.category in S.CEX_FLOOR: row.append(btn("CeX price", S.cex_url(q), "💷"))
+    return [{"type": 1, "components": row}]
+
+def quiet_key(now=None) -> str:
+    now = now or dt.datetime.now(dt.timezone.utc)
+    return f"quiet:{now:%Y-%m-%d-%H}"
+
+def quiet_card(stats: dict, pulse: str) -> dict:
+    """Professional 'market quiet' note when a scan finds no A/B deals. No profit claims."""
+    return {"title": "🌙 Market quiet · no BUY or VERIFY deals this hour", "color": BLUE,
+            "description": (f"Scanned **{stats['scanned']}** deals · priced {stats['priced']} · none passed every check.\n"
+                            f"**Market pulse:** {pulse}\n\n"
+                            "👀 WATCH cards in category channels are homework, not buy signals.\n"
+                            "⚡ Fast movers (≤10 days to sell) post to #fast-movers when they appear.\n"
+                            "Next scan in about 30 minutes. Quiet beats a bad buy.")[:4096],
+            "footer": {"text": f"MONEYHUNTER · {SCHEDULE} · at most one quiet note per hour"},
+            "timestamp": now_iso()}
+
+def now_iso() -> str:
+    return dt.datetime.now(dt.timezone.utc).isoformat()

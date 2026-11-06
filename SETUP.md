@@ -37,3 +37,6 @@ Your ledger, UC and tax data stay on your own machine (git-ignored) and are neve
 
 ## Keeping it alive
 Public repos auto-disable scheduled workflows after 60 days with no repo activity. The workflow's own keepalive step calls GitHub's enable-workflow API when main has no commits for 45 days. If it ever stops, Actions tab > Enable workflow.
+
+## Pinned guides
+`DISCORD_BOT_TOKEN=... python3 tools/post_guides.py` posts+pins a "Where to sell" guide per category channel plus #fast-movers / #price-drops explainers (idempotent; EDIT=1 to update). `EDIT=1 node tools/post_pinned.mjs` refreshes welcome/control panel.

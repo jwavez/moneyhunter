@@ -1,7 +1,7 @@
 """Routes scanner output to the community hub channels. Community-safe: deal data only.
 Webhook URLs come from env MONEYHUNTER_WEBHOOKS (JSON {channel: url}); never printed."""
 import datetime as dt, json, os, re, urllib.request
-from . import discord as D, embeds as E
+from . import discord as D, embeds as E, sell as S
 from .scanners import hotukdeals
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -21,14 +21,16 @@ NOT_RESELLABLE_RE = re.compile(
     r"water|juice|protein|vitamin|food|munch|meal|pizza|"
     r"dishwasher|detergent|laundry|washing (up|liquid|powder|capsules|pods)|fabric|toilet|kitchen roll|bin bags|cleaner|"
     r"bleach|shampoo|conditioner|toothpaste|razor blades|nappies|wipes|tablets|capsules|pods|batteries|light ?bulb|"
-    r"thermo bottle|flask|food storage|container|tupperware|plant|compost|pet food|cat litter)\b", re.I)   # [H]
+    r"thermo bottle|flask|food storage|container|tupperware|plant|compost|pet food|cat litter|"
+    r"pre-?order|preorder|blu-?ray|dvd|4k uhd|box ?set|film collection|movie collection|"
+    r"e-?scooter|electric scooter|scooter|e-?bike)\b", re.I)   # [H] digital, pre-orders, discs, scooters never flip fast
 CAT_LABEL = {"trainers": "👟 Trainers", "sportswear": "👕 Sportswear", "lego": "🧱 LEGO", "gaming": "🎮 Games & consoles",
              "tools": "🛠️ Tools", "fragrance": "🧴 Fragrance", "tech": "🎧 Tech"}
 WATCH_PER_CHANNEL = 3   # [H] max WATCH cards per category channel per run
 
 def resellable(it) -> bool:
     """Physical goods in a category we price; never food, household, consumables, digital or rentals."""
-    return it.get("category") in CAT_LABEL and not NOT_RESELLABLE_RE.search(it["title"])
+    return it.get("category") in CAT_LABEL and not NOT_RESELLABLE_RE.search(it.get("title") or "")
 
 def sell_needed(buy: float, category: str):
     """From the fee engine at this buy price: breakeven sell price, and the sell price for £8 net and 40% ROI."""
@@ -59,7 +61,12 @@ def watch_card(it, prices):
          "fields": [{"name": "Breakeven sell price", "value": f"£{be:.2f}", "inline": True},
                     {"name": "Sell price for a deal", "value": f"£{tgt:.2f}+", "inline": True},
                     {"name": "Price history", "value": I.price_history(title_key(it["title"]), it["price"], prices), "inline": True},
-                    {"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
+                    {"name": "Days to sell", "value": S.dts_label(it["category"], it.get("days_to_sell")), "inline": True},
+                    {"name": "Sell on", "value": S.sell_on_value(it["category"], tgt), "inline": True},
+                    {"name": "Max hold", "value": S.HOLD_TIP, "inline": False}]
+                   + ([{"name": "Quick-cash floor", "value": "CeX (lower price, same-day cash). Check the CeX button before buying.", "inline": False}]
+                      if it["category"] in S.CEX_FLOOR else [])
+                   + [{"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
          "footer": {"text": f"Sell prices after eBay business fees, £{post:.2f} postage, £0.50 packaging, 3% returns · deal = £8 net and 40% ROI"}}
     if it.get("thumb"): e["thumbnail"] = {"url": it["thumb"]}
     return e
@@ -106,7 +113,11 @@ def mini(it, color, prefix=""):
 def buttons(it):
     q = E.short_query(it["title"])
     b = lambda l, u, em: {"type": 2, "style": 5, "label": l, "url": u[:512], "emoji": {"name": em}}
-    return [{"type": 1, "components": [b("Open deal", it["url"], "🛒"), b("eBay sold", E.ebay_sold_url(q), "📊"), b("Vinted", E.vinted_url(q), "👕")]}]
+    row = [b("Open deal", it["url"], "🛒"), b("eBay sold", E.ebay_sold_url(q), "📊")]
+    c = it.get("category")
+    if c in S.CLOTHING: row.append(b("Vinted", E.vinted_url(q), "👕"))
+    elif c in S.CEX_FLOOR: row.append(b("CeX price", S.cex_url(q), "💷"))
+    return [{"type": 1, "components": row}]
 
 def price_drops(raws, now=None):
     """Compare to prices seen in earlier scans (state branch prices.json)."""
@@ -138,6 +149,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         st = send("buy-now" if g == "A" else "verify", card, comps, dry)
         ch = CAT_CHANNEL.get(d.category)
         if ch: send(ch, card[:1], comps, dry)
+        if S.fast_route(g, d.category, d.days_to_sell): send("fast-movers", card[:1], comps, dry)
         if ok(st) or dry: new.add(k); n += 1
     # 2) price errors / very hot
     for it in raws:
@@ -177,6 +189,12 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         if not hotukdeals.is_live(it["url"]): new.add(k); continue
         if ok(send(ch, [watch_card(it, prices_now)], buttons(it), dry)) or dry:
             new.add(k); per[ch] = per.get(ch, 0) + 1
+    # 3c) quiet-market pulse: no A/B this scan -> one note per hour [H]
+    n_drops = 0
+    if not stats.get("A") and not stats.get("B"):
+        qk = E.quiet_key()
+        if qk not in seen and not (stats.get("errors") and not stats.get("scanned")):
+            if ok(send("buy-now", [E.quiet_card(stats, market_pulse(raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
     # 4) price drops
     drops, prices = price_drops(raws)
     for it, prev in [x for x in drops if resellable(x[0])][:5]:
@@ -184,12 +202,13 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         if k in seen: continue
         e = mini(it, 0x06B6D4, "📉 ")
         e["description"] = f"**£{prev['price']:.2f} → £{it['price']:.2f}** (−{(1 - it['price'] / prev['price']) * 100:.0f}%) since {prev['ts'][:10]}\n" + e["description"].split("\n", 1)[1]
-        if ok(send("price-drops", [e], buttons(it), dry)) or dry: new.add(k)
+        if ok(send("price-drops", [e], buttons(it), dry)) or dry: new.add(k); n_drops += 1
     if not dry: json.dump(prices, open(PRICES, "w"))
     # 5) #bot-status: errors immediately, otherwise one summary per hour (the :07 run) [H]
     errs = stats.get("errors") or []
     if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
         e = E.scan_summary(stats, near)
+        e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
         e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(raws, stats)[:1000], "inline": False})
         if errs:
             e["color"] = 0xEF4444; e["title"] = "⚠️ Scan problem · " + e["title"]
