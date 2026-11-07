@@ -73,7 +73,7 @@ def matches(title, ident):
         # Number and franchise/name words do not make a component the whole set.
         if re.search(r"\b(?:from|out of)\s+(?:(?:the|a|lego)\s+)*(?:(?:set|sets)\s+)?\d{5,6}\b", t) or M.has(t, "taken from", "removed from"):
             return False
-        if M.has(t, "instruction", "manual", "manuals", "booklet", "booklets", "sticker", "stickers", "sheet", "sheets", "minifigure", "minifig", "minifigures", "minifigs", "parts", "spare", "replacement", "bag", "bags", "missing", "without", "incomplete", "for lego", "display stand", "display base", "acrylic", "light", "lights", "lighting", "led", "tag", "tags"):
+        if M.has(t, "instruction", "manual", "manuals", "booklet", "booklets", "sticker", "stickers", "sheet", "sheets", "minifigure", "minifig", "minifigures", "minifigs", "parts", "spare", "replacement", "bag", "bags", "missing", "without", "incomplete", "for lego", "display stand", "display base", "display mount", "wall mount", "wall bracket", "mounting bracket", "display plinth", "acrylic", "light", "lights", "lighting", "led", "tag", "tags"):
             return False
         terms = getattr(ident, "name_terms", [])
         if terms:
@@ -144,6 +144,25 @@ def summary(payload, ident, when):
         "offers": sorted(offers, key=lambda x: x["listed_total"])[:50], "rejected": dict(rejected)}
 
 
+def revalidate(snapshot, ident, when):
+    """Reclassify retained real observations after matcher repairs, without refreshing their clock."""
+    if snapshot.get("kind") != "active_ask" or not snapshot.get("offers"): return snapshot
+    good = [o for o in snapshot["offers"] if matches(o.get("title", ""), ident)]
+    removed = [o for o in snapshot["offers"] if not matches(o.get("title", ""), ident)]
+    if not removed: return snapshot
+    xs = sorted(o["listed_total"] for o in good)
+    q = lambda p: round(ebay._pct(xs, p), 2) if xs else None
+    spread = bool(xs and xs[-1] > xs[0]*1.5)
+    rejected = dict(snapshot.get("rejected", {}))
+    rejected["accessory_reclassified"] = rejected.get("accessory_reclassified", 0)+len(removed)
+    return {**snapshot, "offers":good, "sample_count":len(good), "rejected":rejected,
+        "excluded_after_review":(snapshot.get("excluded_after_review", [])+removed)[:50],
+        "reclassified_at":when.isoformat(timespec="seconds"),
+        "listed_total_low":xs[0] if xs else None,"listed_total_p25":q(.25),"listed_total_median":q(.5),
+        "listed_total_p75":q(.75),"listed_total_high":xs[-1] if xs else None,
+        "status":"no_exact_shipped_samples" if not xs else "small_sample" if len(xs)<3 else "wide_spread" if spread else "indicative_only"}
+
+
 def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
     """Rotate absent/oldest research keys, reuse six-hour snapshots, never alter grades."""
     when = when or dt.datetime.now(dt.timezone.utc)
@@ -164,6 +183,8 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
         except (KeyError, TypeError, ValueError): return float("inf")
     for k, (ident, rows) in sorted(pending.items(), key=lambda kv: (-age(cache.get(kv[0], {})), -max(r.get("priority", 0) for r in kv[1][1]), kv[0])):
         snapshot = cache.get(k, {})
+        checked = revalidate(snapshot, ident, when)
+        if checked is not snapshot: cache[k] = checked; snapshot = checked
         hours = age(snapshot)
         fresh = snapshot.get("kind") == "active_ask" and 0 <= hours < TTL_HOURS
         if fresh: health["cached"] += 1

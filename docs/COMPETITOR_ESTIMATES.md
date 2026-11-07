@@ -49,3 +49,10 @@ https://developer.ebay.com/api-docs/buy/browse/types/gct:ItemSummary
 `availableCoupons`, `shippingOptions`. Existing documented Browse search remains the
 only active-market acquisition endpoint. No browser challenge is retried and no
 active ask is inserted as a sale.
+
+Live provenance exposed a Wall Display Mount incorrectly sharing LEGO set/name
+words. Display/wall mounting accessories are now excluded explicitly. Retained
+cached offers are rechecked under current matching rules before valuation, with
+excluded provenance retained and original observation dates unchanged. A code
+repair therefore fixes cached comparators without pretending to observe a new sale
+or waiting six hours for the bad entry to expire.
