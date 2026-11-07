@@ -48,7 +48,7 @@ export async function guardData(data,env={},fetcher=fetch){
   if(!identified)continue;
   const candidates=[e.image?.url,...(e._mh_image_candidates??[])].map(productImage).filter(Boolean);
   const paused=new Set();let chosen='';for(const url of [...new Set(candidates)].slice(0,2)){if(await verifyImage(url,env,fetcher,Date.now(),paused)){chosen=url;break;}}
-  if(!chosen)return {content:'LEGO product photo pending verification. This product card is held rather than published without a working image. Try Next or check later.',components:(data.components??[]).filter(r=>r.components?.some(c=>c.custom_id))};
+  if(!chosen)return {...(data.flags!=null?{flags:data.flags}:{}),allowed_mentions:data.allowed_mentions??{parse:[]},content:'LEGO product photo pending verification. This product card is held rather than published without a working image. Try Next or check later.',components:(data.components??[]).filter(r=>r.components?.some(c=>c.custom_id))};
   e.image={url:chosen};
   if(e._mh_image_basis?.startsWith("Reference") && !/reference/i.test(e.description??""))e.description=(e.description??"")+"\nImage is an exact-set reference, not proof of listing condition.";
  }

@@ -19,7 +19,7 @@ test('cache avoids repeated reads; denied host is paused instead of bypassed or 
 });
 test('missing/broken photo holds entire product card; valid exact-source alternate succeeds',async()=>{
  for(const x of [{category:'lego',title:'LEGO 75402'},{...row(),thumb:'https://localhost/x'}]){
-  const result=await guardData({embeds:[{...imageMeta(x),title:x.title}]},{},async()=>photo());assert.equal(result.embeds,undefined);assert.match(result.content,/held/);
+  const result=await guardData({flags:64,allowed_mentions:{parse:[]},embeds:[{...imageMeta(x),title:x.title}]},{},async()=>photo());assert.equal(result.embeds,undefined);assert.match(result.content,/held/);assert.equal(result.flags,64);assert.deepEqual(result.allowed_mentions,{parse:[]});
  }
  const r=await guardData({embeds:[{...imageMeta({...row(),image_basis:'Reference exact set',image_candidates:[image+'?fallback']}),title:row().title}]},{},async(u)=>u===image?new Response('gone',{status:404}):photo());
  assert.equal(r.embeds[0].image.url,image+'?fallback');assert.match(r.embeds[0].description,/not proof of listing condition/);assert.doesNotMatch(JSON.stringify(r),/_mh_/);
