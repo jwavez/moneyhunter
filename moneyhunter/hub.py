@@ -86,13 +86,21 @@ def watch_card(it, prices):
                       if it["category"] in S.CEX_FLOOR else [])
                    + [{"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
          "footer": {"text": f"Sell prices after eBay business fees incl 20% VAT, £{post:.2f} postage, £0.50 packaging, 3% returns · strong = £{policy['strong_net']:g} net and {policy['strong_roi']*100:g}% ROI"}}
+    if it['category']=='fragrance':
+        e['fields'][0]={'name':'Breakeven sell price','value':'Unknown until compliant outbound carrier/packaging is quoted','inline':False}
+        e['fields'][1]={'name':'Required resale target (not valuation)','value':'Not validated: default Evri service prohibits perfume; Royal Mail standard limit is 150ml/item (a 200ml bottle exceeds it)','inline':False}
+        e['footer']['text']='Fragrance transport NOT validated. Evri prohibits perfume; verify compliant carrier, packaging, liability and cost before pricing. No guaranteed break-even.'
     model = it.get("ask_estimate")
     if not model and it["price"] + (it.get("inbound_delivery") or 0) > policy["cap"]:
         e["author"]["name"] = "ABOVE BUDGET — WATCH ONLY · not valued"
     if model:
         e["author"]["name"] = CAT_LABEL[it["category"]] + " · " + model["signal"]
         e["fields"] = estimate_fields(model) + e["fields"]
-    if it.get("thumb"): e["thumbnail"] = {"url": it["thumb"]}
+    if it.get("image_basis", "").startswith("Reference"):
+        e["description"] += "\nImage: exact-set reference; check actual listing condition."
+    if it.get("thumb"):
+        from .images import safe
+        if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
     return e
 
 
@@ -148,7 +156,9 @@ def mini(it, color, prefix=""):
          "description": f"**£{it['price']:.2f}** · {it.get('merchant') or 'retailer'} {('· ' + heat) if heat else ''}\n"
                         f"Not yet priced by MONEYHUNTER: check sold prices before buying.",
          "footer": {"text": f"MONEYHUNTER · {E.SCHEDULE}"}}
-    if it.get("thumb"): e["thumbnail"] = {"url": it["thumb"]}
+    if it.get("thumb"):
+        from .images import safe
+        if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
     return e
 
 def buttons(it):

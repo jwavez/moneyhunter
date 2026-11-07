@@ -24,7 +24,7 @@ def retailer(merchant: str, title: str = "") -> dict:
     if any(has(t, k) for k in MARKETPLACE) or "marketplace" in m:
         return {"rating": "caution", "label": "⚠️ Marketplace/third-party seller: check seller rating and returns"}
     if m in TRUSTED or m.split(" ")[0] in TRUSTED:
-        return {"rating": "trusted", "label": "✅ Major UK retailer (14-day returns online)"}
+        return {"rating": "trusted", "label": "✅ Major UK retailer; verify resale/B2B terms and actual returns policy"}
     if not m:
         return {"rating": "unknown", "label": "❔ Retailer unknown: check returns policy"}
     return {"rating": "unknown", "label": f"❔ {merchant}: smaller retailer, check reviews and returns"}

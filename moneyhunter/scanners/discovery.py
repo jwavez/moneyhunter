@@ -46,6 +46,7 @@ def scan(raws, state, when=None):
                 if o['listed_total']>p['watch_ceiling']: continue
                 sellers.add(o['seller']);chosen+=1
                 retained[o['url']]={'title':o['title'],'url':o['url'],'category':ident.category,'price':o['item_price'],
+                    'thumb':o.get('image',''),'image_source_url':o['url'],'image_basis':'Own Browse listing image',
                     'inbound_delivery':o['shipping'],'delivery':'Fixed shipping quoted by Browse; checkout confirmation required',
                     'seller_type':'BUSINESS (documented acquisition filter)','buyer_fee_basis':'No private seller Buyer Protection charge; BUSINESS-filtered source',
                     'merchant':'eBay','source':'ebay_browse','source_observed_at':snapshot['observed_at'],

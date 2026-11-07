@@ -99,8 +99,8 @@ def scan(log=print) -> list:
                     if re.match(r"https://(?:www\.)?ebay\.(?:co\.uk|com)/itm/", direct):
                         acquisition_urls.append(direct.split("?")[0].split("#")[0])
                 desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", desc_html)).strip()[:800]
-                th = it.find("media:thumbnail", NS)
-                thumb = th.get("url", "").replace("/re/150x150/", "/re/300x300/") if th is not None else ""
+                from .. import images
+                thumb = images.feed(it,NS)
                 cat = classify(title, hint)
                 if cat is None and heat is not None: cat = "other"   # keep trending items for #trending / #price-errors
                 if price is None or cat is None:

@@ -134,6 +134,8 @@ def summary(payload, ident, when):
         url = urlsplit(item.get("itemWebUrl", ""))
         if url.scheme != "https" or url.username or url.password or url.hostname not in ("www.ebay.co.uk", "www.ebay.com") or not url.path.startswith("/itm/"):
             rejected["source_url_unknown"] += 1; continue
+        from .images import safe
+        image = safe((item.get("image") or {}).get("imageUrl"))
         seller = (item.get("seller") or {}).get("username")
         marketing = item.get("marketingPrice") or {}
         original = money(marketing.get("originalPrice"))
@@ -141,7 +143,7 @@ def summary(payload, ident, when):
         except (ValueError, TypeError): percentage = 0
         discounted = (original is not None and original > price) or percentage > 0 or (money(marketing.get("discountAmount")) or 0) > 0
         offers.append({"item_id": str(key), "seller": str(seller)[:100] if seller else None,
-            "country": "GB", "currency": "GBP", "condition_id": "1000", "discount_status": "advertised_discount" if discounted else "unknown",
+            "image":image,"country": "GB", "currency": "GBP", "condition_id": "1000", "discount_status": "advertised_discount" if discounted else "unknown",
             "advertised_original_total": round(original + min(shipping), 2) if original is not None and original > price else None,
             "available_coupons": item.get("availableCoupons") is True,
             "buying_options":item.get("buyingOptions",[]),"end_at":end,"promotion_id": None, "url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "title": item.get("title", "")[:200],
