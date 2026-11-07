@@ -3,7 +3,12 @@ name: moneyhunter-scan
 on:
   schedule:
     - cron: "13,43 * * * *"  # off the start-of-hour rush; target 30 minutes, not guaranteed
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "No outbound Discord delivery and no operational state publication"
+        type: boolean
+        default: true
 permissions:
   contents: write   # public operational state branch only
 concurrency: { group: moneyhunter-scan, cancel-in-progress: false }
@@ -34,17 +39,27 @@ jobs:
         env: { MONEYHUNTER_DISABLE_SEND: "1", MONEYHUNTER_FORCE_STATUS: "1" }
         run: python -m unittest discover -s tests -v
       - name: Read typed private tier index only (safe starter fallback)
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run }}
         env:
           MH_PRIVATE_TOKEN: ${{ secrets.MH_PRIVATE_TOKEN }}
         run: python -m moneyhunter.tier_sync
-      - name: Scan, post and export public deal evidence
+      - name: Scan (manual defaults no-send), export honest public evidence
         env:
           MONEYHUNTER_COMMUNITY: "1"
+          MONEYHUNTER_CAPTURE_URL: "https://moneyhunter-bot.moneyhunter.workers.dev/api/research-capture"
+          MONEYHUNTER_DISABLE_SEND: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
           MONEYHUNTER_DISCORD_WEBHOOK: ${{ secrets.MONEYHUNTER_DISCORD_WEBHOOK }}
           MONEYHUNTER_WEBHOOKS: ${{ secrets.MONEYHUNTER_WEBHOOKS }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
-        run: python -m moneyhunter.cli scan --max-posts 5 --export public/deals.json
+        run: |
+          set -euo pipefail
+          rm -f public/deals.json
+          if [ "$MONEYHUNTER_DISABLE_SEND" = "1" ]; then
+            python -m moneyhunter.cli scan --dry-run --max-posts 0 --export public/deals.json
+          else
+            python -m moneyhunter.cli scan --max-posts 5 --export public/deals.json
+          fi
       - name: Write public scan health to job summary
         if: always()
         run: |
@@ -62,8 +77,15 @@ jobs:
                   out.write(f"Previous-success gap: {s['gap_minutes']} minutes. Cron may be delayed/dropped.\n\n")
                   for error in s['errors']: out.write('- ' + error + '\n')
           PY
+      - name: Keep manual no-send research export as artifact only
+        if: ${{ success() && github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: moneyhunter-no-send-research
+          path: public/deals.json
+          retention-days: 3
       - name: Publish public state with normal fast-forward history (no force push)
-        if: success()
+        if: ${{ success() && (github.event_name != 'workflow_dispatch' || !inputs.dry_run) }}
         run: |
           set -euo pipefail
           mkdir /tmp/mh-state

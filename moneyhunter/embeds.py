@@ -147,7 +147,9 @@ def sources_text(sources):
         if "feeds_ok" in v:
             lines.append(f"{name}: feeds {v.get('feeds_ok', 0)} OK/{v.get('feeds_failed', 0)} failed, raw {v.get('feed_items', 0)}, duplicates {v.get('duplicates', 0)}, old {v.get('old_dropped', 0)}, missing price/category {v.get('missing_price_or_category', 0)}")
         else:
-            lines.append(f"{name}: {v.get('status', 'not configured')}")
+            detail = v.get("research")
+            suffix = f"; indicative asks {detail['candidates_with_samples']} candidates, {detail['queries']} queries, {detail['cached']} cached ({detail['status']})" if detail else ""
+            lines.append(f"{name}: {v.get('status', 'not configured')}{suffix}")
     return " · ".join(lines)[:1000] or "Not reported"
 
 def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:

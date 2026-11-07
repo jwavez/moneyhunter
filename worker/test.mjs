@@ -96,6 +96,6 @@ r=await call({type:3,data:{custom_id:"research:0"},message:{flags:0}});
 assert.match(r.data.embeds[0].title,/RESEARCH ONLY/);assert.equal(r.data.flags,64);sizeOk(r);
 assert.match(r.data.embeds[0].fields[1].value,/NOT market valuations/);
 const health=await (await w.fetch({method:"GET",url:"https://x/api/health"},env2,ctx)).json();
-assert.equal(health.contract_version,3);assert.equal(health.review_candidates,1);
+assert.equal(health.contract_version,4);assert.equal(health.review_candidates,1);
 assert.equal(health.pricing_status.products,0);
 console.log("worker tests OK (fees, catalog, identity/freshness, research UI, no-send signed handlers)");

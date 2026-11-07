@@ -29,9 +29,21 @@ CAT_LABEL = {"trainers": "👟 Trainers", "sportswear": "👕 Sportswear", "lego
 DELIVERY_FAILURES = []
 WATCH_PER_CHANNEL = 3   # [H] max WATCH cards per category channel per run
 
+DIGITAL_STOREFRONTS = {"eneba", "loaded", "cdkeys", "cdkeys.com", "steam", "gog", "gog.com", "xbox", "microsoft", "nintendo eshop", "playstation store"}
+
+def digital_store_risk(it):
+    """Conservative source/format risk, not an assertion that every store item is digital.
+
+    Explicit hardware can still be a physical research candidate. A game sold by a
+    code/storefront source is not promoted merely because its title omitted 'digital'.
+    """
+    title = it.get("title", "")
+    hardware = re.search(r"\b(controller|headset|keyboard|mouse|console|racing wheel)\b", title, re.I)
+    return it.get("category") == "gaming" and str(it.get("merchant", "")).strip().lower() in DIGITAL_STOREFRONTS and not hardware
+
 def resellable(it) -> bool:
     """Physical goods in a category we price; never food, household, consumables, digital or rentals."""
-    return it.get("category") in CAT_LABEL and it.get("online_eligible", hotukdeals.online_status(it.get("title", ""))) and not NOT_RESELLABLE_RE.search(it.get("title") or "")
+    return it.get("category") in CAT_LABEL and it.get("online_eligible", hotukdeals.online_status(it.get("title", ""))) and not digital_store_risk(it) and not NOT_RESELLABLE_RE.search(it.get("title") or "")
 
 def sell_needed(buy: float, category: str):
     """From the fee engine at this buy price: breakeven sell price, and the sell price for £8 net and 40% ROI."""
