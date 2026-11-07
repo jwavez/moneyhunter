@@ -82,11 +82,11 @@ test("asking ranges have independent expiry and cannot render as sold prices",()
 test("capture retains approved own-feed product images through persistence",async()=>{
  const image="https://images.hotukdeals.com/threads/raw/synthetic/123_1/re/150x150/qt/55/123.jpg";
  const doc=xml({desc:`<img src="${image}">`});
- const rows=parseFeed(doc,"lego","tag/lego",now);assert.match(rows[0].thumb,/300x300/);
+ const rows=parseFeed(doc,"lego","tag/lego",now);assert.match(rows[0].thumb,/150x150/);
  const merged=_test.mergeResearch([],{items:rows});assert.equal(merged[0].thumb,rows[0].thumb);
  const same=_test.mergeResearch([{...merged[0],thumb:""}],{items:rows});assert.equal(same[0].thumb,rows[0].thumb);
  const MH=kv();await capture({MH},now,async()=>response(doc));
- assert.match(publicCapture(await MH.get(CAPTURE_KEY,"json"),now).items[0].thumb,/300x300/);
+ assert.match(publicCapture(await MH.get(CAPTURE_KEY,"json"),now).items[0].thumb,/150x150/);
  const bad=parseFeed(xml({desc:'<img src="https://127.0.0.1/private">'}),"lego","x",now);
  assert.equal(bad[0].thumb,"");
  const media=xml().replace('<title>','<media:content url="https://i.ebayimg.com/images/g/synthetic/s-l500.jpg"/><title>');

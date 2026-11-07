@@ -33,7 +33,7 @@ const out = await (await w.fetch(mk(cb, csig), env, {})).json(); assert.equal(ou
 const { COMMANDS } = await import("./scripts/register.mjs"); assert.equal(COMMANDS.length, 11);
 // components with a mocked deals feed
 const deals = JSON.parse(readFileSync("./test-deals.json", "utf8"));
-globalThis.fetch = async u => ({ ok: true, json: async () => deals, text: async () => readFileSync("../data/comps.csv", "utf8") });
+globalThis.fetch = async u => String(u).startsWith("https://i.ebayimg.com/") ? new Response(Uint8Array.from([255,216,255,...Array(32).fill(0)]),{headers:{"content-type":"image/jpeg"}}) : ({ ok: true, json: async () => deals, text: async () => readFileSync("../data/comps.csv", "utf8") });
 const store = new Map(); const kv = { get: async (k, t) => store.has(k) ? (t === "json" ? JSON.parse(store.get(k)) : store.get(k)) : null, put: async (k, v) => store.set(k, v), list: async ({ prefix }) => ({ keys: [...store.keys()].filter(k => k.startsWith(prefix)).map(name => ({ name })) }) };
 const env2 = { ...env, DEALS_URL: "d", COMPS_URL: "c", MH: kv, WINS_CHANNEL: "w" };
 const waits = []; const ctx = { waitUntil: p => waits.push(p) };
@@ -74,7 +74,7 @@ assert.match(r.data.embeds[0].title, /Money gates only/);
 assert.match(r.data.embeds[0].fields.find(x => x.name.includes("Max landed")).value, new RegExp(custom.maxBuy.toFixed(2)));
 // Synthetic catalog fixtures only; no market observations or live delivery.
 const day = new Date().toISOString().slice(0,10);
-const reviewedFixture = { id:"fixture", match:"lego 12345", category:"lego", identity:{condition:"new",variant:"standard",set_number:"12345"}, reviewed:true, reviewed_at:day, sold_as_of:day, low:40, high:45, sample_count:5, is_buy_signal:false, days_to_sell:null, price_basis:"GBP seller gross incl postage excluding buyer-only fees", sold_sources:[{url:"https://example.com/synthetic-sale",sold_at:day,observed_at:day,price:40}] };
+const reviewedFixture = { thumb:"https://i.ebayimg.com/images/g/synthetic/s-l500.jpg", id:"fixture", match:"lego 12345", category:"lego", identity:{condition:"new",variant:"standard",set_number:"12345"}, reviewed:true, reviewed_at:day, sold_as_of:day, low:40, high:45, sample_count:5, is_buy_signal:false, days_to_sell:null, price_basis:"GBP seller gross incl postage excluding buyer-only fees", sold_sources:[{url:"https://example.com/synthetic-sale",sold_at:day,observed_at:day,price:40}] };
 assert.equal(findReviewed("LEGO 12345 new",[reviewedFixture]).low,40);
 assert.match(findReviewed("LEGO 12345",[reviewedFixture]).reason,/condition/);
 for (const q of ["LEGO 12345 used", "LEGO 12345 new used", "LEGO 12345 new minifigure", "LEGO 12345 new box only", "LEGO 12345 new bundle", "LEGO 12345 new 54321"]) assert.ok(findReviewed(q,[reviewedFixture]).blocked,q);
@@ -84,6 +84,7 @@ assert.equal(findReviewed("LEGO 54321 new",[reviewedFixture]),null);
 deals.pricing_catalog=[reviewedFixture];
 r=await call({type:2,data:{name:"price",options:[{name:"item",value:"LEGO 12345 new"}]}});
 assert.match(r.data.embeds[0].title,/Reviewed sold research/);
+assert.match(r.data.embeds[0].image.url,/i.ebayimg.com/);assert.ok(!JSON.stringify(r).includes("_mh_"));
 assert.match(r.data.embeds[0].description,/No current offer, cash floor or BUY/);
 assert.match(r.data.embeds[0].fields[0].value,/40.00/);
 assert.equal(r.data.allowed_mentions.parse.length,0); sizeOk(r);

@@ -1,3 +1,4 @@
+import {imageMeta,guardResponse} from "./images.js";
 import {productImage} from "./capture.js";
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
 import { calc, parseCsv, findComp, findReviewed, gbp, verifyDiscord } from "./logic.js";
@@ -139,6 +140,7 @@ function dealView(d, list, f, i) {
     ],
     footer: { text: `${FNAME[f] ?? f} · ${i + 1} of ${n} · last scan ${updated(d)}` },
   };
+  Object.assign(e,imageMeta(x));
   if (productImage(x.thumb)) e.image = {url:productImage(x.thumb)};
   return { embeds: [e], components: [
     row(nav(i - 1, "Prev", "◀️", n < 2), nav(i + 1, "Next", "▶️", n < 2), btn(`plan:${f}:${i}`, "Full Plan", "📋", 1), btn(`dc:${f}:${i}`, "Calc", "🧮", 1), home),
@@ -148,7 +150,7 @@ function dealView(d, list, f, i) {
 
 function planView(x) {
   const p = x.plan || {};
-  return { embeds: [{ title: `📋 Trade plan · ${x.title.slice(0, 80)}`, color: C[x.grade], fields: [
+  return { embeds: [{ ...imageMeta(x), title: `📋 Trade plan · ${x.title.slice(0, 80)}`, color: C[x.grade], fields: [
     { name: "1 · Financial ceiling (not approval)", value: `At or under **${gbp(x.max_buy)}** (deal ${gbp(x.buy)})`, inline: false },
     { name: "2 · List", value: `${gbp(p.list ?? x.target)}, then ${gbp(p.target ?? x.target)} by day 3`, inline: false },
     { name: "3 · Reprice", value: `Day 7: −5% and cross-list · Day 10: ${gbp(p.quick ?? x.target * 0.9)}`, inline: false },
@@ -173,7 +175,7 @@ function researchView(d, index = 0) {
     ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
     ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
     ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
-  return {embeds:[{...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`${x.ask_estimate?.signal ?? "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
+  return {embeds:[{...imageMeta(x),...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`${x.ask_estimate?.signal ?? "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
 }
 
 // ---------- calculator ----------
@@ -225,7 +227,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
       fields.push({ name: "Hypothetical net at lower-quartile gross", value: `${sgbp(k.net)} at landed cost ${gbp(buy)}. Money-only ceiling ${gbp(k.maxBuy)}; not approval.`, inline: false });
     }
     const source = reviewed.sold_sources?.find(x => /^https:\/\//.test(x.url ?? ""));
-    return { embeds: [{ title: `Reviewed sold research · ${reviewed.match}`.slice(0,250), color: C.INFO,
+    return { embeds: [{...imageMeta({...reviewed,...(pricing.review_queue??[]).find(x=>x.ask_estimate?.query===reviewed.match)}), title: `Reviewed sold research · ${reviewed.match}`.slice(0,250), color: C.INFO,
       description: `${reviewed.price_basis}. ${reviewed.sample_count < 5 ? "⚠️ Fewer than five observations: too little evidence for a reliable resale estimate. " : "Sample evidence, not a guaranteed future sale price. "}No current offer, cash floor or BUY is implied.`, fields,
       footer: { text: "Sold date is separate from observed/reviewed date; active asks never refresh it" } }], components: [source ? row(link(source.url, "Actual sold source", "🔗"), link(sold, "Research sold", "📊")) : links, again] };
   }
@@ -235,7 +237,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   const asking = !unsafe && (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && (cleanAskQuery(x.query)===cleanAskQuery(q) || (/lego/i.test(q) && numbers.length===1 && x.query===`LEGO ${numbers[0]}`)));
   if(asking) {
     const entry=(pricing.review_queue ?? []).filter(x=>x.ask_estimate?.query===asking.query).sort((a,b)=>a.ask_estimate.estimated_resale-b.ask_estimate.estimated_resale)[0];
-    return {embeds:[{title:`Estimated resale · ${asking.query}`.slice(0,250),color:C.INFO,
+    return {embeds:[{...imageMeta(entry??{category:asking.query.startsWith("LEGO ")?"lego":null}),title:`Estimated resale · ${asking.query}`.slice(0,250),color:C.INFO,
       description:"Current exact-title NEW competitor offers including quoted shipping support this conservative MODEL estimate. Not sold data or a guaranteed sale. The cheapest credible competition caps the estimate even when discounted.",fields:[...estimateFields(entry?.ask_estimate,buy,landedConfirmed),...askFields(asking)]}],components:[row(...estimateLinks(entry?.ask_estimate),link(sold,"Sold research","📊")),again]};
   }
   const c = findComp(q, await getComps(env));
@@ -249,7 +251,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   if (buy != null && !isNaN(buy)) fields.push({ name: `Net if you pay ${gbp(buy)}`, value: `eBay ${sgbp(eb.net)} (${pct(eb.roi)}) · Vinted ${sgbp(vi.net)} (${pct(vi.roi)})`, inline: false });
   fields.push({ name: "Evidence", value: `${c.sold_evidence}`.slice(0, 900), inline: false });
   const src = (c.source.match(/https?:\/\/\S+/) || [])[0];
-  return { embeds: [{ title: `💷 ${c.match}`, description: `Category: **${c.category}**. Reference only: date, condition and exact variant may differ. Not a BUY signal. Use reviewed scanner evidence before buying.`, color: C.INFO, fields, footer: { text: "Hypothetical calculations from legacy guide; include inbound delivery; not approval" } }],
+  return { embeds: [{...imageMeta({...c,...(pricing.review_queue??[]).find(x=>x.ask_estimate?.query===c.match)}), title: `💷 ${c.match}`, description: `Category: **${c.category}**. Reference only: date, condition and exact variant may differ. Not a BUY signal. Use reviewed scanner evidence before buying.`, color: C.INFO, fields, footer: { text: "Hypothetical calculations from legacy guide; include inbound delivery; not approval" } }],
     components: [src ? row(link(sold, "eBay Sold", "📊"), link(vinted, "Vinted", "👕"), link(src, "Source", "🔗")) : links, again] };
 }
 
@@ -369,9 +371,9 @@ export default {
     const i = JSON.parse(body);
     try {
       if (i.type === 1) return json({ type: 1 });
-      if (i.type === 2) return await handleCommand(i, env);
-      if (i.type === 3) return await handleComponent(i, env);
-      if (i.type === 5) return await handleModal(i, env, ctx);
+      if (i.type === 2) return await guardResponse(await handleCommand(i, env),env);
+      if (i.type === 3) return await guardResponse(await handleComponent(i, env),env);
+      if (i.type === 5) return await guardResponse(await handleModal(i, env, ctx),env);
       return msg({ content: "Unsupported." });
     } catch (e) { return msg({ content: "⚠️ Something went wrong: " + String(e.message).slice(0, 150) }); }
   },
