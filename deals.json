@@ -349,6 +349,26 @@
     },
     {
       "kind": "active_ask",
+      "query": "the plucky squire xbox series x s",
+      "category": "gaming",
+      "observed_at": "2026-11-07T14:21:32+00:00",
+      "date": "2026-11-07",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {}
+    },
+    {
+      "kind": "active_ask",
       "query": "little nightmares ii xbox series x",
       "category": "gaming",
       "observed_at": "2026-11-07T14:20:38+00:00",
@@ -422,7 +442,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T14:20:43+00:00",
+  "generated_utc": "2026-11-07T14:21:32+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -1287,7 +1307,27 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "the plucky squire xbox series x s",
+        "category": "gaming",
+        "observed_at": "2026-11-07T14:21:32+00:00",
+        "date": "2026-11-07",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {}
+      }
     },
     {
       "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
@@ -1772,8 +1812,8 @@
         "purpose": "active asking competition only",
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
-          "queries": 6,
-          "cached": 6,
+          "queries": 1,
+          "cached": 12,
           "candidates_with_samples": 11,
           "status": "ready",
           "errors": []
@@ -1797,15 +1837,15 @@
     "new": 0,
     "rescanned": 299,
     "price_changed": 0,
-    "previous_success": "2026-11-07T14:19:10+00:00",
-    "gap_minutes": 1.5,
+    "previous_success": "2026-11-07T14:20:43+00:00",
+    "gap_minutes": 0.8,
     "review_candidates": 50,
     "delivery_mode": "disabled",
     "execution": {
       "revision": "60642aeda9faefa2dfd6dde0316a71a8fb0c23f9",
-      "run_id": "42381129415",
+      "run_id": "42381203577",
       "event": "workflow_dispatch",
-      "parent_run_id": "42381005111"
+      "parent_run_id": null
     },
     "delivery_failures": 0,
     "pricing_products": 0,
