@@ -3,6 +3,60 @@
   "asking_catalog": [
     {
       "kind": "active_ask",
+      "query": "LEGO 21268",
+      "category": "lego",
+      "name_terms": [
+        "baby",
+        "house",
+        "minecraft",
+        "pig"
+      ],
+      "observed_at": "2026-11-07T14:31:27+00:00",
+      "date": "2026-11-07",
+      "sample_count": 27,
+      "listed_total_low": 13.82,
+      "listed_total_p25": 16.62,
+      "listed_total_median": 18.94,
+      "listed_total_p75": 22.18,
+      "listed_total_high": 30.19,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/227593954449",
+          "title": "LEGO Minecraft The Baby Pig House 21268 238pcs 7+  NEW",
+          "declared_condition": "new",
+          "item_price": 10.17,
+          "shipping": 3.65,
+          "listed_total": 13.82
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/377521785212",
+          "title": "Lego Minecraft 21268 The Baby Pig House New In Sealed Box",
+          "declared_condition": "new",
+          "item_price": 12.82,
+          "shipping": 2.26,
+          "listed_total": 15.08
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/168343356629",
+          "title": "LEGO Minecraft: The Baby Pig House (21268) Brand New-Free P&P!",
+          "declared_condition": "new",
+          "item_price": 15.08,
+          "shipping": 0.0,
+          "listed_total": 15.08
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 23
+      }
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 77239",
       "category": "lego",
       "name_terms": [
@@ -53,6 +107,58 @@
       ],
       "rejected": {
         "identity_or_condition": 21
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 40813",
+      "category": "lego",
+      "name_terms": [
+        "cat",
+        "lucky"
+      ],
+      "observed_at": "2026-11-07T14:31:27+00:00",
+      "date": "2026-11-07",
+      "sample_count": 26,
+      "listed_total_low": 23.76,
+      "listed_total_p25": 27.6,
+      "listed_total_median": 29.52,
+      "listed_total_p75": 33.17,
+      "listed_total_high": 50.62,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/198777035526",
+          "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
+          "declared_condition": "new",
+          "item_price": 21.5,
+          "shipping": 2.26,
+          "listed_total": 23.76
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/287701475626",
+          "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
+          "declared_condition": "new",
+          "item_price": 24.95,
+          "shipping": 0.0,
+          "listed_total": 24.95
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/358342770542",
+          "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
+          "declared_condition": "new",
+          "item_price": 24.99,
+          "shipping": 0.0,
+          "listed_total": 24.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 4
       }
     },
     {
@@ -110,6 +216,112 @@
     },
     {
       "kind": "active_ask",
+      "query": "LEGO 42238",
+      "category": "lego",
+      "name_terms": [
+        "desmo450",
+        "ducati",
+        "factory",
+        "motorcycle",
+        "mx"
+      ],
+      "observed_at": "2026-11-07T14:31:27+00:00",
+      "date": "2026-11-07",
+      "sample_count": 30,
+      "listed_total_low": 36.8,
+      "listed_total_p25": 46.37,
+      "listed_total_median": 49.02,
+      "listed_total_p75": 53.9,
+      "listed_total_high": 107.55,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/227587649247",
+          "title": "Lego Technic 42238 Ducati Desmo450 MX Factory Motorcycle - NEW & SEALED",
+          "declared_condition": "new",
+          "item_price": 32.0,
+          "shipping": 4.8,
+          "listed_total": 36.8
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/407283623910",
+          "title": "Lego Technic 42238 Ducati Desmo450 MX Factory Motorcycle - Brand New",
+          "declared_condition": "new",
+          "item_price": 35.0,
+          "shipping": 3.71,
+          "listed_total": 38.71
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/257836527529",
+          "title": "LEGO Technic Ducati Desmo450 MX Motorcycle Off-Road Motocross 42238 NEW",
+          "declared_condition": "new",
+          "item_price": 39.99,
+          "shipping": 0.0,
+          "listed_total": 39.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 4
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 72150",
+      "category": "lego",
+      "name_terms": [
+        "munchlax"
+      ],
+      "observed_at": "2026-11-07T14:31:27+00:00",
+      "date": "2026-11-07",
+      "sample_count": 27,
+      "listed_total_low": 44.64,
+      "listed_total_p25": 53.34,
+      "listed_total_median": 60.99,
+      "listed_total_p75": 67.31,
+      "listed_total_high": 79.95,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/407336572898",
+          "title": "Lego Pokemon: Munchlax #0446 (72150) Brand New ",
+          "declared_condition": "new",
+          "item_price": 41.26,
+          "shipping": 3.38,
+          "listed_total": 44.64
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/900062332690",
+          "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+          "declared_condition": "new",
+          "item_price": 44.99,
+          "shipping": 0.0,
+          "listed_total": 44.99
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/860106519681",
+          "title": "Lego Pokemon: Munchlax #0446 (72150) Brand New ",
+          "declared_condition": "new",
+          "item_price": 44.95,
+          "shipping": 2.94,
+          "listed_total": 47.89
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 2
+      }
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 75347",
       "category": "lego",
       "name_terms": [
@@ -162,6 +374,60 @@
     },
     {
       "kind": "active_ask",
+      "query": "LEGO 21345",
+      "category": "lego",
+      "name_terms": [
+        "70",
+        "camera",
+        "onestep",
+        "polaroid",
+        "sx"
+      ],
+      "observed_at": "2026-11-07T14:31:27+00:00",
+      "date": "2026-11-07",
+      "sample_count": 22,
+      "listed_total_low": 61.61,
+      "listed_total_p25": 66.56,
+      "listed_total_median": 70.47,
+      "listed_total_p75": 82.21,
+      "listed_total_high": 88.31,
+      "status": "indicative_only",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/206262846805",
+          "title": "LEGO Ideas 21345 Polaroid Onestep Sx-70 Camera | Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 57.9,
+          "shipping": 3.71,
+          "listed_total": 61.61
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/176280050233",
+          "title": "LEGO 21345 Ideas Polaroid OneStep SX-70 Camera",
+          "declared_condition": "new",
+          "item_price": 57.9,
+          "shipping": 4.06,
+          "listed_total": 61.96
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/178046114138",
+          "title": "LEGO 21345 Ideas Polaroid OneStep SX-70 Camera New & Sealed",
+          "declared_condition": "new",
+          "item_price": 59.99,
+          "shipping": 3.38,
+          "listed_total": 63.37
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 10
+      }
+    },
+    {
+      "kind": "active_ask",
       "query": "dangerous driving xbox one series x s",
       "category": "gaming",
       "name_terms": [],
@@ -182,6 +448,27 @@
       "rejected": {
         "identity_or_condition": 1
       }
+    },
+    {
+      "kind": "active_ask",
+      "query": "the plucky squire xbox series x s",
+      "category": "gaming",
+      "name_terms": [],
+      "observed_at": "2026-11-07T14:31:27+00:00",
+      "date": "2026-11-07",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {}
     },
     {
       "kind": "active_ask",
@@ -274,13 +561,13 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 5,
+    "indicative_asking_products": 10,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T14:30:03+00:00",
+  "generated_utc": "2026-11-07T14:31:32+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -335,7 +622,61 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Baby+Pig+House+21268&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21268",
+        "category": "lego",
+        "name_terms": [
+          "baby",
+          "house",
+          "minecraft",
+          "pig"
+        ],
+        "observed_at": "2026-11-07T14:31:27+00:00",
+        "date": "2026-11-07",
+        "sample_count": 27,
+        "listed_total_low": 13.82,
+        "listed_total_p25": 16.62,
+        "listed_total_median": 18.94,
+        "listed_total_p75": 22.18,
+        "listed_total_high": 30.19,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/227593954449",
+            "title": "LEGO Minecraft The Baby Pig House 21268 238pcs 7+  NEW",
+            "declared_condition": "new",
+            "item_price": 10.17,
+            "shipping": 3.65,
+            "listed_total": 13.82
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/377521785212",
+            "title": "Lego Minecraft 21268 The Baby Pig House New In Sealed Box",
+            "declared_condition": "new",
+            "item_price": 12.82,
+            "shipping": 2.26,
+            "listed_total": 15.08
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/168343356629",
+            "title": "LEGO Minecraft: The Baby Pig House (21268) Brand New-Free P&P!",
+            "declared_condition": "new",
+            "item_price": 15.08,
+            "shipping": 0.0,
+            "listed_total": 15.08
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 23
+        }
+      }
     },
     {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
@@ -443,7 +784,59 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 40813",
+        "category": "lego",
+        "name_terms": [
+          "cat",
+          "lucky"
+        ],
+        "observed_at": "2026-11-07T14:31:27+00:00",
+        "date": "2026-11-07",
+        "sample_count": 26,
+        "listed_total_low": 23.76,
+        "listed_total_p25": 27.6,
+        "listed_total_median": 29.52,
+        "listed_total_p75": 33.17,
+        "listed_total_high": 50.62,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/198777035526",
+            "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
+            "declared_condition": "new",
+            "item_price": 21.5,
+            "shipping": 2.26,
+            "listed_total": 23.76
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/287701475626",
+            "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
+            "declared_condition": "new",
+            "item_price": 24.95,
+            "shipping": 0.0,
+            "listed_total": 24.95
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/358342770542",
+            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
+            "declared_condition": "new",
+            "item_price": 24.99,
+            "shipping": 0.0,
+            "listed_total": 24.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 4
+        }
+      }
     },
     {
       "title": "DEWALT DW055PL-XJ Pocket Laser Distance Measurer // DWHT77100-XJ - \u00a339.99 - Free C&C",
@@ -586,7 +979,62 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Ducati+Desmo450+MX+Factory+Motorcycle+42238&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 42238",
+        "category": "lego",
+        "name_terms": [
+          "desmo450",
+          "ducati",
+          "factory",
+          "motorcycle",
+          "mx"
+        ],
+        "observed_at": "2026-11-07T14:31:27+00:00",
+        "date": "2026-11-07",
+        "sample_count": 30,
+        "listed_total_low": 36.8,
+        "listed_total_p25": 46.37,
+        "listed_total_median": 49.02,
+        "listed_total_p75": 53.9,
+        "listed_total_high": 107.55,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/227587649247",
+            "title": "Lego Technic 42238 Ducati Desmo450 MX Factory Motorcycle - NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 32.0,
+            "shipping": 4.8,
+            "listed_total": 36.8
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/407283623910",
+            "title": "Lego Technic 42238 Ducati Desmo450 MX Factory Motorcycle - Brand New",
+            "declared_condition": "new",
+            "item_price": 35.0,
+            "shipping": 3.71,
+            "listed_total": 38.71
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/257836527529",
+            "title": "LEGO Technic Ducati Desmo450 MX Motorcycle Off-Road Motocross 42238 NEW",
+            "declared_condition": "new",
+            "item_price": 39.99,
+            "shipping": 0.0,
+            "listed_total": 39.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 4
+        }
+      }
     },
     {
       "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ",
@@ -658,7 +1106,58 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 72150",
+        "category": "lego",
+        "name_terms": [
+          "munchlax"
+        ],
+        "observed_at": "2026-11-07T14:31:27+00:00",
+        "date": "2026-11-07",
+        "sample_count": 27,
+        "listed_total_low": 44.64,
+        "listed_total_p25": 53.34,
+        "listed_total_median": 60.99,
+        "listed_total_p75": 67.31,
+        "listed_total_high": 79.95,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/407336572898",
+            "title": "Lego Pokemon: Munchlax #0446 (72150) Brand New ",
+            "declared_condition": "new",
+            "item_price": 41.26,
+            "shipping": 3.38,
+            "listed_total": 44.64
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/900062332690",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 0.0,
+            "listed_total": 44.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/860106519681",
+            "title": "Lego Pokemon: Munchlax #0446 (72150) Brand New ",
+            "declared_condition": "new",
+            "item_price": 44.95,
+            "shipping": 2.94,
+            "listed_total": 47.89
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 2
+        }
+      }
     },
     {
       "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
@@ -782,7 +1281,61 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ideas+Polaroid+OneStep+SX-70+Camera+21345&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21345",
+        "category": "lego",
+        "name_terms": [
+          "70",
+          "camera",
+          "onestep",
+          "polaroid",
+          "sx"
+        ],
+        "observed_at": "2026-11-07T14:31:27+00:00",
+        "date": "2026-11-07",
+        "sample_count": 22,
+        "listed_total_low": 61.61,
+        "listed_total_p25": 66.56,
+        "listed_total_median": 70.47,
+        "listed_total_p75": 82.21,
+        "listed_total_high": 88.31,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/206262846805",
+            "title": "LEGO Ideas 21345 Polaroid Onestep Sx-70 Camera | Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 57.9,
+            "shipping": 3.71,
+            "listed_total": 61.61
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/176280050233",
+            "title": "LEGO 21345 Ideas Polaroid OneStep SX-70 Camera",
+            "declared_condition": "new",
+            "item_price": 57.9,
+            "shipping": 4.06,
+            "listed_total": 61.96
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/178046114138",
+            "title": "LEGO 21345 Ideas Polaroid OneStep SX-70 Camera New & Sealed",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 3.38,
+            "listed_total": 63.37
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 10
+        }
+      }
     },
     {
       "title": "LEGO City Fire Station with Fire Engine 60414 Truck Model, Dog Animal Figure & 5 Minifigures",
@@ -981,7 +1534,28 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "the plucky squire xbox series x s",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:31:27+00:00",
+        "date": "2026-11-07",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {}
+      }
     },
     {
       "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
@@ -1489,8 +2063,8 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 6,
-          "cached": 0,
-          "candidates_with_samples": 5,
+          "cached": 6,
+          "candidates_with_samples": 10,
           "status": "ready",
           "errors": []
         }
@@ -1502,8 +2076,8 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-07T14:20:24.307Z",
-        "last_success": "2026-11-07T14:20:24.307Z"
+        "last_attempt": "2026-11-07T14:30:24.591Z",
+        "last_success": "2026-11-07T14:30:24.591Z"
       },
       "cash_floors": {
         "automatic_source": false,
@@ -1513,13 +2087,13 @@
     "new": 0,
     "rescanned": 299,
     "price_changed": 0,
-    "previous_success": "2026-11-07T14:26:41+00:00",
-    "gap_minutes": 3.3,
+    "previous_success": "2026-11-07T14:30:03+00:00",
+    "gap_minutes": 1.4,
     "review_candidates": 50,
     "delivery_mode": "disabled",
     "execution": {
       "revision": "500f642d054634b1448f33815a3867f85751f0bf",
-      "run_id": "42381842846",
+      "run_id": "42381968714",
       "event": "workflow_dispatch",
       "parent_run_id": null
     },
