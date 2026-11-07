@@ -1876,6 +1876,64 @@
     },
     {
       "kind": "active_ask",
+      "query": "hori battle pad gamecube style controller zelda nintendo switch",
+      "category": "gaming",
+      "name_terms": [],
+      "observed_at": "2026-11-07T14:49:52+00:00",
+      "date": "2026-11-07",
+      "sample_count": 2,
+      "listed_total_low": 25.99,
+      "listed_total_p25": 26.24,
+      "listed_total_median": 26.49,
+      "listed_total_p75": 26.74,
+      "listed_total_high": 26.99,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|277231731850|0",
+          "seller": "itemdropuk",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/277231731850",
+          "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+          "declared_condition": "new",
+          "item_price": 25.99,
+          "shipping": 0.0,
+          "listed_total": 25.99
+        },
+        {
+          "item_id": "v1|377214090130|0",
+          "seller": "maponus-gaming",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/377214090130",
+          "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+          "declared_condition": "new",
+          "item_price": 26.99,
+          "shipping": 0.0,
+          "listed_total": 26.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 5
+      }
+    },
+    {
+      "kind": "active_ask",
       "query": "dangerous driving xbox one series x s",
       "category": "gaming",
       "name_terms": [],
@@ -1920,16 +1978,16 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 10,
+    "indicative_asking_products": 11,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 10,
+    "ask_estimated_products": 11,
     "estimated_opportunities": 0,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T15:23:00+00:00",
+  "generated_utc": "2026-11-07T15:53:41+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -6201,6 +6259,176 @@
       }
     },
     {
+      "title": "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon",
+      "url": "https://www.hotukdeals.com/deals/hori-battle-pad-gamecube-style-controller-zelda-switch-wcoupon-5022175",
+      "category": "gaming",
+      "item_price": 14.99,
+      "landed_cost": null,
+      "breakeven_sell": 22.04,
+      "sell_for_minimum_profit": 31.48,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HORI+Battle+Pad+GameCube+Style+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "hori battle pad gamecube style controller zelda nintendo switch",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:49:52+00:00",
+        "date": "2026-11-07",
+        "sample_count": 2,
+        "listed_total_low": 25.99,
+        "listed_total_p25": 26.24,
+        "listed_total_median": 26.49,
+        "listed_total_p75": 26.74,
+        "listed_total_high": 26.99,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|277231731850|0",
+            "seller": "itemdropuk",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277231731850",
+            "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99
+          },
+          {
+            "item_id": "v1|377214090130|0",
+            "seller": "maponus-gaming",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377214090130",
+            "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+            "declared_condition": "new",
+            "item_price": 26.99,
+            "shipping": 0.0,
+            "listed_total": 26.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 5
+        }
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "hori battle pad gamecube style controller zelda nintendo switch",
+        "observed_at": "2026-11-07T14:49:52+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 25.99,
+        "competition_high": 26.99,
+        "estimated_resale": 25.21,
+        "estimated_range": [
+          23.39,
+          25.99
+        ],
+        "suggested_listing": 25.98,
+        "quick_sale_model": 23.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 14.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 2.68,
+        "max_landed_buy": 9.67,
+        "max_item_buy": null,
+        "delivery_headroom": -5.32,
+        "fees": 3.58,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.76,
+        "estimated_opportunity": false,
+        "signal": "QUALIFIED ASK-BASED ESTIMATE",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed cap not demonstrated",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|277231731850|0",
+            "seller": "itemdropuk",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277231731850",
+            "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377214090130|0",
+            "seller": "maponus-gaming",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377214090130",
+            "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+            "declared_condition": "new",
+            "item_price": 26.99,
+            "shipping": 0.0,
+            "listed_total": 26.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      }
+    },
+    {
       "title": "Tilswall Paint Sprayer Shark700, Fits Makita 18V (No Battery), White - Discount at Checkout - Sold by Tilswall Direct EU / FBA",
       "url": "https://www.hotukdeals.com/deals/tilswall-paint-sprayer-shark700-fits-makita-18v-no-battery-white-with-checkout-discount-sold-by-tilswall-direct-eu-fba-5021941",
       "category": "tools",
@@ -6215,24 +6443,6 @@
       "priority": 15,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tilswall+Paint+Sprayer+Shark700%2C+Fits+Makita+18V+%28No+Battery%29%2C+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "TopSpin 2K25 - PS4",
-      "url": "https://www.hotukdeals.com/deals/topspin-2k25-ps4-5025717",
-      "category": "gaming",
-      "item_price": 6.17,
-      "landed_cost": null,
-      "breakeven_sell": 11.63,
-      "sell_for_minimum_profit": 21.07,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T15:22:45+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=TopSpin+2K25&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6272,24 +6482,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "ARMAF Club De Nuit Intense Eau de Toilette for Men, 105 ml (Pack of 1)",
-      "url": "https://www.hotukdeals.com/deals/armaf-club-de-nuit-intense-eau-de-toilette-for-men-105-ml-pack-of-1-5025061",
-      "category": "fragrance",
-      "item_price": 23.99,
-      "landed_cost": null,
-      "breakeven_sell": 33.55,
-      "sell_for_minimum_profit": 45.04,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T15:22:45+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=ARMAF+Club+De+Nuit+Intense+Eau+de+Toilette+for+Men%2C+105+ml+%28Pack+of+1%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "DEWALT DW055PL-XJ Pocket Laser Distance Measurer // DWHT77100-XJ - \u00a339.99 - Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-dw055pl-xj-pocket-laser-distance-measurer-dwht77100-xj-ps3999-free-cc-5024457",
       "category": "tools",
@@ -6326,42 +6518,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Milwaukee M18B4 18V M18 4.0Ah Battery",
-      "url": "https://www.hotukdeals.com/deals/milwaukee-m18b4-18v-m18-40ah-battery-5025323",
-      "category": "tools",
-      "item_price": 29.99,
-      "landed_cost": null,
-      "breakeven_sell": 42.54,
-      "sell_for_minimum_profit": 56.12,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T15:22:45+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Milwaukee+M18B4+18V+M18+4.0Ah+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Gucci Guilty For Him Eau de Toilette 50ml - W/code",
-      "url": "https://www.hotukdeals.com/deals/gucci-guilty-for-him-eau-de-toilette-50ml-wcode-5025724",
-      "category": "fragrance",
-      "item_price": 31.5,
-      "landed_cost": null,
-      "breakeven_sell": 42.54,
-      "sell_for_minimum_profit": 57.64,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T15:22:45+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gucci+Guilty+For+Him+Eau+de+Toilette+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "LEGO Super Mario Game Boy 72046 - Used like new Amazon Resale",
       "url": "https://www.hotukdeals.com/deals/lego-super-mario-game-boy-72046-5019887",
       "category": "lego",
@@ -6377,6 +6533,24 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Super+Mario+Game+Boy+72046&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Rabanne Fame Gift Set EDP Spray 30ml + Mascara - W/code",
+      "url": "https://www.hotukdeals.com/deals/rabanne-fame-gift-set-edp-spray-30ml-mascara-wcode-5025733",
+      "category": "fragrance",
+      "item_price": 35.2,
+      "landed_cost": null,
+      "breakeven_sell": 46.97,
+      "sell_for_minimum_profit": 63.85,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T15:53:28+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rabanne+Fame+Gift+Set+EDP+Spray+30ml+%2B+Mascara&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6398,24 +6572,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Rabanne 1 Million Lucky Eau de Toilette 100ml - w/Code - \u00a334.83 Via Student Discount",
-      "url": "https://www.hotukdeals.com/deals/rabanne-1-million-lucky-eau-de-toilette-100ml-ps3483-student-discount-5025345",
-      "category": "fragrance",
-      "item_price": 38.7,
-      "landed_cost": null,
-      "breakeven_sell": 51.16,
-      "sell_for_minimum_profit": 69.71,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T15:22:45+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rabanne+1+Million+Lucky+Eau+de+Toilette+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ - Sold by discount4you (VAT) / FBA",
       "url": "https://www.hotukdeals.com/deals/dewalt-18v-xr-4ah-battery-dcb182-xj-5022064",
       "category": "tools",
@@ -6431,24 +6587,6 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "New Balance Black Friday Outlet Sale Up to 50% + 10% Off W/DFC Code (free sign up) + free members delivery W/free sign up - eg 237 trainers",
-      "url": "https://www.hotukdeals.com/deals/new-balance-black-friday-outlet-sale-up-to-50-10-off-wdfc-code-free-sign-up-free-members-delivery-wfree-sign-up-eg-237-trainers-5025719",
-      "category": "trainers",
-      "item_price": 43.2,
-      "landed_cost": null,
-      "breakeven_sell": 57.96,
-      "sell_for_minimum_profit": 78.96,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T15:22:45+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=New+Balance+Black+Friday+Outlet+Sale+Up+to+50%25+%2B+10%25+Off&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6485,6 +6623,24 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCB184-XJ+18V+5.0Ah+XR+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Armani Stronger With You Amber Eau de Toilette Spray 100ml with code",
+      "url": "https://www.hotukdeals.com/deals/armani-stronger-with-you-amber-eau-de-toilette-spray-100ml-with-code-5022278",
+      "category": "fragrance",
+      "item_price": 49.5,
+      "landed_cost": null,
+      "breakeven_sell": 64.09,
+      "sell_for_minimum_profit": 87.8,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T15:53:28+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Armani+Stronger+With+You+Amber+Eau+de+Toilette+Spray+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6589,23 +6745,6 @@
       "priority": 5,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Fire+Men%27s+Trainers%2C+Size+9.5+%28Sizes+8%2C+9%2C+11+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "GameSir G7 Pro Controller, Black - W/Code",
-      "url": "https://www.hotukdeals.com/deals/gamesir-g7-pro-5025704",
-      "category": "gaming",
-      "item_price": 55.99,
-      "landed_cost": 55.99,
-      "breakeven_sell": 70.44,
-      "sell_for_minimum_profit": 96.9,
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 5,
-      "first_seen": "2026-11-07T14:48:15+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=GameSir+G7+Pro+Controller%2C+Black&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6758,6 +6897,24 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Men%27s+Squadra+25+Shorts%2C+Black%2FWhite%2C+XS&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "TopSpin 2K25 - PS4",
+      "url": "https://www.hotukdeals.com/deals/topspin-2k25-ps4-5025717",
+      "category": "gaming",
+      "item_price": 6.17,
+      "landed_cost": null,
+      "breakeven_sell": 11.63,
+      "sell_for_minimum_profit": 21.07,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T15:22:45+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=TopSpin+2K25&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6957,12 +7114,66 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Unisex+Tensaur+Sport+3.0+Kids+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Calvin Klein Eternity 100ml Aftershave (Free C&C)",
+      "url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-100ml-aftershave-5025466",
+      "category": "fragrance",
+      "item_price": 14.99,
+      "landed_cost": null,
+      "breakeven_sell": 22.76,
+      "sell_for_minimum_profit": 32.35,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+100ml+Aftershave+%28Free+C%26C%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
+      "url": "https://www.hotukdeals.com/deals/nike-chelsea-fc-202425-home-shirt-junior-5024008",
+      "category": "trainers",
+      "item_price": 15.0,
+      "landed_cost": null,
+      "breakeven_sell": 23.69,
+      "sell_for_minimum_profit": 33.41,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Chelsea+FC+2024%2F25+Home+Shirt+Junior&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Women's Nike Calm Slide, Sail, Size 3.5 - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/womens-nike-womens-calm-slide-sail-size-35-free-cc-5021691",
+      "category": "trainers",
+      "item_price": 15.0,
+      "landed_cost": null,
+      "breakeven_sell": 23.69,
+      "sell_for_minimum_profit": 33.41,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Women%27s+Nike+Calm+Slide%2C+Sail%2C+Size+3.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     }
   ],
   "stats": {
-    "scanned": 300,
+    "scanned": 301,
     "priced": 4,
-    "unpriced": 296,
+    "unpriced": 297,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -6975,11 +7186,11 @@
     "sold_valued": 0,
     "reference_only": 4,
     "online_eligible": 223,
-    "under_cap_known_delivery": 6,
+    "under_cap_known_delivery": 5,
     "delivery_known": 7,
-    "ask_valued": 10,
+    "ask_valued": 11,
     "estimated_opportunities": 0,
-    "qualified_delivery_unknown": 10,
+    "qualified_delivery_unknown": 11,
     "errors": [
       "Private tier unavailable or invalid; using starter cap (community index 0)"
     ],
@@ -6988,12 +7199,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 34,
+        "duplicates": 30,
         "old_dropped": 115,
         "age_unknown": 0,
-        "missing_price_or_category": 91,
+        "missing_price_or_category": 94,
         "ambiguous_price": 2,
-        "page_requests": 14
+        "page_requests": 12
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -7001,8 +7212,8 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 0,
-          "cached": 12,
-          "candidates_with_samples": 10,
+          "cached": 13,
+          "candidates_with_samples": 11,
           "status": "ready",
           "errors": []
         }
@@ -7014,26 +7225,26 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-07T15:20:24.339Z",
-        "last_success": "2026-11-07T15:20:24.339Z"
+        "last_attempt": "2026-11-07T15:50:24.521Z",
+        "last_success": "2026-11-07T15:50:24.521Z"
       },
       "cash_floors": {
         "automatic_source": false,
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 15,
-    "rescanned": 285,
+    "new": 10,
+    "rescanned": 291,
     "price_changed": 0,
-    "previous_success": "2026-11-07T14:53:15+00:00",
-    "gap_minutes": 29.5,
+    "previous_success": "2026-11-07T15:22:46+00:00",
+    "gap_minutes": 30.7,
     "review_candidates": 50,
     "delivery_mode": "live",
     "execution": {
       "revision": "d24042d37974c7a466e153cd2d19d9b2d6797722",
-      "run_id": "42386075438",
+      "run_id": "42388534027",
       "event": "workflow_dispatch",
-      "parent_run_id": "42383574108"
+      "parent_run_id": "42386075438"
     },
     "delivery_failures": 0,
     "pricing_products": 0,
