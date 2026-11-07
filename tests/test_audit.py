@@ -13,17 +13,17 @@ class Fees(unittest.TestCase):
     def test_private_list_price_inverts_bpf(self):
         lp = F.private_list_price(104.70); self.assertAlmostEqual(lp, 100.0, delta=0.01)
     def test_business_fee_trainers_65(self):
-        # 11.9% of £65 = 7.735, + £0.40 per order, + 0.35% regulatory = 0.2275 -> £8.36
-        self.assertEqual(F.ebay_business_fee(65, "trainers"), 8.36)
+        # Published base = 8.3625; 20% non-reclaiming fee VAT -> £10.03
+        self.assertEqual(F.ebay_business_fee(65, "trainers"), 10.03)
     def test_depop_paypal(self):
         self.assertEqual(F.platform_fee("depop", 40), 1.46)      # 2.9% + 30p
         self.assertEqual(F.platform_fee("fb", 40), 1.46)         # PayPal G&S 2.9% + 30p
         self.assertEqual(F.platform_fee("fb_cash", 40), 0.0)
         self.assertEqual(F.platform_fee("vinted", 40), 0.0)
     def test_net_worked_example(self):
-        # sell £65 trainers, buy £30: fee 8.36, post 3.52, pack 0.50, returns 1.95 -> 20.67
+        # sell £65 trainers, buy £30: VAT-inclusive fee 10.03, post 3.52, pack 0.50, returns 1.95 -> 19.00
         b = F.net_profit(65, 30, "ebay_business", "trainers", C.postage_for("trainers"), C.PACKAGING, C.RETURNS_ALLOWANCE)
-        self.assertEqual(b.net, 20.67)
+        self.assertEqual(b.net, 19.00)
     def test_vinted_buyer_pays_postage(self):
         b = F.net_profit(40, 20, "vinted", "trainers", 3.52, 0.5, 0.03); self.assertEqual(b.postage, 0.0)
 
@@ -57,7 +57,7 @@ class Matching(unittest.TestCase):
 
 class Grading(unittest.TestCase):
     def deal(self, **k):
-        base = dict(title="Samba OG", url="u", buy_price=32.5, category="trainers", source="t", target=65, stretch=70, comp_age_days=2)
+        base = dict(title="Samba OG", url="u", buy_price=32.5, category="trainers", source="t", target=65, stretch=70, comp_age_days=2, comp_has_evidence=True, evidence_type="sold", floor_age_days=0, velocity_age_days=0, delivery_known=True, online_eligible=True, offer_verified=True, availability="live")
         base.update(k); return G.Deal(**base)
     def test_worst_includes_fees_when_floor_unverified(self):
         r = G.grade(self.deal(), 200)

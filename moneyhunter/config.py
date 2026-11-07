@@ -82,3 +82,11 @@ CATEGORY_KEYWORDS = {
 }
 
 USER_AGENT = "moneyhunter/0.1 (+personal deal scanner)"
+
+# Evidence/operational limits [H]; independent clocks, never refreshed by asking prices.
+MAX_FLOOR_AGE_DAYS = 1
+MAX_VELOCITY_AGE_DAYS = 7
+MAX_OFFER_AGE_DAYS = 1
+MAX_FEED_AGE_DAYS = 7
+MAX_SCAN_GAP_MINUTES = 90
+EBAY_FEE_VAT = 0.20   # published rates exclude VAT; conservative non-reclaiming seller

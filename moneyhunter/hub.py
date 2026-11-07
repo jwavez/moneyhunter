@@ -26,11 +26,12 @@ NOT_RESELLABLE_RE = re.compile(
     r"e-?scooter|electric scooter|scooter|e-?bike)\b", re.I)   # [H] digital, pre-orders, discs, scooters never flip fast
 CAT_LABEL = {"trainers": "👟 Trainers", "sportswear": "👕 Sportswear", "lego": "🧱 LEGO", "gaming": "🎮 Games & consoles",
              "tools": "🛠️ Tools", "fragrance": "🧴 Fragrance", "tech": "🎧 Tech"}
+DELIVERY_FAILURES = []
 WATCH_PER_CHANNEL = 3   # [H] max WATCH cards per category channel per run
 
 def resellable(it) -> bool:
     """Physical goods in a category we price; never food, household, consumables, digital or rentals."""
-    return it.get("category") in CAT_LABEL and not NOT_RESELLABLE_RE.search(it.get("title") or "")
+    return it.get("category") in CAT_LABEL and it.get("online_eligible", hotukdeals.online_status(it.get("title", ""))) and not NOT_RESELLABLE_RE.search(it.get("title") or "")
 
 def sell_needed(buy: float, category: str):
     """From the fee engine at this buy price: breakeven sell price, and the sell price for £8 net and 40% ROI."""
@@ -49,14 +50,15 @@ def sell_needed(buy: float, category: str):
 def watch_card(it, prices):
     from . import intel as I
     from . import matching as M
-    be, tgt, post = sell_needed(it["price"], it["category"])
+    be, tgt, post = sell_needed(it["price"] + (it.get("inbound_delivery") or 0), it["category"])
     t = M.norm(it["title"] + " " + it.get("desc", ""))
     kids = it["category"] in ("trainers", "sportswear") and any(M.has(t, w) for w in M.KIDS)
     heat = f" · 🌡️ {it['heat']}°" if it.get("heat") is not None else ""
     e = {"author": {"name": f"{CAT_LABEL[it['category']]} · WATCH · not priced"},
          "title": ("👀 " + it["title"])[:250], "url": it["url"], "color": 0x64748B,
          "description": f"**£{it['price']:.2f}** at {it.get('merchant') or 'retailer'}{heat}\n"
-                        "No verified sold price yet, so no profit is shown. Check eBay sold for this exact item."
+                        "No BUY claim: exact sold evidence, retailer stock and delivery need review."
+                        + (" Delivery unknown: calculations are item-only lower bounds." if it.get("inbound_delivery") is None else " Delivery included in calculations.")
                         + ("\n⚠️ Kids' sizes: adult sold prices do not apply." if kids else ""),
          "fields": [{"name": "Breakeven sell price", "value": f"£{be:.2f}", "inline": True},
                     {"name": "Sell price for a deal", "value": f"£{tgt:.2f}+", "inline": True},
@@ -64,10 +66,10 @@ def watch_card(it, prices):
                     {"name": "Days to sell", "value": S.dts_label(it["category"], it.get("days_to_sell")), "inline": True},
                     {"name": "Sell on", "value": S.sell_on_value(it["category"], tgt), "inline": True},
                     {"name": "Max hold", "value": S.HOLD_TIP, "inline": False}]
-                   + ([{"name": "Quick-cash floor", "value": "CeX (lower price, same-day cash). Check the CeX button before buying.", "inline": False}]
+                   + ([{"name": "Quick-cash floor", "value": "Exact CeX CASH/bank quote only, subject to testing. Voucher value is not cash; online payout is not same-day guaranteed.", "inline": False}]
                       if it["category"] in S.CEX_FLOOR else [])
                    + [{"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
-         "footer": {"text": f"Sell prices after eBay business fees, £{post:.2f} postage, £0.50 packaging, 3% returns · deal = £8 net and 40% ROI"}}
+         "footer": {"text": f"Sell prices after eBay business fees incl 20% VAT, £{post:.2f} postage, £0.50 packaging, 3% returns · deal = £8 net and 40% ROI"}}
     if it.get("thumb"): e["thumbnail"] = {"url": it["thumb"]}
     return e
 
@@ -91,8 +93,11 @@ def send(ch, embeds, components=None, dry=False, content=""):
     h = hooks()
     url = h.get(ch) or (os.getenv(D.ENV) if ch == "bot-status" else None)
     if not url and not dry:
-        print(f"[hub] no webhook for #{ch}; skipped"); return 0
+        print(f"[hub] no webhook for #{ch}; skipped")
+        if ch in ("buy-now", "verify", "bot-status"): DELIVERY_FAILURES.append(f"No delivery endpoint configured for #{ch}")
+        return 0
     st = D.post(embeds, content=content, dry_run=dry or not url, components=components, url=url)
+    if url and not dry and not ok(st): DELIVERY_FAILURES.append(f"Delivery to #{ch} failed (HTTP {st or 'network/disabled'})")
     print(f"[hub] #{ch}: {st or 'dry-run'}"); return st
 
 def ok(st): return bool(st) and 200 <= st < 300
@@ -119,31 +124,37 @@ def buttons(it):
     elif c in S.CEX_FLOOR: row.append(b("CeX price", S.cex_url(q), "💷"))
     return [{"type": 1, "components": row}]
 
+def read_prices():
+    if not os.path.exists(PRICES): return {}
+    with open(PRICES) as f: prices = json.load(f)
+    if not isinstance(prices, dict): raise ValueError("invalid price history; refusing reset")
+    return prices
+
 def price_drops(raws, now=None):
     """Compare to prices seen in earlier scans (state branch prices.json)."""
     now = now or dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    old = json.load(open(PRICES)) if os.path.exists(PRICES) else {}
+    old = read_prices()
     drops = []
     for it in raws:
         k = title_key(it["title"]); prev = old.get(k)
         if prev and it["price"] <= prev["price"] * (1 - DROP_PCT / 100):
             drops.append((it, prev))
-        if not prev or it["price"] < prev["price"] or (prev.get("ts", "") < now[:10]):
-            low = min(it["price"], prev["price"]) if prev else it["price"]
-            old[k] = {"price": it["price"], "low": low, "ts": now, "url": it["url"]}
+        low = min(it["price"], prev.get("low", prev["price"])) if prev else it["price"]
+        old[k] = {"price": it["price"], "low": low, "ts": now, "url": it["url"]}
     cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=45)).isoformat()
     old = {k: v for k, v in old.items() if v.get("ts", "") >= cutoff}   # keep 45 days
     return drops, old
 
 def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     """Post everything new. Returns keys to add to seen."""
+    DELIVERY_FAILURES.clear()
     new = set()
     # 1) graded A/B cards -> buy-now / verify + category channel
     n = 0
     for d, r in graded:
         g = r.grade[0]
         if g not in "AB" or r.cost > E.community_cap(): continue
-        k = hotukdeals.dedupe_key(d.title, d.buy_price)
+        k = "alert:" + g + ":" + hotukdeals.dedupe_key(d.title, d.buy_price)
         if k in seen or n >= max_cards: continue
         card, comps = E.deal_card(d, r), E.link_buttons(d)
         st = send("buy-now" if g == "A" else "verify", card, comps, dry)
@@ -156,7 +167,9 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         k = "pe:" + it["url"]
         if k in seen: continue
         if PRICE_ERROR_RE.search(it["title"]) or (it.get("heat") or 0) >= ERROR_HEAT:
-            if not hotukdeals.is_live(it["url"]): new.add(k); continue
+            status = hotukdeals.live_status(it["url"])
+            if status == "expired": new.add(k); continue
+            if status != "live": continue  # unknown must be retryable, never marked sent/expired
             st = send("price-errors", [mini(it, 0xF97316, "⚡ ")], buttons(it), dry)
             if ok(st) or dry: new.add(k)
     # 3) trending digest: new hot items, one message, up to 10
@@ -177,16 +190,18 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
                 if ok(send(ch, [mini(it, 0xEF4444, "🔥 ")], buttons(it), dry)) or dry: new.add("cat:" + it["url"])
     # 3b) WATCH cards: relevant new deals per category channel (no profit claimed)
     graded_urls = {d.url for d, r in graded if r.grade[0] in "AB"}
-    prices_now = json.load(open(PRICES)) if os.path.exists(PRICES) else {}
+    prices_now = read_prices()
     per = {}
-    for it in sorted(raws, key=lambda x: -(x.get("heat") or 0)):
+    for it in sorted(raws, key=lambda x: (-x.get("review_priority", 0), -(x.get("heat") or 0))):
         ch = CAT_CHANNEL.get(it.get("category"))
         k = "w:" + it["url"]
         if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in graded_urls or not resellable(it): continue
         if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
-        if it["price"] > E.community_cap() * 2: continue
+        if it["price"] + (it.get("inbound_delivery") or 0) > E.community_cap(): continue
         if re.search(r"in.?store|pre.?order|tester", it["title"], re.I): continue   # no car; no pre-orders or testers
-        if not hotukdeals.is_live(it["url"]): new.add(k); continue
+        status = hotukdeals.live_status(it["url"])
+        if status == "expired": new.add(k); continue
+        if status != "live": continue
         if ok(send(ch, [watch_card(it, prices_now)], buttons(it), dry)) or dry:
             new.add(k); per[ch] = per.get(ch, 0) + 1
     # 3c) quiet-market pulse: no A/B this scan -> one note per hour [H]
@@ -203,9 +218,12 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         e = mini(it, 0x06B6D4, "📉 ")
         e["description"] = f"**£{prev['price']:.2f} → £{it['price']:.2f}** (−{(1 - it['price'] / prev['price']) * 100:.0f}%) since {prev['ts'][:10]}\n" + e["description"].split("\n", 1)[1]
         if ok(send("price-drops", [e], buttons(it), dry)) or dry: new.add(k); n_drops += 1
-    if not dry: json.dump(prices, open(PRICES, "w"))
+    if not dry:
+        from .evidence import atomic_write
+        atomic_write(PRICES, prices)
     # 5) #bot-status: errors immediately, otherwise one summary per hour (the :07 run) [H]
-    errs = stats.get("errors") or []
+    stats["errors"] = list(dict.fromkeys((stats.get("errors") or []) + DELIVERY_FAILURES))[:20]
+    errs = stats["errors"]
     if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
         e = E.scan_summary(stats, near)
         e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
@@ -214,6 +232,8 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             e["color"] = 0xEF4444; e["title"] = "⚠️ Scan problem · " + e["title"]
             e["fields"].insert(0, {"name": "Errors", "value": "\n".join(errs)[:1000], "inline": False})
         send("bot-status", [e], None, dry)
+    stats["delivery_failures"] = len(DELIVERY_FAILURES)
+    stats["errors"] = list(dict.fromkeys(stats["errors"] + DELIVERY_FAILURES))[:20]
     return new
 
 def digest(deals_path, dry=False):
@@ -223,7 +243,7 @@ def digest(deals_path, dry=False):
     lines = [f"`{'✅' if x['under_cap'] else '£60+'}` [{x['title'][:60]}]({x['url']}) · £{x['buy']:.2f} → £{x['target']:.2f} · net {x['net']:+.2f} · max buy £{x['max_buy']:.2f} · {(x['why'] or ['-'])[0]}" for x in near]
     s = d["stats"]
     return send("near-misses", [{"title": f"🟠 Daily near-miss digest · {dt.date.today():%a %d %b}", "color": 0xF59E0B,
-        "description": ("These nearly passed. If one drops to its **max buy**, it becomes a deal.\n\n" + "\n".join(lines))[:4000] if lines else "No priced near-misses in the last scan.",
+        "description": ("Research candidates (may have major evidence blockers). The financial ceiling is not approval: exact evidence, delivery, availability and exit checks must also pass.\n\n" + "\n".join(lines))[:4000] if lines else "No priced near-misses in the last scan.",
         "footer": {"text": f"{s['scanned']} scanned · {s['priced']} priced · {s['A']} buy · {s['B']} verify"}}], None, dry)
 
 def leaderboard(api_url, dry=False):

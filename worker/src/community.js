@@ -14,7 +14,7 @@ export const flipPanel = () => ({ embeds: [{ title: "📒 Flip log", color: 0x22
   footer: { text: "Weekly leaderboard every Monday 9am" } }],
   components: [row({ type: 2, style: 3, label: "Log a flip", custom_id: "fl:open", emoji: { name: "📒" } }, { type: 2, style: 2, label: "Leaderboard", custom_id: "lb:show", emoji: { name: "🏆" } })] });
 export const compsPanel = () => ({ embeds: [{ title: "🧾 Submit a sold price", color: 0x3b82f6,
-  description: "Seen what an item **actually sold for** (eBay sold, Vinted sold, CeX)? Submit it and help price more deals for everyone.\n" +
+  description: "Seen what an item **actually sold for** (actual sold listing; a CeX cash quote is separate floor evidence)? Submit it and help price more deals for everyone.\n" +
     "Submissions are reviewed before they are used. Please include a link to the sold listing.", footer: { text: "+5 XP per accepted submission" } }],
   components: [row({ type: 2, style: 1, label: "Submit sold price", custom_id: "sc:open", emoji: { name: "🧾" } })] });
 

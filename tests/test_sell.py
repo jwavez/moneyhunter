@@ -15,7 +15,7 @@ def test_routes_map():
 def test_fast_routing():
     assert S.fast_route("A", "lego", 7) and S.fast_route("B", "tools", 10)
     assert not S.fast_route("A", "lego", 21) and not S.fast_route("R", "lego", 3)
-    assert S.fast_route("B", "trainers", None) and S.fast_route("A", "gaming", None)
+    assert not S.fast_route("B", "trainers", None) and not S.fast_route("A", "gaming", None)
     assert not S.fast_route("A", "lego", None)
     assert S.dts_label("lego", 5).startswith("⚡ FAST")
 

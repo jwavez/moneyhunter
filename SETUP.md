@@ -1,6 +1,6 @@
 # MONEYHUNTER setup (free, runs without your computer)
 
-Everything runs on free tiers: GitHub Actions scans every 30 min, a Cloudflare Worker answers Discord slash commands.
+Everything runs on free tiers: GitHub Actions targets every 30 min (best effort; jobs may be delayed/dropped), a Cloudflare Worker answers Discord slash commands.
 Your ledger, UC and tax data stay on your own machine (git-ignored) and are never uploaded.
 
 ## 1. GitHub (scanner) ~10 min
@@ -11,7 +11,7 @@ Your ledger, UC and tax data stay on your own machine (git-ignored) and are neve
    - `MONEYHUNTER_DISCORD_WEBHOOK` (your deals-channel webhook URL)
    - `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET` (when eBay approves your developer account)
 5. Repo > Settings > Actions > General > Workflow permissions: **Read and write**.
-6. Actions tab > moneyhunter-scan > **Run workflow** once. It creates a `state` branch with `deals.json`, `seen.json`, `comps.csv`.
+6. Actions tab > moneyhunter-scan > **Run workflow** once. It creates a `state` branch with deal exports, alert state, reference comps, reviewed evidence and operational scan health.
 7. Create a fine-grained token for the bot's /scan button: github.com/settings/personal-access-tokens > Fine-grained >
    only this repo > Permissions: **Actions: Read and write**. Copy it (used in step 3.4).
 
@@ -36,7 +36,9 @@ Your ledger, UC and tax data stay on your own machine (git-ignored) and are neve
 `/deal` latest deals · `/price item [buy]` sold range + max buy · `/calc buy sell [platform] [category]` · `/scan` (Manage Server) · `/help`
 
 ## Keeping it alive
-Public repos auto-disable scheduled workflows after 60 days with no repo activity. The workflow's own keepalive step calls GitHub's enable-workflow API when main has no commits for 45 days. If it ever stops, Actions tab > Enable workflow.
+Public repos auto-disable scheduled workflows after 60 days with no repo activity. A disabled workflow cannot revive itself; re-enable it through GitHub when needed. The scanner reports the previous-success gap and emits a warning after 90 minutes, but cannot notify while it is not running. GitHub cron can delay/drop jobs. Inspect the Actions history and job summaries; a reliable external scheduler would need a separate approved setup, not a promise of punctuality.
+
+The public scanner reads only a typed private community tier index. Invalid/missing data falls back visibly to index 0 (engine T1 Scout, £60 cap). It does not read the personal ledger. Review `docs/EVIDENCE_PIPELINE.md` before importing public evidence or changing source configuration.
 
 ## Pinned guides
 `DISCORD_BOT_TOKEN=... python3 tools/post_guides.py` posts+pins a "Where to sell" guide per category channel plus #fast-movers / #price-drops explainers (idempotent; EDIT=1 to update). `EDIT=1 node tools/post_pinned.mjs` refreshes welcome/control panel.

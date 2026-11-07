@@ -73,4 +73,4 @@ def active_comp(comp, items: list, check, today=None):
     return dataclasses.replace(comp, low=low, high=high,
         evidence=f"{len(prices)} matched new UK listings, 25th pct ask £{p25:.2f} (ACTIVE asks, not sold)",
         source=f"eBay UK active listings (live) {(today or dt.date.today()).isoformat()}",
-        sold_90d=None, sell_through=None, as_of=today or dt.date.today())
+        sold_90d=None, sell_through=None, evidence_type="active_ask", days_to_sell=None)

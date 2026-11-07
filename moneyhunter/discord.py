@@ -7,13 +7,13 @@ COLORS = {"A": 0x2ECC71, "B": 0xF1C40F, "R": 0xE74C3C, "T": 0x3498DB}
 
 def post(embeds: list, content: str = "", dry_run: bool = False, components: list = None, url: str = None) -> int:
     url = url or os.getenv(ENV)
-    payload = {"username": "MONEYHUNTER", "content": content, "embeds": embeds[:10]}
+    payload = {"username": "MONEYHUNTER", "content": content, "embeds": embeds[:10], "allowed_mentions": {"parse": []}}
     if os.getenv("MONEYHUNTER_AVATAR_URL"):
         payload["avatar_url"] = os.environ["MONEYHUNTER_AVATAR_URL"]
     if components:
         payload["components"] = components   # link buttons only (non-app webhook)
         url = url and url + ("&" if "?" in url else "?") + "with_components=true"
-    if dry_run or not url:
+    if dry_run or os.getenv("MONEYHUNTER_DISABLE_SEND") == "1" or not url:
         print(f"[discord] DRY RUN ({'no webhook set' if not url else 'dry-run flag'}): {len(embeds)} embed(s)")
         print(json.dumps(payload, indent=2, ensure_ascii=False)[:4000])
         return 0
@@ -29,4 +29,7 @@ def post(embeds: list, content: str = "", dry_run: bool = False, components: lis
                 continue
             print(f"[discord] HTTP {e.code}")
             return e.code
+        except (urllib.error.URLError, TimeoutError, OSError):
+            print("[discord] Delivery failed (network/timeout); will retry on a future scan")
+            return 0
     return 429

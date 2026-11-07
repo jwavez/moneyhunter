@@ -1,6 +1,6 @@
 # MONEYHUNTER
 
-An online-to-online UK flipping scanner. It reads public hotukdeals RSS feeds for the target categories (trainers, sportswear, LEGO, power tools, gaming, fragrance), prices each deal against sold-price comps you keep in `data/comps.csv`, and works out the real profit after every fee and cost. Each deal is graded A (buy), B (verify) or REJECT using 9 checks (incl. comps no older than 30 days), and A/B deals go to your Discord channel through a webhook. No dependencies beyond the Python 3.10+ standard library.
+An online-to-online UK flipping scanner. It reads public hotukdeals RSS feeds for the target categories (trainers, sportswear, LEGO, power tools, gaming, fragrance), matches offers against reviewed observations in `data/evidence.json`; legacy `data/comps.csv` values are reference-only, and works out the real profit after every fee and cost. Reviewed exact-variant deals are graded A (buy), B (verify) or REJECT using evidence, landed-cost, availability and profit checks, and A/B deals go to your Discord channel through a webhook. No dependencies beyond the Python 3.10+ standard library.
 
 Labels: [S] means sourced (see the Page), [H] means a house rule you can change in `moneyhunter/config.py`.
 
@@ -20,7 +20,7 @@ python -m unittest tests/test_engine.py
 ```
 If the webhook variable is missing, everything runs as a dry run and prints instead. The URL is never printed.
 
-## 3. Run free every 30 minutes on GitHub Actions
+## 3. Best-effort 30-minute GitHub Actions target
 1. Create a **public** GitHub repo; Actions minutes are free on public repos. Push this folder to it.
 2. Repo > Settings > Secrets and variables > Actions:
    - Secret `MONEYHUNTER_DISCORD_WEBHOOK` = your webhook URL
@@ -31,13 +31,21 @@ If the webhook variable is missing, everything runs as a dry run and prints inst
 Your ledger (`data/ledger.db`) is git-ignored, so your money data never goes to the public repo.
 
 ## 4. Make deals gradeable: comps
-`data/comps.csv` is seeded only with published sold ranges (Nifty eBay UK study, Oct 2026). For A grades, check each item in Terapeak (eBay Seller Hub > Research) and fill in:
-`floor` (the CeX cash price, checked the same day), `sold_90d`, `sell_through` (sold ÷ active × 100) and `days_to_sell`.
-Deals without comps are listed as *unpriced* by `scan --show-all`.
+The 44 historical CSV keys are retained for compatibility, not approved as exact fresh sold evidence. They cannot generate BUY/VERIFY alerts. No new real sold observations are included in this repair.
+
+See [evidence intake and operating guide](docs/EVIDENCE_PIPELINE.md). Reviewed observations need exact variants/condition, public source URLs and actual sale dates/prices. A also needs measured velocity, a current cash exit quote net of exit costs and an exact recently reviewed online retailer offer. Unknown acquisition delivery is not zero.
+
+```bash
+python -m moneyhunter.cli import-evidence /path/to/reviewed-public-observations.json
+MONEYHUNTER_DISABLE_SEND=1 python -m unittest discover -s tests -v
+```
+Commit the resulting reviewed `data/evidence.json` through normal review to persist scheduled inputs. This command validates and saves evidence locally; it does not send anything or push it. Do not insert invented examples or personal information into production data.
+
+Unmatched affordable online offers are prioritised in `data/review_queue.json` and the public export, with specific blockers and hypothetical resale requirements. WATCH cards are research, not approval.
 
 Grades:
-- **A, BUY:** all 9 checks pass, including sold prices no older than 30 days. Expected net and ROI meet the tier minimums, days-to-sell, sell-through, comp count and confidence all pass, the **verified floor exit is at or above breakeven** (the no-loss rule), and the cost is within the tier's max item size.
-- **B, VERIFY:** the money works, but your own comps or floor check is missing.
+- **A, BUY:** all evidence/offer checks pass, including exact realised GBP sold observations no older than 30 days, recent measured velocity and a current cash floor. Expected net and ROI meet the tier minimums, days-to-sell, sell-through, comp count and confidence all pass, the **verified floor exit is at or above breakeven** (the no-loss rule), and the cost is within the tier's max item size.
+- **B, VERIFY:** reviewed exact sold evidence, landed costs, retailer offer and availability are established and the money/downside checks pass; velocity or floor verification may still be missing. Never treat active asking prices as sold evidence.
 - **REJECT:** anything else. A floor can't guarantee zero losses; the system keeps losses small.
 
 ## 5. Ledger commands
@@ -60,9 +68,9 @@ Platforms: `ebay_private`, `ebay_business`, `vinted`, `depop`, `stockx`, `fb`. F
 
 ## Files
 - `moneyhunter/fees.py`: fee and cost engine
-- `moneyhunter/grading.py`: EV, the 9 checks, tiers, quarter-Kelly, no-loss floor
+- `moneyhunter/grading.py`: EV, evidence and acquisition checks, tiers, quarter-Kelly, no-loss floor
 - `moneyhunter/scanners/`: `hotukdeals.py` (live), `ebay.py` (needs keys), `cex.py` (blocked, HTTP 403)
 - `moneyhunter/discord.py`: webhook embeds, handles 429 rate limits
 - `moneyhunter/ledger.py`: SQLite ledger and audit log
 - `moneyhunter/benefits.py`: UC and HMRC rules
-- `.github/workflows/scan.yml`: the 30-minute schedule
+- `.github/workflows/scan.yml`: best-effort cron, safe tier fallback, health summary and fast-forward public state history

@@ -12,7 +12,7 @@ class T(unittest.TestCase):
         c = ebay.active_comp(comp(), items, M.check, dt.date(2026, 11, 3))
         self.assertIsNotNone(c); self.assertIsNone(c.sold_90d)
         self.assertLessEqual(c.low, 65); self.assertGreater(c.low, 50)   # kids/bundle rejected
-        self.assertEqual(c.as_of, dt.date(2026, 11, 3)); self.assertIn("ACTIVE", c.evidence)
+        self.assertEqual(c.as_of, dt.date(2026, 9, 1)); self.assertIn("ACTIVE", c.evidence)
         self.assertLessEqual(c.high, 70); self.assertGreaterEqual(c.high, c.low)
     def test_too_few(self):
         self.assertIsNone(ebay.active_comp(comp(), [{"title": "samba og", "price": 60}] * 4, M.check))
@@ -21,7 +21,7 @@ class Filters(unittest.TestCase):
     def C(self, m, cat, lo=10, hi=20): return Comp(m, cat, lo, hi, "x", "s", None, "", None, None, None, None)
     def test_kids_decimal_size(self):
         c = self.C("samba og", "trainers")
-        self.assertIn("kids", M.check("adidas Samba OG Black Trainers UK 4.5 US 5", "", c))
+        self.assertIn("ambiguous", M.check("adidas Samba OG Black Trainers UK 4.5 US 5", "", c))
         self.assertIn("kids", M.check("Adidas Samba OG - U.K. 3.5 - NEW", "", c))
         self.assertEqual(M.check("adidas Samba OG Trainers UK 9.5", "", c), "")
     def test_lego(self):
