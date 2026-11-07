@@ -2237,7 +2237,7 @@
       "rejected": {}
     },
     "browse-asks-v3:lego:lego 21268:8f7afcad12e9": {
-      "kind": "active_ask",
+      "kind": "ask_invalidated",
       "query": "LEGO 21268",
       "category": "lego",
       "name_terms": [
@@ -2288,10 +2288,13 @@
       ],
       "rejected": {
         "identity_or_condition": 21
-      }
+      },
+      "superseded_kind": "active_ask",
+      "invalidated_reason": "Component-origin filter corrected after confirmed from-set listing; refresh required",
+      "invalidated_at": "2026-11-07T14:29:39+00:00"
     },
     "browse-asks-v3:lego:lego 21345:1175c83126e1": {
-      "kind": "active_ask",
+      "kind": "ask_invalidated",
       "query": "LEGO 21345",
       "category": "lego",
       "name_terms": [
@@ -2342,10 +2345,13 @@
       ],
       "rejected": {
         "identity_or_condition": 10
-      }
+      },
+      "superseded_kind": "active_ask",
+      "invalidated_reason": "Component-origin filter corrected after confirmed from-set listing; refresh required",
+      "invalidated_at": "2026-11-07T14:29:39+00:00"
     },
     "browse-asks-v3:lego:lego 40813:029b4b6cc167": {
-      "kind": "active_ask",
+      "kind": "ask_invalidated",
       "query": "LEGO 40813",
       "category": "lego",
       "name_terms": [
@@ -2394,10 +2400,13 @@
       ],
       "rejected": {
         "identity_or_condition": 4
-      }
+      },
+      "superseded_kind": "active_ask",
+      "invalidated_reason": "Component-origin filter corrected after confirmed from-set listing; refresh required",
+      "invalidated_at": "2026-11-07T14:29:39+00:00"
     },
     "browse-asks-v3:lego:lego 42238:991d0b17f54d": {
-      "kind": "active_ask",
+      "kind": "ask_invalidated",
       "query": "LEGO 42238",
       "category": "lego",
       "name_terms": [
@@ -2449,10 +2458,13 @@
       ],
       "rejected": {
         "identity_or_condition": 4
-      }
+      },
+      "superseded_kind": "active_ask",
+      "invalidated_reason": "Component-origin filter corrected after confirmed from-set listing; refresh required",
+      "invalidated_at": "2026-11-07T14:29:39+00:00"
     },
     "browse-asks-v3:lego:lego 72150:baf63a971a6c": {
-      "kind": "active_ask",
+      "kind": "ask_invalidated",
       "query": "LEGO 72150",
       "category": "lego",
       "name_terms": [
@@ -2500,10 +2512,13 @@
       ],
       "rejected": {
         "identity_or_condition": 2
-      }
+      },
+      "superseded_kind": "active_ask",
+      "invalidated_reason": "Component-origin filter corrected after confirmed from-set listing; refresh required",
+      "invalidated_at": "2026-11-07T14:29:39+00:00"
     },
     "browse-asks-v3:lego:lego 72162:296242beb764": {
-      "kind": "active_ask",
+      "kind": "ask_invalidated",
       "query": "LEGO 72162",
       "category": "lego",
       "name_terms": [
@@ -2554,7 +2569,10 @@
       ],
       "rejected": {
         "identity_or_condition": 3
-      }
+      },
+      "superseded_kind": "active_ask",
+      "invalidated_reason": "Component-origin filter corrected after confirmed from-set listing; refresh required",
+      "invalidated_at": "2026-11-07T14:29:39+00:00"
     }
   },
   "last_attempt": "2026-11-07T14:26:37+00:00",
