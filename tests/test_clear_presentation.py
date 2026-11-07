@@ -7,6 +7,8 @@ from tests.test_asking_estimates import RAW,offer,snap
 NOW=dt.datetime.now(dt.timezone.utc)
 class Formats(unittest.TestCase):
  def test_category_store_cannot_override_pc_key(self):
+  for t in ('Keyboard Simulator PC Key','Windows 11 Home Licence','LEGO Batman PC‑Key'):
+   self.assertTrue(PF.reason({'title':t}),t)
   for merchant in ('Loaded','Unknown shop','Steam','Epic Games','GOG'):
    raw={**RAW,'title':'Lego Batman: Legacy of the Dark Knight - PC Key','category':'lego','merchant':merchant,'price':29.99}
    self.assertTrue(PF.reason(raw));self.assertEqual(hotukdeals.classify(raw['title'],'lego'),'digital');self.assertFalse(hub.resellable(raw));self.assertFalse(hotukdeals.online_status(raw['title']));self.assertIsNone(market.identity(raw))

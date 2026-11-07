@@ -1,13 +1,13 @@
 """Physical-format guard independent of feed category or merchant branding."""
 import re
 STORES={'eneba','loaded','cdkeys','cdkeys.com','steam','epic games','epic games store','gog','gog.com','xbox','microsoft','nintendo eshop','playstation store'}
-HARDWARE=re.compile(r'\b(keyboards?|keycaps?|key switches|controller|headset|mouse|console|racing wheel|camera|thermometer|digital piano)\b',re.I)
+HARDWARE=re.compile(r'\b(keyboards?|keycaps?|key switches|controller|headset|mouse|console|racing wheel|camera|thermometer|digital piano|steam deck)\b',re.I)
 EXPLICIT=re.compile(r'\b(pc[ -]?(?:game[ -]?)?key|cd[ -]?keys?|game[ -]?key|activation[ -]?(?:key|code)|download[ -]?code|digital[ -]?(?:code|key|download)|code in a box|gift[ -]?card|e[ -]?gift|software licen[cs]e|steam key|gog key|epic key)\b',re.I)
 def reason(x):
-    title=str(x.get('title',''));hardware=bool(HARDWARE.search(title))
-    if hardware and re.search(r'\b(keyboard|keycaps?|key switches)\b',title,re.I) and not re.search(r'activation|download|licen[cs]e|game key|software',title,re.I):return None
+    title=re.sub('[‐‑‒–—]','-',str(x.get('title','')));hardware=bool(HARDWARE.search(title))
+    if hardware and re.search(r'\b(keyboard|keycaps?|key switches)\b',title,re.I) and re.search(r'replacement|spare|keycaps?|key switches|keyboard keys',title,re.I) and not re.search(r'activation|download|licen[cs]e|game key|software',title,re.I):return None
     if EXPLICIT.search(title):return 'Digital key/code/licence is not a physical resale item'
-    if not hardware and re.search(r'\b(digital|download|steam|gog|epic games|game pass|season pass|dlc|subscription|membership)\b',title,re.I):return 'Digital/nonphysical format; physical delivery and resale economics do not apply'
+    if not hardware and re.search(r'\b(digital|download|steam|gog|epic games|game pass|season pass|dlc|subscription|membership|licen[cs]e)\b',title,re.I):return 'Digital/nonphysical format; physical delivery and resale economics do not apply'
     if not hardware and str(x.get('merchant','')).strip().lower() in STORES:return 'Digital storefront format not confirmed physical'
     return None
 

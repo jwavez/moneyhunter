@@ -3,6 +3,7 @@ import {nonphysical,normalizeProduct,physicalRows} from './src/product-format.js
 import {summaryFields} from './src/presentation.js';import {calc} from './src/logic.js';import {_test} from './src/index.js';import {guardData} from './src/images.js';
 const m={model:'competitor-asks-v1',observed_at:new Date().toISOString(),category:'gaming',suggested_listing:51.02,estimated_resale:49.49,item_price:34.99,delivery_known:false,net_before_unknown_delivery:3.25,seller_count:1,confidence:'low',policy:{cap:60},checks:[],sources:[]};
 test('PC key excluded irrespective of stale LEGO category/store; physical keys and console preserved',()=>{
+ for(const title of ['Keyboard Simulator PC Key','Windows 11 Home Licence','LEGO Batman PC‑Key'])assert.ok(nonphysical({title}),title);
  for(const merchant of ['Loaded','Unknown','Steam','GOG','Epic Games'])assert.ok(nonphysical({title:'LEGO Batman Legacy of the Dark Knight PC Key',category:'lego',merchant}));
  for(const title of ['Logitech Keyboard replacement PC key','LEGO Batman keychain','Sony PS5 Digital Edition Console'])assert.ok(!nonphysical({title}),title);
  assert.equal(normalizeProduct({title:'LEGO Batman PS5 physical game',category:'lego'}).category,'gaming');
