@@ -37,6 +37,15 @@ class Identity(unittest.TestCase):
         self.assertTrue(market.matches("LEGO 75402 Synthetic Moon Rover complete new sealed",ident))
         self.assertIsNone(market.identity({**RAW,"title":"LEGO 75402 new sealed"}))
 
+    def test_real_component_origin_titles_cannot_enter_whole_set_range(self):
+        # Public Browse titles observed 7 Nov; synthetic prices only, no sold evidence.
+        ident=market.identity({**RAW,"title":"LEGO Minecraft The Baby Pig House 21268"})
+        for title in ["New Lego Minecraft Baby Pig From Set 21268 Item - minepig08",
+                      "New Lego Minecraft Pig With Saddle From Set 21268 Item - minepig09",
+                      "LEGO Minecraft Baby Pig from 21268", "LEGO Minecraft Pig out of the set 21268"]:
+            self.assertFalse(market.matches(title,ident),title)
+        self.assertTrue(market.matches("LEGO Minecraft The Baby Pig House 21268 238pcs 7+ NEW",ident))
+
     def test_name_fingerprint_prevents_same_number_wrong_name_cache_reuse(self):
         other=market.identity({**RAW,"title":"LEGO Synthetic Galactic Robot 75402 new sealed"})
         self.assertNotEqual(market.cache_key(market.identity(RAW)),market.cache_key(other))
