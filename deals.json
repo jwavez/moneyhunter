@@ -1933,6 +1933,27 @@
       "rejected": {
         "identity_or_condition": 1
       }
+    },
+    {
+      "kind": "active_ask",
+      "query": "the plucky squire xbox series x s",
+      "category": "gaming",
+      "name_terms": [],
+      "observed_at": "2026-11-07T14:52:02+00:00",
+      "date": "2026-11-07",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {}
     }
   ],
   "pricing_status": {
@@ -1945,7 +1966,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T14:50:07+00:00",
+  "generated_utc": "2026-11-07T14:52:17+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -6759,7 +6780,28 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "the plucky squire xbox series x s",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:52:02+00:00",
+        "date": "2026-11-07",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {}
+      }
     },
     {
       "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
@@ -7119,15 +7161,16 @@
         "old_dropped": 115,
         "age_unknown": 0,
         "missing_price_or_category": 97,
-        "ambiguous_price": 2
+        "ambiguous_price": 2,
+        "page_requests": 14
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
         "purpose": "active asking competition only",
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
-          "queries": 6,
-          "cached": 6,
+          "queries": 1,
+          "cached": 12,
           "candidates_with_samples": 11,
           "status": "ready",
           "errors": []
@@ -7140,8 +7183,8 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-07T14:40:24.534Z",
-        "last_success": "2026-11-07T14:40:24.534Z"
+        "last_attempt": "2026-11-07T14:50:24.535Z",
+        "last_success": "2026-11-07T14:50:24.535Z"
       },
       "cash_floors": {
         "automatic_source": false,
@@ -7151,15 +7194,15 @@
     "new": 0,
     "rescanned": 298,
     "price_changed": 0,
-    "previous_success": "2026-11-07T14:48:19+00:00",
-    "gap_minutes": 1.6,
+    "previous_success": "2026-11-07T14:50:05+00:00",
+    "gap_minutes": 2.0,
     "review_candidates": 50,
-    "delivery_mode": "disabled",
+    "delivery_mode": "live",
     "execution": {
       "revision": "f5e2926ab17d1ff4a4bd540c25773192f9466c8b",
-      "run_id": "42383398350",
+      "run_id": "42383574108",
       "event": "workflow_dispatch",
-      "parent_run_id": "42383278597"
+      "parent_run_id": "42381203577"
     },
     "delivery_failures": 0,
     "pricing_products": 0,
