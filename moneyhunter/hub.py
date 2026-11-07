@@ -107,6 +107,12 @@ def watch_card(it, prices):
 
 
 def estimate_fields(m):
+    if m.get('transport_validated') is False:
+        return [
+            {'name':'Ask-based market research — NOT a buying signal','value':f"£{m['estimated_resale']:.2f} model estimate; asking range £{m['competition_low']:.2f}–£{m['competition_high']:.2f}. {m['seller_count']} independent sellers / {m['sample_count']} samples; {m['confidence']} confidence. NOT sold or guaranteed.",'inline':False},
+            {'name':'Net / ROI / buy ceiling','value':'Unknown: compliant perfume carrier, packaging, liability and actual outbound quote required. Default Evri figures must NOT be used.','inline':False},
+            {'name':'Exact variant and provenance checks','value':' · '.join(m['checks'])[:1000],'inline':False},
+            {'name':'Competitor sources','value':' · '.join(f"[Offer {i+1}]({o['url']})" for i,o in enumerate(m['sources'][:3])),'inline':False}]
     profit = (f"£{m['net']:.2f} / {m['roi']:.1f}% ROI at £{m['landed_cost']:.2f} landed" if m["delivery_known"] else
               f"Up to £{m['net_before_unknown_delivery']:.2f} before UNKNOWN inbound delivery; actual net/ROI unknown")
     stress = (f"Resale £{m['review_stress_sale']:.2f}: net £{m['review_stress_net']:.2f}, {m['review_stress_roi']:.1f}% ROI" if m.get('review_stress_net') is not None else "Unknown landed delivery: stress economics not established")
@@ -300,9 +306,14 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     errs = stats["errors"]
     if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
         e = E.scan_summary(stats, near)
-        e["fields"].insert(0, {"name":"Competitor-based resale estimates (NOT verified BUY)", "value":f"{stats.get('ask_valued',0)} offers estimated · {stats.get('estimated_opportunities',0)} strong / CHECK · {stats.get('worth_reviewing',0)} manual review · {stats.get('above_budget_estimates',0)} above-budget watch · {stats.get('qualified_delivery_unknown',0)} delivery-qualified estimates. A/B sold-evidence grades unchanged.","inline":False})
+        e["fields"].insert(0, {"name":"Competitor-based resale estimates (NOT verified BUY)", "value":f"{stats.get('ask_valued',0)} offers estimated · {stats.get('estimated_opportunities',0)} strong / CHECK · {stats.get('worth_reviewing',0)} manual review · {stats.get('above_budget_estimates',0)} above-budget watch · {stats.get('ask_delivery_known',0)} known inbound / {stats.get('qualified_delivery_unknown',0)} unknown inbound · {stats.get('ask_unique_products',0)} distinct estimated products. A/B sold-evidence grades unchanged.","inline":False})
         e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
         e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(raws, stats)[:1000], "inline": False})
+        if stats.get('pricing_coverage'):
+            e['fields'].append({'name':'Exact pricing coverage (offers / estimated / distinct products)',
+                'value':' · '.join(f"{cat}: {x['offers']}/{x['estimated_offers']}/{x['estimated_products']}" for cat,x in stats['pricing_coverage'].items())[:1000],'inline':False})
+        if stats.get('warnings'):
+            e['fields'].insert(0,{'name':'Warnings — scan continued safely','value':'\n'.join(stats['warnings'])[:1000],'inline':False})
         if errs:
             e["color"] = 0xEF4444; e["title"] = "⚠️ Scan problem · " + e["title"]
             e["fields"].insert(0, {"name": "Errors", "value": "\n".join(errs)[:1000], "inline": False})

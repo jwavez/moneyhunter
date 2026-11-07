@@ -145,7 +145,8 @@ class ActualIntakeCorrection(unittest.TestCase):
         other={**raw,'title':'A Different Physical Game PS5','category':'gaming'}
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'active_items',return_value=Source().payload()) as call:
             discovery.scan([other,raw],state,NOW)
-            call.assert_called_once_with(ident.match,business_only=True)
+            self.assertEqual(call.call_args_list[0].args,(ident.match,))
+            self.assertEqual(call.call_count,2)  # additive four-query batch retains known-catalog priority
             self.assertEqual(discovery.LAST_DIAGNOSTICS['query'],ident.match)
             self.assertEqual(discovery.LAST_DIAGNOSTICS['matched_shipped_samples'],8)
 

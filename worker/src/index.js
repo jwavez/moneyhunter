@@ -75,6 +75,10 @@ function askFields(x) {
 function estimateFields(m, buy = null, landedConfirmed = false) {
   const age=Date.now()-Date.parse(m?.observed_at);
   if(!m || m.model!=="competitor-asks-v1" || !Number.isFinite(age) || age<0 || age>6*3600000) return [];
+  if(m.transport_validated===false) return [
+    {name:m.signal,value:`${gbp(m.estimated_resale)} model estimate; ${gbp(m.competition_low)}–${gbp(m.competition_high)} asking range. ${m.seller_count} independent sellers / ${m.sample_count} samples. Not sold or guaranteed.`,inline:false},
+    {name:"Net / ROI / buy ceiling UNKNOWN",value:"Compliant perfume carrier, packaging, liability and actual outbound quote required. Supplying a buy price cannot validate prohibited default shipping.",inline:false},
+    {name:"Exact variant / provenance",value:`${m.checks.join(" · ")}\nObserved ${london(m.observed_at)}.`,inline:false}];
   const custom=buy!=null && Number.isFinite(buy) && buy>0 ? calc(buy,m.estimated_resale,"ebay_business",m.category || "default") : null;
   const profit=custom ? `${sgbp(custom.net)}${landedConfirmed ? ` / ${pct(custom.roi)} ROI at your supplied landed cost` : " BEFORE unknown inbound delivery; actual net/ROI unknown"}` : m.delivery_known ? `${sgbp(m.net)} / ${pct(m.roi)} ROI at ${gbp(m.landed_cost)} landed` : `Up to ${sgbp(m.net_before_unknown_delivery)} before UNKNOWN inbound delivery; actual net/ROI unknown`;
   const stress=m.review_stress_net!=null ? `${gbp(m.review_stress_sale)} resale → ${sgbp(m.review_stress_net)} / ${pct(m.review_stress_roi)} ROI` : "Unknown landed delivery: not established";
@@ -234,7 +238,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   const cleanAskQuery = value => String(value).toLowerCase().replace(/\b(new|sealed)\b/g,"").replace(/[^a-z0-9]+/g," ").trim();
   const numbers=[...new Set(String(q).match(/(?<!\d)\d{5,6}(?!\d)/g) ?? [])];
   const unsafe=/\b(used|refurb(?:ished)?|pre[ -]?owned|open[ -]?box|no box|unboxed|bundles?|multi[ -]?packs?|stickers?|instructions?|manuals?|parts?|digital|download|minifig(?:ure)?s?|missing)\b/i.test(q);
-  const asking = !unsafe && (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && (cleanAskQuery(x.query)===cleanAskQuery(q) || (/lego/i.test(q) && numbers.length===1 && x.query===`LEGO ${numbers[0]}`)));
+  const asking = !unsafe && (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && ([x.query,...(x.query_aliases??[])].some(alias=>cleanAskQuery(alias)===cleanAskQuery(q)) || (/lego/i.test(q) && numbers.length===1 && x.query===`LEGO ${numbers[0]}`)));
   if(asking) {
     const entry=(pricing.review_queue ?? []).filter(x=>x.ask_estimate?.query===asking.query).sort((a,b)=>a.ask_estimate.estimated_resale-b.ask_estimate.estimated_resale)[0];
     return {embeds:[{...imageMeta(entry??{category:asking.query.startsWith("LEGO ")?"lego":null}),title:`Estimated resale · ${asking.query}`.slice(0,250),color:C.INFO,
@@ -242,7 +246,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   }
   const c = findComp(q, await getComps(env));
   if (c && c.blocked) return { embeds: [{ title: "⚠️ Not priced: uncertain match", color: C.B, description: `Closest comp is **${c.blocked.slice(0, 80)}**, but your item looks like a different version (kids, bundle, used, edition or kit). Check eBay sold for the exact item.` }], components: [links, again] };
-  if (!c) return { embeds: [{ title: `No exact competitor estimate for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try the exact game/platform, LEGO set number, or supported Sony WH1000XM4/5 model plus colour. Ambiguous variants are not guessed." }], components: [links, again] };
+  if (!c) return { embeds: [{ title: `No exact competitor estimate for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try the exact game/platform, LEGO set number, Sony model plus explicit colour, supported fragrance family + concentration + ml + refillable status, or Nike style code + one explicit UK size. No UK/US size conversion is inferred. Ambiguous variants are not guessed." }], components: [links, again] };
   const lo = parseFloat(c.low), hi = parseFloat(c.high);
   const eb = calc(buy ?? 0, lo, "ebay_business", c.category), vi = calc(buy ?? 0, lo, "vinted", c.category);
   const fields = [

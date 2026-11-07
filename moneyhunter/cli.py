@@ -119,8 +119,9 @@ def run_scan():
     print(f"[ebay] {ebay_health}")
     br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.community_cap())
     errors = []
+    warnings = []
     if "FAILED" in ebay_health: errors.append("eBay authentication failed; competition context unavailable")
-    if os.getenv("MH_TIER_WARNING"): errors.append("Private tier unavailable or invalid; using starter cap (community index 0)")
+    if os.getenv("MH_TIER_WARNING"): warnings.append("Private tier unavailable or invalid; using starter cap (community index 0)")
     operational = RT.load(OPERATIONAL)
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
     from .scanners import capture
@@ -173,10 +174,10 @@ def run_scan():
     from . import market
     review.sort(key=lambda r: (-r["priority"], r["item_price"], r["url"]))
     # Independent research slots prevent above-budget discovery starving affordable offers.
-    within = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) <= cap][:35]
-    above = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) > cap][:15]
-    ask_health = market.enrich(within, raws, operational, budget=4)
-    watch_health = market.enrich(above, raws, operational, budget=2)
+    within = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) <= cap]
+    above = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) > cap]
+    ask_health = market.enrich(within, raws, operational, budget=8, lane="asking-affordable")
+    watch_health = market.enrich(above, raws, operational, budget=4, lane="asking-watch")
     ask_health['above_budget_research'] = watch_health
     ask_health['errors'] += watch_health['errors']
     errors.extend(ask_health["errors"])
@@ -216,7 +217,16 @@ def run_scan():
              "above_budget_researched":len(above),
              "acquisition_by_source":{source:sum(r.get('source','hotukdeals')==source for r in raws) for source in {r.get('source','hotukdeals') for r in raws}},
              "qualified_delivery_unknown": sum(bool(r.get("ask_estimate")) and not r["ask_estimate"]["delivery_known"] for r in review),
-             "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
+             "ask_delivery_known":sum(bool(r.get('ask_estimate')) and r['ask_estimate']['delivery_known'] for r in review),
+             "ask_unique_products":len({market.cache_key(market.identity(raw_by_url[r['url']])) for r in review if r.get('ask_estimate')}),
+             "without_any_pricing":sum(r['url'] not in {d.url for d,_ in graded} and not r.get('ask_estimate') for r in raws),
+             "pricing_coverage":{cat:{"offers":sum(r.get('category')==cat for r in raws),
+                 "exact_identity":sum(market.identity(r) is not None for r in raws if r.get('category')==cat),
+                 "estimated_offers":sum(bool(r.get('ask_estimate')) for r in review if r['category']==cat),
+                 "estimated_products":len({r['ask_context']['query'] for r in review if r['category']==cat and r.get('ask_estimate')})}
+                 for cat in sorted({r.get('category') for r in raws})},
+             "browse_usage":operational.get('browse_usage',{}),
+             "warnings":warnings[:20], "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
                  "ebay": {"status": ebay_health, "purpose": "active asking competition only", "research": ask_health},
                  "capture_buffer": capture.LAST_DIAGNOSTICS,
                  "ebay_acquisition":discovery.LAST_DIAGNOSTICS,

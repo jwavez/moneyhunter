@@ -26,3 +26,5 @@ test("research estimates and above-budget cards retain validated full product ph
  const f=_test.researchView({generated_utc:new Date().toISOString(),review_queue:[{title:"Perfume",category:"fragrance",breakeven_sell:112.59}]}).embeds[0];
  assert.match(JSON.stringify(f.fields),/Evri prohibits perfume/);assert.doesNotMatch(JSON.stringify(f.fields),/112.59/);
 });
+
+test("fragrance market research never recalculates prohibited default shipping even with supplied cost",()=>{const m={...model(),category:"fragrance",transport_validated:false,signal:"ASK-BASED MARKET RESEARCH — TRANSPORT UNVALIDATED",net:null,roi:null,max_landed_buy:null};const text=JSON.stringify(_test.estimateFields(m,10,true));assert.match(text,/UNKNOWN/);assert.match(text,/Compliant perfume carrier/);assert.doesNotMatch(text,/supplied landed cost/);});
