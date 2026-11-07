@@ -141,6 +141,8 @@ class EndToEnd(unittest.TestCase):
             br,tier,graded,affordable,unpriced,stats=cli.run_scan()
             self.assertEqual((stats["A"],stats["B"],stats["sold_valued"],stats["priced"]),(0,0,0,0))
             self.assertEqual(cli.LAST_REVIEW[0]["ask_context"]["sample_count"],5)
+            self.assertEqual(stats["ask_unique_products"],1)
+            self.assertEqual(stats["ask_research_identities"],1)
             out=Path(td)/"public.json";cli.export_public(str(out),stats,graded);payload=json.loads(out.read_text())
             self.assertEqual(payload["pricing_status"]["sold_observations"],0)
             self.assertEqual(payload["pricing_status"]["indicative_asking_products"],1)
