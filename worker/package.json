@@ -1,1 +1,10 @@
-{"name":"moneyhunter-bot","private":true,"type":"module","scripts":{"test":"node test.mjs && node --test test-capture.mjs","deploy":"wrangler deploy","register":"node scripts/register.mjs"}}
+{
+  "name": "moneyhunter-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs && node --test test-capture.mjs && node --test test-estimates.mjs",
+    "deploy": "wrangler deploy",
+    "register": "node scripts/register.mjs"
+  }
+}

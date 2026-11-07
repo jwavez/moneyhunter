@@ -92,6 +92,12 @@ def scan(log=print) -> list:
                     price = _price(desc_html)
                     if price is None and len(set(re.findall(r"£\s*([\d,]+(?:\.\d{1,2})?)", desc_html))) > 1:
                         LAST_DIAGNOSTICS["ambiguous_price"] += 1
+                # Retain direct item links solely for acquisition exclusion; never follow redirects.
+                acquisition_urls = []
+                for u in re.findall(r'https://[^\s<>"\x27]+', desc_html):
+                    direct = u.replace("&amp;", "&")
+                    if re.match(r"https://(?:www\.)?ebay\.(?:co\.uk|com)/itm/", direct):
+                        acquisition_urls.append(direct.split("?")[0].split("#")[0])
                 desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", desc_html)).strip()[:800]
                 th = it.find("media:thumbnail", NS)
                 thumb = th.get("url", "").replace("/re/150x150/", "/re/300x300/") if th is not None else ""
@@ -115,7 +121,7 @@ def scan(log=print) -> list:
                 keys.add(k)
                 by_link[link] = {}; out.append(by_link[link])
                 by_link[link].update({"title": title, "url": link, "price": price, "merchant": merchant,
-                            "category": cat, "heat": heat, "thumb": thumb, "feed": p,
+                            "category": cat, "acquisition_urls": sorted(set(acquisition_urls)), "heat": heat, "thumb": thumb, "feed": p,
                             "delivery": delivery_speed(title, merchant), "desc": desc,
                             "inbound_delivery": delivery_cost(title, desc), "online_eligible": online_status(title, desc),
                             "pub": (it.findtext("pubDate") or "").strip()})
