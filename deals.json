@@ -271,6 +271,60 @@
     },
     {
       "kind": "active_ask",
+      "query": "LEGO 72162",
+      "category": "lego",
+      "name_terms": [
+        "eevee",
+        "hunt",
+        "laprass",
+        "treasure"
+      ],
+      "observed_at": "2026-11-07T14:32:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 21,
+      "listed_total_low": 45.0,
+      "listed_total_p25": 52.5,
+      "listed_total_median": 56.65,
+      "listed_total_p75": 62.97,
+      "listed_total_high": 82.49,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/940063019239",
+          "title": "LEGO Pokemon Eevee and Laprass Treasure Hunt 72162 \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P",
+          "declared_condition": "new",
+          "item_price": 45.0,
+          "shipping": 0.0,
+          "listed_total": 45.0
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/128163315307",
+          "title": "LEGO Pok\u00e9mon 72162 Eevee and Lapras' Treasure Hunt 623pc 8+ Smart Brick",
+          "declared_condition": "new",
+          "item_price": 42.3,
+          "shipping": 3.71,
+          "listed_total": 46.01
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/920082188367",
+          "title": "Brand New LEGO Pok\u00e9mon SMART PLAY Eevee & Lapras\u2019s Treasure Hunt 72162 (623 pcs)",
+          "declared_condition": "new",
+          "item_price": 42.3,
+          "shipping": 3.71,
+          "listed_total": 46.01
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 3
+      }
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 72150",
       "category": "lego",
       "name_terms": [
@@ -561,13 +615,13 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 10,
+    "indicative_asking_products": 11,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T14:31:32+00:00",
+  "generated_utc": "2026-11-07T14:32:59+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -1088,7 +1142,61 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+SMART+Play%3A+Eevee+and+Lapras%E2%80%99s+Treasure+Hunt+72162&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 72162",
+        "category": "lego",
+        "name_terms": [
+          "eevee",
+          "hunt",
+          "laprass",
+          "treasure"
+        ],
+        "observed_at": "2026-11-07T14:32:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 21,
+        "listed_total_low": 45.0,
+        "listed_total_p25": 52.5,
+        "listed_total_median": 56.65,
+        "listed_total_p75": 62.97,
+        "listed_total_high": 82.49,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/940063019239",
+            "title": "LEGO Pokemon Eevee and Laprass Treasure Hunt 72162 \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P",
+            "declared_condition": "new",
+            "item_price": 45.0,
+            "shipping": 0.0,
+            "listed_total": 45.0
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/128163315307",
+            "title": "LEGO Pok\u00e9mon 72162 Eevee and Lapras' Treasure Hunt 623pc 8+ Smart Brick",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.71,
+            "listed_total": 46.01
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/920082188367",
+            "title": "Brand New LEGO Pok\u00e9mon SMART PLAY Eevee & Lapras\u2019s Treasure Hunt 72162 (623 pcs)",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.71,
+            "listed_total": 46.01
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 3
+        }
+      }
     },
     {
       "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
@@ -2026,9 +2134,9 @@
     }
   ],
   "stats": {
-    "scanned": 299,
+    "scanned": 298,
     "priced": 4,
-    "unpriced": 295,
+    "unpriced": 294,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -2054,7 +2162,7 @@
         "duplicates": 28,
         "old_dropped": 115,
         "age_unknown": 0,
-        "missing_price_or_category": 98,
+        "missing_price_or_category": 99,
         "ambiguous_price": 2
       },
       "ebay": {
@@ -2062,9 +2170,9 @@
         "purpose": "active asking competition only",
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
-          "queries": 6,
-          "cached": 6,
-          "candidates_with_samples": 10,
+          "queries": 1,
+          "cached": 12,
+          "candidates_with_samples": 11,
           "status": "ready",
           "errors": []
         }
@@ -2084,18 +2192,18 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 0,
-    "rescanned": 299,
+    "new": 2,
+    "rescanned": 296,
     "price_changed": 0,
-    "previous_success": "2026-11-07T14:30:03+00:00",
-    "gap_minutes": 1.4,
+    "previous_success": "2026-11-07T14:31:31+00:00",
+    "gap_minutes": 1.5,
     "review_candidates": 50,
     "delivery_mode": "disabled",
     "execution": {
       "revision": "500f642d054634b1448f33815a3867f85751f0bf",
-      "run_id": "42381968714",
+      "run_id": "42382095019",
       "event": "workflow_dispatch",
-      "parent_run_id": null
+      "parent_run_id": "42381968714"
     },
     "delivery_failures": 0,
     "pricing_products": 0,
