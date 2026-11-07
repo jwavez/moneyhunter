@@ -26,11 +26,15 @@ def canon(value):
 
 
 def max_cost(sale, category):
+    from . import policy
+    p = policy.current()
     proceeds = net_profit(sale, 0, "ebay_business", category, C.postage_for(category), C.PACKAGING, C.RETURNS_ALLOWANCE).net
-    return max(0, math.floor(min(proceeds-8, proceeds/1.4, 60)*100)/100)
+    return policy.ceiling(proceeds,p['strong_net'],p['strong_roi'],p['cap'])
 
 
 def estimate(raw, snapshot, when=None):
+    from . import policy
+    p = policy.current()
     when = when or dt.datetime.now(dt.timezone.utc)
     try: age = (when-dt.datetime.fromisoformat(snapshot["observed_at"])).total_seconds()/3600
     except (KeyError, ValueError, TypeError): return None
@@ -82,15 +86,25 @@ def estimate(raw, snapshot, when=None):
     breakdown = net_profit(target,cost,"ebay_business",category,C.postage_for(category),C.PACKAGING,C.RETURNS_ALLOWANCE) if known else None
     maximum = max_cost(target,category)
     overlap = promos > 0 or any(o["listed_total"] <= buy+(delivery if known else 0) for o in offers)
-    money_ok = bool(known and cost <= 60 and breakdown.net >= 8 and breakdown.net/cost >= .4)
+    above = buy + (delivery if known else 0) > p['cap']
+    money_ok = bool(known and cost <= p['cap'] and breakdown.net >= p['strong_net'] and breakdown.net/cost >= p['strong_roi'])
+    stress_sale = math.floor(target*(1-p['review_stress_drop'])*100)/100
+    stress = net_profit(stress_sale,cost,"ebay_business",category,C.postage_for(category),C.PACKAGING,C.RETURNS_ALLOWANCE) if known else None
+    stress_ok = bool(stress and stress.net >= p['review_stress_net'] and stress.net/cost >= p['review_stress_roi'])
+    review_ok = bool(known and cost <= p['cap'] and breakdown.net >= p['review_net'] and breakdown.net/cost >= p['review_roi'] and stress_ok and confidence == 'moderate' and low_support >= 3)
     acquisition_resolved = str(raw.get("merchant", "")).casefold() != "ebay" or bool(ids or own_seller)
     coupon_unknown = any(o.get("available_coupons") and o["listed_total"] <= xs[0]*1.1 for o in offers)
-    opportunity = not coupon_unknown and adequate and money_ok and raw.get("online_eligible") is True and acquisition_resolved
+    supported = not coupon_unknown and adequate and raw.get("online_eligible") is True and acquisition_resolved
+    opportunity = supported and money_ok
+    worth_reviewing = supported and review_ok and not opportunity
+    watch_only = above
     blockers = ([] if adequate else ["Fewer than five independent sellers or fewer than two supporting the low price"])
     if coupon_unknown: blockers.append("Low competing offers advertise coupons; check effective competition before buying")
     if not acquisition_resolved: blockers.append("eBay acquisition listing identity missing; self-exclusion not confirmed")
     if not known: blockers.append("Inbound delivery unknown; profit is only an upper bound")
-    if not money_ok: blockers.append("£8 net / 40% ROI / £60 landed cap not demonstrated")
+    if not money_ok: blockers.append(f"£{p['strong_net']:g} net / {p['strong_roi']*100:g}% ROI / £{p['cap']:g} landed strong policy not demonstrated")
+    if not stress_ok: blockers.append("Manual review stress test not passed: 10% lower resale must still leave £5 net and 10% ROI")
+    if above: blockers.append("ABOVE BUDGET — WATCH ONLY; no purchase approval")
     if not raw.get("online_eligible"): blockers.append("Online physical acquisition not confirmed")
     if raw.get("offer_verified") is not True: blockers.append("Check current retailer stock, checkout price and exact variant before buying")
     advertised = [o["advertised_original_total"] for o in offers if o.get("advertised_original_total") and not o.get("same_acquisition_promotion")]
@@ -111,5 +125,9 @@ def estimate(raw, snapshot, when=None):
         "max_landed_buy":maximum,"max_item_buy":round(maximum-delivery,2) if known else None,
         "delivery_headroom":round(maximum-buy,2),"fees":upper.platform_fee,"outbound_postage":upper.postage,
         "packaging":upper.packaging,"returns_allowance":upper.returns_allowance,
-        "estimated_opportunity":opportunity,"signal":"ESTIMATED OPPORTUNITY — CHECK BEFORE BUYING" if opportunity else "QUALIFIED ASK-BASED ESTIMATE",
+        "estimated_opportunity":opportunity,"worth_reviewing":worth_reviewing,"above_budget":watch_only,"policy":p,
+        "review_stress_sale":stress_sale,"review_stress_net":stress.net if stress else None,"review_stress_roi":round(stress.net/cost*100,1) if stress else None,
+        "review_stress_passed":stress_ok,"review_stress_basis":"Illustrative 10% resale drop, not a forecast or measured turnover; £5 net AND 10% ROI required",
+        "review_max_landed_buy":min(policy.ceiling(buy + upper.net,p['review_net'],p['review_roi'],p['cap']),policy.ceiling(net_profit(stress_sale,0,"ebay_business",category,C.postage_for(category),C.PACKAGING,C.RETURNS_ALLOWANCE).net,p['review_stress_net'],p['review_stress_roi'],p['cap'])),
+        "signal":"ABOVE BUDGET — WATCH ONLY" if watch_only else "ESTIMATED OPPORTUNITY — CHECK BEFORE BUYING" if opportunity else "WORTH REVIEWING — MANUAL CHECK" if worth_reviewing else "QUALIFIED ASK-BASED ESTIMATE",
         "checks":blockers,"sources":offers[:10]}

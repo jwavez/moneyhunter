@@ -102,3 +102,9 @@ server-side delayed successor instead of depending only on unreliable cron. See
 [Competitor-based resale estimates](docs/COMPETITOR_ESTIMATES.md) are now a separate
 model and labelled CHECK opportunity path. Sold history is not required for these
 estimates. Verified BUY semantics are unchanged.
+
+### Discovery vs purchase permission
+
+The scanner now separately researches above-budget offers (starter watch ceiling £150, **purchase cap still £60**), and uses the authorised official Browse API to acquire bounded NEW UK business-seller Buy It Now candidates independently of consumer heat. Full all-seller competition remains separate: source listing/seller excluded only for that candidate, cheaper competing offers never removed to manufacture a margin. Affordable and above-budget research have independent budgets. Exact Sony WH1000XM4/5 plus colour is supported alongside new LEGO/gaming; outlet/refurbished/private-seller acquisition is not falsely claimed connected.
+
+Strong starter estimates remain £8 net **and** 40% ROI. An informational **WORTH REVIEWING — MANUAL CHECK** lane requires £10 net/20% ROI **plus** moderate confidence, three supported low-price sellers, and a 10% lower resale scenario still leaving £5 net/10% ROI. It is not BUY, a turnover prediction, or a blanket threshold reduction. See [competitor model and operational limits](docs/COMPETITOR_ESTIMATES.md). Public policy is centralized; no private balance or automatic promotion is fabricated when tier sync is unavailable.

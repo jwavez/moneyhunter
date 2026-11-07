@@ -57,8 +57,14 @@ def identity(raw):
         platforms = [p for p in ("ps4", "ps5", "xbox", "switch", "pc") if M.has(M.norm(query), p)]
         if len(platforms) != 1 or platforms[0] == "pc" or len(query.split()) < 4 or len(query) > 100:
             return None
+    elif cat == 'tech':
+        # Deliberately narrow exact model + explicit colour, never a generic headphone search.
+        code = re.search(r'\bwh[ -]?1000xm[45]\b', title, re.I)
+        colours = [v for v in ('black','silver','blue') if M.has(t,v)]
+        if not code or not M.has(t,'sony') or len(colours) != 1: return None
+        query = 'Sony ' + re.sub('[ -]', '',code.group()).upper() + ' ' + colours[0]
     else:
-        return None  # shoes, tools, fragrances need more exact reviewed attributes
+        return None  # unreviewed bottle/tool/clothing variants are not guessed
     c = SimpleNamespace(match=query, category=cat, identity={"condition": "new"}, name_terms=name_terms)
     if not matches(title, c): return None
     return c
@@ -66,6 +72,13 @@ def identity(raw):
 
 def matches(title, ident):
     t = M.norm(title)
+    if ident.category == 'tech':
+        wanted = re.sub(r'[^a-z0-9]', '',ident.match.lower())
+        actual = re.sub(r'[^a-z0-9]', '',title.lower())
+        if not all(word in actual for word in re.findall(r'sony|wh1000xm[45]|black|silver|blue',wanted)): return False
+        if M.has(t,'case','cover','earpad','ear pads','replacement','headband','charger','charging','dock','cable','earcups','parts','repair','broken','spares','compatible','used','refurbished','renewed','open box'): return False
+        if sum(M.has(t,c) for c in ('black','silver','blue')) != 1: return False
+        return not M.has(t,*M.CONDITION,*M.BUNDLE,*M.PREORDER)
     if M.has(t, "instructions", "manual only", "box only", "empty box", "light kit", "lighting kit", "led kit", "display case", "parts only", "spares", "stickers", "compatible", "replica", "moc"):
         return False
     if ident.category == "lego":
@@ -129,7 +142,7 @@ def summary(payload, ident, when):
             "country": "GB", "currency": "GBP", "condition_id": "1000", "discount_status": "advertised_discount" if discounted else "unknown",
             "advertised_original_total": round(original + min(shipping), 2) if original is not None and original > price else None,
             "available_coupons": item.get("availableCoupons") is True,
-            "promotion_id": None, "url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "title": item.get("title", "")[:200],
+            "buying_options":item.get("buyingOptions",[]),"end_at":end,"promotion_id": None, "url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "title": item.get("title", "")[:200],
             "declared_condition": "new", "item_price": price, "shipping": min(shipping), "listed_total": round(price + min(shipping), 2)})
     xs = sorted(o["listed_total"] for o in offers)
     q = lambda p: round(ebay._pct(xs, p), 2) if xs else None
@@ -187,6 +200,11 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
         if checked is not snapshot: cache[k] = checked; snapshot = checked
         hours = age(snapshot)
         fresh = snapshot.get("kind") == "active_ask" and 0 <= hours < TTL_HOURS
+        # A newly acquired candidate cannot rely on a pre-existing competition snapshot:
+        # refresh ALL sellers, not just the business-only acquisition response.
+        acquisition_rows = [by_url.get(c['url'],{}) for c in rows]
+        newer_acquisition = any(r.get('source') == 'ebay_browse' and r.get('source_observed_at','') > snapshot.get('observed_at','') for r in acquisition_rows)
+        if newer_acquisition: fresh = False
         if fresh: health["cached"] += 1
         blocked = cache.get("browse-blocked")
         if not fresh and blocked:

@@ -90,3 +90,7 @@ MAX_OFFER_AGE_DAYS = 1
 MAX_FEED_AGE_DAYS = 7
 MAX_SCAN_GAP_MINUTES = 90
 EBAY_FEE_VAT = 0.20   # published rates exclude VAT; conservative non-reclaiming seller
+
+# Public community policy: representative rule sets, NOT personal balances or promotion thresholds.
+COMMUNITY_CAPS = (60., 120., 300., 600., 1200.)
+COMMUNITY_RULE_BANKROLLS = (200., 500., 1500., 4000., 12000.)

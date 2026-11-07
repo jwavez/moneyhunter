@@ -79,15 +79,16 @@ def active_comp(comp, items: list, check, today=None):
         sold_90d=None, sell_through=None, evidence_type="active_ask", days_to_sell=None)
 
 
-def active_items(query: str) -> dict:
+def active_items(query: str, business_only: bool = False) -> dict:
     """Documented Browse search of current NEW UK offers. Never a sold-data call.
 
     Do not use this endpoint to retry challenged completed-item pages. It is the
     application's separately authorised active competition integration only.
     No retry/proxy fallback; permission and rate-limit failures are visible upstream.
     """
-    q = urllib.parse.urlencode({"q": query, "limit": 50,
-        "filter": "buyingOptions:{FIXED_PRICE},itemLocationCountry:GB,deliveryCountry:GB,conditionIds:{1000},priceCurrency:GBP"})
+    filters = "buyingOptions:{FIXED_PRICE},itemLocationCountry:GB,deliveryCountry:GB,conditionIds:{1000},priceCurrency:GBP"
+    if business_only: filters += ",sellerAccountTypes:{BUSINESS}"
+    q = urllib.parse.urlencode({"q":query,"limit":50,"filter":filters})
     req = urllib.request.Request("https://api.ebay.com/buy/browse/v1/item_summary/search?" + q,
         headers={"Authorization": "Bearer " + _auth(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_GB"})
     with urllib.request.urlopen(req, timeout=20) as r:

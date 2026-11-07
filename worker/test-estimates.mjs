@@ -8,3 +8,11 @@ test("stale or future model cannot display as a current estimate",()=>{assert.de
 test("Price Check works from active-ask models without any sold record",async()=>{const old=globalThis.fetch;try{const m=model();const snapshot={kind:"active_ask",query:"LEGO 75402",observed_at:m.observed_at,sample_count:6,listed_total_low:50,listed_total_median:52,listed_total_high:55,status:"indicative_only"};globalThis.fetch=async()=>new Response(JSON.stringify({generated_utc:m.observed_at,pricing_catalog:[],asking_catalog:[snapshot],review_queue:[{ask_estimate:m}]}),{headers:{"content-type":"application/json"}});const out=await _test.priceView("LEGO75402",null,{DEALS_URL:"https://fixture.invalid/deals"});assert.match(out.embeds[0].title,/Estimated resale/);assert.match(JSON.stringify(out),/48.50/);assert.match(JSON.stringify(out.components),/Competitor 1/);}finally{globalThis.fetch=old;}});
 
 test("NEW asking models never price refurbished, used, bundles or minifigures",async()=>{const old=globalThis.fetch;try{const m=model();const snapshot={kind:"active_ask",query:"LEGO 75402",observed_at:m.observed_at,sample_count:6,listed_total_low:50,listed_total_median:52,listed_total_high:55,status:"indicative_only"};globalThis.fetch=async(url)=>String(url).includes("comps") ? new Response("match,category,low,high\n") : new Response(JSON.stringify({generated_utc:m.observed_at,pricing_catalog:[],asking_catalog:[snapshot],review_queue:[{ask_estimate:m}]}));for(const suffix of ["refurbished","pre-owned","used","bundle","minifigure","parts","no box"]){const out=await _test.priceView(`LEGO 75402 ${suffix}`,null,{DEALS_URL:"https://fixture.invalid/deals",COMPS_URL:"https://fixture.invalid/comps"});assert.doesNotMatch(out.embeds?.[0]?.title ?? "",/^Estimated resale/);}}finally{globalThis.fetch=old;}});
+test("manual review and above-budget signals stay explicit and use exported policy",()=>{
+  for(const signal of ["WORTH REVIEWING — MANUAL CHECK","ABOVE BUDGET — WATCH ONLY"]){
+    const m={...model(),signal,policy:{strong_net:12,strong_roi:.35},review_max_landed_buy:25};
+    const text=JSON.stringify(_test.estimateFields(m));assert.match(text,new RegExp(signal));
+    assert.match(text,/12.00/);assert.match(text,/35%/);assert.match(text,/25.00/);assert.match(text,/20% ROI/);
+    assert.match(text,/above-budget remains WATCH ONLY/);
+  }
+});
