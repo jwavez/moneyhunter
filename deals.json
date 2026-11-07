@@ -601,47 +601,6 @@
     },
     {
       "kind": "active_ask",
-      "query": "hunter x hunter nen x impact nintendo switch game",
-      "category": "gaming",
-      "name_terms": [],
-      "observed_at": "2026-11-07T16:24:12+00:00",
-      "date": "2026-11-07",
-      "sample_count": 1,
-      "listed_total_low": 49.99,
-      "listed_total_p25": 49.99,
-      "listed_total_median": 49.99,
-      "listed_total_p75": 49.99,
-      "listed_total_high": 49.99,
-      "status": "small_sample",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|880041145496|0",
-          "seller": "ej-gaming",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/880041145496",
-          "title": "Hunter x Hunter Nen x Impact *BRAND NEW & SEALED* Nintendo Switch Game Cartridge",
-          "declared_condition": "new",
-          "item_price": 49.99,
-          "shipping": 0.0,
-          "listed_total": 49.99
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 3
-      }
-    },
-    {
-      "kind": "active_ask",
       "query": "LEGO 75425",
       "category": "lego",
       "name_terms": [
@@ -1807,64 +1766,6 @@
     },
     {
       "kind": "active_ask",
-      "query": "the legend of zelda ocarina of time nintendo switch 2 game",
-      "category": "gaming",
-      "name_terms": [],
-      "observed_at": "2026-11-07T16:24:12+00:00",
-      "date": "2026-11-07",
-      "sample_count": 2,
-      "listed_total_low": 57.7,
-      "listed_total_p25": 64.63,
-      "listed_total_median": 71.56,
-      "listed_total_p75": 78.48,
-      "listed_total_high": 85.41,
-      "status": "small_sample",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|920115363000|0",
-          "seller": "akatsuki01",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/920115363000",
-          "title": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time GAME",
-          "declared_condition": "new",
-          "item_price": 55.0,
-          "shipping": 2.7,
-          "listed_total": 57.7
-        },
-        {
-          "item_id": "v1|137905826463|0",
-          "seller": "lenniesoutlet",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/137905826463",
-          "title": "Nintendo The Legend of Zelda: Ocarina of Time Switch 2 Game",
-          "declared_condition": "new",
-          "item_price": 85.41,
-          "shipping": 0.0,
-          "listed_total": 85.41
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 48
-      }
-    },
-    {
-      "kind": "active_ask",
       "query": "little nightmares ii xbox series x",
       "category": "gaming",
       "name_terms": [],
@@ -1975,6 +1876,64 @@
     },
     {
       "kind": "active_ask",
+      "query": "hori battle pad gamecube style controller zelda nintendo switch",
+      "category": "gaming",
+      "name_terms": [],
+      "observed_at": "2026-11-07T14:49:52+00:00",
+      "date": "2026-11-07",
+      "sample_count": 2,
+      "listed_total_low": 25.99,
+      "listed_total_p25": 26.24,
+      "listed_total_median": 26.49,
+      "listed_total_p75": 26.74,
+      "listed_total_high": 26.99,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|277231731850|0",
+          "seller": "itemdropuk",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/277231731850",
+          "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+          "declared_condition": "new",
+          "item_price": 25.99,
+          "shipping": 0.0,
+          "listed_total": 25.99
+        },
+        {
+          "item_id": "v1|377214090130|0",
+          "seller": "maponus-gaming",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/377214090130",
+          "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+          "declared_condition": "new",
+          "item_price": 26.99,
+          "shipping": 0.0,
+          "listed_total": 26.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 5
+      }
+    },
+    {
+      "kind": "active_ask",
       "query": "dangerous driving xbox one series x s",
       "category": "gaming",
       "name_terms": [],
@@ -2019,16 +1978,16 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 12,
+    "indicative_asking_products": 11,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 12,
+    "ask_estimated_products": 11,
     "estimated_opportunities": 0,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T16:24:23+00:00",
+  "generated_utc": "2026-11-07T16:26:48+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -3391,141 +3350,6 @@
             "item_price": 28.8,
             "shipping": 0.0,
             "listed_total": 28.8,
-            "same_acquisition_promotion": false
-          }
-        ]
-      }
-    },
-    {
-      "title": "Hunter x Hunter Nen x Impact Nintendo Switch Game",
-      "url": "https://www.hotukdeals.com/deals/hunter-x-hunter-nen-x-impact-nintendo-switch-5024048",
-      "category": "gaming",
-      "item_price": 22.62,
-      "landed_cost": null,
-      "breakeven_sell": 31.05,
-      "sell_for_minimum_profit": 41.73,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Hunter+x+Hunter+Nen+x+Impact+Nintendo+Switch+Game&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "hunter x hunter nen x impact nintendo switch game",
-        "category": "gaming",
-        "name_terms": [],
-        "observed_at": "2026-11-07T16:24:12+00:00",
-        "date": "2026-11-07",
-        "sample_count": 1,
-        "listed_total_low": 49.99,
-        "listed_total_p25": 49.99,
-        "listed_total_median": 49.99,
-        "listed_total_p75": 49.99,
-        "listed_total_high": 49.99,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|880041145496|0",
-            "seller": "ej-gaming",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880041145496",
-            "title": "Hunter x Hunter Nen x Impact *BRAND NEW & SEALED* Nintendo Switch Game Cartridge",
-            "declared_condition": "new",
-            "item_price": 49.99,
-            "shipping": 0.0,
-            "listed_total": 49.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 3
-        }
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "hunter x hunter nen x impact nintendo switch game",
-        "observed_at": "2026-11-07T16:24:12+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 49.99,
-        "competition_high": 49.99,
-        "estimated_resale": 48.49,
-        "estimated_range": [
-          44.99,
-          49.99
-        ],
-        "suggested_listing": 49.98,
-        "quick_sale_model": 44.99,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 22.62,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": 14.78,
-        "max_landed_buy": 26.71,
-        "max_item_buy": null,
-        "delivery_headroom": 4.09,
-        "fees": 6.44,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.45,
-        "estimated_opportunity": false,
-        "signal": "QUALIFIED ASK-BASED ESTIMATE",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed cap not demonstrated",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|880041145496|0",
-            "seller": "ej-gaming",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880041145496",
-            "title": "Hunter x Hunter Nen x Impact *BRAND NEW & SEALED* Nintendo Switch Game Cartridge",
-            "declared_condition": "new",
-            "item_price": 49.99,
-            "shipping": 0.0,
-            "listed_total": 49.99,
             "same_acquisition_promotion": false
           }
         ]
@@ -6177,176 +6001,6 @@
       }
     },
     {
-      "title": "The Legend of Zelda: Ocarina of Time - Nintendo Switch 2 Game - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-5025774",
-      "category": "gaming",
-      "item_price": 49.97,
-      "landed_cost": null,
-      "breakeven_sell": 63.34,
-      "sell_for_minimum_profit": 86.94,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Legend+of+Zelda%3A+Ocarina+of+Time&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "the legend of zelda ocarina of time nintendo switch 2 game",
-        "category": "gaming",
-        "name_terms": [],
-        "observed_at": "2026-11-07T16:24:12+00:00",
-        "date": "2026-11-07",
-        "sample_count": 2,
-        "listed_total_low": 57.7,
-        "listed_total_p25": 64.63,
-        "listed_total_median": 71.56,
-        "listed_total_p75": 78.48,
-        "listed_total_high": 85.41,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|920115363000|0",
-            "seller": "akatsuki01",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920115363000",
-            "title": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time GAME",
-            "declared_condition": "new",
-            "item_price": 55.0,
-            "shipping": 2.7,
-            "listed_total": 57.7
-          },
-          {
-            "item_id": "v1|137905826463|0",
-            "seller": "lenniesoutlet",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137905826463",
-            "title": "Nintendo The Legend of Zelda: Ocarina of Time Switch 2 Game",
-            "declared_condition": "new",
-            "item_price": 85.41,
-            "shipping": 0.0,
-            "listed_total": 85.41
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 48
-        }
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "the legend of zelda ocarina of time nintendo switch 2 game",
-        "observed_at": "2026-11-07T16:24:12+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 2,
-        "seller_count": 2,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 57.7,
-        "competition_high": 85.41,
-        "estimated_resale": 55.96,
-        "estimated_range": [
-          51.93,
-          57.7
-        ],
-        "suggested_listing": 57.69,
-        "quick_sale_model": 51.93,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 49.97,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -6.25,
-        "max_landed_buy": 31.22,
-        "max_item_buy": null,
-        "delivery_headroom": -18.75,
-        "fees": 7.36,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.68,
-        "estimated_opportunity": false,
-        "signal": "QUALIFIED ASK-BASED ESTIMATE",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed cap not demonstrated",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|920115363000|0",
-            "seller": "akatsuki01",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920115363000",
-            "title": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time GAME",
-            "declared_condition": "new",
-            "item_price": 55.0,
-            "shipping": 2.7,
-            "listed_total": 57.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|137905826463|0",
-            "seller": "lenniesoutlet",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137905826463",
-            "title": "Nintendo The Legend of Zelda: Ocarina of Time Switch 2 Game",
-            "declared_condition": "new",
-            "item_price": 85.41,
-            "shipping": 0.0,
-            "listed_total": 85.41,
-            "same_acquisition_promotion": false
-          }
-        ]
-      }
-    },
-    {
       "title": "Little Nightmares II (Xbox Series X)",
       "url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
       "category": "gaming",
@@ -6605,6 +6259,176 @@
       }
     },
     {
+      "title": "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon",
+      "url": "https://www.hotukdeals.com/deals/hori-battle-pad-gamecube-style-controller-zelda-switch-wcoupon-5022175",
+      "category": "gaming",
+      "item_price": 14.99,
+      "landed_cost": null,
+      "breakeven_sell": 22.04,
+      "sell_for_minimum_profit": 31.48,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HORI+Battle+Pad+GameCube+Style+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "hori battle pad gamecube style controller zelda nintendo switch",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:49:52+00:00",
+        "date": "2026-11-07",
+        "sample_count": 2,
+        "listed_total_low": 25.99,
+        "listed_total_p25": 26.24,
+        "listed_total_median": 26.49,
+        "listed_total_p75": 26.74,
+        "listed_total_high": 26.99,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|277231731850|0",
+            "seller": "itemdropuk",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277231731850",
+            "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99
+          },
+          {
+            "item_id": "v1|377214090130|0",
+            "seller": "maponus-gaming",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377214090130",
+            "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+            "declared_condition": "new",
+            "item_price": 26.99,
+            "shipping": 0.0,
+            "listed_total": 26.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 5
+        }
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "hori battle pad gamecube style controller zelda nintendo switch",
+        "observed_at": "2026-11-07T14:49:52+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 25.99,
+        "competition_high": 26.99,
+        "estimated_resale": 25.21,
+        "estimated_range": [
+          23.39,
+          25.99
+        ],
+        "suggested_listing": 25.98,
+        "quick_sale_model": 23.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 14.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 2.68,
+        "max_landed_buy": 9.67,
+        "max_item_buy": null,
+        "delivery_headroom": -5.32,
+        "fees": 3.58,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.76,
+        "estimated_opportunity": false,
+        "signal": "QUALIFIED ASK-BASED ESTIMATE",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed cap not demonstrated",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|277231731850|0",
+            "seller": "itemdropuk",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277231731850",
+            "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377214090130|0",
+            "seller": "maponus-gaming",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377214090130",
+            "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+            "declared_condition": "new",
+            "item_price": 26.99,
+            "shipping": 0.0,
+            "listed_total": 26.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      }
+    },
+    {
       "title": "Tilswall Paint Sprayer Shark700, Fits Makita 18V (No Battery), White - Discount at Checkout - Sold by Tilswall Direct EU / FBA",
       "url": "https://www.hotukdeals.com/deals/tilswall-paint-sprayer-shark700-fits-makita-18v-no-battery-white-with-checkout-discount-sold-by-tilswall-direct-eu-fba-5021941",
       "category": "tools",
@@ -6655,24 +6479,6 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WH-CH520+Wireless+Bluetooth+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Issey Miyake L'eau D'issey Pour Homme Eau de Toilette 75ml + Shower Gel 50ml w/code sold by ScentWarehouse",
-      "url": "https://www.hotukdeals.com/deals/issey-miyake-leau-dissey-pour-homme-eau-de-toilette-75ml-shower-gel-50ml-wcode-sold-by-scentwarehouse-5025756",
-      "category": "fragrance",
-      "item_price": 26.29,
-      "landed_cost": null,
-      "breakeven_sell": 36.3,
-      "sell_for_minimum_profit": 48.9,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Issey+Miyake+L%27eau+D%27issey+Pour+Homme+Eau+de+Toilette+75ml+%2B+Shower+Gel+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6766,24 +6572,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Versace Eros Eau de Toilette Gift Set for him 30ML - W/code Blue Light Code",
-      "url": "https://www.hotukdeals.com/deals/versace-eros-eau-de-toilette-gift-set-for-him-30ml-wcode-blue-light-code-5025766",
-      "category": "fragrance",
-      "item_price": 39.94,
-      "landed_cost": null,
-      "breakeven_sell": 52.65,
-      "sell_for_minimum_profit": 71.78,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Versace+Eros+Eau+de+Toilette+Gift+Set+for+him+30ML&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcb184-18v-xr-50ah-li-ion-battery-5023706",
       "category": "tools",
@@ -6838,57 +6626,21 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "3 x Cerruti 1881 Femme Eau de Toilette 100ml (3 For 2) - Discount at Checkout",
-      "url": "https://www.hotukdeals.com/deals/cerruti-1881-femme-eau-de-toilette-100ml-3-for-2-on-selected-fragrance-ps52-for-3-5025758",
+      "title": "Gucci Flora Gorgeous Orchid Eau de Parfum 50ml + 10ml Spray Set - NEW - sold by Fragrance Click",
+      "url": "https://www.hotukdeals.com/deals/gucci-flora-gorgeous-orchid-eau-de-parfum-50ml-10ml-spray-set-new-sold-by-fragrance-click-5025784",
       "category": "fragrance",
-      "item_price": 52.0,
+      "item_price": 53.51,
       "landed_cost": null,
-      "breakeven_sell": 67.09,
-      "sell_for_minimum_profit": 92.0,
+      "breakeven_sell": 68.9,
+      "sell_for_minimum_profit": 94.54,
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=3+x+Cerruti+1881+Femme+Eau+de+Toilette+100ml+%283+For+2%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Versace Eros Eau de Toilette 50ml Gift Set w/code",
-      "url": "https://www.hotukdeals.com/deals/versace-eros-eau-de-toilette-50ml-gift-set-wcode-5025772",
-      "category": "fragrance",
-      "item_price": 56.24,
-      "landed_cost": null,
-      "breakeven_sell": 72.16,
-      "sell_for_minimum_profit": 99.11,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Versace+Eros+Eau+de+Toilette+50ml+Gift+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Jean Paul Gaultier Scandal Gift Set EDP Spray 50ml + Body Lotion 75ml",
-      "url": "https://www.hotukdeals.com/deals/jean-paul-gaultier-scandal-gift-set-edp-spray-50ml-body-lotion-75ml-5025754",
-      "category": "fragrance",
-      "item_price": 59.8,
-      "landed_cost": null,
-      "breakeven_sell": 76.43,
-      "sell_for_minimum_profit": 105.07,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jean+Paul+Gaultier+Scandal+Gift+Set+EDP+Spray+50ml+%2B+Body+Lotion+75ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-07T16:26:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gucci+Flora+Gorgeous+Orchid+Eau+de+Parfum+50ml+%2B+10ml+Spray+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -7326,6 +7078,96 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+For+Men+Aftershave+Splash+100ml+%2F+JOOP%21+Homme+Wild+For+Him+Eau+de+Toilette+Spray+125ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "adidas Unisex Tensaur Sport 3.0 Kids Shoes - Size 10 UK Child",
+      "url": "https://www.hotukdeals.com/deals/adidas-unisex-tensaur-sport-30-kids-shoes-size-10-uk-child-5025625",
+      "category": "trainers",
+      "item_price": 14.8,
+      "landed_cost": null,
+      "breakeven_sell": 23.45,
+      "sell_for_minimum_profit": 33.18,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Unisex+Tensaur+Sport+3.0+Kids+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Calvin Klein Eternity 100ml Aftershave (Free C&C)",
+      "url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-100ml-aftershave-5025466",
+      "category": "fragrance",
+      "item_price": 14.99,
+      "landed_cost": null,
+      "breakeven_sell": 22.76,
+      "sell_for_minimum_profit": 32.35,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+100ml+Aftershave+%28Free+C%26C%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
+      "url": "https://www.hotukdeals.com/deals/nike-chelsea-fc-202425-home-shirt-junior-5024008",
+      "category": "trainers",
+      "item_price": 15.0,
+      "landed_cost": null,
+      "breakeven_sell": 23.69,
+      "sell_for_minimum_profit": 33.41,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Chelsea+FC+2024%2F25+Home+Shirt+Junior&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Women's Nike Calm Slide, Sail, Size 3.5 - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/womens-nike-womens-calm-slide-sail-size-35-free-cc-5021691",
+      "category": "trainers",
+      "item_price": 15.0,
+      "landed_cost": null,
+      "breakeven_sell": 23.69,
+      "sell_for_minimum_profit": 33.41,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Women%27s+Nike+Calm+Slide%2C+Sail%2C+Size+3.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "adidas Triangle 2-Way Straps Bikini Set - Size 40",
+      "url": "https://www.hotukdeals.com/deals/adidas-triangle-2-way-straps-bikini-set-size-40-5025600",
+      "category": "trainers",
+      "item_price": 15.1,
+      "landed_cost": null,
+      "breakeven_sell": 23.81,
+      "sell_for_minimum_profit": 33.54,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Triangle+2-Way+Straps+Bikini+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     }
   ],
   "stats": {
@@ -7346,9 +7188,9 @@
     "online_eligible": 227,
     "under_cap_known_delivery": 5,
     "delivery_known": 7,
-    "ask_valued": 12,
+    "ask_valued": 11,
     "estimated_opportunities": 0,
-    "qualified_delivery_unknown": 12,
+    "qualified_delivery_unknown": 11,
     "errors": [
       "Private tier unavailable or invalid; using starter cap (community index 0)"
     ],
@@ -7362,16 +7204,16 @@
         "age_unknown": 0,
         "missing_price_or_category": 89,
         "ambiguous_price": 2,
-        "page_requests": 9
+        "page_requests": 8
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
         "purpose": "active asking competition only",
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
-          "queries": 2,
-          "cached": 12,
-          "candidates_with_samples": 12,
+          "queries": 0,
+          "cached": 13,
+          "candidates_with_samples": 11,
           "status": "ready",
           "errors": []
         }
@@ -7391,18 +7233,18 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 17,
-    "rescanned": 287,
+    "new": 1,
+    "rescanned": 303,
     "price_changed": 0,
-    "previous_success": "2026-11-07T15:53:29+00:00",
-    "gap_minutes": 30.7,
+    "previous_success": "2026-11-07T16:24:14+00:00",
+    "gap_minutes": 2.4,
     "review_candidates": 50,
     "delivery_mode": "live",
     "execution": {
       "revision": "d24042d37974c7a466e153cd2d19d9b2d6797722",
-      "run_id": "42391088222",
-      "event": "workflow_dispatch",
-      "parent_run_id": "42388534027"
+      "run_id": "42391300511",
+      "event": "schedule",
+      "parent_run_id": null
     },
     "delivery_failures": 0,
     "pricing_products": 0,
