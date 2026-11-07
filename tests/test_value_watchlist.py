@@ -1,4 +1,5 @@
 """Offline fixtures only. No network, messages, seen resets or live runs."""
+from pathlib import Path
 import copy, datetime as dt, io, json, unittest, urllib.parse, urllib.error
 from unittest.mock import patch
 from moneyhunter import market,watchlist,details,asking,hub,config as C
@@ -121,8 +122,8 @@ class ExactDetails(unittest.TestCase):
 class RetailPreserved(unittest.TestCase):
     def test_all18_retail_feeds_and_10minute_capture_still_connected(self):
         self.assertEqual(sum(len(paths) for paths in C.FEEDS.values()),18)
-        self.assertIn('crons = ["*/10 * * * *"]',open('worker/wrangler.toml').read())
-        self.assertIn('capture.merge(raws, capture.scan',open('moneyhunter/cli.py').read())
+        self.assertIn('crons = ["*/10 * * * *"]',Path('worker/wrangler.toml').read_text())
+        self.assertIn('capture.merge(raws, capture.scan',Path('moneyhunter/cli.py').read_text())
     def test_retailer_original_image_price_url_not_overwritten_by_ebay(self):
         retail={**Source().raw(),'thumb':'original-retailer-photo','url':'https://www.hotukdeals.com/deals/synthetic-retail','price':10,'merchant':'Retailer'}
         snapshot=copy.deepcopy(retail)
@@ -133,7 +134,7 @@ class RetailPreserved(unittest.TestCase):
         retail={**RAW,'category':'gaming','title':'Synthetic Physical Retail Game PS5','url':'https://www.hotukdeals.com/deals/synthetic-retail','merchant':'Retailer','price':15,'heat':0,'review_priority':0}
         extras=[{**retail,'url':f'https://www.ebay.co.uk/itm/{1000+n}','source':'ebay_browse','review_priority':100} for n in range(8)]
         with patch.object(hub,'acquisition_status',return_value='live'),patch.object(hub,'send',return_value=204) as send,patch.object(hub,'read_prices',return_value={}),patch.object(hub,'price_drops',return_value=([],{})):
-            hub.route(extras+[retail],[],{'errors':[],'scanned':9,'priced':0,'A':0,'B':0},[],set(),dry=True)
+            hub.route(extras+[retail],[],{'errors':[],'scanned':9,'priced':0,'affordable':0,'unpriced':9,'R':0,'A':0,'B':0},[],set(),dry=True)
             category=[c for c in send.call_args_list if c.args[0]==hub.CAT_CHANNEL['gaming']]
             self.assertEqual(len(category),3);self.assertIn(retail['url'],str(category[0]))
     def test_retail_candidate_gets_same_independent_comps_as_ebay_without_overwrite(self):
