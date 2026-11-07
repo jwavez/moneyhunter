@@ -1,19 +1,37 @@
 name: moneyhunter-scan
-# GitHub cron is best effort, not a punctual scheduler. Gaps are recorded in scan health.
+# GitHub cron is a best-effort watchdog. The free server-side environment wait
+# timer + repository-scoped ephemeral GITHUB_TOKEN drives the normal scan chain.
 on:
   schedule:
     - cron: "13,43 * * * *"  # off the start-of-hour rush; target 30 minutes, not guaranteed
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "No outbound Discord delivery and no operational state publication"
+        description: "Disable outbound Discord delivery (artifact only unless publish_state is explicitly enabled)"
         type: boolean
         default: true
+      publish_state:
+        description: "Publish genuine no-send scan observations without acknowledging alerts"
+        type: boolean
+        default: false
+      keep_running:
+        description: "Continue normal autonomous scans after the 30-minute server-side wait"
+        type: boolean
+        default: false
+      cadence_probe:
+        description: "One bounded automatic no-send successor after the 1-minute acceptance timer"
+        type: boolean
+        default: false
+      parent_run_id:
+        description: "Automatic successor provenance; no credentials or personal data"
+        type: string
+        default: ""
 permissions:
   contents: write   # public operational state branch only
-concurrency: { group: moneyhunter-scan, cancel-in-progress: false }
 jobs:
   scan:
+    if: ${{ vars.MH_SCANNER_PAUSED != '1' }}
+    concurrency: { group: moneyhunter-scan, cancel-in-progress: false }
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -39,12 +57,14 @@ jobs:
         env: { MONEYHUNTER_DISABLE_SEND: "1", MONEYHUNTER_FORCE_STATUS: "1" }
         run: python -m unittest discover -s tests -v
       - name: Read typed private tier index only (safe starter fallback)
-        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run }}
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.dry_run || inputs.publish_state }}
         env:
           MH_PRIVATE_TOKEN: ${{ secrets.MH_PRIVATE_TOKEN }}
         run: python -m moneyhunter.tier_sync
       - name: Scan (manual defaults no-send), export honest public evidence
         env:
+          MH_PARENT_RUN_ID: ${{ inputs.parent_run_id }}
+          MH_PUBLISH_STATE: ${{ inputs.publish_state && '1' || '0' }}
           MONEYHUNTER_COMMUNITY: "1"
           MONEYHUNTER_CAPTURE_URL: "https://moneyhunter-bot.moneyhunter.workers.dev/api/research-capture"
           MONEYHUNTER_DISABLE_SEND: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
@@ -55,7 +75,9 @@ jobs:
         run: |
           set -euo pipefail
           rm -f public/deals.json
-          if [ "$MONEYHUNTER_DISABLE_SEND" = "1" ]; then
+          if [ "$MONEYHUNTER_DISABLE_SEND" = "1" ] && [ "$MH_PUBLISH_STATE" = "1" ]; then
+            python -m moneyhunter.cli scan --no-send --max-posts 0 --export public/deals.json
+          elif [ "$MONEYHUNTER_DISABLE_SEND" = "1" ]; then
             python -m moneyhunter.cli scan --dry-run --max-posts 0 --export public/deals.json
           else
             python -m moneyhunter.cli scan --max-posts 5 --export public/deals.json
@@ -85,7 +107,7 @@ jobs:
           path: public/deals.json
           retention-days: 3
       - name: Publish public state with normal fast-forward history (no force push)
-        if: ${{ success() && (github.event_name != 'workflow_dispatch' || !inputs.dry_run) }}
+        if: ${{ success() && (github.event_name != 'workflow_dispatch' || !inputs.dry_run || inputs.publish_state) }}
         run: |
           set -euo pipefail
           mkdir /tmp/mh-state
@@ -101,3 +123,27 @@ jobs:
           # Push through checkout's configured credential helper; token never appears in command arguments.
           git fetch /tmp/mh-state HEAD:refs/moneyhunter-state
           git push origin refs/moneyhunter-state:refs/heads/state
+
+  cadence:
+    name: Queue next scan (server-side delay; no idle runner)
+    needs: scan
+    if: >-
+      ${{ always() && !cancelled() && github.repository == 'jwavez/moneyhunter' &&
+          github.ref == 'refs/heads/main' && vars.MH_SCANNER_PAUSED != '1' &&
+          (github.event_name == 'schedule' || inputs.keep_running || inputs.cadence_probe) }}
+    # Waiting is managed by GitHub, not an allocated runner, polling loop or box daemon.
+    # A watchdog replaces the previous delayed successor, avoiding forks.
+    concurrency: { group: moneyhunter-cadence, cancel-in-progress: true }
+    environment: ${{ inputs.cadence_probe && 'moneyhunter-cadence-probe' || 'moneyhunter-cadence' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions: { contents: read, actions: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Dispatch bounded successor using native short-lived repository token
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MH_CADENCE_PROBE: ${{ inputs.cadence_probe && '1' || '0' }}
+        run: python -m moneyhunter.cadence

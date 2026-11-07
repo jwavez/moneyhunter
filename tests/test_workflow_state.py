@@ -18,7 +18,8 @@ class Publication(unittest.TestCase):
         workflow = Path(__file__).resolve().parents[1] / ".github/workflows/scan.yml"
         lines = workflow.read_text().splitlines()
         start = next(i for i, line in enumerate(lines) if "mkdir /tmp/mh-state" in line)
-        script = "\n".join(line[10:] for line in lines[start:])
+        end = next((i for i in range(start, len(lines)) if lines[i].startswith("  cadence:")), len(lines))
+        script = "\n".join(line[10:] for line in lines[start:end])
         with tempfile.TemporaryDirectory(prefix="state-fixture-") as td:
             root = Path(td); remote = root/"remote.git"; repo = root/"repo"
             remote.mkdir(); repo.mkdir()
