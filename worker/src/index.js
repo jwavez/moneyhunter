@@ -229,7 +229,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   }
   const cleanAskQuery = value => String(value).toLowerCase().replace(/\b(new|sealed)\b/g,"").replace(/[^a-z0-9]+/g," ").trim();
   const numbers=[...new Set(String(q).match(/(?<!\d)\d{5,6}(?!\d)/g) ?? [])];
-  const unsafe=/\b(used|refurb|bundle|multipack|sticker|instructions|manual|parts|digital|download|minifig|missing)\b/i.test(q);
+  const unsafe=/\b(used|refurb(?:ished)?|pre[ -]?owned|open[ -]?box|no box|unboxed|bundles?|multi[ -]?packs?|stickers?|instructions?|manuals?|parts?|digital|download|minifig(?:ure)?s?|missing)\b/i.test(q);
   const asking = !unsafe && (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && (cleanAskQuery(x.query)===cleanAskQuery(q) || (/lego/i.test(q) && numbers.length===1 && x.query===`LEGO ${numbers[0]}`)));
   if(asking) {
     const entry=(pricing.review_queue ?? []).find(x=>x.ask_estimate?.query===asking.query);
