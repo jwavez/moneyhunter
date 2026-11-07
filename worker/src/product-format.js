@@ -1,9 +1,9 @@
 // Same format rules as Python: category/brand must never override digital format.
 const stores=new Set(['eneba','loaded','cdkeys','cdkeys.com','steam','epic games','epic games store','gog','gog.com','xbox','microsoft','nintendo eshop','playstation store']);
 export function nonphysical(x={}) {
- const t=String(x.title??'').replace(/[‐‑‒–—]/g,'-');const hardware=/\b(keyboards?|keycaps?|key switches|controller|headset|mouse|console|racing wheel|camera|thermometer|digital piano|steam deck)\b/i.test(t);
+ const t=String(x.title??'').replace(/[‐‑‒–—]/g,'-');const hardware=/\b(keyboards?|keycaps?|key switches|controller|headset|mouse|console|racing wheel|camera|thermometer|digital piano|steam deck|laptop|notebook|tablet|monitor|television|earbuds|headphones|smartphone|speaker|drill|building set|building kit)\b/i.test(t);
  if(hardware && /\b(keyboard|keycaps?|key switches)\b/i.test(t) && /replacement|spare|keycaps?|key switches|keyboard keys/i.test(t) && !/activation|download|licen[cs]e|game key|software/i.test(t))return false;
- if(/\b(pc[ -]?(?:game[ -]?)?key|cd[ -]?keys?|game[ -]?key|activation[ -]?(?:key|code)|download[ -]?code|digital[ -]?(?:code|key|download)|code in a box|gift[ -]?card|e[ -]?gift|software licen[cs]e|steam key|gog key|epic key)\b/i.test(t))return true;
+ if(/\b(pc[ -]?(?:game[ -]?)?key|cd[ -]?keys?|game[ -]?key|activation[ -]?(?:key|code)|download[ -]?code|digital[ -]?(?:code|key|download)|code in a box|gift[ -]?card|e[ -]?gift|software licen[cs]e|licen[cs]e|steam key|gog key|epic key)\b/i.test(t))return true;
  return !hardware && (/\b(digital|download|steam|gog|epic games|game pass|season pass|dlc|subscription|membership|licen[cs]e)\b/i.test(t)||stores.has(String(x.merchant??'').trim().toLowerCase()));
 }
 export function normalizeProduct(x={}) {
