@@ -129,14 +129,18 @@ def estimate(raw, snapshot, when=None):
         "review_stress_sale":stress_sale,"review_stress_net":stress.net if stress else None,"review_stress_roi":round(stress.net/cost*100,1) if stress else None,
         "review_stress_passed":stress_ok,"review_stress_basis":"Illustrative 10% resale drop, not a forecast or measured turnover; £5 net AND 10% ROI required",
         "review_max_landed_buy":min(policy.ceiling(buy + upper.net,p['review_net'],p['review_roi'],p['cap']),policy.ceiling(net_profit(stress_sale,0,"ebay_business",category,C.postage_for(category),C.PACKAGING,C.RETURNS_ALLOWANCE).net,p['review_stress_net'],p['review_stress_roi'],p['cap'])),
-        "signal":"ABOVE BUDGET — WATCH ONLY" if watch_only else "ESTIMATED OPPORTUNITY — CHECK BEFORE BUYING" if opportunity else "WORTH REVIEWING — MANUAL CHECK" if worth_reviewing else "QUALIFIED ASK-BASED ESTIMATE",
+        "signal":"ABOVE BUDGET — WATCH ONLY" if watch_only else "ESTIMATED OPPORTUNITY — CHECK BEFORE BUYING" if opportunity else "WORTH REVIEWING — MANUAL CHECK" if worth_reviewing else "ASK-BASED RESALE ESTIMATE — NOT A BUY",
         "checks":blockers,"sources":offers[:10]}
     if category=='fragrance':
-        # Competitor asking totals remain useful research, but no legal shipping quote exists.
+        from .transport import scenario
+        sc=scenario(raw,target,when)
+        model['transport_scenario']=sc
+        # Market value and a conditional published-tariff scenario are separate from verified costs.
         model.update({k:None for k in ('net','roi','net_before_unknown_delivery','max_landed_buy','max_item_buy','delivery_headroom','fees','outbound_postage','packaging','returns_allowance','review_stress_net','review_stress_roi','review_max_landed_buy')})
         model.update(transport_validated=False,estimated_opportunity=False,worth_reviewing=False,review_stress_passed=False,
-            signal='ABOVE BUDGET — WATCH ONLY' if above else 'ASK-BASED MARKET RESEARCH — TRANSPORT UNVALIDATED')
-        model['checks'].insert(0,'Compliant perfume outbound carrier, packaging and actual quote unknown; net/ROI and buy ceilings NOT established')
+            signal='ABOVE BUDGET — WATCH ONLY' if above else 'ASK-BASED RESALE ESTIMATE — CHECK COSTS')
+        model['checks'].insert(0,sc['profile']['reason'])
+        model['checks'].insert(1,'Actual parcel/carrier and protective packaging costs unverified; conditional tariff scenario cannot create a buying signal')
         if snapshot.get('identity',{}).get('bottle_format')=='not stated':
             model['checks'].insert(1,'Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate')
     return model

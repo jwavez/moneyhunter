@@ -45,11 +45,11 @@ def resellable(it) -> bool:
     """Physical goods in a category we price; never food, household, consumables, digital or rentals."""
     return it.get("category") in CAT_LABEL and it.get("online_eligible", hotukdeals.online_status(it.get("title", ""))) and not digital_store_risk(it) and not NOT_RESELLABLE_RE.search(it.get("title") or "")
 
-def sell_needed(buy: float, category: str):
+def sell_needed(buy: float, category: str, postage=None):
     """From the fee engine at this buy price: breakeven sell price, and the sell price for £8 net and 40% ROI."""
     from . import config as C
     from .fees import net_profit
-    post = C.postage_for(category)
+    post = C.postage_for(category) if postage is None else postage
     net = lambda p: net_profit(p, buy, "ebay_business", category, post, C.PACKAGING, C.RETURNS_ALLOWANCE).net
     def solve(goal):
         lo, hi = 0.0, buy * 4 + 50
@@ -74,7 +74,7 @@ def watch_card(it, prices):
          "title": ("👀 " + it["title"])[:250], "url": it["url"], "color": 0x64748B,
          "description": f"**£{it['price']:.2f}** at {it.get('merchant') or 'retailer'}{heat}\n"
                         "Competitor-based estimates are not sold prices or a verified BUY. Check exact variant, retailer stock and delivery."
-                        + (" Delivery unknown: calculations are item-only lower bounds." if it.get("inbound_delivery") is None else " Delivery included in calculations.")
+                        + (" Inbound delivery unknown: required resale targets are minimums; any profit figure is an upper bound before delivery." if it.get("inbound_delivery") is None else " Delivery included in calculations.")
                         + ("\n⚠️ Kids' sizes: adult sold prices do not apply." if kids else ""),
          "fields": [{"name": "Breakeven sell price", "value": f"£{be:.2f}", "inline": True},
                     {"name": "Required resale target (not valuation)", "value": f"£{tgt:.2f}+", "inline": True},
@@ -87,9 +87,16 @@ def watch_card(it, prices):
                    + [{"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
          "footer": {"text": f"Sell prices after eBay business fees incl 20% VAT, £{post:.2f} postage, £0.50 packaging, 3% returns · strong = £{policy['strong_net']:g} net and {policy['strong_roi']*100:g}% ROI"}}
     if it['category']=='fragrance':
-        e['fields'][0]={'name':'Breakeven sell price','value':'Unknown until compliant outbound carrier/packaging is quoted','inline':False}
-        e['fields'][1]={'name':'Required resale target (not valuation)','value':'Not validated: default Evri service prohibits perfume; Royal Mail standard limit is 150ml/item (a 200ml bottle exceeds it)','inline':False}
-        e['footer']['text']='Fragrance transport NOT validated. Evri prohibits perfume; verify compliant carrier, packaging, liability and cost before pricing. No guaranteed break-even.'
+        from .transport import scenario
+        sc=scenario(it)
+        p=sc['profile']
+        qualifier='conditional tariff scenario' + ('; excluding UNKNOWN inbound delivery' if not sc.get('inbound_known') else '')
+        e['fields'][0]={'name':'Breakeven required resale — NOT market value','value':f"£{sc['breakeven']:.2f}+ ({qualifier})" if sc['breakeven'] is not None else p['reason'],'inline':False}
+        e['fields'][1]={'name':'Strong-policy required resale — NOT valuation','value':f"£{sc['required_resale']:.2f}+ ({qualifier})" if sc['required_resale'] is not None else 'Unknown until an applicable compliant transport profile and costs are established','inline':False}
+        e['fields'].append({'name':'Bottle-specific delivery scenario','value':transport_text(sc)[:1000],'inline':False})
+        e['footer']['text']='Market sell estimate is independent of postage. Tariff scenario is NOT a parcel quote, insurance guarantee or buying approval. Evri prohibits perfume.'
+        if not it.get('ask_estimate'):
+            e['fields'].insert(0,{'name':'Estimated sell price — competitor asks','value':'Not established: '+it.get('ask_status','exact bottle type/concentration/ml comparable offers not yet available')+'. A required resale target is NOT an estimated selling price.','inline':False})
     model = it.get("ask_estimate")
     if not model and it["price"] + (it.get("inbound_delivery") or 0) > policy["cap"]:
         e["author"]["name"] = "ABOVE BUDGET — WATCH ONLY · not valued"
@@ -108,9 +115,13 @@ def watch_card(it, prices):
 
 def estimate_fields(m):
     if m.get('transport_validated') is False:
+        sc=m.get('transport_scenario',{})
+        value='Unknown: no applicable verified outbound quote. Market estimate above remains available.'
+        if sc.get('status')=='conditional_tariff_scenario':
+            value=(f"£{sc['net']:.2f} / {sc['roi']:.1f}% ROI" if sc.get('net') is not None else f"Up to £{sc['net_before_unknown_delivery']:.2f} BEFORE unknown inbound delivery" if sc.get('net_before_unknown_delivery') is not None else 'Unknown')+' — CONDITIONAL tariff/packaging scenario only; actual net/ROI not established.'
         return [
-            {'name':'Ask-based market research — NOT a buying signal','value':f"£{m['estimated_resale']:.2f} model estimate; asking range £{m['competition_low']:.2f}–£{m['competition_high']:.2f}. {m['seller_count']} independent sellers / {m['sample_count']} samples; {m['confidence']} confidence. NOT sold or guaranteed.",'inline':False},
-            {'name':'Net / ROI / buy ceiling','value':'Unknown: compliant perfume carrier, packaging, liability and actual outbound quote required. Default Evri figures must NOT be used.','inline':False},
+            {'name':'Estimated sell price — competitor asks, NOT a BUY','value':f"£{m['estimated_resale']:.2f}; suggested listing £{m['suggested_listing']:.2f}. Model range £{m['estimated_range'][0]:.2f}–£{m['estimated_range'][1]:.2f}. {m['seller_count']} independent sellers / {m['sample_count']} samples; {m['confidence']} confidence. NOT sold or guaranteed.",'inline':False},
+            {'name':'Conditional profit scenario / actual net UNKNOWN','value':value,'inline':False},
             {'name':'Exact variant and provenance checks','value':' · '.join(m['checks'])[:1000],'inline':False},
             {'name':'Competitor sources','value':' · '.join(f"[Offer {i+1}]({o['url']})" for i,o in enumerate(m['sources'][:3])),'inline':False}]
     profit = (f"£{m['net']:.2f} / {m['roi']:.1f}% ROI at £{m['landed_cost']:.2f} landed" if m["delivery_known"] else
@@ -123,6 +134,12 @@ def estimate_fields(m):
         {"name":"Competition / confidence", "value":f"{m['sample_count']} seller-deduplicated asks · {m['seller_count']} known sellers · {m['confidence']} confidence · observed {m['observed_at']}. Lowest delivered competition £{m['competition_low']:.2f}. {m['discount_note']}","inline":False},
         {"name":"Max landed buy / delivery headroom", "value":f"£{m['max_landed_buy']:.2f} / £{m['delivery_headroom']:.2f}; strong policy £{m.get('policy',{}).get('strong_net',8):g} net + {m.get('policy',{}).get('strong_roi',.4)*100:g}% ROI. Manual-review ceiling £{m.get('review_max_landed_buy',m['max_landed_buy']):.2f}. Check stock and checkout price. No sales speed measured.","inline":False},
         {"name":"Competitor sources", "value":" · ".join(f"[Offer {i+1}]({o['url']})" for i,o in enumerate(m["sources"][:3]))[:1000],"inline":False}]
+
+
+def transport_text(sc):
+    p=sc['profile']
+    price=f"£{p['postage']:.2f} incl VAT" if p.get('postage') is not None else 'No applicable tariff'
+    return f"{p['ml'] or 'Unknown'}ml · {price}; {p['reason']} Online UK small parcel <=2kg /45x35x16cm, original retail pack, protective/leakproof outer, ID8000 and return address; Post Office COUNTER only, not collection/postbox. Packaging £{p['packaging_assumption']:.2f} is only an allowance. Cover/exclusions must be checked, not guaranteed. Tariff checked {p['checked_at']}: [carrier]({p['rate_source']}) · [restrictions]({p['rules_source']})"
 
 
 def market_pulse(raws, stats) -> str:
@@ -162,7 +179,7 @@ def mini(it, color, prefix=""):
     heat = f"🌡️ {it['heat']}°" if it.get("heat") is not None else ""
     e = {"title": (prefix + it["title"])[:250], "url": it["url"], "color": color,
          "description": f"**£{it['price']:.2f}** · {it.get('merchant') or 'retailer'} {('· ' + heat) if heat else ''}\n"
-                        f"Not yet priced by MONEYHUNTER: check sold prices before buying.",
+                        + (f"Estimated resale £{it['ask_estimate']['estimated_resale']:.2f} (competitor asks; NOT a BUY). Check stock, exact variant and all costs." if it.get("ask_estimate") else "Resale estimate not established: exact comparator research required; do not confuse the required resale target with market value."),
          "footer": {"text": f"MONEYHUNTER · {E.SCHEDULE}"}}
     if it.get("thumb"):
         from .images import safe
@@ -255,7 +272,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     if hot:
         priced = {d.url for d, _ in graded}
         lines = [f"**{it['heat']}°** · {CAT_LABEL[it['category']]} · [{it['title'][:65]}]({it['url']}) · £{it['price']:.2f}"
-                 + (" · priced, see the category feed" if it["url"] in priced else f" · break even £{sell_needed(it['price'] + (it.get('inbound_delivery') or 0), it['category'])[0]:.2f}+" + (" (item-only; delivery unknown)" if it.get('inbound_delivery') is None else " (incl inbound delivery)"))
+                 + (" · priced, see the category feed" if it["url"] in priced else " · perfume transport conditional; see research/Price Check" if it["category"]=="fragrance" else f" · break even £{sell_needed(it['price'] + (it.get('inbound_delivery') or 0), it['category'])[0]:.2f}+" + (" (item-only; delivery unknown)" if it.get('inbound_delivery') is None else " (incl inbound delivery)"))
                  for it in hot]
         lego_hot=[mini(it,0xEF4444,"🔥 ") for it in hot if it["category"]=="lego"]
         lines=[line for line,it in zip(lines,hot) if it["category"]!="lego"]
