@@ -1,6 +1,6 @@
 # MONEYHUNTER
 
-An online-to-online UK flipping scanner. It reads public hotukdeals RSS feeds for the target categories (trainers, sportswear, LEGO, power tools, gaming, fragrance), matches offers against reviewed observations in `data/evidence.json`; legacy `data/comps.csv` values are reference-only, and works out the real profit after every fee and cost. Reviewed exact-variant deals are graded A (buy), B (verify) or REJECT using evidence, landed-cost, availability and profit checks, and A/B deals go to your Discord channel through a webhook. No dependencies beyond the Python 3.10+ standard library.
+An online-to-online UK flipping scanner. It reads public hotukdeals RSS feeds for the target categories (trainers, sportswear, LEGO, power tools, gaming, fragrance), matches offers against reviewed observations in `data/evidence.json`; legacy `data/comps.csv` values are reference-only, and calculates conservative fee/cost scenarios (not guaranteed realised profits). Reviewed exact-variant deals are graded A (buy), B (verify) or REJECT using evidence, landed-cost, availability and profit checks, and A/B deals go to your Discord channel through a webhook. No dependencies beyond the Python 3.10+ standard library.
 
 Labels: [S] means sourced (see the Page), [H] means a house rule you can change in `moneyhunter/config.py`.
 
@@ -24,9 +24,9 @@ If the webhook variable is missing, everything runs as a dry run and prints inst
 1. Create a **public** GitHub repo; Actions minutes are free on public repos. Push this folder to it.
 2. Repo > Settings > Secrets and variables > Actions:
    - Secret `MONEYHUNTER_DISCORD_WEBHOOK` = your webhook URL
-   - Optional secrets `EBAY_CLIENT_ID` and `EBAY_CLIENT_SECRET` (free eBay developer keys; adds the active-listing count and median asking price)
+   - Optional secrets `EBAY_CLIENT_ID` and `EBAY_CLIENT_SECRET` (existing authorised Browse access; adds clearly separated indicative active asking research, not sold prices)
    - No bankroll variable: the cloud scanner uses the public starter rule set (MONEYHUNTER_COMMUNITY=1)
-3. Under Actions, enable workflows, then run **moneyhunter-scan** once by hand.
+3. Under Actions, enable workflows. Manual **moneyhunter-scan** defaults to a no-send/no-publication diagnostic; scheduled scans retain normal operation. Deliberately disable its `dry_run` input only when live delivery is intended.
 
 Your ledger (`data/ledger.db`) is git-ignored, so your money data never goes to the public repo.
 
@@ -78,3 +78,15 @@ Platforms: `ebay_private`, `ebay_business`, `vinted`, `depop`, `stockx`, `fb`. F
 
 ### Reviewed pricing and research access
 The scanner export now carries independent exact-product `pricing_catalog` values when genuine observations have been imported, and a `pricing_status` blocker when none exist. Worker Price Check uses this catalog without requiring a current RSS deal; its **Research Watchlist** shows affordable unmatched candidates and missing evidence. `/api/health` exposes public scan/coverage status. Current sourced, unapproved research is in [`data/research_watchlist.json`](data/research_watchlist.json), clearly separate from accepted sold evidence. See [operation, schema and limits](docs/EVIDENCE_PIPELINE.md). These changes do not create sold-data access or promise profitable stock.
+
+### Source-led research and independent capture
+See [pinned open-source review and adoption decisions](docs/OPEN_SOURCE_RESEARCH.md).
+The existing Worker now buffers four public RSS feeds on a ten-minute target, with
+conditional requests and visible failures; `/api/research-capture` exposes retained
+research offers, not live-stock guarantees or grades. The Python scanner merges
+this buffer via the configured `MONEYHUNTER_CAPTURE_URL`. Scanner grading can still
+lag GitHub cron; health distinguishes it from fresh feed capture. Existing Browse
+keys can populate a separate six-hour `asking_catalog` for identifiable gaming/LEGO
+queries: known item + quoted postage, strict title filters, no sold/velocity claim.
+Neither current asks nor retained RSS alone can unlock BUY/VERIFY. No fresh sold
+history is bundled or automatically licensed by these changes.

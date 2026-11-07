@@ -122,13 +122,15 @@ def run_scan():
     if "FAILED" in ebay_health: errors.append("eBay authentication failed; competition context unavailable")
     if os.getenv("MH_TIER_WARNING"): errors.append("Private tier unavailable or invalid; using starter cap (community index 0)")
     operational = RT.load(OPERATIONAL)
-    raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m))); LAST_RAWS = raws
+    raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
+    from .scanners import capture
+    raws = capture.merge(raws, capture.scan(log=lambda m: (print(m), errors.append(m))))
+    LAST_RAWS = raws
     counts = RT.observe(raws, operational)
     if counts["gap_minutes"] is not None and counts["gap_minutes"] > C.MAX_SCAN_GAP_MINUTES:
         errors.append(f"Scan gap {counts['gap_minutes']:.0f} minutes; 30-minute cron is best effort")
     comps = CP.load()
     graded, unpriced, review = [], [], []
-    ask_calls = 0; ask_run = {}
     for raw in raws:
         # Reviewed exact retailer offers can resolve attributes omitted by a feed title.
         comp = next((c for c in comps if c.evidence_type == "sold" and checked_offer(raw, c)), None)
@@ -141,18 +143,6 @@ def run_scan():
         if res is None: unpriced.append(d)
         else:
             d.intel = _intel(d, res)
-            # Competition context only, bounded and cached. Never used as sold value or BUY evidence.
-            if ebay.available() and comp.match not in ask_run:
-                cached = operational["ask_cache"].get(comp.match)
-                if cached and cached.get("date") == dt.date.today().isoformat(): ask_run[comp.match] = cached
-                elif ask_calls < 4:
-                    ask_calls += 1
-                    try:
-                        ask_run[comp.match] = {**ebay.active_stats(comp.match), "date": dt.date.today().isoformat(), "kind": "active_ask"}
-                        operational["ask_cache"][comp.match] = ask_run[comp.match]
-                    except Exception as exc:
-                        errors.append(f"eBay competition lookup failed: {type(exc).__name__}")
-            d.ask_context = ask_run.get(comp.match)
             graded.append((d, res))
         if hub.resellable(raw) and d.online_eligible and d.buy_price + d.inbound_delivery <= cap:
             blockers = E.gates_failed(res) if res else [why_not or "No exact reviewed sold observations"]
@@ -170,6 +160,12 @@ def run_scan():
                 "cost_basis": "landed" if d.delivery_known else "item-only lower bound; delivery unknown",
                 "blockers": blockers, "priority": score, "first_seen": operational["items"][RT.key(raw)]["first_seen"],
                 "sold_search": E.ebay_sold_url(E.short_query(d.title))})
+    from . import market
+    review.sort(key=lambda r: (-r["priority"], r["item_price"], r["url"]))
+    ask_health = market.enrich(review[:50], raws, operational)
+    errors.extend(ask_health["errors"])
+    ask_by_url = {r["url"]: r.get("ask_context") for r in review if r.get("ask_context")}
+    for deal, _ in graded: deal.ask_context = ask_by_url.get(deal.url)
     checked = drop_expired(graded, br)
     order = {"A": 0, "B": 1, "R": 2}
     graded.sort(key=lambda x: (order[x[1].grade[0]], -x[1].ev_net))
@@ -189,10 +185,11 @@ def run_scan():
              "under_cap_known_delivery": sum(r.get("inbound_delivery") is not None and r["price"] + r["inbound_delivery"] <= cap for r in raws),
              "delivery_known": sum(r.get("inbound_delivery") is not None for r in raws),
              "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
-                 "ebay": {"status": ebay_health, "purpose": "active asking competition only"},
+                 "ebay": {"status": ebay_health, "purpose": "active asking competition only", "research": ask_health},
+                 "capture_buffer": capture.LAST_DIAGNOSTICS,
                  "cash_floors": {"automatic_source": False, "status": "reviewed exact cash quotes only"}}, **counts}
     if raws and not diagnostics.get("feeds_failed"): operational["last_success"] = RT.stamp(RT.now())
-    operational["ask_cache"] = {k:v for k,v in operational["ask_cache"].items() if v.get("date", "") >= (dt.date.today()-dt.timedelta(days=7)).isoformat()}
+    operational["ask_cache"] = {k:v for k,v in operational["ask_cache"].items() if k == "browse-blocked" or v.get("date", "") >= (dt.date.today()-dt.timedelta(days=7)).isoformat()}
     LAST_OPERATIONAL = operational
     # Update blockers after the availability checks rather than exporting stale preliminary reasons.
     by_url = {d.url: (d, r) for d, r in graded}
@@ -228,7 +225,9 @@ def export_public(path, stats, graded):
     catalog = public_catalog(os.path.join(os.path.dirname(CP.PATH), "evidence.json"))
     stats["pricing_products"] = len(catalog)
     stats["pricing_observations"] = sum(c["sample_count"] for c in catalog)
-    out = {"pricing_catalog": catalog, "pricing_status": {
+    asking = {r["ask_context"]["query"]: r["ask_context"] for r in LAST_REVIEW if r.get("ask_context")}
+    out = {"pricing_catalog": catalog, "asking_catalog": list(asking.values()), "pricing_status": {
+               "indicative_asking_products": sum(v["sample_count"] > 0 for v in asking.values()),
                "automatic_sold_feed": False, "products": len(catalog),
                "sold_observations": stats["pricing_observations"],
                "blocker": None if catalog else "No fresh directly verified exact-product sold observations imported; active asks are not sold data"},

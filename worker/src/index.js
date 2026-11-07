@@ -1,6 +1,7 @@
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
 import { calc, parseCsv, findComp, findReviewed, gbp, verifyDiscord } from "./logic.js";
 import * as CM from "./community.js";
+import { capture, readCapture, publicCapture } from "./capture.js";
 
 const C = { A: 0x22c55e, B: 0xf59e0b, R: 0xef4444, BRAND: 0x8b5cf6, INFO: 0x3b82f6 };
 const EPH = 64;
@@ -31,19 +32,57 @@ function filterDeals(deals, f) {
 }
 const FNAME = { top: "Top deals", near: "Near misses", all: "All priced deals", games: "Games", consoles: "Consoles", trainers: "Trainers", lego: "LEGO", tools: "Tools", fragrance: "Fragrance" };
 
-async function getDeals(env) { const r = await fetch(env.DEALS_URL, { cf: { cacheTtl: 60 } }); if (!r.ok) throw new Error("deals feed " + r.status); return r.json(); }
+async function getDeals(env) {
+  const r = await fetch(env.DEALS_URL, { cf: { cacheTtl: 60 } });
+  if (!r.ok) throw new Error("deals feed " + r.status);
+  const d = {...await r.json()};
+  d.scanner_stale = !Number.isFinite(Date.parse(d.generated_utc)) || Date.now()-Date.parse(d.generated_utc) > 90*60000;
+  try { d.capture = publicCapture(await readCapture(env)); d.review_queue = mergeResearch(d.review_queue ?? [], d.capture); }
+  catch { d.capture = {status:"capture_state_unavailable",items:[]}; }
+  return d;
+}
+const london = value => Number.isFinite(Date.parse(value)) ? new Date(value).toLocaleString("en-GB",{timeZone:"Europe/London"})+" London" : "not observed";
+function researchCost(price, category, goal) {
+  let lo=0,hi=price*4+50;
+  for(let i=0;i<50;i++) { const mid=(lo+hi)/2; if(calc(price,mid,"ebay_business",category).net<goal) lo=mid; else hi=mid; }
+  return Math.ceil(hi*100)/100;
+}
+function mergeResearch(queue, snapshot) {
+  const items=new Map(queue.map(x=>[x.url,x]));
+  for(const x of snapshot.items ?? []) {
+    const old=items.get(x.url);
+    if(old && old.item_price===x.price && old.title===x.title) { items.set(x.url,{...old,capture_last_seen:x.last_seen}); continue; }
+    items.set(x.url,{title:x.title,url:x.url,category:x.category,item_price:x.price,landed_cost:null,
+      breakeven_sell:researchCost(x.price,x.category,0),sell_for_minimum_profit:researchCost(x.price,x.category,Math.max(8,x.price*.4)),
+      cost_basis:"item-only lower bound; delivery unknown",first_seen:x.first_seen,capture_last_seen:x.last_seen,
+      priority:15,blockers:["No reviewed exact sold observations","Delivery unknown","Retailer stock/price and exact variant unverified"],
+      sold_search:`https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(x.title)}&LH_Sold=1&LH_Complete=1`});
+  }
+  return [...items.values()].sort((a,b)=>(b.priority??0)-(a.priority??0) || String(b.capture_last_seen??b.first_seen??"").localeCompare(String(a.capture_last_seen??a.first_seen??""))).slice(0,100);
+}
+function freshAsking(x) {
+  const age=Date.now()-Date.parse(x?.observed_at);
+  return x?.kind==="active_ask" && age>=0 && age<6*3600000 && Number.isInteger(x.sample_count) && x.sample_count>0 &&
+    [x.listed_total_low,x.listed_total_median,x.listed_total_high].every(v=>Number.isFinite(v)&&v>0);
+}
+function askFields(x) {
+  if(!freshAsking(x)) return [];
+  return [{name:"Indicative NEW listed totals · NOT sold or a resale forecast",value:`${gbp(x.listed_total_low)}–${gbp(x.listed_total_high)} observed asking range; median ${gbp(x.listed_total_median)}. ${x.sample_count} exact-title shipped samples. Buyer-only fees may be additional.`,inline:false},
+    {name:"Ask provenance / limits",value:`${x.query} · ${london(x.observed_at)} · ${x.status}. No velocity or cash floor inferred; title matches are not independent verification.`,inline:false}];
+}
 async function getComps(env) { const r = await fetch(env.COMPS_URL, { cf: { cacheTtl: 300 } }); if (!r.ok) throw new Error("comps " + r.status); return parseCsv(await r.text()); }
 const updated = d => d.generated_utc.replace("T", " ").slice(0, 16) + " UTC";
 
 // ---------- control panel ----------
 function panel(d) {
   const s = d?.stats;
-  const status = s ? `**${s.A}** buy · **${s.B}** verify · **${s.R}** passed · **${s.scanned}** scanned\nLast scan ${updated(d)}` : "Scan data loading…";
+  const status = s ? `**${s.A}** buy · **${s.B}** verify · **${s.R}** passed · **${s.scanned}** scanned\nLast scan ${updated(d)}${d.scanner_stale ? " · ⚠️ STALE (>90 minutes)" : ""}` : "Scan data loading…";
   return {
     embeds: [{
       author: { name: "MONEYHUNTER" }, title: "💰 Control Panel", color: C.BRAND,
       description: "Research under-£60 offers using conservative costs and reviewed sold evidence.\nClick a button below. Results are private to you.",
-      fields: [{ name: "📡 Live status", value: status },
+      fields: [{ name: "📡 Scanner grading status", value: status },
+        { name: "Independent RSS capture (research only)", value: d?.capture ? `${d.capture.status}${d.capture.stale ? " · STALE (>30 minutes or never captured)" : ""} · ${d.capture.items?.length ?? 0} retained offers · last attempt ${london(d.capture.last_attempt)}. No BUY grading or resale prices inferred.` : "Awaiting capture status" },
         { name: "Sold pricing coverage", value: d?.pricing_status ? `${d.pricing_status.products} exact products · ${d.pricing_status.sold_observations} fresh sold observations. ${d.pricing_status.blocker ?? "Reviewed samples, not sale guarantees."}` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
       footer: { text: "30-minute cron target, best effort; inspect last scan · Not financial advice" },
     }],
@@ -114,8 +153,12 @@ function researchView(d, index = 0) {
   const fields = [
     {name:"Item / landed cost",value:`${gbp(x.item_price)} / ${x.landed_cost == null ? "unknown (delivery missing)" : gbp(x.landed_cost)}`,inline:true},
     {name:"Hypothetical breakeven / required resale",value:`${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
-    {name:"Evidence and availability blockers",value:(x.blockers ?? ["Exact evidence needed"]).join(" · ").slice(0,1000),inline:false}];
-  return {embeds:[{title:`RESEARCH ONLY · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"An affordable online candidate to investigate, not a BUY or VERIFY signal. Confirm retailer stock, exact variant, delivery and actual sold records.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),link(x.sold_search,"Research sold","📊"))]};
+    {name:"Evidence and availability blockers",value:(x.blockers ?? ["Exact evidence needed"]).join(" · ").slice(0,1000),inline:false},
+    ...askFields(x.ask_context),
+    ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
+    ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
+    ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
+  return {embeds:[{title:`RESEARCH ONLY · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"An item-price-under-cap offer to investigate, not a BUY or VERIFY. Total landed cost, retailer stock/price, exact variant and actual sold records still need verification.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),link(x.sold_search,"Research sold","📊"))]};
 }
 
 // ---------- calculator ----------
@@ -171,6 +214,10 @@ async function priceView(q, buy, env) {
       description: `${reviewed.price_basis}. ${reviewed.sample_count < 5 ? "⚠️ Fewer than five observations: too little evidence for a reliable resale estimate. " : "Sample evidence, not a guaranteed future sale price. "}No current offer, cash floor or BUY is implied.`, fields,
       footer: { text: "Sold date is separate from observed/reviewed date; active asks never refresh it" } }], components: [source ? row(link(source.url, "Actual sold source", "🔗"), link(sold, "Research sold", "📊")) : links, again] };
   }
+  const cleanAskQuery = value => String(value).toLowerCase().replace(/\b(new|sealed)\b/g,"").replace(/[^a-z0-9]+/g," ").trim();
+  const asking = (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && cleanAskQuery(x.query)===cleanAskQuery(q));
+  if(asking) return {embeds:[{title:`Indicative asking research · ${asking.query}`.slice(0,250),color:C.INFO,
+    description:"No verified sold price is available for this product. These are current NEW advertised offers including quoted postage, not achievable sale prices, profit targets, BUY or VERIFY signals.",fields:askFields(asking)}],components:[links,again]};
   const c = findComp(q, await getComps(env));
   if (c && c.blocked) return { embeds: [{ title: "⚠️ Not priced: uncertain match", color: C.B, description: `Closest comp is **${c.blocked.slice(0, 80)}**, but your item looks like a different version (kids, bundle, used, edition or kit). Check eBay sold for the exact item.` }], components: [links, again] };
   if (!c) return { embeds: [{ title: `No sold-price data for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try a shorter name (e.g. *mario kart 8*), or check sold listings below." }], components: [links, again] };
@@ -275,15 +322,24 @@ async function handleModal(i, env, ctx) {
 }
 
 export default {
+  async scheduled(controller, env, ctx) {
+    // Existing KV + four approved public RSS feeds only. No Discord call is reachable.
+    await capture(env);
+  },
   async fetch(req, env, ctx) {
     const url = new URL(req.url || "https://x/");
+    if (req.method === "GET" && url.pathname === "/api/research-capture") {
+      try { return json(publicCapture(await readCapture(env))); }
+      catch { return json({error:"Public capture unavailable"},503); }
+    }
     if (req.method === "GET" && url.pathname === "/api/health") {
       try {
         const d = await getDeals(env);
-        return json({service:"moneyhunter-bot",contract_version:3,generated_utc:d.generated_utc,
+        return json({service:"moneyhunter-bot",contract_version:4,generated_utc:d.generated_utc,scanner_stale:d.scanner_stale,
+          capture:d.capture ? {...d.capture,items:undefined,retained_offers:d.capture.items?.length ?? 0} : null,
           pricing_status:d.pricing_status ?? {blocker:"Awaiting first migrated scan; legacy guide is not sold evidence",products:0,sold_observations:0,automatic_sold_feed:false},
           sources:d.stats?.sources ?? null,review_candidates:d.review_queue?.length ?? 0});
-      } catch { return json({service:"moneyhunter-bot",contract_version:3,error:"Public scan feed unavailable"},503); }
+      } catch { return json({service:"moneyhunter-bot",contract_version:4,error:"Public scan feed unavailable"},503); }
     }
     if (req.method === "GET" && url.pathname === "/api/leaderboard") return json({ top: await CM.leaderboard(env, 25) });
     if (req.method !== "POST") return new Response("MONEYHUNTER bot is running", { status: 200 });
@@ -299,4 +355,4 @@ export default {
     } catch (e) { return msg({ content: "⚠️ Something went wrong: " + String(e.message).slice(0, 150) }); }
   },
 };
-export const _test = { flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView };
+export const _test = { flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields };

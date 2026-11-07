@@ -6,6 +6,14 @@ import tempfile
 import unittest
 
 class Publication(unittest.TestCase):
+    def test_manual_diagnostic_has_hard_no_send_and_no_publication(self):
+        workflow = (Path(__file__).resolve().parents[1] / ".github/workflows/scan.yml").read_text()
+        self.assertIn("default: true", workflow)
+        self.assertIn("MONEYHUNTER_DISABLE_SEND:", workflow)
+        self.assertIn("scan --dry-run --max-posts 0", workflow)
+        self.assertIn("github.event_name != 'workflow_dispatch' || !inputs.dry_run", workflow)
+        self.assertIn("name: moneyhunter-no-send-research", workflow)
+
     def test_new_and_existing_state_use_fast_forward_history(self):
         workflow = Path(__file__).resolve().parents[1] / ".github/workflows/scan.yml"
         lines = workflow.read_text().splitlines()

@@ -17,3 +17,8 @@ SOLDCOMPS_CHANNEL = "1566920013078724701"
 [[kv_namespaces]]
 binding = "MH"
 id = "93e5c58111dd40fbb82d07d338a23604"
+
+# Existing Worker + existing KV only. 4 public feeds, one write each invocation:
+# target 144 invocations/writes per day; no paid service, Discord delivery or BUY grading.
+[triggers]
+crons = ["*/10 * * * *"]

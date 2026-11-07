@@ -12,8 +12,12 @@ def _fetch(path: str) -> bytes:
         return r.read()
 
 def _price(s: str):
-    m = re.search(r"£\s?([\d,]+(?:\.\d{1,2})?)", s or "")
-    return float(m.group(1).replace(",", "")) if m else None
+    # Independently implemented ambiguity rule inspired by changedetection.io;
+    # see docs/OPEN_SOURCE_RESEARCH.md. Never mistake a "was" price for today's offer.
+    import html
+    text = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
+    amounts = {float(v.replace(",", "")) for v in re.findall(r"£\s*([\d,]+(?:\.\d{1,2})?)(?![\d.])", text)}
+    return amounts.pop() if len(amounts) == 1 else None
 
 def classify(title: str, hint: str):
     t = title.lower()
@@ -56,7 +60,7 @@ def delivery_cost(title, description=""):
 def scan(log=print) -> list:
     global LAST_DIAGNOSTICS
     _STATUS.clear()
-    LAST_DIAGNOSTICS = {"feeds_ok": 0, "feeds_failed": 0, "feed_items": 0, "duplicates": 0, "old_dropped": 0, "age_unknown": 0, "missing_price_or_category": 0}
+    LAST_DIAGNOSTICS = {"feeds_ok": 0, "feeds_failed": 0, "feed_items": 0, "duplicates": 0, "old_dropped": 0, "age_unknown": 0, "missing_price_or_category": 0, "ambiguous_price": 0}
     out, seen, keys, by_link = [], set(), set(), {}
     for hint, paths in C.FEEDS.items():
         for p in paths:
@@ -84,7 +88,10 @@ def scan(log=print) -> list:
                 merchant = mer.get("name", "") if mer is not None else ""
                 price = _price(mer.get("price", "")) if mer is not None else None
                 desc_html = it.findtext("description") or ""
-                if price is None: price = _price(desc_html)
+                if price is None:
+                    price = _price(desc_html)
+                    if price is None and len(set(re.findall(r"£\s*([\d,]+(?:\.\d{1,2})?)", desc_html))) > 1:
+                        LAST_DIAGNOSTICS["ambiguous_price"] += 1
                 desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", desc_html)).strip()[:800]
                 th = it.find("media:thumbnail", NS)
                 thumb = th.get("url", "").replace("/re/150x150/", "/re/300x300/") if th is not None else ""
