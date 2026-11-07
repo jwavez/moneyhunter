@@ -70,6 +70,18 @@ function askFields(x) {
   return [{name:"Indicative NEW listed totals · NOT sold or a resale forecast",value:`${gbp(x.listed_total_low)}–${gbp(x.listed_total_high)} observed asking range; median ${gbp(x.listed_total_median)}. ${x.sample_count} exact-title shipped samples. Buyer-only fees may be additional.`,inline:false},
     {name:"Ask provenance / limits",value:`${x.query} · ${london(x.observed_at)} · ${x.status}. No velocity or cash floor inferred; title matches are not independent verification.`,inline:false}];
 }
+function estimateFields(m, buy = null, landedConfirmed = false) {
+  const age=Date.now()-Date.parse(m?.observed_at);
+  if(!m || m.model!=="competitor-asks-v1" || !Number.isFinite(age) || age<0 || age>6*3600000) return [];
+  const custom=buy!=null && Number.isFinite(buy) && buy>0 ? calc(buy,m.estimated_resale,"ebay_business",m.category || "default") : null;
+  const profit=custom ? `${sgbp(custom.net)}${landedConfirmed ? ` / ${pct(custom.roi)} ROI at your supplied landed cost` : " BEFORE unknown inbound delivery; actual net/ROI unknown"}` : m.delivery_known ? `${sgbp(m.net)} / ${pct(m.roi)} ROI at ${gbp(m.landed_cost)} landed` : `Up to ${sgbp(m.net_before_unknown_delivery)} before UNKNOWN inbound delivery; actual net/ROI unknown`;
+  return [{name:m.signal,value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
+    {name:"Estimated net / ROI",value:profit,inline:false},
+    {name:"Competition, model and confidence",value:`${m.sample_count} seller-deduplicated asks / ${m.seller_count} known sellers; ${m.confidence} confidence. Current lowest delivered competition ${gbp(m.competition_low)}. Quick-sale model ${gbp(m.quick_sale_model)}; speed NOT measured. ${m.discount_note}`,inline:false},
+    {name:"Max landed buy / costs",value:`${gbp(m.max_landed_buy)} ceiling for £8 net + 40% ROI. Fee ${gbp(m.fees)}, outbound ${gbp(m.outbound_postage)}, packaging ${gbp(m.packaging)}, returns ${gbp(m.returns_allowance)}. Check actual checkout delivery/stock.`,inline:false},
+    {name:"Checks and provenance",value:`${m.checks.join(" · ")}\nObserved ${london(m.observed_at)}. Regular price not established. ${m.acquisition_excluded} known acquisition listings excluded.`,inline:false}];
+}
+function estimateLinks(m) { return (m?.sources ?? []).slice(0,3).map((x,i)=>link(x.url,`Competitor ${i+1}`,"🔗")); }
 async function getComps(env) { const r = await fetch(env.COMPS_URL, { cf: { cacheTtl: 300 } }); if (!r.ok) throw new Error("comps " + r.status); return parseCsv(await r.text()); }
 const updated = d => d.generated_utc.replace("T", " ").slice(0, 16) + " UTC";
 
@@ -83,12 +95,12 @@ function panel(d) {
       description: "Research under-£60 offers using conservative costs and reviewed sold evidence.\nClick a button below. Results are private to you.",
       fields: [{ name: "📡 Scanner grading status", value: status },
         { name: "Independent RSS capture (research only)", value: d?.capture ? `${d.capture.status}${d.capture.stale ? " · STALE (>30 minutes or never captured)" : ""} · ${d.capture.items?.length ?? 0} retained offers · last attempt ${london(d.capture.last_attempt)}. No BUY grading or resale prices inferred.` : "Awaiting capture status" },
-        { name: "Sold pricing coverage", value: d?.pricing_status ? `${d.pricing_status.products} exact products · ${d.pricing_status.sold_observations} fresh sold observations. ${d.pricing_status.blocker ?? "Reviewed samples, not sale guarantees."}` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
-      footer: { text: "30-minute cron target, best effort; inspect last scan · Not financial advice" },
+        { name: "Resale estimates / verified pricing", value: d?.pricing_status ? `${d.pricing_status.ask_estimated_products ?? 0} products with competitor-based resale estimates · ${d.pricing_status.estimated_opportunities ?? 0} estimated CHECK opportunities. Separately: ${d.pricing_status.products} sold-valued products / ${d.pricing_status.sold_observations} sold observations. Estimates are not verified BUYs.` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
+      footer: { text: "30-minute queued scan target; inspect last scan · Estimates are not guarantees" },
     }],
     components: [
-      row(btn("v:top:0", "Top Deals", "🟢", 3), btn("v:near:0", "Near Misses", "🟡", 1), btn("p:cats", "Categories", "🗂️")),
-      row(btn("p:calc", "Profit Calculator", "🧮", 1), btn("p:price", "Price Check", "💷", 1), btn("research:0", "Research Watchlist", "🔎", 1)),
+      row(btn("v:top:0", "Verified Deals", "🟢", 3), btn("v:near:0", "Near Misses", "🟡", 1), btn("p:cats", "Categories", "🗂️")),
+      row(btn("p:calc", "Profit Calculator", "🧮", 1), btn("p:price", "Price Check", "💷", 1), btn("research:0", "Resale Estimates", "🔎", 1)),
       row(btn("p:how", "How it works", "📘"), btn("p:scan", "Scan Now", "⚡")),
     ],
   };
@@ -154,11 +166,12 @@ function researchView(d, index = 0) {
     {name:"Item / landed cost",value:`${gbp(x.item_price)} / ${x.landed_cost == null ? "unknown (delivery missing)" : gbp(x.landed_cost)}`,inline:true},
     {name:"Hypothetical breakeven / required resale",value:`${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
     {name:"Evidence and availability blockers",value:(x.blockers ?? ["Exact evidence needed"]).join(" · ").slice(0,1000),inline:false},
+    ...estimateFields(x.ask_estimate),
     ...askFields(x.ask_context),
     ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
     ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
     ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
-  return {embeds:[{title:`RESEARCH ONLY · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"An item-price-under-cap offer to investigate, not a BUY or VERIFY. Total landed cost, retailer stock/price, exact variant and actual sold records still need verification.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),link(x.sold_search,"Research sold","📊"))]};
+  return {embeds:[{title:`${x.ask_estimate ? "ASK-BASED ESTIMATE" : "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
 }
 
 // ---------- calculator ----------
@@ -187,15 +200,15 @@ function calcView(buy, sell, platform, cat, postage) {
 }
 
 // ---------- price check ----------
-const priceModal = () => ({ custom_id: "m:price", title: "💷 Price Check", components: [ti("item", "Item name", "", true, "e.g. mario kart 8"), ti("buy", "Your buy price (£)", "", false, "optional")] });
-async function priceView(q, buy, env) {
+const priceModal = () => ({ custom_id: "m:price", title: "💷 Price Check", components: [ti("item", "Item name", "", true, "e.g. mario kart 8"), ti("buy", "Landed cost INCLUDING delivery (£)", "", false, "optional")] });
+async function priceView(q, buy, env, landedConfirmed = false) {
   const sold = `https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(q)}&LH_Sold=1&LH_Complete=1`;
   const vinted = `https://www.vinted.co.uk/catalog?search_text=${encodeURIComponent(q)}`;
   const links = row(link(sold, "eBay Sold", "📊"), link(vinted, "Vinted", "👕"));
   const again = row(btn("p:price", "Check another", "💷", 1), btn("p:home", "Menu", "🏠"));
   let pricing;
   try { pricing = await getDeals(env); }
-  catch { return { content: "Reviewed pricing feed unavailable. No fresh resale valuation can be verified right now.", components: [links, again] }; }
+  catch { return { content: "Pricing feed unavailable. No fresh competitor estimate can be shown right now.", components: [links, again] }; }
   const reviewed = findReviewed(q, pricing.pricing_catalog);
   if (reviewed?.blocked) return { embeds: [{ title: "Exact variant needed before pricing", color: C.B,
     description: `${reviewed.reason}.\nIdentity: ${Object.entries(reviewed.identity ?? {}).map(([k,v]) => `${k}: ${v}`).join(" · ").slice(0,850)}. Not a BUY.` }], components: [links, again] };
@@ -215,12 +228,17 @@ async function priceView(q, buy, env) {
       footer: { text: "Sold date is separate from observed/reviewed date; active asks never refresh it" } }], components: [source ? row(link(source.url, "Actual sold source", "🔗"), link(sold, "Research sold", "📊")) : links, again] };
   }
   const cleanAskQuery = value => String(value).toLowerCase().replace(/\b(new|sealed)\b/g,"").replace(/[^a-z0-9]+/g," ").trim();
-  const asking = (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && cleanAskQuery(x.query)===cleanAskQuery(q));
-  if(asking) return {embeds:[{title:`Indicative asking research · ${asking.query}`.slice(0,250),color:C.INFO,
-    description:"No verified sold price is available for this product. These are current NEW advertised offers including quoted postage, not achievable sale prices, profit targets, BUY or VERIFY signals.",fields:askFields(asking)}],components:[links,again]};
+  const numbers=[...new Set(String(q).match(/(?<!\d)\d{5,6}(?!\d)/g) ?? [])];
+  const unsafe=/\b(used|refurb|bundle|multipack|sticker|instructions|manual|parts|digital|download|minifig|missing)\b/i.test(q);
+  const asking = !unsafe && (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && (cleanAskQuery(x.query)===cleanAskQuery(q) || (/lego/i.test(q) && numbers.length===1 && x.query===`LEGO ${numbers[0]}`)));
+  if(asking) {
+    const entry=(pricing.review_queue ?? []).find(x=>x.ask_estimate?.query===asking.query);
+    return {embeds:[{title:`Estimated resale · ${asking.query}`.slice(0,250),color:C.INFO,
+      description:"Current exact-title NEW competitor offers including quoted shipping support this conservative MODEL estimate. Not sold data or a guaranteed sale. The cheapest credible competition caps the estimate even when discounted.",fields:[...estimateFields(entry?.ask_estimate,buy,landedConfirmed),...askFields(asking)]}],components:[row(...estimateLinks(entry?.ask_estimate),link(sold,"Sold research","📊")),again]};
+  }
   const c = findComp(q, await getComps(env));
   if (c && c.blocked) return { embeds: [{ title: "⚠️ Not priced: uncertain match", color: C.B, description: `Closest comp is **${c.blocked.slice(0, 80)}**, but your item looks like a different version (kids, bundle, used, edition or kit). Check eBay sold for the exact item.` }], components: [links, again] };
-  if (!c) return { embeds: [{ title: `No sold-price data for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try a shorter name (e.g. *mario kart 8*), or check sold listings below." }], components: [links, again] };
+  if (!c) return { embeds: [{ title: `No exact competitor estimate for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try the exact game/platform or LEGO set number. Ambiguous variants are not guessed." }], components: [links, again] };
   const lo = parseFloat(c.low), hi = parseFloat(c.high);
   const eb = calc(buy ?? 0, lo, "ebay_business", c.category), vi = calc(buy ?? 0, lo, "vinted", c.category);
   const fields = [
@@ -241,8 +259,9 @@ const howView = () => ({ embeds: [{ title: "📘 How MONEYHUNTER works", color: 
   { name: "2 · Strict matching", value: "A sold price only prices the exact same item. Kids' sizes, bundles, multipacks, pre-orders, used/refurbished, other editions, kits vs body-only and other bottle sizes are never priced." },
   { name: "3 · Count every cost", value: "eBay standard business fees incl 20% VAT (promotions/surcharges extra), home-delivery postage by category, £0.50 packaging and a 3% returns allowance." },
   { name: "4 · Grade", value: "🟢 **BUY**: all evidence, offer, availability and money checks pass · 🟡 **VERIFY**: profit works on estimates, check eBay sold first · 🔴 **PASS**: fails a check. Sold prices older than 30 days never give BUY or VERIFY; expired deals never alert." },
+  { name: "Ask-based CHECK opportunities", value: "Five independent sellers and supported low competition can support a separate estimated opportunity when net/ROI/cap and delivery checks pass. This is not verified BUY or measured fast turnover." },
   { name: "5 · Max buy", value: "Financial landed-cost ceiling for £8 net/40% ROI; not permission to buy without the evidence gates." },
-  { name: "Honest limits", value: "Sold prices are averages, not guarantees. Always check eBay sold before buying. Not financial advice." },
+  { name: "Honest limits", value: "Competitor-ask models estimate resale, not sold prices or guaranteed turnover. Check actual stock, delivery and current competition. Verified BUY still requires its separate evidence gates." },
 ] }], components: [row(btn("p:home", "Menu", "🏠"))] });
 
 const isAdmin = i => (BigInt(i.member?.permissions ?? "0") & 0x20n) !== 0n;
@@ -317,7 +336,7 @@ async function handleModal(i, env, ctx) {
     const r = await CM.submitComp(i, v, env);
     return msg({ content: r.error ?? `✅ Thanks! Sold price £${r.p.toFixed(2)} saved for review.` });
   }
-  if (i.data.custom_id === "m:price") return msg(await priceView(String(v.item || "").trim(), num(v.buy), env));
+  if (i.data.custom_id === "m:price") return msg(await priceView(String(v.item || "").trim(), num(v.buy), env, true));
   return msg({ content: "Unknown form." });
 }
 
@@ -355,4 +374,4 @@ export default {
     } catch (e) { return msg({ content: "⚠️ Something went wrong: " + String(e.message).slice(0, 150) }); }
   },
 };
-export const _test = { flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields };
+export const _test = { flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields, estimateFields, priceView };

@@ -96,3 +96,9 @@ history is bundled or automatically licensed by these changes.
 The Worker captures leads independently. The grader now supports a GitHub-native,
 server-side delayed successor instead of depending only on unreliable cron. See
 [operational setup, no-send acceptance and pricing boundaries](docs/AUTONOMOUS_OPERATION.md).
+
+### Practical competitor pricing
+
+[Competitor-based resale estimates](docs/COMPETITOR_ESTIMATES.md) are now a separate
+model and labelled CHECK opportunity path. Sold history is not required for these
+estimates. Verified BUY semantics are unchanged.

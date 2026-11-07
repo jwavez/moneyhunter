@@ -69,11 +69,11 @@ def watch_card(it, prices):
     e = {"author": {"name": f"{CAT_LABEL[it['category']]} · WATCH · not priced"},
          "title": ("👀 " + it["title"])[:250], "url": it["url"], "color": 0x64748B,
          "description": f"**£{it['price']:.2f}** at {it.get('merchant') or 'retailer'}{heat}\n"
-                        "No BUY claim: exact sold evidence, retailer stock and delivery need review."
+                        "Competitor-based estimates are not sold prices or a verified BUY. Check exact variant, retailer stock and delivery."
                         + (" Delivery unknown: calculations are item-only lower bounds." if it.get("inbound_delivery") is None else " Delivery included in calculations.")
                         + ("\n⚠️ Kids' sizes: adult sold prices do not apply." if kids else ""),
          "fields": [{"name": "Breakeven sell price", "value": f"£{be:.2f}", "inline": True},
-                    {"name": "Sell price for a deal", "value": f"£{tgt:.2f}+", "inline": True},
+                    {"name": "Required resale target (not valuation)", "value": f"£{tgt:.2f}+", "inline": True},
                     {"name": "Price history", "value": I.price_history(title_key(it["title"]), it["price"], prices), "inline": True},
                     {"name": "Days to sell", "value": S.dts_label(it["category"], it.get("days_to_sell")), "inline": True},
                     {"name": "Sell on", "value": S.sell_on_value(it["category"], tgt), "inline": True},
@@ -82,8 +82,24 @@ def watch_card(it, prices):
                       if it["category"] in S.CEX_FLOOR else [])
                    + [{"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
          "footer": {"text": f"Sell prices after eBay business fees incl 20% VAT, £{post:.2f} postage, £0.50 packaging, 3% returns · deal = £8 net and 40% ROI"}}
+    model = it.get("ask_estimate")
+    if model:
+        e["author"]["name"] = CAT_LABEL[it["category"]] + " · " + model["signal"]
+        e["fields"] = estimate_fields(model) + e["fields"]
     if it.get("thumb"): e["thumbnail"] = {"url": it["thumb"]}
     return e
+
+
+def estimate_fields(m):
+    profit = (f"£{m['net']:.2f} / {m['roi']:.1f}% ROI at £{m['landed_cost']:.2f} landed" if m["delivery_known"] else
+              f"Up to £{m['net_before_unknown_delivery']:.2f} before UNKNOWN inbound delivery; actual net/ROI unknown")
+    return [
+        {"name":"Estimated resale / suggested listing", "value":f"£{m['estimated_resale']:.2f} / £{m['suggested_listing']:.2f} · model range £{m['estimated_range'][0]:.2f}–£{m['estimated_range'][1]:.2f}. NOT sold or guaranteed.","inline":False},
+        {"name":"Estimated net / ROI", "value":profit,"inline":False},
+        {"name":"Competition / confidence", "value":f"{m['sample_count']} seller-deduplicated asks · {m['seller_count']} known sellers · {m['confidence']} confidence · observed {m['observed_at']}. Lowest delivered competition £{m['competition_low']:.2f}. {m['discount_note']}","inline":False},
+        {"name":"Max landed buy / delivery headroom", "value":f"£{m['max_landed_buy']:.2f} / £{m['delivery_headroom']:.2f}; £8 net + 40% ROI policy. Check stock and checkout price. No sales speed measured.","inline":False},
+        {"name":"Competitor sources", "value":" · ".join(f"[Offer {i+1}]({o['url']})" for i,o in enumerate(m["sources"][:3]))[:1000],"inline":False}]
+
 
 def market_pulse(raws, stats) -> str:
     cats = {}
@@ -174,6 +190,15 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         if ch: send(ch, card[:1], comps, dry)
         if S.fast_route(g, d.category, d.days_to_sell): send("fast-movers", card[:1], comps, dry)
         if ok(st) or dry: new.add(k); n += 1
+    # Separate ask-based CHECK path, never BUY / sold-verified / fast-mover.
+    for it in raws:
+        model = it.get("ask_estimate")
+        if not model or not model["estimated_opportunity"]: continue
+        k = "estimated:" + hotukdeals.dedupe_key(it["title"], it["price"])
+        if k in seen or n >= max_cards: continue
+        if hotukdeals.live_status(it["url"]) != "live": continue
+        st = send("verify", [watch_card(it, read_prices())], buttons(it), dry)
+        if ok(st) or dry: new.add(k); n += 1
     # 2) price errors / very hot
     for it in raws:
         k = "pe:" + it["url"]
@@ -206,7 +231,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     per = {}
     for it in sorted(raws, key=lambda x: (-x.get("review_priority", 0), -(x.get("heat") or 0))):
         ch = CAT_CHANNEL.get(it.get("category"))
-        k = "w:" + it["url"]
+        k = ("w:ask-model-v1:" if it.get("ask_estimate") else "w:") + it["url"]
         if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in graded_urls or not resellable(it): continue
         if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
         if it["price"] + (it.get("inbound_delivery") or 0) > E.community_cap(): continue
@@ -218,7 +243,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             new.add(k); per[ch] = per.get(ch, 0) + 1
     # 3c) quiet-market pulse: no A/B this scan -> one note per hour [H]
     n_drops = 0
-    if not stats.get("A") and not stats.get("B"):
+    if not stats.get("A") and not stats.get("B") and not stats.get("estimated_opportunities"):
         qk = E.quiet_key()
         if qk not in seen and not (stats.get("errors") and not stats.get("scanned")):
             if ok(send("buy-now", [E.quiet_card(stats, market_pulse(raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
@@ -238,6 +263,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     errs = stats["errors"]
     if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
         e = E.scan_summary(stats, near)
+        e["fields"].insert(0, {"name":"Competitor-based resale estimates (NOT verified BUY)", "value":f"{stats.get('ask_valued',0)} offers estimated · {stats.get('estimated_opportunities',0)} estimated opportunities / CHECK · {stats.get('qualified_delivery_unknown',0)} delivery-qualified estimates. A/B sold-evidence grades unchanged.","inline":False})
         e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
         e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(raws, stats)[:1000], "inline": False})
         if errs:

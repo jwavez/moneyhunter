@@ -31,7 +31,7 @@ def lego_terms(title):
 def cache_key(ident):
     # A contradictory name attached to the same numeric SKU cannot inherit context.
     fingerprint = hashlib.sha256(json.dumps(getattr(ident, "name_terms", [])).encode()).hexdigest()[:12]
-    return "browse-asks-v3:" + ident.category + ":" + ident.match.lower() + ":" + fingerprint
+    return "browse-asks-v5:" + ident.category + ":" + ident.match.lower() + ":" + fingerprint
 
 
 def identity(raw):
@@ -100,7 +100,7 @@ def summary(payload, ident, when):
         seen.add(key)
         if str(item.get("conditionId")) != "1000" or not matches(item.get("title", ""), ident):
             rejected["identity_or_condition"] += 1; continue
-        if item.get("itemGroupHref") or item.get("itemGroupType"):
+        if item.get("lotSize") not in (None, 1, "1") or item.get("itemGroupHref") or item.get("itemGroupType"):
             rejected["multi_variant_listing"] += 1; continue
         if item.get("itemLocation", {}).get("country") != "GB":
             rejected["location_unknown_or_non_gb"] += 1; continue
@@ -119,7 +119,17 @@ def summary(payload, ident, when):
         url = urlsplit(item.get("itemWebUrl", ""))
         if url.scheme != "https" or url.username or url.password or url.hostname not in ("www.ebay.co.uk", "www.ebay.com") or not url.path.startswith("/itm/"):
             rejected["source_url_unknown"] += 1; continue
-        offers.append({"url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "title": item.get("title", "")[:200],
+        seller = (item.get("seller") or {}).get("username")
+        marketing = item.get("marketingPrice") or {}
+        original = money(marketing.get("originalPrice"))
+        try: percentage = float(marketing.get("discountPercentage") or 0)
+        except (ValueError, TypeError): percentage = 0
+        discounted = (original is not None and original > price) or percentage > 0 or (money(marketing.get("discountAmount")) or 0) > 0
+        offers.append({"item_id": str(key), "seller": str(seller)[:100] if seller else None,
+            "country": "GB", "currency": "GBP", "condition_id": "1000", "discount_status": "advertised_discount" if discounted else "unknown",
+            "advertised_original_total": round(original + min(shipping), 2) if original is not None and original > price else None,
+            "available_coupons": item.get("availableCoupons") is True,
+            "promotion_id": None, "url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "title": item.get("title", "")[:200],
             "declared_condition": "new", "item_price": price, "shipping": min(shipping), "listed_total": round(price + min(shipping), 2)})
     xs = sorted(o["listed_total"] for o in offers)
     q = lambda p: round(ebay._pct(xs, p), 2) if xs else None
@@ -131,7 +141,7 @@ def summary(payload, ident, when):
         "status": "no_exact_shipped_samples" if not xs else "small_sample" if len(xs) < 3 else "wide_spread" if spread else "indicative_only",
         "warnings": ["Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
                      "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."] + (["Wide spread: variants/outliers may remain; no values silently discarded."] if spread else []),
-        "offers": sorted(offers, key=lambda x: x["listed_total"])[:3], "rejected": dict(rejected)}
+        "offers": sorted(offers, key=lambda x: x["listed_total"])[:50], "rejected": dict(rejected)}
 
 
 def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):

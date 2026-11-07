@@ -164,6 +164,14 @@ def run_scan():
     review.sort(key=lambda r: (-r["priority"], r["item_price"], r["url"]))
     ask_health = market.enrich(review[:50], raws, operational)
     errors.extend(ask_health["errors"])
+    from . import asking
+    raw_by_url = {raw["url"]: raw for raw in raws}
+    for entry in review:
+        if entry.get("ask_context"):
+            model = asking.estimate(raw_by_url[entry["url"]], entry["ask_context"])
+            if model:
+                entry["ask_estimate"] = model
+                raw_by_url[entry["url"]]["ask_estimate"] = model
     ask_by_url = {r["url"]: r.get("ask_context") for r in review if r.get("ask_context")}
     for deal, _ in graded: deal.ask_context = ask_by_url.get(deal.url)
     checked = drop_expired(graded, br)
@@ -184,6 +192,9 @@ def run_scan():
              "online_eligible": sum(r.get("online_eligible", False) and hub.resellable(r) for r in raws),
              "under_cap_known_delivery": sum(r.get("inbound_delivery") is not None and r["price"] + r["inbound_delivery"] <= cap for r in raws),
              "delivery_known": sum(r.get("inbound_delivery") is not None for r in raws),
+             "ask_valued": sum(bool(r.get("ask_estimate")) for r in review),
+             "estimated_opportunities": sum(bool(r.get("ask_estimate", {}).get("estimated_opportunity")) for r in review),
+             "qualified_delivery_unknown": sum(bool(r.get("ask_estimate")) and not r["ask_estimate"]["delivery_known"] for r in review),
              "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
                  "ebay": {"status": ebay_health, "purpose": "active asking competition only", "research": ask_health},
                  "capture_buffer": capture.LAST_DIAGNOSTICS,
@@ -195,7 +206,7 @@ def run_scan():
     by_url = {d.url: (d, r) for d, r in graded}
     for entry in review:
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
-    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-r["priority"], r["item_price"], r["url"]))[:50]
+    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))[:50]
     stats["review_candidates"] = len(LAST_REVIEW)
     return br, tier, graded, affordable, unpriced, stats
 
@@ -225,14 +236,19 @@ def export_public(path, stats, graded):
     catalog = public_catalog(os.path.join(os.path.dirname(CP.PATH), "evidence.json"))
     stats["pricing_products"] = len(catalog)
     stats["pricing_observations"] = sum(c["sample_count"] for c in catalog)
-    asking = {r["ask_context"]["query"]: r["ask_context"] for r in LAST_REVIEW if r.get("ask_context")}
+    # Full bounded provenance remains in scan_state; keep the bot response compact.
+    review_export = [{**r, **({"ask_context": {**r["ask_context"], "offers": r["ask_context"]["offers"][:10]}} if r.get("ask_context") else {})} for r in LAST_REVIEW]
+    asking = {r["ask_context"]["query"]: r["ask_context"] for r in review_export if r.get("ask_context")}
     out = {"pricing_catalog": catalog, "asking_catalog": list(asking.values()), "pricing_status": {
                "indicative_asking_products": sum(v["sample_count"] > 0 for v in asking.values()),
+               "automatic_asking_estimates": True,
+               "ask_estimated_products": len({r["ask_estimate"]["query"] for r in LAST_REVIEW if r.get("ask_estimate")}),
+               "estimated_opportunities": stats.get("estimated_opportunities", 0),
                "automatic_sold_feed": False, "products": len(catalog),
                "sold_observations": stats["pricing_observations"],
                "blocker": None if catalog else "No fresh directly verified exact-product sold observations imported; active asks are not sold data"},
            "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
-           "schema_version": 2, "review_queue": LAST_REVIEW, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
+           "schema_version": 2, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     from .evidence import atomic_write
     atomic_write(path, out); print(f"[export] {path}: {len(out['deals'])} deals")
