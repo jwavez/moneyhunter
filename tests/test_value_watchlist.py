@@ -157,3 +157,17 @@ class OtherRiskyVariants(unittest.TestCase):
             if cat=='tech':data['localizedAspects'][1]['value']='Black'
             else:data['localizedAspects'][1]['value']='8'
             self.assertEqual(details.assess(data,offer,i,NOW)['status'],'conflict')
+
+class DistinctQueries(unittest.TestCase):
+    def test_duplicate_lego_name_contexts_never_repeat_search_or_inflate_products(self):
+        state,i=ValueLed().state();watchlist.build(state,NOW,inspect=False)
+        e=next(iter(state['value_watchlist'].values()));state['value_watchlist']['other-context']={**copy.deepcopy(e),'key':'other-context','max_landed_buy':e['max_landed_buy']-1}
+        with patch.object(ebay,'available',return_value=True),patch.object(ebay,'active_items',return_value={'itemSummaries':[]}) as api:
+            discovery.scan([],state,NOW)
+            self.assertEqual(api.call_count,1);self.assertEqual(api.call_args.kwargs['max_item_price'],e['max_landed_buy']-1)
+            discovery.scan([],state,NOW+dt.timedelta(minutes=1));self.assertEqual(api.call_count,1)
+        h=watchlist.build(state,NOW,inspect=False);self.assertEqual(h['products'],1);self.assertEqual(h['usable_targets'],1);self.assertEqual(h['identity_contexts'],2)
+    def test_paused_provider_never_calls_detail_as_an_auth_fallback(self):
+        i,s,o,d=ExactDetails().fixture()
+        with patch.object(ebay,'available',return_value=True),patch.object(ebay,'item_details') as api:
+            details.inspect_snapshot(s,i,{'ask_cache':{'browse-blocked':{'status':403}}},NOW);api.assert_not_called()

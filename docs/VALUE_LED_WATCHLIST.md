@@ -17,3 +17,5 @@ Official references:
 - https://developer.ebay.com/api-docs/buy/browse/types/gct:Item
 
 No changes to price caps, buying gates, measured-only FAST, legacy pricing/sold lanes, image publication guards, private finances, seen acknowledgements or existing interactive controls. Production acceptance must be no-send and distinguish that from normal automatic Discord delivery.
+
+Production acceptance found multiple conservative LEGO name contexts for the same query. They remain separate for safe title revalidation, but query execution, one-hour cooldowns and product/usable-target counters are now deduplicated by exact category/query. If contextual ceilings disagree, acquisition uses the lowest supported ceiling. Separate identity-context counts retain audit information. This prevents duplicated requests without dropping retailer offers or loosening matching.

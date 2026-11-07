@@ -45,13 +45,30 @@ def scan(raws, state, when=None):
     # slot so unsupported/new identities are not starved by existing valuations.
     from .. import watchlist
     targets=[]
+    query_history=state.setdefault('discovery_query_history',{})
+    query_id=lambda i:i.category+':'+i.match.casefold()
+    # Migrate existing query clocks, not timestamps of product observations.
     for key,e in state.get('value_watchlist',{}).items():
-        if e.get('target_status')!='usable_configured_cost_target' or not e.get('max_landed_buy') or not 0<=age(e.get('observed_at'),when)<6 or age(history.get(key),when)<1:continue
+        q=e['category']+':'+e['query'].casefold()
+        stamp=max(e.get('last_search_at',''),history.get(key,''))
+        if stamp and stamp>query_history.get(q,''):query_history[q]=stamp
+    for key,e in state.get('value_watchlist',{}).items():
+        if e.get('target_status')!='usable_configured_cost_target' or not e.get('max_landed_buy') or not 0<=age(e.get('observed_at'),when)<6 or age(query_history.get(e['category']+':'+e['query'].casefold()),when)<1:continue
         targets.append((key,watchlist.ident(e['identity_snapshot'])))
-    targets=research_budget.fair_order(targets,lambda pair:pair[1].category,
+    distinct={}
+    for key,i in targets:
+        q=query_id(i)
+        if q not in distinct or state['value_watchlist'][key]['max_landed_buy']<state['value_watchlist'][distinct[q][0]]['max_landed_buy']:distinct[q]=(key,i)
+    targets=research_budget.fair_order(list(distinct.values()),lambda pair:pair[1].category,
         lambda pair:(history.get(pair[0],''),pair[0]),rotation.get('acquisition',0))[:3]
     target_keys={key for key,_ in targets}
-    ordered=targets+[(key,i) for key,i in ordered if key not in target_keys]
+    pool=targets+[(key,i) for key,i in ordered if key not in target_keys]
+    distinct_order=[];seen_queries=set()
+    for key,i in pool:
+        q=query_id(i)
+        if q in seen_queries or age(query_history.get(q),when)<1:continue
+        distinct_order.append((key,i));seen_queries.add(q)
+    ordered=distinct_order
     health.update(price_led_queries=0,research_discovery_queries=0,persistent_watchlist=len(state.get('value_watchlist',{})))
     if cache.get('browse-blocked'): health['status']='paused_operator_review_required'
     elif ebay.available():
@@ -63,6 +80,7 @@ def scan(raws, state, when=None):
             health['queries_by_category'][ident.category]=health['queries_by_category'].get(ident.category,0)+1
             rotation['acquisition']=rotation.get('acquisition',0)+1
             history[key]=when.isoformat(timespec='seconds')
+            query_history[query_id(ident)]=history[key]
             try:
                 target=state.get('value_watchlist',{}).get(key) if key in target_keys else None
                 maximum=min(p['cap'],target['max_landed_buy']) if target else None
@@ -109,6 +127,7 @@ def scan(raws, state, when=None):
     retained={k:v for k,v in retained.items() if 0<=age(v.get('source_observed_at'),when)<1}
     retained=dict(sorted(retained.items(),key=lambda kv:kv[1].get('source_observed_at',''),reverse=True)[:60])
     state['discovery_offers']=retained
+    state['discovery_query_history']={k:v for k,v in query_history.items() if age(v,when)<24*7}
     state['discovery_queries']={k:v for k,v in history.items() if age(v,when)<24*7}
     existing={r['url'] for r in raws}
     result=[r for r in retained.values() if r['url'] not in existing]
