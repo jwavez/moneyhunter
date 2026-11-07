@@ -1,5 +1,7 @@
 """hotukdeals public RSS scanner (tag feeds + trending/new)."""
 import re, urllib.request, xml.etree.ElementTree as ET
+import datetime as dt
+from email.utils import parsedate_to_datetime
 from .. import config as C
 
 NS = {"pepper": "http://www.pepper.com/rss", "media": "http://search.yahoo.com/mrss/"}
@@ -30,9 +32,31 @@ def delivery_speed(title: str, merchant: str) -> str:
 def dedupe_key(title: str, price: float) -> str:
     t = re.sub(r"[^a-z0-9 ]", " ", title.lower())
     t = re.sub(r"\b(w ?code|with code|free c ?c|sold by.*|fba)\b", " ", t)
-    return " ".join(t.split()[:8]) + f"|{price:.2f}"
+    import hashlib
+    return hashlib.sha256(" ".join(t.split()).encode()).hexdigest()[:24] + f"|{price:.2f}"
+
+LAST_DIAGNOSTICS = {}
+_STATUS = {}
+CHECK_BUDGET = 24  # shared graded/WATCH/trending page-check budget per scan
+
+def online_status(title, description=""):
+    t = (title + " " + description).lower()
+    if re.search(r"in.?store only|instore|in store|collection only|c&c only|click (?:&|and) collect only|limited stores|local only|pre.?order|coming soon|out of stock|sold out|tester", t):
+        return False
+    return True
+
+def delivery_cost(title, description=""):
+    t = (title + " " + description).lower()
+    # Explicit delivery only, never assume Prime/membership or a basket threshold is met.
+    if re.search(r"free (?:delivery|shipping|postage)|(?:delivery|shipping|postage) free", t) and not re.search(r"(?:over|spend|prime|members|minimum|orders of)", t):
+        return 0.0
+    m = re.search(r"(?:delivery|shipping|postage)[: ]+£\s?(\d+(?:\.\d{1,2})?)|£\s?(\d+(?:\.\d{1,2})?)\s+(?:delivery|shipping|postage)", t)
+    return float(m[1] or m[2]) if m else None
 
 def scan(log=print) -> list:
+    global LAST_DIAGNOSTICS
+    _STATUS.clear()
+    LAST_DIAGNOSTICS = {"feeds_ok": 0, "feeds_failed": 0, "feed_items": 0, "duplicates": 0, "old_dropped": 0, "age_unknown": 0}
     out, seen, keys, by_link = [], set(), set(), {}
     for hint, paths in C.FEEDS.items():
         for p in paths:
@@ -40,10 +64,14 @@ def scan(log=print) -> list:
                 root = ET.fromstring(_fetch(p))
             except Exception as e:
                 log(f"[hotukdeals] {p}: {type(e).__name__}")
+                LAST_DIAGNOSTICS["feeds_failed"] += 1
                 continue
+            LAST_DIAGNOSTICS["feeds_ok"] += 1
             for it in root.iter("item"):
+                LAST_DIAGNOSTICS["feed_items"] += 1
                 link = (it.findtext("link") or "").strip()
                 if link in seen:
+                    LAST_DIAGNOSTICS["duplicates"] += 1
                     m0 = re.match(r"(-?\d+)°", (it.findtext("title") or "").strip())
                     if m0 and link in by_link: by_link[link]["heat"] = int(m0.group(1))   # heat only shows in trending
                     continue
@@ -64,22 +92,42 @@ def scan(log=print) -> list:
                 if cat is None and heat is not None: cat = "other"   # keep trending items for #trending / #price-errors
                 if price is None or cat is None: continue
                 k = dedupe_key(title, price)
-                if k in keys: continue
+                if k in keys:
+                    LAST_DIAGNOSTICS["duplicates"] += 1
+                    continue
+                pub = (it.findtext("pubDate") or "").strip()
+                try:
+                    age = (dt.datetime.now(dt.timezone.utc) - parsedate_to_datetime(pub).astimezone(dt.timezone.utc)).total_seconds() / 86400
+                    if age > C.MAX_FEED_AGE_DAYS or age < -1:
+                        LAST_DIAGNOSTICS["old_dropped"] += 1
+                        continue
+                except (TypeError, ValueError, OverflowError):
+                    LAST_DIAGNOSTICS["age_unknown"] += 1
                 keys.add(k)
                 by_link[link] = {}; out.append(by_link[link])
                 by_link[link].update({"title": title, "url": link, "price": price, "merchant": merchant,
                             "category": cat, "heat": heat, "thumb": thumb, "feed": p,
                             "delivery": delivery_speed(title, merchant), "desc": desc,
+                            "inbound_delivery": delivery_cost(title, desc), "online_eligible": online_status(title, desc),
                             "pub": (it.findtext("pubDate") or "").strip()})
     return out
 
-def is_live(url: str) -> bool:
-    """True unless the deal page says it has expired. [S] hotukdeals pages carry "isExpired":true|false.
-    Network errors count as live-unknown (True) so a blip never hides deals; callers label it."""
+def live_status(url: str) -> str:
+    """Three-state expiry check. Errors/unrecognised pages never count as live."""
+    if url in _STATUS: return _STATUS[url]
+    if len(_STATUS) >= CHECK_BUDGET: return "unknown"
+    LAST_DIAGNOSTICS["page_requests"] = LAST_DIAGNOSTICS.get("page_requests", 0) + 1
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (" + C.USER_AGENT + ")"})
-        with urllib.request.urlopen(req, timeout=15) as r:
+        req = urllib.request.Request(url, headers={"User-Agent": C.USER_AGENT})
+        with urllib.request.urlopen(req, timeout=8) as r:
             html = r.read(400000).decode("utf-8", "replace")
+        if re.search(r'"isExpired"\s*:\s*true', html): status = "expired"
+        elif re.search(r'"isExpired"\s*:\s*false', html): status = "live"
+        else: status = "unknown"
     except Exception:
-        return True
-    return '"isExpired":true' not in html
+        status = "unknown"
+    _STATUS[url] = status
+    return status
+
+def is_live(url: str) -> bool:
+    return live_status(url) == "live"

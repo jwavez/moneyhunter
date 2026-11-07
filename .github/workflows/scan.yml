@@ -1,13 +1,11 @@
 name: moneyhunter-scan
-# Public repo: standard GitHub-hosted runners are free and unlimited (docs.github.com, checked 2 Nov 2026).
-# Scheduled runs can be delayed by GitHub; every 30 min is best effort.
+# GitHub cron is best effort, not a punctual scheduler. Gaps are recorded in scan health.
 on:
   schedule:
-    - cron: "7,37 * * * *"        # every 30 min, 24/7 (off the :00 rush)
-  workflow_dispatch: {}           # used by the Discord /scan command
+    - cron: "13,43 * * * *"  # off the start-of-hour rush; target 30 minutes, not guaranteed
+  workflow_dispatch: {}
 permissions:
-  contents: write                 # push state branch
-  actions: write                  # keepalive re-enable
+  contents: write   # public operational state branch only
 concurrency: { group: moneyhunter-scan, cancel-in-progress: false }
 jobs:
   scan:
@@ -17,43 +15,67 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Restore state (seen.json) from the 'state' branch
+      - name: Restore public operational state (never personal ledger)
         run: |
-          git fetch origin state --depth 1 || true
-          git show origin/state:seen.json > data/seen.json 2>/dev/null || echo "[]" > data/seen.json
-          git show origin/state:prices.json > data/prices.json 2>/dev/null || echo "{}" > data/prices.json
-      - name: Read private tier (tier number 0-4 only; falls back to 0)
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin state > /tmp/mh-state-ref; then
+            git fetch origin state --depth 1
+            for f in seen.json prices.json scan_state.json review_queue.json; do
+              if git cat-file -e "origin/state:$f" 2>/dev/null; then
+                git show "origin/state:$f" > "data/$f"
+              fi
+            done
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then echo "::error::Cannot check state branch"; exit "$status"; fi
+            echo "::notice::First run: state branch absent"
+          fi
+      - name: Validate offline before scanning
+        env: { MONEYHUNTER_DISABLE_SEND: "1" }
+        run: python -m unittest discover -s tests -v
+      - name: Read typed private tier index only (safe starter fallback)
         env:
           MH_PRIVATE_TOKEN: ${{ secrets.MH_PRIVATE_TOKEN }}
-        run: |
-          T=0
-          if [ -n "$MH_PRIVATE_TOKEN" ]; then
-            T=$(curl -fsS -H "Authorization: Bearer $MH_PRIVATE_TOKEN" -H "Accept: application/vnd.github.raw" \
-              "https://api.github.com/repos/jwavez/moneyhunter-private/contents/tier.json?ref=data" 2>/dev/null \
-              | python3 -c 'import json,sys;t=int(json.load(sys.stdin).get("tier",0));print(t if 0<=t<=4 else 0)' || echo 0)
-          fi
-          echo "Active tier: $T"; echo "MH_TIER=$T" >> "$GITHUB_ENV"
-      - name: Scan, post, export
+        run: python -m moneyhunter.tier_sync
+      - name: Scan, post and export public deal evidence
         env:
-          MONEYHUNTER_COMMUNITY: "1"   # public rule set; no personal bankroll in the cloud
+          MONEYHUNTER_COMMUNITY: "1"
           MONEYHUNTER_DISCORD_WEBHOOK: ${{ secrets.MONEYHUNTER_DISCORD_WEBHOOK }}
           MONEYHUNTER_WEBHOOKS: ${{ secrets.MONEYHUNTER_WEBHOOKS }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: python -m moneyhunter.cli scan --max-posts 5 --export public/deals.json
-      - name: Publish state branch (deals.json, seen.json, comps.csv) as one rewritten commit
+      - name: Write public scan health to job summary
         if: always()
         run: |
-          mkdir -p /tmp/state && cp data/seen.json data/prices.json data/comps.csv /tmp/state/ && cp public/deals.json /tmp/state/ 2>/dev/null || true
-          cd /tmp/state && git init -q -b state && git add -A
-          git -c user.name="moneyhunter-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "state $(date -u +%FT%TZ)"
-          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" state
-      # Public repos: scheduled workflows auto-disable after 60 days with no repository activity.
-      # This calls GitHub's documented "enable workflow" API when main has had no commit for 45+ days.
-      - name: Keepalive (re-enable workflow if main is idle 45+ days)
-        env: { GH_TOKEN: "${{ github.token }}" }
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('public/deals.json')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              if not p.exists():
+                  out.write('Scan did not produce a new export. Inspect failed steps; previous state retained.\n')
+              else:
+                  d = json.loads(p.read_text()); s = d['stats']
+                  out.write(f"## Scan {d['generated_utc']} (UTC)\n")
+                  out.write(f"New {s['new']} / rescanned {s['rescanned']}; sold-valued {s['sold_valued']}; reference-only {s['reference_only']}; A {s['A']} / B {s['B']}\n\n")
+                  out.write(f"Previous-success gap: {s['gap_minutes']} minutes. Cron may be delayed/dropped.\n\n")
+                  for error in s['errors']: out.write('- ' + error + '\n')
+          PY
+      - name: Publish public state with normal fast-forward history (no force push)
+        if: success()
         run: |
-          last=$(gh api repos/${{ github.repository }}/commits/main --jq .commit.committer.date)
-          age=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 ))
-          echo "main last commit $age days ago"
-          if [ "$age" -ge 45 ]; then gh api -X PUT repos/${{ github.repository }}/actions/workflows/scan.yml/enable && echo re-enabled; fi
+          set -euo pipefail
+          mkdir /tmp/mh-state
+          git -C /tmp/mh-state init -q
+          if [ -s /tmp/mh-state-ref ]; then
+            git -C /tmp/mh-state fetch "$GITHUB_WORKSPACE" refs/remotes/origin/state --depth 1
+            git -C /tmp/mh-state checkout --detach FETCH_HEAD
+          fi
+          cp data/seen.json data/prices.json data/scan_state.json data/review_queue.json data/comps.csv data/evidence.json public/deals.json /tmp/mh-state/
+          git -C /tmp/mh-state add seen.json prices.json scan_state.json review_queue.json comps.csv evidence.json deals.json
+          if git -C /tmp/mh-state diff --cached --quiet; then exit 0; fi
+          git -C /tmp/mh-state -c user.name="moneyhunter-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "public scan state $(date -u +%FT%TZ)"
+          # Push through checkout's configured credential helper; token never appears in command arguments.
+          git fetch /tmp/mh-state HEAD:refs/moneyhunter-state
+          git push origin refs/moneyhunter-state:refs/heads/state

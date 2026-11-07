@@ -21,7 +21,7 @@ EDITIONS = ("deluxe", "collectors", "collector", "limited edition", "special edi
             "complete edition", "definitive edition", "game of the year", "goty", "steelbook", "launch edition", "day one",
             "directors cut", "remastered", "switch 2 edition", "nintendo switch 2", "switch 2", "digital", "code in a box",
             "download", "dlc", "season pass", "upgrade pack", "expansion", "dlc pass", "membership")
-ACCESSORY = ("amiibo", "case", "controller", "skin", "charger", "stand", "dock", "headset", "figure", "plush", "lanyard",
+ACCESSORY = ("screen protector", "replacement screen", "screen only", "tablet only", "console only", "box only", "shell", "housing", "repair", "replacement", "amiibo", "case", "controller", "skin", "charger", "stand", "dock", "headset", "figure", "plush", "lanyard",
              "keyring", "poster", "guide", "artbook", "soundtrack", "vinyl", "t shirt", "hoodie", "mug")
 TOOL_KIT = ("kit", "battery", "batteries", "charger", "ah", "2ah", "4ah", "5ah", "p1", "p2", "d1", "d2", "m1", "m2",
             "case", "tstak", "makpac", "twin", "combo")
@@ -49,6 +49,7 @@ def check(title: str, extra: str, comp) -> str:
     t, x, m = norm(title), norm(extra), norm(comp.match)
     words = m.split()
     cat = comp.category
+    if getattr(comp, "identity", {}): m = norm(comp.match + " " + " ".join(comp.identity.values()))
     def word_ok(w):
         if cat == "tools" and re.search(r"\d", w):   # model numbers: body-only suffixes N/Z/ZJ/NT only
             return re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(n|z|zj|nt|zk)?(?![a-z0-9])", t) is not None
@@ -60,8 +61,10 @@ def check(title: str, extra: str, comp) -> str:
         return f"{label} ({hit[0]})" if hit else ""
     r = guard(KIDS, "kids' size") if cat in ("trainers", "sportswear") else ""
     if not r and cat in ("trainers", "sportswear"):
-        if _kids_size(title): r = "kids' size"
+        if _kids_size(title) and not has(t, "women", "womens", "ladies", "adult", "mens", "men"): r = "size ambiguous (adult/kids)"
         elif has(x, "younger", "older", "junior", "infant", "kids", "girls", "boys"): r = "kids' size (description)"
+    if not r and cat in ("trainers", "sportswear"):
+        r = guard(("special edition", "limited edition", "womens", "women", "mens", "men"), "different variant") if getattr(comp, "identity", {}) else ""
     r = r or guard(BUNDLE, "bundle")
     if not r and _multipack(t) and not _multipack(m): r = "multipack"
     r = r or guard(PREORDER, "pre-order") or guard(CONDITION, "used/grey/refurbished")
@@ -85,6 +88,19 @@ def check(title: str, extra: str, comp) -> str:
         if not re.search(r"(?<!\d)\d{4,6}(?!\d)", t): r = "no set number"
         elif not has(t, "lego"): r = "not LEGO-branded (compatible/other item)"
         elif len(set(re.findall(r"(?<!\d)\d{5,6}(?!\d)", t)) - set(re.findall(r"\d{5,6}", m))) > 0: r = "more than one set"
+    identity = getattr(comp, "identity", {})
+    if not r and identity:
+        scope = norm(title + " " + extra)
+        # Unknown is not a match. A reviewed exact offer can resolve fields absent from a feed title.
+        for key, value in identity.items():
+            if key == "condition":
+                if value == "new" and has(scope, *CONDITION): return "different condition"
+                if value != "new" and not has(scope, *CONDITION): return "condition not confirmed"
+                continue
+            if key in ("variant", "edition") and value == "standard": continue
+            if key == "format" and value == "physical" and not has(scope, "digital", "download", "code"): continue
+            if not all(has(scope, word) for word in norm(value).split()):
+                return f"exact {key} not confirmed"
     return r
 
 def find(title: str, comps: list, extra: str = ""):
@@ -97,6 +113,34 @@ def find(title: str, comps: list, extra: str = ""):
         if r:
             why = why or f"{c.match}: {r}"
             continue
-        if best is None or len(c.match) > len(best.match):
+        if best is None or (bool(c.identity), len(c.match)) > (bool(best.identity), len(best.match)):
             best = c
     return (best, "") if best else (None, why)
+
+
+def quoted_offer_check(title, extra, comp):
+    """A reviewed quote may resolve absent attributes, never contradictory feed attributes."""
+    t = norm(title)
+    identity = getattr(comp, "identity", {})
+    # Run all ordinary product/edition/accessory/condition guards first; allow absent identity
+    # values only because the independently reviewed exact URL/price quote supplies them.
+    reason = check(title, extra + " " + " ".join(identity.values()), comp)
+    if reason: return reason
+    if identity.get("size"):
+        sizes = re.findall(r"(?:uk\s*|size\s*)(\d+(?:\.5)?)(?![\d.])", title.lower())
+        try:
+            if len(set(sizes)) == 1 and float(sizes[0]) != float(identity["size"].lower().replace("uk", "").strip()):
+                return "quoted size contradicts feed"
+        except ValueError:
+            return "quoted size format requires review"
+    gender = identity.get("gender", "").lower()
+    if gender in ("men", "mens", "male") and has(t, "women", "womens", "ladies", "female"): return "quoted gender contradicts feed"
+    if gender in ("women", "womens", "female") and has(t, "men", "mens", "male"): return "quoted gender contradicts feed"
+    if identity.get("ml"):
+        ml = re.sub(r"[^0-9]", "", identity["ml"])
+        if _ml(t) and _ml(t) != {ml}: return "quoted bottle size contradicts feed"
+    colours = ("white", "black", "red", "blue", "green", "pink", "grey", "gray", "yellow", "purple")
+    expected = {c for c in colours if has(norm(identity.get("variant", "")), c)}
+    actual = {c for c in colours if has(t, c)}
+    if expected and actual and not expected.intersection(actual): return "quoted colour contradicts feed"
+    return ""

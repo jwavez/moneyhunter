@@ -44,7 +44,7 @@ function panel(d) {
       author: { name: "MONEYHUNTER" }, title: "💰 Control Panel", color: C.BRAND,
       description: "Find under-£60 deals that resell for profit, with every fee counted.\nClick a button below. Results are private to you.",
       fields: [{ name: "📡 Live status", value: status }],
-      footer: { text: "Scans every 30 min, 24/7 · Not financial advice" },
+      footer: { text: "30-minute cron target, best effort; inspect last scan · Not financial advice" },
     }],
     components: [
       row(btn("v:top:0", "Top Deals", "🟢", 3), btn("v:near:0", "Near Misses", "🟡", 1), btn("p:cats", "Categories", "🗂️")),
@@ -71,12 +71,12 @@ function dealView(d, list, f, i) {
   const e = {
     author: { name: `${x.merchant || "Deal"} · ${x.delivery || "check delivery"}`.slice(0, 250) },
     title: `${icon} ${word} · ${sgbp(x.net)} net · ${pct(x.roi)} ROI`, url: x.url, color: C[x.grade],
-    description: `**${x.title.slice(0, 200)}**${x.under_cap ? "" : "\n⚠️ Over the £60 price cap"}`,
+    description: `**${x.title.slice(0, 200)}**${x.delivery_known === false ? "\n⚠️ Delivery unknown: profit is an item-only estimate, not verified net." : ""}${x.evidence_type && x.evidence_type !== "sold" ? "\nReference-only valuation, not exact sold evidence." : ""}${x.under_cap ? "" : "\n⚠️ Over cap or landed delivery cost not confirmed"}`,
     fields: [
       { name: "Buy", value: gbp(x.buy), inline: true }, { name: "Sell target", value: gbp(x.target), inline: true },
-      { name: "Max buy", value: gbp(x.max_buy), inline: true },
+      { name: "Max landed cost (money gates only)", value: gbp(x.max_buy), inline: true },
       { name: "Net", value: sgbp(x.net), inline: true }, { name: "Worst case", value: sgbp(x.worst) + (x.worst_verified ? "" : " (est.)"), inline: true },
-      { name: "Days to sell", value: x.days_to_sell ? `~${x.days_to_sell} days` : "No data yet", inline: true },
+      { name: "Days to sell", value: x.days_to_sell != null ? `~${x.days_to_sell} days` : "No data yet", inline: true },
       { name: "Confidence", value: `${bar(x.confidence)} ${x.confidence}`, inline: false },
       { name: x.grade === "A" ? "Why" : "Why not BUY", value: x.why.length ? x.why.join(" · ") : "All 9 checks pass", inline: false },
       ...(x.intel?.retailer ? [{ name: "Retailer", value: x.intel.retailer.slice(0, 200), inline: false }] : []),
@@ -102,7 +102,7 @@ function planView(x) {
     ...(x.intel?.cashback ? [{ name: "Cashback", value: x.intel.cashback, inline: false }] : []),
     { name: "Where to sell", value: p.platforms || "eBay, Vinted", inline: false },
     { name: "Comps", value: (x.comp || "none").slice(0, 1000), inline: false },
-  ], footer: { text: `Costs: eBay business fees, ${gbp(x.postage ?? 3.52)} home-delivery postage, £0.50 packaging, 3% returns` } }] };
+  ], footer: { text: `Costs: eBay business standard fees incl 20% VAT, ${gbp(x.postage ?? 3.52)} home-delivery postage, £0.50 packaging, 3% returns` } }] };
 }
 
 // ---------- calculator ----------
@@ -111,22 +111,22 @@ const PLATFORMS = { ebay: "ebay_business", ebay_business: "ebay_business", "ebay
 const ti = (id, label, value = "", req = true, ph = "") => row({ type: 4, custom_id: id, label, style: 1, required: req, value: value === "" ? undefined : String(value), placeholder: ph, max_length: 60 });
 function calcModal(buy = "", sell = "", cat = "") {
   return { custom_id: "m:calc", title: "🧮 Profit Calculator", components: [
-    ti("buy", "Buy price (£)", buy, true, "e.g. 25"), ti("sell", "Expected sell price (£)", sell, true, "e.g. 45"),
+    ti("buy", "Landed buy cost incl delivery (£)", buy, true, "e.g. 25"), ti("sell", "Expected sell price (£)", sell, true, "e.g. 45"),
     ti("platform", "ebay, ebay private, vinted, depop, fb, fb cash", "ebay", true),
     ti("category", "Category: trainers, lego, gaming, tools, fragrance", cat, false, "optional"),
     ti("postage", "Postage you pay (£)", "", false, "optional, default by category (Evri home)") ] };
 }
 function calcView(buy, sell, platform, cat, postage) {
-  const k = calc(buy, sell, platform, cat || "default");
-  if (postage != null && !isNaN(postage) && platform !== "vinted") { k.net = Math.round((k.net + k.postage - postage) * 100) / 100; k.postage = postage; k.roi = buy ? Math.round(k.net / buy * 10000) / 100 : null; }
-  const verdict = k.net >= 8 && (k.roi ?? 0) >= 40 ? ["🟢 Worth it", C.A] : k.net > 0 ? ["🟡 Thin margin", C.B] : ["🔴 Loses money", C.R];
+  if (![buy, sell].every(x => Number.isFinite(x) && x >= 0) || (postage != null && (!Number.isFinite(postage) || postage < 0))) return { content: "Enter finite nonnegative landed buy cost, sale price and postage." };
+  const k = calc(buy, sell, platform, cat || "default", postage);
+  const verdict = k.net >= 8 && (k.roi ?? 0) >= 40 ? ["🧮 Money gates only — not a BUY", C.INFO] : k.net > 0 ? ["🟡 Thin margin", C.B] : ["🔴 Loses money", C.R];
   return { embeds: [{ title: `${verdict[0]} · ${sgbp(k.net)} net · ${k.roi == null ? "—" : pct(k.roi)} ROI`, color: verdict[1],
     description: `Sell **${gbp(sell)}** on **${platform.replace("_", " ")}**${cat ? ` · ${cat}` : ""}`,
     fields: [
       { name: "Buy", value: gbp(buy), inline: true }, { name: "Platform fee", value: gbp(k.fee), inline: true }, { name: "Postage", value: gbp(k.postage), inline: true },
-      { name: "Packaging", value: gbp(k.packaging), inline: true }, { name: "Returns (3%)", value: gbp(k.returns), inline: true }, { name: "Max buy", value: `**${gbp(k.maxBuy)}**`, inline: true },
+      { name: "Packaging", value: gbp(k.packaging), inline: true }, { name: "Returns (3%)", value: gbp(k.returns), inline: true }, { name: "Max landed cost (money gates only)", value: `**${gbp(k.maxBuy)}**`, inline: true },
       { name: "Margin bar", value: `${bar(Math.max(0, Math.min(100, (k.roi ?? 0))))} ${k.roi ?? 0}% (target 40%)`, inline: false },
-    ], footer: { text: "Max buy leaves £8 net and 40% ROI · Vinted buyer pays postage · FB shipped = PayPal 2.9%+30p · Fees checked 2 Nov 2026" } }],
+    ], footer: { text: "Financial ceiling only, not approval · business fees incl 20% VAT · Vinted buyer pays postage · FB shipped = PayPal 2.9%+30p · Fees checked 2 Nov 2026" } }],
     components: [row(btn("p:calc", "New calculation", "🧮", 1), btn("p:home", "Menu", "🏠"))] };
 }
 
@@ -143,12 +143,12 @@ async function priceView(q, buy, env) {
   const lo = parseFloat(c.low), hi = parseFloat(c.high);
   const eb = calc(buy ?? 0, lo, "ebay_business", c.category), vi = calc(buy ?? 0, lo, "vinted", c.category);
   const fields = [
-    { name: "Sold range", value: `${gbp(lo)} – ${gbp(hi)}`, inline: true }, { name: "Max buy · eBay", value: gbp(eb.maxBuy), inline: true }, { name: "Max buy · Vinted", value: gbp(vi.maxBuy), inline: true },
+    { name: "Legacy guide range — not exact sold evidence", value: `${gbp(lo)} – ${gbp(hi)}`, inline: true }, { name: "Max buy · eBay", value: gbp(eb.maxBuy), inline: true }, { name: "Max buy · Vinted", value: gbp(vi.maxBuy), inline: true },
   ];
   if (buy != null && !isNaN(buy)) fields.push({ name: `Net if you pay ${gbp(buy)}`, value: `eBay ${sgbp(eb.net)} (${pct(eb.roi)}) · Vinted ${sgbp(vi.net)} (${pct(vi.roi)})`, inline: false });
   fields.push({ name: "Evidence", value: `${c.sold_evidence}`.slice(0, 900), inline: false });
   const src = (c.source.match(/https?:\/\/\S+/) || [])[0];
-  return { embeds: [{ title: `💷 ${c.match}`, description: `Category: **${c.category}**`, color: C.INFO, fields, footer: { text: "Sell price used: low end of the range" } }],
+  return { embeds: [{ title: `💷 ${c.match}`, description: `Category: **${c.category}**. Reference only: date, condition and exact variant may differ. Not a BUY signal. Use reviewed scanner evidence before buying.`, color: C.INFO, fields, footer: { text: "Hypothetical calculations from legacy guide; include inbound delivery; not approval" } }],
     components: [src ? row(link(sold, "eBay Sold", "📊"), link(vinted, "Vinted", "👕"), link(src, "Source", "🔗")) : links, again] };
 }
 
@@ -156,11 +156,11 @@ async function priceView(q, buy, env) {
 const catsView = () => ({ embeds: [{ title: "🗂️ Browse by category", color: C.BRAND, description: "Pick a category to page through every priced deal in it." }],
   components: [row({ type: 3, custom_id: "cat", placeholder: "Choose a category…", options: CATS.map(([v, l, e]) => ({ label: l, value: v, emoji: { name: e } })) }), row(btn("p:home", "Menu", "🏠"))] });
 const howView = () => ({ embeds: [{ title: "📘 How MONEYHUNTER works", color: C.BRAND, fields: [
-  { name: "1 · Scan", value: "Every 30 min it reads hotukdeals feeds and prices each deal against sourced sold prices." },
+  { name: "1 · Scan", value: "Best-effort 30-minute cron reads hotukdeals. New/rescan counts and coverage are reported; most products may need reviewed evidence." },
   { name: "2 · Strict matching", value: "A sold price only prices the exact same item. Kids' sizes, bundles, multipacks, pre-orders, used/refurbished, other editions, kits vs body-only and other bottle sizes are never priced." },
-  { name: "3 · Count every cost", value: "eBay business fees (worst case), home-delivery postage by category, £0.50 packaging and a 3% returns allowance." },
-  { name: "4 · Grade", value: "🟢 **BUY**: all 9 checks pass · 🟡 **VERIFY**: profit works on estimates, check eBay sold first · 🔴 **PASS**: fails a check. Sold prices older than 30 days never give BUY or VERIFY; expired deals never alert." },
-  { name: "5 · Max buy", value: "The highest price that still leaves £8 net and 40% ROI." },
+  { name: "3 · Count every cost", value: "eBay standard business fees incl 20% VAT (promotions/surcharges extra), home-delivery postage by category, £0.50 packaging and a 3% returns allowance." },
+  { name: "4 · Grade", value: "🟢 **BUY**: all evidence, offer, availability and money checks pass · 🟡 **VERIFY**: profit works on estimates, check eBay sold first · 🔴 **PASS**: fails a check. Sold prices older than 30 days never give BUY or VERIFY; expired deals never alert." },
+  { name: "5 · Max buy", value: "Financial landed-cost ceiling for £8 net/40% ROI; not permission to buy without the evidence gates." },
   { name: "Honest limits", value: "Sold prices are averages, not guarantees. Always check eBay sold before buying. Not financial advice." },
 ] }], components: [row(btn("p:home", "Menu", "🏠"))] });
 
@@ -178,7 +178,7 @@ async function handleCommand(i, env) {
     }
     case "price": return msg(await priceView(String(opt(i, "item")), opt(i, "buy"), env));
     case "calc": return msg(calcView(opt(i, "buy"), opt(i, "sell"), opt(i, "platform") ?? "ebay_business", opt(i, "category") ?? "", null));
-    case "scan": return msg({ content: "⚡ Manual scan is coming soon. Scans already run automatically every 30 min." });
+    case "scan": return msg({ content: "⚡ Manual scan is coming soon. Cron targets 30 minutes but can be delayed or dropped." });
     case "help": return msg(howView());
     case "logflip": return modal(CM.flipModal());
     case "soldprice": return modal(CM.compModal());
@@ -206,7 +206,7 @@ async function handleComponent(i, env) {
   if (id === "fl:open") return modal(CM.flipModal());
   if (id === "sc:open") return modal(CM.compModal());
   if (id === "lb:show") return msg({ embeds: [CM.lbEmbed(await CM.leaderboard(env))] });
-  if (id === "p:scan") return msg({ content: "⚡ **Scan Now is coming soon.** Scans already run automatically every 30 min, 24/7." });
+  if (id === "p:scan") return msg({ content: "⚡ **Scan Now is coming soon.** Cron targets 30 minutes but can be delayed or dropped." });
   if (id === "cat") { const d = await getDeals(env); const c = i.data.values[0]; return show(dealView(d, filterDeals(d.deals, c), c, 0)); }
   const d = await getDeals(env), list = filterDeals(d.deals, f), x = list[((+n % (list.length || 1)) + list.length) % (list.length || 1)];
   if (k === "v") return show(dealView(d, list, f, +n));

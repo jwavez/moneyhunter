@@ -3,7 +3,7 @@ import datetime as dt, urllib.parse
 from . import config as C, sell as S
 
 GREEN, AMBER, RED, BLUE, GOLD = 0x22C55E, 0xF59E0B, 0xEF4444, 0x3B82F6, 0xEAB308
-SCHEDULE = "Scans every 30 min, 24/7"
+SCHEDULE = "30-minute cron target · best effort; check last successful scan"
 COMMUNITY_MAX_PRICE = 60.0   # [H] T0 public price cap
 import os as _os
 TIER_CAPS = [60.0, 120.0, 300.0, 600.0, 1200.0]            # [H] max buy per tier (matches private app ladder)
@@ -22,19 +22,25 @@ def community_cap() -> float:
 COMMUNITY_MIN_NET, COMMUNITY_MIN_ROI = 8.0, 40.0   # [H] neutral max-buy rule
 GATE_NAMES = {0: "Profit too small", 1: "Return too low", 2: "Sell speed not proven", 3: "Sell-through not proven",
               4: "Fewer than 5 sold comps", 5: "Low confidence", 6: "No verified exit price", 7: "Over the price cap",
-              8: "Sold prices older than 30 days"}
+              8: "Sold prices older than 30 days",
+              9: "No reviewed exact-variant sold evidence", 10: "Inbound delivery unknown", 11: "Not online-delivery eligible",
+              12: "Availability not confirmed", 13: "Cash exit quote missing/stale", 14: "Velocity evidence missing/stale",
+              15: "Exact retailer offer identity/price not reviewed"}
 
 def max_buy(r) -> float:
     """Highest buy price that still leaves £8 net and 40% ROI on expected proceeds. Rounded DOWN to the penny."""
     import math
     e_rev = r.cost + r.ev_net
-    return max(0.0, math.floor(min(e_rev - COMMUNITY_MIN_NET, e_rev / (1 + COMMUNITY_MIN_ROI / 100)) * 100) / 100)
+    # Financial ceiling only; availability/evidence/delivery gates still apply. Include downside for VERIFY.
+    floor_proceeds = r.cost + r.worst
+    downside_limit = floor_proceeds if r.grade.startswith("A") else floor_proceeds / 0.75
+    return max(0.0, math.floor(min(e_rev - r.plan.get("min_net", COMMUNITY_MIN_NET), e_rev / (1 + r.plan.get("min_roi", COMMUNITY_MIN_ROI) / 100), r.plan.get("max_item", community_cap()), community_cap(), downside_limit) * 100) / 100)
 
 def worst_text(r) -> str:
     return gbp(r.worst, True) + ("" if r.worst_verified else " (est.)")
 
 def dts_text(days) -> str:
-    return f"~{days:g} days" if days else "No data yet"
+    return f"~{days:g} days" if days is not None else "No data yet"
 
 def exit_text(p, worst_verified) -> str:
     day = f"day {p['time_stop_day']}" + (" (house rule)" if p.get("time_stop_rule") else "")
@@ -71,14 +77,14 @@ def short_query(title: str) -> str:
     return " ".join(t.split()[:6])
 
 def gates_failed(r) -> list:
-    return [GATE_NAMES[i] for i, (_, ok) in enumerate(r.gates) if not ok]
+    return [GATE_NAMES.get(i, name) for i, (name, ok) in enumerate(r.gates) if not ok]
 
 def deal_card(d, r, preview: bool = False) -> list:
     g = r.grade[0]
     color, icon, word = {"A": (GREEN, "🟢", "BUY"), "B": (AMBER, "🟡", "VERIFY")}.get(g, (RED, "🔴", "PASS"))
     q = short_query(d.title)
     failed = gates_failed(r)
-    if g == "A": why = "All 9 checks pass · verified exit above breakeven"
+    if g == "A": why = "All evidence, landed-cost and availability checks pass · current cash quote above breakeven (subject to testing)"
     elif g == "B": why = "Profit works on estimated prices. Not proven yet: " + " · ".join(failed[:3]) + ". Check eBay sold before buying."
     else: why = " · ".join(failed[:2])
     mb = max_buy(r)
@@ -98,7 +104,7 @@ def deal_card(d, r, preview: bool = False) -> list:
             {"name": "Net (expected)", "value": gbp(r.ev_net, True), "inline": True},
             {"name": "ROI", "value": f"{r.ev_roi:+.0f}%".replace("-", "−"), "inline": True},
             {"name": "Days to sell", "value": dts, "inline": True},
-            {"name": "Max buy price", "value": gbp(mb), "inline": True},
+            {"name": "Max landed cost (money gates only)", "value": gbp(mb), "inline": True},
             {"name": "Worst case", "value": worst_text(r), "inline": True},
             {"name": "Confidence", "value": f"{bar(conf)} {conf}", "inline": True},
             {"name": "Why" if g == "A" else "Why not BUY", "value": why[:300], "inline": False},
@@ -116,7 +122,7 @@ def deal_card(d, r, preview: bool = False) -> list:
         "color": color,
         "description": (f"**Plan** list {gbp(p['list'])} → {gbp(p['target'])} (D3) → −5% + cross-list (D7) → {gbp(p['quick'])} (D10) → "
                         f"{exit_text(p, r.worst_verified)}\n"
-                        f"**Costs counted** eBay business fees, {gbp(r.postage)} postage, £0.50 packaging, 3% returns\n"
+                        f"**Costs counted** eBay business standard fees incl 20% VAT, {gbp(r.postage)} postage, £0.50 packaging, 3% returns\n"
                         f"**Sell on** {p['platforms']}\n"
                         f"**Failed checks** {', '.join(failed) if failed else 'none'}\n"
                         f"**Comps** {(d.comp_note or 'none')[:180]}")[:1500],
@@ -141,20 +147,23 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
     color = GREEN if stats["A"] else AMBER if stats["B"] else BLUE
     return {
         "author": {"name": ("PREVIEW · " if preview else "") + "MONEYHUNTER scan report"},
-        "title": f"🔎 {stats['scanned']} deals scanned · {stats['A']} buy · {stats['B']} verify",
+        "title": f"🔎 {stats['scanned']} unique feed offers · {stats['A']} buy · {stats['B']} verify",
         "color": color,
         "fields": [
-            {"name": "Scanned", "value": str(stats["scanned"]), "inline": True},
-            {"name": "Priced", "value": str(stats["priced"]), "inline": True},
-            {"name": f"Under {gbp(community_cap())} cap (Tier {active_tier()})", "value": str(stats["affordable"]), "inline": True},
+            {"name": "New / rescanned", "value": f"{stats.get('new', '?')} / {stats.get('rescanned', '?')}", "inline": True},
+            {"name": "Sold-valued / reference-only", "value": f"{stats.get('sold_valued', 0)} / {stats.get('reference_only', 0)}", "inline": True},
+            {"name": "Valued (not all sold evidence)", "value": str(stats["priced"]), "inline": True},
+            {"name": f"Under {gbp(community_cap())} cap (community index {active_tier()}, {C.tier_for(TIER_BANKROLL[active_tier()]).name})", "value": str(stats["affordable"]), "inline": True},
+            {"name": "Online physical / delivery known / landed under cap", "value": f"{stats.get('online_eligible', '?')} / {stats.get('delivery_known', '?')} / {stats.get('under_cap_known_delivery', '?')}", "inline": False},
+            {"name": "Source health", "value": " · ".join(f"{name}: feeds {v.get('feeds_ok', 0)} OK/{v.get('feeds_failed', 0)} failed, raw {v.get('feed_items', 0)}, duplicates {v.get('duplicates', 0)}, old dropped {v.get('old_dropped', 0)}" for name, v in stats.get('sources', {}).items())[:1000] or "Not reported", "inline": False},
             {"name": "🟢 A", "value": str(stats["A"]), "inline": True},
             {"name": "🟡 B", "value": str(stats["B"]), "inline": True},
             {"name": "🔴 Rejected", "value": str(stats["R"]), "inline": True},
             {"name": "Closest near-misses", "value": "\n".join(lines) if lines else "None under the price cap this scan", "inline": False},
-            {"name": "Safety filters", "value": f"{stats.get('uncertain', 0)} uncertain matches not priced (kids, bundles, editions, sizes) · {stats.get('stale', 0)} stale comps · {stats.get('expired', 0)} expired deals dropped", "inline": False},
-            {"name": "Help price more deals", "value": f"{stats['unpriced']} deals had no sold-price data yet. Spotted what one of these really sells for? Share the sold listing and it gets added.", "inline": False},
+            {"name": "Safety filters", "value": f"{stats.get('uncertain', 0)} uncertain matches · {stats.get('stale', 0)} stale references · expiry checked {stats.get('expiry_checked', 0)}, expired {stats.get('expired', 0)}, unknown/not checked {stats.get('expiry_unknown', 0)}", "inline": False},
+            {"name": "Help price more deals", "value": f"{stats['unpriced']} unmatched. {stats.get('review_candidates', 0)} prioritised affordable online research candidates in review_queue. Submit exact sold links for human review; submissions do not automatically become BUY evidence.", "inline": False},
         ],
-        "footer": {"text": f"MONEYHUNTER · hourly summary · errors post immediately"},
+        "footer": {"text": f"Last prior successful scan: {stats.get('previous_success') or 'no history yet'} · gap {stats.get('gap_minutes', '?')} min"},
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
     }
 
@@ -174,12 +183,12 @@ def quiet_key(now=None) -> str:
 
 def quiet_card(stats: dict, pulse: str) -> dict:
     """Professional 'market quiet' note when a scan finds no A/B deals. No profit claims."""
-    return {"title": "🌙 Market quiet · no BUY or VERIFY deals this hour", "color": BLUE,
-            "description": (f"Scanned **{stats['scanned']}** deals · priced {stats['priced']} · none passed every check.\n"
+    return {"title": "🔎 No verified buying opportunities this scan", "color": BLUE,
+            "description": (f"Scanned **{stats['scanned']}** deals · priced {stats['priced']} · none qualified as BUY/VERIFY. This is not proof the market has no deals.\n"
                             f"**Market pulse:** {pulse}\n\n"
                             "👀 WATCH cards in category channels are homework, not buy signals.\n"
                             "⚡ Fast movers (≤10 days to sell) post to #fast-movers when they appear.\n"
-                            "Next scan in about 30 minutes. Quiet beats a bad buy.")[:4096],
+                            "Cron targets 30 minutes but can be delayed/dropped; see scan health. Never force a bad buy.")[:4096],
             "footer": {"text": f"MONEYHUNTER · {SCHEDULE} · at most one quiet note per hour"},
             "timestamp": now_iso()}
 

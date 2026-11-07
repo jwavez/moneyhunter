@@ -10,7 +10,7 @@ export function ebayBusinessFee(price, cat, post = 0) {
   if (cat === "trainers") f = t * (price >= 100 ? 0.07 : 0.119);
   else if (cat === "tools") f = Math.min(t, 750) * 0.069 + Math.max(0, t - 750) * 0.03;
   else f = t * (FVF[cat] ?? FVF.default);
-  return r2(f + (t <= 10 ? 0.3 : 0.4) + t * 0.0035);
+  return r2((f + (t <= 10 ? 0.3 : 0.4) + t * 0.0035) * 1.20); // VAT on published business fees
 }
 export function platformFee(pl, price, cat) {
   if (["ebay_private", "vinted", "fb_cash"].includes(pl)) return 0;
@@ -20,9 +20,10 @@ export function platformFee(pl, price, cat) {
   if (pl === "stockx") return r2(Math.max(4.5, price * 0.09) + price * 0.03 + 4);
   throw new Error("unknown platform " + pl);
 }
-export function calc(buy, sell, pl = "ebay_business", cat = "default") {
+export function calc(buy, sell, pl = "ebay_business", cat = "default", outbound = null) {
+  if (![buy, sell].every(x => Number.isFinite(x) && x >= 0) || (outbound != null && (!Number.isFinite(outbound) || outbound < 0))) throw new Error("Finite nonnegative costs required");
   const fee = platformFee(pl, sell, cat);
-  const post = pl === "vinted" || pl === "fb_cash" ? 0 : (POSTAGE_BY_CAT[cat] ?? POSTAGE_BY_CAT.default);
+  const post = pl === "vinted" || pl === "fb_cash" ? 0 : (outbound ?? POSTAGE_BY_CAT[cat] ?? POSTAGE_BY_CAT.default);
   const ret = r2(sell * RETURNS);
   const net = r2(sell - fee - post - PACKAGING - ret - buy);
   const proceeds = sell - fee - post - PACKAGING - ret;

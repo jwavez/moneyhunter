@@ -3,15 +3,15 @@ import { calc, ebayBusinessFee, parseCsv, findComp, verifyDiscord } from "./src/
 import { readFileSync } from "node:fs";
 import { webcrypto } from "node:crypto";
 // fees match the Python tests
-assert.equal(ebayBusinessFee(50, "sportswear"), Math.round((50*0.119+0.40+50*0.0035)*100)/100);
-assert.equal(ebayBusinessFee(120, "trainers"), Math.round((120*0.07+0.40+120*0.0035)*100)/100);
-assert.equal(ebayBusinessFee(800, "tools"), Math.round((750*0.069+50*0.03+0.40+800*0.0035)*100)/100);
+assert.equal(ebayBusinessFee(50, "sportswear"), Math.round((50*0.119+0.40+50*0.0035)*1.2*100)/100);
+assert.equal(ebayBusinessFee(120, "trainers"), Math.round((120*0.07+0.40+120*0.0035)*1.2*100)/100);
+assert.equal(ebayBusinessFee(800, "tools"), Math.round((750*0.069+50*0.03+0.40+800*0.0035)*1.2*100)/100);
 const v = calc(10, 30, "vinted", "gaming"); assert.equal(v.fee, 0); assert.equal(v.postage, 0); assert.equal(v.net, Math.round((30-0.5-0.9-10)*100)/100);
 const comps = parseCsv(readFileSync("../data/comps.csv", "utf8")); assert.ok(comps.length >= 40, "comps " + comps.length);
 assert.equal(findComp("Mario Kart 8 Deluxe Switch", comps).match, "mario kart 8 deluxe");
 assert.ok(findComp("Girls Samba OG Trainers", comps).blocked);
 assert.ok(findComp("Nintendo Switch OLED Refurbished", comps).blocked);
-assert.equal(calc(30, 65, "ebay_business", "trainers").net, 20.67);
+assert.equal(calc(30, 65, "ebay_business", "trainers").net, 19);
 assert.equal(calc(20, 40, "fb", "gaming").fee, 1.46);
 // ed25519 signature check with a throwaway key
 const kp = await webcrypto.subtle.generateKey({ name: "Ed25519" }, true, ["sign", "verify"]);
@@ -64,4 +64,12 @@ r = await call({ type: 5, member: mem, data: { custom_id: "m:comp", components: 
 r = await call({ type: 5, member: mem, data: { custom_id: "m:comp", components: fv({ item: "x", price: "3", date: "d", link: "nope" }) } }); assert.match(r.data.content, /link/);
 r = await call({ type: 2, member: { ...mem, permissions: "32" }, data: { name: "review" } }); assert.match(r.data.embeds[0].description, /LEGO 76449/);
 const lbr = await w.fetch({ method: "GET", url: "https://x/api/leaderboard", text: async () => "", headers: new Map() }, env2, ctx); assert.equal((await lbr.json()).top[0].xp, 38);
-console.log("worker tests OK");
+assert.throws(() => calc(Infinity, 30), /Finite/);
+assert.throws(() => calc(-1, 30), /Finite/);
+const normal = calc(20, 60, "ebay_business", "gaming"), custom = calc(20, 60, "ebay_business", "gaming", 9);
+assert.equal(custom.postage, 9); assert.ok(custom.maxBuy < normal.maxBuy); assert.ok(custom.net < normal.net);
+const cv = w._test; // handler exports are tested through signed calls above
+r = await call({ type: 5, data: { custom_id: "m:calc", components: fv({ buy: "20", sell: "60", platform: "ebay", category: "gaming", postage: "9" }) } });
+assert.match(r.data.embeds[0].title, /Money gates only/);
+assert.match(r.data.embeds[0].fields.find(x => x.name.includes("Max landed")).value, new RegExp(custom.maxBuy.toFixed(2)));
+console.log("worker tests OK (including fee VAT, finite inputs and postage/max-landed consistency)");

@@ -1,4 +1,5 @@
-"""Fee and cost engine. Rates [S] checked 2 Nov 2026:
+"""Fee and cost engine. Rates [S] checked 7 Nov 2026: official eBay business fees help 4809 (all published rates exclusive of VAT).
+Scanner adds 20% fee VAT conservatively; promoted listings/account surcharges not modelled.
 - eBay UK private: no final value fee (ebay.co.uk help 4822)
 - eBay UK business: category FVF on item+postage, +£0.30 (<=£10) / £0.40 (>£10) per order, +0.35% regulatory (help 4809)
 - eBay UK private buyers pay Buyer Protection £0.10 + 7% to £20, 4% £20-300, 2% £300-4000 (help 5595)
@@ -8,6 +9,7 @@
 - StockX L1: 9% (min £4.50) + 3% processing, £4 UK seller shipping
 """
 from dataclasses import dataclass
+from .config import EBAY_FEE_VAT
 
 EBAY_BUSINESS_FVF = {  # [S] eBay UK business seller rate card (subset)
     "trainers": [(100, 0.119), (None, 0.07)],   # 11.9%, 7% if price >= £100 (whole item)
@@ -19,7 +21,7 @@ EBAY_BUSINESS_FVF = {  # [S] eBay UK business seller rate card (subset)
     "default": [(None, 0.129)],                 # conservative fallback
 }
 
-def ebay_business_fee(price: float, category: str, postage_charged: float = 0.0) -> float:
+def ebay_business_fee(price: float, category: str, postage_charged: float = 0.0, vat: float = EBAY_FEE_VAT) -> float:
     total = price + postage_charged
     bands = EBAY_BUSINESS_FVF.get(category, EBAY_BUSINESS_FVF["default"])
     if category == "trainers":
@@ -35,7 +37,7 @@ def ebay_business_fee(price: float, category: str, postage_charged: float = 0.0)
                 break
             prev = cap
     per_order = 0.30 if total <= 10 else 0.40
-    return round(fvf + per_order + total * 0.0035, 2)
+    return round((fvf + per_order + total * 0.0035) * (1 + vat), 2)
 
 def platform_fee(platform: str, price: float, category: str = "default", postage_charged: float = 0.0) -> float:
     if platform in ("ebay_private", "vinted", "fb_cash"):
@@ -62,8 +64,11 @@ class CostBreakdown:
 
 def net_profit(sale_price: float, buy_cost: float, platform: str, category: str,
                postage: float, packaging: float, returns_pct: float) -> CostBreakdown:
+    import math
+    if not all(math.isfinite(x) and x >= 0 for x in (sale_price, buy_cost, postage, packaging, returns_pct)) or returns_pct >= 1:
+        raise ValueError("invalid cost input")
     fee = platform_fee(platform, sale_price, category)
-    post = 0.0 if platform == "vinted" else postage   # Vinted buyer pays postage [S]
+    post = 0.0 if platform in ("vinted", "fb_cash") else postage   # Vinted buyer pays postage [S]
     ret = sale_price * returns_pct
     net = sale_price - fee - post - packaging - ret - buy_cost
     return CostBreakdown(sale_price, fee, post, packaging, round(ret, 2), buy_cost, round(net, 2))

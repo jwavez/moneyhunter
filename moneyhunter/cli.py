@@ -30,20 +30,45 @@ def bankroll() -> float:
         pass
     return 200.0
 
+def checked_offer(raw, comp):
+    import datetime as dt
+    from . import matching
+    if matching.quoted_offer_check(raw["title"], raw.get("desc", ""), comp): return None
+    for offer in getattr(comp, "offers", []):
+        age = (dt.date.today() - dt.date.fromisoformat(offer["observed_at"])).days
+        if offer["url"] == raw["url"] and abs(offer["price"] - raw["price"]) < 0.005 and 0 <= age <= C.MAX_OFFER_AGE_DAYS:
+            return offer
+    return None
+
 def build_deal(raw: dict, comp) -> G.Deal:
+    import datetime as dt
+    offer = checked_offer(raw, comp) if comp else None
+    inbound = offer["delivery"] if offer else raw.get("inbound_delivery")
+    from . import hub
     d = G.Deal(title=raw["title"], url=raw["url"], buy_price=raw["price"], category=raw["category"],
-               source="hotukdeals", merchant=raw["merchant"], delivery=raw["delivery"], heat=raw.get("heat"))
+               source="hotukdeals", merchant=raw["merchant"], delivery=raw["delivery"], heat=raw.get("heat"),
+               inbound_delivery=inbound or 0.0, delivery_known=inbound is not None,
+               online_eligible=raw.get("online_eligible", False) and hub.resellable(raw), offer_verified=bool(offer))
     if comp:
-        d.target, d.stretch = comp.low, comp.high     # buy off the downside: target = low end of sold range
-        d.floor, d.floor_verified = comp.floor, comp.floor is not None
+        d.target, d.stretch = comp.low, comp.high
+        d.floor, d.floor_verified = comp.floor, comp.floor is not None and comp.evidence_type == "sold"
         d.sold_90d, d.sell_through, d.days_to_sell = comp.sold_90d, comp.sell_through, comp.days_to_sell
-        d.comp_note = f"Range £{comp.low:g}–£{comp.high:g}: {comp.evidence} ({comp.source})"
+        d.comp_note = f"{comp.evidence_type}: £{comp.low:g}–£{comp.high:g}: {comp.evidence} ({comp.source})"
         d.comp_age_days = comp.age_days()
+        d.floor_age_days = (dt.date.today()-comp.floor_as_of).days if comp.floor_as_of else None
+        d.velocity_age_days = (dt.date.today()-comp.velocity_as_of).days if comp.velocity_as_of else None
+        d.evidence_type = comp.evidence_type
+        d.comp_has_evidence = comp.evidence_type == "sold" and bool(comp.source_urls)
         d.comp_match = comp.match
+        d.comp_urls = comp.source_urls
+        d.offer_observed_at = offer["observed_at"] if offer else None
     return d
 
 def _load_seen():
-    return set(json.load(open(STATE))) if os.path.exists(STATE) else set()
+    if not os.path.exists(STATE): return set()
+    with open(STATE) as f: seen = json.load(f)
+    if not isinstance(seen, list) or not all(isinstance(k, str) for k in seen): raise ValueError("invalid alert state")
+    return set(seen)
 
 def _key(d):
     return hotukdeals.dedupe_key(d.title, d.buy_price)
@@ -54,81 +79,125 @@ LIVE_CHECKS = 12   # [H] max deal-page expiry checks per scan (politeness)
 def _intel(d, r):
     from . import intel as I, hub
     import json as _j
-    prices = _j.load(open(hub.PRICES)) if os.path.exists(hub.PRICES) else {}
+    prices = hub.read_prices()
     return {"retailer": I.retailer(d.merchant, d.title)["label"], "fake": I.fake_risk(d.category, d.merchant, d.title)["label"],
             "cashback": I.cashback(d.merchant), "history": I.price_history(hub.title_key(d.title), d.buy_price, prices),
             "camel": I.camel_url(d.url, d.title) if (d.merchant or "").lower() == "amazon" else ""}
 
-def drop_expired(graded):
-    """Re-check A/B deals on hotukdeals; expired ones are downgraded to PASS so they never alert."""
+def drop_expired(graded, br=200):
+    """Only financially viable reviewed offers consume bounded expiry checks."""
     n = 0
-    for d, r in graded:
-        if r.grade[0] in "AB" and n < LIVE_CHECKS:
-            n += 1
-            if not hotukdeals.is_live(d.url):
-                r.grade = "REJECT"; r.reasons.insert(0, "Deal expired on hotukdeals"); d.expired = True
+    for i, (d, r) in enumerate(graded):
+        if r.gates[0][1] and r.gates[1][1] and d.comp_has_evidence and d.offer_verified and d.online_eligible and d.delivery_known:
+            d.availability = hotukdeals.live_status(d.url) if n < LIVE_CHECKS else "unknown"
+            if n < LIVE_CHECKS: n += 1
+            d.expired = d.availability == "expired"
+            graded[i] = (d, G.grade(d, br))
+    return n
 
-_LIVE = {}
 def refresh_stale(comp):
-    """Stale stored comp -> replace with a conservative live eBay active-listing comp (cached per run)."""
-    if comp is None or not ebay.available(): return comp
-    age = comp.age_days()
-    if age is not None and age <= C.MAX_COMP_AGE_DAYS: return comp
-    if comp.match not in _LIVE:
-        try:
-            from . import matching as M
-            _LIVE[comp.match] = ebay.active_comp(comp, ebay.search_new_gb(comp.match), M.check)
-            print(f"[ebay] live comp {comp.match!r}: {'ok' if _LIVE[comp.match] else 'too few matched listings'}")
-        except Exception as e:
-            print(f"[ebay] live comp failed: {type(e).__name__}"); _LIVE[comp.match] = None
-    return _LIVE[comp.match] or comp
+    # Asking prices never rewrite a sold observation, its condition or evidence clock.
+    return comp
 
 def ebay_status() -> str:
     if not ebay.available(): return "skipped (no keys)"
     try: ebay._auth()
-    except Exception as e:
-        import os, json as _j
-        detail = ""
-        try: detail = _j.loads(e.read().decode()).get("error", "")
-        except Exception: pass
-        cid, sec = os.environ["EBAY_CLIENT_ID"], os.environ["EBAY_CLIENT_SECRET"]
-        shape = (f"id has -PRD-: {'-PRD-' in cid}, id has -SBX-: {'-SBX-' in cid}, secret starts PRD-: {sec.startswith('PRD-')}, "
-                 f"whitespace/quotes: {any(ch in cid + sec for ch in ' \t\n\"' + chr(39))}")
-        return f"token FAILED (HTTP {getattr(e, 'code', '?')} {detail}; {shape})"
-    return "token OK" + (", sold data (Insights) ON" if ebay.insights_available() else ", active listings only (no Insights)")
+    except Exception as exc:
+        return f"token FAILED (HTTP {getattr(exc, 'code', '?')}; {type(exc).__name__})"
+    return "token OK" + (", Insights scope granted (sold importer not configured)" if ebay.insights_available() else ", active listings only (no Insights entitlement confirmed)")
+
+LAST_OPERATIONAL = {}
+LAST_REVIEW = []
+OPERATIONAL = os.path.join(os.path.dirname(STATE), "scan_state.json")
+REVIEW_PATH = os.path.join(os.path.dirname(STATE), "review_queue.json")
 
 def run_scan():
-    print(f"[ebay] {ebay_status()}")
+    from . import runtime as RT, hub
+    import datetime as dt
+    global LAST_RAWS, LAST_OPERATIONAL, LAST_REVIEW
+    ebay_health = ebay_status()
+    print(f"[ebay] {ebay_health}")
     br = bankroll(); tier = C.tier_for(br); cap = min(br * tier.max_pct / 100, E.community_cap())
-    global LAST_RAWS
     errors = []
-    raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m))); LAST_RAWS = raws; comps = CP.load()
-    graded, unpriced = [], []
-    for r in raws:
-        comp, why_not = CP.find_with_reason(r["title"], comps, r.get("desc", ""))
-        comp = refresh_stale(comp)
-        d = build_deal(r, comp); d.thumb = r.get("thumb", "")
-        d.match_warning = why_not
+    if "FAILED" in ebay_health: errors.append("eBay authentication failed; competition context unavailable")
+    if os.getenv("MH_TIER_WARNING"): errors.append("Private tier unavailable or invalid; using starter cap (community index 0)")
+    operational = RT.load(OPERATIONAL)
+    raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m))); LAST_RAWS = raws
+    counts = RT.observe(raws, operational)
+    if counts["gap_minutes"] is not None and counts["gap_minutes"] > C.MAX_SCAN_GAP_MINUTES:
+        errors.append(f"Scan gap {counts['gap_minutes']:.0f} minutes; 30-minute cron is best effort")
+    comps = CP.load()
+    graded, unpriced, review = [], [], []
+    ask_calls = 0; ask_run = {}
+    for raw in raws:
+        # Reviewed exact retailer offers can resolve attributes omitted by a feed title.
+        comp = next((c for c in comps if c.evidence_type == "sold" and checked_offer(raw, c)), None)
+        why_not = ""
+        if comp is None: comp, why_not = CP.find_with_reason(raw["title"], comps, raw.get("desc", ""))
+        d = build_deal(raw, comp)
+        if d.delivery_known: raw["inbound_delivery"] = d.inbound_delivery
+        d.thumb = raw.get("thumb", ""); d.match_warning = why_not
         res = G.grade(d, br)
-        if res is None: unpriced.append(d); continue
-        d.intel = _intel(d, r)
-        if ebay.available():
-            try:
-                st = ebay.active_stats(comp.match); d.comp_note += f" · eBay active {st['active']}, median ask £{st['median_ask']}"
-            except Exception as e:
-                print(f"[ebay] {type(e).__name__}")
-        graded.append((d, res))
-    drop_expired(graded)
+        if res is None: unpriced.append(d)
+        else:
+            d.intel = _intel(d, res)
+            # Competition context only, bounded and cached. Never used as sold value or BUY evidence.
+            if ebay.available() and comp.match not in ask_run:
+                cached = operational["ask_cache"].get(comp.match)
+                if cached and cached.get("date") == dt.date.today().isoformat(): ask_run[comp.match] = cached
+                elif ask_calls < 4:
+                    ask_calls += 1
+                    try:
+                        ask_run[comp.match] = {**ebay.active_stats(comp.match), "date": dt.date.today().isoformat(), "kind": "active_ask"}
+                        operational["ask_cache"][comp.match] = ask_run[comp.match]
+                    except Exception as exc:
+                        errors.append(f"eBay competition lookup failed: {type(exc).__name__}")
+            d.ask_context = ask_run.get(comp.match)
+            graded.append((d, res))
+        if hub.resellable(raw) and d.online_eligible and d.buy_price + d.inbound_delivery <= cap:
+            blockers = E.gates_failed(res) if res else [why_not or "No exact reviewed sold observations"]
+            if not d.delivery_known and "Inbound delivery unknown" not in blockers: blockers.append("Inbound delivery unknown")
+            be, required, _ = hub.sell_needed(d.buy_price + d.inbound_delivery, d.category)
+            # Priority is research usefulness, NOT projected profit. Prefer identifiable affordable products.
+            score = (20 if comp and comp.evidence_type == "sold" else 0) + (10 if counts["new"] and RT.key(raw) in operational["items"] and operational["items"][RT.key(raw)]["observations"] == 1 else 0)
+            import re
+            score += 10 if re.search(r"\b(?:[a-z]{2,}\d{2,}|\d{5,6})\b", raw["title"], re.I) else 0
+            score += 5 if d.delivery_known else 0
+            raw["review_priority"] = score
+            review.append({"title": d.title, "url": d.url, "category": d.category, "item_price": d.buy_price,
+                "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
+                "breakeven_sell": be, "sell_for_minimum_profit": required,
+                "cost_basis": "landed" if d.delivery_known else "item-only lower bound; delivery unknown",
+                "blockers": blockers, "priority": score, "first_seen": operational["items"][RT.key(raw)]["first_seen"],
+                "sold_search": E.ebay_sold_url(E.short_query(d.title))})
+    checked = drop_expired(graded, br)
     order = {"A": 0, "B": 1, "R": 2}
     graded.sort(key=lambda x: (order[x[1].grade[0]], -x[1].ev_net))
-    affordable = [(d, r) for d, r in graded if r.cost <= cap]
+    affordable = [(d, r) for d, r in graded if r.cost <= cap and d.delivery_known]
+    diagnostics = hotukdeals.LAST_DIAGNOSTICS
+    if not raws: errors.append("No deals read from any feed")
     stats = {"scanned": len(raws), "priced": len(graded), "unpriced": len(unpriced), "affordable": len(affordable),
              "A": sum(r.grade[0] == "A" for _, r in affordable), "B": sum(r.grade[0] == "B" for _, r in affordable),
              "R": sum(r.grade == "REJECT" for _, r in graded),
              "uncertain": sum(bool(getattr(d, "match_warning", "")) for d in unpriced),
-             "stale": sum(any("older than" in x for x in E.gates_failed(r)) for _, r in graded),
-             "expired": sum(getattr(d, "expired", False) for d, _ in graded), "errors": errors[:10]}
-    if not raws: errors.append("No deals read from any feed")
+             "stale": sum(d.comp_age_days is None or d.comp_age_days > C.MAX_COMP_AGE_DAYS for d, _ in graded),
+             "expired": sum(getattr(d, "expired", False) for d, _ in graded), "expiry_checked": checked,
+             "expiry_unknown": sum(d.availability == "unknown" for d, _ in graded),
+             "sold_valued": sum(d.evidence_type == "sold" for d, _ in graded),
+             "reference_only": sum(d.evidence_type != "sold" for d, _ in graded),
+             "online_eligible": sum(r.get("online_eligible", False) and hub.resellable(r) for r in raws),
+             "under_cap_known_delivery": sum(r.get("inbound_delivery") is not None and r["price"] + r["inbound_delivery"] <= cap for r in raws),
+             "delivery_known": sum(r.get("inbound_delivery") is not None for r in raws),
+             "errors": errors[:20], "sources": {"hotukdeals": diagnostics}, **counts}
+    if raws and not diagnostics.get("feeds_failed"): operational["last_success"] = RT.stamp(RT.now())
+    operational["ask_cache"] = {k:v for k,v in operational["ask_cache"].items() if v.get("date", "") >= (dt.date.today()-dt.timedelta(days=7)).isoformat()}
+    LAST_OPERATIONAL = operational
+    # Update blockers after the availability checks rather than exporting stale preliminary reasons.
+    by_url = {d.url: (d, r) for d, r in graded}
+    for entry in review:
+        if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
+    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-r["priority"], r["item_price"], r["url"]))[:50]
+    stats["review_candidates"] = len(LAST_REVIEW)
     return br, tier, graded, affordable, unpriced, stats
 
 def _public_deal(d, r):
@@ -139,24 +208,30 @@ def _public_deal(d, r):
             "buy": round(r.cost, 2), "target": round(r.plan["target"], 2), "net": round(r.ev_net, 2), "roi": round(r.ev_roi, 1),
             "worst": round(r.worst, 2), "worst_verified": r.worst_verified, "confidence": int(r.confidence),
             "comp_age_days": d.comp_age_days, "expired": getattr(d, "expired", False), "intel": getattr(d, "intel", {}),
-            "postage": r.postage, "fees_basis": "eBay business seller fees (worst case), postage, £0.50 packaging, 3% returns",
+            "postage": r.postage, "fees_basis": "eBay business standard fees incl 20% VAT, free-to-buyer postage, £0.50 packaging, 3% returns; promotions/surcharges extra",
             "max_buy": E.max_buy(r),
             "why": (["Deal expired"] if getattr(d, "expired", False) else []) + E.gates_failed(r)[:3], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
             "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title)),
-            "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.community_cap(),
+            "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.community_cap() and d.delivery_known,
+            "evidence_type": d.evidence_type, "sold_sources": getattr(d, "comp_urls", [])[:10],
+            "floor_age_days": d.floor_age_days, "velocity_age_days": d.velocity_age_days,
+            "offer_observed_at": getattr(d, "offer_observed_at", None), "delivery_known": d.delivery_known, "availability": d.availability,
+            "valuation_status": "reviewed_sold" if d.evidence_type == "sold" and d.delivery_known else "reference_or_item_only_estimate",
+            "offer_verified": d.offer_verified, "ask_context": getattr(d, "ask_context", None),
             "plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "time_stop_rule", "platforms")}}
 
 def export_public(path, stats, graded):
     import datetime as dt
     out = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
-           "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
+           "schema_version": 2, "review_queue": LAST_REVIEW, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    json.dump(out, open(path, "w"), indent=1); print(f"[export] {path}: {len(out['deals'])} deals")
+    from .evidence import atomic_write
+    atomic_write(path, out); print(f"[export] {path}: {len(out['deals'])} deals")
 
 def cmd_scan(a):
     br, tier, graded, affordable, unpriced, stats = run_scan()
     who = "Rules: community starter set" if os.getenv("MONEYHUNTER_COMMUNITY") == "1" else f"Bankroll £{br:.2f} → {tier.name}"
-    print(f"{who}. eBay API: {ebay_status()}. CeX: {'reachable' if cex.available() else 'blocked (403)'}.")
+    print(f"{who}. eBay API: {ebay_status()}. CeX: no automated quotes (manual exact cash evidence required).")
     print(f"Scanned {stats['scanned']} · priced {stats['priced']} · under cap {stats['affordable']} · A {stats['A']} · B {stats['B']} · rejected {stats['R']} · unpriced {stats['unpriced']}")
     for d, r in graded:
         print(f"  [{r.grade:10}] {d.title[:60]:60} £{r.cost:7.2f} → £{r.plan['target']:.2f} · EV £{r.ev_net:6.2f} · {', '.join(E.gates_failed(r)[:2])}")
@@ -167,8 +242,11 @@ def cmd_scan(a):
     from . import hub
     raws = LAST_RAWS
     new = hub.route(raws, graded, stats, near, seen, dry=a.dry_run, max_cards=a.max_posts)
-    if new and not a.dry_run:
-        json.dump(sorted(seen | new), open(STATE, "w"))
+    if not a.dry_run:
+        from . import runtime as RT
+        RT.save(STATE, sorted(seen | new))
+        RT.save(OPERATIONAL, LAST_OPERATIONAL)
+        RT.save(REVIEW_PATH, {"schema_version": 1, "candidates": LAST_REVIEW})
     if a.export:
         export_public(a.export, stats, graded)
     print(f"[hub] {len(new)} new items routed")
@@ -222,6 +300,12 @@ def cmd_uc(a):
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="moneyhunter"); sp = ap.add_subparsers(dest="cmd", required=True)
     s = sp.add_parser("scan"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--max-posts", type=int, default=5); s.add_argument("--show-all", action="store_true"); s.add_argument("--include-rejects", type=int, default=0); s.add_argument("--summary", action="store_true", help="post the scan report even with no cards"); s.add_argument("--preview", action="store_true"); s.add_argument("--export", help="write community deals JSON, e.g. public/deals.json"); s.set_defaults(f=cmd_scan)
+    s = sp.add_parser("import-evidence", help="validate and atomically merge reviewed public sold evidence")
+    s.add_argument("file"); s.add_argument("--store", default=os.path.join(os.path.dirname(STATE), "evidence.json"))
+    def import_evidence(a):
+        from .evidence import ingest
+        print(f"Imported {ingest(a.file, a.store)} reviewed record(s). Commit reviewed evidence.json to persist on scheduled scans.")
+    s.set_defaults(f=import_evidence)
     s = sp.add_parser("digest"); s.add_argument("--deals", default="public/deals.json"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(f=cmd_digest)
     s = sp.add_parser("leaderboard"); s.add_argument("--api", default="https://moneyhunter-bot.moneyhunter.workers.dev/api/leaderboard"); s.add_argument("--dry-run", action="store_true"); s.set_defaults(f=cmd_leaderboard)
     s = sp.add_parser("hud", help="LOCAL ONLY private report"); s.add_argument("--private", action="store_true", help="also write data/private_report.md"); s.add_argument("--period-day", type=int, default=1, help="day of month your UC assessment period starts"); s.set_defaults(f=cmd_hud)

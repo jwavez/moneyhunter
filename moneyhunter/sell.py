@@ -42,17 +42,15 @@ def sell_on_value(category: str, price: float = None) -> str:
     return s[:1024]
 
 def is_fast(category: str, days_to_sell) -> bool:
-    if days_to_sell:
-        return days_to_sell <= FAST_DAYS
-    return category in FAST_BY_DEFAULT
+    return days_to_sell is not None and 0 <= days_to_sell <= FAST_DAYS
 
 def fast_route(grade: str, category: str, days_to_sell) -> bool:
     """Copy to #fast-movers only for A/B grades that should sell in <=10 days."""
     return grade in ("A", "B") and is_fast(category, days_to_sell)
 
 def dts_label(category: str, days_to_sell) -> str:
-    if days_to_sell: base = f"~{days_to_sell:g} days"
-    else: base = "No data yet" + (" (usually fast)" if category in FAST_BY_DEFAULT else "")
+    if days_to_sell is not None: base = f"~{days_to_sell:g} days"
+    else: base = "No measured data yet"
     return ("⚡ FAST · " if is_fast(category, days_to_sell) else "") + base
 
 def cex_url(q: str) -> str:
