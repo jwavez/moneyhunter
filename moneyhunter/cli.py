@@ -156,6 +156,11 @@ def run_scan():
             blockers = E.gates_failed(res) if res else [why_not or "No exact reviewed sold observations"]
             if not d.delivery_known and "Inbound delivery unknown" not in blockers: blockers.append("Inbound delivery unknown")
             be, required, _ = hub.sell_needed(d.buy_price + d.inbound_delivery, d.category)
+            transport_scenario=None
+            if d.category=='fragrance':
+                from .transport import scenario
+                transport_scenario=scenario(raw)
+                be=transport_scenario['breakeven'];required=transport_scenario['required_resale']
             # Priority is research usefulness, NOT projected profit. Prefer identifiable affordable products.
             score = (20 if comp and comp.evidence_type == "sold" else 0) + (10 if counts["new"] and RT.key(raw) in operational["items"] and operational["items"][RT.key(raw)]["observations"] == 1 else 0)
             import re
@@ -167,8 +172,9 @@ def run_scan():
                 "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
                 "breakeven_sell": be, "sell_for_minimum_profit": required,
-                "outbound_transport_status":"unvalidated: Evri prohibits perfume; compliant carrier quote required" if d.category=="fragrance" else "configured rate; verify acceptance",
-                "cost_basis": "Unvalidated perfume carrier placeholder: figures not usable until compliant transport is quoted" if d.category=="fragrance" else ("landed" if d.delivery_known else "item-only lower bound; delivery unknown"),
+                **({"transport_scenario":transport_scenario} if transport_scenario else {}),
+                "outbound_transport_status":transport_scenario["profile"]["reason"] if transport_scenario else "configured rate; verify acceptance",
+                "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs" if transport_scenario else ("landed" if d.delivery_known else "item-only lower bound; delivery unknown"),
                 "blockers": blockers, "priority": score, "first_seen": operational["items"][RT.key(raw)]["first_seen"],
                 "sold_search": E.ebay_sold_url(E.short_query(d.title))})
     from . import market
@@ -184,6 +190,7 @@ def run_scan():
     from . import asking
     raw_by_url = {raw["url"]: raw for raw in raws}
     for entry in review:
+        raw_by_url[entry["url"]]["ask_status"]=entry.get("ask_status","not queried")
         if entry.get("ask_context"):
             model = asking.estimate(raw_by_url[entry["url"]], entry["ask_context"])
             if model:
@@ -240,7 +247,7 @@ def run_scan():
     by_url = {d.url: (d, r) for d, r in graded}
     for entry in review:
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
-    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))[:50]
+    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))
     stats["review_candidates"] = len(LAST_REVIEW)
     stats["lego_image_validation"]=image_report
     stats["images_available"] = sum(bool(r.get("thumb")) for r in raws)
@@ -290,6 +297,7 @@ def export_public(path, stats, graded):
            "schema_version": 2, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     if os.getenv("MONEYHUNTER_DISABLE_SEND")=="1":
         from . import discord as D,images,hub
+        out["fragrance_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="fragrance"]
         out["lego_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="lego" and images.publishable(r)]
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     from .evidence import atomic_write

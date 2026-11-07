@@ -16,6 +16,7 @@ TECH = {
 }
 # Specific family/flanker, concentration, explicit single bottle volume.
 SCENTS = [
+    ('boss bottled aftershave lotion', r'\bboss\b.*\bbottled\b', 'aftershave lotion', ('infinite','night','elixir','intense','balm')),
     ('boss bottled infinite', r'\bboss\b.*\bbottled infinite\b', 'edp', ('night','elixir','absolu','tonic')),
     ('boss bottled', r'\bboss\b.*\bbottled\b', 'edt', ('infinite','night','elixir','absolu','tonic','intense','oud','pacific','triumph','unlimited')),
     ('armani acqua di gio profondo', r'\b(?:armani|giorgio)\b.*\bacqua di gio profondo\b', 'parfum', ('lights','intense')),
@@ -35,6 +36,8 @@ def make(cat, query, variant, **extra):
     return SimpleNamespace(category=cat,match=query,identity={'condition':'new',**variant},name_terms=[],variant=variant,**extra)
 
 def concentration(t):
+    if M.has(t,'aftershave lotion','after shave lotion'):
+        return None if M.has(t,'edt','edp','eau de toilette','eau de parfum','parfum') else 'aftershave lotion'
     t=re.sub(r'eau de parfum', 'edp', t)
     t=re.sub(r'eau de toilette', 'edt', t)
     found=[v for v in ('edp','edt','parfum') if M.has(t,v)]
@@ -82,7 +85,7 @@ def identity(raw):
         colour=colours[0]
         return make(cat,f'Sony {model} {colour}',{'brand':'Sony','model':model,'colour':colour,'edition':'standard'})
     if cat=='fragrance':
-        if M.has(t,'refill','refills','body spray','deodorant','after shave','aftershave','gift','set') or re.search(r'\b\d+\s*[x×]\s*\d+',title,re.I):return None
+        if M.has(t,'refill','refills','body spray','deodorant','gift','set') or re.search(r'\b\d+\s*[x×]\s*\d+',title,re.I):return None
         volumes=set(re.findall(r'\b(\d{1,3})\s*ml\b',title,re.I))
         if len(volumes)!=1:return None
         volume=int(next(iter(volumes)))
@@ -90,11 +93,11 @@ def identity(raw):
         conc=concentration(t)
         for family,pattern,wanted,banned in SCENTS:
             found=re.search(pattern,t)
-            between=re.split(r'\b(?:edp|edt|parfum|eau|\d+\s*ml)\b',t[found.end():],maxsplit=1)[0] if found else ''
+            between=re.split(r'\b(?:aftershave|after shave|edp|edt|parfum|eau|\d+\s*ml)\b',t[found.end():],maxsplit=1)[0] if found else ''
             between=re.sub(r'\b(?:for him|for men|pour homme|spray|fragrance|perfume|new|sealed|mens|men)\b','',between).strip()
             if found and not between and conc==wanted and not M.has(t,*banned):
                 bottle='refillable' if M.has(t,'refillable') else 'not stated'
-                return make(cat,f'{family} {conc.upper()} {volume}ml'+(' refillable' if bottle=='refillable' else ''),
+                return make(cat,(f'{family} {volume}ml' if conc=='aftershave lotion' else f'{family} {conc.upper()} {volume}ml')+(' refillable' if bottle=='refillable' else ''),
                     {'family':family,'concentration':conc,'ml':volume,'bottle_format':bottle})
     return None
 

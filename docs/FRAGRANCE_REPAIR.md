@@ -1,0 +1,17 @@
+# Fragrance sell-price and transport repair — 7 November 2026
+
+## Reproduced defects
+* Both user-pasted WATCH cards were from20:02, before category expansion. More recent EDT comparators existed, but the50-row export limit had started dropping already modeled retailer offers: the20:31 scan had53 modeled offers, only50 exported review rows. Retain all eligible research rows; no source/alert acknowledgement resets or old-message edits.
+* Aftershave LOTION had no exact identity; it is not EDT, EDP, balm or generic unspecified aftershave. Add BOSS Bottled aftershave lotion, explicit one ml size, separate cache/query and negative variant tests.
+* Blanket fragrance transport warning contained an irrelevant200ml example on100ml cards. Market resale and shipping economics must be independent. Every fragrance WATCH/research card now prominently has either a real asking-based sell estimate/range/sources or an explicit exact-comparator absence reason. Required resale prices are never presented as market values.
+* The old QUALIFIED ASK wording could be mistaken for profitable. Nonqualifying models now explicitly say ASK-BASED RESALE ESTIMATE—NOT A BUY; opportunity/manual/verified grades and thresholds are unchanged.
+
+## Current official public transport evidence, opened7November2026
+https://www.royalmail.com/sending/uk/tracked-48 — detailed table: online small parcel <=2kg £3.75 including VAT; maximum45x35x16cm. Headline/current-prices page can show a different FROM price; the detailed service band is used, not an arbitrary£3.04 Evri estimate. Prices2026 page confirms autumn price changes; this is a public online tariff, NOT the user's contract or an actual weighed parcel quote.
+https://www.postoffice.co.uk/mail/what-can-i-send — UK perfume/aftershave <=150ml per item, at most4items/parcel, original retail packaging, strong cushioned outer, ID8000 label, visible sender/return address, must be presented at Post Office counter. No collection/postbox or international inference. Non-flammable perfumed creams/gels/oils/lotions are excluded from perfume rules; lotion chemistry is not guessed.
+https://personal.help.royalmail.com/app/answers/detail/a_id/96 — official RoyalMail restriction reference (direct provider fetch500; public indexed restriction agreed with opened PostOffice rules; no bypass).
+https://www.royalmail.com/prices2026 — price change context, not a claim about private negotiated tariffs.
+
+Single bottles <=150ml get an explicitly CONDITIONAL £3.75 small-parcel scenario, using configured£0.50 packaging allowance and existing fees/returns policy. Actual protective packaging, formulation/classification, packed weight/dimensions, destination, counter acceptance and liability remain unverified. Published cover up to£75/item value has exclusions; no guarantee of leakage/breakage coverage or full resale value. Source/rule URLs, reviewed date and30-day recheck expiry persist in data.200ml, ambiguous volumes, multipacks and expired tariff review do NOT get that scenario. Unknown inbound is never assumed free: required prices are minimums; pre-delivery profit is an upper bound. Conditional scenarios CANNOT produce estimated opportunities or verified BUY.
+
+Python final automatic webhook previews and Worker research/PriceCheck render the same scenario metadata. PriceCheck exact retailer-title match uses that offer's model before falling back to another product listing. Generic manual fragrance calculator requires supplied compliant postage, not default Evri. No budget/ROI/FAST/grade/source/LEGO image guard changes.

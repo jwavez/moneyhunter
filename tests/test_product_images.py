@@ -45,7 +45,7 @@ class ProductImages(unittest.TestCase):
         for part in ['10 new / 297 rescans','20 competitor-ask estimates','3 legacy/reference valuations','0 Strong CHECK','5 above-budget']:self.assertIn(part,text)
     def test_fragrance_transport_not_pretended_valid_or_returns_guaranteed(self):
         card=hub.watch_card({**RAW,'category':'fragrance','title':'Armani Profondo Parfum 200ml','price':89.99},{})
-        self.assertIn('Unknown until compliant',card['fields'][0]['value']);self.assertIn('prohibits perfume',card['footer']['text'])
+        self.assertIn('Not established',card['fields'][0]['value']);self.assertIn('200ml bottle exceeds',str(card['fields']));self.assertIn('prohibits perfume',card['footer']['text'])
         self.assertNotIn('14-day',intel.retailer('Amazon')['label'])
 
     def test_graded_cards_use_full_image(self):
