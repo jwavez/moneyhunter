@@ -74,3 +74,7 @@ Platforms: `ebay_private`, `ebay_business`, `vinted`, `depop`, `stockx`, `fb`. F
 - `moneyhunter/ledger.py`: SQLite ledger and audit log
 - `moneyhunter/benefits.py`: UC and HMRC rules
 - `.github/workflows/scan.yml`: best-effort cron, safe tier fallback, health summary and fast-forward public state history
+
+
+### Reviewed pricing and research access
+The scanner export now carries independent exact-product `pricing_catalog` values when genuine observations have been imported, and a `pricing_status` blocker when none exist. Worker Price Check uses this catalog without requiring a current RSS deal; its **Research Watchlist** shows affordable unmatched candidates and missing evidence. `/api/health` exposes public scan/coverage status. Current sourced, unapproved research is in [`data/research_watchlist.json`](data/research_watchlist.json), clearly separate from accepted sold evidence. See [operation, schema and limits](docs/EVIDENCE_PIPELINE.md). These changes do not create sold-data access or promise profitable stock.

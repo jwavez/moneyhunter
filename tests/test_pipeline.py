@@ -183,6 +183,11 @@ class Sources(unittest.TestCase):
         a = "One two three four five six seven eight variant white"
         b = "One two three four five six seven eight variant black"
         self.assertNotEqual(hotukdeals.dedupe_key(a, 20), hotukdeals.dedupe_key(b, 20))
+    def test_filtered_feed_items_are_explicitly_counted(self):
+        xml=b'<rss><channel><item><title>Unpriced item</title><link>https://www.hotukdeals.com/fixture-no-price</link></item></channel></rss>'
+        with patch.object(config,"FEEDS",{"tools":["fixture"]}),patch.object(hotukdeals,"_fetch",return_value=xml):
+            self.assertEqual(hotukdeals.scan(),[])
+        self.assertEqual(hotukdeals.LAST_DIAGNOSTICS["missing_price_or_category"],1)
     def test_source_failures_and_old_items_are_counted(self):
         xml = b'<rss><channel><item><title>Nike trainers</title><link>https://www.hotukdeals.com/fixture</link><description>Price \xc2\xa320 free delivery</description><pubDate>Mon, 01 Jan 2001 00:00:00 GMT</pubDate></item></channel></rss>'
         with patch.object(config, "FEEDS", {"trainers": ["good", "broken"]}), patch.object(hotukdeals, "_fetch", side_effect=[xml, OSError("fixture")]):
@@ -232,13 +237,13 @@ class Operational(unittest.TestCase):
         base = hotukdeals.dedupe_key(d.title, d.buy_price)
         seen = {"alert:B:" + base, "w:" + d.url, base}
         with patch.object(hub, "send", return_value=204) as send, patch.object(hub, "price_drops", return_value=([], {})), tempfile.TemporaryDirectory() as td, patch.object(hub, "PRICES", str(Path(td)/"prices.json")):
-            out = hub.route([], [(d,r)], {"A":1, "B":0, "errors":[]}, [], seen, dry=True)
+            out = hub.route([], [(d,r)], {"A":1, "B":0, "errors":[], "scanned":1, "priced":0, "unpriced":1, "affordable":0, "R":0}, [], seen, dry=True)
             self.assertIn("alert:A:"+base, out)
             self.assertTrue(any(c.args[0] == "buy-now" for c in send.call_args_list))
     def test_unknown_watch_check_is_retryable_not_marked_seen(self):
         r=raw()
         with patch.object(hub, "send", return_value=204), patch.object(hotukdeals, "live_status", return_value="unknown"), patch.object(hub, "price_drops", return_value=([], {})), tempfile.TemporaryDirectory() as td, patch.object(hub, "PRICES", str(Path(td)/"prices.json")):
-            out=hub.route([r],[],{"A":1,"B":0,"errors":[]},[],set(),dry=True)
+            out=hub.route([r],[],{"A":1,"B":0,"errors":[],"scanned":1,"priced":0,"unpriced":1,"affordable":0,"R":0},[],set(),dry=True)
             self.assertNotIn("w:"+r["url"],out)
     def test_price_increases_update_latest_baseline(self):
         with tempfile.TemporaryDirectory() as td, patch.object(hub, "PRICES", str(Path(td)/"prices.json")):
@@ -264,5 +269,61 @@ class Integration(EvidenceHelpers, unittest.TestCase):
     def test_unmatched_items_have_no_fake_net_profit(self):
         d=cli.build_deal(raw(),None)
         self.assertIsNone(grading.grade(d,200))
+
+class ReviewedPricing(EvidenceHelpers, unittest.TestCase):
+    def test_catalog_is_independent_of_any_acquisition_offer(self):
+        r=record(); r.pop("offers"); r.pop("floor"); r.pop("velocity")
+        for o in r["observations"]:
+            o["observed_at"]=TODAY.isoformat(); o["item_price"]=o["price"]-2.7; o["shipping"]=2.7
+        with tempfile.TemporaryDirectory() as td:
+            path=Path(td)/"evidence.json"; path.write_text(json.dumps({"schema_version":1,"records":[r]}))
+            catalog=evidence.public_catalog(path)
+            self.assertEqual(len(catalog),1)
+            self.assertEqual(catalog[0]["sample_count"],5)
+            self.assertFalse(catalog[0]["is_buy_signal"])
+            self.assertEqual(catalog[0]["sold_sources"][0]["shipping"],2.7)
+            self.assertEqual(catalog[0]["sold_sources"][0]["observed_at"],TODAY.isoformat())
+            self.assertNotIn("floor",catalog[0]); self.assertNotIn("offers",catalog[0])
+    def test_catalog_ages_out_by_sale_not_observation(self):
+        r=record()
+        for o in r["observations"]:
+            o["sold_at"]=(TODAY-dt.timedelta(days=31)).isoformat(); o.pop("listed_at"); o["observed_at"]=TODAY.isoformat()
+        with tempfile.TemporaryDirectory() as td:
+            p=Path(td)/"evidence.json"; p.write_text(json.dumps({"schema_version":1,"records":[r]}))
+            self.assertEqual(evidence.public_catalog(p),[])
+    def test_observation_dates_and_shipping_breakdown_validate(self):
+        for change in (lambda o:o.update(observed_at=(TODAY-dt.timedelta(days=1)).isoformat()),
+                       lambda o:o.update(item_price=60,shipping=2.7),
+                       lambda o:o.update(shipping=2.7),
+                       lambda o:o.update(item_price=62.3,shipping=-1)):
+            r=record(); change(r["observations"][0])
+            with self.subTest(change=change),self.assertRaises(ValueError): evidence.validate(r)
+    def test_review_cannot_precede_actual_sale(self):
+        r=record(); r["reviewed_at"]=(TODAY-dt.timedelta(days=1)).isoformat()
+        with self.assertRaises(ValueError): evidence.validate(r)
+    def test_missing_observation_dates_remain_unknown_not_inferred(self):
+        with tempfile.TemporaryDirectory() as td:
+            p=Path(td)/"evidence.json"; p.write_text(json.dumps({"schema_version":1,"records":[record()]}))
+            self.assertIsNone(evidence.public_catalog(p)[0]["sold_sources"][0]["observed_at"])
+    def test_search_query_preserves_exact_sku_and_platform(self):
+        self.assertIn("21345",embeds.short_query("LEGO Ideas Polaroid OneStep SX-70 Camera 21345"))
+        self.assertIn("SX-70",embeds.short_query("LEGO Ideas Polaroid OneStep SX-70 Camera 21345"))
+        self.assertIn("Switch",embeds.short_query("Mario Kart 8 Deluxe (Nintendo Switch) - with code"))
+    def test_reviewed_used_offer_cannot_override_new_or_refurbished_title(self):
+        from moneyhunter import matching
+        r=record(); r["identity"]["condition"]="used"
+        for o in r["observations"]: o["identity"]["condition"]="used"
+        r.pop("offers"); r.pop("floor")
+        c=self.comp(r)[0]
+        self.assertTrue(matching.quoted_offer_check(raw()["title"]+" new", "", c))
+        self.assertTrue(matching.quoted_offer_check(raw()["title"]+" refurbished", "", c))
+    def test_trending_uses_landed_delivery_and_labels_unknown_lower_bound(self):
+        a=raw(); a.update(heat=125,inbound_delivery=4,category="gaming")
+        b=raw(); b.update(heat=126,inbound_delivery=None,url=a["url"]+"-other",category="gaming")
+        with patch.object(hub,"send",return_value=204) as send,patch.object(hotukdeals,"live_status",return_value="unknown"),patch.object(hub,"price_drops",return_value=([],{})),patch.object(hub,"read_prices",return_value={}):
+            hub.route([a,b],[],{"A":1,"B":0,"errors":[],"scanned":1,"priced":0,"unpriced":1,"affordable":0,"R":0},[],set(),dry=True)
+            card=next(c.args[1][0] for c in send.call_args_list if c.args[0]=="trending")
+            self.assertIn("item-only; delivery unknown",card["description"])
+            self.assertIn(f"£{hub.sell_needed(24,'gaming')[0]:.2f}",card["description"])
 
 if __name__ == "__main__": unittest.main()

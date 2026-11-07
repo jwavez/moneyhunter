@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { calc, ebayBusinessFee, parseCsv, findComp, verifyDiscord } from "./src/logic.js";
+import { calc, ebayBusinessFee, parseCsv, findComp, findReviewed, verifyDiscord } from "./src/logic.js";
 import { readFileSync } from "node:fs";
 import { webcrypto } from "node:crypto";
 // fees match the Python tests
@@ -72,4 +72,30 @@ const cv = w._test; // handler exports are tested through signed calls above
 r = await call({ type: 5, data: { custom_id: "m:calc", components: fv({ buy: "20", sell: "60", platform: "ebay", category: "gaming", postage: "9" }) } });
 assert.match(r.data.embeds[0].title, /Money gates only/);
 assert.match(r.data.embeds[0].fields.find(x => x.name.includes("Max landed")).value, new RegExp(custom.maxBuy.toFixed(2)));
-console.log("worker tests OK (including fee VAT, finite inputs and postage/max-landed consistency)");
+// Synthetic catalog fixtures only; no market observations or live delivery.
+const day = new Date().toISOString().slice(0,10);
+const reviewedFixture = { id:"fixture", match:"lego 12345", category:"lego", identity:{condition:"new",variant:"standard",set_number:"12345"}, reviewed:true, reviewed_at:day, sold_as_of:day, low:40, high:45, sample_count:5, is_buy_signal:false, days_to_sell:null, price_basis:"GBP seller gross incl postage excluding buyer-only fees", sold_sources:[{url:"https://example.com/synthetic-sale",sold_at:day,observed_at:day,price:40}] };
+assert.equal(findReviewed("LEGO 12345 new",[reviewedFixture]).low,40);
+assert.match(findReviewed("LEGO 12345",[reviewedFixture]).reason,/condition/);
+for (const q of ["LEGO 12345 used", "LEGO 12345 new used", "LEGO 12345 new minifigure", "LEGO 12345 new box only", "LEGO 12345 new bundle", "LEGO 12345 new 54321"]) assert.ok(findReviewed(q,[reviewedFixture]).blocked,q);
+for (const sold_as_of of ["2001-01-01","2999-01-01","2026-02-31",null]) assert.ok(findReviewed("LEGO 12345 new",[{...reviewedFixture,sold_as_of}]).blocked);
+assert.ok(findReviewed("LEGO 12345 new",[{...reviewedFixture,reviewed:false}]).blocked);
+assert.equal(findReviewed("LEGO 54321 new",[reviewedFixture]),null);
+deals.pricing_catalog=[reviewedFixture];
+r=await call({type:2,data:{name:"price",options:[{name:"item",value:"LEGO 12345 new"}]}});
+assert.match(r.data.embeds[0].title,/Reviewed sold research/);
+assert.match(r.data.embeds[0].description,/No current offer, cash floor or BUY/);
+assert.match(r.data.embeds[0].fields[0].value,/40.00/);
+assert.equal(r.data.allowed_mentions.parse.length,0); sizeOk(r);
+deals.pricing_catalog=[{...reviewedFixture,sample_count:1}];
+r=await call({type:2,data:{name:"price",options:[{name:"item",value:"LEGO 12345 new"}]}});
+assert.match(r.data.embeds[0].description,/Fewer than five/);
+deals.pricing_catalog=[];
+deals.review_queue=[{title:"Synthetic research item",url:"https://example.com/fixture",item_price:20,landed_cost:null,breakeven_sell:30,sell_for_minimum_profit:40,cost_basis:"item-only lower bound; delivery unknown",blockers:["Missing exact sold observations"],priority:15,sold_search:"https://example.com/search"}];
+r=await call({type:3,data:{custom_id:"research:0"},message:{flags:0}});
+assert.match(r.data.embeds[0].title,/RESEARCH ONLY/);assert.equal(r.data.flags,64);sizeOk(r);
+assert.match(r.data.embeds[0].fields[1].value,/NOT market valuations/);
+const health=await (await w.fetch({method:"GET",url:"https://x/api/health"},env2,ctx)).json();
+assert.equal(health.contract_version,3);assert.equal(health.review_candidates,1);
+assert.equal(health.pricing_status.products,0);
+console.log("worker tests OK (fees, catalog, identity/freshness, research UI, no-send signed handlers)");

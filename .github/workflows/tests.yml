@@ -7,7 +7,7 @@ permissions: { contents: read }
 jobs:
   fixtures:
     runs-on: ubuntu-latest
-    env: { MONEYHUNTER_DISABLE_SEND: "1" }
+    env: { MONEYHUNTER_DISABLE_SEND: "1", MONEYHUNTER_FORCE_STATUS: "1" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

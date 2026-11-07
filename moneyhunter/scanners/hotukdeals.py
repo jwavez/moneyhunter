@@ -56,7 +56,7 @@ def delivery_cost(title, description=""):
 def scan(log=print) -> list:
     global LAST_DIAGNOSTICS
     _STATUS.clear()
-    LAST_DIAGNOSTICS = {"feeds_ok": 0, "feeds_failed": 0, "feed_items": 0, "duplicates": 0, "old_dropped": 0, "age_unknown": 0}
+    LAST_DIAGNOSTICS = {"feeds_ok": 0, "feeds_failed": 0, "feed_items": 0, "duplicates": 0, "old_dropped": 0, "age_unknown": 0, "missing_price_or_category": 0}
     out, seen, keys, by_link = [], set(), set(), {}
     for hint, paths in C.FEEDS.items():
         for p in paths:
@@ -90,7 +90,9 @@ def scan(log=print) -> list:
                 thumb = th.get("url", "").replace("/re/150x150/", "/re/300x300/") if th is not None else ""
                 cat = classify(title, hint)
                 if cat is None and heat is not None: cat = "other"   # keep trending items for #trending / #price-errors
-                if price is None or cat is None: continue
+                if price is None or cat is None:
+                    LAST_DIAGNOSTICS["missing_price_or_category"] += 1
+                    continue
                 k = dedupe_key(title, price)
                 if k in keys:
                     LAST_DIAGNOSTICS["duplicates"] += 1

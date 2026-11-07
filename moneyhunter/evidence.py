@@ -66,13 +66,23 @@ def validate(record, today=None):
     if not isinstance(obs, list) or not 1 <= len(obs) <= 1000: raise ValueError("1-1000 actual sold observations required")
     urls = set()
     for o in obs:
-        _keys(o, ("url", "sold_at", "listed_at", "price", "currency", "kind", "identity"))
+        _keys(o, ("url", "sold_at", "listed_at", "observed_at", "item_price", "shipping", "price", "currency", "kind", "identity"))
         url = public_url(o.get("url"))
         if url in urls: raise ValueError("duplicate sold observation URL")
         urls.add(url)
         sold = date(o.get("sold_at"), today)
+        if sold > date(record["reviewed_at"], today): raise ValueError("review cannot precede an actual sale")
         if o.get("listed_at") and date(o["listed_at"], today) > sold: raise ValueError("listing starts after sale")
         number(o.get("price"), "sold price")
+        if o.get("observed_at") is not None:
+            observed = date(o["observed_at"], today)
+            if observed < sold or observed > date(record["reviewed_at"], today):
+                raise ValueError("sale <= observation <= review dates required")
+        if "item_price" in o or "shipping" in o:
+            item = number(o.get("item_price"), "sold item price")
+            shipping = number(o.get("shipping"), "buyer-paid shipping", True)
+            if abs(item + shipping - o["price"]) > 0.005:
+                raise ValueError("sold gross must equal item price plus buyer-paid shipping, excluding buyer-only fees")
         if o.get("currency") != "GBP" or o.get("kind") != "sold" or o.get("identity") != identity:
             raise ValueError("only actual GBP sold observations of this exact identity accepted")
     vel = record.get("velocity")
@@ -154,3 +164,27 @@ def load(path, today=None):
             date(floor["observed_at"], today) if floor else None, velocity_at,
             [o["url"] for o in observations], r.get("offers", [])))
     return out
+
+
+def public_catalog(path, today=None):
+    """Independent exact-product valuations, including products absent from this RSS scan.
+
+    No offer, alert grade, estimated floor, contact details or inferred velocity is exported.
+    Observation dates are explicit when recorded; legacy missing dates stay unknown.
+    """
+    today = today or dt.date.today()
+    records = {r["id"]: r for r in read_records(path)}
+    catalog = []
+    for comp in load(path, today):
+        record_id = comp.source.removeprefix("reviewed evidence ")
+        r = records[record_id]
+        sales = [o for o in r["observations"] if 0 <= (today-date(o["sold_at"], today)).days <= C.MAX_COMP_AGE_DAYS]
+        catalog.append({"id": record_id, "match": comp.match, "category": comp.category,
+            "identity": comp.identity, "reviewed": True, "reviewed_at": r["reviewed_at"],
+            "low": comp.low, "high": comp.high, "sample_count": len(sales),
+            "sold_as_of": comp.as_of.isoformat(), "days_to_sell": comp.days_to_sell,
+            "price_basis": "GBP seller gross including buyer-paid postage, excluding buyer-only fees",
+            "status": "reviewed_sold" if len(sales) >= C.MIN_COMPS else "small_sample_not_reliable",
+            "is_buy_signal": False,
+            "sold_sources": [{k: o.get(k) for k in ("url", "sold_at", "observed_at", "price", "item_price", "shipping")} for o in sales[:10]]})
+    return catalog

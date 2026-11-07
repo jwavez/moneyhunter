@@ -1,5 +1,5 @@
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
-import { calc, parseCsv, findComp, gbp, verifyDiscord } from "./logic.js";
+import { calc, parseCsv, findComp, findReviewed, gbp, verifyDiscord } from "./logic.js";
 import * as CM from "./community.js";
 
 const C = { A: 0x22c55e, B: 0xf59e0b, R: 0xef4444, BRAND: 0x8b5cf6, INFO: 0x3b82f6 };
@@ -42,13 +42,14 @@ function panel(d) {
   return {
     embeds: [{
       author: { name: "MONEYHUNTER" }, title: "💰 Control Panel", color: C.BRAND,
-      description: "Find under-£60 deals that resell for profit, with every fee counted.\nClick a button below. Results are private to you.",
-      fields: [{ name: "📡 Live status", value: status }],
+      description: "Research under-£60 offers using conservative costs and reviewed sold evidence.\nClick a button below. Results are private to you.",
+      fields: [{ name: "📡 Live status", value: status },
+        { name: "Sold pricing coverage", value: d?.pricing_status ? `${d.pricing_status.products} exact products · ${d.pricing_status.sold_observations} fresh sold observations. ${d.pricing_status.blocker ?? "Reviewed samples, not sale guarantees."}` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
       footer: { text: "30-minute cron target, best effort; inspect last scan · Not financial advice" },
     }],
     components: [
       row(btn("v:top:0", "Top Deals", "🟢", 3), btn("v:near:0", "Near Misses", "🟡", 1), btn("p:cats", "Categories", "🗂️")),
-      row(btn("p:calc", "Profit Calculator", "🧮", 1), btn("p:price", "Price Check", "💷", 1)),
+      row(btn("p:calc", "Profit Calculator", "🧮", 1), btn("p:price", "Price Check", "💷", 1), btn("research:0", "Research Watchlist", "🔎", 1)),
       row(btn("p:how", "How it works", "📘"), btn("p:scan", "Scan Now", "⚡")),
     ],
   };
@@ -78,7 +79,7 @@ function dealView(d, list, f, i) {
       { name: "Net", value: sgbp(x.net), inline: true }, { name: "Worst case", value: sgbp(x.worst) + (x.worst_verified ? "" : " (est.)"), inline: true },
       { name: "Days to sell", value: x.days_to_sell != null ? `~${x.days_to_sell} days` : "No data yet", inline: true },
       { name: "Confidence", value: `${bar(x.confidence)} ${x.confidence}`, inline: false },
-      { name: x.grade === "A" ? "Why" : "Why not BUY", value: x.why.length ? x.why.join(" · ") : "All 9 checks pass", inline: false },
+      { name: x.grade === "A" ? "Why" : "Why not BUY", value: x.why.length ? x.why.join(" · ") : "All evidence, offer and money checks pass", inline: false },
       ...(x.intel?.retailer ? [{ name: "Retailer", value: x.intel.retailer.slice(0, 200), inline: false }] : []),
       ...(x.intel?.fake ? [{ name: "Fake risk", value: x.intel.fake.slice(0, 200), inline: false }] : []),
       ...(x.intel?.history ? [{ name: "Price history", value: x.intel.history.slice(0, 200), inline: true }] : []),
@@ -95,7 +96,7 @@ function dealView(d, list, f, i) {
 function planView(x) {
   const p = x.plan || {};
   return { embeds: [{ title: `📋 Trade plan · ${x.title.slice(0, 80)}`, color: C[x.grade], fields: [
-    { name: "1 · Buy", value: `At or under **${gbp(x.max_buy)}** (deal ${gbp(x.buy)})`, inline: false },
+    { name: "1 · Financial ceiling (not approval)", value: `At or under **${gbp(x.max_buy)}** (deal ${gbp(x.buy)})`, inline: false },
     { name: "2 · List", value: `${gbp(p.list ?? x.target)}, then ${gbp(p.target ?? x.target)} by day 3`, inline: false },
     { name: "3 · Reprice", value: `Day 7: −5% and cross-list · Day 10: ${gbp(p.quick ?? x.target * 0.9)}`, inline: false },
     { name: "4 · Exit", value: x.worst_verified ? `Sell by day ${p.time_stop_day ?? 17} at ${gbp(p.floor ?? 0)} (verified floor)` : `If unsold by day ${p.time_stop_day ?? 17}${p.time_stop_rule ? " (house rule)" : ""}, take the best offer. Est. ${gbp(p.floor ?? 0)}, not verified, so worst case ${sgbp(x.worst)}.`, inline: false },
@@ -103,6 +104,18 @@ function planView(x) {
     { name: "Where to sell", value: p.platforms || "eBay, Vinted", inline: false },
     { name: "Comps", value: (x.comp || "none").slice(0, 1000), inline: false },
   ], footer: { text: `Costs: eBay business standard fees incl 20% VAT, ${gbp(x.postage ?? 3.52)} home-delivery postage, £0.50 packaging, 3% returns` } }] };
+}
+
+// Prioritised public research tasks, not purchasable recommendations or sold valuations.
+function researchView(d, index = 0) {
+  const list = d.review_queue ?? [];
+  if (!list.length) return { embeds: [{title:"Research watchlist",color:C.INFO,description:"No prioritised candidates in this export yet. A migrated scheduled scan must publish the queue. No BUY is implied."}],components:[row(btn("p:home","Menu","🏠"))] };
+  const i = ((index % list.length) + list.length) % list.length, x = list[i];
+  const fields = [
+    {name:"Item / landed cost",value:`${gbp(x.item_price)} / ${x.landed_cost == null ? "unknown (delivery missing)" : gbp(x.landed_cost)}`,inline:true},
+    {name:"Hypothetical breakeven / required resale",value:`${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
+    {name:"Evidence and availability blockers",value:(x.blockers ?? ["Exact evidence needed"]).join(" · ").slice(0,1000),inline:false}];
+  return {embeds:[{title:`RESEARCH ONLY · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"An affordable online candidate to investigate, not a BUY or VERIFY signal. Confirm retailer stock, exact variant, delivery and actual sold records.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),link(x.sold_search,"Research sold","📊"))]};
 }
 
 // ---------- calculator ----------
@@ -133,11 +146,32 @@ function calcView(buy, sell, platform, cat, postage) {
 // ---------- price check ----------
 const priceModal = () => ({ custom_id: "m:price", title: "💷 Price Check", components: [ti("item", "Item name", "", true, "e.g. mario kart 8"), ti("buy", "Your buy price (£)", "", false, "optional")] });
 async function priceView(q, buy, env) {
-  const c = findComp(q, await getComps(env));
   const sold = `https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(q)}&LH_Sold=1&LH_Complete=1`;
   const vinted = `https://www.vinted.co.uk/catalog?search_text=${encodeURIComponent(q)}`;
   const links = row(link(sold, "eBay Sold", "📊"), link(vinted, "Vinted", "👕"));
   const again = row(btn("p:price", "Check another", "💷", 1), btn("p:home", "Menu", "🏠"));
+  let pricing;
+  try { pricing = await getDeals(env); }
+  catch { return { content: "Reviewed pricing feed unavailable. No fresh resale valuation can be verified right now.", components: [links, again] }; }
+  const reviewed = findReviewed(q, pricing.pricing_catalog);
+  if (reviewed?.blocked) return { embeds: [{ title: "Exact variant needed before pricing", color: C.B,
+    description: `${reviewed.reason}.\nIdentity: ${Object.entries(reviewed.identity ?? {}).map(([k,v]) => `${k}: ${v}`).join(" · ").slice(0,850)}. Not a BUY.` }], components: [links, again] };
+  if (reviewed) {
+    const fields = [
+      { name: "Observed sold gross · lower quartile / median", value: `${gbp(reviewed.low)} / ${gbp(reviewed.high)}`, inline: true },
+      { name: "Actual sample / oldest supporting sale", value: `${reviewed.sample_count} sales · ${reviewed.sold_as_of}`, inline: true },
+      { name: "Exact identity", value: Object.entries(reviewed.identity).map(([k,v]) => `${k}: ${v}`).join(" · ").slice(0,900), inline: false },
+      { name: "Days to sell", value: reviewed.days_to_sell == null ? "Not measured" : `Observed median ${reviewed.days_to_sell} days; not a forecast`, inline: true }];
+    if (buy != null && Number.isFinite(buy) && buy >= 0) {
+      const k = calc(buy, reviewed.low, "ebay_business", reviewed.category);
+      fields.push({ name: "Hypothetical net at lower-quartile gross", value: `${sgbp(k.net)} at landed cost ${gbp(buy)}. Money-only ceiling ${gbp(k.maxBuy)}; not approval.`, inline: false });
+    }
+    const source = reviewed.sold_sources?.find(x => /^https:\/\//.test(x.url ?? ""));
+    return { embeds: [{ title: `Reviewed sold research · ${reviewed.match}`.slice(0,250), color: C.INFO,
+      description: `${reviewed.price_basis}. ${reviewed.sample_count < 5 ? "⚠️ Fewer than five observations: too little evidence for a reliable resale estimate. " : "Sample evidence, not a guaranteed future sale price. "}No current offer, cash floor or BUY is implied.`, fields,
+      footer: { text: "Sold date is separate from observed/reviewed date; active asks never refresh it" } }], components: [source ? row(link(source.url, "Actual sold source", "🔗"), link(sold, "Research sold", "📊")) : links, again] };
+  }
+  const c = findComp(q, await getComps(env));
   if (c && c.blocked) return { embeds: [{ title: "⚠️ Not priced: uncertain match", color: C.B, description: `Closest comp is **${c.blocked.slice(0, 80)}**, but your item looks like a different version (kids, bundle, used, edition or kit). Check eBay sold for the exact item.` }], components: [links, again] };
   if (!c) return { embeds: [{ title: `No sold-price data for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try a shorter name (e.g. *mario kart 8*), or check sold listings below." }], components: [links, again] };
   const lo = parseFloat(c.low), hi = parseFloat(c.high);
@@ -198,6 +232,7 @@ async function handleComponent(i, env) {
   const fromPanel = !(i.message?.flags & EPH);       // clicks on the shared panel open a private view
   const show = data => (fromPanel ? msg(data) : upd(data));
   const [k, f, n] = id.split(":");
+  if (k === "research") return show(researchView(await getDeals(env), Number(f) || 0));
   if (id === "p:home") { let d = null; try { d = await getDeals(env); } catch {} return fromPanel ? msg(panel(d)) : upd(panel(d)); }
   if (id === "p:calc") return modal(calcModal());
   if (id === "p:price") return modal(priceModal());
@@ -242,6 +277,14 @@ async function handleModal(i, env, ctx) {
 export default {
   async fetch(req, env, ctx) {
     const url = new URL(req.url || "https://x/");
+    if (req.method === "GET" && url.pathname === "/api/health") {
+      try {
+        const d = await getDeals(env);
+        return json({service:"moneyhunter-bot",contract_version:3,generated_utc:d.generated_utc,
+          pricing_status:d.pricing_status ?? {blocker:"Awaiting first migrated scan; legacy guide is not sold evidence",products:0,sold_observations:0,automatic_sold_feed:false},
+          sources:d.stats?.sources ?? null,review_candidates:d.review_queue?.length ?? 0});
+      } catch { return json({service:"moneyhunter-bot",contract_version:3,error:"Public scan feed unavailable"},503); }
+    }
     if (req.method === "GET" && url.pathname === "/api/leaderboard") return json({ top: await CM.leaderboard(env, 25) });
     if (req.method !== "POST") return new Response("MONEYHUNTER bot is running", { status: 200 });
     const body = await req.text();

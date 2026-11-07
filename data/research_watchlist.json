@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-07T09:58:53+00:00",
+  "status": "research_only_not_accepted_evidence",
+  "is_buy_signal": false,
+  "accepted_sold_observations": 0,
+  "items": [
+    {
+      "id": "lego-75402",
+      "title": "LEGO Star Wars ARC-170 Starfighter 75402",
+      "condition": "new",
+      "category": "lego",
+      "item_price": 45.0,
+      "delivery": null,
+      "landed_cost": null,
+      "availability": "not_verified_for_delivery_address",
+      "offer_source": "https://www.argos.co.uk/browse/toys/lego/c:30379/age-range:child-(9%252D12-years)/character:lego-star-wars/",
+      "official_alternative": {
+        "url": "https://www.lego.com/en-gb/product/arc-170-starfighter-75402",
+        "item_price": 59.99,
+        "delivery": 0.0,
+        "availability": "Available now; free standard delivery over £50 threshold met"
+      },
+      "sold_research_leads": [
+        {
+          "url": "https://www.ebay.co.uk/itm/227465317586",
+          "status": "search_index_only_not_imported",
+          "reported_sold_date": "2026-10-12",
+          "reported_condition": "new",
+          "reported_item_price": 42.0,
+          "reported_shipping": 2.85,
+          "blocker": "Direct fetch timed out; public page returned eBay error. Needs permitted browser verification. One sale would not establish reliable pricing or speed."
+        }
+      ],
+      "blockers": [
+        "No directly verified sold observations imported",
+        "Argos delivery/stock unknown",
+        "No exact cash floor or measured velocity"
+      ],
+      "recommendation": "RESEARCH ONLY; not BUY/VERIFY"
+    },
+    {
+      "id": "mario-kart-8-deluxe-switch",
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Standard physical",
+      "condition": "new",
+      "category": "gaming",
+      "item_price": 34.99,
+      "delivery": null,
+      "landed_cost": null,
+      "availability": "In stock on fetched Amazon page",
+      "offer_source": "https://www.amazon.co.uk/dp/B01N1081RO/",
+      "delivery_note": "Free first-order delivery shown is conditional; normal delivered total remains unknown. Sold/dispatched by Amazon.",
+      "sold_research_leads": [
+        {
+          "url": "https://www.ebay.co.uk/itm/206400036574",
+          "status": "search_index_only_not_imported",
+          "reported_sold_date": "2026-10-12",
+          "reported_condition": "Good/used",
+          "reported_displayed_price": 25.13,
+          "reported_buyer_only_fee": 1.64,
+          "reported_shipping": 2.7,
+          "blocker": "Direct fetch timed out. Used Good is NOT comparable to new; buyer protection fee is not seller proceeds. No accepted observation."
+        }
+      ],
+      "blockers": [
+        "No directly verified same-condition new sold observations",
+        "Delivery conditional/unknown",
+        "No exact cash floor or measured velocity"
+      ],
+      "recommendation": "RESEARCH ONLY; not BUY/VERIFY"
+    },
+    {
+      "id": "lego-40813",
+      "title": "LEGO Lucky Cat 40813",
+      "condition": "new_not_independently_checked_at_acquisition_retailer",
+      "category": "lego",
+      "item_price": 21.5,
+      "delivery": null,
+      "landed_cost": null,
+      "availability": "HUKD feed candidate; retailer stock not checked",
+      "offer_source": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
+      "official_alternative": {
+        "url": "https://www.lego.com/en-gb/product/lucky-cat-40813",
+        "item_price": 24.99,
+        "delivery": 3.95,
+        "availability": "Available now; single-item order below £50 free-delivery threshold"
+      },
+      "retail_context_only": "A current retail alternative is not sold evidence or a cash exit. £21.50 item-only breakeven is about £32.66 under current conservative costs, already above the official single-item delivered alternative £28.94. Not an attractive researched lead at this cost; this is not an asserted sold valuation.",
+      "sold_research_leads": [],
+      "blockers": [
+        "No reviewed sold observations",
+        "Acquisition delivery/retailer stock unverified",
+        "No cash floor/velocity"
+      ],
+      "recommendation": "RESEARCH ONLY; deprioritise at this cost"
+    }
+  ]
+}

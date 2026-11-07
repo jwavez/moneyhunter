@@ -73,8 +73,11 @@ def vinted_url(q: str) -> str:
 
 def short_query(title: str) -> str:
     import re
-    t = re.split(r"[-–(|,]| w/| with | sold by", title, maxsplit=1, flags=re.I)[0]
-    return " ".join(t.split()[:6])
+    # Preserve exact SKUs, hyphenated models, sizes and platform/edition information.
+    # Only cut an explicitly separated promotional suffix, never an internal hyphen.
+    t = re.split(r"\s[-–|]\s|\s+w/|\s+with code|\s+sold by", title, maxsplit=1, flags=re.I)[0]
+    t = re.sub(r"[£]\s?\d+(?:\.\d{1,2})?", "", t)
+    return " ".join(t.split())[:160]
 
 def gates_failed(r) -> list:
     return [GATE_NAMES.get(i, name) for i, (name, ok) in enumerate(r.gates) if not ok]
@@ -138,6 +141,15 @@ def _intel_fields(d) -> list:
     if i.get("cashback"): out.append({"name": "Cashback", "value": i["cashback"][:200], "inline": True})
     return out
 
+def sources_text(sources):
+    lines = []
+    for name, v in sources.items():
+        if "feeds_ok" in v:
+            lines.append(f"{name}: feeds {v.get('feeds_ok', 0)} OK/{v.get('feeds_failed', 0)} failed, raw {v.get('feed_items', 0)}, duplicates {v.get('duplicates', 0)}, old {v.get('old_dropped', 0)}, missing price/category {v.get('missing_price_or_category', 0)}")
+        else:
+            lines.append(f"{name}: {v.get('status', 'not configured')}")
+    return " · ".join(lines)[:1000] or "Not reported"
+
 def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
     lines = []
     for d, r in near[:6]:
@@ -155,7 +167,7 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
             {"name": "Valued (not all sold evidence)", "value": str(stats["priced"]), "inline": True},
             {"name": f"Under {gbp(community_cap())} cap (community index {active_tier()}, {C.tier_for(TIER_BANKROLL[active_tier()]).name})", "value": str(stats["affordable"]), "inline": True},
             {"name": "Online physical / delivery known / landed under cap", "value": f"{stats.get('online_eligible', '?')} / {stats.get('delivery_known', '?')} / {stats.get('under_cap_known_delivery', '?')}", "inline": False},
-            {"name": "Source health", "value": " · ".join(f"{name}: feeds {v.get('feeds_ok', 0)} OK/{v.get('feeds_failed', 0)} failed, raw {v.get('feed_items', 0)}, duplicates {v.get('duplicates', 0)}, old dropped {v.get('old_dropped', 0)}" for name, v in stats.get('sources', {}).items())[:1000] or "Not reported", "inline": False},
+            {"name": "Source health", "value": sources_text(stats.get("sources", {})), "inline": False},
             {"name": "🟢 A", "value": str(stats["A"]), "inline": True},
             {"name": "🟡 B", "value": str(stats["B"]), "inline": True},
             {"name": "🔴 Rejected", "value": str(stats["R"]), "inline": True},

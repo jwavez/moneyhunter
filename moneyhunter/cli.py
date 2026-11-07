@@ -188,7 +188,9 @@ def run_scan():
              "online_eligible": sum(r.get("online_eligible", False) and hub.resellable(r) for r in raws),
              "under_cap_known_delivery": sum(r.get("inbound_delivery") is not None and r["price"] + r["inbound_delivery"] <= cap for r in raws),
              "delivery_known": sum(r.get("inbound_delivery") is not None for r in raws),
-             "errors": errors[:20], "sources": {"hotukdeals": diagnostics}, **counts}
+             "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
+                 "ebay": {"status": ebay_health, "purpose": "active asking competition only"},
+                 "cash_floors": {"automatic_source": False, "status": "reviewed exact cash quotes only"}}, **counts}
     if raws and not diagnostics.get("feeds_failed"): operational["last_success"] = RT.stamp(RT.now())
     operational["ask_cache"] = {k:v for k,v in operational["ask_cache"].items() if v.get("date", "") >= (dt.date.today()-dt.timedelta(days=7)).isoformat()}
     LAST_OPERATIONAL = operational
@@ -222,7 +224,15 @@ def _public_deal(d, r):
 
 def export_public(path, stats, graded):
     import datetime as dt
-    out = {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
+    from .evidence import public_catalog
+    catalog = public_catalog(os.path.join(os.path.dirname(CP.PATH), "evidence.json"))
+    stats["pricing_products"] = len(catalog)
+    stats["pricing_observations"] = sum(c["sample_count"] for c in catalog)
+    out = {"pricing_catalog": catalog, "pricing_status": {
+               "automatic_sold_feed": False, "products": len(catalog),
+               "sold_observations": stats["pricing_observations"],
+               "blocker": None if catalog else "No fresh directly verified exact-product sold observations imported; active asks are not sold data"},
+           "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
            "schema_version": 2, "review_queue": LAST_REVIEW, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     from .evidence import atomic_write

@@ -179,7 +179,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     if hot:
         priced = {d.url for d, _ in graded}
         lines = [f"**{it['heat']}°** · {CAT_LABEL[it['category']]} · [{it['title'][:65]}]({it['url']}) · £{it['price']:.2f}"
-                 + (" · priced, see the category feed" if it["url"] in priced else f" · sell £{sell_needed(it['price'], it['category'])[0]:.2f}+ to break even")
+                 + (" · priced, see the category feed" if it["url"] in priced else f" · break even £{sell_needed(it['price'] + (it.get('inbound_delivery') or 0), it['category'])[0]:.2f}+" + (" (item-only; delivery unknown)" if it.get('inbound_delivery') is None else " (incl inbound delivery)"))
                  for it in hot]
         st = send("trending", [{"title": f"🌡️ Trending on hotukdeals · {len(hot)} new", "color": 0xEF4444,
                                 "description": "\n".join(lines)[:4000], "footer": {"text": "Resellable items in our categories only · heat = community votes · breakeven after eBay fees, postage, packaging, returns"}}], None, dry)
