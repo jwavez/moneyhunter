@@ -12,7 +12,7 @@ def safe(value):
         if u.scheme!='https' or u.hostname not in HOSTS or u.username or u.password or u.port not in (None,443):return ''
         if re.search(r'logo|avatar|placeholder|banner|\.svg(?:$|\?)',u.path,re.I):return ''
         if not u.path or u.path=='/':return ''
-        path=u.path.replace('/re/150x150/','/re/600x600/') if u.hostname=='images.hotukdeals.com' else u.path
+        path=u.path.replace('/re/150x150/','/re/300x300/') if u.hostname=='images.hotukdeals.com' else u.path
         return urlunsplit((u.scheme,u.netloc,path,u.query,''))
     except (ValueError,TypeError):return ''
 
