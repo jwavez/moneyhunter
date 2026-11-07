@@ -14,9 +14,10 @@ from types import SimpleNamespace
 from urllib.parse import urlsplit, urlunsplit
 from . import matching as M
 from .scanners import ebay
+from . import variants, research_budget
 
 TTL_HOURS = 6
-CALL_BUDGET = 6
+CALL_BUDGET = 12
 # Set numbers also occur on instruction sheets, stickers and individual components.
 # Name anchors reduce that ambiguity; they are research filters, never sold evidence.
 LEGO_NOISE = set("lego new sealed brand boxed box genuine original official complete set sets building build toy toys free delivery click collect c code voucher discount checkout at and the of with inc incl includes including star wars technic ideas speed champions smart play super car pokemon".split())
@@ -30,7 +31,7 @@ def lego_terms(title):
 
 def cache_key(ident):
     # A contradictory name attached to the same numeric SKU cannot inherit context.
-    fingerprint = hashlib.sha256(json.dumps(getattr(ident, "name_terms", [])).encode()).hexdigest()[:12]
+    fingerprint = hashlib.sha256(json.dumps(getattr(ident, "variant", getattr(ident, "name_terms", [])),sort_keys=True).encode()).hexdigest()[:12]
     return "browse-asks-v5:" + ident.category + ":" + ident.match.lower() + ":" + fingerprint
 
 
@@ -42,13 +43,21 @@ def identity(raw):
         return None
     if cat == 'gaming' and M.has(t,'key','keycode','activation','steam','account','digital code','cd key','download code'):
         return None  # actual first live acquisition probe surfaced an Xbox digital key
+    extra = variants.identity(raw)
+    if extra: return extra
+    # A structured model rejected for ambiguous colour/condition must not fall back
+    # to the older less-specific model matcher (e.g. Pink OR Black XM5).
+    if cat=='tech' and re.search(r'\b(?:wh[ -]?(?:ch[ -]?520|1000xm[45])|wf[ -]?c[ -]?(?:510|710n))\b',title,re.I):return None
     name_terms = []
     if cat == "lego":
         name_terms = lego_terms(title)
         if not name_terms: return None
         ids = set(re.findall(r"(?<!\d)\d{5,6}(?!\d)", title))
         if len(ids) != 1 or not M.has(t, "lego"): return None
-        query = "LEGO " + next(iter(ids))
+        set_number=next(iter(ids))
+        # Reviewed same-set anchor: promotional title wording must not fragment Munchlax.
+        if set_number=='72150' and M.has(t,'munchlax'):name_terms=['munchlax']
+        query = "LEGO " + set_number
     elif cat == "gaming":
         # Preserve platform/edition. Too much promotional noise means no lookup,
         # rather than over-aggressively deleting words from the actual game name.
@@ -73,6 +82,7 @@ def identity(raw):
 
 
 def matches(title, ident):
+    if hasattr(ident,"variant"): return variants.matches(title,ident)
     t = M.norm(title)
     if ident.category == 'tech':
         wanted = re.sub(r'[^a-z0-9]', '',ident.match.lower())
@@ -152,7 +162,7 @@ def summary(payload, ident, when):
     q = lambda p: round(ebay._pct(xs, p), 2) if xs else None
     spread = bool(xs and xs[-1] > xs[0] * 1.5)
     return {"kind": "active_ask", "query": ident.match, "category": ident.category, "name_terms": getattr(ident, "name_terms", []),
-        "observed_at": when.isoformat(timespec="seconds"), "date": when.date().isoformat(), "sample_count": len(xs),
+        "identity":ident.identity,"observed_at": when.isoformat(timespec="seconds"), "date": when.date().isoformat(), "sample_count": len(xs),
         "listed_total_low": xs[0] if xs else None, "listed_total_p25": q(.25),
         "listed_total_median": q(.5), "listed_total_p75": q(.75), "listed_total_high": xs[-1] if xs else None,
         "status": "no_exact_shipped_samples" if not xs else "small_sample" if len(xs) < 3 else "wide_spread" if spread else "indicative_only",
@@ -180,12 +190,12 @@ def revalidate(snapshot, ident, when):
         "status":"no_exact_shipped_samples" if not xs else "small_sample" if len(xs)<3 else "wide_spread" if spread else "indicative_only"}
 
 
-def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
+def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET, lane="asking"):
     """Rotate absent/oldest research keys, reuse six-hour snapshots, never alter grades."""
     when = when or dt.datetime.now(dt.timezone.utc)
     cache = state["ask_cache"]
     health = {"purpose": "indicative current asks only; not sold valuation", "queries": 0, "cached": 0,
-              "candidates_with_samples": 0, "status": "ready" if ebay.available() else "unavailable_no_keys", "errors": []}
+              "query_budget":budget,"queries_by_category":{},"candidates_with_samples": 0, "status": "ready" if ebay.available() else "unavailable_no_keys", "errors": []}
     by_url = {r["url"]: r for r in raws}
     pending = {}
     for c in candidates:
@@ -198,7 +208,10 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
     def age(entry):
         try: return (when-dt.datetime.fromisoformat(entry["observed_at"])).total_seconds()/3600
         except (KeyError, TypeError, ValueError): return float("inf")
-    for k, (ident, rows) in sorted(pending.items(), key=lambda kv: (-age(cache.get(kv[0], {})), -max(r.get("priority", 0) for r in kv[1][1]), kv[0])):
+    rotation=state.setdefault('research_rotation',{})
+    ordered=research_budget.fair_order(pending.items(),lambda kv:kv[1][0].category,
+        lambda kv:(-age(cache.get(kv[0],{})),-max(r.get('priority',0) for r in kv[1][1]),kv[0]),rotation.get(lane,0))
+    for k, (ident, rows) in ordered:
         snapshot = cache.get(k, {})
         checked = revalidate(snapshot, ident, when)
         if checked is not snapshot: cache[k] = checked; snapshot = checked
@@ -218,7 +231,11 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
             # Failure cache prevents repeated query storms; permanent permission failures
             # stop ALL subsequent calls until an operator explicitly clears the marker.
             if snapshot.get("kind") == "ask_error" and 0 <= hours < .25: continue
-            health["queries"] += 1
+            if not research_budget.reserve(state,when,lane):
+                health['status']='daily_budget_exhausted';continue
+            health['queries'] += 1
+            health['queries_by_category'][ident.category]=health['queries_by_category'].get(ident.category,0)+1
+            rotation[lane]=rotation.get(lane,0)+1
             try:
                 snapshot = summary(ebay.active_items(ident.match), ident, when)
                 cache[k] = snapshot
@@ -233,7 +250,7 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
                     health["status"] = "paused_operator_review_required"
         if fresh:
             for c in rows:
-                c["ask_context"] = snapshot
+                c["ask_context"] = {**snapshot,"query_aliases":sorted({by_url[r["url"]]["title"] for r in rows})}
                 c["ask_status"] = snapshot["status"]
                 if snapshot["sample_count"]: health["candidates_with_samples"] += 1
     if health["errors"] and health["status"] == "ready": health["status"] = "partial_failure"

@@ -150,6 +150,10 @@ def sources_text(sources):
         else:
             detail = v.get("research")
             suffix = f"; indicative asks {detail['candidates_with_samples']} candidates, {detail['queries']} queries, {detail['cached']} cached ({detail['status']})" if detail else ""
+            if detail:
+                watch=detail.get('above_budget_research',{})
+                suffix+=f"; watch {watch.get('queries',0)} queries/{watch.get('cached',0)} cached"
+            if name=='ebay_acquisition':suffix+=f"; {v.get('queries',0)}/{v.get('query_budget',0)} discovery queries, {v.get('candidates',0)} retained offers"
             lines.append(f"{name}: {v.get('status', 'not configured')}{suffix}")
     return " · ".join(lines)[:1000] or "Not reported"
 
@@ -167,16 +171,16 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
         "fields": [
             {"name": "New / rescanned", "value": f"{stats.get('new', '?')} / {stats.get('rescanned', '?')}", "inline": True},
             {"name": "Sold-valued / reference-only", "value": f"{stats.get('sold_valued', 0)} / {stats.get('reference_only', 0)}", "inline": True},
-            {"name": "Valued (not all sold evidence)", "value": str(stats["priced"]), "inline": True},
-            {"name": f"Under {gbp(community_cap())} cap (community index {active_tier()}, {C.tier_for(TIER_BANKROLL[active_tier()]).name})", "value": str(stats["affordable"]), "inline": True},
-            {"name": "Online physical / delivery known / landed under cap", "value": f"{stats.get('online_eligible', '?')} / {stats.get('delivery_known', '?')} / {stats.get('under_cap_known_delivery', '?')}", "inline": False},
+            {"name": "Legacy/reference-priced offers (separate ask lane)", "value": str(stats["priced"]), "inline": True},
+            {"name": f"Legacy/reference-priced under {gbp(community_cap())} cap (index {active_tier()}, {C.tier_for(TIER_BANKROLL[active_tier()]).name})", "value": str(stats["affordable"]), "inline": True},
+            {"name": "All offers: online physical / known inbound / landed under cap", "value": f"{stats.get('online_eligible', '?')} / {stats.get('delivery_known', '?')} / {stats.get('under_cap_known_delivery', '?')}", "inline": False},
             {"name": "Source health", "value": sources_text(stats.get("sources", {})), "inline": False},
             {"name": "🟢 A", "value": str(stats["A"]), "inline": True},
             {"name": "🟡 B", "value": str(stats["B"]), "inline": True},
             {"name": "🔴 Rejected", "value": str(stats["R"]), "inline": True},
             {"name": "Closest near-misses", "value": "\n".join(lines) if lines else "None under the price cap this scan", "inline": False},
             {"name": "Safety filters", "value": f"{stats.get('uncertain', 0)} uncertain matches · {stats.get('stale', 0)} stale references · expiry checked {stats.get('expiry_checked', 0)}, expired {stats.get('expired', 0)}, unknown/not checked {stats.get('expiry_unknown', 0)}", "inline": False},
-            {"name": "Help price more deals", "value": f"{stats['unpriced']} unmatched. {stats.get('review_candidates', 0)} prioritised online research candidates (above-budget separately WATCH ONLY) in review_queue. Submit exact sold links for human review; submissions do not automatically become BUY evidence.", "inline": False},
+            {"name": "Help price more deals", "value": f"{stats['unpriced']} without legacy/reference pricing; {stats.get('without_any_pricing',stats['unpriced'])} without either pricing lane. {stats.get('review_candidates',0)} research candidates in review_queue. Submit exact competitor asking links for estimate research or actual sold links for evidence review; neither automatically becomes BUY. Above-budget remains WATCH ONLY.", "inline": False},
         ],
         "footer": {"text": f"Last prior successful scan: {stats.get('previous_success') or 'no history yet'} · gap {stats.get('gap_minutes', '?')} min"},
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),

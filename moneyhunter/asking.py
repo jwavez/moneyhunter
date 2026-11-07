@@ -108,7 +108,7 @@ def estimate(raw, snapshot, when=None):
     if not raw.get("online_eligible"): blockers.append("Online physical acquisition not confirmed")
     if raw.get("offer_verified") is not True: blockers.append("Check current retailer stock, checkout price and exact variant before buying")
     advertised = [o["advertised_original_total"] for o in offers if o.get("advertised_original_total") and not o.get("same_acquisition_promotion")]
-    return {"model":MODEL,"category":category,"competitor_coupon_unknown":coupon_unknown,"basis":"Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed", "query":snapshot["query"],
+    model = {"model":MODEL,"category":category,"competitor_coupon_unknown":coupon_unknown,"basis":"Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed", "query":snapshot["query"],
         "observed_at":snapshot["observed_at"],"condition":"new (seller declared)","region":"GB","sample_count":count,"seller_count":seller_count,
         "unknown_seller_samples":len(unknown),"low_price_supporting_sellers":low_support,"confidence":confidence,"wide_spread":spread>1.5,
         "competition_low":xs[0],"competition_high":xs[-1],"estimated_resale":target,"estimated_range":[quick,xs[0]],
@@ -131,3 +131,12 @@ def estimate(raw, snapshot, when=None):
         "review_max_landed_buy":min(policy.ceiling(buy + upper.net,p['review_net'],p['review_roi'],p['cap']),policy.ceiling(net_profit(stress_sale,0,"ebay_business",category,C.postage_for(category),C.PACKAGING,C.RETURNS_ALLOWANCE).net,p['review_stress_net'],p['review_stress_roi'],p['cap'])),
         "signal":"ABOVE BUDGET — WATCH ONLY" if watch_only else "ESTIMATED OPPORTUNITY — CHECK BEFORE BUYING" if opportunity else "WORTH REVIEWING — MANUAL CHECK" if worth_reviewing else "QUALIFIED ASK-BASED ESTIMATE",
         "checks":blockers,"sources":offers[:10]}
+    if category=='fragrance':
+        # Competitor asking totals remain useful research, but no legal shipping quote exists.
+        model.update({k:None for k in ('net','roi','net_before_unknown_delivery','max_landed_buy','max_item_buy','delivery_headroom','fees','outbound_postage','packaging','returns_allowance','review_stress_net','review_stress_roi','review_max_landed_buy')})
+        model.update(transport_validated=False,estimated_opportunity=False,worth_reviewing=False,review_stress_passed=False,
+            signal='ABOVE BUDGET — WATCH ONLY' if above else 'ASK-BASED MARKET RESEARCH — TRANSPORT UNVALIDATED')
+        model['checks'].insert(0,'Compliant perfume outbound carrier, packaging and actual quote unknown; net/ROI and buy ceilings NOT established')
+        if snapshot.get('identity',{}).get('bottle_format')=='not stated':
+            model['checks'].insert(1,'Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate')
+    return model
