@@ -83,6 +83,7 @@ class Cadence(unittest.TestCase):
         self.assertIn("vars.MH_SCANNER_PAUSED != '1'", text)
         self.assertNotIn("sleep ", text)
         self.assertIn("scan --no-send --max-posts 0", text)
+        self.assertIn('concurrency: { group: "${{ inputs.cadence_probe', text)
 
 
 class NoSend(unittest.TestCase):

@@ -11,10 +11,10 @@ from moneyhunter import market, runtime
 from moneyhunter.scanners import capture, ebay, hotukdeals
 
 NOW = dt.datetime(2026,11,7,12,tzinfo=dt.timezone.utc)
-RAW = {"title":"LEGO 75402 new sealed", "url":"https://www.hotukdeals.com/deals/synthetic-fixture", "price":20, "category":"lego"}
+RAW = {"title":"LEGO Synthetic Moon Rover 75402 new sealed", "url":"https://www.hotukdeals.com/deals/synthetic-fixture", "price":20, "category":"lego"}
 
 def item(i=0, **changes):
-    x={"itemId":f"synthetic-fixture-{i}","title":"LEGO 75402 sealed new","conditionId":"1000",
+    x={"itemId":f"synthetic-fixture-{i}","title":"LEGO 75402 Synthetic Moon Rover sealed new","conditionId":"1000",
        "itemLocation":{"country":"GB"},"itemWebUrl":f"https://www.ebay.co.uk/itm/synthetic-fixture-{i}?tracking=discard",
        "price":{"value":str(30+i),"currency":"GBP"},"shippingOptions":[{"shippingCostType":"FIXED","shippingCost":{"value":"3","currency":"GBP"}}]}
     x.update(changes);return x
@@ -28,6 +28,25 @@ class Identity(unittest.TestCase):
             self.assertIsNone(market.identity({**RAW,"title":title}),title)
         for title in ["Mario Kart Nintendo Switch digital", "Elden Ring PS5 PS4", "Game PS5"]:
             self.assertIsNone(market.identity({"title":title,"category":"gaming"}),title)
+    def test_set_number_is_not_whole_product_identity(self):
+        ident=market.identity(RAW)
+        for title in ["LEGO 75402 Synthetic Moon Rover Sticker Sheet new", "LEGO 75402 Synthetic Moon Rover Instruction Booklet new",
+                      "LEGO 75402 Synthetic Moon Rover display stand new", "LEGO 75402 Synthetic Moon Rover SMART tag new",
+                      "LEGO 75402 Synthetic Moon Rover LED lighting new", "LEGO 75402 new sealed", "LEGO 75402 Galactic Robot new"]:
+            self.assertFalse(market.matches(title,ident),title)
+        self.assertTrue(market.matches("LEGO 75402 Synthetic Moon Rover complete new sealed",ident))
+        self.assertIsNone(market.identity({**RAW,"title":"LEGO 75402 new sealed"}))
+
+    def test_name_fingerprint_prevents_same_number_wrong_name_cache_reuse(self):
+        other=market.identity({**RAW,"title":"LEGO Synthetic Galactic Robot 75402 new sealed"})
+        self.assertNotEqual(market.cache_key(market.identity(RAW)),market.cache_key(other))
+
+    def test_product_names_normalise_accents_and_single_distinctive_name(self):
+        c=market.identity({**RAW,"title":"LEGO Pokémon Munchlax 72150"})
+        self.assertEqual(c.name_terms,["munchlax"])
+        self.assertTrue(market.matches("LEGO Pokemon Munchlax 72150 sealed new",c))
+        self.assertFalse(market.matches("LEGO Pokemon 72150 Sticker Sheet",c))
+
     def test_other_platform_and_accessory_not_a_comp(self):
         c=market.identity({"title":"Elden Ring PS5 Standard game", "category":"gaming"})
         self.assertIsNotNone(c)
@@ -41,6 +60,13 @@ class Asking(unittest.TestCase):
         self.assertEqual((s["sample_count"],s["listed_total_low"],s["listed_total_median"]),(5,33,35))
         self.assertEqual(s["kind"],"active_ask");self.assertNotIn("sold_90d",s)
         self.assertNotIn("?",s["offers"][0]["url"])
+    def test_accepted_examples_keep_auditable_title_item_shipping_and_condition(self):
+        x=item();s=self.summary([x]);o=s["offers"][0]
+        self.assertEqual(o["title"],x["title"])
+        self.assertEqual(o["item_price"]+o["shipping"],o["listed_total"])
+        self.assertEqual(o["declared_condition"],"new")
+        self.assertTrue(s["name_terms"])
+
     def test_unknown_shipping_currency_condition_location_and_ended_rejected(self):
         xs=[item(0,shippingOptions=[]),item(1,conditionId="3000"),item(2,itemLocation={}),
             item(3,price={"value":"30","currency":"USD"}),item(4,itemEndDate="2026-11-06T00:00:00Z"),item(5,itemGroupType="SELLER_DEFINED_VARIATIONS"),item(6,price={"value":"NaN","currency":"GBP"})]
@@ -54,7 +80,7 @@ class Asking(unittest.TestCase):
         self.assertEqual(s["sample_count"],3);self.assertEqual(s["listed_total_low"],33);self.assertEqual(s["listed_total_high"],203)
         self.assertEqual(s["status"],"wide_spread")
     def test_cache_reused_budget_rotation_and_never_mutates_raw(self):
-        raws=[{**RAW,"title":f"LEGO {75402+i}","url":RAW["url"]+str(i)} for i in range(3)]
+        raws=[{**RAW,"title":f"LEGO Synthetic Moon Rover {75402+i}","url":RAW["url"]+str(i)} for i in range(3)]
         original=copy.deepcopy(raws);rows=[{"url":r["url"],"priority":3-i} for i,r in enumerate(raws)];state={"ask_cache":{}}
         with patch.object(ebay,"available",return_value=True),patch.object(ebay,"active_items",return_value={"itemSummaries":[item()]}) as call:
             h=market.enrich(rows,raws,state,NOW,budget=1);self.assertEqual(h["queries"],1)
