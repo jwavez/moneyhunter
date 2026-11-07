@@ -266,8 +266,9 @@
         "No exact reviewed sold observations"
       ],
       "priority": 25,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tilswall+Paint+Sprayer+Shark700%2C+Fits+Makita+18V+%28No+Battery%29%2C+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tilswall+Paint+Sprayer+Shark700%2C+Fits+Makita+18V+%28No+Battery%29%2C+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Lenovo Services LE302 Iron Gray Clip-on Bluetooth Headphones",
@@ -283,8 +284,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lenovo+Services+LE302+Iron+Gray+Clip-on+Bluetooth+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lenovo+Services+LE302+Iron+Gray+Clip-on+Bluetooth+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Minecraft The Baby Pig House 21268",
@@ -300,25 +302,46 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Baby+Pig+House+21268&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "LEGO Speed Champions Dodge Challenger SRT Hellcat Sports Car 77237",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-dodge-challenger-srt-hellcat-sports-car-77237-5024305",
-      "category": "lego",
-      "item_price": 13.99,
-      "landed_cost": null,
-      "breakeven_sell": 23.66,
-      "sell_for_minimum_profit": 33.25,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Dodge+Challenger+SRT+Hellcat+Sports+Car+77237&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Baby+Pig+House+21268&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21268",
+        "category": "lego",
+        "observed_at": "2026-11-07T10:56:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 29,
+        "listed_total_low": 3.49,
+        "listed_total_p25": 15.2,
+        "listed_total_median": 17.99,
+        "listed_total_p75": 21.08,
+        "listed_total_high": 30.19,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/127322320131",
+            "listed_total": 3.49
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/127322326818",
+            "listed_total": 3.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/227593954449",
+            "listed_total": 13.82
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 20,
+          "multi_variant_listing": 1
+        }
+      }
     },
     {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
@@ -334,8 +357,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Porsche+911+GT3+RS+Super+Car+77239&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Porsche+911+GT3+RS+Super+Car+77239&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "Sony WH-CH520 Wireless Bluetooth On-Ear Headphones - With Code - White | Sold By Stocs UK (UK Mainland)",
@@ -351,8 +375,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WH-CH520+Wireless+Bluetooth+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WH-CH520+Wireless+Bluetooth+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Lucky Cat 40813",
@@ -368,8 +393,45 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 40813",
+        "category": "lego",
+        "observed_at": "2026-11-07T10:56:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 26,
+        "listed_total_low": 23.76,
+        "listed_total_p25": 27.6,
+        "listed_total_median": 29.52,
+        "listed_total_p75": 33.17,
+        "listed_total_high": 50.62,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/198777035526",
+            "listed_total": 23.76
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/287701475626",
+            "listed_total": 24.95
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/358342770542",
+            "listed_total": 24.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 4
+        }
+      }
     },
     {
       "title": "DEWALT DW055PL-XJ Pocket Laser Distance Measurer // DWHT77100-XJ - £39.99 - Free C&C",
@@ -385,8 +447,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DW055PL-XJ+Pocket+Laser+Distance+Measurer+%2F%2F+DWHT77100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DW055PL-XJ+Pocket+Laser+Distance+Measurer+%2F%2F+DWHT77100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Makita MAKPAC 821551-8 Type 3 Large Connector Case - Pack of 3",
@@ -402,8 +465,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Makita+MAKPAC+821551-8+Type+3+Large+Connector+Case&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Makita+MAKPAC+821551-8+Type+3+Large+Connector+Case&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Super Mario Game Boy 72046 - Used like new Amazon Resale",
@@ -419,8 +483,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Super+Mario+Game+Boy+72046&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Super+Mario+Game+Boy+72046&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Technic Ducati Desmo450 MX Factory Motorcycle 42238",
@@ -436,8 +501,45 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Ducati+Desmo450+MX+Factory+Motorcycle+42238&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Ducati+Desmo450+MX+Factory+Motorcycle+42238&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 42238",
+        "category": "lego",
+        "observed_at": "2026-11-07T10:56:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 30,
+        "listed_total_low": 36.8,
+        "listed_total_p25": 46.37,
+        "listed_total_median": 49.02,
+        "listed_total_p75": 53.9,
+        "listed_total_high": 107.55,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/227587649247",
+            "listed_total": 36.8
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/407283623910",
+            "listed_total": 38.71
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/257836527529",
+            "listed_total": 39.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 4
+        }
+      }
     },
     {
       "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ",
@@ -453,8 +555,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ - Sold by discount4you (VAT) / FBA",
@@ -470,8 +573,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Pokémon SMART Play: Eevee and Lapras’s Treasure Hunt 72162",
@@ -487,8 +591,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+SMART+Play%3A+Eevee+and+Lapras%E2%80%99s+Treasure+Hunt+72162&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+SMART+Play%3A+Eevee+and+Lapras%E2%80%99s+Treasure+Hunt+72162&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "LEGO Pokémon Munchlax 72150 - Discount at Checkout",
@@ -504,8 +609,45 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 72150",
+        "category": "lego",
+        "observed_at": "2026-11-07T10:56:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 27,
+        "listed_total_low": 44.64,
+        "listed_total_p25": 53.34,
+        "listed_total_median": 60.99,
+        "listed_total_p75": 67.31,
+        "listed_total_high": 79.95,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/407336572898",
+            "listed_total": 44.64
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/900062332690",
+            "listed_total": 44.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/860106519681",
+            "listed_total": 47.89
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 2
+        }
+      }
     },
     {
       "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
@@ -521,8 +663,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+DCB184+18V+XR+5.0Ah+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+DCB184+18V+XR+5.0Ah+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Star Wars TIE Bomber 75347",
@@ -538,8 +681,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "LEGO Icons The Lord of the Rings: Sauron's Helmet 11373",
@@ -555,8 +699,45 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+The+Lord+of+the+Rings%3A+Sauron%27s+Helmet+11373&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+The+Lord+of+the+Rings%3A+Sauron%27s+Helmet+11373&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 11373",
+        "category": "lego",
+        "observed_at": "2026-11-07T10:56:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 35,
+        "listed_total_low": 5.95,
+        "listed_total_p25": 54.33,
+        "listed_total_median": 60.83,
+        "listed_total_p75": 69.97,
+        "listed_total_high": 81.27,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/147182549377",
+            "listed_total": 5.95
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/800704054746",
+            "listed_total": 44.2
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/840099996705",
+            "listed_total": 46.7
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 15
+        }
+      }
     },
     {
       "title": "DEWALT DCB184-XJ 18V 5.0Ah XR Li-Ion Battery",
@@ -572,8 +753,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCB184-XJ+18V+5.0Ah+XR+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCB184-XJ+18V+5.0Ah+XR+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "LEGO Ideas Polaroid OneStep SX-70 Camera 21345",
@@ -589,8 +771,44 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ideas+Polaroid+OneStep+SX-70+Camera+21345&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ideas+Polaroid+OneStep+SX-70+Camera+21345&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21345",
+        "category": "lego",
+        "observed_at": "2026-11-07T10:56:58+00:00",
+        "date": "2026-11-07",
+        "sample_count": 22,
+        "listed_total_low": 61.61,
+        "listed_total_p25": 66.56,
+        "listed_total_median": 70.47,
+        "listed_total_p75": 82.21,
+        "listed_total_high": 88.31,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/206262846805",
+            "listed_total": 61.61
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/176280050233",
+            "listed_total": 61.96
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/178046114138",
+            "listed_total": 63.37
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 10
+        }
+      }
     },
     {
       "title": "realme Buds Air 8 Pro ANC 55dB BT6.1 IP55 plus 35% Quidco Cashback w/code - Realme UK Store",
@@ -606,25 +824,27 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=realme+Buds+Air+8+Pro+ANC+55dB+BT6.1+IP55+plus+35%25+Quidco+Cashback&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=realme+Buds+Air+8+Pro+ANC+55dB+BT6.1+IP55+plus+35%25+Quidco+Cashback&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "LEGO Icons Ferrari F2004 & Michael Schumacher 11375 - Discount at Checkout - Sold by Meghra Trading / FBA",
-      "url": "https://www.hotukdeals.com/deals/ps5-voucher-applied-at-the-checkout-5024339",
+      "title": "LEGO City Fire Station with Fire Engine 60414 Truck Model, Dog Animal Figure & 5 Minifigures",
+      "url": "https://www.hotukdeals.com/deals/lego-city-fire-station-with-fire-engine-60414-truck-model-dog-animal-figure-5-minifigures843-pieces-5025463",
       "category": "lego",
-      "item_price": 56.99,
+      "item_price": 49.99,
       "landed_cost": null,
-      "breakeven_sell": 75.16,
-      "sell_for_minimum_profit": 102.46,
+      "breakeven_sell": 66.77,
+      "sell_for_minimum_profit": 90.73,
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+Ferrari+F2004+%26+Michael+Schumacher+11375&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Fire+Station+with+Fire+Engine+60414+Truck+Model%2C+Dog+Animal+Figure+%26+5+Minifigures&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "DEWALT 18V XR Compact Blower Variable Speed Tool Only, DCV100-XJ",
@@ -640,8 +860,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 20,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+Compact+Blower+Variable+Speed+Tool+Only%2C+DCV100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+Compact+Blower+Variable+Speed+Tool+Only%2C+DCV100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Jack & Jones Mens Modern Combo Classic Trainers ( Sizes 6 to 12 ) w/code and free postage",
@@ -656,8 +877,9 @@
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jack+%26+Jones+Mens+Modern+Combo+Classic+Trainers+%28+Sizes+6+to+12+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jack+%26+Jones+Mens+Modern+Combo+Classic+Trainers+%28+Sizes+6+to+12+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Estee Lauder Modern Muse Eau De Parfum Spray 50ml - W/Code (Free Delivery on £30+)",
@@ -672,8 +894,9 @@
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Estee+Lauder+Modern+Muse+Eau+De+Parfum+Spray+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Estee+Lauder+Modern+Muse+Eau+De+Parfum+Spray+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Nike Air Superfly Unisex Trainers - Brown - UK 4 Size (£22.94 + Free Delivery With New Customer Code)",
@@ -688,8 +911,9 @@
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Superfly+Unisex+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Superfly+Unisex+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Nike Air Max Fire Men's Trainers, Size 9.5 (Sizes 8, 9, 11 £49.50) W/Code",
@@ -704,93 +928,9 @@
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Fire+Men%27s+Trainers%2C+Size+9.5+%28Sizes+8%2C+9%2C+11+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Captain Puff MacFly Xbox Series X/S",
-      "url": "https://www.hotukdeals.com/deals/captain-puff-macfly-xbox-series-xs-79p-xbox-store-5025057",
-      "category": "gaming",
-      "item_price": 0.79,
-      "landed_cost": null,
-      "breakeven_sell": 5.13,
-      "sell_for_minimum_profit": 14.72,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Captain+Puff+MacFly+Xbox+Series+X%2FS&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Ys Origin (Xbox One / Xbox Series X|S) - PEGI 12",
-      "url": "https://www.hotukdeals.com/deals/ys-origin-xbox-one-xbox-series-xs-pegi-12-5023372",
-      "category": "gaming",
-      "item_price": 1.59,
-      "landed_cost": null,
-      "breakeven_sell": 6.08,
-      "sell_for_minimum_profit": 15.67,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ys+Origin+%28Xbox+One+%2F+Xbox+Series+X%7CS%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Red Faction II - xbox one / xbox series",
-      "url": "https://www.hotukdeals.com/deals/red-faction-ii-xbox-one-xbox-series-5025076",
-      "category": "gaming",
-      "item_price": 1.79,
-      "landed_cost": null,
-      "breakeven_sell": 6.32,
-      "sell_for_minimum_profit": 15.91,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Red+Faction+II&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Owlboy - Xbox - One/Series X|S",
-      "url": "https://www.hotukdeals.com/deals/owlboy-xbox-oneseries-xs-5023325",
-      "category": "gaming",
-      "item_price": 1.99,
-      "landed_cost": null,
-      "breakeven_sell": 6.55,
-      "sell_for_minimum_profit": 16.13,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Owlboy&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Turok - xbox one / xbox series",
-      "url": "https://www.hotukdeals.com/deals/turok-xbox-one-xbox-series-5025078",
-      "category": "gaming",
-      "item_price": 2.39,
-      "landed_cost": null,
-      "breakeven_sell": 7.02,
-      "sell_for_minimum_profit": 16.61,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Turok&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Fire+Men%27s+Trainers%2C+Size+9.5+%28Sizes+8%2C+9%2C+11+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Dangerous Driving - Xbox One / Series X|S",
@@ -806,8 +946,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dangerous+Driving&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dangerous+Driving&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "Nike Futura T-Shirt (Ages 12 - 24m)",
@@ -823,59 +964,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Futura+T-Shirt+%28Ages+12&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Turok 2: Seeds of Evil - Xbox One / Xbox Series",
-      "url": "https://www.hotukdeals.com/deals/turok-2-seeds-of-evil-xbox-one-xbox-series-5025082",
-      "category": "gaming",
-      "item_price": 3.19,
-      "landed_cost": null,
-      "breakeven_sell": 7.97,
-      "sell_for_minimum_profit": 17.56,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Turok+2%3A+Seeds+of+Evil&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "ExoCross - Xbox Series X|S & Xbox One",
-      "url": "https://www.hotukdeals.com/deals/exocross-xbox-series-xs-xbox-one-5023397",
-      "category": "gaming",
-      "item_price": 3.74,
-      "landed_cost": null,
-      "breakeven_sell": 8.62,
-      "sell_for_minimum_profit": 18.21,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=ExoCross&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Ultimate Danger Bundle - 4 Dangerous Games including Dangerous Driving - Xbox Series X|S, Xbox One",
-      "url": "https://www.hotukdeals.com/deals/ultimate-danger-bundle-4-dangerous-games-including-dangerous-driving-xbox-series-xs-xbox-one-5023982",
-      "category": "gaming",
-      "item_price": 3.99,
-      "landed_cost": null,
-      "breakeven_sell": 8.92,
-      "sell_for_minimum_profit": 18.49,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ultimate+Danger+Bundle&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Futura+T-Shirt+%28Ages+12&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Regatta Kota/Marine Kid's Trainers Various Colours & Sizes",
@@ -891,8 +982,27 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Regatta+Kota%2FMarine+Kid%27s+Trainers+Various+Colours+%26+Sizes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Regatta+Kota%2FMarine+Kid%27s+Trainers+Various+Colours+%26+Sizes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Rise of the Tomb Raider Xbox One Game - Used - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/rise-of-the-tomb-raider-xbox-used-free-cc-5012505",
+      "category": "gaming",
+      "item_price": 4.0,
+      "landed_cost": null,
+      "breakeven_sell": 8.93,
+      "sell_for_minimum_profit": 18.52,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rise+of+the+Tomb+Raider+Xbox+One+Game&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "The Plucky Squire - Xbox Series X|S",
@@ -908,8 +1018,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
@@ -925,42 +1036,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+6-Pack+Everyday+Cushioned+Training+Crew+Socks&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Islets (£4.75 Hungary) - Xbox Series X|S & Xbox One",
-      "url": "https://www.hotukdeals.com/deals/islets-ps475-hungary-xbox-series-xs-xbox-one-5023398",
-      "category": "gaming",
-      "item_price": 5.24,
-      "landed_cost": null,
-      "breakeven_sell": 10.53,
-      "sell_for_minimum_profit": 19.98,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Islets+%28+Hungary%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Kingdom Come: Deliverance - Royal Edition - Xbox One / Xbox Series X|S",
-      "url": "https://www.hotukdeals.com/deals/kingdom-come-deliverance-royal-edition-xbox-5024435",
-      "category": "gaming",
-      "item_price": 5.24,
-      "landed_cost": null,
-      "breakeven_sell": 10.53,
-      "sell_for_minimum_profit": 19.98,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Kingdom+Come%3A+Deliverance&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+6-Pack+Everyday+Cushioned+Training+Crew+Socks&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "adidas Men's Squadra 25 Shorts, Black/White, XS",
@@ -976,42 +1054,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Men%27s+Squadra+25+Shorts%2C+Black%2FWhite%2C+XS&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Rally Arcade Classics (£4.65 Poland) - Xbox Series X|S",
-      "url": "https://www.hotukdeals.com/deals/rally-arcade-classics-ps465-poland-xbox-series-xs-5023399",
-      "category": "gaming",
-      "item_price": 5.85,
-      "landed_cost": null,
-      "breakeven_sell": 11.25,
-      "sell_for_minimum_profit": 20.69,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rally+Arcade+Classics+%28+Poland%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "Assassin's Creed: The Rebel Collection (Nintendo Switch Game) AC Rogue + Black Flag W/Code Sold by Green Key",
-      "url": "https://www.hotukdeals.com/deals/assassins-creed-the-rebel-collection-nintendo-switch-ac-rogue-black-flag-sold-by-green-key-w-code-5025237",
-      "category": "gaming",
-      "item_price": 6.9,
-      "landed_cost": null,
-      "breakeven_sell": 12.49,
-      "sell_for_minimum_profit": 21.94,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Assassin%27s+Creed%3A+The+Rebel+Collection+%28Nintendo+Switch+Game%29+AC+Rogue+%2B+Black+Flag&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Men%27s+Squadra+25+Shorts%2C+Black%2FWhite%2C+XS&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "DEWALT 6.35mm 25mm Hex Shank PZ2 Impact Torsion Screwdriver Bits 25 Pack Free C&C",
@@ -1027,25 +1072,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+6.35mm+25mm+Hex+Shank+PZ2+Impact+Torsion+Screwdriver+Bits+25+Pack+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "PEAK Xbox Series X|S/PC (UK) Key",
-      "url": "https://www.hotukdeals.com/deals/peak-xbox-series-xspc-uk-key-5025257",
-      "category": "gaming",
-      "item_price": 6.99,
-      "landed_cost": null,
-      "breakeven_sell": 12.6,
-      "sell_for_minimum_profit": 22.04,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PEAK+Xbox+Series+X%7CS%2FPC+%28UK%29+Key&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+6.35mm+25mm+Hex+Shank+PZ2+Impact+Torsion+Screwdriver+Bits+25+Pack+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "DEWALT McLaren F1 Team 6.35mm Hex Shank Mixed Impact Ready Torsion Screwdriver Bit Set 32 Pieces - Free C&C",
@@ -1061,25 +1090,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+McLaren+F1+Team+6.35mm+Hex+Shank+Mixed+Impact+Ready+Torsion+Screwdriver+Bit+Set+32+Pieces&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
-    },
-    {
-      "title": "French Connection FCUK Her Eau de Toilette Spray 100ml",
-      "url": "https://www.hotukdeals.com/deals/french-connection-fcuk-her-eau-de-toilette-spray-100ml-5025176",
-      "category": "fragrance",
-      "item_price": 9.86,
-      "landed_cost": null,
-      "breakeven_sell": 16.62,
-      "sell_for_minimum_profit": 26.21,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=French+Connection+FCUK+Her+Eau+de+Toilette+Spray+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+McLaren+F1+Team+6.35mm+Hex+Shank+Mixed+Impact+Ready+Torsion+Screwdriver+Bit+Set+32+Pieces&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "DeWalt Extreme Tri Flute Wood Drill Bit Set - Free C&C",
@@ -1095,8 +1108,261 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T09:59:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+Extreme+Tri+Flute+Wood+Drill+Bit+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1"
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+Extreme+Tri+Flute+Wood+Drill+Bit+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Little Nightmares II (Xbox Series X)",
+      "url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
+      "category": "gaming",
+      "item_price": 9.95,
+      "landed_cost": null,
+      "breakeven_sell": 16.09,
+      "sell_for_minimum_profit": 25.54,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Little+Nightmares+II+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
+    },
+    {
+      "title": "DEWALT Rafter Square 7\" (177mm) Free C&C",
+      "url": "https://www.hotukdeals.com/deals/dewalt-rafter-square-7-177mm-5024278",
+      "category": "tools",
+      "item_price": 9.99,
+      "landed_cost": null,
+      "breakeven_sell": 19.89,
+      "sell_for_minimum_profit": 28.95,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Rafter+Square+7%22+%28177mm%29+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Puig Quorum Eau de Toilette Spray 100ml",
+      "url": "https://www.hotukdeals.com/deals/puig-quorum-eau-de-toilette-spray-100ml-5025163",
+      "category": "fragrance",
+      "item_price": 11.73,
+      "landed_cost": null,
+      "breakeven_sell": 18.87,
+      "sell_for_minimum_profit": 28.44,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Puig+Quorum+Eau+de+Toilette+Spray+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "adidas Streettalk - Size 5 UK",
+      "url": "https://www.hotukdeals.com/deals/adidas-streettalk-size-5-uk-5023810",
+      "category": "trainers",
+      "item_price": 11.8,
+      "landed_cost": null,
+      "breakeven_sell": 19.8,
+      "sell_for_minimum_profit": 29.53,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Streettalk&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "adidas F50 Sparkfusion League Mid Cut Firm Ground/Artificial Grass Football Boots (yellow size 12 ladies)",
+      "url": "https://www.hotukdeals.com/deals/adidas-f50-sparkfusion-league-mid-cut-firm-groundartificial-grass-football-boots-yellow-size-12-ladies-5024292",
+      "category": "trainers",
+      "item_price": 12.24,
+      "landed_cost": null,
+      "breakeven_sell": 20.34,
+      "sell_for_minimum_profit": 30.06,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+F50+Sparkfusion+League+Mid+Cut+Firm+Ground%2FArtificial+Grass+Football+Boots+%28yellow+size+12+ladies%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "adidas Unisex Tensaur Sport 3.0 Kids Shoes -Size 10 UK Child",
+      "url": "https://www.hotukdeals.com/deals/adidas-unisex-tensaur-sport-30-kids-shoes-size-10-uk-child-5023800",
+      "category": "trainers",
+      "item_price": 12.6,
+      "landed_cost": null,
+      "breakeven_sell": 20.77,
+      "sell_for_minimum_profit": 30.49,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Unisex+Tensaur+Sport+3.0+Kids+Shoes+-Size+10+UK+Child&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Pepe Jeans Men's Brady Basic trainer shoe Size 8",
+      "url": "https://www.hotukdeals.com/deals/pepe-jeans-mens-brady-basic-trainer-shoe-size-8-5024193",
+      "category": "trainers",
+      "item_price": 12.68,
+      "landed_cost": null,
+      "breakeven_sell": 20.88,
+      "sell_for_minimum_profit": 30.6,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Pepe+Jeans+Men%27s+Brady+Basic+trainer+shoe+Size+8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Calvin Klein Eternity For Men Aftershave Splash 100ml / JOOP! Homme Wild For Him Eau de Toilette Spray 125ml £13.28 with code",
+      "url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-for-men-aftershave-splash-100ml-joop-homme-wild-for-him-eau-de-toilette-spray-125ml-ps1328-with-code-5022286",
+      "category": "fragrance",
+      "item_price": 14.18,
+      "landed_cost": null,
+      "breakeven_sell": 21.79,
+      "sell_for_minimum_profit": 31.37,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+For+Men+Aftershave+Splash+100ml+%2F+JOOP%21+Homme+Wild+For+Him+Eau+de+Toilette+Spray+125ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Calvin Klein Eternity 100ml Aftershave (Free C&C)",
+      "url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-100ml-aftershave-5025466",
+      "category": "fragrance",
+      "item_price": 14.99,
+      "landed_cost": null,
+      "breakeven_sell": 22.76,
+      "sell_for_minimum_profit": 32.35,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+100ml+Aftershave+%28Free+C%26C%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon",
+      "url": "https://www.hotukdeals.com/deals/hori-battle-pad-gamecube-style-controller-zelda-switch-wcoupon-5022175",
+      "category": "gaming",
+      "item_price": 14.99,
+      "landed_cost": null,
+      "breakeven_sell": 22.04,
+      "sell_for_minimum_profit": 31.48,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HORI+Battle+Pad+GameCube+Style+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
+    },
+    {
+      "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
+      "url": "https://www.hotukdeals.com/deals/nike-chelsea-fc-202425-home-shirt-junior-5024008",
+      "category": "trainers",
+      "item_price": 15.0,
+      "landed_cost": null,
+      "breakeven_sell": 23.69,
+      "sell_for_minimum_profit": 33.41,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Chelsea+FC+2024%2F25+Home+Shirt+Junior&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Women's Nike Calm Slide, Sail, Size 3.5 - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/womens-nike-womens-calm-slide-sail-size-35-free-cc-5021691",
+      "category": "trainers",
+      "item_price": 15.0,
+      "landed_cost": null,
+      "breakeven_sell": 23.69,
+      "sell_for_minimum_profit": 33.41,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Women%27s+Nike+Calm+Slide%2C+Sail%2C+Size+3.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Men's adidas Court Spec 2 Tennis Shoes Size 9.5",
+      "url": "https://www.hotukdeals.com/deals/mens-adidas-court-spec-2-tennis-shoes-size-95-5024260",
+      "category": "trainers",
+      "item_price": 15.52,
+      "landed_cost": null,
+      "breakeven_sell": 24.32,
+      "sell_for_minimum_profit": 34.04,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Men%27s+adidas+Court+Spec+2+Tennis+Shoes+Size+9.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Antro - PS5",
+      "url": "https://www.hotukdeals.com/deals/antro-playstation-5-5023190",
+      "category": "gaming",
+      "item_price": 16.01,
+      "landed_cost": null,
+      "breakeven_sell": 23.25,
+      "sell_for_minimum_profit": 32.69,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T10:56:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Antro&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
     }
   ],
   "pricing_catalog": [],
@@ -1105,16 +1371,232 @@
     "products": 0,
     "sold_observations": 0,
     "blocker": "No accepted sold observations. Research queue seeded from a 09:59 London/GMT no-send public-feed scan; last production scan remains 09:10 London/GMT, not a new successful scheduled run.",
-    "research_observed_at": "2026-11-07T09:59:31+00:00"
+    "research_observed_at": "2026-11-07T09:59:31+00:00",
+    "indicative_asking_products": 6
   },
   "research_snapshot": {
-    "observed_at": "2026-11-07T09:59:31+00:00",
-    "published_at": "2026-11-07T10:05:05+00:00",
-    "mode": "controlled_no_send_public_research",
-    "candidates": 50,
-    "messages_sent": 0,
-    "changes_production_scan_status": false,
-    "production_generated_utc_preserved": "2026-11-07T09:10:54+00:00",
-    "accepted_sold_observations": 0
-  }
+    "kind": "explicit_no_send_research_only",
+    "observed_at": "2026-11-07T10:57:08+00:00",
+    "source_run_url": "https://github.com/jwavez/moneyhunter/actions/runs/42366056326",
+    "graded_scan_published": false,
+    "note": "Current API asks and RSS research only. Existing production grading timestamp, deals, stats and sold catalog preserved."
+  },
+  "asking_catalog": [
+    {
+      "kind": "active_ask",
+      "query": "LEGO 21268",
+      "category": "lego",
+      "observed_at": "2026-11-07T10:56:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 29,
+      "listed_total_low": 3.49,
+      "listed_total_p25": 15.2,
+      "listed_total_median": 17.99,
+      "listed_total_p75": 21.08,
+      "listed_total_high": 30.19,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/127322320131",
+          "listed_total": 3.49
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/127322326818",
+          "listed_total": 3.99
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/227593954449",
+          "listed_total": 13.82
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 20,
+        "multi_variant_listing": 1
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 40813",
+      "category": "lego",
+      "observed_at": "2026-11-07T10:56:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 26,
+      "listed_total_low": 23.76,
+      "listed_total_p25": 27.6,
+      "listed_total_median": 29.52,
+      "listed_total_p75": 33.17,
+      "listed_total_high": 50.62,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/198777035526",
+          "listed_total": 23.76
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/287701475626",
+          "listed_total": 24.95
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/358342770542",
+          "listed_total": 24.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 4
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 42238",
+      "category": "lego",
+      "observed_at": "2026-11-07T10:56:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 30,
+      "listed_total_low": 36.8,
+      "listed_total_p25": 46.37,
+      "listed_total_median": 49.02,
+      "listed_total_p75": 53.9,
+      "listed_total_high": 107.55,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/227587649247",
+          "listed_total": 36.8
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/407283623910",
+          "listed_total": 38.71
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/257836527529",
+          "listed_total": 39.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 4
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 72150",
+      "category": "lego",
+      "observed_at": "2026-11-07T10:56:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 27,
+      "listed_total_low": 44.64,
+      "listed_total_p25": 53.34,
+      "listed_total_median": 60.99,
+      "listed_total_p75": 67.31,
+      "listed_total_high": 79.95,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/407336572898",
+          "listed_total": 44.64
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/900062332690",
+          "listed_total": 44.99
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/860106519681",
+          "listed_total": 47.89
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 2
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 11373",
+      "category": "lego",
+      "observed_at": "2026-11-07T10:56:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 35,
+      "listed_total_low": 5.95,
+      "listed_total_p25": 54.33,
+      "listed_total_median": 60.83,
+      "listed_total_p75": 69.97,
+      "listed_total_high": 81.27,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/147182549377",
+          "listed_total": 5.95
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/800704054746",
+          "listed_total": 44.2
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/840099996705",
+          "listed_total": 46.7
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 15
+      }
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 21345",
+      "category": "lego",
+      "observed_at": "2026-11-07T10:56:58+00:00",
+      "date": "2026-11-07",
+      "sample_count": 22,
+      "listed_total_low": 61.61,
+      "listed_total_p25": 66.56,
+      "listed_total_median": 70.47,
+      "listed_total_p75": 82.21,
+      "listed_total_high": 88.31,
+      "status": "indicative_only",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "url": "https://www.ebay.co.uk/itm/206262846805",
+          "listed_total": 61.61
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/176280050233",
+          "listed_total": 61.96
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/178046114138",
+          "listed_total": 63.37
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 10
+      }
+    }
+  ]
 }
