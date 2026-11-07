@@ -13200,7 +13200,7 @@
         "rejected": {
           "identity_or_condition": 39
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Little Nightmares II (Xbox Series X)"
@@ -13458,7 +13458,7 @@
         "rejected": {
           "identity_or_condition": 29
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil 4 Remake Gold Edition (PS5)"
@@ -14180,7 +14180,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -16267,7 +16267,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -16458,7 +16458,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -16705,12 +16705,70 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
+          "item_id": "v1|318020220571|0",
+          "observed_at": "2026-11-07T23:13:55+00:00",
+          "status": "incomplete",
           "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ]
+            "fixed detail shipping not supplied"
+          ],
+          "gtin": null,
+          "mpn": null,
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Gucci"
+            },
+            {
+              "type": "STRING",
+              "name": "Size Type",
+              "value": "Regular Size"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Eau de Toilette"
+            },
+            {
+              "type": "STRING",
+              "name": "Fragrance Name",
+              "value": "Gucci Guilty"
+            },
+            {
+              "type": "STRING",
+              "name": "Volume",
+              "value": "50 ml"
+            },
+            {
+              "type": "STRING",
+              "name": "Formulation",
+              "value": "Spray"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Long Lasting"
+            }
+          ],
+          "checked_item_price": 34.97,
+          "identity_query": "gucci guilty for him EDT 50ml",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME",
+                "SELLER_ARRANGED_LOCAL_PICKUP"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/318020220571",
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee"
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "query_aliases": [
           "Gucci Guilty For Him Eau de Toilette 50ml - W/code (extra 10% off for students)"
         ]
@@ -16718,7 +16776,7 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "fragrance",
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "gucci guilty for him EDT 50ml",
@@ -16790,7 +16848,7 @@
           "Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate",
           "Actual parcel/carrier and protective packaging costs unverified; conditional tariff scenario cannot create a buying signal",
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: incomplete; cheap observation retained, no buying signal",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -16956,7 +17014,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -17240,7 +17298,7 @@
           "identity_or_condition": 29,
           "multi_variant_listing": 1
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -17593,7 +17651,7 @@
             "listed_total": 425.0
           }
         ],
-        "reclassified_at": "2026-11-07T23:11:32+00:00",
+        "reclassified_at": "2026-11-07T23:14:08+00:00",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
         ]
@@ -17781,7 +17839,7 @@
         "rejected": {
           "identity_or_condition": 9
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -18063,7 +18121,7 @@
         "rejected": {
           "identity_or_condition": 33
         },
-        "canonicalized_at": "2026-11-07T23:11:20+00:00",
+        "canonicalized_at": "2026-11-07T23:13:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill Townfall - Day One Edition - PS5"
@@ -18781,12 +18839,75 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
+          "item_id": "v1|880071458429|0",
+          "observed_at": "2026-11-07T23:13:55+00:00",
+          "status": "incomplete",
           "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ]
+            "fixed detail shipping not supplied"
+          ],
+          "gtin": null,
+          "mpn": "548708",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "HUGO BOSS"
+            },
+            {
+              "type": "STRING",
+              "name": "Size Type",
+              "value": "Regular Size"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Eau de Parfum"
+            },
+            {
+              "type": "STRING",
+              "name": "Fragrance Name",
+              "value": "Hugo Boss Bottled Infinite"
+            },
+            {
+              "type": "STRING",
+              "name": "Volume",
+              "value": "200 ml"
+            },
+            {
+              "type": "STRING",
+              "name": "Formulation",
+              "value": "Spray"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Long Lasting"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "548708"
+            }
+          ],
+          "checked_item_price": 63.1,
+          "identity_query": "boss bottled infinite EDP 200ml",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME",
+                "SELLER_ARRANGED_LOCAL_PICKUP"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/880071458429",
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee"
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "query_aliases": [
           "BOSS Bottled Infinite Eau de Parfum for Him 200ml - \u00a347.50 / \u00a342.50 S&S"
         ]
@@ -18794,7 +18915,7 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "fragrance",
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled infinite EDP 200ml",
@@ -18866,7 +18987,7 @@
           "Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate",
           "Actual parcel/carrier and protective packaging costs unverified; conditional tariff scenario cannot create a buying signal",
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: incomplete; cheap observation retained, no buying signal",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -19013,7 +19134,7 @@
           "ml": 200,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-07T20:40:07+00:00",
+        "observed_at": "2026-11-07T23:13:55+00:00",
         "date": "2026-11-07",
         "sample_count": 2,
         "listed_total_low": 140.79,
@@ -19073,7 +19194,7 @@
           }
         ],
         "rejected": {
-          "identity_or_condition": 48
+          "identity_or_condition": 12
         },
         "detail_required": true,
         "lowest_detail": {
@@ -19169,7 +19290,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "armani acqua di gio profondo PARFUM 200ml",
-        "observed_at": "2026-11-07T20:40:07+00:00",
+        "observed_at": "2026-11-07T23:13:55+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 2,
@@ -19377,23 +19498,23 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Pogriko RGB Wireless Pro Nintendo Switch Controller with Adjustable LED Lighting - Sold by Pogriko / FBA",
-      "url": "https://www.hotukdeals.com/deals/pogriko-switch-controller-compatible-with-switchswitch-2liteoled-rgb-wireless-pro-controller-with-adjustable-led-lighting-5025653",
+      "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES Aiba Edition (Nintendo Switch 2)",
+      "url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-aiba-edition-nintendo-switch-2-5025973",
       "category": "gaming",
       "source": "hotukdeals",
       "merchant": "Amazon",
-      "item_price": 10.99,
+      "item_price": 15.85,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/EvsRN/5025653_1/re/150x150/qt/55/5025653_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/MLasW/5025973_1/re/150x150/qt/55/5025973_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/pogriko-switch-controller-compatible-with-switchswitch-2liteoled-rgb-wireless-pro-controller-with-adjustable-led-lighting-5025653",
+      "image_source_url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-aiba-edition-nintendo-switch-2-5025973",
       "landed_cost": null,
-      "breakeven_sell": 17.32,
-      "sell_for_minimum_profit": 26.76,
+      "breakeven_sell": 23.05,
+      "sell_for_minimum_profit": 32.51,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -19401,18 +19522,18 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-07T23:11:32+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Pogriko+RGB+Wireless+Pro+Nintendo+Switch+Controller+with+Adjustable+LED+Lighting&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-07T23:14:07+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=No+Sleep+For+Kaname+Date&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "no_exact_shipped_samples",
       "ask_context": {
         "kind": "active_ask",
-        "query": "pogriko rgb wireless pro controller with adjustable led lighting sold by pogriko fba nintendo switch",
+        "query": "no sleep for kaname date from ai the somnium files aiba edition nintendo switch 2",
         "category": "gaming",
         "name_terms": [],
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-07T23:11:32+00:00",
+        "observed_at": "2026-11-07T23:14:08+00:00",
         "date": "2026-11-07",
         "sample_count": 0,
         "listed_total_low": null,
@@ -19426,9 +19547,11 @@
           "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
         ],
         "offers": [],
-        "rejected": {},
+        "rejected": {
+          "identity_or_condition": 6
+        },
         "query_aliases": [
-          "Pogriko RGB Wireless Pro Nintendo Switch Controller with Adjustable LED Lighting - Sold by Pogriko / FBA"
+          "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES Aiba Edition (Nintendo Switch 2)"
         ]
       }
     },
@@ -19697,63 +19820,6 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+Compact+Blower+Variable+Speed+Tool+Only%2C+DCV100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Chanel Allure Homme Sport Eau Extreme Eau De Toilette 150ml",
-      "url": "https://www.hotukdeals.com/deals/chanel-allure-homme-sport-eau-extreme-eau-de-toilette-150ml-5025336",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "merchant": "Sephora",
-      "item_price": 72.1,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Z6RJn/5025336_1/re/150x150/qt/55/5025336_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/chanel-allure-homme-sport-eau-extreme-eau-de-toilette-150ml-5025336",
-      "landed_cost": null,
-      "breakeven_sell": 92.01,
-      "sell_for_minimum_profit": 126.55,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 150,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 92.01,
-        "required_resale": 126.55,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 72.1,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T23:11:32+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Chanel+Allure+Homme+Sport+Eau+Extreme+Eau+De+Toilette+150ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -20355,6 +20421,62 @@
       "first_seen": "2026-11-07T16:57:17+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Maison+Alhambra+La+Charmante+EDP+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Pogriko RGB Wireless Pro Nintendo Switch Controller with Adjustable LED Lighting - Sold by Pogriko / FBA",
+      "url": "https://www.hotukdeals.com/deals/pogriko-switch-controller-compatible-with-switchswitch-2liteoled-rgb-wireless-pro-controller-with-adjustable-led-lighting-5025653",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 10.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/EvsRN/5025653_1/re/150x150/qt/55/5025653_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/pogriko-switch-controller-compatible-with-switchswitch-2liteoled-rgb-wireless-pro-controller-with-adjustable-led-lighting-5025653",
+      "landed_cost": null,
+      "breakeven_sell": 17.32,
+      "sell_for_minimum_profit": 26.76,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T23:11:32+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Pogriko+RGB+Wireless+Pro+Nintendo+Switch+Controller+with+Adjustable+LED+Lighting&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "pogriko rgb wireless pro controller with adjustable led lighting sold by pogriko fba nintendo switch",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-07T23:11:32+00:00",
+        "date": "2026-11-07",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Pogriko RGB Wireless Pro Nintendo Switch Controller with Adjustable LED Lighting - Sold by Pogriko / FBA"
+        ]
+      }
     },
     {
       "title": "Riiffs Fleurie Emerald EDP 100ml - With Code",
@@ -24046,6 +24168,63 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+90+Men+Shoes+Black+Neon&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Chanel Allure Homme Sport Eau Extreme Eau De Toilette 150ml",
+      "url": "https://www.hotukdeals.com/deals/chanel-allure-homme-sport-eau-extreme-eau-de-toilette-150ml-5025336",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "merchant": "Sephora",
+      "item_price": 72.1,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/Z6RJn/5025336_1/re/150x150/qt/55/5025336_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/chanel-allure-homme-sport-eau-extreme-eau-de-toilette-150ml-5025336",
+      "landed_cost": null,
+      "breakeven_sell": 92.01,
+      "sell_for_minimum_profit": 126.55,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 150,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 92.01,
+        "required_resale": 126.55,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 72.1,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T23:11:32+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Chanel+Allure+Homme+Sport+Eau+Extreme+Eau+De+Toilette+150ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
