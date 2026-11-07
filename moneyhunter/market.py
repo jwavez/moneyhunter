@@ -54,7 +54,7 @@ def identity(raw):
         # rather than over-aggressively deleting words from the actual game name.
         title = re.split(r"\s(?:@|at)\s|\s+with code|\s+w/", title, maxsplit=1, flags=re.I)[0]
         title = re.sub(r"[£]\s?\d+(?:\.\d{1,2})?", "", title)
-        title = re.sub(r"free (?:delivery|c&c)|new sealed|physical copy", "", title, flags=re.I)
+        title = re.sub(r"\b(?:brand new(?: and)? sealed|new and sealed|brand new|new sealed|physical copy|in stock)\b|free (?:delivery|c&c|p\s*&\s*p)", "", title, flags=re.I)
         query = " ".join(M.norm(title).split())
         platforms = [p for p in ("ps4", "ps5", "xbox", "switch", "pc") if M.has(M.norm(query), p)]
         if len(platforms) != 1 or platforms[0] == "pc" or len(query.split()) < 4 or len(query) > 100:

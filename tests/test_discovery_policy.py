@@ -148,3 +148,23 @@ class ActualIntakeCorrection(unittest.TestCase):
             call.assert_called_once_with(ident.match,business_only=True)
             self.assertEqual(discovery.LAST_DIAGNOSTICS['query'],ident.match)
             self.assertEqual(discovery.LAST_DIAGNOSTICS['matched_shipped_samples'],8)
+
+class ActualMarketingNoise(unittest.TestCase):
+    def test_actual_sealed_marketing_does_not_hide_cheaper_exact_competition(self):
+        titles=['Little Nightmares II Enhanced Edition Xbox Series X BRAND NEW AND SEALED',
+                'Little Nightmares II Enhanced Edition - Xbox Series X',
+                'Little Nightmares II Enhanced Edition Xbox Series X IN STOCK FREE P&P']
+        ids=[market.identity({'title':t,'category':'gaming'}) for t in titles]
+        self.assertEqual(len({i.match for i in ids}),1)
+        self.assertIn('enhanced edition',ids[0].match)
+        payload=Source().payload();payload['itemSummaries']=payload['itemSummaries'][:3]
+        for row,title,price in zip(payload['itemSummaries'],titles,[16.95,18.85,26.59]):
+            row['title']=title;row['price']['value']=str(price)
+            row['shippingOptions'][0]['shippingCost']['value']='0'
+        snapshot=market.summary(payload,ids[0],NOW)
+        self.assertEqual(snapshot['sample_count'],3)
+        raw={**RAW,'title':titles[0],'price':16.95,'inbound_delivery':0,'merchant':'eBay','ebay_item_id':payload['itemSummaries'][0]['itemId']}
+        m=asking.estimate(raw,snapshot,NOW)
+        self.assertEqual(m['competition_low'],18.85)
+        self.assertLess(m['estimated_resale'],18.85)
+        self.assertFalse(m['worth_reviewing']);self.assertFalse(m['estimated_opportunity'])
