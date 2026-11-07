@@ -1,3 +1,4 @@
+import {nonphysical,normalizeProduct} from "./product-format.js";
 // Original bounded public-RSS capture, independent of GitHub grading jobs.
 // Conditional caching / source-item persistence concepts: docs/OPEN_SOURCE_RESEARCH.md.
 // NO Discord, eBay, retailer HTML, credentials, grades, sold prices or public write route.
@@ -37,6 +38,7 @@ export function price(s) {
 }
 const digitalStores = new Set(["eneba","loaded","cdkeys","cdkeys.com","steam","gog","gog.com","xbox","microsoft","nintendo eshop","playstation store"]);
 function physicalCandidate(x) {
+  if(nonphysical(x))return false;
   if (/\b(game pass|pc windows|xbox store|nintendo eshop|playstation store|steam|cd ?key|game key|gift card|digital|download|dlc|code in a box)\b/i.test(x.title)) return false;
   return !(x.category === "gaming" && digitalStores.has(String(x.merchant).trim().toLowerCase()) && !/\b(controller|headset|keyboard|mouse|console|racing wheel)\b/i.test(x.title));
 }
@@ -56,11 +58,11 @@ export function parseFeed(xml, category, feed, now = Date.now()) {
     const pub = Date.parse(text(tag(body,"pubDate")));
     if (!Number.isFinite(pub) || now - pub > 7*DAY || pub-now > DAY) continue;
     if (!title || amount == null || amount > 60 || /in.?store only|in store|instore|collection only|c&c only|click (?:&|and) collect only|limited stores|local only|pre.?order|out of stock|sold out|digital|download|dlc|code in a box/i.test(title+" "+desc)) continue;
-    if (category === "lego" && (!/\blego\b/i.test(title) || !/\b\d{5,6}\b/.test(title))) continue;
+    if (category === "lego" && !/\b(ps[45]|playstation|xbox|nintendo switch)\b/i.test(title) && (!/\blego\b/i.test(title) || !/\b\d{5,6}\b/.test(title))) continue;
     const actualCategory = /\blego\b/i.test(title) && /\b\d{5,6}\b/.test(title) ? "lego" : category;
-    const offer = {thumb:feedImage(body),title,url:url.href,price:amount,category:actualCategory,merchant:attr(merchant,"name").slice(0,80),
+    const offer = normalizeProduct({thumb:feedImage(body),title,url:url.href,price:amount,category:actualCategory,merchant:attr(merchant,"name").slice(0,80),
       feed,published_at:stamp(pub),last_seen:stamp(now),kind:"feed_offer_only",availability:"unverified",
-      inbound_delivery:null,online_eligible:true,desc:"",delivery:"Delivery cost and current stock unverified"};
+      inbound_delivery:null,online_eligible:true,desc:"",delivery:"Delivery cost and current stock unverified"});
     if(physicalCandidate(offer)) result.push(offer);
   }
   return result;
@@ -91,7 +93,7 @@ export function publicCapture(data, now = Date.now()) {
     target_minutes:10,grades_computed:false,
     stale:!Number.isFinite(Date.parse(data.last_attempt)) || now-Date.parse(data.last_attempt)>30*60000,
     feeds:Object.fromEntries(Object.entries(data.feeds).map(([k,v]) => [k,{status:v.status,last_success:v.last_success ?? null,error:v.error ?? null,paused:v.paused ?? false}])),
-    items:data.items.filter(x => physicalCandidate(x) && now-Date.parse(x.published_at) <= 7*DAY && now-Date.parse(x.last_seen) <= 7*DAY)};
+    items:data.items.map(normalizeProduct).filter(x => physicalCandidate(x) && now-Date.parse(x.published_at) <= 7*DAY && now-Date.parse(x.last_seen) <= 7*DAY)};
 }
 export async function capture(env, now = Date.now(), fetcher = fetch) {
   if (!env.MH) throw new Error("existing_KV_binding_required");

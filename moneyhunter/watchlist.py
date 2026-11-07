@@ -44,7 +44,8 @@ def migrate(state,when):
 
 def refresh_stale(state,when,budget=2):
     health={'queries':0,'budget':budget,'errors':[]}
-    old=[e for e in state.get('value_watchlist',{}).values() if hours(e.get('observed_at'),when)>=2 and hours(e.get('last_research_at'),when)>=.5]
+    from . import product_format as PF
+    old=[e for e in state.get('value_watchlist',{}).values() if not PF.reason({'title':e.get('query','')}) and hours(e.get('observed_at'),when)>=2 and hours(e.get('last_research_at'),when)>=.5]
     ordered=research_budget.fair_order(old,lambda e:e['category'],lambda e:e.get('observed_at',''))
     for e in ordered[:budget]:
         if state['ask_cache'].get('browse-blocked') or not ebay.available() or not research_budget.reserve(state,when,'persistent-research'):break
@@ -57,9 +58,12 @@ def refresh_stale(state,when,budget=2):
     return health
 
 def build(state,when,inspect=True):
+    from . import product_format as PF
     entries=state.setdefault('value_watchlist',{})
     pairs={}
     for s in list(state['ask_cache'].values()):
+        from . import product_format as PF
+        if PF.reason({'title':s.get('query','')}):continue
         if s.get('kind')!='active_ask' or not s.get('offers') or not 0<=hours(s.get('observed_at'),when)<6:continue
         i=ident(s);key=market.cache_key(i)
         # Prefer canonical union over fragmented old snapshots without modifying their observations.
@@ -97,6 +101,7 @@ def build(state,when,inspect=True):
             'cost_basis':'Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.',
             'lowest_detail':s.get('lowest_detail'),'sources':[{'item_id':o['item_id'],'seller':o.get('seller'),'url':o['url'],'delivered':o['listed_total'],'observed_at':o.get('observed_at',s['observed_at'])} for o in offers[:5]]}
     for e in entries.values():
+        if PF.reason({'title':e.get('query','')}):e.update(target_status='excluded_nonphysical',max_landed_buy=None);continue
         if not 0<=hours(e.get('observed_at'),when)<6:e.update(target_status='stale_research_only',max_landed_buy=None)
     state['value_watchlist']=dict(sorted(((k,e) for k,e in entries.items() if hours(e.get('last_seen'),when)<24*7),key=lambda kv:kv[1]['last_seen'],reverse=True)[:150])
     entries=state['value_watchlist']

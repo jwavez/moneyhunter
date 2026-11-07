@@ -137,6 +137,8 @@ def run_scan():
     raws += discovery.scan(raws, operational)
     errors.extend(discovery.LAST_DIAGNOSTICS["errors"])
     from . import images
+    from . import product_format as PF
+    raws,nonphysical=PF.partition(raws)
     image_report=images.prepare(raws,operational)
     LAST_RAWS = raws
     counts = RT.observe(raws, operational)
@@ -206,6 +208,7 @@ def run_scan():
     for deal, _ in graded: deal.ask_context = ask_by_url.get(deal.url)
     checked = drop_expired(graded, br)
     order = {"A": 0, "B": 1, "R": 2}
+    graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
     graded.sort(key=lambda x: (order[x[1].grade[0]], -x[1].ev_net))
     affordable = [(d, r) for d, r in graded if r.cost <= cap and d.delivery_known]
     diagnostics = hotukdeals.LAST_DIAGNOSTICS
@@ -254,6 +257,7 @@ def run_scan():
     for entry in review:
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
     LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))
+    stats['excluded_nonphysical']=nonphysical
     stats['source_coverage']={source:{'offers':sum(r.get('source','hotukdeals')==source for r in raws),
         'new':sum(r.get('source','hotukdeals')==source and operational['items'][RT.key(r)]['observations']==1 for r in raws),
         'estimated':sum(r.get('source','hotukdeals')==source and bool(r.get('ask_estimate')) for r in raws),
@@ -311,6 +315,12 @@ def export_public(path, stats, graded):
            "schema_version": 2, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     if os.getenv("MONEYHUNTER_DISABLE_SEND")=="1":
         from . import discord as D,images,hub
+        import re
+        sample=[];categories=set()
+        for r in sorted(LAST_RAWS,key=lambda r:not bool(re.search(r'72051|resident evil requiem',r['title'],re.I))):
+            if hub.resellable(r) and (r['category'] not in categories or re.search(r'72051|resident evil requiem',r['title'],re.I)):
+                sample.append(r);categories.add(r['category'])
+        out['clarity_publication_previews']=[{'source_url':r['url'],'payload':D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in sample[:12]]
         out["fragrance_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="fragrance"]
         out["lego_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="lego" and images.publishable(r)]
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
