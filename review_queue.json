@@ -13,7 +13,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tilswall+Paint+Sprayer+Shark700%2C+Fits+Makita+18V+%28No+Battery%29%2C+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -31,7 +31,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lenovo+Services+LE302+Iron+Gray+Clip-on+Bluetooth+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -49,7 +49,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Baby+Pig+House+21268&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -104,10 +104,46 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Porsche+911+GT3+RS+Super+Car+77239&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 77239",
+        "category": "lego",
+        "observed_at": "2026-11-07T14:20:38+00:00",
+        "date": "2026-11-07",
+        "sample_count": 31,
+        "listed_total_low": 3.99,
+        "listed_total_p25": 18.37,
+        "listed_total_median": 23.75,
+        "listed_total_p75": 25.56,
+        "listed_total_high": 32.26,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/358089994127",
+            "listed_total": 3.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/117271663250",
+            "listed_total": 12.26
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/128179741212",
+            "listed_total": 15.73
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 19
+        }
+      }
     },
     {
       "title": "Sony WH-CH520 Wireless Bluetooth On-Ear Headphones - With Code - White | Sold By Stocs UK (UK Mainland)",
@@ -122,7 +158,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WH-CH520+Wireless+Bluetooth+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -140,7 +176,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -194,7 +230,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DW055PL-XJ+Pocket+Laser+Distance+Measurer+%2F%2F+DWHT77100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -212,7 +248,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Makita+MAKPAC+821551-8+Type+3+Large+Connector+Case&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -230,7 +266,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Super+Mario+Game+Boy+72046&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -248,10 +284,46 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+SMART+Play%3A+Mos+Eisley+Cantina+75425&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75425",
+        "category": "lego",
+        "observed_at": "2026-11-07T14:20:38+00:00",
+        "date": "2026-11-07",
+        "sample_count": 20,
+        "listed_total_low": 4.99,
+        "listed_total_p25": 8.95,
+        "listed_total_median": 13.47,
+        "listed_total_p75": 53.98,
+        "listed_total_high": 69.99,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/357820512492",
+            "listed_total": 4.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/406734981472",
+            "listed_total": 5.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/327433355009",
+            "listed_total": 8.69
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 30
+        }
+      }
     },
     {
       "title": "LEGO Technic Ducati Desmo450 MX Factory Motorcycle 42238",
@@ -266,7 +338,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Ducati+Desmo450+MX+Factory+Motorcycle+42238&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -320,7 +392,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -338,7 +410,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+4Ah+Battery%2C+DCB182-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -356,7 +428,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+SMART+Play%3A+Eevee+and+Lapras%E2%80%99s+Treasure+Hunt+72162&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -410,7 +482,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -464,7 +536,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+DCB184+18V+XR+5.0Ah+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -482,10 +554,46 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75347",
+        "category": "lego",
+        "observed_at": "2026-11-07T14:20:38+00:00",
+        "date": "2026-11-07",
+        "sample_count": 36,
+        "listed_total_low": 11.98,
+        "listed_total_p25": 44.65,
+        "listed_total_median": 47.8,
+        "listed_total_p75": 54.28,
+        "listed_total_high": 80.0,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/257556264764",
+            "listed_total": 11.98
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/377627495243",
+            "listed_total": 40.5
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/257646831282",
+            "listed_total": 40.81
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 14
+        }
+      }
     },
     {
       "title": "DEWALT DCB184-XJ 18V 5.0Ah XR Li-Ion Battery",
@@ -500,7 +608,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCB184-XJ+18V+5.0Ah+XR+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -518,7 +626,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ideas+Polaroid+OneStep+SX-70+Camera+21345&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "indicative_only",
@@ -571,7 +679,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Fire+Station+with+Fire+Engine+60414+Truck+Model%2C+Dog+Animal+Figure+%26+5+Minifigures&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -589,7 +697,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+18V+XR+Compact+Blower+Variable+Speed+Tool+Only%2C+DCV100-XJ&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -606,7 +714,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 15,
+      "priority": 5,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jack+%26+Jones+Mens+Modern+Combo+Classic+Trainers+%28+Sizes+6+to+12+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -623,7 +731,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 15,
+      "priority": 5,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Estee+Lauder+Modern+Muse+Eau+De+Parfum+Spray+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -640,7 +748,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 15,
+      "priority": 5,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Superfly+Unisex+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -657,7 +765,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 15,
+      "priority": 5,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Fire+Men%27s+Trainers%2C+Size+9.5+%28Sizes+8%2C+9%2C+11+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -675,10 +783,32 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dangerous+Driving&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "dangerous driving xbox one series x s",
+        "category": "gaming",
+        "observed_at": "2026-11-07T14:20:38+00:00",
+        "date": "2026-11-07",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 1
+        }
+      }
     },
     {
       "title": "Nike Futura T-Shirt (Ages 12 - 24m)",
@@ -693,7 +823,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Futura+T-Shirt+%28Ages+12&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -711,7 +841,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Regatta+Kota%2FMarine+Kid%27s+Trainers+Various+Colours+%26+Sizes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -729,7 +859,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget"
@@ -747,7 +877,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+6-Pack+Everyday+Cushioned+Training+Crew+Socks&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -765,7 +895,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Men%27s+Squadra+25+Shorts%2C+Black%2FWhite%2C+XS&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -783,7 +913,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Unisex+Cushioned+Sportswear+Crew+Socks%2C+3+Pair+Pack&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -801,7 +931,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+6.35mm+25mm+Hex+Shank+PZ2+Impact+Torsion+Screwdriver+Bits+25+Pack+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -819,7 +949,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+McLaren+F1+Team+6.35mm+Hex+Shank+Mixed+Impact+Ready+Torsion+Screwdriver+Bit+Set+32+Pieces&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -837,7 +967,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Wireless+Bluetooth+Headphones+6.0+Bluetooth+with+Microphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -855,7 +985,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+Extreme+Tri+Flute+Wood+Drill+Bit+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -873,10 +1003,46 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Little+Nightmares+II+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "little nightmares ii xbox series x",
+        "category": "gaming",
+        "observed_at": "2026-11-07T14:20:38+00:00",
+        "date": "2026-11-07",
+        "sample_count": 5,
+        "listed_total_low": 16.95,
+        "listed_total_p25": 18.85,
+        "listed_total_median": 26.59,
+        "listed_total_p75": 27.39,
+        "listed_total_high": 29.92,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/317868942109",
+            "listed_total": 16.95
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/365137843149",
+            "listed_total": 18.85
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/388606918528",
+            "listed_total": 26.59
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 38
+        }
+      }
     },
     {
       "title": "DEWALT Rafter Square 7\" (177mm) Free C&C",
@@ -891,7 +1057,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Rafter+Square+7%22+%28177mm%29+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -909,7 +1075,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+F50+Sparkfusion+League+Mid+Cut+Firm+Ground%2FArtificial+Grass+Football+Boots+%28yellow+size+12+ladies%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -927,7 +1093,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Pepe+Jeans+Men%27s+Brady+Basic+trainer+shoe+Size+8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -945,7 +1111,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=soundcore+by+Anker+P20i+True+Wireless+Earbuds%2C+10mm+Drivers+with+Big+Bass+%28Renewed%29.&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -963,7 +1129,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+For+Men+Aftershave+Splash+100ml+%2F+JOOP%21+Homme+Wild+For+Him+Eau+de+Toilette+Spray+125ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -981,7 +1147,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Unisex+Tensaur+Sport+3.0+Kids+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -999,7 +1165,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Calvin+Klein+Eternity+100ml+Aftershave+%28Free+C%26C%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -1017,10 +1183,41 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HORI+Battle+Pad+GameCube+Style+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "hori battle pad gamecube style controller zelda nintendo switch",
+        "category": "gaming",
+        "observed_at": "2026-11-07T14:20:38+00:00",
+        "date": "2026-11-07",
+        "sample_count": 2,
+        "listed_total_low": 25.99,
+        "listed_total_p25": 26.24,
+        "listed_total_median": 26.49,
+        "listed_total_p75": 26.74,
+        "listed_total_high": 26.99,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/277231731850",
+            "listed_total": 25.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/377214090130",
+            "listed_total": 26.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 5
+        }
+      }
     },
     {
       "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
@@ -1035,7 +1232,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Chelsea+FC+2024%2F25+Home+Shirt+Junior&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -1053,7 +1250,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Women%27s+Nike+Calm+Slide%2C+Sail%2C+Size+3.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -1071,7 +1268,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Triangle+2-Way+Straps+Bikini+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -1089,7 +1286,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Men%27s+adidas+Court+Spec+2+Tennis+Shoes+Size+9.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
@@ -1107,7 +1304,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 10,
+      "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Camo+Blue+Turtle+Beach+Recon+70+Wired+Multiplatform+Gaming+Headset+for+XBOX%2C+PC%2C+PS5%2C+Camo+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
