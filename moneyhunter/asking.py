@@ -94,11 +94,13 @@ def estimate(raw, snapshot, when=None):
     review_ok = bool(known and cost <= p['cap'] and breakdown.net >= p['review_net'] and breakdown.net/cost >= p['review_roi'] and stress_ok and confidence == 'moderate' and low_support >= 3)
     acquisition_resolved = str(raw.get("merchant", "")).casefold() != "ebay" or bool(ids or own_seller)
     coupon_unknown = any(o.get("available_coupons") and o["listed_total"] <= xs[0]*1.1 for o in offers)
-    supported = not coupon_unknown and adequate and raw.get("online_eligible") is True and acquisition_resolved
+    detail_ok=not snapshot.get("detail_required") or (snapshot.get("detail_status")=="verified_fields" and item_id(snapshot.get("lowest_detail",{}).get("item_id"))==item_id(offers[0].get("item_id")) and snapshot.get("lowest_detail",{}).get("checked_item_price")==offers[0].get("item_price"))
+    supported = detail_ok and not coupon_unknown and adequate and raw.get("online_eligible") is True and acquisition_resolved
     opportunity = supported and money_ok
     worth_reviewing = supported and review_ok and not opportunity
     watch_only = above
     blockers = ([] if adequate else ["Fewer than five independent sellers or fewer than two supporting the low price"])
+    if not detail_ok:blockers.append("Lowest comparator details unverified/conflicting: "+snapshot.get("detail_status","pending")+"; cheap observation retained, no buying signal")
     if coupon_unknown: blockers.append("Low competing offers advertise coupons; check effective competition before buying")
     if not acquisition_resolved: blockers.append("eBay acquisition listing identity missing; self-exclusion not confirmed")
     if not known: blockers.append("Inbound delivery unknown; profit is only an upper bound")
@@ -108,7 +110,7 @@ def estimate(raw, snapshot, when=None):
     if not raw.get("online_eligible"): blockers.append("Online physical acquisition not confirmed")
     if raw.get("offer_verified") is not True: blockers.append("Check current retailer stock, checkout price and exact variant before buying")
     advertised = [o["advertised_original_total"] for o in offers if o.get("advertised_original_total") and not o.get("same_acquisition_promotion")]
-    model = {"model":MODEL,"category":category,"competitor_coupon_unknown":coupon_unknown,"basis":"Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed", "query":snapshot["query"],
+    model = {"model":MODEL,"category":category,"detail_status":snapshot.get("detail_status","not_required"),"competitor_coupon_unknown":coupon_unknown,"basis":"Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed", "query":snapshot["query"],
         "observed_at":snapshot["observed_at"],"condition":"new (seller declared)","region":"GB","sample_count":count,"seller_count":seller_count,
         "unknown_seller_samples":len(unknown),"low_price_supporting_sellers":low_support,"confidence":confidence,"wide_spread":spread>1.5,
         "competition_low":xs[0],"competition_high":xs[-1],"estimated_resale":target,"estimated_range":[quick,xs[0]],

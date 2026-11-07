@@ -41,6 +41,18 @@ def scan(raws, state, when=None):
     ordered=research_budget.fair_order(eligible,lambda pair:pair[1].category,
         lambda pair:(history.get(pair[0],''),-int(cache.get(pair[0],{}).get('sample_count',0)>=5),-int(pair[1].identity.get('style_code') in variants.KNOWN_STYLE_GENDER),pair[0]),rotation.get('acquisition',0))
     health.update({'query_budget':4,'queries_by_category':{},'query_details':[]})
+    # Price-led targets persist independently of today's feed. Keep one discovery
+    # slot so unsupported/new identities are not starved by existing valuations.
+    from .. import watchlist
+    targets=[]
+    for key,e in state.get('value_watchlist',{}).items():
+        if e.get('target_status')!='usable_configured_cost_target' or not e.get('max_landed_buy') or not 0<=age(e.get('observed_at'),when)<6 or age(history.get(key),when)<1:continue
+        targets.append((key,watchlist.ident(e['identity_snapshot'])))
+    targets=research_budget.fair_order(targets,lambda pair:pair[1].category,
+        lambda pair:(history.get(pair[0],''),pair[0]),rotation.get('acquisition',0))[:3]
+    target_keys={key for key,_ in targets}
+    ordered=targets+[(key,i) for key,i in ordered if key not in target_keys]
+    health.update(price_led_queries=0,research_discovery_queries=0,persistent_watchlist=len(state.get('value_watchlist',{})))
     if cache.get('browse-blocked'): health['status']='paused_operator_review_required'
     elif ebay.available():
         for key,ident in ordered[:4]:
@@ -52,16 +64,30 @@ def scan(raws, state, when=None):
             rotation['acquisition']=rotation.get('acquisition',0)+1
             history[key]=when.isoformat(timespec='seconds')
             try:
-                snapshot=market.summary(ebay.active_items(ident.match,business_only=True),ident,when)
+                target=state.get('value_watchlist',{}).get(key) if key in target_keys else None
+                maximum=min(p['cap'],target['max_landed_buy']) if target else None
+                # Price filter is item-only. Fixed delivery is always post-checked.
+                count=state.setdefault('target_search_counts',{}).get(key,0)
+                sort='newlyListed' if target and count%2 else 'price'
+                state['target_search_counts'][key]=count+1
+                if target:
+                    items=ebay.active_items(ident.match,business_only=True,sort=sort,max_item_price=maximum)
+                    health['price_led_queries']+=1
+                    target.update(last_search_at=when.isoformat(timespec='seconds'),last_search_sort=sort,last_item_price_filter=maximum)
+                else:
+                    items=ebay.active_items(ident.match,business_only=True)
+                    health['research_discovery_queries']+=1
+                snapshot=market.summary(items,ident,when)
                 health['matched_shipped_samples']=health.get('matched_shipped_samples',0)+snapshot['sample_count']
-                health['query_details'].append({'query':ident.match,'category':ident.category,'samples':snapshot['sample_count'],'rejected':snapshot['rejected']})
+                health['query_details'].append({'query':ident.match,'category':ident.category,'samples':snapshot['sample_count'],'rejected':snapshot['rejected'],'sort':sort,'max_item_price':maximum,'max_landed_price':maximum,'target_status':target['target_status'] if target else 'discovery_research','ceiling_basis':'Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal'})
                 health['rejections']=snapshot['rejected']
                 # Acquisition business-only results never replace all-seller competition.
                 sellers=set();chosen=0
                 for o in snapshot['offers']:
                     if chosen>=3:break
                     if not o.get('seller') or o['seller'].casefold() in sellers or 'FIXED_PRICE' not in o.get('buying_options',[]):continue
-                    if o['listed_total']>p['watch_ceiling']:continue
+                    if o['listed_total']>p['watch_ceiling'] or maximum is not None and o['listed_total']>maximum:
+                        health['above_landed_target']=health.get('above_landed_target',0)+1;continue
                     exact=market.identity({'title':o['title'],'category':ident.category})
                     if not exact:continue
                     sellers.add(o['seller'].casefold());chosen+=1
@@ -70,7 +96,7 @@ def scan(raws, state, when=None):
                         'inbound_delivery':o['shipping'],'delivery':'Fixed shipping quoted by Browse; checkout confirmation required',
                         'seller_type':'BUSINESS (documented acquisition filter)','buyer_fee_basis':'No private seller Buyer Protection charge; BUSINESS-filtered source',
                         'merchant':'eBay','source':'ebay_browse','source_observed_at':snapshot['observed_at'],
-                        'acquisition_query':ident.match,'source_filter':'FIXED_PRICE / NEW / GB / GBP / BUSINESS','acquisition_url':o['url'],'ebay_item_id':o['item_id'],'acquisition_seller':o['seller'],
+                        'acquisition_query':ident.match,'acquisition_mode':'value_led' if target else 'discovery_research','search_max_landed':maximum,'search_sort':sort,'source_filter':'FIXED_PRICE / NEW / GB / GBP / BUSINESS','acquisition_url':o['url'],'ebay_item_id':o['item_id'],'acquisition_seller':o['seller'],
                         'online_eligible':True,'offer_verified':False,'condition':'new','heat':0,'desc':'',
                         'end_at':o.get('end_at'),'availability_basis':'Active official Browse observation, not checkout guarantee'}
             except Exception as exc:

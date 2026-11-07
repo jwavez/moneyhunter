@@ -288,7 +288,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     graded_urls = {d.url for d, r in graded if r.grade[0] in "AB"}
     prices_now = read_prices()
     per = {}
-    for it in sorted(raws, key=lambda x: (-x.get("review_priority", 0), -(x.get("heat") or 0))):
+    for it in sorted(raws, key=lambda x: (x.get('source')=='ebay_browse',-x.get("review_priority", 0), -(x.get("heat") or 0))):
         ch = CAT_CHANNEL.get(it.get("category"))
         k = ("w:ask-model-v1:" if it.get("ask_estimate") else "w:") + it["url"]
         if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in graded_urls or not resellable(it): continue
@@ -326,6 +326,13 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         e["fields"].insert(0, {"name":"Competitor-based resale estimates (NOT verified BUY)", "value":f"{stats.get('ask_valued',0)} offers estimated · {stats.get('estimated_opportunities',0)} strong / CHECK · {stats.get('worth_reviewing',0)} manual review · {stats.get('above_budget_estimates',0)} above-budget watch · {stats.get('ask_delivery_known',0)} known inbound / {stats.get('qualified_delivery_unknown',0)} unknown inbound · {stats.get('ask_unique_products',0)} distinct estimated products. A/B sold-evidence grades unchanged.","inline":False})
         e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
         e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(raws, stats)[:1000], "inline": False})
+        if stats.get('source_coverage'):
+            e['fields'].append({'name':'Retail feeds retained + complementary eBay acquisition',
+                'value':' · '.join(f"{src}: {v['offers']} offers / {v['new']} new / {v['estimated']} estimated / {v['actionable']} CHECK or review" for src,v in stats['source_coverage'].items())[:1000],'inline':False})
+        if stats.get('value_watchlist'):
+            w=stats['value_watchlist'];a=stats.get('sources',{}).get('ebay_acquisition',{})
+            e['fields'].append({'name':'Value-led watchlist (not buy approval)',
+                'value':f"{w['products']} exact identities / {w['usable_targets']} fresh configured-cost targets; {a.get('price_led_queries',0)} price-targeted + {a.get('research_discovery_queries',0)} discovery searches. getItem {stats.get('item_details',{}).get('calls',0)}/4; shared 800/day cap.",'inline':False})
         if stats.get('pricing_coverage'):
             e['fields'].append({'name':'Exact pricing coverage (offers / estimated / distinct products)',
                 'value':' · '.join(f"{cat}: {x['offers']}/{x['estimated_offers']}/{x['estimated_products']}" for cat,x in stats['pricing_coverage'].items())[:1000],'inline':False})
