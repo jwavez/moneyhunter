@@ -1987,7 +1987,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-07T16:26:48+00:00",
+  "generated_utc": "2026-11-07T16:57:27+00:00",
   "price_cap": 60.0,
   "schema_version": 2,
   "review_queue": [
@@ -6429,6 +6429,24 @@
       }
     },
     {
+      "title": "Black Friday Sale | E.g. Makita 821551-8 MakPac Type 3 Stacking Case / Dewalt Tough STD DS150 Toughsystem Toolbox with Inlay",
+      "url": "https://www.hotukdeals.com/deals/black-friday-sale-eg-makita-821551-8-makpac-type-3-stacking-case-dewalt-toughstd-ds150-toughsystem-toolbox-with-inlay-5025632",
+      "category": "tools",
+      "item_price": 9.99,
+      "landed_cost": null,
+      "breakeven_sell": 19.89,
+      "sell_for_minimum_profit": 28.95,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-07T16:57:17+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Black+Friday+Sale&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
       "title": "Tilswall Paint Sprayer Shark700, Fits Makita 18V (No Battery), White - Discount at Checkout - Sold by Tilswall Direct EU / FBA",
       "url": "https://www.hotukdeals.com/deals/tilswall-paint-sprayer-shark700-fits-makita-18v-no-battery-white-with-checkout-discount-sold-by-tilswall-direct-eu-fba-5021941",
       "category": "tools",
@@ -6443,6 +6461,24 @@
       "priority": 15,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tilswall+Paint+Sprayer+Shark700%2C+Fits+Makita+18V+%28No+Battery%29%2C+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Maison Alhambra La Charmante EDP 100ml with code",
+      "url": "https://www.hotukdeals.com/deals/maison-alhambra-la-charmante-edp-100ml-with-code-5025805",
+      "category": "fragrance",
+      "item_price": 10.36,
+      "landed_cost": null,
+      "breakeven_sell": 17.22,
+      "sell_for_minimum_profit": 26.8,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T16:57:17+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Maison+Alhambra+La+Charmante+EDP+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6464,6 +6500,24 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
+      "title": "Riiffs Fleurie Emerald EDP 100ml - With Code",
+      "url": "https://www.hotukdeals.com/deals/riiffs-fleurie-emerald-edp-100ml-with-code-5025804",
+      "category": "fragrance",
+      "item_price": 10.99,
+      "landed_cost": null,
+      "breakeven_sell": 17.98,
+      "sell_for_minimum_profit": 27.56,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T16:57:17+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Riiffs+Fleurie+Emerald+EDP+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
       "title": "Sony WH-CH520 Wireless Bluetooth On-Ear Headphones - With Code - White | Sold By Stocs UK (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/sony-wh-ch520-wireless-bluetooth-on-ear-headphones-with-code-white-sold-by-stocs-uk-uk-mainland-5025151",
       "category": "tech",
@@ -6479,6 +6533,24 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WH-CH520+Wireless+Bluetooth+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Issey Miyake L'Eau D'Issey Pour Homme Sport Eau de Toilette 100ml For Him w/code - Sold by ScentWarehouse",
+      "url": "https://www.hotukdeals.com/deals/issey-miyake-leau-dissey-pour-homme-sport-eau-de-toilette-100ml-for-him-wcode-sold-by-scentwarehouse-5025798",
+      "category": "fragrance",
+      "item_price": 21.91,
+      "landed_cost": null,
+      "breakeven_sell": 31.05,
+      "sell_for_minimum_profit": 41.56,
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T16:57:17+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Issey+Miyake+L%27Eau+D%27Issey+Pour+Homme+Sport+Eau+de+Toilette+100ml+For+Him&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -6626,24 +6698,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Gucci Flora Gorgeous Orchid Eau de Parfum 50ml + 10ml Spray Set - NEW - sold by Fragrance Click",
-      "url": "https://www.hotukdeals.com/deals/gucci-flora-gorgeous-orchid-eau-de-parfum-50ml-10ml-spray-set-new-sold-by-fragrance-click-5025784",
-      "category": "fragrance",
-      "item_price": 53.51,
-      "landed_cost": null,
-      "breakeven_sell": 68.9,
-      "sell_for_minimum_profit": 94.54,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T16:26:39+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gucci+Flora+Gorgeous+Orchid+Eau+de+Parfum+50ml+%2B+10ml+Spray+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "DEWALT 18V XR Compact Blower Variable Speed Tool Only, DCV100-XJ",
       "url": "https://www.hotukdeals.com/deals/dewalt-18v-xr-compact-blower-variable-speed-tool-only-dcv100-xj-5020634",
       "category": "tools",
@@ -6676,23 +6730,6 @@
       "priority": 5,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jack+%26+Jones+Mens+Modern+Combo+Classic+Trainers+%28+Sizes+6+to+12+%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Estee Lauder Modern Muse Eau De Parfum Spray 50ml - W/Code (Free Delivery on \u00a330+)",
-      "url": "https://www.hotukdeals.com/deals/estee-lauder-modern-muse-eau-de-parfum-spray-50ml-wcode-free-delivery-on-ps30-5025437",
-      "category": "fragrance",
-      "item_price": 23.99,
-      "landed_cost": 23.99,
-      "breakeven_sell": 33.55,
-      "sell_for_minimum_profit": 45.04,
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 5,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Estee+Lauder+Modern+Muse+Eau+De+Parfum+Spray+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -7132,48 +7169,12 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Chelsea+FC+2024%2F25+Home+Shirt+Junior&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Women's Nike Calm Slide, Sail, Size 3.5 - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/womens-nike-womens-calm-slide-sail-size-35-free-cc-5021691",
-      "category": "trainers",
-      "item_price": 15.0,
-      "landed_cost": null,
-      "breakeven_sell": 23.69,
-      "sell_for_minimum_profit": 33.41,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Women%27s+Nike+Calm+Slide%2C+Sail%2C+Size+3.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "adidas Triangle 2-Way Straps Bikini Set - Size 40",
-      "url": "https://www.hotukdeals.com/deals/adidas-triangle-2-way-straps-bikini-set-size-40-5025600",
-      "category": "trainers",
-      "item_price": 15.1,
-      "landed_cost": null,
-      "breakeven_sell": 23.81,
-      "sell_for_minimum_profit": 33.54,
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Triangle+2-Way+Straps+Bikini+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
     }
   ],
   "stats": {
-    "scanned": 304,
+    "scanned": 301,
     "priced": 4,
-    "unpriced": 300,
+    "unpriced": 297,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -7185,9 +7186,9 @@
     "expiry_unknown": 4,
     "sold_valued": 0,
     "reference_only": 4,
-    "online_eligible": 227,
-    "under_cap_known_delivery": 5,
-    "delivery_known": 7,
+    "online_eligible": 225,
+    "under_cap_known_delivery": 4,
+    "delivery_known": 6,
     "ask_valued": 11,
     "estimated_opportunities": 0,
     "qualified_delivery_unknown": 11,
@@ -7199,12 +7200,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 32,
+        "duplicates": 30,
         "old_dropped": 115,
         "age_unknown": 0,
-        "missing_price_or_category": 89,
+        "missing_price_or_category": 94,
         "ambiguous_price": 2,
-        "page_requests": 8
+        "page_requests": 7
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -7225,26 +7226,26 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-07T16:20:24.172Z",
-        "last_success": "2026-11-07T16:20:24.172Z"
+        "last_attempt": "2026-11-07T16:50:24.455Z",
+        "last_success": "2026-11-07T16:50:24.455Z"
       },
       "cash_floors": {
         "automatic_source": false,
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 1,
-    "rescanned": 303,
+    "new": 10,
+    "rescanned": 291,
     "price_changed": 0,
-    "previous_success": "2026-11-07T16:24:14+00:00",
-    "gap_minutes": 2.4,
+    "previous_success": "2026-11-07T16:26:40+00:00",
+    "gap_minutes": 30.6,
     "review_candidates": 50,
     "delivery_mode": "live",
     "execution": {
       "revision": "d24042d37974c7a466e153cd2d19d9b2d6797722",
-      "run_id": "42391300511",
-      "event": "schedule",
-      "parent_run_id": null
+      "run_id": "42393837532",
+      "event": "workflow_dispatch",
+      "parent_run_id": "42391300511"
     },
     "delivery_failures": 0,
     "pricing_products": 0,
