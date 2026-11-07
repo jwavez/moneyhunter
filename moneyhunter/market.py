@@ -35,6 +35,21 @@ def cache_key(ident):
     return "browse-asks-v5:" + ident.category + ":" + ident.match.lower() + ":" + fingerprint
 
 
+def canonical_game(title):
+    t=re.split(r"\s(?:@|at)\s|\s+with code|\s+w/",title,maxsplit=1,flags=re.I)[0]
+    t=re.sub(r"[£]\s?\d+(?:\.\d{1,2})?",'',t)
+    t=re.sub(r"\b(?:brand new(?: and)? sealed|new and sealed|brand new|new sealed|physical copy|in stock)\b|free (?:shipping|delivery|c&c|click (?:and|&) collect|p\s*&\s*p)",'',t,flags=re.I)
+    t=M.norm(t)
+    t=re.sub(r'\bplaystation ([45])\b',r'ps\1',t)
+    # Descriptor adjacent to a platform, never an arbitrary word in the game name.
+    t=re.sub(r'\b(ps[45]|xbox series x s|xbox series x|nintendo switch 2|nintendo switch) game\b',r'\1',t)
+    platforms=re.findall(r'\bps[45]\b|\bxbox series x s\b|\bxbox series x\b|\bxbox one\b|\bnintendo switch 2\b|\bnintendo switch\b',t)
+    if len(set(platforms))==1:
+        platform=platforms[0];t=re.sub(r'\b'+re.escape(platform)+r'\b','',t)
+        t=' '.join(t.split())+' '+platform
+    return ' '.join(t.split())
+
+
 def identity(raw):
     """Bounded, title-derived research identities, not human-reviewed product facts."""
     title, cat = raw.get("title", ""), raw.get("category")
@@ -61,10 +76,7 @@ def identity(raw):
     elif cat == "gaming":
         # Preserve platform/edition. Too much promotional noise means no lookup,
         # rather than over-aggressively deleting words from the actual game name.
-        title = re.split(r"\s(?:@|at)\s|\s+with code|\s+w/", title, maxsplit=1, flags=re.I)[0]
-        title = re.sub(r"[£]\s?\d+(?:\.\d{1,2})?", "", title)
-        title = re.sub(r"\b(?:brand new(?: and)? sealed|new and sealed|brand new|new sealed|physical copy|in stock)\b|free (?:delivery|c&c|p\s*&\s*p)", "", title, flags=re.I)
-        query = " ".join(M.norm(title).split())
+        query = canonical_game(title)
         platforms = [p for p in ("ps4", "ps5", "xbox", "switch", "pc") if M.has(M.norm(query), p)]
         if len(platforms) != 1 or platforms[0] == "pc" or len(query.split()) < 4 or len(query) > 100:
             return None
@@ -84,6 +96,11 @@ def identity(raw):
 def matches(title, ident):
     if hasattr(ident,"variant"): return variants.matches(title,ident)
     t = M.norm(title)
+    if ident.category=='gaming':
+        wanted=canonical_game(ident.match)
+        if canonical_game(title)!=wanted:return False
+        checked=SimpleNamespace(match=wanted,category=ident.category,identity=ident.identity)
+        return M.check(title,'',checked)==''
     if ident.category == 'tech':
         wanted = re.sub(r'[^a-z0-9]', '',ident.match.lower())
         actual = re.sub(r'[^a-z0-9]', '',title.lower())
@@ -210,7 +227,7 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET, lane="asking"
         except (KeyError, TypeError, ValueError): return float("inf")
     rotation=state.setdefault('research_rotation',{})
     ordered=research_budget.fair_order(pending.items(),lambda kv:kv[1][0].category,
-        lambda kv:(-age(cache.get(kv[0],{})),-max(r.get('priority',0) for r in kv[1][1]),kv[0]),rotation.get(lane,0))
+        lambda kv:(-int(any(by_url.get(r['url'],{}).get('source')!='ebay_browse' for r in kv[1][1])),-age(cache.get(kv[0],{})),-max(r.get('priority',0) for r in kv[1][1]),kv[0]),rotation.get(lane,0))
     for k, (ident, rows) in ordered:
         snapshot = cache.get(k, {})
         checked = revalidate(snapshot, ident, when)
@@ -249,8 +266,11 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET, lane="asking"
                     cache["browse-blocked"] = {"kind": "source_paused", "date": when.date().isoformat(), "status": code}
                     health["status"] = "paused_operator_review_required"
         if fresh:
+            from . import details
+            snapshot=details.inspect_snapshot(snapshot,ident,state,when)
+            cache[k]=snapshot
             for c in rows:
-                c["ask_context"] = {**snapshot,"query_aliases":sorted({by_url[r["url"]]["title"] for r in rows})}
+                c["ask_context"] = {**details.for_acquisition(snapshot,by_url.get(c["url"],{}),ident,state,when),"query_aliases":sorted({by_url[r["url"]]["title"] for r in rows})}
                 c["ask_status"] = snapshot["status"]
                 if snapshot["sample_count"]: health["candidates_with_samples"] += 1
     if health["errors"] and health["status"] == "ready": health["status"] = "partial_failure"

@@ -123,9 +123,15 @@ def run_scan():
     if "FAILED" in ebay_health: errors.append("eBay authentication failed; competition context unavailable")
     if os.getenv("MH_TIER_WARNING"): warnings.append("Private tier unavailable or invalid; using starter cap (community index 0)")
     operational = RT.load(OPERATIONAL)
+    from . import watchlist
+    operational['detail_run']={'calls':0,'cached':0,'errors':[]}
+    when=RT.now()
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
     from .scanners import capture
     raws = capture.merge(raws, capture.scan(log=lambda m: (print(m), errors.append(m))))
+    watchlist.migrate(operational,when)
+    persistent_health=watchlist.refresh_stale(operational,when,budget=2)
+    watchlist.build(operational,when)
     from .scanners import discovery
     from . import policy
     raws += discovery.scan(raws, operational)
@@ -167,7 +173,7 @@ def run_scan():
             score += 10 if re.search(r"\b(?:[a-z]{2,}\d{2,}|\d{5,6})\b", raw["title"], re.I) else 0
             score += 5 if d.delivery_known else 0
             raw["review_priority"] = score
-            review.append({"title": d.title, "url": d.url, "category": d.category, "item_price": d.buy_price,
+            review.append({"title": d.title, "url": d.url, "category": d.category,"source":raw.get("source","hotukdeals"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
                 **{k:raw.get(k) for k in ("image_status","image_verified_url","image_verified_until","image_checked_at","image_candidates")},
                 "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
@@ -182,8 +188,8 @@ def run_scan():
     # Independent research slots prevent above-budget discovery starving affordable offers.
     within = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) <= cap]
     above = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) > cap]
-    ask_health = market.enrich(within, raws, operational, budget=8, lane="asking-affordable")
-    watch_health = market.enrich(above, raws, operational, budget=4, lane="asking-watch")
+    ask_health = market.enrich(within, raws, operational, budget=4, lane="asking-affordable")
+    watch_health = market.enrich(above, raws, operational, budget=2, lane="asking-watch")
     ask_health['above_budget_research'] = watch_health
     ask_health['errors'] += watch_health['errors']
     errors.extend(ask_health["errors"])
@@ -248,6 +254,14 @@ def run_scan():
     for entry in review:
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
     LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))
+    stats['source_coverage']={source:{'offers':sum(r.get('source','hotukdeals')==source for r in raws),
+        'new':sum(r.get('source','hotukdeals')==source and operational['items'][RT.key(r)]['observations']==1 for r in raws),
+        'estimated':sum(r.get('source','hotukdeals')==source and bool(r.get('ask_estimate')) for r in raws),
+        'actionable':sum(r.get('source','hotukdeals')==source and bool(r.get('ask_estimate',{}).get('estimated_opportunity') or r.get('ask_estimate',{}).get('worth_reviewing')) for r in raws)}
+        for source in sorted({r.get('source','hotukdeals') for r in raws})}
+    stats['value_watchlist']=watchlist.build(operational,RT.now(),inspect=False)
+    stats['persistent_research']=persistent_health
+    stats['item_details']=dict(operational['detail_run'])
     stats["review_candidates"] = len(LAST_REVIEW)
     stats["lego_image_validation"]=image_report
     stats["images_available"] = sum(bool(r.get("thumb")) for r in raws)
@@ -284,7 +298,7 @@ def export_public(path, stats, graded):
     # Full bounded provenance remains in scan_state; keep the bot response compact.
     review_export = [{**r, **({"ask_context": {**r["ask_context"], "offers": r["ask_context"]["offers"][:10]}} if r.get("ask_context") else {})} for r in LAST_REVIEW]
     asking = {r["ask_context"]["query"]: r["ask_context"] for r in review_export if r.get("ask_context")}
-    out = {"pricing_catalog": catalog, "asking_catalog": list(asking.values()), "pricing_status": {
+    out = {"value_watchlist":list(LAST_OPERATIONAL.get("value_watchlist",{}).values()),"pricing_catalog": catalog, "asking_catalog": list(asking.values()), "pricing_status": {
                "indicative_asking_products": sum(v["sample_count"] > 0 for v in asking.values()),
                "automatic_asking_estimates": True,
                "ask_estimated_products": len({r["ask_estimate"]["query"] for r in LAST_REVIEW if r.get("ask_estimate")}),

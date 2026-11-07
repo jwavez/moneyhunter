@@ -153,7 +153,7 @@ def sources_text(sources):
             if detail:
                 watch=detail.get('above_budget_research',{})
                 suffix+=f"; watch {watch.get('queries',0)} queries/{watch.get('cached',0)} cached"
-            if name=='ebay_acquisition':suffix+=f"; {v.get('queries',0)}/{v.get('query_budget',0)} discovery queries, {v.get('candidates',0)} retained offers"
+            if name=='ebay_acquisition':suffix+=f"; {v.get('queries',0)}/{v.get('query_budget',0)} queries ({v.get('price_led_queries',0)} value-led / {v.get('research_discovery_queries',0)} discovery), {v.get('candidates',0)} retained offers"
             lines.append(f"{name}: {v.get('status', 'not configured')}{suffix}")
     return " · ".join(lines)[:1000] or "Not reported"
 

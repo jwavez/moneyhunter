@@ -79,7 +79,7 @@ def active_comp(comp, items: list, check, today=None):
         sold_90d=None, sell_through=None, evidence_type="active_ask", days_to_sell=None)
 
 
-def active_items(query: str, business_only: bool = False) -> dict:
+def active_items(query: str, business_only: bool = False, sort: str = "price", max_item_price=None) -> dict:
     """Documented Browse search of current NEW UK offers. Never a sold-data call.
 
     Do not use this endpoint to retry challenged completed-item pages. It is the
@@ -88,8 +88,22 @@ def active_items(query: str, business_only: bool = False) -> dict:
     """
     filters = "buyingOptions:{FIXED_PRICE},itemLocationCountry:GB,deliveryCountry:GB,conditionIds:{1000},priceCurrency:GBP"
     if business_only: filters += ",sellerAccountTypes:{BUSINESS}"
-    q = urllib.parse.urlencode({"q":query,"limit":50,"filter":filters})
+    if sort not in ('price','newlyListed'):raise ValueError('unsupported Browse sort')
+    if max_item_price is not None:
+        import math
+        if isinstance(max_item_price,bool) or not isinstance(max_item_price,(int,float)) or not math.isfinite(max_item_price) or max_item_price<=0:raise ValueError('invalid item-price ceiling')
+        filters+=f",price:[..{max_item_price:.2f}]"
+    q = urllib.parse.urlencode({"q":query,"limit":50,"filter":filters,"sort":sort})
     req = urllib.request.Request("https://api.ebay.com/buy/browse/v1/item_summary/search?" + q,
         headers={"Authorization": "Bearer " + _auth(), "X-EBAY-C-MARKETPLACE-ID": "EBAY_GB"})
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.load(r)
+
+
+def item_details(item_id: str) -> dict:
+    """Documented single-item Browse getItem, same existing application scope."""
+    import re
+    if not re.fullmatch(r'v1\|\d+\|\d+',str(item_id)):raise ValueError('invalid Browse item id')
+    url='https://api.ebay.com/buy/browse/v1/item/'+urllib.parse.quote(item_id,safe='')
+    req=urllib.request.Request(url,headers={'Authorization':'Bearer '+_auth(),'X-EBAY-C-MARKETPLACE-ID':'EBAY_GB'})
+    with urllib.request.urlopen(req,timeout=15) as r:return json.load(r)
