@@ -46,6 +46,11 @@ class Identity(unittest.TestCase):
             self.assertFalse(market.matches(title,ident),title)
         self.assertTrue(market.matches("LEGO Minecraft The Baby Pig House 21268 238pcs 7+ NEW",ident))
 
+    def test_real_wall_display_mount_is_not_the_named_whole_set(self):
+        c=market.identity({**RAW,"title":"LEGO Star Wars TIE Bomber 75347"})
+        self.assertFalse(market.matches("LEGO Star Wars TIE Bomber (75347) Wall Display Mount",c))
+        self.assertTrue(market.matches("LEGO 75347 Star Wars TIE Bomber NEW SEALED",c))
+
     def test_name_fingerprint_prevents_same_number_wrong_name_cache_reuse(self):
         other=market.identity({**RAW,"title":"LEGO Synthetic Galactic Robot 75402 new sealed"})
         self.assertNotEqual(market.cache_key(market.identity(RAW)),market.cache_key(other))
@@ -88,6 +93,19 @@ class Asking(unittest.TestCase):
         s=self.summary([item(),item(1),item(2,price={"value":"200","currency":"GBP"})])
         self.assertEqual(s["sample_count"],3);self.assertEqual(s["listed_total_low"],33);self.assertEqual(s["listed_total_high"],203)
         self.assertEqual(s["status"],"wide_spread")
+    def test_cached_accessory_reclassification_retains_real_source_and_observation_clock(self):
+        ident=market.identity(RAW)
+        old=market.summary({"itemSummaries":[item(i) for i in range(5)]},ident,NOW)
+        bad={**old["offers"][0],"title":"LEGO 75402 Synthetic Moon Rover Wall Display Mount","listed_total":4}
+        old["offers"].append(bad)
+        out=market.revalidate(old,ident,NOW+dt.timedelta(minutes=10))
+        self.assertEqual(out["observed_at"],old["observed_at"])
+        self.assertEqual(out["date"],old["date"])
+        self.assertEqual(out["sample_count"],5)
+        self.assertEqual(out["excluded_after_review"][0],bad)
+        self.assertEqual(out["listed_total_low"],33)
+        self.assertEqual(out["rejected"]["accessory_reclassified"],1)
+
     def test_cache_reused_budget_rotation_and_never_mutates_raw(self):
         raws=[{**RAW,"title":f"LEGO Synthetic Moon Rover {75402+i}","url":RAW["url"]+str(i)} for i in range(3)]
         original=copy.deepcopy(raws);rows=[{"url":r["url"],"priority":3-i} for i,r in enumerate(raws)];state={"ask_cache":{}}
