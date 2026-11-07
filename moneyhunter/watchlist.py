@@ -100,5 +100,10 @@ def build(state,when,inspect=True):
         if not 0<=hours(e.get('observed_at'),when)<6:e.update(target_status='stale_research_only',max_landed_buy=None)
     state['value_watchlist']=dict(sorted(((k,e) for k,e in entries.items() if hours(e.get('last_seen'),when)<24*7),key=lambda kv:kv[1]['last_seen'],reverse=True)[:150])
     entries=state['value_watchlist']
-    return {'products':len(entries),'usable_targets':sum(e['target_status']=='usable_configured_cost_target' for e in entries.values()),
-        'by_category':{c:{'products':sum(e['category']==c for e in entries.values()),'usable_targets':sum(e['category']==c and e['target_status']=='usable_configured_cost_target' for e in entries.values())} for c in sorted({e['category'] for e in entries.values()})}}
+    unique=lambda xs:len({(e['category'],e['query'].casefold()) for e in xs})
+    return {'products':unique(entries.values()),'identity_contexts':len(entries),
+        'usable_targets':unique(e for e in entries.values() if e['target_status']=='usable_configured_cost_target'),
+        'by_category':{c:{'products':unique(e for e in entries.values() if e['category']==c),
+            'identity_contexts':sum(e['category']==c for e in entries.values()),
+            'usable_targets':unique(e for e in entries.values() if e['category']==c and e['target_status']=='usable_configured_cost_target')}
+            for c in sorted({e['category'] for e in entries.values()})}}

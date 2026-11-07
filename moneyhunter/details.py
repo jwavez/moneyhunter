@@ -84,7 +84,7 @@ def inspect_snapshot(snapshot,ident,state,when):
     run=state.setdefault('detail_run',{'calls':0,'cached':0,'errors':[]})
     if fresh and cached.get('checked_item_price') not in (None,low['item_price']):fresh=False
     if fresh:run['cached']+=1
-    elif not state.get('browse_details_blocked') and ebay.available() and run['calls']<LIMIT and research_budget.reserve(state,when,'item-details'):
+    elif not state.get('browse_details_blocked') and not state.get('ask_cache',{}).get('browse-blocked') and ebay.available() and run['calls']<LIMIT and research_budget.reserve(state,when,'item-details'):
         run['calls']+=1
         try:
             cached=assess(ebay.item_details(low['item_id']),low,ident,when);cache[key]=cached
