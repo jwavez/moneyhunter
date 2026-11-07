@@ -69,6 +69,10 @@ def matches(title, ident):
     if M.has(t, "instructions", "manual only", "box only", "empty box", "light kit", "lighting kit", "led kit", "display case", "parts only", "spares", "stickers", "compatible", "replica", "moc"):
         return False
     if ident.category == "lego":
+        # Real Browse examples: "Minecraft Baby Pig From Set 21268 Item ...".
+        # Number and franchise/name words do not make a component the whole set.
+        if re.search(r"\b(?:from|out of)\s+(?:(?:the|a|lego)\s+)*(?:(?:set|sets)\s+)?\d{5,6}\b", t) or M.has(t, "taken from", "removed from"):
+            return False
         if M.has(t, "instruction", "manual", "manuals", "booklet", "booklets", "sticker", "stickers", "sheet", "sheets", "minifigure", "minifig", "minifigures", "minifigs", "parts", "spare", "replacement", "bag", "bags", "missing", "without", "incomplete", "for lego", "display stand", "display base", "acrylic", "light", "lights", "lighting", "led", "tag", "tags"):
             return False
         terms = getattr(ident, "name_terms", [])

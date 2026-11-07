@@ -112,3 +112,10 @@ realised sales. Gaming keeps its separate platform/edition/accessory checks.
 The bounded acceptance probe has its own concurrency group: rechecking it cannot
 cancel the normal production delayed successor. Both share the serialized scan
 publication boundary, not a timer cancellation group.
+
+The first provenance-enabled production validation confirmed the £3.49 example was
+actually titled “New Lego Minecraft Baby Pig From Set 21268 Item - minepig08”,
+not a whole set. Component-origin phrases (`from [the] set <number>`, `from
+<number>`, `out of [the] set <number>`, removed/taken from) are now excluded too.
+This is a confirmed matched-component bug, not a price-based assumption. It changes
+research asking ranges only and never reclassifies an ask as a sale.
