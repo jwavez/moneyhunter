@@ -46,7 +46,7 @@ def build_deal(raw: dict, comp) -> G.Deal:
     inbound = offer["delivery"] if offer else raw.get("inbound_delivery")
     from . import hub
     d = G.Deal(title=raw["title"], url=raw["url"], buy_price=raw["price"], category=raw["category"],
-               source="hotukdeals", merchant=raw["merchant"], delivery=raw["delivery"], heat=raw.get("heat"),
+               source=raw.get("source", "hotukdeals"), merchant=raw["merchant"], delivery=raw["delivery"], heat=raw.get("heat"),
                inbound_delivery=inbound or 0.0, delivery_known=inbound is not None,
                online_eligible=raw.get("online_eligible", False) and hub.resellable(raw), offer_verified=bool(offer))
     if comp:
@@ -125,6 +125,10 @@ def run_scan():
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
     from .scanners import capture
     raws = capture.merge(raws, capture.scan(log=lambda m: (print(m), errors.append(m))))
+    from .scanners import discovery
+    from . import policy
+    raws += discovery.scan(raws, operational)
+    errors.extend(discovery.LAST_DIAGNOSTICS["errors"])
     LAST_RAWS = raws
     counts = RT.observe(raws, operational)
     if counts["gap_minutes"] is not None and counts["gap_minutes"] > C.MAX_SCAN_GAP_MINUTES:
@@ -144,7 +148,7 @@ def run_scan():
         else:
             d.intel = _intel(d, res)
             graded.append((d, res))
-        if hub.resellable(raw) and d.online_eligible and d.buy_price + d.inbound_delivery <= cap:
+        if hub.resellable(raw) and d.online_eligible and d.buy_price + d.inbound_delivery <= policy.current()["watch_ceiling"]:
             blockers = E.gates_failed(res) if res else [why_not or "No exact reviewed sold observations"]
             if not d.delivery_known and "Inbound delivery unknown" not in blockers: blockers.append("Inbound delivery unknown")
             be, required, _ = hub.sell_needed(d.buy_price + d.inbound_delivery, d.category)
@@ -162,7 +166,13 @@ def run_scan():
                 "sold_search": E.ebay_sold_url(E.short_query(d.title))})
     from . import market
     review.sort(key=lambda r: (-r["priority"], r["item_price"], r["url"]))
-    ask_health = market.enrich(review[:50], raws, operational)
+    # Independent research slots prevent above-budget discovery starving affordable offers.
+    within = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) <= cap][:35]
+    above = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) > cap][:15]
+    ask_health = market.enrich(within, raws, operational, budget=4)
+    watch_health = market.enrich(above, raws, operational, budget=2)
+    ask_health['above_budget_research'] = watch_health
+    ask_health['errors'] += watch_health['errors']
     errors.extend(ask_health["errors"])
     from . import asking
     raw_by_url = {raw["url"]: raw for raw in raws}
@@ -194,10 +204,16 @@ def run_scan():
              "delivery_known": sum(r.get("inbound_delivery") is not None for r in raws),
              "ask_valued": sum(bool(r.get("ask_estimate")) for r in review),
              "estimated_opportunities": sum(bool(r.get("ask_estimate", {}).get("estimated_opportunity")) for r in review),
+             "worth_reviewing":sum(bool(r.get("ask_estimate",{}).get("worth_reviewing")) for r in review),
+             "above_budget_estimates":sum(bool(r.get("ask_estimate",{}).get("above_budget")) for r in review),
+             "above_budget_candidates":sum((r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) > cap for r in review),
+             "above_budget_researched":len(above),
+             "acquisition_by_source":{source:sum(r.get('source','hotukdeals')==source for r in raws) for source in {r.get('source','hotukdeals') for r in raws}},
              "qualified_delivery_unknown": sum(bool(r.get("ask_estimate")) and not r["ask_estimate"]["delivery_known"] for r in review),
              "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
                  "ebay": {"status": ebay_health, "purpose": "active asking competition only", "research": ask_health},
                  "capture_buffer": capture.LAST_DIAGNOSTICS,
+                 "ebay_acquisition":discovery.LAST_DIAGNOSTICS,
                  "cash_floors": {"automatic_source": False, "status": "reviewed exact cash quotes only"}}, **counts}
     if raws and not diagnostics.get("feeds_failed"): operational["last_success"] = RT.stamp(RT.now())
     operational["ask_cache"] = {k:v for k,v in operational["ask_cache"].items() if k == "browse-blocked" or v.get("date", "") >= (dt.date.today()-dt.timedelta(days=7)).isoformat()}
@@ -206,7 +222,7 @@ def run_scan():
     by_url = {d.url: (d, r) for d, r in graded}
     for entry in review:
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
-    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))[:50]
+    LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))[:50]
     stats["review_candidates"] = len(LAST_REVIEW)
     return br, tier, graded, affordable, unpriced, stats
 
@@ -244,6 +260,7 @@ def export_public(path, stats, graded):
                "automatic_asking_estimates": True,
                "ask_estimated_products": len({r["ask_estimate"]["query"] for r in LAST_REVIEW if r.get("ask_estimate")}),
                "estimated_opportunities": stats.get("estimated_opportunities", 0),
+               "worth_reviewing":stats.get("worth_reviewing",0),"above_budget_estimates":stats.get("above_budget_estimates",0),
                "automatic_sold_feed": False, "products": len(catalog),
                "sold_observations": stats["pricing_observations"],
                "blocker": None if catalog else "No fresh directly verified exact-product sold observations imported; active asks are not sold data"},

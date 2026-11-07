@@ -75,10 +75,11 @@ function estimateFields(m, buy = null, landedConfirmed = false) {
   if(!m || m.model!=="competitor-asks-v1" || !Number.isFinite(age) || age<0 || age>6*3600000) return [];
   const custom=buy!=null && Number.isFinite(buy) && buy>0 ? calc(buy,m.estimated_resale,"ebay_business",m.category || "default") : null;
   const profit=custom ? `${sgbp(custom.net)}${landedConfirmed ? ` / ${pct(custom.roi)} ROI at your supplied landed cost` : " BEFORE unknown inbound delivery; actual net/ROI unknown"}` : m.delivery_known ? `${sgbp(m.net)} / ${pct(m.roi)} ROI at ${gbp(m.landed_cost)} landed` : `Up to ${sgbp(m.net_before_unknown_delivery)} before UNKNOWN inbound delivery; actual net/ROI unknown`;
-  return [{name:m.signal,value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
+  const stress=m.review_stress_net!=null ? `${gbp(m.review_stress_sale)} resale → ${sgbp(m.review_stress_net)} / ${pct(m.review_stress_roi)} ROI` : "Unknown landed delivery: not established";
+  return [{name:"Manual-review downside scenario (not a forecast)",value:`10% resale drop: ${stress}. Requires £5 net AND 10% ROI, moderate confidence and three supporting low-price sellers. No measured turnover implied.`,inline:false},{name:m.signal,value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
     {name:"Estimated net / ROI",value:profit,inline:false},
     {name:"Competition, model and confidence",value:`${m.sample_count} seller-deduplicated asks / ${m.seller_count} known sellers; ${m.confidence} confidence. Current lowest delivered competition ${gbp(m.competition_low)}. Quick-sale model ${gbp(m.quick_sale_model)}; speed NOT measured. ${m.discount_note}`,inline:false},
-    {name:"Max landed buy / costs",value:`${gbp(m.max_landed_buy)} ceiling for £8 net + 40% ROI. Fee ${gbp(m.fees)}, outbound ${gbp(m.outbound_postage)}, packaging ${gbp(m.packaging)}, returns ${gbp(m.returns_allowance)}. Check actual checkout delivery/stock.`,inline:false},
+    {name:"Max landed buy / costs",value:`${gbp(m.max_landed_buy)} strong ceiling for ${gbp(m.policy?.strong_net ?? 8)} net + ${(m.policy?.strong_roi ?? .4)*100}% ROI. Manual review ceiling ${gbp(m.review_max_landed_buy ?? m.max_landed_buy)} (£10 net + 20% ROI); above-budget remains WATCH ONLY. Fee ${gbp(m.fees)}, outbound ${gbp(m.outbound_postage)}, packaging ${gbp(m.packaging)}, returns ${gbp(m.returns_allowance)}. Check actual checkout delivery/stock.`,inline:false},
     {name:"Checks and provenance",value:`${m.checks.join(" · ")}\nObserved ${london(m.observed_at)}. Regular price not established. ${m.acquisition_excluded} known acquisition listings excluded.`,inline:false}];
 }
 function estimateLinks(m) { return (m?.sources ?? []).slice(0,3).map((x,i)=>link(x.url,`Competitor ${i+1}`,"🔗")); }
@@ -92,10 +93,10 @@ function panel(d) {
   return {
     embeds: [{
       author: { name: "MONEYHUNTER" }, title: "💰 Control Panel", color: C.BRAND,
-      description: "Research under-£60 offers using conservative costs and reviewed sold evidence.\nClick a button below. Results are private to you.",
+      description: "Research affordable offers plus separately labelled ABOVE BUDGET watch candidates. Strong estimated CHECK and lower-ROI manual review are not verified BUYs.\nClick a button below. Results are private to you.",
       fields: [{ name: "📡 Scanner grading status", value: status },
         { name: "Independent RSS capture (research only)", value: d?.capture ? `${d.capture.status}${d.capture.stale ? " · STALE (>30 minutes or never captured)" : ""} · ${d.capture.items?.length ?? 0} retained offers · last attempt ${london(d.capture.last_attempt)}. No BUY grading or resale prices inferred.` : "Awaiting capture status" },
-        { name: "Resale estimates / verified pricing", value: d?.pricing_status ? `${d.pricing_status.ask_estimated_products ?? 0} products with competitor-based resale estimates · ${d.pricing_status.estimated_opportunities ?? 0} estimated CHECK opportunities. Separately: ${d.pricing_status.products} sold-valued products / ${d.pricing_status.sold_observations} sold observations. Estimates are not verified BUYs.` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
+        { name: "Resale estimates / verified pricing", value: d?.pricing_status ? `${d.pricing_status.ask_estimated_products ?? 0} products with competitor-based resale estimates · ${d.pricing_status.estimated_opportunities ?? 0} strong CHECK · ${d.pricing_status.worth_reviewing ?? 0} manual review · ${d.pricing_status.above_budget_estimates ?? 0} above-budget estimates. Separately: ${d.pricing_status.products} sold-valued products / ${d.pricing_status.sold_observations} sold observations. Estimates are not verified BUYs.` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
       footer: { text: "30-minute queued scan target; inspect last scan · Estimates are not guarantees" },
     }],
     components: [
@@ -171,7 +172,7 @@ function researchView(d, index = 0) {
     ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
     ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
     ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
-  return {embeds:[{title:`${x.ask_estimate ? "ASK-BASED ESTIMATE" : "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
+  return {embeds:[{title:`${x.ask_estimate?.signal ?? "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
 }
 
 // ---------- calculator ----------
@@ -232,13 +233,13 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   const unsafe=/\b(used|refurb(?:ished)?|pre[ -]?owned|open[ -]?box|no box|unboxed|bundles?|multi[ -]?packs?|stickers?|instructions?|manuals?|parts?|digital|download|minifig(?:ure)?s?|missing)\b/i.test(q);
   const asking = !unsafe && (pricing.asking_catalog ?? []).find(x=>freshAsking(x) && (cleanAskQuery(x.query)===cleanAskQuery(q) || (/lego/i.test(q) && numbers.length===1 && x.query===`LEGO ${numbers[0]}`)));
   if(asking) {
-    const entry=(pricing.review_queue ?? []).find(x=>x.ask_estimate?.query===asking.query);
+    const entry=(pricing.review_queue ?? []).filter(x=>x.ask_estimate?.query===asking.query).sort((a,b)=>a.ask_estimate.estimated_resale-b.ask_estimate.estimated_resale)[0];
     return {embeds:[{title:`Estimated resale · ${asking.query}`.slice(0,250),color:C.INFO,
       description:"Current exact-title NEW competitor offers including quoted shipping support this conservative MODEL estimate. Not sold data or a guaranteed sale. The cheapest credible competition caps the estimate even when discounted.",fields:[...estimateFields(entry?.ask_estimate,buy,landedConfirmed),...askFields(asking)]}],components:[row(...estimateLinks(entry?.ask_estimate),link(sold,"Sold research","📊")),again]};
   }
   const c = findComp(q, await getComps(env));
   if (c && c.blocked) return { embeds: [{ title: "⚠️ Not priced: uncertain match", color: C.B, description: `Closest comp is **${c.blocked.slice(0, 80)}**, but your item looks like a different version (kids, bundle, used, edition or kit). Check eBay sold for the exact item.` }], components: [links, again] };
-  if (!c) return { embeds: [{ title: `No exact competitor estimate for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try the exact game/platform or LEGO set number. Ambiguous variants are not guessed." }], components: [links, again] };
+  if (!c) return { embeds: [{ title: `No exact competitor estimate for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try the exact game/platform, LEGO set number, or supported Sony WH1000XM4/5 model plus colour. Ambiguous variants are not guessed." }], components: [links, again] };
   const lo = parseFloat(c.low), hi = parseFloat(c.high);
   const eb = calc(buy ?? 0, lo, "ebay_business", c.category), vi = calc(buy ?? 0, lo, "vinted", c.category);
   const fields = [
@@ -259,7 +260,7 @@ const howView = () => ({ embeds: [{ title: "📘 How MONEYHUNTER works", color: 
   { name: "2 · Strict matching", value: "A sold price only prices the exact same item. Kids' sizes, bundles, multipacks, pre-orders, used/refurbished, other editions, kits vs body-only and other bottle sizes are never priced." },
   { name: "3 · Count every cost", value: "eBay standard business fees incl 20% VAT (promotions/surcharges extra), home-delivery postage by category, £0.50 packaging and a 3% returns allowance." },
   { name: "4 · Grade", value: "🟢 **BUY**: all evidence, offer, availability and money checks pass · 🟡 **VERIFY**: profit works on estimates, check eBay sold first · 🔴 **PASS**: fails a check. Sold prices older than 30 days never give BUY or VERIFY; expired deals never alert." },
-  { name: "Ask-based CHECK opportunities", value: "Five independent sellers and supported low competition can support a separate estimated opportunity when net/ROI/cap and delivery checks pass. This is not verified BUY or measured fast turnover." },
+  { name: "Ask-based CHECK opportunities", value: "Strong starter CHECK requires £8 net AND 40% ROI. Separate WORTH REVIEWING requires £10 net AND 20% ROI, exact matching, independent supported competition and known delivery. Review also requires a 10% lower resale scenario still leaving £5 net AND 10% ROI, moderate confidence and three low-price supporting sellers. Above-budget candidates remain WATCH ONLY, never BUY. This is not verified BUY or measured fast turnover." },
   { name: "5 · Max buy", value: "Financial landed-cost ceiling for £8 net/40% ROI; not permission to buy without the evidence gates." },
   { name: "Honest limits", value: "Competitor-ask models estimate resale, not sold prices or guaranteed turnover. Check actual stock, delivery and current competition. Verified BUY still requires its separate evidence gates." },
 ] }], components: [row(btn("p:home", "Menu", "🏠"))] });

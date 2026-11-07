@@ -6,16 +6,13 @@ GREEN, AMBER, RED, BLUE, GOLD = 0x22C55E, 0xF59E0B, 0xEF4444, 0x3B82F6, 0xEAB308
 SCHEDULE = "30-minute cron target · best effort; check last successful scan"
 COMMUNITY_MAX_PRICE = 60.0   # [H] T0 public price cap
 import os as _os
-TIER_CAPS = [60.0, 120.0, 300.0, 600.0, 1200.0]            # [H] max buy per tier (matches private app ladder)
-TIER_BANKROLL = [200.0, 500.0, 1500.0, 4000.0, 12000.0]    # [H] representative bankroll so grading gates fit each cap
+TIER_CAPS = C.COMMUNITY_CAPS            # [H] max buy per tier (matches private app ladder)
+TIER_BANKROLL = C.COMMUNITY_RULE_BANKROLLS    # [H] representative bankroll so grading gates fit each cap
 
 def active_tier() -> int:
     """Tier number only (0-4), synced from the private app via the workflow. Anything invalid -> 0 (safest)."""
-    try:
-        t = int(str(_os.getenv("MH_TIER", "0")).strip())
-    except ValueError:
-        return 0
-    return t if 0 <= t < len(TIER_CAPS) else 0
+    from .policy import current
+    return current()['community_index']
 
 def community_cap() -> float:
     return TIER_CAPS[active_tier()]
@@ -175,7 +172,7 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
             {"name": "🔴 Rejected", "value": str(stats["R"]), "inline": True},
             {"name": "Closest near-misses", "value": "\n".join(lines) if lines else "None under the price cap this scan", "inline": False},
             {"name": "Safety filters", "value": f"{stats.get('uncertain', 0)} uncertain matches · {stats.get('stale', 0)} stale references · expiry checked {stats.get('expiry_checked', 0)}, expired {stats.get('expired', 0)}, unknown/not checked {stats.get('expiry_unknown', 0)}", "inline": False},
-            {"name": "Help price more deals", "value": f"{stats['unpriced']} unmatched. {stats.get('review_candidates', 0)} prioritised affordable online research candidates in review_queue. Submit exact sold links for human review; submissions do not automatically become BUY evidence.", "inline": False},
+            {"name": "Help price more deals", "value": f"{stats['unpriced']} unmatched. {stats.get('review_candidates', 0)} prioritised online research candidates (above-budget separately WATCH ONLY) in review_queue. Submit exact sold links for human review; submissions do not automatically become BUY evidence.", "inline": False},
         ],
         "footer": {"text": f"Last prior successful scan: {stats.get('previous_success') or 'no history yet'} · gap {stats.get('gap_minutes', '?')} min"},
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
