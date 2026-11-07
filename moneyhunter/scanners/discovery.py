@@ -29,11 +29,14 @@ def scan(raws, state, when=None):
     eligible = [(k,i) for k,i in queries.items() if age(history.get(k),when)>=1]
     if cache.get('browse-blocked'): health['status']='paused_operator_review_required'
     elif ebay.available() and eligible:
-        key, ident = min(eligible,key=lambda pair:(history.get(pair[0],''),pair[0]))
+        key, ident = min(eligible,key=lambda pair:(history.get(pair[0],''),-int(cache.get(pair[0],{}).get('sample_count',0)>=5),pair[0]))
         health['queries']=1
+        health['query']=ident.match
         history[key]=when.isoformat(timespec='seconds')
         try:
             snapshot = market.summary(ebay.active_items(ident.match,business_only=True),ident,when)
+            health['matched_shipped_samples']=snapshot['sample_count']
+            health['rejections']=snapshot['rejected']
             # Acquisition business-only results must NEVER replace all-seller competition.
             # market.enrich obtains/reuses its independent all-seller snapshot.
             sellers=set(); chosen=0

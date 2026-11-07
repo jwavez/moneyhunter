@@ -40,6 +40,8 @@ def identity(raw):
     t = M.norm(title)
     if M.has(t, *M.CONDITION, *M.BUNDLE, *M.PREORDER, "digital", "download", "code in a box", "dlc", "compatible", "replica", "moc") or M._multipack(t):
         return None
+    if cat == 'gaming' and M.has(t,'key','keycode','activation','steam','account','digital code','cd key','download code'):
+        return None  # actual first live acquisition probe surfaced an Xbox digital key
     name_terms = []
     if cat == "lego":
         name_terms = lego_terms(title)
