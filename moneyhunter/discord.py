@@ -7,12 +7,11 @@ COLORS = {"A": 0x2ECC71, "B": 0xF1C40F, "R": 0xE74C3C, "T": 0x3498DB}
 
 def post(embeds: list, content: str = "", dry_run: bool = False, components: list = None, url: str = None) -> int:
     url = url or os.getenv(ENV)
-    payload = {"username": "MONEYHUNTER", "content": content, "embeds": embeds[:10], "allowed_mentions": {"parse": []}}
-    if os.getenv("MONEYHUNTER_AVATAR_URL"):
-        payload["avatar_url"] = os.environ["MONEYHUNTER_AVATAR_URL"]
-    if components:
-        payload["components"] = components   # link buttons only (non-app webhook)
-        url = url and url + ("&" if "?" in url else "?") + "with_components=true"
+    payload=build_payload(embeds,content,components)
+    if payload is None:
+        print("[discord] HOLD: LEGO photo missing, unverified or expired; no message sent")
+        return 0
+    if components:url=url and url+("&" if "?" in url else "?")+"with_components=true"
     if dry_run or os.getenv("MONEYHUNTER_DISABLE_SEND") == "1" or not url:
         print(f"[discord] DRY RUN ({'no webhook set' if not url else 'dry-run flag'}): {len(embeds)} embed(s)")
         print(json.dumps(payload, indent=2, ensure_ascii=False)[:4000])
@@ -33,3 +32,22 @@ def post(embeds: list, content: str = "", dry_run: bool = False, components: lis
             print("[discord] Delivery failed (network/timeout); will retry on a future scan")
             return 0
     return 429
+
+
+def build_payload(embeds,content="",components=None):
+    """The single final serializer used by real sends AND no-send acceptance exports."""
+    from .images import publishable
+    for e in embeds:
+        if e.get('_mh_product_category')=='lego' or __import__('re').search(r'\blego\b[^\n]*\b\d{5,6}\b',str(e.get('title',''))+'\n'+str((e.get('author') or {}).get('name','')),__import__('re').I):
+            row={'category':'lego','thumb':(e.get('image') or {}).get('url'),'image_status':e.get('_mh_image_status'),
+                 'image_verified_url':e.get('_mh_image_verified_url'),'image_verified_until':e.get('_mh_image_verified_until')}
+            if not publishable(row):return None
+    clean=[]
+    for e in embeds[:10]:
+        item={k:v for k,v in e.items() if not k.startswith('_mh_')}
+        if (e.get('_mh_image_basis') or '').startswith('Reference') and 'reference' not in item.get('description','').lower():item['description']=item.get('description','')+'\nImage: exact-set reference, not proof of listing condition.'
+        clean.append(item)
+    payload={'username':'MONEYHUNTER','content':content,'embeds':clean,'allowed_mentions':{'parse':[]}}
+    if os.getenv('MONEYHUNTER_AVATAR_URL'):payload['avatar_url']=os.environ['MONEYHUNTER_AVATAR_URL']
+    if components:payload['components']=components
+    return payload

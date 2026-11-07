@@ -14,7 +14,7 @@ class ProductImages(unittest.TestCase):
     def test_public_approved_https_images_only(self):
         for bad in ['http://i.ebayimg.com/x.jpg','https://localhost/x','https://127.0.0.1/x','https://i.ebayimg.com.evil/x','https://a:b@i.ebayimg.com/x','https://i.ebayimg.com:444/x','https://i.ebayimg.com/logo.png','https://i.ebayimg.com/x.svg','data:image/png,x',None]:
             self.assertEqual(images.safe(bad),'',str(bad))
-        self.assertIn('/re/300x300/',images.safe(PHOTO))
+        self.assertEqual(images.safe(PHOTO),PHOTO) # validation must not invent another URL
         self.assertEqual(images.safe(EBAY),EBAY)
     def test_rss_media_content_thumbnail_enclosure_and_description(self):
         for body in [f'<media:content url="{PHOTO}"/>',f'<media:thumbnail url="{PHOTO}"/>',f'<enclosure url="{PHOTO}" type="image/jpeg"/>',f'<description><![CDATA[<img src="{PHOTO}">]]></description>']:

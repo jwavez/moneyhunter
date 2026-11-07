@@ -21,7 +21,6 @@ export function productImage(value) {
     const u = new URL(String(value ?? ""));
     if (u.protocol !== "https:" || u.username || u.password || u.port || !["images.hotukdeals.com","static.pepper.com","i.ebayimg.com"].includes(u.hostname) || u.pathname === "/" || /logo|avatar|placeholder|banner|\.svg$/i.test(u.pathname)) return "";
     u.hash="";
-    if(u.hostname === "images.hotukdeals.com")u.pathname=u.pathname.replace("/re/150x150/","/re/300x300/");
     return u.href;
   } catch { return ""; }
 }

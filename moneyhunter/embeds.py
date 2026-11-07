@@ -118,6 +118,9 @@ def deal_card(d, r, preview: bool = False) -> list:
     if getattr(d, "thumb", ""):
         from .images import safe
         if safe(d.thumb):card["image"] = {"url":safe(d.thumb)}
+    from .images import metadata
+    card.update(metadata(vars(d)))
+    if (getattr(d,"image_basis",None) or "").startswith("Reference"):card["description"] += "\nImage: exact-set reference, not proof of listing condition."
     p = r.plan
     details = {
         "color": color,

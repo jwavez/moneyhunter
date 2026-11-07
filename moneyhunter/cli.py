@@ -130,7 +130,7 @@ def run_scan():
     raws += discovery.scan(raws, operational)
     errors.extend(discovery.LAST_DIAGNOSTICS["errors"])
     from . import images
-    images.enrich(raws)
+    image_report=images.prepare(raws,operational)
     LAST_RAWS = raws
     counts = RT.observe(raws, operational)
     if counts["gap_minutes"] is not None and counts["gap_minutes"] > C.MAX_SCAN_GAP_MINUTES:
@@ -145,6 +145,7 @@ def run_scan():
         d = build_deal(raw, comp)
         if d.delivery_known: raw["inbound_delivery"] = d.inbound_delivery
         d.thumb = raw.get("thumb", ""); d.match_warning = why_not
+        for attr in ("image_status","image_verified_url","image_verified_until","image_basis","image_source_url","image_candidates"):setattr(d,attr,raw.get(attr))
         res = G.grade(d, br)
         if res is None: unpriced.append(d)
         else:
@@ -161,6 +162,7 @@ def run_scan():
             score += 5 if d.delivery_known else 0
             raw["review_priority"] = score
             review.append({"title": d.title, "url": d.url, "category": d.category, "item_price": d.buy_price,
+                **{k:raw.get(k) for k in ("image_status","image_verified_url","image_verified_until","image_checked_at","image_candidates")},
                 "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
                 "breakeven_sell": be, "sell_for_minimum_profit": required,
@@ -228,6 +230,7 @@ def run_scan():
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
     LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))[:50]
     stats["review_candidates"] = len(LAST_REVIEW)
+    stats["lego_image_validation"]=image_report
     stats["images_available"] = sum(bool(r.get("thumb")) for r in raws)
     stats["lego_images_available"] = sum(bool(r.get("thumb")) for r in raws if r.get("category")=="lego")
     return br, tier, graded, affordable, unpriced, stats
@@ -242,6 +245,7 @@ def _public_deal(d, r):
             "comp_age_days": d.comp_age_days, "expired": getattr(d, "expired", False), "intel": getattr(d, "intel", {}),
             "postage": r.postage, "fees_basis": "eBay business standard fees incl 20% VAT, free-to-buyer postage, £0.50 packaging, 3% returns; promotions/surcharges extra",
             "max_buy": E.max_buy(r),
+            **{k:getattr(d,k,None) for k in ("image_status","image_verified_url","image_verified_until","image_basis","image_source_url","image_candidates")},
             "why": (["Deal expired"] if getattr(d, "expired", False) else []) + E.gates_failed(r)[:3], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
             "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title)),
             "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.community_cap() and d.delivery_known,
@@ -272,6 +276,9 @@ def export_public(path, stats, graded):
                "blocker": None if catalog else "No fresh directly verified exact-product sold observations imported; active asks are not sold data"},
            "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
            "schema_version": 2, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
+    if os.getenv("MONEYHUNTER_DISABLE_SEND")=="1":
+        from . import discord as D,images,hub
+        out["lego_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="lego" and images.publishable(r)]
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     from .evidence import atomic_write
     atomic_write(path, out); print(f"[export] {path}: {len(out['deals'])} deals")

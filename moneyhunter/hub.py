@@ -96,11 +96,13 @@ def watch_card(it, prices):
     if model:
         e["author"]["name"] = CAT_LABEL[it["category"]] + " · " + model["signal"]
         e["fields"] = estimate_fields(model) + e["fields"]
-    if it.get("image_basis", "").startswith("Reference"):
+    if (it.get("image_basis") or "").startswith("Reference"):
         e["description"] += "\nImage: exact-set reference; check actual listing condition."
     if it.get("thumb"):
         from .images import safe
         if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
+    from .images import metadata
+    e.update(metadata(it))
     return e
 
 
@@ -159,6 +161,8 @@ def mini(it, color, prefix=""):
     if it.get("thumb"):
         from .images import safe
         if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
+    from .images import metadata
+    e.update(metadata(it))
     return e
 
 def buttons(it):
@@ -202,6 +206,10 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     """Post everything new. Returns keys to add to seen."""
     DELIVERY_FAILURES.clear()
     new = set()
+    from .images import publishable
+    original_raws=raws
+    raws=[r for r in raws if publishable(r)]
+    graded=[(d,r) for d,r in graded if publishable(vars(d))]
     # 1) graded A/B cards -> buy-now / verify + category channel
     n = 0
     for d, r in graded:
@@ -243,8 +251,11 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         lines = [f"**{it['heat']}°** · {CAT_LABEL[it['category']]} · [{it['title'][:65]}]({it['url']}) · £{it['price']:.2f}"
                  + (" · priced, see the category feed" if it["url"] in priced else f" · break even £{sell_needed(it['price'] + (it.get('inbound_delivery') or 0), it['category'])[0]:.2f}+" + (" (item-only; delivery unknown)" if it.get('inbound_delivery') is None else " (incl inbound delivery)"))
                  for it in hot]
-        st = send("trending", [{"title": f"🌡️ Trending on hotukdeals · {len(hot)} new", "color": 0xEF4444,
-                                "description": "\n".join(lines)[:4000], "footer": {"text": "Resellable items in our categories only · heat = community votes · breakeven after eBay fees, postage, packaging, returns"}}], None, dry)
+        lego_hot=[mini(it,0xEF4444,"🔥 ") for it in hot if it["category"]=="lego"]
+        lines=[line for line,it in zip(lines,hot) if it["category"]!="lego"]
+        digest_embeds=([{"title": f"🌡️ Trending on hotukdeals · {len(hot)} new", "color": 0xEF4444,
+                                "description": "\n".join(lines)[:4000], "footer": {"text": "Resellable items in our categories only · heat = community votes · breakeven after eBay fees, postage, packaging, returns"}}] if lines else [])+lego_hot
+        st=send("trending",digest_embeds,None,dry)
         if ok(st) or dry: new |= {"tr:" + it["url"] for it in hot}
         for it in hot:   # hot items also go to their category channel
             ch = CAT_CHANNEL.get(it["category"])
@@ -272,10 +283,10 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     if not stats.get("A") and not stats.get("B") and not stats.get("estimated_opportunities"):
         qk = E.quiet_key()
         if qk not in seen and not (stats.get("errors") and not stats.get("scanned")):
-            if ok(send("buy-now", [E.quiet_card(stats, market_pulse(raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
+            if ok(send("buy-now", [E.quiet_card(stats, market_pulse(original_raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
     # 4) price drops
-    drops, prices = price_drops(raws)
-    for it, prev in [x for x in drops if resellable(x[0])][:5]:
+    drops, prices = price_drops(original_raws)
+    for it, prev in [x for x in drops if resellable(x[0]) and publishable(x[0])][:5]:
         k = f"pd:{it['url']}:{it['price']}"
         if k in seen: continue
         e = mini(it, 0x06B6D4, "📉 ")
@@ -304,11 +315,15 @@ def digest(deals_path, dry=False):
     """Daily 8am near-miss digest from the published deals.json."""
     d = json.load(open(deals_path))
     near = [x for x in d["deals"] if x["grade"] == "R"][:10]
-    lines = [f"`{'✅' if x['under_cap'] else '£60+'}` [{x['title'][:60]}]({x['url']}) · £{x['buy']:.2f} → £{x['target']:.2f} · net {x['net']:+.2f} · max buy £{x['max_buy']:.2f} · {(x['why'] or ['-'])[0]}" for x in near]
+    from .images import publishable
+    near=[x for x in near if publishable(x)]
+    lego_cards=[mini({**x,"price":x["buy"]},0xF59E0B,"🟠 ") for x in near if x.get("category")=="lego"]
+    lines = [f"`{'✅' if x['under_cap'] else '£60+'}` [{x['title'][:60]}]({x['url']}) · £{x['buy']:.2f} → £{x['target']:.2f} · net {x['net']:+.2f} · max buy £{x['max_buy']:.2f} · {(x['why'] or ['-'])[0]}" for x in near if x.get("category")!="lego"]
     s = d["stats"]
-    return send("near-misses", [{"title": f"🟠 Daily near-miss digest · {dt.date.today():%a %d %b}", "color": 0xF59E0B,
+    digest_embeds=([{"title": f"🟠 Daily near-miss digest · {dt.date.today():%a %d %b}", "color": 0xF59E0B,
         "description": ("Research candidates (may have major evidence blockers). The financial ceiling is not approval: exact evidence, delivery, availability and exit checks must also pass.\n\n" + "\n".join(lines))[:4000] if lines else "No priced near-misses in the last scan.",
-        "footer": {"text": f"{s['scanned']} scanned · {s['priced']} priced · {s['A']} buy · {s['B']} verify"}}], None, dry)
+        "footer": {"text": f"{s['scanned']} scanned · {s['priced']} priced · {s['A']} buy · {s['B']} verify"}}] if lines or not lego_cards else [])+lego_cards
+    return send("near-misses",digest_embeds,None,dry)
 
 def leaderboard(api_url, dry=False):
     with urllib.request.urlopen(urllib.request.Request(api_url, headers={"User-Agent": "moneyhunter"}), timeout=20) as r:
