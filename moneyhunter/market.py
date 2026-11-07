@@ -5,6 +5,9 @@ reviewed in listing-monitor and ebay-sniper; see docs/OPEN_SOURCE_RESEARCH.md.
 """
 import datetime as dt
 import math
+import hashlib
+import json
+import unicodedata
 import re
 from collections import Counter
 from types import SimpleNamespace
@@ -14,6 +17,21 @@ from .scanners import ebay
 
 TTL_HOURS = 6
 CALL_BUDGET = 6
+# Set numbers also occur on instruction sheets, stickers and individual components.
+# Name anchors reduce that ambiguity; they are research filters, never sold evidence.
+LEGO_NOISE = set("lego new sealed brand boxed box genuine original official complete set sets building build toy toys free delivery click collect c code voucher discount checkout at and the of with inc incl includes including star wars technic ideas speed champions smart play super car pokemon".split())
+
+
+def lego_terms(title):
+    text = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode()
+    return sorted({w for w in M.norm(text).split() if w not in LEGO_NOISE and
+                   not re.fullmatch(r"\d{5,6}", w) and len(w) > 1})
+
+
+def cache_key(ident):
+    # A contradictory name attached to the same numeric SKU cannot inherit context.
+    fingerprint = hashlib.sha256(json.dumps(getattr(ident, "name_terms", [])).encode()).hexdigest()[:12]
+    return "browse-asks-v3:" + ident.category + ":" + ident.match.lower() + ":" + fingerprint
 
 
 def identity(raw):
@@ -22,7 +40,10 @@ def identity(raw):
     t = M.norm(title)
     if M.has(t, *M.CONDITION, *M.BUNDLE, *M.PREORDER, "digital", "download", "code in a box", "dlc", "compatible", "replica", "moc") or M._multipack(t):
         return None
+    name_terms = []
     if cat == "lego":
+        name_terms = lego_terms(title)
+        if not name_terms: return None
         ids = set(re.findall(r"(?<!\d)\d{5,6}(?!\d)", title))
         if len(ids) != 1 or not M.has(t, "lego"): return None
         query = "LEGO " + next(iter(ids))
@@ -38,7 +59,7 @@ def identity(raw):
             return None
     else:
         return None  # shoes, tools, fragrances need more exact reviewed attributes
-    c = SimpleNamespace(match=query, category=cat, identity={"condition": "new"})
+    c = SimpleNamespace(match=query, category=cat, identity={"condition": "new"}, name_terms=name_terms)
     if not matches(title, c): return None
     return c
 
@@ -47,8 +68,14 @@ def matches(title, ident):
     t = M.norm(title)
     if M.has(t, "instructions", "manual only", "box only", "empty box", "light kit", "lighting kit", "led kit", "display case", "parts only", "spares", "stickers", "compatible", "replica", "moc"):
         return False
-    if ident.category == "lego" and M.has(t, "minifigure", "minifig", "minifigures", "minifigs", "parts", "spare", "replacement", "bag", "bags", "missing", "without", "incomplete", "for lego"):
-        return False
+    if ident.category == "lego":
+        if M.has(t, "instruction", "manual", "manuals", "booklet", "booklets", "sticker", "stickers", "sheet", "sheets", "minifigure", "minifig", "minifigures", "minifigs", "parts", "spare", "replacement", "bag", "bags", "missing", "without", "incomplete", "for lego", "display stand", "display base", "acrylic", "light", "lights", "lighting", "led", "tag", "tags"):
+            return False
+        terms = getattr(ident, "name_terms", [])
+        if terms:
+            normalized = M.norm(unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode())
+            if sum(M.has(normalized, word) for word in terms) < min(2, len(terms)):
+                return False
     return M.check(title, "", ident) == ""
 
 
@@ -88,17 +115,18 @@ def summary(payload, ident, when):
         url = urlsplit(item.get("itemWebUrl", ""))
         if url.scheme != "https" or url.username or url.password or url.hostname not in ("www.ebay.co.uk", "www.ebay.com") or not url.path.startswith("/itm/"):
             rejected["source_url_unknown"] += 1; continue
-        offers.append({"url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "listed_total": round(price + min(shipping), 2)})
+        offers.append({"url": urlunsplit((url.scheme, url.netloc, url.path, "", "")), "title": item.get("title", "")[:200],
+            "declared_condition": "new", "item_price": price, "shipping": min(shipping), "listed_total": round(price + min(shipping), 2)})
     xs = sorted(o["listed_total"] for o in offers)
     q = lambda p: round(ebay._pct(xs, p), 2) if xs else None
     spread = bool(xs and xs[-1] > xs[0] * 1.5)
-    return {"kind": "active_ask", "query": ident.match, "category": ident.category,
+    return {"kind": "active_ask", "query": ident.match, "category": ident.category, "name_terms": getattr(ident, "name_terms", []),
         "observed_at": when.isoformat(timespec="seconds"), "date": when.date().isoformat(), "sample_count": len(xs),
         "listed_total_low": xs[0] if xs else None, "listed_total_p25": q(.25),
         "listed_total_median": q(.5), "listed_total_p75": q(.75), "listed_total_high": xs[-1] if xs else None,
         "status": "no_exact_shipped_samples" if not xs else "small_sample" if len(xs) < 3 else "wide_spread" if spread else "indicative_only",
         "warnings": ["Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-                     "Title-derived identity, not independently reviewed. No demand, velocity or cash floor inferred."] + (["Wide spread: variants/outliers may remain; no values silently discarded."] if spread else []),
+                     "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."] + (["Wide spread: variants/outliers may remain; no values silently discarded."] if spread else []),
         "offers": sorted(offers, key=lambda x: x["listed_total"])[:3], "rejected": dict(rejected)}
 
 
@@ -114,7 +142,7 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET):
         ident = identity(by_url.get(c["url"], {}))
         if ident:
             c["ask_status"] = "awaiting_query_budget" if ebay.available() else "unavailable_no_keys"
-            k = "browse-asks-v2:" + ident.category + ":" + ident.match.lower()
+            k = cache_key(ident)
             pending.setdefault(k, (ident, []))[1].append(c)
         else: c["ask_status"] = "exact_identity_not_supported"
     def age(entry):

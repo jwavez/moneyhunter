@@ -133,7 +133,7 @@ jobs:
           (github.event_name == 'schedule' || inputs.keep_running || inputs.cadence_probe) }}
     # Waiting is managed by GitHub, not an allocated runner, polling loop or box daemon.
     # A watchdog replaces the previous delayed successor, avoiding forks.
-    concurrency: { group: moneyhunter-cadence, cancel-in-progress: true }
+    concurrency: { group: "${{ inputs.cadence_probe && 'moneyhunter-cadence-probe' || 'moneyhunter-cadence' }}", cancel-in-progress: true }
     environment: ${{ inputs.cadence_probe && 'moneyhunter-cadence-probe' || 'moneyhunter-cadence' }}
     runs-on: ubuntu-latest
     timeout-minutes: 3

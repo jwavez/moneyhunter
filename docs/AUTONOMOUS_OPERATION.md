@@ -91,3 +91,24 @@ References:
 - https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event
 - https://docs.github.com/en/rest/deployments/environments#create-or-update-an-environment
 - https://www.musicmagpie.co.uk/entertainment/trade-in-games
+
+## Whole-product research identity correction
+
+The first real autonomous run exposed asking ranges as low as £3.49 for a named
+LEGO set and nine wide-spread snapshots out of thirteen lookups. That alone does
+not prove which listings were wrong. Code inspection, however, confirmed that a
+set number alone plus singular “sticker”, “instruction booklet” or a SMART tag could
+pass the old title filter. Those are components, not evidence of a whole set price.
+
+LEGO research now also requires distinctive product-name tokens from the source
+lead, rejects those component/accessory forms, and fingerprints the name alongside
+the set number in its durable cache. Old number-only snapshots are not reused.
+Up to three accepted source examples retain listing title, declared condition,
+item price and fixed shipping so the filter can be audited. Genuine price extremes
+are still retained and flagged, never removed just to raise a resale estimate.
+These remain seller-declared active asks, not independently verified products or
+realised sales. Gaming keeps its separate platform/edition/accessory checks.
+
+The bounded acceptance probe has its own concurrency group: rechecking it cannot
+cancel the normal production delayed successor. Both share the serialized scan
+publication boundary, not a timer cancellation group.
