@@ -95,6 +95,10 @@ def check(title: str, extra: str, comp) -> str:
         for key, value in identity.items():
             if key == "condition":
                 if value == "new" and has(scope, *CONDITION): return "different condition"
+                if value != "new" and has(scope, "new", "sealed") and not has(scope, "like new", "as new", "opened never used"): return "different condition"
+                refurb = has(scope, "refurbished", "refurb", "renewed")
+                if value == "used" and refurb: return "different condition"
+                if value == "refurbished" and not refurb: return "refurbished condition not confirmed"
                 if value != "new" and not has(scope, *CONDITION): return "condition not confirmed"
                 continue
             if key in ("variant", "edition") and value == "standard": continue
@@ -122,6 +126,11 @@ def quoted_offer_check(title, extra, comp):
     """A reviewed quote may resolve absent attributes, never contradictory feed attributes."""
     t = norm(title)
     identity = getattr(comp, "identity", {})
+    actual_scope = norm(title + " " + extra)
+    if identity.get("condition") in ("used", "refurbished") and has(actual_scope, "new", "sealed") and not has(actual_scope, "like new", "as new", "opened never used"):
+        return "quoted condition contradicts feed"
+    if identity.get("condition") == "used" and has(actual_scope, "refurbished", "refurb", "renewed"):
+        return "quoted condition contradicts feed"
     # Run all ordinary product/edition/accessory/condition guards first; allow absent identity
     # values only because the independently reviewed exact URL/price quote supplies them.
     reason = check(title, extra + " " + " ".join(identity.values()), comp)

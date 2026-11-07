@@ -3,26 +3,25 @@ Community-safe: platform advice only."""
 import urllib.parse
 
 FAST_DAYS = 10                                   # [H] fast-mover threshold (matches T1 max days-to-sell)
-FAST_BY_DEFAULT = ("trainers", "sportswear", "gaming")   # [H] everyday movers when no days-to-sell data
 VINTED_MAX = 80.0                                # [H] Vinted first for everyday pairs under ~£80
 HOLD_TIP = "Aim ≤10 days: cut price + cross-list D7, quick-sale D10"
 
 ROUTES = {
-    "trainers": {"preferred": "Vinted (under ~£80, no seller fee)", "backup": "eBay (limited or £80+) · Depop (streetwear)",
-                 "floor": "eBay best offer", "note": "Size must match the listing exactly"},
-    "sportswear": {"preferred": "Vinted", "backup": "Depop (streetwear) · eBay", "floor": "eBay best offer",
+    "trainers": {"preferred": "Vinted (only if commercial activity permitted)", "backup": "eBay (limited or £80+) · Depop (streetwear)",
+                 "floor": "No verified cash floor; best offer is not a floor", "note": "Size must match the listing exactly"},
+    "sportswear": {"preferred": "Vinted", "backup": "Depop (streetwear) · eBay", "floor": "No verified cash floor; best offer is not a floor",
                    "note": "Condition photos, exact size"},
-    "lego": {"preferred": "eBay (search by set number)", "backup": "eBay best offer", "floor": "eBay best offer",
+    "lego": {"preferred": "eBay (search by set number)", "backup": "eBay best offer", "floor": "No verified cash floor; best offer is not a floor",
              "note": "Sealed sets only. Skip slow retired 'maybe' sets; sell gift sets before Christmas posting dates"},
-    "gaming": {"preferred": "eBay", "backup": "eBay best offer", "floor": "CeX / musicMagpie (quick cash)",
+    "gaming": {"preferred": "eBay", "backup": "eBay best offer", "floor": "CeX / musicMagpie: exact tested cash quote required",
                "note": "Sealed or boxed only"},
-    "tools": {"preferred": "eBay (model number in title)", "backup": "Facebook Marketplace (collection for heavy kits)",
-              "floor": "eBay best offer", "note": "Never mix body-only and kit prices"},
-    "fragrance": {"preferred": "eBay (exact size in title)", "backup": "eBay best offer", "floor": "eBay best offer",
+    "tools": {"preferred": "eBay (model number in title)", "backup": "eBay delivered listing (model and contents exact)",
+              "floor": "No verified cash floor; best offer is not a floor", "note": "Never mix body-only and kit prices"},
+    "fragrance": {"preferred": "eBay (exact size in title)", "backup": "eBay best offer", "floor": "No verified cash floor; best offer is not a floor",
                   "note": "Gift peaks: Valentine's, Mother's Day, Father's Day (see the seasonal calendar)"},
-    "tech": {"preferred": "eBay", "backup": "eBay best offer", "floor": "CeX (quick cash)", "note": "Sealed only; no phones"},
+    "tech": {"preferred": "eBay", "backup": "eBay best offer", "floor": "CeX: exact tested cash quote required", "note": "Sealed only; no phones"},
 }
-DEFAULT = {"preferred": "eBay", "backup": "eBay best offer", "floor": "eBay best offer", "note": ""}
+DEFAULT = {"preferred": "eBay", "backup": "eBay best offer", "floor": "No verified cash floor; best offer is not a floor", "note": ""}
 CLOTHING = ("trainers", "sportswear")
 CEX_FLOOR = ("gaming", "tech")
 
@@ -60,7 +59,7 @@ def guide_embed(category: str, label: str) -> dict:
     r = route(category)
     lines = [f"**Sell first on:** {r['preferred']}", f"**Backup:** {r['backup']}", f"**Floor exit:** {r['floor']}"]
     if r["note"]: lines.append(f"**Tip:** {r['note']}")
-    lines += ["", f"⏱️ {HOLD_TIP}.", "⚡ **FAST** badge = expected to sell in 10 days or less (copies go to #fast-movers).",
-              "👀 WATCH cards are homework, not buy signals. Only 🟢 BUY, or 🟡 VERIFY after you check eBay sold."]
+    lines += ["", f"⏱️ {HOLD_TIP}.", "⚡ **FAST** badge = observed median ≤10 days, not a future-sale guarantee.",
+              "👀 WATCH cards are homework, not buy signals. BUY requires every evidence gate; VERIFY is not permission to buy."]
     return {"title": f"🧭 Where to sell · {label}", "color": 0x10B981, "description": "\n".join(lines)[:4096],
             "footer": {"text": "MONEYHUNTER · house guidance, not guarantees"}}

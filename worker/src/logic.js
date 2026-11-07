@@ -60,6 +60,50 @@ export function findComp(query, comps) {
   if (!best && blocked) return { blocked };
   return best;
 }
+// A catalog valuation is independent of a current purchasable offer and NEVER a BUY.
+// Require the full exact identity in the price-check query; absent attributes are not guesses.
+export function findReviewed(query, catalog, today = new Date()) {
+  const t = norm(query);
+  const age = value => {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value ?? "")) return Infinity;
+    const ms = Date.parse(value + "T00:00:00Z");
+    if (!Number.isFinite(ms) || new Date(ms).toISOString().slice(0,10) !== value) return Infinity;
+    return Math.floor((Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()) - ms) / 86400000);
+  };
+  let blocked = null;
+  for (const c of [...(catalog ?? [])].sort((a,b) => (b.match?.length ?? 0) - (a.match?.length ?? 0))) {
+    if (typeof c.match !== "string" || !norm(c.match).trim().split(/\s+/).every(w => hasW(t,w))) continue;
+    const fail = reason => { blocked = { blocked: c.match, reason, identity: c.identity }; };
+    if (c.reviewed !== true || c.is_buy_signal !== false || !Number.isFinite(c.low) || !Number.isFinite(c.high) || c.low <= 0 || c.high < c.low || !Number.isInteger(c.sample_count) || c.sample_count < 1) { fail("Invalid reviewed pricing data"); continue; }
+    if (age(c.sold_as_of) < 0 || age(c.sold_as_of) > 30) { fail("Sold observations missing or older than 30 days"); continue; }
+    const required = {gaming:["platform","edition","format"],trainers:["sku","size","gender"],sportswear:["sku","size","gender"],lego:["set_number"],tech:["model","capacity"],tools:["model","contents"],fragrance:["concentration","ml"]}[c.category];
+    if (!Array.isArray(c.sold_sources) || !c.sold_sources.length || !required || !c.identity || !["variant",...required].every(k => typeof c.identity[k] === "string" && c.identity[k].trim())) { fail("Exact identity or public sold provenance missing"); continue; }
+    if (!["new", "used", "refurbished"].includes(c.identity.condition)) { fail("Exact identity missing"); continue; }
+    const conditions = ["new", "used", "refurbished"].filter(w => hasW(t,w));
+    if (conditions.length !== 1 || conditions[0] !== c.identity.condition) { fail("Confirm one exact condition: " + c.identity.condition); continue; }
+    const m = norm(c.match + " " + Object.values(c.identity).join(" "));
+    const extras = [...GUARD, "minifigure", "minifigures", "box only", "instructions only", "without", "missing", "spares", "faulty", "damaged", "job lot", "compatible", "replica", "controller", "case", "stand", "charger", "replacement"];
+    const contradiction = [...extras,"ps4","ps5","xbox","switch","pc","series x","series s"].find(w => hasW(t,w) && !hasW(m,w));
+    if (contradiction) { fail("Contradictory product/condition: " + contradiction); continue; }
+    if (c.category === "lego") {
+      const setNumbers = [...query.matchAll(/(?<!\d)\d{5,6}(?!\d)/g)].map(x=>x[0]);
+      if (setNumbers.some(x=>x !== c.identity.set_number)) { fail("More than one LEGO set number"); continue; }
+    }
+    if (["trainers","sportswear"].includes(c.category)) {
+      const sizes = [...query.toLowerCase().matchAll(/(?:uk\s*|size\s*)(\d+(?:\.5)?)(?![\d.])/g)].map(x=>Number(x[1]));
+      const expected = Number(c.identity.size.toLowerCase().replace("uk","").trim());
+      if (sizes.some(x=>x !== expected)) { fail("Contradictory size"); continue; }
+    }
+    const missing = Object.entries(c.identity).find(([key,value]) => {
+      if (typeof value !== "string" || !value.trim()) return true;
+      if (["variant","edition"].includes(key) && value === "standard") return false;
+      return !norm(value).trim().split(/\s+/).every(w => hasW(t,w));
+    });
+    if (missing) { fail("Confirm exact " + missing[0] + ": " + missing[1]); continue; }
+    return c;
+  }
+  return blocked;
+}
 export const r2 = x => Math.round(x * 100) / 100;
 export const gbp = x => (x < 0 ? "−£" : "£") + Math.abs(x).toFixed(2);
 export function hexToBytes(h) { const a = new Uint8Array(h.length / 2); for (let i = 0; i < a.length; i++) a[i] = parseInt(h.substr(i * 2, 2), 16); return a; }

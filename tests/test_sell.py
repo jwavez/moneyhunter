@@ -7,7 +7,9 @@ def test_routes_map():
     assert "Depop" in S.route("trainers", 50)["backup"]
     assert S.route("lego")["preferred"].startswith("eBay") and "BrickLink" not in S.platforms_text("lego")
     assert "CeX" in S.route("gaming")["floor"] and "musicMagpie" in S.route("gaming")["floor"]
-    assert "Marketplace" in S.route("tools")["backup"]
+    assert "delivered" in S.route("tools")["backup"]
+    assert "collection" not in S.platforms_text("tools").lower()
+    assert "not a floor" in S.route("lego")["floor"]
     assert "exact size" in S.route("fragrance")["preferred"]
     assert "CeX" in S.route("tech")["floor"]
     assert len(S.sell_on_value("trainers", 50)) <= 1024
