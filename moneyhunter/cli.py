@@ -238,7 +238,12 @@ def export_public(path, stats, graded):
     atomic_write(path, out); print(f"[export] {path}: {len(out['deals'])} deals")
 
 def cmd_scan(a):
+    no_send = getattr(a, "no_send", False)
+    if no_send: os.environ["MONEYHUNTER_DISABLE_SEND"] = "1"
     br, tier, graded, affordable, unpriced, stats = run_scan()
+    stats["delivery_mode"] = "disabled" if no_send or a.dry_run else "live"
+    stats["execution"] = {"revision": os.getenv("GITHUB_SHA"), "run_id": os.getenv("GITHUB_RUN_ID"),
+                          "event": os.getenv("GITHUB_EVENT_NAME"), "parent_run_id": os.getenv("MH_PARENT_RUN_ID") or None}
     who = "Rules: community starter set" if os.getenv("MONEYHUNTER_COMMUNITY") == "1" else f"Bankroll £{br:.2f} → {tier.name}"
     print(f"{who}. eBay API: {ebay_status()}. CeX: no automated quotes (manual exact cash evidence required).")
     print(f"Scanned {stats['scanned']} · priced {stats['priced']} · under cap {stats['affordable']} · A {stats['A']} · B {stats['B']} · rejected {stats['R']} · unpriced {stats['unpriced']}")
@@ -250,7 +255,16 @@ def cmd_scan(a):
     near = [(d, r) for d, r in affordable if r.grade == "REJECT"][:6]
     from . import hub
     raws = LAST_RAWS
-    new = hub.route(raws, graded, stats, near, seen, dry=a.dry_run, max_cards=a.max_posts)
+    # Publish real observations without simulating successful alert deliveries.
+    if no_send:
+        new = set()
+        stats["delivery_failures"] = 0
+        if not a.dry_run:
+            from .evidence import atomic_write
+            _, prices = hub.price_drops(raws)
+            atomic_write(hub.PRICES, prices)
+    else:
+        new = hub.route(raws, graded, stats, near, seen, dry=a.dry_run, max_cards=a.max_posts)
     if not a.dry_run:
         from . import runtime as RT
         RT.save(STATE, sorted(seen | new))
@@ -308,7 +322,7 @@ def cmd_uc(a):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="moneyhunter"); sp = ap.add_subparsers(dest="cmd", required=True)
-    s = sp.add_parser("scan"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--max-posts", type=int, default=5); s.add_argument("--show-all", action="store_true"); s.add_argument("--include-rejects", type=int, default=0); s.add_argument("--summary", action="store_true", help="post the scan report even with no cards"); s.add_argument("--preview", action="store_true"); s.add_argument("--export", help="write community deals JSON, e.g. public/deals.json"); s.set_defaults(f=cmd_scan)
+    s = sp.add_parser("scan"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--no-send", action="store_true", help="persist genuine scan/research state, but disable routing and do not acknowledge alerts"); s.add_argument("--max-posts", type=int, default=5); s.add_argument("--show-all", action="store_true"); s.add_argument("--include-rejects", type=int, default=0); s.add_argument("--summary", action="store_true", help="post the scan report even with no cards"); s.add_argument("--preview", action="store_true"); s.add_argument("--export", help="write community deals JSON, e.g. public/deals.json"); s.set_defaults(f=cmd_scan)
     s = sp.add_parser("import-evidence", help="validate and atomically merge reviewed public sold evidence")
     s.add_argument("file"); s.add_argument("--store", default=os.path.join(os.path.dirname(STATE), "evidence.json"))
     def import_evidence(a):

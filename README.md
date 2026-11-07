@@ -90,3 +90,9 @@ keys can populate a separate six-hour `asking_catalog` for identifiable gaming/L
 queries: known item + quoted postage, strict title filters, no sold/velocity claim.
 Neither current asks nor retained RSS alone can unlock BUY/VERIFY. No fresh sold
 history is bundled or automatically licensed by these changes.
+
+### Autonomous operation
+
+The Worker captures leads independently. The grader now supports a GitHub-native,
+server-side delayed successor instead of depending only on unreliable cron. See
+[operational setup, no-send acceptance and pricing boundaries](docs/AUTONOMOUS_OPERATION.md).
