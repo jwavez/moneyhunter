@@ -134,3 +134,17 @@ class Refresh(unittest.TestCase):
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'active_items',side_effect=AssertionError('budget exhausted')):
             market.enrich(rows,[raw],state,NOW,budget=0)
             self.assertNotIn('ask_context',rows[0]);self.assertEqual(state['ask_cache'][market.cache_key(ident)]['observed_at'],old['observed_at'])
+
+class ActualIntakeCorrection(unittest.TestCase):
+    def test_actual_xbox_digital_key_never_spends_physical_acquisition_budget(self):
+        self.assertIsNone(market.identity({'title':'Alan Wake 2 Deluxe Edition Xbox Series X S Europe UK Key','category':'gaming'}))
+        self.assertIsNotNone(market.identity({'title':'Little Nightmares II Xbox Series X','category':'gaming'}))
+    def test_first_query_prefers_known_exact_shipped_catalog_not_alphabetical_noise(self):
+        raw=Source().raw();ident=market.identity(raw)
+        state={'ask_cache':{market.cache_key(ident):{'sample_count':8}}}
+        other={**raw,'title':'A Different Physical Game PS5','category':'gaming'}
+        with patch.object(ebay,'available',return_value=True),patch.object(ebay,'active_items',return_value=Source().payload()) as call:
+            discovery.scan([other,raw],state,NOW)
+            call.assert_called_once_with(ident.match,business_only=True)
+            self.assertEqual(discovery.LAST_DIAGNOSTICS['query'],ident.match)
+            self.assertEqual(discovery.LAST_DIAGNOSTICS['matched_shipped_samples'],8)
