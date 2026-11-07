@@ -37,7 +37,9 @@ def post(embeds: list, content: str = "", dry_run: bool = False, components: lis
 def build_payload(embeds,content="",components=None):
     """The single final serializer used by real sends AND no-send acceptance exports."""
     from .images import publishable
+    from . import product_format as PF
     for e in embeds:
+        if PF.reason({'title':e.get('title','')}):return None
         if e.get('_mh_product_category')=='lego' or __import__('re').search(r'\blego\b[^\n]*\b\d{5,6}\b',str(e.get('title',''))+'\n'+str((e.get('author') or {}).get('name','')),__import__('re').I):
             row={'category':'lego','thumb':(e.get('image') or {}).get('url'),'image_status':e.get('_mh_image_status'),
                  'image_verified_url':e.get('_mh_image_verified_url'),'image_verified_until':e.get('_mh_image_verified_until')}

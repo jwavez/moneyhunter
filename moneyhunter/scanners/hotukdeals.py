@@ -20,6 +20,10 @@ def _price(s: str):
     return amounts.pop() if len(amounts) == 1 else None
 
 def classify(title: str, hint: str):
+    from .. import product_format as PF
+    if PF.reason({'title':title}):return 'digital'
+    norm=PF.normalize({'title':title,'category':hint})
+    if norm.get('category')=='gaming' and re.search(r'\blego\b',title,re.I):return 'gaming'
     t = title.lower()
     for cat, kws in C.CATEGORY_KEYWORDS.items():
         if any(k in t for k in kws):
@@ -44,6 +48,8 @@ _STATUS = {}
 CHECK_BUDGET = 24  # shared graded/WATCH/trending page-check budget per scan
 
 def online_status(title, description=""):
+    from .. import product_format as PF
+    if PF.reason({'title':title}):return False
     t = (title + " " + description).lower()
     if re.search(r"in.?store only|instore|in store|collection only|c&c only|click (?:&|and) collect only|limited stores|local only|pre.?order|coming soon|out of stock|sold out|tester", t):
         return False

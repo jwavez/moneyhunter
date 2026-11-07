@@ -57,7 +57,8 @@ class FragranceCards(unittest.TestCase):
         self.assertIsNone(unknown['roi'])
     def test_no_comparators_shows_explicit_missing_estimate_not_a_required_price_as_market_value(self):
         card=hub.watch_card(LOTION,{})
-        self.assertEqual(card['fields'][0]['name'],'Estimated sell price — competitor asks')
+        self.assertEqual(card['fields'][0]['name'],'1 · Sell / starting listing')
+        self.assertTrue(any(f['name']=='Estimated sell price — competitor asks' for f in card['fields']))
         self.assertIn('Not established',card['fields'][0]['value'])
         self.assertNotIn('200ml',str(card))
     def test_serialized_cards_all_categories_remain_within_discord_limits(self):

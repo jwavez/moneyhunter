@@ -1,3 +1,4 @@
+import {nonphysical} from "./product-format.js";
 // Mandatory LEGO product-photo publication guard. Only original approved public CDN
 // images; no redirect following, cookies, credentials, arbitrary hosts or full downloads.
 import {productImage} from './capture.js';
@@ -44,6 +45,7 @@ export async function verifyImage(url,env={},fetcher=fetch,now=Date.now(),paused
 export async function guardData(data,env={},fetcher=fetch){
  if(!data?.embeds)return data;
  for(const e of data.embeds){
+  if(nonphysical({title:e.title??""}))return {flags:data.flags??64,content:"Excluded nonphysical digital key/code: no physical-resale card or postage calculation is available.",allowed_mentions:{parse:[]}};
   const identified=e._mh_product_category==='lego'||/\blego\b[^\n]*\b\d{5,6}\b/i.test([e.title,e.author?.name].join('\n'));
   if(!identified)continue;
   const candidates=[e.image?.url,...(e._mh_image_candidates??[])].map(productImage).filter(Boolean);

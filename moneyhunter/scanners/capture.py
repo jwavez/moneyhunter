@@ -28,6 +28,9 @@ def scan(log=print, when=None):
         LAST_DIAGNOSTICS.update(status=payload.get("status", "unknown"), last_attempt=payload.get("last_attempt"), last_success=payload.get("last_success"))
         out = []
         for x in payload["items"][:300]:
+            from .. import product_format as PF
+            if PF.reason(x):continue
+            x=PF.normalize(x)
             try:
                 u = urlsplit(x["url"])
                 pub = dt.datetime.fromisoformat(x["published_at"].replace("Z", "+00:00"))

@@ -52,6 +52,9 @@ def canonical_game(title):
 
 def identity(raw):
     """Bounded, title-derived research identities, not human-reviewed product facts."""
+    from . import product_format as PF
+    if PF.reason(raw):return None
+    raw=PF.normalize(raw)
     title, cat = raw.get("title", ""), raw.get("category")
     t = M.norm(title)
     if M.has(t, *M.CONDITION, *M.BUNDLE, *M.PREORDER, "digital", "download", "code in a box", "dlc", "compatible", "replica", "moc") or M._multipack(t):
@@ -94,6 +97,8 @@ def identity(raw):
 
 
 def matches(title, ident):
+    from . import product_format as PF
+    if PF.reason({'title':title}):return False
     if hasattr(ident,"variant"): return variants.matches(title,ident)
     t = M.norm(title)
     if ident.category=='gaming':

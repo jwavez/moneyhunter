@@ -115,6 +115,10 @@ def deal_card(d, r, preview: bool = False) -> list:
         "footer": {"text": f"MONEYHUNTER · {SCHEDULE} · not financial advice"},
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
     }
+    from . import presentation,product_format as PF
+    if PF.reason(vars(d)):return [PF.research_card(vars(d))]
+    legacy={'grade':g,'evidence_type':getattr(d,'evidence_type',None),'plan':r.plan,'buy':d.buy_price,'landed_cost':r.cost,'delivery_known':d.delivery_known,'postage':r.postage}
+    card['fields']=presentation.fields({'price':d.buy_price,'category':d.category},legacy=legacy)+card['fields']
     if getattr(d, "thumb", ""):
         from .images import safe
         if safe(d.thumb):card["image"] = {"url":safe(d.thumb)}

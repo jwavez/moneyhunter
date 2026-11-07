@@ -3,6 +3,7 @@ Webhook URLs come from env MONEYHUNTER_WEBHOOKS (JSON {channel: url}); never pri
 import datetime as dt, json, os, re, urllib.request
 from . import discord as D, embeds as E, sell as S
 from .scanners import hotukdeals
+from . import product_format as PF, presentation
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
 PRICES = os.path.join(DATA, "prices.json")
@@ -39,7 +40,7 @@ def digital_store_risk(it):
     """
     title = it.get("title", "")
     hardware = re.search(r"\b(controller|headset|keyboard|mouse|console|racing wheel)\b", title, re.I)
-    return it.get("category") == "gaming" and str(it.get("merchant", "")).strip().lower() in DIGITAL_STOREFRONTS and not hardware
+    return bool(PF.reason(it))
 
 def resellable(it) -> bool:
     """Physical goods in a category we price; never food, household, consumables, digital or rentals."""
@@ -66,6 +67,8 @@ def watch_card(it, prices):
     from . import matching as M
     from .policy import current
     policy = current()
+    if PF.reason(it):return PF.research_card(it)
+    it=PF.normalize(it)
     be, tgt, post = sell_needed(it["price"] + (it.get("inbound_delivery") or 0), it["category"])
     t = M.norm(it["title"] + " " + it.get("desc", ""))
     kids = it["category"] in ("trainers", "sportswear") and any(M.has(t, w) for w in M.KIDS)
@@ -77,7 +80,7 @@ def watch_card(it, prices):
                         + (" Inbound delivery unknown: required resale targets are minimums; any profit figure is an upper bound before delivery." if it.get("inbound_delivery") is None else " Delivery included in calculations.")
                         + ("\n⚠️ Kids' sizes: adult sold prices do not apply." if kids else ""),
          "fields": [{"name": "Breakeven sell price", "value": f"£{be:.2f}", "inline": True},
-                    {"name": "Required resale target (not valuation)", "value": f"£{tgt:.2f}+", "inline": True},
+                    {"name": "Minimum sale needed for policy — NOT market price", "value": f"£{tgt:.2f}+", "inline": True},
                     {"name": "Price history", "value": I.price_history(title_key(it["title"]), it["price"], prices), "inline": True},
                     {"name": "Days to sell", "value": S.dts_label(it["category"], it.get("days_to_sell")), "inline": True},
                     {"name": "Sell on", "value": S.sell_on_value(it["category"], tgt), "inline": True},
@@ -110,6 +113,7 @@ def watch_card(it, prices):
         if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
     from .images import metadata
     e.update(metadata(it))
+    e["fields"]=presentation.fields(it,model)+e["fields"]
     return e
 
 
@@ -175,6 +179,8 @@ def title_key(title): return hotukdeals.dedupe_key(title, 0)
 
 def mini(it, color, prefix=""):
     """Compact embed for an unpriced deal (trending / price error / drop)."""
+    if PF.reason(it):return PF.research_card(it)
+    it=PF.normalize(it)
     q = E.short_query(it["title"])
     heat = f"🌡️ {it['heat']}°" if it.get("heat") is not None else ""
     e = {"title": (prefix + it["title"])[:250], "url": it["url"], "color": color,
@@ -230,6 +236,8 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     DELIVERY_FAILURES.clear()
     new = set()
     from .images import publishable
+    raws,_=PF.partition(raws)
+    graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
     original_raws=raws
     raws=[r for r in raws if publishable(r)]
     graded=[(d,r) for d,r in graded if publishable(vars(d))]

@@ -1,3 +1,5 @@
+import {nonphysical,normalizeProduct,physicalRows,excludedView,reclassifiedView} from "./product-format.js";
+import {summaryFields,soldSummary} from "./presentation.js";
 import {imageMeta,guardResponse} from "./images.js";
 import {productImage} from "./capture.js";
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
@@ -23,6 +25,7 @@ const CATS = [["all", "All deals", "🔎"], ["trainers", "Trainers", "👟"], ["
   ["consoles", "Consoles", "🕹️"], ["tools", "Tools", "🛠️"], ["fragrance", "Fragrance", "🧴"]];
 const isConsole = d => d.category === "gaming" && /console|oled|switch 2|ps5 (slim|pro|digital)|xbox series/i.test(d.title);
 function filterDeals(deals, f) {
+  deals=physicalRows(deals);
   switch (f) {
     case "top": return deals.filter(d => d.grade !== "R" && d.under_cap);
     case "near": return deals.filter(d => d.grade === "R" && d.under_cap);
@@ -38,6 +41,7 @@ async function getDeals(env) {
   const r = await fetch(env.DEALS_URL, { cf: { cacheTtl: 60 } });
   if (!r.ok) throw new Error("deals feed " + r.status);
   const d = {...await r.json()};
+  d.deals=physicalRows(d.deals);d.review_queue=physicalRows(d.review_queue);
   d.scanner_stale = !Number.isFinite(Date.parse(d.generated_utc)) || Date.now()-Date.parse(d.generated_utc) > 90*60000;
   try { d.capture = publicCapture(await readCapture(env)); d.review_queue = mergeResearch(d.review_queue ?? [], d.capture); }
   catch { d.capture = {status:"capture_state_unavailable",items:[]}; }
@@ -50,8 +54,8 @@ function researchCost(price, category, goal) {
   return Math.ceil(hi*100)/100;
 }
 function mergeResearch(queue, snapshot) {
-  const items=new Map(queue.map(x=>[x.url,x]));
-  for(const x of snapshot.items ?? []) {
+  const items=new Map(physicalRows(queue).map(x=>[x.url,x]));
+  for(const x of physicalRows(snapshot.items)) {
     const old=items.get(x.url);
     if(old && old.item_price===x.price && old.title===x.title) { items.set(x.url,{...old,thumb:productImage(x.thumb)||productImage(old.thumb),image_source_url:productImage(x.thumb)?x.url:old.image_source_url,image_basis:productImage(x.thumb)?"Own capture feed product image":old.image_basis,capture_last_seen:x.last_seen}); continue; }
     items.set(x.url,{thumb:productImage(x.thumb),image_source_url:x.url,image_basis:"Own capture feed product image",title:x.title,url:x.url,category:x.category,item_price:x.price,landed_cost:null,
@@ -60,7 +64,7 @@ function mergeResearch(queue, snapshot) {
       priority:15,blockers:["No reviewed exact sold observations","Delivery unknown","Retailer stock/price and exact variant unverified"],
       sold_search:`https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(x.title)}&LH_Sold=1&LH_Complete=1`});
   }
-  return [...items.values()].sort((a,b)=>(b.priority??0)-(a.priority??0) || String(b.capture_last_seen??b.first_seen??"").localeCompare(String(a.capture_last_seen??a.first_seen??""))).slice(0,100);
+  return physicalRows([...items.values()]).sort((a,b)=>(b.priority??0)-(a.priority??0) || String(b.capture_last_seen??b.first_seen??"").localeCompare(String(a.capture_last_seen??a.first_seen??""))).slice(0,100);
 }
 function freshAsking(x) {
   const age=Date.now()-Date.parse(x?.observed_at);
@@ -81,7 +85,7 @@ function estimateFields(m, buy = null, landedConfirmed = false) {
     const net=custom?.net ?? sc?.net ?? sc?.net_before_unknown_delivery;
     const known=custom ? landedConfirmed : sc?.inbound_known;
     const value=net!=null ? `${sgbp(net)}${known ? " conditional net" : " BEFORE unknown inbound delivery"}; actual net/ROI not established. Published tariff and packaging allowance are assumptions, NOT a verified parcel quote.` : "UNKNOWN: no applicable verified outbound quote. Market estimate above remains available.";
-    return [
+    return [...summaryFields({category:m.category},m,buy,landedConfirmed),
       {name:"Estimated sell price — competitor asks, NOT a BUY",value:`${gbp(m.estimated_resale)}; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. ${m.seller_count} independent sellers / ${m.sample_count} samples. ${m.confidence} confidence. Not sold or guaranteed.`,inline:false},
       {name:"Conditional profit scenario / actual net UNKNOWN",value,inline:false},
       ...transportFields(sc),
@@ -90,7 +94,7 @@ function estimateFields(m, buy = null, landedConfirmed = false) {
   const custom=buy!=null && Number.isFinite(buy) && buy>0 ? calc(buy,m.estimated_resale,"ebay_business",m.category || "default") : null;
   const profit=custom ? `${sgbp(custom.net)}${landedConfirmed ? ` / ${pct(custom.roi)} ROI at your supplied landed cost` : " BEFORE unknown inbound delivery; actual net/ROI unknown"}` : m.delivery_known ? `${sgbp(m.net)} / ${pct(m.roi)} ROI at ${gbp(m.landed_cost)} landed` : `Up to ${sgbp(m.net_before_unknown_delivery)} before UNKNOWN inbound delivery; actual net/ROI unknown`;
   const stress=m.review_stress_net!=null ? `${gbp(m.review_stress_sale)} resale → ${sgbp(m.review_stress_net)} / ${pct(m.review_stress_roi)} ROI` : "Unknown landed delivery: not established";
-  return [{name:"Manual-review downside scenario (not a forecast)",value:`10% resale drop: ${stress}. Requires £5 net AND 10% ROI, moderate confidence and three supporting low-price sellers. No measured turnover implied.`,inline:false},{name:m.signal,value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
+  return [...summaryFields({category:m.category},m,buy,landedConfirmed),{name:"Manual-review downside scenario (not a forecast)",value:`10% resale drop: ${stress}. Requires £5 net AND 10% ROI, moderate confidence and three supporting low-price sellers. No measured turnover implied.`,inline:false},{name:m.signal,value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
     {name:"Estimated net / ROI",value:profit,inline:false},
     {name:"Competition, model and confidence",value:`${m.sample_count} seller-deduplicated asks / ${m.seller_count} known sellers; ${m.confidence} confidence. Current lowest delivered competition ${gbp(m.competition_low)}. Quick-sale model ${gbp(m.quick_sale_model)}; speed NOT measured. ${m.discount_note}`,inline:false},
     {name:"Max landed buy / costs",value:`${gbp(m.max_landed_buy)} strong ceiling for ${gbp(m.policy?.strong_net ?? 8)} net + ${(m.policy?.strong_roi ?? .4)*100}% ROI. Manual review ceiling ${gbp(m.review_max_landed_buy ?? m.max_landed_buy)} (£10 net + 20% ROI); above-budget remains WATCH ONLY. Fee ${gbp(m.fees)}, outbound ${gbp(m.outbound_postage)}, packaging ${gbp(m.packaging)}, returns ${gbp(m.returns_allowance)}. Check actual checkout delivery/stock.`,inline:false},
@@ -139,13 +143,15 @@ function dealView(d, list, f, i) {
       components: [row(home, btn("v:near:0", "Near Misses", "🟡", 1), btn("p:cats", "Categories", "🗂️"))] };
   }
   i = ((i % n) + n) % n;
-  const x = list[i];
+  const x = normalizeProduct(list[i]);
+  if(nonphysical(x))return excludedView(x);if(x.format_reclassified)return reclassifiedView(x);
   const [icon, word] = x.grade === "A" ? ["🟢", "BUY"] : x.grade === "B" ? ["🟡", "VERIFY"] : ["🔴", "PASS"];
   const e = {
     author: { name: `${x.merchant || "Deal"} · ${x.delivery || "check delivery"}`.slice(0, 250) },
     title: `${icon} ${word} · ${sgbp(x.net)} net · ${pct(x.roi)} ROI`, url: x.url, color: C[x.grade],
     description: `**${x.title.slice(0, 200)}**${x.delivery_known === false ? "\n⚠️ Delivery unknown: profit is an upper bound before inbound delivery, not verified net." : ""}${x.evidence_type && x.evidence_type !== "sold" ? "\nReference-only valuation, not exact sold evidence." : ""}${x.under_cap ? "" : "\n⚠️ Over cap or landed delivery cost not confirmed"}`,
     fields: [
+      ...summaryFields(x,null,null,false,x),
       { name: "Buy", value: gbp(x.buy), inline: true }, { name: "Required resale target", value: gbp(x.target) + " (required target, not market value)", inline: true },
       { name: "Max landed cost (money gates only)", value: gbp(x.max_buy), inline: true },
       { name: "Net", value: sgbp(x.net), inline: true }, { name: "Worst case", value: sgbp(x.worst) + (x.worst_verified ? "" : " (est.)"), inline: true },
@@ -167,8 +173,10 @@ function dealView(d, list, f, i) {
 }
 
 function planView(x) {
+  x=normalizeProduct(x);if(nonphysical(x))return excludedView(x);if(x.format_reclassified)return reclassifiedView(x);
   const p = x.plan || {};
   return { embeds: [{ ...imageMeta(x), title: `📋 Trade plan · ${x.title.slice(0, 80)}`, color: C[x.grade], fields: [
+    ...summaryFields(x,null,null,false,x),
     { name: "1 · Financial ceiling (not approval)", value: `At or under **${gbp(x.max_buy)}** (deal ${gbp(x.buy)})`, inline: false },
     { name: "2 · List", value: `${gbp(p.list ?? x.target)}, then ${gbp(p.target ?? x.target)} by day 3`, inline: false },
     { name: "3 · Reprice", value: `Day 7: −5% and cross-list · Day 10: ${gbp(p.quick ?? x.target * 0.9)}`, inline: false },
@@ -181,11 +189,12 @@ function planView(x) {
 
 // Prioritised public research tasks, not purchasable recommendations or sold valuations.
 function researchView(d, index = 0) {
-  const list = d.review_queue ?? [];
+  const list = physicalRows(d.review_queue);
   if (!list.length) return { embeds: [{title:"Research watchlist",color:C.INFO,description:"No prioritised candidates in this export yet. A migrated scheduled scan must publish the queue. No BUY is implied."}],components:[row(btn("p:home","Menu","🏠"))] };
   const i = ((index % list.length) + list.length) % list.length, x = list[i];
+  if(x.format_reclassified)return reclassifiedView(x);
   const fields = [
-    ...estimateFields(x.ask_estimate),
+    ...(estimateFields(x.ask_estimate).length?estimateFields(x.ask_estimate):summaryFields(x)),
     ...(x.category==="fragrance" && !x.ask_estimate ? [{name:"Estimated sell price — competitor asks",value:`Not established: ${x.ask_status ?? "exact bottle type/concentration/ml comparators not available"}. Required resale targets are NOT market values.`,inline:false}] : []),
     {name:"Item / landed cost",value:`${Number.isFinite(x.item_price) ? gbp(x.item_price) : "Unknown"} / ${x.landed_cost == null ? "unknown (delivery missing)" : gbp(x.landed_cost)}`,inline:true},
     {name:"Hypothetical breakeven / required resale",value:x.category === "fragrance" ? (x.transport_scenario?.breakeven!=null ? `${gbp(x.transport_scenario.breakeven)} / ${gbp(x.transport_scenario.required_resale)} — CONDITIONAL tariff scenario, NOT market value; minimum required resale if inbound delivery unknown. Actual parcel/packaging costs unverified.` : "Unknown until an applicable compliant transport profile/cost is established; market resale estimates are separate.") : `${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
@@ -195,7 +204,7 @@ function researchView(d, index = 0) {
     ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
     ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
     ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
-  return {embeds:[{...imageMeta(x),...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`${x.ask_estimate?.signal ?? "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
+  return {embeds:[{...imageMeta(x),...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`${estimateFields(x.ask_estimate).length ? x.ask_estimate.signal : "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
 }
 
 // ---------- calculator ----------
@@ -227,6 +236,7 @@ function calcView(buy, sell, platform, cat, postage) {
 // ---------- price check ----------
 const priceModal = () => ({ custom_id: "m:price", title: "💷 Price Check", components: [ti("item", "Item name", "", true, "e.g. mario kart 8"), ti("buy", "Landed cost INCLUDING delivery (£)", "", false, "optional")] });
 async function priceView(q, buy, env, landedConfirmed = false) {
+  if(nonphysical({title:q}))return excludedView({title:q});
   const sold = `https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(q)}&LH_Sold=1&LH_Complete=1`;
   const vinted = `https://www.vinted.co.uk/catalog?search_text=${encodeURIComponent(q)}`;
   const links = row(link(sold, "eBay Sold", "📊"), link(vinted, "Vinted", "👕"));
@@ -239,6 +249,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
     description: `${reviewed.reason}.\nIdentity: ${Object.entries(reviewed.identity ?? {}).map(([k,v]) => `${k}: ${v}`).join(" · ").slice(0,850)}. Not a BUY.` }], components: [links, again] };
   if (reviewed) {
     const fields = [
+      ...soldSummary(reviewed,buy,landedConfirmed),
       { name: "Observed sold gross · lower quartile / median", value: `${gbp(reviewed.low)} / ${gbp(reviewed.high)}`, inline: true },
       { name: "Actual sample / oldest supporting sale", value: `${reviewed.sample_count} sales · ${reviewed.sold_as_of}`, inline: true },
       { name: "Exact identity", value: Object.entries(reviewed.identity).map(([k,v]) => `${k}: ${v}`).join(" · ").slice(0,900), inline: false },
@@ -269,6 +280,7 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   if(c.category==="fragrance") return {embeds:[{title:"Legacy fragrance guide — not current competitor valuation",color:C.INFO,description:`${gbp(lo)}–${gbp(hi)} legacy guide only. Current exact bottle/concentration/ml asking research is needed. Net, break-even and buy ceiling require a compliant outbound cost, not default Evri.`,fields:[{name:"Evidence",value:String(c.sold_evidence ?? "No current exact sold evidence").slice(0,900),inline:false}]}],components:[links,again]};
   const eb = calc(buy ?? 0, lo, "ebay_business", c.category), vi = calc(buy ?? 0, lo, "vinted", c.category);
   const fields = [
+    ...summaryFields({ask_status:"Legacy reference guide is not a current exact resale valuation"}),
     { name: "Legacy guide range — not exact sold evidence", value: `${gbp(lo)} – ${gbp(hi)}`, inline: true }, { name: "Max buy · eBay", value: gbp(eb.maxBuy), inline: true }, { name: "Max buy · Vinted", value: gbp(vi.maxBuy), inline: true },
   ];
   if (buy != null && !isNaN(buy)) fields.push({ name: `Net if you pay ${gbp(buy)}`, value: `eBay ${sgbp(eb.net)} (${pct(eb.roi)}) · Vinted ${sgbp(vi.net)} (${pct(vi.roi)})`, inline: false });

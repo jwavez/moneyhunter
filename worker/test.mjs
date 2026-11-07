@@ -95,7 +95,7 @@ deals.pricing_catalog=[];
 deals.review_queue=[{title:"Synthetic research item",url:"https://example.com/fixture",item_price:20,landed_cost:null,breakeven_sell:30,sell_for_minimum_profit:40,cost_basis:"item-only lower bound; delivery unknown",blockers:["Missing exact sold observations"],priority:15,sold_search:"https://example.com/search"}];
 r=await call({type:3,data:{custom_id:"research:0"},message:{flags:0}});
 assert.match(r.data.embeds[0].title,/RESEARCH ONLY/);assert.equal(r.data.flags,64);sizeOk(r);
-assert.match(r.data.embeds[0].fields[1].value,/NOT market valuations/);
+assert.match(r.data.embeds[0].fields.find(x=>x.name==="Hypothetical breakeven / required resale").value,/NOT market valuations/);
 const health=await (await w.fetch({method:"GET",url:"https://x/api/health"},env2,ctx)).json();
 assert.equal(health.contract_version,4);assert.equal(health.review_candidates,1);
 assert.equal(health.pricing_status.products,0);
