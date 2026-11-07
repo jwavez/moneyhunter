@@ -52,61 +52,7 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Baby+Pig+House+21268&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 21268",
-        "category": "lego",
-        "name_terms": [
-          "baby",
-          "house",
-          "minecraft",
-          "pig"
-        ],
-        "observed_at": "2026-11-07T14:26:37+00:00",
-        "date": "2026-11-07",
-        "sample_count": 29,
-        "listed_total_low": 3.49,
-        "listed_total_p25": 15.99,
-        "listed_total_median": 18.41,
-        "listed_total_p75": 21.86,
-        "listed_total_high": 30.19,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "url": "https://www.ebay.co.uk/itm/127322320131",
-            "title": "New Lego Minecraft Baby Pig From Set 21268 Item - minepig08",
-            "declared_condition": "new",
-            "item_price": 3.49,
-            "shipping": 0.0,
-            "listed_total": 3.49
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/127322326818",
-            "title": "New Lego Minecraft Pig With Saddle From Set 21268 Item - minepig09",
-            "declared_condition": "new",
-            "item_price": 3.99,
-            "shipping": 0.0,
-            "listed_total": 3.99
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/227593954449",
-            "title": "LEGO Minecraft The Baby Pig House 21268 238pcs 7+  NEW",
-            "declared_condition": "new",
-            "item_price": 10.17,
-            "shipping": 3.65,
-            "listed_total": 13.82
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 21
-        }
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
@@ -124,7 +70,61 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Porsche+911+GT3+RS+Super+Car+77239&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 77239",
+        "category": "lego",
+        "name_terms": [
+          "911",
+          "gt3",
+          "porsche",
+          "rs"
+        ],
+        "observed_at": "2026-11-07T14:29:59+00:00",
+        "date": "2026-11-07",
+        "sample_count": 29,
+        "listed_total_low": 15.73,
+        "listed_total_p25": 18.5,
+        "listed_total_median": 23.75,
+        "listed_total_p75": 25.99,
+        "listed_total_high": 32.26,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/128179741212",
+            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS 348 pcs new ",
+            "declared_condition": "new",
+            "item_price": 13.47,
+            "shipping": 2.26,
+            "listed_total": 15.73
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/206672068155",
+            "title": "LEGO 77239 SPEED CHAMPIONS: Porsche 911 GT3 RS BNIB",
+            "declared_condition": "new",
+            "item_price": 14.01,
+            "shipping": 2.26,
+            "listed_total": 16.27
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/237158384076",
+            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 14.01,
+            "shipping": 2.7,
+            "listed_total": 16.71
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 21
+        }
+      }
     },
     {
       "title": "Sony WH-CH520 Wireless Bluetooth On-Ear Headphones - With Code - White | Sold By Stocs UK (UK Mainland)",
@@ -160,59 +160,7 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 40813",
-        "category": "lego",
-        "name_terms": [
-          "cat",
-          "lucky"
-        ],
-        "observed_at": "2026-11-07T14:26:37+00:00",
-        "date": "2026-11-07",
-        "sample_count": 26,
-        "listed_total_low": 23.76,
-        "listed_total_p25": 27.6,
-        "listed_total_median": 29.52,
-        "listed_total_p75": 33.17,
-        "listed_total_high": 50.62,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "url": "https://www.ebay.co.uk/itm/198777035526",
-            "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/287701475626",
-            "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-            "declared_condition": "new",
-            "item_price": 24.95,
-            "shipping": 0.0,
-            "listed_total": 24.95
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/358342770542",
-            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 4
-        }
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "DEWALT DW055PL-XJ Pocket Laser Distance Measurer // DWHT77100-XJ - \u00a339.99 - Free C&C",
@@ -284,7 +232,60 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+SMART+Play%3A+Mos+Eisley+Cantina+75425&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75425",
+        "category": "lego",
+        "name_terms": [
+          "cantina",
+          "eisley",
+          "mos"
+        ],
+        "observed_at": "2026-11-07T14:29:59+00:00",
+        "date": "2026-11-07",
+        "sample_count": 7,
+        "listed_total_low": 32.7,
+        "listed_total_p25": 54.24,
+        "listed_total_median": 55.7,
+        "listed_total_p75": 64.27,
+        "listed_total_high": 69.99,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/318450497417",
+            "title": "LEGO Star Wars Mos Eisley Cantina Smart Play 75425 new",
+            "declared_condition": "new",
+            "item_price": 30.0,
+            "shipping": 2.7,
+            "listed_total": 32.7
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/287554725952",
+            "title": "\ud83d\udd25Lego Star Wars\ud83d\udd25Mos Eisley Cantina 75425 Set \ud83d\udd25666 Pieces Smart Play Brand New",
+            "declared_condition": "new",
+            "item_price": 48.5,
+            "shipping": 5.21,
+            "listed_total": 53.71
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/860121447892",
+            "title": "LEGO Star Wars 75425 SMART Play: Mos Eisley Cantina Set",
+            "declared_condition": "new",
+            "item_price": 54.77,
+            "shipping": 0.0,
+            "listed_total": 54.77
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 43
+        }
+      }
     },
     {
       "title": "LEGO Technic Ducati Desmo450 MX Factory Motorcycle 42238",
@@ -302,62 +303,7 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Ducati+Desmo450+MX+Factory+Motorcycle+42238&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 42238",
-        "category": "lego",
-        "name_terms": [
-          "desmo450",
-          "ducati",
-          "factory",
-          "motorcycle",
-          "mx"
-        ],
-        "observed_at": "2026-11-07T14:26:37+00:00",
-        "date": "2026-11-07",
-        "sample_count": 30,
-        "listed_total_low": 36.8,
-        "listed_total_p25": 46.37,
-        "listed_total_median": 49.02,
-        "listed_total_p75": 53.9,
-        "listed_total_high": 107.55,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "url": "https://www.ebay.co.uk/itm/227587649247",
-            "title": "Lego Technic 42238 Ducati Desmo450 MX Factory Motorcycle - NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 32.0,
-            "shipping": 4.8,
-            "listed_total": 36.8
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/407283623910",
-            "title": "Lego Technic 42238 Ducati Desmo450 MX Factory Motorcycle - Brand New",
-            "declared_condition": "new",
-            "item_price": 35.0,
-            "shipping": 3.71,
-            "listed_total": 38.71
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/257836527529",
-            "title": "LEGO Technic Ducati Desmo450 MX Motorcycle Off-Road Motocross 42238 NEW",
-            "declared_condition": "new",
-            "item_price": 39.99,
-            "shipping": 0.0,
-            "listed_total": 39.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 4
-        }
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ",
@@ -411,61 +357,7 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+SMART+Play%3A+Eevee+and+Lapras%E2%80%99s+Treasure+Hunt+72162&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 72162",
-        "category": "lego",
-        "name_terms": [
-          "eevee",
-          "hunt",
-          "laprass",
-          "treasure"
-        ],
-        "observed_at": "2026-11-07T14:26:37+00:00",
-        "date": "2026-11-07",
-        "sample_count": 21,
-        "listed_total_low": 45.0,
-        "listed_total_p25": 52.5,
-        "listed_total_median": 56.65,
-        "listed_total_p75": 62.97,
-        "listed_total_high": 82.49,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "url": "https://www.ebay.co.uk/itm/940063019239",
-            "title": "LEGO Pokemon Eevee and Laprass Treasure Hunt 72162 \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P",
-            "declared_condition": "new",
-            "item_price": 45.0,
-            "shipping": 0.0,
-            "listed_total": 45.0
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/128163315307",
-            "title": "LEGO Pok\u00e9mon 72162 Eevee and Lapras' Treasure Hunt 623pc 8+ Smart Brick",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 3.71,
-            "listed_total": 46.01
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/920082188367",
-            "title": "Brand New LEGO Pok\u00e9mon SMART PLAY Eevee & Lapras\u2019s Treasure Hunt 72162 (623 pcs)",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 3.71,
-            "listed_total": 46.01
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 3
-        }
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
@@ -483,58 +375,7 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 72150",
-        "category": "lego",
-        "name_terms": [
-          "munchlax"
-        ],
-        "observed_at": "2026-11-07T14:26:37+00:00",
-        "date": "2026-11-07",
-        "sample_count": 27,
-        "listed_total_low": 44.64,
-        "listed_total_p25": 53.34,
-        "listed_total_median": 60.99,
-        "listed_total_p75": 67.31,
-        "listed_total_high": 79.95,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "url": "https://www.ebay.co.uk/itm/407336572898",
-            "title": "Lego Pokemon: Munchlax #0446 (72150) Brand New ",
-            "declared_condition": "new",
-            "item_price": 41.26,
-            "shipping": 3.38,
-            "listed_total": 44.64
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/900062332690",
-            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
-            "declared_condition": "new",
-            "item_price": 44.99,
-            "shipping": 0.0,
-            "listed_total": 44.99
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/860106519681",
-            "title": "Lego Pokemon: Munchlax #0446 (72150) Brand New ",
-            "declared_condition": "new",
-            "item_price": 44.95,
-            "shipping": 2.94,
-            "listed_total": 47.89
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 2
-        }
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
@@ -570,7 +411,59 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75347",
+        "category": "lego",
+        "name_terms": [
+          "bomber",
+          "tie"
+        ],
+        "observed_at": "2026-11-07T14:29:59+00:00",
+        "date": "2026-11-07",
+        "sample_count": 36,
+        "listed_total_low": 11.98,
+        "listed_total_p25": 44.91,
+        "listed_total_median": 48.35,
+        "listed_total_p75": 57.12,
+        "listed_total_high": 119.02,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/257556264764",
+            "title": "LEGO Star Wars TIE Bomber (75347) Wall Display Mount",
+            "declared_condition": "new",
+            "item_price": 9.72,
+            "shipping": 2.26,
+            "listed_total": 11.98
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/377627495243",
+            "title": "LEGO 75347 Star Wars: TIE Bomber - NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 40.5,
+            "shipping": 0.0,
+            "listed_total": 40.5
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/257646831282",
+            "title": "LEGO Star Wars Tie Bomber Starfighter 75347",
+            "declared_condition": "new",
+            "item_price": 37.1,
+            "shipping": 3.71,
+            "listed_total": 40.81
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 14
+        }
+      }
     },
     {
       "title": "DEWALT DCB184-XJ 18V 5.0Ah XR Li-Ion Battery",
@@ -606,61 +499,7 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ideas+Polaroid+OneStep+SX-70+Camera+21345&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 21345",
-        "category": "lego",
-        "name_terms": [
-          "70",
-          "camera",
-          "onestep",
-          "polaroid",
-          "sx"
-        ],
-        "observed_at": "2026-11-07T14:26:37+00:00",
-        "date": "2026-11-07",
-        "sample_count": 22,
-        "listed_total_low": 61.61,
-        "listed_total_p25": 66.56,
-        "listed_total_median": 70.47,
-        "listed_total_p75": 82.21,
-        "listed_total_high": 88.31,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "url": "https://www.ebay.co.uk/itm/206262846805",
-            "title": "LEGO Ideas 21345 Polaroid Onestep Sx-70 Camera | Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 3.71,
-            "listed_total": 61.61
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/176280050233",
-            "title": "LEGO 21345 Ideas Polaroid OneStep SX-70 Camera",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 4.06,
-            "listed_total": 61.96
-          },
-          {
-            "url": "https://www.ebay.co.uk/itm/178046114138",
-            "title": "LEGO 21345 Ideas Polaroid OneStep SX-70 Camera New & Sealed",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 3.38,
-            "listed_total": 63.37
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 10
-        }
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "LEGO City Fire Station with Fire Engine 60414 Truck Model, Dog Animal Figure & 5 Minifigures",
@@ -782,7 +621,30 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dangerous+Driving&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "dangerous driving xbox one series x s",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:29:59+00:00",
+        "date": "2026-11-07",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 1
+        }
+      }
     },
     {
       "title": "Nike Futura T-Shirt (Ages 12 - 24m)",
@@ -980,7 +842,56 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Little+Nightmares+II+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "little nightmares ii xbox series x",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:29:59+00:00",
+        "date": "2026-11-07",
+        "sample_count": 5,
+        "listed_total_low": 16.95,
+        "listed_total_p25": 18.85,
+        "listed_total_median": 26.59,
+        "listed_total_p75": 27.39,
+        "listed_total_high": 29.92,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/317868942109",
+            "title": "Little Nightmares II Enhanced Edition Xbox Series X  BRAND NEW AND SEALED",
+            "declared_condition": "new",
+            "item_price": 16.95,
+            "shipping": 0.0,
+            "listed_total": 16.95
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/365137843149",
+            "title": "Little Nightmares II Enhanced Edition - Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 18.85,
+            "shipping": 0.0,
+            "listed_total": 18.85
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/388606918528",
+            "title": "Little Nightmares II Enhanced Edition Xbox Series X  BRAND NEW AND SEALED",
+            "declared_condition": "new",
+            "item_price": 26.59,
+            "shipping": 0.0,
+            "listed_total": 26.59
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 38
+        }
+      }
     },
     {
       "title": "DEWALT Rafter Square 7\" (177mm) Free C&C",
@@ -1124,7 +1035,47 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HORI+Battle+Pad+GameCube+Style+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "hori battle pad gamecube style controller zelda nintendo switch",
+        "category": "gaming",
+        "name_terms": [],
+        "observed_at": "2026-11-07T14:29:59+00:00",
+        "date": "2026-11-07",
+        "sample_count": 2,
+        "listed_total_low": 25.99,
+        "listed_total_p25": 26.24,
+        "listed_total_median": 26.49,
+        "listed_total_p75": 26.74,
+        "listed_total_high": 26.99,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "url": "https://www.ebay.co.uk/itm/277231731850",
+            "title": "Nintendo Switch Zelda Hori Battle Pad | Gamecube-Style Controller | New",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99
+          },
+          {
+            "url": "https://www.ebay.co.uk/itm/377214090130",
+            "title": "Hori Zelda Battle Pad GameCube Style Controller Nintendo Switch NEW Free Postage",
+            "declared_condition": "new",
+            "item_price": 26.99,
+            "shipping": 0.0,
+            "listed_total": 26.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 5
+        }
+      }
     },
     {
       "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
