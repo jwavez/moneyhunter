@@ -116,7 +116,8 @@ def deal_card(d, r, preview: bool = False) -> list:
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
     }
     if getattr(d, "thumb", ""):
-        card["thumbnail"] = {"url": d.thumb}
+        from .images import safe
+        if safe(d.thumb):card["image"] = {"url":safe(d.thumb)}
     p = r.plan
     details = {
         "color": color,
@@ -195,7 +196,7 @@ def quiet_key(now=None) -> str:
 def quiet_card(stats: dict, pulse: str) -> dict:
     """Professional 'market quiet' note when a scan finds no A/B deals. No profit claims."""
     return {"title": "🔎 No verified buying opportunities this scan", "color": BLUE,
-            "description": (f"Scanned **{stats['scanned']}** deals · priced {stats['priced']} · none qualified as BUY/VERIFY. This is not proof the market has no deals.\n"
+            "description": (f"Scanned **{stats['scanned']}** offers · {stats.get('new','?')} new / {stats.get('rescanned','?')} rescans · {stats.get('ask_valued',0)} competitor-ask estimates · {stats.get('estimated_opportunities',0)} Strong CHECK / {stats.get('worth_reviewing',0)} manual review / {stats.get('above_budget_estimates',0)} above-budget estimates.\nSeparately: {stats['priced']} legacy/reference valuations, {stats.get('sold_valued',0)} sold-valued; {stats.get('A',0)} verified BUY / {stats.get('B',0)} verified VERIFY. This is not proof the market has no deals.\n"
                             f"**Market pulse:** {pulse}\n\n"
                             "👀 WATCH cards in category channels are homework, not buy signals.\n"
                             "⚡ Fast movers (≤10 days to sell) post to #fast-movers when they appear.\n"

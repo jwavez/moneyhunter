@@ -16,6 +16,21 @@ const text = s => String(s ?? "").trim().replace(/^<!\[CDATA\[([\s\S]*)\]\]>$/, 
   .replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/\s+/g," ").trim();
 const tag = (xml, name) => (xml.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${name}>`,"i")) ?? [])[1] ?? "";
 const attr = (xml, name) => text((xml.match(new RegExp(`(?:^|\\s)${name}=["']([^"']*)["']`,"i")) ?? [])[1]);
+export function productImage(value) {
+  try {
+    const u = new URL(String(value ?? ""));
+    if (u.protocol !== "https:" || u.username || u.password || u.port || !["images.hotukdeals.com","static.pepper.com","i.ebayimg.com"].includes(u.hostname) || u.pathname === "/" || /logo|avatar|placeholder|banner|\.svg$/i.test(u.pathname)) return "";
+    u.hash="";
+    if(u.hostname === "images.hotukdeals.com")u.pathname=u.pathname.replace("/re/150x150/","/re/600x600/");
+    return u.href;
+  } catch { return ""; }
+}
+function feedImage(body) {
+  const media = [...body.matchAll(/<(?:media:(?:content|thumbnail)|enclosure)\b([^>]*)/gi)].map(m=>attr(m[1],"url"));
+  const description=tag(body,"description").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"');
+  const imgs=[...description.matchAll(/<img\b([^>]*)/gi)].map(m=>attr(m[1],"src"));
+  return [...media,...imgs].map(productImage).find(Boolean) ?? "";
+}
 export function price(s) {
   const values = [...text(s).matchAll(/£\s*([\d,]+(?:\.\d{1,2})?)(?![\d.])/g)].map(m => Number(m[1].replace(/,/g,"")));
   const unique = [...new Set(values)];
@@ -44,7 +59,7 @@ export function parseFeed(xml, category, feed, now = Date.now()) {
     if (!title || amount == null || amount > 60 || /in.?store only|in store|instore|collection only|c&c only|click (?:&|and) collect only|limited stores|local only|pre.?order|out of stock|sold out|digital|download|dlc|code in a box/i.test(title+" "+desc)) continue;
     if (category === "lego" && (!/\blego\b/i.test(title) || !/\b\d{5,6}\b/.test(title))) continue;
     const actualCategory = /\blego\b/i.test(title) && /\b\d{5,6}\b/.test(title) ? "lego" : category;
-    const offer = {title,url:url.href,price:amount,category:actualCategory,merchant:attr(merchant,"name").slice(0,80),
+    const offer = {thumb:feedImage(body),title,url:url.href,price:amount,category:actualCategory,merchant:attr(merchant,"name").slice(0,80),
       feed,published_at:stamp(pub),last_seen:stamp(now),kind:"feed_offer_only",availability:"unverified",
       inbound_delivery:null,online_eligible:true,desc:"",delivery:"Delivery cost and current stock unverified"};
     if(physicalCandidate(offer)) result.push(offer);

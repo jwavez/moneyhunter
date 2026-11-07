@@ -1,3 +1,4 @@
+import {productImage} from "./capture.js";
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
 import { calc, parseCsv, findComp, findReviewed, gbp, verifyDiscord } from "./logic.js";
 import * as CM from "./community.js";
@@ -51,8 +52,8 @@ function mergeResearch(queue, snapshot) {
   const items=new Map(queue.map(x=>[x.url,x]));
   for(const x of snapshot.items ?? []) {
     const old=items.get(x.url);
-    if(old && old.item_price===x.price && old.title===x.title) { items.set(x.url,{...old,capture_last_seen:x.last_seen}); continue; }
-    items.set(x.url,{title:x.title,url:x.url,category:x.category,item_price:x.price,landed_cost:null,
+    if(old && old.item_price===x.price && old.title===x.title) { items.set(x.url,{...old,thumb:productImage(x.thumb)||productImage(old.thumb),image_source_url:productImage(x.thumb)?x.url:old.image_source_url,image_basis:productImage(x.thumb)?"Own capture feed product image":old.image_basis,capture_last_seen:x.last_seen}); continue; }
+    items.set(x.url,{thumb:productImage(x.thumb),image_source_url:x.url,image_basis:"Own capture feed product image",title:x.title,url:x.url,category:x.category,item_price:x.price,landed_cost:null,
       breakeven_sell:researchCost(x.price,x.category,0),sell_for_minimum_profit:researchCost(x.price,x.category,Math.max(8,x.price*.4)),
       cost_basis:"item-only lower bound; delivery unknown",first_seen:x.first_seen,capture_last_seen:x.last_seen,
       priority:15,blockers:["No reviewed exact sold observations","Delivery unknown","Retailer stock/price and exact variant unverified"],
@@ -138,7 +139,7 @@ function dealView(d, list, f, i) {
     ],
     footer: { text: `${FNAME[f] ?? f} · ${i + 1} of ${n} · last scan ${updated(d)}` },
   };
-  if (x.thumb) e.thumbnail = { url: x.thumb };
+  if (productImage(x.thumb)) e.image = {url:productImage(x.thumb)};
   return { embeds: [e], components: [
     row(nav(i - 1, "Prev", "◀️", n < 2), nav(i + 1, "Next", "▶️", n < 2), btn(`plan:${f}:${i}`, "Full Plan", "📋", 1), btn(`dc:${f}:${i}`, "Calc", "🧮", 1), home),
     row(link(x.url, "Open Deal", "🛒"), link(x.ebay_sold, "eBay Sold", "📊"), link(x.vinted, "Vinted", "👕")),
@@ -165,14 +166,14 @@ function researchView(d, index = 0) {
   const i = ((index % list.length) + list.length) % list.length, x = list[i];
   const fields = [
     {name:"Item / landed cost",value:`${gbp(x.item_price)} / ${x.landed_cost == null ? "unknown (delivery missing)" : gbp(x.landed_cost)}`,inline:true},
-    {name:"Hypothetical breakeven / required resale",value:`${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
+    {name:"Hypothetical breakeven / required resale",value:x.category === "fragrance" ? "Not validated: Evri prohibits perfume. Obtain compliant carrier/packaging quote (Royal Mail standard limit is 150ml/bottle). No usable breakeven until actual costs known." : `${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
     {name:"Evidence and availability blockers",value:(x.blockers ?? ["Exact evidence needed"]).join(" · ").slice(0,1000),inline:false},
     ...estimateFields(x.ask_estimate),
     ...askFields(x.ask_context),
     ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
     ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
     ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
-  return {embeds:[{title:`${x.ask_estimate?.signal ?? "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover.",fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
+  return {embeds:[{...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`${x.ask_estimate?.signal ?? "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
 }
 
 // ---------- calculator ----------

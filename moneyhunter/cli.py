@@ -129,6 +129,8 @@ def run_scan():
     from . import policy
     raws += discovery.scan(raws, operational)
     errors.extend(discovery.LAST_DIAGNOSTICS["errors"])
+    from . import images
+    images.enrich(raws)
     LAST_RAWS = raws
     counts = RT.observe(raws, operational)
     if counts["gap_minutes"] is not None and counts["gap_minutes"] > C.MAX_SCAN_GAP_MINUTES:
@@ -159,9 +161,11 @@ def run_scan():
             score += 5 if d.delivery_known else 0
             raw["review_priority"] = score
             review.append({"title": d.title, "url": d.url, "category": d.category, "item_price": d.buy_price,
+                "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
                 "breakeven_sell": be, "sell_for_minimum_profit": required,
-                "cost_basis": "landed" if d.delivery_known else "item-only lower bound; delivery unknown",
+                "outbound_transport_status":"unvalidated: Evri prohibits perfume; compliant carrier quote required" if d.category=="fragrance" else "configured rate; verify acceptance",
+                "cost_basis": "Unvalidated perfume carrier placeholder: figures not usable until compliant transport is quoted" if d.category=="fragrance" else ("landed" if d.delivery_known else "item-only lower bound; delivery unknown"),
                 "blockers": blockers, "priority": score, "first_seen": operational["items"][RT.key(raw)]["first_seen"],
                 "sold_search": E.ebay_sold_url(E.short_query(d.title))})
     from . import market
@@ -224,6 +228,8 @@ def run_scan():
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
     LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))[:50]
     stats["review_candidates"] = len(LAST_REVIEW)
+    stats["images_available"] = sum(bool(r.get("thumb")) for r in raws)
+    stats["lego_images_available"] = sum(bool(r.get("thumb")) for r in raws if r.get("category")=="lego")
     return br, tier, graded, affordable, unpriced, stats
 
 def _public_deal(d, r):

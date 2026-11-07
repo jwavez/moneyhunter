@@ -6,6 +6,7 @@ import os
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from . import hotukdeals
+from ..images import safe
 
 URL = "https://moneyhunter-bot.moneyhunter.workers.dev/api/research-capture"
 LAST_DIAGNOSTICS = {}
@@ -42,7 +43,7 @@ def scan(log=print, when=None):
                 out.append({"title": x["title"], "url": x["url"], "price": price, "category": x["category"],
                     "merchant": str(x.get("merchant", ""))[:80], "delivery": "Captured RSS; delivery/current stock unverified",
                     "inbound_delivery": None, "online_eligible": True, "desc": "", "heat": None,
-                    "pub": pub.isoformat(), "capture_first_seen": x.get("first_seen"), "capture_last_seen": seen.isoformat()})
+                    "thumb":safe(x.get("thumb","")),"pub": pub.isoformat(), "capture_first_seen": x.get("first_seen"), "capture_last_seen": seen.isoformat()})
             except (KeyError, ValueError, TypeError, OverflowError): LAST_DIAGNOSTICS["invalid"] += 1
         return out
     except Exception as exc:

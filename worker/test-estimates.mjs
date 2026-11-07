@@ -16,3 +16,13 @@ test("manual review and above-budget signals stay explicit and use exported poli
     assert.match(text,/above-budget remains WATCH ONLY/);
   }
 });
+test("research estimates and above-budget cards retain validated full product photos",()=>{
+ const image="https://i.ebayimg.com/images/g/synthetic/s-l500.jpg";
+ for(const signal of ["ESTIMATED OPPORTUNITY — CHECK BEFORE BUYING","ABOVE BUDGET — WATCH ONLY"]){
+  const view=_test.researchView({generated_utc:new Date().toISOString(),review_queue:[{title:"LEGO Synthetic Moon Rover",url:"https://www.ebay.co.uk/itm/123456789000",thumb:image,image_basis:"Reference product image",ask_estimate:{...model(),signal}}]});
+  assert.equal(view.embeds[0].image.url,image);assert.match(view.embeds[0].description,/reference/);
+ }
+ assert.equal(_test.researchView({generated_utc:new Date().toISOString(),review_queue:[{title:"Fixture",thumb:"https://localhost/private"}]}).embeds[0].image,undefined);
+ const f=_test.researchView({generated_utc:new Date().toISOString(),review_queue:[{title:"Perfume",category:"fragrance",breakeven_sell:112.59}]}).embeds[0];
+ assert.match(JSON.stringify(f.fields),/Evri prohibits perfume/);assert.doesNotMatch(JSON.stringify(f.fields),/112.59/);
+});
