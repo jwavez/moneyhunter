@@ -27,3 +27,8 @@ test('legacy interactive research and plan cannot revive physical key economics'
  const data=await guardData({embeds:[{title:x.title,_mh_product_category:'lego',fields:[{name:'postage',value:'bad old cost'}]}]});
  assert.match(data.content,/nonphysical/);assert.ok(!data.embeds);
 });
+
+test('actual desktop plus bundled Game Pass remains physical tech, not a software exclusion',()=>{
+ const x={title:'HP OMEN 16L Gaming Desktop AMD Ryzen 5 16GB 1TB NVIDIA GeForce RTX 5060 Ti 8GB with Xbox Game Pass with code',merchant:'HP',category:'gaming'};
+ assert.ok(!nonphysical(x));assert.equal(normalizeProduct(x).category,'tech');assert.ok(nonphysical({title:'Desktop Dungeons',merchant:'Loaded',category:'gaming'}));
+});

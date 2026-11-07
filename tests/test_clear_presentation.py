@@ -20,6 +20,10 @@ class Formats(unittest.TestCase):
   raw={'title':'LEGO Batman Legacy of the Dark Knight PS5 physical game','category':'lego'}
   self.assertEqual(PF.normalize(raw)['category'],'gaming');self.assertEqual(hotukdeals.classify(raw['title'],'lego'),'gaming')
   self.assertEqual(PF.normalize({'title':'LEGO Nintendo Mario Kart 72051 building set','category':'lego'})['category'],'lego')
+ def test_actual_desktop_with_bundled_game_pass_remains_physical_tech(self):
+  raw={'title':'HP OMEN 16L Gaming Desktop, AMD Ryzen 5, 16GB, 1TB, NVIDIA GeForce RTX 5060 Ti 8GB, with Xbox Game Pass with code','category':'gaming','merchant':'HP'}
+  self.assertFalse(PF.reason(raw));self.assertEqual(PF.normalize(raw)['category'],'tech');self.assertEqual(hotukdeals.classify(raw['title'],'gaming'),'tech')
+  self.assertTrue(PF.reason({'title':'Desktop Dungeons','merchant':'Loaded','category':'gaming'}))
  def test_legacy_rows_quarantined_without_financials_or_clock_changes(self):
   original=[{'title':'LEGO Batman PC Key','category':'lego','url':'https://www.hotukdeals.com/deals/key','price':29.99,'observed_at':'2026-11-07T20:21:00+00:00'}]
   before=copy.deepcopy(original);physical,excluded=PF.partition(original);self.assertEqual(physical,[]);self.assertEqual(original,before);self.assertNotIn('postage',excluded[0]);self.assertNotIn('breakeven',excluded[0])
