@@ -23,6 +23,7 @@ def classify(title: str, hint: str):
     from .. import product_format as PF
     if PF.reason({'title':title}):return 'digital'
     norm=PF.normalize({'title':title,'category':hint})
+    if PF.computer(title):return 'tech'
     if norm.get('category')=='gaming' and re.search(r'\blego\b',title,re.I):return 'gaming'
     t = title.lower()
     for cat, kws in C.CATEGORY_KEYWORDS.items():
