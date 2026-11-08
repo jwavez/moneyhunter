@@ -3,7 +3,7 @@ Webhook URLs come from env MONEYHUNTER_WEBHOOKS (JSON {channel: url}); never pri
 import datetime as dt, json, os, re, urllib.request
 from . import discord as D, embeds as E, sell as S
 from .scanners import hotukdeals
-from . import product_format as PF, presentation
+from . import product_format as PF, presentation, publication
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
 PRICES = os.path.join(DATA, "prices.json")
@@ -151,9 +151,9 @@ def market_pulse(raws, stats) -> str:
     for it in raws:
         if resellable(it): cats[it["category"]] = cats.get(it["category"], 0) + 1
     top = sorted(cats.items(), key=lambda x: -x[1])
-    hot = max((it for it in raws if resellable(it) and it.get("heat") is not None), key=lambda x: x["heat"], default=None)
+    hot = max((it for it in raws if publication.allowed(it) and resellable(it) and it.get("heat") is not None), key=lambda x: x["heat"], default=None)
     s = " · ".join(f"{CAT_LABEL[c]} {n}" for c, n in top) or "no category deals"
-    if hot: s += f"\nHottest: {hot['heat']}° {hot['title'][:60]} (£{hot['price']:.2f})"
+    # Health/pulse stays aggregate-only; product details require full priced cards.
     return s
 
 TREND_MIN = 100                                   # [H] minimum heat to list in #trending
@@ -178,7 +178,7 @@ def ok(st): return bool(st) and 200 <= st < 300
 def title_key(title): return hotukdeals.dedupe_key(title, 0)
 
 def mini(it, color, prefix=""):
-    """Compact embed for an unpriced deal (trending / price error / drop)."""
+    """Compact supported-price card (trending / price error / drop)."""
     if PF.reason(it):return PF.research_card(it)
     it=PF.normalize(it)
     q = E.short_query(it["title"])
@@ -191,6 +191,8 @@ def mini(it, color, prefix=""):
         from .images import safe
         if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
     from .images import metadata
+    from . import presentation
+    e["fields"]=presentation.fields(it,legacy=it)
     e.update(metadata(it))
     return e
 
@@ -239,8 +241,8 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     raws,_=PF.partition(raws)
     graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
     original_raws=raws
-    raws=[r for r in raws if publishable(r)]
-    graded=[(d,r) for d,r in graded if publishable(vars(d))]
+    raws=[r for r in raws if publishable(r) and publication.allowed(r)]
+    graded=[(d,r) for d,r in graded if publishable(vars(d)) and publication.allowed(vars(d))]
     # 1) graded A/B cards -> buy-now / verify + category channel
     n = 0
     for d, r in graded:
@@ -278,14 +280,15 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
                   and resellable(it) and not GROCERY_RE.search(it.get("merchant", ""))],
                  key=lambda x: -x["heat"])[:10]
     if hot:
-        priced = {d.url for d, _ in graded}
-        lines = [f"**{it['heat']}°** · {CAT_LABEL[it['category']]} · [{it['title'][:65]}]({it['url']}) · £{it['price']:.2f}"
-                 + (" · priced, see the category feed" if it["url"] in priced else " · perfume transport conditional; see research/Price Check" if it["category"]=="fragrance" else f" · break even £{sell_needed(it['price'] + (it.get('inbound_delivery') or 0), it['category'])[0]:.2f}+" + (" (item-only; delivery unknown)" if it.get('inbound_delivery') is None else " (incl inbound delivery)"))
-                 for it in hot]
-        lego_hot=[mini(it,0xEF4444,"🔥 ") for it in hot if it["category"]=="lego"]
-        lines=[line for line,it in zip(lines,hot) if it["category"]!="lego"]
-        digest_embeds=([{"title": f"🌡️ Trending on hotukdeals · {len(hot)} new", "color": 0xEF4444,
-                                "description": "\n".join(lines)[:4000], "footer": {"text": "Resellable items in our categories only · heat = community votes · breakeven after eBay fees, postage, packaging, returns"}}] if lines else [])+lego_hot
+        lego_hot=[it for it in hot if it.get('category')=='lego'][:1]
+        hot=[it for it in hot if it.get('category')!='lego'][:4]+lego_hot
+        lines=[];nonlego=[]
+        for it in [x for x in hot if x.get('category')!='lego']:
+            line=f"**{it['heat']}°** · [{it['title'][:60]}]({it['url']}) · £{it['price']:.2f} buy · {publication.summary(it)}"
+            if sum(map(len,lines))+len(line)+len(lines)<=3000:lines.append(line);nonlego.append(it)
+        hot=nonlego+lego_hot
+        digest_embeds=[{'title':f"Trending · {len(hot)} priced offers",'color':0xEF4444,'description':'\n'.join(lines)[:4000],'_mh_product_rows':[it for it in hot if it.get('category')!='lego']}] if lines else []
+        digest_embeds += [mini(it,0xEF4444,'🔥 ') for it in lego_hot]
         st=send("trending",digest_embeds,None,dry)
         if ok(st) or dry: new |= {"tr:" + it["url"] for it in hot}
         for it in hot:   # hot items also go to their category channel
@@ -317,7 +320,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             if ok(send("buy-now", [E.quiet_card(stats, market_pulse(original_raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
     # 4) price drops
     drops, prices = price_drops(original_raws)
-    for it, prev in [x for x in drops if resellable(x[0]) and publishable(x[0])][:5]:
+    for it, prev in [x for x in drops if resellable(x[0]) and publishable(x[0]) and publication.allowed(x[0])][:5]:
         k = f"pd:{it['url']}:{it['price']}"
         if k in seen: continue
         e = mini(it, 0x06B6D4, "📉 ")
@@ -333,7 +336,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
         e = E.scan_summary(stats, near)
         e["fields"].insert(0, {"name":"Competitor-based resale estimates (NOT verified BUY)", "value":f"{stats.get('ask_valued',0)} offers estimated · {stats.get('estimated_opportunities',0)} strong / CHECK · {stats.get('worth_reviewing',0)} manual review · {stats.get('above_budget_estimates',0)} above-budget watch · {stats.get('ask_delivery_known',0)} known inbound / {stats.get('qualified_delivery_unknown',0)} unknown inbound · {stats.get('ask_unique_products',0)} distinct estimated products. A/B sold-evidence grades unchanged.","inline":False})
         e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
-        e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(raws, stats)[:1000], "inline": False})
+        e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(original_raws, stats)[:1000], "inline": False})
         if stats.get('source_coverage'):
             e['fields'].append({'name':'Retail feeds retained + complementary eBay acquisition',
                 'value':' · '.join(f"{src}: {v['offers']} offers / {v['new']} new / {v['estimated']} estimated / {v['actionable']} CHECK or review" for src,v in stats['source_coverage'].items())[:1000],'inline':False})
@@ -341,6 +344,8 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             w=stats['value_watchlist'];a=stats.get('sources',{}).get('ebay_acquisition',{})
             e['fields'].append({'name':'Value-led watchlist (not buy approval)',
                 'value':f"{w['products']} exact identities / {w['usable_targets']} fresh configured-cost targets; {a.get('price_led_queries',0)} price-targeted + {a.get('research_discovery_queries',0)} discovery searches. getItem {stats.get('item_details',{}).get('calls',0)}/4; shared 800/day cap.",'inline':False})
+        if stats.get('publication_holds'):
+            e['fields'].append({'name':'Price-required publication gate','value':f"{stats['publication_holds']['eligible']} priced / {stats['publication_holds']['held']} held in background research; unpriced product cards are not sent.",'inline':False})
         if stats.get('pricing_coverage'):
             e['fields'].append({'name':'Exact pricing coverage (offers / estimated / distinct products)',
                 'value':' · '.join(f"{cat}: {x['offers']}/{x['estimated_offers']}/{x['estimated_products']}" for cat,x in stats['pricing_coverage'].items())[:1000],'inline':False})
@@ -359,12 +364,13 @@ def digest(deals_path, dry=False):
     d = json.load(open(deals_path))
     near = [x for x in d["deals"] if x["grade"] == "R"][:10]
     from .images import publishable
-    near=[x for x in near if publishable(x)]
+    near=[x for x in near if publishable(x) and publication.allowed(x)]
     lego_cards=[mini({**x,"price":x["buy"]},0xF59E0B,"🟠 ") for x in near if x.get("category")=="lego"]
-    lines = [f"`{'✅' if x['under_cap'] else '£60+'}` [{x['title'][:60]}]({x['url']}) · £{x['buy']:.2f} → £{x['target']:.2f} · net {x['net']:+.2f} · max buy £{x['max_buy']:.2f} · {(x['why'] or ['-'])[0]}" for x in near if x.get("category")!="lego"]
+    lines = [f"[{x['title'][:60]}]({x['url']}) · {publication.summary(x)}" for x in near if x.get('category')!='lego']
     s = d["stats"]
     digest_embeds=([{"title": f"🟠 Daily near-miss digest · {dt.date.today():%a %d %b}", "color": 0xF59E0B,
         "description": ("Research candidates (may have major evidence blockers). The financial ceiling is not approval: exact evidence, delivery, availability and exit checks must also pass.\n\n" + "\n".join(lines))[:4000] if lines else "No priced near-misses in the last scan.",
+        "_mh_product_rows":[x for x in near if x.get("category")!="lego"],
         "footer": {"text": f"{s['scanned']} scanned · {s['priced']} priced · {s['A']} buy · {s['B']} verify"}}] if lines or not lego_cards else [])+lego_cards
     return send("near-misses",digest_embeds,None,dry)
 

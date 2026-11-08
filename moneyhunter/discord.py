@@ -9,7 +9,7 @@ def post(embeds: list, content: str = "", dry_run: bool = False, components: lis
     url = url or os.getenv(ENV)
     payload=build_payload(embeds,content,components)
     if payload is None:
-        print("[discord] HOLD: LEGO photo missing, unverified or expired; no message sent")
+        print("[discord] HOLD: supported price or required image missing/invalid; no message sent")
         return 0
     if components:url=url and url+("&" if "?" in url else "?")+"with_components=true"
     if dry_run or os.getenv("MONEYHUNTER_DISABLE_SEND") == "1" or not url:
@@ -37,8 +37,12 @@ def post(embeds: list, content: str = "", dry_run: bool = False, components: lis
 def build_payload(embeds,content="",components=None):
     """The single final serializer used by real sends AND no-send acceptance exports."""
     from .images import publishable
+    from . import publication
     from . import product_format as PF
     for e in embeds:
+        product=e.get('_mh_product_card') or e.get('_mh_product_category') or (e.get('url') and e.get('title'))
+        if product and (not publication.valid_proof(e.get('_mh_price_proof')) or f"£{e['_mh_price_proof']['listing']:.2f}" not in json.dumps({k:v for k,v in e.items() if not k.startswith('_mh_')},ensure_ascii=False)):return None
+        if any(not publication.allowed(r) for r in e.get('_mh_product_rows',[])):return None
         if PF.reason({'title':e.get('title','')}):return None
         if e.get('_mh_product_category')=='lego' or __import__('re').search(r'\blego\b[^\n]*\b\d{5,6}\b',str(e.get('title',''))+'\n'+str((e.get('author') or {}).get('name','')),__import__('re').I):
             row={'category':'lego','thumb':(e.get('image') or {}).get('url'),'image_status':e.get('_mh_image_status'),

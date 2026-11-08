@@ -5,6 +5,8 @@ from moneyhunter import images,discord,hub,grading as G,embeds
 NOW=dt.datetime.now(dt.timezone.utc)
 URL='https://i.ebayimg.com/images/g/synthetic/s-l500.jpg'
 RAW={'title':'LEGO Synthetic Moon Rover 75402','url':'https://www.ebay.co.uk/itm/123456789000','category':'lego','price':20,'inbound_delivery':0,'heat':700,'merchant':'eBay','thumb':URL}
+from tests.publication_fixtures import priced
+RAW=priced(RAW)
 def ready():
  r=copy.deepcopy(RAW)
  with patch.object(images,'probe',return_value=(True,'http200_image')):images.prepare([r],{},NOW)
@@ -63,6 +65,7 @@ class MandatoryPhotos(unittest.TestCase):
   d=G.Deal(RAW['title'],RAW['url'],5,'lego','synthetic',target=50,stretch=60)
   for k,v in r.items():
    if k.startswith('image') or k=='thumb':setattr(d,k,v)
+  d.ask_estimate=r['ask_estimate']
   for grade in ('A','B'):
    result=G.grade(d,200);result.grade=grade # routing-only synthetic grade, NOT evidence
    p=discord.build_payload(embeds.deal_card(d,result));self.assertEqual(p['embeds'][0]['image']['url'],URL)

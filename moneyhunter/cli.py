@@ -124,7 +124,7 @@ def run_scan():
     if os.getenv("MH_TIER_WARNING"): warnings.append("Private tier unavailable or invalid; using starter cap (community index 0)")
     operational = RT.load(OPERATIONAL)
     from . import watchlist
-    operational['detail_run']={'calls':0,'cached':0,'errors':[]}
+    operational['detail_run']={'calls':0,'cached':0,'errors':[],'reserved_tools':2}
     when=RT.now()
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
     from .scanners import capture
@@ -175,7 +175,7 @@ def run_scan():
             score += 10 if re.search(r"\b(?:[a-z]{2,}\d{2,}|\d{5,6})\b", raw["title"], re.I) else 0
             score += 5 if d.delivery_known else 0
             raw["review_priority"] = score
-            review.append({"title": d.title, "url": d.url, "category": d.category,"source":raw.get("source","hotukdeals"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
+            review.append({"title": d.title, "url": d.url, "category": d.category,"source":raw.get("source","hotukdeals"),"price_basis":raw.get("price_basis"),"primary_offer_status":raw.get("primary_offer_status"),"secondary_offer_note":raw.get("secondary_offer_note"),"offer_ambiguity":raw.get("offer_ambiguity"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
                 **{k:raw.get(k) for k in ("image_status","image_verified_url","image_verified_until","image_checked_at","image_candidates")},
                 "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
@@ -190,7 +190,10 @@ def run_scan():
     # Independent research slots prevent above-budget discovery starving affordable offers.
     within = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) <= cap]
     above = [r for r in review if (r['landed_cost'] if r['landed_cost'] is not None else r['item_price']) > cap]
-    ask_health = market.enrich(within, raws, operational, budget=4, lane="asking-affordable")
+    tools_health=market.enrich([r for r in within if r['category']=='tools'],raws,operational,budget=2,lane='asking-tools')
+    ask_health = market.enrich(within, raws, operational, budget=2, lane="asking-affordable")
+    ask_health['tools_research']=tools_health
+    ask_health['queries']+=tools_health['queries'];ask_health['errors']+=tools_health['errors']
     watch_health = market.enrich(above, raws, operational, budget=2, lane="asking-watch")
     ask_health['above_budget_research'] = watch_health
     ask_health['errors'] += watch_health['errors']
@@ -205,7 +208,10 @@ def run_scan():
                 entry["ask_estimate"] = model
                 raw_by_url[entry["url"]]["ask_estimate"] = model
     ask_by_url = {r["url"]: r.get("ask_context") for r in review if r.get("ask_context")}
-    for deal, _ in graded: deal.ask_context = ask_by_url.get(deal.url)
+    for deal, res in graded:
+        deal.ask_context = ask_by_url.get(deal.url)
+        deal.ask_estimate=raw_by_url.get(deal.url,{}).get('ask_estimate')
+        deal.publication_listing=res.plan['list']
     checked = drop_expired(graded, br)
     order = {"A": 0, "B": 1, "R": 2}
     graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
@@ -257,6 +263,21 @@ def run_scan():
     for entry in review:
         if entry["url"] in by_url: entry["blockers"] = E.gates_failed(by_url[entry["url"]][1])
     LAST_REVIEW = sorted([r for r in review if r["blockers"]], key=lambda r: (-bool(r.get("ask_estimate", {}).get("estimated_opportunity")), -bool(r.get("ask_estimate",{}).get("worth_reviewing")), -bool(r.get("ask_estimate")), -r["priority"], r["item_price"], r["url"]))
+    from . import publication
+    hold_state=operational.setdefault('publication_holds',{})
+    hold_counts={};eligible=0
+    for raw in raws:
+        result=publication.proof(raw)
+        raw['publication_proof']=result
+        if raw['url'] in {r['url'] for r in review}:
+            next(r for r in review if r['url']==raw['url'])['publication_proof']=result
+        if result['ok']:eligible+=1;hold_state.pop(raw['url'],None)
+        else:
+            key=result['reason'];hold_counts[key]=hold_counts.get(key,0)+1
+            prior=hold_state.get(raw['url'],{})
+            hold_state[raw['url']]={'reason':key,'category':raw['category'],'first_held':prior.get('first_held',RT.stamp(RT.now())),'last_checked':RT.stamp(RT.now())}
+    operational['publication_holds']=dict(list(hold_state.items())[-1000:])
+    stats['publication_holds']={'eligible':eligible,'held':len(raws)-eligible,'reasons':hold_counts,'by_category':{c:sum(r['category']==c and not publication.allowed(r) for r in raws) for c in {r['category'] for r in raws}}}
     stats['excluded_nonphysical']=nonphysical
     stats['source_coverage']={source:{'offers':sum(r.get('source','hotukdeals')==source for r in raws),
         'new':sum(r.get('source','hotukdeals')==source and operational['items'][RT.key(r)]['observations']==1 for r in raws),
@@ -290,8 +311,8 @@ def _public_deal(d, r):
             "floor_age_days": d.floor_age_days, "velocity_age_days": d.velocity_age_days,
             "offer_observed_at": getattr(d, "offer_observed_at", None), "delivery_known": d.delivery_known, "availability": d.availability,
             "valuation_status": "reviewed_sold" if d.evidence_type == "sold" and d.delivery_known else "reference_or_item_only_estimate",
-            "offer_verified": d.offer_verified, "ask_context": getattr(d, "ask_context", None),
-            "plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "time_stop_rule", "platforms")}}
+            "offer_verified": d.offer_verified, "ask_context": getattr(d, "ask_context", None),"ask_estimate":getattr(d,"ask_estimate",None),"publication_proof":__import__("moneyhunter.publication",fromlist=["proof"]).proof({**vars(d),"title":d.title[:200]}),
+            "sold_90d":d.sold_90d,"publication_listing":r.plan["list"],"plan": {k: r.plan[k] for k in ("list", "target", "quick", "floor", "time_stop_day", "time_stop_rule", "platforms")}}
 
 def export_public(path, stats, graded):
     import datetime as dt
@@ -314,15 +335,17 @@ def export_public(path, stats, graded):
            "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
            "schema_version": 2, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     if os.getenv("MONEYHUNTER_DISABLE_SEND")=="1":
+        from . import publication
         from . import discord as D,images,hub
         import re
         sample=[];categories=set()
         for r in sorted(LAST_RAWS,key=lambda r:not bool(re.search(r'72051|resident evil requiem',r['title'],re.I))):
-            if hub.resellable(r) and (r['category'] not in categories or re.search(r'72051|resident evil requiem',r['title'],re.I)):
+            if publication.allowed(r) and hub.resellable(r) and (r['category'] not in categories or re.search(r'72051|resident evil requiem',r['title'],re.I)):
                 sample.append(r);categories.add(r['category'])
         out['clarity_publication_previews']=[{'source_url':r['url'],'payload':D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in sample[:12]]
-        out["fragrance_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="fragrance"]
-        out["lego_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="lego" and images.publishable(r)]
+        out['all_publication_previews']=[{'source_url':r['url'],'payload':D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if publication.allowed(r) and images.publishable(r)]
+        out["fragrance_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="fragrance" and publication.allowed(r)]
+        out["lego_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="lego" and images.publishable(r) and publication.allowed(r)]
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     from .evidence import atomic_write
     atomic_write(path, out); print(f"[export] {path}: {len(out['deals'])} deals")

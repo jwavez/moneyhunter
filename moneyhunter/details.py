@@ -9,7 +9,7 @@ LIMIT=4
 TTL_MINUTES=30
 
 def risky(ident):
-    return ident.category in ('fragrance','trainers','tech') or bool(re.search(r'\b(controller|headset|peripheral)\b',ident.match,re.I))
+    return ident.category in ('fragrance','trainers','tech','tools') or bool(re.search(r'\b(controller|headset|peripheral)\b',ident.match,re.I))
 
 def assess(data,offer,ident,when):
     from . import market
@@ -60,6 +60,11 @@ def assess(data,offer,ident,when):
         style=values('style code','mpn','manufacturer part number') or str(data.get('mpn') or '')
         if not style:missing.append('style-colour code aspect missing')
         elif not re.search(r'(?<![a-z0-9])'+re.escape(v.get('style_code',''))+r'(?![a-z0-9])',style,re.I):bad.append('style-colour code mismatch')
+    elif ident.category=='tools':
+        model=values('model','mpn','manufacturer part number') or str(data.get('mpn') or '')
+        expected=v.get('model','')
+        if not model:missing.append('exact tool model aspect missing')
+        elif not re.search(r'(?<![a-z0-9])'+re.escape(expected)+r'(?:-XJ)?(?![a-z0-9])',model,re.I):bad.append('tool model mismatch')
     elif ident.category=='tech':
         model=values('model','mpn','manufacturer part number') or str(data.get('mpn') or '')
         compact=lambda s:re.sub(r'[^a-z0-9]','',s.lower())
@@ -84,7 +89,7 @@ def inspect_snapshot(snapshot,ident,state,when):
     run=state.setdefault('detail_run',{'calls':0,'cached':0,'errors':[]})
     if fresh and cached.get('checked_item_price') not in (None,low['item_price']):fresh=False
     if fresh:run['cached']+=1
-    elif not state.get('browse_details_blocked') and not state.get('ask_cache',{}).get('browse-blocked') and ebay.available() and run['calls']<LIMIT and research_budget.reserve(state,when,'item-details'):
+    elif not state.get('browse_details_blocked') and not state.get('ask_cache',{}).get('browse-blocked') and ebay.available() and run['calls']<(LIMIT if ident.category=='tools' else LIMIT-run.get('reserved_tools',0)) and research_budget.reserve(state,when,'item-details'):
         run['calls']+=1
         try:
             cached=assess(ebay.item_details(low['item_id']),low,ident,when);cache[key]=cached

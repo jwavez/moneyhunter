@@ -68,6 +68,22 @@ def trainer(raw, seed=False):
 def identity(raw):
     title=raw.get('title',''); cat=raw.get('category'); t=clean(title)
     if M.has(t,*BAD) or re.search(r'\b(?:ex[- ]display|damaged|refurbished|used condition)\b',raw.get('desc',''),re.I):return None
+    if cat=='tools':
+        # Only verified bare-tool models; battery/charger/kits are separate identities.
+        models={'DUB185Z':('Makita','blower'),'DCF887N':('DeWalt','impact driver')}
+        found=[]
+        for model,(brand,kind) in models.items():
+            if re.search(r'\b'+model+(r'(?:-XJ)?' if model=='DCF887N' else '')+r'(?![-a-z0-9])',title,re.I) and M.has(t,brand.lower()):found.append((model,brand,kind))
+        if len(found)!=1 or M.has(t,'kit','charger','batteries','with battery','battery included','case only','housing','spares','replacement','bit holder') or re.search(r'\b(?:BL\d+|DT\d+|DUB186|DCF887[DP]\d)\b',title,re.I):return None
+        model,brand,kind=found[0]
+        if any(int(n)!=18 for n in re.findall(r'(?<!\d)(\d+)\s*v\b',title,re.I)):return None
+        battery_text=re.sub(r'no batter(?:y|ies)|without batter(?:y|ies)|batter(?:y|ies) (?:not included|sold separately)|battery powered','',t)
+        if M.has(battery_text,'battery','batteries') or re.search(r'\d+(?:\.\d+)?\s*ah\b',battery_text):return None
+        # DCF887N-XJ is the manufacturer's UK bare-tool page; never alias kits.
+        remainder=re.sub(r'\b'+model+r'(?:-XJ)?\b','',title,flags=re.I)
+        if re.search(r'\b(?:DUB|DCF|BL|DT)\d+',remainder,re.I):return None
+        if not M.has(t,'bare','bare unit','body only','tool only','naked') and not re.search(r'\b'+model+(r'(?:-XJ)?' if model=='DCF887N' else '')+r'(?![-a-z0-9])',title,re.I):return None
+        return make(cat,f'{brand} {model} bare tool 18V',{'brand':brand,'model':model,'voltage':18,'contents':'bare tool; no battery/charger','region':'GB listing; warranty unverified'})
     if cat=='trainers':return trainer(raw)
     if cat=='tech':
         if not M.has(t,'sony') or M.has(t,'case','cover','earpad','ear pads','headband','charger','charging case','cable','parts','spares','left only','right only','single earbud','one piece','limited edition'):return None

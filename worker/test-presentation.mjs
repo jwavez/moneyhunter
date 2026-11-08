@@ -22,10 +22,10 @@ test('unknown, stale, loss and conditional fragrance stay explicit',()=>{
 test('legacy interactive research and plan cannot revive physical key economics',async()=>{
  const x={title:'LEGO Batman PC Key',category:'lego',item_price:29.99};
  assert.equal(_test.mergeResearch([x],{items:[]}).length,0);
- assert.match(JSON.stringify(_test.planView(x)),/EXCLUDED/);
+ assert.match(JSON.stringify(_test.planView(x)),/Resale research pending/);
  assert.match(JSON.stringify(await _test.priceView(x.title,null,{})),/EXCLUDED/);
  const data=await guardData({embeds:[{title:x.title,_mh_product_category:'lego',fields:[{name:'postage',value:'bad old cost'}]}]});
- assert.match(data.content,/nonphysical/);assert.ok(!data.embeds);
+ assert.match(JSON.stringify(data),/Resale research pending/);assert.ok(!JSON.stringify(data).includes(x.title));
 });
 
 test('actual desktop plus bundled Game Pass remains physical tech, not a software exclusion',()=>{

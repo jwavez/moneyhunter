@@ -33,6 +33,8 @@ const out = await (await w.fetch(mk(cb, csig), env, {})).json(); assert.equal(ou
 const { COMMANDS } = await import("./scripts/register.mjs"); assert.equal(COMMANDS.length, 11);
 // components with a mocked deals feed
 const deals = JSON.parse(readFileSync("./test-deals.json", "utf8"));
+// Explicit offline reviewed-sold evidence for pagination/control fixtures, not live data.
+for(const d of deals.deals)Object.assign(d,{evidence_type:'sold',sold_90d:5,comp_age_days:1,sold_sources:['https://example.com/offline-reviewed-sale'],publication_listing:d.plan?.list??d.target??50});
 globalThis.fetch = async u => String(u).startsWith("https://i.ebayimg.com/") ? new Response(Uint8Array.from([255,216,255,...Array(32).fill(0)]),{headers:{"content-type":"image/jpeg"}}) : ({ ok: true, json: async () => deals, text: async () => readFileSync("../data/comps.csv", "utf8") });
 const store = new Map(); const kv = { get: async (k, t) => store.has(k) ? (t === "json" ? JSON.parse(store.get(k)) : store.get(k)) : null, put: async (k, v) => store.set(k, v), list: async ({ prefix }) => ({ keys: [...store.keys()].filter(k => k.startsWith(prefix)).map(name => ({ name })) }) };
 const env2 = { ...env, DEALS_URL: "d", COMPS_URL: "c", MH: kv, WINS_CHANNEL: "w" };
@@ -51,7 +53,7 @@ r = await call({ type: 3, data: { custom_id: "cat", values: ["consoles"] }, mess
 r = await call({ type: 3, data: { custom_id: "p:scan" }, message: { flags: 0 } }); assert.match(r.data.content, /coming soon/);
 r = await call({ type: 5, data: { custom_id: "m:calc", components: [{ type: 1, components: [{ custom_id: "buy", value: "£10" }] }, { type: 1, components: [{ custom_id: "sell", value: "30" }] }, { type: 1, components: [{ custom_id: "platform", value: "Vinted" }] }] } });
 assert.match(r.data.embeds[0].title, /\+£18\.60 net/);
-r = await call({ type: 5, data: { custom_id: "m:price", components: [{ type: 1, components: [{ custom_id: "item", value: "mario kart 8 deluxe" }] }] } }); assert.match(r.data.embeds[0].title, /mario kart 8/);
+r = await call({ type: 5, data: { custom_id: "m:price", components: [{ type: 1, components: [{ custom_id: "item", value: "mario kart 8 deluxe" }] }] } }); assert.match(r.data.embeds[0].title, /Resale research pending/);
 for (const t of [{ type: 3, data: { custom_id: "p:cats" }, message: { flags: 64 } }, { type: 3, data: { custom_id: "p:how" }, message: { flags: 64 } }]) sizeOk(await call(t));
 const mem = { user: { id: "u1", username: "tester" }, permissions: "0" };
 const fv = o => Object.entries(o).map(([k, v]) => ({ type: 1, components: [{ custom_id: k, value: v }] }));
@@ -90,12 +92,12 @@ assert.match(r.data.embeds[0].fields[0].value,/40.00/);
 assert.equal(r.data.allowed_mentions.parse.length,0); sizeOk(r);
 deals.pricing_catalog=[{...reviewedFixture,sample_count:1}];
 r=await call({type:2,data:{name:"price",options:[{name:"item",value:"LEGO 12345 new"}]}});
-assert.match(r.data.embeds[0].description,/Fewer than five/);
+assert.match(r.data.embeds[0].title,/Resale research pending/);
 deals.pricing_catalog=[];
 deals.review_queue=[{title:"Synthetic research item",url:"https://example.com/fixture",item_price:20,landed_cost:null,breakeven_sell:30,sell_for_minimum_profit:40,cost_basis:"item-only lower bound; delivery unknown",blockers:["Missing exact sold observations"],priority:15,sold_search:"https://example.com/search"}];
 r=await call({type:3,data:{custom_id:"research:0"},message:{flags:0}});
-assert.match(r.data.embeds[0].title,/RESEARCH ONLY/);assert.equal(r.data.flags,64);sizeOk(r);
-assert.match(r.data.embeds[0].fields.find(x=>x.name==="Hypothetical breakeven / required resale").value,/NOT market valuations/);
+assert.match(r.data.embeds[0].title,/Resale research pending/);assert.equal(r.data.flags,64);sizeOk(r);
+assert.ok(!JSON.stringify(r).includes("Hypothetical breakeven"));
 const health=await (await w.fetch({method:"GET",url:"https://x/api/health"},env2,ctx)).json();
 assert.equal(health.contract_version,4);assert.equal(health.review_candidates,1);
 assert.equal(health.pricing_status.products,0);

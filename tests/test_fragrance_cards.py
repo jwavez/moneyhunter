@@ -65,6 +65,8 @@ class FragranceCards(unittest.TestCase):
         for category,title in [('fragrance',EDT['title']),('fragrance',LOTION['title']),('tech','Sony WF-C510 Yellow'),('gaming','Some Physical Game PS5'),('trainers','Nike HJ5996-003 Womens UK6'),('tools','Bosch Exact Drill 18V')]:
             raw={**EDT,'category':category,'title':title}
             payload=discord.build_payload([hub.watch_card(raw,{})])
+            if payload is None:
+                self.assertIsNone(discord.build_payload([hub.watch_card(raw,{})]));continue
             e=payload['embeds'][0];self.assertLessEqual(len(e['fields']),25)
             self.assertTrue(all(len(f['value'])<=1024 for f in e['fields']))
             length=len(e['title'])+len(e['description'])+len(e['footer']['text'])+sum(len(f['name'])+len(f['value']) for f in e['fields'])

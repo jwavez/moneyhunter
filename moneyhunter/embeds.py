@@ -118,12 +118,12 @@ def deal_card(d, r, preview: bool = False) -> list:
     from . import presentation,product_format as PF
     if PF.reason(vars(d)):return [PF.research_card(vars(d))]
     legacy={'grade':g,'evidence_type':getattr(d,'evidence_type',None),'plan':r.plan,'buy':d.buy_price,'landed_cost':r.cost,'delivery_known':d.delivery_known,'postage':r.postage}
-    card['fields']=presentation.fields({'price':d.buy_price,'category':d.category},legacy=legacy)+card['fields']
+    card['fields']=presentation.fields({'price':d.buy_price,'category':d.category},model=getattr(d,'ask_estimate',None),legacy=legacy)+card['fields']
     if getattr(d, "thumb", ""):
         from .images import safe
         if safe(d.thumb):card["image"] = {"url":safe(d.thumb)}
     from .images import metadata
-    card.update(metadata(vars(d)))
+    card.update(metadata({**vars(d),'publication_listing':r.plan['list']}))
     if (getattr(d,"image_basis",None) or "").startswith("Reference"):card["description"] += "\nImage: exact-set reference, not proof of listing condition."
     p = r.plan
     details = {

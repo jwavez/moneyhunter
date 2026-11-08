@@ -8,6 +8,7 @@ export function nonphysical(x={}) {
  return !hardware && (/\b(digital|download|steam|gog|epic games|game pass|season pass|dlc|subscription|membership|licen[cs]e)\b/i.test(t)||stores.has(String(x.merchant??'').trim().toLowerCase()));
 }
 export function normalizeProduct(x={}) {
+ if(/\s(?:(?:\/\/)|\/)\s*(?:Makita|DeWalt)\b/i.test(x.title??'')&&!x.primary_offer_status)return {...x,offer_ambiguity:'Unresolved primary/secondary offer; old delivery not trusted',landed_cost:null,ask_estimate:undefined};
  if(nonphysical(x))return {...x,category:'digital',online_eligible:false};
  if(computer(x.title??''))return {...x,category:'tech'};
  return /\blego\b/i.test(x.title??'')&&!/(?<!\d)\d{5,6}(?!\d)/.test(x.title??'')&&/\b(ps[45]|playstation|xbox|nintendo switch|pc (?:disc|dvd)|video game)\b/i.test(x.title??'')?{...x,category:'gaming',format_reclassified:true,ask_estimate:undefined,ask_context:undefined}:x;
