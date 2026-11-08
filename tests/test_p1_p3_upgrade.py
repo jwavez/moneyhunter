@@ -71,3 +71,14 @@ class ReviewBridge(unittest.TestCase):
   r['floor']['observed_at']=(clock-dt.timedelta(hours=24,seconds=1)).isoformat();self.assertIsNone(evidence.load(records=[r])[0].floor)
   r['floor']['observed_at']=(clock+dt.timedelta(seconds=60)).isoformat()
   with self.assertRaises(ValueError):evidence.validate(r)
+class FullFeedIntake(unittest.TestCase):
+ def test_actual_article_after_800_character_prose_limit_reaches_live_identity_path(self):
+  import html
+  from moneyhunter.scanners import hotukdeals
+  row=next(r for r in json.loads(Path('tests/fixtures/p1_actual_hukd.json').read_text())['offers'] if 'Streetalk' in r['title'])
+  # Actual title/URL/full source description; merchant-price is a labelled
+  # SYNTHETIC parsing fixture, never an acquisition/checkout or sale quotation.
+  xml=('<rss xmlns:pepper="https://www.hotukdeals.com/"><channel><item><title>'+html.escape(row['title'])+'</title><link>'+row['url']+'</link><description>'+html.escape(row['desc'])+'</description><pepper:merchant name="Fixture only" price="1.00"/></item></channel></rss>').encode()
+  with patch.dict(hotukdeals.C.FEEDS,{'trainers':['tag/adidas']},clear=True),patch.object(hotukdeals.urllib.request,'urlopen',side_effect=lambda *a,**k:io.BytesIO(xml)):
+   rows=hotukdeals.scan()
+  self.assertEqual(len(rows),1);r=rows[0];self.assertLessEqual(len(r['desc']),800);self.assertNotIn('IH4316',r['desc']);self.assertEqual(r['identity_evidence'][0]['code'],'IH4316');self.assertEqual(market.identity(r).identity['uk_size'],3.5)
