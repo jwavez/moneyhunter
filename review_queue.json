@@ -2,1072 +2,6 @@
   "schema_version": 1,
   "candidates": [
     {
-      "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
-      "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
-      "policy_key": "77f45127115e0306cf5deb7f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 57.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
-      "landed_cost": null,
-      "breakeven_sell": 75.18,
-      "sell_for_minimum_profit": 102.47,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 20,
-      "first_seen": "2026-11-08T14:25:14+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Haunted+Mansion+31167+%28Discount+at+Checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 31167",
-        "category": "lego",
-        "name_terms": [
-          "3in1",
-          "creator",
-          "haunted",
-          "mansion"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T14:25:15+00:00",
-        "date": "2026-11-08",
-        "sample_count": 26,
-        "listed_total_low": 69.75,
-        "listed_total_p25": 76.28,
-        "listed_total_median": 79.54,
-        "listed_total_p75": 83.96,
-        "listed_total_high": 94.99,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|227408886875|0",
-            "seller": "sa_sha",
-            "image": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227408886875",
-            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 6.65,
-            "listed_total": 69.75
-          },
-          {
-            "item_id": "v1|227492679444|0",
-            "seller": "hug-4094",
-            "image": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227492679444",
-            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
-            "declared_condition": "new",
-            "item_price": 64.99,
-            "shipping": 5.15,
-            "listed_total": 70.14
-          },
-          {
-            "item_id": "v1|287471927853|0",
-            "seller": "jco_bricks",
-            "image": "https://i.ebayimg.com/images/g/hJwAAeSwFdNqXNVO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287471927853",
-            "title": "Lego Creator: Haunted Mansion (31167)",
-            "declared_condition": "new",
-            "item_price": 67.99,
-            "shipping": 3.71,
-            "listed_total": 71.7
-          },
-          {
-            "item_id": "v1|287587711434|0",
-            "seller": "margdun_42",
-            "image": "https://i.ebayimg.com/images/g/JqYAAeSwQIRqqF8u/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287587711434",
-            "title": "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 68.0,
-            "shipping": 5.21,
-            "listed_total": 73.21
-          },
-          {
-            "item_id": "v1|407280395109|0",
-            "seller": "knowh95",
-            "image": "https://i.ebayimg.com/images/g/87kAAeSw1fBqyhfE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407280395109",
-            "title": "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
-            "declared_condition": "new",
-            "item_price": 68.29,
-            "shipping": 5.21,
-            "listed_total": 73.5
-          },
-          {
-            "item_id": "v1|147570125254|0",
-            "seller": "seal_5392",
-            "image": "https://i.ebayimg.com/images/g/i8sAAeSw9TBqpnCC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147570125254",
-            "title": "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
-            "declared_condition": "new",
-            "item_price": 70.0,
-            "shipping": 3.71,
-            "listed_total": 73.71
-          },
-          {
-            "item_id": "v1|407297671288|0",
-            "seller": "aust-inspace",
-            "image": "https://i.ebayimg.com/images/g/M8kAAeSwiFVq0~dl/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407297671288",
-            "title": "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
-            "declared_condition": "new",
-            "item_price": 72.5,
-            "shipping": 3.55,
-            "listed_total": 76.05
-          },
-          {
-            "item_id": "v1|267772286741|0",
-            "seller": "bricktopia_collectables",
-            "image": "https://i.ebayimg.com/images/g/deAAAeSwIK1qla-t/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267772286741",
-            "title": "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
-            "declared_condition": "new",
-            "item_price": 73.49,
-            "shipping": 3.49,
-            "listed_total": 76.98
-          },
-          {
-            "item_id": "v1|357992865272|0",
-            "seller": "cookingongas-3",
-            "image": "https://i.ebayimg.com/images/g/fvsAAeSwKUlpNUMJ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/357992865272",
-            "title": "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
-            "declared_condition": "new",
-            "item_price": 73.49,
-            "shipping": 5.21,
-            "listed_total": 78.7
-          },
-          {
-            "item_id": "v1|128089714905|0",
-            "seller": "aileenmcmillanxoxo",
-            "image": "https://i.ebayimg.com/images/g/4QgAAeSwl9hqsBw6/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128089714905",
-            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
-            "declared_condition": "new",
-            "item_price": 78.7,
-            "shipping": 0.0,
-            "listed_total": 78.7
-          },
-          {
-            "item_id": "v1|127665567595|0",
-            "seller": "sy_7217",
-            "image": "https://i.ebayimg.com/images/g/8RsAAeSwmgJpg4Dy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127665567595",
-            "title": "LEGO Creator 3in1 Haunted Mansion House Building Toy Set 31167",
-            "declared_condition": "new",
-            "item_price": 78.7,
-            "shipping": 0.0,
-            "listed_total": 78.7
-          },
-          {
-            "item_id": "v1|236905390632|0",
-            "seller": "thebri-6529",
-            "image": "https://i.ebayimg.com/images/g/Fp0AAeSwijdqmb-i/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/236905390632",
-            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion BNIB New factory Sealed",
-            "declared_condition": "new",
-            "item_price": 73.5,
-            "shipping": 5.21,
-            "listed_total": 78.71
-          },
-          {
-            "item_id": "v1|267339608039|0",
-            "seller": "zatugames",
-            "image": "https://i.ebayimg.com/images/g/XjAAAeSw34VogJPR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267339608039",
-            "title": "Lego Creator 31167 Haunted Mansion  - Brand New",
-            "declared_condition": "new",
-            "item_price": 79.1,
-            "shipping": 0.0,
-            "listed_total": 79.1
-          },
-          {
-            "item_id": "v1|267360086608|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/QZYAAeSwDPpolxVO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267360086608",
-            "title": "LEGO 31167 Creator 3in1 Haunted Mansion - Transforms into a Ghost Ship or a T...",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 0.0,
-            "listed_total": 79.99
-          },
-          {
-            "item_id": "v1|286931197591|0",
-            "seller": "wesell2youltd",
-            "image": "https://i.ebayimg.com/images/g/g70AAeSwdjNpEy~m/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/286931197591",
-            "title": "LEGO Creator Haunted Mansion Model 31167 (9+ Years)",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 0.0,
-            "listed_total": 79.99
-          },
-          {
-            "item_id": "v1|277475387217|0",
-            "seller": "jdcj2013",
-            "image": "https://i.ebayimg.com/images/g/EUwAAeSwueppA7WX/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/277475387217",
-            "title": "LEGO Creator 3 in 1 Haunted Mansion Set 31167 House Ship Train Spooky Halloween",
-            "declared_condition": "new",
-            "item_price": 80.01,
-            "shipping": 0.0,
-            "listed_total": 80.01
-          },
-          {
-            "item_id": "v1|800696088745|0",
-            "seller": "brickraiders",
-            "image": "https://i.ebayimg.com/images/g/jWIAAeSw5hJqsX-R/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800696088745",
-            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
-            "declared_condition": "new",
-            "item_price": 73.5,
-            "shipping": 6.62,
-            "listed_total": 80.12
-          },
-          {
-            "item_id": "v1|960152908038|0",
-            "seller": "globalmartt",
-            "image": "https://i.ebayimg.com/images/g/U08AAeSwzHBq6xHC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960152908038",
-            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
-            "declared_condition": "new",
-            "item_price": 83.42,
-            "shipping": 0.0,
-            "listed_total": 83.42
-          },
-          {
-            "item_id": "v1|206366032510|0",
-            "seller": "rarebrix",
-            "image": "https://i.ebayimg.com/images/g/8p8AAeSwXhxq6iQL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206366032510",
-            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
-            "declared_condition": "new",
-            "item_price": 80.95,
-            "shipping": 2.99,
-            "listed_total": 83.94
-          },
-          {
-            "item_id": "v1|127913900169|0",
-            "seller": "safari-island",
-            "image": "https://i.ebayimg.com/images/g/558AAeSw2BpqKSop/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127913900169",
-            "title": "LEGO Creator 3 in 1 - Haunted Mansion - 31167",
-            "declared_condition": "new",
-            "item_price": 79.98,
-            "shipping": 3.99,
-            "listed_total": 83.97
-          },
-          {
-            "item_id": "v1|317642916911|0",
-            "seller": "phillipshobbies",
-            "image": "https://i.ebayimg.com/images/g/fO8AAeSwhSppOIY2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317642916911",
-            "title": "LEGO Creator 3in1 Haunted Mansion House Building Toy Set 31167",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 3.99,
-            "listed_total": 83.98
-          },
-          {
-            "item_id": "v1|366550704028|0",
-            "seller": "sha_75793",
-            "image": "https://i.ebayimg.com/images/g/jfwAAeSw7EhqW6OW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366550704028",
-            "title": "LEGO Creator 3in1: Haunted Mansion - Ghost Ship - Train - 31167 - Brand New",
-            "declared_condition": "new",
-            "item_price": 79.73,
-            "shipping": 4.27,
-            "listed_total": 84.0
-          },
-          {
-            "item_id": "v1|820213191304|0",
-            "seller": "mahar-1732",
-            "image": "https://i.ebayimg.com/images/g/~iIAAeSw7plqxhTS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820213191304",
-            "title": "LEGO Creator Haunted Mansion 3 in 1 Set 31167 736 PCs Age 9+",
-            "declared_condition": "new",
-            "item_price": 83.9,
-            "shipping": 3.89,
-            "listed_total": 87.79
-          },
-          {
-            "item_id": "v1|327399102430|0",
-            "seller": "ihaveit_music",
-            "image": "https://i.ebayimg.com/images/g/3~UAAeSw0eJq16eK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327399102430",
-            "title": "Lego - - Creator - Haunted Mansion 31167 - construct - P2222z",
-            "declared_condition": "new",
-            "item_price": 93.11,
-            "shipping": 0.0,
-            "listed_total": 93.11
-          },
-          {
-            "item_id": "v1|178536315143|0",
-            "seller": "booghe_toys",
-            "image": "https://i.ebayimg.com/images/g/aR4AAeSwS~5pnGii/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178536315143",
-            "title": "LEGO Creator 31167 Haunted Mansion Building Set 736 Pieces Interactive 9+",
-            "declared_condition": "new",
-            "item_price": 94.9,
-            "shipping": 0.0,
-            "listed_total": 94.9
-          },
-          {
-            "item_id": "v1|168207977295|0",
-            "seller": "planszowki",
-            "image": "https://i.ebayimg.com/images/g/4HMAAeSwLkJpqbGB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168207977295",
-            "title": "Lego\u00ae Creator 31167 Haunted Residence Genuine Quality Best Top",
-            "declared_condition": "new",
-            "item_price": 94.99,
-            "shipping": 0.0,
-            "listed_total": 94.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 24
-        },
-        "query_aliases": [
-          "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 31167",
-        "observed_at": "2026-11-08T14:25:15+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 26,
-        "seller_count": 26,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 7,
-        "confidence": "moderate",
-        "wide_spread": false,
-        "competition_low": 69.75,
-        "competition_high": 94.99,
-        "estimated_resale": 67.65,
-        "estimated_range": [
-          62.77,
-          69.75
-        ],
-        "suggested_listing": 69.74,
-        "quick_sale_model": 62.77,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 57.0,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -6.28,
-        "max_landed_buy": 36.22,
-        "max_item_buy": null,
-        "delivery_headroom": -20.78,
-        "fees": 9.61,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 2.03,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 60.88,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 40.06,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|227408886875|0",
-            "seller": "sa_sha",
-            "image": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227408886875",
-            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 6.65,
-            "listed_total": 69.75,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227492679444|0",
-            "seller": "hug-4094",
-            "image": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227492679444",
-            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
-            "declared_condition": "new",
-            "item_price": 64.99,
-            "shipping": 5.15,
-            "listed_total": 70.14,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287471927853|0",
-            "seller": "jco_bricks",
-            "image": "https://i.ebayimg.com/images/g/hJwAAeSwFdNqXNVO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287471927853",
-            "title": "Lego Creator: Haunted Mansion (31167)",
-            "declared_condition": "new",
-            "item_price": 67.99,
-            "shipping": 3.71,
-            "listed_total": 71.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287587711434|0",
-            "seller": "margdun_42",
-            "image": "https://i.ebayimg.com/images/g/JqYAAeSwQIRqqF8u/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287587711434",
-            "title": "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 68.0,
-            "shipping": 5.21,
-            "listed_total": 73.21,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407280395109|0",
-            "seller": "knowh95",
-            "image": "https://i.ebayimg.com/images/g/87kAAeSw1fBqyhfE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407280395109",
-            "title": "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
-            "declared_condition": "new",
-            "item_price": 68.29,
-            "shipping": 5.21,
-            "listed_total": 73.5,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|147570125254|0",
-            "seller": "seal_5392",
-            "image": "https://i.ebayimg.com/images/g/i8sAAeSw9TBqpnCC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147570125254",
-            "title": "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
-            "declared_condition": "new",
-            "item_price": 70.0,
-            "shipping": 3.71,
-            "listed_total": 73.71,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407297671288|0",
-            "seller": "aust-inspace",
-            "image": "https://i.ebayimg.com/images/g/M8kAAeSwiFVq0~dl/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407297671288",
-            "title": "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
-            "declared_condition": "new",
-            "item_price": 72.5,
-            "shipping": 3.55,
-            "listed_total": 76.05,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267772286741|0",
-            "seller": "bricktopia_collectables",
-            "image": "https://i.ebayimg.com/images/g/deAAAeSwIK1qla-t/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267772286741",
-            "title": "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
-            "declared_condition": "new",
-            "item_price": 73.49,
-            "shipping": 3.49,
-            "listed_total": 76.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|357992865272|0",
-            "seller": "cookingongas-3",
-            "image": "https://i.ebayimg.com/images/g/fvsAAeSwKUlpNUMJ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/357992865272",
-            "title": "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
-            "declared_condition": "new",
-            "item_price": 73.49,
-            "shipping": 5.21,
-            "listed_total": 78.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|128089714905|0",
-            "seller": "aileenmcmillanxoxo",
-            "image": "https://i.ebayimg.com/images/g/4QgAAeSwl9hqsBw6/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128089714905",
-            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
-            "declared_condition": "new",
-            "item_price": 78.7,
-            "shipping": 0.0,
-            "listed_total": 78.7,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
-        "query": "LEGO 31167",
-        "kind": "active_ask",
-        "listing": 69.74,
-        "observed_at": "2026-11-08T14:25:15+00:00",
-        "valid_until": "2026-11-08T20:25:15+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/227408886875",
-          "https://www.ebay.co.uk/itm/227492679444",
-          "https://www.ebay.co.uk/itm/287471927853",
-          "https://www.ebay.co.uk/itm/287587711434",
-          "https://www.ebay.co.uk/itm/407280395109",
-          "https://www.ebay.co.uk/itm/147570125254",
-          "https://www.ebay.co.uk/itm/407297671288",
-          "https://www.ebay.co.uk/itm/267772286741",
-          "https://www.ebay.co.uk/itm/357992865272",
-          "https://www.ebay.co.uk/itm/128089714905"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/227408886875",
-            "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
-            69.75,
-            6.65,
-            63.1,
-            "sa_sha"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227492679444",
-            "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
-            70.14,
-            5.15,
-            64.99,
-            "hug-4094"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/287471927853",
-            "Lego Creator: Haunted Mansion (31167)",
-            71.7,
-            3.71,
-            67.99,
-            "jco_bricks"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/287587711434",
-            "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
-            73.21,
-            5.21,
-            68.0,
-            "margdun_42"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407280395109",
-            "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
-            73.5,
-            5.21,
-            68.29,
-            "knowh95"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/147570125254",
-            "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
-            73.71,
-            3.71,
-            70.0,
-            "seal_5392"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407297671288",
-            "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
-            76.05,
-            3.55,
-            72.5,
-            "aust-inspace"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267772286741",
-            "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
-            76.98,
-            3.49,
-            73.49,
-            "bricktopia_collectables"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/357992865272",
-            "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
-            78.7,
-            5.21,
-            73.49,
-            "cookingongas-3"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/128089714905",
-            "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
-            78.7,
-            0.0,
-            78.7,
-            "aileenmcmillanxoxo"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-porsche-911-gt3-rs-super-car-77239-5025074",
       "policy_key": "d3c1dd85a6e95ab3cd0e9d26",
@@ -1082,8 +16,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg"
       ],
@@ -2843,8 +1777,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg"
@@ -3765,8 +2699,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg"
@@ -4331,8 +3265,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg"
       ],
@@ -5268,8 +4202,8 @@
       "item_price": 42.72,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg"
       ],
@@ -6337,8 +5271,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg"
@@ -7349,8 +6283,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg"
@@ -8139,6 +7073,1072 @@
       }
     },
     {
+      "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
+      "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
+      "policy_key": "77f45127115e0306cf5deb7f",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 57.0,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
+      "landed_cost": null,
+      "breakeven_sell": 75.18,
+      "sell_for_minimum_profit": 102.47,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T14:25:14+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Haunted+Mansion+31167+%28Discount+at+Checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 31167",
+        "category": "lego",
+        "name_terms": [
+          "3in1",
+          "creator",
+          "haunted",
+          "mansion"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T14:25:15+00:00",
+        "date": "2026-11-08",
+        "sample_count": 26,
+        "listed_total_low": 69.75,
+        "listed_total_p25": 76.28,
+        "listed_total_median": 79.54,
+        "listed_total_p75": 83.96,
+        "listed_total_high": 94.99,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|227408886875|0",
+            "seller": "sa_sha",
+            "image": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227408886875",
+            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 6.65,
+            "listed_total": 69.75
+          },
+          {
+            "item_id": "v1|227492679444|0",
+            "seller": "hug-4094",
+            "image": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227492679444",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
+            "declared_condition": "new",
+            "item_price": 64.99,
+            "shipping": 5.15,
+            "listed_total": 70.14
+          },
+          {
+            "item_id": "v1|287471927853|0",
+            "seller": "jco_bricks",
+            "image": "https://i.ebayimg.com/images/g/hJwAAeSwFdNqXNVO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287471927853",
+            "title": "Lego Creator: Haunted Mansion (31167)",
+            "declared_condition": "new",
+            "item_price": 67.99,
+            "shipping": 3.71,
+            "listed_total": 71.7
+          },
+          {
+            "item_id": "v1|287587711434|0",
+            "seller": "margdun_42",
+            "image": "https://i.ebayimg.com/images/g/JqYAAeSwQIRqqF8u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287587711434",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 5.21,
+            "listed_total": 73.21
+          },
+          {
+            "item_id": "v1|407280395109|0",
+            "seller": "knowh95",
+            "image": "https://i.ebayimg.com/images/g/87kAAeSw1fBqyhfE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407280395109",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
+            "declared_condition": "new",
+            "item_price": 68.29,
+            "shipping": 5.21,
+            "listed_total": 73.5
+          },
+          {
+            "item_id": "v1|147570125254|0",
+            "seller": "seal_5392",
+            "image": "https://i.ebayimg.com/images/g/i8sAAeSw9TBqpnCC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147570125254",
+            "title": "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
+            "declared_condition": "new",
+            "item_price": 70.0,
+            "shipping": 3.71,
+            "listed_total": 73.71
+          },
+          {
+            "item_id": "v1|407297671288|0",
+            "seller": "aust-inspace",
+            "image": "https://i.ebayimg.com/images/g/M8kAAeSwiFVq0~dl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407297671288",
+            "title": "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
+            "declared_condition": "new",
+            "item_price": 72.5,
+            "shipping": 3.55,
+            "listed_total": 76.05
+          },
+          {
+            "item_id": "v1|267772286741|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/deAAAeSwIK1qla-t/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267772286741",
+            "title": "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 3.49,
+            "listed_total": 76.98
+          },
+          {
+            "item_id": "v1|357992865272|0",
+            "seller": "cookingongas-3",
+            "image": "https://i.ebayimg.com/images/g/fvsAAeSwKUlpNUMJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/357992865272",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 5.21,
+            "listed_total": 78.7
+          },
+          {
+            "item_id": "v1|128089714905|0",
+            "seller": "aileenmcmillanxoxo",
+            "image": "https://i.ebayimg.com/images/g/4QgAAeSwl9hqsBw6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128089714905",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 0.0,
+            "listed_total": 78.7
+          },
+          {
+            "item_id": "v1|127665567595|0",
+            "seller": "sy_7217",
+            "image": "https://i.ebayimg.com/images/g/8RsAAeSwmgJpg4Dy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127665567595",
+            "title": "LEGO Creator 3in1 Haunted Mansion House Building Toy Set 31167",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 0.0,
+            "listed_total": 78.7
+          },
+          {
+            "item_id": "v1|236905390632|0",
+            "seller": "thebri-6529",
+            "image": "https://i.ebayimg.com/images/g/Fp0AAeSwijdqmb-i/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236905390632",
+            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion BNIB New factory Sealed",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 5.21,
+            "listed_total": 78.71
+          },
+          {
+            "item_id": "v1|267339608039|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/XjAAAeSw34VogJPR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339608039",
+            "title": "Lego Creator 31167 Haunted Mansion  - Brand New",
+            "declared_condition": "new",
+            "item_price": 79.1,
+            "shipping": 0.0,
+            "listed_total": 79.1
+          },
+          {
+            "item_id": "v1|267360086608|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/QZYAAeSwDPpolxVO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267360086608",
+            "title": "LEGO 31167 Creator 3in1 Haunted Mansion - Transforms into a Ghost Ship or a T...",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 0.0,
+            "listed_total": 79.99
+          },
+          {
+            "item_id": "v1|286931197591|0",
+            "seller": "wesell2youltd",
+            "image": "https://i.ebayimg.com/images/g/g70AAeSwdjNpEy~m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286931197591",
+            "title": "LEGO Creator Haunted Mansion Model 31167 (9+ Years)",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 0.0,
+            "listed_total": 79.99
+          },
+          {
+            "item_id": "v1|277475387217|0",
+            "seller": "jdcj2013",
+            "image": "https://i.ebayimg.com/images/g/EUwAAeSwueppA7WX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277475387217",
+            "title": "LEGO Creator 3 in 1 Haunted Mansion Set 31167 House Ship Train Spooky Halloween",
+            "declared_condition": "new",
+            "item_price": 80.01,
+            "shipping": 0.0,
+            "listed_total": 80.01
+          },
+          {
+            "item_id": "v1|800696088745|0",
+            "seller": "brickraiders",
+            "image": "https://i.ebayimg.com/images/g/jWIAAeSw5hJqsX-R/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800696088745",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 6.62,
+            "listed_total": 80.12
+          },
+          {
+            "item_id": "v1|960152908038|0",
+            "seller": "globalmartt",
+            "image": "https://i.ebayimg.com/images/g/U08AAeSwzHBq6xHC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960152908038",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 83.42,
+            "shipping": 0.0,
+            "listed_total": 83.42
+          },
+          {
+            "item_id": "v1|206366032510|0",
+            "seller": "rarebrix",
+            "image": "https://i.ebayimg.com/images/g/8p8AAeSwXhxq6iQL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206366032510",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 80.95,
+            "shipping": 2.99,
+            "listed_total": 83.94
+          },
+          {
+            "item_id": "v1|127913900169|0",
+            "seller": "safari-island",
+            "image": "https://i.ebayimg.com/images/g/558AAeSw2BpqKSop/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127913900169",
+            "title": "LEGO Creator 3 in 1 - Haunted Mansion - 31167",
+            "declared_condition": "new",
+            "item_price": 79.98,
+            "shipping": 3.99,
+            "listed_total": 83.97
+          },
+          {
+            "item_id": "v1|317642916911|0",
+            "seller": "phillipshobbies",
+            "image": "https://i.ebayimg.com/images/g/fO8AAeSwhSppOIY2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/317642916911",
+            "title": "LEGO Creator 3in1 Haunted Mansion House Building Toy Set 31167",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 3.99,
+            "listed_total": 83.98
+          },
+          {
+            "item_id": "v1|366550704028|0",
+            "seller": "sha_75793",
+            "image": "https://i.ebayimg.com/images/g/jfwAAeSw7EhqW6OW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366550704028",
+            "title": "LEGO Creator 3in1: Haunted Mansion - Ghost Ship - Train - 31167 - Brand New",
+            "declared_condition": "new",
+            "item_price": 79.73,
+            "shipping": 4.27,
+            "listed_total": 84.0
+          },
+          {
+            "item_id": "v1|820213191304|0",
+            "seller": "mahar-1732",
+            "image": "https://i.ebayimg.com/images/g/~iIAAeSw7plqxhTS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820213191304",
+            "title": "LEGO Creator Haunted Mansion 3 in 1 Set 31167 736 PCs Age 9+",
+            "declared_condition": "new",
+            "item_price": 83.9,
+            "shipping": 3.89,
+            "listed_total": 87.79
+          },
+          {
+            "item_id": "v1|327399102430|0",
+            "seller": "ihaveit_music",
+            "image": "https://i.ebayimg.com/images/g/3~UAAeSw0eJq16eK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327399102430",
+            "title": "Lego - - Creator - Haunted Mansion 31167 - construct - P2222z",
+            "declared_condition": "new",
+            "item_price": 93.11,
+            "shipping": 0.0,
+            "listed_total": 93.11
+          },
+          {
+            "item_id": "v1|178536315143|0",
+            "seller": "booghe_toys",
+            "image": "https://i.ebayimg.com/images/g/aR4AAeSwS~5pnGii/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178536315143",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set 736 Pieces Interactive 9+",
+            "declared_condition": "new",
+            "item_price": 94.9,
+            "shipping": 0.0,
+            "listed_total": 94.9
+          },
+          {
+            "item_id": "v1|168207977295|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/4HMAAeSwLkJpqbGB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207977295",
+            "title": "Lego\u00ae Creator 31167 Haunted Residence Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 94.99,
+            "shipping": 0.0,
+            "listed_total": 94.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 24
+        },
+        "query_aliases": [
+          "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 31167",
+        "observed_at": "2026-11-08T14:25:15+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 26,
+        "seller_count": 26,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 7,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 69.75,
+        "competition_high": 94.99,
+        "estimated_resale": 67.65,
+        "estimated_range": [
+          62.77,
+          69.75
+        ],
+        "suggested_listing": 69.74,
+        "quick_sale_model": 62.77,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 57.0,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -6.28,
+        "max_landed_buy": 36.22,
+        "max_item_buy": null,
+        "delivery_headroom": -20.78,
+        "fees": 9.61,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 2.03,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 60.88,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 40.06,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|227408886875|0",
+            "seller": "sa_sha",
+            "image": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227408886875",
+            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 6.65,
+            "listed_total": 69.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227492679444|0",
+            "seller": "hug-4094",
+            "image": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227492679444",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
+            "declared_condition": "new",
+            "item_price": 64.99,
+            "shipping": 5.15,
+            "listed_total": 70.14,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287471927853|0",
+            "seller": "jco_bricks",
+            "image": "https://i.ebayimg.com/images/g/hJwAAeSwFdNqXNVO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287471927853",
+            "title": "Lego Creator: Haunted Mansion (31167)",
+            "declared_condition": "new",
+            "item_price": 67.99,
+            "shipping": 3.71,
+            "listed_total": 71.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287587711434|0",
+            "seller": "margdun_42",
+            "image": "https://i.ebayimg.com/images/g/JqYAAeSwQIRqqF8u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287587711434",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 5.21,
+            "listed_total": 73.21,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407280395109|0",
+            "seller": "knowh95",
+            "image": "https://i.ebayimg.com/images/g/87kAAeSw1fBqyhfE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407280395109",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
+            "declared_condition": "new",
+            "item_price": 68.29,
+            "shipping": 5.21,
+            "listed_total": 73.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147570125254|0",
+            "seller": "seal_5392",
+            "image": "https://i.ebayimg.com/images/g/i8sAAeSw9TBqpnCC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147570125254",
+            "title": "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
+            "declared_condition": "new",
+            "item_price": 70.0,
+            "shipping": 3.71,
+            "listed_total": 73.71,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407297671288|0",
+            "seller": "aust-inspace",
+            "image": "https://i.ebayimg.com/images/g/M8kAAeSwiFVq0~dl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407297671288",
+            "title": "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
+            "declared_condition": "new",
+            "item_price": 72.5,
+            "shipping": 3.55,
+            "listed_total": 76.05,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267772286741|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/deAAAeSwIK1qla-t/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267772286741",
+            "title": "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 3.49,
+            "listed_total": 76.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|357992865272|0",
+            "seller": "cookingongas-3",
+            "image": "https://i.ebayimg.com/images/g/fvsAAeSwKUlpNUMJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/357992865272",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 5.21,
+            "listed_total": 78.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128089714905|0",
+            "seller": "aileenmcmillanxoxo",
+            "image": "https://i.ebayimg.com/images/g/4QgAAeSwl9hqsBw6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128089714905",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 0.0,
+            "listed_total": 78.7,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
+        "query": "LEGO 31167",
+        "kind": "active_ask",
+        "listing": 69.74,
+        "observed_at": "2026-11-08T14:25:15+00:00",
+        "valid_until": "2026-11-08T20:25:15+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/227408886875",
+          "https://www.ebay.co.uk/itm/227492679444",
+          "https://www.ebay.co.uk/itm/287471927853",
+          "https://www.ebay.co.uk/itm/287587711434",
+          "https://www.ebay.co.uk/itm/407280395109",
+          "https://www.ebay.co.uk/itm/147570125254",
+          "https://www.ebay.co.uk/itm/407297671288",
+          "https://www.ebay.co.uk/itm/267772286741",
+          "https://www.ebay.co.uk/itm/357992865272",
+          "https://www.ebay.co.uk/itm/128089714905"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/227408886875",
+            "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
+            69.75,
+            6.65,
+            63.1,
+            "sa_sha"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227492679444",
+            "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
+            70.14,
+            5.15,
+            64.99,
+            "hug-4094"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287471927853",
+            "Lego Creator: Haunted Mansion (31167)",
+            71.7,
+            3.71,
+            67.99,
+            "jco_bricks"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287587711434",
+            "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
+            73.21,
+            5.21,
+            68.0,
+            "margdun_42"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407280395109",
+            "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
+            73.5,
+            5.21,
+            68.29,
+            "knowh95"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/147570125254",
+            "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
+            73.71,
+            3.71,
+            70.0,
+            "seal_5392"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407297671288",
+            "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
+            76.05,
+            3.55,
+            72.5,
+            "aust-inspace"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267772286741",
+            "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
+            76.98,
+            3.49,
+            73.49,
+            "bricktopia_collectables"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/357992865272",
+            "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
+            78.7,
+            5.21,
+            73.49,
+            "cookingongas-3"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/128089714905",
+            "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
+            78.7,
+            0.0,
+            78.7,
+            "aileenmcmillanxoxo"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "DEWALT 18V XR Compact Blower Variable Speed Tool Only, DCV100-XJ",
       "url": "https://www.hotukdeals.com/deals/dewalt-18v-xr-compact-blower-variable-speed-tool-only-dcv100-xj-5020634",
       "policy_key": "5993b195db0fc56db94ff1a6",
@@ -8494,8 +8494,8 @@
       "item_price": 60.22,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/eKIou/5026184_1/re/300x300/qt/55/5026184_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/eKIou/5026184_1/re/300x300/qt/55/5026184_1.jpg",
         "https://images.hotukdeals.com/threads/raw/eKIou/5026184_1/re/150x150/qt/55/5026184_1.jpg"
@@ -9698,7 +9698,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Little Nightmares II (Xbox Series X)"
@@ -9896,7 +9896,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "R-Type Delta HD Boosted PS5"
@@ -10163,7 +10163,7 @@
         "rejected": {
           "identity_or_condition": 15
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil 4 Remake Gold Edition (PS5)"
@@ -10400,261 +10400,6 @@
       }
     },
     {
-      "title": "Sony WF-C510 Truly Wireless Earbuds - Yellow (Limited Stock) - W/Code - Sold by STOCS UK (UK Mainland)",
-      "url": "https://www.hotukdeals.com/deals/sony-wf-c510-truly-wireless-earbuds-with-code-yellow-limited-stock-5025143",
-      "policy_key": "4844a1c58695a0115d9a0046",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 22.39,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/H6cQM/5025143_1/re/150x150/qt/55/5025143_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/sony-wf-c510-truly-wireless-earbuds-with-code-yellow-limited-stock-5025143",
-      "landed_cost": null,
-      "breakeven_sell": 32.57,
-      "sell_for_minimum_profit": 43.61,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WF-C510+Truly+Wireless+Earbuds&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "Sony WFC510 yellow",
-        "category": "tech",
-        "name_terms": [],
-        "identity": {
-          "condition": "new",
-          "brand": "Sony",
-          "model": "WFC510",
-          "colour": "yellow",
-          "edition": "standard"
-        },
-        "observed_at": "2026-11-08T12:39:15+00:00",
-        "date": "2026-11-08",
-        "sample_count": 2,
-        "listed_total_low": 39.0,
-        "listed_total_p25": 43.0,
-        "listed_total_median": 47.0,
-        "listed_total_p75": 50.99,
-        "listed_total_high": 54.99,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|920107514118|0",
-            "seller": "realjuicybargains",
-            "image": "https://i.ebayimg.com/images/g/kpEAAeSw3ehq7EKD/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920107514118",
-            "title": "Sony WF-C510 Wireless Bluetooth In-Ear Earbuds Yellow | Sealed Brand New",
-            "declared_condition": "new",
-            "item_price": 36.06,
-            "shipping": 2.94,
-            "listed_total": 39.0
-          },
-          {
-            "item_id": "v1|137825387668|0",
-            "seller": "de5482",
-            "image": "https://i.ebayimg.com/images/g/loAAAeSwkhlqx6FI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137825387668",
-            "title": "Sony WF-C510 Truly Wireless Earbuds Small Bluetooth In Ear Headphones Yellow",
-            "declared_condition": "new",
-            "item_price": 54.99,
-            "shipping": 0.0,
-            "listed_total": 54.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 9
-        },
-        "detail_required": true,
-        "lowest_detail": {
-          "status": "awaiting_detail_budget",
-          "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ]
-        },
-        "detail_status": "awaiting_detail_budget",
-        "query_aliases": [
-          "Sony WF-C510 Truly Wireless Earbuds - Yellow (Limited Stock) - W/Code - Sold by STOCS UK (UK Mainland)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "tech",
-        "detail_status": "awaiting_detail_budget",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "Sony WFC510 yellow",
-        "observed_at": "2026-11-08T12:39:15+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 2,
-        "seller_count": 2,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 39.0,
-        "competition_high": 54.99,
-        "estimated_resale": 37.83,
-        "estimated_range": [
-          35.1,
-          39.0
-        ],
-        "suggested_listing": 38.99,
-        "quick_sale_model": 35.1,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 22.39,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": 4.28,
-        "max_landed_buy": 18.67,
-        "max_item_buy": null,
-        "delivery_headroom": -3.72,
-        "fees": 6.49,
-        "outbound_postage": 3.04,
-        "packaging": 0.5,
-        "returns_allowance": 1.13,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 34.04,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 16.67,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
-          "eBay acquisition listing identity missing; self-exclusion not confirmed",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|920107514118|0",
-            "seller": "realjuicybargains",
-            "image": "https://i.ebayimg.com/images/g/kpEAAeSw3ehq7EKD/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920107514118",
-            "title": "Sony WF-C510 Wireless Bluetooth In-Ear Earbuds Yellow | Sealed Brand New",
-            "declared_condition": "new",
-            "item_price": 36.06,
-            "shipping": 2.94,
-            "listed_total": 39.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|137825387668|0",
-            "seller": "de5482",
-            "image": "https://i.ebayimg.com/images/g/loAAAeSwkhlqx6FI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137825387668",
-            "title": "Sony WF-C510 Truly Wireless Earbuds Small Bluetooth In Ear Headphones Yellow",
-            "declared_condition": "new",
-            "item_price": 54.99,
-            "shipping": 0.0,
-            "listed_total": 54.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "exact_item_details_unverified"
-      }
-    },
-    {
       "title": "Tales of Xillia Remastered PS5 Game Free C&C",
       "url": "https://www.hotukdeals.com/deals/tales-of-xillia-remastered-ps5-game-5025819",
       "policy_key": "ee9ac192cd8881c69a575fc3",
@@ -10784,7 +10529,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -11192,7 +10937,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|327424660280|0",
-          "observed_at": "2026-11-08T14:25:00+00:00",
+          "observed_at": "2026-11-08T14:55:43+00:00",
           "status": "incomplete",
           "reasons": [
             "fixed detail shipping not supplied"
@@ -12918,7 +12663,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "date": "2026-11-08",
         "sample_count": 1,
         "listed_total_low": 65.79,
@@ -12952,15 +12697,12 @@
             "declared_condition": "new",
             "item_price": 63.09,
             "shipping": 2.7,
-            "listed_total": 65.79,
-            "observed_at": "2026-11-08T08:33:13+00:00"
+            "listed_total": 65.79
           }
         ],
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -12974,7 +12716,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "hellraiser revival day one edition ps5",
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 1,
@@ -13066,7 +12808,6 @@
             "item_price": 63.09,
             "shipping": 2.7,
             "listed_total": 65.79,
-            "observed_at": "2026-11-08T08:33:13+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13118,7 +12859,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "date": "2026-11-08",
         "sample_count": 1,
         "listed_total_low": 65.79,
@@ -13152,15 +12893,12 @@
             "declared_condition": "new",
             "item_price": 63.09,
             "shipping": 2.7,
-            "listed_total": 65.79,
-            "observed_at": "2026-11-08T08:33:13+00:00"
+            "listed_total": 65.79
           }
         ],
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -13174,7 +12912,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "hellraiser revival day one edition ps5",
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 1,
@@ -13266,7 +13004,6 @@
             "item_price": 63.09,
             "shipping": 2.7,
             "listed_total": 65.79,
-            "observed_at": "2026-11-08T08:33:13+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13635,7 +13372,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "date": "2026-11-08",
         "sample_count": 1,
         "listed_total_low": 65.79,
@@ -13669,15 +13406,12 @@
             "declared_condition": "new",
             "item_price": 63.09,
             "shipping": 2.7,
-            "listed_total": 65.79,
-            "observed_at": "2026-11-08T08:33:13+00:00"
+            "listed_total": 65.79
           }
         ],
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -13691,7 +13425,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "hellraiser revival day one edition ps5",
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 1,
@@ -13783,7 +13517,6 @@
             "item_price": 63.09,
             "shipping": 2.7,
             "listed_total": 65.79,
-            "observed_at": "2026-11-08T08:33:13+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13969,7 +13702,7 @@
         "rejected": {
           "identity_or_condition": 45
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -14309,7 +14042,7 @@
         "rejected": {
           "identity_or_condition": 37
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
@@ -14556,7 +14289,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -15055,7 +14788,7 @@
         "rejected": {
           "identity_or_condition": 36
         },
-        "canonicalized_at": "2026-11-08T14:25:00+00:00",
+        "canonicalized_at": "2026-11-08T14:55:43+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill Townfall - Day One Edition - PS5"
@@ -15771,7 +15504,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-08T14:25:00+00:00",
+          "observed_at": "2026-11-08T14:55:43+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -16696,7 +16429,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|313738541392|0",
-          "observed_at": "2026-11-08T14:25:00+00:00",
+          "observed_at": "2026-11-08T14:55:43+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048748312",
@@ -17589,45 +17322,6 @@
       }
     },
     {
-      "title": "Nike Air Max Koko Trainers Black Anthracite - Size 6.5",
-      "url": "https://www.hotukdeals.com/deals/nike-air-max-koko-trainers-black-black-anthracite-5026251",
-      "policy_key": "09b10c1aeddd99f2aca27294",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Offspring",
-      "item_price": 30.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/21LP2/5026251_1/re/150x150/qt/55/5026251_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nike-air-max-koko-trainers-black-black-anthracite-5026251",
-      "landed_cost": null,
-      "breakeven_sell": 41.92,
-      "sell_for_minimum_profit": 56.51,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-08T14:25:14+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Koko+Trainers+Black+Anthracite&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Super Mario Game Boy 72046 - Used like new Amazon Resale",
       "url": "https://www.hotukdeals.com/deals/lego-super-mario-game-boy-72046-5019887",
       "policy_key": "15bda02e108e4325163d4aae",
@@ -17642,8 +17336,8 @@
       "item_price": 32.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/150x150/qt/55/5019887_1.jpg"
@@ -17709,10 +17403,10 @@
       }
     },
     {
-      "title": "GameSir G7 SE Wired XBOX Controller, Hall Effect Joysticks - All Colours - Sold by GameSir Direct UK / FBA",
-      "url": "https://www.hotukdeals.com/deals/gamesir-g7-se-wired-xbox-controllerhall-effect-joysticks-5026258",
-      "policy_key": "eaa0ce19e00cb8539e32e0b5",
-      "category": "gaming",
+      "title": "15% Off \u00a350 Spend On Selected Items (Regatta, Under Armour, Trespass, Karrimor, Nike, Levi's & More)",
+      "url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
+      "policy_key": "b77af7df4eca5a4d77d441d0",
+      "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
       "identity_evidence": [],
@@ -17720,18 +17414,18 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "Amazon",
-      "item_price": 41.98,
+      "item_price": 42.5,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/ANtKY/5026258_1/re/150x150/qt/55/5026258_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/7borb/5026265_1/re/150x150/qt/55/5026265_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/gamesir-g7-se-wired-xbox-controllerhall-effect-joysticks-5026258",
+      "image_source_url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
       "landed_cost": null,
-      "breakeven_sell": 53.91,
-      "sell_for_minimum_profit": 73.74,
+      "breakeven_sell": 57.1,
+      "sell_for_minimum_profit": 77.76,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -17739,36 +17433,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-08T14:25:14+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=GameSir+G7+SE+Wired+XBOX+Controller%2C+Hall+Effect+Joysticks&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "gamesir g7 se wired xbox controller hall effect joysticks all colours sold by gamesir direct uk fba",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T14:25:15+00:00",
-        "date": "2026-11-08",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "GameSir G7 SE Wired XBOX Controller, Hall Effect Joysticks - All Colours - Sold by GameSir Direct UK / FBA"
-        ]
-      },
+      "first_seen": "2026-11-08T14:55:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=15%25+Off+Spend+On+Selected+Items+%28Regatta%2C+Under+Armour%2C+Trespass%2C+Karrimor%2C+Nike%2C+Levi%27s+%26+More%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -17828,8 +17495,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg"
@@ -17909,8 +17576,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/150x150/qt/55/5025463_1.jpg"
@@ -17990,8 +17657,8 @@
       "item_price": 107.11,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/150x150/qt/55/5026032_1.jpg"
@@ -18071,8 +17738,8 @@
       "item_price": 117.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
-      "image_verified_until": "2026-11-08T14:45:11.883362+00:00",
-      "image_checked_at": "2026-11-08T14:25:11.883362+00:00",
+      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
+      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/150x150/qt/55/5026036_1.jpg"
@@ -18202,6 +17869,44 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Superfly+Unisex+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Sony WF-C510 Truly Wireless Earbuds Small Bluetooth In Ear Headphones Yellow",
+      "url": "https://www.ebay.co.uk/itm/137825387668",
+      "policy_key": "01fc73b036732d7377cecb51",
+      "category": "tech",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 54.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/loAAAeSwkhlqx6FI/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/137825387668",
+      "landed_cost": 54.99,
+      "breakeven_sell": 72.76,
+      "sell_for_minimum_profit": 99.89,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-07T20:19:11+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WF-C510+Truly+Wireless+Earbuds+Small+Bluetooth+In+Ear+Headphones+Yellow&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -20096,6 +19801,45 @@
       }
     },
     {
+      "title": "Sony WF-C510 Truly Wireless Earbuds - Yellow (Limited Stock) - W/Code - Sold by STOCS UK (UK Mainland)",
+      "url": "https://www.hotukdeals.com/deals/sony-wf-c510-truly-wireless-earbuds-with-code-yellow-limited-stock-5025143",
+      "policy_key": "4844a1c58695a0115d9a0046",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 22.39,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/H6cQM/5025143_1/re/150x150/qt/55/5025143_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/sony-wf-c510-truly-wireless-earbuds-with-code-yellow-limited-stock-5025143",
+      "landed_cost": null,
+      "breakeven_sell": 32.57,
+      "sell_for_minimum_profit": 43.61,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WF-C510+Truly+Wireless+Earbuds&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Up to 70% off Men's, Women's Footwear Sale - Hoka, Nike, On Running, Puma & More eg Adidas Duramo Running Trainers / Hoka Men's Mach \u00a364.99",
       "url": "https://www.hotukdeals.com/deals/up-to-70-off-mens-womens-footwear-sale-hoka-nike-on-running-brooks-puma-more-eg-adidas-duramo-rc2-running-shoes-5023072",
       "policy_key": "abe35cfcc86d9f58723c5cdc",
@@ -20803,6 +20547,45 @@
       }
     },
     {
+      "title": "Nike Air Max Koko Trainers Black Anthracite - Size 6.5",
+      "url": "https://www.hotukdeals.com/deals/nike-air-max-koko-trainers-black-black-anthracite-5026251",
+      "policy_key": "09b10c1aeddd99f2aca27294",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Offspring",
+      "item_price": 30.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/21LP2/5026251_1/re/150x150/qt/55/5026251_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nike-air-max-koko-trainers-black-black-anthracite-5026251",
+      "landed_cost": null,
+      "breakeven_sell": 41.92,
+      "sell_for_minimum_profit": 56.51,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-08T14:25:14+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Koko+Trainers+Black+Anthracite&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Adidas Men's Galaxy 8 Running Shoes - Size 7 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-galaxy-8-running-shoes-size-7-uk-5024119",
       "policy_key": "ed8618b2939e3ad5b4e2d753",
@@ -20874,45 +20657,6 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+RUNFALCON+6+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Nike Ava Rover Trainers In Grey And Yellow - Size 5 (\u00a327.19 With New Customer Code)",
-      "url": "https://www.hotukdeals.com/deals/uk5-nike-ava-rover-trainers-in-grey-and-yellow-5021047",
-      "policy_key": "d73a142364cb995260c3a909",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "ASOS",
-      "item_price": 31.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/7IBLd/5021047_1/re/150x150/qt/55/5021047_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/uk5-nike-ava-rover-trainers-in-grey-and-yellow-5021047",
-      "landed_cost": null,
-      "breakeven_sell": 44.34,
-      "sell_for_minimum_profit": 59.89,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Ava+Rover+Trainers+In+Grey+And+Yellow&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -21879,6 +21623,72 @@
       }
     },
     {
+      "title": "GameSir G7 SE Wired XBOX Controller, Hall Effect Joysticks - All Colours - Sold by GameSir Direct UK / FBA",
+      "url": "https://www.hotukdeals.com/deals/gamesir-g7-se-wired-xbox-controllerhall-effect-joysticks-5026258",
+      "policy_key": "eaa0ce19e00cb8539e32e0b5",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 41.98,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/ANtKY/5026258_1/re/150x150/qt/55/5026258_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/gamesir-g7-se-wired-xbox-controllerhall-effect-joysticks-5026258",
+      "landed_cost": null,
+      "breakeven_sell": 53.91,
+      "sell_for_minimum_profit": 73.74,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-08T14:25:14+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=GameSir+G7+SE+Wired+XBOX+Controller%2C+Hall+Effect+Joysticks&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "gamesir g7 se wired xbox controller hall effect joysticks all colours sold by gamesir direct uk fba",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T14:25:15+00:00",
+        "date": "2026-11-08",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "GameSir G7 SE Wired XBOX Controller, Hall Effect Joysticks - All Colours - Sold by GameSir Direct UK / FBA"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Armani Because It's You Eau De Parfum 50ml w/code",
       "url": "https://www.hotukdeals.com/deals/armani-because-its-you-eau-de-parfum-50ml-wcode-5025642",
       "policy_key": "42604d2f71d904885e4a6ad6",
@@ -22404,7 +22214,7 @@
           "ml": 200,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-08T14:25:00+00:00",
+        "observed_at": "2026-11-08T14:55:43+00:00",
         "date": "2026-11-08",
         "sample_count": 0,
         "listed_total_low": null,
@@ -22802,7 +22612,7 @@
           "colour": "pink",
           "edition": "standard"
         },
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T14:55:59+00:00",
         "date": "2026-11-08",
         "sample_count": 0,
         "listed_total_low": null,
