@@ -82,3 +82,9 @@ class FullFeedIntake(unittest.TestCase):
   with patch.dict(hotukdeals.C.FEEDS,{'trainers':['tag/adidas']},clear=True),patch.object(hotukdeals.urllib.request,'urlopen',side_effect=lambda *a,**k:io.BytesIO(xml)):
    rows=hotukdeals.scan()
   self.assertEqual(len(rows),1);r=rows[0];self.assertLessEqual(len(r['desc']),800);self.assertNotIn('IH4316',r['desc']);self.assertEqual(r['identity_evidence'][0]['code'],'IH4316');self.assertEqual(market.identity(r).identity['uk_size'],3.5)
+
+class ActualDiscoveryNoise(unittest.TestCase):
+ def test_tapo_s200b_control_is_not_a_nintendo_switch_game(self):
+  from moneyhunter import product_format
+  r={'title':'Tapo S200B Smart Button Wireless Smart Switch Remote Control','category':'gaming'}
+  self.assertEqual(product_format.normalize(r)['category'],'tech');self.assertIsNone(market.identity(r))

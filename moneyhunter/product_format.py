@@ -17,7 +17,7 @@ def normalize(x):
     x=dict(x)
     if reason(x):x.update(category='digital',online_eligible=False,physical_status='excluded_nonphysical');return x
     t=str(x.get('title',''))
-    if computer(t):x['category']='tech'
+    if computer(t) or re.search(r'\btapo\s+s200b\b',t,re.I) and re.search(r'\b(smart button|smart switch|remote control)\b',t,re.I):x['category']='tech'
     if re.search(r'\blego\b',t,re.I) and not re.search(r'(?<!\d)\d{5,6}(?!\d)',t) and re.search(r'\b(ps[45]|playstation|xbox|nintendo switch|pc (?:disc|dvd)|video game)\b',t,re.I):x['category']='gaming'
     return x
 
