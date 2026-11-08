@@ -52,15 +52,21 @@ def scan(raws, state, when=None):
         q=e['category']+':'+e['query'].casefold()
         stamp=max(e.get('last_search_at',''),history.get(key,''))
         if stamp and stamp>query_history.get(q,''):query_history[q]=stamp
+    target_reasons={};target_total=len(state.get('value_watchlist',{}))
     for key,e in state.get('value_watchlist',{}).items():
+        reason=('not_usable' if e.get('target_status')!='usable_configured_cost_target' or not e.get('max_landed_buy') else 'stale_or_future' if not 0<=age(e.get('observed_at'),when)<6 else 'query_cooldown' if age(query_history.get(e['category']+':'+e['query'].casefold()),when)<1 else 'eligible')
+        target_reasons[reason]=target_reasons.get(reason,0)+1
         if e.get('target_status')!='usable_configured_cost_target' or not e.get('max_landed_buy') or not 0<=age(e.get('observed_at'),when)<6 or age(query_history.get(e['category']+':'+e['query'].casefold()),when)<1:continue
         targets.append((key,watchlist.ident(e['identity_snapshot'])))
     distinct={}
     for key,i in targets:
         q=query_id(i)
         if q not in distinct or state['value_watchlist'][key]['max_landed_buy']<state['value_watchlist'][distinct[q][0]]['max_landed_buy']:distinct[q]=(key,i)
+    health['target_selection']={'contexts_examined':target_total,'context_reasons':target_reasons,'eligible_distinct_queries':len(distinct),'duplicate_contexts_collapsed':len(targets)-len(distinct),'selection_limit':3}
     targets=research_budget.fair_order(list(distinct.values()),lambda pair:pair[1].category,
         lambda pair:(history.get(pair[0],''),pair[0]),rotation.get('acquisition',0))[:3]
+    health['target_selection']['selected_price_queries']=len(targets)
+    health['target_selection']['discovery_fallback_reason']='eligible targets selected; one discovery slot retained' if targets else 'no fresh non-cooled usable target; see context_reasons'
     target_keys={key for key,_ in targets}
     pool=targets+[(key,i) for key,i in ordered if key not in target_keys]
     distinct_order=[];seen_queries=set()
