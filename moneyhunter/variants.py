@@ -75,6 +75,7 @@ def identity(raw):
         for model,(brand,kind) in models.items():
             if re.search(r'\b'+model+(r'(?:-XJ)?' if model=='DCF887N' else '')+r'(?![-a-z0-9])',title,re.I) and M.has(t,brand.lower()):found.append((model,brand,kind))
         if len(found)!=1 or M.has(t,'kit','charger','batteries','with battery','battery included','case only','housing','spares','replacement','bit holder') or re.search(r'\b(?:BL\d+|DT\d+|DUB186|DCF887[DP]\d)\b',title,re.I):return None
+        if M.has(t,'tool bag','carry case','carrying case') or re.search(r'(?:with|plus|\+|and)\s+(?:a\s+)?(?:case|bag)\b',title,re.I):return None
         model,brand,kind=found[0]
         if any(int(n)!=18 for n in re.findall(r'(?<!\d)(\d+)\s*v\b',title,re.I)):return None
         battery_text=re.sub(r'no batter(?:y|ies)|without batter(?:y|ies)|batter(?:y|ies) (?:not included|sold separately)|battery powered','',t)

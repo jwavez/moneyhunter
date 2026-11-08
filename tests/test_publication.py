@@ -40,5 +40,5 @@ class MandatoryPrice(unittest.TestCase):
  def test_exact_tool_variants_and_watchlist_reconstruction(self):
   for t in ("Makita DUB185Z 18V Blower Bare Unit","DeWalt DCF887N 18V Impact Driver Body Only","DeWalt DCF887N-XJ 18V Impact Driver Tool Only"):
    i=market.identity({"title":t,"category":"tools"});self.assertIsNotNone(i,t);j=watchlist.ident({"category":"tools","query":i.match,"identity":i.identity});self.assertTrue(market.matches(t,j))
-  for t in ("Makita BL1830 Battery","Makita DUB186Z Blower","Makita DUB185Z 12V Blower","Makita DUB185Z with battery","Makita DUB185Z housing only","DeWalt DCF887D2 Kit","DeWalt DT7500-QZ Bit Holder","DeWalt DCF887N with battery charger"):
+  for t in ("Makita BL1830 Battery","Makita DUB186Z Blower","Makita DUB185Z 12V Blower","Makita DUB185Z with battery","Makita DUB185Z housing only","DeWalt DCF887D2 Kit","DeWalt DT7500-QZ Bit Holder","DeWalt DCF887N with battery charger","DeWalt DCF887N 18V Bare Tool + Case","DeWalt DCF887N 18V Bare + 12 inch Tool Bag"):
    self.assertIsNone(market.identity({"title":t,"category":"tools"}),t)
