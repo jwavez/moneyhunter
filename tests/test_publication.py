@@ -42,3 +42,12 @@ class MandatoryPrice(unittest.TestCase):
    i=market.identity({"title":t,"category":"tools"});self.assertIsNotNone(i,t);j=watchlist.ident({"category":"tools","query":i.match,"identity":i.identity});self.assertTrue(market.matches(t,j))
   for t in ("Makita BL1830 Battery","Makita DUB186Z Blower","Makita DUB185Z 12V Blower","Makita DUB185Z with battery","Makita DUB185Z housing only","DeWalt DCF887D2 Kit","DeWalt DT7500-QZ Bit Holder","DeWalt DCF887N with battery charger","DeWalt DCF887N 18V Bare Tool + Case","DeWalt DCF887N 18V Bare + 12 inch Tool Bag"):
    self.assertIsNone(market.identity({"title":t,"category":"tools"}),t)
+
+ def test_tool_battery_aspects_preserve_not_included_but_reject_yes(self):
+  from moneyhunter import details
+  i=market.identity({'title':'DeWalt DCF887N 18V Bare Tool','category':'tools'})
+  o={'item_id':'fixture','item_price':50,'shipping':0,'url':'https://www.ebay.co.uk/itm/123456789000'}
+  data={'title':'DeWalt DCF887N 18V Bare Tool','conditionId':'1000','price':{'value':'50','currency':'GBP'},'shippingOptions':[{'shippingCostType':'FIXED','shippingCost':{'value':'0','currency':'GBP'}}],'estimatedAvailabilities':[{'estimatedAvailabilityStatus':'IN_STOCK'}]}
+  for value,status in [('No','verified_fields'),('Not Included','verified_fields'),('Yes','conflict')]:
+   x={**data,'localizedAspects':[{'name':'Model','value':'DCF887N'},{'name':'Battery Included','value':value}]}
+   self.assertEqual(details.assess(x,o,i,dt.datetime.now(dt.timezone.utc))['status'],status)
