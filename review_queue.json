@@ -2,6 +2,489 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "LEGO Star Wars SMART Play\u2122: Mos Eisley Cantina\u2122 (75425)",
+      "url": "https://www.ebay.co.uk/itm/227345236040",
+      "category": "lego",
+      "source": "ebay_browse",
+      "merchant": "eBay",
+      "item_price": 52.99,
+      "image_status": "verified",
+      "image_verified_url": "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
+      "image_candidates": [
+        "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg"
+      ],
+      "thumb": "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/227345236040",
+      "landed_cost": 58.54,
+      "breakeven_sell": 77.02,
+      "sell_for_minimum_profit": 105.06,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-07T20:02:25+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+SMART+Play%E2%84%A2%3A+Mos+Eisley+Cantina%E2%84%A2+%2875425%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75425",
+        "category": "lego",
+        "name_terms": [
+          "cantinatm",
+          "eisley",
+          "mos",
+          "playtm"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T09:34:44+00:00",
+        "date": "2026-11-08",
+        "sample_count": 8,
+        "listed_total_low": 32.7,
+        "listed_total_p25": 55.47,
+        "listed_total_median": 62.13,
+        "listed_total_p75": 69.99,
+        "listed_total_high": 77.8,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|318450497417|0",
+            "seller": "star77-85",
+            "image": "https://i.ebayimg.com/images/g/PX8AAeSw-ERqLXX8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318450497417",
+            "title": "LEGO Star Wars Mos Eisley Cantina Smart Play 75425 new",
+            "declared_condition": "new",
+            "item_price": 30.0,
+            "shipping": 2.7,
+            "listed_total": 32.7
+          },
+          {
+            "item_id": "v1|860121447892|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/4tUAAeSwGstq7wBm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860121447892",
+            "title": "LEGO Star Wars 75425 SMART Play: Mos Eisley Cantina Set",
+            "declared_condition": "new",
+            "item_price": 54.77,
+            "shipping": 0.0,
+            "listed_total": 54.77
+          },
+          {
+            "item_id": "v1|860121940668|0",
+            "seller": "parklanelower",
+            "image": "https://i.ebayimg.com/images/g/vpkAAeSwEydq42Xl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860121940668",
+            "title": "Lego Star Wars 75425 Mos Eisley Smart Play Cantina sealed vintage\u2206",
+            "declared_condition": "new",
+            "item_price": 51.99,
+            "shipping": 3.71,
+            "listed_total": 55.7
+          },
+          {
+            "item_id": "v1|227345236040|0",
+            "seller": "leaste80",
+            "image": "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227345236040",
+            "title": "LEGO Star Wars SMART Play\u2122: Mos Eisley Cantina\u2122 (75425)",
+            "declared_condition": "new",
+            "item_price": 52.99,
+            "shipping": 5.55,
+            "listed_total": 58.54
+          },
+          {
+            "item_id": "v1|168413188218|0",
+            "seller": "orchid_love",
+            "image": "https://i.ebayimg.com/images/g/ULYAAeSwlh1qGa0P/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168413188218",
+            "title": "NEW lego 75425 Star Wars Mos Eisley Cantina Smart play set",
+            "declared_condition": "new",
+            "item_price": 62.01,
+            "shipping": 3.71,
+            "listed_total": 65.72
+          },
+          {
+            "item_id": "v1|267736053468|0",
+            "seller": "williamedwards",
+            "image": "https://i.ebayimg.com/images/g/0VcAAeSwgblqYWNn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267736053468",
+            "title": "LEGO Star Wars Mos Eisley Cantina Set 75425 SMART Play Toy Building Set",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99
+          },
+          {
+            "item_id": "v1|406729914860|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/ldAAAeSwmG1ppF~o/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406729914860",
+            "title": "LEGO Star Wars SMART Play\u2122: Mos Eisley Cantina\u2122 (75425)",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99
+          },
+          {
+            "item_id": "v1|860038225566|0",
+            "seller": "worldedgeshop",
+            "image": "https://i.ebayimg.com/images/g/8TQAAeSwnNFqzWri/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860038225566",
+            "title": "LEGO Star Wars SMART Play: Mos Eisley Cantina 75425",
+            "declared_condition": "new",
+            "item_price": 77.8,
+            "shipping": 0.0,
+            "listed_total": 77.8
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 42
+        },
+        "query_aliases": [
+          "LEGO Star Wars SMART Play\u2122: Mos Eisley Cantina\u2122 (75425)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75425",
+        "observed_at": "2026-11-08T09:34:44+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 7,
+        "seller_count": 7,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 32.7,
+        "competition_high": 77.8,
+        "estimated_resale": 31.71,
+        "estimated_range": [
+          29.43,
+          32.7
+        ],
+        "suggested_listing": 32.69,
+        "quick_sale_model": 29.43,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 52.99,
+        "delivery_known": true,
+        "landed_cost": 58.54,
+        "net": -37.83,
+        "roi": -64.6,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 12.71,
+        "max_item_buy": 7.16,
+        "delivery_headroom": -40.28,
+        "fees": 4.76,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.95,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 28.53,
+        "review_stress_net": -40.49,
+        "review_stress_roi": -69.2,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 10.71,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|318450497417|0",
+            "seller": "star77-85",
+            "image": "https://i.ebayimg.com/images/g/PX8AAeSw-ERqLXX8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318450497417",
+            "title": "LEGO Star Wars Mos Eisley Cantina Smart Play 75425 new",
+            "declared_condition": "new",
+            "item_price": 30.0,
+            "shipping": 2.7,
+            "listed_total": 32.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860121447892|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/4tUAAeSwGstq7wBm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860121447892",
+            "title": "LEGO Star Wars 75425 SMART Play: Mos Eisley Cantina Set",
+            "declared_condition": "new",
+            "item_price": 54.77,
+            "shipping": 0.0,
+            "listed_total": 54.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860121940668|0",
+            "seller": "parklanelower",
+            "image": "https://i.ebayimg.com/images/g/vpkAAeSwEydq42Xl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860121940668",
+            "title": "Lego Star Wars 75425 Mos Eisley Smart Play Cantina sealed vintage\u2206",
+            "declared_condition": "new",
+            "item_price": 51.99,
+            "shipping": 3.71,
+            "listed_total": 55.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168413188218|0",
+            "seller": "orchid_love",
+            "image": "https://i.ebayimg.com/images/g/ULYAAeSwlh1qGa0P/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168413188218",
+            "title": "NEW lego 75425 Star Wars Mos Eisley Cantina Smart play set",
+            "declared_condition": "new",
+            "item_price": 62.01,
+            "shipping": 3.71,
+            "listed_total": 65.72,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267736053468|0",
+            "seller": "williamedwards",
+            "image": "https://i.ebayimg.com/images/g/0VcAAeSwgblqYWNn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267736053468",
+            "title": "LEGO Star Wars Mos Eisley Cantina Set 75425 SMART Play Toy Building Set",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|406729914860|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/ldAAAeSwmG1ppF~o/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406729914860",
+            "title": "LEGO Star Wars SMART Play\u2122: Mos Eisley Cantina\u2122 (75425)",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860038225566|0",
+            "seller": "worldedgeshop",
+            "image": "https://i.ebayimg.com/images/g/8TQAAeSwnNFqzWri/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860038225566",
+            "title": "LEGO Star Wars SMART Play: Mos Eisley Cantina 75425",
+            "declared_condition": "new",
+            "item_price": 77.8,
+            "shipping": 0.0,
+            "listed_total": 77.8,
+            "same_acquisition_promotion": false
+          }
+        ]
+      }
+    },
+    {
       "title": "LEGO Star Wars Mos Eisley Cantina Set 75425 SMART Play Toy Building Set",
       "url": "https://www.ebay.co.uk/itm/267736053468",
       "category": "lego",
@@ -10,8 +493,8 @@
       "item_price": 69.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/0VcAAeSwgblqYWNn/s-l225.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/0VcAAeSwgblqYWNn/s-l225.jpg"
       ],
@@ -541,8 +1024,8 @@
       "item_price": 69.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/ldAAAeSwmG1ppF~o/s-l225.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/ldAAAeSwmG1ppF~o/s-l225.jpg"
       ],
@@ -1026,8 +1509,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fnbkP/5025074_1/re/300x300/qt/55/5025074_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fnbkP/5025074_1/re/300x300/qt/55/5025074_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fnbkP/5025074_1/re/150x150/qt/55/5025074_1.jpg"
@@ -2660,6 +3143,238 @@
       }
     },
     {
+      "title": "NINJA GAIDEN: Ragebound (Nintendo Switch Game)",
+      "url": "https://www.hotukdeals.com/deals/ninja-gaiden-ragebound-switch-5026115",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 19.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/1m3Pg/5026115_1/re/150x150/qt/55/5026115_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ninja-gaiden-ragebound-switch-5026115",
+      "landed_cost": null,
+      "breakeven_sell": 27.95,
+      "sell_for_minimum_profit": 37.39,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T10:05:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=NINJA+GAIDEN%3A+Ragebound+%28Nintendo+Switch+Game%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "ninja gaiden ragebound nintendo switch",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T10:05:24+00:00",
+        "date": "2026-11-08",
+        "sample_count": 2,
+        "listed_total_low": 30.09,
+        "listed_total_p25": 31.17,
+        "listed_total_median": 32.26,
+        "listed_total_p75": 33.34,
+        "listed_total_high": 34.42,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|407159226024|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/zk4AAeSwnahqy2DY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407159226024",
+            "title": "NINJA GAIDEN: Ragebound (NIntendo Switch) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 30.09,
+            "shipping": 0.0,
+            "listed_total": 30.09
+          },
+          {
+            "item_id": "v1|820126846958|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/35MAAeSwHJdqukG~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 35.09,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820126846958",
+            "title": "NINJA GAIDEN: Ragebound (Nintendo Switch) (Nintendo Switch)",
+            "declared_condition": "new",
+            "item_price": 34.42,
+            "shipping": 0.0,
+            "listed_total": 34.42
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 9
+        },
+        "query_aliases": [
+          "NINJA GAIDEN: Ragebound (Nintendo Switch Game)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "ninja gaiden ragebound nintendo switch",
+        "observed_at": "2026-11-08T10:05:24+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 30.09,
+        "competition_high": 34.42,
+        "estimated_resale": 29.18,
+        "estimated_range": [
+          27.08,
+          30.09
+        ],
+        "suggested_listing": 30.08,
+        "quick_sale_model": 27.08,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          35.09,
+          35.09
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 19.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 1.04,
+        "max_landed_buy": 13.03,
+        "max_item_buy": null,
+        "delivery_headroom": -6.96,
+        "fees": 4.07,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.88,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 26.26,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 11.02,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|407159226024|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/zk4AAeSwnahqy2DY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407159226024",
+            "title": "NINJA GAIDEN: Ragebound (NIntendo Switch) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 30.09,
+            "shipping": 0.0,
+            "listed_total": 30.09,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820126846958|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/35MAAeSwHJdqukG~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 35.09,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820126846958",
+            "title": "NINJA GAIDEN: Ragebound (Nintendo Switch) (Nintendo Switch)",
+            "declared_condition": "new",
+            "item_price": 34.42,
+            "shipping": 0.0,
+            "listed_total": 34.42,
+            "same_acquisition_promotion": false
+          }
+        ]
+      }
+    },
+    {
       "title": "LEGO Lucky Cat 40813",
       "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
       "category": "lego",
@@ -2668,8 +3383,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg"
@@ -3580,8 +4295,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg"
@@ -3614,7 +4329,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T09:34:44+00:00",
         "date": "2026-11-08",
         "sample_count": 9,
         "listed_total_low": 32.7,
@@ -3844,7 +4559,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "LEGO 75425",
-        "observed_at": "2026-11-08T08:33:13+00:00",
+        "observed_at": "2026-11-08T09:34:44+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 9,
@@ -4136,8 +4851,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fOd7l/5025058_1/re/300x300/qt/55/5025058_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fOd7l/5025058_1/re/300x300/qt/55/5025058_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fOd7l/5025058_1/re/150x150/qt/55/5025058_1.jpg"
@@ -4964,8 +5679,8 @@
       "item_price": 42.72,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/qPQAAeSwP75q74G4/s-l225.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/qPQAAeSwP75q74G4/s-l225.jpg"
       ],
@@ -5948,8 +6663,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg"
@@ -6867,8 +7582,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg"
@@ -7769,8 +8484,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg"
@@ -8555,59 +9270,91 @@
       }
     },
     {
-      "title": "Little Nightmares II (Xbox Series X)",
-      "url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "merchant": "The Game Collection",
-      "item_price": 9.95,
+      "title": "Ariana Grande Mod Blush EDP Spray 100ml",
+      "url": "https://www.ebay.co.uk/itm/168533042649",
+      "category": "fragrance",
+      "source": "ebay_browse",
+      "merchant": "eBay",
+      "item_price": 45.99,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/KLWGR/5023855_1/re/150x150/qt/55/5023855_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
-      "landed_cost": null,
-      "breakeven_sell": 16.09,
-      "sell_for_minimum_profit": 25.54,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
+      "thumb": "https://i.ebayimg.com/images/g/bpQAAeSwtPhqVRDj/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/168533042649",
+      "landed_cost": 45.99,
+      "breakeven_sell": 60.74,
+      "sell_for_minimum_profit": 82.77,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 100,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 60.74,
+        "required_resale": 82.77,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": true,
+        "cost": 45.99,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs"
+      },
+      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
       "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
+        "No exact reviewed sold observations"
       ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Little+Nightmares+II+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
+      "priority": 5,
+      "first_seen": "2026-11-07T20:19:11+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ariana+Grande+Mod+Blush+EDP+Spray+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "little nightmares ii xbox series x",
-        "category": "gaming",
+        "query": "ariana grande mod blush EDP 100ml",
+        "category": "fragrance",
         "name_terms": [],
         "identity": {
-          "condition": "new"
+          "condition": "new",
+          "family": "ariana grande mod blush",
+          "concentration": "edp",
+          "ml": 100,
+          "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-08T04:04:25+00:00",
+        "observed_at": "2026-11-08T10:05:24+00:00",
         "date": "2026-11-08",
-        "sample_count": 1,
-        "listed_total_low": 29.92,
-        "listed_total_p25": 29.92,
-        "listed_total_median": 29.92,
-        "listed_total_p75": 29.92,
-        "listed_total_high": 29.92,
-        "status": "small_sample",
+        "sample_count": 5,
+        "listed_total_low": 33.33,
+        "listed_total_p25": 45.24,
+        "listed_total_median": 45.99,
+        "listed_total_p75": 46.39,
+        "listed_total_high": 61.3,
+        "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
         ],
         "offers": [
           {
-            "item_id": "v1|388606916642|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/o3wAAOSw3VVhufIL/s-l225.jpg",
+            "item_id": "v1|327424660280|0",
+            "seller": "kwahu23",
+            "image": "https://i.ebayimg.com/images/g/jyAAAeSwN7lq31kN/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -8619,72 +9366,254 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/388606916642",
-            "title": "Little Nightmares II Xbox Series X  BRAND NEW AND SEALED - IN STOCK - FREE P&P",
+            "url": "https://www.ebay.co.uk/itm/327424660280",
+            "title": "Ariana Grande Mod Blush Edp 100ml - Full, Without Box",
             "declared_condition": "new",
-            "item_price": 29.92,
+            "item_price": 29.95,
+            "shipping": 3.38,
+            "listed_total": 33.33
+          },
+          {
+            "item_id": "v1|960079633918|0",
+            "seller": "dragonz40-6",
+            "image": "https://i.ebayimg.com/images/g/8k0AAeSwb0pq05bi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960079633918",
+            "title": "Ariana Grande Mod Blush EDP 100ml(BNIB)",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 2.94,
+            "listed_total": 45.24
+          },
+          {
+            "item_id": "v1|168533042649|0",
+            "seller": "frankswarehousesltd",
+            "image": "https://i.ebayimg.com/images/g/bpQAAeSwtPhqVRDj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168533042649",
+            "title": "Ariana Grande Mod Blush EDP Spray 100ml",
+            "declared_condition": "new",
+            "item_price": 45.99,
             "shipping": 0.0,
-            "listed_total": 29.92,
-            "observed_at": "2026-11-08T04:04:25+00:00"
+            "listed_total": 45.99
+          },
+          {
+            "item_id": "v1|317822317409|0",
+            "seller": "ukdaily-26",
+            "image": "https://i.ebayimg.com/images/g/cOoAAeSwmgJpfP~3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/317822317409",
+            "title": "Ariana Grande Mod Blush EDP Spray 100ml 100 ml (Pack of 1) ",
+            "declared_condition": "new",
+            "item_price": 46.39,
+            "shipping": 0.0,
+            "listed_total": 46.39
+          },
+          {
+            "item_id": "v1|227322906695|0",
+            "seller": "maggieg17",
+            "image": "https://i.ebayimg.com/images/g/eO4AAeSwATdp8wte/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227322906695",
+            "title": "ARIANA GRANDE Mod Blush 100ml EDP for Women BRAND NEW",
+            "declared_condition": "new",
+            "item_price": 57.85,
+            "shipping": 3.45,
+            "listed_total": 61.3
           }
         ],
         "rejected": {
-          "identity_or_condition": 11
+          "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|327424660280|0",
+          "observed_at": "2026-11-08T10:05:10+00:00",
+          "status": "incomplete",
+          "reasons": [
+            "fixed detail shipping not supplied"
+          ],
+          "gtin": "810101500060",
+          "mpn": null,
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Ariana Grande"
+            },
+            {
+              "type": "STRING",
+              "name": "Size Type",
+              "value": "Regular Size"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Eau de Parfum"
+            },
+            {
+              "type": "STRING",
+              "name": "Fragrance Name",
+              "value": "Blush"
+            },
+            {
+              "type": "STRING",
+              "name": "Unit Type",
+              "value": "100ml"
+            },
+            {
+              "type": "STRING",
+              "name": "Volume",
+              "value": "100 ml"
+            },
+            {
+              "type": "STRING",
+              "name": "Formulation",
+              "value": "Spray"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Long Lasting"
+            },
+            {
+              "type": "STRING",
+              "name": "Expiry Date",
+              "value": "12M"
+            },
+            {
+              "type": "STRING",
+              "name": "Scent",
+              "value": "Vanilla"
+            },
+            {
+              "type": "STRING",
+              "name": "Country of Origin",
+              "value": "United States"
+            },
+            {
+              "type": "STRING",
+              "name": "Personalise",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "810101500060"
+            }
+          ],
+          "checked_item_price": 29.95,
+          "identity_query": "ariana grande mod blush EDP 100ml",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/327424660280",
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee"
+        },
+        "detail_status": "incomplete",
         "query_aliases": [
-          "Little Nightmares II (Xbox Series X)"
+          "Ariana Grande MOD Blush Eau de Parfum - 100ml - With Code - Free C&C",
+          "Ariana Grande Mod Blush EDP Spray 100ml"
         ]
       },
       "ask_estimate": {
         "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
+        "category": "fragrance",
+        "detail_status": "incomplete",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "little nightmares ii xbox series x",
-        "observed_at": "2026-11-08T04:04:25+00:00",
+        "query": "ariana grande mod blush EDP 100ml",
+        "observed_at": "2026-11-08T10:05:24+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
+        "sample_count": 4,
+        "seller_count": 4,
         "unknown_seller_samples": 0,
         "low_price_supporting_sellers": 1,
         "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 29.92,
-        "competition_high": 29.92,
-        "estimated_resale": 29.02,
+        "wide_spread": true,
+        "competition_low": 33.33,
+        "competition_high": 61.3,
+        "estimated_resale": 32.33,
         "estimated_range": [
-          26.92,
-          29.92
+          29.99,
+          33.33
         ],
-        "suggested_listing": 29.91,
-        "quick_sale_model": 26.92,
+        "suggested_listing": 33.32,
+        "quick_sale_model": 29.99,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
         "advertised_discount_competitors": 0,
         "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
+        "acquisition_excluded": 1,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 9.95,
-        "delivery_known": false,
-        "landed_cost": null,
+        "item_price": 45.99,
+        "delivery_known": true,
+        "landed_cost": 45.99,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": 10.95,
-        "max_landed_buy": 12.89,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": null,
         "max_item_buy": null,
-        "delivery_headroom": 2.94,
-        "fees": 4.05,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 0.87,
+        "delivery_headroom": null,
+        "fees": null,
+        "outbound_postage": null,
+        "packaging": null,
+        "returns_allowance": null,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": false,
@@ -8700,25 +9629,28 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 26.11,
+        "review_stress_sale": 29.09,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 10.89,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "review_max_landed_buy": null,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 CHECK COSTS",
         "checks": [
+          "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+          "Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate",
+          "Actual parcel/carrier and protective packaging costs unverified; conditional tariff scenario cannot create a buying signal",
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
+          "Lowest comparator details unverified/conflicting: incomplete; cheap observation retained, no buying signal",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
           "Check current retailer stock, checkout price and exact variant before buying"
         ],
         "sources": [
           {
-            "item_id": "v1|388606916642|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/o3wAAOSw3VVhufIL/s-l225.jpg",
+            "item_id": "v1|327424660280|0",
+            "seller": "kwahu23",
+            "image": "https://i.ebayimg.com/images/g/jyAAAeSwN7lq31kN/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -8730,16 +9662,116 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/388606916642",
-            "title": "Little Nightmares II Xbox Series X  BRAND NEW AND SEALED - IN STOCK - FREE P&P",
+            "url": "https://www.ebay.co.uk/itm/327424660280",
+            "title": "Ariana Grande Mod Blush Edp 100ml - Full, Without Box",
             "declared_condition": "new",
-            "item_price": 29.92,
+            "item_price": 29.95,
+            "shipping": 3.38,
+            "listed_total": 33.33,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960079633918|0",
+            "seller": "dragonz40-6",
+            "image": "https://i.ebayimg.com/images/g/8k0AAeSwb0pq05bi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960079633918",
+            "title": "Ariana Grande Mod Blush EDP 100ml(BNIB)",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 2.94,
+            "listed_total": 45.24,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|317822317409|0",
+            "seller": "ukdaily-26",
+            "image": "https://i.ebayimg.com/images/g/cOoAAeSwmgJpfP~3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/317822317409",
+            "title": "Ariana Grande Mod Blush EDP Spray 100ml 100 ml (Pack of 1) ",
+            "declared_condition": "new",
+            "item_price": 46.39,
             "shipping": 0.0,
-            "listed_total": 29.92,
-            "observed_at": "2026-11-08T04:04:25+00:00",
+            "listed_total": 46.39,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227322906695|0",
+            "seller": "maggieg17",
+            "image": "https://i.ebayimg.com/images/g/eO4AAeSwATdp8wte/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227322906695",
+            "title": "ARIANA GRANDE Mod Blush 100ml EDP for Women BRAND NEW",
+            "declared_condition": "new",
+            "item_price": 57.85,
+            "shipping": 3.45,
+            "listed_total": 61.3,
             "same_acquisition_promotion": false
           }
-        ]
+        ],
+        "transport_scenario": {
+          "profile": {
+            "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+            "checked_at": "2026-11-07",
+            "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+            "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+            "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+            "ml": 100,
+            "postage": 3.75,
+            "status": "conditional_tariff_scenario",
+            "actual_parcel_verified": false,
+            "scope": "UK domestic only; no international service",
+            "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+            "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+            "packaging_assumption": 0.5,
+            "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+            "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+          },
+          "status": "conditional_tariff_scenario",
+          "breakeven": 60.74,
+          "required_resale": 82.77,
+          "net": -23.72,
+          "roi": -51.6,
+          "net_before_unknown_delivery": null,
+          "inbound_known": true,
+          "cost": 45.99,
+          "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs",
+          "fees": 4.84,
+          "returns": 0.97
+        },
+        "transport_validated": false
       }
     },
     {
@@ -8819,7 +9851,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "R-Type Delta HD Boosted PS5"
@@ -9076,7 +10108,7 @@
         "rejected": {
           "identity_or_condition": 15
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil 4 Remake Gold Edition (PS5)"
@@ -9368,7 +10400,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|920107514118|0",
-          "observed_at": "2026-11-08T09:34:24+00:00",
+          "observed_at": "2026-11-08T10:05:10+00:00",
           "status": "incomplete",
           "reasons": [
             "fixed detail shipping not supplied"
@@ -9753,7 +10785,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -9981,7 +11013,7 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-08T04:35:07+00:00",
+        "observed_at": "2026-11-08T10:05:24+00:00",
         "date": "2026-11-08",
         "sample_count": 5,
         "listed_total_low": 33.33,
@@ -10114,7 +11146,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|327424660280|0",
-          "observed_at": "2026-11-08T09:34:24+00:00",
+          "observed_at": "2026-11-08T10:05:10+00:00",
           "status": "incomplete",
           "reasons": [
             "fixed detail shipping not supplied"
@@ -10207,7 +11239,8 @@
         },
         "detail_status": "incomplete",
         "query_aliases": [
-          "Ariana Grande MOD Blush Eau de Parfum - 100ml - With Code - Free C&C"
+          "Ariana Grande MOD Blush Eau de Parfum - 100ml - With Code - Free C&C",
+          "Ariana Grande Mod Blush EDP Spray 100ml"
         ]
       },
       "ask_estimate": {
@@ -10217,7 +11250,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "ariana grande mod blush EDP 100ml",
-        "observed_at": "2026-11-08T04:35:07+00:00",
+        "observed_at": "2026-11-08T10:05:24+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 5,
@@ -11861,7 +12894,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -12051,7 +13084,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -12548,7 +13581,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -12732,7 +13765,8 @@
             "declared_condition": "new",
             "item_price": 48.89,
             "shipping": 0.0,
-            "listed_total": 48.89
+            "listed_total": 48.89,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           },
           {
             "item_id": "v1|327243459879|0",
@@ -12754,7 +13788,8 @@
             "declared_condition": "new",
             "item_price": 61.42,
             "shipping": 0.0,
-            "listed_total": 61.42
+            "listed_total": 61.42,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           },
           {
             "item_id": "v1|277666586868|0",
@@ -12776,7 +13811,8 @@
             "declared_condition": "new",
             "item_price": 61.99,
             "shipping": 0.0,
-            "listed_total": 61.99
+            "listed_total": 61.99,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           },
           {
             "item_id": "v1|860018576774|0",
@@ -12798,7 +13834,8 @@
             "declared_condition": "new",
             "item_price": 62.24,
             "shipping": 0.0,
-            "listed_total": 62.24
+            "listed_total": 62.24,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           },
           {
             "item_id": "v1|267594048687|0",
@@ -12820,12 +13857,15 @@
             "declared_condition": "new",
             "item_price": 77.28,
             "shipping": 0.0,
-            "listed_total": 77.28
+            "listed_total": 77.28,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 45
         },
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
         ]
@@ -12929,6 +13969,7 @@
             "item_price": 48.89,
             "shipping": 0.0,
             "listed_total": 48.89,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -12952,6 +13993,7 @@
             "item_price": 61.42,
             "shipping": 0.0,
             "listed_total": 61.42,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -12975,6 +14017,7 @@
             "item_price": 61.99,
             "shipping": 0.0,
             "listed_total": 61.99,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -12998,6 +14041,7 @@
             "item_price": 62.24,
             "shipping": 0.0,
             "listed_total": 62.24,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -13021,6 +14065,7 @@
             "item_price": 77.28,
             "shipping": 0.0,
             "listed_total": 77.28,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13068,7 +14113,7 @@
         "listed_total_low": 57.72,
         "listed_total_p25": 60.75,
         "listed_total_median": 63.78,
-        "listed_total_p75": 67.38,
+        "listed_total_p75": 67.38499999999999,
         "listed_total_high": 70.99,
         "status": "indicative_only",
         "warnings": [
@@ -13096,7 +14141,8 @@
             "declared_condition": "new",
             "item_price": 55.0,
             "shipping": 2.72,
-            "listed_total": 57.72
+            "listed_total": 57.72,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           },
           {
             "item_id": "v1|920027620886|0",
@@ -13118,7 +14164,8 @@
             "declared_condition": "new",
             "item_price": 63.78,
             "shipping": 0.0,
-            "listed_total": 63.78
+            "listed_total": 63.78,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           },
           {
             "item_id": "v1|356152412747|0",
@@ -13140,12 +14187,15 @@
             "declared_condition": "new",
             "item_price": 68.29,
             "shipping": 2.7,
-            "listed_total": 70.99
+            "listed_total": 70.99,
+            "observed_at": "2026-11-08T09:34:41+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 37
         },
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
         ]
@@ -13249,6 +14299,7 @@
             "item_price": 55.0,
             "shipping": 2.72,
             "listed_total": 57.72,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -13272,6 +14323,7 @@
             "item_price": 63.78,
             "shipping": 0.0,
             "listed_total": 63.78,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -13295,6 +14347,7 @@
             "item_price": 68.29,
             "shipping": 2.7,
             "listed_total": 70.99,
+            "observed_at": "2026-11-08T09:34:41+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13378,7 +14431,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
+        "canonicalized_at": "2026-11-08T10:05:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -13485,381 +14538,6 @@
             "shipping": 2.7,
             "listed_total": 51.03,
             "observed_at": "2026-11-08T09:03:53+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      }
-    },
-    {
-      "title": "Silent Hill Townfall - Day One Edition - PS5",
-      "url": "https://www.hotukdeals.com/deals/silent-hill-townfall-day-one-edition-ps5-5023482",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "merchant": "Amazon",
-      "item_price": 40.85,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/7SAc3/5023482_1/re/150x150/qt/55/5023482_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/silent-hill-townfall-day-one-edition-ps5-5023482",
-      "landed_cost": null,
-      "breakeven_sell": 52.58,
-      "sell_for_minimum_profit": 71.87,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Silent+Hill+Townfall&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "silent hill townfall day one edition ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T04:04:25+00:00",
-        "date": "2026-11-08",
-        "sample_count": 5,
-        "listed_total_low": 46.5,
-        "listed_total_p25": 47.48,
-        "listed_total_median": 47.99,
-        "listed_total_p75": 49.95,
-        "listed_total_high": 55.79,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|407342741597|0",
-            "seller": "quantum_toon",
-            "image": "https://i.ebayimg.com/images/g/R-oAAeSwQvpq7MMo/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407342741597",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED = FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 46.5,
-            "shipping": 0.0,
-            "listed_total": 46.5,
-            "observed_at": "2026-11-08T04:04:25+00:00"
-          },
-          {
-            "item_id": "v1|327403156807|0",
-            "seller": "thegamery",
-            "image": "https://i.ebayimg.com/images/g/7QcAAeSwvZVq7gyY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327403156807",
-            "title": "Silent Hill Townfall (Day One Edition) (PS5)",
-            "declared_condition": "new",
-            "item_price": 47.48,
-            "shipping": 0.0,
-            "listed_total": 47.48,
-            "observed_at": "2026-11-08T04:04:25+00:00"
-          },
-          {
-            "item_id": "v1|287534544355|0",
-            "seller": "itemdropuk",
-            "image": "https://i.ebayimg.com/images/g/sQ0AAeSwoQRqs7gW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287534544355",
-            "title": "SILENT HILL: Townfall - Day One Edition (PS5) New Sealed Game",
-            "declared_condition": "new",
-            "item_price": 47.99,
-            "shipping": 0.0,
-            "listed_total": 47.99,
-            "observed_at": "2026-11-08T04:04:25+00:00"
-          },
-          {
-            "item_id": "v1|800556363188|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/ZlsAAeSwCHlq5K-E/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800556363188",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 49.95,
-            "shipping": 0.0,
-            "listed_total": 49.95,
-            "observed_at": "2026-11-08T04:04:25+00:00"
-          },
-          {
-            "item_id": "v1|820165533805|0",
-            "seller": "pokegirl92",
-            "image": "https://i.ebayimg.com/images/g/R8QAAeSwFbNqtNgV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820165533805",
-            "title": "Silent Hill: Townfall Day One Edition - Playstation 5 PS5",
-            "declared_condition": "new",
-            "item_price": 51.99,
-            "shipping": 3.8,
-            "listed_total": 55.79,
-            "observed_at": "2026-11-08T04:04:25+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 36
-        },
-        "canonicalized_at": "2026-11-08T09:34:24+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Silent Hill Townfall - Day One Edition - PS5"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "silent hill townfall day one edition ps5",
-        "observed_at": "2026-11-08T04:04:25+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 5,
-        "seller_count": 5,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 4,
-        "confidence": "moderate",
-        "wide_spread": false,
-        "competition_low": 46.5,
-        "competition_high": 55.79,
-        "estimated_resale": 45.1,
-        "estimated_range": [
-          41.85,
-          46.5
-        ],
-        "suggested_listing": 46.49,
-        "quick_sale_model": 41.85,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 40.85,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -6.33,
-        "max_landed_buy": 24.65,
-        "max_item_buy": null,
-        "delivery_headroom": -16.2,
-        "fees": 6.03,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.35,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 40.59,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 24.52,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|407342741597|0",
-            "seller": "quantum_toon",
-            "image": "https://i.ebayimg.com/images/g/R-oAAeSwQvpq7MMo/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407342741597",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED = FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 46.5,
-            "shipping": 0.0,
-            "listed_total": 46.5,
-            "observed_at": "2026-11-08T04:04:25+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327403156807|0",
-            "seller": "thegamery",
-            "image": "https://i.ebayimg.com/images/g/7QcAAeSwvZVq7gyY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327403156807",
-            "title": "Silent Hill Townfall (Day One Edition) (PS5)",
-            "declared_condition": "new",
-            "item_price": 47.48,
-            "shipping": 0.0,
-            "listed_total": 47.48,
-            "observed_at": "2026-11-08T04:04:25+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287534544355|0",
-            "seller": "itemdropuk",
-            "image": "https://i.ebayimg.com/images/g/sQ0AAeSwoQRqs7gW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287534544355",
-            "title": "SILENT HILL: Townfall - Day One Edition (PS5) New Sealed Game",
-            "declared_condition": "new",
-            "item_price": 47.99,
-            "shipping": 0.0,
-            "listed_total": 47.99,
-            "observed_at": "2026-11-08T04:04:25+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|800556363188|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/ZlsAAeSwCHlq5K-E/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800556363188",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 49.95,
-            "shipping": 0.0,
-            "listed_total": 49.95,
-            "observed_at": "2026-11-08T04:04:25+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|820165533805|0",
-            "seller": "pokegirl92",
-            "image": "https://i.ebayimg.com/images/g/R8QAAeSwFbNqtNgV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820165533805",
-            "title": "Silent Hill: Townfall Day One Edition - Playstation 5 PS5",
-            "declared_condition": "new",
-            "item_price": 51.99,
-            "shipping": 3.8,
-            "listed_total": 55.79,
-            "observed_at": "2026-11-08T04:04:25+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -14523,62 +15201,60 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "LEGO Star Wars SMART Play\u2122: Mos Eisley Cantina\u2122 (75425)",
-      "url": "https://www.ebay.co.uk/itm/227345236040",
-      "category": "lego",
-      "source": "ebay_browse",
-      "merchant": "eBay",
-      "item_price": 52.99,
-      "image_status": "verified",
-      "image_verified_url": "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
-      "image_candidates": [
-        "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg"
-      ],
-      "thumb": "https://i.ebayimg.com/images/g/3zIAAeSwDe5qBxXL/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/227345236040",
-      "landed_cost": 58.54,
-      "breakeven_sell": 77.02,
-      "sell_for_minimum_profit": 105.06,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-07T20:02:25+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+SMART+Play%E2%84%A2%3A+Mos+Eisley+Cantina%E2%84%A2+%2875425%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget"
-    },
-    {
-      "title": "BG IP66 13A Switched Socket 2 Gang - (Free C&C)",
-      "url": "https://www.hotukdeals.com/deals/bg-ip66-13a-switched-socket-2-gang-free-cc-5024610",
-      "category": "gaming",
+      "title": "Al-Rehab Choco Musk Eau De Parfum 50ml",
+      "url": "https://www.hotukdeals.com/deals/al-rehab-choco-musk-eau-de-parfum-50ml-5026120",
+      "category": "fragrance",
       "source": "hotukdeals",
-      "merchant": "Toolstation",
-      "item_price": 9.99,
+      "merchant": "Justmylook",
+      "item_price": 2.99,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/gneRb/5024610_1/re/150x150/qt/55/5024610_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/zeGAn/5026120_1/re/150x150/qt/55/5026120_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/bg-ip66-13a-switched-socket-2-gang-free-cc-5024610",
+      "image_source_url": "https://www.hotukdeals.com/deals/al-rehab-choco-musk-eau-de-parfum-50ml-5026120",
       "landed_cost": null,
-      "breakeven_sell": 16.13,
-      "sell_for_minimum_profit": 25.59,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
+      "breakeven_sell": 9.1,
+      "sell_for_minimum_profit": 18.82,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 50,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 9.1,
+        "required_resale": 18.82,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 2.99,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
       "blockers": [
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-08T09:03:52+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=BG+IP66+13A+Switched+Socket+2+Gang&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-08T10:05:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Al-Rehab+Choco+Musk+Eau+De+Parfum+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -14608,6 +15284,179 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lenovo+Services+LE302+Iron+Gray+Clip-on+Bluetooth+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Tapo S200B Smart Button, Wireless Smart Switch Remote Control",
+      "url": "https://www.hotukdeals.com/deals/tapo-s200b-smart-button-wireless-smart-switch-remote-control-5026123",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 10.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/fzuvj/5026123_1/re/150x150/qt/55/5026123_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/tapo-s200b-smart-button-wireless-smart-switch-remote-control-5026123",
+      "landed_cost": null,
+      "breakeven_sell": 17.32,
+      "sell_for_minimum_profit": 26.76,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T10:05:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tapo+S200B+Smart+Button%2C+Wireless+Smart+Switch+Remote+Control&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "tapo s200b smart button wireless smart switch remote control",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T10:05:24+00:00",
+        "date": "2026-11-08",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 13
+        },
+        "query_aliases": [
+          "Tapo S200B Smart Button, Wireless Smart Switch Remote Control"
+        ]
+      }
+    },
+    {
+      "title": "Tapo S110E Smart Switch Module, Dry/Wet Smart Switch, No Hub Required",
+      "url": "https://www.hotukdeals.com/deals/tapo-s110e-smart-switch-module-drywet-smart-switch-no-hub-required-5025650",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 16.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/i6FOd/5025650_1/re/150x150/qt/55/5025650_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/tapo-s110e-smart-switch-module-drywet-smart-switch-no-hub-required-5025650",
+      "landed_cost": null,
+      "breakeven_sell": 24.4,
+      "sell_for_minimum_profit": 33.85,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T10:05:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tapo+S110E+Smart+Switch+Module%2C+Dry%2FWet+Smart+Switch%2C+No+Hub+Required&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "tapo s110e smart switch module dry wet smart switch no hub required",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T10:05:24+00:00",
+        "date": "2026-11-08",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 1
+        },
+        "query_aliases": [
+          "Tapo S110E Smart Switch Module, Dry/Wet Smart Switch, No Hub Required"
+        ]
+      }
+    },
+    {
+      "title": "Narciso Rodriguez All Of Me Eau De Parfum 50ml",
+      "url": "https://www.hotukdeals.com/deals/narciso-rodriguez-all-of-me-eau-de-parfum-50ml-free-delivery-5026116",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "merchant": "Justmylook",
+      "item_price": 25.8,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/e1N0q/5026116_1/re/150x150/qt/55/5026116_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/narciso-rodriguez-all-of-me-eau-de-parfum-50ml-free-delivery-5026116",
+      "landed_cost": null,
+      "breakeven_sell": 36.57,
+      "sell_for_minimum_profit": 48.92,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 50,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 36.57,
+        "required_resale": 48.92,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 25.8,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T10:05:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Narciso+Rodriguez+All+Of+Me+Eau+De+Parfum+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -14648,8 +15497,8 @@
       "item_price": 32.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/150x150/qt/55/5019887_1.jpg"
@@ -14730,6 +15579,60 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
+      "title": "Moncler Pour Femme Eau De Parfum Gift Set 100ml",
+      "url": "https://www.hotukdeals.com/deals/moncler-pour-femme-eau-de-parfum-gift-set-100ml-5026128",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "merchant": "Justmylook",
+      "item_price": 45.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/C1IVe/5026128_1/re/150x150/qt/55/5026128_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/moncler-pour-femme-eau-de-parfum-gift-set-100ml-5026128",
+      "landed_cost": null,
+      "breakeven_sell": null,
+      "sell_for_minimum_profit": null,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 100,
+          "postage": null,
+          "status": "unvalidated",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "Multipack/contents not resolved: no single-bottle postage scenario"
+        },
+        "status": "unvalidated",
+        "breakeven": null,
+        "required_resale": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null
+      },
+      "outbound_transport_status": "Multipack/contents not resolved: no single-bottle postage scenario",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T10:05:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Moncler+Pour+Femme+Eau+De+Parfum+Gift+Set+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
       "title": "DEWALT DCB184-XJ 18V 5.0Ah XR Li-Ion Battery",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcb184-xj-18v-50ah-xr-li-ion-battery-5023704",
       "category": "tools",
@@ -14767,8 +15670,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/150x150/qt/55/5025463_1.jpg"
@@ -14788,35 +15691,6 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Fire+Station+with+Fire+Engine+60414+Truck+Model%2C+Dog+Animal+Figure+%26+5+Minifigures&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Adidas Men's Terrex Tracerocker 2 Gore-TEX Trail Running Shoes 11UK",
-      "url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-tracerocker-2-gore-tex-trail-running-shoes-5026096",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "merchant": "Amazon",
-      "item_price": 52.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/vrsgY/5026096_1/re/150x150/qt/55/5026096_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-tracerocker-2-gore-tex-trail-running-shoes-5026096",
-      "landed_cost": null,
-      "breakeven_sell": 68.65,
-      "sell_for_minimum_profit": 93.93,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-08T09:34:40+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Men%27s+Terrex+Tracerocker+2+Gore-TEX+Trail+Running+Shoes+11UK&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -14886,8 +15760,8 @@
       "item_price": 107.11,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/150x150/qt/55/5026032_1.jpg"
@@ -14918,8 +15792,8 @@
       "item_price": 117.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
-      "image_verified_until": "2026-11-08T09:54:36.727834+00:00",
-      "image_checked_at": "2026-11-08T09:34:36.727834+00:00",
+      "image_verified_until": "2026-11-08T10:25:21.116771+00:00",
+      "image_checked_at": "2026-11-08T10:05:21.116771+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/150x150/qt/55/5026036_1.jpg"
@@ -14973,34 +15847,6 @@
           "LEGO Icons Porsche 911 - 10295"
         ]
       }
-    },
-    {
-      "title": "Bench Sonar Men's Classic Hoodie with code",
-      "url": "https://www.hotukdeals.com/deals/bench-sonar-mens-classic-hoodie-with-code-5024751",
-      "category": "sportswear",
-      "source": "hotukdeals",
-      "merchant": "Express Trainers",
-      "item_price": 14.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/iIqla/5024751_1/re/150x150/qt/55/5024751_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/bench-sonar-mens-classic-hoodie-with-code-5024751",
-      "landed_cost": 14.99,
-      "breakeven_sell": 23.09,
-      "sell_for_minimum_profit": 32.81,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 5,
-      "first_seen": "2026-11-08T09:03:52+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bench+Sonar+Men%27s+Classic+Hoodie&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
     },
     {
       "title": "Jack & Jones Mens Modern Combo Classic Trainers ( Sizes 6 to 12 ) w/code and free postage",
@@ -15197,34 +16043,7 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dangerous+Driving&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "dangerous driving series x s xbox one",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T04:04:25+00:00",
-        "date": "2026-11-08",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "Dangerous Driving - Xbox One / Series X|S"
-        ]
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "Nike Futura T-Shirt (Ages 12 - 24m)",
@@ -15311,34 +16130,7 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Plucky+Squire&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "the plucky squire xbox series x s",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T04:04:25+00:00",
-        "date": "2026-11-08",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "The Plucky Squire - Xbox Series X|S"
-        ]
-      }
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
@@ -15542,6 +16334,35 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Wireless+Bluetooth+Headphones+6.0+Bluetooth+with+Microphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Little Nightmares II (Xbox Series X)",
+      "url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "The Game Collection",
+      "item_price": 9.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/KLWGR/5023855_1/re/150x150/qt/55/5023855_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
+      "landed_cost": null,
+      "breakeven_sell": 16.09,
+      "sell_for_minimum_profit": 25.54,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Little+Nightmares+II+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "DEWALT Rafter Square 7\" (177mm) Free C&C",
@@ -16088,6 +16909,35 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
+      "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES Aiba Edition (Nintendo Switch 2)",
+      "url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-aiba-edition-nintendo-switch-2-5025973",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 15.85,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/MLasW/5025973_1/re/150x150/qt/55/5025973_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-aiba-edition-nintendo-switch-2-5025973",
+      "landed_cost": null,
+      "breakeven_sell": 23.05,
+      "sell_for_minimum_profit": 32.51,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T23:14:07+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=No+Sleep+For+Kaname+Date&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
+    },
+    {
       "title": "Camo Blue Turtle Beach Recon 70 Wired Multiplatform Gaming Headset for XBOX, PC, PS5, Camo White - \u00a317.99",
       "url": "https://www.hotukdeals.com/deals/camo-blue-turtle-beach-recon-70-wired-multiplatform-gaming-headset-for-xbox-pc-ps5-camo-white-ps1799-5025377",
       "category": "gaming",
@@ -16259,60 +17109,6 @@
       "priority": 0,
       "first_seen": "2026-11-07T17:58:45+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Black+Friday+Sale+%2B+Extra+20%25+off&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Joop Homme Eau De Toilette 200ml",
-      "url": "https://www.hotukdeals.com/deals/joop-homme-eau-de-toilette-200ml-5025515",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "merchant": "Justmylook",
-      "item_price": 20.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/AEWBn/5025515_1/re/150x150/qt/55/5025515_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/joop-homme-eau-de-toilette-200ml-5025515",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 200,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "200ml bottle exceeds Royal Mail perfume/aftershave 150ml per-item limit; no standard perfume postage scenario. If lotion is non-flammable, classification and an alternative liquids profile require verification."
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "200ml bottle exceeds Royal Mail perfume/aftershave 150ml per-item limit; no standard perfume postage scenario. If lotion is non-flammable, classification and an alternative liquids profile require verification.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Joop+Homme+Eau+De+Toilette+200ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -17435,60 +18231,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Montblanc Explorer Platinum Eau De Parfum Gift Set 100ml",
-      "url": "https://www.hotukdeals.com/deals/montblanc-explorer-platinum-eau-de-parfum-gift-set-100ml-5025508",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "merchant": "Justmylook",
-      "item_price": 37.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Vdlmw/5025508_1/re/150x150/qt/55/5025508_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/montblanc-explorer-platinum-eau-de-parfum-gift-set-100ml-5025508",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 100,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Multipack/contents not resolved: no single-bottle postage scenario"
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "Multipack/contents not resolved: no single-bottle postage scenario",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Montblanc+Explorer+Platinum+Eau+De+Parfum+Gift+Set+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "Adidas Terrex Anylander Hiking Women's Shoes Black/ Grey \u00a342.25 (selected sizes)",
       "url": "https://www.hotukdeals.com/deals/adidas-terrex-anylander-hiking-womens-shoes-black-grey-ps4225-selected-sizes-5024559",
       "category": "trainers",
@@ -17854,6 +18596,35 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rabanne+Fame+Gift+Set+EDP+Spray+30ml+%2B+Mascara&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Silent Hill Townfall - Day One Edition - PS5",
+      "url": "https://www.hotukdeals.com/deals/silent-hill-townfall-day-one-edition-ps5-5023482",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 40.85,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/7SAc3/5023482_1/re/150x150/qt/55/5023482_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/silent-hill-townfall-day-one-edition-ps5-5023482",
+      "landed_cost": null,
+      "breakeven_sell": 52.58,
+      "sell_for_minimum_profit": 71.87,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Silent+Hill+Townfall&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget"
     },
     {
       "title": "Armani Because It's You Eau De Parfum 50ml w/code",
@@ -18279,7 +19050,7 @@
           "ml": 200,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-08T09:34:24+00:00",
+        "observed_at": "2026-11-08T10:05:10+00:00",
         "date": "2026-11-08",
         "sample_count": 0,
         "listed_total_low": null,
@@ -18357,6 +19128,35 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Men%27s+Adizero+Pacer+Running+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported"
+    },
+    {
+      "title": "Adidas Men's Terrex Tracerocker 2 Gore-TEX Trail Running Shoes 11UK",
+      "url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-tracerocker-2-gore-tex-trail-running-shoes-5026096",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "merchant": "Amazon",
+      "item_price": 52.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/vrsgY/5026096_1/re/150x150/qt/55/5026096_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-tracerocker-2-gore-tex-trail-running-shoes-5026096",
+      "landed_cost": null,
+      "breakeven_sell": 68.65,
+      "sell_for_minimum_profit": 93.93,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-08T09:34:40+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Men%27s+Terrex+Tracerocker+2+Gore-TEX+Trail+Running+Shoes+11UK&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
@@ -19144,35 +19944,6 @@
       "ask_status": "exact_identity_not_supported"
     },
     {
-      "title": "Sennheiser HD 599 SE Open Back Headphones Black",
-      "url": "https://www.hotukdeals.com/deals/sennheiser-hd-599-se-open-back-headphones-black-5023543",
-      "category": "tech",
-      "source": "hotukdeals",
-      "merchant": "Amazon",
-      "item_price": 68.64,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/mJ0VP/5023543_1/re/150x150/qt/55/5023543_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/sennheiser-hd-599-se-open-back-headphones-black-5023543",
-      "landed_cost": null,
-      "breakeven_sell": 89.59,
-      "sell_for_minimum_profit": 123.45,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sennheiser+HD+599+SE+Open+Back+Headphones+Black&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
       "title": "Mens Nike P-6000 in Silver Multi, Size 7-8 / Offwhite multi size 7-12 , Free C&C",
       "url": "https://www.hotukdeals.com/deals/mens-nike-p-6000-in-silver-multi-size-7-8-offwhite-multi-size-7-12-free-cc-5025825",
       "category": "trainers",
@@ -19698,35 +20469,6 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Turtle+Beach+Stealth+700+Wireless+Multiplatform+Gaming+Headset+for+PS5+%26+PC&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported"
-    },
-    {
-      "title": "Bose SoundLink Flex Portable Speaker (2nd Gen) fog grey or sage",
-      "url": "https://www.hotukdeals.com/deals/bose-soundlink-flex-portable-speaker-2nd-gen-fog-grey-or-sage-5026081",
-      "category": "tech",
-      "source": "hotukdeals",
-      "merchant": "Bose",
-      "item_price": 99.95,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/cetwb/5026081_1/re/150x150/qt/55/5026081_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/bose-soundlink-flex-portable-speaker-2nd-gen-fog-grey-or-sage-5026081",
-      "landed_cost": null,
-      "breakeven_sell": 128.2,
-      "sell_for_minimum_profit": 177.51,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-08T08:33:12+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bose+SoundLink+Flex+Portable+Speaker+%282nd+Gen%29+fog+grey+or+sage&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported"
     },
     {
