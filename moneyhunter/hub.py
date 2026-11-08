@@ -3,7 +3,7 @@ Webhook URLs come from env MONEYHUNTER_WEBHOOKS (JSON {channel: url}); never pri
 import datetime as dt, json, os, re, urllib.request
 from . import discord as D, embeds as E, sell as S
 from .scanners import hotukdeals
-from . import product_format as PF, presentation, publication
+from . import product_format as PF, presentation, publication, routing
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
 PRICES = os.path.join(DATA, "prices.json")
@@ -28,6 +28,7 @@ NOT_RESELLABLE_RE = re.compile(
 CAT_LABEL = {"trainers": "👟 Trainers", "sportswear": "👕 Sportswear", "lego": "🧱 LEGO", "gaming": "🎮 Games & consoles",
              "tools": "🛠️ Tools", "fragrance": "🧴 Fragrance", "tech": "🎧 Tech"}
 DELIVERY_FAILURES = []
+DELIVERY_COUNTS = {}
 WATCH_PER_CHANNEL = 3   # [H] max WATCH cards per category channel per run
 
 DIGITAL_STOREFRONTS = {"eneba", "loaded", "cdkeys", "cdkeys.com", "steam", "gog", "gog.com", "xbox", "microsoft", "nintendo eshop", "playstation store"}
@@ -72,7 +73,7 @@ def watch_card(it, prices):
     be, tgt, post = sell_needed(it["price"] + (it.get("inbound_delivery") or 0), it["category"])
     t = M.norm(it["title"] + " " + it.get("desc", ""))
     kids = it["category"] in ("trainers", "sportswear") and any(M.has(t, w) for w in M.KIDS)
-    heat = f" · 🌡️ {it['heat']}°" if it.get("heat") is not None else ""
+    heat = f" · HUKD heat {it['heat']}° (not resale evidence)" if it.get("heat") is not None else ""
     e = {"author": {"name": f"{CAT_LABEL[it['category']]} · WATCH · not priced"},
          "title": ("👀 " + it["title"])[:250], "url": it["url"], "color": 0x64748B,
          "description": f"**£{it['price']:.2f}** at {it.get('merchant') or 'retailer'}{heat}\n"
@@ -88,7 +89,7 @@ def watch_card(it, prices):
                    + ([{"name": "Quick-cash floor", "value": "Exact CeX CASH/bank quote only, subject to testing. Voucher value is not cash; online payout is not same-day guaranteed.", "inline": False}]
                       if it["category"] in S.CEX_FLOOR else [])
                    + [{"name": "Retailer", "value": I.retailer(it.get("merchant", ""), it["title"])["label"][:200], "inline": False}],
-         "footer": {"text": f"Sell prices after eBay business fees incl 20% VAT, £{post:.2f} postage, £0.50 packaging, 3% returns · strong = £{policy['strong_net']:g} net and {policy['strong_roi']*100:g}% ROI"}}
+         "footer": {"text": f"Fee/postage assumptions used for policy math: eBay business fees incl 20% VAT, £{post:.2f} postage, £0.50 packaging, 3% returns · strong = £{policy['strong_net']:g} net and {policy['strong_roi']*100:g}% ROI"}}
     if it['category']=='fragrance':
         from .transport import scenario
         sc=scenario(it)
@@ -96,7 +97,7 @@ def watch_card(it, prices):
         qualifier='conditional tariff scenario' + ('; excluding UNKNOWN inbound delivery' if not sc.get('inbound_known') else '')
         e['fields'][0]={'name':'Breakeven required resale — NOT market value','value':f"£{sc['breakeven']:.2f}+ ({qualifier})" if sc['breakeven'] is not None else p['reason'],'inline':False}
         e['fields'][1]={'name':'Strong-policy required resale — NOT valuation','value':f"£{sc['required_resale']:.2f}+ ({qualifier})" if sc['required_resale'] is not None else 'Unknown until an applicable compliant transport profile and costs are established','inline':False}
-        e['fields'].append({'name':'Bottle-specific delivery scenario','value':transport_text(sc)[:1000],'inline':False})
+        e['fields'].append({'name':'Bottle-specific CONDITIONAL delivery scenario','value':transport_text(sc)[:1000],'inline':False})
         e['footer']['text']='Market sell estimate is independent of postage. Tariff scenario is NOT a parcel quote, insurance guarantee or buying approval. Evri prohibits perfume.'
         if not it.get('ask_estimate'):
             e['fields'].insert(0,{'name':'Estimated sell price — competitor asks','value':'Not established: '+it.get('ask_status','exact bottle type/concentration/ml comparable offers not yet available')+'. A required resale target is NOT an estimated selling price.','inline':False})
@@ -113,7 +114,14 @@ def watch_card(it, prices):
         if safe(it["thumb"]):e["image"] = {"url":safe(it["thumb"])}
     from .images import metadata
     e.update(metadata(it))
-    e["fields"]=presentation.fields(it,model)+e["fields"]
+    e["fields"]=presentation.fields(it,model)+[f for f in e["fields"] if not any(t in f['name'].lower() for t in ('breakeven','minimum sale','strong-policy required','max landed buy','conditional profit scenario'))]
+    if publication.allowed(it) and not routing.opportunity(it):
+        e['author']['name']='Supported research — NOT an opportunity'
+        if model and model.get('transport_validated') is False:e['author']['name']='Transport blocked — no buy signal'
+        elif model and model.get('above_budget'):e['author']['name']='ABOVE BUDGET — WATCH ONLY, not an opportunity'
+        elif 'SKIP' in e['fields'][2]['value']:e['author']['name']='Supported negative — SKIP, not an opportunity'
+    e["fields"].append({"name":"Policy math — hidden by default","value":"Use /menu → Resale Estimates → Policy calculation (not market). Required sale prices are not valuations.","inline":False})
+    if it.get('secondary_offer_note'):e['fields'].append({'name':'Optional accessory — NOT postage or included bundle','value':str(it['secondary_offer_note'])[:1000],'inline':False})
     return e
 
 
@@ -124,7 +132,7 @@ def estimate_fields(m):
         if sc.get('status')=='conditional_tariff_scenario':
             value=(f"£{sc['net']:.2f} / {sc['roi']:.1f}% ROI" if sc.get('net') is not None else f"Up to £{sc['net_before_unknown_delivery']:.2f} BEFORE unknown inbound delivery" if sc.get('net_before_unknown_delivery') is not None else 'Unknown')+' — CONDITIONAL tariff/packaging scenario only; actual net/ROI not established.'
         return [
-            {'name':'Estimated sell price — competitor asks, NOT a BUY','value':f"£{m['estimated_resale']:.2f}; suggested listing £{m['suggested_listing']:.2f}. Model range £{m['estimated_range'][0]:.2f}–£{m['estimated_range'][1]:.2f}. {m['seller_count']} independent sellers / {m['sample_count']} samples; {m['confidence']} confidence. NOT sold or guaranteed.",'inline':False},
+            {'name':'Market estimate — supported comparators only','value':f"£{m['estimated_resale']:.2f}; suggested listing £{m['suggested_listing']:.2f}. Model range £{m['estimated_range'][0]:.2f}–£{m['estimated_range'][1]:.2f}. {m['seller_count']} independent sellers / {m['sample_count']} samples; {m['confidence']} confidence. NOT sold or guaranteed.",'inline':False},
             {'name':'Conditional profit scenario / actual net UNKNOWN','value':value,'inline':False},
             {'name':'Exact variant and provenance checks','value':' · '.join(m['checks'])[:1000],'inline':False},
             {'name':'Competitor sources','value':' · '.join(f"[Offer {i+1}]({o['url']})" for i,o in enumerate(m['sources'][:3])),'inline':False}]
@@ -133,7 +141,7 @@ def estimate_fields(m):
     stress = (f"Resale £{m['review_stress_sale']:.2f}: net £{m['review_stress_net']:.2f}, {m['review_stress_roi']:.1f}% ROI" if m.get('review_stress_net') is not None else "Unknown landed delivery: stress economics not established")
     return [
         {"name":"Manual-review downside scenario (not forecast)","value":stress + ". 10% price drop must leave £5 net AND 10% ROI; moderate confidence and 3 supporting low-price sellers required. Velocity unknown unless separately measured.","inline":False},
-        {"name":"Estimated resale / suggested listing", "value":f"£{m['estimated_resale']:.2f} / £{m['suggested_listing']:.2f} · model range £{m['estimated_range'][0]:.2f}–£{m['estimated_range'][1]:.2f}. NOT sold or guaranteed.","inline":False},
+        {"name":"Market estimate — supported comparators only", "value":f"£{m['estimated_resale']:.2f} / £{m['suggested_listing']:.2f} · model range £{m['estimated_range'][0]:.2f}–£{m['estimated_range'][1]:.2f}. NOT sold or guaranteed.","inline":False},
         {"name":"Estimated net / ROI", "value":profit,"inline":False},
         {"name":"Competition / confidence", "value":f"{m['sample_count']} seller-deduplicated asks · {m['seller_count']} known sellers · {m['confidence']} confidence · observed {m['observed_at']}. Lowest delivered competition £{m['competition_low']:.2f}. {m['discount_note']}","inline":False},
         {"name":"Max landed buy / delivery headroom", "value":f"£{m['max_landed_buy']:.2f} / £{m['delivery_headroom']:.2f}; strong policy £{m.get('policy',{}).get('strong_net',8):g} net + {m.get('policy',{}).get('strong_roi',.4)*100:g}% ROI. Manual-review ceiling £{m.get('review_max_landed_buy',m['max_landed_buy']):.2f}. Check stock and checkout price. No sales speed measured.","inline":False},
@@ -164,12 +172,14 @@ def hooks() -> dict:
 
 def send(ch, embeds, components=None, dry=False, content=""):
     h = hooks()
-    url = h.get(ch) or (os.getenv(D.ENV) if ch == "bot-status" else None)
+    url = h.get(ch) or h.get({"opportunities":"verify","research-watch":"near-misses","diagnostics":"bot-status"}.get(ch,"")) or (os.getenv(D.ENV) if ch in ("bot-status","diagnostics") else None)
     if not url and not dry:
         print(f"[hub] no webhook for #{ch}; skipped")
-        if ch in ("buy-now", "verify", "bot-status"): DELIVERY_FAILURES.append(f"No delivery endpoint configured for #{ch}")
+        if ch in ("buy-now", "verify", "bot-status", "opportunities", "research-watch", "diagnostics"): DELIVERY_FAILURES.append(f"No delivery endpoint configured for #{ch}")
         return 0
     st = D.post(embeds, content=content, dry_run=dry or not url, components=components, url=url)
+    if url and not dry and ok(st) and any(e.get("_mh_product_card") or e.get("_mh_product_rows") for e in embeds):
+        DELIVERY_COUNTS[ch]=DELIVERY_COUNTS.get(ch,0)+1
     if url and not dry and not ok(st): DELIVERY_FAILURES.append(f"Delivery to #{ch} failed (HTTP {st or 'network/disabled'})")
     print(f"[hub] #{ch}: {st or 'dry-run'}"); return st
 
@@ -182,7 +192,7 @@ def mini(it, color, prefix=""):
     if PF.reason(it):return PF.research_card(it)
     it=PF.normalize(it)
     q = E.short_query(it["title"])
-    heat = f"🌡️ {it['heat']}°" if it.get("heat") is not None else ""
+    heat = f"HUKD heat {it['heat']}° (not resale evidence)" if it.get("heat") is not None else ""
     e = {"title": (prefix + it["title"])[:250], "url": it["url"], "color": color,
          "description": f"**£{it['price']:.2f}** · {it.get('merchant') or 'retailer'} {('· ' + heat) if heat else ''}\n"
                         + (f"Estimated resale £{it['ask_estimate']['estimated_resale']:.2f} (competitor asks; NOT a BUY). Check stock, exact variant and all costs." if it.get("ask_estimate") else "Resale estimate not established: exact comparator research required; do not confuse the required resale target with market value."),
@@ -236,18 +246,20 @@ def acquisition_status(raw):
 def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     """Post everything new. Returns keys to add to seen."""
     DELIVERY_FAILURES.clear()
+    DELIVERY_COUNTS.clear()
     new = set()
     from .images import publishable
     raws,_=PF.partition(raws)
     graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
     original_raws=raws
     raws=[r for r in raws if publishable(r) and publication.allowed(r)]
-    graded=[(d,r) for d,r in graded if publishable(vars(d)) and publication.allowed(vars(d))]
+    graded=[(d,r) for d,r in graded if publishable(vars(d)) and publication.allowed(vars(d)) and (not getattr(d,"ask_estimate",None) or routing.opportunity(vars(d)))]
     # 1) graded A/B cards -> buy-now / verify + category channel
     n = 0
     for d, r in graded:
         g = r.grade[0]
-        if g not in "AB" or r.cost > E.community_cap(): continue
+        if g not in "AB" or r.cost > E.community_cap() or r.ev_net<=0: continue
+        if getattr(d,"ask_estimate",None) and not routing.opportunity(vars(d)):continue
         k = "alert:" + g + ":" + hotukdeals.dedupe_key(d.title, d.buy_price)
         if k in seen or n >= max_cards: continue
         card, comps = E.deal_card(d, r), E.link_buttons(d)
@@ -259,24 +271,30 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     # Separate ask-based CHECK path, never BUY / sold-verified / fast-mover.
     for it in raws:
         model = it.get("ask_estimate")
-        if not model or not (model["estimated_opportunity"] or model.get("worth_reviewing")): continue
+        if not routing.opportunity(it): continue
         k = ("estimated:" if model["estimated_opportunity"] else "review:") + hotukdeals.dedupe_key(it["title"], it["price"])
         if k in seen or n >= max_cards: continue
         if acquisition_status(it) != "live": continue
-        st = send("verify", [watch_card(it, read_prices())], buttons(it), dry)
-        if ok(st) or dry: new.add(k); n += 1
+        st = send("opportunities", [watch_card(it, read_prices())], buttons(it), dry)
+        if ok(st) or dry:
+            new.add(k); n += 1
+            ch=CAT_CHANNEL.get(it.get("category"))
+            if ch:send(ch,[watch_card(it,read_prices())],buttons(it),dry)
+    # Only existing qualified buying signals enter opportunity/category/heat/drop feeds.
+    opportunity_urls={it['url'] for it in raws if routing.opportunity(it)} | {d.url for d,r in graded if r.grade[0] in 'AB' and r.cost<=E.community_cap()}
+    signals=[it for it in raws if it['url'] in opportunity_urls]
     # 2) price errors / very hot
-    for it in raws:
+    for it in signals:
         k = "pe:" + it["url"]
         if k in seen: continue
         if PRICE_ERROR_RE.search(it["title"]) or (it.get("heat") or 0) >= ERROR_HEAT:
             status = acquisition_status(it)
-            if status == "expired": new.add(k); continue
+            if status == "expired": continue
             if status != "live": continue  # unknown must be retryable, never marked sent/expired
             st = send("price-errors", [mini(it, 0xF97316, "⚡ ")], buttons(it), dry)
             if ok(st) or dry: new.add(k)
     # 3) trending digest: new hot items, one message, up to 10
-    hot = sorted([it for it in raws if (it.get("heat") or 0) >= TREND_MIN and "tr:" + it["url"] not in seen
+    hot = sorted([it for it in signals if (it.get("heat") or 0) >= TREND_MIN and "tr:" + it["url"] not in seen
                   and resellable(it) and not GROCERY_RE.search(it.get("merchant", ""))],
                  key=lambda x: -x["heat"])[:10]
     if hot:
@@ -287,7 +305,7 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             line=f"**{it['heat']}°** · [{it['title'][:60]}]({it['url']}) · £{it['price']:.2f} buy · {publication.summary(it)}"
             if sum(map(len,lines))+len(line)+len(lines)<=3000:lines.append(line);nonlego.append(it)
         hot=nonlego+lego_hot
-        digest_embeds=[{'title':f"Trending · {len(hot)} priced offers",'color':0xEF4444,'description':'\n'.join(lines)[:4000],'_mh_product_rows':[it for it in hot if it.get('category')!='lego']}] if lines else []
+        digest_embeds=[{'title':f"Trending · {len(hot)} priced offers",'color':0xEF4444,'description':('HUKD heat only — not resale evidence.\n'+'\n'.join(lines))[:4000],'_mh_product_rows':[it for it in hot if it.get('category')!='lego']}] if lines else []
         digest_embeds += [mini(it,0xEF4444,'🔥 ') for it in lego_hot]
         st=send("trending",digest_embeds,None,dry)
         if ok(st) or dry: new |= {"tr:" + it["url"] for it in hot}
@@ -302,25 +320,25 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     for it in sorted(raws, key=lambda x: (x.get('source')=='ebay_browse',-x.get("review_priority", 0), -(x.get("heat") or 0))):
         ch = CAT_CHANNEL.get(it.get("category"))
         k = ("w:ask-model-v1:" if it.get("ask_estimate") else "w:") + it["url"]
-        if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in graded_urls or not resellable(it): continue
+        if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in opportunity_urls or "tr:"+it["url"] in seen or "pe:"+it["url"] in seen or any(x.startswith("pd:"+it["url"]+":") for x in seen) or not resellable(it): continue
         if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
         from .policy import current
         if it["price"] + (it.get("inbound_delivery") or 0) > current()["watch_ceiling"]: continue
         if re.search(r"in.?store|pre.?order|tester", it["title"], re.I): continue   # no car; no pre-orders or testers
         status = acquisition_status(it)
-        if status == "expired": new.add(k); continue
+        if status == "expired": continue
         if status != "live": continue
-        if ok(send(ch, [watch_card(it, prices_now)], buttons(it), dry)) or dry:
+        if ok(send("research-watch", [watch_card(it, prices_now)], buttons(it), dry)) or dry:
             new.add(k); per[ch] = per.get(ch, 0) + 1
     # 3c) quiet-market pulse: no A/B this scan -> one note per hour [H]
     n_drops = 0
     if not stats.get("A") and not stats.get("B") and not stats.get("estimated_opportunities"):
         qk = E.quiet_key()
         if qk not in seen and not (stats.get("errors") and not stats.get("scanned")):
-            if ok(send("buy-now", [E.quiet_card(stats, market_pulse(original_raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
+            if ok(send("diagnostics", [E.quiet_card(stats, market_pulse(original_raws, stats).split(chr(10))[0][:300])], None, dry)) or dry: new.add(qk)
     # 4) price drops
     drops, prices = price_drops(original_raws)
-    for it, prev in [x for x in drops if resellable(x[0]) and publishable(x[0]) and publication.allowed(x[0])][:5]:
+    for it, prev in [x for x in drops if x[0]["url"] in opportunity_urls and resellable(x[0]) and publishable(x[0]) and publication.allowed(x[0])][:5]:
         k = f"pd:{it['url']}:{it['price']}"
         if k in seen: continue
         e = mini(it, 0x06B6D4, "📉 ")
@@ -334,27 +352,31 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     errs = stats["errors"]
     if errs or dt.datetime.now(dt.timezone.utc).minute < 30 or os.getenv("MONEYHUNTER_FORCE_STATUS") == "1":
         e = E.scan_summary(stats, near)
-        e["fields"].insert(0, {"name":"Competitor-based resale estimates (NOT verified BUY)", "value":f"{stats.get('ask_valued',0)} offers estimated · {stats.get('estimated_opportunities',0)} strong / CHECK · {stats.get('worth_reviewing',0)} manual review · {stats.get('above_budget_estimates',0)} above-budget watch · {stats.get('ask_delivery_known',0)} known inbound / {stats.get('qualified_delivery_unknown',0)} unknown inbound · {stats.get('ask_unique_products',0)} distinct estimated products. A/B sold-evidence grades unchanged.","inline":False})
+        e["fields"].insert(0, {"name":"Evidence-state counts — NOT messages delivered", "value":routing.counts_text(stats.get('publication_stages') or routing.stages(original_raws,graded))[:1024],"inline":False})
         e["fields"].append({"name": "📉 price-drops", "value": f"{n_drops} new this scan" + ("" if n_drops or os.path.exists(PRICES) else " · fills after a few days of price history"), "inline": True})
         e["fields"].insert(0, {"name": "📈 Market pulse (deals this scan)", "value": market_pulse(original_raws, stats)[:1000], "inline": False})
         if stats.get('source_coverage'):
             e['fields'].append({'name':'Retail feeds retained + complementary eBay acquisition',
-                'value':' · '.join(f"{src}: {v['offers']} offers / {v['new']} new / {v['estimated']} estimated / {v['actionable']} CHECK or review" for src,v in stats['source_coverage'].items())[:1000],'inline':False})
+                'value':' · '.join(f"{src}: {v['offers']} offers / {v['new']} new / {v['estimated']} research models / {v['actionable']} model CHECK/review flags (before publication)" for src,v in stats['source_coverage'].items())[:1000],'inline':False})
         if stats.get('value_watchlist'):
             w=stats['value_watchlist'];a=stats.get('sources',{}).get('ebay_acquisition',{})
             e['fields'].append({'name':'Value-led watchlist (not buy approval)',
                 'value':f"{w['products']} exact identities / {w['usable_targets']} fresh configured-cost targets; {a.get('price_led_queries',0)} price-targeted + {a.get('research_discovery_queries',0)} discovery searches. getItem {stats.get('item_details',{}).get('calls',0)}/4; shared 800/day cap.",'inline':False})
         if stats.get('publication_holds'):
-            e['fields'].append({'name':'Price-required publication gate','value':f"{stats['publication_holds']['eligible']} priced / {stats['publication_holds']['held']} held in background research; unpriced product cards are not sent.",'inline':False})
+            e['fields'].append({'name':'Price-required publication gate','value':f"{stats['publication_holds']['eligible']} source-supported market prices / {stats['publication_holds']['held']} held in background research; unpriced product cards are not sent.",'inline':False})
         if stats.get('pricing_coverage'):
-            e['fields'].append({'name':'Exact pricing coverage (offers / estimated / distinct products)',
+            e['fields'].append({'name':'Research-model coverage (offers / models / distinct products)',
                 'value':' · '.join(f"{cat}: {x['offers']}/{x['estimated_offers']}/{x['estimated_products']}" for cat,x in stats['pricing_coverage'].items())[:1000],'inline':False})
         if stats.get('warnings'):
             e['fields'].insert(0,{'name':'Warnings — scan continued safely','value':'\n'.join(stats['warnings'])[:1000],'inline':False})
+        stage=stats.get('publication_stages') or routing.stages(original_raws,graded)
+        e['fields'].append({'name':'Research hold reasons — aggregate only','value':' · '.join(f"{k}: {v}" for k,v in stage['hold_reasons'].items())[:1000] or 'No publication holds','inline':False})
+        e['fields'].append({'name':'Publication stages by category (offers / supported / publishable / held)','value':' · '.join(f"{c}: {v['offers']}/{v['supported']}/{v['publication_qualified']}/{v['holds']}" for c,v in stage['by_category'].items())[:1000],'inline':False})
         if errs:
             e["color"] = 0xEF4444; e["title"] = "⚠️ Scan problem · " + e["title"]
             e["fields"].insert(0, {"name": "Errors", "value": "\n".join(errs)[:1000], "inline": False})
-        send("bot-status", [e], None, dry)
+        send("diagnostics", [e], None, dry)
+    stats["notification_delivery"]={"mode":"preview" if dry else "live","product_messages_delivered":sum(DELIVERY_COUNTS.values()),"by_route":dict(DELIVERY_COUNTS)}
     stats["delivery_failures"] = len(DELIVERY_FAILURES)
     stats["errors"] = list(dict.fromkeys(stats["errors"] + DELIVERY_FAILURES))[:20]
     return new
@@ -372,7 +394,7 @@ def digest(deals_path, dry=False):
         "description": ("Research candidates (may have major evidence blockers). The financial ceiling is not approval: exact evidence, delivery, availability and exit checks must also pass.\n\n" + "\n".join(lines))[:4000] if lines else "No priced near-misses in the last scan.",
         "_mh_product_rows":[x for x in near if x.get("category")!="lego"],
         "footer": {"text": f"{s['scanned']} scanned · {s['priced']} priced · {s['A']} buy · {s['B']} verify"}}] if lines or not lego_cards else [])+lego_cards
-    return send("near-misses",digest_embeds,None,dry)
+    return send("research-watch",digest_embeds,None,dry)
 
 def leaderboard(api_url, dry=False):
     with urllib.request.urlopen(urllib.request.Request(api_url, headers={"User-Agent": "moneyhunter"}), timeout=20) as r:
@@ -382,3 +404,9 @@ def leaderboard(api_url, dry=False):
     return send("leaderboard", [{"title": f"🏆 Weekly leaderboard · w/c {dt.date.today():%d %b %Y}", "color": 0xEAB308,
         "description": "\n".join(lines) if lines else "No flips logged yet. Be first: use **Log a flip** in #flip-log.",
         "footer": {"text": "XP: 10 per logged flip + 1 per £ profit (max 200 per flip)"}}], None, dry)
+
+
+def destination_roles():
+    h=hooks();aliases={'opportunities':'verify','research-watch':'near-misses','diagnostics':'bot-status'}
+    return {k:{'configured_route':k if h.get(k) else v if h.get(v) or (v=='bot-status' and os.getenv(D.ENV)) else None,
+               'new_channel_created':False} for k,v in aliases.items()}

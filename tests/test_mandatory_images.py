@@ -51,7 +51,7 @@ class MandatoryPhotos(unittest.TestCase):
   with patch.object(images,'probe',return_value=(False,'http_403')) as probe:
    state={};images.prepare([{**RAW}],state,NOW);images.prepare([{**RAW}],state,NOW+dt.timedelta(days=1));self.assertEqual(probe.call_count,1)
  def test_all_python_product_routes_have_final_serialized_images(self):
-  r=ready();payloads=[]
+  r=priced({**ready(),"online_eligible":True});payloads=[]
   def capture(ch,cards,*a,**kw):
    p=discord.build_payload(cards);self.assertIsNotNone(p,ch)
    payloads.append((ch,p));return 204

@@ -205,9 +205,9 @@ def quiet_key(now=None) -> str:
 def quiet_card(stats: dict, pulse: str) -> dict:
     """Professional 'market quiet' note when a scan finds no A/B deals. No profit claims."""
     return {"title": "🔎 No verified buying opportunities this scan", "color": BLUE,
-            "description": (f"Scanned **{stats['scanned']}** offers · {stats.get('new','?')} new / {stats.get('rescanned','?')} rescans · {stats.get('ask_valued',0)} competitor-ask estimates · {stats.get('estimated_opportunities',0)} Strong CHECK / {stats.get('worth_reviewing',0)} manual review / {stats.get('above_budget_estimates',0)} above-budget estimates.\nSeparately: {stats['priced']} legacy/reference valuations, {stats.get('sold_valued',0)} sold-valued; {stats.get('A',0)} verified BUY / {stats.get('B',0)} verified VERIFY. This is not proof the market has no deals.\n"
+            "description": (f"Scanned **{stats['scanned']}** offers · {stats.get('new','?')} new / {stats.get('rescanned','?')} rescans · {stats.get('ask_valued',0)} research models generated (NOT necessarily supported prices) · model flags before publication: {stats.get('estimated_opportunities',0)} Strong CHECK / {stats.get('worth_reviewing',0)} manual review / {stats.get('above_budget_estimates',0)} above-budget research models.\nSeparately: {stats['priced']} legacy/reference valuations, {stats.get('sold_valued',0)} sold-valued; {stats.get('A',0)} verified BUY / {stats.get('B',0)} verified VERIFY. This is not proof the market has no deals.\n"
                             f"**Market pulse:** {pulse}\n\n"
-                            "👀 WATCH cards in category channels are homework, not buy signals.\n"
+                            "Supported research goes to research-watch (existing near-misses fallback), not opportunity/category feeds. Unpriced products remain internal research.\n"
                             "⚡ Fast movers (≤10 days to sell) post to #fast-movers when they appear.\n"
                             "Cron targets 30 minutes but can be delayed/dropped; see scan health. Never force a bad buy.")[:4096],
             "footer": {"text": f"MONEYHUNTER · {SCHEDULE} · at most one quiet note per hour"},

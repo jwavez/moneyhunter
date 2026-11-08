@@ -136,7 +136,7 @@ class RetailPreserved(unittest.TestCase):
         extras=[{**retail,'url':f'https://www.ebay.co.uk/itm/{1000+n}','source':'ebay_browse','review_priority':100} for n in range(8)]
         with patch.object(hub,'acquisition_status',return_value='live'),patch.object(hub,'send',return_value=204) as send,patch.object(hub,'read_prices',return_value={}),patch.object(hub,'price_drops',return_value=([],{})):
             hub.route(extras+[retail],[],{'errors':[],'scanned':9,'priced':0,'affordable':0,'unpriced':9,'R':0,'A':0,'B':0},[],set(),dry=True)
-            category=[c for c in send.call_args_list if c.args[0]==hub.CAT_CHANNEL['gaming']]
+            category=[c for c in send.call_args_list if c.args[0]=='research-watch']
             self.assertEqual(len(category),3);self.assertIn(retail['url'],str(category[0]))
     def test_retail_candidate_gets_same_independent_comps_as_ebay_without_overwrite(self):
         raw=Source().raw();i=market.identity(raw);retail={**raw,'url':'https://www.hotukdeals.com/deals/synthetic-retail','merchant':'Retailer'}

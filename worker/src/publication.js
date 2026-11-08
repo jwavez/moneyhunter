@@ -4,6 +4,8 @@ const positive=x=>Number.isFinite(x)&&x>0;
 export function priceProof(x={}){
  if(nonphysical(x)||x.offer_ambiguity||x.format_reclassified)return {ok:false,reason:'format_or_primary_offer_ambiguous'};
  const m=x.ask_estimate;
+ if(m && /\b(refurb(?:ished)?|renewed|pre[ -]?owned|open[ -]?box|good as new|condition\s*[:=-]\s*used)\b/i.test([x.desc,x.description].filter(Boolean).join(' ')))return {ok:false,reason:'condition_mismatch_new_comparators'};
+ if(m && /\b(refurb(?:ished)?|renewed|pre[ -]?owned|used|open[ -]?box|warehouse|good as new)\b/i.test([x.title,x.condition,x.condition_text,x.declared_condition].filter(Boolean).join(" ")))return {ok:false,reason:"condition_mismatch_new_comparators"};
  if(m){
   const bound=x.publication_proof;
   if(!validProof(bound)||bound.title!==x.title||bound.query!==m.query||bound.observed_at!==m.observed_at||bound.listing!==m.suggested_listing||!bound.sources.every(u=>(m.sources??[]).some(o=>o.url===u))||!Array.isArray(bound.comparators)||!bound.comparators.every(c=>(m.sources??[]).some(o=>[o.url,o.title,o.listed_total,o.shipping,o.item_price,o.seller].every((v,i)=>v===c[i]))))return {ok:false,reason:'exact_identity_attestation_missing_or_changed'};

@@ -26,7 +26,7 @@ def test_quiet_key_hourly():
     assert E.quiet_key(a) == E.quiet_key(b) == "quiet:2026-11-06-12"
     assert E.quiet_key(a.replace(hour=13)) != E.quiet_key(a)
     c = E.quiet_card({"scanned": 40, "priced": 3}, "🧱 LEGO 2")
-    assert len(c["description"]) <= 4096 and "WATCH" in c["description"]
+    assert len(c["description"]) <= 4096 and "research-watch" in c["description"]
     for w in ("UC", "tax", "bankroll", "Traders Edge"): assert w not in c["description"]
 
 def test_watch_card_fields():

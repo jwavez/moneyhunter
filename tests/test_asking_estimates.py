@@ -4,10 +4,10 @@ import datetime as dt
 import unittest
 from moneyhunter import asking, fees, config, market
 
-NOW=dt.datetime(2026,11,7,14,tzinfo=dt.timezone.utc)
+NOW=dt.datetime.now(dt.timezone.utc)
 RAW={"title":"Synthetic exact game PS5 Standard", "url":"https://www.hotukdeals.com/deals/synthetic-ask-model", "category":"gaming", "price":15.,"inbound_delivery":2.,"online_eligible":True,"merchant":"Synthetic retailer"}
 def offer(i,price=50.,**changes):
-    return {"item_id":f"v1|{123456789000+i}|0", "url":f"https://www.ebay.co.uk/itm/{123456789000+i}","seller":f"synthetic-seller-{i}","country":"GB","currency":"GBP","declared_condition":"new","item_price":price-3,"shipping":3.,"listed_total":price,**changes}
+    return {"item_id":f"v1|{123456789000+i}|0", "url":f"https://www.ebay.co.uk/itm/{123456789000+i}","seller":f"synthetic-seller-{i}","country":"GB","currency":"GBP","declared_condition":"new","title":RAW["title"],"item_price":price-3,"shipping":3.,"listed_total":price,**changes}
 def snap(offers=None):return {"kind":"active_ask","query":"Synthetic exact game PS5 Standard","category":"gaming","observed_at":NOW.isoformat(),"offers":offers if offers is not None else [offer(i,50+i) for i in range(6)]}
 def model(raw=None,offers=None):return asking.estimate(raw or RAW,snap(offers),NOW)
 
@@ -85,7 +85,7 @@ class FullFlow(unittest.TestCase):
             with patch.object(hotukdeals,"live_status",return_value="live"),patch.object(hub,"send",return_value=204) as send,patch.object(hub,"read_prices",return_value={}),patch.object(hub,"price_drops",return_value=([],{})):
                 hub.route([raw],graded,stats,[],set(),dry=True,max_cards=1)
                 calls=[c.args[0] for c in send.call_args_list]
-                self.assertIn("verify",calls)
+                self.assertIn("opportunities",calls)
                 self.assertNotIn("buy-now",calls);self.assertNotIn("fast-movers",calls)
-                card=next(c.args[1][0] for c in send.call_args_list if c.args[0]=="verify")
+                card=next(c.args[1][0] for c in send.call_args_list if c.args[0]=="opportunities")
                 self.assertIn("ESTIMATED OPPORTUNITY",card["author"]["name"])

@@ -12,8 +12,8 @@ test("NEW asking models never price refurbished, used, bundles or minifigures",a
 test("manual review and above-budget signals stay explicit and use exported policy",()=>{
   for(const signal of ["WORTH REVIEWING — MANUAL CHECK","ABOVE BUDGET — WATCH ONLY"]){
     const m={...model(),signal,policy:{strong_net:12,strong_roi:.35},review_max_landed_buy:25};
-    const text=JSON.stringify(_test.estimateFields(m));assert.match(text,new RegExp(signal));
-    assert.match(text,/12.00/);assert.match(text,/35%/);assert.match(text,/25.00/);assert.match(text,/20% ROI/);
+    const text=JSON.stringify(_test.estimateFields(m));assert.match(text,/Market estimate — supported comparators only/);
+    assert.match(text,/12.00/);assert.match(text,/35%/);assert.doesNotMatch(text,/25\.00/);assert.match(text,/20% ROI/);
     assert.match(text,/above-budget remains WATCH ONLY/);
   }
 });
@@ -30,5 +30,5 @@ test("research estimates and above-budget cards retain validated full product ph
 
 test("fragrance market research never recalculates prohibited default shipping even with supplied cost",()=>{const m={...model(),category:"fragrance",transport_validated:false,signal:"ASK-BASED MARKET RESEARCH — TRANSPORT UNVALIDATED",net:null,roi:null,max_landed_buy:null};const text=JSON.stringify(_test.estimateFields(m,10,true));assert.match(text,/UNKNOWN/);assert.match(text,/compliant carrier\/packaging quote/);assert.doesNotMatch(text,/supplied landed cost/);});
 
-test("fragrance conditional tariff exposes market estimate independently and never defaults to Evri",()=>{const m={...model(),category:"fragrance",transport_validated:false,transport_scenario:{status:"conditional_tariff_scenario",inbound_known:false,net_before_unknown_delivery:5,profile:{ml:100,postage:3.75,packaging_assumption:.5,checked_at:"2026-11-07",reason:"100ml fits volume only; parcel unverified",rate_source:"https://www.royalmail.com/sending/uk/tracked-48",rules_source:"https://www.postoffice.co.uk/mail/what-can-i-send"}}};const text=JSON.stringify(_test.estimateFields(m,20,false));assert.match(text,/48.50/);assert.match(text,/3.75/);assert.match(text,/BEFORE unknown inbound delivery/);assert.match(text,/COUNTER/);assert.doesNotMatch(text,/200ml/);assert.match(text,/actual net\/ROI not established/);});
+test("fragrance conditional tariff exposes market estimate independently and never defaults to Evri",()=>{const m={...model(),category:"fragrance",transport_validated:false,transport_scenario:{status:"conditional_tariff_scenario",inbound_known:false,net_before_unknown_delivery:5,profile:{ml:100,postage:3.75,packaging_assumption:.5,checked_at:"2026-11-07",reason:"100ml fits volume only; parcel unverified",rate_source:"https://www.royalmail.com/sending/uk/tracked-48",rules_source:"https://www.postoffice.co.uk/mail/what-can-i-send"}}};const text=JSON.stringify(_test.estimateFields(m,20,false));assert.match(text,/48.50/);assert.match(text,/3.75/);assert.match(text,/UNKNOWN/);assert.match(text,/COUNTER/);assert.doesNotMatch(text,/200ml/);assert.match(text,/actual.*(?:costs unverified|net\/ROI not established)/);});
 test("fragrance calculator requires compliant supplied postage, while preserving manual calculator",()=>{assert.match(_test.calcView(20,50,"ebay_business","fragrance").content,/supply a compliant/);const text=JSON.stringify(_test.calcView(20,50,"ebay_business","fragrance",3.75));assert.match(text,/3.75/);});

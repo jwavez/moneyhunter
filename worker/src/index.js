@@ -87,18 +87,18 @@ function estimateFields(m, buy = null, landedConfirmed = false) {
     const known=custom ? landedConfirmed : sc?.inbound_known;
     const value=net!=null ? `${sgbp(net)}${known ? " conditional net" : " BEFORE unknown inbound delivery"}; actual net/ROI not established. Published tariff and packaging allowance are assumptions, NOT a verified parcel quote.` : "UNKNOWN: no applicable verified outbound quote. Market estimate above remains available.";
     return [...summaryFields({category:m.category},m,buy,landedConfirmed),
-      {name:"Estimated sell price — competitor asks, NOT a BUY",value:`${gbp(m.estimated_resale)}; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. ${m.seller_count} independent sellers / ${m.sample_count} samples. ${m.confidence} confidence. Not sold or guaranteed.`,inline:false},
-      {name:"Conditional profit scenario / actual net UNKNOWN",value,inline:false},
+      {name:"Market estimate — supported comparators only",value:`${gbp(m.estimated_resale)}; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. ${m.seller_count} independent sellers / ${m.sample_count} samples. ${m.confidence} confidence. Not sold or guaranteed.`,inline:false},
+
       ...transportFields(sc),
       {name:"Exact variant / provenance",value:`${m.checks.join(" · ")}\nObserved ${london(m.observed_at)}.`.slice(0,1024),inline:false}];
   }
   const custom=buy!=null && Number.isFinite(buy) && buy>0 ? calc(buy,m.estimated_resale,"ebay_business",m.category || "default") : null;
   const profit=custom ? `${sgbp(custom.net)}${landedConfirmed ? ` / ${pct(custom.roi)} ROI at your supplied landed cost` : " BEFORE unknown inbound delivery; actual net/ROI unknown"}` : m.delivery_known ? `${sgbp(m.net)} / ${pct(m.roi)} ROI at ${gbp(m.landed_cost)} landed` : `Up to ${sgbp(m.net_before_unknown_delivery)} before UNKNOWN inbound delivery; actual net/ROI unknown`;
   const stress=m.review_stress_net!=null ? `${gbp(m.review_stress_sale)} resale → ${sgbp(m.review_stress_net)} / ${pct(m.review_stress_roi)} ROI` : "Unknown landed delivery: not established";
-  return [...summaryFields({category:m.category},m,buy,landedConfirmed),{name:"Manual-review downside scenario (not a forecast)",value:`10% resale drop: ${stress}. Requires £5 net AND 10% ROI, moderate confidence and three supporting low-price sellers. No measured turnover implied.`,inline:false},{name:m.signal,value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
+  return [...summaryFields({category:m.category},m,buy,landedConfirmed),{name:"Manual-review downside scenario (not a forecast)",value:`10% resale drop: ${stress}. Requires £5 net AND 10% ROI, moderate confidence and three supporting low-price sellers. No measured turnover implied.`,inline:false},{name:"Market estimate — supported comparators only",value:`Estimated resale **${gbp(m.estimated_resale)}**; suggested listing ${gbp(m.suggested_listing)}. Model range ${gbp(m.estimated_range[0])}–${gbp(m.estimated_range[1])}. Not sold or guaranteed.`,inline:false},
     {name:"Estimated net / ROI",value:profit,inline:false},
     {name:"Competition, model and confidence",value:`${m.sample_count} seller-deduplicated asks / ${m.seller_count} known sellers; ${m.confidence} confidence. Current lowest delivered competition ${gbp(m.competition_low)}. Quick-sale model ${gbp(m.quick_sale_model)}; speed NOT measured. ${m.discount_note}`,inline:false},
-    {name:"Max landed buy / costs",value:`${gbp(m.max_landed_buy)} strong ceiling for ${gbp(m.policy?.strong_net ?? 8)} net + ${(m.policy?.strong_roi ?? .4)*100}% ROI. Manual review ceiling ${gbp(m.review_max_landed_buy ?? m.max_landed_buy)} (£10 net + 20% ROI); above-budget remains WATCH ONLY. Fee ${gbp(m.fees)}, outbound ${gbp(m.outbound_postage)}, packaging ${gbp(m.packaging)}, returns ${gbp(m.returns_allowance)}. Check actual checkout delivery/stock.`,inline:false},
+    {name:"Fee/postage assumptions used for policy math",value:`Strong policy ${gbp(m.policy?.strong_net??8)} net AND ${(m.policy?.strong_roi??.4)*100}% ROI; manual review £10 AND 20% ROI; above-budget remains WATCH ONLY. Policy ceilings are hidden under Policy calculation (not market). Fee ${gbp(m.fees)}, outbound ${gbp(m.outbound_postage)}, packaging ${gbp(m.packaging)}, returns ${gbp(m.returns_allowance)}. Check actual checkout delivery/stock.`,inline:false},
     {name:"Checks and provenance",value:`${m.checks.join(" · ")}\nObserved ${london(m.observed_at)}. Regular price not established. ${m.acquisition_excluded} known acquisition listings excluded.`,inline:false}];
 }
 function transportFields(sc) {
@@ -111,6 +111,18 @@ function estimateLinks(m) { return (m?.sources ?? []).slice(0,3).map((x,i)=>link
 async function getComps(env) { const r = await fetch(env.COMPS_URL, { cf: { cacheTtl: 300 } }); if (!r.ok) throw new Error("comps " + r.status); return parseCsv(await r.text()); }
 const updated = d => d.generated_utc.replace("T", " ").slice(0, 16) + " UTC";
 
+function stageText(s) { return `Offers scanned: ${s.offers_scanned} · Research models generated: ${s.research_models_generated} · Supported market estimates: ${s.supported_market_estimates} · Publication-qualified cards: ${s.publication_qualified_cards} · Route-eligible (policy/format): ${s.route_eligible_cards} · Buying signals: ${s.buying_signals} · Above-budget priced watch: ${s.above_budget_priced_watch} · Research holds: ${s.research_holds} · Inbound known/unknown: ${s.inbound_known}/${s.inbound_unknown}. Availability/dedup/destination pending; NOT delivered counts.`; }
+function policyView(x) {
+  if(!priced(x))return pending();
+  const fields=summaryFields(x,x.ask_estimate,null,false,x);
+  const conditional=x.ask_estimate?.transport_validated===false || x.category==='fragrance';
+  fields.push({name:conditional?'Transport blocked — no buy signal':'Policy calculation — NOT market evidence',value:conditional?'NON-APPROVED conditional tariff scenario only. Actual compliant parcel and packaging costs unverified; no actionable buying ceiling.':'Inverse fee/cost calculation, NOT evidence of market demand. Unknown inbound makes these minimum requirements, NOT actual net profit.',inline:false});
+  if(Number.isFinite(x.breakeven_sell))fields.push({name:'Break-even requirement — NOT market value',value:`${gbp(x.breakeven_sell)}${x.landed_cost==null?' minimum before unknown inbound delivery':''}${conditional?' — NON-APPROVED tariff assumption':''}`,inline:false});
+  if(Number.isFinite(x.sell_for_minimum_profit))fields.push({name:'Policy target — NOT market price',value:`${gbp(x.sell_for_minimum_profit)}${x.landed_cost==null?' minimum before unknown inbound delivery':''}. Strong threshold ${gbp(x.ask_estimate?.policy?.strong_net??8)} net AND ${(x.ask_estimate?.policy?.strong_roi??.4)*100}% ROI.${conditional?' NON-APPROVED tariff assumption; NOT a buying signal.':''}`,inline:false});
+  if(!conditional && x.ask_estimate)fields.push({name:'Model policy ceilings — not buying approval',value:`Strong landed ceiling ${gbp(x.ask_estimate.max_landed_buy)}; manual-review ceiling ${gbp(x.ask_estimate.review_max_landed_buy??x.ask_estimate.max_landed_buy)}. Evidence, delivery, cap and stress gates still apply.`,inline:false});
+  fields.push({name:'Fee/postage assumptions used for policy math',value:x.cost_basis??'Configured eBay business fees including VAT, category outbound postage, £0.50 packaging and 3% returns allowance; personal tax excluded. Verify checkout and actual costs.',inline:false});
+  return {embeds:[{...imageMeta(x),...(productImage(x.thumb)?{image:{url:productImage(x.thumb)}}:{}),title:`Policy calculation (not market) · ${x.title}`.slice(0,250),url:x.url,fields}]};
+}
 // ---------- control panel ----------
 function panel(d) {
   const s = d?.stats;
@@ -121,7 +133,7 @@ function panel(d) {
       description: "Research affordable offers plus separately labelled ABOVE BUDGET watch candidates. Strong estimated CHECK and lower-ROI manual review are not verified BUYs.\nClick a button below. Results are private to you.",
       fields: [{ name: "📡 Scanner grading status", value: status },
         { name: "Independent RSS capture (research only)", value: d?.capture ? `${d.capture.status}${d.capture.stale ? " · STALE (>30 minutes or never captured)" : ""} · ${d.capture.items?.length ?? 0} retained offers · last attempt ${london(d.capture.last_attempt)}. No BUY grading or resale prices inferred.` : "Awaiting capture status" },
-        { name: "Resale estimates / verified pricing", value: d?.pricing_status ? `${d.pricing_status.ask_estimated_products ?? 0} products with competitor-based resale estimates · ${d.pricing_status.estimated_opportunities ?? 0} strong CHECK · ${d.pricing_status.worth_reviewing ?? 0} manual review · ${d.pricing_status.above_budget_estimates ?? 0} above-budget estimates. Separately: ${d.pricing_status.products} sold-valued products / ${d.pricing_status.sold_observations} sold observations. Estimates are not verified BUYs.` : "Awaiting first migrated scheduled scan; legacy guide is not sold evidence." }],
+        { name: "Evidence-state counts — not deliveries", value: d?.stats?.publication_stages ? stageText(d.stats.publication_stages) : "Awaiting precise stage counts. Legacy research-model totals are NOT supported market prices." }],
       footer: { text: "30-minute queued scan target; inspect last scan · Estimates are not guarantees" },
     }],
     components: [
@@ -154,7 +166,7 @@ function dealView(d, list, f, i) {
     description: `**${x.title.slice(0, 200)}**${x.delivery_known === false ? "\n⚠️ Delivery unknown: profit is an upper bound before inbound delivery, not verified net." : ""}${x.evidence_type && x.evidence_type !== "sold" ? "\nReference-only valuation, not exact sold evidence." : ""}${x.under_cap ? "" : "\n⚠️ Over cap or landed delivery cost not confirmed"}`,
     fields: [
       ...summaryFields(x,x.ask_estimate,null,false,x),
-      { name: "Buy", value: gbp(x.buy), inline: true }, { name: "Required resale target", value: gbp(x.target) + " (required target, not market value)", inline: true },
+      { name: "Buy", value: gbp(x.buy), inline: true },
       { name: "Max landed cost (money gates only)", value: gbp(x.max_buy), inline: true },
       { name: "Net", value: sgbp(x.net), inline: true }, { name: "Worst case", value: sgbp(x.worst) + (x.worst_verified ? "" : " (est.)"), inline: true },
       { name: "Days to sell", value: x.days_to_sell != null ? `~${x.days_to_sell} days` : "No data yet", inline: true },
@@ -202,14 +214,13 @@ function researchView(d, index = 0) {
     ...(estimateFields(x.ask_estimate).length?estimateFields(x.ask_estimate):summaryFields(x)),
     ...(x.category==="fragrance" && !x.ask_estimate ? [{name:"Estimated sell price — competitor asks",value:`Not established: ${x.ask_status ?? "exact bottle type/concentration/ml comparators not available"}. Required resale targets are NOT market values.`,inline:false}] : []),
     {name:"Item / landed cost",value:`${Number.isFinite(x.item_price) ? gbp(x.item_price) : "Unknown"} / ${x.landed_cost == null ? "unknown (delivery missing)" : gbp(x.landed_cost)}`,inline:true},
-    {name:"Hypothetical breakeven / required resale",value:x.category === "fragrance" ? (x.transport_scenario?.breakeven!=null ? `${gbp(x.transport_scenario.breakeven)} / ${gbp(x.transport_scenario.required_resale)} — CONDITIONAL tariff scenario, NOT market value; minimum required resale if inbound delivery unknown. Actual parcel/packaging costs unverified.` : "Unknown until an applicable compliant transport profile/cost is established; market resale estimates are separate.") : `${gbp(x.breakeven_sell)} / ${gbp(x.sell_for_minimum_profit)}. ${x.cost_basis}. These are required prices, NOT market valuations.`,inline:false},
     {name:"Evidence and availability blockers",value:(x.blockers ?? ["Exact evidence needed"]).join(" · ").slice(0,1000),inline:false},
     ...(x.category==="fragrance" && !x.ask_estimate ? transportFields(x.transport_scenario) : []),
     ...askFields(x.ask_context),
     ...(x.ask_context && !freshAsking(x.ask_context) ? [{name:"Automatic asking research",value:`${x.ask_context.status}; ${x.ask_context.sample_count ?? 0} usable samples. Rejections: ${JSON.stringify(x.ask_context.rejected ?? {})}. No fresh asking range can be shown.`,inline:false}] : []),
     ...(!x.ask_context && x.ask_status ? [{name:"Automatic asking research",value:x.ask_status,inline:false}] : []),
     ...(x.capture_last_seen ? [{name:"Independent RSS observation",value:`Last seen ${london(x.capture_last_seen)}. Feed presence does not verify retailer stock or checkout price.`,inline:false}] : [])];
-  return {embeds:[{...imageMeta(x),...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`${estimateFields(x.ask_estimate).length ? x.ask_estimate.signal : "RESEARCH ONLY"} · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate))]};
+  return {embeds:[{...imageMeta(x),...(productImage(x.thumb) ? {image:{url:productImage(x.thumb)}} : {}),title:`Supported research — NOT an opportunity · ${x.title}`.slice(0,250),url:x.url,color:C.INFO,description:"Competitor-based resale estimates are separate from verified BUY grades. Check exact physical variant, retailer stock/checkout price and delivery. Estimates are not guaranteed sales or measured turnover." + (x.image_basis?.startsWith("Reference") ? " Image is an exact-set reference, not evidence of this listing’s condition." : ""),fields,footer:{text:`Priority ${x.priority} · ${i+1} of ${list.length} · last scan ${updated(d)}`}}],components:[row(btn(`research:${i-1}`,"Prev","◀️"),btn(`research:${i+1}`,"Next","▶️"),btn("p:home","Menu","🏠")),row(link(x.url,"Offer source","🔗"),...estimateLinks(x.ask_estimate)),...(x.policy_key?[row(btn(`policy:${x.policy_key}`,"Policy calculation (not market)","🧮"))]:[])]};
 }
 
 // ---------- calculator ----------
@@ -346,6 +357,13 @@ async function handleComponent(i, env) {
   const fromPanel = !(i.message?.flags & EPH);       // clicks on the shared panel open a private view
   const show = data => (fromPanel ? msg(data) : upd(data));
   const [k, f, n] = id.split(":");
+  if (k === "policy") {
+    if(!/^[a-f0-9]{24}$/.test(f??'') || id.split(':').length!==2)return msg(pending());
+    const d=await getDeals(env), x=[...(d.review_queue??[]),...(d.deals??[])].find(x=>x.policy_key===f&&priced(x));
+    if(!x)return msg(pending());
+    const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(x.url)))].map(b=>b.toString(16).padStart(2,'0')).join('').slice(0,24);
+    return msg(digest===f?policyView(x):pending()); // Always private; never update a public opportunity message.
+  }
   if (k === "research") return show(researchView(await getDeals(env), Number(f) || 0));
   if (id === "p:home") { let d = null; try { d = await getDeals(env); } catch {} return fromPanel ? msg(panel(d)) : upd(panel(d)); }
   if (id === "p:calc") return modal(calcModal());
@@ -422,4 +440,4 @@ export default {
     } catch (e) { return msg({ content: "⚠️ Something went wrong: " + String(e.message).slice(0, 150) }); }
   },
 };
-export const _test = { flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields, estimateFields, priceView };
+export const _test = {policyView,stageText,handleComponent, flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields, estimateFields, priceView };
