@@ -2,8 +2,268 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "Silent Hill 2 (PS5) - Brand New and Sealed",
+      "url": "https://www.ebay.co.uk/itm/920027620886",
+      "policy_key": "258e386d749de10dbd42f704",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 63.78,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/zlsAAeSwHa1qzaYl/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/920027620886",
+      "landed_cost": 63.78,
+      "breakeven_sell": 79.65,
+      "sell_for_minimum_profit": 109.77,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T11:05:18+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Silent+Hill+2+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "silent hill 2 ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T11:05:20+00:00",
+        "date": "2026-11-08",
+        "sample_count": 3,
+        "listed_total_low": 57.72,
+        "listed_total_p25": 60.75,
+        "listed_total_median": 63.78,
+        "listed_total_p75": 67.38,
+        "listed_total_high": 70.99,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|135647428082|0",
+            "seller": "gamegalaxy-streatham",
+            "image": "https://i.ebayimg.com/images/g/-0UAAOSweVhn4V7-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/135647428082",
+            "title": "SILENT HILL 2-PS5-BRAND NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 55.0,
+            "shipping": 2.72,
+            "listed_total": 57.72
+          },
+          {
+            "item_id": "v1|920027620886|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/zlsAAeSwHa1qzaYl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920027620886",
+            "title": "Silent Hill 2 (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 63.78,
+            "shipping": 0.0,
+            "listed_total": 63.78
+          },
+          {
+            "item_id": "v1|356152412747|0",
+            "seller": "fab.tech.deals",
+            "image": "https://i.ebayimg.com/images/g/GfUAAOSwinJnDEJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/356152412747",
+            "title": "Silent Hill 2 PS5 Game",
+            "declared_condition": "new",
+            "item_price": 68.29,
+            "shipping": 2.7,
+            "listed_total": 70.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 37
+        },
+        "query_aliases": [
+          "Silent Hill 2 (PS5) - Brand New and Sealed"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "silent hill 2 ps5",
+        "observed_at": "2026-11-08T11:05:20+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 57.72,
+        "competition_high": 70.99,
+        "estimated_resale": 55.98,
+        "estimated_range": [
+          51.94,
+          57.72
+        ],
+        "suggested_listing": 57.71,
+        "quick_sale_model": 51.94,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 63.78,
+        "delivery_known": true,
+        "landed_cost": 63.78,
+        "net": -20.05,
+        "roi": -31.4,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 31.23,
+        "max_item_buy": 31.23,
+        "delivery_headroom": -32.55,
+        "fees": 7.37,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 1.68,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 50.38,
+        "review_stress_net": -24.79,
+        "review_stress_roi": -38.9,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 33.73,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|135647428082|0",
+            "seller": "gamegalaxy-streatham",
+            "image": "https://i.ebayimg.com/images/g/-0UAAOSweVhn4V7-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/135647428082",
+            "title": "SILENT HILL 2-PS5-BRAND NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 55.0,
+            "shipping": 2.72,
+            "listed_total": 57.72,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|356152412747|0",
+            "seller": "fab.tech.deals",
+            "image": "https://i.ebayimg.com/images/g/GfUAAOSwinJnDEJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/356152412747",
+            "title": "Silent Hill 2 PS5 Game",
+            "declared_condition": "new",
+            "item_price": 68.29,
+            "shipping": 2.7,
+            "listed_total": 70.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "LEGO Editions Formula 1 43024 Ayrton Senna Helmet Ages 14+ 931 Pcs Brand New",
       "url": "https://www.ebay.co.uk/itm/407299060596",
+      "policy_key": "72dc3194db6c8b395f9e03d7",
       "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
@@ -14,8 +274,8 @@
       "item_price": 64.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/LncAAeSwFitq1Ns7/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/LncAAeSwFitq1Ns7/s-l225.jpg"
       ],
@@ -899,6 +1159,7 @@
     {
       "title": "Nike Air Max 95 OG Big Bubble Medium Olive Women's UK 5.5 HJ5996-003",
       "url": "https://www.ebay.co.uk/itm/198739439897",
+      "policy_key": "d6f81535e8b1ffe5e45356c6",
       "category": "trainers",
       "source": "ebay_browse",
       "price_basis": null,
@@ -1323,6 +1584,7 @@
     {
       "title": "LEGO Ayrton Senna Helmet 43024\u00a0Construction Sets for Kids",
       "url": "https://www.ebay.co.uk/itm/168671110199",
+      "policy_key": "49e2cbbb6698034371664a18",
       "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
@@ -1333,8 +1595,8 @@
       "item_price": 73.49,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/rIMAAeSw3lJqnsK0/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/rIMAAeSw3lJqnsK0/s-l225.jpg"
       ],
@@ -2216,6 +2478,7 @@
     {
       "title": "LEGO Ayrton Senna Helmet, Motor Racing, Grand Prix (43024) New, Unopened",
       "url": "https://www.ebay.co.uk/itm/336835096495",
+      "policy_key": "8b8934c4450c690e90bafac5",
       "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
@@ -2225,15 +2488,16 @@
       "merchant": "eBay",
       "item_price": 74.99,
       "image_status": "verified",
-      "image_verified_url": "https://i.ebayimg.com/images/g/9E4AAeSwZOZqx4HT/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KhWex/5026126_1/re/300x300/qt/55/5026126_1.jpg",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/KhWex/5026126_1/re/300x300/qt/55/5026126_1.jpg",
         "https://i.ebayimg.com/images/g/9E4AAeSwZOZqx4HT/s-l225.jpg"
       ],
-      "thumb": "https://i.ebayimg.com/images/g/9E4AAeSwZOZqx4HT/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/336835096495",
+      "thumb": "https://images.hotukdeals.com/threads/raw/KhWex/5026126_1/re/300x300/qt/55/5026126_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-editions-ayrton-senna-helmet-43024-voucher-price-5026126",
       "landed_cost": 79.69,
       "breakeven_sell": 102.35,
       "sell_for_minimum_profit": 140.53,
@@ -3110,6 +3374,7 @@
     {
       "title": "Nike Air Max 95 OG Big Bubble Black Medium Olive Womens 6uk | HJ5996-003",
       "url": "https://www.ebay.co.uk/itm/128113345214",
+      "policy_key": "67268b60de22ba007777aea3",
       "category": "trainers",
       "source": "ebay_browse",
       "price_basis": null,
@@ -3336,6 +3601,7 @@
     {
       "title": "LEGO Lucky Cat 40813",
       "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
+      "policy_key": "1fd192dffdb1b099a4aaea2f",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -3346,8 +3612,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg"
@@ -4256,6 +4522,7 @@
     {
       "title": "LEGO Star Wars SMART Play: Mos Eisley Cantina 75425 - W/Code - free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-smart-play-mos-eisley-cantina-75425-wcode-5025592",
+      "policy_key": "20f4dc0a9967cd214453cd7b",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -4266,8 +4533,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg"
@@ -4820,6 +5087,7 @@
     {
       "title": "LEGO Pok\u00e9mon SMART Play: Eevee and Lapras\u2019s Treasure Hunt 72162",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-eevee-and-laprass-treasure-hunt-72162-5025058",
+      "policy_key": "9f366688ed764e8b1dd53c28",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -4830,8 +5098,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fOd7l/5025058_1/re/300x300/qt/55/5025058_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fOd7l/5025058_1/re/300x300/qt/55/5025058_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fOd7l/5025058_1/re/150x150/qt/55/5025058_1.jpg"
@@ -5756,6 +6024,7 @@
     {
       "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-discount-at-checkout-5024700",
+      "policy_key": "a7f1f400a3bc413d8fb961b0",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": null,
@@ -5764,16 +6033,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 42.72,
-      "image_status": "verified",
-      "image_verified_url": "https://i.ebayimg.com/images/g/qPQAAeSwP75q74G4/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:53:38.972777+00:00",
-      "image_checked_at": "2026-11-08T10:33:38.972777+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
-        "https://i.ebayimg.com/images/g/qPQAAeSwP75q74G4/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/qPQAAeSwP75q74G4/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg"
       ],
-      "thumb": "https://i.ebayimg.com/images/g/qPQAAeSwP75q74G4/s-l225.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.ebay.co.uk/itm/128181602450",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 58.07,
       "sell_for_minimum_profit": 78.54,
@@ -6748,6 +7020,7 @@
     {
       "title": "LEGO Star Wars TIE Bomber 75347",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-tie-bomber-75347-5025299",
+      "policy_key": "8237c0c54f15029613f8e3b0",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -6758,8 +7031,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg"
@@ -7775,6 +8048,7 @@
     {
       "title": "LEGO Ideas Polaroid OneStep SX-70 Camera 21345",
       "url": "https://www.hotukdeals.com/deals/lego-ideas-polaroid-onestep-sx-70-camera-21345-5025121",
+      "policy_key": "c3d9398d2e5f517b1b55c46d",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -7785,8 +8059,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg"
@@ -8785,6 +9059,7 @@
     {
       "title": "LEGO Icons Ferrari F2004 & Michael Schumacher 11375 (Discount at Checkout)",
       "url": "https://www.hotukdeals.com/deals/lego-icons-ferrari-f2004-michael-schumacher-11375-discount-at-checkout-5025990",
+      "policy_key": "c5568200773910c33bd6b15d",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -8795,8 +9070,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg"
@@ -9587,6 +9862,7 @@
     {
       "title": "Ariana Grande Mod Blush EDP Spray 100ml",
       "url": "https://www.ebay.co.uk/itm/168533042649",
+      "policy_key": "f5b4464abe40762c2c501657",
       "category": "fragrance",
       "source": "ebay_browse",
       "price_basis": null,
@@ -10100,6 +10376,7 @@
     {
       "title": "Sony WF-C510 Truly Wireless Earbuds Small Bluetooth In Ear Headphones Yellow",
       "url": "https://www.ebay.co.uk/itm/137825387668",
+      "policy_key": "01fc73b036732d7377cecb51",
       "category": "tech",
       "source": "ebay_browse",
       "price_basis": null,
@@ -10205,12 +10482,134 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
+          "item_id": "v1|920107514118|0",
+          "observed_at": "2026-11-08T11:05:04+00:00",
+          "status": "incomplete",
           "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ]
+            "fixed detail shipping not supplied"
+          ],
+          "gtin": null,
+          "mpn": "WF-C510",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Frequency Range",
+              "value": "20-20000 Hz"
+            },
+            {
+              "type": "STRING",
+              "name": "Number of Earpieces",
+              "value": "Double"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "WF-C510"
+            },
+            {
+              "type": "STRING",
+              "name": "Band",
+              "value": "HF"
+            },
+            {
+              "type": "STRING",
+              "name": "Year Manufactured",
+              "value": "2020s"
+            },
+            {
+              "type": "STRING",
+              "name": "Suitable For",
+              "value": "Studio Monitoring"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Yellow"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Sony"
+            },
+            {
+              "type": "STRING",
+              "name": "Form Factor",
+              "value": "In-Ear Only"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Earbud (In Ear)"
+            },
+            {
+              "type": "STRING",
+              "name": "Unit Type",
+              "value": "Unit"
+            },
+            {
+              "type": "STRING",
+              "name": "Wireless Technology",
+              "value": "Bluetooth"
+            },
+            {
+              "type": "STRING",
+              "name": "Manufacturer Warranty",
+              "value": "1 Year"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "Sony WF-C510"
+            },
+            {
+              "type": "STRING",
+              "name": "Connectivity",
+              "value": "Bluetooth/Wireless"
+            },
+            {
+              "type": "STRING",
+              "name": "Microphone Type",
+              "value": "Built-In"
+            },
+            {
+              "type": "STRING",
+              "name": "Charger Included",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Wireless"
+            },
+            {
+              "type": "STRING",
+              "name": "Impedance",
+              "value": "8 ohm"
+            },
+            {
+              "type": "STRING",
+              "name": "Personalise",
+              "value": "No"
+            }
+          ],
+          "checked_item_price": 36.06,
+          "identity_query": "Sony WFC510 yellow",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/920107514118",
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee"
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "query_aliases": [
           "Sony WF-C510 Truly Wireless Earbuds - Yellow (Limited Stock) - W/Code - Sold by STOCS UK (UK Mainland)",
           "Sony WF-C510 Truly Wireless Earbuds Small Bluetooth In Ear Headphones Yellow"
@@ -10219,7 +10618,7 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "tech",
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "Sony WFC510 yellow",
@@ -10288,7 +10687,7 @@
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: incomplete; cheap observation retained, no buying signal",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
           "Check current retailer stock, checkout price and exact variant before buying"
@@ -10327,6 +10726,7 @@
     {
       "title": "Little Nightmares II (Xbox Series X)",
       "url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
+      "policy_key": "a8c7086f8de8af46a7493d88",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -10405,7 +10805,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Little Nightmares II (Xbox Series X)"
@@ -10523,6 +10923,7 @@
     {
       "title": "R-Type Delta HD Boosted PS5",
       "url": "https://www.hotukdeals.com/deals/r-type-delta-hd-boosted-ps5-5026010",
+      "policy_key": "6a9a19887903387c8f0b8fc9",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -10601,7 +11002,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "R-Type Delta HD Boosted PS5"
@@ -10719,6 +11120,7 @@
     {
       "title": "Resident Evil 4 Remake Gold Edition (PS5)",
       "url": "https://www.hotukdeals.com/deals/resident-evil-4-remake-gold-edition-ps5-5023720",
+      "policy_key": "43a7526ca33ccf10ed633d3a",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -10866,7 +11268,7 @@
         "rejected": {
           "identity_or_condition": 15
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil 4 Remake Gold Edition (PS5)"
@@ -11105,6 +11507,7 @@
     {
       "title": "Sony WF-C510 Truly Wireless Earbuds - Yellow (Limited Stock) - W/Code - Sold by STOCS UK (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/sony-wf-c510-truly-wireless-earbuds-with-code-yellow-limited-stock-5025143",
+      "policy_key": "4844a1c58695a0115d9a0046",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -11211,12 +11614,134 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
+          "item_id": "v1|920107514118|0",
+          "observed_at": "2026-11-08T11:05:04+00:00",
+          "status": "incomplete",
           "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ]
+            "fixed detail shipping not supplied"
+          ],
+          "gtin": null,
+          "mpn": "WF-C510",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Frequency Range",
+              "value": "20-20000 Hz"
+            },
+            {
+              "type": "STRING",
+              "name": "Number of Earpieces",
+              "value": "Double"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "WF-C510"
+            },
+            {
+              "type": "STRING",
+              "name": "Band",
+              "value": "HF"
+            },
+            {
+              "type": "STRING",
+              "name": "Year Manufactured",
+              "value": "2020s"
+            },
+            {
+              "type": "STRING",
+              "name": "Suitable For",
+              "value": "Studio Monitoring"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Yellow"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Sony"
+            },
+            {
+              "type": "STRING",
+              "name": "Form Factor",
+              "value": "In-Ear Only"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Earbud (In Ear)"
+            },
+            {
+              "type": "STRING",
+              "name": "Unit Type",
+              "value": "Unit"
+            },
+            {
+              "type": "STRING",
+              "name": "Wireless Technology",
+              "value": "Bluetooth"
+            },
+            {
+              "type": "STRING",
+              "name": "Manufacturer Warranty",
+              "value": "1 Year"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "Sony WF-C510"
+            },
+            {
+              "type": "STRING",
+              "name": "Connectivity",
+              "value": "Bluetooth/Wireless"
+            },
+            {
+              "type": "STRING",
+              "name": "Microphone Type",
+              "value": "Built-In"
+            },
+            {
+              "type": "STRING",
+              "name": "Charger Included",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Wireless"
+            },
+            {
+              "type": "STRING",
+              "name": "Impedance",
+              "value": "8 ohm"
+            },
+            {
+              "type": "STRING",
+              "name": "Personalise",
+              "value": "No"
+            }
+          ],
+          "checked_item_price": 36.06,
+          "identity_query": "Sony WFC510 yellow",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/920107514118",
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee"
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "query_aliases": [
           "Sony WF-C510 Truly Wireless Earbuds - Yellow (Limited Stock) - W/Code - Sold by STOCS UK (UK Mainland)",
           "Sony WF-C510 Truly Wireless Earbuds Small Bluetooth In Ear Headphones Yellow"
@@ -11225,7 +11750,7 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "tech",
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "Sony WFC510 yellow",
@@ -11294,7 +11819,7 @@
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: incomplete; cheap observation retained, no buying signal",
           "eBay acquisition listing identity missing; self-exclusion not confirmed",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
@@ -11357,8 +11882,331 @@
       }
     },
     {
+      "title": "Tales of Xillia Remastered PS5 Game Free C&C",
+      "url": "https://www.hotukdeals.com/deals/tales-of-xillia-remastered-ps5-game-5025819",
+      "policy_key": "ee9ac192cd8881c69a575fc3",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 22.77,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/qAjXt/5025819_1/re/150x150/qt/55/5025819_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/tales-of-xillia-remastered-ps5-game-5025819",
+      "landed_cost": null,
+      "breakeven_sell": 31.23,
+      "sell_for_minimum_profit": 41.98,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T17:11:59+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tales+of+Xillia+Remastered+PS5+Game+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "tales of xillia remastered ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T11:05:19+00:00",
+        "date": "2026-11-08",
+        "sample_count": 3,
+        "listed_total_low": 30.99,
+        "listed_total_p25": 31.45,
+        "listed_total_median": 31.9,
+        "listed_total_p75": 33.78,
+        "listed_total_high": 35.66,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|389159488085|0",
+            "seller": "monstershopoutlet",
+            "image": "https://i.ebayimg.com/images/g/q5UAAeSwUqlpAhPq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/389159488085",
+            "title": "Tales of Xillia Remastered PS5",
+            "declared_condition": "new",
+            "item_price": 30.99,
+            "shipping": 0.0,
+            "listed_total": 30.99
+          },
+          {
+            "item_id": "v1|860089019445|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/XiQAAeSw8Glq4K~r/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860089019445",
+            "title": "Tales of Xillia - Remastered (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 0.0,
+            "listed_total": 31.9
+          },
+          {
+            "item_id": "v1|326914444803|0",
+            "seller": "geddawilliams76",
+            "image": "https://i.ebayimg.com/images/g/7WsAAeSw7Z9pQIqg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/326914444803",
+            "title": "Tales of Xillia Remastered PS5",
+            "declared_condition": "new",
+            "item_price": 32.96,
+            "shipping": 2.7,
+            "listed_total": 35.66
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 3
+        },
+        "query_aliases": [
+          "Tales of Xillia Remastered PS5 Game Free C&C"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "tales of xillia remastered ps5",
+        "observed_at": "2026-11-08T11:05:19+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 30.99,
+        "competition_high": 35.66,
+        "estimated_resale": 30.06,
+        "estimated_range": [
+          27.89,
+          30.99
+        ],
+        "suggested_listing": 30.98,
+        "quick_sale_model": 27.89,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 22.77,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -0.99,
+        "max_landed_buy": 13.78,
+        "max_item_buy": null,
+        "delivery_headroom": -8.99,
+        "fees": 4.18,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.9,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 27.05,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 11.78,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|389159488085|0",
+            "seller": "monstershopoutlet",
+            "image": "https://i.ebayimg.com/images/g/q5UAAeSwUqlpAhPq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/389159488085",
+            "title": "Tales of Xillia Remastered PS5",
+            "declared_condition": "new",
+            "item_price": 30.99,
+            "shipping": 0.0,
+            "listed_total": 30.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860089019445|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/XiQAAeSw8Glq4K~r/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860089019445",
+            "title": "Tales of Xillia - Remastered (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 0.0,
+            "listed_total": 31.9,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|326914444803|0",
+            "seller": "geddawilliams76",
+            "image": "https://i.ebayimg.com/images/g/7WsAAeSw7Z9pQIqg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/326914444803",
+            "title": "Tales of Xillia Remastered PS5",
+            "declared_condition": "new",
+            "item_price": 32.96,
+            "shipping": 2.7,
+            "listed_total": 35.66,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "Tales of Xillia Remastered PS5 Game Free C&C",
+        "query": "tales of xillia remastered ps5",
+        "kind": "active_ask",
+        "listing": 30.98,
+        "observed_at": "2026-11-08T11:05:19+00:00",
+        "valid_until": "2026-11-08T17:05:19+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/389159488085",
+          "https://www.ebay.co.uk/itm/860089019445",
+          "https://www.ebay.co.uk/itm/326914444803"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/389159488085",
+            "Tales of Xillia Remastered PS5",
+            30.99,
+            0.0,
+            30.99,
+            "monstershopoutlet"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/860089019445",
+            "Tales of Xillia - Remastered (PS5) - Brand New and Sealed",
+            31.9,
+            0.0,
+            31.9,
+            "hitcouk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/326914444803",
+            "Tales of Xillia Remastered PS5",
+            35.66,
+            2.7,
+            32.96,
+            "geddawilliams76"
+          ]
+        ],
+        "category": "gaming"
+      }
+    },
+    {
       "title": "Ariana Grande MOD Blush Eau de Parfum - 100ml - With Code - Free C&C",
       "url": "https://www.hotukdeals.com/deals/ariana-grande-mod-blush-eau-de-parfum-100ml-with-code-free-cc-5025711",
+      "policy_key": "c7c79ccf6ca6091b058d4ac1",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -11897,6 +12745,7 @@
     {
       "title": "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
       "url": "https://www.hotukdeals.com/deals/hugo-boss-boss-bottled-100ml-aftershave-lotion-5025419",
+      "policy_key": "86a019a5a55886e7d5b37125",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -11966,7 +12815,7 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-08T05:59:40+00:00",
+        "observed_at": "2026-11-08T11:05:04+00:00",
         "date": "2026-11-08",
         "sample_count": 40,
         "listed_total_low": 19.96,
@@ -12881,74 +13730,12 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "item_id": "v1|860068848016|0",
-          "observed_at": "2026-11-08T10:33:29+00:00",
-          "status": "incomplete",
+          "status": "awaiting_detail_budget",
           "reasons": [
-            "fixed detail shipping not supplied"
-          ],
-          "gtin": null,
-          "mpn": "737052351186",
-          "aspects": [
-            {
-              "type": "STRING",
-              "name": "Brand",
-              "value": "HUGO BOSS"
-            },
-            {
-              "type": "STRING",
-              "name": "Size Type",
-              "value": "Regular Size"
-            },
-            {
-              "type": "STRING",
-              "name": "Type",
-              "value": "Aftershave"
-            },
-            {
-              "type": "STRING",
-              "name": "Fragrance Name",
-              "value": "Hugo Boss Boss Bottled"
-            },
-            {
-              "type": "STRING",
-              "name": "Volume",
-              "value": "100 ml"
-            },
-            {
-              "type": "STRING",
-              "name": "Formulation",
-              "value": "Fluid"
-            },
-            {
-              "type": "STRING",
-              "name": "Features",
-              "value": "Long Lasting"
-            },
-            {
-              "type": "STRING",
-              "name": "MPN",
-              "value": "737052351186"
-            }
-          ],
-          "checked_item_price": 19.96,
-          "identity_query": "boss bottled aftershave lotion 100ml",
-          "condition_id": "1000",
-          "availability": [
-            {
-              "deliveryOptions": [
-                "SHIP_TO_HOME"
-              ],
-              "estimatedAvailabilityStatus": "IN_STOCK",
-              "estimatedAvailableQuantity": 4,
-              "estimatedSoldQuantity": 3,
-              "estimatedRemainingQuantity": 4
-            }
-          ],
-          "source_url": "https://www.ebay.co.uk/itm/860068848016",
-          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee"
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ]
         },
-        "detail_status": "incomplete",
+        "detail_status": "awaiting_detail_budget",
         "query_aliases": [
           "Hugo Boss Boss Bottled 100ml Aftershave Lotion"
         ]
@@ -12956,11 +13743,11 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "fragrance",
-        "detail_status": "incomplete",
+        "detail_status": "awaiting_detail_budget",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled aftershave lotion 100ml",
-        "observed_at": "2026-11-08T05:59:40+00:00",
+        "observed_at": "2026-11-08T11:05:04+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 39,
@@ -13031,7 +13818,7 @@
           "Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate",
           "Actual parcel/carrier and protective packaging costs unverified; conditional tariff scenario cannot create a buying signal",
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: incomplete; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -13309,6 +14096,7 @@
     {
       "title": "Hellraiser: Revival Day One Edition (PS5)",
       "url": "https://www.hotukdeals.com/deals/hellraiser-revival-day-one-edition-playstation-5-5025667",
+      "policy_key": "5d0b76cb61d5ae54a882ff6e",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -13387,7 +14175,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -13507,6 +14295,7 @@
     {
       "title": "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
       "url": "https://www.hotukdeals.com/deals/hellraiser-revival-day-one-edition-ps5-free-click-collect-5024520",
+      "policy_key": "2ae9ce4fe4bc5bc68db2e005",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -13585,7 +14374,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -13705,6 +14494,7 @@
     {
       "title": "Gucci Guilty For Him Eau de Toilette 50ml - W/code (extra 10% off for students)",
       "url": "https://www.hotukdeals.com/deals/gucci-guilty-for-him-eau-de-toilette-50ml-wcode-5025724",
+      "policy_key": "f4dbfaf9f82b95653caacef7",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -14020,6 +14810,7 @@
     {
       "title": "Hellraiser: Revival - Day One Edition (PS5)",
       "url": "https://www.hotukdeals.com/deals/hellraiser-revival-day-one-edition-ps5-5023676",
+      "policy_key": "fe318ee57ecd650cdd1acb86",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -14098,7 +14889,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -14218,6 +15009,7 @@
     {
       "title": "Resident Evil Requiem (PS5)",
       "url": "https://www.hotukdeals.com/deals/resident-evil-requiem-ps5-5025460",
+      "policy_key": "27796a2572fb31035d7c484b",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -14389,7 +15181,7 @@
         "rejected": {
           "identity_or_condition": 45
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -14601,298 +15393,9 @@
       }
     },
     {
-      "title": "Silent Hill 2 - PS5 Game - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/silent-hill-2-ps5-game-free-cc-5025639",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 33.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/qdPTM/5025639_1/re/150x150/qt/55/5025639_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/silent-hill-2-ps5-game-free-cc-5025639",
-      "landed_cost": null,
-      "breakeven_sell": 44.47,
-      "sell_for_minimum_profit": 60.54,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Silent+Hill+2&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "silent hill 2 ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T09:34:41+00:00",
-        "date": "2026-11-08",
-        "sample_count": 3,
-        "listed_total_low": 57.72,
-        "listed_total_p25": 60.75,
-        "listed_total_median": 63.78,
-        "listed_total_p75": 67.38499999999999,
-        "listed_total_high": 70.99,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|135647428082|0",
-            "seller": "gamegalaxy-streatham",
-            "image": "https://i.ebayimg.com/images/g/-0UAAOSweVhn4V7-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/135647428082",
-            "title": "SILENT HILL 2-PS5-BRAND NEW SEALED",
-            "declared_condition": "new",
-            "item_price": 55.0,
-            "shipping": 2.72,
-            "listed_total": 57.72,
-            "observed_at": "2026-11-08T09:34:41+00:00"
-          },
-          {
-            "item_id": "v1|920027620886|0",
-            "seller": "hitcouk",
-            "image": "https://i.ebayimg.com/images/g/zlsAAeSwHa1qzaYl/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920027620886",
-            "title": "Silent Hill 2 (PS5) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 63.78,
-            "shipping": 0.0,
-            "listed_total": 63.78,
-            "observed_at": "2026-11-08T09:34:41+00:00"
-          },
-          {
-            "item_id": "v1|356152412747|0",
-            "seller": "fab.tech.deals",
-            "image": "https://i.ebayimg.com/images/g/GfUAAOSwinJnDEJY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/356152412747",
-            "title": "Silent Hill 2 PS5 Game",
-            "declared_condition": "new",
-            "item_price": 68.29,
-            "shipping": 2.7,
-            "listed_total": 70.99,
-            "observed_at": "2026-11-08T09:34:41+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 37
-        },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Silent Hill 2 - PS5 Game - Free C&C"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "silent hill 2 ps5",
-        "observed_at": "2026-11-08T09:34:41+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 3,
-        "seller_count": 3,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 57.72,
-        "competition_high": 70.99,
-        "estimated_resale": 55.98,
-        "estimated_range": [
-          51.94,
-          57.72
-        ],
-        "suggested_listing": 57.71,
-        "quick_sale_model": 51.94,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 33.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": 9.74,
-        "max_landed_buy": 31.23,
-        "max_item_buy": null,
-        "delivery_headroom": -2.76,
-        "fees": 7.37,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.68,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 50.38,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 33.73,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|135647428082|0",
-            "seller": "gamegalaxy-streatham",
-            "image": "https://i.ebayimg.com/images/g/-0UAAOSweVhn4V7-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/135647428082",
-            "title": "SILENT HILL 2-PS5-BRAND NEW SEALED",
-            "declared_condition": "new",
-            "item_price": 55.0,
-            "shipping": 2.72,
-            "listed_total": 57.72,
-            "observed_at": "2026-11-08T09:34:41+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920027620886|0",
-            "seller": "hitcouk",
-            "image": "https://i.ebayimg.com/images/g/zlsAAeSwHa1qzaYl/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920027620886",
-            "title": "Silent Hill 2 (PS5) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 63.78,
-            "shipping": 0.0,
-            "listed_total": 63.78,
-            "observed_at": "2026-11-08T09:34:41+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|356152412747|0",
-            "seller": "fab.tech.deals",
-            "image": "https://i.ebayimg.com/images/g/GfUAAOSwinJnDEJY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/356152412747",
-            "title": "Silent Hill 2 PS5 Game",
-            "declared_condition": "new",
-            "item_price": 68.29,
-            "shipping": 2.7,
-            "listed_total": 70.99,
-            "observed_at": "2026-11-08T09:34:41+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
-      }
-    },
-    {
       "title": "Resident Evil Requiem Xbox Series X",
       "url": "https://www.hotukdeals.com/deals/resident-evil-requiem-xbox-series-x-5025533",
+      "policy_key": "dff345249b5a1ad35427853f",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -14972,7 +15475,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
+        "canonicalized_at": "2026-11-08T11:05:04+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -15089,446 +15592,9 @@
       }
     },
     {
-      "title": "Silent Hill Townfall - Day One Edition - PS5",
-      "url": "https://www.hotukdeals.com/deals/silent-hill-townfall-day-one-edition-ps5-5023482",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 40.85,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/7SAc3/5023482_1/re/150x150/qt/55/5023482_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/silent-hill-townfall-day-one-edition-ps5-5023482",
-      "landed_cost": null,
-      "breakeven_sell": 52.58,
-      "sell_for_minimum_profit": 71.87,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Silent+Hill+Townfall&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "silent hill townfall day one edition ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T10:33:40+00:00",
-        "date": "2026-11-08",
-        "sample_count": 5,
-        "listed_total_low": 46.5,
-        "listed_total_p25": 47.48,
-        "listed_total_median": 47.99,
-        "listed_total_p75": 49.95,
-        "listed_total_high": 55.79,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|407342741597|0",
-            "seller": "quantum_toon",
-            "image": "https://i.ebayimg.com/images/g/R-oAAeSwQvpq7MMo/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407342741597",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED = FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 46.5,
-            "shipping": 0.0,
-            "listed_total": 46.5,
-            "observed_at": "2026-11-08T10:33:40+00:00"
-          },
-          {
-            "item_id": "v1|327403156807|0",
-            "seller": "thegamery",
-            "image": "https://i.ebayimg.com/images/g/7QcAAeSwvZVq7gyY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327403156807",
-            "title": "Silent Hill Townfall (Day One Edition) (PS5)",
-            "declared_condition": "new",
-            "item_price": 47.48,
-            "shipping": 0.0,
-            "listed_total": 47.48,
-            "observed_at": "2026-11-08T10:33:40+00:00"
-          },
-          {
-            "item_id": "v1|287534544355|0",
-            "seller": "itemdropuk",
-            "image": "https://i.ebayimg.com/images/g/sQ0AAeSwoQRqs7gW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287534544355",
-            "title": "SILENT HILL: Townfall - Day One Edition (PS5) New Sealed Game",
-            "declared_condition": "new",
-            "item_price": 47.99,
-            "shipping": 0.0,
-            "listed_total": 47.99,
-            "observed_at": "2026-11-08T10:33:40+00:00"
-          },
-          {
-            "item_id": "v1|800556363188|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/ZlsAAeSwCHlq5K-E/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800556363188",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 49.95,
-            "shipping": 0.0,
-            "listed_total": 49.95,
-            "observed_at": "2026-11-08T10:33:40+00:00"
-          },
-          {
-            "item_id": "v1|820165533805|0",
-            "seller": "pokegirl92",
-            "image": "https://i.ebayimg.com/images/g/R8QAAeSwFbNqtNgV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820165533805",
-            "title": "Silent Hill: Townfall Day One Edition - Playstation 5 PS5",
-            "declared_condition": "new",
-            "item_price": 51.99,
-            "shipping": 3.8,
-            "listed_total": 55.79,
-            "observed_at": "2026-11-08T10:33:40+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 36
-        },
-        "canonicalized_at": "2026-11-08T10:35:52+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Silent Hill Townfall - Day One Edition - PS5"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "silent hill townfall day one edition ps5",
-        "observed_at": "2026-11-08T10:33:40+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 5,
-        "seller_count": 5,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 4,
-        "confidence": "moderate",
-        "wide_spread": false,
-        "competition_low": 46.5,
-        "competition_high": 55.79,
-        "estimated_resale": 45.1,
-        "estimated_range": [
-          41.85,
-          46.5
-        ],
-        "suggested_listing": 46.49,
-        "quick_sale_model": 41.85,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 40.85,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -6.33,
-        "max_landed_buy": 24.65,
-        "max_item_buy": null,
-        "delivery_headroom": -16.2,
-        "fees": 6.03,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.35,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 40.59,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 24.52,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|407342741597|0",
-            "seller": "quantum_toon",
-            "image": "https://i.ebayimg.com/images/g/R-oAAeSwQvpq7MMo/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407342741597",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED = FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 46.5,
-            "shipping": 0.0,
-            "listed_total": 46.5,
-            "observed_at": "2026-11-08T10:33:40+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327403156807|0",
-            "seller": "thegamery",
-            "image": "https://i.ebayimg.com/images/g/7QcAAeSwvZVq7gyY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327403156807",
-            "title": "Silent Hill Townfall (Day One Edition) (PS5)",
-            "declared_condition": "new",
-            "item_price": 47.48,
-            "shipping": 0.0,
-            "listed_total": 47.48,
-            "observed_at": "2026-11-08T10:33:40+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287534544355|0",
-            "seller": "itemdropuk",
-            "image": "https://i.ebayimg.com/images/g/sQ0AAeSwoQRqs7gW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287534544355",
-            "title": "SILENT HILL: Townfall - Day One Edition (PS5) New Sealed Game",
-            "declared_condition": "new",
-            "item_price": 47.99,
-            "shipping": 0.0,
-            "listed_total": 47.99,
-            "observed_at": "2026-11-08T10:33:40+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|800556363188|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/ZlsAAeSwCHlq5K-E/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800556363188",
-            "title": "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 49.95,
-            "shipping": 0.0,
-            "listed_total": 49.95,
-            "observed_at": "2026-11-08T10:33:40+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|820165533805|0",
-            "seller": "pokegirl92",
-            "image": "https://i.ebayimg.com/images/g/R8QAAeSwFbNqtNgV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820165533805",
-            "title": "Silent Hill: Townfall Day One Edition - Playstation 5 PS5",
-            "declared_condition": "new",
-            "item_price": 51.99,
-            "shipping": 3.8,
-            "listed_total": 55.79,
-            "observed_at": "2026-11-08T10:33:40+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "Silent Hill Townfall - Day One Edition - PS5",
-        "query": "silent hill townfall day one edition ps5",
-        "kind": "active_ask",
-        "listing": 46.49,
-        "observed_at": "2026-11-08T10:33:40+00:00",
-        "valid_until": "2026-11-08T16:33:40+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/407342741597",
-          "https://www.ebay.co.uk/itm/327403156807",
-          "https://www.ebay.co.uk/itm/287534544355",
-          "https://www.ebay.co.uk/itm/800556363188",
-          "https://www.ebay.co.uk/itm/820165533805"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/407342741597",
-            "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED = FREE SHIPPING",
-            46.5,
-            0.0,
-            46.5,
-            "quantum_toon"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/327403156807",
-            "Silent Hill Townfall (Day One Edition) (PS5)",
-            47.48,
-            0.0,
-            47.48,
-            "thegamery"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/287534544355",
-            "SILENT HILL: Townfall - Day One Edition (PS5) New Sealed Game",
-            47.99,
-            0.0,
-            47.99,
-            "itemdropuk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/800556363188",
-            "Silent Hill: Townfall Day One Edition PS5 BRAND NEW AND SEALED - FREE SHIPPING",
-            49.95,
-            0.0,
-            49.95,
-            "thegamecollectionoutlet"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/820165533805",
-            "Silent Hill: Townfall Day One Edition - Playstation 5 PS5",
-            55.79,
-            3.8,
-            51.99,
-            "pokegirl92"
-          ]
-        ],
-        "category": "gaming"
-      }
-    },
-    {
       "title": "DeWalt DCF887N 18V XR Brushless Impact Driver (Body Only)",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcf887n-18v-xr-brushless-impact-driver-body-only-dewalt-dt7500-qz-25x60mm-magnetic-bit-holder-ps099-5026071",
+      "policy_key": "05362972f05466a141345064",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -15616,7 +15682,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-08T10:33:40+00:00",
+          "observed_at": "2026-11-08T11:05:04+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -15903,6 +15969,7 @@
     {
       "title": "LEGO Speed Champions : Porsche 911 GT3 RS 348pcs(77239) 9+ New&sealed",
       "url": "https://www.ebay.co.uk/itm/376962756783",
+      "policy_key": "f25dee62196792b4126219de",
       "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
@@ -15913,8 +15980,8 @@
       "item_price": 18.5,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/qoMAAeSwtVppj6ZW/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:53:38.972777+00:00",
-      "image_checked_at": "2026-11-08T10:33:38.972777+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/qoMAAeSwtVppj6ZW/s-l225.jpg"
       ],
@@ -15941,6 +16008,7 @@
     {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs Set 9+ Car Model - NEW",
       "url": "https://www.ebay.co.uk/itm/960114619607",
+      "policy_key": "9b99a40b2be9333a06751f0b",
       "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
@@ -15951,8 +16019,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/9AUAAeSw2l9q3gTO/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:53:38.972777+00:00",
-      "image_checked_at": "2026-11-08T10:33:38.972777+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/9AUAAeSw2l9q3gTO/s-l225.jpg"
       ],
@@ -15979,6 +16047,7 @@
     {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
       "url": "https://www.ebay.co.uk/itm/287650322096",
+      "policy_key": "cbc3b891b977517eba3d66ab",
       "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
@@ -15989,8 +16058,8 @@
       "item_price": 24.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/JT4AAeSw-zxq0Qyp/s-l225.jpg",
-      "image_verified_until": "2026-11-08T10:53:38.972777+00:00",
-      "image_checked_at": "2026-11-08T10:33:38.972777+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/JT4AAeSw-zxq0Qyp/s-l225.jpg"
       ],
@@ -16017,6 +16086,7 @@
     {
       "title": "Sony Wireless Bluetooth Passive Noise-Isolating On-Ear Headphones White WH-CH520",
       "url": "https://www.ebay.co.uk/itm/137865921710",
+      "policy_key": "305af9d92abfd0173b4c8bfe",
       "category": "tech",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16053,6 +16123,7 @@
     {
       "title": "Sony WH-CH520 Headphones White - 3 Miniute Charge with 1.5 Hour Playtime",
       "url": "https://www.ebay.co.uk/itm/307077398172",
+      "policy_key": "35fde570e4530a5934695b2f",
       "category": "tech",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16089,6 +16160,7 @@
     {
       "title": "SONY WH-CH520 WIRELESS 360  HEADPHONES, WHITE 5 HANDS FREE CALLS.",
       "url": "https://www.ebay.co.uk/itm/157691219287",
+      "policy_key": "0d90387eaf9bbeae46179c6c",
       "category": "tech",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16125,6 +16197,7 @@
     {
       "title": "Tilswall Paint Sprayer Shark700, Fits Makita 18V (No Battery), White - Discount at Checkout - Sold by Tilswall Direct EU / FBA",
       "url": "https://www.hotukdeals.com/deals/tilswall-paint-sprayer-shark700-fits-makita-18v-no-battery-white-with-checkout-discount-sold-by-tilswall-direct-eu-fba-5021941",
+      "policy_key": "79bca2eec8dce548786f3e97",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16159,8 +16232,46 @@
       }
     },
     {
+      "title": "SILENT HILL 2-PS5-BRAND NEW SEALED",
+      "url": "https://www.ebay.co.uk/itm/135647428082",
+      "policy_key": "5cd3ecc7df877c193ccb832c",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 55.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/-0UAAOSweVhn4V7-/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/135647428082",
+      "landed_cost": 57.72,
+      "breakeven_sell": 72.49,
+      "sell_for_minimum_profit": 99.75,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T11:05:18+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=SILENT+HILL+2-PS5-BRAND+NEW+SEALED&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Lenovo Services LE302 Iron Gray Clip-on Bluetooth Headphones",
       "url": "https://www.hotukdeals.com/deals/lenovo-services-le302-iron-gray-clip-on-bluetooth-headphones-5024029",
+      "policy_key": "bdc43eedd33fb3c3ca8b48ec",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16196,8 +16307,75 @@
       }
     },
     {
+      "title": "Davidoff Horizon 125ml Eau de Toilette Spray for Men",
+      "url": "https://www.hotukdeals.com/deals/davidoff-horizon-125ml-eau-de-toilette-spray-for-men-5026151",
+      "policy_key": "6ecaa71eda8964d65d7fe2d3",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "The Beauty Store",
+      "item_price": 14.5,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/bEMIq/5026151_1/re/150x150/qt/55/5026151_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/davidoff-horizon-125ml-eau-de-toilette-spray-for-men-5026151",
+      "landed_cost": null,
+      "breakeven_sell": 23.03,
+      "sell_for_minimum_profit": 32.61,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 125,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "125ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 23.03,
+        "required_resale": 32.61,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 14.5,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "125ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T11:05:18+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Davidoff+Horizon+125ml+Eau+de+Toilette+Spray+for+Men&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-porsche-911-gt3-rs-super-car-77239-5025074",
+      "policy_key": "d3c1dd85a6e95ab3cd0e9d26",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16208,8 +16386,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fnbkP/5025074_1/re/300x300/qt/55/5025074_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fnbkP/5025074_1/re/300x300/qt/55/5025074_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fnbkP/5025074_1/re/150x150/qt/55/5025074_1.jpg"
@@ -16238,6 +16416,7 @@
     {
       "title": "Sony WH-CH520 Wireless Bluetooth On-Ear Headphones - With Code - White | Sold By Stocs UK (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/sony-wh-ch520-wireless-bluetooth-on-ear-headphones-with-code-white-sold-by-stocs-uk-uk-mainland-5025151",
+      "policy_key": "c88515059d6133f22030816f",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16275,6 +16454,7 @@
     {
       "title": "DEWALT DW055PL-XJ Pocket Laser Distance Measurer // DWHT77100-XJ - \u00a339.99 - Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-dw055pl-xj-pocket-laser-distance-measurer-dwht77100-xj-ps3999-free-cc-5024457",
+      "policy_key": "4cf86512411447454a9d99e0",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16310,8 +16490,47 @@
       }
     },
     {
+      "title": "Valor Mortis - PS5",
+      "url": "https://www.hotukdeals.com/deals/valor-mortis-playstation-5-5026148",
+      "policy_key": "ae4f7e1f87083b4262cc44a2",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 29.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/7cc3i/5026148_1/re/150x150/qt/55/5026148_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/valor-mortis-playstation-5-5026148",
+      "landed_cost": null,
+      "breakeven_sell": 39.75,
+      "sell_for_minimum_profit": 53.92,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T11:05:18+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Valor+Mortis&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Super Mario Game Boy 72046 - Used like new Amazon Resale",
       "url": "https://www.hotukdeals.com/deals/lego-super-mario-game-boy-72046-5019887",
+      "policy_key": "15bda02e108e4325163d4aae",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16322,8 +16541,8 @@
       "item_price": 32.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/150x150/qt/55/5019887_1.jpg"
@@ -16352,6 +16571,7 @@
     {
       "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ - Sold by discount4you (VAT) / FBA",
       "url": "https://www.hotukdeals.com/deals/dewalt-18v-xr-4ah-battery-dcb182-xj-5022064",
+      "policy_key": "417278d433196c92c981019b",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16389,6 +16609,7 @@
     {
       "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcb184-18v-xr-50ah-li-ion-battery-5023706",
+      "policy_key": "ce0b1e58a58fde3a48825d3c",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16426,6 +16647,7 @@
     {
       "title": "DEWALT DCB184-XJ 18V 5.0Ah XR Li-Ion Battery",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcb184-xj-18v-50ah-xr-li-ion-battery-5023704",
+      "policy_key": "42227b9ac5535c38b7eb374e",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16463,6 +16685,7 @@
     {
       "title": "LEGO City Fire Station with Fire Engine 60414 Truck Model, Dog Animal Figure & 5 Minifigures",
       "url": "https://www.hotukdeals.com/deals/lego-city-fire-station-with-fire-engine-60414-truck-model-dog-animal-figure-5-minifigures843-pieces-5025463",
+      "policy_key": "beee7bed9b7c3659e532cd53",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16473,8 +16696,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/150x150/qt/55/5025463_1.jpg"
@@ -16503,6 +16726,7 @@
     {
       "title": "DEWALT 18V XR Compact Blower Variable Speed Tool Only, DCV100-XJ",
       "url": "https://www.hotukdeals.com/deals/dewalt-18v-xr-compact-blower-variable-speed-tool-only-dcv100-xj-5020634",
+      "policy_key": "5993b195db0fc56db94ff1a6",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16540,6 +16764,7 @@
     {
       "title": "LEGO Technic Batmobile Tumbler - Remote Control - Working Steering & Lights 42239",
       "url": "https://www.hotukdeals.com/deals/lego-technic-batmobile-tumbler-remote-control-working-steering-lights-42239-5026032",
+      "policy_key": "e3fbaf7aff4ce7817d6ef30e",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16550,8 +16775,8 @@
       "item_price": 107.11,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/150x150/qt/55/5026032_1.jpg"
@@ -16580,6 +16805,7 @@
     {
       "title": "LEGO Icons Porsche 911 - 10295",
       "url": "https://www.hotukdeals.com/deals/lego-icons-porsche-911-10295-5026036",
+      "policy_key": "25d1064b548693ea7418679e",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16590,8 +16816,8 @@
       "item_price": 117.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
-      "image_verified_until": "2026-11-08T10:49:53.768889+00:00",
-      "image_checked_at": "2026-11-08T10:29:53.768889+00:00",
+      "image_verified_until": "2026-11-08T11:25:14.927695+00:00",
+      "image_checked_at": "2026-11-08T11:05:14.927695+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/150x150/qt/55/5026036_1.jpg"
@@ -16653,6 +16879,7 @@
     {
       "title": "Jack & Jones Mens Modern Combo Classic Trainers ( Sizes 6 to 12 ) w/code and free postage",
       "url": "https://www.hotukdeals.com/deals/jack-jones-mens-modern-combo-classic-trainers-sizes-6-to-12-wcode-and-free-postage-5024885",
+      "policy_key": "d44e0d6a0a2f53b45a00b593",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16689,6 +16916,7 @@
     {
       "title": "Hugo Boss Bottled EDT For Men 100ml Eau de Toilette Fragrance Spray New Sealed",
       "url": "https://www.ebay.co.uk/itm/860073995143",
+      "policy_key": "3edcdab16c17d803792adbaa",
       "category": "fragrance",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16753,6 +16981,7 @@
     {
       "title": "Hugo Boss Bottled 100ml Eau de Toilette EDT Men Perfume Spray",
       "url": "https://www.ebay.co.uk/itm/168812205188",
+      "policy_key": "358018a0fdf5ccb4f290ffe6",
       "category": "fragrance",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16817,6 +17046,7 @@
     {
       "title": "Hugo Boss Bottled EDT For Men 100ml Eau de Toilette Fragrance Spray New Sealed",
       "url": "https://www.ebay.co.uk/itm/407286356746",
+      "policy_key": "b4fc7772a5caf1917c71e672",
       "category": "fragrance",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16881,6 +17111,7 @@
     {
       "title": "Nike Air Superfly Unisex Trainers - Brown - UK 4 Size (\u00a322.94 + Free Delivery With New Customer Code)",
       "url": "https://www.hotukdeals.com/deals/nike-air-superfly-unisex-trainers-in-brown-brown-uk-4-size-5023029",
+      "policy_key": "8ebbb5ef62676b7c6a6b47dc",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16917,6 +17148,7 @@
     {
       "title": "NINJA GAIDEN: Ragebound (NIntendo Switch) - Brand New and Sealed",
       "url": "https://www.ebay.co.uk/itm/407159226024",
+      "policy_key": "abe6dd7924152eb0cf846549",
       "category": "gaming",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16953,6 +17185,7 @@
     {
       "title": "NINJA GAIDEN: Ragebound (Nintendo Switch) (Nintendo Switch)",
       "url": "https://www.ebay.co.uk/itm/820126846958",
+      "policy_key": "956fcbce38ba346ffd9b760c",
       "category": "gaming",
       "source": "ebay_browse",
       "price_basis": null,
@@ -16989,6 +17222,7 @@
     {
       "title": "DEWALT DCF887N 18v Li-ion Brushless XR Impact Driver 3 Speed Bare Tool + Case",
       "url": "https://www.ebay.co.uk/itm/137498280303",
+      "policy_key": "35b8cc074e54cc1b51efb012",
       "category": "tools",
       "source": "ebay_browse",
       "price_basis": null,
@@ -17019,12 +17253,13 @@
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
-        "reason": "unsupported_exact_identity"
+        "reason": "no_supported_resale_estimate"
       }
     },
     {
       "title": "Dewalt DCF887N 18V XR G2 Brushless 3 Speed Impact Driver Bare + 12\" Tool Bag",
       "url": "https://www.ebay.co.uk/itm/313725060136",
+      "policy_key": "a7a3c820e9161abff25027ec",
       "category": "tools",
       "source": "ebay_browse",
       "price_basis": null,
@@ -17055,12 +17290,13 @@
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
-        "reason": "exact_item_details_unverified"
+        "reason": "no_supported_resale_estimate"
       }
     },
     {
       "title": "HIFIMAN SVANAR Wireless Bluetooth In-Ear Hi-Fi Earphones, Hymalaya DAC with code - HIFIMAN Local Store",
       "url": "https://www.hotukdeals.com/deals/hifiman-svanar-wireless-bluetooth-in-ear-hi-fi-earphones-hymalaya-dac-with-code-hifiman-local-store-5024227",
+      "policy_key": "ab26d89b6ac4deded79b5d44",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17097,6 +17333,7 @@
     {
       "title": "Tormented Souls - Xbox One/ Series X|S",
       "url": "https://www.hotukdeals.com/deals/tormented-souls-xbox-one-series-xs-5026003",
+      "policy_key": "4cdf0bec2aa9dcd736dd3eef",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17161,6 +17398,7 @@
     {
       "title": "Dangerous Driving - Xbox One / Series X|S",
       "url": "https://www.hotukdeals.com/deals/dangerous-driving-xbox-one-series-xs-5023356",
+      "policy_key": "1818842ca360121ded7d7fb4",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17225,6 +17463,7 @@
     {
       "title": "Al-Rehab Choco Musk Eau De Parfum 50ml",
       "url": "https://www.hotukdeals.com/deals/al-rehab-choco-musk-eau-de-parfum-50ml-5026120",
+      "policy_key": "6b234ac38b20741226826fe6",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17290,6 +17529,7 @@
     {
       "title": "Nike Futura T-Shirt (Ages 12 - 24m)",
       "url": "https://www.hotukdeals.com/deals/baby-nike-tshirt-5021096",
+      "policy_key": "855a120b5c9d80cc217cbdfa",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17327,6 +17567,7 @@
     {
       "title": "Regatta Kota/Marine Kid's Trainers Various Colours & Sizes",
       "url": "https://www.hotukdeals.com/deals/regatta-kids-trainers-various-colours-sizes-5024757",
+      "policy_key": "74b5cee3c3d3f8f45c76732a",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17364,6 +17605,7 @@
     {
       "title": "The Plucky Squire - Xbox Series X|S",
       "url": "https://www.hotukdeals.com/deals/the-plucky-squire-xbox-series-xs-5023364",
+      "policy_key": "95bd99402798c6208312523c",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17428,6 +17670,7 @@
     {
       "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
       "url": "https://www.hotukdeals.com/deals/nike-6-pack-everyday-cushioned-training-crew-socks-5022484",
+      "policy_key": "ca094f86615007230124b6a9",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17465,6 +17708,7 @@
     {
       "title": "adidas Men's Squadra 25 Shorts, Black/White, XS",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-squadra-25-shorts-blackwhite-xs-5024255",
+      "policy_key": "7c9bf3dddb60a058de315dcf",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17502,6 +17746,7 @@
     {
       "title": "TopSpin 2K25 - PS4",
       "url": "https://www.hotukdeals.com/deals/topspin-2k25-ps4-5025717",
+      "policy_key": "69730ac6180444455768d340",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17539,6 +17784,7 @@
     {
       "title": "adidas Unisex Cushioned Sportswear Crew Socks, 3 Pair Pack",
       "url": "https://www.hotukdeals.com/deals/adidas-unisex-cushioned-sportswear-crew-socks-3-pair-pack-socks-5025567",
+      "policy_key": "fe72395ab063bc797d23c7c1",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17576,6 +17822,7 @@
     {
       "title": "DEWALT 6.35mm 25mm Hex Shank PZ2 Impact Torsion Screwdriver Bits 25 Pack Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-635mm-25mm-hex-shank-pz2-impact-torsion-screwdriver-bits-25-pack-free-cc-5024288",
+      "policy_key": "bfdf09976c72a351f7b0ca16",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17613,6 +17860,7 @@
     {
       "title": "DEWALT McLaren F1 Team 6.35mm Hex Shank Mixed Impact Ready Torsion Screwdriver Bit Set 32 Pieces - Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-mclaren-f1-team-635mm-hex-shank-mixed-impact-ready-torsion-screwdriver-bit-set-32-pieces-5023271",
+      "policy_key": "0576228e2273b4f6039dea9f",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17650,6 +17898,7 @@
     {
       "title": "Wireless Bluetooth Headphones 6.0 Bluetooth with Microphones",
       "url": "https://www.hotukdeals.com/deals/wireless-bluetooth-headphones-60-bluetooth-with-microphones-5025678",
+      "policy_key": "c6af290d70804dc654ffb850",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17687,6 +17936,7 @@
     {
       "title": "DEWALT Rafter Square 7\" (177mm) Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-rafter-square-7-177mm-5024278",
+      "policy_key": "6c91839a6a71a8b0d897ed4d",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17724,6 +17974,7 @@
     {
       "title": "JVC GUMY AIR Coconut White Wireless Earbuds - Clubcard Price",
       "url": "https://www.hotukdeals.com/deals/jvc-gumy-air-coconut-white-wireless-earbuds-5025912",
+      "policy_key": "538c27cd4d1110be6de507a5",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17761,6 +18012,7 @@
     {
       "title": "Maison Alhambra La Charmante EDP 100ml with code",
       "url": "https://www.hotukdeals.com/deals/maison-alhambra-la-charmante-edp-100ml-with-code-5025805",
+      "policy_key": "b2867c70d2ec6a92447eaf23",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17826,6 +18078,7 @@
     {
       "title": "Moncler Pour Femme & Pour Homme Eau De Parfum Duo 2 x 7.5m",
       "url": "https://www.hotukdeals.com/deals/moncler-pour-femme-pour-homme-eau-de-parfum-duo-2-x-75m-5026133",
+      "policy_key": "a7124a44d0ac3f283357c9cc",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17888,6 +18141,7 @@
     {
       "title": "Riiffs Fleurie Emerald EDP 100ml - With Code",
       "url": "https://www.hotukdeals.com/deals/riiffs-fleurie-emerald-edp-100ml-with-code-5025804",
+      "policy_key": "894658fe1272d502bc2859a9",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -17953,6 +18207,7 @@
     {
       "title": "Tapo S200B Smart Button, Wireless Smart Switch Remote Control",
       "url": "https://www.hotukdeals.com/deals/tapo-s200b-smart-button-wireless-smart-switch-remote-control-5026123",
+      "policy_key": "5431aefcc46fa999e858f80c",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18019,6 +18274,7 @@
     {
       "title": "adidas F50 Sparkfusion League Mid Cut Firm Ground/Artificial Grass Football Boots (yellow size 12 ladies)",
       "url": "https://www.hotukdeals.com/deals/adidas-f50-sparkfusion-league-mid-cut-firm-groundartificial-grass-football-boots-yellow-size-12-ladies-5024292",
+      "policy_key": "089bf1b1e9a71fa5fb52d15f",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18056,6 +18312,7 @@
     {
       "title": "soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass (Renewed). Sold by AnkerDirect UK FBA",
       "url": "https://www.hotukdeals.com/deals/soundcore-by-anker-p20i-true-wireless-earbuds-10mm-drivers-with-big-bass-amazon-renewed-5025537",
+      "policy_key": "10d33e56ed7644720488baef",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18093,6 +18350,7 @@
     {
       "title": "Calvin Klein Eternity For Men Aftershave Splash 100ml / JOOP! Homme Wild For Him Eau de Toilette Spray 125ml \u00a313.28 with code",
       "url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-for-men-aftershave-splash-100ml-joop-homme-wild-for-him-eau-de-toilette-spray-125ml-ps1328-with-code-5022286",
+      "policy_key": "4fc7d264c74831042bac06d9",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18155,6 +18413,7 @@
     {
       "title": "adidas Unisex Tensaur Sport 3.0 Kids Shoes - Size 10 UK Child",
       "url": "https://www.hotukdeals.com/deals/adidas-unisex-tensaur-sport-30-kids-shoes-size-10-uk-child-5025625",
+      "policy_key": "2e6f3de6b9e35f32748c973c",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18192,6 +18451,7 @@
     {
       "title": "Vera Wang Original Eau de Parfum Spray 100ml",
       "url": "https://www.hotukdeals.com/deals/vera-wang-original-eau-de-parfum-spray-100ml-5026141",
+      "policy_key": "bddf9d58168bde5ad0e0d724",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18257,6 +18517,7 @@
     {
       "title": "Calvin Klein Eternity 100ml Aftershave (Free C&C)",
       "url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-100ml-aftershave-5025466",
+      "policy_key": "a91688cc6fb208462b44b3eb",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18322,6 +18583,7 @@
     {
       "title": "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon",
       "url": "https://www.hotukdeals.com/deals/hori-battle-pad-gamecube-style-controller-zelda-switch-wcoupon-5022175",
+      "policy_key": "8d6aa16e915b6c90c9365b38",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18388,6 +18650,7 @@
     {
       "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
       "url": "https://www.hotukdeals.com/deals/nike-chelsea-fc-202425-home-shirt-junior-5024008",
+      "policy_key": "eb54f7517f6602963d0033cf",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18425,6 +18688,7 @@
     {
       "title": "Women's Nike Calm Slide, Sail, Size 3.5 - Free C&C",
       "url": "https://www.hotukdeals.com/deals/womens-nike-womens-calm-slide-sail-size-35-free-cc-5021691",
+      "policy_key": "bb9afc9f99873ebb1cdb0ef6",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18462,6 +18726,7 @@
     {
       "title": "adidas Triangle 2-Way Straps Bikini Set - Size 40",
       "url": "https://www.hotukdeals.com/deals/adidas-triangle-2-way-straps-bikini-set-size-40-5025600",
+      "policy_key": "f7e821ff17c3c21ee50fae6d",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18499,6 +18764,7 @@
     {
       "title": "Men's adidas Court Spec 2 Tennis Shoes Size 9.5",
       "url": "https://www.hotukdeals.com/deals/mens-adidas-court-spec-2-tennis-shoes-size-95-5024260",
+      "policy_key": "837dd4739ced4a58938de3bc",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18536,6 +18802,7 @@
     {
       "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES Aiba Edition (Nintendo Switch 2)",
       "url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-aiba-edition-nintendo-switch-2-5025973",
+      "policy_key": "4b5d72c867003c2492d87fcf",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18602,6 +18869,7 @@
     {
       "title": "Camo Blue Turtle Beach Recon 70 Wired Multiplatform Gaming Headset for XBOX, PC, PS5, Camo White - \u00a317.99",
       "url": "https://www.hotukdeals.com/deals/camo-blue-turtle-beach-recon-70-wired-multiplatform-gaming-headset-for-xbox-pc-ps5-camo-white-ps1799-5025377",
+      "policy_key": "7375e348b01bb45f8375df90",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18639,6 +18907,7 @@
     {
       "title": "Tapo S110E Smart Switch Module, Dry/Wet Smart Switch, No Hub Required",
       "url": "https://www.hotukdeals.com/deals/tapo-s110e-smart-switch-module-drywet-smart-switch-no-hub-required-5025650",
+      "policy_key": "584319a2eb5caf83527c60e0",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18705,6 +18974,7 @@
     {
       "title": "adidas Women's Court Team Bounce 2.0 Shoes - Size 13 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-womens-court-team-bounce-20-shoes-size-13-uk-5025073",
+      "policy_key": "b601351d3cbca09262a09da5",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18742,6 +19012,7 @@
     {
       "title": "Tilswall Alien 500 Paint Sprayer, Makita 18V, Blue, 1000ml, 4 Nozzles, 3 Spray Patterns, Discount @ Checkout, Sold by Tilswall Direct EU/FBA",
       "url": "https://www.hotukdeals.com/deals/tilswall-alien-500-paint-sprayer-makita-18v-blue-1000ml-4-nozzles-3-spray-patterns-discount-at-checkout-sold-by-tilswall-direct-eufba-5024551",
+      "policy_key": "88a03c9e992423abe79733c8",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18777,45 +19048,9 @@
       }
     },
     {
-      "title": "NINJA GAIDEN: Ragebound (Nintendo Switch Game)",
-      "url": "https://www.hotukdeals.com/deals/ninja-gaiden-ragebound-switch-5026115",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 19.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/1m3Pg/5026115_1/re/150x150/qt/55/5026115_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/ninja-gaiden-ragebound-switch-5026115",
-      "landed_cost": null,
-      "breakeven_sell": 27.95,
-      "sell_for_minimum_profit": 37.39,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-08T10:05:23+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=NINJA+GAIDEN%3A+Ragebound+%28Nintendo+Switch+Game%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Soundcore P31i by Anker Translation Earbuds with Real-Time ANC (Renewed) AnkerDirect FBA",
       "url": "https://www.hotukdeals.com/deals/soundcore-p31i-by-anker-translation-earbuds-with-real-time-anc-renewed-ankerdirect-fba-5024489",
+      "policy_key": "93b7736bc5a8b8a4708a0f81",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18853,6 +19088,7 @@
     {
       "title": "Adidas Men's Run50S Low-Top Trainers",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-run50s-low-top-trainers-5025640",
+      "policy_key": "3885738df1a9621e043c40a9",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18890,6 +19126,7 @@
     {
       "title": "Black Friday Sale + Extra 20% off - With Code - Includes The North Face, Adidas, Rab, Berghaus & more eg Regatta Marizion Jacket",
       "url": "https://www.hotukdeals.com/deals/black-friday-sale-extra-20-with-code-includes-the-north-face-fjern-rab-berghaus-more-eg-regatta-marizion-jacket-5025821",
+      "policy_key": "357167ec092db1ebe56a3c48",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18927,6 +19164,7 @@
     {
       "title": "Empire of the Ants - Limited Edition [PS5] Sold by EVERGAME / FBA",
       "url": "https://www.hotukdeals.com/deals/empire-of-the-ants-limited-edition-ps5-5024360",
+      "policy_key": "b9bd1a8bfcec61a86cff4c74",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18955,7 +19193,34 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Empire+of+the+Ants&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "empire of the ants limited edition sold by evergame fba ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T11:05:19+00:00",
+        "date": "2026-11-08",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Empire of the Ants - Limited Edition [PS5] Sold by EVERGAME / FBA"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -18964,6 +19229,7 @@
     {
       "title": "Reebok Flexagon Energy Tr 4 Sneaker Women's - Size 2.5 UK",
       "url": "https://www.hotukdeals.com/deals/reebok-flexagon-energy-tr-4-sneaker-womens-size-25-uk-5024782",
+      "policy_key": "c505109dfebfe12fd2465c1e",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19001,6 +19267,7 @@
     {
       "title": "Issey Miyake L'Eau D'Issey Pour Homme Sport Eau de Toilette 100ml For Him w/code - Sold by ScentWarehouse",
       "url": "https://www.hotukdeals.com/deals/issey-miyake-leau-dissey-pour-homme-sport-eau-de-toilette-100ml-for-him-wcode-sold-by-scentwarehouse-5025798",
+      "policy_key": "042271446af63429f5d38fc4",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19064,45 +19331,9 @@
       }
     },
     {
-      "title": "Tales of Xillia Remastered PS5 Game Free C&C",
-      "url": "https://www.hotukdeals.com/deals/tales-of-xillia-remastered-ps5-game-5025819",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 22.77,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/qAjXt/5025819_1/re/150x150/qt/55/5025819_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/tales-of-xillia-remastered-ps5-game-5025819",
-      "landed_cost": null,
-      "breakeven_sell": 31.23,
-      "sell_for_minimum_profit": 41.98,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T17:11:59+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tales+of+Xillia+Remastered+PS5+Game+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Up to 70% off Men's, Women's Footwear Sale - Hoka, Nike, On Running, Puma & More eg Adidas Duramo Running Trainers / Hoka Men's Mach \u00a364.99",
       "url": "https://www.hotukdeals.com/deals/up-to-70-off-mens-womens-footwear-sale-hoka-nike-on-running-brooks-puma-more-eg-adidas-duramo-rc2-running-shoes-5023072",
+      "policy_key": "abe35cfcc86d9f58723c5cdc",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19140,6 +19371,7 @@
     {
       "title": "Under Armour Women's Ua W Turbulence 3 Sneaker - Size 9.5 UK",
       "url": "https://www.hotukdeals.com/deals/under-armour-womens-ua-w-turbulence-3-sneaker-size-95-uk-5024774",
+      "policy_key": "9750ae16d29ae5643f87069b",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19177,6 +19409,7 @@
     {
       "title": "Narciso Rodriguez All Of Me Eau De Parfum 50ml",
       "url": "https://www.hotukdeals.com/deals/narciso-rodriguez-all-of-me-eau-de-parfum-50ml-free-delivery-5026116",
+      "policy_key": "0b86dbfe74d74ce013c3d647",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19242,6 +19475,7 @@
     {
       "title": "Issey Miyake L'eau D'issey Pour Homme Eau de Toilette 75ml + Shower Gel 50ml w/code sold by ScentWarehouse",
       "url": "https://www.hotukdeals.com/deals/issey-miyake-leau-dissey-pour-homme-eau-de-toilette-75ml-shower-gel-50ml-wcode-sold-by-scentwarehouse-5025756",
+      "policy_key": "4d4fc598cd2b4039d2e9aebe",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19304,6 +19538,7 @@
     {
       "title": "adidas Streetalk Womens Trainers - Size 3.5 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-streetalk-womens-trainers-size-35-uk-5024772",
+      "policy_key": "cbeb041fac66abadd6d65de2",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19341,6 +19576,7 @@
     {
       "title": "Nike Court Borough Low Junior Trainers in Black, sizes 10 - 2 (free C&C)",
       "url": "https://www.hotukdeals.com/deals/nike-court-borough-low-junior-in-black-5022354",
+      "policy_key": "78b9bf8a3f6974d712fd4b77",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19378,6 +19614,7 @@
     {
       "title": "Nike Men's Court Heritage Shoes, Sizes 7-11 in Wolf Grey W/Code",
       "url": "https://www.hotukdeals.com/deals/nike-mens-court-heritage-shoes-sizes-7-11-in-wolf-grey-wcode-5023545",
+      "policy_key": "6f1eff1e14d9a3781de716cd",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19415,6 +19652,7 @@
     {
       "title": "Adidas Cloudfoam Flex RAPIDFIT Shoes Size 8.5",
       "url": "https://www.hotukdeals.com/deals/adidas-cloudfoam-flex-rapidfit-shoes-5025244",
+      "policy_key": "4a5990ac3a50fcc9f6b6a43a",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19452,6 +19690,7 @@
     {
       "title": "adidas Cloudfoam Flex RAPIDFIT Men's Shoes, All Sizes",
       "url": "https://www.hotukdeals.com/deals/adidas-cloudfoam-flex-rapidfit-shoes-all-sizes-5025181",
+      "policy_key": "b27b1bbb60c6550498144b7b",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19489,6 +19728,7 @@
     {
       "title": "adidas Men's Cloudfoam Flex Laces Shoes, semi Lucid Blue/core White/Dark Blue 10 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-cloudfoam-flex-laces-shoes-semi-lucid-bluecore-whitedark-blue-10-uk-5024120",
+      "policy_key": "5041828af285ccaa1a9ad2ce",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19526,6 +19766,7 @@
     {
       "title": "Xiaomi Redmi Buds 6 Pro In-Ear Active Noise cancellation Wireless Earbuds | Space Black",
       "url": "https://www.hotukdeals.com/deals/xiaomi-redmi-buds-6-pro-in-ear-active-noise-cancellation-wireless-earbuds-space-black-5024518",
+      "policy_key": "7458fd558f7ba323ae49ecfa",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19563,6 +19804,7 @@
     {
       "title": "HUAWEI FreeBuds SE 4 ANC Wireless Earbuds - Black or White, Free C&C",
       "url": "https://www.hotukdeals.com/deals/huawei-freebuds-se-4-anc-wireless-earbuds-black-or-white-free-cc-5024711",
+      "policy_key": "f8b64974f81b3a0a9aa16c93",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19600,6 +19842,7 @@
     {
       "title": "New Balance 411v4 Mens Running Shoes - Black Or Blue - With Code",
       "url": "https://www.hotukdeals.com/deals/new-balance-411v4-mens-running-shoes-black-or-blue-with-code-5026072",
+      "policy_key": "4f33103cb6cca4bb6a18fb3a",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19637,6 +19880,7 @@
     {
       "title": "Skechers Men's Track Ripkent Trainer (Selected Sizes)",
       "url": "https://www.hotukdeals.com/deals/skechers-mens-track-ripkent-trainer-selected-sizes-5024654",
+      "policy_key": "8523136082fd067c166360d3",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19674,6 +19918,7 @@
     {
       "title": "Soundcore Q21i Over-Ear Noise-Cancelling Wireless Headphones - Free C&C",
       "url": "https://www.hotukdeals.com/deals/soundcore-q21i-over-ear-noise-cancelling-wireless-headphones-free-cc-available-5023604",
+      "policy_key": "f873d1afca8fcb5dab3d78e6",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19711,6 +19956,7 @@
     {
       "title": "Adidas Men's Galaxy 8 Running Shoes - Size 7 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-galaxy-8-running-shoes-size-7-uk-5024119",
+      "policy_key": "ed8618b2939e3ad5b4e2d753",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19748,6 +19994,7 @@
     {
       "title": "adidas RUNFALCON 6 Shoes - Size 5.5 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-runfalcon-6-shoes-size-55-uk-5024117",
+      "policy_key": "3a1a0a93be22d8fca1a71bfd",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19785,6 +20032,7 @@
     {
       "title": "Nike Ava Rover Trainers In Grey And Yellow - Size 5 (\u00a327.19 With New Customer Code)",
       "url": "https://www.hotukdeals.com/deals/uk5-nike-ava-rover-trainers-in-grey-and-yellow-5021047",
+      "policy_key": "d73a142364cb995260c3a909",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19822,6 +20070,7 @@
     {
       "title": "Adidas Women's Galaxy 8 Running shoes - Size 8 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-womens-galaxy-8-running-shoes-size-8-uk-5024768",
+      "policy_key": "73f1bce03db116d5ce1e0c07",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19859,6 +20108,7 @@
     {
       "title": "Under Armour Women's Ua W Turbulence 3 Sneaker - Size 7.5 UK",
       "url": "https://www.hotukdeals.com/deals/under-armour-womens-ua-w-turbulence-3-sneaker-size-75-uk-5024766",
+      "policy_key": "810bb04c32c2c54e10c57ced",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19896,6 +20146,7 @@
     {
       "title": "Nike Air Zoom Upturn Mens Trainers Black UK 10.5,11 & 12",
       "url": "https://www.hotukdeals.com/deals/nike-air-zoom-upturn-mens-trainers-black-uk-10511-12-5020921",
+      "policy_key": "5bc4f1fec3d30f5dce9397f8",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19933,6 +20184,7 @@
     {
       "title": "Rabanne Invictus Victory Eau De Parfum 50ml",
       "url": "https://www.hotukdeals.com/deals/rabanne-invictus-victory-eau-de-parfum-50ml-5025946",
+      "policy_key": "18c8d852575351a210959c7b",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -19998,6 +20250,7 @@
     {
       "title": "adidas RUNFALCON 6 ATR Shoes - Size 7 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-runfalcon-6-atr-shoes-size-7-uk-5024123",
+      "policy_key": "e852332858ebee49d4f1478e",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20033,8 +20286,47 @@
       }
     },
     {
+      "title": "Silent Hill 2 - PS5 Game - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/silent-hill-2-ps5-game-free-cc-5025639",
+      "policy_key": "83479981e46ac77ec2c361c9",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 33.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/qdPTM/5025639_1/re/150x150/qt/55/5025639_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/silent-hill-2-ps5-game-free-cc-5025639",
+      "landed_cost": null,
+      "breakeven_sell": 44.47,
+      "sell_for_minimum_profit": 60.54,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Silent+Hill+2&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Black Friday - Beats Solo Buds Earphones | Beats Solo 4 \u00a373 | Beats Powerbeats Pro 2 \u00a3129 | Beats Studio Pro \u00a3119 When Logged In",
       "url": "https://www.hotukdeals.com/deals/black-friday-beats-solo-buds-earphones-beats-solo-4-ps73-beats-powerbeats-pro-2-ps129-beats-studio-pro-ps129-when-logged-in-5024540",
+      "policy_key": "33e8b4ea1b9431e4e0e51d19",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20072,6 +20364,7 @@
     {
       "title": "LEGO Batman: Legacy of The Dark Knight (PS5) - Used: Very Good Disc w/code sold by Boomerang Video Games",
       "url": "https://www.hotukdeals.com/deals/lego-batman-legacy-of-the-dark-knight-ps5-used-very-good-disc-wcode-sold-by-boomerang-video-games-5025007",
+      "policy_key": "9247df6023444260fd66e57e",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20109,6 +20402,7 @@
     {
       "title": "Womens adidas Adistar Control 5 MJ, Size 3.5-6.5, Wonder White-Wonder Beige-Alumina, w/code Unidays",
       "url": "https://www.hotukdeals.com/deals/womens-adidas-adistar-control-5-mj-size-35-65-wonder-white-wonder-beige-alumina-wcode-unidays-5023913",
+      "policy_key": "c93f860303b0d444e178d318",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20146,6 +20440,7 @@
     {
       "title": "NB 509 sea moss mens trainers",
       "url": "https://www.hotukdeals.com/deals/nb-509-sea-moss-mens-trainers-5025426",
+      "policy_key": "acbb400e6d327aeb53967a76",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20183,6 +20478,7 @@
     {
       "title": "Resonance: A Plague Tale Legacy (PS5 / Xbox Series X)",
       "url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-ps5-xbox-series-x-5023718",
+      "policy_key": "d1ebfaf0e02a0d855cccbc47",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20220,6 +20516,7 @@
     {
       "title": "Rabanne Fame Gift Set EDP Spray 30ml + Mascara - W/code",
       "url": "https://www.hotukdeals.com/deals/rabanne-fame-gift-set-edp-spray-30ml-mascara-wcode-5025733",
+      "policy_key": "3e696575c7ebe6a98349fce9",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20282,6 +20579,7 @@
     {
       "title": "Adidas Duramo SL 2 Running Shoes - Size 4 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-duramo-sl-2-running-shoes-size-4-uk-5024761",
+      "policy_key": "cd645428f71a6f0d984e2438",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20319,6 +20617,7 @@
     {
       "title": "Nike Air Max Fire Men's Trainers, Size 9.5 (Sizes 8, 9, 11 \u00a349.50) W/Code",
       "url": "https://www.hotukdeals.com/deals/nike-air-max-fire-mens-trainers-size-95-sizes-8-9-11-ps4950-wcode-5021805",
+      "policy_key": "84adcda97e1fd17d86b20bb5",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20356,6 +20655,7 @@
     {
       "title": "NIKE Womens LD-1000 SE Casual Trainers (Blue) - Limited Sizes",
       "url": "https://www.hotukdeals.com/deals/nike-womens-ld-1000-se-casual-trainers-blue-not-many-sizes-but-a-good-price-5023209",
+      "policy_key": "8640563e24202bfa7ca5632f",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20393,6 +20693,7 @@
     {
       "title": "adidas Cloudfoam Flex RAPIDFIT Shoes - Size 12 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-cloudfoam-flex-rapidfit-shoes-size-12-uk-5024769",
+      "policy_key": "d362a9f03fcb5654c95e9a47",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20430,6 +20731,7 @@
     {
       "title": "Adidas Terrex Anylander Hiking Women's Shoes Black/ Grey \u00a342.25 (selected sizes)",
       "url": "https://www.hotukdeals.com/deals/adidas-terrex-anylander-hiking-womens-shoes-black-grey-ps4225-selected-sizes-5024559",
+      "policy_key": "5c13ccf4a09f0a4615d127d9",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20467,6 +20769,7 @@
     {
       "title": "Viktor & Rolf Spicebomb, Eau de Toilette Spray, 90ml - w/code",
       "url": "https://www.hotukdeals.com/deals/viktor-rolf-spicebomb-eau-de-toilette-spray-90ml-wcode-5026089",
+      "policy_key": "48c13c3d90a190e250010621",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20532,6 +20835,7 @@
     {
       "title": "Nike Men's Air Max Alpha 6 Shoes, Size 7 in 3 Colours: White/Hot Lime - Sail/Baroque Brown - Olive/Black - W/Code",
       "url": "https://www.hotukdeals.com/deals/nike-mens-air-max-alpha-6-shoes-size-7-in-3-colours-whitehot-lime-sailbaroque-brown-oliveblack-wcode-5024009",
+      "policy_key": "f145cbbea2149197eea3bece",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20569,6 +20873,7 @@
     {
       "title": "Versace Eros Eau de Toilette Gift Set for him 30ML - W/code Blue Light Code",
       "url": "https://www.hotukdeals.com/deals/versace-eros-eau-de-toilette-gift-set-for-him-30ml-wcode-blue-light-code-5025766",
+      "policy_key": "4bdbe30204beb06157305b94",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20631,6 +20936,7 @@
     {
       "title": "Makita DTD152Z 18V LXT Impact Driver (Body Only)",
       "url": "https://www.hotukdeals.com/deals/makita-dtd152z-18v-lxt-impact-driver-body-only-5025896",
+      "policy_key": "7b010921e1757f8a3fdb665e",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20668,6 +20974,7 @@
     {
       "title": "Makita DUB185Z 18V LXT Blower with Vacuum Function (Bare Unit)",
       "url": "https://www.hotukdeals.com/deals/makita-dub185z-18v-lxt-blower-with-vacuum-function-bare-unit-ps3999-makita-bl1830-18v-lxt-30ah-li-ion-battery-ps2999-5026045",
+      "policy_key": "3400416cc52728a34dc72139",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20739,6 +21046,7 @@
     {
       "title": "adidas Italia 70s Mens Trainers Cardboard Olive Strata Gum sizes 7-11",
       "url": "https://www.hotukdeals.com/deals/adidas-italia-70s-mens-trainers-cardboard-olive-strata-gum-sizes-7-11-5023914",
+      "policy_key": "57d1bf68e53aab26623f6808",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20776,6 +21084,7 @@
     {
       "title": "Saucony 80 Trainers - Sizes 3-13, w/Code",
       "url": "https://www.hotukdeals.com/deals/saucony-80-trainers-sizes-3-13-wcode-5024454",
+      "policy_key": "611e6da2bcf6a5e74ddba0b6",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20811,70 +21120,9 @@
       }
     },
     {
-      "title": "Rabanne Fame Gift Set EDP Spray 30ml + Mascara",
-      "url": "https://www.hotukdeals.com/deals/rabanne-fame-gift-set-edp-spray-30ml-mascara-5025622",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Lloyds Pharmacy",
-      "item_price": 40.2,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/xg5jM/5025622_1/re/150x150/qt/55/5025622_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/rabanne-fame-gift-set-edp-spray-30ml-mascara-5025622",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 30,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Multipack/contents not resolved: no single-bottle postage scenario"
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "Multipack/contents not resolved: no single-bottle postage scenario",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rabanne+Fame+Gift+Set+EDP+Spray+30ml+%2B+Mascara&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Armani Because It's You Eau De Parfum 50ml w/code",
       "url": "https://www.hotukdeals.com/deals/armani-because-its-you-eau-de-parfum-50ml-wcode-5025642",
+      "policy_key": "42604d2f71d904885e4a6ad6",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20940,6 +21188,7 @@
     {
       "title": "NIKE Mens LD-1000 Casual Trainers (Brown)",
       "url": "https://www.hotukdeals.com/deals/nike-mens-ld-1000-casual-trainers-brown-5023131",
+      "policy_key": "30b63352aace75618d6074ae",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -20977,6 +21226,7 @@
     {
       "title": "NIKE Mens LD-1000 PRM Casual Trainers (Pink)",
       "url": "https://www.hotukdeals.com/deals/nike-mens-ld-1000-prm-casual-trainers-pink-5023134",
+      "policy_key": "7936067829abcfcbe351746e",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21014,6 +21264,7 @@
     {
       "title": "Women's adidas Adistar Control 5, Size 3.5-6.5, Silver Met-Grey One-Core Black",
       "url": "https://www.hotukdeals.com/deals/womens-adidas-adistar-control-5-size-35-65-silver-met-grey-one-core-black-5023907",
+      "policy_key": "47a164a247cf22c9490d2e06",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21051,6 +21302,7 @@
     {
       "title": "New Balance Black Friday Outlet Sale Up to 50% + 10% Off W/DFC Code (free sign up) + free members delivery W/free sign up - eg 237 trainers",
       "url": "https://www.hotukdeals.com/deals/new-balance-black-friday-outlet-sale-up-to-50-10-off-wdfc-code-free-sign-up-free-members-delivery-wfree-sign-up-eg-237-trainers-5025719",
+      "policy_key": "c76c4f59d28e3984b2e27ddf",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21088,6 +21340,7 @@
     {
       "title": "Hugo Boss Boss Bottled Eau de Toilette - 100ml - Free C&C",
       "url": "https://www.hotukdeals.com/deals/hugo-boss-boss-bottled-eau-de-toilette-100ml-5025904",
+      "policy_key": "d8ca2620984db82b1563b1d3",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21153,6 +21406,7 @@
     {
       "title": "Nike Air Force 1 Low Special Edition Trainers, White-Metallic - Women's Sizes 3 - 8 w/Discount for Carers (free delivery for members)",
       "url": "https://www.hotukdeals.com/deals/nike-air-force-1-low-special-edition-trainers-white-metallic-womens-sizes-3-8-wdiscount-for-carers-5021278",
+      "policy_key": "2cac28c87db88470ef82198f",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21202,6 +21456,7 @@
     {
       "title": "Moncler Pour Femme Eau De Parfum Gift Set 100ml",
       "url": "https://www.hotukdeals.com/deals/moncler-pour-femme-eau-de-parfum-gift-set-100ml-5026128",
+      "policy_key": "bafb97de3672342d66454d71",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21264,6 +21519,7 @@
     {
       "title": "Adidas Defiant Speed 2 Trainers",
       "url": "https://www.hotukdeals.com/deals/adidas-defiant-speed-2-trainers-were-ps100-5024286",
+      "policy_key": "4497f6d7ee01627d672b2611",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21301,6 +21557,7 @@
     {
       "title": "Adidas Men's Terrex Rockadia Hiking Shoes - Size 3.5 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-rockadia-hiking-shoes-size-35-uk-5024759",
+      "policy_key": "52c72ca60cfc2ed533a7987c",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21338,6 +21595,7 @@
     {
       "title": "Nike Air Force 1 '07 Bwn Sneaker, Brown, Sail & Brown, Size 3-7",
       "url": "https://www.hotukdeals.com/deals/nike-air-force-1-07-bwn-sneaker-brown-sail-brown-size-3-7-5026061",
+      "policy_key": "60c74eee0e5cc9afd5a021b7",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21375,6 +21633,7 @@
     {
       "title": "New Balance 5030 Men's Trainers in Black & Purple, Size 6 (\u00a342.49 with New Sign Up Code) - Free C&C",
       "url": "https://www.hotukdeals.com/deals/new-balance-5030-in-black-purple-size-6-ps4249-wcode-newhere-5024484",
+      "policy_key": "587e0b48e1beee1f3a6951af",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21412,6 +21671,7 @@
     {
       "title": "Sennheiser ACCENTUM Open Wireless Earbuds - Cream/Black/Sakura",
       "url": "https://www.hotukdeals.com/deals/sennheiser-accentum-open-wireless-earbuds-creamblacksakura-5025344",
+      "policy_key": "747e468fa535d592aed3a9b4",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21449,6 +21709,7 @@
     {
       "title": "BOSS Bottled Infinite Eau de Parfum for Him 200ml - \u00a347.50 / \u00a342.50 S&S",
       "url": "https://www.hotukdeals.com/deals/boss-bottled-infinite-eau-de-parfum-for-him-200ml-ps4750-ps4250-ss-5025672",
+      "policy_key": "5e0c3febd47dfd5f0457fc76",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21544,6 +21805,7 @@
     {
       "title": "Nike Air Max Moto 2K (Blue-Grey-Black) - Size 6, 7, 9 and 9.5 - Free Delivery for FLX Members (Free Sign Up)",
       "url": "https://www.hotukdeals.com/deals/nike-air-max-moto-2k-size-6-7-9-and-95-free-delivery-for-flx-members-5020973",
+      "policy_key": "e036aa04a606218c90c2b700",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21581,6 +21843,7 @@
     {
       "title": "adidas Men's Adizero Pacer Running Shoes - Size 7.5 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-adizero-pacer-running-shoes-size-75-uk-5024764",
+      "policy_key": "d637c6863edfd5f8adb95205",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21616,8 +21879,9 @@
       }
     },
     {
-      "title": "Adidas Men's Terrex Tracerocker 2 Gore-TEX Trail Running Shoes 11UK",
+      "title": "Adidas Men's Terrex Tracerocker 2 Gore-TEX Trail Running Shoes 5.5. - 12.5UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-tracerocker-2-gore-tex-trail-running-shoes-5026096",
+      "policy_key": "ab2509f60bd7049748f01949",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21645,7 +21909,7 @@
       ],
       "priority": 0,
       "first_seen": "2026-11-08T09:34:40+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Men%27s+Terrex+Tracerocker+2+Gore-TEX+Trail+Running+Shoes+11UK&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Men%27s+Terrex+Tracerocker+2+Gore-TEX+Trail+Running+Shoes+5.5.&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -21655,6 +21919,7 @@
     {
       "title": "3 x Cerruti 1881 Femme Eau de Toilette Spray 100ml (3 For 2) - Discount at Checkout",
       "url": "https://www.hotukdeals.com/deals/cerruti-1881-femme-eau-de-toilette-100ml-3-for-2-on-selected-fragrance-ps52-for-3-5025758",
+      "policy_key": "88bb0395ca0b995b6d42a15e",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21720,6 +21985,7 @@
     {
       "title": "Gucci Flora Gorgeous Orchid Eau de Parfum 50ml + 10ml Spray Set - Sold by Fragrance Click",
       "url": "https://www.hotukdeals.com/deals/gucci-flora-gorgeous-orchid-eau-de-parfum-50ml-10ml-spray-set-new-sold-by-fragrance-click-5025784",
+      "policy_key": "8633ee9b3bc88b245b87aa8c",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21782,6 +22048,7 @@
     {
       "title": "adidas Men's Terrex Skychaser Ax5 Hiking Shoes - Size 6.5 UK",
       "url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-skychaser-ax5-hiking-shoes-size-65-uk-5023929",
+      "policy_key": "175a04f8e5e8aca786b6f8ba",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21819,6 +22086,7 @@
     {
       "title": "Skechers Women's Glide-Step Altus Slip-On | Slip-Ins, Engineered Mesh Upper Trainers, Size 7",
       "url": "https://www.hotukdeals.com/deals/deal-skechers-womens-glide-step-altus-slip-on-slip-ins-engineered-mesh-upper-trainers-5025329",
+      "policy_key": "779f4881a28b0f521100a28d",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21856,6 +22124,7 @@
     {
       "title": "Puma Men's Velocity Nitro 5 Running Trainers, Sizes 7-12",
       "url": "https://www.hotukdeals.com/deals/puma-mens-velocity-nitro-5-running-trainers-sizes-7-12-5024586",
+      "policy_key": "14a9bf7515f00857f79c38af",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21893,6 +22162,7 @@
     {
       "title": "Sony WF-C710N Wireless Noise Cancelling Earbuds, 40hr Playtime, Multipoint Connection | Pink",
       "url": "https://www.hotukdeals.com/deals/sony-wf-c710n-wireless-noise-cancelling-earbuds-40hr-playtime-multipoint-connection-pink-5025090",
+      "policy_key": "4dcd99ab9dbaa284d61ab3b2",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -21961,6 +22231,7 @@
     {
       "title": "Hugo Boss The Scent For Her Eau De Parfum Gift Set 100ml",
       "url": "https://www.hotukdeals.com/deals/hugo-boss-the-scent-for-her-eau-de-parfum-gift-set-100ml-5026136",
+      "policy_key": "9e7d5f6cb64bfdf87a65da28",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22023,6 +22294,7 @@
     {
       "title": "Nike Football Chelsea Energy long sleeve football top on blue, Size XS-L,(\u00a346.74 w/code NEWHERE)",
       "url": "https://www.hotukdeals.com/deals/nike-football-chelsea-energy-long-sleeve-football-top-on-blue-size-xs-lps4674-wcode-newhere-5024140",
+      "policy_key": "37e2d2c089e123503d553bb8",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22060,6 +22332,7 @@
     {
       "title": "Mens Men's Nike Dunk Low Canvas Trainer, Colour: Off White / Dark Raisin / Spruce Aura, Size 6, Free C&C",
       "url": "https://www.hotukdeals.com/deals/mens-mens-nike-dunk-low-canvas-trainer-colour-off-white-dark-raisin-spruce-aura-size-6-free-cc-5021858",
+      "policy_key": "3e1e1f3e03b557f2045589ac",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22097,6 +22370,7 @@
     {
       "title": "Nike Men's Air Force 1 '07 Leather Shoes, Sizes 11.5, 12, 13, 14, 16, 17 in Black",
       "url": "https://www.hotukdeals.com/deals/nike-mens-air-force-1-07-leather-shoes-sizes-115-12-13-14-16-17-in-black-5023952",
+      "policy_key": "7427af960ce2ea80a33fd275",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22134,6 +22408,7 @@
     {
       "title": "Versace Eros Eau de Toilette 50ml Gift Set w/code",
       "url": "https://www.hotukdeals.com/deals/versace-eros-eau-de-toilette-50ml-gift-set-wcode-5025772",
+      "policy_key": "7179ebb47cdd8067444d0896",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22196,6 +22471,7 @@
     {
       "title": "Nike P-6000 Sneaker, Black, Blue & Silver, Size 4 or 5",
       "url": "https://www.hotukdeals.com/deals/nike-p-6000-sneaker-black-blue-silver-size-4-5-5025828",
+      "policy_key": "63abe61590ae67d8eb8c28fa",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22233,6 +22509,7 @@
     {
       "title": "Jean Paul Gaultier Scandal Gift Set EDP Spray 50ml + Body Lotion 75ml",
       "url": "https://www.hotukdeals.com/deals/jean-paul-gaultier-scandal-gift-set-edp-spray-50ml-body-lotion-75ml-5025754",
+      "policy_key": "4259b886fa65191d5ff6ad5b",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22295,6 +22572,7 @@
     {
       "title": "Makita DGA452Z 18V LXT 115mm Angle Grinder (Body Only)",
       "url": "https://www.hotukdeals.com/deals/makita-dga452z-18v-lxt-115mm-angle-grinder-body-only-5020929",
+      "policy_key": "2b6f29bbefd1584670ec14a3",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22332,6 +22610,7 @@
     {
       "title": "New Balance 5030 trainers in black, Size 6-6.5, (\u00a350.99 with New Sign Up Code) - Free C&C",
       "url": "https://www.hotukdeals.com/deals/new-balance-5030-trainers-in-black-size-6-65-ps5099-wcode-newhere-5024485",
+      "policy_key": "48e8f4a46d83427fbbd4441b",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22369,6 +22648,7 @@
     {
       "title": "Nike Air Force 1 Low Women's Trainers",
       "url": "https://www.hotukdeals.com/deals/nike-air-force-1-low-womens-5023154",
+      "policy_key": "0698d6efa46353a8a37f1baa",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22418,6 +22698,7 @@
     {
       "title": "adidas Adizero Evo SL ATR Mens Running Shoes - Black/White (Sizes 7, 8, 11) - Free Click and Collect - w/code",
       "url": "https://www.hotukdeals.com/deals/adidas-adizero-evo-sl-atr-mens-running-shoes-blackwhite-sizes-7-8-11-free-click-and-collect-wcode-5026082",
+      "policy_key": "2cca2210d6b30fe132417fe7",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22455,6 +22736,7 @@
     {
       "title": "Mens Nike P-6000, Burgundy Crush-College Grey-Va, Size 7 (With Code Via Unidays) - Free Delivery For Members (Free Sign Up)",
       "url": "https://www.hotukdeals.com/deals/mens-nike-p-6000-burgundy-crush-college-grey-va-size-7-wcode-unidays-5025820",
+      "policy_key": "11ff403280d198a6164e0ac3",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22492,6 +22774,7 @@
     {
       "title": "Nike P-6000 trainers with code - Selected Sizes Free C&C",
       "url": "https://www.hotukdeals.com/deals/nike-p-6000-trainers-5025037",
+      "policy_key": "b15773d1887afb1dab8b0081",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22529,6 +22812,7 @@
     {
       "title": "New Balance TFOAM Sneaker, Black, Limited Sizes 5-10",
       "url": "https://www.hotukdeals.com/deals/new-balance-tfoam-sneaker-black-size-5-10-5026064",
+      "policy_key": "98fcd85bd1962fb109c5cca3",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22566,6 +22850,7 @@
     {
       "title": "Makita DGA452Z 18V LXT 115mm Grinder - Body",
       "url": "https://www.hotukdeals.com/deals/makita-dga452z-18v-lxt-115mm-grinder-body-5023175",
+      "policy_key": "dd7ae38067fdb24bb4b0ebd7",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22603,6 +22888,7 @@
     {
       "title": "Nike Air Max 95 Trainers Black Med Olive White Reflect Silver Anthracite Lt, Size 4-4.5, w/code Blue Light Card, Free C&C",
       "url": "https://www.hotukdeals.com/deals/nike-air-max-95-trainers-black-med-olive-white-reflect-silver-anthracite-lt-size-4-45-wcode-blue-light-card-free-cc-5022216",
+      "policy_key": "cd5cf7c17f010e8277e10b87",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22640,6 +22926,7 @@
     {
       "title": "adidas Originals Men's Nmd S1 Ryat Chunky Trainers - Colour: Altered Blue",
       "url": "https://www.hotukdeals.com/deals/adidas-originals-mens-nmd-s1-ryat-chunky-trainers-coour-altered-blue-5025504",
+      "policy_key": "effc5f61f86a98fc9d57096a",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22677,6 +22964,7 @@
     {
       "title": "Mens Nike P-6000 in Silver Multi, Size 7-8 / Offwhite multi size 7-12 , Free C&C",
       "url": "https://www.hotukdeals.com/deals/mens-nike-p-6000-in-silver-multi-size-7-8-offwhite-multi-size-7-12-free-cc-5025825",
+      "policy_key": "fa1e46742d2b8b9601e21752",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22714,6 +23002,7 @@
     {
       "title": "Mens Nike Air Force 1 Low Trainers, Sail, Sizes 7-13 - with DFC/BLC Code - Free Delivery for Members",
       "url": "https://www.hotukdeals.com/deals/mens-nike-air-force-1-low-trainers-sail-sizes-7-13-with-dfcblc-code-free-delivery-for-members-5023471",
+      "policy_key": "debd44346f040493eef3cbf4",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22764,6 +23053,7 @@
     {
       "title": "Nike Air Max 90 Men Shoes Black Neon - Sizes 5.5 to 11 with DFC/BLC Code - Free Delivery for Members (Free Signup)",
       "url": "https://www.hotukdeals.com/deals/nike-air-max-90-men-shoes-black-neon-sizes-55-to-11-with-dfcblc-code-free-delivery-for-members-free-signup-5022338",
+      "policy_key": "f890de2eb190c2c19b00aa06",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22801,6 +23091,7 @@
     {
       "title": "Nike ZoomX Vaporfly Next% 4 Running Shoes with code",
       "url": "https://www.hotukdeals.com/deals/vaporfly-4-for-ps7250-with-code-run15-5025027",
+      "policy_key": "e05863dfeb1164b9d592adcf",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22838,6 +23129,7 @@
     {
       "title": "Versace Eros Eau de Toilette 100ml Gift Set w/code",
       "url": "https://www.hotukdeals.com/deals/versace-eros-eau-de-toilette-100ml-gift-set-wcode-5025768",
+      "policy_key": "d49a5299d1203bcf6a851a35",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -22898,73 +23190,9 @@
       }
     },
     {
-      "title": "Giorgio Armani I WILL Eau de Parfum 100ml",
-      "url": "https://www.hotukdeals.com/deals/giorgio-armani-i-will-eau-de-parfum-100ml-5025462",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Boots",
-      "item_price": 76.5,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/JBF6C/5025462_1/re/150x150/qt/55/5025462_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/giorgio-armani-i-will-eau-de-parfum-100ml-5025462",
-      "landed_cost": null,
-      "breakeven_sell": 97.28,
-      "sell_for_minimum_profit": 133.93,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 100,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 97.28,
-        "required_resale": 133.93,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 76.5,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Giorgio+Armani+I+WILL+Eau+de+Parfum+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Puma Deviate Pure NITRO Running Trainers",
       "url": "https://www.hotukdeals.com/deals/puma-deviate-pure-nitro-5024251",
+      "policy_key": "e3ff45f7a55fe77bf8ec0cfc",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23002,6 +23230,7 @@
     {
       "title": "Google Pixel Buds 2a Active Noise Cancelling True Wireless Bluetooth In-Ear Headphones, Hazel",
       "url": "https://www.hotukdeals.com/deals/google-pixel-buds-2a-active-noise-cancelling-true-wireless-bluetooth-in-ear-headphones-hazel-5024007",
+      "policy_key": "91a1500a012968791d9c0f6c",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23039,6 +23268,7 @@
     {
       "title": "Bose SoundLink Flex Portable Speaker (2nd Gen) - Refurbished Good As New Several Colours",
       "url": "https://www.hotukdeals.com/deals/bose-soundlink-flex-portable-speaker-2nd-gen-refurbished-good-as-new-several-colours-5026076",
+      "policy_key": "c4b026f0be8de0edd7a34458",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23076,6 +23306,7 @@
     {
       "title": "Saucony Endorphin Trainer Men's Running Shoes - Sizes 6-8.5 and 11.5",
       "url": "https://www.hotukdeals.com/deals/saucony-endorphin-trainer-mens-running-shoes-5025920",
+      "policy_key": "def2cab62df5b84524bb2635",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23113,6 +23344,7 @@
     {
       "title": "Chanel Chance Eau Fraiche Eau De Toilette 150ml",
       "url": "https://www.hotukdeals.com/deals/chanel-chance-eau-fraiche-eau-de-toilette-150ml-5026088",
+      "policy_key": "a357d4ead6bc2c3adba54ef2",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23178,6 +23410,7 @@
     {
       "title": "CHANEL Chance Eau Vive Eau De Toilette 150ml",
       "url": "https://www.hotukdeals.com/deals/chanel-chance-eau-vive-eau-de-toilette-150ml-5026090",
+      "policy_key": "6a6214da73df8057ee82454e",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23243,6 +23476,7 @@
     {
       "title": "Apple AirPods Headphones 5th Generation Active Noise Cancellation - Excellent Refurbished - w/Code, Sold by The Outlet Hub (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/apple-airpods-headphones-5th-generation-active-noise-cancellation-excellent-refurbished-wcode-sold-by-the-outlet-hub-5025374",
+      "policy_key": "72de51d797bdb6eb5b75b82e",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23280,6 +23514,7 @@
     {
       "title": "Turtle Beach Stealth 700 Wireless Multiplatform Gaming Headset for PS5 & PC",
       "url": "https://www.hotukdeals.com/deals/turtle-beach-stealth-700-wireless-multiplatform-gaming-headset-for-ps5-pc-5024095",
+      "policy_key": "936513397300ea7afe7a1c52",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23317,6 +23552,7 @@
     {
       "title": "DeWalt DCF809D2T-GB 18V XR Brushless Impact Driver Kit 2 x 2.0Ah",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcf809d2t-gb-18v-xr-brushless-impact-driver-kit-2-x-20ah-5024626",
+      "policy_key": "827848a42fc56589770abd76",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23354,6 +23590,7 @@
     {
       "title": "Grand Theft Auto VI - PS5 + Limited Edition White DualSense Controller - First 1,000 Eligible EE One Up Customers",
       "url": "https://www.hotukdeals.com/deals/playstations-gtavi-plus-the-gtavi-limited-edition-white-controller-for-ps10799-ee-one-customers-5024488",
+      "policy_key": "6e7eb55e2d011eb00c3c2411",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23391,6 +23628,7 @@
     {
       "title": "Denon Perl Earbuds",
       "url": "https://www.hotukdeals.com/deals/deon-perl-earbuds-5025093",
+      "policy_key": "5fe8f3f24c4725b7e222ba28",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23428,6 +23666,7 @@
     {
       "title": "DEWALT TSTAK 2.0 Storage Tower",
       "url": "https://www.hotukdeals.com/deals/dewalt-tstak-20-storage-towe-5020149",
+      "policy_key": "ea74449201d0443a8211988b",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23465,6 +23704,7 @@
     {
       "title": "Fanxiang S880R 1TB PCIe 4.0 NVMe M.2 SSD with Heatsink, Up to 7450MB/s, PS5 & PC Compatible W/Code @ FANXIANG Official Store",
       "url": "https://www.hotukdeals.com/deals/fanxiang-s880r-1tb-pcie-40-nvme-m2-ssd-with-heatsink-up-to-7450mbs-ps5-pc-compatible-5024149",
+      "policy_key": "4a294ddbf94066bc013ec629",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23502,6 +23742,7 @@
     {
       "title": "DEWALT DCS382N-XJ 18V XR Brushless Reciprocating Saw - Bare Unit",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcs382n-xj-18v-xr-brushless-reciprocating-saw-bare-unit-5022170",
+      "policy_key": "c37ce882bfae6401c880c571",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23539,6 +23780,7 @@
     {
       "title": "Makita Jigsaw DJV182Z Brushless 18v LXT Body Only",
       "url": "https://www.hotukdeals.com/deals/makita-jigsaw-djv182z-brushless-18v-lxt-body-only-5020188",
+      "policy_key": "46889dd325a400ebfbaf4414",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23576,6 +23818,7 @@
     {
       "title": "Sennheiser Headphones MOMENTUM True Wireless In-Ear Black - Excellent Refurbished sold by The Outlet Hub (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/sennheiser-headphones-momentum-true-wireless-in-ear-black-excellent-refurbished-sold-by-the-outlet-hub-5025395",
+      "policy_key": "a79e9456729e1b1f83352c67",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23613,6 +23856,7 @@
     {
       "title": "Samsung Galaxy Buds4 Pro, Wireless Bluetooth Earbuds, Real Metal Blade",
       "url": "https://www.hotukdeals.com/deals/samsung-galaxy-buds4-pro-wireless-bluetooth-earbuds-real-metal-blade-5024121",
+      "policy_key": "c8bc83340a79e62501c6b650",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23650,6 +23894,7 @@
     {
       "title": "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcs565n-xj-18v-165mm-xr-brushless-circular-saw-bare-unit-5023065",
+      "policy_key": "3d52c2d99e3946ef078b666b",
       "category": "tools",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23687,6 +23932,7 @@
     {
       "title": "Bose Headphones Over-Ear Headphones QuietComfort Noise Cancelling - Refurb - Very Good - Sold by The Outlet Hub (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/bose-headphones-over-ear-headphones-quietcomfort-noise-cancelling-refurb-very-good-sold-by-the-outlet-hub-5025339",
+      "policy_key": "1d51cc2795de1a26d253b468",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23724,6 +23970,7 @@
     {
       "title": "4TB WD_BLACK P10 portable Game Drive for Playstation, Xbox, PC, & Mac via Amazon EU",
       "url": "https://www.hotukdeals.com/deals/5tb-wd-black-p10-portable-game-drive-for-playstation-xbox-pc-mac-via-amazon-eu-5023552",
+      "policy_key": "96d38086320da3d4ea398e9a",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23761,6 +24008,7 @@
     {
       "title": "Sony WH-1000XM5 Over-Ear Noise Cancelling Headphones Smoky Pink 30hr Hard Case - With Code - Sold by STOCSUK",
       "url": "https://www.hotukdeals.com/deals/sony-wh-1000xm5-over-ear-noise-cancelling-headphones-smoky-pink-30hr-hard-case-with-code-sold-by-stocsuk-5025085",
+      "policy_key": "f4add4b5b9b4490169c5f9e2",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23798,6 +24046,7 @@
     {
       "title": "Bose QuietComfort Headphones - Refurbished - 6 Colours",
       "url": "https://www.hotukdeals.com/deals/bose-quietcomfort-headphones-refurbished-multiple-colours-5025330",
+      "policy_key": "fb77fa6d5b434e9b7dd313a6",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -23835,6 +24084,7 @@
     {
       "title": "Sonos Ace Noise Cancelling Bluetooth Headphones - Refurbished + 1 Year Warranty - Sold by sonos_uk_official_store",
       "url": "https://www.hotukdeals.com/deals/sonos-ace-noise-cancelling-bluetooth-headphones-refurbished-1-year-warranty-sold-by-sonos-uk-official-store-5025744",
+      "policy_key": "55ab50dfdc42c0ee245dd9ab",
       "category": "tech",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
