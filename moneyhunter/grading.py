@@ -41,6 +41,9 @@ def grade(d: Deal, bankroll: float, platform: str = "ebay_business") -> Optional
     stretch = d.stretch or d.target
     quick = round(d.target * C.QUICK_FACTOR, 2)
     floor_fresh = d.floor_age_days is not None and 0 <= d.floor_age_days <= C.MAX_FLOOR_AGE_DAYS
+    if getattr(d,'floor_observed_at',None):
+        from .evidence import age_hours
+        floor_fresh = floor_fresh and 0 <= age_hours(d.floor_observed_at) < 24
     verified_floor = d.floor_verified and floor_fresh
     velocity_fresh = d.velocity_age_days is not None and 0 <= d.velocity_age_days <= C.MAX_VELOCITY_AGE_DAYS
     floor = d.floor if verified_floor and d.floor is not None else round(d.target * C.UNVERIFIED_FLOOR_FACTOR, 2)

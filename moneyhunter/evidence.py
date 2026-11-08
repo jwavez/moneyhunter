@@ -30,6 +30,23 @@ def date(v, today):
     if d > today: raise ValueError("future evidence date")
     return d
 
+
+def instant(v, today=None):
+    """Original quote/offer time; legacy dates mean midnight UTC, never review time."""
+    if isinstance(v,str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}",v):
+        value=dt.datetime.combine(date(v,today or dt.date.today()),dt.time(),dt.timezone.utc)
+    else:
+        try:value=dt.datetime.fromisoformat(v.replace("Z","+00:00"))
+        except (TypeError,ValueError,AttributeError):raise ValueError("ISO timestamp with timezone required") from None
+        if value.tzinfo is None:raise ValueError("timezone required")
+        value=value.astimezone(dt.timezone.utc)
+    limit=dt.datetime.now(dt.timezone.utc) if today is None or today==dt.date.today() else dt.datetime.combine(today,dt.time.max,dt.timezone.utc)
+    if value>limit:raise ValueError("future evidence time")
+    return value
+
+def age_hours(v, when=None):
+    return ((when or dt.datetime.now(dt.timezone.utc))-instant(v)).total_seconds()/3600
+
 def public_url(v):
     if not isinstance(v, str): raise ValueError("public HTTPS source URL required")
     u = urlsplit(v)
@@ -94,12 +111,12 @@ def validate(record, today=None):
     if floor:
         _keys(floor, ("amount", "exit_cost", "currency", "kind", "observed_at", "url", "identity"))
         number(floor.get("amount"), "floor"); number(floor.get("exit_cost"), "floor exit cost", True)
-        date(floor.get("observed_at"), today); public_url(floor.get("url"))
+        instant(floor.get("observed_at"), today); public_url(floor.get("url"))
         if floor.get("kind") != "cash" or floor.get("currency") != "GBP" or floor.get("identity") != identity:
             raise ValueError("floor must be cash, GBP and exact identity; never voucher value")
     for offer in record.get("offers", []):
         _keys(offer, ("url", "source_url", "observed_at", "price", "delivery", "online", "in_stock", "identity"))
-        public_url(offer.get("url")); public_url(offer.get("source_url")); date(offer.get("observed_at"), today)
+        public_url(offer.get("url")); public_url(offer.get("source_url")); instant(offer.get("observed_at"), today)
         number(offer.get("price"), "offer price"); number(offer.get("delivery"), "delivery", True)
         if offer.get("online") is not True or offer.get("in_stock") is not True or offer.get("identity") != identity:
             raise ValueError("offer must be exact variant, online and in stock")
@@ -137,11 +154,11 @@ def ingest(incoming, store):
     atomic_write(store, {"schema_version": 1, "records": records})
     return len(additions)
 
-def load(path, today=None):
+def load(path=None, today=None, records=None):
     from .comps import Comp
     today = today or dt.date.today()
     out = []
-    for r in read_records(path):
+    for r in (read_records(path) if records is None else [validate(r,today) for r in records]):
         observations = [o for o in r["observations"] if 0 <= (today - date(o["sold_at"], today)).days <= C.MAX_COMP_AGE_DAYS]
         if not observations: continue
         prices = sorted(o["price"] for o in observations)
@@ -150,6 +167,8 @@ def load(path, today=None):
         # Conservative age: every observation supporting this valuation must still be fresh.
         sold_at = min(date(o["sold_at"], today) for o in observations)
         vel, floor = r.get("velocity"), r.get("floor")
+        clock=dt.datetime.now(dt.timezone.utc) if today==dt.date.today() else dt.datetime.combine(today,dt.time(),dt.timezone.utc)
+        if floor and not 0 <= (clock-instant(floor["observed_at"],today)).total_seconds() < 86400:floor=None
         velocity_at = date(vel["observed_at"], today) if vel else None
         sold_in_window = [o for o in r["observations"] if 0 <= (today-date(o["sold_at"], today)).days <= 90]
         # Sample turnover, not extrapolated marketplace-wide sales. All samples need listing dates.
@@ -161,21 +180,22 @@ def load(path, today=None):
             f"{len(observations)} reviewed exact-variant GBP sold observations", "reviewed evidence " + r["id"],
             max(0, floor["amount"] - floor["exit_cost"]) if floor else None, floor["url"] if floor else "",
             len(observations), st, dts, sold_at, "sold", r["identity"],
-            date(floor["observed_at"], today) if floor else None, velocity_at,
+            instant(floor["observed_at"], today).date() if floor else None, velocity_at,
             [o["url"] for o in observations], r.get("offers", [])))
+        out[-1].floor_observed_at=floor["observed_at"] if floor else None
     return out
 
 
-def public_catalog(path, today=None):
+def public_catalog(path=None, today=None, records=None):
     """Independent exact-product valuations, including products absent from this RSS scan.
 
     No offer, alert grade, estimated floor, contact details or inferred velocity is exported.
     Observation dates are explicit when recorded; legacy missing dates stay unknown.
     """
     today = today or dt.date.today()
-    records = {r["id"]: r for r in read_records(path)}
+    records = {r["id"]: r for r in (read_records(path) if records is None else records)}
     catalog = []
-    for comp in load(path, today):
+    for comp in load(path, today, records=list(records.values())):
         record_id = comp.source.removeprefix("reviewed evidence ")
         r = records[record_id]
         sales = [o for o in r["observations"] if 0 <= (today-date(o["sold_at"], today)).days <= C.MAX_COMP_AGE_DAYS]

@@ -161,6 +161,15 @@ def sources_text(sources):
             lines.append(f"{name}: {v.get('status', 'not configured')}{suffix}")
     return " · ".join(lines)[:1000] or "Not reported"
 
+def nearest_above(stats):
+    x=stats.get('nearest_above_cap')
+    return f"None under cap. Nearest fully priced above cap: {x['title'][:140]} at £{x['landed']:.2f}, £{x['gap']:.2f} over cap. Research only." if x else "None under cap; no fully priced above-cap candidate qualified this scan."
+
+def why_zero(stats):
+    s=stats.get('publication_stages',{})
+    reasons=', '.join(f"{v} {k.replace('_',' ')}" for k,v in s.get('hold_reasons',{}).items())
+    return f"Why 0 buys: {reasons or 'no candidate passed all independent evidence and profit gates'}. {s.get('research_watch_candidates',0)} supported research candidates were not buying signals."
+
 def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
     # Status is aggregate-only: required targets/reference near-misses are not
     # supported selling prices. Individual research lives in price-gated cards.
@@ -179,10 +188,10 @@ def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
             {"name": "Source health", "value": sources_text(stats.get("sources", {})), "inline": False},
             {"name": "🟢 A", "value": str(stats["A"]), "inline": True},
             {"name": "🟡 B", "value": str(stats["B"]), "inline": True},
-            {"name": "🔴 Rejected", "value": str(stats["R"]), "inline": True},
-            {"name": "Closest near-misses", "value": "\n".join(lines) if lines else "None under the price cap this scan", "inline": False},
+            {"name": "🔴 Rejected", "value": f"{stats['R']}: {stats.get('rejected_reference',stats['R'])} legacy/reference rows, {stats.get('rejected_sold',0)} reviewed-sold; not failed scans", "inline": True},
+            {"name": "Closest near-misses", "value": "\n".join(lines) if lines else nearest_above(stats), "inline": False},
             {"name": "Safety filters", "value": f"{stats.get('uncertain', 0)} uncertain matches · {stats.get('stale', 0)} stale references · expiry checked {stats.get('expiry_checked', 0)}, expired {stats.get('expired', 0)}, unknown/not checked {stats.get('expiry_unknown', 0)}", "inline": False},
-            {"name": "Help price more deals", "value": f"{stats['unpriced']} without legacy/reference pricing; {stats.get('without_any_pricing',stats['unpriced'])} without either pricing lane. {stats.get('review_candidates',0)} research candidates in review_queue. Submit exact competitor asking links for estimate research or actual sold links for evidence review; neither automatically becomes BUY. Above-budget remains WATCH ONLY.", "inline": False},
+            {"name": "Help price more deals", "value": f"{stats['scanned']-stats.get('publication_stages',{}).get('supported_market_estimates',0)} offers have no supported market estimate; {stats.get('without_any_pricing',stats['unpriced'])} have no pricing lane at all. {stats.get('review_candidates',0)} research candidates in review_queue. Submit exact competitor asking links for estimate research or actual sold links for evidence review; neither automatically becomes BUY. Above-budget remains WATCH ONLY.", "inline": False},
         ],
         "footer": {"text": f"Last prior successful scan: {stats.get('previous_success') or 'no history yet'} · gap {stats.get('gap_minutes', '?')} min"},
         "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -206,7 +215,7 @@ def quiet_card(stats: dict, pulse: str) -> dict:
     """Professional 'market quiet' note when a scan finds no A/B deals. No profit claims."""
     return {"title": "🔎 No verified buying opportunities this scan", "color": BLUE,
             "description": (f"Scanned **{stats['scanned']}** offers · {stats.get('new','?')} new / {stats.get('rescanned','?')} rescans · {stats.get('ask_valued',0)} research models generated (NOT necessarily supported prices) · model flags before publication: {stats.get('estimated_opportunities',0)} Strong CHECK / {stats.get('worth_reviewing',0)} manual review / {stats.get('above_budget_estimates',0)} above-budget research models.\nSeparately: {stats['priced']} legacy/reference valuations, {stats.get('sold_valued',0)} sold-valued; {stats.get('A',0)} verified BUY / {stats.get('B',0)} verified VERIFY. This is not proof the market has no deals.\n"
-                            f"**Market pulse:** {pulse}\n\n"
+                            f"{why_zero(stats)}\n**Market pulse:** {pulse}\n\n"
                             "Supported research goes to research-watch (existing near-misses fallback), not opportunity/category feeds. Unpriced products remain internal research.\n"
                             "⚡ Fast movers (≤10 days to sell) post to #fast-movers when they appear.\n"
                             "Cron targets 30 minutes but can be delayed/dropped; see scan health. Never force a bad buy.")[:4096],

@@ -6,6 +6,7 @@ import {productImage} from "./capture.js";
 // MONEYHUNTER Discord bot: HTTP interactions on Cloudflare Workers (no gateway), button-driven UI.
 import { calc, parseCsv, findComp, findReviewed, gbp, verifyDiscord } from "./logic.js";
 import * as CM from "./community.js";
+import * as EV from "./evidence.js";
 import { capture, readCapture, publicCapture } from "./capture.js";
 
 const C = { A: 0x22c55e, B: 0xf59e0b, R: 0xef4444, BRAND: 0x8b5cf6, INFO: 0x3b82f6 };
@@ -42,7 +43,10 @@ async function getDeals(env) {
   const r = await fetch(env.DEALS_URL, { cf: { cacheTtl: 60 } });
   if (!r.ok) throw new Error("deals feed " + r.status);
   const d = {...await r.json()};
-  d.deals=physicalRows(d.deals);d.review_queue=physicalRows(d.review_queue);
+  let revisions={};try{revisions=(await EV.publicFacts(env)).record_revisions;}catch{}
+  const current=x=>!String(x.evidence_record_id??x.id??'').startsWith('community_')||!!x.evidence_revision&&revisions[x.evidence_record_id??x.id]===x.evidence_revision;
+  d.deals=physicalRows(d.deals).filter(current);d.review_queue=physicalRows(d.review_queue).filter(current);
+  d.pricing_catalog=(d.pricing_catalog??[]).filter(current);
   d.scanner_stale = !Number.isFinite(Date.parse(d.generated_utc)) || Date.now()-Date.parse(d.generated_utc) > 90*60000;
   try { d.capture = publicCapture(await readCapture(env)); d.review_queue = mergeResearch(d.review_queue ?? [], d.capture); }
   catch { d.capture = {status:"capture_state_unavailable",items:[]}; }
@@ -139,6 +143,7 @@ function panel(d) {
     components: [
       row(btn("v:top:0", "Verified Deals", "🟢", 3), btn("v:near:0", "Near Misses", "🟡", 1), btn("p:cats", "Categories", "🗂️")),
       row(btn("p:calc", "Profit Calculator", "🧮", 1), btn("p:price", "Price Check", "💷", 1), btn("research:0", "Resale Estimates", "🔎", 1)),
+      row(btn("ev:home", "Evidence / Private outcomes", "🧾")),
       row(btn("p:how", "How it works", "📘"), btn("p:scan", "Scan Now", "⚡")),
     ],
   };
@@ -354,6 +359,7 @@ async function handleCommand(i, env) {
 
 async function handleComponent(i, env) {
   const id = i.data.custom_id;
+  if(id.startsWith("ev:")){const r=await EV.component(i,env);return r.modal?modal(r.modal):msg(r.data);}
   const fromPanel = !(i.message?.flags & EPH);       // clicks on the shared panel open a private view
   const show = data => (fromPanel ? msg(data) : upd(data));
   const [k, f, n] = id.split(":");
@@ -371,7 +377,7 @@ async function handleComponent(i, env) {
   if (id === "p:cats") return show(catsView());
   if (id === "p:how") return show(howView());
   if (id === "fl:open") return modal(CM.flipModal());
-  if (id === "sc:open") return modal(CM.compModal());
+  if (id === "sc:open") return msg(EV.panel());
   if (id === "lb:show") return msg({ embeds: [CM.lbEmbed(await CM.leaderboard(env))] });
   if (id === "p:scan") return msg({ content: "⚡ **Scan Now is coming soon.** Cron targets 30 minutes but can be delayed or dropped." });
   if (id === "cat") { const d = await getDeals(env); const c = i.data.values[0]; return show(dealView(d, filterDeals(d.deals, c), c, 0)); }
@@ -385,6 +391,7 @@ async function handleComponent(i, env) {
 
 async function handleModal(i, env, ctx) {
   const v = fieldVals(i);
+  if(i.data.custom_id.startsWith("ev:"))return msg(await EV.submit(i,v,env));
   if (i.data.custom_id === "m:calc") {
     const buy = num(v.buy), sell = num(v.sell);
     const platform = PLATFORMS[String(v.platform || "ebay").trim().toLowerCase()];
@@ -413,6 +420,9 @@ export default {
   },
   async fetch(req, env, ctx) {
     const url = new URL(req.url || "https://x/");
+    if(req.method==='GET'&&url.pathname==='/api/reviewed-evidence'){
+      try{return json(await EV.publicFacts(env));}catch{return json({error:'Reviewed market facts unavailable; fail closed'},503);}
+    }
     if (req.method === "GET" && url.pathname === "/api/research-capture") {
       try { return json(publicCapture(await readCapture(env))); }
       catch { return json({error:"Public capture unavailable"},503); }
@@ -440,4 +450,4 @@ export default {
     } catch (e) { return msg({ content: "⚠️ Something went wrong: " + String(e.message).slice(0, 150) }); }
   },
 };
-export const _test = {policyView,stageText,handleComponent, flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields, estimateFields, priceView };
+export const _test = {policyView,stageText,handleComponent,handleModal,getDeals, flipPanel: CM.flipPanel, compsPanel: CM.compsPanel, panel, dealView, calcView, filterDeals, planView, catsView, researchView, mergeResearch, freshAsking, askFields, estimateFields, priceView };

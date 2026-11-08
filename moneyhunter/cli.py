@@ -35,8 +35,9 @@ def checked_offer(raw, comp):
     from . import matching
     if matching.quoted_offer_check(raw["title"], raw.get("desc", ""), comp): return None
     for offer in getattr(comp, "offers", []):
-        age = (dt.date.today() - dt.date.fromisoformat(offer["observed_at"])).days
-        if offer["url"] == raw["url"] and abs(offer["price"] - raw["price"]) < 0.005 and 0 <= age <= C.MAX_OFFER_AGE_DAYS:
+        from .evidence import age_hours
+        age = age_hours(offer["observed_at"])/24
+        if offer["url"] == raw["url"] and abs(offer["price"] - raw["price"]) < 0.005 and 0 <= age < C.MAX_OFFER_AGE_DAYS:
             return offer
     return None
 
@@ -59,6 +60,9 @@ def build_deal(raw: dict, comp) -> G.Deal:
         d.velocity_age_days = (dt.date.today()-comp.velocity_as_of).days if comp.velocity_as_of else None
         d.evidence_type = comp.evidence_type
         d.comp_has_evidence = comp.evidence_type == "sold" and bool(comp.source_urls)
+        d.floor_observed_at=getattr(comp,'floor_observed_at',None)
+        d.evidence_record_id=getattr(comp,'evidence_record_id',None)
+        d.evidence_revision=getattr(comp,'evidence_revision',None)
         d.comp_match = comp.match
         d.comp_urls = comp.source_urls
         d.offer_observed_at = offer["observed_at"] if offer else None
@@ -121,7 +125,7 @@ def run_scan():
     errors = []
     warnings = []
     if "FAILED" in ebay_health: errors.append("eBay authentication failed; competition context unavailable")
-    if os.getenv("MH_TIER_WARNING"): warnings.append("Private tier unavailable or invalid; using starter cap (community index 0)")
+    if os.getenv("MH_TIER_WARNING"): warnings.append("Using starter policy: £60 cap, £8 net + 40% ROI Strong threshold")
     operational = RT.load(OPERATIONAL)
     from . import watchlist
     operational['detail_run']={'calls':0,'cached':0,'errors':[],'reserved_tools':2}
@@ -129,6 +133,8 @@ def run_scan():
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
     from .scanners import capture
     raws = capture.merge(raws, capture.scan(log=lambda m: (print(m), errors.append(m))))
+    from . import variants
+    raws=[variants.attach_source_identity(r) for r in raws]
     watchlist.migrate(operational,when)
     persistent_health=watchlist.refresh_stale(operational,when,budget=2)
     watchlist.build(operational,when)
@@ -145,6 +151,8 @@ def run_scan():
     if counts["gap_minutes"] is not None and counts["gap_minutes"] > C.MAX_SCAN_GAP_MINUTES:
         errors.append(f"Scan gap {counts['gap_minutes']:.0f} minutes; 30-minute cron is best effort")
     comps = CP.load()
+    from . import review_bridge
+    comps = review_bridge.load(comps) + comps
     graded, unpriced, review = [], [], []
     for raw in raws:
         raw.pop("ask_estimate",None)  # Rebuild derived models; never count retained stale models as newly priced.
@@ -154,6 +162,7 @@ def run_scan():
         if comp is None: comp, why_not = CP.find_with_reason(raw["title"], comps, raw.get("desc", ""))
         d = build_deal(raw, comp)
         if d.delivery_known: raw["inbound_delivery"] = d.inbound_delivery
+        d.identity_evidence=raw.get("identity_evidence",[])
         d.thumb = raw.get("thumb", ""); d.match_warning = why_not
         for attr in ("image_status","image_verified_url","image_verified_until","image_basis","image_source_url","image_candidates"):setattr(d,attr,raw.get(attr))
         res = G.grade(d, br)
@@ -176,7 +185,7 @@ def run_scan():
             score += 10 if re.search(r"\b(?:[a-z]{2,}\d{2,}|\d{5,6})\b", raw["title"], re.I) else 0
             score += 5 if d.delivery_known else 0
             raw["review_priority"] = score
-            review.append({"title": d.title, "url": d.url,"policy_key":__import__("moneyhunter.routing",fromlist=["policy_key"]).policy_key(d.url), "category": d.category,"source":raw.get("source","hotukdeals"),"price_basis":raw.get("price_basis"),"primary_offer_status":raw.get("primary_offer_status"),"secondary_offer_note":raw.get("secondary_offer_note"),"offer_ambiguity":raw.get("offer_ambiguity"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
+            review.append({"title": d.title, "url": d.url,"policy_key":__import__("moneyhunter.routing",fromlist=["policy_key"]).policy_key(d.url), "category": d.category,"source":raw.get("source","hotukdeals"),"price_basis":raw.get("price_basis"),"identity_evidence":raw.get("identity_evidence",[]),"primary_offer_status":raw.get("primary_offer_status"),"secondary_offer_note":raw.get("secondary_offer_note"),"offer_ambiguity":raw.get("offer_ambiguity"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
                 **{k:raw.get(k) for k in ("image_status","image_verified_url","image_verified_until","image_checked_at","image_candidates")},
                 "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
@@ -214,15 +223,30 @@ def run_scan():
         deal.ask_estimate=raw_by_url.get(deal.url,{}).get('ask_estimate')
         deal.publication_listing=res.plan['list']
     checked = drop_expired(graded, br)
+    # Reviewed sold valuations must use the same publication/count/route pipeline,
+    # not disappear from raw research merely because no asking model exists.
+    sold_fields=('evidence_type','evidence_record_id','evidence_revision','sold_sources','sold_90d','comp_age_days','publication_listing','plan','buy','postage','grade','delivery_known','availability','offer_verified','net','roi')
+    for deal,result in graded:
+        if deal.evidence_type=='sold':
+            facts=_public_deal(deal,result)
+            raw_by_url[deal.url].update({k:facts[k] for k in sold_fields})
+            for entry in review:
+                if entry['url']==deal.url:entry.update({k:facts[k] for k in sold_fields})
     order = {"A": 0, "B": 1, "R": 2}
     graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
     graded.sort(key=lambda x: (order[x[1].grade[0]], -x[1].ev_net))
     affordable = [(d, r) for d, r in graded if r.cost <= cap and d.delivery_known]
     diagnostics = hotukdeals.LAST_DIAGNOSTICS
     if not raws: errors.append("No deals read from any feed")
-    stats = {"scanned": len(raws), "priced": len(graded), "unpriced": len(unpriced), "affordable": len(affordable),
+    from . import publication
+    retail=[r for r in raws if r.get('source','hotukdeals')!='ebay_browse']
+    landed_under=[r for r in retail if r.get('inbound_delivery') is not None and r['price']+r['inbound_delivery']<=cap]
+    revalued=[r for r in landed_under if r.get('ask_estimate')]
+    revaluation={'retailer_offers':len(retail),'known_landed_under_cap':len(landed_under),'under_cap_revalued_independently':len(revalued),'under_cap_supported':sum(publication.allowed(r) for r in revalued),'under_cap_without_model':len(landed_under)-len(revalued),'retailer_unknown_delivery':sum(r.get('inbound_delivery') is None for r in retail),'method':'All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY.'}
+    stats = {"retailer_revaluation":revaluation,"scanned": len(raws), "priced": len(graded), "unpriced": len(unpriced), "affordable": len(affordable),
              "A": sum(r.grade[0] == "A" for _, r in affordable), "B": sum(r.grade[0] == "B" for _, r in affordable),
              "R": sum(r.grade == "REJECT" for _, r in graded),
+             "rejected_reference":sum(r.grade=="REJECT" and d.evidence_type!="sold" for d,r in graded),"rejected_sold":sum(r.grade=="REJECT" and d.evidence_type=="sold" for d,r in graded),
              "uncertain": sum(bool(getattr(d, "match_warning", "")) for d in unpriced),
              "stale": sum(d.comp_age_days is None or d.comp_age_days > C.MAX_COMP_AGE_DAYS for d, _ in graded),
              "expired": sum(getattr(d, "expired", False) for d, _ in graded), "expiry_checked": checked,
@@ -248,14 +272,15 @@ def run_scan():
              "pricing_coverage":{cat:{"offers":sum(r.get('category')==cat for r in raws),
                  "exact_identity":sum(market.identity(r) is not None for r in raws if r.get('category')==cat),
                  "estimated_offers":sum(bool(r.get('ask_estimate')) for r in review if r['category']==cat),
-                 "estimated_products":len({r['ask_context']['query'] for r in review if r['category']==cat and r.get('ask_estimate')})}
+                 "estimated_products":len({r['ask_context']['query'] for r in review if r['category']==cat and r.get('ask_estimate')}),
+                 "supported_retailer_identities":len({(str(r.get('merchant','')).casefold(),market.cache_key(market.identity(r))) for r in raws if r.get('category')==cat and r.get('source','hotukdeals')!='ebay_browse' and publication.allowed(r) and market.identity(r)})}
                  for cat in sorted({r.get('category') for r in raws})},
              "browse_usage":operational.get('browse_usage',{}),
              "warnings":warnings[:20], "errors": errors[:20], "sources": {"hotukdeals": diagnostics,
                  "ebay": {"status": ebay_health, "purpose": "active asking competition only", "research": ask_health},
                  "capture_buffer": capture.LAST_DIAGNOSTICS,
                  "ebay_acquisition":discovery.LAST_DIAGNOSTICS,
-                 "cash_floors": {"automatic_source": False, "status": "reviewed exact cash quotes only"}}, **counts}
+                 "reviewed_bridge":review_bridge.LAST_STATUS, "cash_floors": {"automatic_source": False, "status": "reviewed exact cash quotes only"}}, **counts}
     if raws and not diagnostics.get("feeds_failed"): operational["last_success"] = RT.stamp(RT.now())
     operational["ask_cache"] = {k:v for k,v in operational["ask_cache"].items() if k == "browse-blocked" or v.get("date", "") >= (dt.date.today()-dt.timedelta(days=7)).isoformat()}
     LAST_OPERATIONAL = operational
@@ -290,6 +315,11 @@ def run_scan():
     stats['item_details']=dict(operational['detail_run'])
     from . import routing
     stats['publication_stages']=routing.stages(raws,graded)
+    above_priced=[r for r in raws if publication.allowed(r) and images.publishable(r) and r.get('inbound_delivery') is not None and r['price']+r['inbound_delivery']>cap]
+    if above_priced:
+        n=min(above_priced,key=lambda r:r['price']+r['inbound_delivery'])
+        stats['nearest_above_cap']={'title':n['title'],'landed':n['price']+n['inbound_delivery'],'gap':round(n['price']+n['inbound_delivery']-cap,2),'url':n['url']}
+
     stats['routing_destinations']=hub.destination_roles()
     stats['nearest_priced_misses']=routing.nearest(raws)
     stats['notification_delivery']={'mode':stats.get('delivery_mode','pending'),'product_messages_delivered':0,'by_route':{}}
@@ -313,7 +343,7 @@ def _public_deal(d, r):
             "why": (["Deal expired"] if getattr(d, "expired", False) else []) + E.gates_failed(r)[:3], "thumb": getattr(d, "thumb", ""), "comp": (d.comp_note or "")[:200],
             "ebay_sold": E.ebay_sold_url(E.short_query(d.title)), "vinted": E.vinted_url(E.short_query(d.title)),
             "delivery": d.delivery, "days_to_sell": d.days_to_sell, "under_cap": r.cost <= E.community_cap() and d.delivery_known,
-            "evidence_type": d.evidence_type, "sold_sources": getattr(d, "comp_urls", [])[:10],
+            "identity_evidence":getattr(d,"identity_evidence",[]),"evidence_record_id":getattr(d,"evidence_record_id",None),"evidence_revision":getattr(d,"evidence_revision",None),"evidence_type": d.evidence_type, "sold_sources": getattr(d, "comp_urls", [])[:10],
             "floor_age_days": d.floor_age_days, "velocity_age_days": d.velocity_age_days,
             "offer_observed_at": getattr(d, "offer_observed_at", None), "delivery_known": d.delivery_known, "availability": d.availability,
             "valuation_status": "reviewed_sold" if d.evidence_type == "sold" and d.delivery_known else "reference_or_item_only_estimate",
@@ -323,7 +353,8 @@ def _public_deal(d, r):
 def export_public(path, stats, graded):
     import datetime as dt
     from .evidence import public_catalog
-    catalog = public_catalog(os.path.join(os.path.dirname(CP.PATH), "evidence.json"))
+    from . import review_bridge
+    catalog = public_catalog(os.path.join(os.path.dirname(CP.PATH), "evidence.json")) + review_bridge.catalog()
     stats["pricing_products"] = len(catalog)
     stats["pricing_observations"] = sum(c["sample_count"] for c in catalog)
     # Full bounded provenance remains in scan_state; keep the bot response compact.

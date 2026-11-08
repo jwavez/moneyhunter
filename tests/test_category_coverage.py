@@ -92,7 +92,7 @@ class BudgetAndRouting(unittest.TestCase):
         self.assertFalse(m['transport_validated'])
         text=str(hub.estimate_fields(m));self.assertIn('Unknown',text);self.assertIn('97.00',text)
     def test_report_preserves_legacy_counts_but_labels_denominators(self):
-        stats={'scanned':304,'priced':3,'unpriced':301,'without_any_pricing':280,'affordable':0,'A':0,'B':0,'R':3}
+        stats={'scanned':304,'priced':3,'unpriced':301,'without_any_pricing':280,'publication_stages':{'supported_market_estimates':24},'affordable':0,'A':0,'B':0,'R':3}
         text=str(embeds.scan_summary(stats,[]))
-        self.assertIn('301 without legacy/reference',text);self.assertIn('280 without either',text)
+        self.assertIn('280 offers have no supported market estimate',text);self.assertIn('280 have no pricing lane at all',text);self.assertNotIn('301 offers have no supported',text)
         self.assertIn('Legacy/reference-priced under',text)

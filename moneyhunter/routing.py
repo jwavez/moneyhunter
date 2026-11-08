@@ -47,7 +47,7 @@ def counts_text(s):
     return (f"Offers scanned: {s['offers_scanned']} · Research models generated: {s['research_models_generated']} · "
         f"Supported market estimates: {s['supported_market_estimates']} · Publication-qualified cards: {s['publication_qualified_cards']} · "
         f"Route-eligible (policy/format): {s['route_eligible_cards']} · Buying signals: {s['buying_signals']} · "
-        f"Above-budget priced watch: {s['above_budget_priced_watch']} · Research holds: {s['research_holds']} · "
+        f"Above-budget priced watch: {s['above_budget_priced_watch']} ({'none qualified this scan' if not s['above_budget_priced_watch'] else 'qualified this scan'}) · Research holds: {s['research_holds']} · "
         f"Inbound known/unknown: {s['inbound_known']}/{s['inbound_unknown']}. Availability/dedup/destination pending; these are NOT delivered counts.")
 
 def nearest(rows):
