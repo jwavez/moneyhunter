@@ -2,1240 +2,6 @@
   "schema_version": 1,
   "candidates": [
     {
-      "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-porsche-911-gt3-rs-super-car-77239-5025074",
-      "policy_key": "d3c1dd85a6e95ab3cd0e9d26",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 14.99,
-      "image_status": "verified",
-      "image_verified_url": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
-      "image_candidates": [
-        "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg"
-      ],
-      "thumb": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.ebay.co.uk/itm/128179741212",
-      "landed_cost": null,
-      "breakeven_sell": 24.87,
-      "sell_for_minimum_profit": 34.44,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Porsche+911+GT3+RS+Super+Car+77239&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 77239",
-        "category": "lego",
-        "name_terms": [
-          "911",
-          "gt3",
-          "porsche",
-          "rs"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "date": "2026-11-08",
-        "sample_count": 33,
-        "listed_total_low": 15.73,
-        "listed_total_p25": 18.4,
-        "listed_total_median": 20.55,
-        "listed_total_p75": 23.75,
-        "listed_total_high": 26.52,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|128179741212|0",
-            "seller": "not_more_lego",
-            "image": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128179741212",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS 348 pcs new ",
-            "declared_condition": "new",
-            "item_price": 13.47,
-            "shipping": 2.26,
-            "listed_total": 15.73
-          },
-          {
-            "item_id": "v1|206672068155|0",
-            "seller": "east-coast-uk",
-            "image": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206672068155",
-            "title": "LEGO 77239 SPEED CHAMPIONS: Porsche 911 GT3 RS BNIB",
-            "declared_condition": "new",
-            "item_price": 14.01,
-            "shipping": 2.26,
-            "listed_total": 16.27
-          },
-          {
-            "item_id": "v1|237158384076|0",
-            "seller": "iwgootm27",
-            "image": "https://i.ebayimg.com/images/g/YgQAAeSw3hlq4S2V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237158384076",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 NEW SEALED",
-            "declared_condition": "new",
-            "item_price": 14.01,
-            "shipping": 2.7,
-            "listed_total": 16.71
-          },
-          {
-            "item_id": "v1|237170296984|0",
-            "seller": "misza-1",
-            "image": "https://i.ebayimg.com/images/g/ryEAAeSwSyBqpS8c/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237170296984",
-            "title": "Lego 77239 - Speed Champions - Porsche 911 GT3 RS (New)",
-            "declared_condition": "new",
-            "item_price": 17.0,
-            "shipping": 0.0,
-            "listed_total": 17.0
-          },
-          {
-            "item_id": "v1|287473426027|0",
-            "seller": "j-t-kirk007",
-            "image": "https://i.ebayimg.com/images/g/s08AAeSwh0NqXfCA/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287473426027",
-            "title": "Lego Speed Champions 77239 Porsche 911 GT3 RS - BNIB",
-            "declared_condition": "new",
-            "item_price": 15.08,
-            "shipping": 2.26,
-            "listed_total": 17.34
-          },
-          {
-            "item_id": "v1|227343741432|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/cqcAAeSwQrZq7awE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227343741432",
-            "title": "New LEGO 77239 Speed Champions Porsche 911 GT3 RS Super Car Toy - Car Model Kit",
-            "declared_condition": "new",
-            "item_price": 17.5,
-            "shipping": 0.0,
-            "listed_total": 17.5
-          },
-          {
-            "item_id": "v1|298653024417|0",
-            "seller": "g.jam66",
-            "image": "https://i.ebayimg.com/images/g/xxwAAeSwQtRqadxG/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298653024417",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239, 348 pcs, Age 9+ (BNIB)",
-            "declared_condition": "new",
-            "item_price": 17.74,
-            "shipping": 0.0,
-            "listed_total": 17.74
-          },
-          {
-            "item_id": "v1|960130189057|0",
-            "seller": "reffaman",
-            "image": "https://i.ebayimg.com/images/g/0EQAAeSw1nVq463A/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960130189057",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs Set 9+ Car Model - NEW",
-            "declared_condition": "new",
-            "item_price": 15.88,
-            "shipping": 2.46,
-            "listed_total": 18.34
-          },
-          {
-            "item_id": "v1|407330683737|0",
-            "seller": "dpflips25",
-            "image": "https://i.ebayimg.com/images/g/AbAAAeSw1fdqMldj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407330683737",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS Super Car Age 9+ 348pcs",
-            "declared_condition": "new",
-            "item_price": 16.14,
-            "shipping": 2.26,
-            "listed_total": 18.4
-          },
-          {
-            "item_id": "v1|376962756783|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/qoMAAeSwtVppj6ZW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/376962756783",
-            "title": "LEGO Speed Champions : Porsche 911 GT3 RS 348pcs(77239) 9+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 18.5,
-            "shipping": 0.0,
-            "listed_total": 18.5
-          },
-          {
-            "item_id": "v1|389949733646|0",
-            "seller": "karpkingcards1",
-            "image": "https://i.ebayimg.com/images/g/-5kAAeSwAxtp8Pza/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/389949733646",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Building Set 77239",
-            "declared_condition": "new",
-            "item_price": 16.46,
-            "shipping": 2.26,
-            "listed_total": 18.72
-          },
-          {
-            "item_id": "v1|267823759823|0",
-            "seller": "unwantedstufftosell2you",
-            "image": "https://i.ebayimg.com/images/g/v58AAeSwdURq2zqm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267823759823",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS Car Set 348 Pieces Age 9+",
-            "declared_condition": "new",
-            "item_price": 17.21,
-            "shipping": 2.26,
-            "listed_total": 19.47
-          },
-          {
-            "item_id": "v1|327406559354|0",
-            "seller": "christan324",
-            "image": "https://i.ebayimg.com/images/g/dUQAAeSwG-Bq0Tj9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327406559354",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car Toy  77239",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 0.0,
-            "listed_total": 19.99
-          },
-          {
-            "item_id": "v1|960114619607|0",
-            "seller": "wiqbal55",
-            "image": "https://i.ebayimg.com/images/g/9AUAAeSw2l9q3gTO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960114619607",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs Set 9+ Car Model - NEW",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 0.0,
-            "listed_total": 19.99
-          },
-          {
-            "item_id": "v1|257537465889|0",
-            "seller": "karwol1985",
-            "image": "https://i.ebayimg.com/images/g/tfUAAeSw-~RqG736/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257537465889",
-            "title": "Lego 77239 - Speed Champions - Porsche 911 GT3 RS (New)",
-            "declared_condition": "new",
-            "item_price": 18.19,
-            "shipping": 2.26,
-            "listed_total": 20.45
-          },
-          {
-            "item_id": "v1|168444325750|0",
-            "seller": "dcw2_27",
-            "image": "https://i.ebayimg.com/images/g/NBwAAeSwaE5qKBq4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168444325750",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS",
-            "declared_condition": "new",
-            "item_price": 18.29,
-            "shipping": 2.26,
-            "listed_total": 20.55
-          },
-          {
-            "item_id": "v1|198779981029|0",
-            "seller": "alereaso0",
-            "image": "https://i.ebayimg.com/images/g/HoAAAeSwS8Zq74X~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198779981029",
-            "title": "LEGO Speed Champions Porsche 77239 911 GT3 RS Building Set 348pcs 9+ Plastic",
-            "declared_condition": "new",
-            "item_price": 18.29,
-            "shipping": 2.26,
-            "listed_total": 20.55
-          },
-          {
-            "item_id": "v1|206206469828|0",
-            "seller": "paul92860",
-            "image": "https://i.ebayimg.com/images/g/-9cAAeSwiT9p292G/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206206469828",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car Toy 77239 New & Sealed",
-            "declared_condition": "new",
-            "item_price": 19.0,
-            "shipping": 2.26,
-            "listed_total": 21.26
-          },
-          {
-            "item_id": "v1|128135513990|0",
-            "seller": "aileenmcmillanxoxo",
-            "image": "https://i.ebayimg.com/images/g/JBoAAeSwtM9qz8cB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128135513990",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car (77239)",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 0.0,
-            "listed_total": 21.5
-          },
-          {
-            "item_id": "v1|327343254774|0",
-            "seller": "kitesh1986",
-            "image": "https://i.ebayimg.com/images/g/~-QAAeSwEU1qnA3v/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327343254774",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS Super Car Age 9+ 348pcs",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 2.26,
-            "listed_total": 22.25
-          },
-          {
-            "item_id": "v1|960083441599|0",
-            "seller": "toysallaround",
-            "image": "https://i.ebayimg.com/images/g/cCwAAeSwNiNq1MgR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960083441599",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 Complete Set 348 Pieces",
-            "declared_condition": "new",
-            "item_price": 20.0,
-            "shipping": 2.26,
-            "listed_total": 22.26
-          },
-          {
-            "item_id": "v1|168348778851|0",
-            "seller": "jb2302-75",
-            "image": "https://i.ebayimg.com/images/g/8K8AAeSwZQpp9mrR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168348778851",
-            "title": "Lego Speed Champions 77239 Porsche 911 GT3 RS Super Car - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 20.43,
-            "shipping": 2.26,
-            "listed_total": 22.69
-          },
-          {
-            "item_id": "v1|327047145973|0",
-            "seller": "black_bricks",
-            "image": "https://i.ebayimg.com/images/g/GGcAAeSwy5lptZWd/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327047145973",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239 New Sealed",
-            "declared_condition": "new",
-            "item_price": 22.99,
-            "shipping": 0.0,
-            "listed_total": 22.99
-          },
-          {
-            "item_id": "v1|366142446642|0",
-            "seller": "dantheman1uk",
-            "image": "https://i.ebayimg.com/images/g/fWwAAeSwpaNpcf2f/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366142446642",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239 NEW SEALED",
-            "declared_condition": "new",
-            "item_price": 23.73,
-            "shipping": 0.0,
-            "listed_total": 23.73
-          },
-          {
-            "item_id": "v1|377367503247|0",
-            "seller": "footie_oliv",
-            "image": "https://i.ebayimg.com/images/g/abIAAeSwN09qY5k7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377367503247",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs 9+ Brick Separator",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.26,
-            "listed_total": 23.75
-          },
-          {
-            "item_id": "v1|860004699504|0",
-            "seller": "jellyrings",
-            "image": "https://i.ebayimg.com/images/g/E7QAAeSwSohqwTiy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860004699504",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS super car toy 77239 348pcs",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.26,
-            "listed_total": 23.75
-          },
-          {
-            "item_id": "v1|920106390319|0",
-            "seller": "me_568801",
-            "image": "https://i.ebayimg.com/images/g/jtUAAeSw-rdq68da/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920106390319",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS Super Car \u2013 Brand New Sealed BNIB",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.26,
-            "listed_total": 23.75
-          },
-          {
-            "item_id": "v1|188426124803|0",
-            "seller": "brickbase13",
-            "image": "https://i.ebayimg.com/images/g/3vYAAeSwYudqFXzY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188426124803",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS NEW 2025 77239",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76
-          },
-          {
-            "item_id": "v1|178477000977|0",
-            "seller": "lgccollectables",
-            "image": "https://i.ebayimg.com/images/g/byMAAeSw8Wtqnxob/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178477000977",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs NEW SEALED",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76
-          },
-          {
-            "item_id": "v1|277761884858|0",
-            "seller": "jdcj2013",
-            "image": "https://i.ebayimg.com/images/g/TBEAAeSwyqhpd8sz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/277761884858",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car Set 77239",
-            "declared_condition": "new",
-            "item_price": 23.99,
-            "shipping": 0.0,
-            "listed_total": 23.99
-          },
-          {
-            "item_id": "v1|287650322096|0",
-            "seller": "mhk_trade",
-            "image": "https://i.ebayimg.com/images/g/JT4AAeSw-zxq0Qyp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287650322096",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99
-          },
-          {
-            "item_id": "v1|168525735111|0",
-            "seller": "leadhead35",
-            "image": "https://i.ebayimg.com/images/g/FZcAAeSwJBBqT8DB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168525735111",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS (77239)",
-            "declared_condition": "new",
-            "item_price": 25.14,
-            "shipping": 0.0,
-            "listed_total": 25.14
-          },
-          {
-            "item_id": "v1|306704320736|0",
-            "seller": "akh5482",
-            "image": "https://i.ebayimg.com/images/g/HK8AAeSwUMlpYtM3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306704320736",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car (77239) 348pcs ",
-            "declared_condition": "new",
-            "item_price": 23.58,
-            "shipping": 2.94,
-            "listed_total": 26.52
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 17
-        },
-        "query_aliases": [
-          "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 77239",
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 33,
-        "seller_count": 33,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 4,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 15.73,
-        "competition_high": 26.52,
-        "estimated_resale": 15.25,
-        "estimated_range": [
-          14.15,
-          15.73
-        ],
-        "suggested_listing": 15.72,
-        "quick_sale_model": 14.15,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 14.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -8.03,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -14.99,
-        "fees": 2.54,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.46,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 13.72,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|128179741212|0",
-            "seller": "not_more_lego",
-            "image": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128179741212",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS 348 pcs new ",
-            "declared_condition": "new",
-            "item_price": 13.47,
-            "shipping": 2.26,
-            "listed_total": 15.73,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206672068155|0",
-            "seller": "east-coast-uk",
-            "image": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206672068155",
-            "title": "LEGO 77239 SPEED CHAMPIONS: Porsche 911 GT3 RS BNIB",
-            "declared_condition": "new",
-            "item_price": 14.01,
-            "shipping": 2.26,
-            "listed_total": 16.27,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|237158384076|0",
-            "seller": "iwgootm27",
-            "image": "https://i.ebayimg.com/images/g/YgQAAeSw3hlq4S2V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237158384076",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 NEW SEALED",
-            "declared_condition": "new",
-            "item_price": 14.01,
-            "shipping": 2.7,
-            "listed_total": 16.71,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|237170296984|0",
-            "seller": "misza-1",
-            "image": "https://i.ebayimg.com/images/g/ryEAAeSwSyBqpS8c/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237170296984",
-            "title": "Lego 77239 - Speed Champions - Porsche 911 GT3 RS (New)",
-            "declared_condition": "new",
-            "item_price": 17.0,
-            "shipping": 0.0,
-            "listed_total": 17.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287473426027|0",
-            "seller": "j-t-kirk007",
-            "image": "https://i.ebayimg.com/images/g/s08AAeSwh0NqXfCA/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287473426027",
-            "title": "Lego Speed Champions 77239 Porsche 911 GT3 RS - BNIB",
-            "declared_condition": "new",
-            "item_price": 15.08,
-            "shipping": 2.26,
-            "listed_total": 17.34,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227343741432|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/cqcAAeSwQrZq7awE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227343741432",
-            "title": "New LEGO 77239 Speed Champions Porsche 911 GT3 RS Super Car Toy - Car Model Kit",
-            "declared_condition": "new",
-            "item_price": 17.5,
-            "shipping": 0.0,
-            "listed_total": 17.5,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|298653024417|0",
-            "seller": "g.jam66",
-            "image": "https://i.ebayimg.com/images/g/xxwAAeSwQtRqadxG/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298653024417",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239, 348 pcs, Age 9+ (BNIB)",
-            "declared_condition": "new",
-            "item_price": 17.74,
-            "shipping": 0.0,
-            "listed_total": 17.74,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|960130189057|0",
-            "seller": "reffaman",
-            "image": "https://i.ebayimg.com/images/g/0EQAAeSw1nVq463A/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960130189057",
-            "title": "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs Set 9+ Car Model - NEW",
-            "declared_condition": "new",
-            "item_price": 15.88,
-            "shipping": 2.46,
-            "listed_total": 18.34,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407330683737|0",
-            "seller": "dpflips25",
-            "image": "https://i.ebayimg.com/images/g/AbAAAeSw1fdqMldj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407330683737",
-            "title": "LEGO Speed Champions 77239 Porsche 911 GT3 RS Super Car Age 9+ 348pcs",
-            "declared_condition": "new",
-            "item_price": 16.14,
-            "shipping": 2.26,
-            "listed_total": 18.4,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|376962756783|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/qoMAAeSwtVppj6ZW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/376962756783",
-            "title": "LEGO Speed Champions : Porsche 911 GT3 RS 348pcs(77239) 9+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 18.5,
-            "shipping": 0.0,
-            "listed_total": 18.5,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
-        "query": "LEGO 77239",
-        "kind": "active_ask",
-        "listing": 15.72,
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "valid_until": "2026-11-08T15:03:53+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/128179741212",
-          "https://www.ebay.co.uk/itm/206672068155",
-          "https://www.ebay.co.uk/itm/237158384076",
-          "https://www.ebay.co.uk/itm/237170296984",
-          "https://www.ebay.co.uk/itm/287473426027",
-          "https://www.ebay.co.uk/itm/227343741432",
-          "https://www.ebay.co.uk/itm/298653024417",
-          "https://www.ebay.co.uk/itm/960130189057",
-          "https://www.ebay.co.uk/itm/407330683737",
-          "https://www.ebay.co.uk/itm/376962756783"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/128179741212",
-            "LEGO Speed Champions 77239 Porsche 911 GT3 RS 348 pcs new ",
-            15.73,
-            2.26,
-            13.47,
-            "not_more_lego"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206672068155",
-            "LEGO 77239 SPEED CHAMPIONS: Porsche 911 GT3 RS BNIB",
-            16.27,
-            2.26,
-            14.01,
-            "east-coast-uk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/237158384076",
-            "LEGO Speed Champions Porsche 911 GT3 RS 77239 NEW SEALED",
-            16.71,
-            2.7,
-            14.01,
-            "iwgootm27"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/237170296984",
-            "Lego 77239 - Speed Champions - Porsche 911 GT3 RS (New)",
-            17.0,
-            0.0,
-            17.0,
-            "misza-1"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/287473426027",
-            "Lego Speed Champions 77239 Porsche 911 GT3 RS - BNIB",
-            17.34,
-            2.26,
-            15.08,
-            "j-t-kirk007"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227343741432",
-            "New LEGO 77239 Speed Champions Porsche 911 GT3 RS Super Car Toy - Car Model Kit",
-            17.5,
-            0.0,
-            17.5,
-            "yonli_79"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/298653024417",
-            "LEGO Speed Champions Porsche 911 GT3 RS 77239, 348 pcs, Age 9+ (BNIB)",
-            17.74,
-            0.0,
-            17.74,
-            "g.jam66"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/960130189057",
-            "LEGO Speed Champions Porsche 911 GT3 RS 77239 348pcs Set 9+ Car Model - NEW",
-            18.34,
-            2.46,
-            15.88,
-            "reffaman"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407330683737",
-            "LEGO Speed Champions 77239 Porsche 911 GT3 RS Super Car Age 9+ 348pcs",
-            18.4,
-            2.26,
-            16.14,
-            "dpflips25"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/376962756783",
-            "LEGO Speed Champions : Porsche 911 GT3 RS 348pcs(77239) 9+ New&sealed",
-            18.5,
-            0.0,
-            18.5,
-            "edgeb_14"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "Sony WH-CH520 Wireless Bluetooth On-Ear Headphones - With Code - White | Sold By Stocs UK (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/sony-wh-ch520-wireless-bluetooth-on-ear-headphones-with-code-white-sold-by-stocs-uk-uk-mainland-5025151",
       "policy_key": "c88515059d6133f22030816f",
@@ -1763,928 +529,6 @@
       }
     },
     {
-      "title": "LEGO Lucky Cat 40813",
-      "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
-      "policy_key": "1fd192dffdb1b099a4aaea2f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 21.5,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
-      "landed_cost": null,
-      "breakeven_sell": 32.66,
-      "sell_for_minimum_profit": 42.96,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 40813",
-        "category": "lego",
-        "name_terms": [
-          "cat",
-          "lucky"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "date": "2026-11-08",
-        "sample_count": 24,
-        "listed_total_low": 23.76,
-        "listed_total_p25": 27.36,
-        "listed_total_median": 29.64,
-        "listed_total_p75": 35.62,
-        "listed_total_high": 50.62,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|198777035526|0",
-            "seller": "rysnail",
-            "image": "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198777035526",
-            "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76
-          },
-          {
-            "item_id": "v1|287701475626|0",
-            "seller": "vendasnackuk",
-            "image": "https://i.ebayimg.com/images/g/5wEAAeSwmjtq6cHb/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287701475626",
-            "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-            "declared_condition": "new",
-            "item_price": 24.95,
-            "shipping": 0.0,
-            "listed_total": 24.95
-          },
-          {
-            "item_id": "v1|358342770542|0",
-            "seller": "hmv_official_store",
-            "image": "https://i.ebayimg.com/images/g/gbQAAeSw9RFq7r68/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358342770542",
-            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99
-          },
-          {
-            "item_id": "v1|397478579150|0",
-            "seller": "jadlamracing",
-            "image": "https://i.ebayimg.com/images/g/lO4AAeSwM~Nq3MP7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397478579150",
-            "title": "LEGO Iconic 40813 Lucky Cat Age 9+ 280pcs",
-            "declared_condition": "new",
-            "item_price": 25.95,
-            "shipping": 0.0,
-            "listed_total": 25.95
-          },
-          {
-            "item_id": "v1|156882895267|0",
-            "seller": "juo-18",
-            "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/156882895267",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 3.38,
-            "listed_total": 26.38
-          },
-          {
-            "item_id": "v1|358135708610|0",
-            "seller": "mikey.d0318",
-            "image": "https://i.ebayimg.com/images/g/4EsAAeSw0qFpb2Wh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358135708610",
-            "title": "LEGO Chinese New Year Lucky Cat - 40813 - New & Factory Sealed ",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 0.0,
-            "listed_total": 26.7
-          },
-          {
-            "item_id": "v1|336439396495|0",
-            "seller": "rakushka04",
-            "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336439396495",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 24.88,
-            "shipping": 2.7,
-            "listed_total": 27.58
-          },
-          {
-            "item_id": "v1|257344628346|0",
-            "seller": "paulreversepush",
-            "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257344628346",
-            "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 28.0,
-            "shipping": 0.0,
-            "listed_total": 28.0
-          },
-          {
-            "item_id": "v1|317761343050|0",
-            "seller": "phillipshobbies",
-            "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317761343050",
-            "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 3.99,
-            "listed_total": 28.98
-          },
-          {
-            "item_id": "v1|306672596685|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306672596685",
-            "title": "LEGO 40813 Lucky Cat ",
-            "declared_condition": "new",
-            "item_price": 25.0,
-            "shipping": 4.0,
-            "listed_total": 29.0
-          },
-          {
-            "item_id": "v1|227152597626|0",
-            "seller": "nisa1282",
-            "image": "https://i.ebayimg.com/images/g/znAAAeSwlfFovsa2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227152597626",
-            "title": "LEGO 40813 Lucky Cat Brand New & Sealed 2025",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 2.7,
-            "listed_total": 29.4
-          },
-          {
-            "item_id": "v1|267808735688|0",
-            "seller": "wayneosul2011",
-            "image": "https://i.ebayimg.com/images/g/pKwAAeSwDw9qyMs7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267808735688",
-            "title": "LEGO Seasonal 40813 Lucky Cat, Brand New & Sealed..",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 2.94,
-            "listed_total": 29.64
-          },
-          {
-            "item_id": "v1|287083755140|0",
-            "seller": "rebgrav-52",
-            "image": "https://i.ebayimg.com/images/g/dpwAAeSw1-tpbMIS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287083755140",
-            "title": "LEGO Iconic 40813 Chinese New Year. Lucky Cat ",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 2.94,
-            "listed_total": 29.64
-          },
-          {
-            "item_id": "v1|257786822761|0",
-            "seller": "ell-oshe",
-            "image": "https://i.ebayimg.com/images/g/B0UAAeSwW3Fqxbnk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257786822761",
-            "title": "LEGO 40813 Lucky Cat Complete Set 280 pcs Age 9+ Brick Separator",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 2.94,
-            "listed_total": 29.64
-          },
-          {
-            "item_id": "v1|127652806303|0",
-            "seller": "maqiotoys",
-            "image": "https://i.ebayimg.com/images/g/WwAAAeSwws1pe1yU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127652806303",
-            "title": "LEGO 40813 Lucky Cat",
-            "declared_condition": "new",
-            "item_price": 29.99,
-            "shipping": 0.0,
-            "listed_total": 29.99
-          },
-          {
-            "item_id": "v1|377085908108|0",
-            "seller": "ameimei",
-            "image": "https://i.ebayimg.com/images/g/SlcAAeSwi85phllK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377085908108",
-            "title": "LEGO Seasonal : Lunar New Year  - Lucky Cat - Set 40813 Age 9+ 280pcs",
-            "declared_condition": "new",
-            "item_price": 26.66,
-            "shipping": 3.33,
-            "listed_total": 29.99
-          },
-          {
-            "item_id": "v1|358799812959|0",
-            "seller": "gmac_online",
-            "image": "https://i.ebayimg.com/images/g/iOQAAeSwHg9qV66P/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358799812959",
-            "title": "LEGO Lucky Cat Display Model Building Kit 40813",
-            "declared_condition": "new",
-            "item_price": 27.74,
-            "shipping": 2.94,
-            "listed_total": 30.68
-          },
-          {
-            "item_id": "v1|376883864581|0",
-            "seller": "toysntuck",
-            "image": "https://i.ebayimg.com/images/g/I48AAeSw7S9prwxC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/376883864581",
-            "title": "Lego 40813 Seasonal Lucky Cat",
-            "declared_condition": "new",
-            "item_price": 34.0,
-            "shipping": 0.0,
-            "listed_total": 34.0
-          },
-          {
-            "item_id": "v1|860119448797|0",
-            "seller": "ukdaily-26",
-            "image": "https://i.ebayimg.com/images/g/tIUAAeSw5KRq7ghK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860119448797",
-            "title": "LEGO Lucky Cat 40813 Multicolor",
-            "declared_condition": "new",
-            "item_price": 40.49,
-            "shipping": 0.0,
-            "listed_total": 40.49
-          },
-          {
-            "item_id": "v1|920059029400|0",
-            "seller": "skylineswiftshop",
-            "image": "https://i.ebayimg.com/images/g/F4kAAeSwUJFq2Am8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920059029400",
-            "title": "LEGO Lucky Cat 40813",
-            "declared_condition": "new",
-            "item_price": 42.48,
-            "shipping": 0.0,
-            "listed_total": 42.48
-          },
-          {
-            "item_id": "v1|389716820255|0",
-            "seller": "clearing-way-warehouse",
-            "image": "https://i.ebayimg.com/images/g/HMsAAeSwO6xprb02/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/389716820255",
-            "title": "LEGO 40813 Lucky Cat Chinese New Year Lunar Spring Festival Building Set",
-            "declared_condition": "new",
-            "item_price": 40.22,
-            "shipping": 2.94,
-            "listed_total": 43.16
-          },
-          {
-            "item_id": "v1|287032288994|0",
-            "seller": "fantasticmrf0x",
-            "image": "https://i.ebayimg.com/images/g/LqcAAeSwU4VpTQzW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287032288994",
-            "title": "-Lego 40813 Lucky Cat -Brand new & Sealed-",
-            "declared_condition": "new",
-            "item_price": 34.99,
-            "shipping": 8.75,
-            "listed_total": 43.74
-          },
-          {
-            "item_id": "v1|306916086080|0",
-            "seller": "reggie-007",
-            "image": "https://i.ebayimg.com/images/g/wuMAAeSw7clp94D~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306916086080",
-            "title": "Lego CHINESE LUCKY CAT - New & Sealed (40813) STUNNING GIFT",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24
-          },
-          {
-            "item_id": "v1|276801471529|0",
-            "seller": "bobnevermind",
-            "image": "https://i.ebayimg.com/images/g/-9cAAOSw2BRndo05/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/276801471529",
-            "title": "40813 Lucky Cat (LEGO Chinese New Year) NEW & SEALED | IN HAND",
-            "declared_condition": "new",
-            "item_price": 50.62,
-            "shipping": 0.0,
-            "listed_total": 50.62
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 4
-        },
-        "query_aliases": [
-          "LEGO Lucky Cat 40813"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": true,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 40813",
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 24,
-        "seller_count": 24,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 4,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 23.76,
-        "competition_high": 50.62,
-        "estimated_resale": 23.04,
-        "estimated_range": [
-          21.38,
-          23.76
-        ],
-        "suggested_listing": 23.75,
-        "quick_sale_model": 21.38,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 21.5,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -8.03,
-        "max_landed_buy": 5.47,
-        "max_item_buy": null,
-        "delivery_headroom": -16.03,
-        "fees": 3.59,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.69,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 20.73,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 3.47,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Low competing offers advertise coupons; check effective competition before buying",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|198777035526|0",
-            "seller": "rysnail",
-            "image": "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198777035526",
-            "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287701475626|0",
-            "seller": "vendasnackuk",
-            "image": "https://i.ebayimg.com/images/g/5wEAAeSwmjtq6cHb/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287701475626",
-            "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-            "declared_condition": "new",
-            "item_price": 24.95,
-            "shipping": 0.0,
-            "listed_total": 24.95,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|358342770542|0",
-            "seller": "hmv_official_store",
-            "image": "https://i.ebayimg.com/images/g/gbQAAeSw9RFq7r68/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358342770542",
-            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|397478579150|0",
-            "seller": "jadlamracing",
-            "image": "https://i.ebayimg.com/images/g/lO4AAeSwM~Nq3MP7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397478579150",
-            "title": "LEGO Iconic 40813 Lucky Cat Age 9+ 280pcs",
-            "declared_condition": "new",
-            "item_price": 25.95,
-            "shipping": 0.0,
-            "listed_total": 25.95,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|156882895267|0",
-            "seller": "juo-18",
-            "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/156882895267",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 3.38,
-            "listed_total": 26.38,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|358135708610|0",
-            "seller": "mikey.d0318",
-            "image": "https://i.ebayimg.com/images/g/4EsAAeSw0qFpb2Wh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358135708610",
-            "title": "LEGO Chinese New Year Lucky Cat - 40813 - New & Factory Sealed ",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 0.0,
-            "listed_total": 26.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|336439396495|0",
-            "seller": "rakushka04",
-            "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336439396495",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 24.88,
-            "shipping": 2.7,
-            "listed_total": 27.58,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|257344628346|0",
-            "seller": "paulreversepush",
-            "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257344628346",
-            "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 28.0,
-            "shipping": 0.0,
-            "listed_total": 28.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|317761343050|0",
-            "seller": "phillipshobbies",
-            "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317761343050",
-            "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 3.99,
-            "listed_total": 28.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|306672596685|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306672596685",
-            "title": "LEGO 40813 Lucky Cat ",
-            "declared_condition": "new",
-            "item_price": 25.0,
-            "shipping": 4.0,
-            "listed_total": 29.0,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "uncertain_competitor_coupon"
-      }
-    },
-    {
       "title": "LEGO Star Wars SMART Play: Mos Eisley Cantina 75425 - W/Code - free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-smart-play-mos-eisley-cantina-75425-wcode-5025592",
       "policy_key": "20f4dc0a9967cd214453cd7b",
@@ -2699,8 +543,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg"
@@ -3265,8 +1109,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg"
       ],
@@ -4202,8 +2046,8 @@
       "item_price": 42.72,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg"
       ],
@@ -5257,6 +3101,1014 @@
       }
     },
     {
+      "title": "LEGO Star Wars TIE Bomber 75347",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-tie-bomber-75347-5025299",
+      "policy_key": "8237c0c54f15029613f8e3b0",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 44.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-tie-bomber-75347-5025299",
+      "landed_cost": null,
+      "breakeven_sell": 60.79,
+      "sell_for_minimum_profit": 82.35,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75347",
+        "category": "lego",
+        "name_terms": [
+          "bomber",
+          "tie"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-08T15:26:41+00:00",
+        "date": "2026-11-08",
+        "sample_count": 23,
+        "listed_total_low": 40.81,
+        "listed_total_p25": 44.16,
+        "listed_total_median": 46.01,
+        "listed_total_p75": 47.63,
+        "listed_total_high": 49.53,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|257646831282|0",
+            "seller": "doey01",
+            "image": "https://i.ebayimg.com/images/g/634AAeSwhZ9qaH8s/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257646831282",
+            "title": "LEGO Star Wars Tie Bomber Starfighter 75347",
+            "declared_condition": "new",
+            "item_price": 37.1,
+            "shipping": 3.71,
+            "listed_total": 40.81
+          },
+          {
+            "item_id": "v1|377550715537|0",
+            "seller": "toywizzard1234",
+            "image": "https://i.ebayimg.com/images/g/tbQAAeSwwuZqxZ-B/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377550715537",
+            "title": "LEGO 75347 Star Wars TIE Bomber Brand New & Factory Sealed",
+            "declared_condition": "new",
+            "item_price": 36.1,
+            "shipping": 5.15,
+            "listed_total": 41.25
+          },
+          {
+            "item_id": "v1|117438236147|0",
+            "seller": "katymairs",
+            "image": "https://i.ebayimg.com/images/g/P3sAAeSwKfxqtEsP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117438236147",
+            "title": "LEGO 75347 Star Wars: TIE Bomber. Brand New & Sealed!!",
+            "declared_condition": "new",
+            "item_price": 39.95,
+            "shipping": 2.94,
+            "listed_total": 42.89
+          },
+          {
+            "item_id": "v1|960002390915|0",
+            "seller": "cocollectss",
+            "image": "https://i.ebayimg.com/images/g/XI8AAeSwuYxqv5Yl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960002390915",
+            "title": "LEGO Star Wars Tie Bomber 75347 Brand New Sealed Retired Set",
+            "declared_condition": "new",
+            "item_price": 40.0,
+            "shipping": 3.38,
+            "listed_total": 43.38
+          },
+          {
+            "item_id": "v1|820219544407|0",
+            "seller": "ryanslego",
+            "image": "https://i.ebayimg.com/images/g/W9MAAeSwS7Zqmx3s/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820219544407",
+            "title": "LEGO (75347) Star Wars: TIE Bomber - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 39.99,
+            "shipping": 3.71,
+            "listed_total": 43.7
+          },
+          {
+            "item_id": "v1|327374075842|0",
+            "seller": "stor.lind",
+            "image": "https://i.ebayimg.com/images/g/tvEAAeSwlQNqtnlM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327374075842",
+            "title": "LEGO Star Wars: 75347 TIE Bomber Brand New & Factory Sealed",
+            "declared_condition": "new",
+            "item_price": 40.22,
+            "shipping": 3.71,
+            "listed_total": 43.93
+          },
+          {
+            "item_id": "v1|257805220802|0",
+            "seller": "easypickings11",
+            "image": "https://i.ebayimg.com/images/g/IE8AAeSwQr9q1TEc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257805220802",
+            "title": "LEGO Star Wars 75347 TIE Bomber 625pc Darth Vader Gonk Droid 9+ Box",
+            "declared_condition": "new",
+            "item_price": 39.18,
+            "shipping": 5.21,
+            "listed_total": 44.39
+          },
+          {
+            "item_id": "v1|267819239730|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/QmMAAeSwTGxq1-zu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267819239730",
+            "title": "LEGO Star Wars: TIE Bomber (75347) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 41.25,
+            "shipping": 3.49,
+            "listed_total": 44.74
+          },
+          {
+            "item_id": "v1|406818314608|0",
+            "seller": "astvaitkunien_0",
+            "image": "https://i.ebayimg.com/images/g/NbEAAeSwSoZpzCx5/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406818314608",
+            "title": "LEGO 75347 Star Wars: Tie Bomber Empire Strikes Back Building Kit",
+            "declared_condition": "new",
+            "item_price": 41.26,
+            "shipping": 3.71,
+            "listed_total": 44.97
+          },
+          {
+            "item_id": "v1|407250462035|0",
+            "seller": "alis_5435",
+            "image": "https://i.ebayimg.com/images/g/9jEAAeSw6wBquZBC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407250462035",
+            "title": "(BNIB) LEGO Star Wars TIE Bomber (75347)",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68
+          },
+          {
+            "item_id": "v1|336821879994|0",
+            "seller": "big_willie04",
+            "image": "https://i.ebayimg.com/images/g/Em8AAeSwKwxqvgW9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336821879994",
+            "title": "\u2b50\ufe0f SEALED NEW \u2b50\ufe0f LEGO Star Wars: TIE Bomber [75347]",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68
+          },
+          {
+            "item_id": "v1|236996375980|0",
+            "seller": "johnnyboy811",
+            "image": "https://i.ebayimg.com/images/g/rJsAAeSwFplqePOW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236996375980",
+            "title": "LEGO Star Wars Set 75347  - Tie Bomber BNISB",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.71,
+            "listed_total": 46.01
+          },
+          {
+            "item_id": "v1|406397974143|0",
+            "seller": "al79455821",
+            "image": "https://i.ebayimg.com/images/g/TH8AAeSwNIdpHNjr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406397974143",
+            "title": "LEGO Tie Bomber Building Kit 75347 Brand New",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.71,
+            "listed_total": 46.01
+          },
+          {
+            "item_id": "v1|880084773077|0",
+            "seller": "tiggervanila",
+            "image": "https://i.ebayimg.com/images/g/cHgAAeSwHS5q7Ce7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880084773077",
+            "title": "LEGO Star Wars 75347 TIE Bomber 625pcs 9+ 2023 Brick Separator Included",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.71,
+            "listed_total": 46.01
+          },
+          {
+            "item_id": "v1|178492788739|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/KVgAAeSwV6Rqppgx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178492788739",
+            "title": "LEGO Star Wars: TIE Bomber (75347)",
+            "declared_condition": "new",
+            "item_price": 46.99,
+            "shipping": 0.0,
+            "listed_total": 46.99
+          },
+          {
+            "item_id": "v1|227588490283|0",
+            "seller": "dipper42",
+            "image": "https://i.ebayimg.com/images/g/o5EAAeSwExVq4yIC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227588490283",
+            "title": "LEGO Star Wars 75347 TIE Bomber - New & Sealed - Retired Set",
+            "declared_condition": "new",
+            "item_price": 42.0,
+            "shipping": 5.15,
+            "listed_total": 47.15
+          },
+          {
+            "item_id": "v1|298522263476|0",
+            "seller": "takefood_events",
+            "image": "https://i.ebayimg.com/images/g/etoAAeSwEM5qX0sb/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298522263476",
+            "title": "LEGO Star Wars: TIE Bomber (75347)",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 0.0,
+            "listed_total": 47.5
+          },
+          {
+            "item_id": "v1|198638668340|0",
+            "seller": "nezzy-9537",
+            "image": "https://i.ebayimg.com/images/g/jM8AAeSw80Bqpora/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198638668340",
+            "title": "BRAND NEW LEGO Star Wars Tie Bomber Starfighter 75347",
+            "declared_condition": "new",
+            "item_price": 44.38,
+            "shipping": 3.38,
+            "listed_total": 47.76
+          },
+          {
+            "item_id": "v1|257770636616|0",
+            "seller": "karwol1985",
+            "image": "https://i.ebayimg.com/images/g/XukAAeSwb5FquiJg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257770636616",
+            "title": "LEGO Star Wars 75347 TIE Bomber New & Sealed",
+            "declared_condition": "new",
+            "item_price": 44.38,
+            "shipping": 3.71,
+            "listed_total": 48.09
+          },
+          {
+            "item_id": "v1|158348827498|0",
+            "seller": "curtiglori0",
+            "image": "https://i.ebayimg.com/images/g/L~EAAeSw97NquR9a/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/158348827498",
+            "title": "LEGO Star Wars 75347 Tie Bomber Building Set RETIRED BRAND NEW",
+            "declared_condition": "new",
+            "item_price": 44.9,
+            "shipping": 3.71,
+            "listed_total": 48.61
+          },
+          {
+            "item_id": "v1|327383212105|0",
+            "seller": "danbricks",
+            "image": "https://i.ebayimg.com/images/g/VzkAAeSwdNVqvGjc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327383212105",
+            "title": "LEGO Star Wars 75347 TIE Bomber | Retired Set | New + Sealed Set",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 3.65,
+            "listed_total": 48.64
+          },
+          {
+            "item_id": "v1|168631358160|0",
+            "seller": "dans*bargains45",
+            "image": "https://i.ebayimg.com/images/g/DXUAAeSw4vlqhG3v/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168631358160",
+            "title": "LEGO Star Wars 75347 Tie Bomber. Brand new and Sealed",
+            "declared_condition": "new",
+            "item_price": 45.37,
+            "shipping": 3.71,
+            "listed_total": 49.08
+          },
+          {
+            "item_id": "v1|227481517334|0",
+            "seller": "comics-cards-and-collectables",
+            "image": "https://i.ebayimg.com/images/g/wbcAAeSwlyZqhL1O/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227481517334",
+            "title": "LEGO Star Wars 75347 Tie Bomber. Brand new and Sealed",
+            "declared_condition": "new",
+            "item_price": 44.38,
+            "shipping": 5.15,
+            "listed_total": 49.53
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 27
+        },
+        "query_aliases": [
+          "LEGO Star Wars TIE Bomber 75347"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75347",
+        "observed_at": "2026-11-08T15:26:41+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 23,
+        "seller_count": 23,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 8,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 40.81,
+        "competition_high": 49.53,
+        "estimated_resale": 39.58,
+        "estimated_range": [
+          36.72,
+          40.81
+        ],
+        "suggested_listing": 40.8,
+        "quick_sale_model": 36.72,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 44.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -17.71,
+        "max_landed_buy": 19.28,
+        "max_item_buy": null,
+        "delivery_headroom": -25.71,
+        "fees": 5.82,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.19,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 35.62,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 17.28,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|257646831282|0",
+            "seller": "doey01",
+            "image": "https://i.ebayimg.com/images/g/634AAeSwhZ9qaH8s/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257646831282",
+            "title": "LEGO Star Wars Tie Bomber Starfighter 75347",
+            "declared_condition": "new",
+            "item_price": 37.1,
+            "shipping": 3.71,
+            "listed_total": 40.81,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377550715537|0",
+            "seller": "toywizzard1234",
+            "image": "https://i.ebayimg.com/images/g/tbQAAeSwwuZqxZ-B/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377550715537",
+            "title": "LEGO 75347 Star Wars TIE Bomber Brand New & Factory Sealed",
+            "declared_condition": "new",
+            "item_price": 36.1,
+            "shipping": 5.15,
+            "listed_total": 41.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|117438236147|0",
+            "seller": "katymairs",
+            "image": "https://i.ebayimg.com/images/g/P3sAAeSwKfxqtEsP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117438236147",
+            "title": "LEGO 75347 Star Wars: TIE Bomber. Brand New & Sealed!!",
+            "declared_condition": "new",
+            "item_price": 39.95,
+            "shipping": 2.94,
+            "listed_total": 42.89,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960002390915|0",
+            "seller": "cocollectss",
+            "image": "https://i.ebayimg.com/images/g/XI8AAeSwuYxqv5Yl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960002390915",
+            "title": "LEGO Star Wars Tie Bomber 75347 Brand New Sealed Retired Set",
+            "declared_condition": "new",
+            "item_price": 40.0,
+            "shipping": 3.38,
+            "listed_total": 43.38,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820219544407|0",
+            "seller": "ryanslego",
+            "image": "https://i.ebayimg.com/images/g/W9MAAeSwS7Zqmx3s/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820219544407",
+            "title": "LEGO (75347) Star Wars: TIE Bomber - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 39.99,
+            "shipping": 3.71,
+            "listed_total": 43.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327374075842|0",
+            "seller": "stor.lind",
+            "image": "https://i.ebayimg.com/images/g/tvEAAeSwlQNqtnlM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327374075842",
+            "title": "LEGO Star Wars: 75347 TIE Bomber Brand New & Factory Sealed",
+            "declared_condition": "new",
+            "item_price": 40.22,
+            "shipping": 3.71,
+            "listed_total": 43.93,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257805220802|0",
+            "seller": "easypickings11",
+            "image": "https://i.ebayimg.com/images/g/IE8AAeSwQr9q1TEc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257805220802",
+            "title": "LEGO Star Wars 75347 TIE Bomber 625pc Darth Vader Gonk Droid 9+ Box",
+            "declared_condition": "new",
+            "item_price": 39.18,
+            "shipping": 5.21,
+            "listed_total": 44.39,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267819239730|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/QmMAAeSwTGxq1-zu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267819239730",
+            "title": "LEGO Star Wars: TIE Bomber (75347) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 41.25,
+            "shipping": 3.49,
+            "listed_total": 44.74,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|406818314608|0",
+            "seller": "astvaitkunien_0",
+            "image": "https://i.ebayimg.com/images/g/NbEAAeSwSoZpzCx5/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406818314608",
+            "title": "LEGO 75347 Star Wars: Tie Bomber Empire Strikes Back Building Kit",
+            "declared_condition": "new",
+            "item_price": 41.26,
+            "shipping": 3.71,
+            "listed_total": 44.97,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407250462035|0",
+            "seller": "alis_5435",
+            "image": "https://i.ebayimg.com/images/g/9jEAAeSw6wBquZBC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407250462035",
+            "title": "(BNIB) LEGO Star Wars TIE Bomber (75347)",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Star Wars TIE Bomber 75347",
+        "query": "LEGO 75347",
+        "kind": "active_ask",
+        "listing": 40.8,
+        "observed_at": "2026-11-08T15:26:41+00:00",
+        "valid_until": "2026-11-08T21:26:41+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/257646831282",
+          "https://www.ebay.co.uk/itm/377550715537",
+          "https://www.ebay.co.uk/itm/117438236147",
+          "https://www.ebay.co.uk/itm/960002390915",
+          "https://www.ebay.co.uk/itm/820219544407",
+          "https://www.ebay.co.uk/itm/327374075842",
+          "https://www.ebay.co.uk/itm/257805220802",
+          "https://www.ebay.co.uk/itm/267819239730",
+          "https://www.ebay.co.uk/itm/406818314608",
+          "https://www.ebay.co.uk/itm/407250462035"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/257646831282",
+            "LEGO Star Wars Tie Bomber Starfighter 75347",
+            40.81,
+            3.71,
+            37.1,
+            "doey01"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/377550715537",
+            "LEGO 75347 Star Wars TIE Bomber Brand New & Factory Sealed",
+            41.25,
+            5.15,
+            36.1,
+            "toywizzard1234"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/117438236147",
+            "LEGO 75347 Star Wars: TIE Bomber. Brand New & Sealed!!",
+            42.89,
+            2.94,
+            39.95,
+            "katymairs"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/960002390915",
+            "LEGO Star Wars Tie Bomber 75347 Brand New Sealed Retired Set",
+            43.38,
+            3.38,
+            40.0,
+            "cocollectss"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/820219544407",
+            "LEGO (75347) Star Wars: TIE Bomber - Brand New & Sealed",
+            43.7,
+            3.71,
+            39.99,
+            "ryanslego"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327374075842",
+            "LEGO Star Wars: 75347 TIE Bomber Brand New & Factory Sealed",
+            43.93,
+            3.71,
+            40.22,
+            "stor.lind"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/257805220802",
+            "LEGO Star Wars 75347 TIE Bomber 625pc Darth Vader Gonk Droid 9+ Box",
+            44.39,
+            5.21,
+            39.18,
+            "easypickings11"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267819239730",
+            "LEGO Star Wars: TIE Bomber (75347) New & Sealed",
+            44.74,
+            3.49,
+            41.25,
+            "bricktopia_collectables"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/406818314608",
+            "LEGO 75347 Star Wars: Tie Bomber Empire Strikes Back Building Kit",
+            44.97,
+            3.71,
+            41.26,
+            "astvaitkunien_0"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407250462035",
+            "(BNIB) LEGO Star Wars TIE Bomber (75347)",
+            45.68,
+            3.38,
+            42.3,
+            "alis_5435"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Ideas Polaroid OneStep SX-70 Camera 21345",
       "url": "https://www.hotukdeals.com/deals/lego-ideas-polaroid-onestep-sx-70-camera-21345-5025121",
       "policy_key": "c3d9398d2e5f517b1b55c46d",
@@ -5271,8 +4123,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg"
@@ -6283,8 +5135,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg"
@@ -7087,8 +5939,8 @@
       "item_price": 57.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg"
@@ -8494,8 +7346,8 @@
       "item_price": 60.22,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/eKIou/5026184_1/re/300x300/qt/55/5026184_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/eKIou/5026184_1/re/300x300/qt/55/5026184_1.jpg",
         "https://images.hotukdeals.com/threads/raw/eKIou/5026184_1/re/150x150/qt/55/5026184_1.jpg"
@@ -9698,7 +8550,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Little Nightmares II (Xbox Series X)"
@@ -9896,7 +8748,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "R-Type Delta HD Boosted PS5"
@@ -10053,13 +8905,13 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-08T09:03:53+00:00",
+        "observed_at": "2026-11-08T15:26:41+00:00",
         "date": "2026-11-08",
         "sample_count": 4,
         "listed_total_low": 18.23,
         "listed_total_p25": 19.46,
         "listed_total_median": 20.97,
-        "listed_total_p75": 23.015,
+        "listed_total_p75": 23.02,
         "listed_total_high": 25.85,
         "status": "indicative_only",
         "warnings": [
@@ -10087,8 +8939,7 @@
             "declared_condition": "new",
             "item_price": 18.23,
             "shipping": 0.0,
-            "listed_total": 18.23,
-            "observed_at": "2026-11-08T09:03:53+00:00"
+            "listed_total": 18.23
           },
           {
             "item_id": "v1|860044533350|0",
@@ -10110,8 +8961,7 @@
             "declared_condition": "new",
             "item_price": 19.87,
             "shipping": 0.0,
-            "listed_total": 19.87,
-            "observed_at": "2026-11-08T09:03:53+00:00"
+            "listed_total": 19.87
           },
           {
             "item_id": "v1|128155417453|0",
@@ -10133,8 +8983,7 @@
             "declared_condition": "new",
             "item_price": 19.35,
             "shipping": 2.72,
-            "listed_total": 22.07,
-            "observed_at": "2026-11-08T09:03:53+00:00"
+            "listed_total": 22.07
           },
           {
             "item_id": "v1|176231668480|0",
@@ -10156,15 +9005,12 @@
             "declared_condition": "new",
             "item_price": 25.85,
             "shipping": 0.0,
-            "listed_total": 25.85,
-            "observed_at": "2026-11-08T09:03:53+00:00"
+            "listed_total": 25.85
           }
         ],
         "rejected": {
-          "identity_or_condition": 15
+          "identity_or_condition": 14
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil 4 Remake Gold Edition (PS5)"
         ]
@@ -10176,7 +9022,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "resident evil 4 remake gold edition ps5",
-        "observed_at": "2026-11-08T09:03:53+00:00",
+        "observed_at": "2026-11-08T15:26:41+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 4,
@@ -10271,7 +9117,6 @@
             "item_price": 18.23,
             "shipping": 0.0,
             "listed_total": 18.23,
-            "observed_at": "2026-11-08T09:03:53+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -10295,7 +9140,6 @@
             "item_price": 19.87,
             "shipping": 0.0,
             "listed_total": 19.87,
-            "observed_at": "2026-11-08T09:03:53+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -10319,7 +9163,6 @@
             "item_price": 19.35,
             "shipping": 2.72,
             "listed_total": 22.07,
-            "observed_at": "2026-11-08T09:03:53+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -10343,7 +9186,6 @@
             "item_price": 25.85,
             "shipping": 0.0,
             "listed_total": 25.85,
-            "observed_at": "2026-11-08T09:03:53+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -10354,8 +9196,8 @@
         "query": "resident evil 4 remake gold edition ps5",
         "kind": "active_ask",
         "listing": 18.22,
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "valid_until": "2026-11-08T15:03:53+00:00",
+        "observed_at": "2026-11-08T15:26:41+00:00",
+        "valid_until": "2026-11-08T21:26:41+00:00",
         "sources": [
           "https://www.ebay.co.uk/itm/147637346955",
           "https://www.ebay.co.uk/itm/860044533350",
@@ -10529,7 +9371,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -10937,7 +9779,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|327424660280|0",
-          "observed_at": "2026-11-08T14:55:43+00:00",
+          "observed_at": "2026-11-08T15:26:27+00:00",
           "status": "incomplete",
           "reasons": [
             "fixed detail shipping not supplied"
@@ -12697,12 +11539,15 @@
             "declared_condition": "new",
             "item_price": 63.09,
             "shipping": 2.7,
-            "listed_total": 65.79
+            "listed_total": 65.79,
+            "observed_at": "2026-11-08T14:55:59+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 5
         },
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -12808,6 +11653,7 @@
             "item_price": 63.09,
             "shipping": 2.7,
             "listed_total": 65.79,
+            "observed_at": "2026-11-08T14:55:59+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -12893,12 +11739,15 @@
             "declared_condition": "new",
             "item_price": 63.09,
             "shipping": 2.7,
-            "listed_total": 65.79
+            "listed_total": 65.79,
+            "observed_at": "2026-11-08T14:55:59+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 5
         },
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -13004,6 +11853,7 @@
             "item_price": 63.09,
             "shipping": 2.7,
             "listed_total": 65.79,
+            "observed_at": "2026-11-08T14:55:59+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13406,12 +12256,15 @@
             "declared_condition": "new",
             "item_price": 63.09,
             "shipping": 2.7,
-            "listed_total": 65.79
+            "listed_total": 65.79,
+            "observed_at": "2026-11-08T14:55:59+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 5
         },
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -13517,6 +12370,7 @@
             "item_price": 63.09,
             "shipping": 2.7,
             "listed_total": 65.79,
+            "observed_at": "2026-11-08T14:55:59+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -13702,7 +12556,7 @@
         "rejected": {
           "identity_or_condition": 45
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -14042,7 +12896,7 @@
         "rejected": {
           "identity_or_condition": 37
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
@@ -14203,206 +13057,6 @@
       "publication_proof": {
         "ok": false,
         "reason": "low_price_not_supported"
-      }
-    },
-    {
-      "title": "Resident Evil Requiem Xbox Series X",
-      "url": "https://www.hotukdeals.com/deals/resident-evil-requiem-xbox-series-x-5025533",
-      "policy_key": "dff345249b5a1ad35427853f",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 34.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/KXkGu/5025533_1/re/150x150/qt/55/5025533_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/resident-evil-requiem-xbox-series-x-5025533",
-      "landed_cost": null,
-      "breakeven_sell": 45.65,
-      "sell_for_minimum_profit": 62.19,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resident+Evil+Requiem+Xbox+Series+X&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "resident evil requiem xbox series x",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "date": "2026-11-08",
-        "sample_count": 1,
-        "listed_total_low": 51.03,
-        "listed_total_p25": 51.03,
-        "listed_total_median": 51.03,
-        "listed_total_p75": 51.03,
-        "listed_total_high": 51.03,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|168841582952|0",
-            "seller": "gggames777",
-            "image": "https://i.ebayimg.com/images/g/1W8AAeSwf6hq7NK3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168841582952",
-            "title": "Resident Evil Requiem Xbox Series x Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 48.33,
-            "shipping": 2.7,
-            "listed_total": 51.03,
-            "observed_at": "2026-11-08T09:03:53+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 7
-        },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Resident Evil Requiem Xbox Series X"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "resident evil requiem xbox series x",
-        "observed_at": "2026-11-08T09:03:53+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 51.03,
-        "competition_high": 51.03,
-        "estimated_resale": 49.49,
-        "estimated_range": [
-          45.92,
-          51.03
-        ],
-        "suggested_listing": 51.02,
-        "quick_sale_model": 45.92,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 34.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": 3.25,
-        "max_landed_buy": 27.31,
-        "max_item_buy": null,
-        "delivery_headroom": -7.68,
-        "fees": 6.57,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.48,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 44.54,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 28.24,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|168841582952|0",
-            "seller": "gggames777",
-            "image": "https://i.ebayimg.com/images/g/1W8AAeSwf6hq7NK3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168841582952",
-            "title": "Resident Evil Requiem Xbox Series x Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 48.33,
-            "shipping": 2.7,
-            "listed_total": 51.03,
-            "observed_at": "2026-11-08T09:03:53+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
       }
     },
     {
@@ -14788,7 +13442,7 @@
         "rejected": {
           "identity_or_condition": 36
         },
-        "canonicalized_at": "2026-11-08T14:55:43+00:00",
+        "canonicalized_at": "2026-11-08T15:26:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill Townfall - Day One Edition - PS5"
@@ -15504,7 +14158,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-08T14:55:43+00:00",
+          "observed_at": "2026-11-08T15:26:27+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -16429,7 +15083,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|313738541392|0",
-          "observed_at": "2026-11-08T14:55:43+00:00",
+          "observed_at": "2026-11-08T15:26:27+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048748312",
@@ -17244,6 +15898,47 @@
       }
     },
     {
+      "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
+      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-porsche-911-gt3-rs-super-car-77239-5025074",
+      "policy_key": "d3c1dd85a6e95ab3cd0e9d26",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 14.99,
+      "image_status": "verified",
+      "image_verified_url": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
+      "image_candidates": [
+        "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg"
+      ],
+      "thumb": "https://i.ebayimg.com/images/g/nNwAAeSwIgFq5lzu/s-l225.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.ebay.co.uk/itm/128179741212",
+      "landed_cost": null,
+      "breakeven_sell": 24.87,
+      "sell_for_minimum_profit": 34.44,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Porsche+911+GT3+RS+Super+Car+77239&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "CMF Buds 2a - Wireless Earbuds Light Grey - 4HD Mics Bluetooth 5.4, Up to 31H of Playback, IP54 with Code Sold By Vertex UK Store",
       "url": "https://www.hotukdeals.com/deals/cmf-buds-2a-wireless-earbuds-light-grey-4hd-mics-bluetooth-54-up-to-31h-of-playback-ip54-with-code-sold-by-vertex-uk-store-5026235",
       "policy_key": "e8fe03d401d25abd45bdd580",
@@ -17277,6 +15972,48 @@
       "first_seen": "2026-11-08T13:54:34+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=CMF+Buds+2a&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Lucky Cat 40813",
+      "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
+      "policy_key": "1fd192dffdb1b099a4aaea2f",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 21.5,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
+      "landed_cost": null,
+      "breakeven_sell": 32.66,
+      "sell_for_minimum_profit": 42.96,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -17336,8 +16073,8 @@
       "item_price": 32.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/300x300/qt/55/5019887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OTT4o/5019887_1/re/150x150/qt/55/5019887_1.jpg"
@@ -17403,45 +16140,6 @@
       }
     },
     {
-      "title": "15% Off \u00a350 Spend On Selected Items (Regatta, Under Armour, Trespass, Karrimor, Nike, Levi's & More)",
-      "url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
-      "policy_key": "b77af7df4eca5a4d77d441d0",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 42.5,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/7borb/5026265_1/re/150x150/qt/55/5026265_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
-      "landed_cost": null,
-      "breakeven_sell": 57.1,
-      "sell_for_minimum_profit": 77.76,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-08T14:55:58+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=15%25+Off+Spend+On+Selected+Items+%28Regatta%2C+Under+Armour%2C+Trespass%2C+Karrimor%2C+Nike%2C+Levi%27s+%26+More%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcb184-18v-xr-50ah-li-ion-battery-5023706",
       "policy_key": "ce0b1e58a58fde3a48825d3c",
@@ -17475,48 +16173,6 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+DCB184+18V+XR+5.0Ah+Li-Ion+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Star Wars TIE Bomber 75347",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-tie-bomber-75347-5025299",
-      "policy_key": "8237c0c54f15029613f8e3b0",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 44.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-tie-bomber-75347-5025299",
-      "landed_cost": null,
-      "breakeven_sell": 60.79,
-      "sell_for_minimum_profit": 82.35,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -17576,8 +16232,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/300x300/qt/55/5025463_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JxJww/5025463_1/re/150x150/qt/55/5025463_1.jpg"
@@ -17657,8 +16313,8 @@
       "item_price": 107.11,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/300x300/qt/55/5026032_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zqmMG/5026032_1/re/150x150/qt/55/5026032_1.jpg"
@@ -17738,8 +16394,8 @@
       "item_price": 117.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
-      "image_verified_until": "2026-11-08T15:15:54.427391+00:00",
-      "image_checked_at": "2026-11-08T14:55:54.427391+00:00",
+      "image_verified_until": "2026-11-08T15:46:37.848727+00:00",
+      "image_checked_at": "2026-11-08T15:26:37.848727+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/300x300/qt/55/5026036_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0Gah/5026036_1/re/150x150/qt/55/5026036_1.jpg"
@@ -21004,6 +19660,45 @@
       }
     },
     {
+      "title": "Resident Evil Requiem Xbox Series X",
+      "url": "https://www.hotukdeals.com/deals/resident-evil-requiem-xbox-series-x-5025533",
+      "policy_key": "dff345249b5a1ad35427853f",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 34.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/KXkGu/5025533_1/re/150x150/qt/55/5025533_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/resident-evil-requiem-xbox-series-x-5025533",
+      "landed_cost": null,
+      "breakeven_sell": 45.65,
+      "sell_for_minimum_profit": 62.19,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resident+Evil+Requiem+Xbox+Series+X&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Resonance: A Plague Tale Legacy (PS5 / Xbox Series X)",
       "url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-ps5-xbox-series-x-5023718",
       "policy_key": "d1ebfaf0e02a0d855cccbc47",
@@ -21689,6 +20384,45 @@
       }
     },
     {
+      "title": "15% Off \u00a350 Spend On Selected Items (Regatta, Under Armour, Trespass, Karrimor, Nike, Levi's & More)",
+      "url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
+      "policy_key": "b77af7df4eca5a4d77d441d0",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 42.5,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/7borb/5026265_1/re/150x150/qt/55/5026265_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
+      "landed_cost": null,
+      "breakeven_sell": 57.1,
+      "sell_for_minimum_profit": 77.76,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-08T14:55:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=15%25+Off+Spend+On+Selected+Items+%28Regatta%2C+Under+Armour%2C+Trespass%2C+Karrimor%2C+Nike%2C+Levi%27s+%26+More%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Armani Because It's You Eau De Parfum 50ml w/code",
       "url": "https://www.hotukdeals.com/deals/armani-because-its-you-eau-de-parfum-50ml-wcode-5025642",
       "policy_key": "42604d2f71d904885e4a6ad6",
@@ -22214,7 +20948,7 @@
           "ml": 200,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-08T14:55:43+00:00",
+        "observed_at": "2026-11-08T15:26:27+00:00",
         "date": "2026-11-08",
         "sample_count": 0,
         "listed_total_low": null,
