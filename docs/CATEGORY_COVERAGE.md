@@ -17,3 +17,22 @@ Official quota reference: https://developer.ebay.com/develop/get-started/api-cal
 
 ## Report corrections (old counters retained)
 Legacy/reference-priced under-cap is explicitly labeled separately from all offers' known landed under-cap and the ask-estimate lane. Delivery-known vs delivery-unknown model counts are no longer inverted. Reports distinguish distinct modeled products from offer count, category coverage, offers without legacy/reference pricing versus without either pricing lane. Private tier failure is a visible safe-fallback WARNING, not proof feeds/scanner failed. Starter cap remains £60; future private sync remains unresolved. Exact competitor links can be submitted for model research; real sold links remain a distinct evidence-review path. Neither automatically creates BUY.
+
+## P1 bounded expansion — 8 November 2026
+
+Actual-source identity fixtures: `tests/fixtures/p1_actual_hukd.json`, captured from the retained 12:08 scan/current public feeds. They are product identities, not invented sold records or evidence of stock/profit.
+
+* adidas source-declared articles IH4316, KK2683, LA1823, KI6121 only. Every valuation still requires ONE explicit UK size and adult department. The actual Streetalk offer supplies IH4316 in its labelled source description and UK 3.5/women in its title. A source-bound structured declaration survives export; a changed URL invalidates it. Multi-size Evo/Adistar leads remain discovery-only. No Samba/Gazelle/model-year/department aliases, arbitrary size selection, size conversion or catalogue-wide adidas support. The official UK Streettalk page returned a family listing, not independent IH4316 certification; do not call this a verified manufacturer catalogue.
+* Soundcore P40i A3955, R50i A3949, Q21i; Xiaomi Redmi Buds 6 Pro; Google Pixel Buds 2a; Bose SoundLink Flex **2nd generation** with one explicit recognised colour. Existing Sony families remain. R50i requires explicit A3949; A3959/ANC/NC is different hardware. No P20i regional alias is inferred. Q21i missing colour and current refurbished Bose offers stay held. Optional GTIN/MPN declarations from official Browse getItem are retained and conflicting declared MPNs are held, not guessed.
+* Additional bare 18V tools: Makita DTD152Z, DGA452Z, DJV182Z; DeWalt DCV100(-XJ), DCS382N(-XJ), DCS565N(-XJ). Existing DUB185Z/DCF887N and primary optional-accessory repair stay connected. No battery/charger/case/bag kits, ZJ kit or other model/suffix/voltage equivalence.
+
+Manufacturer references opened for the permitted Soundcore/DeWalt relationships:
+
+* https://service.soundcore.com/article-description/soundcore-P20i-R50i-P25i-User-Guide-A3949
+* https://service.soundcore.com/article-description/How-to-Reset-Your-soundcore-Headphones — also lists different R50i hardware; marketing name alone is insufficient.
+* https://www.soundcore.com/products/p40i-a3955011
+* https://www.dewalt.co.uk/en-gb/product/dcv100-xj/18v-xr-compact-blower-tool-only
+* https://www.dewalt.co.uk/en-gb/product/dcs382n-xj/18v-xr-brushless-reciprocating-saw-tool-only
+* https://www.dewalt.co.uk/en-gb/product/dcs565n-xj/18v-xr-165mm-circular-saw-tool-only
+
+Makita exact source model codes are not expanded into unverified suffix aliases. Manufacturer fetch failures were not bypassed. Detail checks establish declared fields, **not authenticity**, checkout or a guarantee of sale. Fragrance remains transport-blocked; no used/refurbished/Apple lane was enabled.

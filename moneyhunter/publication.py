@@ -22,7 +22,7 @@ def proof(row,now=None):
         if m.get('detail_status') not in (None,'not_required','verified_fields'):return deny('exact_item_details_unverified')
         if m.get('competitor_coupon_unknown'):return deny('uncertain_competitor_coupon')
         from . import market
-        ident=market.identity({'title':row.get('title',''),'category':row.get('category')})
+        ident=market.identity(row)
         if not ident:return deny('unsupported_exact_identity')
         from . import details
         if details.risky(ident) and m.get('detail_status')!='verified_fields':return deny('exact_item_details_unverified')
