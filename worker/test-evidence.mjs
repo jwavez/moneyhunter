@@ -84,3 +84,7 @@ test('cash acceptance is an explicit field, never inferred from negated prose',a
 test('unknown forecast is omitted, never fabricated as zero selling days',async()=>{
  const e=env(),dt=new Date().toISOString();await E.submit(i('ev:outcome:save'),{item:'Fixture no forecast',bought:dt,listed:dt,sold:dt,economics:'buy=10; sale=20; costs=2'},e);const view=(await E.component(i('ev:outcomes'),e)).data;assert.match(view.content,/1 sold \/ 0 unsold/);assert.match(view.content,/model error: not measured/);assert.match(view.content,/0 sold records with an actual recorded model/);assert(!JSON.stringify(await E.publicFacts(e)).includes('Fixture no forecast'));
 });
+
+test('actual Tapo smart-switch control cannot keep a gaming valuation',async()=>{
+ const {normalizeProduct}=await import('./src/product-format.js');const x=normalizeProduct({title:'Tapo S200B Smart Button Wireless Smart Switch Remote Control',category:'gaming',ask_estimate:{model:'fixture-old-gaming'}});assert.equal(x.category,'tech');assert.equal(x.ask_estimate,undefined);
+});
