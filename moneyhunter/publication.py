@@ -1,6 +1,7 @@
 """Mandatory evidence-backed resale estimate. No target/RRP or missing-price bypass."""
 import datetime as dt
 import math
+import re
 from urllib.parse import urlsplit
 from . import product_format as PF
 
@@ -12,6 +13,7 @@ def proof(row,now=None):
     if PF.reason(row):return deny('nonphysical')
     if row.get('offer_ambiguity'):return deny('ambiguous_primary_offer')
     m=row.get('ask_estimate')
+    if m and condition_blocked(row):return deny('condition_mismatch_new_comparators')
     if m:
         try:age=(now-dt.datetime.fromisoformat(m['observed_at'])).total_seconds()/3600
         except (ValueError,KeyError,TypeError):return deny('missing_observation_time')
@@ -58,3 +60,11 @@ def summary(row):
     from . import presentation
     fields=presentation.fields(row,legacy=row)
     return ' · '.join(f"{label}: {str(f['value'])[:140]}" for label,f in zip(('Sell','Net','Decision'),fields))
+
+
+def condition_blocked(row):
+    """The active-ask lane is NEW only; metadata/body cannot override a used label."""
+    text=' '.join(str(row.get(k) or '') for k in ('title','condition','condition_text','declared_condition'))
+    body=' '.join(str(row.get(k) or '') for k in ('desc','description'))
+    return bool(re.search(r'\b(refurb(?:ished)?|renewed|pre[ -]?owned|used|open[ -]?box|warehouse|good as new)\b',text,re.I) or
+                re.search(r'\b(refurb(?:ished)?|renewed|pre[ -]?owned|open[ -]?box|good as new|condition\s*[:=-]\s*used)\b',body,re.I))

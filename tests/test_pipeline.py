@@ -262,7 +262,7 @@ class Integration(EvidenceHelpers, unittest.TestCase):
             self.assertEqual((stats["scanned"],stats["new"],stats["sold_valued"],stats["A"],stats["unpriced"]), (2,2,1,1,1))
             self.assertEqual(cli.LAST_REVIEW[0]["url"], unknown["url"])
             out=Path(td)/"deals.json"; cli.export_public(str(out),stats,pairs)
-            data=json.loads(out.read_text()); self.assertEqual(data["schema_version"],2)
+            data=json.loads(out.read_text()); self.assertEqual(data["schema_version"],3)
             self.assertEqual(data["deals"][0]["evidence_type"],"sold")
             runtime.save(cli.OPERATIONAL,cli.LAST_OPERATIONAL)
             again=cli.run_scan()[-1]

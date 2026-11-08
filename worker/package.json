@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node test.mjs && node --test test-capture.mjs && node --test test-estimates.mjs && node --test test-images.mjs && node --test test-presentation.mjs && node --test test-publication.mjs",
+    "test": "node test.mjs && node --test test-capture.mjs && node --test test-estimates.mjs && node --test test-images.mjs && node --test test-presentation.mjs && node --test test-publication.mjs && node --test test-routing.mjs",
     "deploy": "wrangler deploy",
     "register": "node scripts/register.mjs"
   }

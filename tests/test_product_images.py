@@ -42,7 +42,7 @@ class ProductImages(unittest.TestCase):
         self.assertEqual(hub.mini(RAW,0)['image']['url'],images.safe(PHOTO))
     def test_summary_distinguishes_rescans_and_asking_estimates(self):
         text=embeds.quiet_card({'scanned':307,'priced':3,'new':10,'rescanned':297,'ask_valued':20,'above_budget_estimates':5},'pulse')['description']
-        for part in ['10 new / 297 rescans','20 competitor-ask estimates','3 legacy/reference valuations','0 Strong CHECK','5 above-budget']:self.assertIn(part,text)
+        for part in ['10 new / 297 rescans','20 research models generated','3 legacy/reference valuations','0 Strong CHECK','5 above-budget']:self.assertIn(part,text)
     def test_fragrance_transport_not_pretended_valid_or_returns_guaranteed(self):
         card=hub.watch_card({**RAW,'category':'fragrance','title':'Armani Profondo Parfum 200ml','price':89.99},{})
         self.assertIn('Not established',card['fields'][0]['value']);self.assertIn('200ml bottle exceeds',str(card['fields']));self.assertIn('prohibits perfume',card['footer']['text'])

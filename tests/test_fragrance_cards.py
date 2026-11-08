@@ -45,7 +45,7 @@ class FragranceCards(unittest.TestCase):
         self.assertIsNotNone(m['transport_scenario']['net_before_unknown_delivery'])
         card=hub.watch_card({**EDT,'ask_estimate':m},{})
         text=str(card)
-        self.assertIn('Estimated sell price',text);self.assertIn('33.94',text)
+        self.assertIn('Market estimate — supported comparators only',text);self.assertIn('33.94',text)
         self.assertIn('CONDITIONAL',text);self.assertNotIn('a 200ml bottle exceeds',text)
     def test_scenario_uses_fee_engine_once_and_inbound_cost_is_not_silently_free(self):
         from moneyhunter.fees import net_profit

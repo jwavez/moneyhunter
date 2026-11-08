@@ -147,6 +147,7 @@ def run_scan():
     comps = CP.load()
     graded, unpriced, review = [], [], []
     for raw in raws:
+        raw.pop("ask_estimate",None)  # Rebuild derived models; never count retained stale models as newly priced.
         # Reviewed exact retailer offers can resolve attributes omitted by a feed title.
         comp = next((c for c in comps if c.evidence_type == "sold" and checked_offer(raw, c)), None)
         why_not = ""
@@ -175,7 +176,7 @@ def run_scan():
             score += 10 if re.search(r"\b(?:[a-z]{2,}\d{2,}|\d{5,6})\b", raw["title"], re.I) else 0
             score += 5 if d.delivery_known else 0
             raw["review_priority"] = score
-            review.append({"title": d.title, "url": d.url, "category": d.category,"source":raw.get("source","hotukdeals"),"price_basis":raw.get("price_basis"),"primary_offer_status":raw.get("primary_offer_status"),"secondary_offer_note":raw.get("secondary_offer_note"),"offer_ambiguity":raw.get("offer_ambiguity"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
+            review.append({"title": d.title, "url": d.url,"policy_key":__import__("moneyhunter.routing",fromlist=["policy_key"]).policy_key(d.url), "category": d.category,"source":raw.get("source","hotukdeals"),"price_basis":raw.get("price_basis"),"primary_offer_status":raw.get("primary_offer_status"),"secondary_offer_note":raw.get("secondary_offer_note"),"offer_ambiguity":raw.get("offer_ambiguity"),"merchant":raw.get("merchant",""), "item_price": d.buy_price,
                 **{k:raw.get(k) for k in ("image_status","image_verified_url","image_verified_until","image_checked_at","image_candidates")},
                 "thumb":raw.get("thumb",""),"image_basis":raw.get("image_basis",""),"image_source_url":raw.get("image_source_url",""),
                 "landed_cost": d.buy_price + d.inbound_delivery if d.delivery_known else None,
@@ -287,6 +288,11 @@ def run_scan():
     stats['value_watchlist']=watchlist.build(operational,RT.now(),inspect=False)
     stats['persistent_research']=persistent_health
     stats['item_details']=dict(operational['detail_run'])
+    from . import routing
+    stats['publication_stages']=routing.stages(raws,graded)
+    stats['routing_destinations']=hub.destination_roles()
+    stats['nearest_priced_misses']=routing.nearest(raws)
+    stats['notification_delivery']={'mode':stats.get('delivery_mode','pending'),'product_messages_delivered':0,'by_route':{}}
     stats["review_candidates"] = len(LAST_REVIEW)
     stats["lego_image_validation"]=image_report
     stats["images_available"] = sum(bool(r.get("thumb")) for r in raws)
@@ -333,7 +339,7 @@ def export_public(path, stats, graded):
                "sold_observations": stats["pricing_observations"],
                "blocker": None if catalog else "No fresh directly verified exact-product sold observations imported; active asks are not sold data"},
            "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "price_cap": E.community_cap(),
-           "schema_version": 2, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
+           "schema_version": 3, "review_queue": review_export, "stats": stats, "deals": [_public_deal(d, r) for d, r in graded[:40]]}
     if os.getenv("MONEYHUNTER_DISABLE_SEND")=="1":
         from . import publication
         from . import discord as D,images,hub
@@ -343,7 +349,7 @@ def export_public(path, stats, graded):
             if publication.allowed(r) and hub.resellable(r) and (r['category'] not in categories or re.search(r'72051|resident evil requiem',r['title'],re.I)):
                 sample.append(r);categories.add(r['category'])
         out['clarity_publication_previews']=[{'source_url':r['url'],'payload':D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in sample[:12]]
-        out['all_publication_previews']=[{'source_url':r['url'],'payload':D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if publication.allowed(r) and images.publishable(r)]
+        out['all_publication_previews']=[{'source_url':r['url'],'route':'opportunities' if __import__('moneyhunter.routing',fromlist=['opportunity']).opportunity(r) else 'research-watch','payload':D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if publication.allowed(r) and images.publishable(r)]
         out["fragrance_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="fragrance" and publication.allowed(r)]
         out["lego_publication_previews"]=[{"source_url":r["url"],"payload":D.build_payload([hub.watch_card(r,{})],components=hub.buttons(r))} for r in LAST_RAWS if r.get("category")=="lego" and images.publishable(r) and publication.allowed(r)]
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
@@ -355,6 +361,7 @@ def cmd_scan(a):
     if no_send: os.environ["MONEYHUNTER_DISABLE_SEND"] = "1"
     br, tier, graded, affordable, unpriced, stats = run_scan()
     stats["delivery_mode"] = "disabled" if no_send or a.dry_run else "live"
+    stats.setdefault("notification_delivery",{"product_messages_delivered":0,"by_route":{}})["mode"]=stats["delivery_mode"]
     stats["execution"] = {"revision": os.getenv("GITHUB_SHA"), "run_id": os.getenv("GITHUB_RUN_ID"),
                           "event": os.getenv("GITHUB_EVENT_NAME"), "parent_run_id": os.getenv("MH_PARENT_RUN_ID") or None}
     who = "Rules: community starter set" if os.getenv("MONEYHUNTER_COMMUNITY") == "1" else f"Bankroll £{br:.2f} → {tier.name}"
