@@ -61,6 +61,10 @@ def assess(data,offer,ident,when):
         if not style:missing.append('style-colour code aspect missing')
         elif not re.search(r'(?<![a-z0-9])'+re.escape(v.get('style_code',''))+r'(?![a-z0-9])',style,re.I):bad.append('style-colour code mismatch')
     elif ident.category=='tools':
+        included=variants.clean(values('battery included','batteries included','charger included')).strip()
+        if re.sub(r'\b(?:not included|not supplied|sold separately|no|false|0)\b','',included).strip():bad.append('battery/charger inclusion contradicts bare tool')
+        voltage=values('voltage')
+        if voltage and any(int(n)!=18 for n in re.findall(r'(\d+)\s*v',voltage,re.I)):bad.append('tool voltage mismatch')
         model=values('model','mpn','manufacturer part number') or str(data.get('mpn') or '')
         expected=v.get('model','')
         if not model:missing.append('exact tool model aspect missing')

@@ -42,7 +42,10 @@ def build_payload(embeds,content="",components=None):
     for e in embeds:
         product=e.get('_mh_product_card') or e.get('_mh_product_category') or (e.get('url') and e.get('title'))
         if product and (not publication.valid_proof(e.get('_mh_price_proof')) or f"£{e['_mh_price_proof']['listing']:.2f}" not in json.dumps({k:v for k,v in e.items() if not k.startswith('_mh_')},ensure_ascii=False)):return None
-        if any(not publication.allowed(r) for r in e.get('_mh_product_rows',[])):return None
+        visible=json.dumps({k:v for k,v in e.items() if not k.startswith('_mh_')},ensure_ascii=False)
+        for r in e.get('_mh_product_rows',[]):
+            p=publication.proof(r)
+            if not p['ok'] or r.get('url','') not in visible or f"£{p['listing']:.2f}" not in visible:return None
         if PF.reason({'title':e.get('title','')}):return None
         if e.get('_mh_product_category')=='lego' or __import__('re').search(r'\blego\b[^\n]*\b\d{5,6}\b',str(e.get('title',''))+'\n'+str((e.get('author') or {}).get('name','')),__import__('re').I):
             row={'category':'lego','thumb':(e.get('image') or {}).get('url'),'image_status':e.get('_mh_image_status'),

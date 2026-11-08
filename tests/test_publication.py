@@ -34,8 +34,20 @@ class MandatoryPrice(unittest.TestCase):
   self.assertEqual(delivery_cost(t,"Free delivery"),0)
   r=primary({"title":t,"price":39.99,"price_basis":"rss_merchant_price","category":"tools"});self.assertEqual(r["title"],t.split(" / ")[0]);self.assertIsNotNone(market.identity(r))
   self.assertTrue(primary({"title":t,"price":39.99,"category":"tools"}).get("offer_ambiguity"))
+ def test_aggregate_price_cannot_be_hidden_or_clipped(self):
+  self.assertIsNone(discord.build_payload([{"title":"Digest","_mh_product_rows":[self.r],"description":self.r["url"]}]))
+  p=P.proof(self.r);self.assertIsNotNone(discord.build_payload([{"title":"Digest","_mh_product_rows":[self.r],"description":self.r["url"]+f" Sell £{p['listing']:.2f}"}]))
  def test_exact_tool_variants_and_watchlist_reconstruction(self):
   for t in ("Makita DUB185Z 18V Blower Bare Unit","DeWalt DCF887N 18V Impact Driver Body Only","DeWalt DCF887N-XJ 18V Impact Driver Tool Only"):
    i=market.identity({"title":t,"category":"tools"});self.assertIsNotNone(i,t);j=watchlist.ident({"category":"tools","query":i.match,"identity":i.identity});self.assertTrue(market.matches(t,j))
-  for t in ("Makita BL1830 Battery","Makita DUB186Z Blower","Makita DUB185Z 12V Blower","Makita DUB185Z with battery","Makita DUB185Z housing only","DeWalt DCF887D2 Kit","DeWalt DT7500-QZ Bit Holder","DeWalt DCF887N with battery charger"):
+  for t in ("Makita BL1830 Battery","Makita DUB186Z Blower","Makita DUB185Z 12V Blower","Makita DUB185Z with battery","Makita DUB185Z housing only","DeWalt DCF887D2 Kit","DeWalt DT7500-QZ Bit Holder","DeWalt DCF887N with battery charger","DeWalt DCF887N 18V Bare Tool + Case","DeWalt DCF887N 18V Bare + 12 inch Tool Bag"):
    self.assertIsNone(market.identity({"title":t,"category":"tools"}),t)
+
+ def test_tool_battery_aspects_preserve_not_included_but_reject_yes(self):
+  from moneyhunter import details
+  i=market.identity({'title':'DeWalt DCF887N 18V Bare Tool','category':'tools'})
+  o={'item_id':'fixture','item_price':50,'shipping':0,'url':'https://www.ebay.co.uk/itm/123456789000'}
+  data={'title':'DeWalt DCF887N 18V Bare Tool','conditionId':'1000','price':{'value':'50','currency':'GBP'},'shippingOptions':[{'shippingCostType':'FIXED','shippingCost':{'value':'0','currency':'GBP'}}],'estimatedAvailabilities':[{'estimatedAvailabilityStatus':'IN_STOCK'}]}
+  for value,status in [('No','verified_fields'),('Not Included','verified_fields'),('Yes','conflict')]:
+   x={**data,'localizedAspects':[{'name':'Model','value':'DCF887N'},{'name':'Battery Included','value':value}]}
+   self.assertEqual(details.assess(x,o,i,dt.datetime.now(dt.timezone.utc))['status'],status)
