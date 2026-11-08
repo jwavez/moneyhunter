@@ -13,7 +13,7 @@ const identity={match:'Fixture LEGO 99999 sealed',condition:'new',variant:'seale
 const sold={amount:'25',shipping:'0',sold:today,listed:today,observed:today};
 async function pending(e,source=identity.source,kind='sold'){
  const result=await E.submit(i(`ev:identity:${kind}:lego`),{...identity,source},e),id=result.components[0].components[0].custom_id.split(':')[2];
- await E.submit(i('ev:terms:'+id),kind==='sold'?sold:kind==='cash'?{amount:'20',cost:'1',observed:new Date().toISOString(),cash:'CASH',conditions:'Exact sealed grade PHYSICALLY ACCEPTED, testing complete'}:kind==='offer'?{amount:'10',shipping:'0',observed:new Date().toISOString(),acquisition:'https://www.hotukdeals.com/deals/fixture-only',confirm:'ONLINE IN STOCK'}:{active:'10',observed:today,scope:'Fixture count'},e);return id;
+ await E.submit(i('ev:terms:'+id),kind==='sold'?sold:kind==='cash'?{amount:'20',cost:'1',observed:new Date().toISOString(),cash:'CASH; PHYSICALLY ACCEPTED',conditions:'Exact sealed grade, testing complete, no deductions beyond recorded exit cost'}:kind==='offer'?{amount:'10',shipping:'0',observed:new Date().toISOString(),acquisition:'https://www.hotukdeals.com/deals/fixture-only',confirm:'ONLINE IN STOCK'}:{active:'10',observed:today,scope:'Fixture count'},e);return id;
 }
 async function decide(e,id,action='approve',user='fixture-owner'){
  const x=await e.MH.get('ev2:record:fixture-guild:'+id,'json');return E.submit(i(`ev:decision:${action}:${id}:${x.revision}`,user),{checks:action==='approve'?'CHECKED':action.toUpperCase(),note:'Fixture human inspected exact public source, actual GBP and dates'},e);
@@ -76,4 +76,8 @@ test('published community evidence is hidden if revision is revoked or cannot be
 test('terminal reject/revoke veto survives an older concurrent approval write',async()=>{
  const e=env(),id=await pending(e);await decide(e,id);const key='ev2:record:fixture-guild:'+id,old=await e.MH.get(key,'json');await decide(e,id,'revoke');await e.MH.put(key,JSON.stringify(old));assert.equal((await E.publicFacts(e)).records.length,0);
  const p=await pending(e,'https://example.com/fixture-reject');const pendingRow=await e.MH.get('ev2:record:fixture-guild:'+p,'json');await decide(e,p,'reject');pendingRow.status='approved';pendingRow.reviewed_at=new Date().toISOString();await e.MH.put('ev2:record:fixture-guild:'+p,JSON.stringify(pendingRow));assert.equal((await E.publicFacts(e)).records.length,0);
+});
+test('cash acceptance is an explicit field, never inferred from negated prose',async()=>{
+ const e=env();const r=await E.submit(i('ev:identity:cash:lego'),{...identity,source:'https://uk.webuy.com/product-detail?id=fixture-negation'},e),id=r.components[0].components[0].custom_id.split(':')[2];
+ await E.submit(i('ev:terms:'+id),{amount:'20',cost:'0',observed:new Date().toISOString(),cash:'CASH',conditions:'NOT PHYSICALLY ACCEPTED; testing pending'},e);await assert.rejects(()=>decide(e,id),/genuine, exact/);assert.equal((await E.publicFacts(e)).counts.approved_cash,0);
 });

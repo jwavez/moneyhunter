@@ -111,7 +111,8 @@ def scan(log=print) -> list:
                     direct = u.replace("&amp;", "&")
                     if re.match(r"https://(?:www\.)?ebay\.(?:co\.uk|com)/itm/", direct):
                         acquisition_urls.append(direct.split("?")[0].split("#")[0])
-                desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", desc_html)).strip()[:800]
+                full_desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", desc_html[:65536])).strip()
+                desc = full_desc[:800]
                 from .. import images
                 thumb = images.feed(it,NS)
                 cat = classify(title, hint)
@@ -138,6 +139,12 @@ def scan(log=print) -> list:
                             "delivery": delivery_speed(title, merchant), "desc": desc,
                             "price_basis":price_basis,"inbound_delivery": delivery_cost(title, desc), "online_eligible": online_status(title, desc),
                             "pub": (it.findtext("pubDate") or "").strip()})
+                # Extract a bounded labelled identity BEFORE prose truncation.
+                # Keep original delivery/price parsing and the public body bound.
+                from .. import variants
+                identity_row=variants.attach_source_identity({**by_link[link],"desc":full_desc})
+                if variants.identity(identity_row) and identity_row.get("identity_evidence"):
+                    by_link[link]["identity_evidence"]=identity_row["identity_evidence"]
     from ..offer_integrity import primary
     return [primary(r) for r in out]
 

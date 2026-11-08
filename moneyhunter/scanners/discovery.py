@@ -66,7 +66,7 @@ def scan(raws, state, when=None):
     targets=research_budget.fair_order(list(distinct.values()),lambda pair:pair[1].category,
         lambda pair:(history.get(pair[0],''),pair[0]),rotation.get('acquisition',0))[:3]
     health['target_selection']['selected_price_queries']=len(targets)
-    health['target_selection']['discovery_fallback_reason']='eligible targets selected; one discovery slot retained' if targets else 'no fresh non-cooled usable target; see context_reasons'
+    health['target_selection']['discovery_fallback_reason']=f'{len(targets)} fresh distinct target queries selected (up to 3); remaining slots are discovery because other contexts are cooled/unusable or duplicates' if targets else 'no fresh non-cooled usable target; see context_reasons'
     target_keys={key for key,_ in targets}
     pool=targets+[(key,i) for key,i in ordered if key not in target_keys]
     distinct_order=[];seen_queries=set()
