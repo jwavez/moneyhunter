@@ -162,11 +162,9 @@ def sources_text(sources):
     return " · ".join(lines)[:1000] or "Not reported"
 
 def scan_summary(stats: dict, near: list, preview: bool = False) -> dict:
-    lines = []
-    for d, r in near[:6]:
-        f = gates_failed(r)
-        lines.append(f"`{r.grade[0] if r.grade[0] in 'AB' else 'R'}` **{short_query(d.title)[:38]}** · {gbp(r.cost)} → {gbp(r.plan['target'])} · "
-                     f"{gbp(r.ev_net, True)} · {f[0] if f else 'passes'}")
+    # Status is aggregate-only: required targets/reference near-misses are not
+    # supported selling prices. Individual research lives in price-gated cards.
+    lines = [f"{len(near)} candidates retained in background research; individual products appear only in supported-price cards."] if near else []
     color = GREEN if stats["A"] else AMBER if stats["B"] else BLUE
     return {
         "author": {"name": ("PREVIEW · " if preview else "") + "MONEYHUNTER scan report"},

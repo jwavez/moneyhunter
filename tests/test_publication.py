@@ -34,6 +34,9 @@ class MandatoryPrice(unittest.TestCase):
   self.assertEqual(delivery_cost(t,"Free delivery"),0)
   r=primary({"title":t,"price":39.99,"price_basis":"rss_merchant_price","category":"tools"});self.assertEqual(r["title"],t.split(" / ")[0]);self.assertIsNotNone(market.identity(r))
   self.assertTrue(primary({"title":t,"price":39.99,"category":"tools"}).get("offer_ambiguity"))
+ def test_aggregate_price_cannot_be_hidden_or_clipped(self):
+  self.assertIsNone(discord.build_payload([{"title":"Digest","_mh_product_rows":[self.r],"description":self.r["url"]}]))
+  p=P.proof(self.r);self.assertIsNotNone(discord.build_payload([{"title":"Digest","_mh_product_rows":[self.r],"description":self.r["url"]+f" Sell £{p['listing']:.2f}"}]))
  def test_exact_tool_variants_and_watchlist_reconstruction(self):
   for t in ("Makita DUB185Z 18V Blower Bare Unit","DeWalt DCF887N 18V Impact Driver Body Only","DeWalt DCF887N-XJ 18V Impact Driver Tool Only"):
    i=market.identity({"title":t,"category":"tools"});self.assertIsNotNone(i,t);j=watchlist.ident({"category":"tools","query":i.match,"identity":i.identity});self.assertTrue(market.matches(t,j))
