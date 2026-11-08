@@ -1,3 +1,4 @@
+import {priced,pending} from './publication.js';
 import {nonphysical,normalizeProduct,physicalRows,excludedView,reclassifiedView} from "./product-format.js";
 import {summaryFields,soldSummary} from "./presentation.js";
 import {imageMeta,guardResponse} from "./images.js";
@@ -25,7 +26,7 @@ const CATS = [["all", "All deals", "🔎"], ["trainers", "Trainers", "👟"], ["
   ["consoles", "Consoles", "🕹️"], ["tools", "Tools", "🛠️"], ["fragrance", "Fragrance", "🧴"]];
 const isConsole = d => d.category === "gaming" && /console|oled|switch 2|ps5 (slim|pro|digital)|xbox series/i.test(d.title);
 function filterDeals(deals, f) {
-  deals=physicalRows(deals);
+  deals=physicalRows(deals).filter(priced);
   switch (f) {
     case "top": return deals.filter(d => d.grade !== "R" && d.under_cap);
     case "near": return deals.filter(d => d.grade === "R" && d.under_cap);
@@ -133,6 +134,7 @@ function panel(d) {
 
 // ---------- deal browser ----------
 function dealView(d, list, f, i) {
+  list=list.filter(priced);
   const n = list.length;
   const nav = (j, label, emoji, dis) => btn(`v:${f}:${j}`, label, emoji, 2, dis);
   const home = btn("p:home", "Menu", "🏠");
@@ -151,7 +153,7 @@ function dealView(d, list, f, i) {
     title: `${icon} ${word} · ${sgbp(x.net)} net · ${pct(x.roi)} ROI`, url: x.url, color: C[x.grade],
     description: `**${x.title.slice(0, 200)}**${x.delivery_known === false ? "\n⚠️ Delivery unknown: profit is an upper bound before inbound delivery, not verified net." : ""}${x.evidence_type && x.evidence_type !== "sold" ? "\nReference-only valuation, not exact sold evidence." : ""}${x.under_cap ? "" : "\n⚠️ Over cap or landed delivery cost not confirmed"}`,
     fields: [
-      ...summaryFields(x,null,null,false,x),
+      ...summaryFields(x,x.ask_estimate,null,false,x),
       { name: "Buy", value: gbp(x.buy), inline: true }, { name: "Required resale target", value: gbp(x.target) + " (required target, not market value)", inline: true },
       { name: "Max landed cost (money gates only)", value: gbp(x.max_buy), inline: true },
       { name: "Net", value: sgbp(x.net), inline: true }, { name: "Worst case", value: sgbp(x.worst) + (x.worst_verified ? "" : " (est.)"), inline: true },
@@ -173,10 +175,11 @@ function dealView(d, list, f, i) {
 }
 
 function planView(x) {
+  if(!priced(x))return pending();
   x=normalizeProduct(x);if(nonphysical(x))return excludedView(x);if(x.format_reclassified)return reclassifiedView(x);
   const p = x.plan || {};
   return { embeds: [{ ...imageMeta(x), title: `📋 Trade plan · ${x.title.slice(0, 80)}`, color: C[x.grade], fields: [
-    ...summaryFields(x,null,null,false,x),
+    ...summaryFields(x,x.ask_estimate,null,false,x),
     { name: "1 · Financial ceiling (not approval)", value: `At or under **${gbp(x.max_buy)}** (deal ${gbp(x.buy)})`, inline: false },
     { name: "2 · List", value: `${gbp(p.list ?? x.target)}, then ${gbp(p.target ?? x.target)} by day 3`, inline: false },
     { name: "3 · Reprice", value: `Day 7: −5% and cross-list · Day 10: ${gbp(p.quick ?? x.target * 0.9)}`, inline: false },
@@ -189,7 +192,9 @@ function planView(x) {
 
 // Prioritised public research tasks, not purchasable recommendations or sold valuations.
 function researchView(d, index = 0) {
-  const list = physicalRows(d.review_queue);
+  const all=physicalRows(d.review_queue);
+  const list = all.filter(priced);
+  if(!list.length)return {...pending(all.length),components:[row(btn("p:home","Menu","🏠"))]};
   if (!list.length) return { embeds: [{title:"Research watchlist",color:C.INFO,description:"No prioritised candidates in this export yet. A migrated scheduled scan must publish the queue. No BUY is implied."}],components:[row(btn("p:home","Menu","🏠"))] };
   const i = ((index % list.length) + list.length) % list.length, x = list[i];
   if(x.format_reclassified)return reclassifiedView(x);
@@ -245,8 +250,10 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   try { pricing = await getDeals(env); }
   catch { return { content: "Pricing feed unavailable. No fresh competitor estimate can be shown right now.", components: [links, again] }; }
   const reviewed = findReviewed(q, pricing.pricing_catalog);
+  if (reviewed?.blocked) return pending();
   if (reviewed?.blocked) return { embeds: [{ title: "Exact variant needed before pricing", color: C.B,
     description: `${reviewed.reason}.\nIdentity: ${Object.entries(reviewed.identity ?? {}).map(([k,v]) => `${k}: ${v}`).join(" · ").slice(0,850)}. Not a BUY.` }], components: [links, again] };
+  if (reviewed && !priced(reviewed))return pending();
   if (reviewed) {
     const fields = [
       ...soldSummary(reviewed,buy,landedConfirmed),
@@ -270,9 +277,11 @@ async function priceView(q, buy, env, landedConfirmed = false) {
   if(asking) {
     const entries=(pricing.review_queue ?? []).filter(x=>x.ask_estimate?.query===asking.query);
     const entry=entries.find(x=>cleanAskQuery(x.title)===cleanAskQuery(q)) ?? entries.sort((a,b)=>a.ask_estimate.estimated_resale-b.ask_estimate.estimated_resale)[0];
+    if(!entry||!priced(entry))return pending();
     return {embeds:[{...imageMeta(entry??{category:asking.query.startsWith("LEGO ")?"lego":null}),title:`Estimated resale · ${asking.query}`.slice(0,250),color:C.INFO,
       description:"Current exact-title NEW competitor offers including quoted shipping support this conservative MODEL estimate. Not sold data or a guaranteed sale. The cheapest credible competition caps the estimate even when discounted.",fields:[...estimateFields(entry?.ask_estimate,buy,landedConfirmed),...askFields(asking)]}],components:[row(...estimateLinks(entry?.ask_estimate),link(sold,"Sold research","📊")),again]};
   }
+  return pending(); // Legacy guide/required targets never satisfy mandatory market-price publication.
   const c = findComp(q, await getComps(env));
   if (c && c.blocked) return { embeds: [{ title: "⚠️ Not priced: uncertain match", color: C.B, description: `Closest comp is **${c.blocked.slice(0, 80)}**, but your item looks like a different version (kids, bundle, used, edition or kit). Check eBay sold for the exact item.` }], components: [links, again] };
   if (!c) return { embeds: [{ title: `No exact competitor estimate for “${q.slice(0, 60)}” yet`, color: C.INFO, description: "Try the exact game/platform, LEGO set number, Sony model plus explicit colour, supported fragrance family + concentration + ml + refillable status, or Nike style code + one explicit UK size. No UK/US size conversion is inferred. Ambiguous variants are not guessed." }], components: [links, again] };

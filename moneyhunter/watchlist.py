@@ -11,7 +11,7 @@ def ident(snapshot):
     fields=dict(snapshot.get('identity') or {'condition':'new'})
     i=SimpleNamespace(category=cat,match=query,identity=fields,name_terms=snapshot.get('name_terms',[]))
     variant={k:v for k,v in fields.items() if k!='condition'}
-    if cat in ('tech','fragrance','trainers') and variant:i.variant=variant
+    if cat in ('tech','fragrance','trainers','tools') and variant:i.variant=variant
     return i
 
 def hours(ts,when):

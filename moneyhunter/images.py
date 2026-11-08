@@ -85,7 +85,8 @@ def publishable(row,now=None):
     except (ValueError,TypeError):return False
 
 def metadata(row):
-    return {'_mh_product_category':row.get('category'),'_mh_image_basis':row.get('image_basis'), '_mh_image_verified_url':row.get('image_verified_url'),
+    from .publication import metadata as pricing_metadata
+    return {**pricing_metadata(row),'_mh_product_category':row.get('category'),'_mh_image_basis':row.get('image_basis'), '_mh_image_verified_url':row.get('image_verified_url'),
             '_mh_image_verified_until':row.get('image_verified_until'), '_mh_image_status':row.get('image_status'),
             '_mh_image_candidates':row.get('image_candidates',[])}
 

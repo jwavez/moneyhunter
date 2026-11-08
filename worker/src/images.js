@@ -1,3 +1,4 @@
+import {priceMeta,validProof,pending} from './publication.js';
 import {nonphysical} from "./product-format.js";
 // Mandatory LEGO product-photo publication guard. Only original approved public CDN
 // images; no redirect following, cookies, credentials, arbitrary hosts or full downloads.
@@ -15,7 +16,7 @@ async function saveCheck(key,value,env,seconds){
  if(!memory.has(env))memory.set(env,new Map());const m=memory.get(env);if(m.size>=128)m.delete(m.keys().next().value);m.set(key,value);
 }
 export function imageMeta(x={}) {
- return {_mh_product_category:x.category??x.ask_estimate?.category,_mh_image_basis:x.image_basis,_mh_image_candidates:[x.thumb,...(x.image_candidates??[])].map(productImage).filter(Boolean).slice(0,4),
+ return {...priceMeta(x),_mh_product_category:x.category??x.ask_estimate?.category,_mh_image_basis:x.image_basis,_mh_image_candidates:[x.thumb,...(x.image_candidates??[])].map(productImage).filter(Boolean).slice(0,4),
    ...(productImage(x.thumb)?{image:{url:productImage(x.thumb)}}:{})};
 }
 function actualImage(b){return (b[0]===255&&b[1]===216&&b[2]===255)||[137,80,78,71,13,10,26,10].every((v,i)=>b[i]===v)||new TextDecoder().decode(b.slice(0,6)).match(/^GIF8[79]a$/)||new TextDecoder().decode(b.slice(0,12)).match(/^RIFF....WEBP$/s);}
@@ -45,6 +46,7 @@ export async function verifyImage(url,env={},fetcher=fetch,now=Date.now(),paused
 export async function guardData(data,env={},fetcher=fetch){
  if(!data?.embeds)return data;
  for(const e of data.embeds){
+  if((e._mh_product_card||e._mh_product_category||(e.url&&e.title))&&(!validProof(e._mh_price_proof)||!JSON.stringify(Object.fromEntries(Object.entries(e).filter(([k])=>!k.startsWith('_mh_')))).includes('£'+e._mh_price_proof.listing.toFixed(2))))return {...pending(),flags:data.flags??64,allowed_mentions:{parse:[]}};
   if(nonphysical({title:e.title??""}))return {flags:data.flags??64,content:"Excluded nonphysical digital key/code: no physical-resale card or postage calculation is available.",allowed_mentions:{parse:[]}};
   const identified=e._mh_product_category==='lego'||/\blego\b[^\n]*\b\d{5,6}\b/i.test([e.title,e.author?.name].join('\n'));
   if(!identified)continue;

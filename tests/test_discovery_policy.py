@@ -85,6 +85,7 @@ class Boundaries(unittest.TestCase):
         self.assertGreaterEqual(proceeds-ceiling,10)
         self.assertGreaterEqual((proceeds-ceiling)/ceiling,.2)
         self.assertTrue(ceiling==60 or proceeds-ceiling-.01<10 or (proceeds-ceiling-.01)/(ceiling+.01)<.2)
+    @patch("moneyhunter.publication.allowed",new=lambda *a:True)
     def test_review_to_strong_routes_separately_never_buy_and_no_html(self):
         from unittest.mock import patch
         model=asking.estimate({**RAW,'price':60,'inbound_delivery':0},snap([offer(i,100+i) for i in range(6)]),NOW)

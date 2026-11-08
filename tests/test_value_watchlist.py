@@ -130,6 +130,7 @@ class RetailPreserved(unittest.TestCase):
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'active_items',return_value=Source().payload()):extra=discovery.scan([retail],{'ask_cache':{}},NOW)
         self.assertEqual(retail,snapshot);self.assertTrue(extra);self.assertNotEqual(extra[0]['url'],retail['url'])
         self.assertEqual(capture.merge([retail],[{**retail,'price':30}]),[retail])
+    @patch("moneyhunter.publication.allowed",new=lambda *a:True)
     def test_ebay_volume_does_not_starve_retail_category_notifications(self):
         retail={**RAW,'category':'gaming','title':'Synthetic Physical Retail Game PS5','url':'https://www.hotukdeals.com/deals/synthetic-retail','merchant':'Retailer','price':15,'heat':0,'review_priority':0}
         extras=[{**retail,'url':f'https://www.ebay.co.uk/itm/{1000+n}','source':'ebay_browse','review_priority':100} for n in range(8)]

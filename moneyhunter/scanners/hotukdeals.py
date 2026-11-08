@@ -57,12 +57,17 @@ def online_status(title, description=""):
     return True
 
 def delivery_cost(title, description=""):
-    t = (title + " " + description).lower()
-    # Explicit delivery only, never assume Prime/membership or a basket threshold is met.
-    if re.search(r"free (?:delivery|shipping|postage)|(?:delivery|shipping|postage) free", t) and not re.search(r"(?:over|spend|prime|members|minimum|orders of)", t):
-        return 0.0
-    m = re.search(r"(?:delivery|shipping|postage)[: ]+£\s?(\d+(?:\.\d{1,2})?)|£\s?(\d+(?:\.\d{1,2})?)\s+(?:delivery|shipping|postage)", t)
-    return float(m[1] or m[2]) if m else None
+    # Never concatenate title/description: an optional £29.99 battery followed
+    # by the description heading "Delivery" used to become £29.99 shipping.
+    for text in (title,description):
+        t=text.lower()
+        if re.search(r'free (?:delivery|shipping|postage)|(?:delivery|shipping|postage) free',t) and not re.search(r'over|spend|prime|members|minimum|orders of',t):return 0.0
+        m=re.search(r'\b(?:delivery|shipping|postage)(?: cost| charge)?\s*[:=]?\s*£\s*(\d+(?:\.\d{1,2})?)',t)
+        if m:return float(m[1])
+        m=re.search(r'(?:^|[+;(])\s*£\s*(\d+(?:\.\d{1,2})?)\s+(?:delivery|shipping|postage)\b',t)
+        if m:return float(m[1])
+    return None
+
 
 def scan(log=print) -> list:
     global LAST_DIAGNOSTICS
@@ -94,6 +99,7 @@ def scan(log=print) -> list:
                 mer = it.find("pepper:merchant", NS)
                 merchant = mer.get("name", "") if mer is not None else ""
                 price = _price(mer.get("price", "")) if mer is not None else None
+                price_basis="rss_merchant_price" if price is not None else "rss_description_unique_price"
                 desc_html = it.findtext("description") or ""
                 if price is None:
                     price = _price(desc_html)
@@ -130,9 +136,10 @@ def scan(log=print) -> list:
                 by_link[link].update({"title": title, "url": link, "price": price, "merchant": merchant,
                             "category": cat, "acquisition_urls": sorted(set(acquisition_urls)), "heat": heat, "thumb": thumb, "feed": p,
                             "delivery": delivery_speed(title, merchant), "desc": desc,
-                            "inbound_delivery": delivery_cost(title, desc), "online_eligible": online_status(title, desc),
+                            "price_basis":price_basis,"inbound_delivery": delivery_cost(title, desc), "online_eligible": online_status(title, desc),
                             "pub": (it.findtext("pubDate") or "").strip()})
-    return out
+    from ..offer_integrity import primary
+    return [primary(r) for r in out]
 
 def live_status(url: str) -> str:
     """Three-state expiry check. Errors/unrecognised pages never count as live."""

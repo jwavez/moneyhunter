@@ -231,6 +231,7 @@ class Operational(unittest.TestCase):
             hub.route([],[],stats,[],set(),dry=False)
             self.assertEqual(stats["delivery_failures"],1)
             self.assertTrue(any("HTTP 500" in error for error in stats["errors"]))
+    @patch("moneyhunter.publication.allowed",new=lambda *a:True)
     def test_grade_promotion_and_watch_keys_do_not_suppress_buy(self):
         d = grading.Deal("Synthetic trainers", raw()["url"], 20, "trainers", "fixture", target=66)
         r = grading.grade(d, 200); r.grade = "A — BUY"
@@ -322,8 +323,7 @@ class ReviewedPricing(EvidenceHelpers, unittest.TestCase):
         b=raw(); b.update(heat=126,inbound_delivery=None,url=a["url"]+"-other",category="gaming")
         with patch.object(hub,"send",return_value=204) as send,patch.object(hotukdeals,"live_status",return_value="unknown"),patch.object(hub,"price_drops",return_value=([],{})),patch.object(hub,"read_prices",return_value={}):
             hub.route([a,b],[],{"A":1,"B":0,"errors":[],"scanned":1,"priced":0,"unpriced":1,"affordable":0,"R":0},[],set(),dry=True)
-            card=next(c.args[1][0] for c in send.call_args_list if c.args[0]=="trending")
-            self.assertIn("item-only; delivery unknown",card["description"])
-            self.assertIn(f"£{hub.sell_needed(24,'gaming')[0]:.2f}",card["description"])
+            self.assertFalse(any(c.args[0]=="trending" for c in send.call_args_list))
+            self.assertNotIn(a["title"],hub.market_pulse([a,b],{}))
 
 if __name__ == "__main__": unittest.main()
