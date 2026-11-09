@@ -1,0 +1,380 @@
+{
+  "generated_at": "2026-11-09T16:38:53.852927+00:00",
+  "count": 7,
+  "all_fail_same_stage": true,
+  "result_counts": {
+    "success": 7
+  },
+  "status_counts": {
+    "verified": 4,
+    "pending_photo": 3
+  },
+  "publishable_count": 4,
+  "cache_entries": 83,
+  "paused_hosts": {},
+  "MAX_FETCHES": 32,
+  "TTL_SECONDS": 1200,
+  "note": "Live probe during diagnostic; prepare() runs before ask_estimate so priced LEGO may miss fetch budget.",
+  "items": [
+    {
+      "set_number": "72157",
+      "title": "LEGO Pok\u00e9mon SMART Play: Charmander and Geodude\u2019s Cavern Clash 72157",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-charmander-and-geodudes-cavern-clash-72157-5027263",
+      "selling_price": 15.13,
+      "publication_allowed": true,
+      "publishable": true,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
+      "image_verified_until": "2026-11-09T16:58:38.470793+00:00",
+      "image_basis": "Own offer/feed product image",
+      "image_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "own-source/HUKD",
+      "attempts": [
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794243518.470793,
+          "cache_checked_at": "2026-11-09T16:38:38.470793+00:00",
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "own-source/HUKD"
+        }
+      ],
+      "paused_hosts": {}
+    },
+    {
+      "set_number": "77243",
+      "title": "LEGO Speed Champions Oracle Red Bull Racing RB20 F1 Race Car 77243",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-speed-champions-oracle-red-bull-racing-rb20-f1-race-car-77243-5027142",
+      "selling_price": 15.62,
+      "publication_allowed": true,
+      "publishable": true,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
+      "image_verified_until": "2026-11-09T16:58:38.470793+00:00",
+      "image_basis": "Own offer/feed product image",
+      "image_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "own-source/HUKD",
+      "attempts": [
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794243518.470793,
+          "cache_checked_at": "2026-11-09T16:38:38.470793+00:00",
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "own-source/HUKD"
+        }
+      ],
+      "paused_hosts": {}
+    },
+    {
+      "set_number": "76419",
+      "title": "LEGO Harry Potter Hogwarts Castle and Grounds 76419 with discount",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-harry-potter-hogwarts-castle-and-grounds-76419-5027117",
+      "selling_price": 105.48,
+      "publication_allowed": true,
+      "publishable": true,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
+      "image_verified_until": "2026-11-09T16:58:38.470793+00:00",
+      "image_basis": "Own offer/feed product image",
+      "image_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "own-source/HUKD",
+      "attempts": [
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794243518.470793,
+          "cache_checked_at": "2026-11-09T16:38:38.470793+00:00",
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/150x150/qt/55/5027117_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "own-source/HUKD"
+        }
+      ],
+      "paused_hosts": {}
+    },
+    {
+      "set_number": "77082",
+      "title": "LEGO Fortnite Rave Cave Set 77082 (Discount at Checkout)",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-fortnite-rave-cave-set-77082-discount-at-checkout-5026978",
+      "selling_price": 147.06,
+      "publication_allowed": true,
+      "publishable": true,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
+      "image_verified_until": "2026-11-09T16:58:38.470793+00:00",
+      "image_basis": "Own offer/feed product image",
+      "image_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "own-source/HUKD",
+      "attempts": [
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794243518.470793,
+          "cache_checked_at": "2026-11-09T16:38:38.470793+00:00",
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/150x150/qt/55/5026978_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "own-source/HUKD"
+        }
+      ],
+      "paused_hosts": {}
+    },
+    {
+      "set_number": "31167",
+      "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
+      "selling_price": 69.74,
+      "publication_allowed": true,
+      "publishable": false,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_basis": null,
+      "image_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "own-source/HUKD",
+      "attempts": [
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794228119.284142,
+          "cache_checked_at": "2026-11-09T12:21:59.284142+00:00",
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        }
+      ],
+      "paused_hosts": {}
+    },
+    {
+      "set_number": "75347",
+      "title": "LEGO Star Wars TIE Bomber 75347",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-star-wars-tie-bomber-75347-5025299",
+      "selling_price": 39.43,
+      "publication_allowed": true,
+      "publishable": false,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_basis": null,
+      "image_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "own-source/HUKD",
+      "attempts": [
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794218890.339714,
+          "cache_checked_at": "2026-11-09T09:48:10.339714+00:00",
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "own-source/HUKD"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/9jEAAeSw6wBquZBC/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/634AAeSwhZ9qaH8s/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        }
+      ],
+      "paused_hosts": {}
+    },
+    {
+      "set_number": "77239",
+      "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
+      "offer_url": "https://www.hotukdeals.com/deals/lego-speed-champions-porsche-911-gt3-rs-super-car-77239-5025074",
+      "selling_price": 16.26,
+      "publication_allowed": true,
+      "publishable": false,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_basis": null,
+      "image_url": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "image_check_attempted_at": "2026-11-09T16:38:53.852927+00:00",
+      "image_check_source": "eBay catalogue/ask reference",
+      "attempts": [
+        {
+          "image_url": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": true,
+          "cache_status": "http200_image",
+          "cache_expires": 1794218890.339714,
+          "cache_checked_at": "2026-11-09T09:48:10.339714+00:00",
+          "image_check_source": "eBay catalogue/ask reference"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/s08AAeSwh0NqXfCA/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/cqcAAeSwQrZq7awE/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        },
+        {
+          "image_url": "https://i.ebayimg.com/images/g/xxwAAeSwQtRqadxG/s-l225.jpg",
+          "safe": true,
+          "image_check_result": "success",
+          "image_check_reason": "http200_image",
+          "cache_ok": null,
+          "cache_status": null,
+          "cache_expires": null,
+          "cache_checked_at": null,
+          "image_check_source": "eBay catalogue/ask reference"
+        }
+      ],
+      "paused_hosts": {}
+    }
+  ]
+}
