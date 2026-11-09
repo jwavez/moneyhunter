@@ -1,9 +1,6 @@
 name: ebay-clearance-probe
-# Task 14 Phase B — one-shot read-only Currys Browse probe (exactly 5 calls).
-on:
-  workflow_dispatch:
-permissions:
-  contents: read
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -12,25 +9,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Seed browse_usage from public state branch (read-only)
+      - name: Seed browse_usage from state branch
         run: |
           set -euo pipefail
           echo '{"browse_usage":{}}' > /tmp/scan_state_seed.json
           if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
             git fetch origin state --depth 1
             if git cat-file -e origin/state:scan_state.json 2>/dev/null; then
-              python3 - <<'PY'
-import json, subprocess
-from pathlib import Path
-raw = subprocess.check_output(["git","show","origin/state:scan_state.json"], text=True)
-data = json.loads(raw)
-seed = {"browse_usage": data.get("browse_usage") or {}}
-Path("/tmp/scan_state_seed.json").write_text(json.dumps(seed))
-print("seeded browse_usage calls=", seed["browse_usage"].get("calls"))
-PY
+              git show origin/state:scan_state.json | python3 -c 'import json,sys; from pathlib import Path; d=json.load(sys.stdin); Path("/tmp/scan_state_seed.json").write_text(json.dumps({"browse_usage": d.get("browse_usage") or {}})); print("seeded", d.get("browse_usage",{}).get("calls"))'
             fi
           fi
-      - name: Run clearance probe (exactly 5 Browse calls)
+      - name: Run Currys clearance probe
         env:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
