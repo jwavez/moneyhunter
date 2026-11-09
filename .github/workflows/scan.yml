@@ -110,6 +110,7 @@ jobs:
             tools_detail_diagnostic.json
             tools_slot_diagnostic.json
             trainers_pipeline_diagnostic.json
+            tech_pipeline_diagnostic.json
           if-no-files-found: warn
           retention-days: 3
       - name: Publish public state with normal fast-forward history (no force push)
