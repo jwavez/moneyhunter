@@ -129,6 +129,8 @@ def run_scan():
     operational = RT.load(OPERATIONAL)
     from . import watchlist
     operational['detail_run']={'calls':0,'cached':0,'errors':[],'reserved_tools':2}
+    from . import details as _details_slot
+    _details_slot.reset_slot_log()
     when=RT.now()
     raws = hotukdeals.scan(log=lambda m: (print(m), errors.append(m)))
     from .scanners import capture
@@ -235,6 +237,25 @@ def run_scan():
         from pathlib import Path as _Path
         _Path('tools_detail_diagnostic.json').write_text(_json.dumps({
             'entries': [],
+            'error': f'{type(exc).__name__}: {exc}',
+            'traceback': _tb.format_exc(),
+        }, indent=2, sort_keys=True) + '\n')
+    # Diagnosis only: tools getItem slot allocation. Never changes reservation/ordering/dedup.
+    try:
+        from . import tools_slot_diagnostic
+        tools_slot_diagnostic.log_tool_slot_allocation(
+            offers=raws,
+            research_rows=review,
+            out_path='tools_slot_diagnostic.json',
+            state=operational,
+        )
+    except Exception as exc:
+        import json as _json, traceback as _tb
+        from pathlib import Path as _Path
+        _Path('tools_slot_diagnostic.json').write_text(_json.dumps({
+            'entries': [],
+            'identity_groups': [],
+            'slot_summary': {},
             'error': f'{type(exc).__name__}: {exc}',
             'traceback': _tb.format_exc(),
         }, indent=2, sort_keys=True) + '\n')

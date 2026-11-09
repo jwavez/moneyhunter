@@ -8,6 +8,59 @@ from .scanners import ebay
 LIMIT=4
 TTL_MINUTES=30
 
+# Read-only slot allocation log for diagnostics. Never drives decisions.
+SLOT_EVENTS=[]
+ENRICH_GROUPS=[]
+
+def reset_slot_log():
+    SLOT_EVENTS.clear(); ENRICH_GROUPS.clear()
+
+def record_enrich_group(lane, ident, offer_urls):
+    """Capture enrich identity grouping (dedup before detail). Read-only."""
+    try:
+        ENRICH_GROUPS.append({
+            'lane': lane,
+            'category': getattr(ident, 'category', None),
+            'identity': getattr(ident, 'match', None),
+            'offer_urls': list(offer_urls or []),
+            'offer_count': len(offer_urls or []),
+            'deduplicated': len(offer_urls or []) > 1,
+        })
+    except Exception:
+        pass
+
+def _slot_limit(ident, run):
+    return LIMIT if getattr(ident, 'category', None) == 'tools' else LIMIT - run.get('reserved_tools', 0)
+
+def _budget_remaining(state, when):
+    day = when.date().isoformat()
+    usage = state.get('browse_usage') or {}
+    if usage.get('date') != day:
+        return research_budget.DAILY_LIMIT
+    count = usage.get('calls')
+    if not isinstance(count, int) or count < 0:
+        return 0
+    return max(0, research_budget.DAILY_LIMIT - count)
+
+def _explain_detail_denial(state, ident, run, when):
+    """Read-only classification of the else-branch. Does not reserve or mutate."""
+    if state.get('browse_details_blocked') or (state.get('ask_cache') or {}).get('browse-blocked'):
+        return 'other', 'browse details blocked'
+    if not ebay.available():
+        return 'other', 'ebay browse unavailable'
+    if run.get('calls', 0) >= _slot_limit(ident, run):
+        return 'slots_exhausted', None
+    if _budget_remaining(state, when) <= 0:
+        return 'budget_exhausted', None
+    return 'other', 'awaiting_detail_budget'
+
+def _record_slot_event(event):
+    try:
+        SLOT_EVENTS.append(event)
+    except Exception:
+        pass
+
+
 # Guide section 5 names. Additive side channel only — never drives status/reasons.
 SUB_TITLE_MODEL='title_model_number_missing'
 SUB_CONDITION='condition_mismatch'
@@ -208,7 +261,12 @@ def map_reason_to_sub_check(reason):
     return SUB_OTHER
 
 def inspect_snapshot(snapshot,ident,state,when):
-    if not risky(ident) or not snapshot.get('offers'):return snapshot
+    if not risky(ident) or not snapshot.get('offers'):
+        _record_slot_event({'phase':'inspect_skip','category':getattr(ident,'category',None),'identity':getattr(ident,'match',None),
+            'getitem_requested':False,'getitem_granted':False,'slot_index':None,
+            'denial_reason':'not_risky_lowest' if ident and not risky(ident) else 'other',
+            'note':'not risky or no comparator offers','comparator_item_id':None})
+        return snapshot
     low=min(snapshot['offers'],key=lambda o:o['listed_total'])
     cache=state.setdefault('item_detail_cache',{})
     key=low['item_id']+'::'+ident.match
@@ -217,9 +275,17 @@ def inspect_snapshot(snapshot,ident,state,when):
     except (TypeError,KeyError,ValueError):fresh=False
     run=state.setdefault('detail_run',{'calls':0,'cached':0,'errors':[]})
     if fresh and cached.get('checked_item_price') not in (None,low['item_price']):fresh=False
-    if fresh:run['cached']+=1
+    event={'phase':'inspect','category':ident.category,'identity':ident.match,'comparator_item_id':low.get('item_id'),
+           'comparator_url':low.get('url'),'cache_key':key,'tool_slots_reserved':run.get('reserved_tools'),
+           'calls_before':run.get('calls',0),'slot_limit':_slot_limit(ident,run)}
+    if fresh:
+        run['cached']+=1
+        event.update(getitem_requested=True,getitem_granted=False,slot_index=None,denial_reason='cache_hit',note='fresh cached detail reused')
+        _record_slot_event(event)
     elif not state.get('browse_details_blocked') and not state.get('ask_cache',{}).get('browse-blocked') and ebay.available() and run['calls']<(LIMIT if ident.category=='tools' else LIMIT-run.get('reserved_tools',0)) and research_budget.reserve(state,when,'item-details'):
+        slot_index=run['calls']
         run['calls']+=1
+        event.update(getitem_requested=True,getitem_granted=True,slot_index=slot_index,denial_reason=None,note=None)
         try:
             cached=assess(ebay.item_details(low['item_id']),low,ident,when);cache[key]=cached
         except Exception as exc:
@@ -227,9 +293,15 @@ def inspect_snapshot(snapshot,ident,state,when):
             cached={'status':'error','item_id':low['item_id'],'observed_at':when.isoformat(timespec='seconds'),'reasons':[type(exc).__name__+(f' HTTP {code}' if code else '')],
                     'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':None,'observed':None,'reason':type(exc).__name__+(f' HTTP {code}' if code else ''),'note':'getItem error; no extra retry'}]}
             cache[key]=cached;run['errors'].append(cached['reasons'][0])
+            event['note']=f'getItem error {type(exc).__name__}'+(f' HTTP {code}' if code else '')
             if code in (401,403,429):state['browse_details_blocked']={'status':code,'observed_at':when.isoformat()}
-    else:cached={'status':'awaiting_detail_budget','reasons':['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices'],
+        _record_slot_event(event)
+    else:
+        denial,note=_explain_detail_denial(state,ident,run,when)
+        cached={'status':'awaiting_detail_budget','reasons':['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices'],
                  'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':'verified_fields within detail budget','observed':'awaiting_detail_budget','reason':'Bounded getItem verification pending; cheap ask retained, not replaced by higher prices','note':'no getItem this pass; not a parser failure'}]}
+        event.update(getitem_requested=True,getitem_granted=False,slot_index=None,denial_reason=denial,note=note)
+        _record_slot_event(event)
     # A cached check is tied to its actual price and identity; re-assess when prices change.
     if cached.get('status')=='verified_fields' and cached.get('checked_item_price') not in (None,low['item_price']):cached={**cached,'status':'price_changed'}
     cache=dict(sorted(cache.items(),key=lambda x:x[1].get('observed_at',''),reverse=True)[:400]);state['item_detail_cache']=cache

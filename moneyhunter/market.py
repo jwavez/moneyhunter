@@ -272,6 +272,7 @@ def enrich(candidates, raws, state, when=None, budget=CALL_BUDGET, lane="asking"
                     health["status"] = "paused_operator_review_required"
         if fresh:
             from . import details
+            details.record_enrich_group(lane, ident, [c.get("url") for c in rows])
             snapshot=details.inspect_snapshot(snapshot,ident,state,when)
             cache[k]=snapshot
             for c in rows:
