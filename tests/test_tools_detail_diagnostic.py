@@ -196,11 +196,11 @@ class ToolsDetailDiagnostic(unittest.TestCase):
         }
         return offer, research
 
-    def test_records_sub_checks_for_exact_item_details_unverified_only(self):
+    def test_records_sub_checks_for_detail_check_failed_only(self):
         offer, research = self._row()
         # Sanity: publication classifies this as the detail hold.
         self.assertEqual(
-            publication.proof(offer)["reason"], "exact_item_details_unverified"
+            publication.proof(offer)["reason"], "detail_check_failed"
         )
         other = {
             "title": "Makita B-53811 bits",

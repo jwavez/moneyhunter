@@ -74,16 +74,28 @@ class SlotAllocationUnchanged(unittest.TestCase):
         with patch.object(ebay, "available", return_value=True), patch.object(
             ebay, "item_details", return_value=data
         ) as api:
+            details.inspect_snapshot(s, i, state, NOW)
+            details.flush_slot_allocation(state, NOW)
             r1 = details.inspect_snapshot(s, i, state, NOW)
             self.assertEqual(api.call_count, 1)
             self.assertEqual(state["detail_run"]["calls"], 1)
             self.assertNotEqual(r1.get("detail_status"), "awaiting_detail_budget")
+            cached_after_first_hit = state["detail_run"]["cached"]
+            self.assertGreaterEqual(cached_after_first_hit, 1)
             # Cache hit — no second getItem
             r2 = details.inspect_snapshot(s, i, state, NOW + dt.timedelta(minutes=1))
             self.assertEqual(api.call_count, 1)
-            self.assertEqual(state["detail_run"]["cached"], 1)
+            self.assertEqual(state["detail_run"]["cached"], cached_after_first_hit + 1)
             # Exhaust remaining slots (LIMIT=4); tools may use all 4
             state["detail_run"]["calls"] = 4
+            state["detail_demands_closed"] = False
+            details.inspect_snapshot(
+                snapshot_for(i, item_id="v1|999|0", price=40.0),
+                i,
+                state,
+                NOW + dt.timedelta(minutes=2),
+            )
+            details.flush_slot_allocation(state, NOW + dt.timedelta(minutes=2))
             r3 = details.inspect_snapshot(
                 snapshot_for(i, item_id="v1|999|0", price=40.0),
                 i,
@@ -93,30 +105,34 @@ class SlotAllocationUnchanged(unittest.TestCase):
             self.assertEqual(api.call_count, 1)
             self.assertEqual(r3["detail_status"], "awaiting_detail_budget")
         events = details.SLOT_EVENTS
-        self.assertEqual(events[0]["getitem_granted"], True)
-        self.assertEqual(events[0]["slot_index"], 0)
-        self.assertEqual(events[1]["denial_reason"], "cache_hit")
-        self.assertEqual(events[2]["denial_reason"], "slots_exhausted")
+        grants = [e for e in events if e.get("getitem_granted")]
+        caches = [e for e in events if e.get("denial_reason") == "cache_hit"]
+        exhausted = [e for e in events if e.get("denial_reason") == "slots_exhausted"]
+        self.assertTrue(grants)
+        self.assertEqual(grants[0]["slot_index"], 0)
+        self.assertTrue(caches)
+        self.assertTrue(exhausted)
 
-    def test_non_tools_cannot_consume_reserved_tool_slots(self):
-        # Fragrance identity path uses LIMIT - reserved_tools.
+    def test_fragrance_uses_leftover_slots_only_after_primary(self):
+        # Fragrance is Phase-3 leftover; with remaining capacity and no primary demand it can grant.
         from tests.test_value_watchlist import ExactDetails
 
         i, s, o, d = ExactDetails().fixture()
         state = {
             "ask_cache": {},
-            "detail_run": {"calls": 2, "cached": 0, "errors": [], "reserved_tools": 2},
+            "detail_run": {"calls": 0, "cached": 0, "errors": [], "reserved_tools": 2},
             "browse_usage": {"date": NOW.date().isoformat(), "calls": 10, "by_purpose": {}},
+            "detail_demands_closed": False,
         }
         details.reset_slot_log()
         with patch.object(ebay, "available", return_value=True), patch.object(
             ebay, "item_details", return_value=d
         ) as api:
-            # calls=2 already; non-tools cap is LIMIT-2=2, so this should be denied
-            r = details.inspect_snapshot(s, i, state, NOW)
-            api.assert_not_called()
-            self.assertEqual(r["detail_status"], "awaiting_detail_budget")
-        self.assertEqual(details.SLOT_EVENTS[-1]["denial_reason"], "slots_exhausted")
+            details.inspect_snapshot(s, i, state, NOW)
+            details.flush_slot_allocation(state, NOW)
+            self.assertEqual(api.call_count, 1)
+            self.assertEqual(state["detail_run"]["calls"], 1)
+        self.assertTrue(details.SLOT_EVENTS[-1]["getitem_granted"])
 
 
 class ToolsSlotDiagnostic(unittest.TestCase):
@@ -228,7 +244,7 @@ class ToolsSlotDiagnostic(unittest.TestCase):
         self.assertEqual(summary["shared_daily_getitem_budget"], 800)
         self.assertNotIn("total_getitem_budget", summary)
         self.assertEqual(summary["total_getitem_used"], 42)
-        self.assertIn("tool_slots_reserved is a minimum, not a maximum", summary["notes"])
+        self.assertTrue(any("tool_slots_reserved is a minimum" in n for n in summary["notes"]))
         self.assertEqual(len(payload["getitem_calls"]), 2)
         self.assertEqual([c["category"] for c in payload["getitem_calls"]], ["tech", "tools"])
         # Per-category distinct identities.
@@ -236,13 +252,20 @@ class ToolsSlotDiagnostic(unittest.TestCase):
         self.assertIn("tools", by_cat)
         tools = by_cat["tools"]
         self.assertEqual(
-            tools["requested"],
+            tools["wanted"],
             tools["granted"]
             + tools["denied_slots_exhausted"]
             + tools["denied_cache_hit"]
-            + tools["denied_not_risky"]
             + tools["denied_other"],
         )
+        self.assertIn("considered", tools)
+        self.assertIn("denied_not_risky_lowest", tools)
+        self.assertEqual(payload["slot_summary"]["total_wanted"], sum(r["wanted"] for r in payload["per_category_slot_summary"]))
+        self.assertEqual(payload["slot_summary"]["total_granted"], sum(r["granted"] for r in payload["per_category_slot_summary"]))
+        dga_status = payload["dga452z_publication_status"]
+        self.assertIn("research_model_value", dga_status)
+        self.assertIn("publication_estimate_value", dga_status)
+        self.assertNotIn("supported_estimate_value", dga_status)
         dga = payload["dga452z_publication_status"]
         self.assertTrue(dga["in_this_scan"])
         self.assertIn("DGA452Z", dga["identity"])

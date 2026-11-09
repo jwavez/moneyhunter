@@ -7,6 +7,24 @@ from . import product_format as PF
 
 def number(x):return isinstance(x,(float,int)) and not isinstance(x,bool) and math.isfinite(x) and x>0
 
+# Split of former exact_item_details_unverified. Both remain non-publishing.
+DETAIL_CHECK_FAILED_STATUSES=frozenset({'conflict','incomplete','error'})
+DETAIL_CHECK_PENDING_STATUSES=frozenset({'awaiting_detail_budget','price_changed'})
+
+def detail_hold_reason(m, ident=None):
+    """Map detail_status to detail_check_pending or detail_check_failed. None = no hold."""
+    status = (m or {}).get('detail_status')
+    if status in (None, 'not_required', 'verified_fields'):
+        if ident is not None:
+            from . import details
+            if details.risky(ident) and status != 'verified_fields':
+                return 'detail_check_pending'
+        return None
+    if status in DETAIL_CHECK_FAILED_STATUSES:
+        return 'detail_check_failed'
+    # awaiting_detail_budget, price_changed, unknown → pending (getItem not successfully verified)
+    return 'detail_check_pending'
+
 def proof(row,now=None):
     now=now or dt.datetime.now(dt.timezone.utc)
     deny=lambda why:{'ok':False,'reason':why}
@@ -19,13 +37,15 @@ def proof(row,now=None):
         except (ValueError,KeyError,TypeError):return deny('missing_observation_time')
         if not 0<=age<6:return deny('stale_or_future_estimate')
         if m.get('model')!='competitor-asks-v1' or not number(m.get('suggested_listing')) or not number(m.get('estimated_resale')):return deny('missing_market_estimate')
-        if m.get('detail_status') not in (None,'not_required','verified_fields'):return deny('exact_item_details_unverified')
+        hold=detail_hold_reason(m)
+        if hold:return deny(hold)
         if m.get('competitor_coupon_unknown'):return deny('uncertain_competitor_coupon')
         from . import market
         ident=market.identity(row)
         if not ident:return deny('unsupported_exact_identity')
         from . import details
-        if details.risky(ident) and m.get('detail_status')!='verified_fields':return deny('exact_item_details_unverified')
+        hold=detail_hold_reason(m, ident)
+        if hold:return deny(hold)
         sellers={}
         for o in m.get('sources',[]):
             u=urlsplit(o.get('url',''))
