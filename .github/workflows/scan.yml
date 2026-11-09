@@ -107,6 +107,7 @@ jobs:
           path: |
             public/deals.json
             tools_diagnostic.json
+            tools_detail_diagnostic.json
           if-no-files-found: warn
           retention-days: 3
       - name: Publish public state with normal fast-forward history (no force push)

@@ -8,82 +8,167 @@ from .scanners import ebay
 LIMIT=4
 TTL_MINUTES=30
 
+# Guide section 5 names. Additive side channel only — never drives status/reasons.
+SUB_TITLE_MODEL='title_model_number_missing'
+SUB_CONDITION='condition_mismatch'
+SUB_PRICE='price_mismatch'
+SUB_SHIP_UNKNOWN='shipping_unknown'
+SUB_SHIP_MISMATCH='shipping_mismatch'
+SUB_AVAIL='availability_unavailable'
+SUB_VARIATION='variation_mismatch'
+SUB_OTHER='other'
+
 def risky(ident):
     return ident.category in ('fragrance','trainers','tech','tools') or bool(re.search(r'\b(controller|headset|peripheral)\b',ident.match,re.I))
+
+def _fail(sub_checks, name, reason, expected=None, observed=None, note=None):
+    """Record an additive sub-check failure. Does not decide status."""
+    entry={'sub_check_failed':name,'expected':expected,'observed':observed,'reason':reason}
+    if note is not None:entry['note']=note
+    sub_checks.append(entry)
+    return reason
 
 def assess(data,offer,ident,when):
     from . import market
     out={'item_id':offer['item_id'],'observed_at':when.isoformat(timespec='seconds'),'status':'incomplete','reasons':[],
         'gtin':data.get('gtin'),'mpn':data.get('mpn'),'aspects':data.get('localizedAspects',[])[:40],
         'checked_item_price':offer['item_price'],'identity_query':ident.match,'condition_id':data.get('conditionId'),'availability':data.get('estimatedAvailabilities',[]),'source_url':offer['url']}
-    bad=[];missing=[]
-    if data.get('primaryItemGroup') or data.get('itemGroupHref'):missing.append('variation listing requires unambiguous selected-variant price')
-    if data.get('conditionId') is None:missing.append('condition missing')
-    elif str(data.get('conditionId'))!='1000':bad.append('condition not NEW')
-    if not market.matches(data.get('title',''),ident):bad.append('detail title contradicts exact identity')
-    if market.money(data.get('price'))!=offer['item_price']:bad.append('price changed or currency unknown')
+    bad=[];missing=[];sub_checks=[]
+    # Retain already-fetched getItem fields for diagnostics — no extra API calls.
+    out['title']=data.get('title')
+    if data.get('primaryItemGroup') or data.get('itemGroupHref'):
+        missing.append(_fail(sub_checks,SUB_VARIATION,'variation listing requires unambiguous selected-variant price',
+                             expected='single selected variant',observed='variation group present'))
+    if data.get('conditionId') is None:
+        missing.append(_fail(sub_checks,SUB_CONDITION,'condition missing',expected='1000',observed=None))
+    elif str(data.get('conditionId'))!='1000':
+        bad.append(_fail(sub_checks,SUB_CONDITION,'condition not NEW',expected='1000',observed=str(data.get('conditionId'))))
+    if not market.matches(data.get('title',''),ident):
+        bad.append(_fail(sub_checks,SUB_TITLE_MODEL,'detail title contradicts exact identity',
+                         expected=ident.match,observed=data.get('title')))
+    if market.money(data.get('price'))!=offer['item_price']:
+        bad.append(_fail(sub_checks,SUB_PRICE,'price changed or currency unknown',
+                         expected=offer['item_price'],observed=market.money(data.get('price'))))
     avail=data.get('estimatedAvailabilities',[])
-    if any(a.get('estimatedAvailabilityStatus')=='OUT_OF_STOCK' or a.get('estimatedAvailableQuantity')==0 for a in avail):bad.append('out of stock')
-    if not any(a.get('estimatedAvailabilityStatus') in ('IN_STOCK','LIMITED_STOCK') or (a.get('estimatedAvailableQuantity') or 0)>0 for a in avail):missing.append('current availability not supplied')
+    if any(a.get('estimatedAvailabilityStatus')=='OUT_OF_STOCK' or a.get('estimatedAvailableQuantity')==0 for a in avail):
+        bad.append(_fail(sub_checks,SUB_AVAIL,'out of stock',expected='IN_STOCK/LIMITED_STOCK or qty>0',observed=avail))
+    if not any(a.get('estimatedAvailabilityStatus') in ('IN_STOCK','LIMITED_STOCK') or (a.get('estimatedAvailableQuantity') or 0)>0 for a in avail):
+        missing.append(_fail(sub_checks,SUB_AVAIL,'current availability not supplied',expected='IN_STOCK/LIMITED_STOCK or qty>0',observed=avail or None))
     end=data.get('itemEndDate')
     if end:
         try:
-            if dt.datetime.fromisoformat(end.replace('Z','+00:00'))<=when:bad.append('ended')
-        except (ValueError,TypeError):missing.append('end date invalid')
+            if dt.datetime.fromisoformat(end.replace('Z','+00:00'))<=when:
+                bad.append(_fail(sub_checks,SUB_AVAIL,'ended',expected='end date in future',observed=end))
+        except (ValueError,TypeError):
+            missing.append(_fail(sub_checks,SUB_OTHER,'end date invalid',expected='parseable ISO end date',observed=end,note='end date invalid'))
     shipping=[market.money(a.get('shippingCost')) for a in data.get('shippingOptions',[]) if a.get('shippingCostType')=='FIXED']
     shipping=[n for n in shipping if n is not None]
-    if not shipping:missing.append('fixed detail shipping not supplied')
-    elif abs(min(shipping)-offer['shipping'])>.01:bad.append('delivered price changed')
+    out['fixed_shipping']=min(shipping) if shipping else None
+    if not shipping:
+        missing.append(_fail(sub_checks,SUB_SHIP_UNKNOWN,'fixed detail shipping not supplied',expected='FIXED shippingCost',observed=None))
+    elif abs(min(shipping)-offer['shipping'])>.01:
+        bad.append(_fail(sub_checks,SUB_SHIP_MISMATCH,'delivered price changed',expected=offer['shipping'],observed=min(shipping)))
     aspects={variants.clean(a.get('name','')).strip():str(a.get('value','')) for a in data.get('localizedAspects',[])}
     def values(*keys):return ' '.join(aspects.get(k,'') for k in keys).strip()
     v=getattr(ident,'variant',{})
     if ident.category=='fragrance':
         volume=values('volume','size','unit quantity')
         ml={int(n) for n in re.findall(r'(?<!\d)(\d{1,3})\s*ml\b',volume,re.I)}
-        if not ml:missing.append('bottle volume aspect missing')
-        elif ml!={v.get('ml')}:bad.append('bottle volume mismatch')
+        if not ml:missing.append(_fail(sub_checks,SUB_VARIATION,'bottle volume aspect missing',expected=v.get('ml'),observed=volume or None))
+        elif ml!={v.get('ml')}:bad.append(_fail(sub_checks,SUB_VARIATION,'bottle volume mismatch',expected=v.get('ml'),observed=sorted(ml)))
         kind=variants.clean(values('type','concentration','formulation'))
         concentration=variants.concentration(kind)
         wanted=v.get('concentration')
         if wanted=='aftershave lotion':
-            if not ('aftershave' in kind or 'after shave' in kind):missing.append('aftershave type aspect missing')
-            if concentration in ('edt','edp','parfum') or 'balm' in kind:bad.append('lotion versus fragrance/balm mismatch')
-        elif concentration is None:missing.append('concentration aspect missing')
-        elif concentration!=wanted:bad.append('concentration mismatch')
+            if not ('aftershave' in kind or 'after shave' in kind):
+                missing.append(_fail(sub_checks,SUB_VARIATION,'aftershave type aspect missing',expected='aftershave lotion',observed=kind or None))
+            if concentration in ('edt','edp','parfum') or 'balm' in kind:
+                bad.append(_fail(sub_checks,SUB_VARIATION,'lotion versus fragrance/balm mismatch',expected='aftershave lotion',observed=kind or concentration))
+        elif concentration is None:
+            missing.append(_fail(sub_checks,SUB_VARIATION,'concentration aspect missing',expected=wanted,observed=kind or None))
+        elif concentration!=wanted:
+            bad.append(_fail(sub_checks,SUB_VARIATION,'concentration mismatch',expected=wanted,observed=concentration))
     elif ident.category=='trainers':
         size=values('uk shoe size','uk size')
         nums={float(n) for n in re.findall(r'(?<!\d)\d{1,2}(?:\.5)?(?!\d)',size)}
-        if not nums:missing.append('explicit UK size aspect missing')
-        elif nums!={v.get('uk_size')}:bad.append('UK size mismatch')
+        if not nums:missing.append(_fail(sub_checks,SUB_VARIATION,'explicit UK size aspect missing',expected=v.get('uk_size'),observed=size or None))
+        elif nums!={v.get('uk_size')}:bad.append(_fail(sub_checks,SUB_VARIATION,'UK size mismatch',expected=v.get('uk_size'),observed=sorted(nums)))
         department=variants.clean(values('department','gender')).strip()
-        if not department:missing.append('department aspect missing')
-        if department and ((v.get('department')=='men' and ('women' in department or 'girl' in department or 'boy' in department)) or (v.get('department')=='women' and department in ('men','mens','male'))):bad.append('department mismatch')
+        if not department:missing.append(_fail(sub_checks,SUB_VARIATION,'department aspect missing',expected=v.get('department'),observed=None))
+        if department and ((v.get('department')=='men' and ('women' in department or 'girl' in department or 'boy' in department)) or (v.get('department')=='women' and department in ('men','mens','male'))):
+            bad.append(_fail(sub_checks,SUB_VARIATION,'department mismatch',expected=v.get('department'),observed=department))
         style=values('style code','mpn','manufacturer part number') or str(data.get('mpn') or '')
-        if not style:missing.append('style-colour code aspect missing')
-        elif not re.search(r'(?<![a-z0-9])'+re.escape(v.get('style_code',''))+r'(?![a-z0-9])',style,re.I):bad.append('style-colour code mismatch')
+        if not style:missing.append(_fail(sub_checks,SUB_TITLE_MODEL,'style-colour code aspect missing',expected=v.get('style_code'),observed=None))
+        elif not re.search(r'(?<![a-z0-9])'+re.escape(v.get('style_code',''))+r'(?![a-z0-9])',style,re.I):
+            bad.append(_fail(sub_checks,SUB_TITLE_MODEL,'style-colour code mismatch',expected=v.get('style_code'),observed=style))
     elif ident.category=='tools':
         included=variants.clean(values('battery included','batteries included','charger included')).strip()
-        if re.sub(r'\b(?:not included|not supplied|sold separately|no|false|0)\b','',included).strip():bad.append('battery/charger inclusion contradicts bare tool')
+        if re.sub(r'\b(?:not included|not supplied|sold separately|no|false|0)\b','',included).strip():
+            bad.append(_fail(sub_checks,SUB_VARIATION,'battery/charger inclusion contradicts bare tool',
+                             expected='not included / no battery',observed=included))
         voltage=values('voltage')
-        if voltage and any(int(n)!=18 for n in re.findall(r'(\d+)\s*v',voltage,re.I)):bad.append('tool voltage mismatch')
+        if voltage and any(int(n)!=18 for n in re.findall(r'(\d+)\s*v',voltage,re.I)):
+            bad.append(_fail(sub_checks,SUB_VARIATION,'tool voltage mismatch',expected=18,observed=voltage))
         model=values('model','mpn','manufacturer part number') or str(data.get('mpn') or '')
         expected=v.get('model','')
-        if not model:missing.append('exact tool model aspect missing')
-        elif not re.search(r'(?<![a-z0-9])'+re.escape(expected)+(r'(?:-XJ)?' if v.get('brand')=='DeWalt' else '')+r'(?![-a-z0-9])',model,re.I):bad.append('tool model mismatch')
+        if not model:
+            missing.append(_fail(sub_checks,SUB_TITLE_MODEL,'exact tool model aspect missing',expected=expected,observed=None))
+        elif not re.search(r'(?<![a-z0-9])'+re.escape(expected)+(r'(?:-XJ)?' if v.get('brand')=='DeWalt' else '')+r'(?![-a-z0-9])',model,re.I):
+            bad.append(_fail(sub_checks,SUB_TITLE_MODEL,'tool model mismatch',expected=expected,observed=model))
     elif ident.category=='tech':
         model=values('model','mpn','manufacturer part number') or str(data.get('mpn') or '')
         compact=lambda s:re.sub(r'[^a-z0-9]','',s.lower())
-        if not model:missing.append('model aspect missing')
-        elif not re.search(r'(?<![a-z0-9])'+r'[\s-]*'.join(re.escape(c) for c in compact(v.get('model','')))+r'(?![a-z0-9])',model,re.I) and compact(model)!=compact(v.get('manufacturer_model','')):bad.append('model aspect mismatch')
+        if not model:
+            missing.append(_fail(sub_checks,SUB_TITLE_MODEL,'model aspect missing',expected=v.get('model'),observed=None))
+        elif not re.search(r'(?<![a-z0-9])'+r'[\s-]*'.join(re.escape(c) for c in compact(v.get('model','')))+r'(?![a-z0-9])',model,re.I) and compact(model)!=compact(v.get('manufacturer_model','')):
+            bad.append(_fail(sub_checks,SUB_TITLE_MODEL,'model aspect mismatch',expected=v.get('model'),observed=model))
         declared_mpn=str(data.get('mpn') or values('mpn','manufacturer part number')).strip()
-        if v.get('manufacturer_model') and declared_mpn and compact(declared_mpn) not in (compact(v['manufacturer_model']),compact(v['model'])):bad.append('manufacturer MPN requires exact variant verification; suffix not inferred')
+        if v.get('manufacturer_model') and declared_mpn and compact(declared_mpn) not in (compact(v['manufacturer_model']),compact(v['model'])):
+            bad.append(_fail(sub_checks,SUB_TITLE_MODEL,'manufacturer MPN requires exact variant verification; suffix not inferred',
+                             expected=v.get('manufacturer_model'),observed=declared_mpn))
         colour=variants.clean(values('colour','color') or str(data.get('color') or '')).strip()
-        if not colour:missing.append('colour aspect missing')
-        elif colour not in (v.get('colour'), 'blue' if v.get('colour')=='glass blue' else v.get('colour')):bad.append('colour mismatch')
+        if not colour:
+            missing.append(_fail(sub_checks,SUB_VARIATION,'colour aspect missing',expected=v.get('colour'),observed=None))
+        elif colour not in (v.get('colour'), 'blue' if v.get('colour')=='glass blue' else v.get('colour')):
+            bad.append(_fail(sub_checks,SUB_VARIATION,'colour mismatch',expected=v.get('colour'),observed=colour))
     out['status']='conflict' if bad else 'incomplete' if missing else 'verified_fields'
     out['reasons']=bad+missing
+    out['sub_checks']=sub_checks
     out['meaning']='Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee'
+    # Inventory of fields already returned by this getItem payload (no refetch).
+    present=[];absent=[]
+    for label,ok in (
+        ('title',bool(data.get('title'))),
+        ('conditionId',data.get('conditionId') is not None),
+        ('price',bool(data.get('price'))),
+        ('shippingOptions',bool(data.get('shippingOptions'))),
+        ('estimatedAvailabilities',bool(data.get('estimatedAvailabilities'))),
+        ('localizedAspects',bool(data.get('localizedAspects'))),
+        ('mpn',bool(data.get('mpn'))),
+        ('gtin',bool(data.get('gtin'))),
+        ('itemEndDate',bool(data.get('itemEndDate'))),
+    ):
+        (present if ok else absent).append(label)
+    out['getitem_fields_present']=present
+    out['getitem_fields_missing']=absent
     return out
+
+def map_reason_to_sub_check(reason):
+    """Fallback mapper for cached detail rows written before sub_checks existed."""
+    text=str(reason or '')
+    rules=(
+        (SUB_CONDITION,('condition missing','condition not NEW')),
+        (SUB_PRICE,('price changed or currency unknown',)),
+        (SUB_SHIP_UNKNOWN,('fixed detail shipping not supplied',)),
+        (SUB_SHIP_MISMATCH,('delivered price changed',)),
+        (SUB_AVAIL,('out of stock','current availability not supplied','ended')),
+        (SUB_TITLE_MODEL,('detail title contradicts exact identity','exact tool model aspect missing','tool model mismatch','model aspect missing','model aspect mismatch','style-colour code','manufacturer MPN')),
+        (SUB_VARIATION,('variation listing','bottle volume','concentration','aftershave','UK size','department','battery/charger','tool voltage','colour')),
+    )
+    for name,needles in rules:
+        if any(n.lower() in text.lower() for n in needles):
+            return name
+    return SUB_OTHER
 
 def inspect_snapshot(snapshot,ident,state,when):
     if not risky(ident) or not snapshot.get('offers'):return snapshot
@@ -102,10 +187,12 @@ def inspect_snapshot(snapshot,ident,state,when):
             cached=assess(ebay.item_details(low['item_id']),low,ident,when);cache[key]=cached
         except Exception as exc:
             code=getattr(exc,'code',None)
-            cached={'status':'error','item_id':low['item_id'],'observed_at':when.isoformat(timespec='seconds'),'reasons':[type(exc).__name__+(f' HTTP {code}' if code else '')]}
+            cached={'status':'error','item_id':low['item_id'],'observed_at':when.isoformat(timespec='seconds'),'reasons':[type(exc).__name__+(f' HTTP {code}' if code else '')],
+                    'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':None,'observed':None,'reason':type(exc).__name__+(f' HTTP {code}' if code else ''),'note':'getItem error; no extra retry'}]}
             cache[key]=cached;run['errors'].append(cached['reasons'][0])
             if code in (401,403,429):state['browse_details_blocked']={'status':code,'observed_at':when.isoformat()}
-    else:cached={'status':'awaiting_detail_budget','reasons':['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices']}
+    else:cached={'status':'awaiting_detail_budget','reasons':['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices'],
+                 'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':'verified_fields within detail budget','observed':'awaiting_detail_budget','reason':'Bounded getItem verification pending; cheap ask retained, not replaced by higher prices','note':'no getItem this pass; not a parser failure'}]}
     # A cached check is tied to its actual price and identity; re-assess when prices change.
     if cached.get('status')=='verified_fields' and cached.get('checked_item_price') not in (None,low['item_price']):cached={**cached,'status':'price_changed'}
     cache=dict(sorted(cache.items(),key=lambda x:x[1].get('observed_at',''),reverse=True)[:400]);state['item_detail_cache']=cache
