@@ -104,7 +104,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: moneyhunter-no-send-research
-          path: public/deals.json
+          path: |
+            public/deals.json
+            tools_diagnostic.json
+          if-no-files-found: warn
           retention-days: 3
       - name: Publish public state with normal fast-forward history (no force push)
         if: ${{ success() && (github.event_name != 'workflow_dispatch' || !inputs.dry_run || inputs.publish_state) }}

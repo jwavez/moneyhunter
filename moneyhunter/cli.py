@@ -304,6 +304,23 @@ def run_scan():
             hold_state[raw['url']]={'reason':key,'category':raw['category'],'first_held':prior.get('first_held',RT.stamp(RT.now())),'last_checked':RT.stamp(RT.now())}
     operational['publication_holds']=dict(list(hold_state.items())[-1000:])
     stats['publication_holds']={'eligible':eligible,'held':len(raws)-eligible,'reasons':hold_counts,'by_category':{c:sum(r['category']==c and not publication.allowed(r) for r in raws) for c in {r['category'] for r in raws}}}
+    # Diagnosis only: tools publication blockers. Never changes gates/routes/state.
+    try:
+        from . import tools_diagnostic
+        tools_diagnostic.log_tool_publication_reasons(
+            offers=raws,
+            research_rows=review,
+            publication_rows=raws,
+            out_path='tools_diagnostic.json',
+        )
+    except Exception as exc:
+        import json as _json, traceback as _tb
+        from pathlib import Path as _Path
+        _Path('tools_diagnostic.json').write_text(_json.dumps({
+            'entries': [],
+            'error': f'{type(exc).__name__}: {exc}',
+            'traceback': _tb.format_exc(),
+        }, indent=2, sort_keys=True) + '\n')
     stats['excluded_nonphysical']=nonphysical
     stats['source_coverage']={source:{'offers':sum(r.get('source','hotukdeals')==source for r in raws),
         'new':sum(r.get('source','hotukdeals')==source and operational['items'][RT.key(r)]['observations']==1 for r in raws),
