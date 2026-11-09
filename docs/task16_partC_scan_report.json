@@ -1,0 +1,210 @@
+{
+  "task": 16,
+  "part": "C",
+  "scan_run_url": "https://github.com/jwavez/moneyhunter/actions/runs/42657832369",
+  "partA_run_url": "https://github.com/jwavez/moneyhunter/actions/runs/42656773621",
+  "partC_prior_fix_verify_run_url": "https://github.com/jwavez/moneyhunter/actions/runs/42657576995",
+  "dry_run": true,
+  "publish_state": false,
+  "lego_publication_allowed_count": 7,
+  "lego_publishable_count": 7,
+  "lego_all_image_verified": true,
+  "no_verified_product_image_missing_in_why0buys": true,
+  "priced_lego_reaching_research_watch": {
+    "set_number": "72157",
+    "title": "LEGO Pok\u00e9mon SMART Play: Charmander and Geodude\u2019s Cavern Clash 72157",
+    "selling_price": 15.13,
+    "route": "research-watch",
+    "would_deliver": true,
+    "dry_run_confirmed": true
+  },
+  "lego_items": [
+    {
+      "set_number": "72157",
+      "title": "LEGO Pok\u00e9mon SMART Play: Charmander and Geodude\u2019s Cavern Clash 72157",
+      "selling_price": 15.13,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": true,
+      "hold_reason": null,
+      "dry_run_delivered_this_scan": true
+    },
+    {
+      "set_number": "77243",
+      "title": "LEGO Speed Champions Oracle Red Bull Racing RB20 F1 Race Car 77243",
+      "selling_price": 15.62,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": false,
+      "hold_reason": "already_delivered_seen_w_ask_model_v1",
+      "dry_run_delivered_this_scan": false
+    },
+    {
+      "set_number": "76419",
+      "title": "LEGO Harry Potter Hogwarts Castle and Grounds 76419 with discount",
+      "selling_price": 105.48,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": false,
+      "hold_reason": "already_delivered_seen_w_ask_model_v1",
+      "dry_run_delivered_this_scan": false
+    },
+    {
+      "set_number": "77082",
+      "title": "LEGO Fortnite Rave Cave Set 77082 (Discount at Checkout)",
+      "selling_price": 147.06,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": false,
+      "hold_reason": "already_delivered_seen_w_ask_model_v1",
+      "dry_run_delivered_this_scan": false
+    },
+    {
+      "set_number": "31167",
+      "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
+      "selling_price": 69.74,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": false,
+      "hold_reason": "already_delivered_seen_w_ask_model_v1",
+      "dry_run_delivered_this_scan": false
+    },
+    {
+      "set_number": "75347",
+      "title": "LEGO Star Wars TIE Bomber 75347",
+      "selling_price": 39.43,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": false,
+      "hold_reason": "already_delivered_seen_w_ask_model_v1",
+      "dry_run_delivered_this_scan": false
+    },
+    {
+      "set_number": "77239",
+      "title": "LEGO Speed Champions Porsche 911 GT3 RS Super Car 77239",
+      "selling_price": 16.26,
+      "publication_allowed": true,
+      "image_status": "verified",
+      "publishable": true,
+      "image_check_result": "success",
+      "image_check_reason": "http200_image",
+      "route": "research-watch",
+      "would_deliver": false,
+      "hold_reason": "already_delivered_seen_w_ask_model_v1",
+      "dry_run_delivered_this_scan": false
+    }
+  ],
+  "pricing_labels": {
+    "exact_priced": 7,
+    "research_model_only": 23,
+    "unpriced": 285,
+    "approximate_priced": null,
+    "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
+  },
+  "seen_json_byte_identical": true,
+  "seen_sha256": "55ba0a45fd6a3c9fed277499c9c0e6c4c4a7c68e47860eaedb45d485413d604f",
+  "seen_sha256_matches_task15": true,
+  "temp_logging": "kept as gated diagnostic (MH_TASK16_TRACE=1 on dry_run workflow_dispatch only)",
+  "partA_summary": {
+    "count": 7,
+    "publishable_count": 4,
+    "status_counts": {
+      "verified": 4,
+      "pending_photo": 3
+    },
+    "result_counts": {
+      "success": 7
+    },
+    "note": "All live probes succeeded; 3 pending_photo from prepare-before-pricing budget order",
+    "items_compact": [
+      {
+        "set_number": "72157",
+        "selling_price": 15.13,
+        "publishable": true,
+        "image_status": "verified",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "own-source/HUKD"
+      },
+      {
+        "set_number": "77243",
+        "selling_price": 15.62,
+        "publishable": true,
+        "image_status": "verified",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "own-source/HUKD"
+      },
+      {
+        "set_number": "76419",
+        "selling_price": 105.48,
+        "publishable": true,
+        "image_status": "verified",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "own-source/HUKD"
+      },
+      {
+        "set_number": "77082",
+        "selling_price": 147.06,
+        "publishable": true,
+        "image_status": "verified",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "own-source/HUKD"
+      },
+      {
+        "set_number": "31167",
+        "selling_price": 69.74,
+        "publishable": false,
+        "image_status": "pending_photo",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "own-source/HUKD"
+      },
+      {
+        "set_number": "75347",
+        "selling_price": 39.43,
+        "publishable": false,
+        "image_status": "pending_photo",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "own-source/HUKD"
+      },
+      {
+        "set_number": "77239",
+        "selling_price": 16.26,
+        "publishable": false,
+        "image_status": "pending_photo",
+        "image_check_result": "success",
+        "image_check_reason": "http200_image",
+        "image_check_source": "eBay catalogue/ask reference"
+      }
+    ]
+  },
+  "partB_fix": "Root cause was not MIME/404/signature: HUKD own-source URLs return http200_image. images.prepare() ran before ask_estimate with MAX_FETCHES=32 across all LEGO, so priced publication.allowed items whose 20-min cache had expired stayed pending_photo and were filtered out at hub.route. Fix: after ask_estimate, re-run prepare(prefer=allowed LEGO URLs) and re-sync image fields. Gate/MIME/signature unchanged; garbage still rejects."
+}

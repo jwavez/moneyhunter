@@ -236,6 +236,27 @@ def run_scan():
         deal.ask_context = ask_by_url.get(deal.url)
         deal.ask_estimate=raw_by_url.get(deal.url,{}).get('ask_estimate')
         deal.publication_listing=res.plan['list']
+    from . import publication
+    # Task 16: after ask_estimate, re-run image prepare prioritizing publication.allowed LEGO
+    # so priced cards are not left pending_photo when the first MAX_FETCHES budget was spent
+    # on unpriced offers (prepare runs before pricing). Gate/MIME/signature unchanged.
+    prefer_urls=[r['url'] for r in raws if r.get('category')=='lego' and publication.allowed(r)]
+    if prefer_urls:
+        image_report=images.prepare(raws, operational, prefer=prefer_urls)
+        img_attrs=('image_status','image_verified_url','image_verified_until','image_checked_at','image_candidates','thumb','image_basis','image_source_url')
+        for entry in review:
+            src=raw_by_url.get(entry['url'])
+            if not src: continue
+            for k in img_attrs:
+                if k in src: entry[k]=src.get(k)
+        for deal,_res in graded:
+            src=raw_by_url.get(deal.url)
+            if not src: continue
+            for attr in ('image_status','image_verified_url','image_verified_until','image_basis','image_source_url','image_candidates','thumb'):
+                setattr(deal, attr, src.get(attr))
+    if os.environ.get('MH_TASK16_TRACE')=='1':
+        from . import task16_lego_image_diag as T16
+        T16.diagnose(raws, operational, os.environ.get('MH_TASK16_TRACE_PATH') or 'task16_partA_lego_image_diagnostic.json')
     # Diagnosis only: tools detail sub-check failures. Never changes gates/routes/parsers.
     try:
         from . import tools_detail_diagnostic
@@ -431,6 +452,8 @@ def run_scan():
     stats['notification_delivery']={'mode':stats.get('delivery_mode','pending'),'product_messages_delivered':0,'by_route':{}}
     stats["review_candidates"] = len(LAST_REVIEW)
     stats["lego_image_validation"]=image_report
+    from . import pricing_labels as _plabels
+    stats["pricing_labels"]=_plabels.summarize(raws)
     stats["images_available"] = sum(bool(r.get("thumb")) for r in raws)
     stats["lego_images_available"] = sum(bool(r.get("thumb")) for r in raws if r.get("category")=="lego")
     return br, tier, graded, affordable, unpriced, stats
