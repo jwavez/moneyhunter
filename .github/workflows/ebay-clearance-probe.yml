@@ -1,0 +1,41 @@
+name: ebay-clearance-probe
+# Task 14 Phase B — one-shot read-only Currys Browse probe (exactly 5 calls).
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Seed browse_usage from public state branch (read-only)
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
+            git fetch origin state --depth 1
+            if git cat-file -e origin/state:scan_state.json 2>/dev/null; then
+              git show origin/state:scan_state.json > /tmp/scan_state.json
+            else
+              echo '{}' > /tmp/scan_state.json
+            fi
+          else
+            echo '{}' > /tmp/scan_state.json
+          fi
+      - name: Run clearance probe (exactly 5 Browse calls)
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          export SCAN_STATE_JSON="$(cat /tmp/scan_state.json)"
+          export PROBE_OUT="${GITHUB_WORKSPACE}/ebay_clearance_probe.json"
+          PYTHONPATH=. python scripts/ebay_clearance_probe.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ebay-clearance-probe
+          path: ebay_clearance_probe.json
+          retention-days: 7
