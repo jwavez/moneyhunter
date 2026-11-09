@@ -222,6 +222,22 @@ def run_scan():
         deal.ask_context = ask_by_url.get(deal.url)
         deal.ask_estimate=raw_by_url.get(deal.url,{}).get('ask_estimate')
         deal.publication_listing=res.plan['list']
+    # Diagnosis only: tools detail sub-check failures. Never changes gates/routes/parsers.
+    try:
+        from . import tools_detail_diagnostic
+        tools_detail_diagnostic.log_tool_detail_failures(
+            offers=raws,
+            research_rows=review,
+            out_path='tools_detail_diagnostic.json',
+        )
+    except Exception as exc:
+        import json as _json, traceback as _tb
+        from pathlib import Path as _Path
+        _Path('tools_detail_diagnostic.json').write_text(_json.dumps({
+            'entries': [],
+            'error': f'{type(exc).__name__}: {exc}',
+            'traceback': _tb.format_exc(),
+        }, indent=2, sort_keys=True) + '\n')
     checked = drop_expired(graded, br)
     # Reviewed sold valuations must use the same publication/count/route pipeline,
     # not disappear from raw research merely because no asking model exists.
