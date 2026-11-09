@@ -271,6 +271,26 @@ def run_scan():
             'error': f'{type(exc).__name__}: {exc}',
             'traceback': _tb.format_exc(),
         }, indent=2, sort_keys=True) + '\n')
+    # Diagnosis only: trainers pipeline stage trace. Never changes gates/parsers/allocation.
+    try:
+        from . import trainers_pipeline_diagnostic
+        trainers_pipeline_diagnostic.log_trainer_pipeline(
+            offers=raws,
+            research_rows=review,
+            out_path='trainers_pipeline_diagnostic.json',
+            state=operational,
+        )
+    except Exception as exc:
+        import json as _json, traceback as _tb
+        from pathlib import Path as _Path
+        _Path('trainers_pipeline_diagnostic.json').write_text(_json.dumps({
+            'entries': [],
+            'trainer_offers': [],
+            'aggregate': None,
+            'brand_comparison': None,
+            'error': f'{type(exc).__name__}: {exc}',
+            'traceback': _tb.format_exc(),
+        }, indent=2, sort_keys=True) + '\n')
     checked = drop_expired(graded, br)
     # Reviewed sold valuations must use the same publication/count/route pipeline,
     # not disappear from raw research merely because no asking model exists.
