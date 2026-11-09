@@ -236,6 +236,9 @@ def run_scan():
         deal.ask_context = ask_by_url.get(deal.url)
         deal.ask_estimate=raw_by_url.get(deal.url,{}).get('ask_estimate')
         deal.publication_listing=res.plan['list']
+    if os.environ.get('MH_TASK16_TRACE')=='1':
+        from . import task16_lego_image_diag as T16
+        T16.diagnose(raws, operational, os.environ.get('MH_TASK16_TRACE_PATH') or 'task16_partA_lego_image_diagnostic.json')
     # Diagnosis only: tools detail sub-check failures. Never changes gates/routes/parsers.
     try:
         from . import tools_detail_diagnostic

@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 from moneyhunter import details, market, publication, tools_detail_diagnostic
 
-NOW = dt.datetime(2026, 11, 9, 10, 0, tzinfo=dt.timezone.utc)
+NOW = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0) - dt.timedelta(hours=1)
 
 
 def tool_ident():

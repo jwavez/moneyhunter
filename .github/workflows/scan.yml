@@ -72,6 +72,8 @@ jobs:
           MONEYHUNTER_WEBHOOKS: ${{ secrets.MONEYHUNTER_WEBHOOKS }}
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          MH_TASK16_TRACE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          MH_TASK16_TRACE_PATH: task16_partA_lego_image_diagnostic.json
         run: |
           set -euo pipefail
           rm -f public/deals.json
@@ -106,6 +108,7 @@ jobs:
           name: moneyhunter-no-send-research
           path: |
             public/deals.json
+            task16_partA_lego_image_diagnostic.json
             tools_diagnostic.json
             tools_detail_diagnostic.json
             tools_slot_diagnostic.json
