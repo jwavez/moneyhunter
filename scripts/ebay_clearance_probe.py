@@ -83,9 +83,14 @@ assert len(QUERIES) == 5, "probe must define exactly 5 queries"
 
 
 def _seed_state() -> dict:
-    """Seed browse_usage from SCAN_STATE_JSON env or empty day bucket."""
+    """Seed browse_usage from SCAN_STATE_PATH / SCAN_STATE_JSON or empty day bucket."""
     state: dict = {}
-    raw = os.environ.get("SCAN_STATE_JSON", "").strip()
+    raw = ""
+    path = os.environ.get("SCAN_STATE_PATH", "").strip()
+    if path and Path(path).is_file():
+        raw = Path(path).read_text()
+    else:
+        raw = os.environ.get("SCAN_STATE_JSON", "").strip()
     if raw:
         try:
             loaded = json.loads(raw)
