@@ -8,7 +8,7 @@ from unittest.mock import patch
 from moneyhunter import details, market, publication, tools_slot_diagnostic
 from moneyhunter.scanners import ebay
 
-NOW = dt.datetime(2026, 11, 9, 12, 0, tzinfo=dt.timezone.utc)
+NOW = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0) - dt.timedelta(hours=1)
 
 
 def demand(cat, identity, near_publish=False):
