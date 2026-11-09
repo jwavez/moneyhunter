@@ -33,27 +33,77 @@ def _lookup(rows, url):
     return None
 
 
+# Deterministic trainer brand labels (diagnostic only; does not change identity lanes).
+NAMED_TRAINER_BRANDS = (
+    "new balance",
+    "helly hansen",
+    "under armour",
+    "on running",
+    "nike",
+    "adidas",
+    "asics",
+    "reebok",
+    "vans",
+    "puma",
+    "saucony",
+    "veja",
+    "skechers",
+    "boss",
+    "hoka",
+    "fila",
+    "converse",
+    "salomon",
+    "brooks",
+)
+
+
+def parse_trainer_brand(title):
+    """Map a trainer title to a deterministic brand label.
+
+    Named brands (case-insensitive) → canonical lowercase name.
+    Other identifiable footwear → "other".
+    Empty / unidentifiable → "unknown".
+    Label only: does not change identity matching or lanes.
+    """
+    if title is None:
+        return "unknown"
+    raw = str(title).strip()
+    if not raw:
+        return "unknown"
+    cleaned = variants.clean(raw)
+    # Prefer longer multi-word brands first.
+    for brand in NAMED_TRAINER_BRANDS:
+        parts = brand.split()
+        if len(parts) == 1:
+            if M.has(cleaned, parts[0]):
+                return brand
+        else:
+            # All tokens must appear (order-tolerant via has).
+            if all(M.has(cleaned, part) for part in parts):
+                # "on running" requires both tokens to reduce false positives.
+                if brand == "on running" and not (
+                    re.search(r"\bon\b", cleaned) and re.search(r"\brunning\b", cleaned)
+                ):
+                    continue
+                return brand
+    # Identifiable footwear brand/product language but not in the named list.
+    if re.search(r"\b(?:shoe|shoes|trainer|trainers|sneaker|sneakers|boot|boots)\b", cleaned, re.I) or re.search(
+        r"\buk\s*(?:size\s*)?\d", raw, re.I
+    ):
+        return "other"
+    return "unknown"
+
+
 def _brand_parsed(offer, ident=None):
+    # Prefer title parse so ASICS/etc. are consistent even when identity brand is Nike/adidas-only.
+    title = (offer or {}).get("title") or ""
+    parsed = parse_trainer_brand(title)
+    if parsed != "unknown":
+        return parsed
     if ident is not None:
         brand = (getattr(ident, "variant", None) or {}).get("brand")
         if brand:
-            b = str(brand).casefold()
-            if b == "nike":
-                return "nike"
-            if b == "adidas":
-                return "adidas"
-            return "other"
-    title = offer.get("title") or ""
-    t = variants.clean(title)
-    if M.has(t, "nike"):
-        return "nike"
-    if M.has(t, "adidas"):
-        return "adidas"
-    # Brand-like token present but neither Nike nor adidas.
-    if re.search(r"\b(?:shoe|trainer|sneaker|boot)\b", t, re.I) or re.search(
-        r"\buk\s*(?:size\s*)?\d", title, re.I
-    ):
-        return "other"
+            return parse_trainer_brand(str(brand))
     return "unknown"
 
 
@@ -253,6 +303,10 @@ def classify_failure_stage(offer, research, identity_result, ident, proof, estim
         return "identity_ambiguous", proof_reason or "ambiguous_primary_offer", None
 
     # Matched identity from here.
+    # Slot starvation is a detail-check hold, not a missing-comparator problem.
+    if getitem.get("getitem_denied_slots_exhausted"):
+        return "detail_check_pending", "detail_check_pending", None
+
     comparator_count = _comparator_count(row, estimate)
     ask_status = row.get("ask_status") or (research or {}).get("ask_status")
     if comparator_count <= 0 and not estimate and ask_status in (
@@ -435,7 +489,10 @@ def log_trainer_pipeline(offers, research_rows, out_path="trainers_pipeline_diag
 
         brand_comparison = {}
         for brand in ("nike", "adidas", "other"):
-            subset = [e for e in entries if e["brand_parsed"] == brand]
+            if brand == "other":
+                subset = [e for e in entries if e["brand_parsed"] not in ("nike", "adidas", "unknown")]
+            else:
+                subset = [e for e in entries if e["brand_parsed"] == brand]
             stages = [e["failure_stage"] for e in subset]
             brand_comparison[brand] = {
                 "offers": len(subset),
