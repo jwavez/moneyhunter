@@ -1,7 +1,12 @@
 name: ebay-dryrun
-# Branch override: Task 14 clearance probe. Restore main version before merge.
-on: { workflow_dispatch: { inputs: { comps: { default: "samba og|76449|dcd796" } } } }
-permissions: { contents: read }
+on:
+  workflow_dispatch:
+    inputs:
+      comps:
+        description: "Pipe-separated comps (ignored on probe branch)"
+        default: "samba og|76449|dcd796"
+permissions:
+  contents: read
 jobs:
   dry:
     runs-on: ubuntu-latest
@@ -9,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+        with:
+          python-version: "3.12"
       - name: Seed browse_usage from state branch
         run: |
           set -euo pipefail
@@ -18,11 +24,9 @@ jobs:
             git fetch origin state --depth 1
             if git cat-file -e origin/state:scan_state.json 2>/dev/null; then
               python3 - <<'PY'
-import json
+import json, subprocess
 from pathlib import Path
-full = json.loads(Path("/dev/stdin").read_text()) if False else None
-import subprocess
-raw = subprocess.check_output(["git","show","origin/state:scan_state.json"], text=True)
+raw = subprocess.check_output(["git", "show", "origin/state:scan_state.json"], text=True)
 data = json.loads(raw)
 seed = {"browse_usage": data.get("browse_usage") or {}}
 Path("/tmp/scan_state_seed.json").write_text(json.dumps(seed))
