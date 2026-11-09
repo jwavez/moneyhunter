@@ -1,0 +1,18 @@
+{
+  "scenario": "A",
+  "zero_unpriced_in_discord_destinations": true,
+  "unpriced_all_internal_hold": true,
+  "exact_priced_count": 6,
+  "approximate_priced_count": 22,
+  "unpriced_held_internally": 225,
+  "breakdown": {
+    "exact_priced": 6,
+    "approximate_priced": 22,
+    "unpriced_or_none_held": 203
+  },
+  "seen_json_byte_identical": true,
+  "seen_sha256": "55ba0a45fd6a3c9fed277499c9c0e6c4c4a7c68e47860eaedb45d485413d604f",
+  "new_BUY_CHECK_vs_pre_fix": "n/a \u2014 no code fix (Scenario A); no new signals introduced",
+  "priced_cards_still_routable_when_publishable": "hub.route still sends publication.allowed+publishable cards to opportunities/research-watch; current export had 0 image-publishable priced cards",
+  "partC_method": "Offline verification against origin/state inventory after Part A showed zero leaks; full Actions dry-run blocked by unrelated pre-existing tools_detail_diagnostic NOW=10:00UTC fixture going stale after +6h (not Task 15)."
+}
