@@ -200,7 +200,11 @@ def main() -> int:
         print("ERROR: EBAY_CLIENT_ID / EBAY_CLIENT_SECRET missing", file=sys.stderr)
         return 2
 
-    out_path = Path(os.environ.get("PROBE_OUT", "/workspace/ebay_clearance_probe.json"))
+    # Prefer PROBE_OUT; else cwd (Actions-safe). Copy to /workspace when writable.
+    if os.environ.get("PROBE_OUT"):
+        out_path = Path(os.environ["PROBE_OUT"])
+    else:
+        out_path = Path("ebay_clearance_probe.json").resolve()
     when = datetime.now(timezone.utc)
 
     state = _seed_state()
@@ -403,10 +407,17 @@ def main() -> int:
     }
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(payload, indent=2, default=str) + "\n")
-    # Also write a repo-relative copy when running in Actions
+    blob = json.dumps(payload, indent=2, default=str) + "\n"
+    out_path.write_text(blob)
     rel = Path("ebay_clearance_probe.json")
-    rel.write_text(out_path.read_text())
+    if rel.resolve() != out_path.resolve():
+        rel.write_text(blob)
+    workspace_copy = Path("/workspace/ebay_clearance_probe.json")
+    try:
+        workspace_copy.parent.mkdir(parents=True, exist_ok=True)
+        workspace_copy.write_text(blob)
+    except OSError as exc:
+        print(f"NOTE: /workspace copy skipped: {exc}", file=sys.stderr)
     print(json.dumps({"ok": True, "out": str(out_path), "summary": summary}, indent=2, default=str))
     return 0
 
