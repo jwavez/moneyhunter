@@ -1,0 +1,13 @@
+Task 15 Part C — Scenario A verification
+========================================
+Zero unpriced in Discord destinations: YES
+All unpriced in internal-hold: YES
+seen.json byte-identical: YES (sha256 55ba0a45fd6a3c9f…)
+New BUY/CHECK vs pre-fix: none (no code change)
+
+Counts:
+  exact priced: 6
+  approximate (model present, not publication-qualified): 22
+  unpriced/none held internally: 203
+
+Note: approximate rows are NOT delivered (internal-hold). Exact rows in this export failed LEGO image publishable() so also held — pricing gate intact.

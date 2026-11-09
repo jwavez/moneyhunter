@@ -1,0 +1,2081 @@
+{
+  "scenario": "A",
+  "conclusion": "No leak. All unpriced/none/approximate offers exit at internal-hold with would_deliver=false. User-visible \"not priced\" Discord cards are consistent with pre-Task-7 history (guide \u00a712: old messages not deleted).",
+  "summary": {
+    "total_offers": 231,
+    "exact_priced": 6,
+    "approximate_priced": 22,
+    "unpriced": 0,
+    "none": 203,
+    "routes": {
+      "internal-hold": 231
+    },
+    "unpriced_by_route": {
+      "internal-hold": 225
+    },
+    "leaks": 0,
+    "leak_rows": []
+  },
+  "worker_audit": {
+    "filterDeals": "physicalRows.filter(priced)",
+    "dealView": "list.filter(priced); empty \u2192 info embed",
+    "researchView": "review_queue.filter(priced); else pending()",
+    "policyView": "if(!priced(x)) return pending()",
+    "planView": "if(!priced(x)) return pending()",
+    "priceView": "unpriced reviewed / missing entry \u2192 pending(); unreachable legacy \"Not priced\" branch after return pending()",
+    "guardData": "invalid/missing _mh_price_proof \u2192 pending()",
+    "interactive_ephemeral": "msg() defaults flags=64 (Only you can see this); still gated by priced()/pending()",
+    "worker_tests_pass": [
+      "unpriced or expired calculation cannot become a named target card",
+      "test-routing.mjs",
+      "test-publication.mjs"
+    ]
+  },
+  "python_audit": {
+    "hub.route": "raws filtered to publishable+publication.allowed before any channel send",
+    "discord.build_payload": "final gate; returns None without valid_proof",
+    "hub.digest": "near misses filtered publication.allowed",
+    "existing_test": "tests.test_evidence_routing.EvidenceRouting.test_unpriced_all_paths_held_without_name_policy_or_ack"
+  },
+  "unpriced_compact": [
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-force-1-low-special-edition-trainers-white-metallic-womens-sizes-3-8-wdiscount-for-carers-5021278",
+      "title": "Nike Air Force 1 Low Special Edition Trainers, White-Metallic - Women's Sizes 3 - 8 w/Discount for Carers (free delivery",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-force-1-low-womens-5023154",
+      "title": "Nike Air Force 1 Low Women's Trainers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-nike-air-force-1-low-trainers-sail-sizes-7-13-with-dfcblc-code-free-delivery-for-members-5023471",
+      "title": "Mens Nike Air Force 1 Low Trainers, Sail, Sizes 7-13 - with DFC/BLC Code - Free Delivery for Members",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/188748037334",
+      "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/198739439897",
+      "title": "Nike Air Max 95 OG Big Bubble Medium Olive Women's UK 5.5 HJ5996-003",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_failed"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-speed-champions-ferrari-sf-24-f1-race-car-77242-5026720",
+      "title": "LEGO Speed Champions Ferrari SF-24 F1 Race Car 77242",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "low_price_not_supported"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-minecraft-21587-zombie-dungeon-5027010",
+      "title": "LEGO Minecraft 21587 Zombie Dungeon",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "low_price_not_supported"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
+      "title": "LEGO Lucky Cat 40813",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "uncertain_competitor_coupon"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-discount-at-checkout-5024700",
+      "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "stale_or_future_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-icons-ferrari-f2004-michael-schumacher-11375-discount-at-checkout-5025990",
+      "title": "LEGO Icons Ferrari F2004 & Michael Schumacher 11375 (Discount at Checkout)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "low_price_not_supported"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-technic-nissan-skyline-gt-r-r34-2-fast-2-furious-42210-5027132",
+      "title": "LEGO Technic Nissan Skyline GT-R (R34) 2 Fast 2 Furious 42210",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "uncertain_competitor_coupon"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-icons-hubble-space-telescope-11382-5026863",
+      "title": "LEGO Icons Hubble Space Telescope 11382",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "uncertain_competitor_coupon"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/157293801335",
+      "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/840023293955",
+      "title": "Hugo Boss Bottled Aftershave Lotion Splash For Men 100ml New Sealed",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
+      "title": "Little Nightmares II (Xbox Series X)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "fewer_than_three_exact_independent_comparators"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/r-type-delta-hd-boosted-ps5-5026010",
+      "title": "R-Type Delta HD Boosted PS5",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "stale_or_future_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lies-of-p-playstation-5-5027173",
+      "title": "Lies of P (PS5)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "low_price_not_supported"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hugo-boss-boss-bottled-100ml-aftershave-lotion-5025419",
+      "title": "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/devil-may-cry-5-devil-hunter-edition-nintendo-switch-2-5027051",
+      "title": "Devil May Cry 5: Devil Hunter Edition (Nintendo Switch 2)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "low_price_not_supported"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/gucci-guilty-for-him-eau-de-toilette-50ml-5026869",
+      "title": "Gucci Guilty For Him Eau de Toilette 50ml",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/pragmata-xbox-series-x-5026950",
+      "title": "Pragmata (Xbox Series X)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "fewer_than_three_exact_independent_comparators"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcf887n-18v-xr-brushless-impact-driver-body-only-dewalt-dt7500-qz-25x60mm-magnetic-bit-holder-ps099-5026071",
+      "title": "DeWalt DCF887N 18V XR Brushless Impact Driver (Body Only)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/makita-dga452z-18v-lxt-115mm-angle-grinder-body-only-5020929",
+      "title": "Makita DGA452Z 18V LXT 115mm Angle Grinder (Body Only)",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/makita-dga452z-18v-lxt-115mm-grinder-body-5023175",
+      "title": "Makita DGA452Z 18V LXT 115mm Grinder - Body",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "detail_check_pending"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcs382n-xj-18v-xr-brushless-reciprocating-saw-bare-unit-5022170",
+      "title": "DEWALT DCS382N-XJ 18V XR Brushless Reciprocating Saw - Bare Unit",
+      "estimate_type": "approximate",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "fewer_than_three_exact_independent_comparators"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/tilswall-paint-sprayer-shark700-fits-makita-18v-no-battery-white-with-checkout-discount-sold-by-tilswall-direct-eu-fba-5021941",
+      "title": "Tilswall Paint Sprayer Shark700, Fits Makita 18V (No Battery), White - Discount at Checkout - Sold by Tilswall Direct EU",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/327381493975",
+      "title": "Nike Air Force 1 07 Brown Sail Unisex Trainers - Size UK 3.5 - IO1914-235",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/128113345214",
+      "title": "Nike Air Max 95 OG Big Bubble Black Medium Olive Womens 6uk | HJ5996-003",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/gxtrust-protective-case-for-nintendo-switch-2-black-5027243",
+      "title": "GXTrust Protective Case for Nintendo Switch 2 - Black",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-retro-gaming-console-31380-discount-at-checkout-5026739",
+      "title": "LEGO Creator 3in1 Retro Gaming Console 31380, discount at checkout",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
+      "title": "LEGO Minecraft The Pale Garden 21586 - Discount at checkout",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-harry-potter-sorting-hat-ceremony-76460-2-for-ps15-5026611",
+      "title": "LEGO Harry Potter: Sorting Hat Ceremony 76460 (2 for \u00a315)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/2-x-lego-star-wars-clone-shock-trooper-mech-75448-discount-at-checkout-5026689",
+      "title": "2 x LEGO Star Wars Clone Shock Trooper Mech 75448 (Discount at Checkout)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/makita-b-53811-100-piece-drill-bit-set-5026658",
+      "title": "Makita B-53811 100 Piece Drill Bit Set",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-harry-potter-cornish-pixie-76461-discount-at-checkout-5026618",
+      "title": "LEGO Harry Potter Cornish Pixie 76461 - Discount at Checkout",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/cmf-buds-2a-wireless-earbuds-light-grey-4hd-mics-bluetooth-54-up-to-31h-of-playback-ip54-with-code-sold-by-vertex-uk-store-5026235",
+      "title": "CMF Buds 2a - Wireless Earbuds Light Grey - 4HD Mics Bluetooth 5.4, Up to 31H of Playback, IP54 with Code Sold By Vertex",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-originals-sl72-shoes-5026568",
+      "title": "adidas Originals Sl72 Shoes",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dw055pl-xj-pocket-laser-distance-measurer-dwht77100-xj-ps3999-free-cc-5024457",
+      "title": "DEWALT DW055PL-XJ Pocket Laser Distance Measurer // DWHT77100-XJ - \u00a339.99 - Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-technic-ducati-desmo450-mx-factory-motorcycle-42238-5026740",
+      "title": "LEGO Technic Ducati Desmo450 MX Factory Motorcycle 42238",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-star-wars-smart-play-mos-eisley-cantina-75425-wcode-5025592",
+      "title": "LEGO Star Wars SMART Play: Mos Eisley Cantina 75425 - W/Code - free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-18v-xr-4ah-battery-dcb182-xj-5022064",
+      "title": "DEWALT 18V XR 4Ah Battery, DCB182-XJ - Sold by discount4you (VAT) / FBA",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-technic-1966-ford-gt40-mkii-racing-car-42223-5026563",
+      "title": "LEGO Technic 1966 Ford GT40 MKII Racing Car 42223",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-40820-up-scaled-santa-minifgure-5026835",
+      "title": "LEGO 40820 Up Scaled Santa Minifgure",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-friends-friendship-tree-house-hangout-42652-5026472",
+      "title": "LEGO Friends Friendship Tree House Hangout 42652",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-eevee-and-laprass-treasure-hunt-72162-5025058",
+      "title": "LEGO Pok\u00e9mon SMART Play: Eevee and Lapras\u2019s Treasure Hunt 72162",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcb184-18v-xr-50ah-li-ion-battery-5023706",
+      "title": "DeWalt DCB184 18V XR 5.0Ah Li-Ion Battery",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcb184-xj-18v-50ah-xr-li-ion-battery-5023704",
+      "title": "DEWALT DCB184-XJ 18V 5.0Ah XR Li-Ion Battery",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-ideas-polaroid-onestep-sx-70-camera-21345-5025121",
+      "title": "LEGO Ideas Polaroid OneStep SX-70 Camera 21345",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-mechanics-tool-set-14-and-38-inch-drive-sae-172-piece-dwmt81533-5026576",
+      "title": "DEWALT Mechanics Tool Set, 1/4 and 3/8 Inch Drive, SAE, 172-Piece (DWMT81533)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcf887n-18v-xr-brushless-impact-driver-body-only-dcb184-50ah-battery-5026203",
+      "title": "DeWalt DCF887N 18V XR Brushless Impact Driver & DCB184 5.0Ah Battery",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcf887n-18v-xr-brushless-impact-driver-dcb184-50ah-battery-dcb1104-charger-5026205",
+      "title": "DeWalt DCF887N 18V XR Brushless Impact Driver & DCB184 5.0Ah Battery & DCB1104 Charger",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-superfly-unisex-trainers-in-brown-brown-uk-4-size-5023029",
+      "title": "Nike Air Superfly Unisex Trainers - Brown - UK 4 Size (\u00a322.94 + Free Delivery With New Customer Code)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/206068108309",
+      "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.ebay.co.uk/itm/133894859073",
+      "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/tormented-souls-xbox-one-series-xs-5026003",
+      "title": "Tormented Souls - Xbox One/ Series X|S",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-6-pack-everyday-cushioned-training-crew-socks-5022484",
+      "title": "Nike 6-Pack Everyday Cushioned Training Crew Socks",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-thin-and-light-no-show-socks-pack-of-3-blackwhite-5026631",
+      "title": "adidas Thin and Light No-Show Socks, Pack of 3, Black/White",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/assassins-creed-valhalla-xbox-one-used-wcode-student-or-graduate-beans-5026215",
+      "title": "Assassin's Creed: Valhalla - Xbox One - Used - w/code Student or Graduate Beans",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/topspin-2k25-ps4-5025717",
+      "title": "TopSpin 2K25 - PS4",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/cobra-kai-the-karate-kid-saga-continues-ps4-xbox-one-ps922-used-wcode-student-or-graduate-beans-5026806",
+      "title": "Cobra Kai: The Karate Kid Saga Continues - PS4 / Xbox One \u00a39.22 - Used -w/code Student or Graduate Beans",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-unisex-cushioned-sportswear-crew-socks-3-pair-pack-socks-5025567",
+      "title": "adidas Unisex Cushioned Sportswear Crew Socks, 3 Pair Pack",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-635mm-25mm-hex-shank-pz2-impact-torsion-screwdriver-bits-25-pack-free-cc-5024288",
+      "title": "DEWALT 6.35mm 25mm Hex Shank PZ2 Impact Torsion Screwdriver Bits 25 Pack Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/jbl-tune-205-wired-in-ear-headphones-black-5026737",
+      "title": "JBL Tune 205, Wired In-Ear Headphones - Black",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-mclaren-f1-team-635mm-hex-shank-mixed-impact-ready-torsion-screwdriver-bit-set-32-pieces-5023271",
+      "title": "DEWALT McLaren F1 Team 6.35mm Hex Shank Mixed Impact Ready Torsion Screwdriver Bit Set 32 Pieces - Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-rafter-square-7-177mm-5024278",
+      "title": "DEWALT Rafter Square 7\" (177mm) Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-mixed-screwdriver-bits-40-pieces-5026364",
+      "title": "DeWalt Mixed Screwdriver bits (40 pieces) - Free c&c",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/jvc-gumy-air-coconut-white-wireless-earbuds-5025912",
+      "title": "JVC GUMY AIR Coconut White Wireless Earbuds - Clubcard Price",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/sol-de-janeiro-cheirosa-62-jelly-perfume-balm-5026339",
+      "title": "Sol de Janeiro Cheirosa 62 Jelly Perfume Balm - With code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/soundcore-anker-r50i-true-wireless-in-ear-earbuds-tws-with-30-hours-playtime-clear-calls-and-high-bass-ipx5-2-colours-wcode-5026820",
+      "title": "soundcore Anker R50i True Wireless in-ear Earbuds, TWS with 30 hours Playtime, Clear Calls and High Bass, IPX5 2 Colours",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lynx-fragrance-edition-gift-set-5-piece-collection-wvoucher-5026935",
+      "title": "Lynx Fragrance Edition Gift Set 5 piece Collection - Discount at checkout",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-f50-sparkfusion-league-mid-cut-firm-groundartificial-grass-football-boots-yellow-size-12-ladies-5024292",
+      "title": "adidas F50 Sparkfusion League Mid Cut Firm Ground/Artificial Grass Football Boots (yellow size 12 ladies)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/guess-iconic-man-eau-de-parfum-30ml-5027106",
+      "title": "Guess Iconic Man Eau de Parfum 30ml (\u00a311.74 / \u00a310.51 max S&S)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/duffer-st-george-amis-mens-trainers-5026531",
+      "title": "Duffer St. George Amis Mens Trainers - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/asics-boys-contend-9-gs-sneaker-selected-sizes-pink-5026643",
+      "title": "ASICS Boy's Contend 9 Gs Sneaker (Selected Sizes Pink)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-for-men-aftershave-splash-100ml-joop-homme-wild-for-him-eau-de-toilette-spray-125ml-ps1328-with-code-5022286",
+      "title": "Calvin Klein Eternity For Men Aftershave Splash 100ml / JOOP! Homme Wild For Him Eau de Toilette Spray 125ml \u00a313.28 with",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/davidoff-horizon-125ml-eau-de-toilette-spray-for-men-5026151",
+      "title": "Davidoff Horizon 125ml Eau de Toilette Spray for Men",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-unisex-tensaur-sport-30-kids-shoes-size-10-uk-child-5025625",
+      "title": "adidas Unisex Tensaur Sport 3.0 Kids Shoes - Size 10 UK Child",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/vera-wang-original-eau-de-parfum-spray-100ml-5026141",
+      "title": "Vera Wang Original Eau de Parfum Spray 100ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/calvin-klein-eternity-100ml-aftershave-5025466",
+      "title": "Calvin Klein Eternity 100ml Aftershave (Free C&C)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hori-battle-pad-gamecube-style-controller-zelda-switch-wcoupon-5022175",
+      "title": "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/skullcandy-smokin-buds-360-wireless-noise-isolating-earbuds-bone-5027151",
+      "title": "Skullcandy Smokin\u2019 Buds 360 Wireless Noise Isolating Earbuds - Bone / Black",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/jvc-coconut-white-gumy-band-wireless-5026546",
+      "title": "JVC Coconut White Gumy Band Wireless Headphones - Clubcard Price",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-chelsea-fc-202425-home-shirt-junior-5024008",
+      "title": "Nike Chelsea FC 2024/25 Home Shirt Junior",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/womens-nike-womens-calm-slide-sail-size-35-free-cc-5021691",
+      "title": "Women's Nike Calm Slide, Sail, Size 3.5 - Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-triangle-2-way-straps-bikini-set-size-40-5025600",
+      "title": "adidas Triangle 2-Way Straps Bikini Set - Size 40",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-adidas-court-spec-2-tennis-shoes-size-95-5024260",
+      "title": "Men's adidas Court Spec 2 Tennis Shoes Size 9.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-park-26-fleece-full-zip-mens-hoodie-charcoal-heather-size-xxl-5026868",
+      "title": "Nike Park 26 Fleece Full Zip Men's Hoodie - Charcoal Heather - Size XXL",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/rasasi-hawas-malibu-eau-de-parfum-for-men-rasasi-hawas-fire-ps1802-with-code-via-the-app-5026932",
+      "title": "Rasasi Hawas Malibu eau de parfum for men / Rasasi Hawas Fire \u00a318.02 - with code Via the app",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/camo-blue-turtle-beach-recon-70-wired-multiplatform-gaming-headset-for-xbox-pc-ps5-camo-white-ps1799-5025377",
+      "title": "Camo Blue Turtle Beach Recon 70 Wired Multiplatform Gaming Headset for XBOX, PC, PS5, Camo White - \u00a317.99",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
+      "title": "Battlefield 6 Phantom Edition XBOX Series X | Disc",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-womens-court-team-bounce-20-shoes-size-13-uk-5025073",
+      "title": "adidas Women's Court Team Bounce 2.0 Shoes - Size 13 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/tilswall-alien-500-paint-sprayer-makita-18v-blue-1000ml-4-nozzles-3-spray-patterns-discount-at-checkout-sold-by-tilswall-direct-eufba-5024551",
+      "title": "Tilswall Alien 500 Paint Sprayer, Makita 18V, Blue, 1000ml, 4 Nozzles, 3 Spray Patterns, Discount @ Checkout, Sold by Ti",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/resident-evil-4-remake-gold-edition-ps5-5023720",
+      "title": "Resident Evil 4 Remake Gold Edition (PS5)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mont-blanc-explorer-platinum-eau-de-parfum-30ml-spray-5026651",
+      "title": "Mont Blanc Explorer Platinum Eau de Parfum 30ml Spray",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nothing-cmf-buds-2a-wireless-earbuds-42db-anc-bluetooth-54-ps1710-with-unidays-code-free-click-collect-5026936",
+      "title": "Nothing CMF Buds 2a In-Ear Earbuds (42dB ANC, 12.4mm Dynamic Driver, Bluetooth 5.4) | \u00a317.10 with Unidays Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/estee-lauder-modern-muse-eau-de-parfum-50ml-5026845",
+      "title": "Est\u00e9e Lauder Modern Muse Eau de Parfum, 50ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/wireless-headphones-85-off-5026218",
+      "title": "HAOYUYAN Wireless Earbuds - Rose Gold / Black - Limited Prime Deal - Sold by MMWOWARTS-WQ / FBA",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-mens-run50s-low-top-trainers-5025640",
+      "title": "Adidas Men's Run50S Low-Top Trainers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mario-and-luigi-brothership-nintendo-switch-asda-benton-instore-5027170",
+      "title": "Mario and Luigi Brothership Nintendo Switch - Benton",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/smash-30-leather-sneakers-youth-black-white-black-white-sizes-3-4-5-55-5027190",
+      "title": "Smash 3.0 Leather Sneakers Youth - Black, White, Black & White - Sizes 3, 4, 5, 5.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-ps5-5026771",
+      "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/black-friday-sale-extra-20-with-code-includes-the-north-face-fjern-rab-berghaus-more-eg-regatta-marizion-jacket-5025821",
+      "title": "Black Friday Sale + Extra 20% off - With Code - Includes The North Face, Adidas, Rab, Berghaus & more eg Regatta Marizio",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/invincible-vs-argos-exclusive-box-art-ps5-free-cc-5026697",
+      "title": "Invincible VS Argos Exclusive Box Art - PS5 - Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/empire-of-the-ants-limited-edition-ps5-5024360",
+      "title": "Empire of the Ants - Limited Edition [PS5] Sold by EVERGAME / FBA",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/tcl-crystalclip-clip-on-design-36-hours-playback-smart-translation-fast-charge-headphones-5026910",
+      "title": "TCL CrystalClip Clip On Design 36 Hours Playback Smart Translation Fast Charge Headphones",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/asics-gel-ds-og-mens-white-trainers-size-45-wcode-5026625",
+      "title": "Asics Gel-DS OG Mens White Trainers, Size 4.5 - w/code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/tales-of-xillia-remastered-ps5-game-5025819",
+      "title": "Tales of Xillia Remastered PS5 Game Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/oracle-red-bull-racing-true-wireless-100e-earphones-5026551",
+      "title": "Oracle Red Bull Racing True Wireless 100E Earphones",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/diesel-d-eau-de-toilette-100ml-5026821",
+      "title": "Diesel D Eau De Toilette 100ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/up-to-70-off-mens-womens-footwear-sale-hoka-nike-on-running-brooks-puma-more-eg-adidas-duramo-rc2-running-shoes-5023072",
+      "title": "Up to 70% off Men's, Women's Footwear Sale - Hoka, Nike, On Running, Puma & More eg Adidas Duramo Running Trainers / Hok",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/soundcore-p31i-r60i-nc-noise-cancelling-true-wireless-earphones-2-colours-5026948",
+      "title": "soundcore P31i R60i NC Noise Cancelling True Wireless Earphones (2 Colours)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-reebok-classic-leather-white-size-7-free-cc-5026574",
+      "title": "Mens Reebok Classic Leather, White, Size 7, Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-streetalk-womens-trainers-size-35-uk-5024772",
+      "title": "adidas Streetalk Womens Trainers - Size 3.5 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/asics-gel-lyte-iii-future-pack-mens-black-trainers-size-45-wcode-5026632",
+      "title": "Asics Gel-Lyte III Future Pack Mens Black Trainers, Size 4.5 - w/code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-court-borough-low-junior-in-black-5022354",
+      "title": "Nike Court Borough Low Junior Trainers in Black, sizes 10 - 2 (free C&C)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-mens-court-heritage-shoes-sizes-7-11-in-wolf-grey-wcode-5023545",
+      "title": "Nike Men's Court Heritage Shoes, Sizes 7-11 in Wolf Grey W/Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/cmf-by-nothing-buds-pro-2-wirelesss-earphones-with-hifi-sound-50-db-smart-active-noise-cancellation-vertex-tech-store-with-code-4-colours-5026627",
+      "title": "CMF by Nothing Buds Pro 2 Wirelesss earphones with HiFi sound, 50 dB Smart Active Noise Cancellation Vertex Tech Store W",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/womens-skechers-summits-suited-trainers-5026410",
+      "title": "Womens Skechers Summits Suited Trainers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-cloudfoam-flex-rapidfit-shoes-5025244",
+      "title": "Adidas Cloudfoam Flex RAPIDFIT Shoes Size 8.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-cloudfoam-flex-rapidfit-shoes-all-sizes-5025181",
+      "title": "adidas Cloudfoam Flex RAPIDFIT Men's Shoes, All Sizes",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/versace-womens-mini-fragrance-set-5026865",
+      "title": "Versace Women's Mini Fragrance Set",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/cmf-by-nothing-buds-2-wireless-earbuds-with-48db-hybrid-anc-55-hour-battery-life-11mm-pmi-driver-6-hd-mics-spatial-audio-all-colours-5026731",
+      "title": "CMF by Nothing Buds 2 Wireless Earbuds With 48dB Hybrid ANC, 55-Hour Battery Life, 11mm PMI Driver, 6 HD Mics & Spatial ",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-duramo-speed-2-running-shoes-size-9-5026390",
+      "title": "adidas Duramo Speed 2 Running Shoes - size 9",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/361-ventus-mens-running-shoes-midnightredhoney-uk-sizes-7-12-incl-half-sizes-5027015",
+      "title": "361\u00b0 Ventus Mens Running Shoes | Midnight/red/honey | UK sizes 7 - 12 incl. half sizes",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/gucci-bamboo-eau-de-parfum-50ml-5027187",
+      "title": "Gucci Bamboo Eau De Parfum - 50ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hellraiser-revival-day-one-edition-playstation-5-5025667",
+      "title": "Hellraiser: Revival Day One Edition (PS5)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hellraiser-revival-day-one-edition-ps5-free-click-collect-5024520",
+      "title": "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/new-balance-411v4-mens-running-shoes-black-or-blue-with-code-5026072",
+      "title": "New Balance 411v4 Mens Running Shoes - Black Or Blue - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/valor-mortis-playstation-5-5026148",
+      "title": "Valor Mortis - PS5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/valor-mortis-xbox-series-x-5026532",
+      "title": "Valor Mortis Xbox Series X",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-max-koko-trainers-black-black-anthracite-5026251",
+      "title": "Nike Air Max Koko Trainers Black Anthracite - Size 6.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-new-balance-480-trainers-maroon-size-7-wcode-blue-light-code-5026613",
+      "title": "Mens New Balance 480 Trainers, Maroon, Size 7 w/code Blue Light Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/vans-old-skool-sneakers-blue-or-grey-size-3-75-wcode-blue-light-code-5026604",
+      "title": "VANS Old Skool Sneakers, Blue or Grey plus others, Size 3-7.5 - w/code Blue Light Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-batman-legacy-of-the-dark-knight-ps5-used-wcode-student-or-graduate-beans-5027171",
+      "title": "LEGO Batman: Legacy of the Dark Knight - PS5 - Used w/code Student or Graduate Beans",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-womens-galaxy-8-running-shoes-size-8-uk-5024768",
+      "title": "Adidas Women's Galaxy 8 Running shoes - Size 8 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hellraiser-revival-day-one-edition-ps5-5023676",
+      "title": "Hellraiser: Revival - Day One Edition (PS5)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/resident-evil-requiem-ps5-5025460",
+      "title": "Resident Evil Requiem (PS5)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/silent-hill-2-ps5-game-free-cc-5025639",
+      "title": "Silent Hill 2 - PS5 Game - Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/lego-batman-legacy-of-the-dark-knight-ps5-used-very-good-disc-wcode-sold-by-boomerang-video-games-5025007",
+      "title": "LEGO Batman: Legacy of The Dark Knight (PS5) - Used: Very Good Disc w/code sold by Boomerang Video Games",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/issey-miyake-leau-dissy-pour-homme-125ml-edt-spray-5027139",
+      "title": "Issey Miyake L'eau D'issy Pour Homme - 125ml EDT Spray",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/resident-evil-requiem-xbox-series-x-5025533",
+      "title": "Resident Evil Requiem Xbox Series X",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-ps5-xbox-series-x-5023718",
+      "title": "Resonance: A Plague Tale Legacy (PS5 / Xbox Series X)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-duramo-sl-2-running-shoes-size-4-uk-5024761",
+      "title": "Adidas Duramo SL 2 Running Shoes - Size 4 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-max-fire-mens-trainers-size-95-sizes-8-9-11-ps4950-wcode-5021805",
+      "title": "Nike Air Max Fire Men's Trainers, Size 9.5 (Sizes 8, 9, 11 \u00a349.50) W/Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-womens-ld-1000-se-casual-trainers-blue-not-many-sizes-but-a-good-price-5023209",
+      "title": "NIKE Womens LD-1000 SE Casual Trainers (Blue) - Limited Sizes",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-cloudfoam-flex-rapidfit-shoes-size-12-uk-5024769",
+      "title": "adidas Cloudfoam Flex RAPIDFIT Shoes - Size 12 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-originals-zx-500-rs-trainers-blue-size-6-5026597",
+      "title": "Adidas Originals ZX 500 RS Trainers Blue, Size 6",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-first-sight-run-trainers-black-black-mtlc-dark-grey-sizes-4-65-5026241",
+      "title": "Nike First Sight Run Women's Trainers Black Black Mtlc Dark Grey Sizes 4 - 6.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-terrex-anylander-hiking-womens-shoes-black-grey-ps4225-selected-sizes-5024559",
+      "title": "Adidas Terrex Anylander Hiking Women's Shoes Black/ Grey \u00a342.25 (selected sizes)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nothing-cmf-headphone-pro-wireless-bluetooth-wireless-over-ear-headphones-up-to-100-hours-of-battery-active-noise-cancelling-2-colours-5026940",
+      "title": "Nothing CMF Headphone Pro Wireless Bluetooth Wireless Over Ear Headphones, Up to 100 Hours of Battery, Active Noise Canc",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-mens-air-max-alpha-6-shoes-size-7-in-3-colours-whitehot-lime-sailbaroque-brown-oliveblack-wcode-5024009",
+      "title": "Nike Men's Air Max Alpha 6 Shoes, Size 7 in 3 Colours: White/Hot Lime - Sail/Baroque Brown - Olive/Black - W/Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/givenchy-gentleman-reserve-privee-eau-de-parfum-spray-5026528",
+      "title": "60ML GIVENCHY Gentleman Reserve Privee Eau de Parfum Spray - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/makita-dtd152z-18v-lxt-impact-driver-body-only-5025896",
+      "title": "Makita DTD152Z 18V LXT Impact Driver (Body Only)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/makita-dub185z-18v-lxt-blower-with-vacuum-function-bare-unit-ps3999-makita-bl1830-18v-lxt-30ah-li-ion-battery-ps2999-5026045",
+      "title": "Makita DUB185Z 18V LXT Blower with Vacuum Function (Bare Unit)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-predator-pro-coral-blaze-pack-fg-firm-ground-football-boots-5026427",
+      "title": "adidas Mens Predator Pro Coral Blaze Pack Firm Ground Football Boots - Size 3.5-12",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/oracle-red-bull-racing-true-wireless-110-earphones-with-lcd-touch-screen-5026553",
+      "title": "Oracle Red Bull Racing True Wireless 110 Earphones with LCD Touch Screen",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-adidas-originals-zx-600-grey-size-7-free-cc-5026593",
+      "title": "Mens adidas Originals ZX 600, Grey, Size 7, Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/soundcore-anker-space-one-adaptive-active-noise-cancelling-headphones-with-discount-at-checkout-joyplus-5026824",
+      "title": "soundcore Anker Space One, Adaptive Active Noise Cancelling Headphones (With Discount At Checkout & Joyplus)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/gamesir-g7-se-wired-xbox-controllerhall-effect-joysticks-5026258",
+      "title": "GameSir G7 SE Wired XBOX Controller, Hall Effect Joysticks - All Colours - Sold by GameSir Direct UK / FBA",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/15-off-ps50-spend-on-selected-items-regatta-under-armour-trespass-karrimor-nike-levis-more-5026265",
+      "title": "15% Off \u00a350 Spend On Selected Items (Regatta, Under Armour, Trespass, Karrimor, Nike, Levi's & More)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-mens-ld-1000-casual-trainers-brown-5023131",
+      "title": "NIKE Mens LD-1000 Casual Trainers (Brown)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-mens-ld-1000-prm-casual-trainers-pink-5023134",
+      "title": "NIKE Mens LD-1000 PRM Casual Trainers (Pink)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/new-balance-black-friday-outlet-sale-up-to-50-10-off-wdfc-code-free-sign-up-free-members-delivery-wfree-sign-up-eg-237-trainers-5025719",
+      "title": "New Balance Black Friday Outlet Sale Up to 50% + 10% Off W/DFC Code (free sign up) + free members delivery W/free sign u",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/gucci-guilty-eau-de-parfum-for-her-50ml-with-code-5026848",
+      "title": "Gucci Guilty Eau de Parfum For Her 50ml - With Code - Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hugo-boss-boss-bottled-eau-de-toilette-50ml-gift-set-with-deodorant-150ml-wcode-5026687",
+      "title": "HUGO BOSS BOSS Bottled Eau de Toilette 50ml Gift Set with Deodorant 150ml w/code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-force-1-low-special-edition-trainers-white-metallic-womens-sizes-3-8-wdiscount-for-carers-5021278",
+      "title": "Nike Air Force 1 Low Special Edition Trainers, White-Metallic - Women's Sizes 3 - 8 w/Discount for Carers (free delivery",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-defiant-speed-2-trainers-were-ps100-5024286",
+      "title": "Adidas Defiant Speed 2 Trainers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-rockadia-hiking-shoes-size-35-uk-5024759",
+      "title": "Adidas Men's Terrex Rockadia Hiking Shoes - Size 3.5 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/boss-bottled-eau-de-toilette-for-men-and-deodorant-spray-duo-gift-set-50ml-150ml-5026683",
+      "title": "BOSS Bottled Eau de Toilette for Men and Deodorant Spray Duo Gift Set 50ml & 150ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-force-1-07-bwn-sneaker-brown-sail-brown-size-3-7-5026061",
+      "title": "Nike Air Force 1 '07 Bwn Sneaker, Brown, Sail & Brown, Size 3-7",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/new-balance-25-off-wcode-fresh-foam-arishi-v4-mens-running-shoes-arishi-v4-mens-wide-fit-trainers-ps5624-5027063",
+      "title": "New Balance + 25% off W/Code - Fresh Foam Arishi v4 Mens Running Shoes / Arishi v4 Mens Wide Fit trainers \u00a356.24",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/cmf-headphone-pro-bluetooth-wireless-over-ear-headphones-up-to-100-hours-of-battery-life-active-noise-cancelling-all-colours-5026705",
+      "title": "CMF Headphone Pro - Bluetooth Wireless Over Ear Headphones, Up to 100 Hours of Battery Life, Active Noise Cancelling - A",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/jean-paul-gaultier-le-male-eau-de-toilette-75ml-shower-gel-75ml-gift-set-for-him-5027101",
+      "title": "Jean Paul Gaultier Le Male Eau de Toilette 75ml + Shower Gel 75ml Gift Set for Him - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-mens-adizero-pacer-running-shoes-size-75-uk-5024764",
+      "title": "adidas Men's Adizero Pacer Running Shoes - Size 7.5 UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-mens-terrex-tracerocker-2-gore-tex-trail-running-shoes-5026096",
+      "title": "Adidas Men's Terrex Tracerocker 2 Gore-TEX Trail Running Shoes 5.5. - 12.5UK",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/givenchy-very-irresistible-eau-de-toilette-spray-5026557",
+      "title": "GIVENCHY Very Irresistible Eau de Toilette Spray - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/prada-luna-rossa-carbon-edp-150ml-refill-with-code-via-the-app-ps56-on-site-wcode-bfsale-5026925",
+      "title": "Prada Luna Rossa Carbon EDP 150ml refill with code Via the App (\u00a356 on site W/Code)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/rabanne-1-million-eau-de-toilette-100ml-gift-set-5026814",
+      "title": "Rabanne 1 Million Eau de Toilette 100ml Gift Set (with code)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-football-chelsea-energy-long-sleeve-football-top-on-blue-size-xs-lps4674-wcode-newhere-5024140",
+      "title": "Nike Football Chelsea Energy long sleeve football top on blue, Size XS-L,(\u00a346.74 w/code NEWHERE)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-mens-nike-dunk-low-canvas-trainer-colour-off-white-dark-raisin-spruce-aura-size-6-free-cc-5021858",
+      "title": "Mens Men's Nike Dunk Low Canvas Trainer, Colour: Off White / Dark Raisin / Spruce Aura, Size 6, Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-mens-air-force-1-07-leather-shoes-sizes-115-12-13-14-16-17-in-black-5023952",
+      "title": "Nike Men's Air Force 1 '07 Leather Shoes, Sizes 11.5, 12, 13, 14, 16, 17 in Black",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/givenchy-gentleman-society-extreme-eau-de-parfum-spray-100ml-5026550",
+      "title": "GIVENCHY Gentleman Society Extreme Eau de Parfum Spray 100ml - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/helly-hansen-mens-buzzard-tr-sneaker-pack-of-1-5026787",
+      "title": "Helly Hansen Men's Buzzard Tr Sneakers, 10.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-p-6000-sneaker-black-blue-silver-size-4-5-5025828",
+      "title": "Nike P-6000 Sneaker, Black, Blue & Silver, Size 4 or 5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/michael-kors-green-infinity-eau-de-parfum-spray-100ml-free-duffle-back-5026837",
+      "title": "Michael Kors Green Infinity Eau de Parfum Spray 100ML + Free Duffle Back",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-force-1-low-womens-5023154",
+      "title": "Nike Air Force 1 Low Women's Trainers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/boss-aiden-leather-colour-block-lace-up-trainers-sizes-7-12-5026221",
+      "title": "BOSS Aiden Leather Colour Block Lace Up Trainers (Sizes 7-12)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-adizero-evo-sl-atr-mens-running-shoes-blackwhite-sizes-7-8-11-free-click-and-collect-wcode-5026082",
+      "title": "adidas Adizero Evo SL ATR Mens Running Shoes - Black/White (Sizes 7, 8, 11) - Free Click and Collect - w/code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-nike-p-6000-burgundy-crush-college-grey-va-size-7-wcode-unidays-5025820",
+      "title": "Mens Nike P-6000, Burgundy Crush-College Grey-Va, Size 7 (With Code Via Unidays) - Free Delivery For Members (Free Sign ",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/givenchy-very-irresistible-eau-de-parfum-spray-5026560",
+      "title": "GIVENCHY Very Irresistible Eau de Parfum Spray - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/birthday-20-off-eg-puma-velocity-nitro-4-gore-tex-adidas-evo-sl-ps76-on-cloudsurfer-2-ps80-saucony-endorphin-elite-2-ps100-wcode-5026199",
+      "title": "Birthday 20% Off e.g Puma Velocity NITRO 4 GORE-TEX | Saucony Endorphin Elite 2 \u00a3100 | Adidas EVO SL \u00a376 | On Cloudsurfe",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-p-6000-trainers-5025037",
+      "title": "Nike P-6000 trainers with code - Selected Sizes Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/hugo-boss-boss-bottled-bottled-beyond-eau-de-toilette-intense-5026354",
+      "title": "Hugo Boss BOSS Bottled Beyond Eau de Toilette Intense - 150ml - With Code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-running-adizero-pacer-trainers-in-black-size-6-12-ps5524-wcode-newhere-for-new-customers-5027102",
+      "title": "Adidas Running Adizero Pacer trainers in black, size 6-12 - \u00a355.24 w/code for new customers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/liverpool-fc-adidas-third-kit-25-26-5027135",
+      "title": "Liverpool Fc adidas Third kit 26-27 - Free Delivery For Members (Free Sign Up)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/new-balance-tfoam-sneaker-black-size-5-10-5026064",
+      "title": "New Balance TFOAM Sneaker, Black, Limited Sizes 5-10",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/chanel-n5-eau-de-parfum-spray-35ml-5026540",
+      "title": "CHANEL N\u00b05 Eau De Parfum Spray 35ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-max-95-trainers-black-med-olive-white-reflect-silver-anthracite-lt-size-4-45-wcode-blue-light-card-free-cc-5022216",
+      "title": "Nike Air Max 95 Trainers Black Med Olive White Reflect Silver Anthracite Lt, Size 4-4.5, w/code Blue Light Card, Free C&",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/adidas-originals-mens-nmd-s1-ryat-chunky-trainers-coour-altered-blue-5025504",
+      "title": "adidas Originals Men's Nmd S1 Ryat Chunky Trainers - Colour: Altered Blue",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-nike-p-6000-in-silver-multi-size-7-8-offwhite-multi-size-7-12-free-cc-5025825",
+      "title": "Mens Nike P-6000 in Silver Multi, Size 7-8 / Offwhite multi size 7-12 , Free C&C",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/on-running-cloudsurfer-next-1-running-shoes-eg-womens-cloudsurfer-next-1-kiwiivory-trainers-mens-cloudsurfer-next-1-ps8399-5026165",
+      "title": "On Running Cloudsurfer Next 1 Running Shoes - eg Womens Cloudsurfer Next 1 Kiwi/Ivory Trainers / Mens Cloudsurfer Next 1",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/ugg-mens-heritage-utility-axoid-trainers-blackblack-sizes-8-11-5027217",
+      "title": "UGG Mens Heritage Utility Axoid Trainers Black / Chestnut - Sizes 8-11",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/mens-nike-air-force-1-low-trainers-sail-sizes-7-13-with-dfcblc-code-free-delivery-for-members-5023471",
+      "title": "Mens Nike Air Force 1 Low Trainers, Sail, Sizes 7-13 - with DFC/BLC Code - Free Delivery for Members",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nike-air-max-90-men-shoes-black-neon-sizes-55-to-11-with-dfcblc-code-free-delivery-for-members-free-signup-5022338",
+      "title": "Nike Air Max 90 Men Shoes Black Neon - Sizes 5.5 to 11 with DFC/BLC Code - Free Delivery for Members (Free Signup)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/vaporfly-4-for-ps7250-with-code-run15-5025027",
+      "title": "Nike ZoomX Vaporfly Next% 4 Running Shoes with code",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/apple-airpods-4-via-app-w-coupon-possible-3-months-of-spotify-premium-for-first-purchase-lightning-offer-5026788",
+      "title": "Apple AirPods 4 via App + Possible 3 months of Spotify Premium for First Purchase - Lightning Offer w/ Coupon (Select Ac",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/apple-airtag-4-pack-2nd-generation-tracker-for-keychain-wallet-and-more-locator-with-sound-simple-one-tap-setup-ps7178-joyplus-members-5027163",
+      "title": "Apple AirTag 4 pack (2nd generation): Tracker for Keychain, Wallet and More; Locator with Sound; Simple One-Tap Setup \u00a37",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/giorgio-armani-si-eau-de-parfum-intense-100ml-5027205",
+      "title": "Giorgio Armani S\u00ec Eau de Parfum Intense 100ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/apple-airpods-4-wireless-earbuds-bluetooth-headphones-at-checkout-5026861",
+      "title": "Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones At Checkout",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/apple-airtag-4-pack-2nd-generation-tracker-for-keychain-wallet-and-more-discount-at-checkout-5026746",
+      "title": "Apple AirTag 4 pack (2nd generation): Tracker for Keychain, Wallet and More Discount At Checkout",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/bose-soundlink-flex-portable-speaker-2nd-gen-refurbished-good-as-new-several-colours-5026076",
+      "title": "Bose SoundLink Flex Portable Speaker (2nd Gen) - Refurbished Good As New Several Colours",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/saucony-endorphin-trainer-mens-running-shoes-5025920",
+      "title": "Saucony Endorphin Trainer Men's Running Shoes - Sizes 6-8.5 and 11.5",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-xr-18v-li-ion-brushed-cordless-combi-drill-1-x-2ah-dcd776d1t-gb-charger-and-case-5026237",
+      "title": "DeWalt XR 18V Li-ion Brushed Cordless Combi Drill (1 x 2Ah) - DCD776D1T- GB Charger and Case",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/bleu-de-chanel-eau-de-toilette-spray-20-dizzy-off-all-sizes-5027088",
+      "title": "Bleu De CHANEL Eau de Toilette Spray 100ml",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/apple-airpods-headphones-5th-generation-active-noise-cancellation-excellent-refurbished-wcode-sold-by-the-outlet-hub-5025374",
+      "title": "Apple AirPods Headphones 5th Generation Active Noise Cancellation - Excellent Refurbished - w/Code, Sold by The Outlet H",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/turtle-beach-stealth-700-wireless-multiplatform-gaming-headset-for-ps5-pc-5024095",
+      "title": "Turtle Beach Stealth 700 Wireless Multiplatform Gaming Headset for PS5 & PC",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcf809d2t-gb-18v-xr-brushless-impact-driver-kit-2-x-20ah-5024626",
+      "title": "DeWalt DCF809D2T-GB 18V XR Brushless Impact Driver Kit 2 x 2.0Ah",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/skullcandy-crusher-720-wireless-sensory-bass-headphones-true-black-5027026",
+      "title": "Skullcandy Crusher 720 Wireless Sensory Bass Headphones (True Black)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/playstations-gtavi-plus-the-gtavi-limited-edition-white-controller-for-ps10799-ee-one-customers-5024488",
+      "title": "Grand Theft Auto VI - PS5 + Limited Edition White DualSense Controller - First 1,000 Eligible EE One Up Customers",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/fanxiang-s880r-1tb-pcie-40-nvme-m2-ssd-with-heatsink-up-to-7450mbs-ps5-pc-compatible-5024149",
+      "title": "Fanxiang S880R 1TB PCIe 4.0 NVMe M.2 SSD with Heatsink, Up to 7450MB/s, PS5 & PC Compatible W/Code @ FANXIANG Official S",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/samsung-galaxy-buds4-pro-wireless-bluetooth-earbuds-full-spectrum-hi-fi-sound-2-way-speaker-5026757",
+      "title": "Samsung Galaxy Buds4 Pro, Wireless Bluetooth Earbuds, Full-Spectrum Hi-Fi Sound, 2-Way Speaker",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/dewalt-dcs565n-xj-18v-165mm-xr-brushless-circular-saw-bare-unit-5023065",
+      "title": "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/5tb-wd-black-p10-portable-game-drive-for-playstation-xbox-pc-mac-via-amazon-eu-5023552",
+      "title": "4TB WD_BLACK P10 portable Game Drive for Playstation, Xbox, PC, & Mac via Amazon EU",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/nothing-headphone-1-hybrid-active-noise-cancelling-headphones-5026744",
+      "title": "Nothing (1) Hybrid Active Noise Cancelling Headphones",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    },
+    {
+      "offer_url": "https://www.hotukdeals.com/deals/sonos-ace-noise-cancelling-bluetooth-headphones-refurbished-1-year-warranty-sold-by-sonos-uk-official-store-5025744",
+      "title": "Sonos Ace Noise Cancelling Bluetooth Headphones - Refurbished + 1 Year Warranty - Sold by sonos_uk_official_store",
+      "estimate_type": "none",
+      "selling_price": null,
+      "route": "internal-hold",
+      "delivered": false,
+      "blocker_if_unpriced": "no_supported_resale_estimate"
+    }
+  ],
+  "unpriced_exit_counts": {
+    "internal-hold": 225
+  },
+  "blocker_counts": {
+    "no_supported_resale_estimate": 203,
+    "detail_check_pending": 8,
+    "detail_check_failed": 1,
+    "low_price_not_supported": 5,
+    "uncertain_competitor_coupon": 3,
+    "stale_or_future_estimate": 2,
+    "fewer_than_three_exact_independent_comparators": 3
+  },
+  "note_exact_held_for_images": "6 publication.allowed rows in export were LEGO without publishable images \u2192 also internal-hold (image gate), not Discord product cards",
+  "source": "origin/state deals.json + review_queue candidates (post-scan export inventory); MH_TASK15_TRACE instrumentation exercised offline then reverted (Scenario A = no lasting code change)"
+}
