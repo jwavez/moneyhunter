@@ -36,6 +36,10 @@ def _classify_identity_events(evs):
         return "denied_slots_exhausted", None
     if "not_risky_lowest" in reasons:
         return "denied_not_risky", None
+    # inspect_skip with no getItem request never wanted a lookup (e.g. no comparator offers).
+    if evs and all(e.get("phase") == "inspect_skip" for e in evs) and not any(e.get("getitem_requested") for e in evs):
+        note = next((e.get("note") for e in evs if e.get("note")), "inspect_skip")
+        return "denied_not_risky", note
     if any(e.get("getitem_requested") for e in evs) or reasons:
         note = next((e.get("note") for e in evs if e.get("note")), None)
         why = next((r for r in reasons if r), "unclassified_slot_event")
