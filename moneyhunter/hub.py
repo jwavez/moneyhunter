@@ -248,6 +248,8 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
     DELIVERY_FAILURES.clear()
     DELIVERY_COUNTS.clear()
     new = set()
+    from .seen_state import coerce_seen
+    seen = coerce_seen(seen)
     from .images import publishable
     raws,_=PF.partition(raws)
     graded=[(d,r) for d,r in graded if not PF.reason(vars(d))]
@@ -314,22 +316,56 @@ def route(raws, graded, stats, near, seen, dry=False, max_cards=5):
             if ch and it["heat"] >= HOT_HEAT and "cat:" + it["url"] not in seen:
                 if ok(send(ch, [mini(it, 0xEF4444, "🔥 ")], buttons(it), dry)) or dry: new.add("cat:" + it["url"])
     # 3b) WATCH cards: relevant new deals per category channel (no profit claimed)
+    # Task 17: same seen key; re-post when buy price moved ≥10% vs last_delivered_price.
     graded_urls = {d.url for d, r in graded if r.grade[0] in "AB"}
     prices_now = read_prices()
     per = {}
+    repost_diag = []
+    reposts_allowed = 0
     for it in sorted(raws, key=lambda x: (x.get('source')=='ebay_browse',-x.get("review_priority", 0), -(x.get("heat") or 0))):
         ch = CAT_CHANNEL.get(it.get("category"))
         k = ("w:ask-model-v1:" if it.get("ask_estimate") else "w:") + it["url"]
-        if not ch or k in seen or "cat:" + it["url"] in seen or it["url"] in opportunity_urls or "tr:"+it["url"] in seen or "pe:"+it["url"] in seen or any(x.startswith("pd:"+it["url"]+":") for x in seen) or not resellable(it): continue
-        if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
+        if not ch or "cat:" + it["url"] in seen or it["url"] in opportunity_urls or "tr:"+it["url"] in seen or "pe:"+it["url"] in seen or any(x.startswith("pd:"+it["url"]+":") for x in seen) or not resellable(it): continue
         from .policy import current
         if it["price"] + (it.get("inbound_delivery") or 0) > current()["watch_ceiling"]: continue
         if re.search(r"in.?store|pre.?order|tester", it["title"], re.I): continue   # no car; no pre-orders or testers
         status = acquisition_status(it)
         if status == "expired": continue
         if status != "live": continue
+        # publication.allowed already applied to raws; still gate unpriced if ever present
+        priced = publication.allowed(it)
+        last = seen.last_delivered_price(k)
+        decision = seen.decide(k, it["price"], priced=priced)
+        pct = decision.get("pct_change")
+        item_diag = {
+            "identity": k,
+            "url": it.get("url"),
+            "title": (it.get("title") or "")[:120],
+            "current_price": it.get("price"),
+            "last_delivered_price": last,
+            "pct_change": None if pct is None else round(pct, 6),
+            "would_deliver": decision["would_deliver"],
+            "reason": decision["reason"],
+            "is_repost": decision.get("is_repost", False),
+        }
+        repost_diag.append(item_diag)
+        if not decision["would_deliver"]:
+            if decision.get("record_price") and not dry:
+                seen.record_price(k, it["price"])
+            continue
+        if per.get(ch, 0) >= WATCH_PER_CHANNEL: continue
         if ok(send("research-watch", [watch_card(it, prices_now)], buttons(it), dry)) or dry:
             new.add(k); per[ch] = per.get(ch, 0) + 1
+            if decision.get("is_repost"):
+                reposts_allowed += 1
+            if decision.get("record_price") and not dry:
+                seen.record_price(k, it["price"])
+    stats["seen_price_change"] = {
+        "reposts_allowed": reposts_allowed,
+        "report_line": f"re-posts allowed: {reposts_allowed} (price change ≥10%)",
+        "items": repost_diag,
+    }
+    print(f"[hub] {stats['seen_price_change']['report_line']}")
     # 3c) quiet-market pulse: no A/B this scan -> one note per hour [H]
     n_drops = 0
     if not stats.get("A") and not stats.get("B") and not stats.get("estimated_opportunities"):

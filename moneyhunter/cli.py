@@ -69,10 +69,8 @@ def build_deal(raw: dict, comp) -> G.Deal:
     return d
 
 def _load_seen():
-    if not os.path.exists(STATE): return set()
-    with open(STATE) as f: seen = json.load(f)
-    if not isinstance(seen, list) or not all(isinstance(k, str) for k in seen): raise ValueError("invalid alert state")
-    return set(seen)
+    from .seen_state import SeenState
+    return SeenState.load(STATE)
 
 def _key(d):
     return hotukdeals.dedupe_key(d.title, d.buy_price)
@@ -547,7 +545,11 @@ def cmd_scan(a):
         new = hub.route(raws, graded, stats, near, seen, dry=a.dry_run, max_cards=a.max_posts)
     if not a.dry_run:
         from . import runtime as RT
-        RT.save(STATE, sorted(seen | new))
+        from .seen_state import coerce_seen
+        seen = coerce_seen(seen)
+        for k in new:
+            seen.add(k)
+        seen.save(STATE)
         RT.save(OPERATIONAL, LAST_OPERATIONAL)
         RT.save(REVIEW_PATH, {"schema_version": 1, "candidates": LAST_REVIEW})
     if a.export:
