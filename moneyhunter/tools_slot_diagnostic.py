@@ -5,7 +5,7 @@ import json
 import traceback
 from pathlib import Path
 
-from . import details, market, research_budget
+from . import details, market, publication, research_budget
 
 
 def _lookup(rows, url):
@@ -25,6 +25,164 @@ def _identity_string(offer):
     return str(getattr(ident, "match", None) or None)
 
 
+def _classify_identity_events(evs):
+    """One outcome per identity from its slot events. Prefer grant over denials."""
+    if any(e.get("getitem_granted") for e in evs):
+        return "granted", None
+    reasons = [e.get("denial_reason") for e in evs if e.get("denial_reason")]
+    if "cache_hit" in reasons:
+        return "denied_cache_hit", None
+    if "slots_exhausted" in reasons:
+        return "denied_slots_exhausted", None
+    if "not_risky_lowest" in reasons:
+        return "denied_not_risky", None
+    if any(e.get("getitem_requested") for e in evs) or reasons:
+        note = next((e.get("note") for e in evs if e.get("note")), None)
+        why = next((r for r in reasons if r), "unclassified_slot_event")
+        return "denied_other", note or why
+    return "denied_other", "identity present in slot log without classifiable outcome"
+
+
+def _per_category_slot_summary(events):
+    """Distinct identities per category; requested == granted + denied_*."""
+    by_cat = {}
+    for ev in events or []:
+        cat = ev.get("category") or "unknown"
+        ident = ev.get("identity") or f"anon:{ev.get('comparator_item_id') or ev.get('phase')}"
+        by_cat.setdefault(cat, {}).setdefault(ident, []).append(ev)
+    out = []
+    for cat in sorted(by_cat):
+        row = {
+            "category": cat,
+            "requested": 0,
+            "granted": 0,
+            "denied_slots_exhausted": 0,
+            "denied_cache_hit": 0,
+            "denied_not_risky": 0,
+            "denied_other": 0,
+            "denied_other_notes": [],
+        }
+        for ident, evs in by_cat[cat].items():
+            bucket, note = _classify_identity_events(evs)
+            row["requested"] += 1
+            row[bucket] += 1
+            if bucket == "denied_other" and note:
+                row["denied_other_notes"].append({"identity": ident, "note": note})
+        # Enforce sum; keep notes out of the equality check.
+        denied_sum = (
+            row["denied_slots_exhausted"]
+            + row["denied_cache_hit"]
+            + row["denied_not_risky"]
+            + row["denied_other"]
+        )
+        if row["requested"] != row["granted"] + denied_sum:
+            row["denied_other"] += row["requested"] - row["granted"] - denied_sum
+            row["denied_other_notes"].append(
+                {"identity": None, "note": "adjusted to satisfy requested == granted + denied_*"}
+            )
+        if not row["denied_other_notes"]:
+            row.pop("denied_other_notes")
+        out.append(row)
+    return out
+
+
+def _dga452z_publication_status(offers, research_rows, events):
+    """Read-only publication/card outcome for Makita DGA452Z this scan."""
+    empty = {
+        "in_this_scan": False,
+        "identity": None,
+        "getitem_granted_this_scan": None,
+        "slot_index_this_scan": None,
+        "publication_qualified": None,
+        "publication_blocker": None,
+        "supported_estimate_value": None,
+        "conclusion": None,
+    }
+    matches = []
+    for offer in offers or []:
+        title = offer.get("title") or ""
+        ident = _identity_string(offer) or ""
+        if "DGA452Z" in title.upper() or "DGA452Z" in ident.upper():
+            matches.append(offer)
+    if not matches:
+        return empty
+
+    # Prefer an offer that has ask/publication context.
+    research_by_url = {r.get("url"): r for r in (research_rows or []) if r.get("url")}
+    offer = matches[0]
+    for o in matches:
+        if o.get("ask_estimate") or (research_by_url.get(o.get("url")) or {}).get("ask_estimate"):
+            offer = o
+            break
+    research = research_by_url.get(offer.get("url")) or {}
+    row = dict(offer)
+    if not row.get("ask_estimate") and research.get("ask_estimate"):
+        row["ask_estimate"] = research["ask_estimate"]
+    if not row.get("ask_context") and research.get("ask_context"):
+        row["ask_context"] = research["ask_context"]
+    if not row.get("publication_proof") and research.get("publication_proof"):
+        row["publication_proof"] = research["publication_proof"]
+
+    ident = _identity_string(row) or "Makita DGA452Z bare tool 18V"
+    evs = [e for e in (events or []) if e.get("identity") == ident]
+    granted = [e for e in evs if e.get("getitem_granted")]
+    getitem_granted = bool(granted)
+    slot_index = granted[0].get("slot_index") if granted else None
+
+    proof = row.get("publication_proof")
+    if not isinstance(proof, dict):
+        proof = publication.proof(row)
+    qualified = proof.get("ok") is True
+    blocker = None if qualified else proof.get("reason")
+
+    estimate = None
+    model = row.get("ask_estimate") or {}
+    if isinstance(model, dict):
+        for key in ("estimated_resale", "suggested_listing", "competition_low"):
+            if isinstance(model.get(key), (int, float)):
+                estimate = model.get(key)
+                break
+    if estimate is None and qualified and isinstance(proof.get("listing"), (int, float)):
+        estimate = proof.get("listing")
+
+    conclusion = None
+    if isinstance(model, dict) and model.get("signal"):
+        conclusion = model.get("signal")
+    try:
+        from . import presentation
+        fields = presentation.fields(row, legacy=row)
+        if fields and len(fields) >= 3:
+            conclusion = fields[2].get("value") or conclusion
+    except Exception:
+        pass
+    if conclusion:
+        # Keep a short operator-facing label when possible.
+        upper = str(conclusion).upper()
+        if "SKIP" in upper:
+            short = "SKIP"
+        elif "CHECK" in upper or "VERIFY" in upper or "WORTH REVIEWING" in upper:
+            short = "CHECK"
+        elif "NOT A BUY" in upper:
+            short = "NOT A BUY"
+        elif "BUY" in upper:
+            short = "BUY"
+        else:
+            short = None
+        if short:
+            conclusion = short + ((" — " + str(conclusion)[:180]) if short not in str(conclusion) else "")
+
+    return {
+        "in_this_scan": True,
+        "identity": ident,
+        "getitem_granted_this_scan": getitem_granted,
+        "slot_index_this_scan": slot_index,
+        "publication_qualified": qualified,
+        "publication_blocker": blocker,
+        "supported_estimate_value": estimate,
+        "conclusion": conclusion,
+    }
+
+
 def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnostic.json", state=None):
     """
     For each tools offer, record whether getItem was requested/granted and why.
@@ -37,7 +195,6 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
         groups = list(details.ENRICH_GROUPS)
         run = (state or {}).get("detail_run") or {}
         reserved = run.get("reserved_tools", 2)
-        used = run.get("calls", 0)
         usage = (state or {}).get("browse_usage") or {}
         total_budget = research_budget.DAILY_LIMIT
         total_used = usage.get("calls") if isinstance(usage.get("calls"), int) else None
@@ -53,7 +210,6 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
             by_identity[key]["deduplicated"] = by_identity[key]["deduplicated"] or bool(g.get("deduplicated"))
             by_identity[key]["lanes"].append(g.get("lane"))
         for meta in by_identity.values():
-            # unique preserve order
             seen = set(); urls = []
             for u in meta["offer_urls"]:
                 if u not in seen:
@@ -62,21 +218,9 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
             meta["same_identity_other_offers"] = max(0, len(urls) - 1)
             meta["deduplicated"] = len(urls) > 1 or meta["deduplicated"]
 
-        # Events by identity (tools and overall).
-        events_by_identity = {}
-        granted_overall = []
-        for ev in events:
-            if ev.get("getitem_granted"):
-                granted_overall.append(ev)
-            if ev.get("category") == "tools" or (ev.get("identity") and "bare tool" in str(ev.get("identity") or "").lower()):
-                events_by_identity.setdefault(ev.get("identity"), []).append(ev)
-            elif ev.get("category"):
-                events_by_identity.setdefault(ev.get("identity"), []).append(ev)
-
         research_by_url = {r.get("url"): r for r in (research_rows or []) if r.get("url")}
 
         tools_offers = [o for o in (offers or []) if o.get("category") == "tools"]
-        # Count identity frequency across tools offers this scan.
         id_counts = {}
         id_for = {}
         for o in tools_offers:
@@ -94,7 +238,6 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
             same_other = max(0, id_counts.get(ident, 1) - 1) if ident else 0
             dedup = bool(group.get("deduplicated")) or same_other > 0
 
-            # Default: lookup not considered.
             getitem_requested = False
             getitem_granted = False
             slot_index = None
@@ -105,11 +248,9 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
                 denial_reason = "other"
                 note = "exact_identity_not_supported; no detail lookup considered"
             elif url not in research_by_url and not research.get("ask_context") and not offer.get("ask_context"):
-                # Not in research/enrich path this scan.
                 denial_reason = "other"
                 note = "tools offer not in asking enrich candidates this scan"
             else:
-                # Match slot events for this identity.
                 evs = [e for e in events if e.get("identity") == ident]
                 granted = [e for e in evs if e.get("getitem_granted")]
                 cache_hits = [e for e in evs if e.get("denial_reason") == "cache_hit"]
@@ -130,10 +271,8 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
                     denial_reason = denied[0].get("denial_reason") or "other"
                     note = denied[0].get("note")
                     if dedup and denial_reason in ("slots_exhausted", "budget_exhausted", "other"):
-                        # Still report actual denial; note shared identity.
                         note = ((note + "; ") if note else "") + "identity shared with other offer(s) this scan"
                 elif dedup and ident in by_identity:
-                    # Grouped in enrich but no inspect event (ask snapshot not fresh / no query).
                     getitem_requested = False
                     denial_reason = "identity_deduplicated" if same_other > 0 else "other"
                     note = "identity grouped in enrich but no detail inspect event this scan (ask snapshot may be missing)"
@@ -142,7 +281,6 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
                     denial_reason = "other"
                     note = "no detail inspect event for this identity this scan"
 
-                # If multiple offers share identity and only one inspect was issued, mark secondary as deduped.
                 if dedup and ident and not getitem_granted and denial_reason not in ("cache_hit",):
                     urls = group.get("offer_urls") or []
                     if urls and url != urls[0] and getitem_requested is False:
@@ -188,19 +326,29 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
                 "note": ev.get("note"),
             })
 
+        tool_grants = sum(1 for c in getitem_calls if c.get("category") == "tools")
+        per_category = _per_category_slot_summary(events)
+        dga_status = _dga452z_publication_status(offers, research_rows, events)
+
         payload = {
             "entries": entries,
             "identity_groups": identity_groups,
             "getitem_calls": getitem_calls,
             "slot_events": events,
             "enrich_groups": groups,
+            "per_category_slot_summary": per_category,
+            "dga452z_publication_status": dga_status,
             "slot_summary": {
                 "tool_slots_reserved": reserved,
-                "tool_slots_used": used,
-                "total_getitem_budget": total_budget,
+                "tool_slots_used": tool_grants,
+                "shared_daily_getitem_budget": total_budget,
                 "total_getitem_used": total_used,
                 "detail_limit_per_scan": details.LIMIT,
                 "non_tool_slot_cap": details.LIMIT - (reserved or 0),
+                "notes": [
+                    "tool_slots_reserved is a minimum, not a maximum",
+                    "non_tool_slot_cap is a maximum, but may be underused if non-tool requests queue after tools",
+                ],
             },
             "error": None,
         }
@@ -209,6 +357,17 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
             "entries": entries,
             "identity_groups": [],
             "getitem_calls": [],
+            "per_category_slot_summary": [],
+            "dga452z_publication_status": {
+                "in_this_scan": False,
+                "identity": None,
+                "getitem_granted_this_scan": None,
+                "slot_index_this_scan": None,
+                "publication_qualified": None,
+                "publication_blocker": None,
+                "supported_estimate_value": None,
+                "conclusion": None,
+            },
             "slot_summary": {},
             "error": f"{type(exc).__name__}: {exc}",
             "traceback": traceback.format_exc(),

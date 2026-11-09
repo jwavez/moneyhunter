@@ -161,11 +161,23 @@ class ToolsSlotDiagnostic(unittest.TestCase):
             [
                 {
                     "phase": "inspect",
+                    "category": "tech",
+                    "identity": "Google Pixel Buds 2a hazel",
+                    "getitem_requested": True,
+                    "getitem_granted": True,
+                    "slot_index": 0,
+                    "denial_reason": None,
+                    "note": None,
+                    "comparator_item_id": "v1|50|0",
+                    "comparator_url": "https://www.ebay.co.uk/itm/50",
+                },
+                {
+                    "phase": "inspect",
                     "category": "tools",
                     "identity": i1.match,
                     "getitem_requested": True,
                     "getitem_granted": True,
-                    "slot_index": 0,
+                    "slot_index": 1,
                     "denial_reason": None,
                     "note": None,
                     "comparator_item_id": "v1|100|0",
@@ -204,7 +216,7 @@ class ToolsSlotDiagnostic(unittest.TestCase):
         self.assertEqual(len(payload["entries"]), 3)
         by_url = {e["offer_url"]: e for e in payload["entries"]}
         self.assertTrue(by_url["https://hukd.example/dcf887n"]["getitem_granted"])
-        self.assertEqual(by_url["https://hukd.example/dcf887n"]["slot_index"], 0)
+        self.assertEqual(by_url["https://hukd.example/dcf887n"]["slot_index"], 1)
         dga = by_url["https://hukd.example/dga452z-a"]
         self.assertFalse(dga["getitem_granted"])
         self.assertEqual(dga["denial_reason"], "slots_exhausted")
@@ -212,11 +224,28 @@ class ToolsSlotDiagnostic(unittest.TestCase):
         self.assertEqual(dga["same_identity_other_offers"], 1)
         summary = payload["slot_summary"]
         self.assertEqual(summary["tool_slots_reserved"], 2)
-        self.assertEqual(summary["tool_slots_used"], 2)
-        self.assertEqual(summary["total_getitem_budget"], 800)
+        self.assertEqual(summary["tool_slots_used"], 1)  # only tools grants
+        self.assertEqual(summary["shared_daily_getitem_budget"], 800)
+        self.assertNotIn("total_getitem_budget", summary)
         self.assertEqual(summary["total_getitem_used"], 42)
-        self.assertEqual(len(payload["getitem_calls"]), 1)
-        self.assertEqual(payload["getitem_calls"][0]["category"], "tools")
+        self.assertIn("tool_slots_reserved is a minimum, not a maximum", summary["notes"])
+        self.assertEqual(len(payload["getitem_calls"]), 2)
+        self.assertEqual([c["category"] for c in payload["getitem_calls"]], ["tech", "tools"])
+        # Per-category distinct identities.
+        by_cat = {r["category"]: r for r in payload["per_category_slot_summary"]}
+        self.assertIn("tools", by_cat)
+        tools = by_cat["tools"]
+        self.assertEqual(
+            tools["requested"],
+            tools["granted"]
+            + tools["denied_slots_exhausted"]
+            + tools["denied_cache_hit"]
+            + tools["denied_not_risky"]
+            + tools["denied_other"],
+        )
+        dga = payload["dga452z_publication_status"]
+        self.assertTrue(dga["in_this_scan"])
+        self.assertIn("DGA452Z", dga["identity"])
 
 
 if __name__ == "__main__":
