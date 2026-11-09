@@ -159,5 +159,35 @@ class TrainersPipelineDiagnostic(unittest.TestCase):
         self.assertFalse(payload["entries"][0]["publication_qualified"])
 
 
+
+    def test_getitem_denied_slots_exhausted_forces_detail_check_pending(self):
+        """Invariant: slot exhaustion is detail_check_pending, not no_comparators_found."""
+        details.reset_slot_log()
+        offer = nike_offer(url="https://hukd.example/nike-slot")
+        # Matched Nike identity with empty comparators would previously look like no_comparators.
+        details.SLOT_EVENTS.append(
+            {
+                "phase": "inspect",
+                "category": "trainers",
+                "identity": "Nike HJ5996-003 UK 5.5",
+                "getitem_requested": True,
+                "getitem_granted": False,
+                "denial_reason": "slots_exhausted",
+            }
+        )
+        research = {
+            "url": offer["url"],
+            "category": "trainers",
+            "ask_context": {"query": "Nike HJ5996-003 UK 5.5", "offers": [], "sample_count": 0},
+            "ask_status": "not queried",
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            payload = trainers_pipeline_diagnostic.log_trainer_pipeline(
+                offers=[offer], research_rows=[research], out_path=str(Path(tmp) / "x.json")
+            )
+        entry = payload["entries"][0]
+        self.assertTrue(entry["getitem_denied_slots_exhausted"])
+        self.assertEqual(entry["failure_stage"], "detail_check_pending")
+
 if __name__ == "__main__":
     unittest.main()
