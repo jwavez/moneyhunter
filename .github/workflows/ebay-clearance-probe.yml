@@ -1,0 +1,44 @@
+name: ebay-clearance-probe
+# Task 14 Phase B — one-shot read-only Currys Browse probe (exactly 5 calls).
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Seed browse_usage from public state branch (read-only)
+        run: |
+          set -euo pipefail
+          echo '{"browse_usage":{}}' > /tmp/scan_state_seed.json
+          if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
+            git fetch origin state --depth 1
+            if git cat-file -e origin/state:scan_state.json 2>/dev/null; then
+              python3 - <<'PY'
+import json, subprocess
+from pathlib import Path
+raw = subprocess.check_output(["git","show","origin/state:scan_state.json"], text=True)
+data = json.loads(raw)
+seed = {"browse_usage": data.get("browse_usage") or {}}
+Path("/tmp/scan_state_seed.json").write_text(json.dumps(seed))
+print("seeded browse_usage calls=", seed["browse_usage"].get("calls"))
+PY
+            fi
+          fi
+      - name: Run clearance probe (exactly 5 Browse calls)
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          SCAN_STATE_PATH: /tmp/scan_state_seed.json
+          PROBE_OUT: ${{ github.workspace }}/ebay_clearance_probe.json
+        run: PYTHONPATH=. python scripts/ebay_clearance_probe.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ebay-clearance-probe
+          path: ebay_clearance_probe.json
+          retention-days: 7
