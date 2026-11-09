@@ -18,6 +18,43 @@ SUB_AVAIL='availability_unavailable'
 SUB_VARIATION='variation_mismatch'
 SUB_OTHER='other'
 
+# Tool voltage tokens may be "18", "18.0v", "18 volt", etc. Decimal-aware.
+_VOLTAGE_TOKEN=re.compile(r'(?<![\d.])(\d+(?:\.\d+)?)\s*-?\s*(?:volts?|v)\b',re.I)
+
+def normalise_voltage(value):
+    """Parse a voltage string to float volts, or None. Never raises."""
+    try:
+        if value is None:return None
+        text=str(value).strip().lower()
+        if not text:return None
+        # Strip trailing unit: volts/volt/-volts/-volt/v with optional whitespace.
+        text=re.sub(r'(?:\s*-?\s*volts?|\s*-?\s*v)\s*$','',text).strip()
+        if not text:return None
+        return float(text)
+    except (TypeError,ValueError):
+        return None
+
+def extract_voltages(text):
+    """Whole-token voltages from free text, including decimals like 18.0V / 21.6V."""
+    try:
+        if text is None:return []
+        raw=str(text)
+        found=[normalise_voltage(m.group(0)) for m in _VOLTAGE_TOKEN.finditer(raw)]
+        nums=[n for n in found if n is not None]
+        if nums:return nums
+        whole=normalise_voltage(raw)
+        return [whole] if whole is not None else []
+    except (TypeError,ValueError):
+        return []
+
+def voltage_matches_expected(observed,expected=18):
+    """True only when every parsed voltage equals expected. Empty/garbage -> False."""
+    try:
+        nums=extract_voltages(observed)
+        return bool(nums) and all(n==float(expected) for n in nums)
+    except (TypeError,ValueError):
+        return False
+
 def risky(ident):
     return ident.category in ('fragrance','trainers','tech','tools') or bool(re.search(r'\b(controller|headset|peripheral)\b',ident.match,re.I))
 
@@ -107,7 +144,7 @@ def assess(data,offer,ident,when):
             bad.append(_fail(sub_checks,SUB_VARIATION,'battery/charger inclusion contradicts bare tool',
                              expected='not included / no battery',observed=included))
         voltage=values('voltage')
-        if voltage and any(int(n)!=18 for n in re.findall(r'(\d+)\s*v',voltage,re.I)):
+        if voltage and not voltage_matches_expected(voltage,18):
             bad.append(_fail(sub_checks,SUB_VARIATION,'tool voltage mismatch',expected=18,observed=voltage))
         model=values('model','mpn','manufacturer part number') or str(data.get('mpn') or '')
         expected=v.get('model','')
