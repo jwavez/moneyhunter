@@ -231,6 +231,20 @@ class ToolsDetailDiagnostic(unittest.TestCase):
             self.assertEqual(entry["sub_checks"][0]["sub_check_failed"], "variation_mismatch")
             self.assertEqual(entry["sub_check_failed"], "variation_mismatch")
             self.assertIn("title", entry["getitem_fields_present"])
+            # Task 8 Part A: failed entries expose read-only comparator_candidates.
+            cands = entry["comparator_candidates"]
+            self.assertGreaterEqual(len(cands), 1)
+            self.assertLessEqual(len(cands), 3)
+            self.assertEqual(cands[0]["rank_by_price"], 1)
+            self.assertTrue(cands[0]["getitem_ran"])
+            self.assertIs(cands[0]["detail_would_pass"], False)
+            self.assertIsNotNone(cands[0]["detail_fail_reason"])
+            if len(cands) > 1:
+                self.assertFalse(cands[1]["getitem_ran"])
+                self.assertIsNone(cands[1]["detail_would_pass"])
+            self.assertIn("pr34_categorization_check", payload)
+            self.assertIn("near_publish_diagnostic", payload)
+            self.assertIn("dga452z", payload["near_publish_diagnostic"])
 
     def test_maps_legacy_cached_reasons_without_refetch(self):
         legacy = {
@@ -255,6 +269,170 @@ class ToolsDetailDiagnostic(unittest.TestCase):
         self.assertIn("getitem field inventory not retained", note)
         # Title may still come from the retained ask offer; shipping may come from that offer too.
         self.assertIsNotNone(payload["entries"][0]["comparator_title"])
+
+
+
+class Task8DiagnosticExtensions(unittest.TestCase):
+    def test_comparator_candidates_sorted_and_read_only(self):
+        diag = ToolsDetailDiagnostic()
+        offer, research = diag._row()
+        # Add a cheaper wrong-model candidate already "checked" vs a higher un-checked one.
+        ctx = research["ask_context"]
+        offers = [
+            {
+                "item_id": "v1|100|0",
+                "item_price": 50.0,
+                "shipping": 0.0,
+                "listed_total": 50.0,
+                "url": "https://www.ebay.co.uk/itm/100",
+                "title": "DeWalt DCF887N 18V Bare Tool",
+                "seller": "a",
+                "country": "GB",
+                "currency": "GBP",
+                "declared_condition": "new",
+            },
+            {
+                "item_id": "v1|200|0",
+                "item_price": 55.0,
+                "shipping": 0.0,
+                "listed_total": 55.0,
+                "url": "https://www.ebay.co.uk/itm/200",
+                "title": "DeWalt DCF887N 18V XR",
+                "seller": "b",
+                "country": "GB",
+                "currency": "GBP",
+                "declared_condition": "new",
+            },
+            {
+                "item_id": "v1|300|0",
+                "item_price": 70.0,
+                "shipping": 0.0,
+                "listed_total": 70.0,
+                "url": "https://www.ebay.co.uk/itm/300",
+                "title": "DeWalt DCF887N kit",
+                "seller": "c",
+                "country": "GB",
+                "currency": "GBP",
+                "declared_condition": "new",
+            },
+        ]
+        ctx["offers"] = offers
+        research["ask_context"] = ctx
+        offer["ask_context"] = ctx
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(details, "assess") as assess:
+                payload = tools_detail_diagnostic.log_tool_detail_failures(
+                    offers=[offer], research_rows=[research], out_path=str(Path(tmp) / "x.json")
+                )
+                assess.assert_not_called()
+        cands = payload["entries"][0]["comparator_candidates"]
+        self.assertEqual([c["rank_by_price"] for c in cands], [1, 2, 3])
+        self.assertEqual([c["price"] for c in cands], [50.0, 55.0, 70.0])
+        self.assertTrue(cands[0]["getitem_ran"])
+        self.assertFalse(cands[1]["getitem_ran"])
+        self.assertIsNone(cands[1]["observed_model_number"])
+
+    def test_pr34_check_and_near_publish_explanation(self):
+        details.reset_slot_log()
+        # Simulate post-PR34 tools slot log: 5 wanted + 2 inspect_skip for DTD/DUB.
+        for i, ident in enumerate(
+            [
+                "DeWalt DCF887N bare tool 18V",
+                "Makita DGA452Z bare tool 18V",
+                "DeWalt DCS565N bare tool 18V",
+                "Makita DHP484Z bare tool 18V",
+                "Makita DTD154Z bare tool 18V",
+            ]
+        ):
+            details.SLOT_EVENTS.append(
+                {
+                    "phase": "inspect",
+                    "category": "tools",
+                    "identity": ident,
+                    "getitem_requested": True,
+                    "getitem_granted": i < 2,
+                    "denial_reason": None if i < 2 else "slots_exhausted",
+                    "near_publish": ident.endswith("DGA452Z bare tool 18V") and False,
+                }
+            )
+        # Force near_publish false on DGA event
+        for e in details.SLOT_EVENTS:
+            if "DGA452Z" in (e.get("identity") or ""):
+                e["near_publish"] = False
+        for ident in ("Makita DTD152Z bare tool 18V", "Makita DUB185Z bare tool 18V"):
+            details.SLOT_EVENTS.append(
+                {
+                    "phase": "inspect_skip",
+                    "category": "tools",
+                    "identity": ident,
+                    "getitem_requested": False,
+                    "getitem_granted": False,
+                    "denial_reason": "not_risky_lowest",
+                    "note": "not risky or no comparator offers",
+                }
+            )
+        dga_offer = {
+            "title": "Makita DGA452Z 18V Angle Grinder Body Only",
+            "url": "https://hukd.example/dga",
+            "category": "tools",
+            "ask_context": {
+                "query": "Makita DGA452Z bare tool 18V",
+                "sample_count": 2,
+                "offers": [
+                    {
+                        "item_id": "v1|1|0",
+                        "listed_total": 80.0,
+                        "item_price": 80.0,
+                        "shipping": 0.0,
+                        "seller": "s1",
+                        "title": "Makita DGA452Z",
+                        "url": "https://www.ebay.co.uk/itm/1",
+                        "declared_condition": "new",
+                        "country": "GB",
+                        "currency": "GBP",
+                    },
+                    {
+                        "item_id": "v1|2|0",
+                        "listed_total": 85.0,
+                        "item_price": 85.0,
+                        "shipping": 0.0,
+                        "seller": "s2",
+                        "title": "Makita DGA452Z body",
+                        "url": "https://www.ebay.co.uk/itm/2",
+                        "declared_condition": "new",
+                        "country": "GB",
+                        "currency": "GBP",
+                    },
+                ],
+                "detail_status": "awaiting_detail_budget",
+            },
+            "ask_estimate": {
+                "model": "competitor-asks-v1",
+                "sample_count": 2,
+                "seller_count": 2,
+                "low_price_supporting_sellers": 2,
+                "estimated_resale": 77.59,
+                "detail_status": "awaiting_detail_budget",
+                "checks": ["Lowest comparator details unverified/conflicting: awaiting_detail_budget"],
+            },
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            payload = tools_detail_diagnostic.log_tool_detail_failures(
+                offers=[dga_offer],
+                research_rows=[dga_offer],
+                out_path=str(Path(tmp) / "x.json"),
+            )
+        check = payload["pr34_categorization_check"]
+        self.assertEqual(check["tools_wanted"], 5)
+        self.assertEqual(check["dtd152z_categorized_as"], "not_risky_lowest")
+        self.assertEqual(check["dub185z_categorized_as"], "not_risky_lowest")
+        self.assertTrue(check["passes"])
+        dga = payload["near_publish_diagnostic"]["dga452z"]
+        self.assertFalse(dga["near_publish_flag"])
+        self.assertTrue(dga["research_model_present"])
+        self.assertEqual(dga["comparator_depth"], 2)
+        self.assertIn("sample_count=2", dga["explanation"])
+
 
 
 if __name__ == "__main__":
