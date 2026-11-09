@@ -4,7 +4,7 @@ import json, os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
-from . import publication, images, market
+from . import publication, images, market, pricing_labels
 import re
 
 def _set_number(row):
@@ -102,8 +102,9 @@ def diagnose(raws, state, path=None):
         'paused_hosts': dict(paused),
         'MAX_FETCHES': images.MAX_FETCHES,
         'TTL_SECONDS': images.TTL_SECONDS,
-        'note': 'Live probe during diagnostic; prepare() runs before ask_estimate so priced LEGO may miss fetch budget.',
+        'note': 'Live probe during diagnostic. After Task 16 fix, prepare() re-runs post-ask_estimate preferring publication.allowed LEGO.',
         'items': rows,
+        'pricing_labels': pricing_labels.summarize(raws),
     }
     Path(path).write_text(json.dumps(payload, indent=2, default=str)+'\n')
     try:

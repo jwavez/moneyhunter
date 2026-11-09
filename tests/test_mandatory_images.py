@@ -69,3 +69,27 @@ class MandatoryPhotos(unittest.TestCase):
   for grade in ('A','B'):
    result=G.grade(d,200);result.grade=grade # routing-only synthetic grade, NOT evidence
    p=discord.build_payload(embeds.deal_card(d,result));self.assertEqual(p['embeds'][0]['image']['url'],URL)
+
+ def test_prefer_publication_allowed_beats_fetch_budget(self):
+  """Task 16: priced/allowed LEGO preferred when MAX_FETCHES would otherwise starve them."""
+  allowed={**RAW,'url':'https://www.ebay.co.uk/itm/111','thumb':URL+'?allowed','title':'LEGO Prefer Allowed 75401'}
+  filler=[{**RAW,'url':f'https://www.ebay.co.uk/itm/{200+i}','thumb':URL+f'?f={i}','title':f'LEGO Filler {75410+i}'} for i in range(3)]
+  state={}
+  with patch.object(images,'MAX_FETCHES',1),patch.object(images,'probe',return_value=(True,'http200_image')) as probe:
+   # First pass without prefer: only first in list verified
+   rows=[*filler,allowed]
+   images.prepare(rows,state,NOW)
+   self.assertEqual(allowed['image_status'],'pending_photo')
+   # Second pass preferring allowed URL: allowed wins the single fetch
+   state2={}
+   images.prepare(rows,state2,NOW,prefer=[allowed['url']])
+   self.assertEqual(allowed['image_status'],'verified')
+   self.assertEqual(probe.call_count,2)  # 1 first pass + 1 prefer pass
+ def test_garbage_body_still_rejected_after_task16(self):
+  """Task 16: MIME/signature gate unchanged — non-image body never verifies."""
+  r={**RAW,'thumb':URL+'?garbage'}
+  with patch.object(images,'probe',return_value=(False,'non_image_or_status')):
+   report=images.prepare([r],{},NOW)
+  self.assertEqual(r['image_status'],'pending_photo')
+  self.assertFalse(images.publishable(r,NOW))
+  self.assertEqual(report['pending'],1)

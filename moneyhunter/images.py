@@ -90,8 +90,12 @@ def metadata(row):
             '_mh_image_verified_until':row.get('image_verified_until'), '_mh_image_status':row.get('image_status'),
             '_mh_image_candidates':row.get('image_candidates',[])}
 
-def prepare(raws,state,when=None):
-    """Bounded real-image intake; missing photos remain pending and never acknowledge alerts."""
+def prepare(raws,state,when=None,prefer=None):
+    """Bounded real-image intake; missing photos remain pending and never acknowledge alerts.
+
+    prefer: optional iterable of offer URLs processed first (e.g. publication.allowed LEGO
+    after ask_estimate), so priced cards are not starved by the MAX_FETCHES budget.
+    """
     now=when or dt.datetime.now(dt.timezone.utc);clock=now.timestamp();cache=state.setdefault('product_images_v1',{})
     paused=state.setdefault('product_image_paused_hosts',{})
     report={'checked':0,'cached':0,'verified':0,'pending':0,'budget':MAX_FETCHES}
@@ -109,6 +113,9 @@ def prepare(raws,state,when=None):
         url=safe(url)
         return list(dict.fromkeys([url.replace('/re/150x150/','/re/300x300/'),url.replace('/re/300x300/','/re/150x150/')])) if url else []
     lego=[r for r in raws if r.get('category')=='lego']
+    if prefer:
+        prefer_set={u for u in prefer if u}
+        lego=sorted(lego, key=lambda r: (0 if r.get('url') in prefer_set else 1))
     for r in lego:
         choices=list(dict.fromkeys(variants(r.get('thumb'))+[u for old in r.get('image_candidates',[]) for u in variants(old)]))[:4];r['image_candidates']=choices
         r['thumb']=next((u for u in choices if checked(u)), '')
