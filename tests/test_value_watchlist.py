@@ -96,20 +96,27 @@ class ExactDetails(unittest.TestCase):
             if mutate=='condition':x['conditionId']='3000'
             self.assertNotEqual(details.assess(x,o,i,NOW)['status'],'verified_fields',mutate)
     def test_cached_detail_tied_to_identity_price_and_ttl(self):
-        i,s,o,d=self.fixture();state={'ask_cache':{}}
+        i,s,o,d=self.fixture();state={'ask_cache':{},'detail_demands_closed':False}
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'item_details',return_value=d) as api:
-            details.inspect_snapshot(s,i,state,NOW);details.inspect_snapshot(s,i,state,NOW+dt.timedelta(minutes=1));self.assertEqual(api.call_count,1)
+            details.inspect_snapshot(s,i,state,NOW);details.flush_slot_allocation(state,NOW)
+            details.inspect_snapshot(s,i,state,NOW+dt.timedelta(minutes=1));self.assertEqual(api.call_count,1)
             changed=copy.deepcopy(s);changed['offers'][0]['item_price']=19
-            details.inspect_snapshot(changed,i,state,NOW+dt.timedelta(minutes=2));self.assertEqual(api.call_count,2)
-            details.inspect_snapshot(s,i,state,NOW+dt.timedelta(minutes=31));self.assertEqual(api.call_count,3)
+            state['detail_demands_closed']=False
+            details.inspect_snapshot(changed,i,state,NOW+dt.timedelta(minutes=2));details.flush_slot_allocation(state,NOW+dt.timedelta(minutes=2));self.assertEqual(api.call_count,2)
+            state['detail_demands_closed']=False
+            # Expire TTL by using a later clock; clear cached observed_at path via new inspect after TTL
+            details.inspect_snapshot(s,i,state,NOW+dt.timedelta(minutes=31));details.flush_slot_allocation(state,NOW+dt.timedelta(minutes=31));self.assertEqual(api.call_count,3)
     def test_permission_failure_pauses_details_no_retry_no_fallback(self):
-        i,s,o,d=self.fixture();state={'ask_cache':{}}
+        i,s,o,d=self.fixture();state={'ask_cache':{},'detail_demands_closed':False}
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'item_details',side_effect=urllib.error.HTTPError('https://api.ebay.com',403,'forbidden',{},None)) as api:
-            details.inspect_snapshot(s,i,state,NOW);details.inspect_snapshot(s,i,state,NOW+dt.timedelta(hours=1));self.assertEqual(api.call_count,1)
+            details.inspect_snapshot(s,i,state,NOW);details.flush_slot_allocation(state,NOW)
+            state['detail_demands_closed']=False
+            details.inspect_snapshot(s,i,state,NOW+dt.timedelta(hours=1));details.flush_slot_allocation(state,NOW+dt.timedelta(hours=1));self.assertEqual(api.call_count,1)
             self.assertIn('browse_details_blocked',state)
     def test_four_detail_calls_bounded_and_pending_does_not_raise_low(self):
-        i,s,o,d=self.fixture();state={'ask_cache':{},'detail_run':{'calls':4,'cached':0,'errors':[]}}
+        i,s,o,d=self.fixture();state={'ask_cache':{},'detail_run':{'calls':4,'cached':0,'errors':[],'reserved_tools':2},'detail_demands_closed':False}
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'item_details') as api:
+            details.inspect_snapshot(s,i,state,NOW);details.flush_slot_allocation(state,NOW)
             result=details.inspect_snapshot(s,i,state,NOW);api.assert_not_called()
             self.assertEqual(result['offers'][0]['listed_total'],22);self.assertEqual(result['detail_status'],'awaiting_detail_budget')
     def test_low_detail_cannot_validate_a_different_independent_listing(self):
@@ -170,5 +177,6 @@ class DistinctQueries(unittest.TestCase):
         h=watchlist.build(state,NOW,inspect=False);self.assertEqual(h['products'],1);self.assertEqual(h['usable_targets'],1);self.assertEqual(h['identity_contexts'],2)
     def test_paused_provider_never_calls_detail_as_an_auth_fallback(self):
         i,s,o,d=ExactDetails().fixture()
+        state={'ask_cache':{'browse-blocked':{'status':403}},'detail_demands_closed':False}
         with patch.object(ebay,'available',return_value=True),patch.object(ebay,'item_details') as api:
-            details.inspect_snapshot(s,i,{'ask_cache':{'browse-blocked':{'status':403}}},NOW);api.assert_not_called()
+            details.inspect_snapshot(s,i,state,NOW);details.flush_slot_allocation(state,NOW);api.assert_not_called()

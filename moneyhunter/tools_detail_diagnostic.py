@@ -144,7 +144,7 @@ def _comparator_fields(ctx, detail):
 
 def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagnostic.json"):
     """
-    For each tool offer where publication reason is exact_item_details_unverified:
+    For each tool offer where publication reason is detail_check_pending or detail_check_failed:
     - record offer title and URL
     - record the exact identity string
     - record the comparator listing that was checked
@@ -162,7 +162,7 @@ def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagn
             row = _merged_row(offer, research)
             # Reuse existing publication classifier; do not invent a new gate.
             proof = publication.proof(row)
-            if proof.get("ok") is True or proof.get("reason") != "exact_item_details_unverified":
+            if proof.get("ok") is True or proof.get("reason") not in ("detail_check_pending", "detail_check_failed"):
                 continue
             ctx = row.get("ask_context") or (research or {}).get("ask_context") or {}
             detail = ctx.get("lowest_detail") or {}
@@ -180,6 +180,7 @@ def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagn
                     "offer_title": offer.get("title") or "",
                     "identity": _identity_string(offer),
                     "detail_status": detail.get("status") or row.get("ask_estimate", {}).get("detail_status"),
+                    "publication_reason": proof.get("reason"),
                     "comparator_url": comp["comparator_url"],
                     "comparator_title": comp["comparator_title"],
                     "comparator_condition": comp["comparator_condition"],

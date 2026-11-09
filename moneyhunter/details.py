@@ -9,8 +9,14 @@ LIMIT=4
 TTL_MINUTES=30
 
 # Read-only slot allocation log for diagnostics. Never drives decisions.
+
 SLOT_EVENTS=[]
 ENRICH_GROUPS=[]
+
+# Primary rotation order for Option B refined. Fragrance is Phase-3 leftover only.
+PRIMARY_ROTATION=('tools','trainers','tech')
+LEFTOVER_ROTATION=('fragrance','lego','gaming','other')
+TOOL_SLOTS_RESERVED_DEFAULT=2
 
 def reset_slot_log():
     SLOT_EVENTS.clear(); ENRICH_GROUPS.clear()
@@ -29,9 +35,6 @@ def record_enrich_group(lane, ident, offer_urls):
     except Exception:
         pass
 
-def _slot_limit(ident, run):
-    return LIMIT if getattr(ident, 'category', None) == 'tools' else LIMIT - run.get('reserved_tools', 0)
-
 def _budget_remaining(state, when):
     day = when.date().isoformat()
     usage = state.get('browse_usage') or {}
@@ -42,24 +45,286 @@ def _budget_remaining(state, when):
         return 0
     return max(0, research_budget.DAILY_LIMIT - count)
 
-def _explain_detail_denial(state, ident, run, when):
-    """Read-only classification of the else-branch. Does not reserve or mutate."""
-    if state.get('browse_details_blocked') or (state.get('ask_cache') or {}).get('browse-blocked'):
-        return 'other', 'browse details blocked'
-    if not ebay.available():
-        return 'other', 'ebay browse unavailable'
-    if run.get('calls', 0) >= _slot_limit(ident, run):
-        return 'slots_exhausted', None
-    if _budget_remaining(state, when) <= 0:
-        return 'budget_exhausted', None
-    return 'other', 'awaiting_detail_budget'
-
 def _record_slot_event(event):
     try:
         SLOT_EVENTS.append(event)
     except Exception:
         pass
 
+def _near_publish_pending(snapshot):
+    """True when a research model is already viable and only the detail check is missing."""
+    if not isinstance(snapshot, dict):
+        return False
+    if snapshot.get('ask_estimate'):
+        return True
+    # Enough independent asks to build competitor-asks-v1; detail not yet verified.
+    return (snapshot.get('sample_count') or 0) >= 3
+
+def _demand_key(ident, low):
+    return (getattr(ident, 'match', None) or '') + '::' + str((low or {}).get('item_id') or '')
+
+def _queue_demand(state, ident, low, snapshot, when, cache_key):
+    """Register a demanding identity for deferred rotation allocation. Dedup by identity."""
+    demands = state.setdefault('detail_demands', {})
+    identity = getattr(ident, 'match', None)
+    if not identity:
+        return
+    # Last register wins (for_acquisition runs after inspect and uses independent low).
+    demands[identity] = {
+        'ident': ident,
+        'low': low,
+        'snapshot': snapshot,
+        'when': when,
+        'cache_key': cache_key,
+        'category': getattr(ident, 'category', None) or 'other',
+        'near_publish': _near_publish_pending(snapshot),
+        'identity': identity,
+    }
+
+def plan_slot_grants(demands, limit=None, tool_floor=None, non_tool_floor=None):
+    """Pure Option B allocator. demands: iterable of dicts with category/identity/near_publish.
+    Returns ordered list of demand dicts to grant (length <= limit).
+
+    Floors (tool_slots_reserved / non_tool_slot_cap) are minimums within the 4-slot cap:
+    tools get up to tool_floor first, then trainers+tech share up to non_tool_floor via
+    round-robin, then remaining slots continue tools→trainers→tech round-robin (so either
+    floor can be exceeded). Leftover slots go to fragrance (then lego/gaming/other) in
+    existing order — never primary rotation.
+    """
+    from collections import deque
+    limit = LIMIT if limit is None else limit
+    tool_floor = TOOL_SLOTS_RESERVED_DEFAULT if tool_floor is None else tool_floor
+    non_tool_floor = (LIMIT - TOOL_SLOTS_RESERVED_DEFAULT) if non_tool_floor is None else non_tool_floor
+
+    by_cat = {}
+    for d in demands or []:
+        cat = d.get('category') or 'other'
+        by_cat.setdefault(cat, []).append(d)
+
+    queues = {}
+    for cat, rows in by_cat.items():
+        # Phase 1 near-publish priority within each primary category; else existing order.
+        if cat in PRIMARY_ROTATION:
+            pending = [r for r in rows if r.get('near_publish')]
+            rest = [r for r in rows if not r.get('near_publish')]
+            queues[cat] = deque(pending + rest)
+        else:
+            queues[cat] = deque(rows)
+
+    allocated = []
+    remaining = limit
+
+    def take(cat):
+        nonlocal remaining
+        if remaining <= 0 or not queues.get(cat):
+            return False
+        allocated.append(queues[cat].popleft())
+        remaining -= 1
+        return True
+
+    # Floor: tools minimum.
+    for _ in range(tool_floor):
+        if not take('tools'):
+            break
+
+    # Floor: non-tool primary minimum (trainers/tech round-robin).
+    non_tool_granted = 0
+    while remaining > 0 and non_tool_granted < non_tool_floor:
+        progressed = False
+        for cat in ('trainers', 'tech'):
+            if non_tool_granted >= non_tool_floor or remaining <= 0:
+                break
+            if take(cat):
+                non_tool_granted += 1
+                progressed = True
+        if not progressed:
+            break
+
+    # Phase 2: round-robin tools → trainers → tech until full or exhausted.
+    while remaining > 0:
+        progressed = False
+        for cat in PRIMARY_ROTATION:
+            if remaining <= 0:
+                break
+            if take(cat):
+                progressed = True
+        if not progressed:
+            break
+
+    # Phase 3: leftover categories (fragrance first; lego/gaming/other if they ever demand).
+    leftover = [c for c in LEFTOVER_ROTATION if c in queues] + sorted(
+        c for c in queues if c not in PRIMARY_ROTATION and c not in LEFTOVER_ROTATION
+    )
+    for cat in leftover:
+        while remaining > 0 and take(cat):
+            pass
+
+    return allocated
+
+def _execute_getitem(state, ident, low, when, cache_key, run, slot_index):
+    """Perform one reserved getItem; write item_detail_cache; return cached row + event fields."""
+    cache = state.setdefault('item_detail_cache', {})
+    event_note = None
+    try:
+        cached = assess(ebay.item_details(low['item_id']), low, ident, when)
+        cache[cache_key] = cached
+    except Exception as exc:
+        code = getattr(exc, 'code', None)
+        cached = {
+            'status': 'error',
+            'item_id': low['item_id'],
+            'observed_at': when.isoformat(timespec='seconds'),
+            'reasons': [type(exc).__name__ + (f' HTTP {code}' if code else '')],
+            'sub_checks': [{
+                'sub_check_failed': SUB_OTHER,
+                'expected': None,
+                'observed': None,
+                'reason': type(exc).__name__ + (f' HTTP {code}' if code else ''),
+                'note': 'getItem error; no extra retry',
+            }],
+        }
+        cache[cache_key] = cached
+        run['errors'].append(cached['reasons'][0])
+        event_note = f'getItem error {type(exc).__name__}' + (f' HTTP {code}' if code else '')
+        if code in (401, 403, 429):
+            state['browse_details_blocked'] = {'status': code, 'observed_at': when.isoformat()}
+    return cached, event_note
+
+def flush_slot_allocation(state, when):
+    """Grant deferred detail demands via Option B rotation. Safe to call with empty queue."""
+    demands = state.pop('detail_demands', None) or {}
+    if not demands:
+        state['detail_demands_closed'] = True
+        return []
+    run = state.setdefault('detail_run', {'calls': 0, 'cached': 0, 'errors': [], 'reserved_tools': TOOL_SLOTS_RESERVED_DEFAULT})
+    tool_floor = run.get('reserved_tools', TOOL_SLOTS_RESERVED_DEFAULT)
+    non_tool_floor = max(0, LIMIT - (tool_floor or 0))
+    # Already-consumed calls this scan reduce remaining capacity.
+    already = run.get('calls', 0) if isinstance(run.get('calls'), int) else 0
+    capacity = max(0, LIMIT - already)
+
+    # Filter: still demanding (exact identity, risky, not fresh-cache — already filtered at queue).
+    candidates = list(demands.values())
+    # Drop any that became fresh cache since queue (race with parallel path).
+    live = []
+    cache = state.setdefault('item_detail_cache', {})
+    for d in candidates:
+        key = d['cache_key']
+        cached = cache.get(key)
+        fresh = False
+        try:
+            fresh = 0 <= (when - dt.datetime.fromisoformat(cached['observed_at'])).total_seconds() < TTL_MINUTES * 60
+        except (TypeError, KeyError, ValueError):
+            fresh = False
+        low = d['low']
+        if fresh and cached.get('checked_item_price') not in (None, low['item_price']):
+            fresh = False
+        if fresh:
+            run['cached'] = run.get('cached', 0) + 1
+            _record_slot_event({
+                'phase': 'inspect', 'category': d['category'], 'identity': d['identity'],
+                'comparator_item_id': low.get('item_id'), 'comparator_url': low.get('url'),
+                'cache_key': key, 'tool_slots_reserved': tool_floor,
+                'calls_before': run.get('calls', 0), 'slot_limit': LIMIT,
+                'getitem_requested': True, 'getitem_granted': False, 'slot_index': None,
+                'denial_reason': 'cache_hit', 'note': 'fresh cached detail reused',
+                'near_publish': d.get('near_publish'),
+            })
+            _apply_cached_to_snapshot(state, d, cached, low)
+            continue
+        live.append(d)
+
+    grants = plan_slot_grants(live, limit=capacity, tool_floor=min(tool_floor, capacity), non_tool_floor=min(non_tool_floor, capacity))
+    granted_ids = {g['identity'] for g in grants}
+
+    results = []
+    for d in grants:
+        if state.get('browse_details_blocked') or (state.get('ask_cache') or {}).get('browse-blocked'):
+            break
+        if not ebay.available():
+            break
+        if _budget_remaining(state, when) <= 0:
+            break
+        if not research_budget.reserve(state, when, 'item-details'):
+            break
+        slot_index = run['calls']
+        run['calls'] += 1
+        cached, note = _execute_getitem(state, d['ident'], d['low'], when, d['cache_key'], run, slot_index)
+        _record_slot_event({
+            'phase': 'inspect', 'category': d['category'], 'identity': d['identity'],
+            'comparator_item_id': d['low'].get('item_id'), 'comparator_url': d['low'].get('url'),
+            'cache_key': d['cache_key'], 'tool_slots_reserved': tool_floor,
+            'calls_before': slot_index, 'slot_limit': LIMIT,
+            'getitem_requested': True, 'getitem_granted': True, 'slot_index': slot_index,
+            'denial_reason': None, 'note': note, 'near_publish': d.get('near_publish'),
+        })
+        _apply_cached_to_snapshot(state, d, cached, d['low'])
+        results.append(d)
+
+    # Deny remaining live demands (slots/budget/blocked).
+    for d in live:
+        if d['identity'] in granted_ids:
+            continue
+        if state.get('browse_details_blocked') or (state.get('ask_cache') or {}).get('browse-blocked'):
+            denial, note = 'other', 'browse details blocked'
+        elif not ebay.available():
+            denial, note = 'other', 'ebay browse unavailable'
+        elif run.get('calls', 0) >= LIMIT or d['identity'] not in granted_ids and capacity <= len(grants):
+            denial, note = 'slots_exhausted', None
+        elif _budget_remaining(state, when) <= 0:
+            denial, note = 'budget_exhausted', None
+        else:
+            denial, note = 'slots_exhausted', None
+        cached = {
+            'status': 'awaiting_detail_budget',
+            'reasons': ['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices'],
+            'sub_checks': [{
+                'sub_check_failed': SUB_OTHER,
+                'expected': 'verified_fields within detail budget',
+                'observed': 'awaiting_detail_budget',
+                'reason': 'Bounded getItem verification pending; cheap ask retained, not replaced by higher prices',
+                'note': 'no getItem this pass; not a parser failure',
+            }],
+        }
+        # Do not poison item_detail_cache with awaiting — pending is ephemeral.
+        _record_slot_event({
+            'phase': 'inspect', 'category': d['category'], 'identity': d['identity'],
+            'comparator_item_id': d['low'].get('item_id'), 'comparator_url': d['low'].get('url'),
+            'cache_key': d['cache_key'], 'tool_slots_reserved': tool_floor,
+            'calls_before': run.get('calls', 0), 'slot_limit': LIMIT,
+            'getitem_requested': True, 'getitem_granted': False, 'slot_index': None,
+            'denial_reason': denial, 'note': note, 'near_publish': d.get('near_publish'),
+        })
+        _apply_cached_to_snapshot(state, d, cached, d['low'])
+
+    # Trim detail cache.
+    cache = state.get('item_detail_cache') or {}
+    state['item_detail_cache'] = dict(sorted(cache.items(), key=lambda x: x[1].get('observed_at', ''), reverse=True)[:400])
+    state['detail_demands_closed'] = True
+    return results
+
+def _apply_cached_to_snapshot(state, demand, cached, low):
+    """Patch ask_cache snapshot for this identity with detail outcome."""
+    if cached.get('status') == 'verified_fields' and cached.get('checked_item_price') not in (None, low['item_price']):
+        cached = {**cached, 'status': 'price_changed'}
+    ask_cache = state.get('ask_cache') or {}
+    identity = demand.get('identity')
+    for key, snap in list(ask_cache.items()):
+        if not isinstance(snap, dict):
+            continue
+        if snap.get('query') == identity or key == getattr(demand.get('ident'), 'match', None):
+            ask_cache[key] = {
+                **snap,
+                'detail_required': True,
+                'lowest_detail': cached,
+                'detail_status': cached.get('status'),
+            }
+    # Also stamp the demand snapshot object if still referenced.
+    snap = demand.get('snapshot')
+    if isinstance(snap, dict):
+        snap['detail_required'] = True
+        snap['lowest_detail'] = cached
+        snap['detail_status'] = cached.get('status')
 
 # Guide section 5 names. Additive side channel only — never drives status/reasons.
 SUB_TITLE_MODEL='title_model_number_missing'
@@ -261,6 +526,11 @@ def map_reason_to_sub_check(reason):
     return SUB_OTHER
 
 def inspect_snapshot(snapshot,ident,state,when):
+    """Queue risky exact identities for deferred slot allocation (Option B).
+
+    Cache hits remain free and are applied immediately. Actual getItem grants
+    happen in flush_slot_allocation after enrich finishes collecting demand.
+    """
     if not risky(ident) or not snapshot.get('offers'):
         _record_slot_event({'phase':'inspect_skip','category':getattr(ident,'category',None),'identity':getattr(ident,'match',None),
             'getitem_requested':False,'getitem_granted':False,'slot_index':None,
@@ -273,38 +543,32 @@ def inspect_snapshot(snapshot,ident,state,when):
     cached=cache.get(key)
     try:fresh=0<=(when-dt.datetime.fromisoformat(cached['observed_at'])).total_seconds()<TTL_MINUTES*60
     except (TypeError,KeyError,ValueError):fresh=False
-    run=state.setdefault('detail_run',{'calls':0,'cached':0,'errors':[]})
+    run=state.setdefault('detail_run',{'calls':0,'cached':0,'errors':[],'reserved_tools':TOOL_SLOTS_RESERVED_DEFAULT})
+    if 'reserved_tools' not in run:run['reserved_tools']=TOOL_SLOTS_RESERVED_DEFAULT
     if fresh and cached.get('checked_item_price') not in (None,low['item_price']):fresh=False
     event={'phase':'inspect','category':ident.category,'identity':ident.match,'comparator_item_id':low.get('item_id'),
            'comparator_url':low.get('url'),'cache_key':key,'tool_slots_reserved':run.get('reserved_tools'),
-           'calls_before':run.get('calls',0),'slot_limit':_slot_limit(ident,run)}
+           'calls_before':run.get('calls',0),'slot_limit':LIMIT,'near_publish':_near_publish_pending(snapshot)}
     if fresh:
-        run['cached']+=1
+        run['cached']=run.get('cached',0)+1
         event.update(getitem_requested=True,getitem_granted=False,slot_index=None,denial_reason='cache_hit',note='fresh cached detail reused')
         _record_slot_event(event)
-    elif not state.get('browse_details_blocked') and not state.get('ask_cache',{}).get('browse-blocked') and ebay.available() and run['calls']<(LIMIT if ident.category=='tools' else LIMIT-run.get('reserved_tools',0)) and research_budget.reserve(state,when,'item-details'):
-        slot_index=run['calls']
-        run['calls']+=1
-        event.update(getitem_requested=True,getitem_granted=True,slot_index=slot_index,denial_reason=None,note=None)
-        try:
-            cached=assess(ebay.item_details(low['item_id']),low,ident,when);cache[key]=cached
-        except Exception as exc:
-            code=getattr(exc,'code',None)
-            cached={'status':'error','item_id':low['item_id'],'observed_at':when.isoformat(timespec='seconds'),'reasons':[type(exc).__name__+(f' HTTP {code}' if code else '')],
-                    'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':None,'observed':None,'reason':type(exc).__name__+(f' HTTP {code}' if code else ''),'note':'getItem error; no extra retry'}]}
-            cache[key]=cached;run['errors'].append(cached['reasons'][0])
-            event['note']=f'getItem error {type(exc).__name__}'+(f' HTTP {code}' if code else '')
-            if code in (401,403,429):state['browse_details_blocked']={'status':code,'observed_at':when.isoformat()}
-        _record_slot_event(event)
-    else:
-        denial,note=_explain_detail_denial(state,ident,run,when)
+        if cached.get('status')=='verified_fields' and cached.get('checked_item_price') not in (None,low['item_price']):
+            cached={**cached,'status':'price_changed'}
+        cache=dict(sorted(cache.items(),key=lambda x:x[1].get('observed_at',''),reverse=True)[:400]);state['item_detail_cache']=cache
+        return {**snapshot,'detail_required':True,'lowest_detail':cached,'detail_status':cached['status']}
+
+    # Post-flush: do not reopen the demand window; return pending without re-queue.
+    if state.get('detail_demands_closed'):
         cached={'status':'awaiting_detail_budget','reasons':['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices'],
-                 'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':'verified_fields within detail budget','observed':'awaiting_detail_budget','reason':'Bounded getItem verification pending; cheap ask retained, not replaced by higher prices','note':'no getItem this pass; not a parser failure'}]}
-        event.update(getitem_requested=True,getitem_granted=False,slot_index=None,denial_reason=denial,note=note)
-        _record_slot_event(event)
-    # A cached check is tied to its actual price and identity; re-assess when prices change.
-    if cached.get('status')=='verified_fields' and cached.get('checked_item_price') not in (None,low['item_price']):cached={**cached,'status':'price_changed'}
-    cache=dict(sorted(cache.items(),key=lambda x:x[1].get('observed_at',''),reverse=True)[:400]);state['item_detail_cache']=cache
+                 'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':'verified_fields within detail budget','observed':'awaiting_detail_budget','reason':'Bounded getItem verification pending; cheap ask retained, not replaced by higher prices','note':'detail allocation window closed this scan'}]}
+        return {**snapshot,'detail_required':True,'lowest_detail':cached,'detail_status':cached['status']}
+
+    # Defer grant to flush_slot_allocation (category rotation). Record demand only.
+    _queue_demand(state, ident, low, snapshot, when, key)
+    cached={'status':'awaiting_detail_budget','reasons':['Bounded getItem verification pending; cheap ask retained, not replaced by higher prices'],
+             'sub_checks':[{'sub_check_failed':SUB_OTHER,'expected':'verified_fields within detail budget','observed':'awaiting_detail_budget','reason':'Bounded getItem verification pending; cheap ask retained, not replaced by higher prices','note':'queued for category rotation; not a parser failure'}]}
+    # Event for the grant/deny is recorded at flush time; do not double-count here.
     return {**snapshot,'detail_required':True,'lowest_detail':cached,'detail_status':cached['status']}
 
 

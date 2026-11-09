@@ -129,6 +129,8 @@ def run_scan():
     operational = RT.load(OPERATIONAL)
     from . import watchlist
     operational['detail_run']={'calls':0,'cached':0,'errors':[],'reserved_tools':2}
+    operational.pop('detail_demands', None)
+    operational['detail_demands_closed']=False
     from . import details as _details_slot
     _details_slot.reset_slot_log()
     when=RT.now()
@@ -210,11 +212,21 @@ def run_scan():
     ask_health['above_budget_research'] = watch_health
     ask_health['errors'] += watch_health['errors']
     errors.extend(ask_health["errors"])
+    # Option B: grant deferred getItem slots after all enrich lanes collected demand.
+    from . import details as _details
+    _details.flush_slot_allocation(operational, when)
     from . import asking
     raw_by_url = {raw["url"]: raw for raw in raws}
     for entry in review:
         raw_by_url[entry["url"]]["ask_status"]=entry.get("ask_status","not queried")
         if entry.get("ask_context"):
+            # Re-bind detail outcome after flush (cache hit or denied awaiting).
+            ident = market.identity(raw_by_url[entry["url"]])
+            if ident:
+                entry["ask_context"] = {
+                    **_details.for_acquisition(entry["ask_context"], raw_by_url[entry["url"]], ident, operational, when),
+                    **{k: entry["ask_context"][k] for k in ("query_aliases",) if k in entry["ask_context"]},
+                }
             model = asking.estimate(raw_by_url[entry["url"]], entry["ask_context"])
             if model:
                 entry["ask_estimate"] = model

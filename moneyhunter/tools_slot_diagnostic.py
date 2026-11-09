@@ -44,7 +44,13 @@ def _classify_identity_events(evs):
 
 
 def _per_category_slot_summary(events):
-    """Distinct identities per category; requested == granted + denied_*."""
+    """Distinct identities per category.
+
+    considered = all identities (includes inspect_skip / not_risky).
+    wanted = identities that actually wanted a lookup (excludes not_risky_lowest).
+    wanted == granted + denied_slots_exhausted + denied_cache_hit + denied_other
+    denied_not_risky_lowest is tracked separately and is not part of wanted.
+    """
     by_cat = {}
     for ev in events or []:
         cat = ev.get("category") or "unknown"
@@ -54,31 +60,42 @@ def _per_category_slot_summary(events):
     for cat in sorted(by_cat):
         row = {
             "category": cat,
-            "requested": 0,
+            "considered": 0,
+            "wanted": 0,
             "granted": 0,
             "denied_slots_exhausted": 0,
             "denied_cache_hit": 0,
-            "denied_not_risky": 0,
+            "denied_not_risky_lowest": 0,
             "denied_other": 0,
             "denied_other_notes": [],
         }
         for ident, evs in by_cat[cat].items():
             bucket, note = _classify_identity_events(evs)
-            row["requested"] += 1
-            row[bucket] += 1
-            if bucket == "denied_other" and note:
-                row["denied_other_notes"].append({"identity": ident, "note": note})
-        # Enforce sum; keep notes out of the equality check.
+            row["considered"] += 1
+            if bucket == "denied_not_risky":
+                row["denied_not_risky_lowest"] += 1
+                continue
+            row["wanted"] += 1
+            # Map classifier bucket names onto output fields.
+            if bucket == "granted":
+                row["granted"] += 1
+            elif bucket == "denied_slots_exhausted":
+                row["denied_slots_exhausted"] += 1
+            elif bucket == "denied_cache_hit":
+                row["denied_cache_hit"] += 1
+            else:
+                row["denied_other"] += 1
+                if note:
+                    row["denied_other_notes"].append({"identity": ident, "note": note})
         denied_sum = (
             row["denied_slots_exhausted"]
             + row["denied_cache_hit"]
-            + row["denied_not_risky"]
             + row["denied_other"]
         )
-        if row["requested"] != row["granted"] + denied_sum:
-            row["denied_other"] += row["requested"] - row["granted"] - denied_sum
+        if row["wanted"] != row["granted"] + denied_sum:
+            row["denied_other"] += row["wanted"] - row["granted"] - denied_sum
             row["denied_other_notes"].append(
-                {"identity": None, "note": "adjusted to satisfy requested == granted + denied_*"}
+                {"identity": None, "note": "adjusted to satisfy wanted == granted + denied_*"}
             )
         if not row["denied_other_notes"]:
             row.pop("denied_other_notes")
@@ -95,7 +112,8 @@ def _dga452z_publication_status(offers, research_rows, events):
         "slot_index_this_scan": None,
         "publication_qualified": None,
         "publication_blocker": None,
-        "supported_estimate_value": None,
+        "research_model_value": None,
+        "publication_estimate_value": None,
         "conclusion": None,
     }
     matches = []
@@ -171,6 +189,8 @@ def _dga452z_publication_status(offers, research_rows, events):
         if short:
             conclusion = short + ((" — " + str(conclusion)[:180]) if short not in str(conclusion) else "")
 
+    research_model_value = estimate
+    publication_estimate_value = estimate if qualified else None
     return {
         "in_this_scan": True,
         "identity": ident,
@@ -178,7 +198,8 @@ def _dga452z_publication_status(offers, research_rows, events):
         "slot_index_this_scan": slot_index,
         "publication_qualified": qualified,
         "publication_blocker": blocker,
-        "supported_estimate_value": estimate,
+        "research_model_value": research_model_value,
+        "publication_estimate_value": publication_estimate_value,
         "conclusion": conclusion,
     }
 
@@ -345,9 +366,12 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
                 "total_getitem_used": total_used,
                 "detail_limit_per_scan": details.LIMIT,
                 "non_tool_slot_cap": details.LIMIT - (reserved or 0),
+                "total_wanted": sum(r.get("wanted", 0) for r in per_category),
+                "total_granted": sum(r.get("granted", 0) for r in per_category),
                 "notes": [
-                    "tool_slots_reserved is a minimum, not a maximum",
-                    "non_tool_slot_cap is a maximum, but may be underused if non-tool requests queue after tools",
+                    "tool_slots_reserved is a minimum floor within the 4-slot cap, not a maximum; rotation may grant tools more than 2",
+                    "non_tool_slot_cap is a minimum floor for trainers+tech combined within the 4-slot cap, not a hard maximum",
+                    "primary rotation is tools→trainers→tech; fragrance (and lego/gaming/other) only receive leftover Phase-3 slots",
                 ],
             },
             "error": None,
@@ -365,7 +389,8 @@ def log_tool_slot_allocation(offers, research_rows, out_path="tools_slot_diagnos
                 "slot_index_this_scan": None,
                 "publication_qualified": None,
                 "publication_blocker": None,
-                "supported_estimate_value": None,
+                "research_model_value": None,
+                "publication_estimate_value": None,
                 "conclusion": None,
             },
             "slot_summary": {},

@@ -72,6 +72,11 @@ def build(state,when,inspect=True):
     for key,(i,s) in ordered:
         if inspect:
             s=details.inspect_snapshot(s,i,state,when);state['ask_cache'][key]=s
+    if inspect:
+        details.flush_slot_allocation(state,when)
+    for key,(i,s) in ordered:
+        if inspect:
+            s=state['ask_cache'].get(key,s)
         sellers={}
         for o in s['offers']:
             seller=str(o.get('seller') or '').casefold()
