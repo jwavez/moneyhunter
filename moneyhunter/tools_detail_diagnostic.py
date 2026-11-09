@@ -142,7 +142,322 @@ def _comparator_fields(ctx, detail):
     }
 
 
-def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagnostic.json"):
+def _delivered_price(offer):
+    total = offer.get("listed_total")
+    if isinstance(total, (int, float)) and not isinstance(total, bool):
+        return float(total)
+    price = offer.get("item_price")
+    ship = offer.get("shipping")
+    if isinstance(price, (int, float)) and not isinstance(price, bool):
+        s = float(ship) if isinstance(ship, (int, float)) and not isinstance(ship, bool) else 0.0
+        return float(price) + s
+    return None
+
+
+def _observed_model_number(detail):
+    """Model/MPN already retained on a getItem assess row. Never fetches."""
+    if not isinstance(detail, dict):
+        return None
+    for aspect in detail.get("aspects") or []:
+        if not isinstance(aspect, dict):
+            continue
+        name = str(aspect.get("name") or "").strip().lower()
+        if name in ("model", "mpn", "manufacturer part number"):
+            val = aspect.get("value")
+            if val is not None and str(val).strip():
+                return str(val)
+    mpn = detail.get("mpn")
+    if mpn is not None and str(mpn).strip():
+        return str(mpn)
+    return None
+
+
+def _detail_fail_reason(detail):
+    failures = _failures_from_detail(detail or {})
+    if failures:
+        return failures[0].get("sub_check_failed") or failures[0].get("note")
+    status = (detail or {}).get("status")
+    return status if status and status != "verified_fields" else None
+
+
+def _cached_detail_for_candidate(state, identity, item_id):
+    """Read-only lookup of an already-fetched getItem row. Never calls Browse."""
+    if not item_id or not identity:
+        return None
+    cache = (state or {}).get("item_detail_cache") or {}
+    key = str(item_id) + "::" + str(identity)
+    cached = cache.get(key)
+    if isinstance(cached, dict):
+        return cached
+    # Fall back: any cache key ending with this identity whose item_id matches.
+    for k, row in cache.items():
+        if not isinstance(row, dict):
+            continue
+        if row.get("item_id") == item_id and str(k).endswith("::" + str(identity)):
+            return row
+    return None
+
+
+def _seller_deduped_offers(offers):
+    """Cheapest listing per seller (unknown sellers kept). Matches asking.estimate spirit."""
+    sellers, unknown, seen = {}, [], set()
+    for offer in offers or []:
+        if not isinstance(offer, dict):
+            continue
+        if _delivered_price(offer) is None:
+            continue
+        item_id = offer.get("item_id")
+        key = item_id or offer.get("url")
+        if key in seen:
+            continue
+        seen.add(key)
+        seller = str(offer.get("seller") or "").casefold()
+        if seller:
+            prev = sellers.get(seller)
+            if prev is None or _delivered_price(offer) < _delivered_price(prev):
+                sellers[seller] = offer
+        else:
+            unknown.append(offer)
+    return sorted([*sellers.values(), *unknown], key=lambda o: (_delivered_price(o), str(o.get("item_id") or "")))
+
+
+def build_comparator_candidates(ctx, detail, identity, state=None, max_candidates=3):
+    """Read-only candidate list for a detail_check_failed entry. No extra getItem."""
+    offers = _seller_deduped_offers(ctx.get("offers") or [])
+    # Guide: at most three cheapest distinct-seller offers; never invent beyond retained.
+    offers = offers[: max(0, int(max_candidates))]
+    checked_id = (detail or {}).get("item_id")
+    out = []
+    for rank, offer in enumerate(offers, start=1):
+        item_id = offer.get("item_id")
+        price = offer.get("item_price")
+        shipping = offer.get("shipping")
+        delivered = _delivered_price(offer)
+        # Prefer explicit item/shipping fields; fall back to delivered split only for display.
+        if not isinstance(price, (int, float)) or isinstance(price, bool):
+            price = delivered
+            shipping = 0.0 if shipping is None else shipping
+        ran = False
+        would_pass = None
+        fail_reason = None
+        observed_model = None
+        matched_detail = None
+        if checked_id and item_id == checked_id and isinstance(detail, dict) and detail.get("status") not in (
+            None,
+            "awaiting_detail_budget",
+        ):
+            ran = True
+            matched_detail = detail
+        else:
+            cached = _cached_detail_for_candidate(state, identity, item_id)
+            if isinstance(cached, dict) and cached.get("status") not in (None, "awaiting_detail_budget"):
+                ran = True
+                matched_detail = cached
+        if ran and matched_detail is not None:
+            would_pass = matched_detail.get("status") == "verified_fields"
+            fail_reason = None if would_pass else _detail_fail_reason(matched_detail)
+            observed_model = _observed_model_number(matched_detail)
+        out.append(
+            {
+                "rank_by_price": rank,
+                "price": price,
+                "shipping": shipping if isinstance(shipping, (int, float)) and not isinstance(shipping, bool) else 0.0,
+                "title": offer.get("title"),
+                "item_id": item_id,
+                "url": offer.get("url"),
+                "getitem_ran": ran,
+                "detail_would_pass": would_pass,
+                "detail_fail_reason": fail_reason,
+                "observed_model_number": observed_model,
+            }
+        )
+    return out
+
+
+def _categorize_identity(identity, events):
+    """Map an identity to not_risky_lowest | other | wanted using slot events."""
+    from . import tools_slot_diagnostic as slot_diag
+
+    evs = [e for e in (events or []) if e.get("identity") == identity]
+    if not evs:
+        return "other"
+    bucket, _note = slot_diag._classify_identity_events(evs)
+    if bucket == "denied_not_risky":
+        return "not_risky_lowest"
+    if bucket == "granted":
+        return "wanted"
+    if bucket in ("denied_slots_exhausted", "denied_cache_hit", "denied_other"):
+        # wanted path (actually demanded a lookup) vs pure skip already handled.
+        if bucket == "denied_other" and all(e.get("phase") == "inspect_skip" for e in evs):
+            return "not_risky_lowest"
+        return "wanted"
+    return "other"
+
+
+def build_pr34_categorization_check(events=None):
+    """Confirm PR 34 moved DTD152Z/DUB185Z off denied_other into not_risky_lowest."""
+    from . import tools_slot_diagnostic as slot_diag
+
+    events = list(events if events is not None else details.SLOT_EVENTS)
+    per = slot_diag._per_category_slot_summary(events)
+    tools = next((r for r in per if r.get("category") == "tools"), None) or {
+        "wanted": 0,
+        "considered": 0,
+    }
+    dtd = "Makita DTD152Z bare tool 18V"
+    dub = "Makita DUB185Z bare tool 18V"
+    dtd_as = _categorize_identity(dtd, events)
+    dub_as = _categorize_identity(dub, events)
+    expected_wanted = 5
+    passes = (
+        tools.get("wanted") == expected_wanted
+        and dtd_as == "not_risky_lowest"
+        and dub_as == "not_risky_lowest"
+    )
+    out = {
+        "tools_wanted": tools.get("wanted"),
+        "tools_considered": tools.get("considered"),
+        "expected_tools_wanted_after_pr34": expected_wanted,
+        "dtd152z_categorized_as": dtd_as,
+        "dub185z_categorized_as": dub_as,
+        "passes": bool(passes),
+    }
+    if not passes:
+        out["actual_log"] = {
+            "tools_wanted": tools.get("wanted"),
+            "tools_considered": tools.get("considered"),
+            "dtd152z_categorized_as": dtd_as,
+            "dub185z_categorized_as": dub_as,
+            "note": "PR 34 expectation failed; logged actual values",
+        }
+    return out
+
+
+def _seller_counts(offers):
+    sellers = {}
+    for o in offers or []:
+        if not isinstance(o, dict):
+            continue
+        seller = str(o.get("seller") or "").casefold()
+        total = _delivered_price(o)
+        if total is None:
+            continue
+        if seller:
+            if seller not in sellers or total < sellers[seller]:
+                sellers[seller] = total
+    if not sellers:
+        return 0, 0, None
+    low = min(sellers.values())
+    supporting = sum(1 for t in sellers.values() if t <= low * 1.1)
+    return len(sellers), supporting, low
+
+
+def build_near_publish_diagnostic_dga452z(offers, research_rows, events=None):
+    """Explain existing near_publish flag for DGA452Z. Does not recompute allocation."""
+    events = list(events if events is not None else details.SLOT_EVENTS)
+    identity = "Makita DGA452Z bare tool 18V"
+    # Prefer slot-event flag recorded at allocation time.
+    dga_events = [e for e in events if e.get("identity") == identity]
+    flag_from_event = None
+    for e in dga_events:
+        if "near_publish" in e:
+            flag_from_event = bool(e.get("near_publish"))
+            break
+
+    # Locate research/offer row for this identity.
+    match_offer = None
+    match_research = None
+    for offer in offers or []:
+        ident = _identity_string(offer)
+        title = (offer.get("title") or "").upper()
+        if "DGA452Z" in title or "DGA452Z" in (ident or "").upper():
+            match_offer = offer
+            match_research = _lookup(research_rows, offer.get("url"))
+            break
+    row = _merged_row(match_offer or {}, match_research)
+    ctx = row.get("ask_context") or {}
+    estimate = row.get("ask_estimate") or {}
+    # Snapshot as allocation would have seen it (ask_estimate not yet stamped on snapshot).
+    snapshot_for_flag = dict(ctx) if ctx else {}
+    # Strip ask_estimate if somehow present on context — allocation used sample_count path.
+    snapshot_for_flag.pop("ask_estimate", None)
+    computed_flag = details._near_publish_pending(snapshot_for_flag)
+    near_flag = flag_from_event if flag_from_event is not None else computed_flag
+
+    research_model_present = bool(estimate) or bool(row.get("ask_estimate"))
+    # Depth = sample_count at inspect time (what _near_publish_pending reads).
+    comparator_depth = ctx.get("sample_count")
+    if comparator_depth is None:
+        comparator_depth = estimate.get("sample_count")
+    if comparator_depth is None:
+        comparator_depth = len(ctx.get("offers") or [])
+    try:
+        comparator_depth = int(comparator_depth or 0)
+    except (TypeError, ValueError):
+        comparator_depth = 0
+
+    independent_seller_count, supporting_low_count, _low = _seller_counts(ctx.get("offers") or [])
+    if estimate.get("seller_count") is not None:
+        try:
+            independent_seller_count = int(estimate.get("seller_count"))
+        except (TypeError, ValueError):
+            pass
+    if estimate.get("low_price_supporting_sellers") is not None:
+        try:
+            supporting_low_count = int(estimate.get("low_price_supporting_sellers"))
+        except (TypeError, ValueError):
+            pass
+
+    other_gates_missing = []
+    # Publication-style blockers already on the model (informational; not near_publish inputs).
+    for b in estimate.get("checks") or []:
+        other_gates_missing.append(str(b)[:200])
+    detail_status = (
+        (ctx.get("detail_status") if ctx else None)
+        or estimate.get("detail_status")
+        or (row.get("ask_estimate") or {}).get("detail_status")
+    )
+    if detail_status and detail_status != "verified_fields":
+        gate = f"detail_status={detail_status}"
+        if gate not in other_gates_missing:
+            other_gates_missing.append(gate)
+
+    if near_flag:
+        explanation = (
+            "near_publish true: allocation saw a viable research-model depth "
+            f"(sample_count/comparator_depth={comparator_depth}) and only the detail check was missing"
+        )
+    else:
+        # Exact gate from _near_publish_pending: ask_estimate absent on snapshot AND sample_count < 3.
+        if comparator_depth < 3:
+            explanation = (
+                f"near_publish false because comparator_depth/sample_count={comparator_depth} "
+                "(requires sample_count >= 3 at allocation; ask_estimate is not yet on the snapshot)"
+            )
+        elif research_model_present:
+            explanation = (
+                "near_publish false at allocation despite a later research_model: "
+                f"allocation-time snapshot sample_count={comparator_depth} did not meet "
+                "details._near_publish_pending (ask_estimate not stamped until after flush)"
+            )
+        else:
+            explanation = (
+                f"near_publish false: details._near_publish_pending saw sample_count={comparator_depth} "
+                "and no ask_estimate on the allocation snapshot"
+            )
+
+    return {
+        "near_publish_flag": bool(near_flag),
+        "research_model_present": bool(research_model_present),
+        "comparator_depth": comparator_depth,
+        "independent_seller_count": independent_seller_count,
+        "supporting_low_count": supporting_low_count,
+        "other_gates_missing": other_gates_missing,
+        "explanation": explanation,
+    }
+
+
+def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagnostic.json", state=None):
     """
     For each tool offer where publication reason is detail_check_pending or detail_check_failed:
     - record offer title and URL
@@ -150,8 +465,10 @@ def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagn
     - record the comparator listing that was checked
     - record each failed detail sub-check with expected vs observed
     - record which getItem fields were present vs missing
+    - for detail_check_failed: record comparator_candidates (read-only)
+    Also emit pr34_categorization_check and near_publish_diagnostic.dga452z.
     Write the list to out_path as JSON.
-    Do not change any state, route, gate, or parser.
+    Do not change any state, route, gate, or parser. Never call getItem.
     """
     entries = []
     try:
@@ -174,33 +491,47 @@ def log_tool_detail_failures(offers, research_rows, out_path="tools_detail_diagn
                 }
             failures = _failures_from_detail(detail)
             comp = _comparator_fields(ctx, detail)
-            entries.append(
-                {
-                    "offer_url": offer.get("url"),
-                    "offer_title": offer.get("title") or "",
-                    "identity": _identity_string(offer),
-                    "detail_status": detail.get("status") or row.get("ask_estimate", {}).get("detail_status"),
-                    "publication_reason": proof.get("reason"),
-                    "comparator_url": comp["comparator_url"],
-                    "comparator_title": comp["comparator_title"],
-                    "comparator_condition": comp["comparator_condition"],
-                    "comparator_price": comp["comparator_price"],
-                    "comparator_shipping": comp["comparator_shipping"],
-                    "comparator_availability": comp["comparator_availability"],
-                    "getitem_fields_present": comp["getitem_fields_present"],
-                    "getitem_fields_missing": comp["getitem_fields_missing"],
-                    "sub_checks": failures,
-                    # Singular convenience mirrors for the first failure (full list retained above).
-                    "sub_check_failed": failures[0]["sub_check_failed"] if failures else None,
-                    "expected": failures[0]["expected"] if failures else None,
-                    "observed": failures[0]["observed"] if failures else None,
-                    "note": comp["note"],
-                }
-            )
-        payload = {"entries": entries, "error": None}
+            identity = _identity_string(offer)
+            entry = {
+                "offer_url": offer.get("url"),
+                "offer_title": offer.get("title") or "",
+                "identity": identity,
+                "detail_status": detail.get("status") or row.get("ask_estimate", {}).get("detail_status"),
+                "publication_reason": proof.get("reason"),
+                "comparator_url": comp["comparator_url"],
+                "comparator_title": comp["comparator_title"],
+                "comparator_condition": comp["comparator_condition"],
+                "comparator_price": comp["comparator_price"],
+                "comparator_shipping": comp["comparator_shipping"],
+                "comparator_availability": comp["comparator_availability"],
+                "getitem_fields_present": comp["getitem_fields_present"],
+                "getitem_fields_missing": comp["getitem_fields_missing"],
+                "sub_checks": failures,
+                # Singular convenience mirrors for the first failure (full list retained above).
+                "sub_check_failed": failures[0]["sub_check_failed"] if failures else None,
+                "expected": failures[0]["expected"] if failures else None,
+                "observed": failures[0]["observed"] if failures else None,
+                "note": comp["note"],
+            }
+            if proof.get("reason") == "detail_check_failed":
+                entry["comparator_candidates"] = build_comparator_candidates(
+                    ctx, detail, identity, state=state, max_candidates=3
+                )
+            entries.append(entry)
+
+        payload = {
+            "entries": entries,
+            "pr34_categorization_check": build_pr34_categorization_check(),
+            "near_publish_diagnostic": {
+                "dga452z": build_near_publish_diagnostic_dga452z(offers, research_rows),
+            },
+            "error": None,
+        }
     except Exception as exc:
         payload = {
             "entries": entries,
+            "pr34_categorization_check": None,
+            "near_publish_diagnostic": {"dga452z": None},
             "error": f"{type(exc).__name__}: {exc}",
             "traceback": traceback.format_exc(),
         }
