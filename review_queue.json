@@ -16,8 +16,8 @@
       "item_price": 15.2,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg"
@@ -1380,6 +1380,781 @@
       }
     },
     {
+      "title": "LEGO Minecraft 21587 Zombie Dungeon",
+      "url": "https://www.hotukdeals.com/deals/lego-minecraft-21587-zombie-dungeon-5027010",
+      "policy_key": "aa4d7c7f2c4a64a14573766a",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Joybuy",
+      "item_price": 15.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-21587-zombie-dungeon-5027010",
+      "landed_cost": null,
+      "breakeven_sell": 26.06,
+      "sell_for_minimum_profit": 35.64,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-09T11:51:17+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+21587+Zombie+Dungeon&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21587",
+        "category": "lego",
+        "name_terms": [
+          "dungeon",
+          "minecraft",
+          "zombie"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T06:36:48+00:00",
+        "date": "2026-11-10",
+        "sample_count": 17,
+        "listed_total_low": 21.62,
+        "listed_total_p25": 25.99,
+        "listed_total_median": 27.64,
+        "listed_total_p75": 31.89,
+        "listed_total_high": 40.49,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|227505526260|0",
+            "seller": "sukh_3716",
+            "image": "https://i.ebayimg.com/images/g/D1cAAeSwiIVqmpsl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227505526260",
+            "title": "LEGO Minecraft Zombie Dungeon 21587 Complete Set 284 Pieces Age 8+",
+            "declared_condition": "new",
+            "item_price": 19.36,
+            "shipping": 2.26,
+            "listed_total": 21.62
+          },
+          {
+            "item_id": "v1|287563313296|0",
+            "seller": "gtmacc",
+            "image": "https://i.ebayimg.com/images/g/CrUAAeSwQe1qmZ6O/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287563313296",
+            "title": "LEGO Minecraft Zombie Dungeon Figurine (21587) Kids Building Toy Figure Set",
+            "declared_condition": "new",
+            "item_price": 21.99,
+            "shipping": 2.7,
+            "listed_total": 24.69
+          },
+          {
+            "item_id": "v1|358661352622|0",
+            "seller": "hmv_official_store",
+            "image": "https://i.ebayimg.com/images/g/agMAAeSw4gJq7iv6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358661352622",
+            "title": "LEGO Minecraft Zombie Dungeon Figurine (21587) Kids Building Toy Figure Set",
+            "declared_condition": "new",
+            "item_price": 24.99,
+            "shipping": 0.0,
+            "listed_total": 24.99
+          },
+          {
+            "item_id": "v1|376850386606|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/urYAAeSwM0NqpRwc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 27.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/376850386606",
+            "title": "LEGO Minecraft Zombie Dungeon 21587 Building Set",
+            "declared_condition": "new",
+            "item_price": 25.19,
+            "shipping": 0.0,
+            "listed_total": 25.19
+          },
+          {
+            "item_id": "v1|900045520466|0",
+            "seller": "planet--retro",
+            "image": "https://i.ebayimg.com/images/g/W7UAAeSwZLJq4RRE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900045520466",
+            "title": "LEGO Minecraft: Zombie Dungeon (21587)",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99
+          },
+          {
+            "item_id": "v1|127673449463|0",
+            "seller": "drips-n-draws",
+            "image": "https://i.ebayimg.com/images/g/uNoAAeSwKGxpiNtM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127673449463",
+            "title": "LEGO Minecraft - 21587 - Zombie Dungeon - Age 8+ / 284pcs - Brand New \ud83d\udd25",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99
+          },
+          {
+            "item_id": "v1|178467768628|0",
+            "seller": "lgccollectables",
+            "image": "https://i.ebayimg.com/images/g/SjYAAeSwMfVqmvTs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178467768628",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon 284 Pieces New Sealed Set",
+            "declared_condition": "new",
+            "item_price": 23.58,
+            "shipping": 2.94,
+            "listed_total": 26.52
+          },
+          {
+            "item_id": "v1|820015172857|0",
+            "seller": "georgehunterr",
+            "image": "https://i.ebayimg.com/images/g/RvgAAeSw94Nqg1RN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820015172857",
+            "title": "LEGO Minecraft: Zombie Dungeon 21587 BRAND NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 22.0,
+            "shipping": 5.15,
+            "listed_total": 27.15
+          },
+          {
+            "item_id": "v1|257840508359|0",
+            "seller": "kasiczekkatarzyna",
+            "image": "https://i.ebayimg.com/images/g/YuYAAeSwS15q7yHO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257840508359",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon 284 Pieces New Sealed Set",
+            "declared_condition": "new",
+            "item_price": 22.49,
+            "shipping": 5.15,
+            "listed_total": 27.64
+          },
+          {
+            "item_id": "v1|377401585529|0",
+            "seller": "edgeb_14",
+            "image": "https://i.ebayimg.com/images/g/necAAeSw1KtqdfNt/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377401585529",
+            "title": "LEGO Minecraft : Zombie Dungeon 284  PCs (21587)8+ New&sealed Bit Scratch",
+            "declared_condition": "new",
+            "item_price": 24.5,
+            "shipping": 3.65,
+            "listed_total": 28.15
+          },
+          {
+            "item_id": "v1|306672571666|0",
+            "seller": "toytownstores",
+            "image": "https://i.ebayimg.com/images/g/bl4AAeSwibFpSoAr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/306672571666",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon ",
+            "declared_condition": "new",
+            "item_price": 25.0,
+            "shipping": 4.0,
+            "listed_total": 29.0
+          },
+          {
+            "item_id": "v1|127652802062|0",
+            "seller": "maqiotoys",
+            "image": "https://i.ebayimg.com/images/g/WwIAAeSwQXhpe1w2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127652802062",
+            "title": "Lego MINECRAFT 21587 Zombie Dungeon",
+            "declared_condition": "new",
+            "item_price": 30.99,
+            "shipping": 0.0,
+            "listed_total": 30.99
+          },
+          {
+            "item_id": "v1|860106648737|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/shUAAeSwa~Vq6Nub/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860106648737",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon Set",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 0.0,
+            "listed_total": 31.89
+          },
+          {
+            "item_id": "v1|860096734914|0",
+            "seller": "jadesshop",
+            "image": "https://i.ebayimg.com/images/g/h3EAAeSw1A1q5Bmy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860096734914",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon Set Rotating Chamber Rockfall Action Toy",
+            "declared_condition": "new",
+            "item_price": 33.97,
+            "shipping": 0.0,
+            "listed_total": 33.97
+          },
+          {
+            "item_id": "v1|168207976901|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/ob4AAeSw20xpqbEP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207976901",
+            "title": "Lego\u00ae Minecraft 21587 Zombie Dungeon Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 33.99,
+            "shipping": 0.0,
+            "listed_total": 33.99
+          },
+          {
+            "item_id": "v1|287088721397|0",
+            "seller": "toysntuck",
+            "image": "https://i.ebayimg.com/images/g/icUAAeSw7mpprwwP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287088721397",
+            "title": "Lego 21587 Minecraft Zombie Dungeon",
+            "declared_condition": "new",
+            "item_price": 34.0,
+            "shipping": 0.0,
+            "listed_total": 34.0
+          },
+          {
+            "item_id": "v1|960163154247|0",
+            "seller": "nexgen00",
+            "image": "https://i.ebayimg.com/images/g/bl0AAeSwkvZq7iQL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960163154247",
+            "title": "LEGO Minecraft Zombie Dungeon 21587 Multicolor",
+            "declared_condition": "new",
+            "item_price": 40.49,
+            "shipping": 0.0,
+            "listed_total": 40.49
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 10
+        },
+        "query_aliases": [
+          "LEGO Minecraft 21587 Zombie Dungeon"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 21587",
+        "observed_at": "2026-11-10T06:36:48+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 17,
+        "seller_count": 17,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 21.62,
+        "competition_high": 40.49,
+        "estimated_resale": 20.97,
+        "estimated_range": [
+          19.45,
+          21.62
+        ],
+        "suggested_listing": 21.61,
+        "quick_sale_model": 19.45,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          27.99,
+          27.99
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 15.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -4.25,
+        "max_landed_buy": 3.74,
+        "max_item_buy": null,
+        "delivery_headroom": -12.25,
+        "fees": 3.31,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.63,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 18.87,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 1.74,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|227505526260|0",
+            "seller": "sukh_3716",
+            "image": "https://i.ebayimg.com/images/g/D1cAAeSwiIVqmpsl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227505526260",
+            "title": "LEGO Minecraft Zombie Dungeon 21587 Complete Set 284 Pieces Age 8+",
+            "declared_condition": "new",
+            "item_price": 19.36,
+            "shipping": 2.26,
+            "listed_total": 21.62,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287563313296|0",
+            "seller": "gtmacc",
+            "image": "https://i.ebayimg.com/images/g/CrUAAeSwQe1qmZ6O/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287563313296",
+            "title": "LEGO Minecraft Zombie Dungeon Figurine (21587) Kids Building Toy Figure Set",
+            "declared_condition": "new",
+            "item_price": 21.99,
+            "shipping": 2.7,
+            "listed_total": 24.69,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|358661352622|0",
+            "seller": "hmv_official_store",
+            "image": "https://i.ebayimg.com/images/g/agMAAeSw4gJq7iv6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358661352622",
+            "title": "LEGO Minecraft Zombie Dungeon Figurine (21587) Kids Building Toy Figure Set",
+            "declared_condition": "new",
+            "item_price": 24.99,
+            "shipping": 0.0,
+            "listed_total": 24.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|376850386606|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/urYAAeSwM0NqpRwc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 27.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/376850386606",
+            "title": "LEGO Minecraft Zombie Dungeon 21587 Building Set",
+            "declared_condition": "new",
+            "item_price": 25.19,
+            "shipping": 0.0,
+            "listed_total": 25.19,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900045520466|0",
+            "seller": "planet--retro",
+            "image": "https://i.ebayimg.com/images/g/W7UAAeSwZLJq4RRE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900045520466",
+            "title": "LEGO Minecraft: Zombie Dungeon (21587)",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|127673449463|0",
+            "seller": "drips-n-draws",
+            "image": "https://i.ebayimg.com/images/g/uNoAAeSwKGxpiNtM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127673449463",
+            "title": "LEGO Minecraft - 21587 - Zombie Dungeon - Age 8+ / 284pcs - Brand New \ud83d\udd25",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|178467768628|0",
+            "seller": "lgccollectables",
+            "image": "https://i.ebayimg.com/images/g/SjYAAeSwMfVqmvTs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178467768628",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon 284 Pieces New Sealed Set",
+            "declared_condition": "new",
+            "item_price": 23.58,
+            "shipping": 2.94,
+            "listed_total": 26.52,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820015172857|0",
+            "seller": "georgehunterr",
+            "image": "https://i.ebayimg.com/images/g/RvgAAeSw94Nqg1RN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820015172857",
+            "title": "LEGO Minecraft: Zombie Dungeon 21587 BRAND NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 22.0,
+            "shipping": 5.15,
+            "listed_total": 27.15,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257840508359|0",
+            "seller": "kasiczekkatarzyna",
+            "image": "https://i.ebayimg.com/images/g/YuYAAeSwS15q7yHO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257840508359",
+            "title": "LEGO Minecraft 21587 Zombie Dungeon 284 Pieces New Sealed Set",
+            "declared_condition": "new",
+            "item_price": 22.49,
+            "shipping": 5.15,
+            "listed_total": 27.64,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377401585529|0",
+            "seller": "edgeb_14",
+            "image": "https://i.ebayimg.com/images/g/necAAeSw1KtqdfNt/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377401585529",
+            "title": "LEGO Minecraft : Zombie Dungeon 284  PCs (21587)8+ New&sealed Bit Scratch",
+            "declared_condition": "new",
+            "item_price": 24.5,
+            "shipping": 3.65,
+            "listed_total": 28.15,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
       "title": "LEGO Technic 1966 Ford GT40 MKII Racing Car 42223",
       "url": "https://www.hotukdeals.com/deals/lego-technic-1966-ford-gt40-mkii-racing-car-42223-5026563",
       "policy_key": "870626d17c55a6e22f7ae7ef",
@@ -1394,8 +2169,8 @@
       "item_price": 39.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/150x150/qt/55/5026563_1.jpg",
@@ -2759,8 +3534,8 @@
       "item_price": 42.72,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
         "https://i.ebayimg.com/images/g/fXUAAeSwYexqcJmX/s-l225.jpg",
@@ -3852,8 +4627,8 @@
       "item_price": 44.65,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/150x150/qt/55/5027632_1.jpg"
@@ -5074,8 +5849,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ynX1X/5027664_1/re/300x300/qt/55/5027664_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ynX1X/5027664_1/re/300x300/qt/55/5027664_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ynX1X/5027664_1/re/150x150/qt/55/5027664_1.jpg"
@@ -5733,8 +6508,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg"
@@ -6747,8 +7522,8 @@
       "item_price": 55.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg"
@@ -7552,8 +8327,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
@@ -8359,8 +9134,8 @@
       "item_price": 64.53,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/300x300/qt/55/5027132_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/300x300/qt/55/5027132_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/150x150/qt/55/5027132_1.jpg"
@@ -9226,8 +10001,8 @@
       "item_price": 81.91,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/150x150/qt/55/5027117_1.jpg"
@@ -10421,8 +11196,8 @@
       "item_price": 91.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bIFV1/5027646_1/re/300x300/qt/55/5027646_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bIFV1/5027646_1/re/300x300/qt/55/5027646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bIFV1/5027646_1/re/150x150/qt/55/5027646_1.jpg"
@@ -11573,8 +12348,8 @@
       "item_price": 104.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/150x150/qt/55/5027552_1.jpg"
@@ -11607,7 +12382,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-10T00:20:52+00:00",
+        "observed_at": "2026-11-10T06:36:49+00:00",
         "date": "2026-11-10",
         "sample_count": 31,
         "listed_total_low": 102.88,
@@ -12337,7 +13112,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "LEGO 72037",
-        "observed_at": "2026-11-10T00:20:52+00:00",
+        "observed_at": "2026-11-10T06:36:49+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 31,
@@ -12653,8 +13428,8 @@
         "query": "LEGO 72037",
         "kind": "active_ask",
         "listing": 102.87,
-        "observed_at": "2026-11-10T00:20:52+00:00",
-        "valid_until": "2026-11-10T06:20:52+00:00",
+        "observed_at": "2026-11-10T06:36:49+00:00",
+        "valid_until": "2026-11-10T12:36:49+00:00",
         "sources": [
           "https://www.ebay.co.uk/itm/267812005389",
           "https://www.ebay.co.uk/itm/267834251634",
@@ -12767,8 +13542,8 @@
       "item_price": 119.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/300x300/qt/55/5027517_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/300x300/qt/55/5027517_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/150x150/qt/55/5027517_1.jpg"
@@ -13523,8 +14298,8 @@
       "item_price": 119.69,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
         "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/150x150/qt/55/5026978_1.jpg"
@@ -14824,6 +15599,617 @@
       }
     },
     {
+      "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+      "url": "https://www.ebay.co.uk/itm/206068108309",
+      "policy_key": "453b48e1b4f74045f3edbbc4",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 139.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/fQoAAeSw6ZBq7H4U/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/206068108309",
+      "landed_cost": 139.95,
+      "breakeven_sell": 167.06,
+      "sell_for_minimum_profit": 230.46,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-08T13:23:50+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+18v+DCS565N+XR+Brushless+Compact+165mm+Circular+Saw+DCS565N-XJ+Bare+Tool&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCS565N bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCS565N",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-10T06:36:49+00:00",
+        "date": "2026-11-10",
+        "sample_count": 3,
+        "listed_total_low": 139.95,
+        "listed_total_p25": 143.47,
+        "listed_total_median": 146.99,
+        "listed_total_p75": 158.49,
+        "listed_total_high": 169.99,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206068108309|0",
+            "seller": "ahcpowertools",
+            "image": "https://i.ebayimg.com/images/g/fQoAAeSw6ZBq7H4U/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206068108309",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+            "declared_condition": "new",
+            "item_price": 139.95,
+            "shipping": 0.0,
+            "listed_total": 139.95
+          },
+          {
+            "item_id": "v1|133894859073|0",
+            "seller": "buyaparcel-store",
+            "image": "https://i.ebayimg.com/images/g/2FYAAeSwBZ1qOuNC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 176.03,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/133894859073",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+            "declared_condition": "new",
+            "item_price": 146.99,
+            "shipping": 0.0,
+            "listed_total": 146.99
+          },
+          {
+            "item_id": "v1|364651018079|0",
+            "seller": "buyaparcel-store",
+            "image": "https://i.ebayimg.com/images/g/Dc0AAeSwFARqOrcw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 180.49,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/364651018079",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw Bare Tool + 2x Blades",
+            "declared_condition": "new",
+            "item_price": 169.99,
+            "shipping": 0.0,
+            "listed_total": 169.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 1
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+          "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCS565N bare tool 18V",
+        "observed_at": "2026-11-10T06:36:49+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 146.99,
+        "competition_high": 146.99,
+        "estimated_resale": 142.58,
+        "estimated_range": [
+          132.29,
+          146.99
+        ],
+        "suggested_listing": 146.98,
+        "quick_sale_model": 132.29,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          176.03,
+          176.03
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 139.95,
+        "delivery_known": true,
+        "landed_cost": 139.95,
+        "net": -21.62,
+        "roi": -15.4,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 60.0,
+        "max_item_buy": 60.0,
+        "delivery_headroom": -79.95,
+        "fees": 12.88,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 4.28,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 128.32,
+        "review_stress_net": -34.21,
+        "review_stress_roi": -24.4,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|133894859073|0",
+            "seller": "buyaparcel-store",
+            "image": "https://i.ebayimg.com/images/g/2FYAAeSwBZ1qOuNC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 176.03,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/133894859073",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+            "declared_condition": "new",
+            "item_price": 146.99,
+            "shipping": 0.0,
+            "listed_total": 146.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
+      "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+      "url": "https://www.ebay.co.uk/itm/133894859073",
+      "policy_key": "987f7a7953d8982195ce5293",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 146.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/2FYAAeSwBZ1qOuNC/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/133894859073",
+      "landed_cost": 146.99,
+      "breakeven_sell": 175.04,
+      "sell_for_minimum_profit": 241.63,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-08T13:23:50+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+18v+DCS565N+XR+Brushless+Compact+165mm+Circular+Saw+DCS565N-XJ+Bare+Tool&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCS565N bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCS565N",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-10T06:36:49+00:00",
+        "date": "2026-11-10",
+        "sample_count": 3,
+        "listed_total_low": 139.95,
+        "listed_total_p25": 143.47,
+        "listed_total_median": 146.99,
+        "listed_total_p75": 158.49,
+        "listed_total_high": 169.99,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206068108309|0",
+            "seller": "ahcpowertools",
+            "image": "https://i.ebayimg.com/images/g/fQoAAeSw6ZBq7H4U/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206068108309",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+            "declared_condition": "new",
+            "item_price": 139.95,
+            "shipping": 0.0,
+            "listed_total": 139.95
+          },
+          {
+            "item_id": "v1|133894859073|0",
+            "seller": "buyaparcel-store",
+            "image": "https://i.ebayimg.com/images/g/2FYAAeSwBZ1qOuNC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 176.03,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/133894859073",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+            "declared_condition": "new",
+            "item_price": 146.99,
+            "shipping": 0.0,
+            "listed_total": 146.99
+          },
+          {
+            "item_id": "v1|364651018079|0",
+            "seller": "buyaparcel-store",
+            "image": "https://i.ebayimg.com/images/g/Dc0AAeSwFARqOrcw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 180.49,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/364651018079",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw Bare Tool + 2x Blades",
+            "declared_condition": "new",
+            "item_price": 169.99,
+            "shipping": 0.0,
+            "listed_total": 169.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 1
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|206068108309|0",
+          "observed_at": "2026-11-10T06:36:27+00:00",
+          "status": "conflict",
+          "reasons": [
+            "tool model mismatch"
+          ],
+          "gtin": "5035048739969",
+          "mpn": "DCS391N",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Battery Included",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Dewalt"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Technology",
+              "value": "Lithium-Ion (Li-Ion)"
+            },
+            {
+              "type": "STRING",
+              "name": "Blade Diameter",
+              "value": "165 mm"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Weight",
+              "value": "4700"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DCS391N"
+            },
+            {
+              "type": "STRING",
+              "name": "Motor Type",
+              "value": "Brushless"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Circular Saw"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18.0v"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "5035048739969"
+            }
+          ],
+          "checked_item_price": 139.95,
+          "identity_query": "DeWalt DCS565N bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 3,
+              "estimatedSoldQuantity": 1,
+              "estimatedRemainingQuantity": 3
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/206068108309",
+          "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+          "fixed_shipping": 0.0,
+          "sub_checks": [
+            {
+              "sub_check_failed": "title_model_number_missing",
+              "expected": "DCS565N",
+              "observed": "DCS391N",
+              "reason": "tool model mismatch"
+            }
+          ],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "conflict",
+        "query_aliases": [
+          "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+          "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "conflict",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCS565N bare tool 18V",
+        "observed_at": "2026-11-10T06:36:49+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 139.95,
+        "competition_high": 139.95,
+        "estimated_resale": 135.75,
+        "estimated_range": [
+          125.95,
+          139.95
+        ],
+        "suggested_listing": 139.94,
+        "quick_sale_model": 125.95,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 2,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 146.99,
+        "delivery_known": true,
+        "landed_cost": 146.99,
+        "net": -34.69,
+        "roi": -23.6,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 60.0,
+        "max_item_buy": 60.0,
+        "delivery_headroom": -86.99,
+        "fees": 12.29,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 4.07,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 122.17,
+        "review_stress_net": -46.69,
+        "review_stress_roi": -31.8,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: conflict; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206068108309|0",
+            "seller": "ahcpowertools",
+            "image": "https://i.ebayimg.com/images/g/fQoAAeSw6ZBq7H4U/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206068108309",
+            "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
+            "declared_condition": "new",
+            "item_price": 139.95,
+            "shipping": 0.0,
+            "listed_total": 139.95,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_failed"
+      }
+    },
+    {
       "title": "Little Nightmares II (Xbox Series X)",
       "url": "https://www.hotukdeals.com/deals/little-nightmares-ii-xbox-series-x-5023855",
       "policy_key": "a8c7086f8de8af46a7493d88",
@@ -14906,11 +16292,10 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
+        "canonicalized_at": "2026-11-10T06:36:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
-          "Little Nightmares II (Xbox Series X)",
-          "Little Nightmares II Xbox Series X  BRAND NEW AND SEALED - IN STOCK - FREE P&P"
+          "Little Nightmares II (Xbox Series X)"
         ]
       },
       "ask_estimate": {
@@ -15013,202 +16398,6 @@
             "shipping": 0.0,
             "listed_total": 29.92,
             "observed_at": "2026-11-10T05:34:42+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
-      }
-    },
-    {
-      "title": "Battlefield 6 Phantom Edition XBOX Series X | Disc",
-      "url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
-      "policy_key": "8e9f308abc00d8ba8598bfcd",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 16.6,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/SKmbr/5026685_1/re/150x150/qt/55/5026685_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
-      "landed_cost": null,
-      "breakeven_sell": 23.94,
-      "sell_for_minimum_profit": 33.39,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-09T00:33:04+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Battlefield+6+Phantom+Edition+XBOX+Series+X&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "battlefield 6 phantom edition disc xbox series x",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-10T00:20:50+00:00",
-        "date": "2026-11-10",
-        "sample_count": 1,
-        "listed_total_low": 29.49,
-        "listed_total_p25": 29.49,
-        "listed_total_median": 29.49,
-        "listed_total_p75": 29.49,
-        "listed_total_high": 29.49,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|287664018744|0",
-            "seller": "neiljefferies",
-            "image": "https://i.ebayimg.com/images/g/ZCoAAeSwjolq2UKH/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287664018744",
-            "title": "Battlefield 6 Phantom Edition XBOX Series X  Disc FREE P&P",
-            "declared_condition": "new",
-            "item_price": 29.49,
-            "shipping": 0.0,
-            "listed_total": 29.49,
-            "observed_at": "2026-11-10T00:20:50+00:00"
-          }
-        ],
-        "rejected": {},
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Battlefield 6 Phantom Edition XBOX Series X | Disc"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "battlefield 6 phantom edition disc xbox series x",
-        "observed_at": "2026-11-10T00:20:50+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 29.49,
-        "competition_high": 29.49,
-        "estimated_resale": 28.6,
-        "estimated_range": [
-          26.54,
-          29.49
-        ],
-        "suggested_listing": 29.48,
-        "quick_sale_model": 26.54,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 16.6,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": 3.94,
-        "max_landed_buy": 12.54,
-        "max_item_buy": null,
-        "delivery_headroom": -4.06,
-        "fees": 4.0,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 0.86,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 25.74,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 10.54,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|287664018744|0",
-            "seller": "neiljefferies",
-            "image": "https://i.ebayimg.com/images/g/ZCoAAeSwjolq2UKH/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287664018744",
-            "title": "Battlefield 6 Phantom Edition XBOX Series X  Disc FREE P&P",
-            "declared_condition": "new",
-            "item_price": 29.49,
-            "shipping": 0.0,
-            "listed_total": 29.49,
-            "observed_at": "2026-11-10T00:20:50+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -15348,7 +16537,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
+        "canonicalized_at": "2026-11-10T06:36:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -17319,7 +18508,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
+        "canonicalized_at": "2026-11-10T06:36:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Valor Mortis Xbox Series X"
@@ -17843,7 +19032,7 @@
         "rejected": {
           "identity_or_condition": 6
         },
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
+        "canonicalized_at": "2026-11-10T06:36:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Pragmata (Xbox Series X)"
@@ -18064,7 +19253,7 @@
         "rejected": {
           "identity_or_condition": 38
         },
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
+        "canonicalized_at": "2026-11-10T06:36:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
@@ -18768,7 +19957,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|313738541392|0",
-          "observed_at": "2026-11-10T06:05:25+00:00",
+          "observed_at": "2026-11-10T06:36:27+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048748312",
@@ -19073,7 +20262,7 @@
           "contents": "bare tool; no battery/charger",
           "region": "GB listing; warranty unverified"
         },
-        "observed_at": "2026-11-10T03:29:58+00:00",
+        "observed_at": "2026-11-10T06:36:49+00:00",
         "date": "2026-11-10",
         "sample_count": 3,
         "listed_total_low": 139.95,
@@ -19160,7 +20349,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|206068108309|0",
-          "observed_at": "2026-11-10T06:05:25+00:00",
+          "observed_at": "2026-11-10T06:36:27+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -19261,6 +20450,7 @@
         },
         "detail_status": "conflict",
         "query_aliases": [
+          "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
           "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)"
         ]
       },
@@ -19271,7 +20461,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "DeWalt DCS565N bare tool 18V",
-        "observed_at": "2026-11-10T03:29:58+00:00",
+        "observed_at": "2026-11-10T06:36:49+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 2,
@@ -19440,6 +20630,45 @@
       }
     },
     {
+      "title": "Star Wars: Jedi: Survivor (Xbox Series X) - Used - w/code Student or Graduate Beans",
+      "url": "https://www.hotukdeals.com/deals/star-wars-jedi-survivor-xbox-series-x-used-wcode-student-or-graduate-beans-5027710",
+      "policy_key": "425e206a4368ab7588fe63df",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Music Magpie",
+      "item_price": 7.17,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/l5xnw/5027710_1/re/150x150/qt/55/5027710_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-jedi-survivor-xbox-series-x-used-wcode-student-or-graduate-beans-5027710",
+      "landed_cost": null,
+      "breakeven_sell": 12.8,
+      "sell_for_minimum_profit": 22.26,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-10T06:36:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Jedi%3A+Survivor+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Creator 3in1 Retro Gaming Console 31380, discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-retro-gaming-console-31380-discount-at-checkout-5026739",
       "policy_key": "2c0a5e53840ea3f5107b2368",
@@ -19454,8 +20683,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/150x150/qt/55/5026739_1.jpg",
@@ -19498,8 +20727,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg"
@@ -19540,8 +20769,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/150x150/qt/55/5026611_1.jpg",
@@ -19584,8 +20813,8 @@
       "item_price": 14.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/150x150/qt/55/5026720_1.jpg",
@@ -19628,8 +20857,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg"
@@ -19670,8 +20899,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/150x150/qt/55/5026689_1.jpg"
@@ -19712,8 +20941,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
         "https://i.ebayimg.com/images/g/s08AAeSwh0NqXfCA/s-l225.jpg",
@@ -19795,8 +21024,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg"
@@ -19823,48 +21052,6 @@
       }
     },
     {
-      "title": "LEGO Minecraft 21587 Zombie Dungeon",
-      "url": "https://www.hotukdeals.com/deals/lego-minecraft-21587-zombie-dungeon-5027010",
-      "policy_key": "aa4d7c7f2c4a64a14573766a",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Joybuy",
-      "item_price": 15.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-21587-zombie-dungeon-5027010",
-      "landed_cost": null,
-      "breakeven_sell": 26.06,
-      "sell_for_minimum_profit": 35.64,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-09T11:51:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+21587+Zombie+Dungeon&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Harry Potter Cornish Pixie 76461 - Discount at Checkout",
       "url": "https://www.hotukdeals.com/deals/lego-harry-potter-cornish-pixie-76461-discount-at-checkout-5026618",
       "policy_key": "6b6d7722773e63ed7cad602b",
@@ -19879,8 +21066,8 @@
       "item_price": 16.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/150x150/qt/55/5026618_1.jpg",
@@ -19962,8 +21149,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg",
@@ -20084,8 +21271,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg",
@@ -20167,8 +21354,8 @@
       "item_price": 39.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/150x150/qt/55/5026835_1.jpg"
@@ -20243,8 +21430,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg",
@@ -20287,8 +21474,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:36.601227+00:00",
-      "image_checked_at": "2026-11-10T06:05:36.601227+00:00",
+      "image_verified_until": "2026-11-10T06:56:39.349465+00:00",
+      "image_checked_at": "2026-11-10T06:36:39.349465+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg"
@@ -20329,8 +21516,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/hHUAAeSwQYFq4fwi/s-l225.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/hHUAAeSwQYFq4fwi/s-l225.jpg",
         "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
@@ -20412,8 +21599,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg",
@@ -20495,8 +21682,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg",
@@ -20539,8 +21726,8 @@
       "item_price": 57.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-      "image_verified_until": "2026-11-10T06:25:51.145970+00:00",
-      "image_checked_at": "2026-11-10T06:05:51.145970+00:00",
+      "image_verified_until": "2026-11-10T06:56:50.872939+00:00",
+      "image_checked_at": "2026-11-10T06:36:50.872939+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg",
@@ -20757,100 +21944,6 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Superfly+Unisex+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Little Nightmares II Xbox Series X  BRAND NEW AND SEALED - IN STOCK - FREE P&P",
-      "url": "https://www.ebay.co.uk/itm/388606916642",
-      "policy_key": "5c2488fa6e9125013011d9ec",
-      "category": "gaming",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 29.92,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/o3wAAOSw3VVhufIL/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/388606916642",
-      "landed_cost": 29.92,
-      "breakeven_sell": 39.67,
-      "sell_for_minimum_profit": 53.8,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 5,
-      "first_seen": "2026-11-08T13:23:50+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Little+Nightmares+II+Xbox+Series+X+BRAND+NEW+AND+SEALED&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "little nightmares ii xbox series x",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-10T05:34:42+00:00",
-        "date": "2026-11-10",
-        "sample_count": 1,
-        "listed_total_low": 29.92,
-        "listed_total_p25": 29.92,
-        "listed_total_median": 29.92,
-        "listed_total_p75": 29.92,
-        "listed_total_high": 29.92,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|388606916642|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/o3wAAOSw3VVhufIL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/388606916642",
-            "title": "Little Nightmares II Xbox Series X  BRAND NEW AND SEALED - IN STOCK - FREE P&P",
-            "declared_condition": "new",
-            "item_price": 29.92,
-            "shipping": 0.0,
-            "listed_total": 29.92,
-            "observed_at": "2026-11-10T05:34:42+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 11
-        },
-        "canonicalized_at": "2026-11-10T06:05:25+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Little Nightmares II (Xbox Series X)",
-          "Little Nightmares II Xbox Series X  BRAND NEW AND SEALED - IN STOCK - FREE P&P"
-        ]
-      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -22392,6 +23485,45 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Camo+Blue+Turtle+Beach+Recon+70+Wired+Multiplatform+Gaming+Headset+for+XBOX%2C+PC%2C+PS5%2C+Camo+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Battlefield 6 Phantom Edition XBOX Series X | Disc",
+      "url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
+      "policy_key": "8e9f308abc00d8ba8598bfcd",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 16.6,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/SKmbr/5026685_1/re/150x150/qt/55/5026685_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
+      "landed_cost": null,
+      "breakeven_sell": 23.94,
+      "sell_for_minimum_profit": 33.39,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-09T00:33:04+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Battlefield+6+Phantom+Edition+XBOX+Series+X&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -25633,7 +26765,34 @@
       "priority": 0,
       "first_seen": "2026-11-08T14:25:14+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=GameSir+G7+SE+Wired+XBOX+Controller%2C+Hall+Effect+Joysticks&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "gamesir g7 se wired xbox controller hall effect joysticks all colours sold by gamesir direct uk fba",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T06:36:48+00:00",
+        "date": "2026-11-10",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "GameSir G7 SE Wired XBOX Controller, Hall Effect Joysticks - All Colours - Sold by GameSir Direct UK / FBA"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
