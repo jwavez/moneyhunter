@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:18:52+00:00",
       "valid_until": "2026-11-10T05:18:52+00:00",
       "competition_low": 76.94,
@@ -95,7 +95,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:18:52+00:00",
       "valid_until": "2026-11-10T05:18:52+00:00",
       "competition_low": 56.76,
@@ -111,7 +111,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-10T00:20:30+00:00",
+        "observed_at": "2026-11-10T00:51:31+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -341,7 +341,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:18:31+00:00",
       "valid_until": "2026-11-10T05:18:31+00:00",
       "competition_low": 59.99,
@@ -405,9 +405,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
-      "observed_at": "2026-11-09T20:03:34+00:00",
-      "valid_until": "2026-11-10T02:03:34+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
+      "observed_at": "2026-11-10T00:52:01+00:00",
+      "valid_until": "2026-11-10T06:52:01+00:00",
       "competition_low": 37.69,
       "estimated_resale": 36.55,
       "seller_count": 2,
@@ -441,14 +441,14 @@
           "seller": "brookeysbargains",
           "url": "https://www.ebay.co.uk/itm/318020220571",
           "delivered": 37.69,
-          "observed_at": "2026-11-09T20:03:34+00:00"
+          "observed_at": "2026-11-10T00:52:01+00:00"
         },
         {
           "item_id": "v1|188975317830|0",
           "seller": "unineedltd",
           "url": "https://www.ebay.co.uk/itm/188975317830",
           "delivered": 74.79,
-          "observed_at": "2026-11-09T20:03:34+00:00"
+          "observed_at": "2026-11-10T00:52:01+00:00"
         }
       ],
       "last_research_at": "2026-11-09T01:59:26+00:00"
@@ -477,7 +477,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:34:33+00:00",
       "valid_until": "2026-11-10T02:34:33+00:00",
       "competition_low": 19.96,
@@ -572,7 +572,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:34:53+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:03:34+00:00",
       "valid_until": "2026-11-10T02:03:34+00:00",
       "competition_low": 156.99,
@@ -587,7 +587,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|313738541392|0",
-        "observed_at": "2026-11-10T00:20:30+00:00",
+        "observed_at": "2026-11-10T00:51:31+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048748312",
@@ -746,7 +746,7 @@
         ]
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:03:31+00:00",
       "valid_until": "2026-11-10T02:03:31+00:00",
       "competition_low": 35.61,
@@ -823,7 +823,7 @@
         ]
       },
       "first_seen": "2026-11-09T13:54:45+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:34:35+00:00",
       "valid_until": "2026-11-10T02:34:35+00:00",
       "competition_low": 105.49,
@@ -896,7 +896,7 @@
         ]
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:34:33+00:00",
       "valid_until": "2026-11-10T02:34:33+00:00",
       "competition_low": 32.7,
@@ -972,7 +972,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:43:12+00:00",
       "valid_until": "2026-11-10T02:43:12+00:00",
       "competition_low": 140.79,
@@ -1036,7 +1036,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T14:25:41+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:43:31+00:00",
       "valid_until": "2026-11-10T02:43:31+00:00",
       "competition_low": 28.45,
@@ -1096,7 +1096,7 @@
         ]
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:43:29+00:00",
       "valid_until": "2026-11-10T02:43:29+00:00",
       "competition_low": 53.21,
@@ -1167,7 +1167,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T20:43:29+00:00",
       "valid_until": "2026-11-10T02:43:29+00:00",
       "competition_low": 60.59,
@@ -1215,7 +1215,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-10T00:20:30+00:00",
       "valid_until": "2026-11-10T06:20:30+00:00",
       "competition_low": 29.64,
@@ -1308,7 +1308,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:39:17+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T21:14:33+00:00",
       "valid_until": "2026-11-10T03:14:33+00:00",
       "competition_low": 139.95,
@@ -1324,7 +1324,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|206068108309|0",
-        "observed_at": "2026-11-10T00:20:30+00:00",
+        "observed_at": "2026-11-10T00:51:31+00:00",
         "status": "conflict",
         "reasons": [
           "tool model mismatch"
@@ -1462,7 +1462,7 @@
         ]
       },
       "first_seen": "2026-11-08T20:03:27+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T21:14:31+00:00",
       "valid_until": "2026-11-10T03:14:31+00:00",
       "competition_low": 46.01,
@@ -1533,7 +1533,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T21:14:31+00:00",
       "valid_until": "2026-11-10T03:14:31+00:00",
       "competition_low": 51.03,
@@ -1581,13 +1581,13 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:38:43+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
-      "observed_at": "2026-11-09T21:45:07+00:00",
-      "valid_until": "2026-11-10T03:45:07+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
+      "observed_at": "2026-11-10T00:51:31+00:00",
+      "valid_until": "2026-11-10T06:51:31+00:00",
       "competition_low": 52.7,
       "estimated_resale": 51.11,
       "seller_count": 39,
-      "low_supporting_sellers": 7,
+      "low_supporting_sellers": 6,
       "max_landed_buy": null,
       "target_status": "research_only",
       "checks": [
@@ -1597,7 +1597,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|227603996710|0",
-        "observed_at": "2026-11-10T00:20:30+00:00",
+        "observed_at": "2026-11-10T00:51:31+00:00",
         "status": "conflict",
         "reasons": [
           "model aspect mismatch",
@@ -1779,38 +1779,38 @@
           "seller": "joh-491597",
           "url": "https://www.ebay.co.uk/itm/227603996710",
           "delivered": 52.7,
-          "observed_at": "2026-11-09T21:45:07+00:00"
+          "observed_at": "2026-11-10T00:51:31+00:00"
         },
         {
           "item_id": "v1|128153579279|0",
           "seller": "arekigo",
           "url": "https://www.ebay.co.uk/itm/128153579279",
           "delivered": 52.7,
-          "observed_at": "2026-11-09T21:45:07+00:00"
+          "observed_at": "2026-11-10T00:51:31+00:00"
         },
         {
           "item_id": "v1|377583270827|0",
           "seller": "meh_1873",
           "url": "https://www.ebay.co.uk/itm/377583270827",
           "delivered": 54.93,
-          "observed_at": "2026-11-09T21:45:07+00:00"
+          "observed_at": "2026-11-10T00:51:31+00:00"
         },
         {
           "item_id": "v1|128173712391|0",
           "seller": "trendvibemarket",
           "url": "https://www.ebay.co.uk/itm/128173712391",
           "delivered": 55.4,
-          "observed_at": "2026-11-09T21:45:07+00:00"
+          "observed_at": "2026-11-10T00:51:31+00:00"
         },
         {
           "item_id": "v1|880086617182|0",
           "seller": "pennywiseunited",
           "url": "https://www.ebay.co.uk/itm/880086617182",
           "delivered": 55.4,
-          "observed_at": "2026-11-09T21:45:07+00:00"
+          "observed_at": "2026-11-10T00:51:31+00:00"
         }
       ],
-      "last_research_at": "2026-11-09T21:45:07+00:00"
+      "last_research_at": "2026-11-10T00:51:31+00:00"
     },
     {
       "key": "browse-asks-v5:lego:lego 42210:4fc17b4e058c",
@@ -1835,7 +1835,7 @@
         ]
       },
       "first_seen": "2026-11-09T13:23:50+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T21:45:30+00:00",
       "valid_until": "2026-11-10T03:45:30+00:00",
       "competition_low": 95.09,
@@ -1911,7 +1911,7 @@
         ]
       },
       "first_seen": "2026-11-08T21:35:45+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T21:45:29+00:00",
       "valid_until": "2026-11-10T03:45:29+00:00",
       "competition_low": 2.08,
@@ -1986,7 +1986,7 @@
         ]
       },
       "first_seen": "2026-11-09T21:45:34+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T21:45:30+00:00",
       "valid_until": "2026-11-10T03:45:30+00:00",
       "competition_low": 104.98,
@@ -2060,7 +2060,7 @@
         ]
       },
       "first_seen": "2026-11-09T09:41:06+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T22:16:59+00:00",
       "valid_until": "2026-11-10T04:16:59+00:00",
       "competition_low": 111.49,
@@ -2134,7 +2134,7 @@
         ]
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T22:16:57+00:00",
       "valid_until": "2026-11-10T04:16:57+00:00",
       "competition_low": 42.3,
@@ -2211,7 +2211,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-10T00:20:50+00:00",
       "valid_until": "2026-11-10T06:20:50+00:00",
       "competition_low": 37.95,
@@ -2287,7 +2287,7 @@
         ]
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T22:16:59+00:00",
       "valid_until": "2026-11-10T04:16:59+00:00",
       "competition_low": 156.65,
@@ -2361,7 +2361,7 @@
         ]
       },
       "first_seen": "2026-11-08T22:06:28+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:18:50+00:00",
       "valid_until": "2026-11-10T05:18:50+00:00",
       "competition_low": 17.34,
@@ -2432,7 +2432,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:18:50+00:00",
       "valid_until": "2026-11-10T05:18:50+00:00",
       "competition_low": 43.96,
@@ -2481,8 +2481,8 @@
           "observed_at": "2026-11-09T23:18:50+00:00"
         }
       ],
-      "last_search_at": "2026-11-09T23:49:40+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-10T00:51:47+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 23.17
     },
     {
@@ -2509,7 +2509,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:49:28+00:00",
       "valid_until": "2026-11-10T05:49:28+00:00",
       "competition_low": 39.0,
@@ -2582,7 +2582,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:34:53+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:49:52+00:00",
       "valid_until": "2026-11-10T05:49:52+00:00",
       "competition_low": 109.99,
@@ -2647,7 +2647,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T10:30:02+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:49:50+00:00",
       "valid_until": "2026-11-10T05:49:50+00:00",
       "competition_low": 189.99,
@@ -2706,7 +2706,7 @@
         ]
       },
       "first_seen": "2026-11-09T11:20:27+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:49:52+00:00",
       "valid_until": "2026-11-10T05:49:52+00:00",
       "competition_low": 147.07,
@@ -2755,8 +2755,8 @@
           "observed_at": "2026-11-09T23:49:52+00:00"
         }
       ],
-      "last_search_at": "2026-11-09T23:18:40+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-10T00:51:47+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 60.0
     },
     {
@@ -2779,7 +2779,7 @@
         ]
       },
       "first_seen": "2026-11-09T09:10:14+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:49:51+00:00",
       "valid_until": "2026-11-10T05:49:51+00:00",
       "competition_low": 12.25,
@@ -2847,7 +2847,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T06:36:29+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-09T23:49:51+00:00",
       "valid_until": "2026-11-10T05:49:51+00:00",
       "competition_low": 31.99,
@@ -2916,7 +2916,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T07:07:15+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-10T00:20:50+00:00",
       "valid_until": "2026-11-10T06:20:50+00:00",
       "competition_low": 29.49,
@@ -2960,7 +2960,7 @@
         ]
       },
       "first_seen": "2026-11-10T00:20:55+00:00",
-      "last_seen": "2026-11-10T00:20:55+00:00",
+      "last_seen": "2026-11-10T00:52:05+00:00",
       "observed_at": "2026-11-10T00:20:52+00:00",
       "valid_until": "2026-11-10T06:20:52+00:00",
       "competition_low": 102.88,
@@ -3008,7 +3008,10 @@
           "delivered": 113.17,
           "observed_at": "2026-11-10T00:20:52+00:00"
         }
-      ]
+      ],
+      "last_search_at": "2026-11-10T00:51:47+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 55.4
     },
     {
       "key": "browse-asks-v5:lego:lego 31380:d0ce8ab4407e",
@@ -9170,7 +9173,7 @@
           "observed_at": "2026-11-07T21:33:30+00:00"
         }
       ],
-      "last_research_at": "2026-11-10T00:20:30+00:00"
+      "last_research_at": "2026-11-10T00:51:31+00:00"
     },
     {
       "key": "browse-asks-v5:gaming:little nightmares ii enhanced edition xbox series x:4f53cda18c2b",
@@ -9323,268 +9326,6 @@
   ],
   "pricing_catalog": [],
   "asking_catalog": [
-    {
-      "kind": "active_ask",
-      "query": "LEGO 72037",
-      "category": "lego",
-      "name_terms": [
-        "kart",
-        "mario",
-        "standard"
-      ],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-10T00:20:52+00:00",
-      "date": "2026-11-10",
-      "sample_count": 31,
-      "listed_total_low": 102.88,
-      "listed_total_p25": 119.42,
-      "listed_total_median": 134.62,
-      "listed_total_p75": 141.88,
-      "listed_total_high": 167.09,
-      "status": "wide_spread",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|267812005389|0",
-          "seller": "brown2cool86",
-          "image": "https://i.ebayimg.com/images/g/iJYAAeSwC11qzWwM/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267812005389",
-          "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
-          "declared_condition": "new",
-          "item_price": 99.5,
-          "shipping": 3.38,
-          "listed_total": 102.88
-        },
-        {
-          "item_id": "v1|267834251634|0",
-          "seller": "bearyhugs-teddyhouse",
-          "image": "https://i.ebayimg.com/images/g/qnUAAeSw5DFq7HiS/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267834251634",
-          "title": "LEGO Super Mario Kart 72037 Brand new",
-          "declared_condition": "new",
-          "item_price": 104.7,
-          "shipping": 4.27,
-          "listed_total": 108.97
-        },
-        {
-          "item_id": "v1|168799491990|0",
-          "seller": "aldo8346",
-          "image": "https://i.ebayimg.com/images/g/Uw0AAeSw9t9q07lD/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/168799491990",
-          "title": "LEGO Mario & Standard Kart 72037",
-          "declared_condition": "new",
-          "item_price": 104.7,
-          "shipping": 5.99,
-          "listed_total": 110.69
-        },
-        {
-          "item_id": "v1|880088906070|0",
-          "seller": "jayjay8717",
-          "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/880088906070",
-          "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-          "declared_condition": "new",
-          "item_price": 108.85,
-          "shipping": 3.92,
-          "listed_total": 112.77
-        },
-        {
-          "item_id": "v1|407336669709|0",
-          "seller": "jasperonie",
-          "image": "https://i.ebayimg.com/images/g/F4IAAeSwQ2Rq6flr/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407336669709",
-          "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
-          "declared_condition": "new",
-          "item_price": 105.74,
-          "shipping": 7.43,
-          "listed_total": 113.17
-        },
-        {
-          "item_id": "v1|206598834090|0",
-          "seller": "kenadams1177",
-          "image": "https://i.ebayimg.com/images/g/9cAAAeSwamhqrmt9/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206598834090",
-          "title": "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
-          "declared_condition": "new",
-          "item_price": 109.9,
-          "shipping": 4.28,
-          "listed_total": 114.18
-        },
-        {
-          "item_id": "v1|257832261751|0",
-          "seller": "wilkins-bricks",
-          "image": "https://i.ebayimg.com/images/g/-KoAAeSwHohq6ekS/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/257832261751",
-          "title": "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
-          "declared_condition": "new",
-          "item_price": 107.5,
-          "shipping": 8.36,
-          "listed_total": 115.86
-        },
-        {
-          "item_id": "v1|206667273297|0",
-          "seller": "pasinc-6",
-          "image": "https://i.ebayimg.com/images/g/kboAAeSwsqdqUdCK/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206667273297",
-          "title": "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
-          "declared_condition": "new",
-          "item_price": 109.9,
-          "shipping": 7.08,
-          "listed_total": 116.98
-        },
-        {
-          "item_id": "v1|336883786552|0",
-          "seller": "a.brow-660",
-          "image": "https://i.ebayimg.com/images/g/NuYAAeSw-rZq7hIK/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/336883786552",
-          "title": "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
-          "declared_condition": "new",
-          "item_price": 115.1,
-          "shipping": 6.76,
-          "listed_total": 121.86
-        },
-        {
-          "item_id": "v1|327133516040|0",
-          "seller": "beautystoresltd",
-          "image": "https://i.ebayimg.com/images/g/t3AAAeSw7aZp9H30/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/327133516040",
-          "title": "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
-          "declared_condition": "new",
-          "item_price": 124.99,
-          "shipping": 0.0,
-          "listed_total": 124.99
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 19
-      },
-      "query_aliases": [
-        "LEGO Mario Kart \u2013 Mario & Standard Kart 72037"
-      ]
-    },
     {
       "kind": "active_ask",
       "query": "LEGO 21586",
@@ -12455,6 +12196,268 @@
     },
     {
       "kind": "active_ask",
+      "query": "LEGO 72037",
+      "category": "lego",
+      "name_terms": [
+        "kart",
+        "mario",
+        "standard"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-10T00:20:52+00:00",
+      "date": "2026-11-10",
+      "sample_count": 31,
+      "listed_total_low": 102.88,
+      "listed_total_p25": 119.42,
+      "listed_total_median": 134.62,
+      "listed_total_p75": 141.88,
+      "listed_total_high": 167.09,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|267812005389|0",
+          "seller": "brown2cool86",
+          "image": "https://i.ebayimg.com/images/g/iJYAAeSwC11qzWwM/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/267812005389",
+          "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
+          "declared_condition": "new",
+          "item_price": 99.5,
+          "shipping": 3.38,
+          "listed_total": 102.88
+        },
+        {
+          "item_id": "v1|267834251634|0",
+          "seller": "bearyhugs-teddyhouse",
+          "image": "https://i.ebayimg.com/images/g/qnUAAeSw5DFq7HiS/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/267834251634",
+          "title": "LEGO Super Mario Kart 72037 Brand new",
+          "declared_condition": "new",
+          "item_price": 104.7,
+          "shipping": 4.27,
+          "listed_total": 108.97
+        },
+        {
+          "item_id": "v1|168799491990|0",
+          "seller": "aldo8346",
+          "image": "https://i.ebayimg.com/images/g/Uw0AAeSw9t9q07lD/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/168799491990",
+          "title": "LEGO Mario & Standard Kart 72037",
+          "declared_condition": "new",
+          "item_price": 104.7,
+          "shipping": 5.99,
+          "listed_total": 110.69
+        },
+        {
+          "item_id": "v1|880088906070|0",
+          "seller": "jayjay8717",
+          "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/880088906070",
+          "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
+          "declared_condition": "new",
+          "item_price": 108.85,
+          "shipping": 3.92,
+          "listed_total": 112.77
+        },
+        {
+          "item_id": "v1|407336669709|0",
+          "seller": "jasperonie",
+          "image": "https://i.ebayimg.com/images/g/F4IAAeSwQ2Rq6flr/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/407336669709",
+          "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
+          "declared_condition": "new",
+          "item_price": 105.74,
+          "shipping": 7.43,
+          "listed_total": 113.17
+        },
+        {
+          "item_id": "v1|206598834090|0",
+          "seller": "kenadams1177",
+          "image": "https://i.ebayimg.com/images/g/9cAAAeSwamhqrmt9/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/206598834090",
+          "title": "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
+          "declared_condition": "new",
+          "item_price": 109.9,
+          "shipping": 4.28,
+          "listed_total": 114.18
+        },
+        {
+          "item_id": "v1|257832261751|0",
+          "seller": "wilkins-bricks",
+          "image": "https://i.ebayimg.com/images/g/-KoAAeSwHohq6ekS/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/257832261751",
+          "title": "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
+          "declared_condition": "new",
+          "item_price": 107.5,
+          "shipping": 8.36,
+          "listed_total": 115.86
+        },
+        {
+          "item_id": "v1|206667273297|0",
+          "seller": "pasinc-6",
+          "image": "https://i.ebayimg.com/images/g/kboAAeSwsqdqUdCK/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/206667273297",
+          "title": "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
+          "declared_condition": "new",
+          "item_price": 109.9,
+          "shipping": 7.08,
+          "listed_total": 116.98
+        },
+        {
+          "item_id": "v1|336883786552|0",
+          "seller": "a.brow-660",
+          "image": "https://i.ebayimg.com/images/g/NuYAAeSw-rZq7hIK/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/336883786552",
+          "title": "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
+          "declared_condition": "new",
+          "item_price": 115.1,
+          "shipping": 6.76,
+          "listed_total": 121.86
+        },
+        {
+          "item_id": "v1|327133516040|0",
+          "seller": "beautystoresltd",
+          "image": "https://i.ebayimg.com/images/g/t3AAAeSw7aZp9H30/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": true,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/327133516040",
+          "title": "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
+          "declared_condition": "new",
+          "item_price": 124.99,
+          "shipping": 0.0,
+          "listed_total": 124.99
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 19
+      },
+      "query_aliases": [
+        "LEGO Mario Kart \u2013 Mario & Standard Kart 72037"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 42175",
       "category": "lego",
       "name_terms": [
@@ -13088,6 +13091,103 @@
     },
     {
       "kind": "active_ask",
+      "query": "gucci guilty for him EDT 50ml",
+      "category": "fragrance",
+      "name_terms": [],
+      "identity": {
+        "condition": "new",
+        "family": "gucci guilty for him",
+        "concentration": "edt",
+        "ml": 50,
+        "bottle_format": "not stated"
+      },
+      "observed_at": "2026-11-09T20:03:34+00:00",
+      "date": "2026-11-09",
+      "sample_count": 2,
+      "listed_total_low": 37.69,
+      "listed_total_p25": 46.97,
+      "listed_total_median": 56.24,
+      "listed_total_p75": 65.52,
+      "listed_total_high": 74.79,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|318020220571|0",
+          "seller": "brookeysbargains",
+          "image": "https://i.ebayimg.com/images/g/AeMAAeSwCTFpucRP/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/318020220571",
+          "title": "Brand New Gucci Guilty 50ml EDT For Him !",
+          "declared_condition": "new",
+          "item_price": 34.97,
+          "shipping": 2.72,
+          "listed_total": 37.69
+        },
+        {
+          "item_id": "v1|188975317830|0",
+          "seller": "unineedltd",
+          "image": "https://i.ebayimg.com/images/g/6KMAAeSwe01ofaVG/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/188975317830",
+          "title": "Gucci - Guilty For Him EDT (50ml)",
+          "declared_condition": "new",
+          "item_price": 74.79,
+          "shipping": 0.0,
+          "listed_total": 74.79
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 2
+      },
+      "detail_required": true,
+      "lowest_detail": {
+        "status": "awaiting_detail_budget",
+        "reasons": [
+          "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+        ],
+        "sub_checks": [
+          {
+            "sub_check_failed": "other",
+            "expected": "verified_fields within detail budget",
+            "observed": "awaiting_detail_budget",
+            "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+            "note": "detail allocation window closed this scan"
+          }
+        ]
+      },
+      "detail_status": "awaiting_detail_budget",
+      "query_aliases": [
+        "Gucci Guilty For Him Eau de Toilette 50ml"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "battlefield 6 phantom edition disc xbox series x",
       "category": "gaming",
       "name_terms": [],
@@ -13128,10 +13228,13 @@
           "declared_condition": "new",
           "item_price": 29.49,
           "shipping": 0.0,
-          "listed_total": 29.49
+          "listed_total": 29.49,
+          "observed_at": "2026-11-10T00:20:50+00:00"
         }
       ],
       "rejected": {},
+      "canonicalized_at": "2026-11-10T00:51:31+00:00",
+      "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Battlefield 6 Phantom Edition XBOX Series X | Disc"
       ]
@@ -13232,7 +13335,7 @@
       "rejected": {
         "identity_or_condition": 18
       },
-      "canonicalized_at": "2026-11-10T00:20:30+00:00",
+      "canonicalized_at": "2026-11-10T00:51:31+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Lies of P (PS5)"
@@ -13379,7 +13482,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-10T00:20:30+00:00",
+      "canonicalized_at": "2026-11-10T00:51:31+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -13707,109 +13810,12 @@
       "rejected": {
         "identity_or_condition": 8
       },
-      "canonicalized_at": "2026-11-10T00:20:30+00:00",
+      "canonicalized_at": "2026-11-10T00:51:31+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Hellraiser: Revival - Day One Edition (PS5)",
         "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
         "Hellraiser: Revival Day One Edition (PS5)"
-      ]
-    },
-    {
-      "kind": "active_ask",
-      "query": "gucci guilty for him EDT 50ml",
-      "category": "fragrance",
-      "name_terms": [],
-      "identity": {
-        "condition": "new",
-        "family": "gucci guilty for him",
-        "concentration": "edt",
-        "ml": 50,
-        "bottle_format": "not stated"
-      },
-      "observed_at": "2026-11-09T20:03:34+00:00",
-      "date": "2026-11-09",
-      "sample_count": 2,
-      "listed_total_low": 37.69,
-      "listed_total_p25": 46.97,
-      "listed_total_median": 56.24,
-      "listed_total_p75": 65.52,
-      "listed_total_high": 74.79,
-      "status": "small_sample",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|318020220571|0",
-          "seller": "brookeysbargains",
-          "image": "https://i.ebayimg.com/images/g/AeMAAeSwCTFpucRP/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/318020220571",
-          "title": "Brand New Gucci Guilty 50ml EDT For Him !",
-          "declared_condition": "new",
-          "item_price": 34.97,
-          "shipping": 2.72,
-          "listed_total": 37.69
-        },
-        {
-          "item_id": "v1|188975317830|0",
-          "seller": "unineedltd",
-          "image": "https://i.ebayimg.com/images/g/6KMAAeSwe01ofaVG/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/188975317830",
-          "title": "Gucci - Guilty For Him EDT (50ml)",
-          "declared_condition": "new",
-          "item_price": 74.79,
-          "shipping": 0.0,
-          "listed_total": 74.79
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 2
-      },
-      "detail_required": true,
-      "lowest_detail": {
-        "status": "awaiting_detail_budget",
-        "reasons": [
-          "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-        ],
-        "sub_checks": [
-          {
-            "sub_check_failed": "other",
-            "expected": "verified_fields within detail budget",
-            "observed": "awaiting_detail_budget",
-            "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "detail allocation window closed this scan"
-          }
-        ]
-      },
-      "detail_status": "awaiting_detail_budget",
-      "query_aliases": [
-        "Gucci Guilty For Him Eau de Toilette 50ml"
       ]
     },
     {
@@ -13977,7 +13983,7 @@
       "rejected": {
         "identity_or_condition": 44
       },
-      "canonicalized_at": "2026-11-10T00:20:30+00:00",
+      "canonicalized_at": "2026-11-10T00:51:31+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Resident Evil Requiem (PS5)"
@@ -14033,7 +14039,7 @@
       "rejected": {
         "identity_or_condition": 7
       },
-      "canonicalized_at": "2026-11-10T00:20:30+00:00",
+      "canonicalized_at": "2026-11-10T00:51:31+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Resident Evil Requiem Xbox Series X"
@@ -14283,7 +14289,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|313738541392|0",
-        "observed_at": "2026-11-10T00:20:30+00:00",
+        "observed_at": "2026-11-10T00:51:31+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048748312",
@@ -14509,7 +14515,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|206068108309|0",
-        "observed_at": "2026-11-10T00:20:30+00:00",
+        "observed_at": "2026-11-10T00:51:31+00:00",
         "status": "conflict",
         "reasons": [
           "tool model mismatch"
@@ -14611,6 +14617,67 @@
       "detail_status": "conflict",
       "query_aliases": [
         "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)"
+      ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "death howl physical ps5",
+      "category": "gaming",
+      "name_terms": [],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-10T00:52:00+00:00",
+      "date": "2026-11-10",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {},
+      "query_aliases": [
+        "Death Howl PS5 Physical"
+      ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 40820",
+      "category": "lego",
+      "name_terms": [
+        "minifgure",
+        "santa",
+        "scaled",
+        "up"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-10T00:52:00+00:00",
+      "date": "2026-11-10",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {
+        "identity_or_condition": 50
+      },
+      "query_aliases": [
+        "LEGO 40820 Up Scaled Santa Minifgure"
       ]
     },
     {
@@ -14746,737 +14813,16 @@
     "ask_estimated_products": 27,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 10,
+    "above_budget_estimates": 11,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-10T00:21:04+00:00",
+  "generated_utc": "2026-11-10T00:52:27+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
-    {
-      "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037",
-      "url": "https://www.hotukdeals.com/deals/lego-mario-kart-mario-standard-kart-72037-5027552",
-      "policy_key": "090577722b49d28180fb30ce",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 104.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/150x150/qt/55/5027552_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-mario-kart-mario-standard-kart-72037-5027552",
-      "landed_cost": null,
-      "breakeven_sell": 132.65,
-      "sell_for_minimum_profit": 182.95,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 20,
-      "first_seen": "2026-11-10T00:20:50+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Mario+Kart&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 72037",
-        "category": "lego",
-        "name_terms": [
-          "kart",
-          "mario",
-          "standard"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-10T00:20:52+00:00",
-        "date": "2026-11-10",
-        "sample_count": 31,
-        "listed_total_low": 102.88,
-        "listed_total_p25": 119.42,
-        "listed_total_median": 134.62,
-        "listed_total_p75": 141.88,
-        "listed_total_high": 167.09,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|267812005389|0",
-            "seller": "brown2cool86",
-            "image": "https://i.ebayimg.com/images/g/iJYAAeSwC11qzWwM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267812005389",
-            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
-            "declared_condition": "new",
-            "item_price": 99.5,
-            "shipping": 3.38,
-            "listed_total": 102.88
-          },
-          {
-            "item_id": "v1|267834251634|0",
-            "seller": "bearyhugs-teddyhouse",
-            "image": "https://i.ebayimg.com/images/g/qnUAAeSw5DFq7HiS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267834251634",
-            "title": "LEGO Super Mario Kart 72037 Brand new",
-            "declared_condition": "new",
-            "item_price": 104.7,
-            "shipping": 4.27,
-            "listed_total": 108.97
-          },
-          {
-            "item_id": "v1|168799491990|0",
-            "seller": "aldo8346",
-            "image": "https://i.ebayimg.com/images/g/Uw0AAeSw9t9q07lD/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168799491990",
-            "title": "LEGO Mario & Standard Kart 72037",
-            "declared_condition": "new",
-            "item_price": 104.7,
-            "shipping": 5.99,
-            "listed_total": 110.69
-          },
-          {
-            "item_id": "v1|880088906070|0",
-            "seller": "jayjay8717",
-            "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880088906070",
-            "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-            "declared_condition": "new",
-            "item_price": 108.85,
-            "shipping": 3.92,
-            "listed_total": 112.77
-          },
-          {
-            "item_id": "v1|407336669709|0",
-            "seller": "jasperonie",
-            "image": "https://i.ebayimg.com/images/g/F4IAAeSwQ2Rq6flr/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407336669709",
-            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
-            "declared_condition": "new",
-            "item_price": 105.74,
-            "shipping": 7.43,
-            "listed_total": 113.17
-          },
-          {
-            "item_id": "v1|206598834090|0",
-            "seller": "kenadams1177",
-            "image": "https://i.ebayimg.com/images/g/9cAAAeSwamhqrmt9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206598834090",
-            "title": "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
-            "declared_condition": "new",
-            "item_price": 109.9,
-            "shipping": 4.28,
-            "listed_total": 114.18
-          },
-          {
-            "item_id": "v1|257832261751|0",
-            "seller": "wilkins-bricks",
-            "image": "https://i.ebayimg.com/images/g/-KoAAeSwHohq6ekS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257832261751",
-            "title": "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
-            "declared_condition": "new",
-            "item_price": 107.5,
-            "shipping": 8.36,
-            "listed_total": 115.86
-          },
-          {
-            "item_id": "v1|206667273297|0",
-            "seller": "pasinc-6",
-            "image": "https://i.ebayimg.com/images/g/kboAAeSwsqdqUdCK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206667273297",
-            "title": "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
-            "declared_condition": "new",
-            "item_price": 109.9,
-            "shipping": 7.08,
-            "listed_total": 116.98
-          },
-          {
-            "item_id": "v1|336883786552|0",
-            "seller": "a.brow-660",
-            "image": "https://i.ebayimg.com/images/g/NuYAAeSw-rZq7hIK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336883786552",
-            "title": "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
-            "declared_condition": "new",
-            "item_price": 115.1,
-            "shipping": 6.76,
-            "listed_total": 121.86
-          },
-          {
-            "item_id": "v1|327133516040|0",
-            "seller": "beautystoresltd",
-            "image": "https://i.ebayimg.com/images/g/t3AAAeSw7aZp9H30/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327133516040",
-            "title": "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
-            "declared_condition": "new",
-            "item_price": 124.99,
-            "shipping": 0.0,
-            "listed_total": 124.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 19
-        },
-        "query_aliases": [
-          "LEGO Mario Kart \u2013 Mario & Standard Kart 72037"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 72037",
-        "observed_at": "2026-11-10T00:20:52+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 31,
-        "seller_count": 31,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 4,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 102.88,
-        "competition_high": 167.09,
-        "estimated_resale": 99.79,
-        "estimated_range": [
-          92.59,
-          102.88
-        ],
-        "suggested_listing": 102.87,
-        "quick_sale_model": 92.59,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 104.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -27.43,
-        "max_landed_buy": 55.4,
-        "max_item_buy": null,
-        "delivery_headroom": -49.59,
-        "fees": 13.95,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 2.99,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": true,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 89.81,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 60.0,
-        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|267812005389|0",
-            "seller": "brown2cool86",
-            "image": "https://i.ebayimg.com/images/g/iJYAAeSwC11qzWwM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267812005389",
-            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
-            "declared_condition": "new",
-            "item_price": 99.5,
-            "shipping": 3.38,
-            "listed_total": 102.88,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267834251634|0",
-            "seller": "bearyhugs-teddyhouse",
-            "image": "https://i.ebayimg.com/images/g/qnUAAeSw5DFq7HiS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267834251634",
-            "title": "LEGO Super Mario Kart 72037 Brand new",
-            "declared_condition": "new",
-            "item_price": 104.7,
-            "shipping": 4.27,
-            "listed_total": 108.97,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168799491990|0",
-            "seller": "aldo8346",
-            "image": "https://i.ebayimg.com/images/g/Uw0AAeSw9t9q07lD/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168799491990",
-            "title": "LEGO Mario & Standard Kart 72037",
-            "declared_condition": "new",
-            "item_price": 104.7,
-            "shipping": 5.99,
-            "listed_total": 110.69,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|880088906070|0",
-            "seller": "jayjay8717",
-            "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880088906070",
-            "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-            "declared_condition": "new",
-            "item_price": 108.85,
-            "shipping": 3.92,
-            "listed_total": 112.77,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407336669709|0",
-            "seller": "jasperonie",
-            "image": "https://i.ebayimg.com/images/g/F4IAAeSwQ2Rq6flr/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407336669709",
-            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
-            "declared_condition": "new",
-            "item_price": 105.74,
-            "shipping": 7.43,
-            "listed_total": 113.17,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206598834090|0",
-            "seller": "kenadams1177",
-            "image": "https://i.ebayimg.com/images/g/9cAAAeSwamhqrmt9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206598834090",
-            "title": "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
-            "declared_condition": "new",
-            "item_price": 109.9,
-            "shipping": 4.28,
-            "listed_total": 114.18,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|257832261751|0",
-            "seller": "wilkins-bricks",
-            "image": "https://i.ebayimg.com/images/g/-KoAAeSwHohq6ekS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257832261751",
-            "title": "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
-            "declared_condition": "new",
-            "item_price": 107.5,
-            "shipping": 8.36,
-            "listed_total": 115.86,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206667273297|0",
-            "seller": "pasinc-6",
-            "image": "https://i.ebayimg.com/images/g/kboAAeSwsqdqUdCK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206667273297",
-            "title": "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
-            "declared_condition": "new",
-            "item_price": 109.9,
-            "shipping": 7.08,
-            "listed_total": 116.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|336883786552|0",
-            "seller": "a.brow-660",
-            "image": "https://i.ebayimg.com/images/g/NuYAAeSw-rZq7hIK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336883786552",
-            "title": "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
-            "declared_condition": "new",
-            "item_price": 115.1,
-            "shipping": 6.76,
-            "listed_total": 121.86,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327133516040|0",
-            "seller": "beautystoresltd",
-            "image": "https://i.ebayimg.com/images/g/t3AAAeSw7aZp9H30/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327133516040",
-            "title": "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
-            "declared_condition": "new",
-            "item_price": 124.99,
-            "shipping": 0.0,
-            "listed_total": 124.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037",
-        "query": "LEGO 72037",
-        "kind": "active_ask",
-        "listing": 102.87,
-        "observed_at": "2026-11-10T00:20:52+00:00",
-        "valid_until": "2026-11-10T06:20:52+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/267812005389",
-          "https://www.ebay.co.uk/itm/267834251634",
-          "https://www.ebay.co.uk/itm/168799491990",
-          "https://www.ebay.co.uk/itm/880088906070",
-          "https://www.ebay.co.uk/itm/407336669709",
-          "https://www.ebay.co.uk/itm/206598834090",
-          "https://www.ebay.co.uk/itm/257832261751",
-          "https://www.ebay.co.uk/itm/206667273297",
-          "https://www.ebay.co.uk/itm/336883786552",
-          "https://www.ebay.co.uk/itm/327133516040"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/267812005389",
-            "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
-            102.88,
-            3.38,
-            99.5,
-            "brown2cool86"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267834251634",
-            "LEGO Super Mario Kart 72037 Brand new",
-            108.97,
-            4.27,
-            104.7,
-            "bearyhugs-teddyhouse"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/168799491990",
-            "LEGO Mario & Standard Kart 72037",
-            110.69,
-            5.99,
-            104.7,
-            "aldo8346"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/880088906070",
-            "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-            112.77,
-            3.92,
-            108.85,
-            "jayjay8717"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407336669709",
-            "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
-            113.17,
-            7.43,
-            105.74,
-            "jasperonie"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206598834090",
-            "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
-            114.18,
-            4.28,
-            109.9,
-            "kenadams1177"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/257832261751",
-            "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
-            115.86,
-            8.36,
-            107.5,
-            "wilkins-bricks"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206667273297",
-            "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
-            116.98,
-            7.08,
-            109.9,
-            "pasinc-6"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/336883786552",
-            "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
-            121.86,
-            6.76,
-            115.1,
-            "a.brow-660"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/327133516040",
-            "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
-            124.99,
-            0.0,
-            124.99,
-            "beautystoresltd"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
     {
       "title": "LEGO Minecraft The Pale Garden 21586 - Discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
@@ -15492,8 +14838,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg"
@@ -16202,8 +15548,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/150x150/qt/55/5026611_1.jpg",
@@ -16726,8 +16072,8 @@
       "item_price": 16.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/150x150/qt/55/5026618_1.jpg",
@@ -17346,8 +16692,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg",
@@ -17961,8 +17307,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg",
@@ -18580,8 +17926,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg"
@@ -19300,8 +18646,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/hHUAAeSwQYFq4fwi/s-l225.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/hHUAAeSwQYFq4fwi/s-l225.jpg",
         "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
@@ -19918,8 +19264,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg",
@@ -20543,8 +19889,8 @@
       "item_price": 64.53,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/300x300/qt/55/5027132_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/300x300/qt/55/5027132_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/150x150/qt/55/5027132_1.jpg"
@@ -21165,8 +20511,8 @@
       "item_price": 81.91,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/150x150/qt/55/5027117_1.jpg"
@@ -21887,8 +21233,8 @@
       "item_price": 86.69,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/I8urS/5026863_1/re/300x300/qt/55/5026863_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/I8urS/5026863_1/re/300x300/qt/55/5026863_1.jpg",
         "https://images.hotukdeals.com/threads/raw/I8urS/5026863_1/re/150x150/qt/55/5026863_1.jpg"
@@ -22486,6 +21832,727 @@
       }
     },
     {
+      "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037",
+      "url": "https://www.hotukdeals.com/deals/lego-mario-kart-mario-standard-kart-72037-5027552",
+      "policy_key": "090577722b49d28180fb30ce",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 104.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/150x150/qt/55/5027552_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-mario-kart-mario-standard-kart-72037-5027552",
+      "landed_cost": null,
+      "breakeven_sell": 132.65,
+      "sell_for_minimum_profit": 182.95,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-10T00:20:50+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Mario+Kart&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 72037",
+        "category": "lego",
+        "name_terms": [
+          "kart",
+          "mario",
+          "standard"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T00:20:52+00:00",
+        "date": "2026-11-10",
+        "sample_count": 31,
+        "listed_total_low": 102.88,
+        "listed_total_p25": 119.42,
+        "listed_total_median": 134.62,
+        "listed_total_p75": 141.88,
+        "listed_total_high": 167.09,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|267812005389|0",
+            "seller": "brown2cool86",
+            "image": "https://i.ebayimg.com/images/g/iJYAAeSwC11qzWwM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267812005389",
+            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
+            "declared_condition": "new",
+            "item_price": 99.5,
+            "shipping": 3.38,
+            "listed_total": 102.88
+          },
+          {
+            "item_id": "v1|267834251634|0",
+            "seller": "bearyhugs-teddyhouse",
+            "image": "https://i.ebayimg.com/images/g/qnUAAeSw5DFq7HiS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267834251634",
+            "title": "LEGO Super Mario Kart 72037 Brand new",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 4.27,
+            "listed_total": 108.97
+          },
+          {
+            "item_id": "v1|168799491990|0",
+            "seller": "aldo8346",
+            "image": "https://i.ebayimg.com/images/g/Uw0AAeSw9t9q07lD/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168799491990",
+            "title": "LEGO Mario & Standard Kart 72037",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 5.99,
+            "listed_total": 110.69
+          },
+          {
+            "item_id": "v1|880088906070|0",
+            "seller": "jayjay8717",
+            "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880088906070",
+            "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
+            "declared_condition": "new",
+            "item_price": 108.85,
+            "shipping": 3.92,
+            "listed_total": 112.77
+          },
+          {
+            "item_id": "v1|407336669709|0",
+            "seller": "jasperonie",
+            "image": "https://i.ebayimg.com/images/g/F4IAAeSwQ2Rq6flr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407336669709",
+            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
+            "declared_condition": "new",
+            "item_price": 105.74,
+            "shipping": 7.43,
+            "listed_total": 113.17
+          },
+          {
+            "item_id": "v1|206598834090|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/9cAAAeSwamhqrmt9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206598834090",
+            "title": "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
+            "declared_condition": "new",
+            "item_price": 109.9,
+            "shipping": 4.28,
+            "listed_total": 114.18
+          },
+          {
+            "item_id": "v1|257832261751|0",
+            "seller": "wilkins-bricks",
+            "image": "https://i.ebayimg.com/images/g/-KoAAeSwHohq6ekS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257832261751",
+            "title": "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
+            "declared_condition": "new",
+            "item_price": 107.5,
+            "shipping": 8.36,
+            "listed_total": 115.86
+          },
+          {
+            "item_id": "v1|206667273297|0",
+            "seller": "pasinc-6",
+            "image": "https://i.ebayimg.com/images/g/kboAAeSwsqdqUdCK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206667273297",
+            "title": "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
+            "declared_condition": "new",
+            "item_price": 109.9,
+            "shipping": 7.08,
+            "listed_total": 116.98
+          },
+          {
+            "item_id": "v1|336883786552|0",
+            "seller": "a.brow-660",
+            "image": "https://i.ebayimg.com/images/g/NuYAAeSw-rZq7hIK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336883786552",
+            "title": "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
+            "declared_condition": "new",
+            "item_price": 115.1,
+            "shipping": 6.76,
+            "listed_total": 121.86
+          },
+          {
+            "item_id": "v1|327133516040|0",
+            "seller": "beautystoresltd",
+            "image": "https://i.ebayimg.com/images/g/t3AAAeSw7aZp9H30/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327133516040",
+            "title": "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
+            "declared_condition": "new",
+            "item_price": 124.99,
+            "shipping": 0.0,
+            "listed_total": 124.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 19
+        },
+        "query_aliases": [
+          "LEGO Mario Kart \u2013 Mario & Standard Kart 72037"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 72037",
+        "observed_at": "2026-11-10T00:20:52+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 31,
+        "seller_count": 31,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 4,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 102.88,
+        "competition_high": 167.09,
+        "estimated_resale": 99.79,
+        "estimated_range": [
+          92.59,
+          102.88
+        ],
+        "suggested_listing": 102.87,
+        "quick_sale_model": 92.59,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 104.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -27.43,
+        "max_landed_buy": 55.4,
+        "max_item_buy": null,
+        "delivery_headroom": -49.59,
+        "fees": 13.95,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 2.99,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 89.81,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|267812005389|0",
+            "seller": "brown2cool86",
+            "image": "https://i.ebayimg.com/images/g/iJYAAeSwC11qzWwM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267812005389",
+            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
+            "declared_condition": "new",
+            "item_price": 99.5,
+            "shipping": 3.38,
+            "listed_total": 102.88,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267834251634|0",
+            "seller": "bearyhugs-teddyhouse",
+            "image": "https://i.ebayimg.com/images/g/qnUAAeSw5DFq7HiS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267834251634",
+            "title": "LEGO Super Mario Kart 72037 Brand new",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 4.27,
+            "listed_total": 108.97,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168799491990|0",
+            "seller": "aldo8346",
+            "image": "https://i.ebayimg.com/images/g/Uw0AAeSw9t9q07lD/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168799491990",
+            "title": "LEGO Mario & Standard Kart 72037",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 5.99,
+            "listed_total": 110.69,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880088906070|0",
+            "seller": "jayjay8717",
+            "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880088906070",
+            "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
+            "declared_condition": "new",
+            "item_price": 108.85,
+            "shipping": 3.92,
+            "listed_total": 112.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407336669709|0",
+            "seller": "jasperonie",
+            "image": "https://i.ebayimg.com/images/g/F4IAAeSwQ2Rq6flr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407336669709",
+            "title": "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
+            "declared_condition": "new",
+            "item_price": 105.74,
+            "shipping": 7.43,
+            "listed_total": 113.17,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206598834090|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/9cAAAeSwamhqrmt9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206598834090",
+            "title": "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
+            "declared_condition": "new",
+            "item_price": 109.9,
+            "shipping": 4.28,
+            "listed_total": 114.18,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257832261751|0",
+            "seller": "wilkins-bricks",
+            "image": "https://i.ebayimg.com/images/g/-KoAAeSwHohq6ekS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257832261751",
+            "title": "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
+            "declared_condition": "new",
+            "item_price": 107.5,
+            "shipping": 8.36,
+            "listed_total": 115.86,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206667273297|0",
+            "seller": "pasinc-6",
+            "image": "https://i.ebayimg.com/images/g/kboAAeSwsqdqUdCK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206667273297",
+            "title": "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
+            "declared_condition": "new",
+            "item_price": 109.9,
+            "shipping": 7.08,
+            "listed_total": 116.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|336883786552|0",
+            "seller": "a.brow-660",
+            "image": "https://i.ebayimg.com/images/g/NuYAAeSw-rZq7hIK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336883786552",
+            "title": "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
+            "declared_condition": "new",
+            "item_price": 115.1,
+            "shipping": 6.76,
+            "listed_total": 121.86,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327133516040|0",
+            "seller": "beautystoresltd",
+            "image": "https://i.ebayimg.com/images/g/t3AAAeSw7aZp9H30/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327133516040",
+            "title": "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
+            "declared_condition": "new",
+            "item_price": 124.99,
+            "shipping": 0.0,
+            "listed_total": 124.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037",
+        "query": "LEGO 72037",
+        "kind": "active_ask",
+        "listing": 102.87,
+        "observed_at": "2026-11-10T00:20:52+00:00",
+        "valid_until": "2026-11-10T06:20:52+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/267812005389",
+          "https://www.ebay.co.uk/itm/267834251634",
+          "https://www.ebay.co.uk/itm/168799491990",
+          "https://www.ebay.co.uk/itm/880088906070",
+          "https://www.ebay.co.uk/itm/407336669709",
+          "https://www.ebay.co.uk/itm/206598834090",
+          "https://www.ebay.co.uk/itm/257832261751",
+          "https://www.ebay.co.uk/itm/206667273297",
+          "https://www.ebay.co.uk/itm/336883786552",
+          "https://www.ebay.co.uk/itm/327133516040"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/267812005389",
+            "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs 18+ Stand",
+            102.88,
+            3.38,
+            99.5,
+            "brown2cool86"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267834251634",
+            "LEGO Super Mario Kart 72037 Brand new",
+            108.97,
+            4.27,
+            104.7,
+            "bearyhugs-teddyhouse"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/168799491990",
+            "LEGO Mario & Standard Kart 72037",
+            110.69,
+            5.99,
+            104.7,
+            "aldo8346"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/880088906070",
+            "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
+            112.77,
+            3.92,
+            108.85,
+            "jayjay8717"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407336669709",
+            "LEGO Super Mario Mario Kart Mario & Standard Kart 72037 1972pcs Age 18+ (Box)",
+            113.17,
+            7.43,
+            105.74,
+            "jasperonie"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206598834090",
+            "LEGO Super Mario Mario & Standard Kart Set 72037 New and Sealed",
+            114.18,
+            4.28,
+            109.9,
+            "kenadams1177"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/257832261751",
+            "LEGO SUPER MARIO 72037: Mario Kart Mario & Standard Kart ***BRAND NEW SEALED***",
+            115.86,
+            8.36,
+            107.5,
+            "wilkins-bricks"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206667273297",
+            "LEGO Super Mario 72037 mario kart  Brand New.  Sealed",
+            116.98,
+            7.08,
+            109.9,
+            "pasinc-6"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/336883786552",
+            "LEGO Super Mario Mario Kart 72037 Mario & Standard Kart 1972pcs 18+",
+            121.86,
+            6.76,
+            115.1,
+            "a.brow-660"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327133516040",
+            "LEGO 72037 Mario Kart \u2013 Mario & Standard Kart",
+            124.99,
+            0.0,
+            124.99,
+            "beautystoresltd"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Technic Volvo FMX Truck & EC230 Electric Excavator 42175",
       "url": "https://www.hotukdeals.com/deals/lego-technic-volvo-fmx-truck-ec230-electric-excavator-42175-5027517",
       "policy_key": "df7b74e8e91ce3bb91479536",
@@ -22500,8 +22567,8 @@
       "item_price": 119.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/300x300/qt/55/5027517_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/300x300/qt/55/5027517_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/150x150/qt/55/5027517_1.jpg"
@@ -23212,8 +23279,8 @@
       "item_price": 119.69,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
         "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/150x150/qt/55/5026978_1.jpg"
@@ -24469,6 +24536,308 @@
       }
     },
     {
+      "title": "Gucci - Guilty For Him EDT (50ml)",
+      "url": "https://www.ebay.co.uk/itm/188975317830",
+      "policy_key": "6983935dfc212a27f22bb767",
+      "category": "fragrance",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 74.79,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/6KMAAeSwe01ofaVG/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/188975317830",
+      "landed_cost": 74.79,
+      "breakeven_sell": 95.24,
+      "sell_for_minimum_profit": 131.06,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 50,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 95.24,
+        "required_resale": 131.06,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": true,
+        "cost": 74.79,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs"
+      },
+      "outbound_transport_status": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-08T02:32:25+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gucci&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "gucci guilty for him EDT 50ml",
+        "category": "fragrance",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "family": "gucci guilty for him",
+          "concentration": "edt",
+          "ml": 50,
+          "bottle_format": "not stated"
+        },
+        "observed_at": "2026-11-10T00:52:01+00:00",
+        "date": "2026-11-10",
+        "sample_count": 2,
+        "listed_total_low": 37.69,
+        "listed_total_p25": 46.97,
+        "listed_total_median": 56.24,
+        "listed_total_p75": 65.52,
+        "listed_total_high": 74.79,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|318020220571|0",
+            "seller": "brookeysbargains",
+            "image": "https://i.ebayimg.com/images/g/AeMAAeSwCTFpucRP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318020220571",
+            "title": "Brand New Gucci Guilty 50ml EDT For Him !",
+            "declared_condition": "new",
+            "item_price": 34.97,
+            "shipping": 2.72,
+            "listed_total": 37.69
+          },
+          {
+            "item_id": "v1|188975317830|0",
+            "seller": "unineedltd",
+            "image": "https://i.ebayimg.com/images/g/6KMAAeSwe01ofaVG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188975317830",
+            "title": "Gucci - Guilty For Him EDT (50ml)",
+            "declared_condition": "new",
+            "item_price": 74.79,
+            "shipping": 0.0,
+            "listed_total": 74.79
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 2
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "Gucci - Guilty For Him EDT (50ml)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "fragrance",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "gucci guilty for him EDT 50ml",
+        "observed_at": "2026-11-10T00:52:01+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 37.69,
+        "competition_high": 37.69,
+        "estimated_resale": 36.55,
+        "estimated_range": [
+          33.92,
+          37.69
+        ],
+        "suggested_listing": 37.68,
+        "quick_sale_model": 33.92,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 74.79,
+        "delivery_known": true,
+        "landed_cost": 74.79,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": null,
+        "max_item_buy": null,
+        "delivery_headroom": null,
+        "fees": null,
+        "outbound_postage": null,
+        "packaging": null,
+        "returns_allowance": null,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 32.89,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": null,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+          "Bottle refillability/GTIN not stated: verify exact bottle revision; known refillable listings kept separate",
+          "Actual parcel/carrier and protective packaging costs unverified; conditional tariff scenario cannot create a buying signal",
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|318020220571|0",
+            "seller": "brookeysbargains",
+            "image": "https://i.ebayimg.com/images/g/AeMAAeSwCTFpucRP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318020220571",
+            "title": "Brand New Gucci Guilty 50ml EDT For Him !",
+            "declared_condition": "new",
+            "item_price": 34.97,
+            "shipping": 2.72,
+            "listed_total": 37.69,
+            "same_acquisition_promotion": false
+          }
+        ],
+        "transport_scenario": {
+          "profile": {
+            "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+            "checked_at": "2026-11-07",
+            "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+            "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+            "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+            "ml": 50,
+            "postage": 3.75,
+            "status": "conditional_tariff_scenario",
+            "actual_parcel_verified": false,
+            "scope": "UK domestic only; no international service",
+            "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+            "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+            "packaging_assumption": 0.5,
+            "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+            "reason": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+          },
+          "status": "conditional_tariff_scenario",
+          "breakeven": 95.24,
+          "required_resale": 131.06,
+          "net": -49.0,
+          "roi": -65.5,
+          "net_before_unknown_delivery": null,
+          "inbound_known": true,
+          "cost": 74.79,
+          "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs",
+          "fees": 5.41,
+          "returns": 1.1
+        },
+        "transport_validated": false
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
       "title": "Battlefield 6 Phantom Edition XBOX Series X | Disc",
       "url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
       "policy_key": "8e9f308abc00d8ba8598bfcd",
@@ -24544,10 +24913,13 @@
             "declared_condition": "new",
             "item_price": 29.49,
             "shipping": 0.0,
-            "listed_total": 29.49
+            "listed_total": 29.49,
+            "observed_at": "2026-11-10T00:20:50+00:00"
           }
         ],
         "rejected": {},
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Battlefield 6 Phantom Edition XBOX Series X | Disc"
         ]
@@ -24651,6 +25023,7 @@
             "item_price": 29.49,
             "shipping": 0.0,
             "listed_total": 29.49,
+            "observed_at": "2026-11-10T00:20:50+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -24790,7 +25163,7 @@
         "rejected": {
           "identity_or_condition": 18
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Lies of P (PS5)"
@@ -25128,7 +25501,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -26164,7 +26537,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -26364,7 +26737,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -27196,7 +27569,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
@@ -27512,7 +27885,7 @@
         "rejected": {
           "identity_or_condition": 44
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -27894,7 +28267,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-10T00:20:30+00:00",
+        "canonicalized_at": "2026-11-10T00:51:31+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -28575,7 +28948,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|313738541392|0",
-          "observed_at": "2026-11-10T00:20:30+00:00",
+          "observed_at": "2026-11-10T00:51:31+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048748312",
@@ -28967,7 +29340,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|206068108309|0",
-          "observed_at": "2026-11-10T00:20:30+00:00",
+          "observed_at": "2026-11-10T00:51:31+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -29261,8 +29634,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/150x150/qt/55/5026739_1.jpg",
@@ -29305,8 +29678,8 @@
       "item_price": 14.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/150x150/qt/55/5026720_1.jpg"
@@ -29347,8 +29720,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg"
@@ -29389,8 +29762,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/150x150/qt/55/5026689_1.jpg"
@@ -29431,8 +29804,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
         "https://i.ebayimg.com/images/g/s08AAeSwh0NqXfCA/s-l225.jpg",
@@ -29514,8 +29887,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg"
@@ -29556,8 +29929,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg"
@@ -29584,6 +29957,72 @@
       }
     },
     {
+      "title": "Death Howl PS5 Physical",
+      "url": "https://www.hotukdeals.com/deals/death-howl-ps5-physical-5027588",
+      "policy_key": "509d428fdc4181c9ef4604d2",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 19.41,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/w6xLX/5027588_1/re/150x150/qt/55/5027588_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/death-howl-ps5-physical-5027588",
+      "landed_cost": null,
+      "breakeven_sell": 27.26,
+      "sell_for_minimum_profit": 36.7,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-10T00:51:59+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Death+Howl+PS5+Physical&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "death howl physical ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T00:52:00+00:00",
+        "date": "2026-11-10",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Death Howl PS5 Physical"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Lucky Cat 40813",
       "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
       "policy_key": "1fd192dffdb1b099a4aaea2f",
@@ -29598,8 +30037,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg",
@@ -29759,8 +30198,8 @@
       "item_price": 39.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/150x150/qt/55/5026563_1.jpg",
@@ -29803,8 +30242,8 @@
       "item_price": 39.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:42.846932+00:00",
-      "image_checked_at": "2026-11-10T00:20:42.846932+00:00",
+      "image_verified_until": "2026-11-10T01:11:49.254412+00:00",
+      "image_checked_at": "2026-11-10T00:51:49.254412+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/150x150/qt/55/5026835_1.jpg"
@@ -29824,7 +30263,41 @@
       "priority": 10,
       "first_seen": "2026-11-09T08:39:25+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+40820+Up+Scaled+Santa+Minifgure&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 40820",
+        "category": "lego",
+        "name_terms": [
+          "minifgure",
+          "santa",
+          "scaled",
+          "up"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T00:52:00+00:00",
+        "date": "2026-11-10",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 50
+        },
+        "query_aliases": [
+          "LEGO 40820 Up Scaled Santa Minifgure"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -29845,8 +30318,8 @@
       "item_price": 42.72,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
         "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
@@ -29928,8 +30401,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg",
@@ -30011,8 +30484,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg",
@@ -30055,8 +30528,8 @@
       "item_price": 57.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-      "image_verified_until": "2026-11-10T00:40:53.323195+00:00",
-      "image_checked_at": "2026-11-10T00:20:53.323195+00:00",
+      "image_verified_until": "2026-11-10T01:12:02.609049+00:00",
+      "image_checked_at": "2026-11-10T00:52:02.609049+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg",
@@ -37686,9 +38159,9 @@
       "retailer_unknown_delivery": 305,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 311,
+    "scanned": 312,
     "priced": 2,
-    "unpriced": 309,
+    "unpriced": 310,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -37702,36 +38175,36 @@
     "expiry_unknown": 2,
     "sold_valued": 0,
     "reference_only": 2,
-    "online_eligible": 257,
+    "online_eligible": 258,
     "under_cap_known_delivery": 3,
-    "delivery_known": 6,
-    "ask_valued": 31,
+    "delivery_known": 7,
+    "ask_valued": 32,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 10,
-    "above_budget_candidates": 51,
-    "above_budget_researched": 10,
-    "above_budget_research_candidates": 51,
+    "above_budget_estimates": 11,
+    "above_budget_candidates": 52,
+    "above_budget_researched": 11,
+    "above_budget_research_candidates": 52,
     "acquisition_by_source": {
-      "ebay_browse": 2,
+      "ebay_browse": 3,
       "hotukdeals": 309
     },
     "qualified_delivery_unknown": 29,
-    "ask_delivery_known": 2,
+    "ask_delivery_known": 3,
     "ask_unique_products": 27,
     "ask_research_identities": 27,
     "without_any_pricing": 278,
     "pricing_coverage": {
       "fragrance": {
-        "offers": 33,
-        "exact_identity": 2,
-        "estimated_offers": 2,
+        "offers": 34,
+        "exact_identity": 3,
+        "estimated_offers": 3,
         "estimated_products": 2,
         "supported_retailer_identities": 0
       },
       "gaming": {
         "offers": 41,
-        "exact_identity": 22,
+        "exact_identity": 23,
         "estimated_offers": 8,
         "estimated_products": 6,
         "supported_retailer_identities": 2
@@ -37781,13 +38254,13 @@
     },
     "browse_usage": {
       "date": "2026-11-10",
-      "calls": 13,
+      "calls": 26,
       "by_purpose": {
-        "persistent-research": 2,
-        "item-details": 4,
-        "acquisition": 4,
-        "asking-affordable": 2,
-        "asking-watch": 1
+        "persistent-research": 4,
+        "item-details": 8,
+        "acquisition": 8,
+        "asking-affordable": 4,
+        "asking-watch": 2
       }
     },
     "warnings": [
@@ -37799,10 +38272,10 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 23,
+        "duplicates": 19,
         "old_dropped": 114,
         "age_unknown": 0,
-        "missing_price_or_category": 95,
+        "missing_price_or_category": 99,
         "ambiguous_price": 3,
         "page_requests": 8
       },
@@ -37812,11 +38285,11 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 2,
-          "cached": 20,
+          "cached": 22,
           "query_budget": 2,
           "queries_by_category": {
-            "gaming": 1,
-            "tech": 1
+            "lego": 1,
+            "gaming": 1
           },
           "candidates_with_samples": 21,
           "status": "ready",
@@ -37834,12 +38307,12 @@
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
             "queries": 1,
-            "cached": 9,
+            "cached": 10,
             "query_budget": 2,
             "queries_by_category": {
-              "lego": 1
+              "fragrance": 1
             },
-            "candidates_with_samples": 10,
+            "candidates_with_samples": 11,
             "status": "ready",
             "errors": []
           }
@@ -37848,31 +38321,59 @@
       "capture_buffer": {
         "enabled": true,
         "added": 25,
-        "duplicates": 38,
+        "duplicates": 39,
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-10T00:20:24.479Z",
-        "last_success": "2026-11-10T00:20:24.479Z"
+        "last_attempt": "2026-11-10T00:50:24.896Z",
+        "last_success": "2026-11-10T00:50:24.896Z"
       },
       "ebay_acquisition": {
         "status": "ready",
         "queries": 4,
-        "candidates": 2,
+        "candidates": 3,
         "errors": [],
         "purpose": "Official active Buy It Now acquisition; NEW only, not sold evidence",
         "query_budget": 4,
         "queries_by_category": {
           "lego": 2,
           "gaming": 1,
-          "tech": 1
+          "fragrance": 1
         },
         "query_details": [
           {
-            "query": "LEGO 42175",
+            "query": "LEGO 72037",
             "category": "lego",
             "samples": 0,
-            "rejected": {},
+            "rejected": {
+              "identity_or_condition": 8
+            },
+            "sort": "price",
+            "max_item_price": 55.4,
+            "max_landed_price": 55.4,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "resident evil requiem ps5",
+            "category": "gaming",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 9
+            },
+            "sort": "price",
+            "max_item_price": 23.17,
+            "max_landed_price": 23.17,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "LEGO 77082",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 4
+            },
             "sort": "newlyListed",
             "max_item_price": 60.0,
             "max_landed_price": 60.0,
@@ -37880,34 +38381,12 @@
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "no sleep for kaname date from ai the somnium files ps5",
-            "category": "gaming",
-            "samples": 0,
-            "rejected": {},
-            "sort": "price",
-            "max_item_price": 14.6,
-            "max_landed_price": 14.6,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 76419",
-            "category": "lego",
-            "samples": 0,
+            "query": "gucci guilty for him EDT 50ml",
+            "category": "fragrance",
+            "samples": 1,
             "rejected": {
-              "identity_or_condition": 4
+              "identity_or_condition": 2
             },
-            "sort": "price",
-            "max_item_price": 56.9,
-            "max_landed_price": 56.9,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "Soundcore Q21I black",
-            "category": "tech",
-            "samples": 2,
-            "rejected": {},
             "sort": "price",
             "max_item_price": null,
             "max_landed_price": null,
@@ -37916,13 +38395,13 @@
           }
         ],
         "target_selection": {
-          "contexts_examined": 126,
+          "contexts_examined": 127,
           "context_reasons": {
             "not_usable": 119,
-            "eligible": 4,
-            "query_cooldown": 3
+            "query_cooldown": 3,
+            "eligible": 5
           },
-          "eligible_distinct_queries": 4,
+          "eligible_distinct_queries": 5,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -37930,11 +38409,13 @@
         },
         "price_led_queries": 3,
         "research_discovery_queries": 1,
-        "persistent_watchlist": 126,
-        "query": "LEGO 42175",
-        "matched_shipped_samples": 2,
-        "rejections": {},
-        "watchlist_products": 75
+        "persistent_watchlist": 127,
+        "query": "LEGO 72037",
+        "matched_shipped_samples": 1,
+        "rejections": {
+          "identity_or_condition": 2
+        },
+        "watchlist_products": 76
       },
       "reviewed_bridge": {
         "status": "ready",
@@ -37949,31 +38430,31 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 6,
-    "rescanned": 305,
+    "new": 1,
+    "rescanned": 311,
     "price_changed": 0,
-    "previous_success": "2026-11-09T23:49:55+00:00",
-    "gap_minutes": 30.9,
+    "previous_success": "2026-11-10T00:20:55+00:00",
+    "gap_minutes": 31.1,
     "publication_holds": {
       "eligible": 8,
-      "held": 303,
+      "held": 304,
       "reasons": {
         "no_supported_resale_estimate": 280,
         "uncertain_competitor_coupon": 3,
-        "detail_check_pending": 7,
+        "detail_check_pending": 8,
         "detail_check_failed": 1,
         "fewer_than_three_exact_independent_comparators": 6,
         "low_price_not_supported": 6
       },
       "by_category": {
-        "other": 18,
-        "tech": 59,
         "lego": 45,
-        "tools": 24,
-        "trainers": 83,
+        "sportswear": 2,
         "gaming": 39,
-        "fragrance": 33,
-        "sportswear": 2
+        "trainers": 83,
+        "fragrance": 34,
+        "tech": 59,
+        "tools": 24,
+        "other": 18
       }
     },
     "excluded_nonphysical": [
@@ -38196,14 +38677,14 @@
     ],
     "source_coverage": {
       "ebay_browse": {
-        "offers": 2,
+        "offers": 3,
         "new": 0,
-        "estimated": 2,
+        "estimated": 3,
         "actionable": 0
       },
       "hotukdeals": {
         "offers": 309,
-        "new": 6,
+        "new": 1,
         "estimated": 29,
         "actionable": 0
       }
@@ -38257,8 +38738,8 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 311,
-      "research_models_generated": 31,
+      "offers_scanned": 312,
+      "research_models_generated": 32,
       "supported_market_estimates": 8,
       "publication_qualified_cards": 8,
       "route_eligible_cards": 8,
@@ -38267,11 +38748,11 @@
       "opportunity_candidates": 0,
       "research_watch_candidates": 8,
       "above_budget_priced_watch": 4,
-      "research_holds": 303,
+      "research_holds": 304,
       "hold_reasons": {
         "no_supported_resale_estimate": 280,
         "uncertain_competitor_coupon": 3,
-        "detail_check_pending": 7,
+        "detail_check_pending": 8,
         "detail_check_failed": 1,
         "fewer_than_three_exact_independent_comparators": 6,
         "low_price_not_supported": 6
@@ -38314,10 +38795,10 @@
           "holds": 59
         },
         "fragrance": {
-          "offers": 33,
+          "offers": 34,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 33
+          "holds": 34
         },
         "other": {
           "offers": 18,
@@ -38326,7 +38807,7 @@
           "holds": 18
         }
       },
-      "inbound_known": 6,
+      "inbound_known": 7,
       "inbound_unknown": 305
     },
     "routing_destinations": {
@@ -38372,12 +38853,10 @@
     ],
     "notification_delivery": {
       "mode": "live",
-      "product_messages_delivered": 1,
-      "by_route": {
-        "research-watch": 1
-      }
+      "product_messages_delivered": 0,
+      "by_route": {}
     },
-    "review_candidates": 224,
+    "review_candidates": 226,
     "lego_image_validation": {
       "checked": 18,
       "cached": 33,
@@ -38388,19 +38867,19 @@
     },
     "pricing_labels": {
       "exact_priced": 8,
-      "research_model_only": 23,
+      "research_model_only": 24,
       "unpriced": 280,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 310,
+    "images_available": 311,
     "lego_images_available": 51,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "42727524019",
+      "run_id": "42731459277",
       "event": "workflow_dispatch",
-      "parent_run_id": "42723504682"
+      "parent_run_id": "42727524019"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -38411,10 +38890,10 @@
           "url": "https://www.hotukdeals.com/deals/lego-mario-kart-mario-standard-kart-72037-5027552",
           "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037",
           "current_price": 104.99,
-          "last_delivered_price": null,
-          "pct_change": null,
-          "would_deliver": true,
-          "reason": "first_delivery",
+          "last_delivered_price": 104.99,
+          "pct_change": 0.0,
+          "would_deliver": false,
+          "reason": "price_change_under_10pct",
           "is_repost": false
         },
         {
@@ -38520,7 +38999,7 @@
         "retailer": "\u2705 Major UK retailer; verify resale/B2B terms and actual returns policy",
         "fake": "\ud83d\udfe0 Medium fake/authenticity risk \u00b7 Keep the receipt and box; list with receipt photo (buyers pay more for proof).",
         "cashback": "Check TopCashback/Quidco for JD Sports before buying (rates change daily; not counted in profit).",
-        "history": "Lowest seen by MONEYHUNTER (since 2026-11-09)",
+        "history": "Lowest seen by MONEYHUNTER (since 2026-11-10)",
         "camel": ""
       },
       "postage": 3.52,
@@ -38593,7 +39072,7 @@
         "retailer": "\u2705 Major UK retailer; verify resale/B2B terms and actual returns policy",
         "fake": "\ud83d\udfe0 Medium fake/authenticity risk \u00b7 Keep the receipt and box; list with receipt photo (buyers pay more for proof).",
         "cashback": "",
-        "history": "Lowest seen by MONEYHUNTER (since 2026-11-09)",
+        "history": "Lowest seen by MONEYHUNTER (since 2026-11-10)",
         "camel": ""
       },
       "postage": 3.52,
