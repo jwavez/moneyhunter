@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:00:42+00:00",
       "valid_until": "2026-11-10T10:00:42+00:00",
       "competition_low": 76.94,
@@ -95,7 +95,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:32:08+00:00",
       "valid_until": "2026-11-10T10:32:08+00:00",
       "competition_low": 56.76,
@@ -111,7 +111,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-10T04:32:08+00:00",
+        "observed_at": "2026-11-10T05:03:15+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -341,7 +341,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T03:29:27+00:00",
       "valid_until": "2026-11-10T09:29:27+00:00",
       "competition_low": 59.99,
@@ -405,7 +405,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T00:52:01+00:00",
       "valid_until": "2026-11-10T06:52:01+00:00",
       "competition_low": 37.69,
@@ -477,7 +477,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:58:25+00:00",
       "valid_until": "2026-11-10T08:58:25+00:00",
       "competition_low": 29.64,
@@ -568,9 +568,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:38:43+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
-      "observed_at": "2026-11-10T00:51:31+00:00",
-      "valid_until": "2026-11-10T06:51:31+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
+      "observed_at": "2026-11-10T05:03:15+00:00",
+      "valid_until": "2026-11-10T11:03:15+00:00",
       "competition_low": 52.7,
       "estimated_resale": 51.11,
       "seller_count": 39,
@@ -584,7 +584,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|227603996710|0",
-        "observed_at": "2026-11-10T04:32:08+00:00",
+        "observed_at": "2026-11-10T05:03:15+00:00",
         "status": "conflict",
         "reasons": [
           "model aspect mismatch",
@@ -766,38 +766,38 @@
           "seller": "joh-491597",
           "url": "https://www.ebay.co.uk/itm/227603996710",
           "delivered": 52.7,
-          "observed_at": "2026-11-10T00:51:31+00:00"
+          "observed_at": "2026-11-10T05:03:15+00:00"
         },
         {
           "item_id": "v1|128153579279|0",
           "seller": "arekigo",
           "url": "https://www.ebay.co.uk/itm/128153579279",
           "delivered": 52.7,
-          "observed_at": "2026-11-10T00:51:31+00:00"
+          "observed_at": "2026-11-10T05:03:15+00:00"
         },
         {
           "item_id": "v1|377583270827|0",
           "seller": "meh_1873",
           "url": "https://www.ebay.co.uk/itm/377583270827",
           "delivered": 54.93,
-          "observed_at": "2026-11-10T00:51:31+00:00"
+          "observed_at": "2026-11-10T05:03:15+00:00"
         },
         {
           "item_id": "v1|128173712391|0",
           "seller": "trendvibemarket",
           "url": "https://www.ebay.co.uk/itm/128173712391",
           "delivered": 55.4,
-          "observed_at": "2026-11-10T00:51:31+00:00"
+          "observed_at": "2026-11-10T05:03:15+00:00"
         },
         {
           "item_id": "v1|880086617182|0",
           "seller": "pennywiseunited",
           "url": "https://www.ebay.co.uk/itm/880086617182",
           "delivered": 55.4,
-          "observed_at": "2026-11-10T00:51:31+00:00"
+          "observed_at": "2026-11-10T05:03:15+00:00"
         }
       ],
-      "last_research_at": "2026-11-10T00:51:31+00:00"
+      "last_research_at": "2026-11-10T05:03:15+00:00"
     },
     {
       "key": "browse-asks-v5:tech:soundcore q21i black:abc08c3d8cd5",
@@ -823,7 +823,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:32:33+00:00",
       "valid_until": "2026-11-10T10:32:33+00:00",
       "competition_low": 37.95,
@@ -897,7 +897,7 @@
         ]
       },
       "first_seen": "2026-11-08T22:06:28+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:18:50+00:00",
       "valid_until": "2026-11-10T05:18:50+00:00",
       "competition_low": 17.34,
@@ -968,7 +968,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:18:50+00:00",
       "valid_until": "2026-11-10T05:18:50+00:00",
       "competition_low": 43.96,
@@ -1017,8 +1017,8 @@
           "observed_at": "2026-11-09T23:18:50+00:00"
         }
       ],
-      "last_search_at": "2026-11-10T04:01:07+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-10T05:03:25+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 23.17
     },
     {
@@ -1045,7 +1045,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:56:12+00:00",
       "valid_until": "2026-11-10T08:56:12+00:00",
       "competition_low": 39.0,
@@ -1118,7 +1118,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:34:53+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:49:52+00:00",
       "valid_until": "2026-11-10T05:49:52+00:00",
       "competition_low": 109.99,
@@ -1183,7 +1183,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T10:30:02+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:49:50+00:00",
       "valid_until": "2026-11-10T05:49:50+00:00",
       "competition_low": 189.99,
@@ -1242,7 +1242,7 @@
         ]
       },
       "first_seen": "2026-11-09T11:20:27+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:49:52+00:00",
       "valid_until": "2026-11-10T05:49:52+00:00",
       "competition_low": 147.07,
@@ -1315,7 +1315,7 @@
         ]
       },
       "first_seen": "2026-11-09T09:10:14+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:49:51+00:00",
       "valid_until": "2026-11-10T05:49:51+00:00",
       "competition_low": 12.25,
@@ -1383,7 +1383,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T06:36:29+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-09T23:49:51+00:00",
       "valid_until": "2026-11-10T05:49:51+00:00",
       "competition_low": 31.99,
@@ -1452,7 +1452,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T07:07:15+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T00:20:50+00:00",
       "valid_until": "2026-11-10T06:20:50+00:00",
       "competition_low": 29.49,
@@ -1496,7 +1496,7 @@
         ]
       },
       "first_seen": "2026-11-10T00:20:55+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T00:20:52+00:00",
       "valid_until": "2026-11-10T06:20:52+00:00",
       "competition_low": 102.88,
@@ -1545,8 +1545,8 @@
           "observed_at": "2026-11-10T00:20:52+00:00"
         }
       ],
-      "last_search_at": "2026-11-10T03:29:40+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-10T05:03:25+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 55.4
     },
     {
@@ -1571,7 +1571,7 @@
         ]
       },
       "first_seen": "2026-11-10T01:23:25+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T01:23:20+00:00",
       "valid_until": "2026-11-10T07:23:20+00:00",
       "competition_low": 3.99,
@@ -1641,7 +1641,7 @@
         ]
       },
       "first_seen": "2026-11-10T01:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T01:54:24+00:00",
       "valid_until": "2026-11-10T07:54:24+00:00",
       "competition_low": 6.82,
@@ -1719,7 +1719,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:34:53+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:25:33+00:00",
       "valid_until": "2026-11-10T08:25:33+00:00",
       "competition_low": 156.99,
@@ -1734,7 +1734,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|313738541392|0",
-        "observed_at": "2026-11-10T04:32:08+00:00",
+        "observed_at": "2026-11-10T05:03:15+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048748312",
@@ -1896,7 +1896,7 @@
         ]
       },
       "first_seen": "2026-11-10T02:25:36+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:25:31+00:00",
       "valid_until": "2026-11-10T08:25:31+00:00",
       "competition_low": 54.99,
@@ -1971,7 +1971,7 @@
         ]
       },
       "first_seen": "2026-11-09T13:54:45+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:56:36+00:00",
       "valid_until": "2026-11-10T08:56:36+00:00",
       "competition_low": 105.49,
@@ -2040,7 +2040,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:56:35+00:00",
       "valid_until": "2026-11-10T08:56:35+00:00",
       "competition_low": 57.72,
@@ -2091,7 +2091,7 @@
         ]
       },
       "first_seen": "2026-11-10T02:56:39+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:56:35+00:00",
       "valid_until": "2026-11-10T08:56:35+00:00",
       "competition_low": 42.82,
@@ -2167,7 +2167,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:58:25+00:00",
       "valid_until": "2026-11-10T08:58:25+00:00",
       "competition_low": 20.99,
@@ -2253,7 +2253,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:58:43+00:00",
       "valid_until": "2026-11-10T08:58:43+00:00",
       "competition_low": 19.96,
@@ -2338,7 +2338,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:41+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T02:58:43+00:00",
       "valid_until": "2026-11-10T08:58:43+00:00",
       "competition_low": 30.99,
@@ -2402,7 +2402,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:39:17+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T03:29:58+00:00",
       "valid_until": "2026-11-10T09:29:58+00:00",
       "competition_low": 139.95,
@@ -2418,7 +2418,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|206068108309|0",
-        "observed_at": "2026-11-10T04:32:08+00:00",
+        "observed_at": "2026-11-10T05:03:15+00:00",
         "status": "conflict",
         "reasons": [
           "tool model mismatch"
@@ -2550,7 +2550,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T20:34:13+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T03:29:56+00:00",
       "valid_until": "2026-11-10T09:29:56+00:00",
       "competition_low": 39.33,
@@ -2596,7 +2596,7 @@
         ]
       },
       "first_seen": "2026-11-10T03:30:02+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T03:29:56+00:00",
       "valid_until": "2026-11-10T09:29:56+00:00",
       "competition_low": 2.99,
@@ -2671,7 +2671,7 @@
         ]
       },
       "first_seen": "2026-11-09T13:23:50+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:01:27+00:00",
       "valid_until": "2026-11-10T10:01:27+00:00",
       "competition_low": 95.09,
@@ -2745,7 +2745,7 @@
         ]
       },
       "first_seen": "2026-11-08T22:30:09+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:01:25+00:00",
       "valid_until": "2026-11-10T10:01:25+00:00",
       "competition_low": 42.0,
@@ -2821,7 +2821,7 @@
         ]
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:32:34+00:00",
       "valid_until": "2026-11-10T10:32:34+00:00",
       "competition_low": 156.65,
@@ -2870,8 +2870,8 @@
           "observed_at": "2026-11-10T04:32:34+00:00"
         }
       ],
-      "last_search_at": "2026-11-10T02:58:40+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-10T05:03:25+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 60.0
     },
     {
@@ -2890,7 +2890,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T10:49:44+00:00",
-      "last_seen": "2026-11-10T04:32:38+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
       "observed_at": "2026-11-10T04:32:33+00:00",
       "valid_until": "2026-11-10T10:32:33+00:00",
       "competition_low": 46.64,
@@ -2911,6 +2911,155 @@
           "url": "https://www.ebay.co.uk/itm/920026684784",
           "delivered": 46.64,
           "observed_at": "2026-11-10T04:32:33+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 72150:baf63a971a6c",
+      "category": "lego",
+      "query": "LEGO 72150",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 72150",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "munchlax"
+        ]
+      },
+      "first_seen": "2026-11-07T21:54:26+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
+      "observed_at": "2026-11-10T05:03:39+00:00",
+      "valid_until": "2026-11-10T11:03:39+00:00",
+      "competition_low": 50.44,
+      "estimated_resale": 48.92,
+      "seller_count": 27,
+      "low_supporting_sellers": 5,
+      "max_landed_buy": 25.05,
+      "target_status": "usable_configured_cost_target",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|336815574656|0",
+          "seller": "ruhbarb2002",
+          "url": "https://www.ebay.co.uk/itm/336815574656",
+          "delivered": 50.44,
+          "observed_at": "2026-11-10T05:03:39+00:00"
+        },
+        {
+          "item_id": "v1|168828768031|0",
+          "seller": "true_toys",
+          "url": "https://www.ebay.co.uk/itm/168828768031",
+          "delivered": 50.49,
+          "observed_at": "2026-11-10T05:03:39+00:00"
+        },
+        {
+          "item_id": "v1|407327606704|0",
+          "seller": "nextgenration12",
+          "url": "https://www.ebay.co.uk/itm/407327606704",
+          "delivered": 52.69,
+          "observed_at": "2026-11-10T05:03:39+00:00"
+        },
+        {
+          "item_id": "v1|257826733755|0",
+          "seller": "rystonuk",
+          "url": "https://www.ebay.co.uk/itm/257826733755",
+          "delivered": 52.71,
+          "observed_at": "2026-11-10T05:03:39+00:00"
+        },
+        {
+          "item_id": "v1|366534847091|0",
+          "seller": "wwsm2006",
+          "url": "https://www.ebay.co.uk/itm/366534847091",
+          "delivered": 53.98,
+          "observed_at": "2026-11-10T05:03:39+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-08T18:00:13+00:00",
+      "last_search_sort": "newlyListed",
+      "last_item_price_filter": 21.9
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 11373:0f10967bf87e",
+      "category": "lego",
+      "query": "LEGO 11373",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 11373",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "18+",
+          "adults",
+          "age",
+          "for",
+          "helmet",
+          "icons",
+          "lord",
+          "rings",
+          "saurons"
+        ]
+      },
+      "first_seen": "2026-11-10T05:03:44+00:00",
+      "last_seen": "2026-11-10T05:03:44+00:00",
+      "observed_at": "2026-11-10T05:03:40+00:00",
+      "valid_until": "2026-11-10T11:03:40+00:00",
+      "competition_low": 3.99,
+      "estimated_resale": 3.87,
+      "seller_count": 37,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|358585379559|0",
+          "seller": "tommy-town",
+          "url": "https://www.ebay.co.uk/itm/358585379559",
+          "delivered": 3.99,
+          "observed_at": "2026-11-10T05:03:40+00:00"
+        },
+        {
+          "item_id": "v1|800704054746|0",
+          "seller": "li-416047",
+          "url": "https://www.ebay.co.uk/itm/800704054746",
+          "delivered": 44.2,
+          "observed_at": "2026-11-10T05:03:40+00:00"
+        },
+        {
+          "item_id": "v1|198781304704|0",
+          "seller": "alereaso0",
+          "url": "https://www.ebay.co.uk/itm/198781304704",
+          "delivered": 45.24,
+          "observed_at": "2026-11-10T05:03:40+00:00"
+        },
+        {
+          "item_id": "v1|840099996705|0",
+          "seller": "assorted_goods2020",
+          "url": "https://www.ebay.co.uk/itm/840099996705",
+          "delivered": 46.7,
+          "observed_at": "2026-11-10T05:03:40+00:00"
+        },
+        {
+          "item_id": "v1|137912249432|0",
+          "seller": "brickandbits",
+          "url": "https://www.ebay.co.uk/itm/137912249432",
+          "delivered": 47.05,
+          "observed_at": "2026-11-10T05:03:40+00:00"
         }
       ]
     },
@@ -4759,79 +4908,6 @@
           "observed_at": "2026-11-09T11:20:25+00:00"
         }
       ]
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 72150:baf63a971a6c",
-      "category": "lego",
-      "query": "LEGO 72150",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 72150",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "munchlax"
-        ]
-      },
-      "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-09T15:58:23+00:00",
-      "observed_at": "2026-11-09T10:18:57+00:00",
-      "valid_until": "2026-11-09T16:18:57+00:00",
-      "competition_low": 35.28,
-      "estimated_resale": 34.22,
-      "seller_count": 28,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|407336572898|0",
-          "seller": "olgab_1",
-          "url": "https://www.ebay.co.uk/itm/407336572898",
-          "delivered": 35.28,
-          "observed_at": "2026-11-09T10:18:57+00:00"
-        },
-        {
-          "item_id": "v1|336815574656|0",
-          "seller": "ruhbarb2002",
-          "url": "https://www.ebay.co.uk/itm/336815574656",
-          "delivered": 50.44,
-          "observed_at": "2026-11-09T10:18:57+00:00"
-        },
-        {
-          "item_id": "v1|168828768031|0",
-          "seller": "true_toys",
-          "url": "https://www.ebay.co.uk/itm/168828768031",
-          "delivered": 50.49,
-          "observed_at": "2026-11-09T10:18:57+00:00"
-        },
-        {
-          "item_id": "v1|407327606704|0",
-          "seller": "nextgenration12",
-          "url": "https://www.ebay.co.uk/itm/407327606704",
-          "delivered": 52.69,
-          "observed_at": "2026-11-09T10:18:57+00:00"
-        },
-        {
-          "item_id": "v1|257826733755|0",
-          "seller": "rystonuk",
-          "url": "https://www.ebay.co.uk/itm/257826733755",
-          "delivered": 52.71,
-          "observed_at": "2026-11-09T10:18:57+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-08T18:00:13+00:00",
-      "last_search_sort": "newlyListed",
-      "last_item_price_filter": 21.9
     },
     {
       "key": "browse-asks-v5:gaming:r type delta hd boosted ps5:4f53cda18c2b",
@@ -9547,7 +9623,7 @@
           "observed_at": "2026-11-07T21:33:30+00:00"
         }
       ],
-      "last_research_at": "2026-11-10T04:32:08+00:00"
+      "last_research_at": "2026-11-10T05:03:15+00:00"
     },
     {
       "key": "browse-asks-v5:gaming:little nightmares ii enhanced edition xbox series x:4f53cda18c2b",
@@ -9700,6 +9776,269 @@
   ],
   "pricing_catalog": [],
   "asking_catalog": [
+    {
+      "kind": "active_ask",
+      "query": "LEGO 11373",
+      "category": "lego",
+      "name_terms": [
+        "helmet",
+        "icons",
+        "lord",
+        "rings",
+        "saurons"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-10T01:23:20+00:00",
+      "date": "2026-11-10",
+      "sample_count": 37,
+      "listed_total_low": 3.99,
+      "listed_total_p25": 52.7,
+      "listed_total_median": 60.23,
+      "listed_total_p75": 66.81,
+      "listed_total_high": 76.99,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|358585379559|0",
+          "seller": "tommy-town",
+          "image": "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/358585379559",
+          "title": "Lego Lord Of The Rings (6180pb210) Modified 4x6 Tile For 11373 Sauron's Helmet",
+          "declared_condition": "new",
+          "item_price": 3.99,
+          "shipping": 0.0,
+          "listed_total": 3.99
+        },
+        {
+          "item_id": "v1|800704054746|0",
+          "seller": "li-416047",
+          "image": "https://i.ebayimg.com/images/g/YWYAAeSwFqVqs7Nz/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/800704054746",
+          "title": "LEGO Icons 11373 Sauron The Lord of the Rings 538pcs 18+ Brick Sep",
+          "declared_condition": "new",
+          "item_price": 41.26,
+          "shipping": 2.94,
+          "listed_total": 44.2
+        },
+        {
+          "item_id": "v1|198781304704|0",
+          "seller": "alereaso0",
+          "image": "https://i.ebayimg.com/images/g/JUIAAeSw-bFq8HD1/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/198781304704",
+          "title": "LEGO Icons The Lord of the Rings 11373 Sauron Building Set 538pcs 18+",
+          "declared_condition": "new",
+          "item_price": 42.3,
+          "shipping": 2.94,
+          "listed_total": 45.24
+        },
+        {
+          "item_id": "v1|840099996705|0",
+          "seller": "assorted_goods2020",
+          "image": "https://i.ebayimg.com/images/g/zGcAAeSwyOBq7bq0/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/840099996705",
+          "title": "LEGO ICONS The Lord of the Rings: Sauron's Helmet (11373)",
+          "declared_condition": "new",
+          "item_price": 42.99,
+          "shipping": 3.71,
+          "listed_total": 46.7
+        },
+        {
+          "item_id": "v1|137912249432|0",
+          "seller": "brickandbits",
+          "image": "https://i.ebayimg.com/images/g/qLoAAeSw~O9q7-op/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/137912249432",
+          "title": "Lego 11373 Lord Of The RingsSauron Helmet - New Sealed - Same Day Ship ",
+          "declared_condition": "new",
+          "item_price": 43.34,
+          "shipping": 3.71,
+          "listed_total": 47.05
+        },
+        {
+          "item_id": "v1|206668168972|0",
+          "seller": "libur_9490",
+          "image": "https://i.ebayimg.com/images/g/QNUAAeSw5ZNq52Z6/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/206668168972",
+          "title": "LEGO Icons The Lord of the Rings SAURON 11373 Complete Set 538pcs 18+",
+          "declared_condition": "new",
+          "item_price": 47.5,
+          "shipping": 0.0,
+          "listed_total": 47.5
+        },
+        {
+          "item_id": "v1|198717291470|0",
+          "seller": "ajfaizy",
+          "image": "https://i.ebayimg.com/images/g/5zMAAeSwPf1q0N5M/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/198717291470",
+          "title": "Lego Icons: Lord Of The Rings: Sauron Helmet (11373) Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 45.42,
+          "shipping": 3.38,
+          "listed_total": 48.8
+        },
+        {
+          "item_id": "v1|128112641718|0",
+          "seller": "mkz-opz",
+          "image": "https://i.ebayimg.com/images/g/o5AAAeSwr2RqwQCO/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/128112641718",
+          "title": "LEGO The Lord of the Rings: Sauron's Helmet (11373) - Brand new & Sealed",
+          "declared_condition": "new",
+          "item_price": 50.0,
+          "shipping": 0.0,
+          "listed_total": 50.0
+        },
+        {
+          "item_id": "v1|398340722775|0",
+          "seller": "oncetwicenice",
+          "image": "https://i.ebayimg.com/images/g/TYIAAeSwXyxqlE31/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/398340722775",
+          "title": "LEGO Set 11373 Icons - The Lord of The Rings: Sauron's Helmet - Brand New Sealed",
+          "declared_condition": "new",
+          "item_price": 46.46,
+          "shipping": 3.71,
+          "listed_total": 50.17
+        },
+        {
+          "item_id": "v1|227603059594|0",
+          "seller": "winiwogs2009",
+          "image": "https://i.ebayimg.com/images/g/kOgAAeSw0z9q728q/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/227603059594",
+          "title": "11373 Lego Lord Of The Rings",
+          "declared_condition": "new",
+          "item_price": 52.7,
+          "shipping": 0.0,
+          "listed_total": 52.7
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 13
+      },
+      "query_aliases": [
+        "LEGO Icons The Lord of the Rings: Sauron's Helmet 11373, discount at checkout"
+      ]
+    },
     {
       "kind": "active_ask",
       "query": "LEGO 21586",
@@ -10742,26 +11081,22 @@
     },
     {
       "kind": "active_ask",
-      "query": "LEGO 11373",
+      "query": "LEGO 72150",
       "category": "lego",
       "name_terms": [
-        "helmet",
-        "icons",
-        "lord",
-        "rings",
-        "saurons"
+        "munchlax"
       ],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-10T01:23:20+00:00",
+      "observed_at": "2026-11-10T05:03:39+00:00",
       "date": "2026-11-10",
-      "sample_count": 37,
-      "listed_total_low": 3.99,
-      "listed_total_p25": 52.7,
-      "listed_total_median": 60.23,
-      "listed_total_p75": 66.81,
-      "listed_total_high": 76.99,
+      "sample_count": 27,
+      "listed_total_low": 50.44,
+      "listed_total_p25": 58.2,
+      "listed_total_median": 64.99,
+      "listed_total_p75": 68.12,
+      "listed_total_high": 79.95,
       "status": "wide_spread",
       "warnings": [
         "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
@@ -10770,9 +11105,9 @@
       ],
       "offers": [
         {
-          "item_id": "v1|358585379559|0",
-          "seller": "tommy-town",
-          "image": "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg",
+          "item_id": "v1|336815574656|0",
+          "seller": "ruhbarb2002",
+          "image": "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -10784,131 +11119,39 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/358585379559",
-          "title": "Lego Lord Of The Rings (6180pb210) Modified 4x6 Tile For 11373 Sauron's Helmet",
-          "declared_condition": "new",
-          "item_price": 3.99,
-          "shipping": 0.0,
-          "listed_total": 3.99
-        },
-        {
-          "item_id": "v1|800704054746|0",
-          "seller": "li-416047",
-          "image": "https://i.ebayimg.com/images/g/YWYAAeSwFqVqs7Nz/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/800704054746",
-          "title": "LEGO Icons 11373 Sauron The Lord of the Rings 538pcs 18+ Brick Sep",
-          "declared_condition": "new",
-          "item_price": 41.26,
-          "shipping": 2.94,
-          "listed_total": 44.2
-        },
-        {
-          "item_id": "v1|198781304704|0",
-          "seller": "alereaso0",
-          "image": "https://i.ebayimg.com/images/g/JUIAAeSw-bFq8HD1/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/198781304704",
-          "title": "LEGO Icons The Lord of the Rings 11373 Sauron Building Set 538pcs 18+",
-          "declared_condition": "new",
-          "item_price": 42.3,
-          "shipping": 2.94,
-          "listed_total": 45.24
-        },
-        {
-          "item_id": "v1|840099996705|0",
-          "seller": "assorted_goods2020",
-          "image": "https://i.ebayimg.com/images/g/zGcAAeSwyOBq7bq0/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/840099996705",
-          "title": "LEGO ICONS The Lord of the Rings: Sauron's Helmet (11373)",
-          "declared_condition": "new",
-          "item_price": 42.99,
-          "shipping": 3.71,
-          "listed_total": 46.7
-        },
-        {
-          "item_id": "v1|137912249432|0",
-          "seller": "brickandbits",
-          "image": "https://i.ebayimg.com/images/g/qLoAAeSw~O9q7-op/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/137912249432",
-          "title": "Lego 11373 Lord Of The RingsSauron Helmet - New Sealed - Same Day Ship ",
-          "declared_condition": "new",
-          "item_price": 43.34,
-          "shipping": 3.71,
-          "listed_total": 47.05
-        },
-        {
-          "item_id": "v1|206668168972|0",
-          "seller": "libur_9490",
-          "image": "https://i.ebayimg.com/images/g/QNUAAeSw5ZNq52Z6/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206668168972",
-          "title": "LEGO Icons The Lord of the Rings SAURON 11373 Complete Set 538pcs 18+",
+          "url": "https://www.ebay.co.uk/itm/336815574656",
+          "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
           "declared_condition": "new",
           "item_price": 47.5,
-          "shipping": 0.0,
-          "listed_total": 47.5
+          "shipping": 2.94,
+          "listed_total": 50.44
         },
         {
-          "item_id": "v1|198717291470|0",
-          "seller": "ajfaizy",
-          "image": "https://i.ebayimg.com/images/g/5zMAAeSwPf1q0N5M/s-l225.jpg",
+          "item_id": "v1|168828768031|0",
+          "seller": "true_toys",
+          "image": "https://i.ebayimg.com/images/g/fXUAAeSwYexqcJmX/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/168828768031",
+          "title": "LEGO Pokemon Munchlax\u00a0Buildable Construction Set 72150",
+          "declared_condition": "new",
+          "item_price": 50.49,
+          "shipping": 0.0,
+          "listed_total": 50.49
+        },
+        {
+          "item_id": "v1|407327606704|0",
+          "seller": "nextgenration12",
+          "image": "https://i.ebayimg.com/images/g/fBkAAeSwv8pq5iDC/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -10921,39 +11164,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/198717291470",
-          "title": "Lego Icons: Lord Of The Rings: Sauron Helmet (11373) Brand New & Sealed",
+          "url": "https://www.ebay.co.uk/itm/407327606704",
+          "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
           "declared_condition": "new",
-          "item_price": 45.42,
-          "shipping": 3.38,
-          "listed_total": 48.8
-        },
-        {
-          "item_id": "v1|128112641718|0",
-          "seller": "mkz-opz",
-          "image": "https://i.ebayimg.com/images/g/o5AAAeSwr2RqwQCO/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/128112641718",
-          "title": "LEGO The Lord of the Rings: Sauron's Helmet (11373) - Brand new & Sealed",
-          "declared_condition": "new",
-          "item_price": 50.0,
+          "item_price": 52.69,
           "shipping": 0.0,
-          "listed_total": 50.0
+          "listed_total": 52.69
         },
         {
-          "item_id": "v1|398340722775|0",
-          "seller": "oncetwicenice",
-          "image": "https://i.ebayimg.com/images/g/TYIAAeSwXyxqlE31/s-l225.jpg",
+          "item_id": "v1|257826733755|0",
+          "seller": "rystonuk",
+          "image": "https://i.ebayimg.com/images/g/xtUAAeSw3mxq5dE3/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -10965,17 +11186,39 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/398340722775",
-          "title": "LEGO Set 11373 Icons - The Lord of The Rings: Sauron's Helmet - Brand New Sealed",
+          "url": "https://www.ebay.co.uk/itm/257826733755",
+          "title": "LEGO 72150 Pok\u00e9mon Munchlax ",
           "declared_condition": "new",
-          "item_price": 46.46,
-          "shipping": 3.71,
-          "listed_total": 50.17
+          "item_price": 49.99,
+          "shipping": 2.72,
+          "listed_total": 52.71
         },
         {
-          "item_id": "v1|227603059594|0",
-          "seller": "winiwogs2009",
-          "image": "https://i.ebayimg.com/images/g/kOgAAeSw0z9q728q/s-l225.jpg",
+          "item_id": "v1|366534847091|0",
+          "seller": "wwsm2006",
+          "image": "https://i.ebayimg.com/images/g/ohoAAeSwqrhqrBY2/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "advertised_discount",
+          "advertised_original_total": 59.99,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/366534847091",
+          "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+          "declared_condition": "new",
+          "item_price": 53.98,
+          "shipping": 0.0,
+          "listed_total": 53.98
+        },
+        {
+          "item_id": "v1|189056829721|0",
+          "seller": "brickbase13",
+          "image": "https://i.ebayimg.com/images/g/1hUAAeSwHblqxk0O/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -10988,19 +11231,108 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227603059594",
-          "title": "11373 Lego Lord Of The Rings",
+          "url": "https://www.ebay.co.uk/itm/189056829721",
+          "title": "LEGO Pok\u00e9mon Munchlax Buildable Figure Building Set 72150",
           "declared_condition": "new",
           "item_price": 52.7,
+          "shipping": 2.94,
+          "listed_total": 55.64
+        },
+        {
+          "item_id": "v1|366760928840|0",
+          "seller": "e-bazaar-ltd",
+          "image": "https://i.ebayimg.com/images/g/c04AAeSwP1pq3met/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": true,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/366760928840",
+          "title": "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+          "declared_condition": "new",
+          "item_price": 57.99,
           "shipping": 0.0,
-          "listed_total": 52.7
+          "listed_total": 57.99
+        },
+        {
+          "item_id": "v1|860106649559|0",
+          "seller": "muha398372",
+          "image": "https://i.ebayimg.com/images/g/iHsAAeSwJ6pq6Nut/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/860106649559",
+          "title": "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+          "declared_condition": "new",
+          "item_price": 58.41,
+          "shipping": 0.0,
+          "listed_total": 58.41
+        },
+        {
+          "item_id": "v1|407103485332|0",
+          "seller": "jadlamracing",
+          "image": "https://i.ebayimg.com/images/g/WGkAAeSw9Rxq1Miu/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/407103485332",
+          "title": "LEGO Pokemon 72150 Munchlax Age 18+ 757pcs",
+          "declared_condition": "new",
+          "item_price": 59.95,
+          "shipping": 0.0,
+          "listed_total": 59.95
+        },
+        {
+          "item_id": "v1|407055700267|0",
+          "seller": "toybarnhaus",
+          "image": "https://i.ebayimg.com/images/g/f~kAAeSw779qTRDH/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/407055700267",
+          "title": "LEGO Pokemon: Munchlax (72150)",
+          "declared_condition": "new",
+          "item_price": 59.99,
+          "shipping": 0.0,
+          "listed_total": 59.99
         }
       ],
       "rejected": {
-        "identity_or_condition": 13
+        "identity_or_condition": 3
       },
       "query_aliases": [
-        "LEGO Icons The Lord of the Rings: Sauron's Helmet 11373, discount at checkout"
+        "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout"
       ]
     },
     {
@@ -13249,7 +13581,7 @@
         }
       ],
       "rejected": {},
-      "canonicalized_at": "2026-11-10T04:32:08+00:00",
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Battlefield 6 Phantom Edition XBOX Series X | Disc"
@@ -13396,7 +13728,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-10T04:32:08+00:00",
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -13498,7 +13830,7 @@
       "rejected": {
         "identity_or_condition": 3
       },
-      "canonicalized_at": "2026-11-10T04:32:08+00:00",
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -13824,7 +14156,7 @@
         }
       ],
       "rejected": {},
-      "canonicalized_at": "2026-11-10T04:32:08+00:00",
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Valor Mortis Xbox Series X"
@@ -13969,12 +14301,15 @@
           "declared_condition": "new",
           "item_price": 46.64,
           "shipping": 0.0,
-          "listed_total": 46.64
+          "listed_total": 46.64,
+          "observed_at": "2026-11-10T04:32:33+00:00"
         }
       ],
       "rejected": {
         "identity_or_condition": 6
       },
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
+      "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Pragmata (Xbox Series X)"
       ]
@@ -14144,7 +14479,7 @@
       "rejected": {
         "identity_or_condition": 44
       },
-      "canonicalized_at": "2026-11-10T04:32:08+00:00",
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Resident Evil Requiem (PS5)"
@@ -14222,7 +14557,7 @@
       "rejected": {
         "identity_or_condition": 38
       },
-      "canonicalized_at": "2026-11-10T04:32:08+00:00",
+      "canonicalized_at": "2026-11-10T05:03:15+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Silent Hill 2 - PS5 Game - Free C&C"
@@ -14472,7 +14807,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|313738541392|0",
-        "observed_at": "2026-11-10T04:32:08+00:00",
+        "observed_at": "2026-11-10T05:03:15+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048748312",
@@ -14698,7 +15033,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|206068108309|0",
-        "observed_at": "2026-11-10T04:32:08+00:00",
+        "observed_at": "2026-11-10T05:03:15+00:00",
         "status": "conflict",
         "reasons": [
           "tool model mismatch"
@@ -14838,14 +15173,14 @@
     },
     {
       "kind": "active_ask",
-      "query": "hori battle pad gamecube style controller zelda nintendo switch",
+      "query": "tormented souls series x s xbox one",
       "category": "gaming",
       "name_terms": [],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-09T22:47:58+00:00",
-      "date": "2026-11-09",
+      "observed_at": "2026-11-10T05:03:39+00:00",
+      "date": "2026-11-10",
       "sample_count": 0,
       "listed_total_low": null,
       "listed_total_p25": null,
@@ -14858,11 +15193,9 @@
         "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
       ],
       "offers": [],
-      "rejected": {
-        "identity_or_condition": 5
-      },
+      "rejected": {},
       "query_aliases": [
-        "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon"
+        "Tormented Souls - Xbox One/ Series X|S"
       ]
     },
     {
@@ -15047,21 +15380,646 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 27,
+    "indicative_asking_products": 28,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 27,
+    "ask_estimated_products": 28,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 10,
+    "above_budget_estimates": 11,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-10T04:32:47+00:00",
+  "generated_utc": "2026-11-10T05:03:55+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
+    {
+      "title": "Lego Icons 11373 The Lord of the Rings: Sauron\u2019s Helmet for Adults Age 18+",
+      "url": "https://www.ebay.co.uk/itm/298100779288",
+      "policy_key": "39a54f16f08c9f79938d659e",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 60.83,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/150x150/qt/55/5027632_1.jpg",
+        "https://i.ebayimg.com/images/g/WOgAAeSwwRlprWaD/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-the-lord-of-the-rings-saurons-helmet-11373-discount-at-checkout-5027632",
+      "landed_cost": 60.83,
+      "breakeven_sell": 79.76,
+      "sell_for_minimum_profit": 108.91,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-10T05:03:38+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Icons+11373+The+Lord+of+the+Rings%3A+Sauron%E2%80%99s+Helmet+for+Adults+Age+18%2B&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 11373",
+        "category": "lego",
+        "name_terms": [
+          "18+",
+          "adults",
+          "age",
+          "for",
+          "helmet",
+          "icons",
+          "lord",
+          "rings",
+          "saurons"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T05:03:40+00:00",
+        "date": "2026-11-10",
+        "sample_count": 37,
+        "listed_total_low": 3.99,
+        "listed_total_p25": 52.7,
+        "listed_total_median": 60.23,
+        "listed_total_p75": 66.81,
+        "listed_total_high": 76.99,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|358585379559|0",
+            "seller": "tommy-town",
+            "image": "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358585379559",
+            "title": "Lego Lord Of The Rings (6180pb210) Modified 4x6 Tile For 11373 Sauron's Helmet",
+            "declared_condition": "new",
+            "item_price": 3.99,
+            "shipping": 0.0,
+            "listed_total": 3.99
+          },
+          {
+            "item_id": "v1|800704054746|0",
+            "seller": "li-416047",
+            "image": "https://i.ebayimg.com/images/g/YWYAAeSwFqVqs7Nz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800704054746",
+            "title": "LEGO Icons 11373 Sauron The Lord of the Rings 538pcs 18+ Brick Sep",
+            "declared_condition": "new",
+            "item_price": 41.26,
+            "shipping": 2.94,
+            "listed_total": 44.2
+          },
+          {
+            "item_id": "v1|198781304704|0",
+            "seller": "alereaso0",
+            "image": "https://i.ebayimg.com/images/g/JUIAAeSw-bFq8HD1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198781304704",
+            "title": "LEGO Icons The Lord of the Rings 11373 Sauron Building Set 538pcs 18+",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 2.94,
+            "listed_total": 45.24
+          },
+          {
+            "item_id": "v1|840099996705|0",
+            "seller": "assorted_goods2020",
+            "image": "https://i.ebayimg.com/images/g/zGcAAeSwyOBq7bq0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840099996705",
+            "title": "LEGO ICONS The Lord of the Rings: Sauron's Helmet (11373)",
+            "declared_condition": "new",
+            "item_price": 42.99,
+            "shipping": 3.71,
+            "listed_total": 46.7
+          },
+          {
+            "item_id": "v1|137912249432|0",
+            "seller": "brickandbits",
+            "image": "https://i.ebayimg.com/images/g/qLoAAeSw~O9q7-op/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137912249432",
+            "title": "Lego 11373 Lord Of The RingsSauron Helmet - New Sealed - Same Day Ship ",
+            "declared_condition": "new",
+            "item_price": 43.34,
+            "shipping": 3.71,
+            "listed_total": 47.05
+          },
+          {
+            "item_id": "v1|206668168972|0",
+            "seller": "libur_9490",
+            "image": "https://i.ebayimg.com/images/g/QNUAAeSw5ZNq52Z6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206668168972",
+            "title": "LEGO Icons The Lord of the Rings SAURON 11373 Complete Set 538pcs 18+",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 0.0,
+            "listed_total": 47.5
+          },
+          {
+            "item_id": "v1|198717291470|0",
+            "seller": "ajfaizy",
+            "image": "https://i.ebayimg.com/images/g/5zMAAeSwPf1q0N5M/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198717291470",
+            "title": "Lego Icons: Lord Of The Rings: Sauron Helmet (11373) Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 45.42,
+            "shipping": 3.38,
+            "listed_total": 48.8
+          },
+          {
+            "item_id": "v1|128112641718|0",
+            "seller": "mkz-opz",
+            "image": "https://i.ebayimg.com/images/g/o5AAAeSwr2RqwQCO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128112641718",
+            "title": "LEGO The Lord of the Rings: Sauron's Helmet (11373) - Brand new & Sealed",
+            "declared_condition": "new",
+            "item_price": 50.0,
+            "shipping": 0.0,
+            "listed_total": 50.0
+          },
+          {
+            "item_id": "v1|398340722775|0",
+            "seller": "oncetwicenice",
+            "image": "https://i.ebayimg.com/images/g/TYIAAeSwXyxqlE31/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398340722775",
+            "title": "LEGO Set 11373 Icons - The Lord of The Rings: Sauron's Helmet - Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 46.46,
+            "shipping": 3.71,
+            "listed_total": 50.17
+          },
+          {
+            "item_id": "v1|227603059594|0",
+            "seller": "winiwogs2009",
+            "image": "https://i.ebayimg.com/images/g/kOgAAeSw0z9q728q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227603059594",
+            "title": "11373 Lego Lord Of The Rings",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 0.0,
+            "listed_total": 52.7
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 13
+        },
+        "query_aliases": [
+          "Lego Icons 11373 The Lord of the Rings: Sauron\u2019s Helmet for Adults Age 18+"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 11373",
+        "observed_at": "2026-11-10T05:03:40+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 36,
+        "seller_count": 36,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 3.99,
+        "competition_high": 76.99,
+        "estimated_resale": 3.87,
+        "estimated_range": [
+          3.59,
+          3.99
+        ],
+        "suggested_listing": 3.98,
+        "quick_sale_model": 3.59,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 60.83,
+        "delivery_known": true,
+        "landed_cost": 60.83,
+        "net": -63.25,
+        "roi": -104.0,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 0,
+        "max_item_buy": 0.0,
+        "delivery_headroom": -60.83,
+        "fees": 0.88,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.12,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 3.48,
+        "review_stress_net": -63.57,
+        "review_stress_roi": -104.5,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|358585379559|0",
+            "seller": "tommy-town",
+            "image": "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358585379559",
+            "title": "Lego Lord Of The Rings (6180pb210) Modified 4x6 Tile For 11373 Sauron's Helmet",
+            "declared_condition": "new",
+            "item_price": 3.99,
+            "shipping": 0.0,
+            "listed_total": 3.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|800704054746|0",
+            "seller": "li-416047",
+            "image": "https://i.ebayimg.com/images/g/YWYAAeSwFqVqs7Nz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800704054746",
+            "title": "LEGO Icons 11373 Sauron The Lord of the Rings 538pcs 18+ Brick Sep",
+            "declared_condition": "new",
+            "item_price": 41.26,
+            "shipping": 2.94,
+            "listed_total": 44.2,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198781304704|0",
+            "seller": "alereaso0",
+            "image": "https://i.ebayimg.com/images/g/JUIAAeSw-bFq8HD1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198781304704",
+            "title": "LEGO Icons The Lord of the Rings 11373 Sauron Building Set 538pcs 18+",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 2.94,
+            "listed_total": 45.24,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840099996705|0",
+            "seller": "assorted_goods2020",
+            "image": "https://i.ebayimg.com/images/g/zGcAAeSwyOBq7bq0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840099996705",
+            "title": "LEGO ICONS The Lord of the Rings: Sauron's Helmet (11373)",
+            "declared_condition": "new",
+            "item_price": 42.99,
+            "shipping": 3.71,
+            "listed_total": 46.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137912249432|0",
+            "seller": "brickandbits",
+            "image": "https://i.ebayimg.com/images/g/qLoAAeSw~O9q7-op/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137912249432",
+            "title": "Lego 11373 Lord Of The RingsSauron Helmet - New Sealed - Same Day Ship ",
+            "declared_condition": "new",
+            "item_price": 43.34,
+            "shipping": 3.71,
+            "listed_total": 47.05,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206668168972|0",
+            "seller": "libur_9490",
+            "image": "https://i.ebayimg.com/images/g/QNUAAeSw5ZNq52Z6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206668168972",
+            "title": "LEGO Icons The Lord of the Rings SAURON 11373 Complete Set 538pcs 18+",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 0.0,
+            "listed_total": 47.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198717291470|0",
+            "seller": "ajfaizy",
+            "image": "https://i.ebayimg.com/images/g/5zMAAeSwPf1q0N5M/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198717291470",
+            "title": "Lego Icons: Lord Of The Rings: Sauron Helmet (11373) Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 45.42,
+            "shipping": 3.38,
+            "listed_total": 48.8,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128112641718|0",
+            "seller": "mkz-opz",
+            "image": "https://i.ebayimg.com/images/g/o5AAAeSwr2RqwQCO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128112641718",
+            "title": "LEGO The Lord of the Rings: Sauron's Helmet (11373) - Brand new & Sealed",
+            "declared_condition": "new",
+            "item_price": 50.0,
+            "shipping": 0.0,
+            "listed_total": 50.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398340722775|0",
+            "seller": "oncetwicenice",
+            "image": "https://i.ebayimg.com/images/g/TYIAAeSwXyxqlE31/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398340722775",
+            "title": "LEGO Set 11373 Icons - The Lord of The Rings: Sauron's Helmet - Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 46.46,
+            "shipping": 3.71,
+            "listed_total": 50.17,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227603059594|0",
+            "seller": "winiwogs2009",
+            "image": "https://i.ebayimg.com/images/g/kOgAAeSw0z9q728q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227603059594",
+            "title": "11373 Lego Lord Of The Rings",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 0.0,
+            "listed_total": 52.7,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
     {
       "title": "LEGO Minecraft The Pale Garden 21586 - Discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
@@ -15077,8 +16035,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg"
@@ -15787,8 +16745,8 @@
       "item_price": 15.2,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg"
@@ -16408,8 +17366,8 @@
       "item_price": 16.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/150x150/qt/55/5026618_1.jpg",
@@ -17028,8 +17986,8 @@
       "item_price": 39.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/150x150/qt/55/5026563_1.jpg",
@@ -17732,6 +18690,721 @@
       }
     },
     {
+      "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
+      "url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-discount-at-checkout-5024700",
+      "policy_key": "a7f1f400a3bc413d8fb961b0",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 42.72,
+      "image_status": "verified",
+      "image_verified_url": "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
+      "image_candidates": [
+        "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/fXUAAeSwYexqcJmX/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/fBkAAeSwv8pq5iDC/s-l225.jpg"
+      ],
+      "thumb": "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-discount-at-checkout-5024700",
+      "landed_cost": null,
+      "breakeven_sell": 58.07,
+      "sell_for_minimum_profit": 78.54,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 72150",
+        "category": "lego",
+        "name_terms": [
+          "munchlax"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T05:03:39+00:00",
+        "date": "2026-11-10",
+        "sample_count": 27,
+        "listed_total_low": 50.44,
+        "listed_total_p25": 58.2,
+        "listed_total_median": 64.99,
+        "listed_total_p75": 68.12,
+        "listed_total_high": 79.95,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|336815574656|0",
+            "seller": "ruhbarb2002",
+            "image": "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336815574656",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 2.94,
+            "listed_total": 50.44
+          },
+          {
+            "item_id": "v1|168828768031|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/fXUAAeSwYexqcJmX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168828768031",
+            "title": "LEGO Pokemon Munchlax\u00a0Buildable Construction Set 72150",
+            "declared_condition": "new",
+            "item_price": 50.49,
+            "shipping": 0.0,
+            "listed_total": 50.49
+          },
+          {
+            "item_id": "v1|407327606704|0",
+            "seller": "nextgenration12",
+            "image": "https://i.ebayimg.com/images/g/fBkAAeSwv8pq5iDC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407327606704",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 52.69,
+            "shipping": 0.0,
+            "listed_total": 52.69
+          },
+          {
+            "item_id": "v1|257826733755|0",
+            "seller": "rystonuk",
+            "image": "https://i.ebayimg.com/images/g/xtUAAeSw3mxq5dE3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257826733755",
+            "title": "LEGO 72150 Pok\u00e9mon Munchlax ",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 2.72,
+            "listed_total": 52.71
+          },
+          {
+            "item_id": "v1|366534847091|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/ohoAAeSwqrhqrBY2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 59.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366534847091",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 53.98,
+            "shipping": 0.0,
+            "listed_total": 53.98
+          },
+          {
+            "item_id": "v1|189056829721|0",
+            "seller": "brickbase13",
+            "image": "https://i.ebayimg.com/images/g/1hUAAeSwHblqxk0O/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/189056829721",
+            "title": "LEGO Pok\u00e9mon Munchlax Buildable Figure Building Set 72150",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 2.94,
+            "listed_total": 55.64
+          },
+          {
+            "item_id": "v1|366760928840|0",
+            "seller": "e-bazaar-ltd",
+            "image": "https://i.ebayimg.com/images/g/c04AAeSwP1pq3met/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366760928840",
+            "title": "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+            "declared_condition": "new",
+            "item_price": 57.99,
+            "shipping": 0.0,
+            "listed_total": 57.99
+          },
+          {
+            "item_id": "v1|860106649559|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/iHsAAeSwJ6pq6Nut/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860106649559",
+            "title": "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+            "declared_condition": "new",
+            "item_price": 58.41,
+            "shipping": 0.0,
+            "listed_total": 58.41
+          },
+          {
+            "item_id": "v1|407103485332|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/WGkAAeSw9Rxq1Miu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407103485332",
+            "title": "LEGO Pokemon 72150 Munchlax Age 18+ 757pcs",
+            "declared_condition": "new",
+            "item_price": 59.95,
+            "shipping": 0.0,
+            "listed_total": 59.95
+          },
+          {
+            "item_id": "v1|407055700267|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/f~kAAeSw779qTRDH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407055700267",
+            "title": "LEGO Pokemon: Munchlax (72150)",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 3
+        },
+        "query_aliases": [
+          "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 72150",
+        "observed_at": "2026-11-10T05:03:39+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 27,
+        "seller_count": 27,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 5,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 50.44,
+        "competition_high": 79.95,
+        "estimated_resale": 48.92,
+        "estimated_range": [
+          45.39,
+          50.44
+        ],
+        "suggested_listing": 50.43,
+        "quick_sale_model": 45.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          59.99,
+          59.99
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 42.72,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -7.64,
+        "max_landed_buy": 25.05,
+        "max_item_buy": null,
+        "delivery_headroom": -17.67,
+        "fees": 7.08,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.47,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 44.02,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 25.08,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|336815574656|0",
+            "seller": "ruhbarb2002",
+            "image": "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336815574656",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 2.94,
+            "listed_total": 50.44,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168828768031|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/fXUAAeSwYexqcJmX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168828768031",
+            "title": "LEGO Pokemon Munchlax\u00a0Buildable Construction Set 72150",
+            "declared_condition": "new",
+            "item_price": 50.49,
+            "shipping": 0.0,
+            "listed_total": 50.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407327606704|0",
+            "seller": "nextgenration12",
+            "image": "https://i.ebayimg.com/images/g/fBkAAeSwv8pq5iDC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407327606704",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 52.69,
+            "shipping": 0.0,
+            "listed_total": 52.69,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257826733755|0",
+            "seller": "rystonuk",
+            "image": "https://i.ebayimg.com/images/g/xtUAAeSw3mxq5dE3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257826733755",
+            "title": "LEGO 72150 Pok\u00e9mon Munchlax ",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 2.72,
+            "listed_total": 52.71,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366534847091|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/ohoAAeSwqrhqrBY2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 59.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366534847091",
+            "title": "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            "declared_condition": "new",
+            "item_price": 53.98,
+            "shipping": 0.0,
+            "listed_total": 53.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|189056829721|0",
+            "seller": "brickbase13",
+            "image": "https://i.ebayimg.com/images/g/1hUAAeSwHblqxk0O/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/189056829721",
+            "title": "LEGO Pok\u00e9mon Munchlax Buildable Figure Building Set 72150",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 2.94,
+            "listed_total": 55.64,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366760928840|0",
+            "seller": "e-bazaar-ltd",
+            "image": "https://i.ebayimg.com/images/g/c04AAeSwP1pq3met/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366760928840",
+            "title": "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+            "declared_condition": "new",
+            "item_price": 57.99,
+            "shipping": 0.0,
+            "listed_total": 57.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860106649559|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/iHsAAeSwJ6pq6Nut/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860106649559",
+            "title": "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+            "declared_condition": "new",
+            "item_price": 58.41,
+            "shipping": 0.0,
+            "listed_total": 58.41,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407103485332|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/WGkAAeSw9Rxq1Miu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407103485332",
+            "title": "LEGO Pokemon 72150 Munchlax Age 18+ 757pcs",
+            "declared_condition": "new",
+            "item_price": 59.95,
+            "shipping": 0.0,
+            "listed_total": 59.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407055700267|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/f~kAAeSw779qTRDH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407055700267",
+            "title": "LEGO Pokemon: Munchlax (72150)",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
+        "query": "LEGO 72150",
+        "kind": "active_ask",
+        "listing": 50.43,
+        "observed_at": "2026-11-10T05:03:39+00:00",
+        "valid_until": "2026-11-10T11:03:39+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/336815574656",
+          "https://www.ebay.co.uk/itm/168828768031",
+          "https://www.ebay.co.uk/itm/407327606704",
+          "https://www.ebay.co.uk/itm/257826733755",
+          "https://www.ebay.co.uk/itm/366534847091",
+          "https://www.ebay.co.uk/itm/189056829721",
+          "https://www.ebay.co.uk/itm/366760928840",
+          "https://www.ebay.co.uk/itm/860106649559",
+          "https://www.ebay.co.uk/itm/407103485332",
+          "https://www.ebay.co.uk/itm/407055700267"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/336815574656",
+            "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            50.44,
+            2.94,
+            47.5,
+            "ruhbarb2002"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/168828768031",
+            "LEGO Pokemon Munchlax\u00a0Buildable Construction Set 72150",
+            50.49,
+            0.0,
+            50.49,
+            "true_toys"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407327606704",
+            "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            52.69,
+            0.0,
+            52.69,
+            "nextgenration12"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/257826733755",
+            "LEGO 72150 Pok\u00e9mon Munchlax ",
+            52.71,
+            2.72,
+            49.99,
+            "rystonuk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/366534847091",
+            "LEGO Pok\u00e9mon Munchlax Collectable Building Set for Adults 72150",
+            53.98,
+            0.0,
+            53.98,
+            "wwsm2006"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/189056829721",
+            "LEGO Pok\u00e9mon Munchlax Buildable Figure Building Set 72150",
+            55.64,
+            2.94,
+            52.7,
+            "brickbase13"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/366760928840",
+            "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+            57.99,
+            0.0,
+            57.99,
+            "e-bazaar-ltd"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/860106649559",
+            "LEGO Pok\u00e9mon 72150 Munchlax Set for Adults",
+            58.41,
+            0.0,
+            58.41,
+            "muha398372"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407103485332",
+            "LEGO Pokemon 72150 Munchlax Age 18+ 757pcs",
+            59.95,
+            0.0,
+            59.95,
+            "jadlamracing"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407055700267",
+            "LEGO Pokemon: Munchlax (72150)",
+            59.99,
+            0.0,
+            59.99,
+            "toybarnhaus"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Icons The Lord of the Rings: Sauron's Helmet 11373, discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-icons-the-lord-of-the-rings-saurons-helmet-11373-discount-at-checkout-5027632",
       "policy_key": "da22f4e78b9ae3046a3be30a",
@@ -17746,8 +19419,8 @@
       "item_price": 44.65,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/150x150/qt/55/5027632_1.jpg"
@@ -18367,8 +20040,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ynX1X/5027664_1/re/300x300/qt/55/5027664_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ynX1X/5027664_1/re/300x300/qt/55/5027664_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ynX1X/5027664_1/re/150x150/qt/55/5027664_1.jpg"
@@ -18981,8 +20654,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg"
@@ -19706,8 +21379,8 @@
       "item_price": 64.53,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/300x300/qt/55/5027132_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/300x300/qt/55/5027132_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gA86l/5027132_1/re/150x150/qt/55/5027132_1.jpg"
@@ -20328,8 +22001,8 @@
       "item_price": 81.91,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/300x300/qt/55/5027117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/h5eDj/5027117_1/re/150x150/qt/55/5027117_1.jpg"
@@ -21050,8 +22723,8 @@
       "item_price": 91.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bIFV1/5027646_1/re/300x300/qt/55/5027646_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bIFV1/5027646_1/re/300x300/qt/55/5027646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bIFV1/5027646_1/re/150x150/qt/55/5027646_1.jpg"
@@ -21665,8 +23338,8 @@
       "item_price": 104.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/300x300/qt/55/5027552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ur6AD/5027552_1/re/150x150/qt/55/5027552_1.jpg"
@@ -22386,8 +24059,8 @@
       "item_price": 119.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/300x300/qt/55/5027517_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/300x300/qt/55/5027517_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5yLx/5027517_1/re/150x150/qt/55/5027517_1.jpg"
@@ -23098,8 +24771,8 @@
       "item_price": 119.69,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/300x300/qt/55/5026978_1.jpg",
         "https://images.hotukdeals.com/threads/raw/16sU5/5026978_1/re/150x150/qt/55/5026978_1.jpg"
@@ -24435,7 +26108,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-10T04:32:08+00:00",
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Battlefield 6 Phantom Edition XBOX Series X | Disc"
@@ -24725,7 +26398,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-10T04:32:08+00:00",
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -25120,7 +26793,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-10T04:32:08+00:00",
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Tales of Xillia Remastered PS5 Game Free C&C"
@@ -26396,7 +28069,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-10T04:32:08+00:00",
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Valor Mortis Xbox Series X"
@@ -26913,12 +28586,15 @@
             "declared_condition": "new",
             "item_price": 46.64,
             "shipping": 0.0,
-            "listed_total": 46.64
+            "listed_total": 46.64,
+            "observed_at": "2026-11-10T04:32:33+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 6
         },
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Pragmata (Xbox Series X)"
         ]
@@ -27022,6 +28698,7 @@
             "item_price": 46.64,
             "shipping": 0.0,
             "listed_total": 46.64,
+            "observed_at": "2026-11-10T04:32:33+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -27230,7 +28907,7 @@
         "rejected": {
           "identity_or_condition": 44
         },
-        "canonicalized_at": "2026-11-10T04:32:08+00:00",
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -27634,7 +29311,7 @@
         "rejected": {
           "identity_or_condition": 38
         },
-        "canonicalized_at": "2026-11-10T04:32:08+00:00",
+        "canonicalized_at": "2026-11-10T05:03:15+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
@@ -28338,7 +30015,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|313738541392|0",
-          "observed_at": "2026-11-10T04:32:08+00:00",
+          "observed_at": "2026-11-10T05:03:15+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048748312",
@@ -28730,7 +30407,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|206068108309|0",
-          "observed_at": "2026-11-10T04:32:08+00:00",
+          "observed_at": "2026-11-10T05:03:15+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -28972,6 +30649,90 @@
       }
     },
     {
+      "title": "Lego Lord Of The Rings (6180pb210) Modified 4x6 Tile For 11373 Sauron's Helmet",
+      "url": "https://www.ebay.co.uk/itm/358585379559",
+      "policy_key": "07e97a433acdcb8a7d316704",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 3.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/150x150/qt/55/5027632_1.jpg",
+        "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-the-lord-of-the-rings-saurons-helmet-11373-discount-at-checkout-5027632",
+      "landed_cost": 3.99,
+      "breakeven_sell": 11.69,
+      "sell_for_minimum_profit": 21.27,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-10T05:03:38+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Lord+Of+The+Rings+%286180pb210%29+Modified+4x6+Tile+For+11373+Sauron%27s+Helmet&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Icons 11373 The Lord of the Rings Sauron's Helmet Ages 18+ 538 Pcs New",
+      "url": "https://www.ebay.co.uk/itm/298652959557",
+      "policy_key": "bfb73250addbe27b26c257a7",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 52.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/150x150/qt/55/5027632_1.jpg",
+        "https://i.ebayimg.com/images/g/3qsAAeSwS7ZqnokK/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/Ew8Tv/5027632_1/re/300x300/qt/55/5027632_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-the-lord-of-the-rings-saurons-helmet-11373-discount-at-checkout-5027632",
+      "landed_cost": 52.99,
+      "breakeven_sell": 70.37,
+      "sell_for_minimum_profit": 95.76,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-10T05:03:38+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+11373+The+Lord+of+the+Rings+Sauron%27s+Helmet+Ages+18%2B+538+Pcs+New&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Tilswall Paint Sprayer Shark700, Fits Makita 18V (No Battery), White - Discount at Checkout - Sold by Tilswall Direct EU / FBA",
       "url": "https://www.hotukdeals.com/deals/tilswall-paint-sprayer-shark700-fits-makita-18v-no-battery-white-with-checkout-discount-sold-by-tilswall-direct-eu-fba-5021941",
       "policy_key": "79bca2eec8dce548786f3e97",
@@ -29024,8 +30785,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/150x150/qt/55/5026739_1.jpg",
@@ -29068,8 +30829,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/150x150/qt/55/5026611_1.jpg",
@@ -29112,8 +30873,8 @@
       "item_price": 14.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/150x150/qt/55/5026720_1.jpg"
@@ -29154,8 +30915,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg"
@@ -29196,8 +30957,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/150x150/qt/55/5026689_1.jpg"
@@ -29238,8 +30999,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/sH4AAeSw7EFpnynk/s-l225.jpg",
         "https://i.ebayimg.com/images/g/s08AAeSwh0NqXfCA/s-l225.jpg",
@@ -29321,8 +31082,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg"
@@ -29363,8 +31124,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg"
@@ -29444,8 +31205,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg",
@@ -29566,8 +31327,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg",
@@ -29649,8 +31410,8 @@
       "item_price": 39.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/150x150/qt/55/5026835_1.jpg"
@@ -29725,8 +31486,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg",
@@ -29769,8 +31530,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg"
@@ -29811,8 +31572,8 @@
       "item_price": 41.63,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/hHUAAeSwQYFq4fwi/s-l225.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/hHUAAeSwQYFq4fwi/s-l225.jpg",
         "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
@@ -29834,50 +31595,6 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+SMART+Play%3A+Eevee+and+Lapras%E2%80%99s+Treasure+Hunt+72162&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Pok\u00e9mon Munchlax 72150 - Discount at Checkout",
-      "url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-discount-at-checkout-5024700",
-      "policy_key": "a7f1f400a3bc413d8fb961b0",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 42.72,
-      "image_status": "verified",
-      "image_verified_url": "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
-      "image_candidates": [
-        "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/fXUAAeSwYexqcJmX/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/fBkAAeSwv8pq5iDC/s-l225.jpg"
-      ],
-      "thumb": "https://i.ebayimg.com/images/g/~NcAAeSwIdhq6fEN/s-l225.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-discount-at-checkout-5024700",
-      "landed_cost": null,
-      "breakeven_sell": 58.07,
-      "sell_for_minimum_profit": 78.54,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Munchlax+72150&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -29938,8 +31655,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/300x300/qt/55/5025299_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MhFt5/5025299_1/re/150x150/qt/55/5025299_1.jpg",
@@ -30021,8 +31738,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg",
@@ -30065,8 +31782,8 @@
       "item_price": 55.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg"
@@ -30107,8 +31824,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:20.528740+00:00",
-      "image_checked_at": "2026-11-10T04:32:20.528740+00:00",
+      "image_verified_until": "2026-11-10T05:23:27.016953+00:00",
+      "image_checked_at": "2026-11-10T05:03:27.016953+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
@@ -30151,8 +31868,8 @@
       "item_price": 57.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-      "image_verified_until": "2026-11-10T04:52:35.509669+00:00",
-      "image_checked_at": "2026-11-10T04:32:35.509669+00:00",
+      "image_verified_until": "2026-11-10T05:23:41.730777+00:00",
+      "image_checked_at": "2026-11-10T05:03:41.730777+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg",
@@ -30407,7 +32124,34 @@
       "priority": 0,
       "first_seen": "2026-11-08T00:29:26+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tormented+Souls&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "tormented souls series x s xbox one",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-10T05:03:39+00:00",
+        "date": "2026-11-10",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Tormented Souls - Xbox One/ Series X|S"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -31516,36 +33260,7 @@
       "priority": 0,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HORI+Battle+Pad+GameCube+Style+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "hori battle pad gamecube style controller zelda nintendo switch",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-09T22:47:58+00:00",
-        "date": "2026-11-09",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 5
-        },
-        "query_aliases": [
-          "HORI Battle Pad GameCube Style Controller - Zelda (Nintendo Switch) w/coupon"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -37982,9 +39697,9 @@
       "retailer_unknown_delivery": 312,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 318,
+    "scanned": 321,
     "priced": 2,
-    "unpriced": 316,
+    "unpriced": 319,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -37998,25 +39713,25 @@
     "expiry_unknown": 2,
     "sold_valued": 0,
     "reference_only": 2,
-    "online_eligible": 262,
-    "under_cap_known_delivery": 3,
-    "delivery_known": 6,
-    "ask_valued": 29,
+    "online_eligible": 265,
+    "under_cap_known_delivery": 5,
+    "delivery_known": 9,
+    "ask_valued": 31,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 10,
-    "above_budget_candidates": 51,
-    "above_budget_researched": 10,
-    "above_budget_research_candidates": 51,
+    "above_budget_estimates": 11,
+    "above_budget_candidates": 52,
+    "above_budget_researched": 11,
+    "above_budget_research_candidates": 52,
     "acquisition_by_source": {
       "hotukdeals": 316,
-      "ebay_browse": 2
+      "ebay_browse": 5
     },
-    "qualified_delivery_unknown": 27,
-    "ask_delivery_known": 2,
-    "ask_unique_products": 27,
-    "ask_research_identities": 27,
-    "without_any_pricing": 287,
+    "qualified_delivery_unknown": 28,
+    "ask_delivery_known": 3,
+    "ask_unique_products": 28,
+    "ask_research_identities": 29,
+    "without_any_pricing": 288,
     "pricing_coverage": {
       "fragrance": {
         "offers": 33,
@@ -38033,11 +39748,11 @@
         "supported_retailer_identities": 3
       },
       "lego": {
-        "offers": 54,
-        "exact_identity": 47,
-        "estimated_offers": 13,
-        "estimated_products": 13,
-        "supported_retailer_identities": 7
+        "offers": 57,
+        "exact_identity": 50,
+        "estimated_offers": 15,
+        "estimated_products": 14,
+        "supported_retailer_identities": 8
       },
       "other": {
         "offers": 21,
@@ -38077,13 +39792,13 @@
     },
     "browse_usage": {
       "date": "2026-11-10",
-      "calls": 130,
+      "calls": 143,
       "by_purpose": {
-        "persistent-research": 20,
-        "item-details": 40,
-        "acquisition": 40,
-        "asking-affordable": 20,
-        "asking-watch": 9,
+        "persistent-research": 22,
+        "item-details": 44,
+        "acquisition": 44,
+        "asking-affordable": 22,
+        "asking-watch": 10,
         "asking-tools": 1
       }
     },
@@ -38096,12 +39811,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 20,
+        "duplicates": 19,
         "old_dropped": 114,
         "age_unknown": 0,
-        "missing_price_or_category": 96,
+        "missing_price_or_category": 97,
         "ambiguous_price": 4,
-        "page_requests": 10
+        "page_requests": 11
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -38109,13 +39824,13 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 2,
-          "cached": 24,
+          "cached": 25,
           "query_budget": 2,
           "queries_by_category": {
-            "gaming": 1,
-            "tech": 1
+            "lego": 1,
+            "gaming": 1
           },
-          "candidates_with_samples": 19,
+          "candidates_with_samples": 20,
           "status": "ready",
           "errors": [],
           "tools_research": {
@@ -38131,12 +39846,12 @@
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
             "queries": 1,
-            "cached": 9,
+            "cached": 10,
             "query_budget": 2,
             "queries_by_category": {
               "lego": 1
             },
-            "candidates_with_samples": 10,
+            "candidates_with_samples": 11,
             "status": "ready",
             "errors": []
           }
@@ -38149,64 +39864,65 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-10T04:30:24.219Z",
-        "last_success": "2026-11-10T04:30:24.219Z"
+        "last_attempt": "2026-11-10T05:00:24.190Z",
+        "last_success": "2026-11-10T05:00:24.190Z"
       },
       "ebay_acquisition": {
         "status": "ready",
         "queries": 4,
-        "candidates": 2,
+        "candidates": 5,
         "errors": [],
         "purpose": "Official active Buy It Now acquisition; NEW only, not sold evidence",
         "query_budget": 4,
         "queries_by_category": {
-          "lego": 2,
-          "gaming": 1,
-          "tech": 1
+          "lego": 3,
+          "gaming": 1
         },
         "query_details": [
           {
-            "query": "LEGO 42223",
+            "query": "LEGO 42175",
             "category": "lego",
             "samples": 0,
-            "rejected": {
-              "identity_or_condition": 6
-            },
+            "rejected": {},
             "sort": "price",
-            "max_item_price": 20.17,
-            "max_landed_price": 20.17,
+            "max_item_price": 60.0,
+            "max_landed_price": 60.0,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "no sleep for kaname date from ai the somnium files ps5",
+            "query": "resident evil requiem ps5",
             "category": "gaming",
             "samples": 0,
-            "rejected": {},
+            "rejected": {
+              "identity_or_condition": 9
+            },
             "sort": "price",
-            "max_item_price": 14.6,
-            "max_landed_price": 14.6,
+            "max_item_price": 23.17,
+            "max_landed_price": 23.17,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "LEGO 76419",
+            "query": "LEGO 72037",
             "category": "lego",
             "samples": 0,
             "rejected": {
-              "identity_or_condition": 4
+              "identity_or_condition": 8
             },
             "sort": "newlyListed",
-            "max_item_price": 56.9,
-            "max_landed_price": 56.9,
+            "max_item_price": 55.4,
+            "max_landed_price": 55.4,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Soundcore Q21I black",
-            "category": "tech",
-            "samples": 2,
-            "rejected": {},
+            "query": "LEGO 11373",
+            "category": "lego",
+            "samples": 14,
+            "rejected": {
+              "identity_or_condition": 9
+            },
             "sort": "price",
             "max_item_price": null,
             "max_landed_price": null,
@@ -38217,9 +39933,9 @@
         "target_selection": {
           "contexts_examined": 132,
           "context_reasons": {
-            "not_usable": 125,
-            "query_cooldown": 2,
-            "eligible": 5
+            "not_usable": 124,
+            "eligible": 5,
+            "query_cooldown": 3
           },
           "eligible_distinct_queries": 5,
           "duplicate_contexts_collapsed": 0,
@@ -38230,9 +39946,11 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 132,
-        "query": "LEGO 42223",
-        "matched_shipped_samples": 2,
-        "rejections": {},
+        "query": "LEGO 42175",
+        "matched_shipped_samples": 14,
+        "rejections": {
+          "identity_or_condition": 9
+        },
         "watchlist_products": 79
       },
       "reviewed_bridge": {
@@ -38248,31 +39966,31 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 0,
-    "rescanned": 318,
+    "new": 5,
+    "rescanned": 316,
     "price_changed": 0,
-    "previous_success": "2026-11-10T04:01:30+00:00",
+    "previous_success": "2026-11-10T04:32:37+00:00",
     "gap_minutes": 31.0,
     "publication_holds": {
-      "eligible": 10,
-      "held": 308,
+      "eligible": 11,
+      "held": 310,
       "reasons": {
-        "no_supported_resale_estimate": 289,
-        "low_price_not_supported": 5,
+        "no_supported_resale_estimate": 290,
+        "low_price_not_supported": 6,
         "uncertain_competitor_coupon": 1,
         "detail_check_pending": 7,
         "detail_check_failed": 1,
         "fewer_than_three_exact_independent_comparators": 5
       },
       "by_category": {
-        "gaming": 37,
+        "sportswear": 2,
         "tech": 61,
         "other": 21,
+        "lego": 49,
+        "gaming": 37,
         "fragrance": 33,
-        "sportswear": 2,
-        "tools": 24,
         "trainers": 83,
-        "lego": 47
+        "tools": 24
       }
     },
     "excluded_nonphysical": [
@@ -38477,22 +40195,22 @@
     ],
     "source_coverage": {
       "ebay_browse": {
-        "offers": 2,
-        "new": 0,
-        "estimated": 2,
+        "offers": 5,
+        "new": 3,
+        "estimated": 3,
         "actionable": 0
       },
       "hotukdeals": {
         "offers": 316,
-        "new": 0,
-        "estimated": 27,
+        "new": 2,
+        "estimated": 28,
         "actionable": 0
       }
     },
     "value_watchlist": {
       "products": 97,
-      "identity_contexts": 132,
-      "usable_targets": 8,
+      "identity_contexts": 133,
+      "usable_targets": 9,
       "by_category": {
         "fragrance": {
           "products": 6,
@@ -38506,8 +40224,8 @@
         },
         "lego": {
           "products": 49,
-          "identity_contexts": 84,
-          "usable_targets": 6
+          "identity_contexts": 85,
+          "usable_targets": 7
         },
         "tech": {
           "products": 4,
@@ -38538,20 +40256,20 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 318,
-      "research_models_generated": 29,
-      "supported_market_estimates": 10,
-      "publication_qualified_cards": 10,
-      "route_eligible_cards": 10,
+      "offers_scanned": 321,
+      "research_models_generated": 31,
+      "supported_market_estimates": 11,
+      "publication_qualified_cards": 11,
+      "route_eligible_cards": 11,
       "route_eligibility_scope": "policy/format admission only; live availability, destination, limits and notification deduplication still apply",
       "buying_signals": 0,
       "opportunity_candidates": 0,
-      "research_watch_candidates": 10,
+      "research_watch_candidates": 11,
       "above_budget_priced_watch": 4,
-      "research_holds": 308,
+      "research_holds": 310,
       "hold_reasons": {
-        "no_supported_resale_estimate": 289,
-        "low_price_not_supported": 5,
+        "no_supported_resale_estimate": 290,
+        "low_price_not_supported": 6,
         "uncertain_competitor_coupon": 1,
         "detail_check_pending": 7,
         "detail_check_failed": 1,
@@ -38571,10 +40289,10 @@
           "holds": 2
         },
         "lego": {
-          "offers": 54,
-          "supported": 7,
-          "publication_qualified": 7,
-          "holds": 47
+          "offers": 57,
+          "supported": 8,
+          "publication_qualified": 8,
+          "holds": 49
         },
         "gaming": {
           "offers": 40,
@@ -38607,7 +40325,7 @@
           "holds": 21
         }
       },
-      "inbound_known": 6,
+      "inbound_known": 9,
       "inbound_unknown": 312
     },
     "routing_destinations": {
@@ -38656,30 +40374,30 @@
       "product_messages_delivered": 0,
       "by_route": {}
     },
-    "review_candidates": 232,
+    "review_candidates": 235,
     "lego_image_validation": {
       "checked": 20,
-      "cached": 34,
-      "verified": 54,
+      "cached": 37,
+      "verified": 57,
       "pending": 0,
       "budget": 32,
       "paused_hosts": {}
     },
     "pricing_labels": {
-      "exact_priced": 10,
-      "research_model_only": 19,
-      "unpriced": 289,
+      "exact_priced": 11,
+      "research_model_only": 20,
+      "unpriced": 290,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 317,
-    "lego_images_available": 54,
+    "images_available": 320,
+    "lego_images_available": 57,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "42756449375",
+      "run_id": "42759641643",
       "event": "workflow_dispatch",
-      "parent_run_id": "42753041410"
+      "parent_run_id": "42756449375"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
