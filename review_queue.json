@@ -16,8 +16,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg"
@@ -1391,1115 +1391,6 @@
       }
     },
     {
-      "title": "LEGO Minecraft The Pale Garden 21586 - Discount at checkout",
-      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
-      "policy_key": "04716e586b5d10553ef8cb1c",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 10.92,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg",
-        "https://i.ebayimg.com/images/g/GhYAAeSwttBqw4Ke/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 19.99,
-      "sell_for_minimum_profit": 29.57,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-09T09:10:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Pale+Garden+21586&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 21586",
-        "category": "lego",
-        "name_terms": [
-          "garden",
-          "minecraft",
-          "pale"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-11T09:57:37+00:00",
-        "date": "2026-11-11",
-        "sample_count": 32,
-        "listed_total_low": 13.26,
-        "listed_total_p25": 16.88,
-        "listed_total_median": 21.79,
-        "listed_total_p75": 23.8,
-        "listed_total_high": 30.19,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|128181814739|0",
-            "seller": "nickmaia",
-            "image": "https://i.ebayimg.com/images/g/GhYAAeSwttBqw4Ke/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128181814739",
-            "title": "Lego Minecraft 21586 The Pale Garden Set - Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.46,
-            "listed_total": 13.26
-          },
-          {
-            "item_id": "v1|407248156158|0",
-            "seller": "sasloc_20",
-            "image": "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407248156158",
-            "title": "LEGO Minecraft The Pale Garden 21586 Complete Set 243pcs 7+ Box",
-            "declared_condition": "new",
-            "item_price": 12.94,
-            "shipping": 2.26,
-            "listed_total": 15.2
-          },
-          {
-            "item_id": "v1|407334703246|0",
-            "seller": "fouadx",
-            "image": "https://i.ebayimg.com/images/g/hWEAAeSw2pBq6Rzc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407334703246",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76
-          },
-          {
-            "item_id": "v1|880080386589|0",
-            "seller": "rania4e",
-            "image": "https://i.ebayimg.com/images/g/~jgAAeSwRglq6n1C/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880080386589",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Age 7+ Creaking",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76
-          },
-          {
-            "item_id": "v1|237161780286|0",
-            "seller": "omstradeuk",
-            "image": "https://i.ebayimg.com/images/g/~JsAAeSw5T5q6n4l/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237161780286",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76
-          },
-          {
-            "item_id": "v1|820312639563|0",
-            "seller": "fastgbdeals",
-            "image": "https://i.ebayimg.com/images/g/~dIAAeSwNj9q6n9i/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820312639563",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures Biome",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76
-          },
-          {
-            "item_id": "v1|407338063125|0",
-            "seller": "tradeiq",
-            "image": "https://i.ebayimg.com/images/g/dL4AAeSwUFFq6n~4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407338063125",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Biome 7+ Gift",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76
-          },
-          {
-            "item_id": "v1|800881931834|0",
-            "seller": "lumoragbp",
-            "image": "https://i.ebayimg.com/images/g/lfcAAeSwRglq7N0i/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800881931834",
-            "title": "LEGO Minecraft Pale Garden Building Set 21586 243 Pieces Creeper Skeleton 7+",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76
-          },
-          {
-            "item_id": "v1|227556984213|0",
-            "seller": "collectedthingsuk",
-            "image": "https://i.ebayimg.com/images/g/cx4AAeSwkXNqxm~B/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227556984213",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+ Brand New",
-            "declared_condition": "new",
-            "item_price": 14.99,
-            "shipping": 2.26,
-            "listed_total": 17.25
-          },
-          {
-            "item_id": "v1|398289060974|0",
-            "seller": "and_800274",
-            "image": "https://i.ebayimg.com/images/g/LRUAAeSw8NlqKZCg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398289060974",
-            "title": "LEGO\u00ae Minecraft\u00ae The Pale Garden 21586 | NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 15.99,
-            "shipping": 2.26,
-            "listed_total": 18.25
-          },
-          {
-            "item_id": "v1|366643940311|0",
-            "seller": "hanwill_791",
-            "image": "https://i.ebayimg.com/images/g/0IoAAeSwQe1ql~E7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366643940311",
-            "title": "LEGO Minecraft The Pale Garden 21586 243pcs Creeper Brick Separator 7+",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.26,
-            "listed_total": 18.41
-          },
-          {
-            "item_id": "v1|128159074898|0",
-            "seller": "maisonbrickette",
-            "image": "https://i.ebayimg.com/images/g/1JQAAeSwGY9q4IZi/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128159074898",
-            "title": "Lego Minecraft 21586 The Pale Garden 243pc Building Set 7+ Complete Set Box",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.62,
-            "listed_total": 18.77
-          },
-          {
-            "item_id": "v1|820196283891|0",
-            "seller": "yoshi-14",
-            "image": "https://i.ebayimg.com/images/g/daQAAeSwd25qv7vB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820196283891",
-            "title": "Lego Minecraft The Pale Garden 243 Pieces 21586 Brand New Sealed Lego Full Set",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 2.26,
-            "listed_total": 19.48
-          },
-          {
-            "item_id": "v1|336513185577|0",
-            "seller": "toys.99",
-            "image": "https://i.ebayimg.com/images/g/9MwAAeSwaO1pzVKl/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336513185577",
-            "title": "LEGO\u00ae Minecraft\u00ae The Pale Garden (21586) !!NEW!!",
-            "declared_condition": "new",
-            "item_price": 17.33,
-            "shipping": 2.26,
-            "listed_total": 19.59
-          },
-          {
-            "item_id": "v1|307197054014|0",
-            "seller": "dextro39",
-            "image": "https://i.ebayimg.com/images/g/We8AAeSwbhdqtXHE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307197054014",
-            "title": "LEGO Minecraft The Pale Garden Building Toy 21586",
-            "declared_condition": "new",
-            "item_price": 19.35,
-            "shipping": 2.26,
-            "listed_total": 21.61
-          },
-          {
-            "item_id": "v1|178564998537|0",
-            "seller": "silver_surfer_80",
-            "image": "https://i.ebayimg.com/images/g/6MQAAeSwYYJqxoCz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178564998537",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
-            "declared_condition": "new",
-            "item_price": 19.45,
-            "shipping": 2.26,
-            "listed_total": 21.71
-          },
-          {
-            "item_id": "v1|227543426558|0",
-            "seller": "brickoutuk",
-            "image": "https://i.ebayimg.com/images/g/Pz0AAeSwmP5qurCF/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227543426558",
-            "title": "LEGO Minecraft 21586 The Pale Garden l Brand New & Sealed \u2705",
-            "declared_condition": "new",
-            "item_price": 19.4,
-            "shipping": 2.46,
-            "listed_total": 21.86
-          },
-          {
-            "item_id": "v1|366712219259|0",
-            "seller": "k78272",
-            "image": "https://i.ebayimg.com/images/g/QWkAAeSwS05qw4s1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366712219259",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
-            "declared_condition": "new",
-            "item_price": 19.35,
-            "shipping": 2.62,
-            "listed_total": 21.97
-          },
-          {
-            "item_id": "v1|297958509999|0",
-            "seller": "curiousmindsuk",
-            "image": "https://i.ebayimg.com/images/g/yFcAAeSwEb5pcjur/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/297958509999",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
-            "declared_condition": "new",
-            "item_price": 21.99,
-            "shipping": 0.0,
-            "listed_total": 21.99
-          },
-          {
-            "item_id": "v1|306672532083|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/nT4AAeSwU4VpSnzb/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306672532083",
-            "title": "LEGO Minecraft 21586 The Pale Garden ",
-            "declared_condition": "new",
-            "item_price": 18.0,
-            "shipping": 4.0,
-            "listed_total": 22.0
-          },
-          {
-            "item_id": "v1|158125394256|0",
-            "seller": "thedetailedmodel",
-            "image": "https://i.ebayimg.com/images/g/atkAAeSwygVqZ7Ep/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/158125394256",
-            "title": "Lego Minecraft - The Pale Garden - 21586 - 7+ Yrs",
-            "declared_condition": "new",
-            "item_price": 20.0,
-            "shipping": 2.26,
-            "listed_total": 22.26
-          },
-          {
-            "item_id": "v1|860131853017|0",
-            "seller": "muha398372",
-            "image": "https://i.ebayimg.com/images/g/8JUAAeSwRHlq83Do/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860131853017",
-            "title": "LEGO Minecraft 21586 The Pale Garden Set",
-            "declared_condition": "new",
-            "item_price": 22.53,
-            "shipping": 0.0,
-            "listed_total": 22.53
-          },
-          {
-            "item_id": "v1|127652811274|0",
-            "seller": "maqiotoys",
-            "image": "https://i.ebayimg.com/images/g/NAIAAeSw~rlpe11F/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127652811274",
-            "title": "Lego MINECRAFT 21586 The Pale Garden",
-            "declared_condition": "new",
-            "item_price": 22.99,
-            "shipping": 0.0,
-            "listed_total": 22.99
-          },
-          {
-            "item_id": "v1|198556637928|0",
-            "seller": "proseller1000",
-            "image": "https://i.ebayimg.com/images/g/9PoAAeSwsnZqdz2T/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198556637928",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+ New/Unopened",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.26,
-            "listed_total": 23.75
-          },
-          {
-            "item_id": "v1|800863797677|0",
-            "seller": "theorangeseller",
-            "image": "https://i.ebayimg.com/images/g/BUgAAeSw4-Zq53O8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800863797677",
-            "title": "LEGO Minecraft 21586 The Pale Garden 243 Pieces BRAND NEW & SEALED 2026",
-            "declared_condition": "new",
-            "item_price": 20.99,
-            "shipping": 2.97,
-            "listed_total": 23.96
-          },
-          {
-            "item_id": "v1|840033954029|0",
-            "seller": "thepuzzledsweetshop",
-            "image": "https://i.ebayimg.com/images/g/IRwAAeSwWJJq2f4X/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840033954029",
-            "title": "Lego - Minecraft: The Pale Garden 21586",
-            "declared_condition": "new",
-            "item_price": 20.24,
-            "shipping": 3.75,
-            "listed_total": 23.99
-          },
-          {
-            "item_id": "v1|407348763253|0",
-            "seller": "flya-22",
-            "image": "https://i.ebayimg.com/images/g/LgkAAeSwT99q5zt3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "AUCTION"
-            ],
-            "end_at": "2026-11-15T13:20:57.000Z",
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407348763253",
-            "title": "LEGO Minecraft 21586 The Pale Garden Brand New",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 3.38,
-            "listed_total": 24.88
-          },
-          {
-            "item_id": "v1|406640542303|0",
-            "seller": "gordons-toys",
-            "image": "https://i.ebayimg.com/images/g/PvAAAeSwalhpd0qG/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/406640542303",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
-            "declared_condition": "new",
-            "item_price": 21.99,
-            "shipping": 3.49,
-            "listed_total": 25.48
-          },
-          {
-            "item_id": "v1|168207976907|0",
-            "seller": "planszowki",
-            "image": "https://i.ebayimg.com/images/g/jMIAAeSw5GFpqbF~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168207976907",
-            "title": "Lego\u00ae Minecraft 21586 Pale Garden Genuine Quality Best Top",
-            "declared_condition": "new",
-            "item_price": 25.99,
-            "shipping": 0.0,
-            "listed_total": 25.99
-          },
-          {
-            "item_id": "v1|117443079404|0",
-            "seller": "lego-toys-alex",
-            "image": "https://i.ebayimg.com/images/g/T-kAAeSwYYJqv5fj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/117443079404",
-            "title": "Lego Minecraft 21586 The Pale Garden Brand-New And Sealed",
-            "declared_condition": "new",
-            "item_price": 24.1,
-            "shipping": 3.71,
-            "listed_total": 27.81
-          },
-          {
-            "item_id": "v1|257667343207|0",
-            "seller": "jess2411uk",
-            "image": "https://i.ebayimg.com/images/g/YxQAAeSwJHdqdfEU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257667343207",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 2.7,
-            "listed_total": 29.4
-          },
-          {
-            "item_id": "v1|960163153906|0",
-            "seller": "nexgen00",
-            "image": "https://i.ebayimg.com/images/g/K5gAAeSwYW1q7iQF/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960163153906",
-            "title": "LEGO Minecraft The Pale Garden 21586 Multicolor",
-            "declared_condition": "new",
-            "item_price": 30.19,
-            "shipping": 0.0,
-            "listed_total": 30.19
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 13
-        },
-        "query_aliases": [
-          "LEGO Minecraft The Pale Garden 21586 - Discount at checkout"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 21586",
-        "observed_at": "2026-11-11T09:57:37+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 32,
-        "seller_count": 32,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": true,
-        "competition_low": 13.26,
-        "competition_high": 30.19,
-        "estimated_resale": 12.86,
-        "estimated_range": [
-          11.93,
-          13.26
-        ],
-        "suggested_listing": 13.25,
-        "quick_sale_model": 11.93,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 10.92,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -5.96,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -10.92,
-        "fees": 2.22,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.39,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 11.57,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|128181814739|0",
-            "seller": "nickmaia",
-            "image": "https://i.ebayimg.com/images/g/GhYAAeSwttBqw4Ke/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128181814739",
-            "title": "Lego Minecraft 21586 The Pale Garden Set - Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.46,
-            "listed_total": 13.26,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407248156158|0",
-            "seller": "sasloc_20",
-            "image": "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407248156158",
-            "title": "LEGO Minecraft The Pale Garden 21586 Complete Set 243pcs 7+ Box",
-            "declared_condition": "new",
-            "item_price": 12.94,
-            "shipping": 2.26,
-            "listed_total": 15.2,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407334703246|0",
-            "seller": "fouadx",
-            "image": "https://i.ebayimg.com/images/g/hWEAAeSw2pBq6Rzc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407334703246",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|880080386589|0",
-            "seller": "rania4e",
-            "image": "https://i.ebayimg.com/images/g/~jgAAeSwRglq6n1C/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880080386589",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Age 7+ Creaking",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|237161780286|0",
-            "seller": "omstradeuk",
-            "image": "https://i.ebayimg.com/images/g/~JsAAeSw5T5q6n4l/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237161780286",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|820312639563|0",
-            "seller": "fastgbdeals",
-            "image": "https://i.ebayimg.com/images/g/~dIAAeSwNj9q6n9i/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820312639563",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures Biome",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407338063125|0",
-            "seller": "tradeiq",
-            "image": "https://i.ebayimg.com/images/g/dL4AAeSwUFFq6n~4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407338063125",
-            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Biome 7+ Gift",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|800881931834|0",
-            "seller": "lumoragbp",
-            "image": "https://i.ebayimg.com/images/g/lfcAAeSwRglq7N0i/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800881931834",
-            "title": "LEGO Minecraft Pale Garden Building Set 21586 243 Pieces Creeper Skeleton 7+",
-            "declared_condition": "new",
-            "item_price": 15.76,
-            "shipping": 0.0,
-            "listed_total": 15.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227556984213|0",
-            "seller": "collectedthingsuk",
-            "image": "https://i.ebayimg.com/images/g/cx4AAeSwkXNqxm~B/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227556984213",
-            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+ Brand New",
-            "declared_condition": "new",
-            "item_price": 14.99,
-            "shipping": 2.26,
-            "listed_total": 17.25,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|398289060974|0",
-            "seller": "and_800274",
-            "image": "https://i.ebayimg.com/images/g/LRUAAeSw8NlqKZCg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398289060974",
-            "title": "LEGO\u00ae Minecraft\u00ae The Pale Garden 21586 | NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 15.99,
-            "shipping": 2.26,
-            "listed_total": 18.25,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
-      }
-    },
-    {
       "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 - 77260, discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-discount-at-checkout-5027630",
       "policy_key": "e182c3a4ce470fcbf1ced0c4",
@@ -2514,8 +1405,8 @@
       "item_price": 15.2,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg",
@@ -3915,13 +2806,13 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg",
-        "https://i.ebayimg.com/images/g/D1cAAeSwiIVqmpsl/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/CrUAAeSwQe1qmZ6O/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/vSAAAeSwLKBq82ci/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/D1cAAeSwiIVqmpsl/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -4700,6 +3591,245 @@
       }
     },
     {
+      "title": "EA Sports FC 27 Nintendo Switch 2 Game - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/ea-sports-fc-27-nintendo-switch-2-game-free-cc-5029904",
+      "policy_key": "d43efaace0e4f67e3e04ce93",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 29.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/C0Sc0/5029904_1/re/150x150/qt/55/5029904_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ea-sports-fc-27-nintendo-switch-2-game-free-cc-5029904",
+      "landed_cost": null,
+      "breakeven_sell": 39.75,
+      "sell_for_minimum_profit": 53.92,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T16:19:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=EA+Sports+FC+27+Nintendo+Switch+2+Game&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "ea sports fc 27 nintendo switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-11T16:19:40+00:00",
+        "date": "2026-11-11",
+        "sample_count": 2,
+        "listed_total_low": 57.04,
+        "listed_total_p25": 57.67,
+        "listed_total_median": 58.3,
+        "listed_total_p75": 58.92,
+        "listed_total_high": 59.55,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|398420902958|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/kX4AAeSwLGtqta30/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398420902958",
+            "title": "EA Sports FC 27 (Nintendo Switch 2) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 57.04,
+            "shipping": 0.0,
+            "listed_total": 57.04
+          },
+          {
+            "item_id": "v1|198736917517|0",
+            "seller": "youritdelivered",
+            "image": "https://i.ebayimg.com/images/g/d98AAeSwGb9q2kY0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198736917517",
+            "title": "EA Sports FC 27 Nintendo Switch 2 Game",
+            "declared_condition": "new",
+            "item_price": 59.55,
+            "shipping": 0.0,
+            "listed_total": 59.55
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 18
+        },
+        "query_aliases": [
+          "EA Sports FC 27 Nintendo Switch 2 Game - Free C&C"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "ea sports fc 27 nintendo switch 2",
+        "observed_at": "2026-11-11T16:19:40+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 57.04,
+        "competition_high": 59.55,
+        "estimated_resale": 55.32,
+        "estimated_range": [
+          51.33,
+          57.04
+        ],
+        "suggested_listing": 57.03,
+        "quick_sale_model": 51.33,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 29.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 13.19,
+        "max_landed_buy": 30.84,
+        "max_item_buy": null,
+        "delivery_headroom": 0.85,
+        "fees": 7.28,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 1.66,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 49.78,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 33.18,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|398420902958|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/kX4AAeSwLGtqta30/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398420902958",
+            "title": "EA Sports FC 27 (Nintendo Switch 2) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 57.04,
+            "shipping": 0.0,
+            "listed_total": 57.04,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198736917517|0",
+            "seller": "youritdelivered",
+            "image": "https://i.ebayimg.com/images/g/d98AAeSwGb9q2kY0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198736917517",
+            "title": "EA Sports FC 27 Nintendo Switch 2 Game",
+            "declared_condition": "new",
+            "item_price": 59.55,
+            "shipping": 0.0,
+            "listed_total": 59.55,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "LEGO Technic 1966 Ford GT40 MKII Racing Car 42223",
       "url": "https://www.hotukdeals.com/deals/lego-technic-1966-ford-gt40-mkii-racing-car-42223-5026563",
       "policy_key": "870626d17c55a6e22f7ae7ef",
@@ -4714,8 +3844,8 @@
       "item_price": 39.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/150x150/qt/55/5026563_1.jpg",
@@ -6054,8 +5184,8 @@
       "item_price": 42.72,
       "image_status": "verified",
       "image_verified_url": "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/wyQAAeSwPGdqsqlX/s-l225.jpg",
         "https://i.ebayimg.com/images/g/NwsAAeSwC3RquTjw/s-l225.jpg",
@@ -7169,8 +6299,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg"
@@ -8385,8 +7515,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg",
@@ -9400,8 +8530,8 @@
       "item_price": 55.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
@@ -10183,8 +9313,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
@@ -10952,6 +10082,1052 @@
       }
     },
     {
+      "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
+      "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
+      "policy_key": "77f45127115e0306cf5deb7f",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 57.0,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg",
+        "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
+      "landed_cost": null,
+      "breakeven_sell": 75.18,
+      "sell_for_minimum_profit": 102.47,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T14:25:14+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Haunted+Mansion+31167+%28Discount+at+Checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 31167",
+        "category": "lego",
+        "name_terms": [
+          "3in1",
+          "creator",
+          "haunted",
+          "mansion"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-11T16:19:40+00:00",
+        "date": "2026-11-11",
+        "sample_count": 25,
+        "listed_total_low": 69.75,
+        "listed_total_p25": 75.99,
+        "listed_total_median": 78.71,
+        "listed_total_p75": 83.94,
+        "listed_total_high": 94.99,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|227408886875|0",
+            "seller": "sa_sha",
+            "image": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227408886875",
+            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 6.65,
+            "listed_total": 69.75
+          },
+          {
+            "item_id": "v1|227492679444|0",
+            "seller": "hug-4094",
+            "image": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227492679444",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
+            "declared_condition": "new",
+            "item_price": 64.99,
+            "shipping": 5.15,
+            "listed_total": 70.14
+          },
+          {
+            "item_id": "v1|287471927853|0",
+            "seller": "jco_bricks",
+            "image": "https://i.ebayimg.com/images/g/hJwAAeSwFdNqXNVO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287471927853",
+            "title": "Lego Creator: Haunted Mansion (31167)",
+            "declared_condition": "new",
+            "item_price": 67.99,
+            "shipping": 3.71,
+            "listed_total": 71.7
+          },
+          {
+            "item_id": "v1|287587711434|0",
+            "seller": "margdun_42",
+            "image": "https://i.ebayimg.com/images/g/JqYAAeSwQIRqqF8u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287587711434",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 5.21,
+            "listed_total": 73.21
+          },
+          {
+            "item_id": "v1|407280395109|0",
+            "seller": "knowh95",
+            "image": "https://i.ebayimg.com/images/g/87kAAeSw1fBqyhfE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407280395109",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
+            "declared_condition": "new",
+            "item_price": 68.29,
+            "shipping": 5.21,
+            "listed_total": 73.5
+          },
+          {
+            "item_id": "v1|147570125254|0",
+            "seller": "seal_5392",
+            "image": "https://i.ebayimg.com/images/g/i8sAAeSw9TBqpnCC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147570125254",
+            "title": "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
+            "declared_condition": "new",
+            "item_price": 70.0,
+            "shipping": 3.71,
+            "listed_total": 73.71
+          },
+          {
+            "item_id": "v1|960152908038|0",
+            "seller": "globalmartt",
+            "image": "https://i.ebayimg.com/images/g/U08AAeSwzHBq6xHC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960152908038",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 75.99,
+            "shipping": 0.0,
+            "listed_total": 75.99
+          },
+          {
+            "item_id": "v1|407297671288|0",
+            "seller": "aust-inspace",
+            "image": "https://i.ebayimg.com/images/g/M8kAAeSwiFVq0~dl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407297671288",
+            "title": "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
+            "declared_condition": "new",
+            "item_price": 72.5,
+            "shipping": 3.55,
+            "listed_total": 76.05
+          },
+          {
+            "item_id": "v1|267772286741|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/deAAAeSwIK1qla-t/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267772286741",
+            "title": "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 3.49,
+            "listed_total": 76.98
+          },
+          {
+            "item_id": "v1|357992865272|0",
+            "seller": "cookingongas-3",
+            "image": "https://i.ebayimg.com/images/g/fvsAAeSwKUlpNUMJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/357992865272",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 5.21,
+            "listed_total": 78.7
+          },
+          {
+            "item_id": "v1|128089714905|0",
+            "seller": "aileenmcmillanxoxo",
+            "image": "https://i.ebayimg.com/images/g/4QgAAeSwl9hqsBw6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128089714905",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New 31167",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 0.0,
+            "listed_total": 78.7
+          },
+          {
+            "item_id": "v1|127665567595|0",
+            "seller": "sy_7217",
+            "image": "https://i.ebayimg.com/images/g/8RsAAeSwmgJpg4Dy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127665567595",
+            "title": "LEGO Creator 3in1 Haunted Mansion House Building Toy Set 31167",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 0.0,
+            "listed_total": 78.7
+          },
+          {
+            "item_id": "v1|236905390632|0",
+            "seller": "thebri-6529",
+            "image": "https://i.ebayimg.com/images/g/Fp0AAeSwijdqmb-i/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236905390632",
+            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion BNIB New factory Sealed",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 5.21,
+            "listed_total": 78.71
+          },
+          {
+            "item_id": "v1|267339608039|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/XjAAAeSw34VogJPR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339608039",
+            "title": "Lego Creator 31167 Haunted Mansion  - Brand New",
+            "declared_condition": "new",
+            "item_price": 79.1,
+            "shipping": 0.0,
+            "listed_total": 79.1
+          },
+          {
+            "item_id": "v1|267360086608|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/QZYAAeSwDPpolxVO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267360086608",
+            "title": "LEGO 31167 Creator 3in1 Haunted Mansion - Transforms into a Ghost Ship or a T...",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 0.0,
+            "listed_total": 79.99
+          },
+          {
+            "item_id": "v1|286931197591|0",
+            "seller": "wesell2youltd",
+            "image": "https://i.ebayimg.com/images/g/g70AAeSwdjNpEy~m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286931197591",
+            "title": "LEGO Creator Haunted Mansion Model 31167 (9+ Years)",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 0.0,
+            "listed_total": 79.99
+          },
+          {
+            "item_id": "v1|277475387217|0",
+            "seller": "jdcj2013",
+            "image": "https://i.ebayimg.com/images/g/EUwAAeSwueppA7WX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277475387217",
+            "title": "LEGO Creator 3 in 1 Haunted Mansion Set 31167 House Ship Train Spooky Halloween",
+            "declared_condition": "new",
+            "item_price": 80.01,
+            "shipping": 0.0,
+            "listed_total": 80.01
+          },
+          {
+            "item_id": "v1|800696088745|0",
+            "seller": "brickraiders",
+            "image": "https://i.ebayimg.com/images/g/jWIAAeSw5hJqsX-R/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800696088745",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 6.62,
+            "listed_total": 80.12
+          },
+          {
+            "item_id": "v1|206366032510|0",
+            "seller": "rarebrix",
+            "image": "https://i.ebayimg.com/images/g/8p8AAeSwXhxq6iQL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206366032510",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 80.95,
+            "shipping": 2.99,
+            "listed_total": 83.94
+          },
+          {
+            "item_id": "v1|127913900169|0",
+            "seller": "safari-island",
+            "image": "https://i.ebayimg.com/images/g/558AAeSw2BpqKSop/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127913900169",
+            "title": "LEGO Creator 3 in 1 - Haunted Mansion - 31167",
+            "declared_condition": "new",
+            "item_price": 79.98,
+            "shipping": 3.99,
+            "listed_total": 83.97
+          },
+          {
+            "item_id": "v1|317642916911|0",
+            "seller": "phillipshobbies",
+            "image": "https://i.ebayimg.com/images/g/fO8AAeSwhSppOIY2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/317642916911",
+            "title": "LEGO Creator 3in1 Haunted Mansion House Building Toy Set 31167",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 3.99,
+            "listed_total": 83.98
+          },
+          {
+            "item_id": "v1|366550704028|0",
+            "seller": "sha_75793",
+            "image": "https://i.ebayimg.com/images/g/jfwAAeSw7EhqW6OW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366550704028",
+            "title": "LEGO Creator 3in1: Haunted Mansion - Ghost Ship - Train - 31167 - Brand New",
+            "declared_condition": "new",
+            "item_price": 79.73,
+            "shipping": 4.27,
+            "listed_total": 84.0
+          },
+          {
+            "item_id": "v1|820213191304|0",
+            "seller": "mahar-1732",
+            "image": "https://i.ebayimg.com/images/g/~iIAAeSw7plqxhTS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820213191304",
+            "title": "LEGO Creator Haunted Mansion 3 in 1 Set 31167 736 PCs Age 9+",
+            "declared_condition": "new",
+            "item_price": 83.9,
+            "shipping": 3.89,
+            "listed_total": 87.79
+          },
+          {
+            "item_id": "v1|327399102430|0",
+            "seller": "ihaveit_music",
+            "image": "https://i.ebayimg.com/images/g/3~UAAeSw0eJq16eK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327399102430",
+            "title": "Lego - - Creator - Haunted Mansion 31167 - construct - P2222z",
+            "declared_condition": "new",
+            "item_price": 93.11,
+            "shipping": 0.0,
+            "listed_total": 93.11
+          },
+          {
+            "item_id": "v1|168207977295|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/4HMAAeSwLkJpqbGB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207977295",
+            "title": "Lego\u00ae Creator 31167 Haunted Residence Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 94.99,
+            "shipping": 0.0,
+            "listed_total": 94.99
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 25
+        },
+        "query_aliases": [
+          "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 31167",
+        "observed_at": "2026-11-11T16:19:40+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 25,
+        "seller_count": 25,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 8,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 69.75,
+        "competition_high": 94.99,
+        "estimated_resale": 67.65,
+        "estimated_range": [
+          62.77,
+          69.75
+        ],
+        "suggested_listing": 69.74,
+        "quick_sale_model": 62.77,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 57.0,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -6.28,
+        "max_landed_buy": 36.22,
+        "max_item_buy": null,
+        "delivery_headroom": -20.78,
+        "fees": 9.61,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 2.03,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 60.88,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 40.06,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|227408886875|0",
+            "seller": "sa_sha",
+            "image": "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227408886875",
+            "title": "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 6.65,
+            "listed_total": 69.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227492679444|0",
+            "seller": "hug-4094",
+            "image": "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227492679444",
+            "title": "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
+            "declared_condition": "new",
+            "item_price": 64.99,
+            "shipping": 5.15,
+            "listed_total": 70.14,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287471927853|0",
+            "seller": "jco_bricks",
+            "image": "https://i.ebayimg.com/images/g/hJwAAeSwFdNqXNVO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287471927853",
+            "title": "Lego Creator: Haunted Mansion (31167)",
+            "declared_condition": "new",
+            "item_price": 67.99,
+            "shipping": 3.71,
+            "listed_total": 71.7,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287587711434|0",
+            "seller": "margdun_42",
+            "image": "https://i.ebayimg.com/images/g/JqYAAeSwQIRqqF8u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287587711434",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 5.21,
+            "listed_total": 73.21,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407280395109|0",
+            "seller": "knowh95",
+            "image": "https://i.ebayimg.com/images/g/87kAAeSw1fBqyhfE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407280395109",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
+            "declared_condition": "new",
+            "item_price": 68.29,
+            "shipping": 5.21,
+            "listed_total": 73.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147570125254|0",
+            "seller": "seal_5392",
+            "image": "https://i.ebayimg.com/images/g/i8sAAeSw9TBqpnCC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147570125254",
+            "title": "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
+            "declared_condition": "new",
+            "item_price": 70.0,
+            "shipping": 3.71,
+            "listed_total": 73.71,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960152908038|0",
+            "seller": "globalmartt",
+            "image": "https://i.ebayimg.com/images/g/U08AAeSwzHBq6xHC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960152908038",
+            "title": "LEGO Creator 3in1 Haunted Mansion 31167",
+            "declared_condition": "new",
+            "item_price": 75.99,
+            "shipping": 0.0,
+            "listed_total": 75.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407297671288|0",
+            "seller": "aust-inspace",
+            "image": "https://i.ebayimg.com/images/g/M8kAAeSwiFVq0~dl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407297671288",
+            "title": "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
+            "declared_condition": "new",
+            "item_price": 72.5,
+            "shipping": 3.55,
+            "listed_total": 76.05,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267772286741|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/deAAAeSwIK1qla-t/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267772286741",
+            "title": "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 3.49,
+            "listed_total": 76.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|357992865272|0",
+            "seller": "cookingongas-3",
+            "image": "https://i.ebayimg.com/images/g/fvsAAeSwKUlpNUMJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/357992865272",
+            "title": "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 5.21,
+            "listed_total": 78.7,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
+        "query": "LEGO 31167",
+        "kind": "active_ask",
+        "listing": 69.74,
+        "observed_at": "2026-11-11T16:19:40+00:00",
+        "valid_until": "2026-11-11T22:19:40+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/227408886875",
+          "https://www.ebay.co.uk/itm/227492679444",
+          "https://www.ebay.co.uk/itm/287471927853",
+          "https://www.ebay.co.uk/itm/287587711434",
+          "https://www.ebay.co.uk/itm/407280395109",
+          "https://www.ebay.co.uk/itm/147570125254",
+          "https://www.ebay.co.uk/itm/960152908038",
+          "https://www.ebay.co.uk/itm/407297671288",
+          "https://www.ebay.co.uk/itm/267772286741",
+          "https://www.ebay.co.uk/itm/357992865272"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/227408886875",
+            "LEGO Creator 3-in-1 31167 Haunted Mansion.  Brand New & Sealed",
+            69.75,
+            6.65,
+            63.1,
+            "sa_sha"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227492679444",
+            "Lego Creator 3 in 1 Haunted Mansion Set Brand New & Sealed 31167",
+            70.14,
+            5.15,
+            64.99,
+            "hug-4094"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287471927853",
+            "Lego Creator: Haunted Mansion (31167)",
+            71.7,
+            3.71,
+            67.99,
+            "jco_bricks"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287587711434",
+            "LEGO Creator 31167 Haunted Mansion Building Set Brand New & Sealed",
+            73.21,
+            5.21,
+            68.0,
+            "margdun_42"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407280395109",
+            "LEGO Creator 3in1 Haunted Mansion 31167 Brand New Sealed Halloween Spooky Gift",
+            73.5,
+            5.21,
+            68.29,
+            "knowh95"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/147570125254",
+            "LEGO Creator 3in1 Haunted Mansion Building Set 31167",
+            73.71,
+            3.71,
+            70.0,
+            "seal_5392"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/960152908038",
+            "LEGO Creator 3in1 Haunted Mansion 31167",
+            75.99,
+            0.0,
+            75.99,
+            "globalmartt"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407297671288",
+            "LEGO Creator 3in1 Haunted House Set 31167 Ghost Train and Pirate Ship",
+            76.05,
+            3.55,
+            72.5,
+            "aust-inspace"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267772286741",
+            "LEGO Creator 3in1: Haunted Mansion (31167) New & Sealed",
+            76.98,
+            3.49,
+            73.49,
+            "bricktopia_collectables"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/357992865272",
+            "LEGO Creator 31167 Haunted Mansion Building Set BRAND NEW SEALED!",
+            78.7,
+            5.21,
+            73.49,
+            "cookingongas-3"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO IDEAS 21349 Tuxedo Cat - Free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-ideas-21349-tuxedo-cat-free-cc-5029047",
       "policy_key": "57bf8ecaabe00f4ebb6e7507",
@@ -10966,8 +11142,8 @@
       "item_price": 65.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/150x150/qt/55/5029047_1.jpg"
@@ -11684,8 +11860,8 @@
       "item_price": 93.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/150x150/qt/55/5029208_1.jpg"
@@ -12535,8 +12711,8 @@
       "item_price": 107.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/300x300/qt/55/5029114_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/300x300/qt/55/5029114_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/150x150/qt/55/5029114_1.jpg"
@@ -12828,8 +13004,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/150x150/qt/55/5029042_1.jpg"
@@ -13510,8 +13686,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/150x150/qt/55/5029427_1.jpg"
@@ -14404,8 +14580,8 @@
       "item_price": 150.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QVfRv/5028459_1/re/300x300/qt/55/5028459_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QVfRv/5028459_1/re/300x300/qt/55/5028459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QVfRv/5028459_1/re/150x150/qt/55/5028459_1.jpg"
@@ -15401,7 +15577,7 @@
         "rejected": {
           "identity_or_condition": 24
         },
-        "canonicalized_at": "2026-11-11T15:47:23+00:00",
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Gran Turismo 7 PS4 - Free C&C"
@@ -17101,7 +17277,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-11T15:47:23+00:00",
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resonance: A Plague Tale Legacy - PS5 - Free C&C"
@@ -17348,9 +17524,9 @@
         "date": "2026-11-11",
         "sample_count": 2,
         "listed_total_low": 40.0,
-        "listed_total_p25": 44.47,
-        "listed_total_median": 48.95,
-        "listed_total_p75": 53.42,
+        "listed_total_p25": 44.4725,
+        "listed_total_median": 48.945,
+        "listed_total_p75": 53.417500000000004,
         "listed_total_high": 57.89,
         "status": "small_sample",
         "warnings": [
@@ -17378,7 +17554,8 @@
             "declared_condition": "new",
             "item_price": 40.0,
             "shipping": 0.0,
-            "listed_total": 40.0
+            "listed_total": 40.0,
+            "observed_at": "2026-11-11T15:48:10+00:00"
           },
           {
             "item_id": "v1|227575214104|0",
@@ -17400,12 +17577,15 @@
             "declared_condition": "new",
             "item_price": 57.89,
             "shipping": 0.0,
-            "listed_total": 57.89
+            "listed_total": 57.89,
+            "observed_at": "2026-11-11T15:48:10+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 10
         },
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -17511,6 +17691,7 @@
             "item_price": 40.0,
             "shipping": 0.0,
             "listed_total": 40.0,
+            "observed_at": "2026-11-11T15:48:10+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -17534,6 +17715,7 @@
             "item_price": 57.89,
             "shipping": 0.0,
             "listed_total": 57.89,
+            "observed_at": "2026-11-11T15:48:10+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -17589,9 +17771,9 @@
         "date": "2026-11-11",
         "sample_count": 2,
         "listed_total_low": 40.0,
-        "listed_total_p25": 44.47,
-        "listed_total_median": 48.95,
-        "listed_total_p75": 53.42,
+        "listed_total_p25": 44.4725,
+        "listed_total_median": 48.945,
+        "listed_total_p75": 53.417500000000004,
         "listed_total_high": 57.89,
         "status": "small_sample",
         "warnings": [
@@ -17619,7 +17801,8 @@
             "declared_condition": "new",
             "item_price": 40.0,
             "shipping": 0.0,
-            "listed_total": 40.0
+            "listed_total": 40.0,
+            "observed_at": "2026-11-11T15:48:10+00:00"
           },
           {
             "item_id": "v1|227575214104|0",
@@ -17641,12 +17824,15 @@
             "declared_condition": "new",
             "item_price": 57.89,
             "shipping": 0.0,
-            "listed_total": 57.89
+            "listed_total": 57.89,
+            "observed_at": "2026-11-11T15:48:10+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 10
         },
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -17752,6 +17938,7 @@
             "item_price": 40.0,
             "shipping": 0.0,
             "listed_total": 40.0,
+            "observed_at": "2026-11-11T15:48:10+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -17775,6 +17962,7 @@
             "item_price": 57.89,
             "shipping": 0.0,
             "listed_total": 57.89,
+            "observed_at": "2026-11-11T15:48:10+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -17830,9 +18018,9 @@
         "date": "2026-11-11",
         "sample_count": 2,
         "listed_total_low": 40.0,
-        "listed_total_p25": 44.47,
-        "listed_total_median": 48.95,
-        "listed_total_p75": 53.42,
+        "listed_total_p25": 44.4725,
+        "listed_total_median": 48.945,
+        "listed_total_p75": 53.417500000000004,
         "listed_total_high": 57.89,
         "status": "small_sample",
         "warnings": [
@@ -17860,7 +18048,8 @@
             "declared_condition": "new",
             "item_price": 40.0,
             "shipping": 0.0,
-            "listed_total": 40.0
+            "listed_total": 40.0,
+            "observed_at": "2026-11-11T15:48:10+00:00"
           },
           {
             "item_id": "v1|227575214104|0",
@@ -17882,12 +18071,15 @@
             "declared_condition": "new",
             "item_price": 57.89,
             "shipping": 0.0,
-            "listed_total": 57.89
+            "listed_total": 57.89,
+            "observed_at": "2026-11-11T15:48:10+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 10
         },
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5)",
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -17993,6 +18185,7 @@
             "item_price": 40.0,
             "shipping": 0.0,
             "listed_total": 40.0,
+            "observed_at": "2026-11-11T15:48:10+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -18016,6 +18209,7 @@
             "item_price": 57.89,
             "shipping": 0.0,
             "listed_total": 57.89,
+            "observed_at": "2026-11-11T15:48:10+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -18246,7 +18440,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-11T15:47:23+00:00",
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Marvel Tokon: Fighting Souls (PS5) - free C&C"
@@ -18707,7 +18901,7 @@
         "rejected": {
           "identity_or_condition": 22
         },
-        "canonicalized_at": "2026-11-11T15:47:23+00:00",
+        "canonicalized_at": "2026-11-11T16:19:03+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS: Galactic Racer PS5"
@@ -19324,7 +19518,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-11T15:47:23+00:00",
+          "observed_at": "2026-11-11T16:19:03+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -19934,7 +20128,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|206068108309|0",
-          "observed_at": "2026-11-11T15:47:23+00:00",
+          "observed_at": "2026-11-11T16:19:03+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -20176,10 +20370,10 @@
       }
     },
     {
-      "title": "STAR WARS Zero Company (PS5) - Brand New and Sealed",
-      "url": "https://www.ebay.co.uk/itm/407166138649",
-      "policy_key": "d10caff7e019cd47069a73ea",
-      "category": "gaming",
+      "title": "LEGO Friends 42698 Advent Calendar 2026 Age 6+ 211pcs",
+      "url": "https://www.ebay.co.uk/itm/407315929023",
+      "policy_key": "1290e7bffef08b14c7df5f59",
+      "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
       "identity_evidence": [],
@@ -20187,26 +20381,30 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "eBay",
-      "item_price": 39.36,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/ow8AAeSwwc5qzLa4/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/407166138649",
-      "landed_cost": 39.36,
-      "breakeven_sell": 50.81,
-      "sell_for_minimum_profit": 69.41,
+      "item_price": 19.39,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
+        "https://i.ebayimg.com/images/g/01oAAeSwVRBq3nuw/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-friends-advent-calendar-2026-42698-5029194",
+      "landed_cost": 19.39,
+      "breakeven_sell": 30.13,
+      "sell_for_minimum_profit": 39.71,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "landed",
       "blockers": [
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-11T15:48:08+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=STAR+WARS+Zero+Company+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-11T14:43:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Friends+42698+Advent+Calendar+2026+Age+6%2B+211pcs&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -20214,10 +20412,10 @@
       }
     },
     {
-      "title": "Star Wars: Zero Company - PS5",
-      "url": "https://www.ebay.co.uk/itm/366572516451",
-      "policy_key": "365e8d64106834dd81785610",
-      "category": "gaming",
+      "title": "LEGO Friends 42698 Advent Calendar 2026 Age 6+ 211pcs",
+      "url": "https://www.ebay.co.uk/itm/336838357612",
+      "policy_key": "81b7054c1c7349936e6bcaba",
+      "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
       "identity_evidence": [],
@@ -20225,26 +20423,30 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "eBay",
-      "item_price": 53.85,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/ShUAAeSwPpdqaebo/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/366572516451",
-      "landed_cost": 53.85,
-      "breakeven_sell": 67.92,
-      "sell_for_minimum_profit": 93.36,
+      "item_price": 22.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
+        "https://i.ebayimg.com/images/g/Nc4AAeSw1LJq1PuD/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-friends-advent-calendar-2026-42698-5029194",
+      "landed_cost": 22.99,
+      "breakeven_sell": 34.44,
+      "sell_for_minimum_profit": 45.46,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "landed",
       "blockers": [
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-11T15:48:08+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Zero+Company&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-11T14:43:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Friends+42698+Advent+Calendar+2026+Age+6%2B+211pcs&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -20252,10 +20454,10 @@
       }
     },
     {
-      "title": "Star Wars Zero Company (PS5) New Sealed Game",
-      "url": "https://www.ebay.co.uk/itm/278210227769",
-      "policy_key": "8c7ed1eb4601caa78ef6fa3d",
-      "category": "gaming",
+      "title": "LEGO Friends Advent Calendar 2026-42698",
+      "url": "https://www.ebay.co.uk/itm/880028612873",
+      "policy_key": "416d147aa0dd1f4623e10e90",
+      "category": "lego",
       "source": "ebay_browse",
       "price_basis": null,
       "identity_evidence": [],
@@ -20263,26 +20465,30 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "eBay",
-      "item_price": 53.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/d90AAeSw6o5qkFj3/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/278210227769",
-      "landed_cost": 53.99,
-      "breakeven_sell": 68.08,
-      "sell_for_minimum_profit": 93.59,
+      "item_price": 22.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
+        "https://i.ebayimg.com/images/g/2dQAAeSwcR5q1PmM/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-friends-advent-calendar-2026-42698-5029194",
+      "landed_cost": 22.99,
+      "breakeven_sell": 34.44,
+      "sell_for_minimum_profit": 45.46,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "landed",
       "blockers": [
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-11T15:48:08+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars+Zero+Company+%28PS5%29+New+Sealed+Game&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-11T14:43:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Friends+Advent+Calendar+2026-42698&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -20304,8 +20510,8 @@
       "item_price": 8.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg"
@@ -20376,6 +20582,50 @@
       }
     },
     {
+      "title": "LEGO Minecraft The Pale Garden 21586 - Discount at checkout",
+      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
+      "policy_key": "04716e586b5d10553ef8cb1c",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 10.92,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg",
+        "https://i.ebayimg.com/images/g/GhYAAeSwttBqw4Ke/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 19.99,
+      "sell_for_minimum_profit": 29.57,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-09T09:10:11+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Pale+Garden+21586&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Star Wars Death Trooper & Night Trooper Battle Pack 75412",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-death-trooper-night-trooper-battle-pack-75412-5028470",
       "policy_key": "f6907db04a0d2413a11735c7",
@@ -20390,8 +20640,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/150x150/qt/55/5028470_1.jpg",
@@ -20434,8 +20684,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/150x150/qt/55/5028719_1.jpg"
@@ -20476,8 +20726,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/150x150/qt/55/5028595_1.jpg"
@@ -20504,6 +20754,45 @@
       }
     },
     {
+      "title": "Ugreen Wireless Bluetooth Headphones 43dB Hybrid Active Noise Cancellation Hi-Res LDAC 75H @ ugreen official store",
+      "url": "https://www.hotukdeals.com/deals/ugreen-wireless-bluetooth-headphones-43db-hybrid-active-noise-cancellation-hi-res-ldac-75h-at-ugreen-official-store-5029908",
+      "policy_key": "b8b80e08ff7fbfe97f994b70",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "",
+      "item_price": 12.85,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/V87d0/5029908_1/re/150x150/qt/55/5029908_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ugreen-wireless-bluetooth-headphones-43db-hybrid-active-noise-cancellation-hi-res-ldac-75h-at-ugreen-official-store-5029908",
+      "landed_cost": null,
+      "breakeven_sell": 20.8,
+      "sell_for_minimum_profit": 30.66,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T16:19:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ugreen+Wireless+Bluetooth+Headphones+43dB+Hybrid+Active+Noise+Cancellation+Hi-Res+LDAC+75H+%40+ugreen+official+store&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Botanicals Mini Orchid 10343 - Used Like New (Discount at Checkout) Sold by Amazon Resale",
       "url": "https://www.hotukdeals.com/deals/lego-botanicals-mini-orchid-10343-used-like-new-discount-at-checkout-sold-by-amazon-resale-fba-5029092",
       "policy_key": "27395ef9c7e87f926893deed",
@@ -20518,8 +20807,8 @@
       "item_price": 12.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/150x150/qt/55/5029092_1.jpg"
@@ -20643,8 +20932,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg"
@@ -20729,8 +21018,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg",
@@ -20773,8 +21062,8 @@
       "item_price": 14.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/150x150/qt/55/5029030_1.jpg"
@@ -20857,8 +21146,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/150x150/qt/55/5028262_1.jpg",
@@ -20901,8 +21190,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/150x150/qt/55/5028558_1.jpg",
@@ -20989,8 +21278,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/150x150/qt/55/5028607_1.jpg"
@@ -21070,8 +21359,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg",
@@ -21114,8 +21403,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/150x150/qt/55/5028448_1.jpg",
@@ -21158,8 +21447,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/150x150/qt/55/5028505_1.jpg",
@@ -21246,8 +21535,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg"
@@ -21288,8 +21577,8 @@
       "item_price": 17.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/150x150/qt/55/5028499_1.jpg",
@@ -21332,8 +21621,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
@@ -21376,8 +21665,8 @@
       "item_price": 18.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg"
@@ -21398,45 +21687,6 @@
       "first_seen": "2026-11-10T21:18:01+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Retro+Roller+Skate+31148&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "OPPO Enco Buds3s True Wireless Earbuds, 54hr Playtime, IP55 - 2 Colours",
-      "url": "https://www.hotukdeals.com/deals/oppo-enco-buds3s-true-wireless-earbuds-54hr-playtime-ip55-2-colours-5027655",
-      "policy_key": "dac506ce5f659404f3433f4e",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 19.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/BajYj/5027655_1/re/150x150/qt/55/5027655_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/oppo-enco-buds3s-true-wireless-earbuds-54hr-playtime-ip55-2-colours-5027655",
-      "landed_cost": null,
-      "breakeven_sell": 29.61,
-      "sell_for_minimum_profit": 39.46,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-10T02:25:30+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=OPPO+Enco+Buds3s+True+Wireless+Earbuds%2C+54hr+Playtime%2C+IP55&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -21501,8 +21751,8 @@
       "item_price": 22.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/150x150/qt/55/5028495_1.jpg"
@@ -21543,8 +21793,8 @@
       "item_price": 23.26,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/150x150/qt/55/5027785_1.jpg",
@@ -21587,8 +21837,8 @@
       "item_price": 24.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/150x150/qt/55/5027979_1.jpg",
@@ -21670,8 +21920,8 @@
       "item_price": 26.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/150x150/qt/55/5028523_1.jpg",
@@ -21714,8 +21964,8 @@
       "item_price": 27.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg",
@@ -21758,8 +22008,8 @@
       "item_price": 27.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/150x150/qt/55/5029065_1.jpg"
@@ -21779,6 +22029,45 @@
       "priority": 10,
       "first_seen": "2026-11-11T00:48:40+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Botanicals+Olivia+Rodrigo%27s+Flower+Bouquet+11507&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Resonance: A Plague Tale Legacy (Xbox Series X)",
+      "url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-xbox-series-x-5029886",
+      "policy_key": "e9d17b5e61f42133356b4af8",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 28.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/4SZ5T/5029886_1/re/150x150/qt/55/5029886_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-xbox-series-x-5029886",
+      "landed_cost": null,
+      "breakeven_sell": 38.57,
+      "sell_for_minimum_profit": 52.27,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T16:19:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resonance%3A+A+Plague+Tale+Legacy+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -21839,8 +22128,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/150x150/qt/55/5028766_1.jpg"
@@ -21964,8 +22253,8 @@
       "item_price": 36.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/150x150/qt/55/5029171_1.jpg"
@@ -22006,8 +22295,8 @@
       "item_price": 36.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/150x150/qt/55/5027982_1.jpg",
@@ -22126,8 +22415,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg"
@@ -22168,8 +22457,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg"
@@ -22254,8 +22543,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
@@ -22298,8 +22587,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg"
@@ -22384,8 +22673,8 @@
       "item_price": 42.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/150x150/qt/55/5028115_1.jpg",
@@ -22428,8 +22717,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/150x150/qt/55/5028779_1.jpg"
@@ -22509,8 +22798,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg",
@@ -22553,8 +22842,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/150x150/qt/55/5029044_1.jpg"
@@ -22595,8 +22884,8 @@
       "item_price": 47.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg"
@@ -22706,50 +22995,6 @@
       }
     },
     {
-      "title": "LEGO Creator 3in1 Haunted Mansion 31167 (Discount at Checkout)",
-      "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
-      "policy_key": "77f45127115e0306cf5deb7f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 57.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg",
-        "https://i.ebayimg.com/images/g/OWUAAeSw509qQthj/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/PaUAAeSww45qjyyV/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 75.18,
-      "sell_for_minimum_profit": 102.47,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-08T14:25:14+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Haunted+Mansion+31167+%28Discount+at+Checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO City Airport with Airplane, Tug Car, Bridge, 9 Minifigures & Accessories 60502",
       "url": "https://www.hotukdeals.com/deals/lego-city-airport-with-airplane-tug-car-bridge-9-minifigures-accessories-60502-5029161",
       "policy_key": "e05ef6c08b29477d3b1b9ac2",
@@ -22764,8 +23009,8 @@
       "item_price": 58.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
-      "image_verified_until": "2026-11-11T16:07:35.016670+00:00",
-      "image_checked_at": "2026-11-11T15:47:35.016670+00:00",
+      "image_verified_until": "2026-11-11T16:39:15.024704+00:00",
+      "image_checked_at": "2026-11-11T16:19:15.024704+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/150x150/qt/55/5029161_1.jpg"
@@ -22806,8 +23051,8 @@
       "item_price": 60.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
-      "image_verified_until": "2026-11-11T16:08:13.753100+00:00",
-      "image_checked_at": "2026-11-11T15:48:13.753100+00:00",
+      "image_verified_until": "2026-11-11T16:39:44.142776+00:00",
+      "image_checked_at": "2026-11-11T16:19:44.142776+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/150x150/qt/55/5027954_1.jpg",
@@ -23025,6 +23270,120 @@
       "first_seen": "2026-11-08T12:42:05+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+DCF887N+18V+XR+Brushless+Impact+Driver+%26+DCB184+5.0Ah+Battery+%26+DCB1104+Charger&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "STAR WARS Zero Company (PS5) - Brand New and Sealed",
+      "url": "https://www.ebay.co.uk/itm/407166138649",
+      "policy_key": "d10caff7e019cd47069a73ea",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 39.36,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/ow8AAeSwwc5qzLa4/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/407166138649",
+      "landed_cost": 39.36,
+      "breakeven_sell": 50.81,
+      "sell_for_minimum_profit": 69.41,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-11T15:48:08+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=STAR+WARS+Zero+Company+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Star Wars: Zero Company - PS5",
+      "url": "https://www.ebay.co.uk/itm/366572516451",
+      "policy_key": "365e8d64106834dd81785610",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 53.85,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/ShUAAeSwPpdqaebo/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/366572516451",
+      "landed_cost": 53.85,
+      "breakeven_sell": 67.92,
+      "sell_for_minimum_profit": 93.36,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-11T15:48:08+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Zero+Company&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Star Wars Zero Company (PS5) New Sealed Game",
+      "url": "https://www.ebay.co.uk/itm/278210227769",
+      "policy_key": "8c7ed1eb4601caa78ef6fa3d",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 53.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/d90AAeSw6o5qkFj3/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/278210227769",
+      "landed_cost": 53.99,
+      "breakeven_sell": 68.08,
+      "sell_for_minimum_profit": 93.59,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-11T15:48:08+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars+Zero+Company+%28PS5%29+New+Sealed+Game&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -23453,6 +23812,45 @@
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+6.35mm+25mm+Hex+Shank+PZ2+Impact+Torsion+Screwdriver+Bits+25+Pack+Free+C%26C&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "The Last of Us Remastered - PlayStation Hits (PS4)",
+      "url": "https://www.hotukdeals.com/deals/the-last-of-us-remastered-playstation-hits-ps4-5029502",
+      "policy_key": "20bb4f3aa6b4180038b31306",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 6.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/xL6eG/5029502_1/re/150x150/qt/55/5029502_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/the-last-of-us-remastered-playstation-hits-ps4-5029502",
+      "landed_cost": null,
+      "breakeven_sell": 12.6,
+      "sell_for_minimum_profit": 22.04,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-11T11:00:50+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Last+of+Us+Remastered&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -30539,7 +30937,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-11T09:57:39+00:00",
+        "observed_at": "2026-11-11T16:19:43+00:00",
         "date": "2026-11-11",
         "sample_count": 0,
         "listed_total_low": null,
