@@ -16,8 +16,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg"
@@ -1405,8 +1405,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg",
@@ -2490,6 +2490,1407 @@
             "item_price": 15.99,
             "shipping": 2.26,
             "listed_total": 18.25,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
+      "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 - 77260, discount at checkout",
+      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-discount-at-checkout-5027630",
+      "policy_key": "e182c3a4ce470fcbf1ced0c4",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 15.2,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg",
+        "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/RzoAAeSwvIxq8iLI/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-discount-at-checkout-5027630",
+      "landed_cost": null,
+      "breakeven_sell": 25.11,
+      "sell_for_minimum_profit": 34.69,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-10T01:23:19+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+The+Fast+and+The+Furious+Toyota+Supra+MK4&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 77260",
+        "category": "lego",
+        "name_terms": [
+          "fast",
+          "furious",
+          "mk4",
+          "supra",
+          "toyota"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-11T12:35:38+00:00",
+        "date": "2026-11-11",
+        "sample_count": 45,
+        "listed_total_low": 2.99,
+        "listed_total_p25": 20.25,
+        "listed_total_median": 21.26,
+        "listed_total_p75": 22.89,
+        "listed_total_high": 24.12,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|198717389323|0",
+            "seller": "bigh2k",
+            "image": "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198717389323",
+            "title": "LEGO: Speed Champions Fast & Furious Toyota Supra MK4 (77260) Windscreen.",
+            "declared_condition": "new",
+            "item_price": 2.99,
+            "shipping": 0.0,
+            "listed_total": 2.99
+          },
+          {
+            "item_id": "v1|137808771018|0",
+            "seller": "all-sorts1042",
+            "image": "https://i.ebayimg.com/images/g/tmcAAeSwxFxq6Nk4/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137808771018",
+            "title": "LEGO 77260 Speed Champions | Fast and Furious Toyota Supra Mk4 | Same Day Ship",
+            "declared_condition": "new",
+            "item_price": 17.0,
+            "shipping": 0.0,
+            "listed_total": 17.0
+          },
+          {
+            "item_id": "v1|227604252623|0",
+            "seller": "joshgid86",
+            "image": "https://i.ebayimg.com/images/g/7KIAAeSw2RFq8J7n/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227604252623",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292 Pieces",
+            "declared_condition": "new",
+            "item_price": 15.76,
+            "shipping": 2.26,
+            "listed_total": 18.02
+          },
+          {
+            "item_id": "v1|960159137248|0",
+            "seller": "nat_2869",
+            "image": "https://i.ebayimg.com/images/g/3dsAAeSwQopq7PJf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960159137248",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 10+ 292pc",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|237174573926|0",
+            "seller": "statto3082",
+            "image": "https://i.ebayimg.com/images/g/~~MAAeSwlWNq8sH0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237174573926",
+            "title": "LEGO Speed Champions Toyota Supra Mk4 77260, 292 Pcs",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|237174575477|0",
+            "seller": "statto3082",
+            "image": "https://i.ebayimg.com/images/g/Xo4AAeSw~Bxq8sJN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237174575477",
+            "title": "LEGO Speed Champions Fast & Furious Toyota Supra MK4 77260 292 Pieces 10+",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|128162825628|0",
+            "seller": "maisonbrickette",
+            "image": "https://i.ebayimg.com/images/g/roMAAeSwRONq44BF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128162825628",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292pc 10+",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.62,
+            "listed_total": 18.77
+          },
+          {
+            "item_id": "v1|257846280887|0",
+            "seller": "paulreversepush",
+            "image": "https://i.ebayimg.com/images/g/ca4AAeSwRIhq8kUh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257846280887",
+            "title": "LEGO 77260 Speed Champions Fast and The Furious Toyota Supra MK4  292pcs",
+            "declared_condition": "new",
+            "item_price": 18.99,
+            "shipping": 0.0,
+            "listed_total": 18.99
+          },
+          {
+            "item_id": "v1|168678174191|0",
+            "seller": "rustybull3tt",
+            "image": "https://i.ebayimg.com/images/g/3EwAAeSw-1lqoor2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168678174191",
+            "title": "LEGO\u00ae Speed Champions The Fast and The Furious Toyota Supra MK4 (77260) NEW",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.26,
+            "listed_total": 19.48
+          },
+          {
+            "item_id": "v1|960076104409|0",
+            "seller": "dhjd85",
+            "image": "https://i.ebayimg.com/images/g/dcEAAeSwDJpqxojY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960076104409",
+            "title": "LEGO Speed Champions: Fast & Furious Toyota Supra MK4 (77260) - Brand New & Seal",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.62,
+            "listed_total": 19.84
+          },
+          {
+            "item_id": "v1|128022622498|0",
+            "seller": "afchildfund",
+            "image": "https://i.ebayimg.com/images/g/t-YAAeSwxxdqfDYs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128022622498",
+            "title": "LEGO Speed Champions Set #77260 Fast & Furious Toyota Supra MK4 New And Sealed",
+            "declared_condition": "new",
+            "item_price": 19.99,
+            "shipping": 0.0,
+            "listed_total": 19.99
+          },
+          {
+            "item_id": "v1|128132927867|0",
+            "seller": "leescrazyflips",
+            "image": "https://i.ebayimg.com/images/g/TusAAeSwqVtqzhI0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128132927867",
+            "title": "Lego 77260 - Speed Champions - Fast & Furious Toyota Supra MK4 (New)",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 2.26,
+            "listed_total": 20.25
+          },
+          {
+            "item_id": "v1|128132932191|0",
+            "seller": "leescrazyflips",
+            "image": "https://i.ebayimg.com/images/g/TAQAAeSwB-NqzhJf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128132932191",
+            "title": "Lego 77260 - Speed Champions - Fast & Furious Toyota Supra MK4 (New)",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 2.26,
+            "listed_total": 20.25
+          },
+          {
+            "item_id": "v1|128132934692|0",
+            "seller": "leescrazyflips",
+            "image": "https://i.ebayimg.com/images/g/ThQAAeSwh~JqzhKV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128132934692",
+            "title": "Lego 77260 - Speed Champions - Fast & Furious Toyota Supra MK4 (New)",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 2.26,
+            "listed_total": 20.25
+          },
+          {
+            "item_id": "v1|137627681047|0",
+            "seller": "brickandbits",
+            "image": "https://i.ebayimg.com/images/g/UwIAAeSw5UJqgZ4f/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137627681047",
+            "title": "LEGO 77260 Speed Champions | Fast and Furious Toyota Supra Mk4 | Same Day Ship",
+            "declared_condition": "new",
+            "item_price": 18.13,
+            "shipping": 2.26,
+            "listed_total": 20.39
+          },
+          {
+            "item_id": "v1|287702866704|0",
+            "seller": "jcane_45",
+            "image": "https://i.ebayimg.com/images/g/RU8AAeSwbehq6mQw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287702866704",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292pcs 10+",
+            "declared_condition": "new",
+            "item_price": 18.24,
+            "shipping": 2.26,
+            "listed_total": 20.5
+          },
+          {
+            "item_id": "v1|318715450647|0",
+            "seller": "tonyc8642",
+            "image": "https://i.ebayimg.com/images/g/mrsAAeSw5UJqe7GV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318715450647",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 New Sealed",
+            "declared_condition": "new",
+            "item_price": 18.29,
+            "shipping": 2.26,
+            "listed_total": 20.55
+          },
+          {
+            "item_id": "v1|318469271630|0",
+            "seller": "athp2014_7",
+            "image": "https://i.ebayimg.com/images/g/LCUAAeSwsvBqMt5E/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318469271630",
+            "title": "LEGO Speed Champions 77260 The Fast and The Furious Toyota Supra MK4 New Sealed",
+            "declared_condition": "new",
+            "item_price": 18.29,
+            "shipping": 2.26,
+            "listed_total": 20.55
+          },
+          {
+            "item_id": "v1|168820796595|0",
+            "seller": "1olha_k",
+            "image": "https://i.ebayimg.com/images/g/KrUAAeSwo5Fqg2Vc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168820796595",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292pcs Brand New",
+            "declared_condition": "new",
+            "item_price": 18.29,
+            "shipping": 2.26,
+            "listed_total": 20.55
+          },
+          {
+            "item_id": "v1|366794579763|0",
+            "seller": "jm_jnr",
+            "image": "https://i.ebayimg.com/images/g/dbsAAeSwdy1q582~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366794579763",
+            "title": "LEGO Speed Champions 77260 The Fast and The Furious Toyota Supra MK4 Car Set",
+            "declared_condition": "new",
+            "item_price": 17.95,
+            "shipping": 2.62,
+            "listed_total": 20.57
+          },
+          {
+            "item_id": "v1|168720093549|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/i5sAAeSwARVqcJeX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168720093549",
+            "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 77260",
+            "declared_condition": "new",
+            "item_price": 20.99,
+            "shipping": 0.0,
+            "listed_total": 20.99
+          },
+          {
+            "item_id": "v1|398404384616|0",
+            "seller": "saveexpert",
+            "image": "https://i.ebayimg.com/images/g/sd0AAeSwgkJqrAz2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398404384616",
+            "title": "LEGO Speed Champions: The Fast and The Furious Toyota Supra MK4 (77260)",
+            "declared_condition": "new",
+            "item_price": 18.99,
+            "shipping": 2.26,
+            "listed_total": 21.25
+          },
+          {
+            "item_id": "v1|189047627406|0",
+            "seller": "natashafb",
+            "image": "https://i.ebayimg.com/images/g/K7AAAeSwxk5qxB7B/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/189047627406",
+            "title": "LEGO\u00ae 77260 Speed Champions | Fast and Furious Toyota Supra Mk4 | Fast Dispatch",
+            "declared_condition": "new",
+            "item_price": 19.0,
+            "shipping": 2.26,
+            "listed_total": 21.26
+          },
+          {
+            "item_id": "v1|307237548037|0",
+            "seller": "chrisk752009",
+            "image": "https://i.ebayimg.com/images/g/3n4AAeSwNA1q1MTm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307237548037",
+            "title": "Lego Speed Champions Fast & Furious Toyota Supra MK 4 77260 New",
+            "declared_condition": "new",
+            "item_price": 19.36,
+            "shipping": 2.26,
+            "listed_total": 21.62
+          },
+          {
+            "item_id": "v1|206684365287|0",
+            "seller": "angelda17",
+            "image": "https://i.ebayimg.com/images/g/jQkAAeSwyHhq8GY1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206684365287",
+            "title": "LEGO Speed Champions Fast & Furious Toyota Supra MK4 77260 292pcs 10+",
+            "declared_condition": "new",
+            "item_price": 17.21,
+            "shipping": 4.6,
+            "listed_total": 21.81
+          },
+          {
+            "item_id": "v1|237139957678|0",
+            "seller": "alasdair8980",
+            "image": "https://i.ebayimg.com/images/g/-NsAAeSwWx9q230p/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237139957678",
+            "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 77260",
+            "declared_condition": "new",
+            "item_price": 21.95,
+            "shipping": 0.0,
+            "listed_total": 21.95
+          },
+          {
+            "item_id": "v1|327308338187|0",
+            "seller": "kazuki888",
+            "image": "https://i.ebayimg.com/images/g/mAUAAeSw8TRqfcDX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327308338187",
+            "title": "NEW LEGO 77260 LEGO Speed Champions Fast and Furious Toyota Supra MK4",
+            "declared_condition": "new",
+            "item_price": 22.0,
+            "shipping": 0.0,
+            "listed_total": 22.0
+          },
+          {
+            "item_id": "v1|358917506974|0",
+            "seller": "cashleyland67",
+            "image": "https://i.ebayimg.com/images/g/5DsAAeSwqvlqfHB3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358917506974",
+            "title": "LEGO Speed Champions 77260 Fast & Furious",
+            "declared_condition": "new",
+            "item_price": 20.0,
+            "shipping": 2.26,
+            "listed_total": 22.26
+          },
+          {
+            "item_id": "v1|900054486522|0",
+            "seller": "valentina_auora_sinclair",
+            "image": "https://i.ebayimg.com/images/g/TkUAAeSw-B5q5jTO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900054486522",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4. Brand New, Sealed.",
+            "declared_condition": "new",
+            "item_price": 20.0,
+            "shipping": 2.26,
+            "listed_total": 22.26
+          },
+          {
+            "item_id": "v1|206690688167|0",
+            "seller": "jsanderson102",
+            "image": "https://i.ebayimg.com/images/g/9kMAAeSwSkJq87D1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206690688167",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292 pcs 10+",
+            "declared_condition": "new",
+            "item_price": 17.49,
+            "shipping": 4.98,
+            "listed_total": 22.47
+          },
+          {
+            "item_id": "v1|960159500258|0",
+            "seller": "reffaman",
+            "image": "https://i.ebayimg.com/images/g/ARkAAeSwcDhq7Q1m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960159500258",
+            "title": "LEGO Speed Champions 77260 Fast and The Furious Toyota Supra MK4 Age 10+ 292pcs",
+            "declared_condition": "new",
+            "item_price": 20.21,
+            "shipping": 2.26,
+            "listed_total": 22.47
+          },
+          {
+            "item_id": "v1|377400061976|0",
+            "seller": "edgeb_14",
+            "image": "https://i.ebayimg.com/images/g/26YAAeSwRT9qdQfk/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377400061976",
+            "title": "LEGO Speed Champions:The Fast&Fu Toyota Supra MK4 (77260)10+new&sealed",
+            "declared_condition": "new",
+            "item_price": 22.5,
+            "shipping": 0.0,
+            "listed_total": 22.5
+          },
+          {
+            "item_id": "v1|278283654721|0",
+            "seller": "vj852015",
+            "image": "https://i.ebayimg.com/images/g/JccAAeSwAuVqgKyo/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/278283654721",
+            "title": "Lego Speed Champions 77260 Fast & Furious Toyota Supra MK4",
+            "declared_condition": "new",
+            "item_price": 22.54,
+            "shipping": 0.0,
+            "listed_total": 22.54
+          },
+          {
+            "item_id": "v1|128082185141|0",
+            "seller": "dave_builds_lego",
+            "image": "https://i.ebayimg.com/images/g/SMoAAeSw9TBqqkEF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128082185141",
+            "title": "LEGO Speed Champions Fast & Furious Toyota Supra MK4 77260 292pcs 10+",
+            "declared_condition": "new",
+            "item_price": 18.29,
+            "shipping": 4.6,
+            "listed_total": 22.89
+          },
+          {
+            "item_id": "v1|820035536721|0",
+            "seller": "hikari2025",
+            "image": "https://i.ebayimg.com/images/g/pqUAAeSwWg9qigOj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820035536721",
+            "title": "LEGO\u00ae 77260 Speed Champions | Fast and Furious Toyota Supra Mk4 | Fast Dispatch",
+            "declared_condition": "new",
+            "item_price": 22.99,
+            "shipping": 0.0,
+            "listed_total": 22.99
+          },
+          {
+            "item_id": "v1|327401021632|0",
+            "seller": "lorrafeet45",
+            "image": "https://i.ebayimg.com/images/g/RggAAeSwM2lqzKr2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327401021632",
+            "title": "* NEW * LEGO 77260 Speed Champions The Fast and The Furious Toyota Supra MK4 ",
+            "declared_condition": "new",
+            "item_price": 23.0,
+            "shipping": 0.0,
+            "listed_total": 23.0
+          },
+          {
+            "item_id": "v1|336812973576|0",
+            "seller": "midlifebricks",
+            "image": "https://i.ebayimg.com/images/g/7wEAAeSwr5dqttSI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336812973576",
+            "title": "LEGO Speed Champions Fast & Furious Toyota Supra (77260)",
+            "declared_condition": "new",
+            "item_price": 20.96,
+            "shipping": 2.26,
+            "listed_total": 23.22
+          },
+          {
+            "item_id": "v1|127923699618|0",
+            "seller": "nerohitsuji6",
+            "image": "https://i.ebayimg.com/images/g/Ox8AAeSw0DZqMA2u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127923699618",
+            "title": "LEGO Speed Champions: The Fast and The Furious Toyota Supra MK4 (77260)",
+            "declared_condition": "new",
+            "item_price": 23.57,
+            "shipping": 0.0,
+            "listed_total": 23.57
+          },
+          {
+            "item_id": "v1|920106397965|0",
+            "seller": "me_568801",
+            "image": "https://i.ebayimg.com/images/g/jn4AAeSw~O9q68fC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920106397965",
+            "title": "LEGO Speed Champions 77260 Fast and The Furious Toyota Supra MK4 Age 10+ 292pcs",
+            "declared_condition": "new",
+            "item_price": 21.49,
+            "shipping": 2.26,
+            "listed_total": 23.75
+          },
+          {
+            "item_id": "v1|366614006670|0",
+            "seller": "joshuao_10",
+            "image": "https://i.ebayimg.com/images/g/bFUAAeSwguZqhJ~l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366614006670",
+            "title": "the LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 (77260)",
+            "declared_condition": "new",
+            "item_price": 21.5,
+            "shipping": 2.26,
+            "listed_total": 23.76
+          },
+          {
+            "item_id": "v1|800540499682|0",
+            "seller": "brickraiders",
+            "image": "https://i.ebayimg.com/images/g/TZUAAeSwieZqhxkt/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800540499682",
+            "title": "LEGO Speed Champions: The Fast and The Furious Toyota Supra MK4 (77260)",
+            "declared_condition": "new",
+            "item_price": 21.5,
+            "shipping": 2.26,
+            "listed_total": 23.76
+          },
+          {
+            "item_id": "v1|188857687068|0",
+            "seller": "brickbase13",
+            "image": "https://i.ebayimg.com/images/g/TsUAAeSw0fJqkud9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188857687068",
+            "title": "LEGO Speed Champions: The Fast and The Furious Toyota Supra MK4 (77260)",
+            "declared_condition": "new",
+            "item_price": 21.5,
+            "shipping": 2.26,
+            "listed_total": 23.76
+          },
+          {
+            "item_id": "v1|127906882513|0",
+            "seller": "ah_merchandise",
+            "image": "https://i.ebayimg.com/images/g/Y~EAAeSwogtqJCK6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127906882513",
+            "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 77260",
+            "declared_condition": "new",
+            "item_price": 23.99,
+            "shipping": 0.0,
+            "listed_total": 23.99
+          },
+          {
+            "item_id": "v1|189032697138|0",
+            "seller": "jameric-58",
+            "image": "https://i.ebayimg.com/images/g/eZMAAeSwQDVqv7b6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/189032697138",
+            "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 77260",
+            "declared_condition": "new",
+            "item_price": 21.49,
+            "shipping": 2.62,
+            "listed_total": 24.11
+          },
+          {
+            "item_id": "v1|128039333152|0",
+            "seller": "luwha52",
+            "image": "https://i.ebayimg.com/images/g/6h8AAeSwM6Bqibfj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128039333152",
+            "title": "LEGO Speed Champions 77260 Toyota Supra Mk4 New & Sealed",
+            "declared_condition": "new",
+            "item_price": 21.5,
+            "shipping": 2.62,
+            "listed_total": 24.12
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 5
+        },
+        "query_aliases": [
+          "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 - 77260, discount at checkout"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 77260",
+        "observed_at": "2026-11-11T12:35:38+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 42,
+        "seller_count": 42,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 2.99,
+        "competition_high": 24.12,
+        "estimated_resale": 2.9,
+        "estimated_range": [
+          2.69,
+          2.99
+        ],
+        "suggested_listing": 2.98,
+        "quick_sale_model": 2.69,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 15.2,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -18.43,
+        "max_landed_buy": 0,
+        "max_item_buy": null,
+        "delivery_headroom": -15.2,
+        "fees": 0.75,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.09,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 2.61,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|198717389323|0",
+            "seller": "bigh2k",
+            "image": "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198717389323",
+            "title": "LEGO: Speed Champions Fast & Furious Toyota Supra MK4 (77260) Windscreen.",
+            "declared_condition": "new",
+            "item_price": 2.99,
+            "shipping": 0.0,
+            "listed_total": 2.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137808771018|0",
+            "seller": "all-sorts1042",
+            "image": "https://i.ebayimg.com/images/g/tmcAAeSwxFxq6Nk4/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137808771018",
+            "title": "LEGO 77260 Speed Champions | Fast and Furious Toyota Supra Mk4 | Same Day Ship",
+            "declared_condition": "new",
+            "item_price": 17.0,
+            "shipping": 0.0,
+            "listed_total": 17.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227604252623|0",
+            "seller": "joshgid86",
+            "image": "https://i.ebayimg.com/images/g/7KIAAeSw2RFq8J7n/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227604252623",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292 Pieces",
+            "declared_condition": "new",
+            "item_price": 15.76,
+            "shipping": 2.26,
+            "listed_total": 18.02,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960159137248|0",
+            "seller": "nat_2869",
+            "image": "https://i.ebayimg.com/images/g/3dsAAeSwQopq7PJf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960159137248",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 10+ 292pc",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|237174573926|0",
+            "seller": "statto3082",
+            "image": "https://i.ebayimg.com/images/g/~~MAAeSwlWNq8sH0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237174573926",
+            "title": "LEGO Speed Champions Toyota Supra Mk4 77260, 292 Pcs",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128162825628|0",
+            "seller": "maisonbrickette",
+            "image": "https://i.ebayimg.com/images/g/roMAAeSwRONq44BF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128162825628",
+            "title": "LEGO Speed Champions 77260 Fast & Furious Toyota Supra MK4 292pc 10+",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.62,
+            "listed_total": 18.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257846280887|0",
+            "seller": "paulreversepush",
+            "image": "https://i.ebayimg.com/images/g/ca4AAeSwRIhq8kUh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257846280887",
+            "title": "LEGO 77260 Speed Champions Fast and The Furious Toyota Supra MK4  292pcs",
+            "declared_condition": "new",
+            "item_price": 18.99,
+            "shipping": 0.0,
+            "listed_total": 18.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168678174191|0",
+            "seller": "rustybull3tt",
+            "image": "https://i.ebayimg.com/images/g/3EwAAeSw-1lqoor2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168678174191",
+            "title": "LEGO\u00ae Speed Champions The Fast and The Furious Toyota Supra MK4 (77260) NEW",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.26,
+            "listed_total": 19.48,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960076104409|0",
+            "seller": "dhjd85",
+            "image": "https://i.ebayimg.com/images/g/dcEAAeSwDJpqxojY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960076104409",
+            "title": "LEGO Speed Champions: Fast & Furious Toyota Supra MK4 (77260) - Brand New & Seal",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.62,
+            "listed_total": 19.84,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128022622498|0",
+            "seller": "afchildfund",
+            "image": "https://i.ebayimg.com/images/g/t-YAAeSwxxdqfDYs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128022622498",
+            "title": "LEGO Speed Champions Set #77260 Fast & Furious Toyota Supra MK4 New And Sealed",
+            "declared_condition": "new",
+            "item_price": 19.99,
+            "shipping": 0.0,
+            "listed_total": 19.99,
             "same_acquisition_promotion": false
           }
         ]
@@ -3910,8 +5311,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg"
@@ -4987,8 +6388,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg"
@@ -6054,773 +7455,6 @@
       }
     },
     {
-      "title": "LEGO Minecraft The Ghast Balloon Village Attack 21273",
-      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-ghast-balloon-village-attack-21273-5027516",
-      "policy_key": "fb34e58ec6c7e93f5e78df66",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 40.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
-        "https://i.ebayimg.com/images/g/W2QAAeSwRepq3ilM/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/QlgAAeSwt15q7oCM/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-the-ghast-balloon-village-attack-21273-5027516",
-      "landed_cost": null,
-      "breakeven_sell": 54.81,
-      "sell_for_minimum_profit": 73.98,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-09T22:16:56+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Ghast+Balloon+Village+Attack+21273&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 21273",
-        "category": "lego",
-        "name_terms": [
-          "attack",
-          "balloon",
-          "ghast",
-          "minecraft",
-          "village"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-11T06:17:26+00:00",
-        "date": "2026-11-11",
-        "sample_count": 12,
-        "listed_total_low": 42.3,
-        "listed_total_p25": 49.75,
-        "listed_total_median": 55.95,
-        "listed_total_p75": 63.67,
-        "listed_total_high": 89.19,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|840058812756|0",
-            "seller": "fromtheriver2thesea",
-            "image": "https://i.ebayimg.com/images/g/W2QAAeSwRepq3ilM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840058812756",
-            "title": "LEGO Minecraft the Ghast Balloon Village Attack 21273 NEW & SEALED FREE Postage ",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 0.0,
-            "listed_total": 42.3
-          },
-          {
-            "item_id": "v1|960164400747|0",
-            "seller": "freddie09",
-            "image": "https://i.ebayimg.com/images/g/QlgAAeSwt15q7oCM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960164400747",
-            "title": "LEGO Minecraft The Movie 21273 Ghast Balloon Village Attack 555pcs",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 3.38,
-            "listed_total": 45.68
-          },
-          {
-            "item_id": "v1|237068304643|0",
-            "seller": "bricksiecollectables",
-            "image": "https://i.ebayimg.com/images/g/U~AAAeSw7-Fqrdjy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237068304643",
-            "title": "LEGO Minecraft The Ghast Balloon Village Attack 21273 - Brand new and sealed",
-            "declared_condition": "new",
-            "item_price": 42.29,
-            "shipping": 3.71,
-            "listed_total": 46.0
-          },
-          {
-            "item_id": "v1|397484427010|0",
-            "seller": "bagandsaveuk",
-            "image": "https://i.ebayimg.com/images/g/RZMAAeSwdwxpeQNI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397484427010",
-            "title": "LEGO Minecraft the Ghast Balloon Village Attack 21273 NEW & SEALED FREE Postage ",
-            "declared_condition": "new",
-            "item_price": 51.0,
-            "shipping": 0.0,
-            "listed_total": 51.0
-          },
-          {
-            "item_id": "v1|167692891028|0",
-            "seller": "planszowki",
-            "image": "https://i.ebayimg.com/images/g/N7wAAeSwNf5okID0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/167692891028",
-            "title": "LEGO A Minecraft Movie The Ghast Balloon Village Attack 21273",
-            "declared_condition": "new",
-            "item_price": 53.99,
-            "shipping": 0.0,
-            "listed_total": 53.99
-          },
-          {
-            "item_id": "v1|168520987533|0",
-            "seller": "leadhead35",
-            "image": "https://i.ebayimg.com/images/g/yDgAAeSw6rdqTQM1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168520987533",
-            "title": "Lego Minecraft Movie 21273 The Ghast Balloon Village Attack",
-            "declared_condition": "new",
-            "item_price": 50.1,
-            "shipping": 5.15,
-            "listed_total": 55.25
-          },
-          {
-            "item_id": "v1|297138595931|0",
-            "seller": "curiousmindsuk",
-            "image": "https://i.ebayimg.com/images/g/YPoAAOSw3E5n3pH2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/297138595931",
-            "title": "Lego Minecraft Movie 21273 The Ghast Balloon Village Attack",
-            "declared_condition": "new",
-            "item_price": 56.66,
-            "shipping": 0.0,
-            "listed_total": 56.66
-          },
-          {
-            "item_id": "v1|376734383986|0",
-            "seller": "smartlinkuk-0",
-            "image": "https://i.ebayimg.com/images/g/YVcAAeSwHbhpKBBS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/376734383986",
-            "title": "LEGO Minecraft The Ghast Balloon Village Attack Toy 21273",
-            "declared_condition": "new",
-            "item_price": 56.99,
-            "shipping": 0.0,
-            "listed_total": 56.99
-          },
-          {
-            "item_id": "v1|920093926002|0",
-            "seller": "harley_4546",
-            "image": "https://i.ebayimg.com/images/g/Ub8AAeSwzC1q50H3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920093926002",
-            "title": "LEGO Minecraft 21273 The Ghast Balloon Village Attack 555pc Age 10+",
-            "declared_condition": "new",
-            "item_price": 56.86,
-            "shipping": 3.71,
-            "listed_total": 60.57
-          },
-          {
-            "item_id": "v1|127276672382|0",
-            "seller": "maqiotoys",
-            "image": "https://i.ebayimg.com/images/g/rKEAAeSwAjJoihxf/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127276672382",
-            "title": "Lego Minecraft 21273 Ghast Balloon Village Attack Construction Toy New",
-            "declared_condition": "new",
-            "item_price": 72.99,
-            "shipping": 0.0,
-            "listed_total": 72.99
-          },
-          {
-            "item_id": "v1|168207977537|0",
-            "seller": "planszowki",
-            "image": "https://i.ebayimg.com/images/g/lbcAAeSwSARprXrW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168207977537",
-            "title": "Lego\u00ae Minecraft 21273 Balloon Ghast Attack Genuine Quality Best",
-            "declared_condition": "new",
-            "item_price": 73.99,
-            "shipping": 0.0,
-            "listed_total": 73.99
-          },
-          {
-            "item_id": "v1|366797351326|0",
-            "seller": "az-bargain",
-            "image": "https://i.ebayimg.com/images/g/tpUAAeSwAQFq8hh4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366797351326",
-            "title": "LEGO Minecraft The Ghast Balloon Village Attack 21273 Multicolor",
-            "declared_condition": "new",
-            "item_price": 89.19,
-            "shipping": 0.0,
-            "listed_total": 89.19
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 24
-        },
-        "query_aliases": [
-          "LEGO Minecraft The Ghast Balloon Village Attack 21273"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 21273",
-        "observed_at": "2026-11-11T06:17:26+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 11,
-        "seller_count": 11,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 3,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 42.3,
-        "competition_high": 89.19,
-        "estimated_resale": 41.03,
-        "estimated_range": [
-          38.07,
-          42.3
-        ],
-        "suggested_listing": 42.29,
-        "quick_sale_model": 38.07,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 40.0,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -11.51,
-        "max_landed_buy": 20.35,
-        "max_item_buy": null,
-        "delivery_headroom": -19.65,
-        "fees": 6.02,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 1.23,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 36.92,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 18.49,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|840058812756|0",
-            "seller": "fromtheriver2thesea",
-            "image": "https://i.ebayimg.com/images/g/W2QAAeSwRepq3ilM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840058812756",
-            "title": "LEGO Minecraft the Ghast Balloon Village Attack 21273 NEW & SEALED FREE Postage ",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 0.0,
-            "listed_total": 42.3,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|960164400747|0",
-            "seller": "freddie09",
-            "image": "https://i.ebayimg.com/images/g/QlgAAeSwt15q7oCM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960164400747",
-            "title": "LEGO Minecraft The Movie 21273 Ghast Balloon Village Attack 555pcs",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 3.38,
-            "listed_total": 45.68,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|237068304643|0",
-            "seller": "bricksiecollectables",
-            "image": "https://i.ebayimg.com/images/g/U~AAAeSw7-Fqrdjy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237068304643",
-            "title": "LEGO Minecraft The Ghast Balloon Village Attack 21273 - Brand new and sealed",
-            "declared_condition": "new",
-            "item_price": 42.29,
-            "shipping": 3.71,
-            "listed_total": 46.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|397484427010|0",
-            "seller": "bagandsaveuk",
-            "image": "https://i.ebayimg.com/images/g/RZMAAeSwdwxpeQNI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397484427010",
-            "title": "LEGO Minecraft the Ghast Balloon Village Attack 21273 NEW & SEALED FREE Postage ",
-            "declared_condition": "new",
-            "item_price": 51.0,
-            "shipping": 0.0,
-            "listed_total": 51.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|167692891028|0",
-            "seller": "planszowki",
-            "image": "https://i.ebayimg.com/images/g/N7wAAeSwNf5okID0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/167692891028",
-            "title": "LEGO A Minecraft Movie The Ghast Balloon Village Attack 21273",
-            "declared_condition": "new",
-            "item_price": 53.99,
-            "shipping": 0.0,
-            "listed_total": 53.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168520987533|0",
-            "seller": "leadhead35",
-            "image": "https://i.ebayimg.com/images/g/yDgAAeSw6rdqTQM1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168520987533",
-            "title": "Lego Minecraft Movie 21273 The Ghast Balloon Village Attack",
-            "declared_condition": "new",
-            "item_price": 50.1,
-            "shipping": 5.15,
-            "listed_total": 55.25,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|297138595931|0",
-            "seller": "curiousmindsuk",
-            "image": "https://i.ebayimg.com/images/g/YPoAAOSw3E5n3pH2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/297138595931",
-            "title": "Lego Minecraft Movie 21273 The Ghast Balloon Village Attack",
-            "declared_condition": "new",
-            "item_price": 56.66,
-            "shipping": 0.0,
-            "listed_total": 56.66,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|376734383986|0",
-            "seller": "smartlinkuk-0",
-            "image": "https://i.ebayimg.com/images/g/YVcAAeSwHbhpKBBS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/376734383986",
-            "title": "LEGO Minecraft The Ghast Balloon Village Attack Toy 21273",
-            "declared_condition": "new",
-            "item_price": 56.99,
-            "shipping": 0.0,
-            "listed_total": 56.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920093926002|0",
-            "seller": "harley_4546",
-            "image": "https://i.ebayimg.com/images/g/Ub8AAeSwzC1q50H3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920093926002",
-            "title": "LEGO Minecraft 21273 The Ghast Balloon Village Attack 555pc Age 10+",
-            "declared_condition": "new",
-            "item_price": 56.86,
-            "shipping": 3.71,
-            "listed_total": 60.57,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|127276672382|0",
-            "seller": "maqiotoys",
-            "image": "https://i.ebayimg.com/images/g/rKEAAeSwAjJoihxf/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127276672382",
-            "title": "Lego Minecraft 21273 Ghast Balloon Village Attack Construction Toy New",
-            "declared_condition": "new",
-            "item_price": 72.99,
-            "shipping": 0.0,
-            "listed_total": 72.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Minecraft The Ghast Balloon Village Attack 21273",
-        "query": "LEGO 21273",
-        "kind": "active_ask",
-        "listing": 42.29,
-        "observed_at": "2026-11-11T06:17:26+00:00",
-        "valid_until": "2026-11-11T12:17:26+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/840058812756",
-          "https://www.ebay.co.uk/itm/960164400747",
-          "https://www.ebay.co.uk/itm/237068304643",
-          "https://www.ebay.co.uk/itm/397484427010",
-          "https://www.ebay.co.uk/itm/167692891028",
-          "https://www.ebay.co.uk/itm/168520987533",
-          "https://www.ebay.co.uk/itm/297138595931",
-          "https://www.ebay.co.uk/itm/376734383986",
-          "https://www.ebay.co.uk/itm/920093926002",
-          "https://www.ebay.co.uk/itm/127276672382"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/840058812756",
-            "LEGO Minecraft the Ghast Balloon Village Attack 21273 NEW & SEALED FREE Postage ",
-            42.3,
-            0.0,
-            42.3,
-            "fromtheriver2thesea"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/960164400747",
-            "LEGO Minecraft The Movie 21273 Ghast Balloon Village Attack 555pcs",
-            45.68,
-            3.38,
-            42.3,
-            "freddie09"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/237068304643",
-            "LEGO Minecraft The Ghast Balloon Village Attack 21273 - Brand new and sealed",
-            46.0,
-            3.71,
-            42.29,
-            "bricksiecollectables"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/397484427010",
-            "LEGO Minecraft the Ghast Balloon Village Attack 21273 NEW & SEALED FREE Postage ",
-            51.0,
-            0.0,
-            51.0,
-            "bagandsaveuk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/167692891028",
-            "LEGO A Minecraft Movie The Ghast Balloon Village Attack 21273",
-            53.99,
-            0.0,
-            53.99,
-            "planszowki"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/168520987533",
-            "Lego Minecraft Movie 21273 The Ghast Balloon Village Attack",
-            55.25,
-            5.15,
-            50.1,
-            "leadhead35"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/297138595931",
-            "Lego Minecraft Movie 21273 The Ghast Balloon Village Attack",
-            56.66,
-            0.0,
-            56.66,
-            "curiousmindsuk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/376734383986",
-            "LEGO Minecraft The Ghast Balloon Village Attack Toy 21273",
-            56.99,
-            0.0,
-            56.99,
-            "smartlinkuk-0"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/920093926002",
-            "LEGO Minecraft 21273 The Ghast Balloon Village Attack 555pc Age 10+",
-            60.57,
-            3.71,
-            56.86,
-            "harley_4546"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/127276672382",
-            "Lego Minecraft 21273 Ghast Balloon Village Attack Construction Toy New",
-            72.99,
-            0.0,
-            72.99,
-            "maqiotoys"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Icons The Lord of the Rings: Sauron's Helmet 11373",
       "url": "https://www.hotukdeals.com/deals/lego-icons-the-lord-of-the-rings-saurons-helmet-11373-5029359",
       "policy_key": "a7e78b16b6d0f015be36367c",
@@ -6835,8 +7469,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg"
@@ -8051,8 +8685,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/150x150/qt/55/5029044_1.jpg"
@@ -8931,13 +9565,13 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg",
-        "https://i.ebayimg.com/images/g/KEcAAeSwo6lq8ePs/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/oxIAAeSw5Rdq5H7~/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/oxIAAeSw5Rdq5H7~/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/M74AAeSwq4NqwodP/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -9946,8 +10580,8 @@
       "item_price": 65.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/150x150/qt/55/5029047_1.jpg"
@@ -10608,8 +11242,8 @@
       "item_price": 93.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/150x150/qt/55/5029208_1.jpg"
@@ -11459,8 +12093,8 @@
       "item_price": 107.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/300x300/qt/55/5029114_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/300x300/qt/55/5029114_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/150x150/qt/55/5029114_1.jpg"
@@ -11752,8 +12386,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/150x150/qt/55/5029042_1.jpg"
@@ -12434,8 +13068,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/150x150/qt/55/5029427_1.jpg"
@@ -13328,8 +13962,8 @@
       "item_price": 150.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QVfRv/5028459_1/re/300x300/qt/55/5028459_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QVfRv/5028459_1/re/300x300/qt/55/5028459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QVfRv/5028459_1/re/150x150/qt/55/5028459_1.jpg"
@@ -14627,7 +15261,7 @@
         "rejected": {
           "identity_or_condition": 24
         },
-        "canonicalized_at": "2026-11-11T12:03:07+00:00",
+        "canonicalized_at": "2026-11-11T12:34:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Gran Turismo 7 PS4 - Free C&C"
@@ -14912,7 +15546,7 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-11T09:56:59+00:00",
+        "observed_at": "2026-11-11T12:34:47+00:00",
         "date": "2026-11-11",
         "sample_count": 41,
         "listed_total_low": 19.96,
@@ -14948,28 +15582,6 @@
             "item_price": 19.96,
             "shipping": 0.0,
             "listed_total": 19.96
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 23.76,
-            "shipping": 0.0,
-            "listed_total": 23.76
           },
           {
             "item_id": "v1|860105116494|0",
@@ -15142,6 +15754,28 @@
             "promotion_id": null,
             "url": "https://www.ebay.co.uk/itm/147321120189",
             "title": "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
+            "declared_condition": "new",
+            "item_price": 27.95,
+            "shipping": 0.0,
+            "listed_total": 27.95
+          },
+          {
+            "item_id": "v1|157293801335|0",
+            "seller": "fragrance_click",
+            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 53.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157293801335",
+            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
             "declared_condition": "new",
             "item_price": 27.95,
             "shipping": 0.0,
@@ -15874,7 +16508,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled aftershave lotion 100ml",
-        "observed_at": "2026-11-11T09:56:59+00:00",
+        "observed_at": "2026-11-11T12:34:47+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 40,
@@ -15973,29 +16607,6 @@
             "item_price": 19.96,
             "shipping": 0.0,
             "listed_total": 19.96,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 23.76,
-            "shipping": 0.0,
-            "listed_total": 23.76,
             "same_acquisition_promotion": false
           },
           {
@@ -16181,6 +16792,29 @@
             "shipping": 0.0,
             "listed_total": 27.95,
             "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|157293801335|0",
+            "seller": "fragrance_click",
+            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 53.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157293801335",
+            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
+            "declared_condition": "new",
+            "item_price": 27.95,
+            "shipping": 0.0,
+            "listed_total": 27.95,
+            "same_acquisition_promotion": false
           }
         ],
         "transport_scenario": {
@@ -16221,9 +16855,9 @@
       }
     },
     {
-      "title": "Ghost of Yotei (PS5) - Free Click & Collect",
-      "url": "https://www.hotukdeals.com/deals/ghost-of-yotei-ps5-5029085",
-      "policy_key": "6143b4858144f4ef96aa2660",
+      "title": "Marvel Tokon: Fighting Souls (PS5) - free C&C",
+      "url": "https://www.hotukdeals.com/deals/marvel-tokon-fighting-souls-ps5-5029246",
+      "policy_key": "070e9ce3f048b89cf3cac539",
       "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -16232,63 +16866,54 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "Argos",
-      "item_price": 29.49,
+      "item_price": 33.49,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/XY3i3/5029085_1/re/150x150/qt/55/5029085_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/kRiqP/5029246_1/re/150x150/qt/55/5029246_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/ghost-of-yotei-ps5-5029085",
+      "image_source_url": "https://www.hotukdeals.com/deals/marvel-tokon-fighting-souls-ps5-5029246",
       "landed_cost": null,
-      "breakeven_sell": 39.16,
-      "sell_for_minimum_profit": 53.09,
+      "breakeven_sell": 43.89,
+      "sell_for_minimum_profit": 59.7,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
-        "Profit too small",
-        "Return too low",
-        "Sell speed not proven",
-        "Sell-through not proven",
-        "No verified exit price",
-        "No reviewed exact-variant sold evidence",
-        "Inbound delivery unknown",
-        "Availability not confirmed",
-        "Cash exit quote missing/stale",
-        "Velocity evidence missing/stale",
-        "Exact retailer offer identity/price not reviewed"
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
       ],
       "priority": 0,
-      "first_seen": "2026-11-11T01:19:53+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ghost+of+Yotei+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
+      "first_seen": "2026-11-11T07:51:59+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Marvel+Tokon%3A+Fighting+Souls+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
       "ask_context": {
         "kind": "active_ask",
-        "query": "ghost of yotei ps5",
+        "query": "marvel tokon fighting souls ps5",
         "category": "gaming",
         "name_terms": [],
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-11T06:17:26+00:00",
+        "observed_at": "2026-11-11T12:35:38+00:00",
         "date": "2026-11-11",
-        "sample_count": 1,
-        "listed_total_low": 52.13,
-        "listed_total_p25": 52.13,
-        "listed_total_median": 52.13,
-        "listed_total_p75": 52.13,
-        "listed_total_high": 52.13,
-        "status": "small_sample",
+        "sample_count": 7,
+        "listed_total_low": 49.42,
+        "listed_total_p25": 50.41,
+        "listed_total_median": 52.84,
+        "listed_total_p75": 53.47,
+        "listed_total_high": 62.79,
+        "status": "indicative_only",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
           "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
         ],
         "offers": [
           {
-            "item_id": "v1|227578480095|0",
+            "item_id": "v1|227475897658|0",
             "seller": "thegamery",
-            "image": "https://i.ebayimg.com/images/g/740AAeSw2OVq8Z5G/s-l225.jpg",
+            "image": "https://i.ebayimg.com/images/g/-kAAAeSwuQtq8Z5I/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -16300,22 +16925,151 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227578480095",
-            "title": "Ghost of Yotei (PS5)",
+            "url": "https://www.ebay.co.uk/itm/227475897658",
+            "title": "Marvel Tokon: Fighting Souls (PS5)",
             "declared_condition": "new",
-            "item_price": 52.13,
+            "item_price": 49.42,
             "shipping": 0.0,
-            "listed_total": 52.13,
-            "observed_at": "2026-11-11T06:17:26+00:00"
+            "listed_total": 49.42
+          },
+          {
+            "item_id": "v1|278140178034|0",
+            "seller": "itemdropuk",
+            "image": "https://i.ebayimg.com/images/g/I38AAeSw2SRqdGAE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/278140178034",
+            "title": "MARVEL Tokon: Fighting Souls (PS5) New Sealed Game",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 0.0,
+            "listed_total": 49.99
+          },
+          {
+            "item_id": "v1|128184426669|0",
+            "seller": "iymo_uk",
+            "image": "https://i.ebayimg.com/images/g/cekAAeSwGG1q8X47/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128184426669",
+            "title": "MARVEL TOKON FIGHTING SOULS PS5 GAME",
+            "declared_condition": "new",
+            "item_price": 50.83,
+            "shipping": 0.0,
+            "listed_total": 50.83
+          },
+          {
+            "item_id": "v1|820126476644|0",
+            "seller": "pokegirl92",
+            "image": "https://i.ebayimg.com/images/g/VY0AAeSwfGNqqBYZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820126476644",
+            "title": "Marvel Tokon Fighting Souls - PS5 PlayStation 5",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 2.85,
+            "listed_total": 52.84
+          },
+          {
+            "item_id": "v1|407069943967|0",
+            "seller": "thegamecollectionoutlet",
+            "image": "https://i.ebayimg.com/images/g/gHcAAeSwe2dq5K-M/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407069943967",
+            "title": "MARVEL Tokon : Fighting Souls PS5 BRAND NEW AND SEALED - FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 52.95,
+            "shipping": 0.0,
+            "listed_total": 52.95
+          },
+          {
+            "item_id": "v1|407208809923|0",
+            "seller": "ibuy.game",
+            "image": "https://i.ebayimg.com/images/g/cLgAAeSweGhqo7X8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407208809923",
+            "title": "Marvel Tokon: Fighting Souls - PS5",
+            "declared_condition": "new",
+            "item_price": 53.99,
+            "shipping": 0.0,
+            "listed_total": 53.99
+          },
+          {
+            "item_id": "v1|287507734285|0",
+            "seller": "game_on_croydon",
+            "image": "https://i.ebayimg.com/images/g/5rYAAeSwOfRqdLcN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287507734285",
+            "title": "MARVEL Tokon Fighting Souls - PS5 Brand New",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 2.8,
+            "listed_total": 62.79
           }
         ],
         "rejected": {
-          "identity_or_condition": 49
+          "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-11T12:03:07+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
-          "Ghost of Yotei (PS5) - Free Click & Collect"
+          "Marvel Tokon: Fighting Souls (PS5) - free C&C"
         ]
       },
       "ask_estimate": {
@@ -16324,25 +17078,25 @@
         "detail_status": "not_required",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "ghost of yotei ps5",
-        "observed_at": "2026-11-11T06:17:26+00:00",
+        "query": "marvel tokon fighting souls ps5",
+        "observed_at": "2026-11-11T12:35:38+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
+        "sample_count": 7,
+        "seller_count": 7,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
+        "low_price_supporting_sellers": 6,
+        "confidence": "moderate",
         "wide_spread": false,
-        "competition_low": 52.13,
-        "competition_high": 52.13,
-        "estimated_resale": 50.56,
+        "competition_low": 49.42,
+        "competition_high": 62.79,
+        "estimated_resale": 47.93,
         "estimated_range": [
-          46.91,
-          52.13
+          44.47,
+          49.42
         ],
-        "suggested_listing": 52.12,
-        "quick_sale_model": 46.91,
+        "suggested_listing": 49.41,
+        "quick_sale_model": 44.47,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
@@ -16353,19 +17107,19 @@
         "same_promotion_references_excluded": 0,
         "acquisition_excluded": 0,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 29.49,
+        "item_price": 33.49,
         "delivery_known": false,
         "landed_cost": null,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": 9.65,
-        "max_landed_buy": 27.95,
+        "net_before_unknown_delivery": 3.42,
+        "max_landed_buy": 26.36,
         "max_item_buy": null,
-        "delivery_headroom": -1.54,
-        "fees": 6.7,
+        "delivery_headroom": -7.13,
+        "fees": 6.38,
         "outbound_postage": 2.7,
         "packaging": 0.5,
-        "returns_allowance": 1.52,
+        "returns_allowance": 1.44,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": false,
@@ -16381,15 +17135,14 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 45.5,
+        "review_stress_sale": 43.13,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 29.14,
+        "review_max_landed_buy": 26.91,
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -16397,9 +17150,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|227578480095|0",
+            "item_id": "v1|227475897658|0",
             "seller": "thegamery",
-            "image": "https://i.ebayimg.com/images/g/740AAeSw2OVq8Z5G/s-l225.jpg",
+            "image": "https://i.ebayimg.com/images/g/-kAAAeSwuQtq8Z5I/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -16411,20 +17164,230 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227578480095",
-            "title": "Ghost of Yotei (PS5)",
+            "url": "https://www.ebay.co.uk/itm/227475897658",
+            "title": "Marvel Tokon: Fighting Souls (PS5)",
             "declared_condition": "new",
-            "item_price": 52.13,
+            "item_price": 49.42,
             "shipping": 0.0,
-            "listed_total": 52.13,
-            "observed_at": "2026-11-11T06:17:26+00:00",
+            "listed_total": 49.42,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|278140178034|0",
+            "seller": "itemdropuk",
+            "image": "https://i.ebayimg.com/images/g/I38AAeSw2SRqdGAE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/278140178034",
+            "title": "MARVEL Tokon: Fighting Souls (PS5) New Sealed Game",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 0.0,
+            "listed_total": 49.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128184426669|0",
+            "seller": "iymo_uk",
+            "image": "https://i.ebayimg.com/images/g/cekAAeSwGG1q8X47/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128184426669",
+            "title": "MARVEL TOKON FIGHTING SOULS PS5 GAME",
+            "declared_condition": "new",
+            "item_price": 50.83,
+            "shipping": 0.0,
+            "listed_total": 50.83,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820126476644|0",
+            "seller": "pokegirl92",
+            "image": "https://i.ebayimg.com/images/g/VY0AAeSwfGNqqBYZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820126476644",
+            "title": "Marvel Tokon Fighting Souls - PS5 PlayStation 5",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 2.85,
+            "listed_total": 52.84,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407069943967|0",
+            "seller": "thegamecollectionoutlet",
+            "image": "https://i.ebayimg.com/images/g/gHcAAeSwe2dq5K-M/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407069943967",
+            "title": "MARVEL Tokon : Fighting Souls PS5 BRAND NEW AND SEALED - FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 52.95,
+            "shipping": 0.0,
+            "listed_total": 52.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407208809923|0",
+            "seller": "ibuy.game",
+            "image": "https://i.ebayimg.com/images/g/cLgAAeSweGhqo7X8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407208809923",
+            "title": "Marvel Tokon: Fighting Souls - PS5",
+            "declared_condition": "new",
+            "item_price": 53.99,
+            "shipping": 0.0,
+            "listed_total": 53.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287507734285|0",
+            "seller": "game_on_croydon",
+            "image": "https://i.ebayimg.com/images/g/5rYAAeSwOfRqdLcN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287507734285",
+            "title": "MARVEL Tokon Fighting Souls - PS5 Brand New",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 2.8,
+            "listed_total": 62.79,
             "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
-        "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
+        "ok": true,
+        "title": "Marvel Tokon: Fighting Souls (PS5) - free C&C",
+        "query": "marvel tokon fighting souls ps5",
+        "kind": "active_ask",
+        "listing": 49.41,
+        "observed_at": "2026-11-11T12:35:38+00:00",
+        "valid_until": "2026-11-11T18:35:38+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/227475897658",
+          "https://www.ebay.co.uk/itm/278140178034",
+          "https://www.ebay.co.uk/itm/128184426669",
+          "https://www.ebay.co.uk/itm/820126476644",
+          "https://www.ebay.co.uk/itm/407069943967",
+          "https://www.ebay.co.uk/itm/407208809923",
+          "https://www.ebay.co.uk/itm/287507734285"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/227475897658",
+            "Marvel Tokon: Fighting Souls (PS5)",
+            49.42,
+            0.0,
+            49.42,
+            "thegamery"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/278140178034",
+            "MARVEL Tokon: Fighting Souls (PS5) New Sealed Game",
+            49.99,
+            0.0,
+            49.99,
+            "itemdropuk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/128184426669",
+            "MARVEL TOKON FIGHTING SOULS PS5 GAME",
+            50.83,
+            0.0,
+            50.83,
+            "iymo_uk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/820126476644",
+            "Marvel Tokon Fighting Souls - PS5 PlayStation 5",
+            52.84,
+            2.85,
+            49.99,
+            "pokegirl92"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407069943967",
+            "MARVEL Tokon : Fighting Souls PS5 BRAND NEW AND SEALED - FREE SHIPPING",
+            52.95,
+            0.0,
+            52.95,
+            "thegamecollectionoutlet"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407208809923",
+            "Marvel Tokon: Fighting Souls - PS5",
+            53.99,
+            0.0,
+            53.99,
+            "ibuy.game"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287507734285",
+            "MARVEL Tokon Fighting Souls - PS5 Brand New",
+            62.79,
+            2.8,
+            59.99,
+            "game_on_croydon"
+          ]
+        ],
+        "category": "gaming"
       }
     },
     {
@@ -16501,7 +17464,7 @@
           "ml": 50,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-11T11:31:44+00:00",
+        "observed_at": "2026-11-11T12:03:57+00:00",
         "date": "2026-11-11",
         "sample_count": 2,
         "listed_total_low": 37.69,
@@ -16593,7 +17556,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "gucci guilty for him EDT 50ml",
-        "observed_at": "2026-11-11T11:31:44+00:00",
+        "observed_at": "2026-11-11T12:03:57+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 2,
@@ -16836,7 +17799,7 @@
         "rejected": {
           "identity_or_condition": 10
         },
-        "canonicalized_at": "2026-11-11T12:03:07+00:00",
+        "canonicalized_at": "2026-11-11T12:34:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "EA Sports FC 27 - Standard Edition PS5"
@@ -17173,7 +18136,7 @@
         "rejected": {
           "identity_or_condition": 43
         },
-        "canonicalized_at": "2026-11-11T12:03:07+00:00",
+        "canonicalized_at": "2026-11-11T12:34:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "EA Sports FC 27 PS5 Game (free C&C)"
@@ -17595,7 +18558,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-11T12:03:07+00:00",
+          "observed_at": "2026-11-11T12:34:47+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -17942,21 +18905,98 @@
         "rejected": {},
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
-          "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ],
-          "sub_checks": [
+          "item_id": "v1|267145569487|0",
+          "observed_at": "2026-11-11T12:34:47+00:00",
+          "status": "verified_fields",
+          "reasons": [],
+          "gtin": "0088381660112",
+          "mpn": "DGA452Z",
+          "aspects": [
             {
-              "sub_check_failed": "other",
-              "expected": "verified_fields within detail budget",
-              "observed": "awaiting_detail_budget",
-              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-              "note": "detail allocation window closed this scan"
+              "type": "STRING",
+              "name": "Short Description",
+              "value": "18v Angle grinder - 4.1/2\" (115mm)"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "0088381660112"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Makita"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Angle Grinder"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Source",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18 V"
+            },
+            {
+              "type": "STRING",
+              "name": "Disc Diameter",
+              "value": "115 mm"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "Makita DGA452Z"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DGA452Z"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Blue, Grey"
             }
+          ],
+          "checked_item_price": 109.99,
+          "identity_query": "Makita DGA452Z bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 7,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 7
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/267145569487",
+          "title": "Makita LXT 18V LXT 115mm Cordless Angle Power Tool Grinder DGA452Z - Bare unit",
+          "fixed_shipping": 0.0,
+          "sub_checks": [],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
           ]
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "verified_fields",
         "query_aliases": [
           "Makita DGA452Z 18V LXT 115mm Grinder - Body"
         ]
@@ -17964,7 +19004,7 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "tools",
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "verified_fields",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "Makita DGA452Z bare tool 18V",
@@ -18033,7 +19073,6 @@
         "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -18068,7 +19107,7 @@
       },
       "publication_proof": {
         "ok": false,
-        "reason": "detail_check_pending"
+        "reason": "fewer_than_three_exact_independent_comparators"
       }
     },
     {
@@ -18118,7 +19157,7 @@
           "contents": "bare tool; no battery/charger",
           "region": "GB listing; warranty unverified"
         },
-        "observed_at": "2026-11-11T06:17:28+00:00",
+        "observed_at": "2026-11-11T12:35:41+00:00",
         "date": "2026-11-11",
         "sample_count": 3,
         "listed_total_low": 139.95,
@@ -18204,107 +19243,21 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "item_id": "v1|206068108309|0",
-          "observed_at": "2026-11-11T12:03:07+00:00",
-          "status": "conflict",
+          "status": "awaiting_detail_budget",
           "reasons": [
-            "tool model mismatch"
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
           ],
-          "gtin": "5035048739969",
-          "mpn": "DCS391N",
-          "aspects": [
-            {
-              "type": "STRING",
-              "name": "Battery Included",
-              "value": "No"
-            },
-            {
-              "type": "STRING",
-              "name": "Brand",
-              "value": "Dewalt"
-            },
-            {
-              "type": "STRING",
-              "name": "Battery Technology",
-              "value": "Lithium-Ion (Li-Ion)"
-            },
-            {
-              "type": "STRING",
-              "name": "Blade Diameter",
-              "value": "165 mm"
-            },
-            {
-              "type": "STRING",
-              "name": "Item Weight",
-              "value": "4700"
-            },
-            {
-              "type": "STRING",
-              "name": "MPN",
-              "value": "DCS391N"
-            },
-            {
-              "type": "STRING",
-              "name": "Motor Type",
-              "value": "Brushless"
-            },
-            {
-              "type": "STRING",
-              "name": "Type",
-              "value": "Circular Saw"
-            },
-            {
-              "type": "STRING",
-              "name": "Voltage",
-              "value": "18.0v"
-            },
-            {
-              "type": "STRING",
-              "name": "EAN",
-              "value": "5035048739969"
-            }
-          ],
-          "checked_item_price": 139.95,
-          "identity_query": "DeWalt DCS565N bare tool 18V",
-          "condition_id": "1000",
-          "availability": [
-            {
-              "deliveryOptions": [
-                "SHIP_TO_HOME"
-              ],
-              "estimatedAvailabilityStatus": "IN_STOCK",
-              "estimatedAvailableQuantity": 3,
-              "estimatedSoldQuantity": 1,
-              "estimatedRemainingQuantity": 3
-            }
-          ],
-          "source_url": "https://www.ebay.co.uk/itm/206068108309",
-          "title": "DeWalt 18v DCS565N XR Brushless Compact 165mm Circular Saw DCS565N-XJ Bare Tool",
-          "fixed_shipping": 0.0,
           "sub_checks": [
             {
-              "sub_check_failed": "title_model_number_missing",
-              "expected": "DCS565N",
-              "observed": "DCS391N",
-              "reason": "tool model mismatch"
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
             }
-          ],
-          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
-          "getitem_fields_present": [
-            "title",
-            "conditionId",
-            "price",
-            "shippingOptions",
-            "estimatedAvailabilities",
-            "localizedAspects",
-            "mpn",
-            "gtin"
-          ],
-          "getitem_fields_missing": [
-            "itemEndDate"
           ]
         },
-        "detail_status": "conflict",
+        "detail_status": "awaiting_detail_budget",
         "query_aliases": [
           "DeWalt DCS565N-XJ 18v 165mm XR Brushless Circular Saw Bare Unit - With Code - Sold by wowtoolsuk (UK Mainland)"
         ]
@@ -18312,11 +19265,11 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "tools",
-        "detail_status": "conflict",
+        "detail_status": "awaiting_detail_budget",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "DeWalt DCS565N bare tool 18V",
-        "observed_at": "2026-11-11T06:17:28+00:00",
+        "observed_at": "2026-11-11T12:35:41+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 2,
@@ -18384,7 +19337,7 @@
         "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: conflict; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
           "eBay acquisition listing identity missing; self-exclusion not confirmed",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
@@ -18443,7 +19396,7 @@
       },
       "publication_proof": {
         "ok": false,
-        "reason": "detail_check_failed"
+        "reason": "detail_check_pending"
       }
     },
     {
@@ -18461,8 +19414,8 @@
       "item_price": 49.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg",
@@ -18479,7 +19432,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-11T12:03:53+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=%28Pa2%29+LEGO+icons&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
@@ -18503,8 +19456,8 @@
       "item_price": 49.94,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg",
@@ -18521,7 +19474,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-11T12:03:53+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+10353&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
@@ -18545,8 +19498,8 @@
       "item_price": 50.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg",
@@ -18563,93 +19516,9 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-11T12:03:53+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons%3A+Williams+Racing+FW14B+%26+Nigel+Mansell+%2810353%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Botanicals: Mini Orchid, New in Box (10343), 274 Pieces, Xmas Gift, BNWT",
-      "url": "https://www.ebay.co.uk/itm/317756967058",
-      "policy_key": "0299647ff93a8e7d0c7af02b",
-      "category": "lego",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 17.55,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg",
-        "https://i.ebayimg.com/images/g/XtwAAeSwYchpZWKD/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-botanicals-10343-mini-orchid-home-decor-5029499",
-      "landed_cost": 22.55,
-      "breakeven_sell": 33.92,
-      "sell_for_minimum_profit": 44.73,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-10T20:15:34+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Botanicals%3A+Mini+Orchid%2C+New+in+Box+%2810343%29%2C+274+Pieces%2C+Xmas+Gift%2C+BNWT&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Botanical Collection 10343 Mini Orchid Set for Adults",
-      "url": "https://www.ebay.co.uk/itm/405672443201",
-      "policy_key": "63d885d3f6614365c02c9a66",
-      "category": "lego",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 19.69,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg",
-        "https://i.ebayimg.com/images/g/m-UAAOSwmQZn2Yz1/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-botanicals-10343-mini-orchid-home-decor-5029499",
-      "landed_cost": 19.69,
-      "breakeven_sell": 30.49,
-      "sell_for_minimum_profit": 40.07,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-10T20:15:34+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Botanical+Collection+10343+Mini+Orchid+Set+for+Adults&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -18671,8 +19540,8 @@
       "item_price": 8.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg"
@@ -18757,8 +19626,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/150x150/qt/55/5028470_1.jpg",
@@ -18801,8 +19670,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/150x150/qt/55/5028719_1.jpg"
@@ -18834,7 +19703,7 @@
       "policy_key": "bc98421d8ea92c78c3816e65",
       "category": "lego",
       "source": "hotukdeals",
-      "price_basis": null,
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -18843,8 +19712,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/150x150/qt/55/5028595_1.jpg"
@@ -18885,8 +19754,8 @@
       "item_price": 12.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/150x150/qt/55/5029092_1.jpg"
@@ -19010,8 +19879,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg"
@@ -19096,8 +19965,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg",
@@ -19140,8 +20009,8 @@
       "item_price": 14.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/150x150/qt/55/5029030_1.jpg"
@@ -19224,8 +20093,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/150x150/qt/55/5028262_1.jpg",
@@ -19268,8 +20137,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/150x150/qt/55/5028558_1.jpg",
@@ -19356,8 +20225,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/150x150/qt/55/5028607_1.jpg"
@@ -19423,50 +20292,6 @@
       }
     },
     {
-      "title": "LEGO Speed Champions The Fast and The Furious Toyota Supra MK4 - 77260, discount at checkout",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-discount-at-checkout-5027630",
-      "policy_key": "e182c3a4ce470fcbf1ced0c4",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 15.2,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg",
-        "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/RzoAAeSwvIxq8iLI/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-discount-at-checkout-5027630",
-      "landed_cost": null,
-      "breakeven_sell": 25.11,
-      "sell_for_minimum_profit": 34.69,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-10T01:23:19+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+The+Fast+and+The+Furious+Toyota+Supra+MK4&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Pok\u00e9mon SMART Play: Charmander and Geodude\u2019s Cavern Clash 72157",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-charmander-and-geodudes-cavern-clash-72157-5027263",
       "policy_key": "efb96772c2e158850d290841",
@@ -19481,8 +20306,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg",
@@ -19525,8 +20350,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/150x150/qt/55/5028448_1.jpg",
@@ -19569,8 +20394,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg",
@@ -19613,8 +20438,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/150x150/qt/55/5028505_1.jpg",
@@ -19657,8 +20482,8 @@
       "item_price": 17.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/150x150/qt/55/5028499_1.jpg",
@@ -19701,8 +20526,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
@@ -19745,8 +20570,8 @@
       "item_price": 18.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg"
@@ -19870,8 +20695,8 @@
       "item_price": 22.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/150x150/qt/55/5028495_1.jpg"
@@ -19912,8 +20737,8 @@
       "item_price": 23.26,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/150x150/qt/55/5027785_1.jpg",
@@ -19956,8 +20781,8 @@
       "item_price": 24.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/150x150/qt/55/5027979_1.jpg",
@@ -20039,8 +20864,8 @@
       "item_price": 26.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/150x150/qt/55/5028523_1.jpg",
@@ -20083,8 +20908,8 @@
       "item_price": 27.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg",
@@ -20127,8 +20952,8 @@
       "item_price": 27.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/150x150/qt/55/5029065_1.jpg"
@@ -20208,8 +21033,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/150x150/qt/55/5028766_1.jpg"
@@ -20230,6 +21055,73 @@
       "first_seen": "2026-11-10T20:15:34+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Harry+Potter+Knight+Bus+Adventure+76446&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Prada Candy Eau de Parfum - 30ml",
+      "url": "https://www.hotukdeals.com/deals/prada-candy-eau-de-parfum-30ml-5029631",
+      "policy_key": "a9328b103f0cec965a981255",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "LOOKFANTASTIC",
+      "item_price": 34.5,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/MW99I/5029631_1/re/150x150/qt/55/5029631_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/prada-candy-eau-de-parfum-30ml-5029631",
+      "landed_cost": null,
+      "breakeven_sell": 46.98,
+      "sell_for_minimum_profit": 63.51,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 30,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "30ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 46.98,
+        "required_resale": 63.51,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 34.5,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "30ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T12:35:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Prada+Candy+Eau+de+Parfum&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -20333,8 +21225,8 @@
       "item_price": 36.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/150x150/qt/55/5029171_1.jpg"
@@ -20375,8 +21267,8 @@
       "item_price": 36.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/150x150/qt/55/5027982_1.jpg",
@@ -20463,8 +21355,8 @@
       "item_price": 39.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/150x150/qt/55/5026835_1.jpg"
@@ -20539,8 +21431,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg"
@@ -20611,6 +21503,50 @@
       }
     },
     {
+      "title": "LEGO Minecraft The Ghast Balloon Village Attack 21273",
+      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-ghast-balloon-village-attack-21273-5027516",
+      "policy_key": "fb34e58ec6c7e93f5e78df66",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 40.0,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
+        "https://i.ebayimg.com/images/g/W2QAAeSwRepq3ilM/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/QlgAAeSwt15q7oCM/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-the-ghast-balloon-village-attack-21273-5027516",
+      "landed_cost": null,
+      "breakeven_sell": 54.81,
+      "sell_for_minimum_profit": 73.98,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-09T22:16:56+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Ghast+Balloon+Village+Attack+21273&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Pok\u00e9mon SMART Play: Eevee and Lapras\u2019s Treasure Hunt 72162",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-eevee-and-laprass-treasure-hunt-72162-5025058",
       "policy_key": "9f366688ed764e8b1dd53c28",
@@ -20669,8 +21605,8 @@
       "item_price": 42.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/150x150/qt/55/5028115_1.jpg",
@@ -20757,8 +21693,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/150x150/qt/55/5028779_1.jpg"
@@ -20882,8 +21818,8 @@
       "item_price": 47.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg"
@@ -21007,8 +21943,8 @@
       "item_price": 55.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
@@ -21051,8 +21987,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
@@ -21139,8 +22075,8 @@
       "item_price": 58.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:21.167730+00:00",
-      "image_checked_at": "2026-11-11T12:03:21.167730+00:00",
+      "image_verified_until": "2026-11-11T12:54:59.130607+00:00",
+      "image_checked_at": "2026-11-11T12:34:59.130607+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/150x150/qt/55/5029161_1.jpg"
@@ -21181,8 +22117,8 @@
       "item_price": 60.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
-      "image_verified_until": "2026-11-11T12:23:57.783190+00:00",
-      "image_checked_at": "2026-11-11T12:03:57.783190+00:00",
+      "image_verified_until": "2026-11-11T12:55:42.323260+00:00",
+      "image_checked_at": "2026-11-11T12:35:42.323260+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/150x150/qt/55/5027954_1.jpg",
@@ -24842,6 +25778,54 @@
       }
     },
     {
+      "title": "Ghost of Yotei (PS5) - Free Click & Collect",
+      "url": "https://www.hotukdeals.com/deals/ghost-of-yotei-ps5-5029085",
+      "policy_key": "6143b4858144f4ef96aa2660",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 29.49,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/XY3i3/5029085_1/re/150x150/qt/55/5029085_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ghost-of-yotei-ps5-5029085",
+      "landed_cost": null,
+      "breakeven_sell": 39.16,
+      "sell_for_minimum_profit": 53.09,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "Profit too small",
+        "Return too low",
+        "Sell speed not proven",
+        "Sell-through not proven",
+        "No verified exit price",
+        "No reviewed exact-variant sold evidence",
+        "Inbound delivery unknown",
+        "Availability not confirmed",
+        "Cash exit quote missing/stale",
+        "Velocity evidence missing/stale",
+        "Exact retailer offer identity/price not reviewed"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-11T01:19:53+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ghost+of+Yotei+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "361\u00b0 Ventus Mens Running Shoes | Midnight/red/honey | UK sizes 7 - 12 incl. half sizes",
       "url": "https://www.hotukdeals.com/deals/361-ventus-mens-running-shoes-midnightredhoney-uk-sizes-7-12-incl-half-sizes-5027015",
       "policy_key": "d3cf6001322a9d5aab1bbba8",
@@ -25352,45 +26336,6 @@
       "first_seen": "2026-11-11T00:48:40+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Astro+Bot+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Marvel Tokon: Fighting Souls (PS5) - free C&C",
-      "url": "https://www.hotukdeals.com/deals/marvel-tokon-fighting-souls-ps5-5029246",
-      "policy_key": "070e9ce3f048b89cf3cac539",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 33.49,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/kRiqP/5029246_1/re/150x150/qt/55/5029246_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/marvel-tokon-fighting-souls-ps5-5029246",
-      "landed_cost": null,
-      "breakeven_sell": 43.89,
-      "sell_for_minimum_profit": 59.7,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-11T07:51:59+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Marvel+Tokon%3A+Fighting+Souls+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -28120,73 +29065,6 @@
       "priority": 0,
       "first_seen": "2026-11-10T23:23:07+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rabanne+Invictus+Victory+Elixir+Eau+de+Parfum+Spray+100ML&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Giorgio Armani Acqua di Gi\u00f2 Elixir 50ml w/code plus 2 free samples",
-      "url": "https://www.hotukdeals.com/deals/giorgio-armani-acqua-di-gio-elixir-50ml-wcode-plus-2-free-samples-5028569",
-      "policy_key": "21e66f576039d06545d86e09",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Parfumdreams",
-      "item_price": 54.8,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/n78xL/5028569_1/re/150x150/qt/55/5028569_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/giorgio-armani-acqua-di-gio-elixir-50ml-wcode-plus-2-free-samples-5028569",
-      "landed_cost": null,
-      "breakeven_sell": 71.29,
-      "sell_for_minimum_profit": 97.55,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 50,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 71.29,
-        "required_resale": 97.55,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 54.8,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "50ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-10T17:25:12+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Giorgio+Armani+Acqua+di+Gi%C3%B2+Elixir+50ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
