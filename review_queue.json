@@ -2,6 +2,689 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "LEGO Technic 42179 Planet Earth and Moon in Orbit Set",
+      "url": "https://www.hotukdeals.com/deals/lego-technic-42179-planet-earth-and-moon-in-orbit-set-5030278",
+      "policy_key": "72b5dc7b7128de9137501012",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Currys",
+      "item_price": 48.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/150x150/qt/55/5030278_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-42179-planet-earth-and-moon-in-orbit-set-5030278",
+      "landed_cost": null,
+      "breakeven_sell": 65.58,
+      "sell_for_minimum_profit": 89.05,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-12T00:04:55+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+42179+Planet+Earth+and+Moon+in+Orbit+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 42179",
+        "category": "lego",
+        "name_terms": [
+          "earth",
+          "in",
+          "moon",
+          "orbit",
+          "planet"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-12T00:04:55+00:00",
+        "date": "2026-11-12",
+        "sample_count": 10,
+        "listed_total_low": 70.0,
+        "listed_total_p25": 71.8,
+        "listed_total_median": 76.76,
+        "listed_total_p75": 86.41,
+        "listed_total_high": 92.64,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|147155278680|0",
+            "seller": "elsa2266",
+            "image": "https://i.ebayimg.com/images/g/mj8AAeSwReVpkdMC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147155278680",
+            "title": "Lego Technic: Planet Earth and Moon in Orbit (Kit No. 42179) - New",
+            "declared_condition": "new",
+            "item_price": 65.0,
+            "shipping": 5.0,
+            "listed_total": 70.0
+          },
+          {
+            "item_id": "v1|198659589217|0",
+            "seller": "rarebrix",
+            "image": "https://i.ebayimg.com/images/g/K50AAeSwAVFq6idy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198659589217",
+            "title": "LEGO Technic Planet Earth and Moon in Orbit 42179",
+            "declared_condition": "new",
+            "item_price": 70.95,
+            "shipping": 0.0,
+            "listed_total": 70.95
+          },
+          {
+            "item_id": "v1|267531938285|0",
+            "seller": "tony6593",
+            "image": "https://i.ebayimg.com/images/g/BMwAAeSwptlpWDVX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267531938285",
+            "title": "LEGO TECHNIC: Planet Earth and Moon in Orbit (42179)",
+            "declared_condition": "new",
+            "item_price": 68.3,
+            "shipping": 2.94,
+            "listed_total": 71.24
+          },
+          {
+            "item_id": "v1|366513487418|0",
+            "seller": "jakub.olszewski",
+            "image": "https://i.ebayimg.com/images/g/pGoAAeSwcqdqRAIu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366513487418",
+            "title": "LEGO Technic Planet Earth and Moon in Orbit 42179 Sealed & New",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 0.0,
+            "listed_total": 73.49
+          },
+          {
+            "item_id": "v1|327399102347|0",
+            "seller": "ihaveit_music",
+            "image": "https://i.ebayimg.com/images/g/0hsAAeSw9yFq20pM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327399102347",
+            "title": "Lego - Technic - Planet Earth And Moon In Orbit 42179 - construct - P2222z",
+            "declared_condition": "new",
+            "item_price": 76.32,
+            "shipping": 0.0,
+            "listed_total": 76.32
+          },
+          {
+            "item_id": "v1|358783764300|0",
+            "seller": "pen_7855",
+            "image": "https://i.ebayimg.com/images/g/RFAAAeSwlOZqUl87/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358783764300",
+            "title": "LEGO Technic Space 42179 Planet Earth and Moon in Orbit Set 526pcs 10+",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 3.71,
+            "listed_total": 77.21
+          },
+          {
+            "item_id": "v1|168207978006|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/fVAAAeSw4c1pqbGJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207978006",
+            "title": "Lego\u00ae Technic 42179 Earth & Moon Model Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 84.99,
+            "shipping": 0.0,
+            "listed_total": 84.99
+          },
+          {
+            "item_id": "v1|800893683771|0",
+            "seller": "ihaveit_music",
+            "image": "",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800893683771",
+            "title": "Lego - Technic 42179 Planet Earth and Moon in Orbit - Construction bl - Q1823z",
+            "declared_condition": "new",
+            "item_price": 86.88,
+            "shipping": 0.0,
+            "listed_total": 86.88
+          },
+          {
+            "item_id": "v1|137837858985|0",
+            "seller": "my-moc-fund",
+            "image": "https://i.ebayimg.com/images/g/304AAeSwLVtqzQ0y/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137837858985",
+            "title": "LEGO Technic Space 42179 Planet Earth and Moon in Orbit Set 526pcs - BNIB",
+            "declared_condition": "new",
+            "item_price": 83.9,
+            "shipping": 4.27,
+            "listed_total": 88.17
+          },
+          {
+            "item_id": "v1|960044371147|0",
+            "seller": "pinderks7",
+            "image": "https://i.ebayimg.com/images/g/1zMAAeSwwuZqyT0l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960044371147",
+            "title": "\ud83c\udf1fNew & Sealed\ud83c\udf1fLEGO Technic 42179 Planet Earth and Moon In Orbit FAST P&P \u2705\u2705",
+            "declared_condition": "new",
+            "item_price": 85.0,
+            "shipping": 7.64,
+            "listed_total": 92.64
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 4
+        },
+        "query_aliases": [
+          "LEGO Technic 42179 Planet Earth and Moon in Orbit Set"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 42179",
+        "observed_at": "2026-11-12T00:04:55+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 9,
+        "seller_count": 9,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 5,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 70.0,
+        "competition_high": 92.64,
+        "estimated_resale": 67.89,
+        "estimated_range": [
+          63.0,
+          70.0
+        ],
+        "suggested_listing": 69.99,
+        "quick_sale_model": 63.0,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 48.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 1.92,
+        "max_landed_buy": 36.36,
+        "max_item_buy": null,
+        "delivery_headroom": -12.63,
+        "fees": 9.65,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 2.04,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 61.1,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 40.25,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|147155278680|0",
+            "seller": "elsa2266",
+            "image": "https://i.ebayimg.com/images/g/mj8AAeSwReVpkdMC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147155278680",
+            "title": "Lego Technic: Planet Earth and Moon in Orbit (Kit No. 42179) - New",
+            "declared_condition": "new",
+            "item_price": 65.0,
+            "shipping": 5.0,
+            "listed_total": 70.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198659589217|0",
+            "seller": "rarebrix",
+            "image": "https://i.ebayimg.com/images/g/K50AAeSwAVFq6idy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198659589217",
+            "title": "LEGO Technic Planet Earth and Moon in Orbit 42179",
+            "declared_condition": "new",
+            "item_price": 70.95,
+            "shipping": 0.0,
+            "listed_total": 70.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267531938285|0",
+            "seller": "tony6593",
+            "image": "https://i.ebayimg.com/images/g/BMwAAeSwptlpWDVX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267531938285",
+            "title": "LEGO TECHNIC: Planet Earth and Moon in Orbit (42179)",
+            "declared_condition": "new",
+            "item_price": 68.3,
+            "shipping": 2.94,
+            "listed_total": 71.24,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366513487418|0",
+            "seller": "jakub.olszewski",
+            "image": "https://i.ebayimg.com/images/g/pGoAAeSwcqdqRAIu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366513487418",
+            "title": "LEGO Technic Planet Earth and Moon in Orbit 42179 Sealed & New",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 0.0,
+            "listed_total": 73.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327399102347|0",
+            "seller": "ihaveit_music",
+            "image": "https://i.ebayimg.com/images/g/0hsAAeSw9yFq20pM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327399102347",
+            "title": "Lego - Technic - Planet Earth And Moon In Orbit 42179 - construct - P2222z",
+            "declared_condition": "new",
+            "item_price": 76.32,
+            "shipping": 0.0,
+            "listed_total": 76.32,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|358783764300|0",
+            "seller": "pen_7855",
+            "image": "https://i.ebayimg.com/images/g/RFAAAeSwlOZqUl87/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358783764300",
+            "title": "LEGO Technic Space 42179 Planet Earth and Moon in Orbit Set 526pcs 10+",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 3.71,
+            "listed_total": 77.21,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168207978006|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/fVAAAeSw4c1pqbGJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207978006",
+            "title": "Lego\u00ae Technic 42179 Earth & Moon Model Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 84.99,
+            "shipping": 0.0,
+            "listed_total": 84.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137837858985|0",
+            "seller": "my-moc-fund",
+            "image": "https://i.ebayimg.com/images/g/304AAeSwLVtqzQ0y/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137837858985",
+            "title": "LEGO Technic Space 42179 Planet Earth and Moon in Orbit Set 526pcs - BNIB",
+            "declared_condition": "new",
+            "item_price": 83.9,
+            "shipping": 4.27,
+            "listed_total": 88.17,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960044371147|0",
+            "seller": "pinderks7",
+            "image": "https://i.ebayimg.com/images/g/1zMAAeSwwuZqyT0l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960044371147",
+            "title": "\ud83c\udf1fNew & Sealed\ud83c\udf1fLEGO Technic 42179 Planet Earth and Moon In Orbit FAST P&P \u2705\u2705",
+            "declared_condition": "new",
+            "item_price": 85.0,
+            "shipping": 7.64,
+            "listed_total": 92.64,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Technic 42179 Planet Earth and Moon in Orbit Set",
+        "query": "LEGO 42179",
+        "kind": "active_ask",
+        "listing": 69.99,
+        "observed_at": "2026-11-12T00:04:55+00:00",
+        "valid_until": "2026-11-12T06:04:55+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/147155278680",
+          "https://www.ebay.co.uk/itm/198659589217",
+          "https://www.ebay.co.uk/itm/267531938285",
+          "https://www.ebay.co.uk/itm/366513487418",
+          "https://www.ebay.co.uk/itm/327399102347",
+          "https://www.ebay.co.uk/itm/358783764300",
+          "https://www.ebay.co.uk/itm/168207978006",
+          "https://www.ebay.co.uk/itm/137837858985",
+          "https://www.ebay.co.uk/itm/960044371147"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/147155278680",
+            "Lego Technic: Planet Earth and Moon in Orbit (Kit No. 42179) - New",
+            70.0,
+            5.0,
+            65.0,
+            "elsa2266"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/198659589217",
+            "LEGO Technic Planet Earth and Moon in Orbit 42179",
+            70.95,
+            0.0,
+            70.95,
+            "rarebrix"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267531938285",
+            "LEGO TECHNIC: Planet Earth and Moon in Orbit (42179)",
+            71.24,
+            2.94,
+            68.3,
+            "tony6593"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/366513487418",
+            "LEGO Technic Planet Earth and Moon in Orbit 42179 Sealed & New",
+            73.49,
+            0.0,
+            73.49,
+            "jakub.olszewski"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327399102347",
+            "Lego - Technic - Planet Earth And Moon In Orbit 42179 - construct - P2222z",
+            76.32,
+            0.0,
+            76.32,
+            "ihaveit_music"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/358783764300",
+            "LEGO Technic Space 42179 Planet Earth and Moon in Orbit Set 526pcs 10+",
+            77.21,
+            3.71,
+            73.5,
+            "pen_7855"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/168207978006",
+            "Lego\u00ae Technic 42179 Earth & Moon Model Genuine Quality Best Top",
+            84.99,
+            0.0,
+            84.99,
+            "planszowki"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/137837858985",
+            "LEGO Technic Space 42179 Planet Earth and Moon in Orbit Set 526pcs - BNIB",
+            88.17,
+            4.27,
+            83.9,
+            "my-moc-fund"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/960044371147",
+            "\ud83c\udf1fNew & Sealed\ud83c\udf1fLEGO Technic 42179 Planet Earth and Moon In Orbit FAST P&P \u2705\u2705",
+            92.64,
+            7.64,
+            85.0,
+            "pinderks7"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Speed Champions McLaren W1 - 77257",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-mclaren-w1-77257-5030051",
       "policy_key": "b21ea5685b4926916bbd231d",
@@ -16,8 +699,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/300x300/qt/55/5030051_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/300x300/qt/55/5030051_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/150x150/qt/55/5030051_1.jpg"
@@ -1291,8 +1974,8 @@
       "item_price": 24.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/150x150/qt/55/5027979_1.jpg",
@@ -2655,8 +3338,8 @@
       "item_price": 27.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/150x150/qt/55/5030247_1.jpg"
@@ -3600,8 +4283,8 @@
       "item_price": 27.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg",
@@ -5004,8 +5687,8 @@
       "item_price": 36.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/150x150/qt/55/5027982_1.jpg",
@@ -6169,8 +6852,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/300x300/qt/55/5030245_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/300x300/qt/55/5030245_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/150x150/qt/55/5030245_1.jpg"
@@ -7397,983 +8080,6 @@
       }
     },
     {
-      "title": "LEGO Technic Custom Garage Ford Mustang GT Car 42236 (discount at checkout)",
-      "url": "https://www.hotukdeals.com/deals/lego-technic-custom-garage-ford-mustang-gt-car-42236-toys-for-10-year-old-boys-girls-model-kit-with-v8-engine-hog-steering-5029984",
-      "policy_key": "b98ac9548abb34fe0bf7b316",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 55.09,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/150x150/qt/55/5029984_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-custom-garage-ford-mustang-gt-car-42236-toys-for-10-year-old-boys-girls-model-kit-with-v8-engine-hog-steering-5029984",
-      "landed_cost": null,
-      "breakeven_sell": 72.89,
-      "sell_for_minimum_profit": 99.28,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-11T17:54:48+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Custom+Garage+Ford+Mustang+GT+Car+42236+%28discount+at+checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 42236",
-        "category": "lego",
-        "name_terms": [
-          "custom",
-          "ford",
-          "garage",
-          "gt",
-          "mustang"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-11T17:54:48+00:00",
-        "date": "2026-11-11",
-        "sample_count": 22,
-        "listed_total_low": 55.78,
-        "listed_total_p25": 61.96,
-        "listed_total_median": 79.97,
-        "listed_total_p75": 84.74,
-        "listed_total_high": 100.0,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|960126389595|0",
-            "seller": "rebsca_54",
-            "image": "https://i.ebayimg.com/images/g/hPgAAeSw2hFq4fu-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960126389595",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT 42236 Brand New Still Sealed",
-            "declared_condition": "new",
-            "item_price": 50.63,
-            "shipping": 5.15,
-            "listed_total": 55.78
-          },
-          {
-            "item_id": "v1|860044604530|0",
-            "seller": "tbltb-1igrok",
-            "image": "https://i.ebayimg.com/images/g/sTgAAeSwlZ5qz6Ap/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860044604530",
-            "title": "Lego Technic: Custom Garage Ford Mustang GT (42236) Brand New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 52.99,
-            "shipping": 3.38,
-            "listed_total": 56.37
-          },
-          {
-            "item_id": "v1|128129141077|0",
-            "seller": "topshop20",
-            "image": "https://i.ebayimg.com/images/g/fZ4AAeSwX5pqy8oi/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128129141077",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT Car 42236",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 0.0,
-            "listed_total": 57.9
-          },
-          {
-            "item_id": "v1|407337407780|0",
-            "seller": "nicolestraaa",
-            "image": "https://i.ebayimg.com/images/g/Q6wAAeSwwS5qjxBh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407337407780",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            "declared_condition": "new",
-            "item_price": 54.78,
-            "shipping": 5.21,
-            "listed_total": 59.99
-          },
-          {
-            "item_id": "v1|920020410075|0",
-            "seller": "se_30360",
-            "image": "https://i.ebayimg.com/images/g/dSsAAeSwlspqx28U/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920020410075",
-            "title": "LEGO Technic Ford Mustang GT 42236 973pcs Customisable Set Age 10+",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 3.38,
-            "listed_total": 61.28
-          },
-          {
-            "item_id": "v1|237175098504|0",
-            "seller": "mont_ami",
-            "image": "https://i.ebayimg.com/images/g/mjwAAeSwXQFq3lJW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237175098504",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 3.38,
-            "listed_total": 61.28
-          },
-          {
-            "item_id": "v1|206660769948|0",
-            "seller": "ad_398",
-            "image": "https://i.ebayimg.com/images/g/p2MAAeSwfc1qs-GP/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206660769948",
-            "title": "LEGO Technic: Custom Garage Ford Mustang GT Car (42236)",
-            "declared_condition": "new",
-            "item_price": 64.0,
-            "shipping": 0.0,
-            "listed_total": 64.0
-          },
-          {
-            "item_id": "v1|168578530246|0",
-            "seller": "true_toys",
-            "image": "https://i.ebayimg.com/images/g/7G8AAeSwWUhqcJ3B/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168578530246",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT Car\u00a0Construction Set\u00a0 42236",
-            "declared_condition": "new",
-            "item_price": 69.49,
-            "shipping": 0.0,
-            "listed_total": 69.49
-          },
-          {
-            "item_id": "v1|860113476950|0",
-            "seller": "muha398372",
-            "image": "https://i.ebayimg.com/images/g/LysAAeSwQrZq64BO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860113476950",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Set",
-            "declared_condition": "new",
-            "item_price": 70.37,
-            "shipping": 0.0,
-            "listed_total": 70.37
-          },
-          {
-            "item_id": "v1|298470575589|0",
-            "seller": "wwsm2006",
-            "image": "https://i.ebayimg.com/images/g/ofsAAeSwMm1qbFrU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 83.99,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298470575589",
-            "title": "LEGO Technic Ford Mustang GT Custom Garage Car Toy 42236, 973 Pieces",
-            "declared_condition": "new",
-            "item_price": 75.59,
-            "shipping": 0.0,
-            "listed_total": 75.59
-          },
-          {
-            "item_id": "v1|407103460177|0",
-            "seller": "jadlamracing",
-            "image": "https://i.ebayimg.com/images/g/d6IAAeSwughqykbm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407103460177",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            "declared_condition": "new",
-            "item_price": 79.95,
-            "shipping": 0.0,
-            "listed_total": 79.95
-          },
-          {
-            "item_id": "v1|267815743218|0",
-            "seller": "williamedwards",
-            "image": "https://i.ebayimg.com/images/g/uy4AAeSwDPBq0r8E/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267815743218",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Set Toy Building 10 Years +",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 0.0,
-            "listed_total": 79.99
-          },
-          {
-            "item_id": "v1|267740709778|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/bGgAAeSwYUhqZ5W-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267740709778",
-            "title": "LEGO 42236 Technic Custom Garage Ford Mustang GT Car",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 0.0,
-            "listed_total": 79.99
-          },
-          {
-            "item_id": "v1|407051897665|0",
-            "seller": "toybarnhaus",
-            "image": "https://i.ebayimg.com/images/g/nZ8AAeSwBCFqS2dQ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407051897665",
-            "title": "LEGO Technic: Custom Garage Ford Mustang GT Car (42236)",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 0.0,
-            "listed_total": 79.99
-          },
-          {
-            "item_id": "v1|267788167079|0",
-            "seller": "zatugames",
-            "image": "https://i.ebayimg.com/images/g/5ZoAAeSwaENqrAMj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267788167079",
-            "title": "Lego Technic 42236 Custom Garage Ford Mustang GT Car - Brand New",
-            "declared_condition": "new",
-            "item_price": 80.53,
-            "shipping": 0.0,
-            "listed_total": 80.53
-          },
-          {
-            "item_id": "v1|128098157843|0",
-            "seller": "safari-island",
-            "image": "https://i.ebayimg.com/images/g/E3UAAeSw-rZq8bWj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128098157843",
-            "title": "LEGO Technic - Custom Garage Ford Mustang GT Car - 42236",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 3.99,
-            "listed_total": 83.98
-          },
-          {
-            "item_id": "v1|298635719070|0",
-            "seller": "curiousmindsuk",
-            "image": "https://i.ebayimg.com/images/g/Az4AAeSwKVhqls~g/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298635719070",
-            "title": "Lego Technic 42236 Custom Garage Ford Mustang GT Car Toy for Ages 10+",
-            "declared_condition": "new",
-            "item_price": 84.99,
-            "shipping": 0.0,
-            "listed_total": 84.99
-          },
-          {
-            "item_id": "v1|287622844588|0",
-            "seller": "howleys",
-            "image": "https://i.ebayimg.com/images/g/j38AAeSwHmBqwmGW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287622844588",
-            "title": "Lego Technic 42236 Custom Garage Ford Mustang GT Car Set",
-            "declared_condition": "new",
-            "item_price": 84.99,
-            "shipping": 0.0,
-            "listed_total": 84.99
-          },
-          {
-            "item_id": "v1|860104941412|0",
-            "seller": "jadesshop",
-            "image": "https://i.ebayimg.com/images/g/OSkAAeSwClhq6A4k/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860104941412",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Set 27cm Buildable Model",
-            "declared_condition": "new",
-            "item_price": 86.97,
-            "shipping": 0.0,
-            "listed_total": 86.97
-          },
-          {
-            "item_id": "v1|227573560737|0",
-            "seller": "ukpricezilla",
-            "image": "https://i.ebayimg.com/images/g/ytsAAeSwFi5q1Zq4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227573560737",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT Car 42236",
-            "declared_condition": "new",
-            "item_price": 88.99,
-            "shipping": 0.0,
-            "listed_total": 88.99
-          },
-          {
-            "item_id": "v1|800889437842|0",
-            "seller": "ihaveit_music",
-            "image": "",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800889437842",
-            "title": "Mustang - LEGO Technic 42236 - Tuning Workshop  Ford GT Car - Toys - Q1823z",
-            "declared_condition": "new",
-            "item_price": 93.01,
-            "shipping": 0.0,
-            "listed_total": 93.01
-          },
-          {
-            "item_id": "v1|287500777641|0",
-            "seller": "toysntuck",
-            "image": "https://i.ebayimg.com/images/g/UoYAAeSwHg9qcI4F/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287500777641",
-            "title": "Lego 42236 Technic Custom Garage Ford Mustang GT Car",
-            "declared_condition": "new",
-            "item_price": 100.0,
-            "shipping": 0.0,
-            "listed_total": 100.0
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 3
-        },
-        "query_aliases": [
-          "LEGO Technic Custom Garage Ford Mustang GT Car 42236 (discount at checkout)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 42236",
-        "observed_at": "2026-11-11T17:54:48+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 22,
-        "seller_count": 22,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 6,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 55.78,
-        "competition_high": 100.0,
-        "estimated_resale": 54.1,
-        "estimated_range": [
-          50.2,
-          55.78
-        ],
-        "suggested_listing": 55.77,
-        "quick_sale_model": 50.2,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": [
-          83.99,
-          83.99
-        ],
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 1,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 55.09,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -15.68,
-        "max_landed_buy": 28.15,
-        "max_item_buy": null,
-        "delivery_headroom": -26.94,
-        "fees": 7.78,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 1.62,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 48.69,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 29.41,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|960126389595|0",
-            "seller": "rebsca_54",
-            "image": "https://i.ebayimg.com/images/g/hPgAAeSw2hFq4fu-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960126389595",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT 42236 Brand New Still Sealed",
-            "declared_condition": "new",
-            "item_price": 50.63,
-            "shipping": 5.15,
-            "listed_total": 55.78,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860044604530|0",
-            "seller": "tbltb-1igrok",
-            "image": "https://i.ebayimg.com/images/g/sTgAAeSwlZ5qz6Ap/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860044604530",
-            "title": "Lego Technic: Custom Garage Ford Mustang GT (42236) Brand New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 52.99,
-            "shipping": 3.38,
-            "listed_total": 56.37,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|128129141077|0",
-            "seller": "topshop20",
-            "image": "https://i.ebayimg.com/images/g/fZ4AAeSwX5pqy8oi/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128129141077",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT Car 42236",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 0.0,
-            "listed_total": 57.9,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407337407780|0",
-            "seller": "nicolestraaa",
-            "image": "https://i.ebayimg.com/images/g/Q6wAAeSwwS5qjxBh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407337407780",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            "declared_condition": "new",
-            "item_price": 54.78,
-            "shipping": 5.21,
-            "listed_total": 59.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920020410075|0",
-            "seller": "se_30360",
-            "image": "https://i.ebayimg.com/images/g/dSsAAeSwlspqx28U/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920020410075",
-            "title": "LEGO Technic Ford Mustang GT 42236 973pcs Customisable Set Age 10+",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 3.38,
-            "listed_total": 61.28,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|237175098504|0",
-            "seller": "mont_ami",
-            "image": "https://i.ebayimg.com/images/g/mjwAAeSwXQFq3lJW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237175098504",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            "declared_condition": "new",
-            "item_price": 57.9,
-            "shipping": 3.38,
-            "listed_total": 61.28,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206660769948|0",
-            "seller": "ad_398",
-            "image": "https://i.ebayimg.com/images/g/p2MAAeSwfc1qs-GP/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206660769948",
-            "title": "LEGO Technic: Custom Garage Ford Mustang GT Car (42236)",
-            "declared_condition": "new",
-            "item_price": 64.0,
-            "shipping": 0.0,
-            "listed_total": 64.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168578530246|0",
-            "seller": "true_toys",
-            "image": "https://i.ebayimg.com/images/g/7G8AAeSwWUhqcJ3B/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168578530246",
-            "title": "LEGO Technic Custom Garage Ford Mustang GT Car\u00a0Construction Set\u00a0 42236",
-            "declared_condition": "new",
-            "item_price": 69.49,
-            "shipping": 0.0,
-            "listed_total": 69.49,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860113476950|0",
-            "seller": "muha398372",
-            "image": "https://i.ebayimg.com/images/g/LysAAeSwQrZq64BO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860113476950",
-            "title": "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Set",
-            "declared_condition": "new",
-            "item_price": 70.37,
-            "shipping": 0.0,
-            "listed_total": 70.37,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|298470575589|0",
-            "seller": "wwsm2006",
-            "image": "https://i.ebayimg.com/images/g/ofsAAeSwMm1qbFrU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 83.99,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298470575589",
-            "title": "LEGO Technic Ford Mustang GT Custom Garage Car Toy 42236, 973 Pieces",
-            "declared_condition": "new",
-            "item_price": 75.59,
-            "shipping": 0.0,
-            "listed_total": 75.59,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Technic Custom Garage Ford Mustang GT Car 42236 (discount at checkout)",
-        "query": "LEGO 42236",
-        "kind": "active_ask",
-        "listing": 55.77,
-        "observed_at": "2026-11-11T17:54:48+00:00",
-        "valid_until": "2026-11-11T23:54:48+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/960126389595",
-          "https://www.ebay.co.uk/itm/860044604530",
-          "https://www.ebay.co.uk/itm/128129141077",
-          "https://www.ebay.co.uk/itm/407337407780",
-          "https://www.ebay.co.uk/itm/920020410075",
-          "https://www.ebay.co.uk/itm/237175098504",
-          "https://www.ebay.co.uk/itm/206660769948",
-          "https://www.ebay.co.uk/itm/168578530246",
-          "https://www.ebay.co.uk/itm/860113476950",
-          "https://www.ebay.co.uk/itm/298470575589"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/960126389595",
-            "LEGO Technic Custom Garage Ford Mustang GT 42236 Brand New Still Sealed",
-            55.78,
-            5.15,
-            50.63,
-            "rebsca_54"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/860044604530",
-            "Lego Technic: Custom Garage Ford Mustang GT (42236) Brand New & Sealed ",
-            56.37,
-            3.38,
-            52.99,
-            "tbltb-1igrok"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/128129141077",
-            "LEGO Technic Custom Garage Ford Mustang GT Car 42236",
-            57.9,
-            0.0,
-            57.9,
-            "topshop20"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407337407780",
-            "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            59.99,
-            5.21,
-            54.78,
-            "nicolestraaa"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/920020410075",
-            "LEGO Technic Ford Mustang GT 42236 973pcs Customisable Set Age 10+",
-            61.28,
-            3.38,
-            57.9,
-            "se_30360"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/237175098504",
-            "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Age 10+ 973pcs",
-            61.28,
-            3.38,
-            57.9,
-            "mont_ami"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206660769948",
-            "LEGO Technic: Custom Garage Ford Mustang GT Car (42236)",
-            64.0,
-            0.0,
-            64.0,
-            "ad_398"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/168578530246",
-            "LEGO Technic Custom Garage Ford Mustang GT Car\u00a0Construction Set\u00a0 42236",
-            69.49,
-            0.0,
-            69.49,
-            "true_toys"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/860113476950",
-            "LEGO Technic 42236 Custom Garage Ford Mustang GT Car Set",
-            70.37,
-            0.0,
-            70.37,
-            "muha398372"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/298470575589",
-            "LEGO Technic Ford Mustang GT Custom Garage Car Toy 42236, 973 Pieces",
-            75.59,
-            0.0,
-            75.59,
-            "wwsm2006"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Fortnite Battle Bus 77073",
       "url": "https://www.hotukdeals.com/deals/lego-fortnite-battle-bus-77073-5027954",
       "policy_key": "b2292c545ef444bb7feef774",
@@ -8388,8 +8094,8 @@
       "item_price": 60.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/150x150/qt/55/5027954_1.jpg",
@@ -8657,8 +8363,8 @@
       "item_price": 65.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/150x150/qt/55/5029047_1.jpg"
@@ -9375,8 +9081,8 @@
       "item_price": 93.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/150x150/qt/55/5029208_1.jpg"
@@ -10204,8 +9910,8 @@
       "item_price": 107.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/300x300/qt/55/5029114_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/300x300/qt/55/5029114_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c1r1a/5029114_1/re/150x150/qt/55/5029114_1.jpg"
@@ -10497,8 +10203,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/150x150/qt/55/5029042_1.jpg"
@@ -11179,8 +10885,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/150x150/qt/55/5029427_1.jpg"
@@ -16379,7 +16085,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-11T23:32:34+00:00",
+        "canonicalized_at": "2026-11-12T00:04:21+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Battlefield 6 Phantom Edition - Xbox Series X"
@@ -16726,7 +16432,7 @@
         "rejected": {
           "identity_or_condition": 13
         },
-        "canonicalized_at": "2026-11-11T23:32:34+00:00",
+        "canonicalized_at": "2026-11-12T00:04:21+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Lies of P (PS5)"
@@ -18249,393 +17955,6 @@
       }
     },
     {
-      "title": "Resonance: A Plague Tale Legacy (Xbox Series X)",
-      "url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-xbox-series-x-5029886",
-      "policy_key": "e9d17b5e61f42133356b4af8",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 28.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/4SZ5T/5029886_1/re/150x150/qt/55/5029886_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-xbox-series-x-5029886",
-      "landed_cost": null,
-      "breakeven_sell": 38.57,
-      "sell_for_minimum_profit": 52.27,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-11T16:19:39+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resonance%3A+A+Plague+Tale+Legacy+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "resonance a plague tale legacy xbox series x",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-11T17:54:48+00:00",
-        "date": "2026-11-11",
-        "sample_count": 4,
-        "listed_total_low": 42.95,
-        "listed_total_p25": 44.4875,
-        "listed_total_median": 46.56,
-        "listed_total_p75": 49.33,
-        "listed_total_high": 52.96,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|407079166301|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/IIcAAeSw1stqWdze/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407079166301",
-            "title": "Resonance: A Plague Tale Legacy Xbox Series X - NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 42.95,
-            "shipping": 0.0,
-            "listed_total": 42.95,
-            "observed_at": "2026-11-11T17:54:48+00:00"
-          },
-          {
-            "item_id": "v1|168839159383|0",
-            "seller": "jb-1701",
-            "image": "https://i.ebayimg.com/images/g/i1cAAeSwNIhq67DE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168839159383",
-            "title": "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.7,
-            "listed_total": 45.0,
-            "observed_at": "2026-11-11T17:54:48+00:00"
-          },
-          {
-            "item_id": "v1|318866244873|0",
-            "seller": "kitkatda95",
-            "image": "https://i.ebayimg.com/images/g/AZQAAeSweP9qpuKq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318866244873",
-            "title": "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 45.42,
-            "shipping": 2.7,
-            "listed_total": 48.12,
-            "observed_at": "2026-11-11T17:54:48+00:00"
-          },
-          {
-            "item_id": "v1|318781774152|0",
-            "seller": "hitcouk",
-            "image": "https://i.ebayimg.com/images/g/p8AAAeSwp~tqu4-H/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318781774152",
-            "title": "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 52.96,
-            "shipping": 0.0,
-            "listed_total": 52.96,
-            "observed_at": "2026-11-11T17:54:48+00:00"
-          }
-        ],
-        "rejected": {},
-        "canonicalized_at": "2026-11-11T23:32:34+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Resonance: A Plague Tale Legacy (Xbox Series X)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "resonance a plague tale legacy xbox series x",
-        "observed_at": "2026-11-11T17:54:48+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 4,
-        "seller_count": 4,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 2,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 42.95,
-        "competition_high": 52.96,
-        "estimated_resale": 41.66,
-        "estimated_range": [
-          38.65,
-          42.95
-        ],
-        "suggested_listing": 42.94,
-        "quick_sale_model": 38.65,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 28.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": 2.62,
-        "max_landed_buy": 22.57,
-        "max_item_buy": null,
-        "delivery_headroom": -6.42,
-        "fees": 5.6,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.25,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 37.49,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 21.61,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|407079166301|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/IIcAAeSw1stqWdze/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407079166301",
-            "title": "Resonance: A Plague Tale Legacy Xbox Series X - NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 42.95,
-            "shipping": 0.0,
-            "listed_total": 42.95,
-            "observed_at": "2026-11-11T17:54:48+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168839159383|0",
-            "seller": "jb-1701",
-            "image": "https://i.ebayimg.com/images/g/i1cAAeSwNIhq67DE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168839159383",
-            "title": "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.7,
-            "listed_total": 45.0,
-            "observed_at": "2026-11-11T17:54:48+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|318866244873|0",
-            "seller": "kitkatda95",
-            "image": "https://i.ebayimg.com/images/g/AZQAAeSweP9qpuKq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318866244873",
-            "title": "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 45.42,
-            "shipping": 2.7,
-            "listed_total": 48.12,
-            "observed_at": "2026-11-11T17:54:48+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|318781774152|0",
-            "seller": "hitcouk",
-            "image": "https://i.ebayimg.com/images/g/p8AAAeSwp~tqu4-H/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318781774152",
-            "title": "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 52.96,
-            "shipping": 0.0,
-            "listed_total": 52.96,
-            "observed_at": "2026-11-11T17:54:48+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "Resonance: A Plague Tale Legacy (Xbox Series X)",
-        "query": "resonance a plague tale legacy xbox series x",
-        "kind": "active_ask",
-        "listing": 42.94,
-        "observed_at": "2026-11-11T17:54:48+00:00",
-        "valid_until": "2026-11-11T23:54:48+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/407079166301",
-          "https://www.ebay.co.uk/itm/168839159383",
-          "https://www.ebay.co.uk/itm/318866244873",
-          "https://www.ebay.co.uk/itm/318781774152"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/407079166301",
-            "Resonance: A Plague Tale Legacy Xbox Series X - NEW AND SEALED - FREE SHIPPING",
-            42.95,
-            0.0,
-            42.95,
-            "thegamecollectionoutlet"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/168839159383",
-            "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            45.0,
-            2.7,
-            42.3,
-            "jb-1701"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/318866244873",
-            "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            48.12,
-            2.7,
-            45.42,
-            "kitkatda95"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/318781774152",
-            "Resonance: A Plague Tale Legacy (Xbox Series X) - Brand New and Sealed",
-            52.96,
-            0.0,
-            52.96,
-            "hitcouk"
-          ]
-        ],
-        "category": "gaming"
-      }
-    },
-    {
       "title": "Death Stranding 2: On The Beach (PS5)",
       "url": "https://www.hotukdeals.com/deals/death-stranding-2-on-the-beach-ps5-5027865",
       "policy_key": "c66a382ae094a72a4aa48c53",
@@ -18859,7 +18178,7 @@
         "rejected": {
           "identity_or_condition": 40
         },
-        "canonicalized_at": "2026-11-11T23:32:34+00:00",
+        "canonicalized_at": "2026-11-12T00:04:21+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Death Stranding 2: On The Beach (PS5)"
@@ -19282,7 +18601,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-11T23:32:34+00:00",
+          "observed_at": "2026-11-12T00:04:21+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -19557,8 +18876,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg"
@@ -19584,6 +18903,44 @@
       }
     },
     {
+      "title": "Nike Air Force 1 07 Brown Sail Unisex Trainers - Size UK 3.5 - IO1914-235",
+      "url": "https://www.ebay.co.uk/itm/327381493975",
+      "policy_key": "88d0402f3035748366f8a5d5",
+      "category": "trainers",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 59.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/x3IAAeSwhtVqvRgq/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/327381493975",
+      "landed_cost": 59.99,
+      "breakeven_sell": 78.36,
+      "sell_for_minimum_profit": 100.35,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "air force 1: size ambiguous (adult/kids)"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T08:02:31+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Force+1+07+Brown+Sail+Unisex+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Minecraft Nether & End Portal Journey 21584",
       "url": "https://www.hotukdeals.com/deals/lego-minecraft-nether-end-portal-journey-21584-5029068",
       "policy_key": "275e15bbb59c0da3496d1dfb",
@@ -19598,8 +18955,8 @@
       "item_price": 8.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg"
@@ -19728,8 +19085,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/150x150/qt/55/5028470_1.jpg",
@@ -19772,8 +19129,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/150x150/qt/55/5028719_1.jpg",
@@ -19816,8 +19173,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/150x150/qt/55/5028595_1.jpg"
@@ -19858,8 +19215,8 @@
       "item_price": 12.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/150x150/qt/55/5029092_1.jpg"
@@ -19983,8 +19340,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg"
@@ -20025,8 +19382,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/300x300/qt/55/5030054_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/300x300/qt/55/5030054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/150x150/qt/55/5030054_1.jpg"
@@ -20067,8 +19424,8 @@
       "item_price": 14.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/150x150/qt/55/5029962_1.jpg"
@@ -20109,8 +19466,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/150x150/qt/55/5030257_1.jpg"
@@ -20195,8 +19552,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg",
@@ -20239,8 +19596,8 @@
       "item_price": 14.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/150x150/qt/55/5029030_1.jpg"
@@ -20323,8 +19680,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/150x150/qt/55/5028262_1.jpg",
@@ -20367,8 +19724,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/150x150/qt/55/5028558_1.jpg",
@@ -20411,8 +19768,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/150x150/qt/55/5030257_1.jpg"
@@ -20453,8 +19810,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/150x150/qt/55/5028607_1.jpg"
@@ -20534,8 +19891,8 @@
       "item_price": 15.2,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg",
@@ -20578,8 +19935,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg",
@@ -20622,8 +19979,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/150x150/qt/55/5028448_1.jpg",
@@ -20666,8 +20023,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg",
@@ -20710,8 +20067,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/150x150/qt/55/5028505_1.jpg",
@@ -20754,8 +20111,8 @@
       "item_price": 16.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/150x150/qt/55/5029962_1.jpg",
@@ -20798,8 +20155,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg"
@@ -20840,8 +20197,8 @@
       "item_price": 17.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/150x150/qt/55/5028499_1.jpg",
@@ -20884,8 +20241,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
@@ -20928,8 +20285,8 @@
       "item_price": 18.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg"
@@ -21014,8 +20371,8 @@
       "item_price": 22.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/150x150/qt/55/5028495_1.jpg"
@@ -21056,8 +20413,8 @@
       "item_price": 23.26,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/150x150/qt/55/5027785_1.jpg",
@@ -21139,8 +20496,8 @@
       "item_price": 26.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/150x150/qt/55/5028523_1.jpg",
@@ -21183,8 +20540,8 @@
       "item_price": 27.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/150x150/qt/55/5029065_1.jpg"
@@ -21264,8 +20621,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/150x150/qt/55/5028766_1.jpg",
@@ -21391,8 +20748,8 @@
       "item_price": 36.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/150x150/qt/55/5029171_1.jpg"
@@ -21519,8 +20876,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg"
@@ -21561,8 +20918,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg"
@@ -21647,8 +21004,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
@@ -21691,8 +21048,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg"
@@ -21777,8 +21134,8 @@
       "item_price": 42.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/150x150/qt/55/5028115_1.jpg",
@@ -21865,8 +21222,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg",
@@ -21909,8 +21266,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg"
@@ -21990,8 +21347,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg",
@@ -22034,8 +21391,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/150x150/qt/55/5029044_1.jpg"
@@ -22076,8 +21433,8 @@
       "item_price": 47.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg"
@@ -22201,8 +21558,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg",
@@ -22231,6 +21588,48 @@
       }
     },
     {
+      "title": "LEGO Technic Custom Garage Ford Mustang GT Car 42236 (discount at checkout)",
+      "url": "https://www.hotukdeals.com/deals/lego-technic-custom-garage-ford-mustang-gt-car-42236-toys-for-10-year-old-boys-girls-model-kit-with-v8-engine-hog-steering-5029984",
+      "policy_key": "b98ac9548abb34fe0bf7b316",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 55.09,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/150x150/qt/55/5029984_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-custom-garage-ford-mustang-gt-car-42236-toys-for-10-year-old-boys-girls-model-kit-with-v8-engine-hog-steering-5029984",
+      "landed_cost": null,
+      "breakeven_sell": 72.89,
+      "sell_for_minimum_profit": 99.28,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T17:54:48+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Custom+Garage+Ford+Mustang+GT+Car+42236+%28discount+at+checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Icons Ferrari F2004 & Michael Schumacher 11375, discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-icons-ferrari-f2004-michael-schumacher-11375-discount-at-checkout-5027625",
       "policy_key": "a169c45a478b43fcfb8e4c95",
@@ -22245,8 +21644,8 @@
       "item_price": 55.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
@@ -22289,8 +21688,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-11T23:53:27.659238+00:00",
-      "image_checked_at": "2026-11-11T23:33:27.659238+00:00",
+      "image_verified_until": "2026-11-12T00:24:57.881724+00:00",
+      "image_checked_at": "2026-11-12T00:04:57.881724+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
@@ -22377,8 +21776,8 @@
       "item_price": 58.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
-      "image_verified_until": "2026-11-11T23:52:48.732311+00:00",
-      "image_checked_at": "2026-11-11T23:32:48.732311+00:00",
+      "image_verified_until": "2026-11-12T00:24:33.787213+00:00",
+      "image_checked_at": "2026-11-12T00:04:33.787213+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/150x150/qt/55/5029161_1.jpg"
@@ -22398,6 +21797,45 @@
       "priority": 10,
       "first_seen": "2026-11-11T05:30:58+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Airport+with+Airplane%2C+Tug+Car%2C+Bridge%2C+9+Minifigures+%26+Accessories+60502&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "\u00a320 Bonus on \u00a380+ Spend at New Balance - First 1,000 Opt Ins",
+      "url": "https://www.hotukdeals.com/deals/ps20-bonus-on-ps80-spend-at-new-balance-first-1000-opt-ins-5030287",
+      "policy_key": "dd508d801d97ffe431cae558",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Quidco",
+      "item_price": 80.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 100.01,
+      "sell_for_minimum_profit": 132.11,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-12T00:04:55+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bonus+on+%2B+Spend+at+New+Balance&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -22554,6 +21992,45 @@
       "priority": 10,
       "first_seen": "2026-11-08T12:42:05+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+DCF887N+18V+XR+Brushless+Impact+Driver+%26+DCB184+5.0Ah+Battery+%26+DCB1104+Charger&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "\u00a325 Bonus on \u00a3120+ Spend at Red Letter Days & Viator - A Tripadvisor Company - First 1,000 Opt Ins",
+      "url": "https://www.hotukdeals.com/deals/ps25-bonus-on-ps120-spend-at-red-letter-days-viator-a-tripadvisor-company-first-1000-opt-ins-5030288",
+      "policy_key": "63f233eb6731024850386472",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Quidco",
+      "item_price": 120.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 152.92,
+      "sell_for_minimum_profit": 212.1,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-12T00:04:55+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bonus+on+%2B+Spend+at+Red+Letter+Days+%26+Viator&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -25637,6 +25114,72 @@
       }
     },
     {
+      "title": "Lego Batman: Legacy of The Dark Knight (Xbox Series X) - Asda Solihull",
+      "url": "https://www.hotukdeals.com/deals/lego-batman-legacy-of-the-dark-knight-xbox-series-x-asda-solihull-5027325",
+      "policy_key": "5b65965aec4b0ac8c2e5faa9",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "",
+      "item_price": 23.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/amJ5M/5027325_1/re/150x150/qt/55/5027325_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-batman-legacy-of-the-dark-knight-xbox-series-x-asda-solihull-5027325",
+      "landed_cost": null,
+      "breakeven_sell": 32.67,
+      "sell_for_minimum_profit": 44.0,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-09T20:03:29+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Batman%3A+Legacy+of+The+Dark+Knight+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "lego batman legacy of the dark knight asda solihull xbox series x",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-12T00:04:55+00:00",
+        "date": "2026-11-12",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Lego Batman: Legacy of The Dark Knight (Xbox Series X) - Asda Solihull"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Kids TENSAUR SPORT 3.0 K Trainers (Free Delivery for Members)",
       "url": "https://www.hotukdeals.com/deals/tensaur-sport-30-k-trainers-5030249",
       "policy_key": "41a0075e13e56f79b14c918c",
@@ -26501,6 +26044,45 @@
       "priority": 0,
       "first_seen": "2026-11-11T01:19:53+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resonance%3A+A+Plague+Tale+Legacy&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Resonance: A Plague Tale Legacy (Xbox Series X)",
+      "url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-xbox-series-x-5029886",
+      "policy_key": "e9d17b5e61f42133356b4af8",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 28.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/4SZ5T/5029886_1/re/150x150/qt/55/5029886_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/resonance-a-plague-tale-legacy-xbox-series-x-5029886",
+      "landed_cost": null,
+      "breakeven_sell": 38.57,
+      "sell_for_minimum_profit": 52.27,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-11T16:19:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resonance%3A+A+Plague+Tale+Legacy+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -30764,45 +30346,6 @@
       "priority": 0,
       "first_seen": "2026-11-09T20:03:29+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Polo+Ralph+Lauren+Masters+Court+Trainers+in+Dark+Green+UK+7&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "UGG Mens Heritage Utility Axoid Trainers Black / Chestnut - Sizes 8-11",
-      "url": "https://www.hotukdeals.com/deals/ugg-mens-heritage-utility-axoid-trainers-blackblack-sizes-8-11-5027217",
-      "policy_key": "d9f0e9a285197d79e7ab73f4",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "MandM",
-      "item_price": 69.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/lgPoi/5027217_1/re/150x150/qt/55/5027217_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/ugg-mens-heritage-utility-axoid-trainers-blackblack-sizes-8-11-5027217",
-      "landed_cost": null,
-      "breakeven_sell": 90.5,
-      "sell_for_minimum_profit": 116.23,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-09T15:27:20+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=UGG+Mens+Heritage+Utility+Axoid+Trainers+Black+%2F+Chestnut&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
