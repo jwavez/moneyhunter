@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:42:15+00:00",
       "valid_until": "2026-11-12T08:42:15+00:00",
       "competition_low": 76.94,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|198739441730|0",
-        "observed_at": "2026-11-12T04:01:22+00:00",
+        "observed_at": "2026-11-12T04:33:08+00:00",
         "status": "conflict",
         "reasons": [
           "department mismatch",
@@ -211,9 +211,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
-      "observed_at": "2026-11-12T02:10:33+00:00",
-      "valid_until": "2026-11-12T08:10:33+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
+      "observed_at": "2026-11-12T04:33:08+00:00",
+      "valid_until": "2026-11-12T10:33:08+00:00",
       "competition_low": 56.76,
       "estimated_resale": 55.05,
       "seller_count": 3,
@@ -227,7 +227,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-12T04:01:22+00:00",
+        "observed_at": "2026-11-12T04:33:08+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -414,24 +414,24 @@
           "seller": "barberskicks",
           "url": "https://www.ebay.co.uk/itm/336863771135",
           "delivered": 56.76,
-          "observed_at": "2026-11-12T02:10:33+00:00"
+          "observed_at": "2026-11-12T04:33:08+00:00"
         },
         {
           "item_id": "v1|198739439897|0",
           "seller": "jpkicksuk",
           "url": "https://www.ebay.co.uk/itm/198739439897",
           "delivered": 76.94,
-          "observed_at": "2026-11-12T02:10:33+00:00"
+          "observed_at": "2026-11-12T04:33:08+00:00"
         },
         {
           "item_id": "v1|860044398095|0",
           "seller": "weez4450",
           "url": "https://www.ebay.co.uk/itm/860044398095",
           "delivered": 108.07,
-          "observed_at": "2026-11-12T02:10:33+00:00"
+          "observed_at": "2026-11-12T04:33:08+00:00"
         }
       ],
-      "last_research_at": "2026-11-12T02:10:33+00:00"
+      "last_research_at": "2026-11-12T04:33:08+00:00"
     },
     {
       "key": "browse-asks-v5:trainers:nike io1914-235 uk 3.5:c8d034984033",
@@ -457,7 +457,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:58:57+00:00",
       "valid_until": "2026-11-12T08:58:57+00:00",
       "competition_low": 59.99,
@@ -521,9 +521,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
-      "observed_at": "2026-11-12T03:30:26+00:00",
-      "valid_until": "2026-11-12T09:30:26+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
+      "observed_at": "2026-11-12T04:34:01+00:00",
+      "valid_until": "2026-11-12T10:34:01+00:00",
       "competition_low": 19.96,
       "estimated_resale": 19.36,
       "seller_count": 40,
@@ -557,35 +557,35 @@
           "seller": "luxury_fragrances_uk",
           "url": "https://www.ebay.co.uk/itm/860068848016",
           "delivered": 19.96,
-          "observed_at": "2026-11-12T03:30:26+00:00"
+          "observed_at": "2026-11-12T04:34:01+00:00"
         },
         {
           "item_id": "v1|860105116494|0",
           "seller": "prime-select7",
           "url": "https://www.ebay.co.uk/itm/860105116494",
           "delivered": 24.59,
-          "observed_at": "2026-11-12T03:30:26+00:00"
+          "observed_at": "2026-11-12T04:34:01+00:00"
         },
         {
           "item_id": "v1|840023293955|0",
           "seller": "beautymagasin",
           "url": "https://www.ebay.co.uk/itm/840023293955",
           "delivered": 26.51,
-          "observed_at": "2026-11-12T03:30:26+00:00"
+          "observed_at": "2026-11-12T04:34:01+00:00"
         },
         {
           "item_id": "v1|307172583371|0",
           "seller": "chipsnbits",
           "url": "https://www.ebay.co.uk/itm/307172583371",
           "delivered": 26.64,
-          "observed_at": "2026-11-12T03:30:26+00:00"
+          "observed_at": "2026-11-12T04:34:01+00:00"
         },
         {
           "item_id": "v1|335923808342|0",
           "seller": "intercom_kid",
           "url": "https://www.ebay.co.uk/itm/335923808342",
           "delivered": 26.99,
-          "observed_at": "2026-11-12T03:30:26+00:00"
+          "observed_at": "2026-11-12T04:34:01+00:00"
         }
       ],
       "last_research_at": "2026-11-12T02:10:33+00:00"
@@ -614,7 +614,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T03:29:39+00:00",
       "valid_until": "2026-11-12T09:29:39+00:00",
       "competition_low": 140.79,
@@ -686,7 +686,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:42:15+00:00",
       "valid_until": "2026-11-12T08:42:15+00:00",
       "competition_low": 20.99,
@@ -758,7 +758,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T04:01:22+00:00",
       "valid_until": "2026-11-12T10:01:22+00:00",
       "competition_low": 37.69,
@@ -830,7 +830,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:58:42+00:00",
       "valid_until": "2026-11-12T08:58:42+00:00",
       "competition_low": 33.33,
@@ -900,133 +900,6 @@
       "last_research_at": "2026-11-12T02:58:42+00:00"
     },
     {
-      "key": "browse-asks-v5:lego:lego 75389:18dcf2039283",
-      "category": "lego",
-      "query": "LEGO 75389",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 75389",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "codes",
-          "dark",
-          "falcon"
-        ]
-      },
-      "first_seen": "2026-11-11T09:26:23+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
-      "observed_at": "2026-11-11T22:29:39+00:00",
-      "valid_until": "2026-11-12T04:29:39+00:00",
-      "competition_low": 8.99,
-      "estimated_resale": 8.72,
-      "seller_count": 2,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|237058836839|0",
-          "seller": "joe-k-99",
-          "url": "https://www.ebay.co.uk/itm/237058836839",
-          "delivered": 8.99,
-          "observed_at": "2026-11-11T22:29:39+00:00"
-        },
-        {
-          "item_id": "v1|397336297476|0",
-          "seller": "curta_64",
-          "url": "https://www.ebay.co.uk/itm/397336297476",
-          "delivered": 10.92,
-          "observed_at": "2026-11-11T22:29:39+00:00"
-        }
-      ]
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 43287:03e1191990c2",
-      "category": "lego",
-      "query": "LEGO 43287",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 43287",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "brunis",
-          "disney",
-          "frozen",
-          "fun",
-          "olaf",
-          "picnic"
-        ]
-      },
-      "first_seen": "2026-11-11T22:29:56+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
-      "observed_at": "2026-11-11T22:29:36+00:00",
-      "valid_until": "2026-11-12T04:29:36+00:00",
-      "competition_low": 34.84,
-      "estimated_resale": 33.79,
-      "seller_count": 20,
-      "low_supporting_sellers": 5,
-      "max_landed_buy": 14.45,
-      "target_status": "usable_configured_cost_target",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|820200562376|0",
-          "seller": "lauvin59",
-          "url": "https://www.ebay.co.uk/itm/820200562376",
-          "delivered": 34.84,
-          "observed_at": "2026-11-11T22:29:36+00:00"
-        },
-        {
-          "item_id": "v1|940055110844|0",
-          "seller": "suitusirltd",
-          "url": "https://www.ebay.co.uk/itm/940055110844",
-          "delivered": 34.99,
-          "observed_at": "2026-11-11T22:29:36+00:00"
-        },
-        {
-          "item_id": "v1|227016746340|0",
-          "seller": "yonli_79",
-          "url": "https://www.ebay.co.uk/itm/227016746340",
-          "delivered": 35.15,
-          "observed_at": "2026-11-11T22:29:36+00:00"
-        },
-        {
-          "item_id": "v1|377077012019|0",
-          "seller": "edgeb_14",
-          "url": "https://www.ebay.co.uk/itm/377077012019",
-          "delivered": 35.99,
-          "observed_at": "2026-11-11T22:29:36+00:00"
-        },
-        {
-          "item_id": "v1|117343716485|0",
-          "seller": "gabob6523",
-          "url": "https://www.ebay.co.uk/itm/117343716485",
-          "delivered": 36.58,
-          "observed_at": "2026-11-11T22:29:36+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-12T02:42:23+00:00",
-      "last_search_sort": "price",
-      "last_item_price_filter": 14.45
-    },
-    {
       "key": "browse-asks-v5:lego:lego 75684:eb66521ef2eb",
       "category": "lego",
       "query": "LEGO 75684",
@@ -1048,7 +921,7 @@
         ]
       },
       "first_seen": "2026-11-11T23:01:52+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-11T23:01:32+00:00",
       "valid_until": "2026-11-12T05:01:32+00:00",
       "competition_low": 51.16,
@@ -1097,8 +970,8 @@
           "observed_at": "2026-11-11T23:01:32+00:00"
         }
       ],
-      "last_search_at": "2026-11-12T02:58:52+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-12T04:33:24+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 25.47
     },
     {
@@ -1125,7 +998,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T12:38:43+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T04:01:22+00:00",
       "valid_until": "2026-11-12T10:01:22+00:00",
       "competition_low": 50.44,
@@ -1141,11 +1014,11 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|920122334802|0",
-        "observed_at": "2026-11-12T04:01:22+00:00",
+        "observed_at": "2026-11-12T04:33:08+00:00",
         "status": "conflict",
         "reasons": [
-          "model aspect mismatch",
-          "fixed detail shipping not supplied"
+          "delivered price changed",
+          "model aspect mismatch"
         ],
         "gtin": null,
         "mpn": "GA06155EU",
@@ -1287,13 +1160,13 @@
         ],
         "source_url": "https://www.ebay.co.uk/itm/920122334802",
         "title": "Google Pixel Buds 2A True Wireless Earbuds - Hazel - Brand New Sealed",
-        "fixed_shipping": null,
+        "fixed_shipping": 14.34,
         "sub_checks": [
           {
-            "sub_check_failed": "shipping_unknown",
-            "expected": "FIXED shippingCost",
-            "observed": null,
-            "reason": "fixed detail shipping not supplied"
+            "sub_check_failed": "shipping_mismatch",
+            "expected": 2.94,
+            "observed": 14.34,
+            "reason": "delivered price changed"
           },
           {
             "sub_check_failed": "title_model_number_missing",
@@ -1376,7 +1249,7 @@
         ]
       },
       "first_seen": "2026-11-10T11:42:27+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-11T23:33:24+00:00",
       "valid_until": "2026-11-12T05:33:24+00:00",
       "competition_low": 44.99,
@@ -1451,7 +1324,7 @@
         ]
       },
       "first_seen": "2026-11-12T00:05:08+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T00:04:55+00:00",
       "valid_until": "2026-11-12T06:04:55+00:00",
       "competition_low": 70.0,
@@ -1520,7 +1393,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T00:36:36+00:00",
       "valid_until": "2026-11-12T06:36:36+00:00",
       "competition_low": 51.03,
@@ -1568,9 +1441,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
-      "observed_at": "2026-11-12T01:07:34+00:00",
-      "valid_until": "2026-11-12T07:07:34+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
+      "observed_at": "2026-11-12T04:33:08+00:00",
+      "valid_until": "2026-11-12T10:33:08+00:00",
       "competition_low": 30.98,
       "estimated_resale": 30.05,
       "seller_count": 3,
@@ -1603,24 +1476,24 @@
           "seller": "stocsuk",
           "url": "https://www.ebay.co.uk/itm/800885892466",
           "delivered": 30.98,
-          "observed_at": "2026-11-12T01:07:34+00:00"
+          "observed_at": "2026-11-12T04:33:08+00:00"
         },
         {
           "item_id": "v1|920107514118|0",
           "seller": "realjuicybargains",
           "url": "https://www.ebay.co.uk/itm/920107514118",
           "delivered": 39.0,
-          "observed_at": "2026-11-12T01:07:34+00:00"
+          "observed_at": "2026-11-12T04:33:08+00:00"
         },
         {
           "item_id": "v1|137825387668|0",
           "seller": "tradetribeuk",
           "url": "https://www.ebay.co.uk/itm/137825387668",
           "delivered": 54.99,
-          "observed_at": "2026-11-12T01:07:34+00:00"
+          "observed_at": "2026-11-12T04:33:08+00:00"
         }
       ],
-      "last_research_at": "2026-11-12T01:07:34+00:00"
+      "last_research_at": "2026-11-12T04:33:08+00:00"
     },
     {
       "key": "browse-asks-v5:gaming:resident evil requiem ps5:4f53cda18c2b",
@@ -1638,7 +1511,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:08:12+00:00",
       "valid_until": "2026-11-12T07:08:12+00:00",
       "competition_low": 41.88,
@@ -1712,7 +1585,7 @@
         ]
       },
       "first_seen": "2026-11-12T01:08:27+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:08:12+00:00",
       "valid_until": "2026-11-12T07:08:12+00:00",
       "competition_low": 19.99,
@@ -1789,7 +1662,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:39:02+00:00",
       "valid_until": "2026-11-12T07:39:02+00:00",
       "competition_low": 29.64,
@@ -1882,7 +1755,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T10:30:02+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:39:43+00:00",
       "valid_until": "2026-11-12T07:39:43+00:00",
       "competition_low": 189.99,
@@ -1898,7 +1771,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|133894859397|0",
-        "observed_at": "2026-11-12T04:01:22+00:00",
+        "observed_at": "2026-11-12T04:33:08+00:00",
         "status": "conflict",
         "reasons": [
           "tool model mismatch"
@@ -2076,7 +1949,7 @@
         ]
       },
       "first_seen": "2026-11-11T00:48:53+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:39:46+00:00",
       "valid_until": "2026-11-12T07:39:46+00:00",
       "competition_low": 154.66,
@@ -2144,7 +2017,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T06:36:29+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:39:44+00:00",
       "valid_until": "2026-11-12T07:39:44+00:00",
       "competition_low": 31.99,
@@ -2193,8 +2066,8 @@
           "observed_at": "2026-11-12T01:39:44+00:00"
         }
       ],
-      "last_search_at": "2026-11-12T03:29:48+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-12T04:33:24+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 14.6
     },
     {
@@ -2217,7 +2090,7 @@
         ]
       },
       "first_seen": "2026-11-10T12:13:28+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T01:39:44+00:00",
       "valid_until": "2026-11-12T07:39:44+00:00",
       "competition_low": 41.52,
@@ -2290,7 +2163,7 @@
         ]
       },
       "first_seen": "2026-11-11T06:49:05+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:11:23+00:00",
       "valid_until": "2026-11-12T08:11:23+00:00",
       "competition_low": 103.76,
@@ -2339,8 +2212,8 @@
           "observed_at": "2026-11-12T02:11:23+00:00"
         }
       ],
-      "last_search_at": "2026-11-12T02:58:52+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-12T04:33:24+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 55.9
     },
     {
@@ -2359,7 +2232,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T07:07:15+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:11:20+00:00",
       "valid_until": "2026-11-12T08:11:20+00:00",
       "competition_low": 29.49,
@@ -2406,7 +2279,7 @@
         ]
       },
       "first_seen": "2026-11-10T12:44:33+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T02:43:02+00:00",
       "valid_until": "2026-11-12T08:43:02+00:00",
       "competition_low": 20.35,
@@ -2483,7 +2356,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T03:29:39+00:00",
       "valid_until": "2026-11-12T09:29:39+00:00",
       "competition_low": 37.95,
@@ -2561,7 +2434,7 @@
         ]
       },
       "first_seen": "2026-11-09T13:54:45+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T03:30:26+00:00",
       "valid_until": "2026-11-12T09:30:26+00:00",
       "competition_low": 16.8,
@@ -2633,7 +2506,7 @@
         ]
       },
       "first_seen": "2026-11-11T09:57:51+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T04:02:12+00:00",
       "valid_until": "2026-11-12T10:02:12+00:00",
       "competition_low": 91.54,
@@ -2704,7 +2577,7 @@
         ]
       },
       "first_seen": "2026-11-11T01:20:04+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T04:02:12+00:00",
       "valid_until": "2026-11-12T10:02:12+00:00",
       "competition_low": 2.61,
@@ -2772,7 +2645,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T04:02:09+00:00",
       "valid_until": "2026-11-12T10:02:09+00:00",
       "competition_low": 57.72,
@@ -2825,7 +2698,7 @@
         ]
       },
       "first_seen": "2026-11-09T01:34:37+00:00",
-      "last_seen": "2026-11-12T04:02:28+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
       "observed_at": "2026-11-12T04:02:09+00:00",
       "valid_until": "2026-11-12T10:02:09+00:00",
       "competition_low": 15.72,
@@ -2876,6 +2749,202 @@
           "observed_at": "2026-11-12T04:02:09+00:00"
         }
       ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 40813:029b4b6cc167",
+      "category": "lego",
+      "query": "LEGO 40813",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 40813",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "cat",
+          "lucky"
+        ]
+      },
+      "first_seen": "2026-11-07T21:54:26+00:00",
+      "last_seen": "2026-11-12T04:34:19+00:00",
+      "observed_at": "2026-11-12T04:34:01+00:00",
+      "valid_until": "2026-11-12T10:34:01+00:00",
+      "competition_low": 23.76,
+      "estimated_resale": 23.04,
+      "seller_count": 26,
+      "low_supporting_sellers": 3,
+      "max_landed_buy": 5.47,
+      "target_status": "usable_configured_cost_target",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|198777035526|0",
+          "seller": "rysnail",
+          "url": "https://www.ebay.co.uk/itm/198777035526",
+          "delivered": 23.76,
+          "observed_at": "2026-11-12T04:34:01+00:00"
+        },
+        {
+          "item_id": "v1|358342770542|0",
+          "seller": "hmv_official_store",
+          "url": "https://www.ebay.co.uk/itm/358342770542",
+          "delivered": 24.99,
+          "observed_at": "2026-11-12T04:34:01+00:00"
+        },
+        {
+          "item_id": "v1|397478579150|0",
+          "seller": "jadlamracing",
+          "url": "https://www.ebay.co.uk/itm/397478579150",
+          "delivered": 25.95,
+          "observed_at": "2026-11-12T04:34:01+00:00"
+        },
+        {
+          "item_id": "v1|156882895267|0",
+          "seller": "juo-18",
+          "url": "https://www.ebay.co.uk/itm/156882895267",
+          "delivered": 26.38,
+          "observed_at": "2026-11-12T04:34:01+00:00"
+        },
+        {
+          "item_id": "v1|358135708610|0",
+          "seller": "mikey.d0318",
+          "url": "https://www.ebay.co.uk/itm/358135708610",
+          "delivered": 26.7,
+          "observed_at": "2026-11-12T04:34:01+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 75389:18dcf2039283",
+      "category": "lego",
+      "query": "LEGO 75389",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 75389",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "codes",
+          "dark",
+          "falcon"
+        ]
+      },
+      "first_seen": "2026-11-11T09:26:23+00:00",
+      "last_seen": "2026-11-12T04:02:28+00:00",
+      "observed_at": "2026-11-11T22:29:39+00:00",
+      "valid_until": "2026-11-12T04:29:39+00:00",
+      "competition_low": 8.99,
+      "estimated_resale": 8.72,
+      "seller_count": 2,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|237058836839|0",
+          "seller": "joe-k-99",
+          "url": "https://www.ebay.co.uk/itm/237058836839",
+          "delivered": 8.99,
+          "observed_at": "2026-11-11T22:29:39+00:00"
+        },
+        {
+          "item_id": "v1|397336297476|0",
+          "seller": "curta_64",
+          "url": "https://www.ebay.co.uk/itm/397336297476",
+          "delivered": 10.92,
+          "observed_at": "2026-11-11T22:29:39+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 43287:03e1191990c2",
+      "category": "lego",
+      "query": "LEGO 43287",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 43287",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "brunis",
+          "disney",
+          "frozen",
+          "fun",
+          "olaf",
+          "picnic"
+        ]
+      },
+      "first_seen": "2026-11-11T22:29:56+00:00",
+      "last_seen": "2026-11-12T04:02:28+00:00",
+      "observed_at": "2026-11-11T22:29:36+00:00",
+      "valid_until": "2026-11-12T04:29:36+00:00",
+      "competition_low": 34.84,
+      "estimated_resale": 33.79,
+      "seller_count": 20,
+      "low_supporting_sellers": 5,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|820200562376|0",
+          "seller": "lauvin59",
+          "url": "https://www.ebay.co.uk/itm/820200562376",
+          "delivered": 34.84,
+          "observed_at": "2026-11-11T22:29:36+00:00"
+        },
+        {
+          "item_id": "v1|940055110844|0",
+          "seller": "suitusirltd",
+          "url": "https://www.ebay.co.uk/itm/940055110844",
+          "delivered": 34.99,
+          "observed_at": "2026-11-11T22:29:36+00:00"
+        },
+        {
+          "item_id": "v1|227016746340|0",
+          "seller": "yonli_79",
+          "url": "https://www.ebay.co.uk/itm/227016746340",
+          "delivered": 35.15,
+          "observed_at": "2026-11-11T22:29:36+00:00"
+        },
+        {
+          "item_id": "v1|377077012019|0",
+          "seller": "edgeb_14",
+          "url": "https://www.ebay.co.uk/itm/377077012019",
+          "delivered": 35.99,
+          "observed_at": "2026-11-11T22:29:36+00:00"
+        },
+        {
+          "item_id": "v1|117343716485|0",
+          "seller": "gabob6523",
+          "url": "https://www.ebay.co.uk/itm/117343716485",
+          "delivered": 36.58,
+          "observed_at": "2026-11-11T22:29:36+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-12T02:42:23+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 14.45
     },
     {
       "key": "browse-asks-v5:lego:lego 40809:5a654e5d1b62",
@@ -8984,77 +9053,6 @@
       ]
     },
     {
-      "key": "browse-asks-v5:lego:lego 40813:029b4b6cc167",
-      "category": "lego",
-      "query": "LEGO 40813",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 40813",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "cat",
-          "lucky"
-        ]
-      },
-      "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-10T20:15:41+00:00",
-      "observed_at": "2026-11-10T14:17:53+00:00",
-      "valid_until": "2026-11-10T20:17:53+00:00",
-      "competition_low": 23.76,
-      "estimated_resale": 23.04,
-      "seller_count": 25,
-      "low_supporting_sellers": 4,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "effective coupon competition unknown"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|198777035526|0",
-          "seller": "rysnail",
-          "url": "https://www.ebay.co.uk/itm/198777035526",
-          "delivered": 23.76,
-          "observed_at": "2026-11-10T14:17:53+00:00"
-        },
-        {
-          "item_id": "v1|287701475626|0",
-          "seller": "vendasnackuk",
-          "url": "https://www.ebay.co.uk/itm/287701475626",
-          "delivered": 24.95,
-          "observed_at": "2026-11-10T14:17:53+00:00"
-        },
-        {
-          "item_id": "v1|358342770542|0",
-          "seller": "hmv_official_store",
-          "url": "https://www.ebay.co.uk/itm/358342770542",
-          "delivered": 24.99,
-          "observed_at": "2026-11-10T14:17:53+00:00"
-        },
-        {
-          "item_id": "v1|397478579150|0",
-          "seller": "jadlamracing",
-          "url": "https://www.ebay.co.uk/itm/397478579150",
-          "delivered": 25.95,
-          "observed_at": "2026-11-10T14:17:53+00:00"
-        },
-        {
-          "item_id": "v1|156882895267|0",
-          "seller": "juo-18",
-          "url": "https://www.ebay.co.uk/itm/156882895267",
-          "delivered": 26.38,
-          "observed_at": "2026-11-10T14:17:53+00:00"
-        }
-      ]
-    },
-    {
       "key": "browse-asks-v5:gaming:tp link ls1005g 5 port gigabit network switch ethernet splitter:4f53cda18c2b",
       "category": "gaming",
       "query": "tp link ls1005g 5 port gigabit network switch ethernet splitter",
@@ -12208,27 +12206,23 @@
     },
     {
       "kind": "active_ask",
-      "query": "LEGO 43287",
+      "query": "LEGO 40813",
       "category": "lego",
       "name_terms": [
-        "brunis",
-        "disney",
-        "frozen",
-        "fun",
-        "olaf",
-        "picnic"
+        "cat",
+        "lucky"
       ],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-11T22:29:36+00:00",
-      "date": "2026-11-11",
-      "sample_count": 20,
-      "listed_total_low": 34.84,
-      "listed_total_p25": 38.17,
-      "listed_total_median": 42.12,
-      "listed_total_p75": 46.98,
-      "listed_total_high": 63.26,
+      "observed_at": "2026-11-12T04:34:01+00:00",
+      "date": "2026-11-12",
+      "sample_count": 26,
+      "listed_total_low": 23.76,
+      "listed_total_p25": 28.25,
+      "listed_total_median": 29.81,
+      "listed_total_p75": 38.33,
+      "listed_total_high": 50.62,
       "status": "wide_spread",
       "warnings": [
         "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
@@ -12237,9 +12231,9 @@
       ],
       "offers": [
         {
-          "item_id": "v1|820200562376|0",
-          "seller": "lauvin59",
-          "image": "https://i.ebayimg.com/images/g/62kAAeSwre1qwWya/s-l225.jpg",
+          "item_id": "v1|198777035526|0",
+          "seller": "rysnail",
+          "image": "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12252,17 +12246,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/820200562376",
-          "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 478 pcs 7+ 2024 Boxed",
+          "url": "https://www.ebay.co.uk/itm/198777035526",
+          "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
           "declared_condition": "new",
-          "item_price": 31.9,
-          "shipping": 2.94,
-          "listed_total": 34.84
+          "item_price": 21.5,
+          "shipping": 2.26,
+          "listed_total": 23.76
         },
         {
-          "item_id": "v1|940055110844|0",
-          "seller": "suitusirltd",
-          "image": "https://i.ebayimg.com/images/g/fK0AAeSwhRJq5h8N/s-l225.jpg",
+          "item_id": "v1|358342770542|0",
+          "seller": "hmv_official_store",
+          "image": "https://i.ebayimg.com/images/g/gbQAAeSw9RFq7r68/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12270,45 +12264,21 @@
           "advertised_original_total": null,
           "available_coupons": false,
           "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
+            "FIXED_PRICE"
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/940055110844",
-          "title": "LEGO 43287 Disney Olaf and Bruni's Picnic Fun New and Sealed",
+          "url": "https://www.ebay.co.uk/itm/358342770542",
+          "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
           "declared_condition": "new",
-          "item_price": 34.99,
+          "item_price": 24.99,
           "shipping": 0.0,
-          "listed_total": 34.99
+          "listed_total": 24.99
         },
         {
-          "item_id": "v1|227016746340|0",
-          "seller": "yonli_79",
-          "image": "https://i.ebayimg.com/images/g/uBcAAeSwGZlq6kGy/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227016746340",
-          "title": "New!LEGO 43287 Disney Princess Olaf and Bruni's Picnic Fun",
-          "declared_condition": "new",
-          "item_price": 30.0,
-          "shipping": 5.15,
-          "listed_total": 35.15
-        },
-        {
-          "item_id": "v1|377077012019|0",
-          "seller": "edgeb_14",
-          "image": "https://i.ebayimg.com/images/g/owsAAeSwf7JpzCXS/s-l225.jpg",
+          "item_id": "v1|397478579150|0",
+          "seller": "jadlamracing",
+          "image": "https://i.ebayimg.com/images/g/lO4AAeSwM~Nq3MP7/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12320,17 +12290,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/377077012019",
-          "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
+          "url": "https://www.ebay.co.uk/itm/397478579150",
+          "title": "LEGO Iconic 40813 Lucky Cat Age 9+ 280pcs",
           "declared_condition": "new",
-          "item_price": 35.99,
+          "item_price": 25.95,
           "shipping": 0.0,
-          "listed_total": 35.99
+          "listed_total": 25.95
         },
         {
-          "item_id": "v1|117343716485|0",
-          "seller": "gabob6523",
-          "image": "https://i.ebayimg.com/images/g/tVAAAeSwcUpqdEvn/s-l225.jpg",
+          "item_id": "v1|156882895267|0",
+          "seller": "juo-18",
+          "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12338,45 +12308,43 @@
           "advertised_original_total": null,
           "available_coupons": false,
           "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
+            "FIXED_PRICE"
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/117343716485",
-          "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
+          "url": "https://www.ebay.co.uk/itm/156882895267",
+          "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
           "declared_condition": "new",
-          "item_price": 36.58,
+          "item_price": 23.0,
+          "shipping": 3.38,
+          "listed_total": 26.38
+        },
+        {
+          "item_id": "v1|358135708610|0",
+          "seller": "mikey.d0318",
+          "image": "https://i.ebayimg.com/images/g/4EsAAeSw0qFpb2Wh/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/358135708610",
+          "title": "LEGO Chinese New Year Lucky Cat - 40813 - New & Factory Sealed ",
+          "declared_condition": "new",
+          "item_price": 26.7,
           "shipping": 0.0,
-          "listed_total": 36.58
+          "listed_total": 26.7
         },
         {
-          "item_id": "v1|128188607313|0",
-          "seller": "muhada8460",
-          "image": "https://i.ebayimg.com/images/g/FBEAAeSwtiNq9F43/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/128188607313",
-          "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287) New&sealed 478pcs",
-          "declared_condition": "new",
-          "item_price": 34.99,
-          "shipping": 3.71,
-          "listed_total": 38.7
-        },
-        {
-          "item_id": "v1|198615089163|0",
-          "seller": "skunkarella",
-          "image": "https://i.ebayimg.com/images/g/lLYAAeSw0jpqmTty/s-l225.jpg",
+          "item_id": "v1|336439396495|0",
+          "seller": "rakushka04",
+          "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12388,17 +12356,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/198615089163",
-          "title": "LEGO Disney : 43287 - Frozen Olaf and Bruni\u2019s Picnic Fun - NEW",
+          "url": "https://www.ebay.co.uk/itm/336439396495",
+          "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
           "declared_condition": "new",
-          "item_price": 36.99,
-          "shipping": 2.94,
-          "listed_total": 39.93
+          "item_price": 24.88,
+          "shipping": 2.7,
+          "listed_total": 27.58
         },
         {
-          "item_id": "v1|267774196569|0",
-          "seller": "karensblueeyes",
-          "image": "https://i.ebayimg.com/images/g/B-IAAeSwy-ZqmD3b/s-l225.jpg",
+          "item_id": "v1|257344628346|0",
+          "seller": "paulreversepush",
+          "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12410,17 +12378,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267774196569",
-          "title": "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
+          "url": "https://www.ebay.co.uk/itm/257344628346",
+          "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
           "declared_condition": "new",
-          "item_price": 37.1,
-          "shipping": 2.94,
-          "listed_total": 40.04
+          "item_price": 28.0,
+          "shipping": 0.0,
+          "listed_total": 28.0
         },
         {
-          "item_id": "v1|128101340759|0",
-          "seller": "star2101",
-          "image": "https://i.ebayimg.com/images/g/~bUAAeSwMCtquQXw/s-l225.jpg",
+          "item_id": "v1|317761343050|0",
+          "seller": "phillipshobbies",
+          "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12432,17 +12400,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/128101340759",
-          "title": "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
+          "url": "https://www.ebay.co.uk/itm/317761343050",
+          "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
           "declared_condition": "new",
-          "item_price": 37.1,
-          "shipping": 3.71,
-          "listed_total": 40.81
+          "item_price": 24.99,
+          "shipping": 3.99,
+          "listed_total": 28.98
         },
         {
-          "item_id": "v1|940032300618|0",
-          "seller": "look-at-bargains",
-          "image": "https://i.ebayimg.com/images/g/94UAAeSw6o5qkZCe/s-l225.jpg",
+          "item_id": "v1|306672596685|0",
+          "seller": "toytownstores",
+          "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12450,24 +12418,45 @@
           "advertised_original_total": null,
           "available_coupons": false,
           "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
+            "FIXED_PRICE"
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/940032300618",
-          "title": "Lego 43287 Disney Olaf and Bruni's Picnic Fun new sealed quality Christmas l@@k!",
+          "url": "https://www.ebay.co.uk/itm/306672596685",
+          "title": "LEGO 40813 Lucky Cat ",
           "declared_condition": "new",
-          "item_price": 39.18,
-          "shipping": 2.94,
-          "listed_total": 42.12
+          "item_price": 25.0,
+          "shipping": 4.0,
+          "listed_total": 29.0
+        },
+        {
+          "item_id": "v1|227152597626|0",
+          "seller": "nisa1282",
+          "image": "https://i.ebayimg.com/images/g/znAAAeSwlfFovsa2/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/227152597626",
+          "title": "LEGO 40813 Lucky Cat Brand New & Sealed 2025",
+          "declared_condition": "new",
+          "item_price": 26.7,
+          "shipping": 2.7,
+          "listed_total": 29.4
         }
       ],
       "rejected": {
-        "identity_or_condition": 2
+        "identity_or_condition": 3
       },
       "query_aliases": [
-        "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C"
+        "LEGO Lucky Cat 40813"
       ]
     },
     {
@@ -14564,12 +14553,12 @@
         "ml": 100,
         "bottle_format": "not stated"
       },
-      "observed_at": "2026-11-12T03:30:26+00:00",
+      "observed_at": "2026-11-12T04:34:01+00:00",
       "date": "2026-11-12",
       "sample_count": 41,
       "listed_total_low": 19.96,
-      "listed_total_p25": 28.3,
-      "listed_total_median": 30.97,
+      "listed_total_p25": 27.95,
+      "listed_total_median": 30.85,
       "listed_total_p75": 36.92,
       "listed_total_high": 40.04,
       "status": "wide_spread",
@@ -14734,6 +14723,28 @@
           "listed_total": 27.74
         },
         {
+          "item_id": "v1|397564189068|0",
+          "seller": "directbeautystore",
+          "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "advertised_discount",
+          "advertised_original_total": 40.0,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/397564189068",
+          "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+          "declared_condition": "new",
+          "item_price": 27.74,
+          "shipping": 0.0,
+          "listed_total": 27.74
+        },
+        {
           "item_id": "v1|188748037334|0",
           "seller": "fusionbeautyuk",
           "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -14776,28 +14787,6 @@
           "item_price": 27.95,
           "shipping": 0.0,
           "listed_total": 27.95
-        },
-        {
-          "item_id": "v1|157293801335|0",
-          "seller": "fragrance_click",
-          "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "advertised_discount",
-          "advertised_original_total": 53.0,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/157293801335",
-          "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-          "declared_condition": "new",
-          "item_price": 27.95,
-          "shipping": 0.0,
-          "listed_total": 27.95
         }
       ],
       "rejected": {
@@ -14824,7 +14813,6 @@
       "query_aliases": [
         "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
         "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
-        "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
         "Hugo Boss Bottled Aftershave Lotion Splash For Men 100ml New Sealed"
       ]
     },
@@ -14875,7 +14863,7 @@
         }
       ],
       "rejected": {},
-      "canonicalized_at": "2026-11-12T04:01:22+00:00",
+      "canonicalized_at": "2026-11-12T04:33:08+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Battlefield 6 Phantom Edition XBOX Series X | Disc"
@@ -15022,7 +15010,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-12T04:01:22+00:00",
+      "canonicalized_at": "2026-11-12T04:33:08+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -15192,7 +15180,7 @@
       "rejected": {
         "identity_or_condition": 44
       },
-      "canonicalized_at": "2026-11-12T04:01:22+00:00",
+      "canonicalized_at": "2026-11-12T04:33:08+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Resident Evil Requiem (PS5)"
@@ -15210,9 +15198,9 @@
       "date": "2026-11-12",
       "sample_count": 2,
       "listed_total_low": 57.72,
-      "listed_total_p25": 61.04,
-      "listed_total_median": 64.35,
-      "listed_total_p75": 67.67,
+      "listed_total_p25": 61.037499999999994,
+      "listed_total_median": 64.35499999999999,
+      "listed_total_p75": 67.6725,
       "listed_total_high": 70.99,
       "status": "small_sample",
       "warnings": [
@@ -15240,7 +15228,8 @@
           "declared_condition": "new",
           "item_price": 55.0,
           "shipping": 2.72,
-          "listed_total": 57.72
+          "listed_total": 57.72,
+          "observed_at": "2026-11-12T04:02:09+00:00"
         },
         {
           "item_id": "v1|356152412747|0",
@@ -15262,12 +15251,15 @@
           "declared_condition": "new",
           "item_price": 68.29,
           "shipping": 2.7,
-          "listed_total": 70.99
+          "listed_total": 70.99,
+          "observed_at": "2026-11-12T04:02:09+00:00"
         }
       ],
       "rejected": {
         "identity_or_condition": 37
       },
+      "canonicalized_at": "2026-11-12T04:33:08+00:00",
+      "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Silent Hill 2 - PS5 Game - Free C&C"
       ]
@@ -15322,7 +15314,7 @@
       "rejected": {
         "identity_or_condition": 7
       },
-      "canonicalized_at": "2026-11-12T04:01:22+00:00",
+      "canonicalized_at": "2026-11-12T04:33:08+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Resident Evil Requiem Xbox Series X"
@@ -15384,7 +15376,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|133894859397|0",
-        "observed_at": "2026-11-12T04:01:22+00:00",
+        "observed_at": "2026-11-12T04:33:08+00:00",
         "status": "conflict",
         "reasons": [
           "tool model mismatch"
@@ -15690,8 +15682,8 @@
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-11T22:29:39+00:00",
-      "date": "2026-11-11",
+      "observed_at": "2026-11-12T04:34:05+00:00",
+      "date": "2026-11-12",
       "sample_count": 0,
       "listed_total_low": null,
       "listed_total_p25": null,
@@ -15722,7 +15714,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-12T04:02:41+00:00",
+  "generated_utc": "2026-11-12T04:34:30+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
@@ -15741,8 +15733,8 @@
       "item_price": 14.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/150x150/qt/55/5026720_1.jpg",
@@ -16462,8 +16454,8 @@
       "item_price": 14.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg",
@@ -17185,8 +17177,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/150x150/qt/55/5028262_1.jpg",
@@ -17910,8 +17902,8 @@
       "item_price": 17.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KxsvR/5030302_1/re/300x300/qt/55/5030302_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KxsvR/5030302_1/re/300x300/qt/55/5030302_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KxsvR/5030302_1/re/150x150/qt/55/5030302_1.jpg"
@@ -18620,32 +18612,34 @@
       }
     },
     {
-      "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
-      "policy_key": "dfcbb252b205a7bdce39f337",
+      "title": "LEGO Lucky Cat 40813",
+      "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
+      "policy_key": "1fd192dffdb1b099a4aaea2f",
       "category": "lego",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 27.0,
+      "merchant": "Amazon",
+      "item_price": 21.5,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/150x150/qt/55/5030247_1.jpg"
+        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg",
+        "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/5wEAAeSwmjtq6cHb/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
       "landed_cost": null,
-      "breakeven_sell": 39.25,
-      "sell_for_minimum_profit": 52.18,
+      "breakeven_sell": 32.66,
+      "sell_for_minimum_profit": 42.96,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -18653,32 +18647,28 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-11T22:29:35+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Frozen+Olaf+and+Bruni%27s+Picnic+Fun+43287&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-07T14:19:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "LEGO 43287",
+        "query": "LEGO 40813",
         "category": "lego",
         "name_terms": [
-          "brunis",
-          "disney",
-          "frozen",
-          "fun",
-          "olaf",
-          "picnic"
+          "cat",
+          "lucky"
         ],
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-11T22:29:36+00:00",
-        "date": "2026-11-11",
-        "sample_count": 20,
-        "listed_total_low": 34.84,
-        "listed_total_p25": 38.17,
-        "listed_total_median": 42.12,
-        "listed_total_p75": 46.98,
-        "listed_total_high": 63.26,
+        "observed_at": "2026-11-12T04:34:01+00:00",
+        "date": "2026-11-12",
+        "sample_count": 26,
+        "listed_total_low": 23.76,
+        "listed_total_p25": 28.25,
+        "listed_total_median": 29.81,
+        "listed_total_p75": 38.33,
+        "listed_total_high": 50.62,
         "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
@@ -18687,9 +18677,9 @@
         ],
         "offers": [
           {
-            "item_id": "v1|820200562376|0",
-            "seller": "lauvin59",
-            "image": "https://i.ebayimg.com/images/g/62kAAeSwre1qwWya/s-l225.jpg",
+            "item_id": "v1|198777035526|0",
+            "seller": "rysnail",
+            "image": "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18702,17 +18692,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820200562376",
-            "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 478 pcs 7+ 2024 Boxed",
+            "url": "https://www.ebay.co.uk/itm/198777035526",
+            "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
             "declared_condition": "new",
-            "item_price": 31.9,
-            "shipping": 2.94,
-            "listed_total": 34.84
+            "item_price": 21.5,
+            "shipping": 2.26,
+            "listed_total": 23.76
           },
           {
-            "item_id": "v1|940055110844|0",
-            "seller": "suitusirltd",
-            "image": "https://i.ebayimg.com/images/g/fK0AAeSwhRJq5h8N/s-l225.jpg",
+            "item_id": "v1|358342770542|0",
+            "seller": "hmv_official_store",
+            "image": "https://i.ebayimg.com/images/g/gbQAAeSw9RFq7r68/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18720,45 +18710,21 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940055110844",
-            "title": "LEGO 43287 Disney Olaf and Bruni's Picnic Fun New and Sealed",
+            "url": "https://www.ebay.co.uk/itm/358342770542",
+            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
             "declared_condition": "new",
-            "item_price": 34.99,
+            "item_price": 24.99,
             "shipping": 0.0,
-            "listed_total": 34.99
+            "listed_total": 24.99
           },
           {
-            "item_id": "v1|227016746340|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/uBcAAeSwGZlq6kGy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227016746340",
-            "title": "New!LEGO 43287 Disney Princess Olaf and Bruni's Picnic Fun",
-            "declared_condition": "new",
-            "item_price": 30.0,
-            "shipping": 5.15,
-            "listed_total": 35.15
-          },
-          {
-            "item_id": "v1|377077012019|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/owsAAeSwf7JpzCXS/s-l225.jpg",
+            "item_id": "v1|397478579150|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/lO4AAeSwM~Nq3MP7/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18770,17 +18736,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377077012019",
-            "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
+            "url": "https://www.ebay.co.uk/itm/397478579150",
+            "title": "LEGO Iconic 40813 Lucky Cat Age 9+ 280pcs",
             "declared_condition": "new",
-            "item_price": 35.99,
+            "item_price": 25.95,
             "shipping": 0.0,
-            "listed_total": 35.99
+            "listed_total": 25.95
           },
           {
-            "item_id": "v1|117343716485|0",
-            "seller": "gabob6523",
-            "image": "https://i.ebayimg.com/images/g/tVAAAeSwcUpqdEvn/s-l225.jpg",
+            "item_id": "v1|156882895267|0",
+            "seller": "juo-18",
+            "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18788,45 +18754,43 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/117343716485",
-            "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
+            "url": "https://www.ebay.co.uk/itm/156882895267",
+            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
             "declared_condition": "new",
-            "item_price": 36.58,
+            "item_price": 23.0,
+            "shipping": 3.38,
+            "listed_total": 26.38
+          },
+          {
+            "item_id": "v1|358135708610|0",
+            "seller": "mikey.d0318",
+            "image": "https://i.ebayimg.com/images/g/4EsAAeSw0qFpb2Wh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358135708610",
+            "title": "LEGO Chinese New Year Lucky Cat - 40813 - New & Factory Sealed ",
+            "declared_condition": "new",
+            "item_price": 26.7,
             "shipping": 0.0,
-            "listed_total": 36.58
+            "listed_total": 26.7
           },
           {
-            "item_id": "v1|128188607313|0",
-            "seller": "muhada8460",
-            "image": "https://i.ebayimg.com/images/g/FBEAAeSwtiNq9F43/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128188607313",
-            "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287) New&sealed 478pcs",
-            "declared_condition": "new",
-            "item_price": 34.99,
-            "shipping": 3.71,
-            "listed_total": 38.7
-          },
-          {
-            "item_id": "v1|198615089163|0",
-            "seller": "skunkarella",
-            "image": "https://i.ebayimg.com/images/g/lLYAAeSw0jpqmTty/s-l225.jpg",
+            "item_id": "v1|336439396495|0",
+            "seller": "rakushka04",
+            "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18838,17 +18802,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198615089163",
-            "title": "LEGO Disney : 43287 - Frozen Olaf and Bruni\u2019s Picnic Fun - NEW",
+            "url": "https://www.ebay.co.uk/itm/336439396495",
+            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
             "declared_condition": "new",
-            "item_price": 36.99,
-            "shipping": 2.94,
-            "listed_total": 39.93
+            "item_price": 24.88,
+            "shipping": 2.7,
+            "listed_total": 27.58
           },
           {
-            "item_id": "v1|267774196569|0",
-            "seller": "karensblueeyes",
-            "image": "https://i.ebayimg.com/images/g/B-IAAeSwy-ZqmD3b/s-l225.jpg",
+            "item_id": "v1|257344628346|0",
+            "seller": "paulreversepush",
+            "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18860,17 +18824,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267774196569",
-            "title": "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
+            "url": "https://www.ebay.co.uk/itm/257344628346",
+            "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
             "declared_condition": "new",
-            "item_price": 37.1,
-            "shipping": 2.94,
-            "listed_total": 40.04
+            "item_price": 28.0,
+            "shipping": 0.0,
+            "listed_total": 28.0
           },
           {
-            "item_id": "v1|128101340759|0",
-            "seller": "star2101",
-            "image": "https://i.ebayimg.com/images/g/~bUAAeSwMCtquQXw/s-l225.jpg",
+            "item_id": "v1|317761343050|0",
+            "seller": "phillipshobbies",
+            "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18882,17 +18846,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128101340759",
-            "title": "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
+            "url": "https://www.ebay.co.uk/itm/317761343050",
+            "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
             "declared_condition": "new",
-            "item_price": 37.1,
-            "shipping": 3.71,
-            "listed_total": 40.81
+            "item_price": 24.99,
+            "shipping": 3.99,
+            "listed_total": 28.98
           },
           {
-            "item_id": "v1|940032300618|0",
-            "seller": "look-at-bargains",
-            "image": "https://i.ebayimg.com/images/g/94UAAeSw6o5qkZCe/s-l225.jpg",
+            "item_id": "v1|306672596685|0",
+            "seller": "toytownstores",
+            "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -18900,24 +18864,45 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940032300618",
-            "title": "Lego 43287 Disney Olaf and Bruni's Picnic Fun new sealed quality Christmas l@@k!",
+            "url": "https://www.ebay.co.uk/itm/306672596685",
+            "title": "LEGO 40813 Lucky Cat ",
             "declared_condition": "new",
-            "item_price": 39.18,
-            "shipping": 2.94,
-            "listed_total": 42.12
+            "item_price": 25.0,
+            "shipping": 4.0,
+            "listed_total": 29.0
+          },
+          {
+            "item_id": "v1|227152597626|0",
+            "seller": "nisa1282",
+            "image": "https://i.ebayimg.com/images/g/znAAAeSwlfFovsa2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227152597626",
+            "title": "LEGO 40813 Lucky Cat Brand New & Sealed 2025",
+            "declared_condition": "new",
+            "item_price": 26.7,
+            "shipping": 2.7,
+            "listed_total": 29.4
           }
         ],
         "rejected": {
-          "identity_or_condition": 2
+          "identity_or_condition": 3
         },
         "query_aliases": [
-          "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C"
+          "LEGO Lucky Cat 40813"
         ]
       },
       "ask_estimate": {
@@ -18926,25 +18911,25 @@
         "detail_status": "not_required",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 43287",
-        "observed_at": "2026-11-11T22:29:36+00:00",
+        "query": "LEGO 40813",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 20,
-        "seller_count": 20,
+        "sample_count": 26,
+        "seller_count": 26,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 5,
+        "low_price_supporting_sellers": 3,
         "confidence": "limited",
         "wide_spread": true,
-        "competition_low": 34.84,
-        "competition_high": 63.26,
-        "estimated_resale": 33.79,
+        "competition_low": 23.76,
+        "competition_high": 50.62,
+        "estimated_resale": 23.04,
         "estimated_range": [
-          31.35,
-          34.84
+          21.38,
+          23.76
         ],
-        "suggested_listing": 34.83,
-        "quick_sale_model": 31.35,
+        "suggested_listing": 23.75,
+        "quick_sale_model": 21.38,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
@@ -18955,19 +18940,19 @@
         "same_promotion_references_excluded": 0,
         "acquisition_excluded": 0,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 27.0,
+        "item_price": 21.5,
         "delivery_known": false,
         "landed_cost": null,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": -4.55,
-        "max_landed_buy": 14.45,
+        "net_before_unknown_delivery": -8.03,
+        "max_landed_buy": 5.47,
         "max_item_buy": null,
-        "delivery_headroom": -12.55,
-        "fees": 5.04,
+        "delivery_headroom": -16.03,
+        "fees": 3.59,
         "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 1.01,
+        "returns_allowance": 0.69,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": false,
@@ -18983,12 +18968,12 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 30.41,
+        "review_stress_sale": 20.73,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 12.45,
+        "review_max_landed_buy": 3.47,
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
           "Inbound delivery unknown; profit is only an upper bound",
@@ -18998,9 +18983,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|820200562376|0",
-            "seller": "lauvin59",
-            "image": "https://i.ebayimg.com/images/g/62kAAeSwre1qwWya/s-l225.jpg",
+            "item_id": "v1|198777035526|0",
+            "seller": "rysnail",
+            "image": "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19013,18 +18998,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820200562376",
-            "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 478 pcs 7+ 2024 Boxed",
+            "url": "https://www.ebay.co.uk/itm/198777035526",
+            "title": "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
             "declared_condition": "new",
-            "item_price": 31.9,
-            "shipping": 2.94,
-            "listed_total": 34.84,
+            "item_price": 21.5,
+            "shipping": 2.26,
+            "listed_total": 23.76,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|940055110844|0",
-            "seller": "suitusirltd",
-            "image": "https://i.ebayimg.com/images/g/fK0AAeSwhRJq5h8N/s-l225.jpg",
+            "item_id": "v1|358342770542|0",
+            "seller": "hmv_official_store",
+            "image": "https://i.ebayimg.com/images/g/gbQAAeSw9RFq7r68/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19032,47 +19017,22 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940055110844",
-            "title": "LEGO 43287 Disney Olaf and Bruni's Picnic Fun New and Sealed",
+            "url": "https://www.ebay.co.uk/itm/358342770542",
+            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
             "declared_condition": "new",
-            "item_price": 34.99,
+            "item_price": 24.99,
             "shipping": 0.0,
-            "listed_total": 34.99,
+            "listed_total": 24.99,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|227016746340|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/uBcAAeSwGZlq6kGy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227016746340",
-            "title": "New!LEGO 43287 Disney Princess Olaf and Bruni's Picnic Fun",
-            "declared_condition": "new",
-            "item_price": 30.0,
-            "shipping": 5.15,
-            "listed_total": 35.15,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377077012019|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/owsAAeSwf7JpzCXS/s-l225.jpg",
+            "item_id": "v1|397478579150|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/lO4AAeSwM~Nq3MP7/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19084,18 +19044,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377077012019",
-            "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
+            "url": "https://www.ebay.co.uk/itm/397478579150",
+            "title": "LEGO Iconic 40813 Lucky Cat Age 9+ 280pcs",
             "declared_condition": "new",
-            "item_price": 35.99,
+            "item_price": 25.95,
             "shipping": 0.0,
-            "listed_total": 35.99,
+            "listed_total": 25.95,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|117343716485|0",
-            "seller": "gabob6523",
-            "image": "https://i.ebayimg.com/images/g/tVAAAeSwcUpqdEvn/s-l225.jpg",
+            "item_id": "v1|156882895267|0",
+            "seller": "juo-18",
+            "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19103,47 +19063,45 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/117343716485",
-            "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
+            "url": "https://www.ebay.co.uk/itm/156882895267",
+            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
             "declared_condition": "new",
-            "item_price": 36.58,
+            "item_price": 23.0,
+            "shipping": 3.38,
+            "listed_total": 26.38,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|358135708610|0",
+            "seller": "mikey.d0318",
+            "image": "https://i.ebayimg.com/images/g/4EsAAeSw0qFpb2Wh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358135708610",
+            "title": "LEGO Chinese New Year Lucky Cat - 40813 - New & Factory Sealed ",
+            "declared_condition": "new",
+            "item_price": 26.7,
             "shipping": 0.0,
-            "listed_total": 36.58,
+            "listed_total": 26.7,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|128188607313|0",
-            "seller": "muhada8460",
-            "image": "https://i.ebayimg.com/images/g/FBEAAeSwtiNq9F43/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128188607313",
-            "title": "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287) New&sealed 478pcs",
-            "declared_condition": "new",
-            "item_price": 34.99,
-            "shipping": 3.71,
-            "listed_total": 38.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|198615089163|0",
-            "seller": "skunkarella",
-            "image": "https://i.ebayimg.com/images/g/lLYAAeSw0jpqmTty/s-l225.jpg",
+            "item_id": "v1|336439396495|0",
+            "seller": "rakushka04",
+            "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19155,18 +19113,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198615089163",
-            "title": "LEGO Disney : 43287 - Frozen Olaf and Bruni\u2019s Picnic Fun - NEW",
+            "url": "https://www.ebay.co.uk/itm/336439396495",
+            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
             "declared_condition": "new",
-            "item_price": 36.99,
-            "shipping": 2.94,
-            "listed_total": 39.93,
+            "item_price": 24.88,
+            "shipping": 2.7,
+            "listed_total": 27.58,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|267774196569|0",
-            "seller": "karensblueeyes",
-            "image": "https://i.ebayimg.com/images/g/B-IAAeSwy-ZqmD3b/s-l225.jpg",
+            "item_id": "v1|257344628346|0",
+            "seller": "paulreversepush",
+            "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19178,18 +19136,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267774196569",
-            "title": "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
+            "url": "https://www.ebay.co.uk/itm/257344628346",
+            "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
             "declared_condition": "new",
-            "item_price": 37.1,
-            "shipping": 2.94,
-            "listed_total": 40.04,
+            "item_price": 28.0,
+            "shipping": 0.0,
+            "listed_total": 28.0,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|128101340759|0",
-            "seller": "star2101",
-            "image": "https://i.ebayimg.com/images/g/~bUAAeSwMCtquQXw/s-l225.jpg",
+            "item_id": "v1|317761343050|0",
+            "seller": "phillipshobbies",
+            "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19201,18 +19159,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128101340759",
-            "title": "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
+            "url": "https://www.ebay.co.uk/itm/317761343050",
+            "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
             "declared_condition": "new",
-            "item_price": 37.1,
-            "shipping": 3.71,
-            "listed_total": 40.81,
+            "item_price": 24.99,
+            "shipping": 3.99,
+            "listed_total": 28.98,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|940032300618|0",
-            "seller": "look-at-bargains",
-            "image": "https://i.ebayimg.com/images/g/94UAAeSw6o5qkZCe/s-l225.jpg",
+            "item_id": "v1|306672596685|0",
+            "seller": "toytownstores",
+            "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19220,121 +19178,143 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940032300618",
-            "title": "Lego 43287 Disney Olaf and Bruni's Picnic Fun new sealed quality Christmas l@@k!",
+            "url": "https://www.ebay.co.uk/itm/306672596685",
+            "title": "LEGO 40813 Lucky Cat ",
             "declared_condition": "new",
-            "item_price": 39.18,
-            "shipping": 2.94,
-            "listed_total": 42.12,
+            "item_price": 25.0,
+            "shipping": 4.0,
+            "listed_total": 29.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227152597626|0",
+            "seller": "nisa1282",
+            "image": "https://i.ebayimg.com/images/g/znAAAeSwlfFovsa2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227152597626",
+            "title": "LEGO 40813 Lucky Cat Brand New & Sealed 2025",
+            "declared_condition": "new",
+            "item_price": 26.7,
+            "shipping": 2.7,
+            "listed_total": 29.4,
             "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
         "ok": true,
-        "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C",
-        "query": "LEGO 43287",
+        "title": "LEGO Lucky Cat 40813",
+        "query": "LEGO 40813",
         "kind": "active_ask",
-        "listing": 34.83,
-        "observed_at": "2026-11-11T22:29:36+00:00",
-        "valid_until": "2026-11-12T04:29:36+00:00",
+        "listing": 23.75,
+        "observed_at": "2026-11-12T04:34:01+00:00",
+        "valid_until": "2026-11-12T10:34:01+00:00",
         "sources": [
-          "https://www.ebay.co.uk/itm/820200562376",
-          "https://www.ebay.co.uk/itm/940055110844",
-          "https://www.ebay.co.uk/itm/227016746340",
-          "https://www.ebay.co.uk/itm/377077012019",
-          "https://www.ebay.co.uk/itm/117343716485",
-          "https://www.ebay.co.uk/itm/128188607313",
-          "https://www.ebay.co.uk/itm/198615089163",
-          "https://www.ebay.co.uk/itm/267774196569",
-          "https://www.ebay.co.uk/itm/128101340759",
-          "https://www.ebay.co.uk/itm/940032300618"
+          "https://www.ebay.co.uk/itm/198777035526",
+          "https://www.ebay.co.uk/itm/358342770542",
+          "https://www.ebay.co.uk/itm/397478579150",
+          "https://www.ebay.co.uk/itm/156882895267",
+          "https://www.ebay.co.uk/itm/358135708610",
+          "https://www.ebay.co.uk/itm/336439396495",
+          "https://www.ebay.co.uk/itm/257344628346",
+          "https://www.ebay.co.uk/itm/317761343050",
+          "https://www.ebay.co.uk/itm/306672596685",
+          "https://www.ebay.co.uk/itm/227152597626"
         ],
         "comparators": [
           [
-            "https://www.ebay.co.uk/itm/820200562376",
-            "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 478 pcs 7+ 2024 Boxed",
-            34.84,
-            2.94,
-            31.9,
-            "lauvin59"
+            "https://www.ebay.co.uk/itm/198777035526",
+            "LEGO 40813 Lucky Cat Seasonal Set 280pcs Age 9+ Brick Separator",
+            23.76,
+            2.26,
+            21.5,
+            "rysnail"
           ],
           [
-            "https://www.ebay.co.uk/itm/940055110844",
-            "LEGO 43287 Disney Olaf and Bruni's Picnic Fun New and Sealed",
-            34.99,
+            "https://www.ebay.co.uk/itm/358342770542",
+            "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home D\u00e9cor Building Toy",
+            24.99,
             0.0,
-            34.99,
-            "suitusirltd"
+            24.99,
+            "hmv_official_store"
           ],
           [
-            "https://www.ebay.co.uk/itm/227016746340",
-            "New!LEGO 43287 Disney Princess Olaf and Bruni's Picnic Fun",
-            35.15,
-            5.15,
-            30.0,
-            "yonli_79"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377077012019",
-            "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
-            35.99,
+            "https://www.ebay.co.uk/itm/397478579150",
+            "LEGO Iconic 40813 Lucky Cat Age 9+ 280pcs",
+            25.95,
             0.0,
-            35.99,
-            "edgeb_14"
+            25.95,
+            "jadlamracing"
           ],
           [
-            "https://www.ebay.co.uk/itm/117343716485",
-            "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287)7+ New&sealed 478pcs",
-            36.58,
+            "https://www.ebay.co.uk/itm/156882895267",
+            "Lego 40813 Lucky Cat NEW & SEALED 2025",
+            26.38,
+            3.38,
+            23.0,
+            "juo-18"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/358135708610",
+            "LEGO Chinese New Year Lucky Cat - 40813 - New & Factory Sealed ",
+            26.7,
             0.0,
-            36.58,
-            "gabob6523"
+            26.7,
+            "mikey.d0318"
           ],
           [
-            "https://www.ebay.co.uk/itm/128188607313",
-            "LEGO Disney : Frozen Olaf and Bruni\u2019s Picnic Fun (43287) New&sealed 478pcs",
-            38.7,
-            3.71,
-            34.99,
-            "muhada8460"
+            "https://www.ebay.co.uk/itm/336439396495",
+            "Lego 40813 Lucky Cat NEW & SEALED 2025",
+            27.58,
+            2.7,
+            24.88,
+            "rakushka04"
           ],
           [
-            "https://www.ebay.co.uk/itm/198615089163",
-            "LEGO Disney : 43287 - Frozen Olaf and Bruni\u2019s Picnic Fun - NEW",
-            39.93,
-            2.94,
-            36.99,
-            "skunkarella"
+            "https://www.ebay.co.uk/itm/257344628346",
+            "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
+            28.0,
+            0.0,
+            28.0,
+            "paulreversepush"
           ],
           [
-            "https://www.ebay.co.uk/itm/267774196569",
-            "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
-            40.04,
-            2.94,
-            37.1,
-            "karensblueeyes"
+            "https://www.ebay.co.uk/itm/317761343050",
+            "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
+            28.98,
+            3.99,
+            24.99,
+            "phillipshobbies"
           ],
           [
-            "https://www.ebay.co.uk/itm/128101340759",
-            "Lego Disney 43287 Olaf And Bruni\u2019s Picnic Fun 478 Pieces Brand New Sealed",
-            40.81,
-            3.71,
-            37.1,
-            "star2101"
+            "https://www.ebay.co.uk/itm/306672596685",
+            "LEGO 40813 Lucky Cat ",
+            29.0,
+            4.0,
+            25.0,
+            "toytownstores"
           ],
           [
-            "https://www.ebay.co.uk/itm/940032300618",
-            "Lego 43287 Disney Olaf and Bruni's Picnic Fun new sealed quality Christmas l@@k!",
-            42.12,
-            2.94,
-            39.18,
-            "look-at-bargains"
+            "https://www.ebay.co.uk/itm/227152597626",
+            "LEGO 40813 Lucky Cat Brand New & Sealed 2025",
+            29.4,
+            2.7,
+            26.7,
+            "nisa1282"
           ]
         ],
         "category": "lego"
@@ -19355,8 +19335,8 @@
       "item_price": 36.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/150x150/qt/55/5027982_1.jpg",
@@ -20073,8 +20053,8 @@
       "item_price": 42.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/150x150/qt/55/5028115_1.jpg",
@@ -20788,8 +20768,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/300x300/qt/55/5030245_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/300x300/qt/55/5030245_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/150x150/qt/55/5030245_1.jpg"
@@ -21512,8 +21492,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/150x150/qt/55/5030278_1.jpg"
@@ -22195,8 +22175,8 @@
       "item_price": 65.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/300x300/qt/55/5029047_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mdaSo/5029047_1/re/150x150/qt/55/5029047_1.jpg"
@@ -22913,8 +22893,8 @@
       "item_price": 93.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/300x300/qt/55/5029208_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zjYQJ/5029208_1/re/150x150/qt/55/5029208_1.jpg"
@@ -23630,8 +23610,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/300x300/qt/55/5029042_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xypl6/5029042_1/re/150x150/qt/55/5029042_1.jpg"
@@ -24245,8 +24225,8 @@
       "item_price": 120.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/300x300/qt/55/5029427_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dR0SF/5029427_1/re/150x150/qt/55/5029427_1.jpg"
@@ -24928,12 +24908,12 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "date": "2026-11-12",
         "sample_count": 41,
         "listed_total_low": 19.96,
-        "listed_total_p25": 28.3,
-        "listed_total_median": 30.97,
+        "listed_total_p25": 27.95,
+        "listed_total_median": 30.85,
         "listed_total_p75": 36.92,
         "listed_total_high": 40.04,
         "status": "wide_spread",
@@ -25098,6 +25078,28 @@
             "listed_total": 27.74
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74
+          },
+          {
             "item_id": "v1|188748037334|0",
             "seller": "fusionbeautyuk",
             "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -25140,28 +25142,6 @@
             "item_price": 27.95,
             "shipping": 0.0,
             "listed_total": 27.95
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 27.95,
-            "shipping": 0.0,
-            "listed_total": 27.95
           }
         ],
         "rejected": {
@@ -25188,7 +25168,6 @@
         "query_aliases": [
           "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
           "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
-          "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
           "Hugo Boss Bottled Aftershave Lotion Splash For Men 100ml New Sealed"
         ]
       },
@@ -25199,7 +25178,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled aftershave lotion 100ml",
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 39,
@@ -25221,7 +25200,7 @@
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": [
-          34.5,
+          40.0,
           53.0
         ],
         "discount_overlap": true,
@@ -25415,6 +25394,29 @@
             "same_acquisition_promotion": false
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74,
+            "same_acquisition_promotion": false
+          },
+          {
             "item_id": "v1|188748037334|0",
             "seller": "fusionbeautyuk",
             "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -25481,29 +25483,6 @@
             "item_price": 27.95,
             "shipping": 0.0,
             "listed_total": 27.95,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|307236609123|0",
-            "seller": "pickkaroo",
-            "image": "https://i.ebayimg.com/images/g/DxQAAeSwkF5q0-ZC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307236609123",
-            "title": "Hugo Boss Boss Bottled After Shave Lotion, 100ml \u2013 Men\u2019s Skin Care",
-            "declared_condition": "new",
-            "item_price": 27.3,
-            "shipping": 1.0,
-            "listed_total": 28.3,
             "same_acquisition_promotion": false
           }
         ],
@@ -25617,12 +25596,12 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "date": "2026-11-12",
         "sample_count": 41,
         "listed_total_low": 19.96,
-        "listed_total_p25": 28.3,
-        "listed_total_median": 30.97,
+        "listed_total_p25": 27.95,
+        "listed_total_median": 30.85,
         "listed_total_p75": 36.92,
         "listed_total_high": 40.04,
         "status": "wide_spread",
@@ -25787,6 +25766,28 @@
             "listed_total": 27.74
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74
+          },
+          {
             "item_id": "v1|188748037334|0",
             "seller": "fusionbeautyuk",
             "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -25829,28 +25830,6 @@
             "item_price": 27.95,
             "shipping": 0.0,
             "listed_total": 27.95
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 27.95,
-            "shipping": 0.0,
-            "listed_total": 27.95
           }
         ],
         "rejected": {
@@ -25877,7 +25856,6 @@
         "query_aliases": [
           "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
           "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
-          "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
           "Hugo Boss Bottled Aftershave Lotion Splash For Men 100ml New Sealed"
         ]
       },
@@ -25888,7 +25866,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled aftershave lotion 100ml",
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 39,
@@ -25910,7 +25888,7 @@
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": [
-          34.5,
+          40.0,
           53.0
         ],
         "discount_overlap": true,
@@ -26127,6 +26105,29 @@
             "same_acquisition_promotion": false
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74,
+            "same_acquisition_promotion": false
+          },
+          {
             "item_id": "v1|147321120189|0",
             "seller": "warrensgoodies11",
             "image": "https://i.ebayimg.com/images/g/-XIAAeSw5spqDhVe/s-l225.jpg",
@@ -26171,29 +26172,6 @@
             "shipping": 0.0,
             "listed_total": 27.95,
             "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|307236609123|0",
-            "seller": "pickkaroo",
-            "image": "https://i.ebayimg.com/images/g/DxQAAeSwkF5q0-ZC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307236609123",
-            "title": "Hugo Boss Boss Bottled After Shave Lotion, 100ml \u2013 Men\u2019s Skin Care",
-            "declared_condition": "new",
-            "item_price": 27.3,
-            "shipping": 1.0,
-            "listed_total": 28.3,
-            "same_acquisition_promotion": false
           }
         ],
         "transport_scenario": {
@@ -26234,9 +26212,9 @@
       }
     },
     {
-      "title": "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
-      "url": "https://www.ebay.co.uk/itm/147321120189",
-      "policy_key": "a584f6e627090f24d302f7f1",
+      "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+      "url": "https://www.ebay.co.uk/itm/397564189068",
+      "policy_key": "93fe1299be5857de258521ce",
       "category": "fragrance",
       "source": "ebay_browse",
       "price_basis": null,
@@ -26245,18 +26223,18 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "eBay",
-      "item_price": 27.95,
+      "item_price": 27.74,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/-XIAAeSw5spqDhVe/s-l225.jpg",
+      "thumb": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
       "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/147321120189",
-      "landed_cost": 27.95,
-      "breakeven_sell": 39.13,
-      "sell_for_minimum_profit": 52.53,
+      "image_source_url": "https://www.ebay.co.uk/itm/397564189068",
+      "landed_cost": 27.74,
+      "breakeven_sell": 38.89,
+      "sell_for_minimum_profit": 52.18,
       "transport_scenario": {
         "profile": {
           "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
@@ -26276,13 +26254,13 @@
           "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval. Non-flammable lotions are excluded from perfume restrictions; do NOT assume this lotion is non-flammable without product evidence."
         },
         "status": "conditional_tariff_scenario",
-        "breakeven": 39.13,
-        "required_resale": 52.53,
+        "breakeven": 38.89,
+        "required_resale": 52.18,
         "net": null,
         "roi": null,
         "net_before_unknown_delivery": null,
         "inbound_known": true,
-        "cost": 27.95,
+        "cost": 27.74,
         "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs"
       },
       "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval. Non-flammable lotions are excluded from perfume restrictions; do NOT assume this lotion is non-flammable without product evidence.",
@@ -26291,8 +26269,8 @@
         "No exact reviewed sold observations"
       ],
       "priority": 5,
-      "first_seen": "2026-11-08T05:59:39+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Hugo+Boss+Bottled+100ml+Aftershave+Lotion+Men%E2%80%99s+Fragrance+New%21&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-07T21:02:32+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HUGO+BOSS+BOTTLED+FOR+MEN+100ML+AFTERSHAVE+LOTION+SPLASH&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
@@ -26306,12 +26284,12 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "date": "2026-11-12",
         "sample_count": 41,
         "listed_total_low": 19.96,
-        "listed_total_p25": 28.3,
-        "listed_total_median": 30.97,
+        "listed_total_p25": 27.95,
+        "listed_total_median": 30.85,
         "listed_total_p75": 36.92,
         "listed_total_high": 40.04,
         "status": "wide_spread",
@@ -26476,6 +26454,28 @@
             "listed_total": 27.74
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74
+          },
+          {
             "item_id": "v1|188748037334|0",
             "seller": "fusionbeautyuk",
             "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -26518,28 +26518,6 @@
             "item_price": 27.95,
             "shipping": 0.0,
             "listed_total": 27.95
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 27.95,
-            "shipping": 0.0,
-            "listed_total": 27.95
           }
         ],
         "rejected": {
@@ -26566,7 +26544,6 @@
         "query_aliases": [
           "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
           "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
-          "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
           "Hugo Boss Bottled Aftershave Lotion Splash For Men 100ml New Sealed"
         ]
       },
@@ -26577,7 +26554,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled aftershave lotion 100ml",
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 39,
@@ -26599,18 +26576,18 @@
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": [
-          34.5,
+          40.0,
           53.0
         ],
         "discount_overlap": true,
         "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 3,
+        "advertised_discount_competitors": 2,
         "same_promotion_references_excluded": 0,
         "acquisition_excluded": 1,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 27.95,
+        "item_price": 27.74,
         "delivery_known": true,
-        "landed_cost": 27.95,
+        "landed_cost": 27.74,
         "net": null,
         "roi": null,
         "net_before_unknown_delivery": null,
@@ -26839,6 +26816,29 @@
             "same_acquisition_promotion": false
           },
           {
+            "item_id": "v1|147321120189|0",
+            "seller": "warrensgoodies11",
+            "image": "https://i.ebayimg.com/images/g/-XIAAeSw5spqDhVe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147321120189",
+            "title": "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
+            "declared_condition": "new",
+            "item_price": 27.95,
+            "shipping": 0.0,
+            "listed_total": 27.95,
+            "same_acquisition_promotion": false
+          },
+          {
             "item_id": "v1|157293801335|0",
             "seller": "fragrance_click",
             "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
@@ -26859,29 +26859,6 @@
             "item_price": 27.95,
             "shipping": 0.0,
             "listed_total": 27.95,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|307236609123|0",
-            "seller": "pickkaroo",
-            "image": "https://i.ebayimg.com/images/g/DxQAAeSwkF5q0-ZC/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307236609123",
-            "title": "Hugo Boss Boss Bottled After Shave Lotion, 100ml \u2013 Men\u2019s Skin Care",
-            "declared_condition": "new",
-            "item_price": 27.3,
-            "shipping": 1.0,
-            "listed_total": 28.3,
             "same_acquisition_promotion": false
           }
         ],
@@ -26904,13 +26881,13 @@
             "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval. Non-flammable lotions are excluded from perfume restrictions; do NOT assume this lotion is non-flammable without product evidence."
           },
           "status": "conditional_tariff_scenario",
-          "breakeven": 39.13,
-          "required_resale": 52.53,
-          "net": -16.51,
-          "roi": -59.1,
+          "breakeven": 38.89,
+          "required_resale": 52.18,
+          "net": -16.3,
+          "roi": -58.8,
           "net_before_unknown_delivery": null,
           "inbound_known": true,
-          "cost": 27.95,
+          "cost": 27.74,
           "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs",
           "fees": 3.09,
           "returns": 0.58
@@ -27003,7 +26980,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-12T04:01:22+00:00",
+        "canonicalized_at": "2026-11-12T04:33:08+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Battlefield 6 Phantom Edition XBOX Series X | Disc"
@@ -27293,7 +27270,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-12T04:01:22+00:00",
+        "canonicalized_at": "2026-11-12T04:33:08+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -27632,12 +27609,12 @@
           "ml": 100,
           "bottle_format": "not stated"
         },
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "date": "2026-11-12",
         "sample_count": 41,
         "listed_total_low": 19.96,
-        "listed_total_p25": 28.3,
-        "listed_total_median": 30.97,
+        "listed_total_p25": 27.95,
+        "listed_total_median": 30.85,
         "listed_total_p75": 36.92,
         "listed_total_high": 40.04,
         "status": "wide_spread",
@@ -27802,6 +27779,28 @@
             "listed_total": 27.74
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74
+          },
+          {
             "item_id": "v1|188748037334|0",
             "seller": "fusionbeautyuk",
             "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -27844,28 +27843,6 @@
             "item_price": 27.95,
             "shipping": 0.0,
             "listed_total": 27.95
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
-            "declared_condition": "new",
-            "item_price": 27.95,
-            "shipping": 0.0,
-            "listed_total": 27.95
           }
         ],
         "rejected": {
@@ -27892,7 +27869,6 @@
         "query_aliases": [
           "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
           "Hugo Boss Boss Bottled 100ml Aftershave Lotion",
-          "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
           "Hugo Boss Bottled Aftershave Lotion Splash For Men 100ml New Sealed"
         ]
       },
@@ -27903,7 +27879,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "boss bottled aftershave lotion 100ml",
-        "observed_at": "2026-11-12T03:30:26+00:00",
+        "observed_at": "2026-11-12T04:34:01+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 40,
@@ -27925,7 +27901,7 @@
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": [
-          34.5,
+          40.0,
           53.0
         ],
         "discount_overlap": true,
@@ -28143,6 +28119,29 @@
             "same_acquisition_promotion": false
           },
           {
+            "item_id": "v1|397564189068|0",
+            "seller": "directbeautystore",
+            "image": "https://i.ebayimg.com/images/g/XZwAAeSwAD1q9TfT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 40.0,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397564189068",
+            "title": "HUGO BOSS BOTTLED FOR MEN 100ML AFTERSHAVE LOTION SPLASH | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 0.0,
+            "listed_total": 27.74,
+            "same_acquisition_promotion": false
+          },
+          {
             "item_id": "v1|188748037334|0",
             "seller": "fusionbeautyuk",
             "image": "https://i.ebayimg.com/images/g/LhcAAeSwmvFq6MZx/s-l225.jpg",
@@ -28182,29 +28181,6 @@
             "promotion_id": null,
             "url": "https://www.ebay.co.uk/itm/147321120189",
             "title": "Hugo Boss Bottled 100ml Aftershave Lotion Men\u2019s Fragrance New!",
-            "declared_condition": "new",
-            "item_price": 27.95,
-            "shipping": 0.0,
-            "listed_total": 27.95,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|157293801335|0",
-            "seller": "fragrance_click",
-            "image": "https://i.ebayimg.com/images/g/824AAeSwm-RouFE3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 53.0,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157293801335",
-            "title": "Hugo Boss Boss Bottled Aftershave Lotion 100ml New & Sealed ",
             "declared_condition": "new",
             "item_price": 27.95,
             "shipping": 0.0,
@@ -28447,7 +28423,7 @@
         "rejected": {
           "identity_or_condition": 44
         },
-        "canonicalized_at": "2026-11-12T04:01:22+00:00",
+        "canonicalized_at": "2026-11-12T04:33:08+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -28791,9 +28767,9 @@
         "date": "2026-11-12",
         "sample_count": 2,
         "listed_total_low": 57.72,
-        "listed_total_p25": 61.04,
-        "listed_total_median": 64.35,
-        "listed_total_p75": 67.67,
+        "listed_total_p25": 61.037499999999994,
+        "listed_total_median": 64.35499999999999,
+        "listed_total_p75": 67.6725,
         "listed_total_high": 70.99,
         "status": "small_sample",
         "warnings": [
@@ -28821,7 +28797,8 @@
             "declared_condition": "new",
             "item_price": 55.0,
             "shipping": 2.72,
-            "listed_total": 57.72
+            "listed_total": 57.72,
+            "observed_at": "2026-11-12T04:02:09+00:00"
           },
           {
             "item_id": "v1|356152412747|0",
@@ -28843,12 +28820,15 @@
             "declared_condition": "new",
             "item_price": 68.29,
             "shipping": 2.7,
-            "listed_total": 70.99
+            "listed_total": 70.99,
+            "observed_at": "2026-11-12T04:02:09+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 37
         },
+        "canonicalized_at": "2026-11-12T04:33:08+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Silent Hill 2 - PS5 Game - Free C&C"
         ]
@@ -28952,6 +28932,7 @@
             "item_price": 55.0,
             "shipping": 2.72,
             "listed_total": 57.72,
+            "observed_at": "2026-11-12T04:02:09+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -28975,6 +28956,7 @@
             "item_price": 68.29,
             "shipping": 2.7,
             "listed_total": 70.99,
+            "observed_at": "2026-11-12T04:02:09+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -29068,7 +29050,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-12T04:01:22+00:00",
+        "canonicalized_at": "2026-11-12T04:33:08+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -29274,7 +29256,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|133894859397|0",
-          "observed_at": "2026-11-12T04:01:22+00:00",
+          "observed_at": "2026-11-12T04:33:08+00:00",
           "status": "conflict",
           "reasons": [
             "tool model mismatch"
@@ -29549,8 +29531,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg"
@@ -29590,8 +29572,8 @@
       "item_price": 8.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg"
@@ -29720,8 +29702,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/150x150/qt/55/5028470_1.jpg",
@@ -29764,8 +29746,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/150x150/qt/55/5028719_1.jpg",
@@ -29808,8 +29790,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/300x300/qt/55/5028595_1.jpg",
         "https://images.hotukdeals.com/threads/raw/H0u2M/5028595_1/re/150x150/qt/55/5028595_1.jpg"
@@ -29850,8 +29832,8 @@
       "item_price": 12.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/150x150/qt/55/5029092_1.jpg"
@@ -29975,8 +29957,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg"
@@ -30017,8 +29999,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/300x300/qt/55/5030054_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/300x300/qt/55/5030054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/150x150/qt/55/5030054_1.jpg"
@@ -30059,8 +30041,8 @@
       "item_price": 14.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/150x150/qt/55/5029962_1.jpg"
@@ -30101,8 +30083,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/300x300/qt/55/5030051_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/300x300/qt/55/5030051_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/150x150/qt/55/5030051_1.jpg"
@@ -30143,8 +30125,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/150x150/qt/55/5030257_1.jpg"
@@ -30185,8 +30167,8 @@
       "item_price": 14.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/150x150/qt/55/5029030_1.jpg"
@@ -30269,8 +30251,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/150x150/qt/55/5028558_1.jpg",
@@ -30313,8 +30295,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/150x150/qt/55/5030257_1.jpg"
@@ -30355,8 +30337,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/300x300/qt/55/5028607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6wVwF/5028607_1/re/150x150/qt/55/5028607_1.jpg"
@@ -30436,8 +30418,8 @@
       "item_price": 15.2,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg",
@@ -30480,8 +30462,8 @@
       "item_price": 15.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg",
@@ -30524,8 +30506,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/150x150/qt/55/5028448_1.jpg",
@@ -30568,8 +30550,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg",
@@ -30612,8 +30594,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/150x150/qt/55/5028505_1.jpg",
@@ -30656,8 +30638,8 @@
       "item_price": 16.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/150x150/qt/55/5029962_1.jpg",
@@ -30700,8 +30682,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg"
@@ -30742,8 +30724,8 @@
       "item_price": 17.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/150x150/qt/55/5028499_1.jpg",
@@ -30786,8 +30768,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
@@ -30830,8 +30812,8 @@
       "item_price": 18.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg"
@@ -30858,50 +30840,6 @@
       }
     },
     {
-      "title": "LEGO Lucky Cat 40813",
-      "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
-      "policy_key": "1fd192dffdb1b099a4aaea2f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 21.5,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg",
-        "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/5wEAAeSwmjtq6cHb/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 32.66,
-      "sell_for_minimum_profit": 42.96,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-07T14:19:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO City Cement Mixer 60478 Educational Construction Site Vehicle Model, 3 Minifigures",
       "url": "https://www.hotukdeals.com/deals/lego-city-cement-mixer-60478-educational-construction-site-vehicle-model-3-minifigures-5028495",
       "policy_key": "b472495c70927d837503b8bf",
@@ -30916,8 +30854,8 @@
       "item_price": 22.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/300x300/qt/55/5028495_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m115W/5028495_1/re/150x150/qt/55/5028495_1.jpg"
@@ -30958,8 +30896,8 @@
       "item_price": 23.26,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/150x150/qt/55/5027785_1.jpg",
@@ -31002,8 +30940,8 @@
       "item_price": 24.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/150x150/qt/55/5027979_1.jpg",
@@ -31085,8 +31023,8 @@
       "item_price": 26.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/150x150/qt/55/5028523_1.jpg",
@@ -31115,6 +31053,48 @@
       }
     },
     {
+      "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
+      "policy_key": "dfcbb252b205a7bdce39f337",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 27.0,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/150x150/qt/55/5030247_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
+      "landed_cost": null,
+      "breakeven_sell": 39.25,
+      "sell_for_minimum_profit": 52.18,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T22:29:35+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Frozen+Olaf+and+Bruni%27s+Picnic+Fun+43287&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Festive Gingerbread House 40809",
       "url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5028097",
       "policy_key": "e76d416e0ad418f3b25fbb01",
@@ -31129,8 +31109,8 @@
       "item_price": 27.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg",
@@ -31173,8 +31153,8 @@
       "item_price": 27.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/300x300/qt/55/5029065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9qEau/5029065_1/re/150x150/qt/55/5029065_1.jpg"
@@ -31254,8 +31234,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/150x150/qt/55/5028766_1.jpg",
@@ -31381,8 +31361,8 @@
       "item_price": 36.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/150x150/qt/55/5029171_1.jpg"
@@ -31509,8 +31489,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg"
@@ -31551,8 +31531,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg"
@@ -31637,8 +31617,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
@@ -31681,8 +31661,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg"
@@ -31811,8 +31791,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg",
@@ -31855,8 +31835,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg"
@@ -31936,8 +31916,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg",
@@ -31980,8 +31960,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/150x150/qt/55/5029044_1.jpg"
@@ -32022,8 +32002,8 @@
       "item_price": 47.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg"
@@ -32147,8 +32127,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg",
@@ -32191,8 +32171,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/150x150/qt/55/5029984_1.jpg"
@@ -32233,8 +32213,8 @@
       "item_price": 55.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
@@ -32277,8 +32257,8 @@
       "item_price": 56.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
@@ -32365,8 +32345,8 @@
       "item_price": 58.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
-      "image_verified_until": "2026-11-12T04:21:34.782536+00:00",
-      "image_checked_at": "2026-11-12T04:01:34.782536+00:00",
+      "image_verified_until": "2026-11-12T04:53:32.740555+00:00",
+      "image_checked_at": "2026-11-12T04:33:32.740555+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/150x150/qt/55/5029161_1.jpg"
@@ -32407,8 +32387,8 @@
       "item_price": 60.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
-      "image_verified_until": "2026-11-12T04:22:13.585121+00:00",
-      "image_checked_at": "2026-11-12T04:02:13.585121+00:00",
+      "image_verified_until": "2026-11-12T04:54:06.061119+00:00",
+      "image_checked_at": "2026-11-12T04:34:06.061119+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/150x150/qt/55/5027954_1.jpg",
@@ -40279,8 +40259,8 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-11T22:29:39+00:00",
-        "date": "2026-11-11",
+        "observed_at": "2026-11-12T04:34:05+00:00",
+        "date": "2026-11-12",
         "sample_count": 0,
         "listed_total_low": null,
         "listed_total_p25": null,
@@ -41806,14 +41786,14 @@
     },
     "browse_usage": {
       "date": "2026-11-12",
-      "calls": 115,
+      "calls": 128,
       "by_purpose": {
-        "persistent-research": 18,
-        "item-details": 36,
-        "acquisition": 36,
-        "asking-affordable": 18,
+        "persistent-research": 20,
+        "item-details": 40,
+        "acquisition": 40,
+        "asking-affordable": 20,
         "asking-tools": 3,
-        "asking-watch": 4
+        "asking-watch": 5
       }
     },
     "warnings": [
@@ -41837,11 +41817,11 @@
         "purpose": "active asking competition only",
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
-          "queries": 3,
+          "queries": 2,
           "cached": 19,
           "query_budget": 2,
           "queries_by_category": {
-            "gaming": 1,
+            "fragrance": 1,
             "lego": 1
           },
           "candidates_with_samples": 19,
@@ -41849,23 +41829,21 @@
           "errors": [],
           "tools_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 1,
-            "cached": 2,
+            "queries": 0,
+            "cached": 3,
             "query_budget": 2,
-            "queries_by_category": {
-              "tools": 1
-            },
+            "queries_by_category": {},
             "candidates_with_samples": 1,
             "status": "ready",
             "errors": []
           },
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 2,
-            "cached": 3,
+            "queries": 1,
+            "cached": 4,
             "query_budget": 2,
             "queries_by_category": {
-              "lego": 2
+              "gaming": 1
             },
             "candidates_with_samples": 4,
             "status": "ready",
@@ -41880,8 +41858,8 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-12T04:00:24.289Z",
-        "last_success": "2026-11-12T04:00:24.289Z"
+        "last_attempt": "2026-11-12T04:30:24.682Z",
+        "last_success": "2026-11-12T04:30:24.682Z"
       },
       "ebay_acquisition": {
         "status": "ready",
@@ -41893,49 +41871,54 @@
         "queries_by_category": {
           "lego": 2,
           "gaming": 1,
-          "trainers": 1
+          "fragrance": 1
         },
         "query_details": [
           {
-            "query": "LEGO 75405",
+            "query": "LEGO 21062",
             "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 4
+            },
+            "sort": "price",
+            "max_item_price": 55.9,
+            "max_landed_price": 55.9,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "no sleep for kaname date from ai the somnium files ps5",
+            "category": "gaming",
             "samples": 0,
             "rejected": {},
             "sort": "newlyListed",
-            "max_item_price": 19.85,
-            "max_landed_price": 19.85,
+            "max_item_price": 14.6,
+            "max_landed_price": 14.6,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "resident evil requiem ps5",
-            "category": "gaming",
-            "samples": 0,
-            "rejected": {
-              "identity_or_condition": 9
-            },
-            "sort": "price",
-            "max_item_price": 21.94,
-            "max_landed_price": 21.94,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 42179",
+            "query": "LEGO 75684",
             "category": "lego",
             "samples": 0,
-            "rejected": {},
-            "sort": "price",
-            "max_item_price": 36.36,
-            "max_landed_price": 36.36,
+            "rejected": {
+              "identity_or_condition": 4
+            },
+            "sort": "newlyListed",
+            "max_item_price": 25.47,
+            "max_landed_price": 25.47,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Nike IM9013-001",
-            "category": "trainers",
-            "samples": 0,
-            "rejected": {},
+            "query": "boss bottled aftershave lotion 100ml",
+            "category": "fragrance",
+            "samples": 30,
+            "rejected": {
+              "identity_or_condition": 9,
+              "multi_variant_listing": 2
+            },
             "sort": "price",
             "max_item_price": null,
             "max_landed_price": null,
@@ -41946,11 +41929,11 @@
         "target_selection": {
           "contexts_examined": 150,
           "context_reasons": {
-            "not_usable": 140,
-            "eligible": 7,
+            "not_usable": 141,
+            "eligible": 6,
             "query_cooldown": 3
           },
-          "eligible_distinct_queries": 7,
+          "eligible_distinct_queries": 6,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -41959,9 +41942,12 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 75405",
-        "matched_shipped_samples": 0,
-        "rejections": {},
+        "query": "LEGO 21062",
+        "matched_shipped_samples": 30,
+        "rejections": {
+          "identity_or_condition": 9,
+          "multi_variant_listing": 2
+        },
         "watchlist_products": 118
       },
       "reviewed_bridge": {
@@ -41977,11 +41963,11 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 0,
-    "rescanned": 380,
+    "new": 2,
+    "rescanned": 378,
     "price_changed": 0,
-    "previous_success": "2026-11-12T03:30:45+00:00",
-    "gap_minutes": 31.4,
+    "previous_success": "2026-11-12T04:02:28+00:00",
+    "gap_minutes": 31.5,
     "publication_holds": {
       "eligible": 13,
       "held": 367,
@@ -41994,13 +41980,13 @@
         "fewer_than_three_exact_independent_comparators": 3
       },
       "by_category": {
-        "sportswear": 3,
-        "tools": 21,
-        "trainers": 70,
-        "gaming": 75,
-        "tech": 60,
         "other": 18,
+        "tools": 21,
         "lego": 82,
+        "gaming": 75,
+        "sportswear": 3,
+        "tech": 60,
+        "trainers": 70,
         "fragrance": 38
       }
     },
@@ -42231,7 +42217,7 @@
       },
       "hotukdeals": {
         "offers": 377,
-        "new": 0,
+        "new": 2,
         "estimated": 20,
         "actionable": 0
       }
@@ -42393,9 +42379,9 @@
         "summary": "Sell: \u00a320.34 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a319.73. \u00b7 Net: At most \u2212\u00a33.78 at \u00a320.34 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a319.73 sale: \u2212\u00a34.28 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       },
       {
-        "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C",
-        "url": "https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
-        "summary": "Sell: \u00a334.83 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a333.79. \u00b7 Net: At most \u2212\u00a33.68 at \u00a334.83 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a333.79 sale: \u2212\u00a34.55 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
+        "title": "LEGO Minecraft The Ender Dragon 21595 - Discount at checkout",
+        "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-ender-dragon-21595-5027982",
+        "summary": "Sell: \u00a344.98 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a343.64. \u00b7 Net: At most \u2212\u00a34.78 at \u00a344.98 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a343.64 sale: \u2212\u00a35.90 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       }
     ],
     "notification_delivery": {
@@ -42419,14 +42405,14 @@
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 356,
+    "images_available": 355,
     "lego_images_available": 71,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "43151996376",
+      "run_id": "43155512745",
       "event": "workflow_dispatch",
-      "parent_run_id": "43148543739"
+      "parent_run_id": "43151996376"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -42460,17 +42446,6 @@
           "title": "LEGO Wicked Welcome to Emerald City 75684",
           "current_price": 45.0,
           "last_delivered_price": 45.0,
-          "pct_change": 0.0,
-          "would_deliver": false,
-          "reason": "price_change_under_10pct",
-          "is_repost": false
-        },
-        {
-          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
-          "url": "https://www.hotukdeals.com/deals/lego-disney-frozen-olaf-and-brunis-picnic-fun-43287-ps27-at-argos-5030247",
-          "title": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun 43287 - Free C&C",
-          "current_price": 27.0,
-          "last_delivered_price": 27.0,
           "pct_change": 0.0,
           "would_deliver": false,
           "reason": "price_change_under_10pct",
