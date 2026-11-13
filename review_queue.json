@@ -14,19 +14,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 12.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/150x150/qt/55/5026611_1.jpg",
-        "https://i.ebayimg.com/images/g/m5cAAeSwh5VqCOt3/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Di8AAeSweqFqCOsU/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/150x150/qt/55/5026611_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/DYmJU/5026611_1/re/300x300/qt/55/5026611_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-sorting-hat-ceremony-76460-2-for-ps15-5026611",
       "landed_cost": null,
       "breakeven_sell": 22.46,
       "sell_for_minimum_profit": 32.04,
@@ -2012,18 +2010,16 @@
       "merchant": "Amazon",
       "item_price": 16.14,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_verified_until": "2026-11-13T07:36:54.468823+00:00",
-      "image_checked_at": "2026-11-13T07:16:54.468823+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/150x150/qt/55/5029962_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/150x150/qt/55/5026618_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-cornish-pixie-76461-5029962",
+      "thumb": "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-cornish-pixie-76461-discount-at-checkout-5026618",
       "landed_cost": null,
       "breakeven_sell": 26.24,
       "sell_for_minimum_profit": 35.81,
@@ -3492,9 +3488,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
-        "https://i.ebayimg.com/images/g/HLkAAeSwkElq8wDJ/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/01oAAeSwVRBq3nuw/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -4597,245 +4591,6 @@
       }
     },
     {
-      "title": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition (Nintendo Switch 2 Game)",
-      "url": "https://www.hotukdeals.com/deals/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-nintendo-switch-2-game-5031512",
-      "policy_key": "556fdaaf7227cd49e88662f5",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Hit",
-      "item_price": 24.85,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/gMA79/5031512_1/re/150x150/qt/55/5031512_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-nintendo-switch-2-game-5031512",
-      "landed_cost": null,
-      "breakeven_sell": 33.68,
-      "sell_for_minimum_profit": 45.43,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T07:17:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DRAGON+QUEST+XI+S%3A+Echoes+of+an+Elusive+Age&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "dragon quest xi s echoes of an elusive age definitive edition nintendo switch 2",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-13T07:17:44+00:00",
-        "date": "2026-11-13",
-        "sample_count": 2,
-        "listed_total_low": 34.35,
-        "listed_total_p25": 35.26,
-        "listed_total_median": 36.17,
-        "listed_total_p75": 37.08,
-        "listed_total_high": 37.99,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|860073022284|0",
-            "seller": "youritdelivered",
-            "image": "https://i.ebayimg.com/images/g/gFIAAeSwHXlq2kZa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860073022284",
-            "title": "Dragon Quest XI S Echoes of an Elusive Age Definitive Edition Nintendo Switch 2",
-            "declared_condition": "new",
-            "item_price": 34.35,
-            "shipping": 0.0,
-            "listed_total": 34.35
-          },
-          {
-            "item_id": "v1|377538088465|0",
-            "seller": "maponus-gaming",
-            "image": "https://i.ebayimg.com/images/g/qs0AAeSwJHBqv2Ek/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377538088465",
-            "title": "DRAGON QUEST XI S Echoes of an Elusive Age Definitive Edition Nintendo Switch 2",
-            "declared_condition": "new",
-            "item_price": 37.99,
-            "shipping": 0.0,
-            "listed_total": 37.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 2
-        },
-        "query_aliases": [
-          "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition (Nintendo Switch 2 Game)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "dragon quest xi s echoes of an elusive age definitive edition nintendo switch 2",
-        "observed_at": "2026-11-13T07:17:44+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 2,
-        "seller_count": 2,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 34.35,
-        "competition_high": 37.99,
-        "estimated_resale": 33.31,
-        "estimated_range": [
-          30.91,
-          34.35
-        ],
-        "suggested_listing": 34.34,
-        "quick_sale_model": 30.91,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 24.85,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -0.32,
-        "max_landed_buy": 16.53,
-        "max_item_buy": null,
-        "delivery_headroom": -8.32,
-        "fees": 4.58,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 1.0,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 29.97,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 14.53,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|860073022284|0",
-            "seller": "youritdelivered",
-            "image": "https://i.ebayimg.com/images/g/gFIAAeSwHXlq2kZa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860073022284",
-            "title": "Dragon Quest XI S Echoes of an Elusive Age Definitive Edition Nintendo Switch 2",
-            "declared_condition": "new",
-            "item_price": 34.35,
-            "shipping": 0.0,
-            "listed_total": 34.35,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377538088465|0",
-            "seller": "maponus-gaming",
-            "image": "https://i.ebayimg.com/images/g/qs0AAeSwJHBqv2Ek/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377538088465",
-            "title": "DRAGON QUEST XI S Echoes of an Elusive Age Definitive Edition Nintendo Switch 2",
-            "declared_condition": "new",
-            "item_price": 37.99,
-            "shipping": 0.0,
-            "listed_total": 37.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
-      }
-    },
-    {
       "title": "LEGO Gingerbread AT-AT Walker 40806",
       "url": "https://www.hotukdeals.com/deals/lego-gingerbread-at-at-walker-40806-5029171",
       "policy_key": "94340813d041b8f5dcb121f9",
@@ -4854,9 +4609,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/150x150/qt/55/5029171_1.jpg",
-        "https://i.ebayimg.com/images/g/VMYAAeSwpgRq55ec/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/8ecAAeSwP-hqpnq-/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/150x150/qt/55/5029171_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/W0qLY/5029171_1/re/300x300/qt/55/5029171_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -5564,9 +5317,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg",
-        "https://i.ebayimg.com/images/g/UWwAAeSwfC9q53Hx/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/KDEAAeSwj7pqsTsu/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -6745,9 +6496,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg",
-        "https://i.ebayimg.com/images/g/UWwAAeSwfC9q53Hx/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/KDEAAeSwj7pqsTsu/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -8925,9 +8674,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
-        "https://i.ebayimg.com/images/g/W2QAAeSwRepq3ilM/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/QlgAAeSwt15q7oCM/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -9674,6 +9421,908 @@
       }
     },
     {
+      "title": "LEGO Star Wars 75415 Kylo Ren Helmet (\u00a340 w/ email sign up) - Black Friday Price Guarantee - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-kylo-ren-helmet-building-set-for-adults-75415-ps40-w-email-sig-up-black-friday-promise-free-cc-5029044",
+      "policy_key": "dc3f300f4bb20c29c80f7b16",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 45.0,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
+      "image_verified_until": "2026-11-13T07:37:48.903067+00:00",
+      "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/150x150/qt/55/5029044_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-kylo-ren-helmet-building-set-for-adults-75415-ps40-w-email-sig-up-black-friday-promise-free-cc-5029044",
+      "landed_cost": null,
+      "breakeven_sell": 60.8,
+      "sell_for_minimum_profit": 82.36,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-11T00:17:17+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+75415+Kylo+Ren+Helmet+%28&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75415",
+        "category": "lego",
+        "name_terms": [
+          "40",
+          "black",
+          "email",
+          "friday",
+          "guarantee",
+          "helmet",
+          "kylo",
+          "price",
+          "ren",
+          "sign",
+          "up"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-13T07:19:59+00:00",
+        "date": "2026-11-13",
+        "sample_count": 18,
+        "listed_total_low": 56.08,
+        "listed_total_p25": 60.4,
+        "listed_total_median": 65.41,
+        "listed_total_p75": 66.73,
+        "listed_total_high": 79.97,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|227602833212|0",
+            "seller": "mrdosas",
+            "image": "https://i.ebayimg.com/images/g/5L4AAeSwyOBq7ze8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227602833212",
+            "title": "LEGO Star Wars 75415 Kylo Ren Helmet New and Sealed",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 3.38,
+            "listed_total": 56.08
+          },
+          {
+            "item_id": "v1|358897768618|0",
+            "seller": "smallyellowpeople0",
+            "image": "https://i.ebayimg.com/images/g/PmgAAeSw3xtqdjUy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358897768618",
+            "title": "LEGO Star Wars Kylo Ren Helmet 75415 Brand New & Sealed ",
+            "declared_condition": "new",
+            "item_price": 54.95,
+            "shipping": 3.38,
+            "listed_total": 58.33
+          },
+          {
+            "item_id": "v1|307267825674|0",
+            "seller": "kirkhamcollectables",
+            "image": "https://i.ebayimg.com/images/g/BsoAAeSwnvxq7F6H/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307267825674",
+            "title": "LEGO Star Wars - 75415 - Kylo Ren Helmet - New & Sealed Box",
+            "declared_condition": "new",
+            "item_price": 54.99,
+            "shipping": 3.38,
+            "listed_total": 58.37
+          },
+          {
+            "item_id": "v1|900077415987|0",
+            "seller": "shardaho2",
+            "image": "https://i.ebayimg.com/images/g/CkkAAeSwH8lq8aYL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900077415987",
+            "title": "lego 75415 kylo ren helmet",
+            "declared_condition": "new",
+            "item_price": 55.82,
+            "shipping": 3.71,
+            "listed_total": 59.53
+          },
+          {
+            "item_id": "v1|880025890323|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/aYAAAeSwf55qppxh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880025890323",
+            "title": "LEGO Star Wars: Kylo Ren Helmet (75415)",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          },
+          {
+            "item_id": "v1|189056810720|0",
+            "seller": "brickbase13",
+            "image": "https://i.ebayimg.com/images/g/r-YAAeSwTMRqxktj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/189056810720",
+            "title": "LEGO  Star Wars 75415 Kylo Ren Helmet New in Factory Sealed Box",
+            "declared_condition": "new",
+            "item_price": 57.9,
+            "shipping": 3.71,
+            "listed_total": 61.61
+          },
+          {
+            "item_id": "v1|327418220859|0",
+            "seller": "arlanfor07",
+            "image": "https://i.ebayimg.com/images/g/jHkAAeSwZLNq2i8l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327418220859",
+            "title": "LEGO Star Wars Kylo Ren 75415 Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 57.9,
+            "shipping": 5.15,
+            "listed_total": 63.05
+          },
+          {
+            "item_id": "v1|128080777272|0",
+            "seller": "aileenmcmillanxoxo",
+            "image": "https://i.ebayimg.com/images/g/rnoAAeSwamhqqSCm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128080777272",
+            "title": "LEGO Star Wars 75415 Kylo Ren Helmet NEW & SEALED | Fast Dispatch",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 0.0,
+            "listed_total": 63.1
+          },
+          {
+            "item_id": "v1|920076608124|0",
+            "seller": "bellasgiftbox",
+            "image": "https://i.ebayimg.com/images/g/DZ8AAeSwpphq33jQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920076608124",
+            "title": "Lego 75415 Star Wars Kylo Ren Helmet | Brand New & Sealed \u2705\ufe0f",
+            "declared_condition": "new",
+            "item_price": 59.98,
+            "shipping": 5.15,
+            "listed_total": 65.13
+          },
+          {
+            "item_id": "v1|267649711347|0",
+            "seller": "lyndsay.0137",
+            "image": "https://i.ebayimg.com/images/g/ve0AAeSwQMdp68bf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267649711347",
+            "title": "Lego  Star Wars Kylo Ren Helmet | Brand New & Sealed 75415 \u2705\ufe0f",
+            "declared_condition": "new",
+            "item_price": 61.99,
+            "shipping": 3.71,
+            "listed_total": 65.7
+          },
+          {
+            "item_id": "v1|377594325938|0",
+            "seller": "lee-2913",
+            "image": "https://i.ebayimg.com/images/g/fj0AAeSwQX1q3J41/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377594325938",
+            "title": "LEGO Star Wars Kylo Ren Helmet 75415 529pcs Helmet Collection Stand 18+",
+            "declared_condition": "new",
+            "item_price": 62.99,
+            "shipping": 2.94,
+            "listed_total": 65.93
+          },
+          {
+            "item_id": "v1|358829240943|0",
+            "seller": "gmac_online",
+            "image": "https://i.ebayimg.com/images/g/aHYAAeSw1stqYKAs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358829240943",
+            "title": "LEGO Star Wars Kylo Ren Helmet Building Set for Adults 75415",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 3.38,
+            "listed_total": 66.48
+          },
+          {
+            "item_id": "v1|267813928905|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/rT0AAeSwtM9q0A8Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267813928905",
+            "title": "LEGO Star Wars: Kylo Ren Helmet (75415) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 62.99,
+            "shipping": 3.49,
+            "listed_total": 66.48
+          },
+          {
+            "item_id": "v1|157884491104|0",
+            "seller": "mangomoment",
+            "image": "https://i.ebayimg.com/images/g/XRYAAeSw-dNp-PUP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157884491104",
+            "title": "LEGO Star Wars Kylo Ren Helmet 75415 - Brand New & Sealed - Pet & Smoke Free",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 3.71,
+            "listed_total": 66.81
+          },
+          {
+            "item_id": "v1|128157989922|0",
+            "seller": "lous_loft84",
+            "image": "https://i.ebayimg.com/images/g/xQAAAeSw36xq366Q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128157989922",
+            "title": "Lego 75415 Star Wars Kylo Ren Helmet | Brand New & Sealed \u2705\ufe0f",
+            "declared_condition": "new",
+            "item_price": 65.18,
+            "shipping": 3.71,
+            "listed_total": 68.89
+          },
+          {
+            "item_id": "v1|306657852558|0",
+            "seller": "reggie-007",
+            "image": "https://i.ebayimg.com/images/g/pA8AAeSwm5xpPu4W/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/306657852558",
+            "title": "\u2b50\ufe0fLEGO -  STAR WARS - KYLO REN Helmet NEW & SEALED - 75415 -  BRAND NEW \u2b50\ufe0f",
+            "declared_condition": "new",
+            "item_price": 68.3,
+            "shipping": 3.71,
+            "listed_total": 72.01
+          },
+          {
+            "item_id": "v1|137925549800|0",
+            "seller": "andysbricks",
+            "image": "https://i.ebayimg.com/images/g/mkAAAeSwY2Nq9hHT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137925549800",
+            "title": "LEGO 75415 - Star Wars Kylo Ren Helmet. BRAND NEW AND SEALED",
+            "declared_condition": "new",
+            "item_price": 74.98,
+            "shipping": 0.0,
+            "listed_total": 74.98
+          },
+          {
+            "item_id": "v1|157710728625|0",
+            "seller": "injectionimports",
+            "image": "https://i.ebayimg.com/images/g/gIoAAeSw3uJpoGu4/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157710728625",
+            "title": "LEGO Star Wars Kylo Ren Helmet Set 75415 New & Sealed FREE POST",
+            "declared_condition": "new",
+            "item_price": 79.97,
+            "shipping": 0.0,
+            "listed_total": 79.97
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 3
+        },
+        "query_aliases": [
+          "LEGO Star Wars 75415 Kylo Ren Helmet (\u00a340 w/ email sign up) - Black Friday Price Guarantee - Free C&C"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75415",
+        "observed_at": "2026-11-13T07:19:59+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 18,
+        "seller_count": 18,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 6,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 56.08,
+        "competition_high": 79.97,
+        "estimated_resale": 54.39,
+        "estimated_range": [
+          50.47,
+          56.08
+        ],
+        "suggested_listing": 56.07,
+        "quick_sale_model": 50.47,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 45.0,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -5.35,
+        "max_landed_buy": 28.32,
+        "max_item_buy": null,
+        "delivery_headroom": -16.68,
+        "fees": 7.82,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.63,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 48.95,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 29.65,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|227602833212|0",
+            "seller": "mrdosas",
+            "image": "https://i.ebayimg.com/images/g/5L4AAeSwyOBq7ze8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227602833212",
+            "title": "LEGO Star Wars 75415 Kylo Ren Helmet New and Sealed",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 3.38,
+            "listed_total": 56.08,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|358897768618|0",
+            "seller": "smallyellowpeople0",
+            "image": "https://i.ebayimg.com/images/g/PmgAAeSw3xtqdjUy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358897768618",
+            "title": "LEGO Star Wars Kylo Ren Helmet 75415 Brand New & Sealed ",
+            "declared_condition": "new",
+            "item_price": 54.95,
+            "shipping": 3.38,
+            "listed_total": 58.33,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|307267825674|0",
+            "seller": "kirkhamcollectables",
+            "image": "https://i.ebayimg.com/images/g/BsoAAeSwnvxq7F6H/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307267825674",
+            "title": "LEGO Star Wars - 75415 - Kylo Ren Helmet - New & Sealed Box",
+            "declared_condition": "new",
+            "item_price": 54.99,
+            "shipping": 3.38,
+            "listed_total": 58.37,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900077415987|0",
+            "seller": "shardaho2",
+            "image": "https://i.ebayimg.com/images/g/CkkAAeSwH8lq8aYL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900077415987",
+            "title": "lego 75415 kylo ren helmet",
+            "declared_condition": "new",
+            "item_price": 55.82,
+            "shipping": 3.71,
+            "listed_total": 59.53,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880025890323|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/aYAAAeSwf55qppxh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880025890323",
+            "title": "LEGO Star Wars: Kylo Ren Helmet (75415)",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|189056810720|0",
+            "seller": "brickbase13",
+            "image": "https://i.ebayimg.com/images/g/r-YAAeSwTMRqxktj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/189056810720",
+            "title": "LEGO  Star Wars 75415 Kylo Ren Helmet New in Factory Sealed Box",
+            "declared_condition": "new",
+            "item_price": 57.9,
+            "shipping": 3.71,
+            "listed_total": 61.61,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327418220859|0",
+            "seller": "arlanfor07",
+            "image": "https://i.ebayimg.com/images/g/jHkAAeSwZLNq2i8l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327418220859",
+            "title": "LEGO Star Wars Kylo Ren 75415 Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 57.9,
+            "shipping": 5.15,
+            "listed_total": 63.05,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128080777272|0",
+            "seller": "aileenmcmillanxoxo",
+            "image": "https://i.ebayimg.com/images/g/rnoAAeSwamhqqSCm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128080777272",
+            "title": "LEGO Star Wars 75415 Kylo Ren Helmet NEW & SEALED | Fast Dispatch",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 0.0,
+            "listed_total": 63.1,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|920076608124|0",
+            "seller": "bellasgiftbox",
+            "image": "https://i.ebayimg.com/images/g/DZ8AAeSwpphq33jQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920076608124",
+            "title": "Lego 75415 Star Wars Kylo Ren Helmet | Brand New & Sealed \u2705\ufe0f",
+            "declared_condition": "new",
+            "item_price": 59.98,
+            "shipping": 5.15,
+            "listed_total": 65.13,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267649711347|0",
+            "seller": "lyndsay.0137",
+            "image": "https://i.ebayimg.com/images/g/ve0AAeSwQMdp68bf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267649711347",
+            "title": "Lego  Star Wars Kylo Ren Helmet | Brand New & Sealed 75415 \u2705\ufe0f",
+            "declared_condition": "new",
+            "item_price": 61.99,
+            "shipping": 3.71,
+            "listed_total": 65.7,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Star Wars 75415 Kylo Ren Helmet (\u00a340 w/ email sign up) - Black Friday Price Guarantee - Free C&C",
+        "query": "LEGO 75415",
+        "kind": "active_ask",
+        "listing": 56.07,
+        "observed_at": "2026-11-13T07:19:59+00:00",
+        "valid_until": "2026-11-13T13:19:59+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/227602833212",
+          "https://www.ebay.co.uk/itm/358897768618",
+          "https://www.ebay.co.uk/itm/307267825674",
+          "https://www.ebay.co.uk/itm/900077415987",
+          "https://www.ebay.co.uk/itm/880025890323",
+          "https://www.ebay.co.uk/itm/189056810720",
+          "https://www.ebay.co.uk/itm/327418220859",
+          "https://www.ebay.co.uk/itm/128080777272",
+          "https://www.ebay.co.uk/itm/920076608124",
+          "https://www.ebay.co.uk/itm/267649711347"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/227602833212",
+            "LEGO Star Wars 75415 Kylo Ren Helmet New and Sealed",
+            56.08,
+            3.38,
+            52.7,
+            "mrdosas"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/358897768618",
+            "LEGO Star Wars Kylo Ren Helmet 75415 Brand New & Sealed ",
+            58.33,
+            3.38,
+            54.95,
+            "smallyellowpeople0"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/307267825674",
+            "LEGO Star Wars - 75415 - Kylo Ren Helmet - New & Sealed Box",
+            58.37,
+            3.38,
+            54.99,
+            "kirkhamcollectables"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/900077415987",
+            "lego 75415 kylo ren helmet",
+            59.53,
+            3.71,
+            55.82,
+            "shardaho2"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/880025890323",
+            "LEGO Star Wars: Kylo Ren Helmet (75415)",
+            59.99,
+            0.0,
+            59.99,
+            "jafwh1544-hgkhryc7"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/189056810720",
+            "LEGO  Star Wars 75415 Kylo Ren Helmet New in Factory Sealed Box",
+            61.61,
+            3.71,
+            57.9,
+            "brickbase13"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327418220859",
+            "LEGO Star Wars Kylo Ren 75415 Brand New and Sealed",
+            63.05,
+            5.15,
+            57.9,
+            "arlanfor07"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/128080777272",
+            "LEGO Star Wars 75415 Kylo Ren Helmet NEW & SEALED | Fast Dispatch",
+            63.1,
+            0.0,
+            63.1,
+            "aileenmcmillanxoxo"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/920076608124",
+            "Lego 75415 Star Wars Kylo Ren Helmet | Brand New & Sealed \u2705\ufe0f",
+            65.13,
+            5.15,
+            59.98,
+            "bellasgiftbox"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267649711347",
+            "Lego  Star Wars Kylo Ren Helmet | Brand New & Sealed 75415 \u2705\ufe0f",
+            65.7,
+            3.71,
+            61.99,
+            "lyndsay.0137"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Icons Williams Racing FW14B & Nigel Mansell 10353",
       "url": "https://www.hotukdeals.com/deals/lego-icons-williams-racing-fw14b-nigel-mansell-10353-5029324",
       "policy_key": "2178b08bc302960d0aa67a83",
@@ -9692,9 +10341,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg",
-        "https://i.ebayimg.com/images/g/TPgAAeSwMCBqdjen/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/3FkAAeSwbetq8faY/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -11929,7 +12576,7 @@
         "rejected": {
           "identity_or_condition": 13
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Battlefield 6 Phantom Edition - Xbox Series X"
@@ -12276,7 +12923,7 @@
         "rejected": {
           "identity_or_condition": 13
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Lies of P (PS5)"
@@ -12413,6 +13060,432 @@
       "publication_proof": {
         "ok": false,
         "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
+      "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+      "url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-ps5-5026771",
+      "policy_key": "4823cffb64a14236549759f1",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 20.3,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/P8raH/5026771_1/re/150x150/qt/55/5026771_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-ps5-5026771",
+      "landed_cost": null,
+      "breakeven_sell": 28.31,
+      "sell_for_minimum_profit": 37.91,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-09T06:36:26+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=No+Sleep+For+Kaname+Date&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "no sleep for kaname date from ai the somnium files ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-13T07:19:59+00:00",
+        "date": "2026-11-13",
+        "sample_count": 5,
+        "listed_total_low": 31.99,
+        "listed_total_p25": 33.24,
+        "listed_total_median": 34.31,
+        "listed_total_p75": 34.38,
+        "listed_total_high": 35.8,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|277704993267|0",
+            "seller": "itemdropuk",
+            "image": "https://i.ebayimg.com/images/g/jKEAAeSwKOdp-JR2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277704993267",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5) New Sealed Game",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 0.0,
+            "listed_total": 31.99
+          },
+          {
+            "item_id": "v1|920087032835|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/mO0AAeSwgtRq5FA7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920087032835",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5) - New and Sealed",
+            "declared_condition": "new",
+            "item_price": 33.24,
+            "shipping": 0.0,
+            "listed_total": 33.24
+          },
+          {
+            "item_id": "v1|227335429204|0",
+            "seller": "thegamery",
+            "image": "https://i.ebayimg.com/images/g/GlEAAeSwOFVq0iRh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227335429204",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+            "declared_condition": "new",
+            "item_price": 34.31,
+            "shipping": 0.0,
+            "listed_total": 34.31
+          },
+          {
+            "item_id": "v1|287386512800|0",
+            "seller": "reactivestores",
+            "image": "https://i.ebayimg.com/images/g/guMAAeSwPaFqKZYi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287386512800",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+            "declared_condition": "new",
+            "item_price": 34.38,
+            "shipping": 0.0,
+            "listed_total": 34.38
+          },
+          {
+            "item_id": "v1|298080172171|0",
+            "seller": "iymo_uk",
+            "image": "https://i.ebayimg.com/images/g/TMMAAeSwf6NppQrg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298080172171",
+            "title": "NO SLEEP FOR KANAME DATE - FROM AI THE SOMNIUM FILES PS5 GAME",
+            "declared_condition": "new",
+            "item_price": 35.8,
+            "shipping": 0.0,
+            "listed_total": 35.8
+          }
+        ],
+        "rejected": {},
+        "query_aliases": [
+          "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "no sleep for kaname date from ai the somnium files ps5",
+        "observed_at": "2026-11-13T07:19:59+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 5,
+        "seller_count": 5,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 4,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 31.99,
+        "competition_high": 35.8,
+        "estimated_resale": 31.03,
+        "estimated_range": [
+          28.79,
+          31.99
+        ],
+        "suggested_listing": 31.98,
+        "quick_sale_model": 28.79,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 20.3,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 2.3,
+        "max_landed_buy": 14.6,
+        "max_item_buy": null,
+        "delivery_headroom": -5.7,
+        "fees": 4.3,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.93,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 27.92,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 12.6,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|277704993267|0",
+            "seller": "itemdropuk",
+            "image": "https://i.ebayimg.com/images/g/jKEAAeSwKOdp-JR2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277704993267",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5) New Sealed Game",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 0.0,
+            "listed_total": 31.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|920087032835|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/mO0AAeSwgtRq5FA7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920087032835",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5) - New and Sealed",
+            "declared_condition": "new",
+            "item_price": 33.24,
+            "shipping": 0.0,
+            "listed_total": 33.24,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227335429204|0",
+            "seller": "thegamery",
+            "image": "https://i.ebayimg.com/images/g/GlEAAeSwOFVq0iRh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227335429204",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+            "declared_condition": "new",
+            "item_price": 34.31,
+            "shipping": 0.0,
+            "listed_total": 34.31,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287386512800|0",
+            "seller": "reactivestores",
+            "image": "https://i.ebayimg.com/images/g/guMAAeSwPaFqKZYi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287386512800",
+            "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+            "declared_condition": "new",
+            "item_price": 34.38,
+            "shipping": 0.0,
+            "listed_total": 34.38,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|298080172171|0",
+            "seller": "iymo_uk",
+            "image": "https://i.ebayimg.com/images/g/TMMAAeSwf6NppQrg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298080172171",
+            "title": "NO SLEEP FOR KANAME DATE - FROM AI THE SOMNIUM FILES PS5 GAME",
+            "declared_condition": "new",
+            "item_price": 35.8,
+            "shipping": 0.0,
+            "listed_total": 35.8,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+        "query": "no sleep for kaname date from ai the somnium files ps5",
+        "kind": "active_ask",
+        "listing": 31.98,
+        "observed_at": "2026-11-13T07:19:59+00:00",
+        "valid_until": "2026-11-13T13:19:59+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/277704993267",
+          "https://www.ebay.co.uk/itm/920087032835",
+          "https://www.ebay.co.uk/itm/227335429204",
+          "https://www.ebay.co.uk/itm/287386512800",
+          "https://www.ebay.co.uk/itm/298080172171"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/277704993267",
+            "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5) New Sealed Game",
+            31.99,
+            0.0,
+            31.99,
+            "itemdropuk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/920087032835",
+            "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5) - New and Sealed",
+            33.24,
+            0.0,
+            33.24,
+            "hitcouk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227335429204",
+            "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+            34.31,
+            0.0,
+            34.31,
+            "thegamery"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287386512800",
+            "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
+            34.38,
+            0.0,
+            34.38,
+            "reactivestores"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/298080172171",
+            "NO SLEEP FOR KANAME DATE - FROM AI THE SOMNIUM FILES PS5 GAME",
+            35.8,
+            0.0,
+            35.8,
+            "iymo_uk"
+          ]
+        ],
+        "category": "gaming"
       }
     },
     {
@@ -13925,7 +14998,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resonance: A Plague Tale Legacy (Xbox Series X)"
@@ -14266,7 +15339,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -14512,7 +15585,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hellraiser: Revival - Day One Edition (PS5) - Free Click & Collect",
@@ -14827,7 +15900,7 @@
         "rejected": {
           "identity_or_condition": 45
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem (PS5)"
@@ -15176,7 +16249,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Resident Evil Requiem Xbox Series X"
@@ -15516,7 +16589,7 @@
         "rejected": {
           "identity_or_condition": 40
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Death Stranding 2: On The Beach (PS5)"
@@ -16072,7 +17145,7 @@
         "rejected": {
           "identity_or_condition": 13
         },
-        "canonicalized_at": "2026-11-13T07:16:43+00:00",
+        "canonicalized_at": "2026-11-13T07:19:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Star Wars - Zero Company (PS5)"
@@ -16757,6 +17830,82 @@
       }
     },
     {
+      "title": "Dragon Quest XI S Echoes of an Elusive Age Definitive Edition Nintendo Switch 2",
+      "url": "https://www.ebay.co.uk/itm/860073022284",
+      "policy_key": "530143868cfcdc824b043684",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 34.35,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/gFIAAeSwHXlq2kZa/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/860073022284",
+      "landed_cost": 34.35,
+      "breakeven_sell": 44.9,
+      "sell_for_minimum_profit": 61.13,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-13T07:19:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dragon+Quest+XI+S+Echoes+of+an+Elusive+Age+Definitive+Edition+Nintendo+Switch+2&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "DRAGON QUEST XI S Echoes of an Elusive Age Definitive Edition Nintendo Switch 2",
+      "url": "https://www.ebay.co.uk/itm/377538088465",
+      "policy_key": "5b4dbf036eca65a1ede2216b",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 37.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/qs0AAeSwJHBqv2Ek/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/377538088465",
+      "landed_cost": 37.99,
+      "breakeven_sell": 49.2,
+      "sell_for_minimum_profit": 67.14,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-13T07:19:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DRAGON+QUEST+XI+S+Echoes+of+an+Elusive+Age+Definitive+Edition+Nintendo+Switch+2&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Nike Air Force 1 07 Brown Sail Unisex Trainers - Size UK 3.5 - IO1914-235",
       "url": "https://www.ebay.co.uk/itm/327381493975",
       "policy_key": "88d0402f3035748366f8a5d5",
@@ -16844,21 +17993,162 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
+          "item_id": "v1|327381493975|0",
+          "observed_at": "2026-11-13T07:19:37+00:00",
+          "status": "incomplete",
           "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+            "style-colour code aspect missing"
           ],
+          "gtin": null,
+          "mpn": null,
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Shoe Shaft Style",
+              "value": "Low Top"
+            },
+            {
+              "type": "STRING",
+              "name": "UK Shoe Size",
+              "value": "3.5"
+            },
+            {
+              "type": "STRING",
+              "name": "Pattern",
+              "value": "No Pattern"
+            },
+            {
+              "type": "STRING",
+              "name": "Closure",
+              "value": "Lace Up"
+            },
+            {
+              "type": "STRING",
+              "name": "Occasion",
+              "value": "Casual"
+            },
+            {
+              "type": "STRING",
+              "name": "US Shoe Size",
+              "value": "6"
+            },
+            {
+              "type": "STRING",
+              "name": "Signed",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Cleat Type",
+              "value": "Rubber"
+            },
+            {
+              "type": "STRING",
+              "name": "Customised",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Accents",
+              "value": "Logo"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Brown"
+            },
+            {
+              "type": "STRING",
+              "name": "Vintage",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Nike"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Trainer"
+            },
+            {
+              "type": "STRING",
+              "name": "Department",
+              "value": "Women"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "Nike Air Force 1"
+            },
+            {
+              "type": "STRING",
+              "name": "Outsole Material",
+              "value": "Rubber"
+            },
+            {
+              "type": "STRING",
+              "name": "Style",
+              "value": "Sneaker"
+            },
+            {
+              "type": "STRING",
+              "name": "Shoe Width",
+              "value": "Standard"
+            },
+            {
+              "type": "STRING",
+              "name": "Country of Origin",
+              "value": "Indonesia"
+            },
+            {
+              "type": "STRING",
+              "name": "Product Line",
+              "value": "Nike Air Force"
+            }
+          ],
+          "checked_item_price": 59.99,
+          "identity_query": "Nike IO1914-235 UK 3.5",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/327381493975",
+          "title": "Nike Air Force 1 07 Brown Sail Unisex Trainers - Size UK 3.5 - IO1914-235",
+          "fixed_shipping": 0.0,
           "sub_checks": [
             {
-              "sub_check_failed": "other",
-              "expected": "verified_fields within detail budget",
-              "observed": "awaiting_detail_budget",
-              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-              "note": "detail allocation window closed this scan"
+              "sub_check_failed": "title_model_number_missing",
+              "expected": "IO1914-235",
+              "observed": null,
+              "reason": "style-colour code aspect missing"
             }
+          ],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects"
+          ],
+          "getitem_fields_missing": [
+            "mpn",
+            "gtin",
+            "itemEndDate"
           ]
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "incomplete",
         "query_aliases": [
           "Nike Air Force 1 07 Brown Sail Unisex Trainers - Size UK 3.5 - IO1914-235"
         ]
@@ -16929,9 +18219,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg",
-        "https://i.ebayimg.com/images/g/UYkAAeSwLDBq8yKW/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/TOIAAeSwOFZq7lza/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -16994,45 +18282,6 @@
       }
     },
     {
-      "title": "Star Wars: Jedi: Survivor (PS5) - Refurbished: Very Good - w/code - sold by Boomerang Video Games",
-      "url": "https://www.hotukdeals.com/deals/star-wars-jedi-survivor-ps5-refurbished-very-good-wcode-sold-by-boomerang-video-games-5031505",
-      "policy_key": "2c8c3e0965e5b80c9ed68112",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 9.49,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/uLabh/5031505_1/re/150x150/qt/55/5031505_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-jedi-survivor-ps5-refurbished-very-good-wcode-sold-by-boomerang-video-games-5031505",
-      "landed_cost": null,
-      "breakeven_sell": 15.55,
-      "sell_for_minimum_profit": 24.99,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T07:17:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Jedi%3A+Survivor+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Marvel Iron Man Mech vs. Ultron Building Toy Set 76307",
       "url": "https://www.hotukdeals.com/deals/lego-marvel-iron-man-mech-vs-ultron-building-toy-set-76307-5031147",
       "policy_key": "b3fc1570799cb7fded7e8681",
@@ -17087,19 +18336,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 10.92,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/150x150/qt/55/5026739_1.jpg",
-        "https://i.ebayimg.com/images/g/MF8AAeSwBU9q9i7K/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/mvAAAeSwMHtq7hJp/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/150x150/qt/55/5026739_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/hAP4N/5026739_1/re/300x300/qt/55/5026739_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-retro-gaming-console-31380-discount-at-checkout-5026739",
       "landed_cost": null,
       "breakeven_sell": 19.99,
       "sell_for_minimum_profit": 29.57,
@@ -17131,19 +18378,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 10.92,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg",
-        "https://i.ebayimg.com/images/g/GhYAAeSwttBqw4Ke/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
       "landed_cost": null,
       "breakeven_sell": 19.99,
       "sell_for_minimum_profit": 29.57,
@@ -17181,9 +18426,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/150x150/qt/55/5028470_1.jpg",
-        "https://i.ebayimg.com/images/g/AaEAAeSwgm9qaiJ~/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/~NgAAeSwq9FonEJh/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/150x150/qt/55/5028470_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/Xgwm3/5028470_1/re/300x300/qt/55/5028470_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -17225,9 +18468,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/150x150/qt/55/5028719_1.jpg",
-        "https://i.ebayimg.com/images/g/bgcAAeSwGghq89EF/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Wx0AAOSwv8Rm2N3K/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/150x150/qt/55/5028719_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/Rmp8q/5028719_1/re/300x300/qt/55/5028719_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -17434,9 +18675,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg",
-        "https://i.ebayimg.com/images/g/uSwAAeSwPGRqvjHQ/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/kFkAAeSwe35qvkfH/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -17598,19 +18837,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 14.44,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/150x150/qt/55/5026720_1.jpg",
-        "https://i.ebayimg.com/images/g/OZEAAeSwNoVq7znY/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/mmQAAeSwSUNqmJAc/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/150x150/qt/55/5026720_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/vhRNQ/5026720_1/re/300x300/qt/55/5026720_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-ferrari-sf-24-f1-race-car-77242-5026720",
       "landed_cost": null,
       "breakeven_sell": 24.21,
       "sell_for_minimum_profit": 33.78,
@@ -17642,19 +18879,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 14.45,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg",
-        "https://i.ebayimg.com/images/g/ZD0AAeSwTU5p9mRa/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/s1sAAeSwRRNqvHeX/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/150x150/qt/55/5027142_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/mInZ9/5027142_1/re/300x300/qt/55/5027142_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-oracle-red-bull-racing-rb20-f1-race-car-77243-5027142",
       "landed_cost": null,
       "breakeven_sell": 24.22,
       "sell_for_minimum_profit": 33.79,
@@ -17728,17 +18963,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 14.98,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
+      "image_verified_until": "2026-11-13T07:40:01.746016+00:00",
+      "image_checked_at": "2026-11-13T07:20:01.746016+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/150x150/qt/55/5026689_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/1aekG/5026689_1/re/300x300/qt/55/5026689_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/2-x-lego-star-wars-clone-shock-trooper-mech-75448-discount-at-checkout-5026689",
       "landed_cost": null,
       "breakeven_sell": 24.85,
       "sell_for_minimum_profit": 34.43,
@@ -17776,9 +19011,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg",
-        "https://i.ebayimg.com/images/g/dEMAAeSweiRq7vY~/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/2d4AAeSwMAFq5frN/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -17820,9 +19053,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/150x150/qt/55/5028262_1.jpg",
-        "https://i.ebayimg.com/images/g/z7YAAeSwmOtq20X~/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/nPUAAeSwdPNq81B-/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/150x150/qt/55/5028262_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/LY3od/5028262_1/re/300x300/qt/55/5028262_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -17864,9 +19095,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/150x150/qt/55/5028558_1.jpg",
-        "https://i.ebayimg.com/images/g/iGgAAeSw8Ztq9DrG/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/BFoAAeSwGoxpnq8N/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/150x150/qt/55/5028558_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/S7rzw/5028558_1/re/300x300/qt/55/5028558_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18026,18 +19255,16 @@
       "merchant": "Amazon",
       "item_price": 15.2,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
-      "image_verified_until": "2026-11-13T07:36:54.468823+00:00",
-      "image_checked_at": "2026-11-13T07:16:54.468823+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/150x150/qt/55/5031151_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/150x150/qt/55/5027630_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-5031151",
+      "thumb": "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-discount-at-checkout-5027630",
       "landed_cost": null,
       "breakeven_sell": 25.11,
       "sell_for_minimum_profit": 34.69,
@@ -18069,19 +19296,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 15.29,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg",
-        "https://i.ebayimg.com/images/g/KiMAAeSwM~Nq4yWr/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/DUYAAeSwDjxq9FOd/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/150x150/qt/55/5027263_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/kQMeo/5027263_1/re/300x300/qt/55/5027263_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-charmander-and-geodudes-cavern-clash-72157-5027263",
       "landed_cost": null,
       "breakeven_sell": 25.22,
       "sell_for_minimum_profit": 34.8,
@@ -18119,9 +19344,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/150x150/qt/55/5028448_1.jpg",
-        "https://i.ebayimg.com/images/g/8ysAAeSwVkNqsoke/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/OBQAAeSw5NJqg09o/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/150x150/qt/55/5028448_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/Mnxmp/5028448_1/re/300x300/qt/55/5028448_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18157,19 +19380,17 @@
       "offer_ambiguity": null,
       "merchant": "Joybuy",
       "item_price": 15.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg",
-        "https://i.ebayimg.com/images/g/vSAAAeSwLKBq82ci/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/D1cAAeSwiIVqmpsl/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/150x150/qt/55/5027010_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/4I7fv/5027010_1/re/300x300/qt/55/5027010_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-21587-zombie-dungeon-5027010",
       "landed_cost": null,
       "breakeven_sell": 26.06,
       "sell_for_minimum_profit": 35.64,
@@ -18207,9 +19428,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/150x150/qt/55/5028505_1.jpg",
-        "https://i.ebayimg.com/images/g/sFsAAeSwQe1qhbFE/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/dZIAAeSwsV9psXe-/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/150x150/qt/55/5028505_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/OAQet/5028505_1/re/300x300/qt/55/5028505_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18332,9 +19551,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/150x150/qt/55/5028499_1.jpg",
-        "https://i.ebayimg.com/images/g/0AEAAeSwHIdq6Rxf/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/hV0AAeSwIdhq8unQ/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/150x150/qt/55/5028499_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/FNy23/5028499_1/re/300x300/qt/55/5028499_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18418,9 +19635,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ohbvg/5028576_1/re/300x300/qt/55/5028576_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Ohbvg/5028576_1/re/150x150/qt/55/5028576_1.jpg",
-        "https://i.ebayimg.com/images/g/HLkAAeSwkElq8wDJ/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/01oAAeSwVRBq3nuw/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/Ohbvg/5028576_1/re/150x150/qt/55/5028576_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/Ohbvg/5028576_1/re/300x300/qt/55/5028576_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18462,9 +19677,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg",
-        "https://i.ebayimg.com/images/g/vHUAAeSwPMVqvBrp/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Pc0AAeSwAGdq8DWV/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18482,45 +19695,6 @@
       "first_seen": "2026-11-10T21:18:01+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Retro+Roller+Skate+31148&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "OnePlus Nord Buds 2 Thunder Grey Wireless Earphones, Free Store Collection",
-      "url": "https://www.hotukdeals.com/deals/oneplus-nord-buds-2-thunder-grey-wireless-earphones-free-store-collection-5031495",
-      "policy_key": "c8a8a1e9ccf72e1d75cd5e29",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Laptops Direct",
-      "item_price": 19.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/YUsy8/5031495_1/re/150x150/qt/55/5031495_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/oneplus-nord-buds-2-thunder-grey-wireless-earphones-free-store-collection-5031495",
-      "landed_cost": null,
-      "breakeven_sell": 28.38,
-      "sell_for_minimum_profit": 38.25,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T07:17:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=OnePlus+Nord+Buds+2+Thunder+Grey+Wireless+Earphones%2C+Free+Store+Collection&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -18581,19 +19755,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 21.5,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+      "image_verified_until": "2026-11-13T07:40:01.746016+00:00",
+      "image_checked_at": "2026-11-13T07:20:01.746016+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
         "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/150x150/qt/55/5025155_1.jpg",
         "https://i.ebayimg.com/images/g/YhAAAeSwsNlq7bfz/s-l225.jpg",
         "https://i.ebayimg.com/images/g/gbQAAeSw9RFq7r68/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/uzv4N/5025155_1/re/300x300/qt/55/5025155_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5025155",
       "landed_cost": null,
       "breakeven_sell": 32.66,
       "sell_for_minimum_profit": 42.96,
@@ -18667,19 +19841,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 23.26,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/150x150/qt/55/5027785_1.jpg",
-        "https://i.ebayimg.com/images/g/EIwAAeSwuaRq7emo/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/2zUAAeSwDQ1q0LeD/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/150x150/qt/55/5027785_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/XKOVb/5027785_1/re/300x300/qt/55/5027785_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-fortnite-supply-drop-77080-5027785",
       "landed_cost": null,
       "breakeven_sell": 34.76,
       "sell_for_minimum_profit": 45.92,
@@ -18711,19 +19883,17 @@
       "offer_ambiguity": null,
       "merchant": "Joybuy",
       "item_price": 24.5,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/150x150/qt/55/5027979_1.jpg",
-        "https://i.ebayimg.com/images/g/a6YAAeSwqd1q8FOk/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/eywAAeSwsKFqptWT/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/150x150/qt/55/5027979_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/f2IY5/5027979_1/re/300x300/qt/55/5027979_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-21276-the-creeper-5027979",
       "landed_cost": null,
       "breakeven_sell": 36.25,
       "sell_for_minimum_profit": 47.99,
@@ -18737,45 +19907,6 @@
       "first_seen": "2026-11-10T10:13:57+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+21276+The+Creeper&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "HMD Amped Buds Wireless Earphones with Integrated Powerbank - Black",
-      "url": "https://www.hotukdeals.com/deals/hmd-amped-buds-wireless-earphones-with-integrated-powerbank-black-5031506",
-      "policy_key": "e8d8a4ec785d6b46082076c7",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Laptops Direct",
-      "item_price": 25.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/gVAuS/5031506_1/re/150x150/qt/55/5031506_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/hmd-amped-buds-wireless-earphones-with-integrated-powerbank-black-5031506",
-      "landed_cost": null,
-      "breakeven_sell": 35.78,
-      "sell_for_minimum_profit": 48.11,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T07:17:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HMD+Amped+Buds+Wireless+Earphones+with+Integrated+Powerbank&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -18800,9 +19931,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/150x150/qt/55/5028523_1.jpg",
-        "https://i.ebayimg.com/images/g/WeIAAeSwfgVqzjuw/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/NasAAeSwkMRq0l~L/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/150x150/qt/55/5028523_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/cRpOT/5028523_1/re/300x300/qt/55/5028523_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18880,19 +20009,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon France",
       "item_price": 27.59,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg",
-        "https://i.ebayimg.com/images/g/MVsAAeSwLDBq8IBD/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/0sYAAeSwjQZqw96O/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5028097",
       "landed_cost": null,
       "breakeven_sell": 39.95,
       "sell_for_minimum_profit": 53.18,
@@ -18930,9 +20057,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/150x150/qt/55/5028766_1.jpg",
-        "https://i.ebayimg.com/images/g/YMoAAeSwrTNq8gxE/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/bUwAAeSw9blq619j/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/150x150/qt/55/5028766_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/5U1Qg/5028766_1/re/300x300/qt/55/5028766_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19091,19 +20216,19 @@
       "offer_ambiguity": null,
       "merchant": "Argos",
       "item_price": 35.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
+      "image_verified_until": "2026-11-13T07:40:01.746016+00:00",
+      "image_checked_at": "2026-11-13T07:20:01.746016+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/150x150/qt/55/5025592_1.jpg",
         "https://i.ebayimg.com/images/g/PX8AAeSw-ERqLXX8/s-l225.jpg",
         "https://i.ebayimg.com/images/g/D~sAAeSwX4xqlDOt/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/3eYcJ/5025592_1/re/300x300/qt/55/5025592_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-smart-play-mos-eisley-cantina-75425-wcode-5025592",
       "landed_cost": null,
       "breakeven_sell": 48.82,
       "sell_for_minimum_profit": 65.59,
@@ -19216,19 +20341,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 36.57,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/150x150/qt/55/5027982_1.jpg",
-        "https://i.ebayimg.com/images/g/uaoAAeSwqmpqVhPO/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/qOAAAeSw1~xq77ly/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/150x150/qt/55/5027982_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/ovcUg/5027982_1/re/300x300/qt/55/5027982_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-the-ender-dragon-21595-5027982",
       "landed_cost": null,
       "breakeven_sell": 50.7,
       "sell_for_minimum_profit": 68.23,
@@ -19260,19 +20383,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon Germany",
       "item_price": 39.14,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/150x150/qt/55/5026563_1.jpg",
-        "https://i.ebayimg.com/images/g/UeAAAeSw-hpq71Sw/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/7NkAAeSwr0dq4Llo/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/150x150/qt/55/5026563_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/2loFd/5026563_1/re/300x300/qt/55/5026563_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-1966-ford-gt40-mkii-racing-car-42223-5026563",
       "landed_cost": null,
       "breakeven_sell": 53.78,
       "sell_for_minimum_profit": 72.54,
@@ -19304,17 +20425,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon France",
       "item_price": 39.19,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/150x150/qt/55/5026835_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/bch7b/5026835_1/re/300x300/qt/55/5026835_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-40820-up-scaled-santa-minifgure-5026835",
       "landed_cost": null,
       "breakeven_sell": 53.85,
       "sell_for_minimum_profit": 72.62,
@@ -19334,45 +20455,6 @@
       }
     },
     {
-      "title": "Marvel's Wolverine (PS5) - Used: Like New - w/code sold by Boomerang Video Games",
-      "url": "https://www.hotukdeals.com/deals/marvels-wolverine-ps5-used-like-new-wcode-sold-by-boomerang-video-games-5031499",
-      "policy_key": "983376bdca344f499eff08e2",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 39.89,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/KYXNs/5031499_1/re/150x150/qt/55/5031499_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/marvels-wolverine-ps5-used-like-new-wcode-sold-by-boomerang-video-games-5031499",
-      "landed_cost": null,
-      "breakeven_sell": 51.44,
-      "sell_for_minimum_profit": 70.28,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T07:17:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Marvel%27s+Wolverine+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Friends Friendship Tree House Hangout 42652",
       "url": "https://www.hotukdeals.com/deals/lego-friends-friendship-tree-house-hangout-42652-5026472",
       "policy_key": "8612b3f54865c9eed6973812",
@@ -19385,19 +20467,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 39.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg",
-        "https://i.ebayimg.com/images/g/-UQAAeSwEjtqlbpL/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/czgAAeSw7Odq2Rhf/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-friends-friendship-tree-house-hangout-42652-5026472",
       "landed_cost": null,
       "breakeven_sell": 54.8,
       "sell_for_minimum_profit": 73.96,
@@ -19471,19 +20551,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 41.63,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
+      "image_verified_until": "2026-11-13T07:40:01.746016+00:00",
+      "image_checked_at": "2026-11-13T07:20:01.746016+00:00",
       "image_candidates": [
         "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
         "https://i.ebayimg.com/images/g/gUIAAeSwUL5q5J4h/s-l225.jpg",
         "https://i.ebayimg.com/images/g/GscAAeSwGV1q49Wn/s-l225.jpg",
         "https://i.ebayimg.com/images/g/xNYAAeSw6xpqk2qg/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-eevee-and-laprass-treasure-hunt-72162-5025058",
       "landed_cost": null,
       "breakeven_sell": 56.76,
       "sell_for_minimum_profit": 76.72,
@@ -19515,19 +20595,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 42.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/150x150/qt/55/5028115_1.jpg",
-        "https://i.ebayimg.com/images/g/vlEAAeSwSulq854C/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/TYUAAeSwVPlqsjkS/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/150x150/qt/55/5028115_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/3LhKq/5028115_1/re/300x300/qt/55/5028115_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-home-one-starcruiser-75405-5028115",
       "landed_cost": null,
       "breakeven_sell": 57.21,
       "sell_for_minimum_profit": 77.33,
@@ -19607,9 +20685,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/150x150/qt/55/5028779_1.jpg",
-        "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/mKIAAeSwVqBq8xnx/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/150x150/qt/55/5028779_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19651,9 +20727,7 @@
       "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg",
-        "https://i.ebayimg.com/images/g/EWEAAeSw01lqEChB/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/mKIAAeSwVqBq8xnx/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19714,50 +20788,6 @@
       "priority": 10,
       "first_seen": "2026-11-07T14:19:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+TIE+Bomber+75347&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Star Wars 75415 Kylo Ren Helmet (\u00a340 w/ email sign up) - Black Friday Price Guarantee - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-kylo-ren-helmet-building-set-for-adults-75415-ps40-w-email-sig-up-black-friday-promise-free-cc-5029044",
-      "policy_key": "dc3f300f4bb20c29c80f7b16",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 45.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-      "image_verified_until": "2026-11-13T07:37:48.903067+00:00",
-      "image_checked_at": "2026-11-13T07:17:48.903067+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/150x150/qt/55/5029044_1.jpg",
-        "https://i.ebayimg.com/images/g/wf4AAeSwBYpq8GQC/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/5L4AAeSwyOBq7ze8/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/oPM3o/5029044_1/re/300x300/qt/55/5029044_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-kylo-ren-helmet-building-set-for-adults-75415-ps40-w-email-sig-up-black-friday-promise-free-cc-5029044",
-      "landed_cost": null,
-      "breakeven_sell": 60.8,
-      "sell_for_minimum_profit": 82.36,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-11T00:17:17+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+75415+Kylo+Ren+Helmet+%28&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -19861,19 +20891,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 49.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
+      "image_verified_until": "2026-11-13T07:40:01.746016+00:00",
+      "image_checked_at": "2026-11-13T07:20:01.746016+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
         "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/150x150/qt/55/5025121_1.jpg",
         "https://i.ebayimg.com/images/g/k0oAAeSwe55q16wN/s-l225.jpg",
         "https://i.ebayimg.com/images/g/ZG4AAeSw7cFp~vOa/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/54idA/5025121_1/re/300x300/qt/55/5025121_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-ideas-polaroid-onestep-sx-70-camera-21345-5025121",
       "landed_cost": null,
       "breakeven_sell": 65.59,
       "sell_for_minimum_profit": 89.06,
@@ -19947,19 +20977,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 55.09,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg",
-        "https://i.ebayimg.com/images/g/oxIAAeSw5Rdq5H7~/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/M74AAeSwq4NqwodP/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/150x150/qt/55/5027634_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/woLpS/5027634_1/re/300x300/qt/55/5027634_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-lewis-hamilton-helmet-43022-discount-at-checkout-5027634",
       "landed_cost": null,
       "breakeven_sell": 72.89,
       "sell_for_minimum_profit": 99.28,
@@ -20033,19 +21061,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 55.1,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
-        "https://i.ebayimg.com/images/g/VsMAAeSw~bdqH7jw/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/s5wAAeSwz3dq6Mvu/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-ferrari-f2004-michael-schumacher-11375-discount-at-checkout-5027625",
       "landed_cost": null,
       "breakeven_sell": 72.9,
       "sell_for_minimum_profit": 99.31,
@@ -20119,19 +21145,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 56.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/150x150/qt/55/5027625_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/300x300/qt/55/5025990_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg",
-        "https://i.ebayimg.com/images/g/VsMAAeSw~bdqH7jw/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/s5wAAeSwz3dq6Mvu/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/NHE5u/5025990_1/re/150x150/qt/55/5025990_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/q1PHF/5027625_1/re/300x300/qt/55/5027625_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-ferrari-f2004-michael-schumacher-11375-discount-at-checkout-5027625",
       "landed_cost": null,
       "breakeven_sell": 75.16,
       "sell_for_minimum_profit": 102.46,
@@ -20164,18 +21190,16 @@
       "merchant": "Amazon",
       "item_price": 57.0,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
-      "image_verified_until": "2026-11-13T07:36:54.468823+00:00",
-      "image_checked_at": "2026-11-13T07:16:54.468823+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/150x150/qt/55/5030772_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/150x150/qt/55/5026254_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-5030772",
+      "thumb": "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-discount-at-checkout-5026254",
       "landed_cost": null,
       "breakeven_sell": 75.18,
       "sell_for_minimum_profit": 102.47,
@@ -20333,19 +21357,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 60.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
+      "image_verified_until": "2026-11-13T07:39:49.621072+00:00",
+      "image_checked_at": "2026-11-13T07:19:49.621072+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/150x150/qt/55/5027954_1.jpg",
-        "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ImQAAeSwnkJoek98/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/150x150/qt/55/5027954_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/PyFEi/5027954_1/re/300x300/qt/55/5027954_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-fortnite-battle-bus-77073-5027954",
       "landed_cost": null,
       "breakeven_sell": 78.76,
       "sell_for_minimum_profit": 107.51,
@@ -20359,45 +21381,6 @@
       "first_seen": "2026-11-10T09:42:59+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Fortnite+Battle+Bus+77073&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Nike Sportswear Air Max 90 Men's Shoes - Premium Chrome / Black / Gamma Blue (Sizes 6 - 11)",
-      "url": "https://www.hotukdeals.com/deals/nike-sportswear-air-max-90-premium-chromeblackgamma-blue-sizes-6-11-5031510",
-      "policy_key": "002ab897f02a1eb967594f15",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Pro:Direct",
-      "item_price": 60.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/hXXgY/5031510_1/re/150x150/qt/55/5031510_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nike-sportswear-air-max-90-premium-chromeblackgamma-blue-sizes-6-11-5031510",
-      "landed_cost": null,
-      "breakeven_sell": 78.37,
-      "sell_for_minimum_profit": 100.36,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T07:17:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Sportswear+Air+Max+90+Men%27s+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -21010,6 +21993,45 @@
       "priority": 0,
       "first_seen": "2026-11-10T06:36:47+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Jedi%3A+Survivor+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Star Wars: Jedi: Survivor (PS5) - Refurbished: Very Good - w/code - sold by Boomerang Video Games",
+      "url": "https://www.hotukdeals.com/deals/star-wars-jedi-survivor-ps5-refurbished-very-good-wcode-sold-by-boomerang-video-games-5031505",
+      "policy_key": "2c8c3e0965e5b80c9ed68112",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 9.49,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/uLabh/5031505_1/re/150x150/qt/55/5031505_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-jedi-survivor-ps5-refurbished-very-good-wcode-sold-by-boomerang-video-games-5031505",
+      "landed_cost": null,
+      "breakeven_sell": 15.55,
+      "sell_for_minimum_profit": 24.99,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T07:17:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Jedi%3A+Survivor+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -22813,6 +23835,45 @@
       }
     },
     {
+      "title": "OnePlus Nord Buds 2 Thunder Grey Wireless Earphones, Free Store Collection",
+      "url": "https://www.hotukdeals.com/deals/oneplus-nord-buds-2-thunder-grey-wireless-earphones-free-store-collection-5031495",
+      "policy_key": "c8a8a1e9ccf72e1d75cd5e29",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Laptops Direct",
+      "item_price": 19.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/YUsy8/5031495_1/re/150x150/qt/55/5031495_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/oneplus-nord-buds-2-thunder-grey-wireless-earphones-free-store-collection-5031495",
+      "landed_cost": null,
+      "breakeven_sell": 28.38,
+      "sell_for_minimum_profit": 38.25,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T07:17:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=OnePlus+Nord+Buds+2+Thunder+Grey+Wireless+Earphones%2C+Free+Store+Collection&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Death Howl PS5 Physical",
       "url": "https://www.hotukdeals.com/deals/death-howl-ps5-physical-5027588",
       "policy_key": "509d428fdc4181c9ef4604d2",
@@ -23041,45 +24102,6 @@
       "first_seen": "2026-11-12T15:50:57+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=God+of+War+Ragnar%C3%B6k+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)",
-      "url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-ps5-5026771",
-      "policy_key": "4823cffb64a14236549759f1",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 20.3,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/P8raH/5026771_1/re/150x150/qt/55/5026771_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/no-sleep-for-kaname-date-from-ai-the-somnium-files-ps5-5026771",
-      "landed_cost": null,
-      "breakeven_sell": 28.31,
-      "sell_for_minimum_profit": 37.91,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-09T06:36:26+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=No+Sleep+For+Kaname+Date&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -23885,6 +24907,45 @@
       }
     },
     {
+      "title": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition (Nintendo Switch 2 Game)",
+      "url": "https://www.hotukdeals.com/deals/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-nintendo-switch-2-game-5031512",
+      "policy_key": "556fdaaf7227cd49e88662f5",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Hit",
+      "item_price": 24.85,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/gMA79/5031512_1/re/150x150/qt/55/5031512_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-nintendo-switch-2-game-5031512",
+      "landed_cost": null,
+      "breakeven_sell": 33.68,
+      "sell_for_minimum_profit": 45.43,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T07:17:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DRAGON+QUEST+XI+S%3A+Echoes+of+an+Elusive+Age&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Ghost Of Tsushima Director's Cut (PS5)",
       "url": "https://www.hotukdeals.com/deals/ghost-of-tsushima-directors-cut-ps5-5029135",
       "policy_key": "85f48cd875702723993d55ad",
@@ -24246,6 +25307,45 @@
       "priority": 0,
       "first_seen": "2026-11-12T08:46:46+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Liverpool+25%2F26+Pre-Match+Shirt%2C+Size+S-L+%28+for+members%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "HMD Amped Buds Wireless Earphones with Integrated Powerbank - Black",
+      "url": "https://www.hotukdeals.com/deals/hmd-amped-buds-wireless-earphones-with-integrated-powerbank-black-5031506",
+      "policy_key": "e8d8a4ec785d6b46082076c7",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Laptops Direct",
+      "item_price": 25.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/gVAuS/5031506_1/re/150x150/qt/55/5031506_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/hmd-amped-buds-wireless-earphones-with-integrated-powerbank-black-5031506",
+      "landed_cost": null,
+      "breakeven_sell": 35.78,
+      "sell_for_minimum_profit": 48.11,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T07:17:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HMD+Amped+Buds+Wireless+Earphones+with+Integrated+Powerbank&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -26503,6 +27603,45 @@
       }
     },
     {
+      "title": "Marvel's Wolverine (PS5) - Used: Like New - w/code sold by Boomerang Video Games",
+      "url": "https://www.hotukdeals.com/deals/marvels-wolverine-ps5-used-like-new-wcode-sold-by-boomerang-video-games-5031499",
+      "policy_key": "983376bdca344f499eff08e2",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 39.89,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/KYXNs/5031499_1/re/150x150/qt/55/5031499_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/marvels-wolverine-ps5-used-like-new-wcode-sold-by-boomerang-video-games-5031499",
+      "landed_cost": null,
+      "breakeven_sell": 51.44,
+      "sell_for_minimum_profit": 70.28,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T07:17:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Marvel%27s+Wolverine+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "007 First Light (PS5 / Xbox Series X) - PEGI 16 - Free Click & Collect",
       "url": "https://www.hotukdeals.com/deals/007-first-light-ps5-xbox-series-x-5029063",
       "policy_key": "db8a1f89f4d63c097801d71a",
@@ -28259,6 +29398,45 @@
       "priority": 0,
       "first_seen": "2026-11-11T07:51:59+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=New+Balance+Womens+796+v4+Padel+Shoes%2C+White%2C+Size+4.5-7%2C+%28+for+members%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Nike Sportswear Air Max 90 Men's Shoes - Premium Chrome / Black / Gamma Blue (Sizes 6 - 11)",
+      "url": "https://www.hotukdeals.com/deals/nike-sportswear-air-max-90-premium-chromeblackgamma-blue-sizes-6-11-5031510",
+      "policy_key": "002ab897f02a1eb967594f15",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Pro:Direct",
+      "item_price": 60.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/hXXgY/5031510_1/re/150x150/qt/55/5031510_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nike-sportswear-air-max-90-premium-chromeblackgamma-blue-sizes-6-11-5031510",
+      "landed_cost": null,
+      "breakeven_sell": 78.37,
+      "sell_for_minimum_profit": 100.36,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T07:17:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Sportswear+Air+Max+90+Men%27s+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
