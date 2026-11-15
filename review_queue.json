@@ -2,6 +2,543 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "LEGO Fortnite - 77073 - Battle Bus - Brand New & Sealed",
+      "url": "https://www.ebay.co.uk/itm/920033021268",
+      "policy_key": "ca1fe7bd8d0fb8d9340553a9",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 69.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://i.ebayimg.com/images/g/hNcAAeSwkIlqzQWE/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/ImQAAeSwnkJoek98/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/iv8AAeSwGcVoelRa/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/920033021268",
+      "landed_cost": 73.69999999999999,
+      "breakeven_sell": 95.18,
+      "sell_for_minimum_profit": 130.47,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-15T05:44:40+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Fortnite&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 77073",
+        "category": "lego",
+        "name_terms": [
+          "battle",
+          "bus",
+          "fortnite"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-15T05:44:45+00:00",
+        "date": "2026-11-15",
+        "sample_count": 4,
+        "listed_total_low": 8.07,
+        "listed_total_p25": 8.47,
+        "listed_total_median": 8.6,
+        "listed_total_p75": 9.27,
+        "listed_total_high": 11.28,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|286715078243|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715078243",
+            "title": "LEGO Fortnite - FORT003 Bright Bomber - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.45,
+            "shipping": 2.62,
+            "listed_total": 8.07
+          },
+          {
+            "item_id": "v1|286715067973|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/ImQAAeSwnkJoek98/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715067973",
+            "title": "LEGO Fortnite - FORT001 Battalion Brawler - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.98,
+            "shipping": 2.62,
+            "listed_total": 8.6
+          },
+          {
+            "item_id": "v1|286715092971|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/iv8AAeSwGcVoelRa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715092971",
+            "title": "LEGO Fortnite - FORT006 Cube Assassin - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.98,
+            "shipping": 2.62,
+            "listed_total": 8.6
+          },
+          {
+            "item_id": "v1|286715102396|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/jJEAAeSwCC9oelWa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715102396",
+            "title": "LEGO Fortnite - FORT008 Meowscles - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 8.66,
+            "shipping": 2.62,
+            "listed_total": 11.28
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 46
+        },
+        "query_aliases": [
+          "LEGO Fortnite - 77073 - Battle Bus - Brand New & Sealed"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 77073",
+        "observed_at": "2026-11-15T05:44:45+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 8.07,
+        "competition_high": 8.07,
+        "estimated_resale": 7.82,
+        "estimated_range": [
+          7.26,
+          8.07
+        ],
+        "suggested_listing": 8.06,
+        "quick_sale_model": 7.26,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 69.99,
+        "delivery_known": true,
+        "landed_cost": 73.69999999999999,
+        "net": -72.82,
+        "roi": -98.8,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 0,
+        "max_item_buy": -3.71,
+        "delivery_headroom": -69.99,
+        "fees": 1.42,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.23,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 7.03,
+        "review_stress_net": -73.48,
+        "review_stress_roi": -99.7,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|286715078243|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715078243",
+            "title": "LEGO Fortnite - FORT003 Bright Bomber - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.45,
+            "shipping": 2.62,
+            "listed_total": 8.07,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
+      "title": "Lego Fortnite Battle Bus (77073) Brand New, Free Postage",
+      "url": "https://www.ebay.co.uk/itm/287000884592",
+      "policy_key": "afb8b6dc3720bc3a575a9842",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 79.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://i.ebayimg.com/images/g/PAUAAOSwODFn5Ao-/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/ImQAAeSwnkJoek98/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/iv8AAeSwGcVoelRa/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/287000884592",
+      "landed_cost": 79.99,
+      "breakeven_sell": 102.7,
+      "sell_for_minimum_profit": 141.03,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-07T23:58:44+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Fortnite+Battle+Bus+%2877073%29+Brand+New%2C+Free+Postage&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 77073",
+        "category": "lego",
+        "name_terms": [
+          "battle",
+          "bus",
+          "fortnite",
+          "postage"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-15T05:44:45+00:00",
+        "date": "2026-11-15",
+        "sample_count": 4,
+        "listed_total_low": 8.07,
+        "listed_total_p25": 8.47,
+        "listed_total_median": 8.6,
+        "listed_total_p75": 9.27,
+        "listed_total_high": 11.28,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|286715078243|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715078243",
+            "title": "LEGO Fortnite - FORT003 Bright Bomber - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.45,
+            "shipping": 2.62,
+            "listed_total": 8.07
+          },
+          {
+            "item_id": "v1|286715067973|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/ImQAAeSwnkJoek98/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715067973",
+            "title": "LEGO Fortnite - FORT001 Battalion Brawler - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.98,
+            "shipping": 2.62,
+            "listed_total": 8.6
+          },
+          {
+            "item_id": "v1|286715092971|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/iv8AAeSwGcVoelRa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715092971",
+            "title": "LEGO Fortnite - FORT006 Cube Assassin - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.98,
+            "shipping": 2.62,
+            "listed_total": 8.6
+          },
+          {
+            "item_id": "v1|286715102396|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/jJEAAeSwCC9oelWa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715102396",
+            "title": "LEGO Fortnite - FORT008 Meowscles - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 8.66,
+            "shipping": 2.62,
+            "listed_total": 11.28
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 46
+        },
+        "query_aliases": [
+          "Lego Fortnite Battle Bus (77073) Brand New, Free Postage"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 77073",
+        "observed_at": "2026-11-15T05:44:45+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 8.07,
+        "competition_high": 8.07,
+        "estimated_resale": 7.82,
+        "estimated_range": [
+          7.26,
+          8.07
+        ],
+        "suggested_listing": 8.06,
+        "quick_sale_model": 7.26,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 79.99,
+        "delivery_known": true,
+        "landed_cost": 79.99,
+        "net": -79.11,
+        "roi": -98.9,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 0,
+        "max_item_buy": 0.0,
+        "delivery_headroom": -79.99,
+        "fees": 1.42,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.23,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 7.03,
+        "review_stress_net": -79.77,
+        "review_stress_roi": -99.7,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|286715078243|0",
+            "seller": "icklebricks",
+            "image": "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286715078243",
+            "title": "LEGO Fortnite - FORT003 Bright Bomber - from Battle Bus 77073",
+            "declared_condition": "new",
+            "item_price": 5.45,
+            "shipping": 2.62,
+            "listed_total": 8.07,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "LEGO Minecraft The Pale Garden 21586 - Discount at checkout",
       "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-wvoucher-5026858",
       "policy_key": "04716e586b5d10553ef8cb1c",
@@ -16,8 +553,8 @@
       "item_price": 10.92,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/300x300/qt/55/5026858_1.jpg",
         "https://images.hotukdeals.com/threads/raw/babAQ/5026858_1/re/150x150/qt/55/5026858_1.jpg",
@@ -1767,8 +2304,8 @@
       "item_price": 14.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/300x300/qt/55/5029962_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wzYEM/5029962_1/re/150x150/qt/55/5029962_1.jpg",
@@ -3286,8 +3823,8 @@
       "item_price": 16.14,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/300x300/qt/55/5026618_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AcInY/5026618_1/re/150x150/qt/55/5026618_1.jpg",
@@ -4805,8 +5342,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/150x150/qt/55/5029194_1.jpg",
@@ -5951,8 +6488,8 @@
       "item_price": 36.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QJg1x/5032015_1/re/300x300/qt/55/5032015_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QJg1x/5032015_1/re/300x300/qt/55/5032015_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QJg1x/5032015_1/re/150x150/qt/55/5032015_1.jpg",
@@ -6685,8 +7222,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
         "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/150x150/qt/55/5029274_1.jpg",
@@ -7745,18 +8282,18 @@
       "merchant": "Very",
       "item_price": 39.99,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/150x150/qt/55/5029163_1.jpg",
-        "https://i.ebayimg.com/images/g/dzUAAeSwEQFq-K2I/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/dzUAAeSwEQFq-K2I/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/KDEAAeSwj7pqsTsu/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/50YAv/5029274_1/re/300x300/qt/55/5029274_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-43279-wall-e-and-eve-set-5029274",
+      "thumb": "https://images.hotukdeals.com/threads/raw/qAo2g/5029163_1/re/300x300/qt/55/5029163_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-pixar-wall-e-and-eve-set-43279-5029163",
       "landed_cost": null,
       "breakeven_sell": 54.8,
       "sell_for_minimum_profit": 73.96,
@@ -8864,810 +9401,6 @@
       }
     },
     {
-      "title": "LEGO Friends Friendship Tree House Hangout 42652",
-      "url": "https://www.hotukdeals.com/deals/lego-friends-friendship-tree-house-hangout-42652-5026472",
-      "policy_key": "8612b3f54865c9eed6973812",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 39.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg",
-        "https://i.ebayimg.com/images/g/czgAAeSw7Odq2Rhf/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/-UQAAeSwEjtqlbpL/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-friends-friendship-tree-house-hangout-42652-5026472",
-      "landed_cost": null,
-      "breakeven_sell": 54.8,
-      "sell_for_minimum_profit": 73.96,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-08T19:01:53+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Friends+Friendship+Tree+House+Hangout+42652&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 42652",
-        "category": "lego",
-        "name_terms": [
-          "friends",
-          "friendship",
-          "hangout",
-          "house",
-          "tree"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-14T23:24:11+00:00",
-        "date": "2026-11-14",
-        "sample_count": 14,
-        "listed_total_low": 50.88,
-        "listed_total_p25": 59.25,
-        "listed_total_median": 64.71,
-        "listed_total_p75": 66.05,
-        "listed_total_high": 83.94,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|960097677457|0",
-            "seller": "sunderland1981",
-            "image": "https://i.ebayimg.com/images/g/czgAAeSw7Odq2Rhf/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960097677457",
-            "title": "LEGO Friends Friendship Tree House Hangout 42652 701pcs Age 8+",
-            "declared_condition": "new",
-            "item_price": 47.5,
-            "shipping": 3.38,
-            "listed_total": 50.88
-          },
-          {
-            "item_id": "v1|158267409962|0",
-            "seller": "tranquil_sales",
-            "image": "https://i.ebayimg.com/images/g/-UQAAeSwEjtqlbpL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/158267409962",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout Building Kit",
-            "declared_condition": "new",
-            "item_price": 47.49,
-            "shipping": 3.71,
-            "listed_total": 51.2
-          },
-          {
-            "item_id": "v1|307233267464|0",
-            "seller": "tra-960348",
-            "image": "https://i.ebayimg.com/images/g/EDgAAeSwKhxq0Tl8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307233267464",
-            "title": "LEGO Friends: Friendship Tree House Hangout (42652) 701 Pieces",
-            "declared_condition": "new",
-            "item_price": 52.18,
-            "shipping": 3.71,
-            "listed_total": 55.89
-          },
-          {
-            "item_id": "v1|800856947171|0",
-            "seller": "esda_sales",
-            "image": "https://i.ebayimg.com/images/g/qmwAAeSwLKBq5Qen/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800856947171",
-            "title": "LEGO Friends Friendship Tree House Hangout Building Set 42652 BNIB",
-            "declared_condition": "new",
-            "item_price": 55.3,
-            "shipping": 3.71,
-            "listed_total": 59.01
-          },
-          {
-            "item_id": "v1|257840243702|0",
-            "seller": "cashconnectors",
-            "image": "https://i.ebayimg.com/images/g/LEoAAeSwbNlq7vj8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257840243702",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 0.0,
-            "listed_total": 59.99
-          },
-          {
-            "item_id": "v1|960162612600|0",
-            "seller": "theorienthoney",
-            "image": "https://i.ebayimg.com/images/g/SZQAAeSwrWlq7foE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960162612600",
-            "title": "LEGO Friends Friendship Tree House Hangout 42652 Multicolor",
-            "declared_condition": "new",
-            "item_price": 61.19,
-            "shipping": 0.0,
-            "listed_total": 61.19
-          },
-          {
-            "item_id": "v1|267835037226|0",
-            "seller": "williamedwards",
-            "image": "https://i.ebayimg.com/images/g/16oAAeSw8nxq7Sk1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267835037226",
-            "title": "LEGO Friends Tree House 42652 Friendship Hangout Toy Set Building Blocks",
-            "declared_condition": "new",
-            "item_price": 64.71,
-            "shipping": 0.0,
-            "listed_total": 64.71
-          },
-          {
-            "item_id": "v1|267780478948|0",
-            "seller": "zatugames",
-            "image": "https://i.ebayimg.com/images/g/BvAAAeSwcvRqoV~K/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267780478948",
-            "title": "LEGO Friends 42652 hip Tree House Hangout  - Brand New",
-            "declared_condition": "new",
-            "item_price": 64.71,
-            "shipping": 0.0,
-            "listed_total": 64.71
-          },
-          {
-            "item_id": "v1|187929347963|0",
-            "seller": "georgedonaldwarehouseltd",
-            "image": "https://i.ebayimg.com/images/g/02kAAeSwP~5pX9j~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/187929347963",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 4.99,
-            "listed_total": 64.98
-          },
-          {
-            "item_id": "v1|860128526633|0",
-            "seller": "muha398372",
-            "image": "https://i.ebayimg.com/images/g/tmkAAeSwBMdq8gj9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860128526633",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout Set",
-            "declared_condition": "new",
-            "item_price": 65.17,
-            "shipping": 0.0,
-            "listed_total": 65.17
-          },
-          {
-            "item_id": "v1|377561519381|0",
-            "seller": "ihaveit_music",
-            "image": "https://i.ebayimg.com/images/g/G1cAAeSwd1dq-H0o/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377561519381",
-            "title": "Lego - 42652 Friends Friendship Tree House Hangout - construct - P2222z",
-            "declared_condition": "new",
-            "item_price": 66.34,
-            "shipping": 0.0,
-            "listed_total": 66.34
-          },
-          {
-            "item_id": "v1|127810009284|0",
-            "seller": "clacl_201",
-            "image": "https://i.ebayimg.com/images/g/z6gAAeSwdJBp3lKR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127810009284",
-            "title": "LEGO FRIENDS: Friendship Tree House Hangout (42652)",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 3.71,
-            "listed_total": 66.81
-          },
-          {
-            "item_id": "v1|377631337211|0",
-            "seller": "ihaveit_music",
-            "image": "https://i.ebayimg.com/images/g/Y-AAAeSwJuNq8kHe/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377631337211",
-            "title": "Lego - FRIENDS 42652 Friendship Tree House Meetup - Construction bloc - Q1823z",
-            "declared_condition": "new",
-            "item_price": 74.35,
-            "shipping": 0.0,
-            "listed_total": 74.35
-          },
-          {
-            "item_id": "v1|880075492272|0",
-            "seller": "booghe_toys",
-            "image": "https://i.ebayimg.com/images/g/7uEAAeSwFAJq6KzV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880075492272",
-            "title": "LEGO Friends Friendship Tree House Hangout 42652 Building Set 701 Pieces 8+",
-            "declared_condition": "new",
-            "item_price": 83.94,
-            "shipping": 0.0,
-            "listed_total": 83.94
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 7
-        },
-        "query_aliases": [
-          "LEGO Friends Friendship Tree House Hangout 42652"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 42652",
-        "observed_at": "2026-11-14T23:24:11+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 13,
-        "seller_count": 13,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 3,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 50.88,
-        "competition_high": 83.94,
-        "estimated_resale": 49.35,
-        "estimated_range": [
-          45.79,
-          50.88
-        ],
-        "suggested_listing": 50.87,
-        "quick_sale_model": 45.79,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 39.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -4.55,
-        "max_landed_buy": 25.31,
-        "max_item_buy": null,
-        "delivery_headroom": -14.68,
-        "fees": 7.14,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 1.48,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 44.41,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 25.44,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|960097677457|0",
-            "seller": "sunderland1981",
-            "image": "https://i.ebayimg.com/images/g/czgAAeSw7Odq2Rhf/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960097677457",
-            "title": "LEGO Friends Friendship Tree House Hangout 42652 701pcs Age 8+",
-            "declared_condition": "new",
-            "item_price": 47.5,
-            "shipping": 3.38,
-            "listed_total": 50.88,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|158267409962|0",
-            "seller": "tranquil_sales",
-            "image": "https://i.ebayimg.com/images/g/-UQAAeSwEjtqlbpL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/158267409962",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout Building Kit",
-            "declared_condition": "new",
-            "item_price": 47.49,
-            "shipping": 3.71,
-            "listed_total": 51.2,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|307233267464|0",
-            "seller": "tra-960348",
-            "image": "https://i.ebayimg.com/images/g/EDgAAeSwKhxq0Tl8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307233267464",
-            "title": "LEGO Friends: Friendship Tree House Hangout (42652) 701 Pieces",
-            "declared_condition": "new",
-            "item_price": 52.18,
-            "shipping": 3.71,
-            "listed_total": 55.89,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|800856947171|0",
-            "seller": "esda_sales",
-            "image": "https://i.ebayimg.com/images/g/qmwAAeSwLKBq5Qen/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800856947171",
-            "title": "LEGO Friends Friendship Tree House Hangout Building Set 42652 BNIB",
-            "declared_condition": "new",
-            "item_price": 55.3,
-            "shipping": 3.71,
-            "listed_total": 59.01,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|257840243702|0",
-            "seller": "cashconnectors",
-            "image": "https://i.ebayimg.com/images/g/LEoAAeSwbNlq7vj8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257840243702",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 0.0,
-            "listed_total": 59.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|960162612600|0",
-            "seller": "theorienthoney",
-            "image": "https://i.ebayimg.com/images/g/SZQAAeSwrWlq7foE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960162612600",
-            "title": "LEGO Friends Friendship Tree House Hangout 42652 Multicolor",
-            "declared_condition": "new",
-            "item_price": 61.19,
-            "shipping": 0.0,
-            "listed_total": 61.19,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267835037226|0",
-            "seller": "williamedwards",
-            "image": "https://i.ebayimg.com/images/g/16oAAeSw8nxq7Sk1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267835037226",
-            "title": "LEGO Friends Tree House 42652 Friendship Hangout Toy Set Building Blocks",
-            "declared_condition": "new",
-            "item_price": 64.71,
-            "shipping": 0.0,
-            "listed_total": 64.71,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267780478948|0",
-            "seller": "zatugames",
-            "image": "https://i.ebayimg.com/images/g/BvAAAeSwcvRqoV~K/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267780478948",
-            "title": "LEGO Friends 42652 hip Tree House Hangout  - Brand New",
-            "declared_condition": "new",
-            "item_price": 64.71,
-            "shipping": 0.0,
-            "listed_total": 64.71,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|187929347963|0",
-            "seller": "georgedonaldwarehouseltd",
-            "image": "https://i.ebayimg.com/images/g/02kAAeSwP~5pX9j~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/187929347963",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 4.99,
-            "listed_total": 64.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860128526633|0",
-            "seller": "muha398372",
-            "image": "https://i.ebayimg.com/images/g/tmkAAeSwBMdq8gj9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860128526633",
-            "title": "LEGO Friends 42652 Friendship Tree House Hangout Set",
-            "declared_condition": "new",
-            "item_price": 65.17,
-            "shipping": 0.0,
-            "listed_total": 65.17,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Friends Friendship Tree House Hangout 42652",
-        "query": "LEGO 42652",
-        "kind": "active_ask",
-        "listing": 50.87,
-        "observed_at": "2026-11-14T23:24:11+00:00",
-        "valid_until": "2026-11-15T05:24:11+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/960097677457",
-          "https://www.ebay.co.uk/itm/158267409962",
-          "https://www.ebay.co.uk/itm/307233267464",
-          "https://www.ebay.co.uk/itm/800856947171",
-          "https://www.ebay.co.uk/itm/257840243702",
-          "https://www.ebay.co.uk/itm/960162612600",
-          "https://www.ebay.co.uk/itm/267835037226",
-          "https://www.ebay.co.uk/itm/267780478948",
-          "https://www.ebay.co.uk/itm/187929347963",
-          "https://www.ebay.co.uk/itm/860128526633"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/960097677457",
-            "LEGO Friends Friendship Tree House Hangout 42652 701pcs Age 8+",
-            50.88,
-            3.38,
-            47.5,
-            "sunderland1981"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/158267409962",
-            "LEGO Friends 42652 Friendship Tree House Hangout Building Kit",
-            51.2,
-            3.71,
-            47.49,
-            "tranquil_sales"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/307233267464",
-            "LEGO Friends: Friendship Tree House Hangout (42652) 701 Pieces",
-            55.89,
-            3.71,
-            52.18,
-            "tra-960348"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/800856947171",
-            "LEGO Friends Friendship Tree House Hangout Building Set 42652 BNIB",
-            59.01,
-            3.71,
-            55.3,
-            "esda_sales"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/257840243702",
-            "LEGO Friends 42652 Friendship Tree House Hangout",
-            59.99,
-            0.0,
-            59.99,
-            "cashconnectors"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/960162612600",
-            "LEGO Friends Friendship Tree House Hangout 42652 Multicolor",
-            61.19,
-            0.0,
-            61.19,
-            "theorienthoney"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267835037226",
-            "LEGO Friends Tree House 42652 Friendship Hangout Toy Set Building Blocks",
-            64.71,
-            0.0,
-            64.71,
-            "williamedwards"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267780478948",
-            "LEGO Friends 42652 hip Tree House Hangout  - Brand New",
-            64.71,
-            0.0,
-            64.71,
-            "zatugames"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/187929347963",
-            "LEGO Friends 42652 Friendship Tree House Hangout",
-            64.98,
-            4.99,
-            59.99,
-            "georgedonaldwarehouseltd"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/860128526633",
-            "LEGO Friends 42652 Friendship Tree House Hangout Set",
-            65.17,
-            0.0,
-            65.17,
-            "muha398372"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Icons Leonardo da Vinci's Flying Machine 10363",
       "url": "https://www.hotukdeals.com/deals/lego-icons-leonardo-da-vincis-flying-machine-10363-5031460",
       "policy_key": "4e992d26d38709b608db1ffa",
@@ -9682,8 +9415,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pk8zs/5031460_1/re/300x300/qt/55/5031460_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pk8zs/5031460_1/re/300x300/qt/55/5031460_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pk8zs/5031460_1/re/150x150/qt/55/5031460_1.jpg"
@@ -10710,8 +10443,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/300x300/qt/55/5027516_1.jpg",
         "https://images.hotukdeals.com/threads/raw/L9HYd/5027516_1/re/150x150/qt/55/5027516_1.jpg",
@@ -11477,8 +11210,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/300x300/qt/55/5032054_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/300x300/qt/55/5032054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/150x150/qt/55/5032054_1.jpg",
@@ -12358,8 +12091,8 @@
       "item_price": 47.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/300x300/qt/55/5029324_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jg624/5029324_1/re/150x150/qt/55/5029324_1.jpg",
@@ -13222,8 +12955,8 @@
       "item_price": 64.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zuuah/5031672_1/re/300x300/qt/55/5031672_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zuuah/5031672_1/re/300x300/qt/55/5031672_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zuuah/5031672_1/re/150x150/qt/55/5031672_1.jpg"
@@ -13425,8 +13158,8 @@
       "item_price": 72.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kMNCK/5032533_1/re/300x300/qt/55/5032533_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kMNCK/5032533_1/re/300x300/qt/55/5032533_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kMNCK/5032533_1/re/150x150/qt/55/5032533_1.jpg"
@@ -14254,8 +13987,8 @@
       "item_price": 102.47,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PCu9p/5031730_1/re/300x300/qt/55/5031730_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PCu9p/5031730_1/re/300x300/qt/55/5031730_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PCu9p/5031730_1/re/150x150/qt/55/5031730_1.jpg"
@@ -15370,6 +15103,435 @@
       }
     },
     {
+      "title": "Planet Zoo: Console Edition (Xbox Series X)",
+      "url": "https://www.hotukdeals.com/deals/planet-zoo-console-edition-xbox-series-x-5031987",
+      "policy_key": "51d49b9912b9f59faa21f72e",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 14.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/TTxZu/5031987_1/re/150x150/qt/55/5031987_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/planet-zoo-console-edition-xbox-series-x-5031987",
+      "landed_cost": null,
+      "breakeven_sell": 22.04,
+      "sell_for_minimum_profit": 31.48,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-13T14:49:35+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Planet+Zoo%3A+Console+Edition+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "planet zoo console edition xbox series x",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-15T05:44:41+00:00",
+        "date": "2026-11-15",
+        "sample_count": 5,
+        "listed_total_low": 19.67,
+        "listed_total_p25": 19.8,
+        "listed_total_median": 25.0,
+        "listed_total_p75": 29.25,
+        "listed_total_high": 41.85,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|198692867939|0",
+            "seller": "top*uk*shop",
+            "image": "https://i.ebayimg.com/images/g/3lQAAeSwVHBqxOvq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198692867939",
+            "title": "Planet Zoo: Console Edition (Xbox Series X)",
+            "declared_condition": "new",
+            "item_price": 19.67,
+            "shipping": 0.0,
+            "listed_total": 19.67
+          },
+          {
+            "item_id": "v1|236947282873|0",
+            "seller": "wowtrust",
+            "image": "https://i.ebayimg.com/images/g/JTUAAeSwvA9qXCEM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236947282873",
+            "title": "Planet Zoo: Console Edition (Xbox Series X)",
+            "declared_condition": "new",
+            "item_price": 19.8,
+            "shipping": 0.0,
+            "listed_total": 19.8
+          },
+          {
+            "item_id": "v1|137361266772|0",
+            "seller": "bluekash44",
+            "image": "https://i.ebayimg.com/images/g/LuYAAeSwn7VqGvff/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137361266772",
+            "title": "Planet Zoo: Console Edition Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 25.0,
+            "shipping": 0.0,
+            "listed_total": 25.0
+          },
+          {
+            "item_id": "v1|128061561872|0",
+            "seller": "arks4u",
+            "image": "https://i.ebayimg.com/images/g/t9YAAeSwi0pqmsKM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128061561872",
+            "title": "Planet Zoo: Console Edition (Xbox Series X)",
+            "declared_condition": "new",
+            "item_price": 29.25,
+            "shipping": 0.0,
+            "listed_total": 29.25
+          },
+          {
+            "item_id": "v1|176534445966|0",
+            "seller": "shopto_outlet",
+            "image": "https://i.ebayimg.com/images/g/s8sAAOSwTNZmxLOp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/176534445966",
+            "title": "Planet Zoo: Console Edition - Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 41.85,
+            "shipping": 0.0,
+            "listed_total": 41.85
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 1
+        },
+        "query_aliases": [
+          "Planet Zoo: Console Edition (Xbox Series X)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "planet zoo console edition xbox series x",
+        "observed_at": "2026-11-15T05:44:41+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 5,
+        "seller_count": 5,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 19.67,
+        "competition_high": 41.85,
+        "estimated_resale": 19.07,
+        "estimated_range": [
+          17.7,
+          19.67
+        ],
+        "suggested_listing": 19.66,
+        "quick_sale_model": 17.7,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 14.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -2.52,
+        "max_landed_buy": 4.47,
+        "max_item_buy": null,
+        "delivery_headroom": -10.52,
+        "fees": 2.83,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.57,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 17.16,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 2.47,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|198692867939|0",
+            "seller": "top*uk*shop",
+            "image": "https://i.ebayimg.com/images/g/3lQAAeSwVHBqxOvq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198692867939",
+            "title": "Planet Zoo: Console Edition (Xbox Series X)",
+            "declared_condition": "new",
+            "item_price": 19.67,
+            "shipping": 0.0,
+            "listed_total": 19.67,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|236947282873|0",
+            "seller": "wowtrust",
+            "image": "https://i.ebayimg.com/images/g/JTUAAeSwvA9qXCEM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236947282873",
+            "title": "Planet Zoo: Console Edition (Xbox Series X)",
+            "declared_condition": "new",
+            "item_price": 19.8,
+            "shipping": 0.0,
+            "listed_total": 19.8,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137361266772|0",
+            "seller": "bluekash44",
+            "image": "https://i.ebayimg.com/images/g/LuYAAeSwn7VqGvff/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137361266772",
+            "title": "Planet Zoo: Console Edition Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 25.0,
+            "shipping": 0.0,
+            "listed_total": 25.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128061561872|0",
+            "seller": "arks4u",
+            "image": "https://i.ebayimg.com/images/g/t9YAAeSwi0pqmsKM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128061561872",
+            "title": "Planet Zoo: Console Edition (Xbox Series X)",
+            "declared_condition": "new",
+            "item_price": 29.25,
+            "shipping": 0.0,
+            "listed_total": 29.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|176534445966|0",
+            "seller": "shopto_outlet",
+            "image": "https://i.ebayimg.com/images/g/s8sAAOSwTNZmxLOp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/176534445966",
+            "title": "Planet Zoo: Console Edition - Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 41.85,
+            "shipping": 0.0,
+            "listed_total": 41.85,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "Planet Zoo: Console Edition (Xbox Series X)",
+        "query": "planet zoo console edition xbox series x",
+        "kind": "active_ask",
+        "listing": 19.66,
+        "observed_at": "2026-11-15T05:44:41+00:00",
+        "valid_until": "2026-11-15T11:44:41+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/198692867939",
+          "https://www.ebay.co.uk/itm/236947282873",
+          "https://www.ebay.co.uk/itm/137361266772",
+          "https://www.ebay.co.uk/itm/128061561872",
+          "https://www.ebay.co.uk/itm/176534445966"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/198692867939",
+            "Planet Zoo: Console Edition (Xbox Series X)",
+            19.67,
+            0.0,
+            19.67,
+            "top*uk*shop"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/236947282873",
+            "Planet Zoo: Console Edition (Xbox Series X)",
+            19.8,
+            0.0,
+            19.8,
+            "wowtrust"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/137361266772",
+            "Planet Zoo: Console Edition Xbox Series X",
+            25.0,
+            0.0,
+            25.0,
+            "bluekash44"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/128061561872",
+            "Planet Zoo: Console Edition (Xbox Series X)",
+            29.25,
+            0.0,
+            29.25,
+            "arks4u"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/176534445966",
+            "Planet Zoo: Console Edition - Xbox Series X",
+            41.85,
+            0.0,
+            41.85,
+            "shopto_outlet"
+          ]
+        ],
+        "category": "gaming"
+      }
+    },
+    {
       "title": "Battlefield 6 Phantom Edition XBOX Series X | Disc",
       "url": "https://www.hotukdeals.com/deals/battlefield-6-phantom-edition-xbox-series-x-disc-videogame-english-5026685",
       "policy_key": "8e9f308abc00d8ba8598bfcd",
@@ -15450,7 +15612,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-15T05:11:38+00:00",
+        "canonicalized_at": "2026-11-15T05:43:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Battlefield 6 Phantom Edition XBOX Series X | Disc"
@@ -15740,7 +15902,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-15T05:11:38+00:00",
+        "canonicalized_at": "2026-11-15T05:43:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES (PS5)"
@@ -16086,7 +16248,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-15T05:11:38+00:00",
+        "canonicalized_at": "2026-11-15T05:43:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Valor Mortis Xbox Series X"
@@ -16425,7 +16587,7 @@
         "rejected": {
           "identity_or_condition": 40
         },
-        "canonicalized_at": "2026-11-15T05:11:38+00:00",
+        "canonicalized_at": "2026-11-15T05:43:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Death Stranding 2: On The Beach (PS5)"
@@ -16841,7 +17003,7 @@
         "rejected": {
           "identity_or_condition": 19
         },
-        "canonicalized_at": "2026-11-15T05:11:38+00:00",
+        "canonicalized_at": "2026-11-15T05:43:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Onimusha Way of the Sword Premium Deluxe PS5"
@@ -17045,21 +17207,154 @@
         },
         "detail_required": true,
         "lowest_detail": {
-          "status": "awaiting_detail_budget",
+          "item_id": "v1|133894859397|0",
+          "observed_at": "2026-11-15T05:43:27+00:00",
+          "status": "conflict",
           "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+            "tool model mismatch"
           ],
+          "gtin": "5055995562724",
+          "mpn": "DCK276N DCK276PT BARE TOOLS",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DCK276N DCK276PT BARE TOOLS"
+            },
+            {
+              "type": "STRING",
+              "name": "Set Includes",
+              "value": "Attachments"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Technology",
+              "value": "Lithium-Ion (Li-Ion)"
+            },
+            {
+              "type": "STRING",
+              "name": "Number of Batteries",
+              "value": "0"
+            },
+            {
+              "type": "STRING",
+              "name": "Motor Type",
+              "value": "Brushless"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Source",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Power Drills"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "DeWalt"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18 V"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Included",
+              "value": "No"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "DCK276N-KIT"
+            },
+            {
+              "type": "STRING",
+              "name": "Number of Items in Set",
+              "value": "2"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Compact"
+            },
+            {
+              "type": "STRING",
+              "name": "Corded/ Cordless",
+              "value": "Cordless"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage (V)",
+              "value": "18"
+            },
+            {
+              "type": "STRING",
+              "name": "Sub-Type",
+              "value": "Drill"
+            },
+            {
+              "type": "STRING",
+              "name": "Manufacturer",
+              "value": "DeWalt"
+            },
+            {
+              "type": "STRING",
+              "name": "Drill Type",
+              "value": "Twin Pack"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "5055995562724"
+            }
+          ],
+          "checked_item_price": 214.69,
+          "identity_query": "DeWalt DCF887N bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME",
+                "SELLER_ARRANGED_LOCAL_PICKUP"
+              ],
+              "availabilityThresholdType": "MORE_THAN",
+              "availabilityThreshold": 10,
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedSoldQuantity": 31,
+              "estimatedRemainingQuantity": 44
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/133894859397",
+          "title": "Dewalt DCK276 18v Brushless DCD996N Combi Drill DCF887N Impact Driver Bare",
+          "fixed_shipping": 0.0,
           "sub_checks": [
             {
-              "sub_check_failed": "other",
-              "expected": "verified_fields within detail budget",
-              "observed": "awaiting_detail_budget",
-              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-              "note": "detail allocation window closed this scan"
+              "sub_check_failed": "title_model_number_missing",
+              "expected": "DCF887N",
+              "observed": "DCK276N-KIT DCK276N DCK276PT BARE TOOLS",
+              "reason": "tool model mismatch"
             }
+          ],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
           ]
         },
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "conflict",
         "query_aliases": [
           "DeWalt DCF887N 18V XR Brushless Impact Driver (Body Only)"
         ]
@@ -17067,7 +17362,7 @@
       "ask_estimate": {
         "model": "competitor-asks-v1",
         "category": "tools",
-        "detail_status": "awaiting_detail_budget",
+        "detail_status": "conflict",
         "competitor_coupon_unknown": true,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "DeWalt DCF887N bare tool 18V",
@@ -17136,7 +17431,7 @@
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Lowest comparator details unverified/conflicting: conflict; cheap observation retained, no buying signal",
           "Low competing offers advertise coupons; check effective competition before buying",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
@@ -17171,7 +17466,92 @@
       },
       "publication_proof": {
         "ok": false,
-        "reason": "detail_check_pending"
+        "reason": "detail_check_failed"
+      }
+    },
+    {
+      "title": "LEGO Festive Gingerbread House 40809",
+      "url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5033263",
+      "policy_key": "bd3becb3cfc39fa0d6218e16",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon Germany",
+      "item_price": 26.1,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/300x300/qt/55/5033263_1.jpg",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/300x300/qt/55/5033263_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/150x150/qt/55/5033263_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/300x300/qt/55/5033263_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5033263",
+      "landed_cost": null,
+      "breakeven_sell": 38.16,
+      "sell_for_minimum_profit": 50.68,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-15T05:44:40+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Festive+Gingerbread+House+40809&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "lego Fortnite Battle Bus 77073 - Build Only, No Figs or Box",
+      "url": "https://www.ebay.co.uk/itm/147318748055",
+      "policy_key": "c39f573cff50f643971fcb0b",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 49.0,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://i.ebayimg.com/images/g/dj4AAeSwZXNqDHPf/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/YFgAAeSw-7poelG0/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/ImQAAeSwnkJoek98/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/iv8AAeSwGcVoelRa/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/147318748055",
+      "landed_cost": 49.0,
+      "breakeven_sell": 65.59,
+      "sell_for_minimum_profit": 89.06,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-07T23:58:44+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=lego+Fortnite+Battle+Bus+77073&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
       }
     },
     {
@@ -17189,8 +17569,8 @@
       "item_price": 6.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XtPH1/5031146_1/re/300x300/qt/55/5031146_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XtPH1/5031146_1/re/300x300/qt/55/5031146_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XtPH1/5031146_1/re/150x150/qt/55/5031146_1.jpg"
@@ -17231,8 +17611,8 @@
       "item_price": 6.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8CNtw/5032513_1/re/300x300/qt/55/5032513_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8CNtw/5032513_1/re/300x300/qt/55/5032513_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8CNtw/5032513_1/re/150x150/qt/55/5032513_1.jpg"
@@ -17273,8 +17653,8 @@
       "item_price": 6.75,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4trpf/5030580_1/re/300x300/qt/55/5030580_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4trpf/5030580_1/re/300x300/qt/55/5030580_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4trpf/5030580_1/re/150x150/qt/55/5030580_1.jpg",
@@ -17317,8 +17697,8 @@
       "item_price": 6.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3V5RP/5033081_1/re/300x300/qt/55/5033081_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3V5RP/5033081_1/re/300x300/qt/55/5033081_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3V5RP/5033081_1/re/150x150/qt/55/5033081_1.jpg"
@@ -17359,8 +17739,8 @@
       "item_price": 8.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/300x300/qt/55/5029068_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wL6t5/5029068_1/re/150x150/qt/55/5029068_1.jpg",
@@ -17403,8 +17783,8 @@
       "item_price": 9.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/300x300/qt/55/5032908_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/300x300/qt/55/5032908_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/150x150/qt/55/5032908_1.jpg"
@@ -17445,8 +17825,8 @@
       "item_price": 10.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/J4ZOt/5031147_1/re/300x300/qt/55/5031147_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/J4ZOt/5031147_1/re/300x300/qt/55/5031147_1.jpg",
         "https://images.hotukdeals.com/threads/raw/J4ZOt/5031147_1/re/150x150/qt/55/5031147_1.jpg"
@@ -17660,8 +18040,8 @@
       "item_price": 12.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fubYL/5031918_1/re/300x300/qt/55/5031918_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fubYL/5031918_1/re/300x300/qt/55/5031918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fubYL/5031918_1/re/150x150/qt/55/5031918_1.jpg"
@@ -17702,8 +18082,8 @@
       "item_price": 12.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/A3ahe/5032244_1/re/300x300/qt/55/5032244_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/A3ahe/5032244_1/re/300x300/qt/55/5032244_1.jpg",
         "https://images.hotukdeals.com/threads/raw/A3ahe/5032244_1/re/150x150/qt/55/5032244_1.jpg"
@@ -17744,8 +18124,8 @@
       "item_price": 12.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/HFDXT/5030778_1/re/300x300/qt/55/5030778_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/HFDXT/5030778_1/re/300x300/qt/55/5030778_1.jpg",
         "https://images.hotukdeals.com/threads/raw/HFDXT/5030778_1/re/150x150/qt/55/5030778_1.jpg"
@@ -17786,8 +18166,8 @@
       "item_price": 12.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/300x300/qt/55/5029092_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tM5Lk/5029092_1/re/150x150/qt/55/5029092_1.jpg"
@@ -17828,8 +18208,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/J0rTr/5031889_1/re/300x300/qt/55/5031889_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/J0rTr/5031889_1/re/300x300/qt/55/5031889_1.jpg",
         "https://images.hotukdeals.com/threads/raw/J0rTr/5031889_1/re/150x150/qt/55/5031889_1.jpg"
@@ -17909,8 +18289,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/300x300/qt/55/5028918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JQ1W1/5028918_1/re/150x150/qt/55/5028918_1.jpg",
@@ -17953,8 +18333,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6bDJ5/5032038_1/re/300x300/qt/55/5032038_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6bDJ5/5032038_1/re/300x300/qt/55/5032038_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6bDJ5/5032038_1/re/150x150/qt/55/5032038_1.jpg",
@@ -17997,8 +18377,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/300x300/qt/55/5030054_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/300x300/qt/55/5030054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PR55V/5030054_1/re/150x150/qt/55/5030054_1.jpg"
@@ -18039,8 +18419,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/300x300/qt/55/5030051_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/300x300/qt/55/5030051_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TO9Lc/5030051_1/re/150x150/qt/55/5030051_1.jpg",
@@ -18083,8 +18463,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/300x300/qt/55/5030257_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4MeAS/5030257_1/re/150x150/qt/55/5030257_1.jpg",
@@ -18215,8 +18595,8 @@
       "item_price": 14.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/300x300/qt/55/5029030_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TCUXG/5029030_1/re/150x150/qt/55/5029030_1.jpg"
@@ -18299,8 +18679,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/300x300/qt/55/5029499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IKxOA/5029499_1/re/150x150/qt/55/5029499_1.jpg",
@@ -18512,8 +18892,8 @@
       "item_price": 15.2,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
         "https://images.hotukdeals.com/threads/raw/XWjLt/5027630_1/re/300x300/qt/55/5027630_1.jpg",
@@ -18683,8 +19063,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gKo6F/5032271_1/re/300x300/qt/55/5032271_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gKo6F/5032271_1/re/300x300/qt/55/5032271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gKo6F/5032271_1/re/150x150/qt/55/5032271_1.jpg",
@@ -18727,8 +19107,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gKo6F/5032271_1/re/300x300/qt/55/5032271_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gKo6F/5032271_1/re/300x300/qt/55/5032271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gKo6F/5032271_1/re/150x150/qt/55/5032271_1.jpg"
@@ -18813,8 +19193,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/300x300/qt/55/5031151_1.jpg",
         "https://images.hotukdeals.com/threads/raw/W5MDc/5031151_1/re/150x150/qt/55/5031151_1.jpg",
@@ -18857,8 +19237,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/M5NDm/5031695_1/re/300x300/qt/55/5031695_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/M5NDm/5031695_1/re/300x300/qt/55/5031695_1.jpg",
         "https://images.hotukdeals.com/threads/raw/M5NDm/5031695_1/re/150x150/qt/55/5031695_1.jpg"
@@ -18943,8 +19323,8 @@
       "item_price": 17.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KxsvR/5030302_1/re/300x300/qt/55/5030302_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KxsvR/5030302_1/re/300x300/qt/55/5030302_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KxsvR/5030302_1/re/150x150/qt/55/5030302_1.jpg",
@@ -18987,8 +19367,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9PSE3/5029194_1/re/300x300/qt/55/5029194_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ohbvg/5028576_1/re/300x300/qt/55/5028576_1.jpg",
@@ -19031,8 +19411,8 @@
       "item_price": 18.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/300x300/qt/55/5028847_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QSFQN/5028847_1/re/150x150/qt/55/5028847_1.jpg",
@@ -19114,8 +19494,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FXaJ9/5030395_1/re/300x300/qt/55/5030395_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FXaJ9/5030395_1/re/300x300/qt/55/5030395_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FXaJ9/5030395_1/re/150x150/qt/55/5030395_1.jpg",
@@ -19158,8 +19538,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IBbov/5031701_1/re/300x300/qt/55/5031701_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IBbov/5031701_1/re/300x300/qt/55/5031701_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBbov/5031701_1/re/150x150/qt/55/5031701_1.jpg"
@@ -19286,8 +19666,8 @@
       "item_price": 23.26,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G3kZa/5032246_1/re/300x300/qt/55/5032246_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G3kZa/5032246_1/re/300x300/qt/55/5032246_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G3kZa/5032246_1/re/150x150/qt/55/5032246_1.jpg"
@@ -19328,8 +19708,8 @@
       "item_price": 24.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G3kZa/5032246_1/re/300x300/qt/55/5032246_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G3kZa/5032246_1/re/300x300/qt/55/5032246_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G3kZa/5032246_1/re/150x150/qt/55/5032246_1.jpg",
@@ -19455,8 +19835,8 @@
       "item_price": 27.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/300x300/qt/55/5030247_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ak6II/5030247_1/re/150x150/qt/55/5030247_1.jpg",
@@ -19497,19 +19877,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon France",
       "item_price": 27.59,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/300x300/qt/55/5033263_1.jpg",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/300x300/qt/55/5033263_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/150x150/qt/55/5033263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/300x300/qt/55/5028097_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg",
-        "https://i.ebayimg.com/images/g/0sYAAeSwjQZqw96O/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/fbYAAeSwApNq1MSw/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/DNOLa/5028097_1/re/150x150/qt/55/5028097_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/K2sGq/5033263_1/re/300x300/qt/55/5033263_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5033263",
       "landed_cost": null,
       "breakeven_sell": 39.95,
       "sell_for_minimum_profit": 53.18,
@@ -19626,8 +20006,8 @@
       "item_price": 31.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RKSKL/5031090_1/re/300x300/qt/55/5031090_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RKSKL/5031090_1/re/300x300/qt/55/5031090_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RKSKL/5031090_1/re/150x150/qt/55/5031090_1.jpg"
@@ -19707,8 +20087,8 @@
       "item_price": 35.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/nI4bI/5030802_1/re/300x300/qt/55/5030802_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/nI4bI/5030802_1/re/300x300/qt/55/5030802_1.jpg",
         "https://images.hotukdeals.com/threads/raw/nI4bI/5030802_1/re/150x150/qt/55/5030802_1.jpg"
@@ -19897,6 +20277,84 @@
       "priority": 10,
       "first_seen": "2026-11-09T08:39:25+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+40820+Up+Scaled+Santa+Minifgure&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 40820",
+        "category": "lego",
+        "name_terms": [
+          "minifgure",
+          "santa",
+          "scaled",
+          "up"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-15T05:44:41+00:00",
+        "date": "2026-11-15",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 50
+        },
+        "query_aliases": [
+          "LEGO 40820 Up Scaled Santa Minifgure"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Friends Friendship Tree House Hangout 42652",
+      "url": "https://www.hotukdeals.com/deals/lego-friends-friendship-tree-house-hangout-42652-5026472",
+      "policy_key": "8612b3f54865c9eed6973812",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 39.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/300x300/qt/55/5026472_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/SuS7n/5026472_1/re/150x150/qt/55/5026472_1.jpg",
+        "https://i.ebayimg.com/images/g/czgAAeSw7Odq2Rhf/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/-UQAAeSwEjtqlbpL/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 54.8,
+      "sell_for_minimum_profit": 73.96,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-08T19:01:53+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Friends+Friendship+Tree+House+Hangout+42652&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -19918,8 +20376,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/300x300/qt/55/5029758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JfWM4/5029758_1/re/150x150/qt/55/5029758_1.jpg",
@@ -19962,8 +20420,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rtw66/5032943_1/re/300x300/qt/55/5032943_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rtw66/5032943_1/re/300x300/qt/55/5032943_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rtw66/5032943_1/re/150x150/qt/55/5032943_1.jpg"
@@ -20087,8 +20545,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9uS19/5028779_1/re/300x300/qt/55/5028779_1.jpg",
@@ -20131,8 +20589,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/300x300/qt/55/5029359_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQoFR/5029359_1/re/150x150/qt/55/5029359_1.jpg",
@@ -20175,8 +20633,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/300x300/qt/55/5032054_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/300x300/qt/55/5032054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/150x150/qt/55/5032054_1.jpg"
@@ -20217,8 +20675,8 @@
       "item_price": 45.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/300x300/qt/55/5030245_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/300x300/qt/55/5030245_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZGMcZ/5030245_1/re/150x150/qt/55/5030245_1.jpg",
@@ -20261,8 +20719,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/300x300/qt/55/5030278_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jzaI3/5030278_1/re/150x150/qt/55/5030278_1.jpg",
@@ -20305,8 +20763,8 @@
       "item_price": 49.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pstDL/5030790_1/re/300x300/qt/55/5030790_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pstDL/5030790_1/re/300x300/qt/55/5030790_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pstDL/5030790_1/re/150x150/qt/55/5030790_1.jpg",
@@ -20393,8 +20851,8 @@
       "item_price": 55.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/300x300/qt/55/5029984_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ItFcC/5029984_1/re/150x150/qt/55/5029984_1.jpg",
@@ -20481,8 +20939,8 @@
       "item_price": 55.73,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AFfo9/5031400_1/re/300x300/qt/55/5031400_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AFfo9/5031400_1/re/300x300/qt/55/5031400_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AFfo9/5031400_1/re/150x150/qt/55/5031400_1.jpg"
@@ -20523,8 +20981,8 @@
       "item_price": 57.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
         "https://images.hotukdeals.com/threads/raw/t16Q6/5026254_1/re/300x300/qt/55/5026254_1.jpg",
@@ -20567,8 +21025,8 @@
       "item_price": 58.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/300x300/qt/55/5029161_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PB3cF/5029161_1/re/150x150/qt/55/5029161_1.jpg"
@@ -20609,8 +21067,8 @@
       "item_price": 58.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
-      "image_verified_until": "2026-11-15T05:32:29.308142+00:00",
-      "image_checked_at": "2026-11-15T05:12:29.308142+00:00",
+      "image_verified_until": "2026-11-15T06:04:46.416718+00:00",
+      "image_checked_at": "2026-11-15T05:44:46.416718+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/300x300/qt/55/5030772_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lIwkl/5030772_1/re/150x150/qt/55/5030772_1.jpg",
@@ -20633,48 +21091,6 @@
       "first_seen": "2026-11-12T11:38:34+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Haunted+Mansion+31167&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Airport with Airplane - 887 Pieces",
-      "url": "https://www.hotukdeals.com/deals/lego-airport-with-airplane-887-pieces-5033262",
-      "policy_key": "a13af8313446889c6759000a",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Lidl",
-      "item_price": 59.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/300x300/qt/55/5033262_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/300x300/qt/55/5033262_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/150x150/qt/55/5033262_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/300x300/qt/55/5033262_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-airport-with-airplane-887-pieces-5033262",
-      "landed_cost": null,
-      "breakeven_sell": 78.75,
-      "sell_for_minimum_profit": 107.49,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-15T05:12:24+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Airport+with+Airplane&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -21165,8 +21581,8 @@
       "item_price": 6.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2B6aY/5031057_1/re/300x300/qt/55/5031057_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2B6aY/5031057_1/re/300x300/qt/55/5031057_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2B6aY/5031057_1/re/150x150/qt/55/5031057_1.jpg"
@@ -21186,48 +21602,6 @@
       "priority": 0,
       "first_seen": "2026-11-12T16:54:13+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Hallmark+Benny+the+Spaceman%2C+LEGO+Ornament&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Hallmark Collectable Keepsake LEGO Minifigure Elf and Teddy Ornament",
-      "url": "https://www.hotukdeals.com/deals/hallmark-collectable-keepsake-lego-minifigure-elf-and-teddy-ornament-5030943",
-      "policy_key": "60eadf6776003b98b91f620b",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 6.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/HKIv0/5030943_1/re/300x300/qt/55/5030943_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/HKIv0/5030943_1/re/300x300/qt/55/5030943_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/HKIv0/5030943_1/re/150x150/qt/55/5030943_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/HKIv0/5030943_1/re/300x300/qt/55/5030943_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/hallmark-collectable-keepsake-lego-minifigure-elf-and-teddy-ornament-5030943",
-      "landed_cost": null,
-      "breakeven_sell": 14.09,
-      "sell_for_minimum_profit": 23.68,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-12T14:47:48+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Hallmark+Collectable+Keepsake+LEGO+Minifigure+Elf+and+Teddy+Ornament&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -21710,34 +22084,7 @@
       "priority": 0,
       "first_seen": "2026-11-13T17:20:32+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dragon+Age%3A+The+Veilguard+Deluxe+Edition+PS5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "dragon age the veilguard deluxe edition sold by cs distribution vat reg fba ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-14T23:24:11+00:00",
-        "date": "2026-11-14",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "Dragon Age: The Veilguard Deluxe Edition PS5 Sold by CS DISTRIBUTION (VAT REG) / FBA"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -22502,45 +22849,6 @@
       "first_seen": "2026-11-13T20:35:27+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Trionda+World+Cup+Football+Size+5+%28Member+Price%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Planet Zoo: Console Edition (Xbox Series X)",
-      "url": "https://www.hotukdeals.com/deals/planet-zoo-console-edition-xbox-series-x-5031987",
-      "policy_key": "51d49b9912b9f59faa21f72e",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 14.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/TTxZu/5031987_1/re/150x150/qt/55/5031987_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/planet-zoo-console-edition-xbox-series-x-5031987",
-      "landed_cost": null,
-      "breakeven_sell": 22.04,
-      "sell_for_minimum_profit": 31.48,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-13T14:49:35+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Planet+Zoo%3A+Console+Edition+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -26636,8 +26944,8 @@
       "item_price": 35.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NFefQ/5030945_1/re/300x300/qt/55/5030945_1.jpg",
-      "image_verified_until": "2026-11-15T05:31:49.590987+00:00",
-      "image_checked_at": "2026-11-15T05:11:49.590987+00:00",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NFefQ/5030945_1/re/300x300/qt/55/5030945_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NFefQ/5030945_1/re/150x150/qt/55/5030945_1.jpg"
@@ -29097,6 +29405,48 @@
       "priority": 0,
       "first_seen": "2026-11-13T13:12:39+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCD796N-XJ+18V+Brushless+Combi+Hammer+Drill+%28Body+Only%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Airport with Airplane - 887 Pieces",
+      "url": "https://www.hotukdeals.com/deals/lego-airport-with-airplane-887-pieces-5033262",
+      "policy_key": "a13af8313446889c6759000a",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Lidl",
+      "item_price": 59.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/300x300/qt/55/5033262_1.jpg",
+      "image_verified_until": "2026-11-15T06:03:42.523675+00:00",
+      "image_checked_at": "2026-11-15T05:43:42.523675+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/300x300/qt/55/5033262_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/150x150/qt/55/5033262_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/bqiiK/5033262_1/re/300x300/qt/55/5033262_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-airport-with-airplane-887-pieces-5033262",
+      "landed_cost": null,
+      "breakeven_sell": 78.75,
+      "sell_for_minimum_profit": 107.49,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-15T05:12:24+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Airport+with+Airplane&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
