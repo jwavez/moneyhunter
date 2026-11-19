@@ -16,8 +16,8 @@
       "item_price": 71.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/150x150/qt/55/5038716_1.jpg",
@@ -34,7 +34,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-19T21:08:39+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego%C2%AE+City+60499+Airport+Fire+Truck+Genuine+Quality+Best+Top&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -503,10 +503,10 @@
       }
     },
     {
-      "title": "Nike P-6000 Men\u2019s Light Bone Sail Pale Ivory Trainers (IU7549-072) Size UK 7 NEW",
-      "url": "https://www.ebay.co.uk/itm/800699196363",
-      "policy_key": "6a1686d87427d9d01c3d50ad",
-      "category": "trainers",
+      "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+      "url": "https://www.ebay.co.uk/itm/188906912962",
+      "policy_key": "4c41315d94ef6b2b0fb09b15",
+      "category": "tools",
       "source": "ebay_browse",
       "price_basis": null,
       "identity_evidence": [],
@@ -514,57 +514,59 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "eBay",
-      "item_price": 59.95,
+      "item_price": 85.99,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/8-oAAeSwqrFqW5TB/s-l225.jpg",
+      "thumb": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
       "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/800699196363",
-      "landed_cost": 63.800000000000004,
-      "breakeven_sell": 82.99,
-      "sell_for_minimum_profit": 106.4,
+      "image_source_url": "https://www.ebay.co.uk/itm/188906912962",
+      "landed_cost": 85.99,
+      "breakeven_sell": 105.96,
+      "sell_for_minimum_profit": 144.92,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "landed",
       "blockers": [
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-18T14:30:40+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+P-6000+Men%E2%80%99s+Light+Bone+Sail+Pale+Ivory+Trainers+%28IU7549-072%29+Size+UK+7+NEW&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
+      "first_seen": "2026-11-08T18:31:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "Nike IU7549-072 UK 7",
-        "category": "trainers",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "category": "tools",
         "name_terms": [],
         "identity": {
           "condition": "new",
-          "brand": "Nike",
-          "style_code": "IU7549-072",
-          "uk_size": 7.0,
-          "department": "men"
+          "brand": "DeWalt",
+          "model": "DCV100",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
         },
-        "observed_at": "2026-11-19T20:36:16+00:00",
+        "observed_at": "2026-11-19T21:40:48+00:00",
         "date": "2026-11-19",
-        "sample_count": 4,
-        "listed_total_low": 63.8,
-        "listed_total_p25": 77.51,
-        "listed_total_median": 82.98,
-        "listed_total_p75": 85.18,
-        "listed_total_high": 89.09,
-        "status": "indicative_only",
+        "sample_count": 3,
+        "listed_total_low": 85.99,
+        "listed_total_p25": 85.99,
+        "listed_total_median": 85.99,
+        "listed_total_p75": 108.14,
+        "listed_total_high": 130.29,
+        "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
         ],
         "offers": [
           {
-            "item_id": "v1|800699196363|0",
-            "seller": "micgre-699",
-            "image": "https://i.ebayimg.com/images/g/8-oAAeSwqrFqW5TB/s-l225.jpg",
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -576,86 +578,59 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800699196363",
-            "title": "Nike P-6000 Men\u2019s Light Bone Sail Pale Ivory Trainers (IU7549-072) Size UK 7 NEW",
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
             "declared_condition": "new",
-            "item_price": 59.95,
-            "shipping": 3.85,
-            "listed_total": 63.8
-          },
-          {
-            "item_id": "v1|377481642286|0",
-            "seller": "smkicks18",
-            "image": "https://i.ebayimg.com/images/g/LqoAAeSwY41qoDXL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377481642286",
-            "title": "Nike P-6000 Light Bone/Sail/Grey Mesh Men's Trainers UK 7 EU 41 US 8 IU7549-072",
-            "declared_condition": "new",
-            "item_price": 78.7,
-            "shipping": 3.38,
-            "listed_total": 82.08
-          },
-          {
-            "item_id": "v1|267810578491|0",
-            "seller": "jasperskicks",
-            "image": "https://i.ebayimg.com/images/g/WEwAAeSwR-1qjsxX/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267810578491",
-            "title": "Nike P-6000 Men\u2019s Grey/White Mesh Low Top Lace-Up UK 7 IU7549-072.",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 3.89,
-            "listed_total": 83.88
-          },
-          {
-            "item_id": "v1|137874162168|0",
-            "seller": "resellvaul08",
-            "image": "https://i.ebayimg.com/images/g/oioAAeSwI1Fq3ihu/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137874162168",
-            "title": "Nike P-6000 Men\u2019s Trainers Light Bone Colour Way UK 7 EU 41 US 8 IU7549-072",
-            "declared_condition": "new",
-            "item_price": 89.09,
+            "item_price": 85.99,
             "shipping": 0.0,
-            "listed_total": 89.09
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29
           }
         ],
-        "rejected": {
-          "identity_or_condition": 21
-        },
+        "rejected": {},
         "detail_required": true,
         "lowest_detail": {
           "status": "awaiting_detail_budget",
@@ -674,57 +649,58 @@
         },
         "detail_status": "awaiting_detail_budget",
         "query_aliases": [
-          "Nike P-6000 Men\u2019s Light Bone Sail Pale Ivory Trainers (IU7549-072) Size UK 7 NEW"
+          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
         ]
       },
       "ask_estimate": {
         "model": "competitor-asks-v1",
-        "category": "trainers",
+        "category": "tools",
         "detail_status": "awaiting_detail_budget",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "Nike IU7549-072 UK 7",
-        "observed_at": "2026-11-19T20:36:16+00:00",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "observed_at": "2026-11-19T21:40:48+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 3,
-        "seller_count": 3,
+        "sample_count": 2,
+        "seller_count": 2,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 3,
+        "low_price_supporting_sellers": 1,
         "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 82.08,
-        "competition_high": 89.09,
-        "estimated_resale": 79.61,
+        "wide_spread": true,
+        "competition_low": 85.99,
+        "competition_high": 130.29,
+        "estimated_resale": 83.41,
         "estimated_range": [
-          73.87,
-          82.08
+          77.39,
+          85.99
         ],
-        "suggested_listing": 82.07,
-        "quick_sale_model": 73.87,
+        "suggested_listing": 85.98,
+        "quick_sale_model": 77.39,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
         "advertised_discount_competitors": 0,
         "same_promotion_references_excluded": 0,
         "acquisition_excluded": 1,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 59.95,
+        "item_price": 85.99,
         "delivery_known": true,
-        "landed_cost": 63.800000000000004,
-        "net": -2.78,
-        "roi": -4.4,
+        "landed_cost": 85.99,
+        "net": -19.91,
+        "roi": -23.2,
         "net_before_unknown_delivery": null,
-        "max_landed_buy": 43.58,
-        "max_item_buy": 39.73,
-        "delivery_headroom": -16.37,
-        "fees": 12.18,
-        "outbound_postage": 3.52,
+        "max_landed_buy": 47.2,
+        "max_item_buy": 47.2,
+        "delivery_headroom": -38.79,
+        "fees": 7.74,
+        "outbound_postage": 6.59,
         "packaging": 0.5,
-        "returns_allowance": 2.39,
+        "returns_allowance": 2.5,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": true,
@@ -740,12 +716,12 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 71.64,
-        "review_stress_net": -9.34,
-        "review_stress_roi": -14.6,
+        "review_stress_sale": 75.06,
+        "review_stress_net": -27.28,
+        "review_stress_roi": -31.7,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 49.46,
+        "review_max_landed_buy": 53.37,
         "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
@@ -757,9 +733,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|377481642286|0",
-            "seller": "smkicks18",
-            "image": "https://i.ebayimg.com/images/g/LqoAAeSwY41qoDXL/s-l225.jpg",
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -767,65 +743,39 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377481642286",
-            "title": "Nike P-6000 Light Bone/Sail/Grey Mesh Men's Trainers UK 7 EU 41 US 8 IU7549-072",
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
             "declared_condition": "new",
-            "item_price": 78.7,
-            "shipping": 3.38,
-            "listed_total": 82.08,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267810578491|0",
-            "seller": "jasperskicks",
-            "image": "https://i.ebayimg.com/images/g/WEwAAeSwR-1qjsxX/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267810578491",
-            "title": "Nike P-6000 Men\u2019s Grey/White Mesh Low Top Lace-Up UK 7 IU7549-072.",
-            "declared_condition": "new",
-            "item_price": 79.99,
-            "shipping": 3.89,
-            "listed_total": 83.88,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|137874162168|0",
-            "seller": "resellvaul08",
-            "image": "https://i.ebayimg.com/images/g/oioAAeSwI1Fq3ihu/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137874162168",
-            "title": "Nike P-6000 Men\u2019s Trainers Light Bone Colour Way UK 7 EU 41 US 8 IU7549-072",
-            "declared_condition": "new",
-            "item_price": 89.09,
+            "item_price": 85.99,
             "shipping": 0.0,
-            "listed_total": 89.09,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29,
             "same_acquisition_promotion": false
           }
         ]
@@ -833,6 +783,754 @@
       "publication_proof": {
         "ok": false,
         "reason": "detail_check_pending"
+      }
+    },
+    {
+      "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+      "url": "https://www.ebay.co.uk/itm/197018344217",
+      "policy_key": "5a78d02ed8d9da7477d0e8d7",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 85.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/197018344217",
+      "landed_cost": 85.99,
+      "breakeven_sell": 105.96,
+      "sell_for_minimum_profit": 144.92,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T18:31:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCV100",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-19T21:40:48+00:00",
+        "date": "2026-11-19",
+        "sample_count": 3,
+        "listed_total_low": 85.99,
+        "listed_total_p25": 85.99,
+        "listed_total_median": 85.99,
+        "listed_total_p75": 108.14,
+        "listed_total_high": 130.29,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29
+          }
+        ],
+        "rejected": {},
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|188906912962|0",
+          "observed_at": "2026-11-19T21:39:46+00:00",
+          "status": "verified_fields",
+          "reasons": [],
+          "gtin": "5035048616116",
+          "mpn": "DCV100-XJ",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Manufacturer Part Number",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "5035048616116"
+            },
+            {
+              "type": "STRING",
+              "name": "Noise Level",
+              "value": "96 dB"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "DEWALT"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Handheld Leaf Blower"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Source",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18 V"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "DeWalt DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Lightweight"
+            },
+            {
+              "type": "STRING",
+              "name": "Power",
+              "value": "1600 W"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Weight",
+              "value": "1.3 kg"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Yellow"
+            }
+          ],
+          "checked_item_price": 85.99,
+          "identity_query": "DeWalt DCV100 bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 2,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 2
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/188906912962",
+          "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "fixed_shipping": 0.0,
+          "sub_checks": [],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "verified_fields",
+        "query_aliases": [
+          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "verified_fields",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "observed_at": "2026-11-19T21:40:48+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 85.99,
+        "competition_high": 130.29,
+        "estimated_resale": 83.41,
+        "estimated_range": [
+          77.39,
+          85.99
+        ],
+        "suggested_listing": 85.98,
+        "quick_sale_model": 77.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 85.99,
+        "delivery_known": true,
+        "landed_cost": 85.99,
+        "net": -19.91,
+        "roi": -23.2,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 47.2,
+        "max_item_buy": 47.2,
+        "delivery_headroom": -38.79,
+        "fees": 7.74,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 2.5,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 75.06,
+        "review_stress_net": -27.28,
+        "review_stress_roi": -31.7,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 53.37,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
+      "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+      "url": "https://www.ebay.co.uk/itm/398384737619",
+      "policy_key": "ad661adf25d67b845a80c273",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 130.29,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/398384737619",
+      "landed_cost": 130.29,
+      "breakeven_sell": 156.12,
+      "sell_for_minimum_profit": 215.15,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T18:31:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dewalt+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCV100",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-19T21:40:48+00:00",
+        "date": "2026-11-19",
+        "sample_count": 3,
+        "listed_total_low": 85.99,
+        "listed_total_p25": 85.99,
+        "listed_total_median": 85.99,
+        "listed_total_p75": 108.14,
+        "listed_total_high": 130.29,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29
+          }
+        ],
+        "rejected": {},
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|188906912962|0",
+          "observed_at": "2026-11-19T21:39:46+00:00",
+          "status": "verified_fields",
+          "reasons": [],
+          "gtin": "5035048616116",
+          "mpn": "DCV100-XJ",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Manufacturer Part Number",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "5035048616116"
+            },
+            {
+              "type": "STRING",
+              "name": "Noise Level",
+              "value": "96 dB"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "DEWALT"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Handheld Leaf Blower"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Source",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18 V"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "DeWalt DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Lightweight"
+            },
+            {
+              "type": "STRING",
+              "name": "Power",
+              "value": "1600 W"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Weight",
+              "value": "1.3 kg"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Yellow"
+            }
+          ],
+          "checked_item_price": 85.99,
+          "identity_query": "DeWalt DCV100 bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 2,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 2
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/188906912962",
+          "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "fixed_shipping": 0.0,
+          "sub_checks": [],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "verified_fields",
+        "query_aliases": [
+          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "verified_fields",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "observed_at": "2026-11-19T21:40:48+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 85.99,
+        "competition_high": 85.99,
+        "estimated_resale": 83.41,
+        "estimated_range": [
+          77.39,
+          85.99
+        ],
+        "suggested_listing": 85.98,
+        "quick_sale_model": 77.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 130.29,
+        "delivery_known": true,
+        "landed_cost": 130.29,
+        "net": -64.21,
+        "roi": -49.3,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 47.2,
+        "max_item_buy": 47.2,
+        "delivery_headroom": -83.09,
+        "fees": 7.74,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 2.5,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 75.06,
+        "review_stress_net": -71.58,
+        "review_stress_roi": -54.9,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 53.37,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
       }
     },
     {
@@ -850,8 +1548,8 @@
       "item_price": 6.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8CNtw/5032513_1/re/300x300/qt/55/5032513_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8CNtw/5032513_1/re/300x300/qt/55/5032513_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8CNtw/5032513_1/re/150x150/qt/55/5032513_1.jpg",
@@ -2419,13 +3117,13 @@
       "item_price": 9.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/300x300/qt/55/5032908_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/300x300/qt/55/5032908_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/150x150/qt/55/5032908_1.jpg",
-        "https://i.ebayimg.com/images/g/IfwAAeSw1~xq8QBs/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/U0kAAeSwAXNq8ffn/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/pdAAAeSwycZqWhEI/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/4c0AAeSwtChqxbFM/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/gkAzX/5032908_1/re/300x300/qt/55/5032908_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -3838,8 +4536,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6YBlS/5036131_1/re/300x300/qt/55/5036131_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6YBlS/5036131_1/re/300x300/qt/55/5036131_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6YBlS/5036131_1/re/150x150/qt/55/5036131_1.jpg",
@@ -5215,8 +5913,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/F6L0B/5036304_1/re/300x300/qt/55/5036304_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/F6L0B/5036304_1/re/300x300/qt/55/5036304_1.jpg",
         "https://images.hotukdeals.com/threads/raw/F6L0B/5036304_1/re/150x150/qt/55/5036304_1.jpg",
@@ -6592,8 +7290,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hmKyk/5036353_1/re/300x300/qt/55/5036353_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hmKyk/5036353_1/re/300x300/qt/55/5036353_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hmKyk/5036353_1/re/150x150/qt/55/5036353_1.jpg",
@@ -8074,8 +8772,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg"
@@ -9329,8 +10027,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg"
@@ -10519,211 +11217,6 @@
       }
     },
     {
-      "title": "LEGO Speed Champions Time Machine from Back to the Future 77256",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-time-machine-from-back-to-the-future-77256-5036094",
-      "policy_key": "e69548b0ce541b6afacacd9f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 14.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/8fTOj/5036094_1/re/300x300/qt/55/5036094_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/8fTOj/5036094_1/re/150x150/qt/55/5036094_1.jpg",
-        "https://i.ebayimg.com/images/g/ZVsAAeSwCNZq0O4R/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 24.87,
-      "sell_for_minimum_profit": 34.44,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-17T12:24:16+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Time+Machine+from+Back+to+the+Future+77256&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 77256",
-        "category": "lego",
-        "name_terms": [
-          "back",
-          "from",
-          "future",
-          "machine",
-          "time",
-          "to"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-19T15:29:41+00:00",
-        "date": "2026-11-19",
-        "sample_count": 1,
-        "listed_total_low": 2.99,
-        "listed_total_p25": 2.99,
-        "listed_total_median": 2.99,
-        "listed_total_p75": 2.99,
-        "listed_total_high": 2.99,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|198717379603|0",
-            "seller": "bigh2k",
-            "image": "https://i.ebayimg.com/images/g/ZVsAAeSwCNZq0O4R/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198717379603",
-            "title": "LEGO: Speed Champions Time Machine from Back to the Future (77256) Windscreen.",
-            "declared_condition": "new",
-            "item_price": 2.99,
-            "shipping": 0.0,
-            "listed_total": 2.99
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 49
-        },
-        "query_aliases": [
-          "LEGO Speed Champions Time Machine from Back to the Future 77256"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 77256",
-        "observed_at": "2026-11-19T15:29:41+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 2.99,
-        "competition_high": 2.99,
-        "estimated_resale": 2.9,
-        "estimated_range": [
-          2.69,
-          2.99
-        ],
-        "suggested_listing": 2.98,
-        "quick_sale_model": 2.69,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 14.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -18.22,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -14.99,
-        "fees": 0.75,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.09,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 2.61,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|198717379603|0",
-            "seller": "bigh2k",
-            "image": "https://i.ebayimg.com/images/g/ZVsAAeSwCNZq0O4R/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198717379603",
-            "title": "LEGO: Speed Champions Time Machine from Back to the Future (77256) Windscreen.",
-            "declared_condition": "new",
-            "item_price": 2.99,
-            "shipping": 0.0,
-            "listed_total": 2.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
-      }
-    },
-    {
       "title": "LEGO Star Wars Advent Calendar 2026 - 75456",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-advent-calendar-2026-75456-5034142",
       "policy_key": "a8cf5a972f64eb453fa543ca",
@@ -11480,6 +11973,959 @@
       "publication_proof": {
         "ok": false,
         "reason": "low_price_not_supported"
+      }
+    },
+    {
+      "title": "LEGO Star Wars SMART Play: Yoda's Hut and Jedi Training Set 75422",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-smart-play-yodas-hut-and-jedi-training-set-75422-5034574",
+      "policy_key": "6e52c48607fa292b1affab65",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 24.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/uSh5X/5034574_1/re/300x300/qt/55/5034574_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/uSh5X/5034574_1/re/150x150/qt/55/5034574_1.jpg",
+        "https://i.ebayimg.com/images/g/CLQAAeSwn6dqu5vp/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/mYcAAeSw9XJqmHUM/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 36.83,
+      "sell_for_minimum_profit": 48.81,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-16T10:30:20+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+SMART+Play%3A+Yoda%27s+Hut+and+Jedi+Training+Set+75422&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75422",
+        "category": "lego",
+        "name_terms": [
+          "hut",
+          "jedi",
+          "training",
+          "yodas"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-19T21:40:45+00:00",
+        "date": "2026-11-19",
+        "sample_count": 25,
+        "listed_total_low": 31.99,
+        "listed_total_p25": 37.36,
+        "listed_total_median": 45.68,
+        "listed_total_p75": 53.37,
+        "listed_total_high": 119.02,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|880100925886|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/CLQAAeSwn6dqu5vp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880100925886",
+            "title": "LEGO Star Wars: Yoda's Hut and Jedi Training 75422",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 0.0,
+            "listed_total": 31.99
+          },
+          {
+            "item_id": "v1|407188467114|0",
+            "seller": "aust-inspace",
+            "image": "https://i.ebayimg.com/images/g/mYcAAeSw9XJqmHUM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407188467114",
+            "title": "LEGO Star Wars SMART Play: Yoda's Hut & Jedi Training 75422",
+            "declared_condition": "new",
+            "item_price": 32.55,
+            "shipping": 0.0,
+            "listed_total": 32.55
+          },
+          {
+            "item_id": "v1|800915184443|0",
+            "seller": "cristir-84",
+            "image": "https://i.ebayimg.com/images/g/9acAAeSwYkpq-B~N/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800915184443",
+            "title": "LEGO Star Wars 75422 Yoda's Hut & Jedi Training 8+ FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 33.98,
+            "shipping": 0.0,
+            "listed_total": 33.98
+          },
+          {
+            "item_id": "v1|398417510542|0",
+            "seller": "dodabricks",
+            "image": "https://i.ebayimg.com/images/g/VEsAAeSwCxdqsV0J/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398417510542",
+            "title": "LEGO Star Wars Yoda's Hut and Jedi Training 75422 440pcs Age 8+ Boxed",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 2.69,
+            "listed_total": 34.68
+          },
+          {
+            "item_id": "v1|820287464173|0",
+            "seller": "ewecash",
+            "image": "https://i.ebayimg.com/images/g/eXkAAeSwIvxq4eCD/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820287464173",
+            "title": "Lego Star Wars 75422 Yoda's Hut & Jedi Training Smart Play Unopened Brand New",
+            "declared_condition": "new",
+            "item_price": 34.99,
+            "shipping": 0.0,
+            "listed_total": 34.99
+          },
+          {
+            "item_id": "v1|147649925797|0",
+            "seller": "mochi_the_cat",
+            "image": "https://i.ebayimg.com/images/g/UHoAAeSw8nNq3IA8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147649925797",
+            "title": "LEGO Star Wars Yoda\u2019s Hut & Jedi Training 75422 440pcs 8+ Smart Play",
+            "declared_condition": "new",
+            "item_price": 35.02,
+            "shipping": 0.0,
+            "listed_total": 35.02
+          },
+          {
+            "item_id": "v1|206542800442|0",
+            "seller": "mcqu-5029",
+            "image": "https://i.ebayimg.com/images/g/9dIAAeSwFu9qn1a-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206542800442",
+            "title": "LEGO Star Wars Yoda's Hut and Jedi Training 75422 Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 33.98,
+            "shipping": 3.38,
+            "listed_total": 37.36
+          },
+          {
+            "item_id": "v1|840108231886|0",
+            "seller": "pacr40",
+            "image": "https://i.ebayimg.com/images/g/EJkAAeSw9blq8NJS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840108231886",
+            "title": "LEGO Star Wars Yoda's Hut and Jedi Training 75422 Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 34.5,
+            "shipping": 2.94,
+            "listed_total": 37.44
+          },
+          {
+            "item_id": "v1|860107815368|0",
+            "seller": "jadesshop",
+            "image": "https://i.ebayimg.com/images/g/HrMAAeSwop9q6V96/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860107815368",
+            "title": "LEGO Star Wars 75422 SMART Play: Yoda's Hut and Jedi Training Set R2-D2 Figure",
+            "declared_condition": "new",
+            "item_price": 37.97,
+            "shipping": 0.0,
+            "listed_total": 37.97
+          },
+          {
+            "item_id": "v1|188733140395|0",
+            "seller": "mad-harrys",
+            "image": "https://i.ebayimg.com/images/g/ULIAAeSw-jdqb4Ui/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188733140395",
+            "title": "Lego 75422-SMART Play: Yoda's Hut and Jedi Training Boxed/New Shelf Worn",
+            "declared_condition": "new",
+            "item_price": 39.5,
+            "shipping": 0.0,
+            "listed_total": 39.5
+          },
+          {
+            "item_id": "v1|860113476593|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/c0wAAeSwkeNq64BC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860113476593",
+            "title": "LEGO Star Wars 75422 SMART Play: Yoda's Hut and Jedi Training Set",
+            "declared_condition": "new",
+            "item_price": 42.29,
+            "shipping": 0.0,
+            "listed_total": 42.29
+          },
+          {
+            "item_id": "v1|336821320743|0",
+            "seller": "toys.99",
+            "image": "https://i.ebayimg.com/images/g/9IsAAeSwKahqvXe-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336821320743",
+            "title": "LEGO SMART Play: Yoda's Hut and Jedi Training (75422) !NEW!",
+            "declared_condition": "new",
+            "item_price": 40.22,
+            "shipping": 2.94,
+            "listed_total": 43.16
+          },
+          {
+            "item_id": "v1|398340722774|0",
+            "seller": "oncetwicenice",
+            "image": "https://i.ebayimg.com/images/g/ppMAAeSwiIVqlFBX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398340722774",
+            "title": "LEGO Star Wars SMART Play: Yoda's Hut & Jedi Training 75422",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68
+          },
+          {
+            "item_id": "v1|257848985652|0",
+            "seller": "sector77bricks",
+            "image": "https://i.ebayimg.com/images/g/qIQAAeSwBiNq9bfn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257848985652",
+            "title": "LEGO Star Wars 75422 Yoda's Hut & Jedi Training SMART Play BNIB Sealed",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 0.0,
+            "listed_total": 49.99
+          },
+          {
+            "item_id": "v1|147629378896|0",
+            "seller": "alexisclementine",
+            "image": "https://i.ebayimg.com/images/g/AnwAAeSwtvFqyjky/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147629378896",
+            "title": "*BRAND NEW* LEGO Star Wars SMART Play: Yoda's Hut & Jedi Training (75422)",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 2.94,
+            "listed_total": 50.44
+          },
+          {
+            "item_id": "v1|198568961910|0",
+            "seller": "proseller1000",
+            "image": "https://i.ebayimg.com/images/g/M~IAAeSwkVdqfiN5/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198568961910",
+            "title": "Lego 75422-SMART Play: Yoda's Hut and Jedi Training Boxed/New Shelf Worn",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 2.94,
+            "listed_total": 50.44
+          },
+          {
+            "item_id": "v1|366802640587|0",
+            "seller": "maber1000",
+            "image": "https://i.ebayimg.com/images/g/bBsAAeSwrhJq9NwS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366802640587",
+            "title": "LEGO Star Wars Yoda's Hut & Jedi Training 75422 Smart Play 440pcs Boxed",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 3.38,
+            "listed_total": 50.88
+          },
+          {
+            "item_id": "v1|377003282794|0",
+            "seller": "toysntuck",
+            "image": "https://i.ebayimg.com/images/g/bzwAAeSwGBBpswVH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377003282794",
+            "title": "Lego 75422 Star Wars SMART Play Yoda's Hut and Jedi Training",
+            "declared_condition": "new",
+            "item_price": 52.0,
+            "shipping": 0.0,
+            "listed_total": 52.0
+          },
+          {
+            "item_id": "v1|840072423574|0",
+            "seller": "yungwei75",
+            "image": "https://i.ebayimg.com/images/g/x50AAeSwfLxpsE3A/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840072423574",
+            "title": "LEGO Star Wars SMART Play\u2122: Yoda's Hut and Jedi Training (75422)",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 3.38,
+            "listed_total": 53.37
+          },
+          {
+            "item_id": "v1|406729934563|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/3fkAAeSwrOlppFEK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406729934563",
+            "title": "LEGO Star Wars SMART Play\u2122: Yoda's Hut and Jedi Training (75422)",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          },
+          {
+            "item_id": "v1|397667756750|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/-Q0AAeSwe8tq056c/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/397667756750",
+            "title": "LEGO SMART Play 75422 Star Wars: Yoda's Hut and Jedi Training Age 8+ 440pcs",
+            "declared_condition": "new",
+            "item_price": 60.95,
+            "shipping": 0.0,
+            "listed_total": 60.95
+          },
+          {
+            "item_id": "v1|407218300876|0",
+            "seller": "dmr47_77",
+            "image": "https://i.ebayimg.com/images/g/9iUAAeSwIIxqqTHo/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407218300876",
+            "title": "LEGO Star Wars 75422 SMART Play Yodas Hut & Jedi Training Toy Set Retiring 2027",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 2.94,
+            "listed_total": 66.04
+          },
+          {
+            "item_id": "v1|406791283727|0",
+            "seller": "makakoexpressstore",
+            "image": "https://i.ebayimg.com/images/g/hHsAAeSw2nhpv~R6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406791283727",
+            "title": "LEGO Star Wars 75422 SMART Play: Yoda's Hut and Jedi Training - Multicolor ",
+            "declared_condition": "new",
+            "item_price": 82.12,
+            "shipping": 0.0,
+            "listed_total": 82.12
+          },
+          {
+            "item_id": "v1|800485542900|0",
+            "seller": "rarefilmshop",
+            "image": "https://i.ebayimg.com/images/g/0WgAAeSw8fdqeYoa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800485542900",
+            "title": "LEGO STAR WARS 75422 SMART PLAY: JEDI-TRAINING AN YODAS H\u00dcTTE - KOMPATIBLES INTE",
+            "declared_condition": "new",
+            "item_price": 105.95,
+            "shipping": 0.0,
+            "listed_total": 105.95
+          },
+          {
+            "item_id": "v1|920048307347|0",
+            "seller": "kh-4617",
+            "image": "https://i.ebayimg.com/images/g/e8wAAeSwpNZq021V/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920048307347",
+            "title": "LEGO Star Wars 75422 Yoda\u2019s Hut Set 440pc Yoda R2-D2 Interactive and other",
+            "declared_condition": "new",
+            "item_price": 115.1,
+            "shipping": 3.92,
+            "listed_total": 119.02
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 24
+        },
+        "query_aliases": [
+          "LEGO Star Wars SMART Play: Yoda's Hut and Jedi Training Set 75422"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": true,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75422",
+        "observed_at": "2026-11-19T21:40:45+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 25,
+        "seller_count": 25,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 6,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 31.99,
+        "competition_high": 119.02,
+        "estimated_resale": 31.03,
+        "estimated_range": [
+          28.79,
+          31.99
+        ],
+        "suggested_listing": 31.98,
+        "quick_sale_model": 28.79,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 24.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -4.85,
+        "max_landed_buy": 12.14,
+        "max_item_buy": null,
+        "delivery_headroom": -12.85,
+        "fees": 4.67,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.93,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 27.92,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 10.14,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Low competing offers advertise coupons; check effective competition before buying",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|880100925886|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/CLQAAeSwn6dqu5vp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880100925886",
+            "title": "LEGO Star Wars: Yoda's Hut and Jedi Training 75422",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 0.0,
+            "listed_total": 31.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407188467114|0",
+            "seller": "aust-inspace",
+            "image": "https://i.ebayimg.com/images/g/mYcAAeSw9XJqmHUM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407188467114",
+            "title": "LEGO Star Wars SMART Play: Yoda's Hut & Jedi Training 75422",
+            "declared_condition": "new",
+            "item_price": 32.55,
+            "shipping": 0.0,
+            "listed_total": 32.55,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|800915184443|0",
+            "seller": "cristir-84",
+            "image": "https://i.ebayimg.com/images/g/9acAAeSwYkpq-B~N/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800915184443",
+            "title": "LEGO Star Wars 75422 Yoda's Hut & Jedi Training 8+ FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 33.98,
+            "shipping": 0.0,
+            "listed_total": 33.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398417510542|0",
+            "seller": "dodabricks",
+            "image": "https://i.ebayimg.com/images/g/VEsAAeSwCxdqsV0J/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398417510542",
+            "title": "LEGO Star Wars Yoda's Hut and Jedi Training 75422 440pcs Age 8+ Boxed",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 2.69,
+            "listed_total": 34.68,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820287464173|0",
+            "seller": "ewecash",
+            "image": "https://i.ebayimg.com/images/g/eXkAAeSwIvxq4eCD/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820287464173",
+            "title": "Lego Star Wars 75422 Yoda's Hut & Jedi Training Smart Play Unopened Brand New",
+            "declared_condition": "new",
+            "item_price": 34.99,
+            "shipping": 0.0,
+            "listed_total": 34.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147649925797|0",
+            "seller": "mochi_the_cat",
+            "image": "https://i.ebayimg.com/images/g/UHoAAeSw8nNq3IA8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147649925797",
+            "title": "LEGO Star Wars Yoda\u2019s Hut & Jedi Training 75422 440pcs 8+ Smart Play",
+            "declared_condition": "new",
+            "item_price": 35.02,
+            "shipping": 0.0,
+            "listed_total": 35.02,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206542800442|0",
+            "seller": "mcqu-5029",
+            "image": "https://i.ebayimg.com/images/g/9dIAAeSwFu9qn1a-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206542800442",
+            "title": "LEGO Star Wars Yoda's Hut and Jedi Training 75422 Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 33.98,
+            "shipping": 3.38,
+            "listed_total": 37.36,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840108231886|0",
+            "seller": "pacr40",
+            "image": "https://i.ebayimg.com/images/g/EJkAAeSw9blq8NJS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840108231886",
+            "title": "LEGO Star Wars Yoda's Hut and Jedi Training 75422 Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 34.5,
+            "shipping": 2.94,
+            "listed_total": 37.44,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860107815368|0",
+            "seller": "jadesshop",
+            "image": "https://i.ebayimg.com/images/g/HrMAAeSwop9q6V96/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860107815368",
+            "title": "LEGO Star Wars 75422 SMART Play: Yoda's Hut and Jedi Training Set R2-D2 Figure",
+            "declared_condition": "new",
+            "item_price": 37.97,
+            "shipping": 0.0,
+            "listed_total": 37.97,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|188733140395|0",
+            "seller": "mad-harrys",
+            "image": "https://i.ebayimg.com/images/g/ULIAAeSw-jdqb4Ui/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188733140395",
+            "title": "Lego 75422-SMART Play: Yoda's Hut and Jedi Training Boxed/New Shelf Worn",
+            "declared_condition": "new",
+            "item_price": 39.5,
+            "shipping": 0.0,
+            "listed_total": 39.5,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "uncertain_competitor_coupon"
       }
     },
     {
@@ -13769,7 +15215,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-19T21:07:39+00:00",
+          "observed_at": "2026-11-19T21:39:46+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -14085,8 +15531,8 @@
       "item_price": 61.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NfIU8/5039499_1/re/300x300/qt/55/5039499_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NfIU8/5039499_1/re/300x300/qt/55/5039499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NfIU8/5039499_1/re/150x150/qt/55/5039499_1.jpg"
@@ -14636,8 +16082,8 @@
       "item_price": 115.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DALMS/5039007_1/re/300x300/qt/55/5039007_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DALMS/5039007_1/re/300x300/qt/55/5039007_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DALMS/5039007_1/re/150x150/qt/55/5039007_1.jpg"
@@ -15381,8 +16827,8 @@
       "item_price": 133.33,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/7qu39/5038277_1/re/300x300/qt/55/5038277_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/7qu39/5038277_1/re/300x300/qt/55/5038277_1.jpg",
         "https://images.hotukdeals.com/threads/raw/7qu39/5038277_1/re/150x150/qt/55/5038277_1.jpg"
@@ -16344,8 +17790,8 @@
       "item_price": 139.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/n3gyA/5038918_1/re/300x300/qt/55/5038918_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/n3gyA/5038918_1/re/300x300/qt/55/5038918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/n3gyA/5038918_1/re/150x150/qt/55/5038918_1.jpg"
@@ -20151,7 +21597,7 @@
         "rejected": {
           "identity_or_condition": 49
         },
-        "canonicalized_at": "2026-11-19T21:07:39+00:00",
+        "canonicalized_at": "2026-11-19T21:39:46+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Final Fantasy XVI (PS5)"
@@ -20264,301 +21710,6 @@
       "publication_proof": {
         "ok": false,
         "reason": "fewer_than_three_exact_independent_comparators"
-      }
-    },
-    {
-      "title": "Alan Wake 2 Deluxe Edition - PS5",
-      "url": "https://www.hotukdeals.com/deals/alan-wake-2-deluxe-edition-ps5-5039195",
-      "policy_key": "023a413ae0e0f0d580b8b6e8",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 19.54,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/jwdxK/5039195_1/re/150x150/qt/55/5039195_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/alan-wake-2-deluxe-edition-ps5-5039195",
-      "landed_cost": null,
-      "breakeven_sell": 27.41,
-      "sell_for_minimum_profit": 36.86,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T15:29:40+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Alan+Wake+2+Deluxe+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "alan wake 2 deluxe edition ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-19T15:29:41+00:00",
-        "date": "2026-11-19",
-        "sample_count": 3,
-        "listed_total_low": 24.43,
-        "listed_total_p25": 29.52,
-        "listed_total_median": 34.61,
-        "listed_total_p75": 36.65,
-        "listed_total_high": 38.69,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|178064534304|0",
-            "seller": "peak.mart",
-            "image": "https://i.ebayimg.com/images/g/QcoAAeSwNIpp5fcp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178064534304",
-            "title": "Alan Wake 2 Deluxe Edition - PS5 ",
-            "declared_condition": "new",
-            "item_price": 24.43,
-            "shipping": 0.0,
-            "listed_total": 24.43,
-            "observed_at": "2026-11-19T15:29:41+00:00"
-          },
-          {
-            "item_id": "v1|960178059154|0",
-            "seller": "stockandselect",
-            "image": "https://i.ebayimg.com/images/g/xbQAAeSwJSVq8uj8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960178059154",
-            "title": "Alan Wake 2 Deluxe Edition - PS5 ",
-            "declared_condition": "new",
-            "item_price": 31.89,
-            "shipping": 2.72,
-            "listed_total": 34.61,
-            "observed_at": "2026-11-19T15:29:41+00:00"
-          },
-          {
-            "item_id": "v1|880049989705|0",
-            "seller": "maxvoidz",
-            "image": "https://i.ebayimg.com/images/g/dYsAAeSwYNlq3gwg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880049989705",
-            "title": "Alan Wake 2 Deluxe Edition (PS5) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 35.99,
-            "shipping": 2.7,
-            "listed_total": 38.69,
-            "observed_at": "2026-11-19T15:29:41+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 5
-        },
-        "canonicalized_at": "2026-11-19T21:07:39+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "Alan Wake 2 Deluxe Edition - PS5"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "alan wake 2 deluxe edition ps5",
-        "observed_at": "2026-11-19T15:29:41+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 3,
-        "seller_count": 3,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": true,
-        "competition_low": 24.43,
-        "competition_high": 38.69,
-        "estimated_resale": 23.69,
-        "estimated_range": [
-          21.98,
-          24.43
-        ],
-        "suggested_listing": 24.42,
-        "quick_sale_model": 21.98,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 19.54,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -3.15,
-        "max_landed_buy": 8.39,
-        "max_item_buy": null,
-        "delivery_headroom": -11.15,
-        "fees": 3.39,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 0.71,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 21.32,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 6.39,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|178064534304|0",
-            "seller": "peak.mart",
-            "image": "https://i.ebayimg.com/images/g/QcoAAeSwNIpp5fcp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178064534304",
-            "title": "Alan Wake 2 Deluxe Edition - PS5 ",
-            "declared_condition": "new",
-            "item_price": 24.43,
-            "shipping": 0.0,
-            "listed_total": 24.43,
-            "observed_at": "2026-11-19T15:29:41+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|960178059154|0",
-            "seller": "stockandselect",
-            "image": "https://i.ebayimg.com/images/g/xbQAAeSwJSVq8uj8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960178059154",
-            "title": "Alan Wake 2 Deluxe Edition - PS5 ",
-            "declared_condition": "new",
-            "item_price": 31.89,
-            "shipping": 2.72,
-            "listed_total": 34.61,
-            "observed_at": "2026-11-19T15:29:41+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|880049989705|0",
-            "seller": "maxvoidz",
-            "image": "https://i.ebayimg.com/images/g/dYsAAeSwYNlq3gwg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880049989705",
-            "title": "Alan Wake 2 Deluxe Edition (PS5) - Brand New and Sealed",
-            "declared_condition": "new",
-            "item_price": 35.99,
-            "shipping": 2.7,
-            "listed_total": 38.69,
-            "observed_at": "2026-11-19T15:29:41+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
       }
     },
     {
@@ -20701,7 +21852,7 @@
         "rejected": {
           "identity_or_condition": 47
         },
-        "canonicalized_at": "2026-11-19T21:07:39+00:00",
+        "canonicalized_at": "2026-11-19T21:39:46+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Final Fantasy VII Rebirth (PS5)"
@@ -20974,7 +22125,7 @@
         "rejected": {
           "identity_or_condition": 6
         },
-        "canonicalized_at": "2026-11-19T21:07:39+00:00",
+        "canonicalized_at": "2026-11-19T21:39:46+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Gothic 1 Remake - PlayStation 5 (PS5)"
@@ -22107,7 +23258,7 @@
           ]
         },
         "detail_status": "awaiting_detail_budget",
-        "canonicalized_at": "2026-11-19T21:07:39+00:00",
+        "canonicalized_at": "2026-11-19T21:39:46+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Xbox Wireless Controller \u2013 Gears of War: E-Day Limited Edition"
@@ -22289,8 +23440,8 @@
       "item_price": 42.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/150x150/qt/55/5038716_1.jpg",
@@ -22307,7 +23458,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-19T21:08:39+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+City+60499+Airport+Fire+Engine&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
@@ -22331,8 +23482,8 @@
       "item_price": 49.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/150x150/qt/55/5038716_1.jpg",
@@ -22349,7 +23500,7 @@
       "blockers": [
         "No exact reviewed sold observations"
       ],
-      "priority": 25,
+      "priority": 15,
       "first_seen": "2026-11-19T21:08:39+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+City+%3A+Airport+Fire+Engine+691pcs+%2860499%29+7%2B+New%26sealed+Bit+Scratch&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
@@ -22477,6 +23628,45 @@
       "priority": 10,
       "first_seen": "2026-11-16T09:26:40+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=BG+Electrical+Outdoor+Double+Switched+Power+Wall+Plug+Socket%2C+Weatherproof+Grey+13A%2C+IP66+Rated+Like+New+Amazon+Resale+Discount+At+Checkout&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Legacy of Kain: Defiance Remastered Deluxe Edition - Xbox Series X|S/One/ PC/Cloud",
+      "url": "https://www.hotukdeals.com/deals/legacy-of-kain-defiance-remastered-deluxe-edition-xbox-series-xs-one-5039706",
+      "policy_key": "3b6e07b42621a790d0e4d795",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Microsoft Store",
+      "item_price": 7.49,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/aarLK/5039706_1/re/150x150/qt/55/5039706_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/legacy-of-kain-defiance-remastered-deluxe-edition-xbox-series-xs-one-5039706",
+      "landed_cost": null,
+      "breakeven_sell": 13.19,
+      "sell_for_minimum_profit": 22.63,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-19T21:40:44+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Legacy+of+Kain%3A+Defiance+Remastered+Deluxe+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -22870,8 +24060,8 @@
       "item_price": 13.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/150x150/qt/55/5034322_1.jpg"
@@ -22956,8 +24146,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/300x300/qt/55/5037076_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/300x300/qt/55/5037076_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/150x150/qt/55/5037076_1.jpg",
@@ -23000,8 +24190,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/150x150/qt/55/5037065_1.jpg",
@@ -23109,6 +24299,49 @@
       "priority": 10,
       "first_seen": "2026-11-17T10:48:40+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Lightning+McQueen+77255&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Speed Champions Time Machine from Back to the Future 77256",
+      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-time-machine-from-back-to-the-future-77256-5036094",
+      "policy_key": "e69548b0ce541b6afacacd9f",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 14.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/8fTOj/5036094_1/re/300x300/qt/55/5036094_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/8fTOj/5036094_1/re/150x150/qt/55/5036094_1.jpg",
+        "https://i.ebayimg.com/images/g/ZVsAAeSwCNZq0O4R/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 24.87,
+      "sell_for_minimum_profit": 34.44,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-17T12:24:16+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Time+Machine+from+Back+to+the+Future+77256&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -23250,8 +24483,8 @@
       "item_price": 15.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jqnWT/5037812_1/re/300x300/qt/55/5037812_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jqnWT/5037812_1/re/300x300/qt/55/5037812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jqnWT/5037812_1/re/150x150/qt/55/5037812_1.jpg",
@@ -23294,8 +24527,8 @@
       "item_price": 15.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/150x150/qt/55/5039148_1.jpg"
@@ -23336,8 +24569,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/p86vT/5038270_1/re/300x300/qt/55/5038270_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/p86vT/5038270_1/re/300x300/qt/55/5038270_1.jpg",
         "https://images.hotukdeals.com/threads/raw/p86vT/5038270_1/re/150x150/qt/55/5038270_1.jpg"
@@ -23422,8 +24655,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KbhDQ/5037873_1/re/300x300/qt/55/5037873_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KbhDQ/5037873_1/re/300x300/qt/55/5037873_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KbhDQ/5037873_1/re/150x150/qt/55/5037873_1.jpg"
@@ -23464,8 +24697,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/150x150/qt/55/5038670_1.jpg"
@@ -23506,8 +24739,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg"
@@ -23548,8 +24781,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/300x300/qt/55/5038154_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/300x300/qt/55/5038154_1.jpg",
         "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/150x150/qt/55/5038154_1.jpg",
@@ -23631,8 +24864,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/300x300/qt/55/5038215_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/300x300/qt/55/5038215_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/150x150/qt/55/5038215_1.jpg"
@@ -23751,8 +24984,8 @@
       "item_price": 19.93,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/150x150/qt/55/5037349_1.jpg",
@@ -23795,8 +25028,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dAgRm/5038080_1/re/300x300/qt/55/5038080_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dAgRm/5038080_1/re/300x300/qt/55/5038080_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dAgRm/5038080_1/re/150x150/qt/55/5038080_1.jpg",
@@ -23883,8 +25116,8 @@
       "item_price": 21.35,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G1XEB/5038148_1/re/300x300/qt/55/5038148_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G1XEB/5038148_1/re/300x300/qt/55/5038148_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G1XEB/5038148_1/re/150x150/qt/55/5038148_1.jpg",
@@ -23966,8 +25199,8 @@
       "item_price": 21.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PiJ75/5038123_1/re/300x300/qt/55/5038123_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PiJ75/5038123_1/re/300x300/qt/55/5038123_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PiJ75/5038123_1/re/150x150/qt/55/5038123_1.jpg",
@@ -24010,8 +25243,8 @@
       "item_price": 22.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q2Y4C/5037277_1/re/300x300/qt/55/5037277_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q2Y4C/5037277_1/re/300x300/qt/55/5037277_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q2Y4C/5037277_1/re/150x150/qt/55/5037277_1.jpg",
@@ -24040,6 +25273,73 @@
       }
     },
     {
+      "title": "Flash Eau de Parfum - 60ml",
+      "url": "https://www.hotukdeals.com/deals/flash-eau-de-parfum-60ml-5039710",
+      "policy_key": "748ebb6a213ca60e442a9752",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 23.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/bnCOR/5039710_1/re/150x150/qt/55/5039710_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/flash-eau-de-parfum-60ml-5039710",
+      "landed_cost": null,
+      "breakeven_sell": 33.21,
+      "sell_for_minimum_profit": 44.24,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 60,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "60ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 33.21,
+        "required_resale": 44.24,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 23.0,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "60ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-19T21:40:44+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Flash+Eau+de+Parfum&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Classic Creative Vehicles 11036",
       "url": "https://www.hotukdeals.com/deals/lego-classic-creative-vehicles-11036-5037101",
       "policy_key": "4e01a3b7cf49079ebcd94aa7",
@@ -24054,8 +25354,8 @@
       "item_price": 24.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/300x300/qt/55/5037101_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/300x300/qt/55/5037101_1.jpg",
         "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/150x150/qt/55/5037101_1.jpg",
@@ -24084,50 +25384,6 @@
       }
     },
     {
-      "title": "LEGO Star Wars SMART Play: Yoda's Hut and Jedi Training Set 75422",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-smart-play-yodas-hut-and-jedi-training-set-75422-5034574",
-      "policy_key": "6e52c48607fa292b1affab65",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 24.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/uSh5X/5034574_1/re/300x300/qt/55/5034574_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/uSh5X/5034574_1/re/150x150/qt/55/5034574_1.jpg",
-        "https://i.ebayimg.com/images/g/CLQAAeSwn6dqu5vp/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/mYcAAeSw9XJqmHUM/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 36.83,
-      "sell_for_minimum_profit": 48.81,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-16T10:30:20+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+SMART+Play%3A+Yoda%27s+Hut+and+Jedi+Training+Set+75422&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Star Wars AT-RT Attack 75444",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-at-rt-attack-75444-5038691",
       "policy_key": "4b0047538d5d1330a5a4bf0c",
@@ -24142,8 +25398,8 @@
       "item_price": 25.08,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/150x150/qt/55/5038691_1.jpg"
@@ -24184,8 +25440,8 @@
       "item_price": 26.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg",
@@ -24228,8 +25484,8 @@
       "item_price": 27.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tmw20/5038140_1/re/300x300/qt/55/5038140_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tmw20/5038140_1/re/300x300/qt/55/5038140_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tmw20/5038140_1/re/150x150/qt/55/5038140_1.jpg",
@@ -24272,8 +25528,8 @@
       "item_price": 28.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg"
@@ -24314,8 +25570,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/I7syd/5038211_1/re/300x300/qt/55/5038211_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/I7syd/5038211_1/re/300x300/qt/55/5038211_1.jpg",
         "https://images.hotukdeals.com/threads/raw/I7syd/5038211_1/re/150x150/qt/55/5038211_1.jpg"
@@ -24398,8 +25654,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -24482,8 +25738,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg"
@@ -24524,8 +25780,8 @@
       "item_price": 32.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg"
@@ -24566,8 +25822,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -24608,8 +25864,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg"
@@ -24650,8 +25906,8 @@
       "item_price": 34.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0K42z/5038119_1/re/300x300/qt/55/5038119_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0K42z/5038119_1/re/300x300/qt/55/5038119_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0K42z/5038119_1/re/150x150/qt/55/5038119_1.jpg",
@@ -24694,8 +25950,8 @@
       "item_price": 34.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ULnxm/5038112_1/re/300x300/qt/55/5038112_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ULnxm/5038112_1/re/300x300/qt/55/5038112_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ULnxm/5038112_1/re/150x150/qt/55/5038112_1.jpg",
@@ -24863,8 +26119,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/300x300/qt/55/5038069_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/300x300/qt/55/5038069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/150x150/qt/55/5038069_1.jpg",
@@ -24907,8 +26163,8 @@
       "item_price": 36.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/300x300/qt/55/5038144_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/300x300/qt/55/5038144_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/150x150/qt/55/5038144_1.jpg",
@@ -24951,8 +26207,8 @@
       "item_price": 36.76,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DroH7/5038083_1/re/300x300/qt/55/5038083_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DroH7/5038083_1/re/300x300/qt/55/5038083_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DroH7/5038083_1/re/150x150/qt/55/5038083_1.jpg",
@@ -25072,8 +26328,8 @@
       "item_price": 37.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/300x300/qt/55/5038231_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/300x300/qt/55/5038231_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/150x150/qt/55/5038231_1.jpg"
@@ -25153,8 +26409,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/150x150/qt/55/5038716_1.jpg"
@@ -25195,8 +26451,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg"
@@ -25237,8 +26493,8 @@
       "item_price": 38.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
         "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/150x150/qt/55/5038128_1.jpg",
@@ -25281,8 +26537,8 @@
       "item_price": 38.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/g4fyn/5038137_1/re/300x300/qt/55/5038137_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/g4fyn/5038137_1/re/300x300/qt/55/5038137_1.jpg",
         "https://images.hotukdeals.com/threads/raw/g4fyn/5038137_1/re/150x150/qt/55/5038137_1.jpg",
@@ -25325,8 +26581,8 @@
       "item_price": 38.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SXlnR/5038075_1/re/300x300/qt/55/5038075_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SXlnR/5038075_1/re/300x300/qt/55/5038075_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SXlnR/5038075_1/re/150x150/qt/55/5038075_1.jpg",
@@ -25413,8 +26669,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
@@ -25571,6 +26827,72 @@
       }
     },
     {
+      "title": "PS5 Controller with 2 Year Guarantee",
+      "url": "https://www.hotukdeals.com/deals/ps5-controller-with-2-year-guarantee-5039718",
+      "policy_key": "b9e7c85d2b5110033b7cd3f5",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "John Lewis &amp; Partners",
+      "item_price": 42.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/za3Dc/5039718_1/re/150x150/qt/55/5039718_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ps5-controller-with-2-year-guarantee-5039718",
+      "landed_cost": null,
+      "breakeven_sell": 55.1,
+      "sell_for_minimum_profit": 75.4,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-19T21:40:44+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PS5+Controller+with+2+Year+Guarantee&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "controller with 2 year guarantee ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-19T21:40:45+00:00",
+        "date": "2026-11-19",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "PS5 Controller with 2 Year Guarantee"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Star Wars AT-AT - 75440 Set 525 Pieces",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-at-at-75440-set-525-pieces-5035843",
       "policy_key": "515b3b27037857c43b879d83",
@@ -25627,8 +26949,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/C5Cgm/5037898_1/re/300x300/qt/55/5037898_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/C5Cgm/5037898_1/re/300x300/qt/55/5037898_1.jpg",
         "https://images.hotukdeals.com/threads/raw/C5Cgm/5037898_1/re/150x150/qt/55/5037898_1.jpg",
@@ -25826,50 +27148,6 @@
       }
     },
     {
-      "title": "LEGO Star Wars Kylo Ren Helmet Building Set for Adults 75415 - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/argos-kyren-lego-helmet-5032054",
-      "policy_key": "5e3d01aa952caa5ab29682f1",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 45.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/300x300/qt/55/5032054_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Z88os/5032054_1/re/150x150/qt/55/5032054_1.jpg",
-        "https://i.ebayimg.com/images/g/mNMAAeSwLg1q1mHC/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/5L4AAeSwyOBq7ze8/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 60.8,
-      "sell_for_minimum_profit": 82.36,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-13T16:16:00+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Kylo+Ren+Helmet+Building+Set+for+Adults+75415&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Editions Scuderia Ferrari HP Lewis Hamilton Helmet 43022 - Used Like New (Discount at Checkout) - Sold by Amazon Resale",
       "url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-lewis-hamilton-helmet-43022-used-like-new-discount-at-checkout-sold-by-amazon-resale-5038275",
       "policy_key": "68a176228db642f0b206f9d4",
@@ -25884,8 +27162,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -25912,45 +27190,6 @@
       }
     },
     {
-      "title": "WOOLNUT - Leather Case for AirPods Max: Tailor-Made Fit, Magnet for Low-Power Mode - Sold by WOOLNUT / FBA",
-      "url": "https://www.hotukdeals.com/deals/woolnut-airpod-max-case-5039654",
-      "policy_key": "437590ec2014013a78cc7711",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 47.2,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/DZLb9/5039654_1/re/150x150/qt/55/5039654_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/woolnut-airpod-max-case-5039654",
-      "landed_cost": null,
-      "breakeven_sell": 63.15,
-      "sell_for_minimum_profit": 86.44,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-19T21:08:39+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=WOOLNUT&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Creator 3in1 Haunted Mansion 31167",
       "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-haunted-mansion-31167-5038074",
       "policy_key": "b36368fecab1c4c80290ee4d",
@@ -25965,8 +27204,8 @@
       "item_price": 51.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ldvmx/5038074_1/re/300x300/qt/55/5038074_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ldvmx/5038074_1/re/300x300/qt/55/5038074_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ldvmx/5038074_1/re/150x150/qt/55/5038074_1.jpg",
@@ -26053,8 +27292,8 @@
       "item_price": 55.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JpcTE/5038093_1/re/300x300/qt/55/5038093_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JpcTE/5038093_1/re/300x300/qt/55/5038093_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JpcTE/5038093_1/re/150x150/qt/55/5038093_1.jpg",
@@ -26185,8 +27424,8 @@
       "item_price": 57.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bMFkW/5037131_1/re/300x300/qt/55/5037131_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bMFkW/5037131_1/re/300x300/qt/55/5037131_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bMFkW/5037131_1/re/150x150/qt/55/5037131_1.jpg"
@@ -26227,8 +27466,8 @@
       "item_price": 57.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
-      "image_verified_until": "2026-11-19T21:28:44.942099+00:00",
-      "image_checked_at": "2026-11-19T21:08:44.942099+00:00",
+      "image_verified_until": "2026-11-19T22:00:49.306893+00:00",
+      "image_checked_at": "2026-11-19T21:40:49.306893+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/150x150/qt/55/5038192_1.jpg",
@@ -26335,45 +27574,6 @@
       }
     },
     {
-      "title": "Beats Solo 4 On-Ear Headphones - Matte Black",
-      "url": "https://www.hotukdeals.com/deals/beats-5039683",
-      "policy_key": "cbdf647178e01e0bbe22103e",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 95.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/qFfOm/5039683_1/re/150x150/qt/55/5039683_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/beats-5039683",
-      "landed_cost": null,
-      "breakeven_sell": 122.09,
-      "sell_for_minimum_profit": 168.95,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-19T21:08:39+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Beats+Solo+4+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "DEWALT DCS391 165mm 18V Li-Ion XR Cordless Circular Saw - Bare",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcs391-165mm-18v-li-ion-xr-cordless-circular-saw-bare-5035014",
       "policy_key": "b55ac976fbb1160a9fdd1a3a",
@@ -26427,8 +27627,8 @@
       "item_price": 127.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jf7vA/5039077_1/re/300x300/qt/55/5039077_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jf7vA/5039077_1/re/300x300/qt/55/5039077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jf7vA/5039077_1/re/150x150/qt/55/5039077_1.jpg"
@@ -27243,7 +28443,7 @@
       "policy_key": "be04a939b0d0b29e4be27ee1",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -28188,8 +29388,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ITnH6/5039525_1/re/300x300/qt/55/5039525_1.jpg",
-      "image_verified_until": "2026-11-19T21:27:50.628991+00:00",
-      "image_checked_at": "2026-11-19T21:07:50.628991+00:00",
+      "image_verified_until": "2026-11-19T21:59:57.643651+00:00",
+      "image_checked_at": "2026-11-19T21:39:57.643651+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ITnH6/5039525_1/re/300x300/qt/55/5039525_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ITnH6/5039525_1/re/150x150/qt/55/5039525_1.jpg"
@@ -28637,72 +29837,6 @@
       "first_seen": "2026-11-18T07:41:00+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Skechers+Women%27s+Skipper+Hi+Classic+Low-Top+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Star Wars Outlaws Limited Edition (Amazon Exclusive) PS5",
-      "url": "https://www.hotukdeals.com/deals/star-wars-outlaws-limited-edition-exclusive-to-amazoncouk-ps5-5039432",
-      "policy_key": "773be3564c8e039118f7500f",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 13.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/DIql0/5039432_1/re/150x150/qt/55/5039432_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-outlaws-limited-edition-exclusive-to-amazoncouk-ps5-5039432",
-      "landed_cost": null,
-      "breakeven_sell": 20.86,
-      "sell_for_minimum_profit": 30.31,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T20:36:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars+Outlaws+Limited+Edition+%28Amazon+Exclusive%29+PS5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "star wars outlaws limited edition amazon exclusive ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-19T20:36:13+00:00",
-        "date": "2026-11-19",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "Star Wars Outlaws Limited Edition (Amazon Exclusive) PS5"
-        ]
-      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -29980,67 +31114,39 @@
       }
     },
     {
-      "title": "Hugo Boss Number One Eau de Toilette 100ml - With Code - Sold by ScentWarehouse",
-      "url": "https://www.hotukdeals.com/deals/hugo-boss-number-one-eau-de-toilette-100ml-spray-for-him-new-mens-edt-5037763",
-      "policy_key": "552d163ac082137c59aa7388",
-      "category": "fragrance",
+      "title": "Alan Wake 2 Deluxe Edition - PS5",
+      "url": "https://www.hotukdeals.com/deals/alan-wake-2-deluxe-edition-ps5-5039195",
+      "policy_key": "023a413ae0e0f0d580b8b6e8",
+      "category": "gaming",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 19.86,
+      "merchant": "Amazon",
+      "item_price": 19.54,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/sPPs4/5037763_1/re/150x150/qt/55/5037763_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/jwdxK/5039195_1/re/150x150/qt/55/5039195_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/hugo-boss-number-one-eau-de-toilette-100ml-spray-for-him-new-mens-edt-5037763",
+      "image_source_url": "https://www.hotukdeals.com/deals/alan-wake-2-deluxe-edition-ps5-5039195",
       "landed_cost": null,
-      "breakeven_sell": 29.45,
-      "sell_for_minimum_profit": 39.03,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 100,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 29.45,
-        "required_resale": 39.03,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 19.86,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "breakeven_sell": 27.41,
+      "sell_for_minimum_profit": 36.86,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
       "priority": 0,
-      "first_seen": "2026-11-18T19:11:02+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Hugo+Boss+Number+One+Eau+de+Toilette+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
+      "first_seen": "2026-11-19T15:29:40+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Alan+Wake+2+Deluxe+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -35306,7 +36412,7 @@
       "policy_key": "dd0d0b33d1d9abe3d1cc6fe2",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -35783,7 +36889,7 @@
       "policy_key": "1ed850a56d05ca619a287f14",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -36519,6 +37625,45 @@
       }
     },
     {
+      "title": "WOOLNUT - Leather Case for AirPods Max: Tailor-Made Fit, Magnet for Low-Power Mode - Sold by WOOLNUT / FBA",
+      "url": "https://www.hotukdeals.com/deals/woolnut-airpod-max-case-5039654",
+      "policy_key": "437590ec2014013a78cc7711",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 47.2,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/DZLb9/5039654_1/re/150x150/qt/55/5039654_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/woolnut-airpod-max-case-5039654",
+      "landed_cost": null,
+      "breakeven_sell": 63.15,
+      "sell_for_minimum_profit": 86.44,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-19T21:08:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=WOOLNUT&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "BOSS Bottled Infinite - Eau de Parfum for Him 200ml (S&S \u00a345.16/ \u00a340.37)",
       "url": "https://www.hotukdeals.com/deals/boss-bottled-infinite-eau-de-parfum-for-him-200ml-ss-ps4516ps4037-5038239",
       "policy_key": "12fb7f00eae8137591ca89a6",
@@ -37025,45 +38170,6 @@
       "first_seen": "2026-11-16T20:40:37+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+Playstation+DualSense+Wireless-Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Xbox Wireless Controller \u2013 Storm Breaker Special Edition Series X|S, One, PCs, and Cloud-Enabled Devices",
-      "url": "https://www.hotukdeals.com/deals/xbox-wireless-controller-storm-breaker-special-edition-series-xs-one-pcs-and-cloud-enabled-devices-5038668",
-      "policy_key": "e8c5ddadae284213d053cf44",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 48.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/37735/5038668_1/re/150x150/qt/55/5038668_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/xbox-wireless-controller-storm-breaker-special-edition-series-xs-one-pcs-and-cloud-enabled-devices-5038668",
-      "landed_cost": null,
-      "breakeven_sell": 62.19,
-      "sell_for_minimum_profit": 85.32,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T09:33:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Xbox+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -39392,6 +40498,45 @@
       "priority": 0,
       "first_seen": "2026-11-19T01:58:51+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=SHOKZ+OpenRun+Bone+Conduction+Sports+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Beats Solo 4 On-Ear Headphones - Matte Black",
+      "url": "https://www.hotukdeals.com/deals/beats-5039683",
+      "policy_key": "cbdf647178e01e0bbe22103e",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 95.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/qFfOm/5039683_1/re/150x150/qt/55/5039683_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/beats-5039683",
+      "landed_cost": null,
+      "breakeven_sell": 122.09,
+      "sell_for_minimum_profit": 168.95,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-19T21:08:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Beats+Solo+4+On-Ear+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
