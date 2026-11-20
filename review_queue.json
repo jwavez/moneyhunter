@@ -2,6 +2,339 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "Nike P-6000 Men\u2019s Light Bone Sail Pale Ivory Trainers (IU7549-072) Size UK 7 NEW",
+      "url": "https://www.ebay.co.uk/itm/800699196363",
+      "policy_key": "6a1686d87427d9d01c3d50ad",
+      "category": "trainers",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 59.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/8-oAAeSwqrFqW5TB/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/800699196363",
+      "landed_cost": 63.800000000000004,
+      "breakeven_sell": 82.99,
+      "sell_for_minimum_profit": 106.4,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-18T14:30:40+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+P-6000+Men%E2%80%99s+Light+Bone+Sail+Pale+Ivory+Trainers+%28IU7549-072%29+Size+UK+7+NEW&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Nike IU7549-072 UK 7",
+        "category": "trainers",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Nike",
+          "style_code": "IU7549-072",
+          "uk_size": 7.0,
+          "department": "men"
+        },
+        "observed_at": "2026-11-20T05:44:50+00:00",
+        "date": "2026-11-20",
+        "sample_count": 4,
+        "listed_total_low": 63.8,
+        "listed_total_p25": 77.51,
+        "listed_total_median": 82.98,
+        "listed_total_p75": 85.18,
+        "listed_total_high": 89.09,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|800699196363|0",
+            "seller": "micgre-699",
+            "image": "https://i.ebayimg.com/images/g/8-oAAeSwqrFqW5TB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800699196363",
+            "title": "Nike P-6000 Men\u2019s Light Bone Sail Pale Ivory Trainers (IU7549-072) Size UK 7 NEW",
+            "declared_condition": "new",
+            "item_price": 59.95,
+            "shipping": 3.85,
+            "listed_total": 63.8
+          },
+          {
+            "item_id": "v1|377481642286|0",
+            "seller": "smkicks18",
+            "image": "https://i.ebayimg.com/images/g/LqoAAeSwY41qoDXL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377481642286",
+            "title": "Nike P-6000 Light Bone/Sail/Grey Mesh Men's Trainers UK 7 EU 41 US 8 IU7549-072",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 3.38,
+            "listed_total": 82.08
+          },
+          {
+            "item_id": "v1|267810578491|0",
+            "seller": "jasperskicks",
+            "image": "https://i.ebayimg.com/images/g/WEwAAeSwR-1qjsxX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267810578491",
+            "title": "Nike P-6000 Men\u2019s Grey/White Mesh Low Top Lace-Up UK 7 IU7549-072.",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 3.89,
+            "listed_total": 83.88
+          },
+          {
+            "item_id": "v1|137874162168|0",
+            "seller": "resellvaul08",
+            "image": "https://i.ebayimg.com/images/g/oioAAeSwI1Fq3ihu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137874162168",
+            "title": "Nike P-6000 Men\u2019s Trainers Light Bone Colour Way UK 7 EU 41 US 8 IU7549-072",
+            "declared_condition": "new",
+            "item_price": 89.09,
+            "shipping": 0.0,
+            "listed_total": 89.09
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 21
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "Nike P-6000 Men\u2019s Light Bone Sail Pale Ivory Trainers (IU7549-072) Size UK 7 NEW"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "trainers",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "Nike IU7549-072 UK 7",
+        "observed_at": "2026-11-20T05:44:50+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 3,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 82.08,
+        "competition_high": 89.09,
+        "estimated_resale": 79.61,
+        "estimated_range": [
+          73.87,
+          82.08
+        ],
+        "suggested_listing": 82.07,
+        "quick_sale_model": 73.87,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 59.95,
+        "delivery_known": true,
+        "landed_cost": 63.800000000000004,
+        "net": -2.78,
+        "roi": -4.4,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 43.58,
+        "max_item_buy": 39.73,
+        "delivery_headroom": -16.37,
+        "fees": 12.18,
+        "outbound_postage": 3.52,
+        "packaging": 0.5,
+        "returns_allowance": 2.39,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 71.64,
+        "review_stress_net": -9.34,
+        "review_stress_roi": -14.6,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 49.46,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|377481642286|0",
+            "seller": "smkicks18",
+            "image": "https://i.ebayimg.com/images/g/LqoAAeSwY41qoDXL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377481642286",
+            "title": "Nike P-6000 Light Bone/Sail/Grey Mesh Men's Trainers UK 7 EU 41 US 8 IU7549-072",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 3.38,
+            "listed_total": 82.08,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267810578491|0",
+            "seller": "jasperskicks",
+            "image": "https://i.ebayimg.com/images/g/WEwAAeSwR-1qjsxX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267810578491",
+            "title": "Nike P-6000 Men\u2019s Grey/White Mesh Low Top Lace-Up UK 7 IU7549-072.",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 3.89,
+            "listed_total": 83.88,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137874162168|0",
+            "seller": "resellvaul08",
+            "image": "https://i.ebayimg.com/images/g/oioAAeSwI1Fq3ihu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137874162168",
+            "title": "Nike P-6000 Men\u2019s Trainers Light Bone Colour Way UK 7 EU 41 US 8 IU7549-072",
+            "declared_condition": "new",
+            "item_price": 89.09,
+            "shipping": 0.0,
+            "listed_total": 89.09,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
       "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
       "url": "https://www.ebay.co.uk/itm/188906912962",
       "policy_key": "4c41315d94ef6b2b0fb09b15",
@@ -416,7 +749,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-20T05:11:34+00:00",
+          "observed_at": "2026-11-20T05:43:57+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -790,7 +1123,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-20T05:11:34+00:00",
+          "observed_at": "2026-11-20T05:43:57+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -1033,6 +1366,1139 @@
       }
     },
     {
+      "title": "LEGO Minecraft The Pale Garden 21586",
+      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-5033379",
+      "policy_key": "47960dfab4d4866b4524149a",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 11.5,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/58jzp/5033379_1/re/300x300/qt/55/5033379_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/58jzp/5033379_1/re/150x150/qt/55/5033379_1.jpg",
+        "https://i.ebayimg.com/images/g/mHcAAeSwRfJq~Ytx/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 20.68,
+      "sell_for_minimum_profit": 30.26,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-15T09:55:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Pale+Garden+21586&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21586",
+        "category": "lego",
+        "name_terms": [
+          "garden",
+          "minecraft",
+          "pale"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-20T05:44:47+00:00",
+        "date": "2026-11-20",
+        "sample_count": 33,
+        "listed_total_low": 13.06,
+        "listed_total_p25": 18.77,
+        "listed_total_median": 22.0,
+        "listed_total_p75": 25.48,
+        "listed_total_high": 28.35,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|336903732338|0",
+            "seller": "heyland1",
+            "image": "https://i.ebayimg.com/images/g/mHcAAeSwRfJq~Ytx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336903732338",
+            "title": "Lego Minecraft - The Pale Garden - 21586 - NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 10.8,
+            "shipping": 2.26,
+            "listed_total": 13.06
+          },
+          {
+            "item_id": "v1|407248156158|0",
+            "seller": "sasloc_20",
+            "image": "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407248156158",
+            "title": "LEGO Minecraft The Pale Garden 21586 Complete Set 243pcs 7+ Box",
+            "declared_condition": "new",
+            "item_price": 12.94,
+            "shipping": 2.26,
+            "listed_total": 15.2
+          },
+          {
+            "item_id": "v1|820312639563|0",
+            "seller": "fastgbdeals",
+            "image": "https://i.ebayimg.com/images/g/~dIAAeSwNj9q6n9i/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820312639563",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures Biome",
+            "declared_condition": "new",
+            "item_price": 15.76,
+            "shipping": 0.0,
+            "listed_total": 15.76
+          },
+          {
+            "item_id": "v1|820364494095|0",
+            "seller": "shs.ret.store.1970",
+            "image": "https://i.ebayimg.com/images/g/oTcAAeSwIEpq~AHK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820364494095",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
+            "declared_condition": "new",
+            "item_price": 15.76,
+            "shipping": 0.0,
+            "listed_total": 15.76
+          },
+          {
+            "item_id": "v1|336901396563|0",
+            "seller": "uaurak",
+            "image": "https://i.ebayimg.com/images/g/o6UAAeSwh~pq-~CK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336901396563",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
+            "declared_condition": "new",
+            "item_price": 16.76,
+            "shipping": 0.0,
+            "listed_total": 16.76
+          },
+          {
+            "item_id": "v1|227556984213|0",
+            "seller": "collectedthingsuk",
+            "image": "https://i.ebayimg.com/images/g/cx4AAeSwkXNqxm~B/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227556984213",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+ Brand New",
+            "declared_condition": "new",
+            "item_price": 14.99,
+            "shipping": 2.26,
+            "listed_total": 17.25
+          },
+          {
+            "item_id": "v1|398289060974|0",
+            "seller": "and_800274",
+            "image": "https://i.ebayimg.com/images/g/LRUAAeSw8NlqKZCg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398289060974",
+            "title": "LEGO\u00ae Minecraft\u00ae The Pale Garden 21586 | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 15.99,
+            "shipping": 2.26,
+            "listed_total": 18.25
+          },
+          {
+            "item_id": "v1|307287126379|0",
+            "seller": "bigcatemporium",
+            "image": "https://i.ebayimg.com/images/g/YQMAAeSwCCBq~GPG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307287126379",
+            "title": "LEGO Minecraft The Pale Garden Set 21586 243pcs Age 7+ Brick Separator",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|128159074898|0",
+            "seller": "maisonbrickette",
+            "image": "https://i.ebayimg.com/images/g/1JQAAeSwGY9q4IZi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128159074898",
+            "title": "Lego Minecraft 21586 The Pale Garden 243pc Building Set 7+ Complete Set Box",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.62,
+            "listed_total": 18.77
+          },
+          {
+            "item_id": "v1|820196283891|0",
+            "seller": "yoshi-14",
+            "image": "https://i.ebayimg.com/images/g/daQAAeSwd25qv7vB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820196283891",
+            "title": "Lego Minecraft The Pale Garden 243 Pieces 21586 Brand New Sealed Lego Full Set",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.26,
+            "listed_total": 19.48
+          },
+          {
+            "item_id": "v1|336513185577|0",
+            "seller": "toys.99",
+            "image": "https://i.ebayimg.com/images/g/9MwAAeSwaO1pzVKl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336513185577",
+            "title": "LEGO\u00ae Minecraft\u00ae The Pale Garden (21586) !!NEW!!",
+            "declared_condition": "new",
+            "item_price": 17.33,
+            "shipping": 2.26,
+            "listed_total": 19.59
+          },
+          {
+            "item_id": "v1|178564998537|0",
+            "seller": "silver_surfer_80",
+            "image": "https://i.ebayimg.com/images/g/6MQAAeSwYYJqxoCz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178564998537",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
+            "declared_condition": "new",
+            "item_price": 18.08,
+            "shipping": 2.26,
+            "listed_total": 20.34
+          },
+          {
+            "item_id": "v1|307197054014|0",
+            "seller": "dextro39",
+            "image": "https://i.ebayimg.com/images/g/We8AAeSwbhdqtXHE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307197054014",
+            "title": "LEGO Minecraft The Pale Garden Building Toy 21586",
+            "declared_condition": "new",
+            "item_price": 19.35,
+            "shipping": 2.26,
+            "listed_total": 21.61
+          },
+          {
+            "item_id": "v1|366712219259|0",
+            "seller": "k78272",
+            "image": "https://i.ebayimg.com/images/g/QWkAAeSwS05qw4s1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366712219259",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
+            "declared_condition": "new",
+            "item_price": 19.35,
+            "shipping": 2.26,
+            "listed_total": 21.61
+          },
+          {
+            "item_id": "v1|227543426558|0",
+            "seller": "brickoutuk",
+            "image": "https://i.ebayimg.com/images/g/Pz0AAeSwmP5qurCF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227543426558",
+            "title": "LEGO Minecraft 21586 The Pale Garden l Brand New & Sealed \u2705",
+            "declared_condition": "new",
+            "item_price": 19.4,
+            "shipping": 2.26,
+            "listed_total": 21.66
+          },
+          {
+            "item_id": "v1|297958509999|0",
+            "seller": "curiousmindsuk",
+            "image": "https://i.ebayimg.com/images/g/yFcAAeSwEb5pcjur/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/297958509999",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
+            "declared_condition": "new",
+            "item_price": 21.99,
+            "shipping": 0.0,
+            "listed_total": 21.99
+          },
+          {
+            "item_id": "v1|306672532083|0",
+            "seller": "toytownstores",
+            "image": "https://i.ebayimg.com/images/g/nT4AAeSwU4VpSnzb/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/306672532083",
+            "title": "LEGO Minecraft 21586 The Pale Garden ",
+            "declared_condition": "new",
+            "item_price": 18.0,
+            "shipping": 4.0,
+            "listed_total": 22.0
+          },
+          {
+            "item_id": "v1|158125394256|0",
+            "seller": "thedetailedmodel",
+            "image": "https://i.ebayimg.com/images/g/atkAAeSwygVqZ7Ep/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/158125394256",
+            "title": "Lego Minecraft - The Pale Garden - 21586 - 7+ Yrs",
+            "declared_condition": "new",
+            "item_price": 20.0,
+            "shipping": 2.26,
+            "listed_total": 22.26
+          },
+          {
+            "item_id": "v1|860131853017|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/8JUAAeSwRHlq83Do/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860131853017",
+            "title": "LEGO Minecraft 21586 The Pale Garden Set",
+            "declared_condition": "new",
+            "item_price": 22.53,
+            "shipping": 0.0,
+            "listed_total": 22.53
+          },
+          {
+            "item_id": "v1|127652811274|0",
+            "seller": "maqiotoys",
+            "image": "https://i.ebayimg.com/images/g/NAIAAeSw~rlpe11F/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127652811274",
+            "title": "Lego MINECRAFT 21586 The Pale Garden",
+            "declared_condition": "new",
+            "item_price": 22.99,
+            "shipping": 0.0,
+            "listed_total": 22.99
+          },
+          {
+            "item_id": "v1|198556637928|0",
+            "seller": "proseller1000",
+            "image": "https://i.ebayimg.com/images/g/9PoAAeSwsnZqdz2T/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198556637928",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+ New/Unopened",
+            "declared_condition": "new",
+            "item_price": 21.49,
+            "shipping": 2.26,
+            "listed_total": 23.75
+          },
+          {
+            "item_id": "v1|800863797677|0",
+            "seller": "theorangeseller",
+            "image": "https://i.ebayimg.com/images/g/BUgAAeSw4-Zq53O8/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800863797677",
+            "title": "LEGO Minecraft 21586 The Pale Garden 243 Pieces BRAND NEW & SEALED 2026",
+            "declared_condition": "new",
+            "item_price": 20.99,
+            "shipping": 2.97,
+            "listed_total": 23.96
+          },
+          {
+            "item_id": "v1|840033954029|0",
+            "seller": "thepuzzledsweetshop",
+            "image": "https://i.ebayimg.com/images/g/IRwAAeSwWJJq2f4X/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840033954029",
+            "title": "Lego - Minecraft: The Pale Garden 21586",
+            "declared_condition": "new",
+            "item_price": 20.24,
+            "shipping": 3.75,
+            "listed_total": 23.99
+          },
+          {
+            "item_id": "v1|407364779234|0",
+            "seller": "flya-22",
+            "image": "https://i.ebayimg.com/images/g/LgkAAeSwT99q5zt3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "AUCTION"
+            ],
+            "end_at": "2026-11-22T13:21:05.000Z",
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407364779234",
+            "title": "LEGO Minecraft 21586 The Pale Garden Brand New",
+            "declared_condition": "new",
+            "item_price": 21.5,
+            "shipping": 3.38,
+            "listed_total": 24.88
+          },
+          {
+            "item_id": "v1|406640542303|0",
+            "seller": "gordons-toys",
+            "image": "https://i.ebayimg.com/images/g/PvAAAeSwalhpd0qG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406640542303",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+",
+            "declared_condition": "new",
+            "item_price": 21.99,
+            "shipping": 3.49,
+            "listed_total": 25.48
+          },
+          {
+            "item_id": "v1|168207976907|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/jMIAAeSw5GFpqbF~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207976907",
+            "title": "Lego\u00ae Minecraft 21586 Pale Garden Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 25.99,
+            "shipping": 0.0,
+            "listed_total": 25.99
+          },
+          {
+            "item_id": "v1|117443079404|0",
+            "seller": "lego-toys-alex",
+            "image": "https://i.ebayimg.com/images/g/T-kAAeSwYYJqv5fj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117443079404",
+            "title": "Lego Minecraft 21586 The Pale Garden Brand-New And Sealed",
+            "declared_condition": "new",
+            "item_price": 24.1,
+            "shipping": 2.94,
+            "listed_total": 27.04
+          },
+          {
+            "item_id": "v1|880080386589|0",
+            "seller": "rania4e",
+            "image": "https://i.ebayimg.com/images/g/~jgAAeSwRglq6n1C/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880080386589",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Age 7+ Creaking",
+            "declared_condition": "new",
+            "item_price": 27.11,
+            "shipping": 0.0,
+            "listed_total": 27.11
+          },
+          {
+            "item_id": "v1|237161780286|0",
+            "seller": "omstradeuk",
+            "image": "https://i.ebayimg.com/images/g/~JsAAeSw5T5q6n4l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237161780286",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures",
+            "declared_condition": "new",
+            "item_price": 27.11,
+            "shipping": 0.0,
+            "listed_total": 27.11
+          },
+          {
+            "item_id": "v1|407338063125|0",
+            "seller": "tradeiq",
+            "image": "https://i.ebayimg.com/images/g/dL4AAeSwUFFq6n~4/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407338063125",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Biome 7+ Gift",
+            "declared_condition": "new",
+            "item_price": 27.11,
+            "shipping": 0.0,
+            "listed_total": 27.11
+          },
+          {
+            "item_id": "v1|800881931834|0",
+            "seller": "lumoragbp",
+            "image": "https://i.ebayimg.com/images/g/lfcAAeSwRglq7N0i/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800881931834",
+            "title": "LEGO Minecraft Pale Garden Building Set 21586 243 Pieces Creeper Skeleton 7+",
+            "declared_condition": "new",
+            "item_price": 27.11,
+            "shipping": 0.0,
+            "listed_total": 27.11
+          },
+          {
+            "item_id": "v1|407334703246|0",
+            "seller": "fouadx",
+            "image": "https://i.ebayimg.com/images/g/hWEAAeSw2pBq6Rzc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407334703246",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
+            "declared_condition": "new",
+            "item_price": 28.35,
+            "shipping": 0.0,
+            "listed_total": 28.35
+          },
+          {
+            "item_id": "v1|147677806247|0",
+            "seller": "zyra-15",
+            "image": "https://i.ebayimg.com/images/g/ulUAAeSwbshq9frU/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147677806247",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Ages 7+",
+            "declared_condition": "new",
+            "item_price": 28.35,
+            "shipping": 0.0,
+            "listed_total": 28.35
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 17
+        },
+        "query_aliases": [
+          "LEGO Minecraft The Pale Garden 21586"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 21586",
+        "observed_at": "2026-11-20T05:44:47+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 33,
+        "seller_count": 33,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 13.06,
+        "competition_high": 28.35,
+        "estimated_resale": 12.66,
+        "estimated_range": [
+          11.75,
+          13.06
+        ],
+        "suggested_listing": 13.05,
+        "quick_sale_model": 11.75,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 11.5,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -6.7,
+        "max_landed_buy": 0,
+        "max_item_buy": null,
+        "delivery_headroom": -11.5,
+        "fees": 2.19,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.38,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 11.39,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|336903732338|0",
+            "seller": "heyland1",
+            "image": "https://i.ebayimg.com/images/g/mHcAAeSwRfJq~Ytx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336903732338",
+            "title": "Lego Minecraft - The Pale Garden - 21586 - NEW SEALED",
+            "declared_condition": "new",
+            "item_price": 10.8,
+            "shipping": 2.26,
+            "listed_total": 13.06,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407248156158|0",
+            "seller": "sasloc_20",
+            "image": "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407248156158",
+            "title": "LEGO Minecraft The Pale Garden 21586 Complete Set 243pcs 7+ Box",
+            "declared_condition": "new",
+            "item_price": 12.94,
+            "shipping": 2.26,
+            "listed_total": 15.2,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820312639563|0",
+            "seller": "fastgbdeals",
+            "image": "https://i.ebayimg.com/images/g/~dIAAeSwNj9q6n9i/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820312639563",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces 7+ Figures Biome",
+            "declared_condition": "new",
+            "item_price": 15.76,
+            "shipping": 0.0,
+            "listed_total": 15.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820364494095|0",
+            "seller": "shs.ret.store.1970",
+            "image": "https://i.ebayimg.com/images/g/oTcAAeSwIEpq~AHK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820364494095",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
+            "declared_condition": "new",
+            "item_price": 15.76,
+            "shipping": 0.0,
+            "listed_total": 15.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|336901396563|0",
+            "seller": "uaurak",
+            "image": "https://i.ebayimg.com/images/g/o6UAAeSwh~pq-~CK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336901396563",
+            "title": "LEGO Minecraft The Pale Garden 21586 Building Set 243 Pieces Creaking Mothman",
+            "declared_condition": "new",
+            "item_price": 16.76,
+            "shipping": 0.0,
+            "listed_total": 16.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227556984213|0",
+            "seller": "collectedthingsuk",
+            "image": "https://i.ebayimg.com/images/g/cx4AAeSwkXNqxm~B/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227556984213",
+            "title": "Lego Minecraft 21586 The Pale Garden Building Toy for Kids Ages 7+ Brand New",
+            "declared_condition": "new",
+            "item_price": 14.99,
+            "shipping": 2.26,
+            "listed_total": 17.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398289060974|0",
+            "seller": "and_800274",
+            "image": "https://i.ebayimg.com/images/g/LRUAAeSw8NlqKZCg/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398289060974",
+            "title": "LEGO\u00ae Minecraft\u00ae The Pale Garden 21586 | NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 15.99,
+            "shipping": 2.26,
+            "listed_total": 18.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|307287126379|0",
+            "seller": "bigcatemporium",
+            "image": "https://i.ebayimg.com/images/g/YQMAAeSwCCBq~GPG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307287126379",
+            "title": "LEGO Minecraft The Pale Garden Set 21586 243pcs Age 7+ Brick Separator",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|128159074898|0",
+            "seller": "maisonbrickette",
+            "image": "https://i.ebayimg.com/images/g/1JQAAeSwGY9q4IZi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128159074898",
+            "title": "Lego Minecraft 21586 The Pale Garden 243pc Building Set 7+ Complete Set Box",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.62,
+            "listed_total": 18.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820196283891|0",
+            "seller": "yoshi-14",
+            "image": "https://i.ebayimg.com/images/g/daQAAeSwd25qv7vB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820196283891",
+            "title": "Lego Minecraft The Pale Garden 243 Pieces 21586 Brand New Sealed Lego Full Set",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.26,
+            "listed_total": 19.48,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
       "title": "LEGO Harry Potter Cornish Pixie Building Toy 76461 - With Code",
       "url": "https://www.hotukdeals.com/deals/lego-harry-potter-cornish-pixie-building-toy-76461-with-code-5033888",
       "policy_key": "cc183720d9b84702807672af",
@@ -1047,8 +2513,8 @@
       "item_price": 12.6,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cNUCE/5033888_1/re/300x300/qt/55/5033888_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cNUCE/5033888_1/re/300x300/qt/55/5033888_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cNUCE/5033888_1/re/150x150/qt/55/5033888_1.jpg",
@@ -2592,8 +4058,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/150x150/qt/55/5036956_1.jpg",
@@ -3877,8 +5343,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/300x300/qt/55/5037076_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/300x300/qt/55/5037076_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/150x150/qt/55/5037076_1.jpg",
@@ -5380,8 +6846,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/150x150/qt/55/5037065_1.jpg",
@@ -6698,8 +8164,8 @@
       "item_price": 19.93,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/150x150/qt/55/5037349_1.jpg",
@@ -7364,8 +8830,8 @@
       "item_price": 22.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q2Y4C/5037277_1/re/300x300/qt/55/5037277_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q2Y4C/5037277_1/re/300x300/qt/55/5037277_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q2Y4C/5037277_1/re/150x150/qt/55/5037277_1.jpg",
@@ -8024,8 +9490,8 @@
       "item_price": 24.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/300x300/qt/55/5037101_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/300x300/qt/55/5037101_1.jpg",
         "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/150x150/qt/55/5037101_1.jpg",
@@ -8834,8 +10300,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg"
@@ -9848,298 +11314,6 @@
       }
     },
     {
-      "title": "LEGO Star Wars AT-AT with Snowspeeder - 75440",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-at-at-with-snowspeeder-75440-5036943",
-      "policy_key": "83d9a482e879f11426b4976e",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 39.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/CqhH6/5036943_1/re/300x300/qt/55/5036943_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/CqhH6/5036943_1/re/150x150/qt/55/5036943_1.jpg",
-        "https://i.ebayimg.com/images/g/KJoAAeSw3IVppbtp/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/DogAAeSwzHBq9HAg/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 54.8,
-      "sell_for_minimum_profit": 73.96,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T07:41:00+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+AT-AT+with+Snowspeeder&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 75440",
-        "category": "lego",
-        "name_terms": [
-          "snowspeeder"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-19T23:17:37+00:00",
-        "date": "2026-11-19",
-        "sample_count": 3,
-        "listed_total_low": 42.99,
-        "listed_total_p25": 42.99,
-        "listed_total_median": 42.99,
-        "listed_total_p75": 49.4,
-        "listed_total_high": 55.81,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|198149190412|0",
-            "seller": "costmad",
-            "image": "https://i.ebayimg.com/images/g/KJoAAeSw3IVppbtp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198149190412",
-            "title": "LEGO Star Wars 75440 AT-AT Display Model 18+ 525pcs w/ Stand & Snowspeeder",
-            "declared_condition": "new",
-            "item_price": 42.99,
-            "shipping": 0.0,
-            "listed_total": 42.99
-          },
-          {
-            "item_id": "v1|327451236429|0",
-            "seller": "cjworldonline",
-            "image": "https://i.ebayimg.com/images/g/DogAAeSwzHBq9HAg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327451236429",
-            "title": "LEGO Star Wars 75440 AT-AT Display Model 18+ 525pcs w/ Stand & Snowspeeder",
-            "declared_condition": "new",
-            "item_price": 42.99,
-            "shipping": 0.0,
-            "listed_total": 42.99
-          },
-          {
-            "item_id": "v1|860012013999|0",
-            "seller": "bellatique",
-            "image": "https://i.ebayimg.com/images/g/wT4AAeSwclBqw-fc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860012013999",
-            "title": "LEGO Star Wars AT-AT 75440 Brand New Sealed Adults Display Set with Snowspeeder",
-            "declared_condition": "new",
-            "item_price": 55.81,
-            "shipping": 0.0,
-            "listed_total": 55.81
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 47
-        },
-        "query_aliases": [
-          "LEGO Star Wars AT-AT with Snowspeeder - 75440"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": true,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 75440",
-        "observed_at": "2026-11-19T23:17:37+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 3,
-        "seller_count": 3,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 2,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 42.99,
-        "competition_high": 55.81,
-        "estimated_resale": 41.7,
-        "estimated_range": [
-          38.69,
-          42.99
-        ],
-        "suggested_listing": 42.98,
-        "quick_sale_model": 38.69,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 39.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -10.94,
-        "max_landed_buy": 20.75,
-        "max_item_buy": null,
-        "delivery_headroom": -19.24,
-        "fees": 6.11,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 1.25,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 37.53,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 19.05,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Low competing offers advertise coupons; check effective competition before buying",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|198149190412|0",
-            "seller": "costmad",
-            "image": "https://i.ebayimg.com/images/g/KJoAAeSw3IVppbtp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198149190412",
-            "title": "LEGO Star Wars 75440 AT-AT Display Model 18+ 525pcs w/ Stand & Snowspeeder",
-            "declared_condition": "new",
-            "item_price": 42.99,
-            "shipping": 0.0,
-            "listed_total": 42.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327451236429|0",
-            "seller": "cjworldonline",
-            "image": "https://i.ebayimg.com/images/g/DogAAeSwzHBq9HAg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327451236429",
-            "title": "LEGO Star Wars 75440 AT-AT Display Model 18+ 525pcs w/ Stand & Snowspeeder",
-            "declared_condition": "new",
-            "item_price": 42.99,
-            "shipping": 0.0,
-            "listed_total": 42.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860012013999|0",
-            "seller": "bellatique",
-            "image": "https://i.ebayimg.com/images/g/wT4AAeSwclBqw-fc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860012013999",
-            "title": "LEGO Star Wars AT-AT 75440 Brand New Sealed Adults Display Set with Snowspeeder",
-            "declared_condition": "new",
-            "item_price": 55.81,
-            "shipping": 0.0,
-            "listed_total": 55.81,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "uncertain_competitor_coupon"
-      }
-    },
-    {
       "title": "LEGO Icons The Lord of the Rings: Sauron's Helmet 11373 (\u00a339 with Argos signup Email) - free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-icons-the-lord-of-the-rings-saurons-helmet-11373-ps39-with-argos-signup-email-5037092",
       "policy_key": "941d3d9e7c76d6aae04a1db1",
@@ -10154,8 +11328,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/R5aUt/5037092_1/re/300x300/qt/55/5037092_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/R5aUt/5037092_1/re/300x300/qt/55/5037092_1.jpg",
         "https://images.hotukdeals.com/threads/raw/R5aUt/5037092_1/re/150x150/qt/55/5037092_1.jpg",
@@ -12303,7 +13477,7 @@
           "contents": "bare tool; no battery/charger",
           "region": "GB listing; warranty unverified"
         },
-        "observed_at": "2026-11-20T02:32:08+00:00",
+        "observed_at": "2026-11-20T05:12:42+00:00",
         "date": "2026-11-20",
         "sample_count": 3,
         "listed_total_low": 85.99,
@@ -12389,7 +13563,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-20T05:11:34+00:00",
+          "observed_at": "2026-11-20T05:43:57+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -12506,7 +13680,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "DeWalt DCV100 bare tool 18V",
-        "observed_at": "2026-11-20T02:32:08+00:00",
+        "observed_at": "2026-11-20T05:12:42+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 3,
@@ -12654,8 +13828,8 @@
         "query": "DeWalt DCV100 bare tool 18V",
         "kind": "active_ask",
         "listing": 85.98,
-        "observed_at": "2026-11-20T02:32:08+00:00",
-        "valid_until": "2026-11-20T08:32:08+00:00",
+        "observed_at": "2026-11-20T05:12:42+00:00",
+        "valid_until": "2026-11-20T11:12:42+00:00",
         "sources": [
           "https://www.ebay.co.uk/itm/188906912962",
           "https://www.ebay.co.uk/itm/197018344217",
@@ -12705,8 +13879,8 @@
       "item_price": 61.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NfIU8/5039499_1/re/300x300/qt/55/5039499_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NfIU8/5039499_1/re/300x300/qt/55/5039499_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NfIU8/5039499_1/re/150x150/qt/55/5039499_1.jpg"
@@ -13258,8 +14432,8 @@
       "item_price": 99.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iyYxC/5039954_1/re/300x300/qt/55/5039954_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iyYxC/5039954_1/re/300x300/qt/55/5039954_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iyYxC/5039954_1/re/150x150/qt/55/5039954_1.jpg"
@@ -14200,8 +15374,8 @@
       "item_price": 100.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GbtDS/5039837_1/re/300x300/qt/55/5039837_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GbtDS/5039837_1/re/300x300/qt/55/5039837_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GbtDS/5039837_1/re/150x150/qt/55/5039837_1.jpg"
@@ -15246,8 +16420,8 @@
       "item_price": 115.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DALMS/5039007_1/re/300x300/qt/55/5039007_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DALMS/5039007_1/re/300x300/qt/55/5039007_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DALMS/5039007_1/re/150x150/qt/55/5039007_1.jpg"
@@ -15991,8 +17165,8 @@
       "item_price": 133.33,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/7qu39/5038277_1/re/300x300/qt/55/5038277_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/7qu39/5038277_1/re/300x300/qt/55/5038277_1.jpg",
         "https://images.hotukdeals.com/threads/raw/7qu39/5038277_1/re/150x150/qt/55/5038277_1.jpg"
@@ -16952,8 +18126,8 @@
       "item_price": 139.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/n3gyA/5038918_1/re/300x300/qt/55/5038918_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/n3gyA/5038918_1/re/300x300/qt/55/5038918_1.jpg",
         "https://images.hotukdeals.com/threads/raw/n3gyA/5038918_1/re/150x150/qt/55/5038918_1.jpg"
@@ -18146,632 +19320,6 @@
       }
     },
     {
-      "title": "God Of War Playstation Hits (PS4)",
-      "url": "https://www.hotukdeals.com/deals/god-of-war-playstation-hits-ps4-5039586",
-      "policy_key": "2f432e9dc203a384fcd637f0",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 5.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/tIrm6/5039586_1/re/150x150/qt/55/5039586_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/god-of-war-playstation-hits-ps4-5039586",
-      "landed_cost": null,
-      "breakeven_sell": 11.41,
-      "sell_for_minimum_profit": 20.87,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T20:03:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=God+Of+War+Playstation+Hits+%28PS4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "god of war playstation hits ps4",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-19T23:17:37+00:00",
-        "date": "2026-11-19",
-        "sample_count": 10,
-        "listed_total_low": 8.25,
-        "listed_total_p25": 13.905000000000001,
-        "listed_total_median": 17.34,
-        "listed_total_p75": 18.7425,
-        "listed_total_high": 40.99,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|318521003923|0",
-            "seller": "gilbosgoods3",
-            "image": "https://i.ebayimg.com/images/g/Q1MAAeSw1w5qQtF-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318521003923",
-            "title": "God of War Playstation Hits (PS4)",
-            "declared_condition": "new",
-            "item_price": 8.25,
-            "shipping": 0.0,
-            "listed_total": 8.25,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|860145606783|0",
-            "seller": "ibbz_83",
-            "image": "https://i.ebayimg.com/images/g/bZsAAeSwfQdq-Y1V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860145606783",
-            "title": "God Of War.  PS4.  Playstation Hits.  Brand New Sealed.",
-            "declared_condition": "new",
-            "item_price": 7.59,
-            "shipping": 2.94,
-            "listed_total": 10.53,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|315918392200|0",
-            "seller": "zak7-54",
-            "image": "https://i.ebayimg.com/images/g/Hz8AAOSwxb5nJ7Ln/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/315918392200",
-            "title": "God Of War Playstation Hits PS4",
-            "declared_condition": "new",
-            "item_price": 10.79,
-            "shipping": 2.7,
-            "listed_total": 13.49,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|406438671809|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/Z40AAOSwZHpijOtH/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/406438671809",
-            "title": "God of War - PlayStation Hits PS4  BRAND NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 15.15,
-            "shipping": 0.0,
-            "listed_total": 15.15,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|168859894994|0",
-            "seller": "muha_47085",
-            "image": "https://i.ebayimg.com/images/g/zWYAAeSwh7Fq90Er/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168859894994",
-            "title": "God of War Playstation Hits (PS4)",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 0.0,
-            "listed_total": 17.22,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|286712923729|0",
-            "seller": "reactivestores",
-            "image": "https://i.ebayimg.com/images/g/9kgAAeSwK0poehri/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/286712923729",
-            "title": "God of War (Playstation Hits) (PS4)",
-            "declared_condition": "new",
-            "item_price": 17.46,
-            "shipping": 0.0,
-            "listed_total": 17.46,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|127474661411|0",
-            "seller": "iymo_uk",
-            "image": "https://i.ebayimg.com/images/g/wK0AAOSw20lnCSfG/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127474661411",
-            "title": "GOD OF WAR PLAYSTATION HITS PS4 GAME",
-            "declared_condition": "new",
-            "item_price": 18.39,
-            "shipping": 0.0,
-            "listed_total": 18.39,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|277739345768|0",
-            "seller": "gadget.games",
-            "image": "https://i.ebayimg.com/images/g/sMwAAOSw0oJlkakp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/277739345768",
-            "title": "God of War - PlayStation Hits (PS4)  BRAND NEW AND SEALED - ",
-            "declared_condition": "new",
-            "item_price": 16.14,
-            "shipping": 2.72,
-            "listed_total": 18.86,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|227516456054|0",
-            "seller": "ukpricezilla",
-            "image": "https://i.ebayimg.com/images/g/0l4AAeSwPKNqo5Tv/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227516456054",
-            "title": "God Of War Playstation Hits PS4",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          },
-          {
-            "item_id": "v1|227531194102|0",
-            "seller": "ounz",
-            "image": "https://i.ebayimg.com/images/g/HngAAeSwl9hqsCH8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227531194102",
-            "title": "God Of War Playstation Hits (PS4)",
-            "declared_condition": "new",
-            "item_price": 40.99,
-            "shipping": 0.0,
-            "listed_total": 40.99,
-            "observed_at": "2026-11-19T23:17:37+00:00"
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 38
-        },
-        "canonicalized_at": "2026-11-20T05:11:34+00:00",
-        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
-        "query_aliases": [
-          "God Of War Playstation Hits (PS4)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "gaming",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "god of war playstation hits ps4",
-        "observed_at": "2026-11-19T23:17:37+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 10,
-        "seller_count": 10,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": true,
-        "competition_low": 8.25,
-        "competition_high": 40.99,
-        "estimated_resale": 8.0,
-        "estimated_range": [
-          7.42,
-          8.25
-        ],
-        "suggested_listing": 8.24,
-        "quick_sale_model": 7.42,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 5.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -2.77,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -5.99,
-        "fees": 1.34,
-        "outbound_postage": 2.7,
-        "packaging": 0.5,
-        "returns_allowance": 0.24,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 7.2,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|318521003923|0",
-            "seller": "gilbosgoods3",
-            "image": "https://i.ebayimg.com/images/g/Q1MAAeSw1w5qQtF-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318521003923",
-            "title": "God of War Playstation Hits (PS4)",
-            "declared_condition": "new",
-            "item_price": 8.25,
-            "shipping": 0.0,
-            "listed_total": 8.25,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860145606783|0",
-            "seller": "ibbz_83",
-            "image": "https://i.ebayimg.com/images/g/bZsAAeSwfQdq-Y1V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860145606783",
-            "title": "God Of War.  PS4.  Playstation Hits.  Brand New Sealed.",
-            "declared_condition": "new",
-            "item_price": 7.59,
-            "shipping": 2.94,
-            "listed_total": 10.53,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|315918392200|0",
-            "seller": "zak7-54",
-            "image": "https://i.ebayimg.com/images/g/Hz8AAOSwxb5nJ7Ln/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/315918392200",
-            "title": "God Of War Playstation Hits PS4",
-            "declared_condition": "new",
-            "item_price": 10.79,
-            "shipping": 2.7,
-            "listed_total": 13.49,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|406438671809|0",
-            "seller": "thegamecollectionoutlet",
-            "image": "https://i.ebayimg.com/images/g/Z40AAOSwZHpijOtH/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/406438671809",
-            "title": "God of War - PlayStation Hits PS4  BRAND NEW AND SEALED - FREE SHIPPING",
-            "declared_condition": "new",
-            "item_price": 15.15,
-            "shipping": 0.0,
-            "listed_total": 15.15,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168859894994|0",
-            "seller": "muha_47085",
-            "image": "https://i.ebayimg.com/images/g/zWYAAeSwh7Fq90Er/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168859894994",
-            "title": "God of War Playstation Hits (PS4)",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 0.0,
-            "listed_total": 17.22,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|286712923729|0",
-            "seller": "reactivestores",
-            "image": "https://i.ebayimg.com/images/g/9kgAAeSwK0poehri/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/286712923729",
-            "title": "God of War (Playstation Hits) (PS4)",
-            "declared_condition": "new",
-            "item_price": 17.46,
-            "shipping": 0.0,
-            "listed_total": 17.46,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|127474661411|0",
-            "seller": "iymo_uk",
-            "image": "https://i.ebayimg.com/images/g/wK0AAOSw20lnCSfG/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127474661411",
-            "title": "GOD OF WAR PLAYSTATION HITS PS4 GAME",
-            "declared_condition": "new",
-            "item_price": 18.39,
-            "shipping": 0.0,
-            "listed_total": 18.39,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|277739345768|0",
-            "seller": "gadget.games",
-            "image": "https://i.ebayimg.com/images/g/sMwAAOSw0oJlkakp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/277739345768",
-            "title": "God of War - PlayStation Hits (PS4)  BRAND NEW AND SEALED - ",
-            "declared_condition": "new",
-            "item_price": 16.14,
-            "shipping": 2.72,
-            "listed_total": 18.86,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227516456054|0",
-            "seller": "ukpricezilla",
-            "image": "https://i.ebayimg.com/images/g/0l4AAeSwPKNqo5Tv/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227516456054",
-            "title": "God Of War Playstation Hits PS4",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227531194102|0",
-            "seller": "ounz",
-            "image": "https://i.ebayimg.com/images/g/HngAAeSwl9hqsCH8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227531194102",
-            "title": "God Of War Playstation Hits (PS4)",
-            "declared_condition": "new",
-            "item_price": 40.99,
-            "shipping": 0.0,
-            "listed_total": 40.99,
-            "observed_at": "2026-11-19T23:17:37+00:00",
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
-      }
-    },
-    {
       "title": "Sonic x Shadow Generations (Playstation 5 / PS5)",
       "url": "https://www.hotukdeals.com/deals/sonic-x-shadow-generations-playstation-5-5039831",
       "policy_key": "2e35330adbef67621fbe1a51",
@@ -19065,7 +19613,7 @@
         "rejected": {
           "identity_or_condition": 33
         },
-        "canonicalized_at": "2026-11-20T05:11:34+00:00",
+        "canonicalized_at": "2026-11-20T05:43:57+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Sonic x Shadow Generations (Playstation 5 / PS5)"
@@ -19654,7 +20202,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-20T05:11:34+00:00",
+        "canonicalized_at": "2026-11-20T05:43:57+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Like a Dragon: Pirate Yakuza in Hawaii (Playstation 5/PS5)"
@@ -19970,7 +20518,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-20T05:11:34+00:00",
+        "canonicalized_at": "2026-11-20T05:43:57+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Mortal Shell II - PS5"
@@ -21022,9 +21570,9 @@
         "date": "2026-11-20",
         "sample_count": 4,
         "listed_total_low": 49.01,
-        "listed_total_p25": 49.72,
-        "listed_total_median": 51.48,
-        "listed_total_p75": 53.5,
+        "listed_total_p25": 49.715,
+        "listed_total_median": 51.475,
+        "listed_total_p75": 53.4975,
         "listed_total_high": 54.99,
         "status": "indicative_only",
         "warnings": [
@@ -21052,7 +21600,8 @@
             "declared_condition": "new",
             "item_price": 49.01,
             "shipping": 0.0,
-            "listed_total": 49.01
+            "listed_total": 49.01,
+            "observed_at": "2026-11-20T05:12:39+00:00"
           },
           {
             "item_id": "v1|206430250525|0",
@@ -21074,7 +21623,8 @@
             "declared_condition": "new",
             "item_price": 49.95,
             "shipping": 0.0,
-            "listed_total": 49.95
+            "listed_total": 49.95,
+            "observed_at": "2026-11-20T05:12:39+00:00"
           },
           {
             "item_id": "v1|117490835922|0",
@@ -21096,7 +21646,8 @@
             "declared_condition": "new",
             "item_price": 53.0,
             "shipping": 0.0,
-            "listed_total": 53.0
+            "listed_total": 53.0,
+            "observed_at": "2026-11-20T05:12:39+00:00"
           },
           {
             "item_id": "v1|287489373418|0",
@@ -21118,12 +21669,15 @@
             "declared_condition": "new",
             "item_price": 54.99,
             "shipping": 0.0,
-            "listed_total": 54.99
+            "listed_total": 54.99,
+            "observed_at": "2026-11-20T05:12:39+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 7
         },
+        "canonicalized_at": "2026-11-20T05:43:57+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "The Blood of Dawnwalker Day 1 Edition - PS5"
         ]
@@ -21227,6 +21781,7 @@
             "item_price": 49.01,
             "shipping": 0.0,
             "listed_total": 49.01,
+            "observed_at": "2026-11-20T05:12:39+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -21250,6 +21805,7 @@
             "item_price": 49.95,
             "shipping": 0.0,
             "listed_total": 49.95,
+            "observed_at": "2026-11-20T05:12:39+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -21273,6 +21829,7 @@
             "item_price": 53.0,
             "shipping": 0.0,
             "listed_total": 53.0,
+            "observed_at": "2026-11-20T05:12:39+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -21296,6 +21853,7 @@
             "item_price": 54.99,
             "shipping": 0.0,
             "listed_total": 54.99,
+            "observed_at": "2026-11-20T05:12:39+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -21565,34 +22123,29 @@
       }
     },
     {
-      "title": "LEGO Minecraft The Pale Garden 21586",
-      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-5033379",
-      "policy_key": "47960dfab4d4866b4524149a",
-      "category": "lego",
+      "title": "XIAOMI Redmi Buds 6 Play, Wireless In-ear Earbuds, 7.5h+36h Battery, Black, Pink or White (Sold by Xiaomi Official Store UK, FBA)",
+      "url": "https://www.hotukdeals.com/deals/xiaomi-redmi-buds-6-play-wireless-in-ear-earbuds-75h36h-battery-black-sold-by-xiaomi-official-store-uk-fba-5039968",
+      "policy_key": "c77094e6d7bb3b00da1da1b1",
+      "category": "tech",
       "source": "hotukdeals",
-      "price_basis": null,
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "Amazon",
-      "item_price": 11.5,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
+      "item_price": 9.99,
+      "image_status": null,
+      "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/58jzp/5033379_1/re/300x300/qt/55/5033379_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/58jzp/5033379_1/re/150x150/qt/55/5033379_1.jpg",
-        "https://i.ebayimg.com/images/g/mHcAAeSwRfJq~Ytx/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ZhgAAeSwNjpquFBj/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/Zip3j/5039968_1/re/150x150/qt/55/5039968_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/xiaomi-redmi-buds-6-play-wireless-in-ear-earbuds-75h36h-battery-black-sold-by-xiaomi-official-store-uk-fba-5039968",
       "landed_cost": null,
-      "breakeven_sell": 20.68,
-      "sell_for_minimum_profit": 30.26,
+      "breakeven_sell": 17.28,
+      "sell_for_minimum_profit": 27.13,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -21600,9 +22153,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-15T09:55:12+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Pale+Garden+21586&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "first_seen": "2026-11-20T05:44:46+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=XIAOMI+Redmi+Buds+6+Play%2C+Wireless+In-ear+Earbuds%2C+7.5h%2B36h+Battery%2C+Black%2C+Pink+or+White+%28Sold+by+Xiaomi+Official+Store+UK%2C+FBA%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -21750,8 +22303,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G2xR9/5039957_1/re/300x300/qt/55/5039957_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G2xR9/5039957_1/re/300x300/qt/55/5039957_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G2xR9/5039957_1/re/150x150/qt/55/5039957_1.jpg"
@@ -21834,8 +22387,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G2xR9/5039957_1/re/300x300/qt/55/5039957_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G2xR9/5039957_1/re/300x300/qt/55/5039957_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G2xR9/5039957_1/re/150x150/qt/55/5039957_1.jpg",
@@ -21878,8 +22431,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg"
@@ -21962,8 +22515,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg"
@@ -22004,8 +22557,8 @@
       "item_price": 13.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/150x150/qt/55/5034322_1.jpg"
@@ -22295,8 +22848,8 @@
       "item_price": 15.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jqnWT/5037812_1/re/300x300/qt/55/5037812_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jqnWT/5037812_1/re/300x300/qt/55/5037812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jqnWT/5037812_1/re/150x150/qt/55/5037812_1.jpg",
@@ -22339,8 +22892,8 @@
       "item_price": 15.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/150x150/qt/55/5039148_1.jpg"
@@ -22381,8 +22934,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KbhDQ/5037873_1/re/300x300/qt/55/5037873_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KbhDQ/5037873_1/re/300x300/qt/55/5037873_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KbhDQ/5037873_1/re/150x150/qt/55/5037873_1.jpg"
@@ -22423,8 +22976,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/150x150/qt/55/5038670_1.jpg"
@@ -22465,8 +23018,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg"
@@ -22507,8 +23060,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/300x300/qt/55/5038154_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/300x300/qt/55/5038154_1.jpg",
         "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/150x150/qt/55/5038154_1.jpg",
@@ -22590,8 +23143,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/300x300/qt/55/5038215_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/300x300/qt/55/5038215_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/150x150/qt/55/5038215_1.jpg",
@@ -22712,8 +23265,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dAgRm/5038080_1/re/300x300/qt/55/5038080_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dAgRm/5038080_1/re/300x300/qt/55/5038080_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dAgRm/5038080_1/re/150x150/qt/55/5038080_1.jpg",
@@ -22756,8 +23309,8 @@
       "item_price": 21.35,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G1XEB/5038148_1/re/300x300/qt/55/5038148_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G1XEB/5038148_1/re/300x300/qt/55/5038148_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G1XEB/5038148_1/re/150x150/qt/55/5038148_1.jpg",
@@ -22800,8 +23353,8 @@
       "item_price": 21.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PiJ75/5038123_1/re/300x300/qt/55/5038123_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PiJ75/5038123_1/re/300x300/qt/55/5038123_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PiJ75/5038123_1/re/150x150/qt/55/5038123_1.jpg",
@@ -22932,8 +23485,8 @@
       "item_price": 25.08,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/150x150/qt/55/5038691_1.jpg"
@@ -22974,8 +23527,8 @@
       "item_price": 26.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg",
@@ -23018,8 +23571,8 @@
       "item_price": 27.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tmw20/5038140_1/re/300x300/qt/55/5038140_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tmw20/5038140_1/re/300x300/qt/55/5038140_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tmw20/5038140_1/re/150x150/qt/55/5038140_1.jpg",
@@ -23062,8 +23615,8 @@
       "item_price": 28.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg"
@@ -23104,8 +23657,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/I7syd/5038211_1/re/300x300/qt/55/5038211_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/I7syd/5038211_1/re/300x300/qt/55/5038211_1.jpg",
         "https://images.hotukdeals.com/threads/raw/I7syd/5038211_1/re/150x150/qt/55/5038211_1.jpg",
@@ -23190,8 +23743,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -23274,8 +23827,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg"
@@ -23316,8 +23869,8 @@
       "item_price": 32.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg"
@@ -23358,8 +23911,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -23400,8 +23953,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg"
@@ -23486,8 +24039,8 @@
       "item_price": 34.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0K42z/5038119_1/re/300x300/qt/55/5038119_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0K42z/5038119_1/re/300x300/qt/55/5038119_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0K42z/5038119_1/re/150x150/qt/55/5038119_1.jpg",
@@ -23530,8 +24083,8 @@
       "item_price": 34.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ULnxm/5038112_1/re/300x300/qt/55/5038112_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ULnxm/5038112_1/re/300x300/qt/55/5038112_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ULnxm/5038112_1/re/150x150/qt/55/5038112_1.jpg",
@@ -23699,8 +24252,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/300x300/qt/55/5038069_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/300x300/qt/55/5038069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/150x150/qt/55/5038069_1.jpg",
@@ -23743,8 +24296,8 @@
       "item_price": 36.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/300x300/qt/55/5038144_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/300x300/qt/55/5038144_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/150x150/qt/55/5038144_1.jpg",
@@ -23787,8 +24340,8 @@
       "item_price": 36.76,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DroH7/5038083_1/re/300x300/qt/55/5038083_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DroH7/5038083_1/re/300x300/qt/55/5038083_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DroH7/5038083_1/re/150x150/qt/55/5038083_1.jpg",
@@ -23908,8 +24461,8 @@
       "item_price": 37.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/300x300/qt/55/5038231_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/300x300/qt/55/5038231_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/150x150/qt/55/5038231_1.jpg"
@@ -23989,8 +24542,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/300x300/qt/55/5038716_1.jpg",
         "https://images.hotukdeals.com/threads/raw/c9eFu/5038716_1/re/150x150/qt/55/5038716_1.jpg"
@@ -24031,8 +24584,8 @@
       "item_price": 38.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
         "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/150x150/qt/55/5038128_1.jpg",
@@ -24075,8 +24628,8 @@
       "item_price": 38.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/g4fyn/5038137_1/re/300x300/qt/55/5038137_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/g4fyn/5038137_1/re/300x300/qt/55/5038137_1.jpg",
         "https://images.hotukdeals.com/threads/raw/g4fyn/5038137_1/re/150x150/qt/55/5038137_1.jpg",
@@ -24119,8 +24672,8 @@
       "item_price": 38.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SXlnR/5038075_1/re/300x300/qt/55/5038075_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SXlnR/5038075_1/re/300x300/qt/55/5038075_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SXlnR/5038075_1/re/150x150/qt/55/5038075_1.jpg",
@@ -24193,29 +24746,34 @@
       }
     },
     {
-      "title": "Nike Air Max Alpha Trainer 6 Men's Shoes (Size: 3.5 - 14)",
-      "url": "https://www.hotukdeals.com/deals/nike-air-max-alpha-trainer-6-mens-shoes-size-35-14-5039963",
-      "policy_key": "83dd6bc590d0a93255fc543c",
-      "category": "trainers",
+      "title": "LEGO Star Wars AT-AT with Snowspeeder - 75440",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-at-at-with-snowspeeder-75440-5036943",
+      "policy_key": "83d9a482e879f11426b4976e",
+      "category": "lego",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "Nike",
+      "merchant": "Amazon",
       "item_price": 39.99,
-      "image_status": null,
-      "image_verified_url": null,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
       "image_verified_until": null,
       "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/ZBuc4/5039963_1/re/150x150/qt/55/5039963_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nike-air-max-alpha-trainer-6-mens-shoes-size-35-14-5039963",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/CqhH6/5036943_1/re/300x300/qt/55/5036943_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/CqhH6/5036943_1/re/150x150/qt/55/5036943_1.jpg",
+        "https://i.ebayimg.com/images/g/KJoAAeSw3IVppbtp/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/DogAAeSwzHBq9HAg/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
-      "breakeven_sell": 54.06,
-      "sell_for_minimum_profit": 73.49,
+      "breakeven_sell": 54.8,
+      "sell_for_minimum_profit": 73.96,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -24223,9 +24781,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-20T05:12:38+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+Alpha+Trainer+6+Men%27s+Shoes+%28Size%3A+3.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
+      "first_seen": "2026-11-18T07:41:00+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+AT-AT+with+Snowspeeder&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -24372,8 +24930,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/C5Cgm/5037898_1/re/300x300/qt/55/5037898_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/C5Cgm/5037898_1/re/300x300/qt/55/5037898_1.jpg",
         "https://images.hotukdeals.com/threads/raw/C5Cgm/5037898_1/re/150x150/qt/55/5037898_1.jpg",
@@ -24541,8 +25099,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -24671,8 +25229,8 @@
       "item_price": 51.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Ldvmx/5038074_1/re/300x300/qt/55/5038074_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Ldvmx/5038074_1/re/300x300/qt/55/5038074_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Ldvmx/5038074_1/re/150x150/qt/55/5038074_1.jpg",
@@ -24715,8 +25273,8 @@
       "item_price": 55.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JpcTE/5038093_1/re/300x300/qt/55/5038093_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JpcTE/5038093_1/re/300x300/qt/55/5038093_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JpcTE/5038093_1/re/150x150/qt/55/5038093_1.jpg",
@@ -24803,8 +25361,8 @@
       "item_price": 57.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bMFkW/5037131_1/re/300x300/qt/55/5037131_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bMFkW/5037131_1/re/300x300/qt/55/5037131_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bMFkW/5037131_1/re/150x150/qt/55/5037131_1.jpg"
@@ -24845,8 +25403,8 @@
       "item_price": 57.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
-      "image_verified_until": "2026-11-20T05:32:43.365889+00:00",
-      "image_checked_at": "2026-11-20T05:12:43.365889+00:00",
+      "image_verified_until": "2026-11-20T06:04:51.079331+00:00",
+      "image_checked_at": "2026-11-20T05:44:51.079331+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/150x150/qt/55/5038192_1.jpg",
@@ -25006,8 +25564,8 @@
       "item_price": 127.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jf7vA/5039077_1/re/300x300/qt/55/5039077_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jf7vA/5039077_1/re/300x300/qt/55/5039077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jf7vA/5039077_1/re/150x150/qt/55/5039077_1.jpg"
@@ -25534,6 +26092,45 @@
       "first_seen": "2026-11-15T07:46:49+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Club+Unisex+Unstructured+Swoosh+Cap+Adults&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "God Of War Playstation Hits (PS4)",
+      "url": "https://www.hotukdeals.com/deals/god-of-war-playstation-hits-ps4-5039586",
+      "policy_key": "2f432e9dc203a384fcd637f0",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 5.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/tIrm6/5039586_1/re/150x150/qt/55/5039586_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/god-of-war-playstation-hits-ps4-5039586",
+      "landed_cost": null,
+      "breakeven_sell": 11.41,
+      "sell_for_minimum_profit": 20.87,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-19T20:03:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=God+Of+War+Playstation+Hits+%28PS4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -26702,8 +27299,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ITnH6/5039525_1/re/300x300/qt/55/5039525_1.jpg",
-      "image_verified_until": "2026-11-20T05:31:46.169052+00:00",
-      "image_checked_at": "2026-11-20T05:11:46.169052+00:00",
+      "image_verified_until": "2026-11-20T06:04:09.785453+00:00",
+      "image_checked_at": "2026-11-20T05:44:09.785453+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ITnH6/5039525_1/re/300x300/qt/55/5039525_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ITnH6/5039525_1/re/150x150/qt/55/5039525_1.jpg"
@@ -27075,6 +27672,74 @@
       "first_seen": "2026-11-16T01:59:47+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+TSTAK+Tool+Tote+17%22&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "MOUSE: P.I. For Hire (PS5) - PEGI 16 - Free Click & Collect",
+      "url": "https://www.hotukdeals.com/deals/mouse-pi-for-hire-ps5-pegi-16-free-click-collect-5039860",
+      "policy_key": "c1040bb2fd91c5ef6434d749",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 14.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/bJ3Lw/5039860_1/re/150x150/qt/55/5039860_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/mouse-pi-for-hire-ps5-pegi-16-free-click-collect-5039860",
+      "landed_cost": null,
+      "breakeven_sell": 22.04,
+      "sell_for_minimum_profit": 31.48,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-20T00:55:50+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=MOUSE%3A+P.I.+For+Hire+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "mouse pi for hire pegi 16 ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-20T05:44:47+00:00",
+        "date": "2026-11-20",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 1
+        },
+        "query_aliases": [
+          "MOUSE: P.I. For Hire (PS5) - PEGI 16 - Free Click & Collect"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -34287,6 +34952,45 @@
       "priority": 0,
       "first_seen": "2026-11-16T00:55:35+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Marvel%27s+Wolverine&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Up to 50% off Black Friday Sale | E.g Nike Air Max Alpha Trainer 6 Men's Shoes (Size: 3.5 - 14)",
+      "url": "https://www.hotukdeals.com/deals/nike-air-max-alpha-trainer-6-mens-shoes-size-35-14-5039963",
+      "policy_key": "83dd6bc590d0a93255fc543c",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Nike",
+      "item_price": 39.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/ZBuc4/5039963_1/re/150x150/qt/55/5039963_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nike-air-max-alpha-trainer-6-mens-shoes-size-35-14-5039963",
+      "landed_cost": null,
+      "breakeven_sell": 54.06,
+      "sell_for_minimum_profit": 73.49,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-20T05:12:38+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Up+to+50%25+off+Black+Friday+Sale&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
