@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:04:59+00:00",
       "valid_until": "2026-11-21T23:04:59+00:00",
       "competition_low": 55.66,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-21T17:38:31+00:00",
+        "observed_at": "2026-11-21T18:10:56+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -270,7 +270,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T15:59:13+00:00",
       "valid_until": "2026-11-21T21:59:13+00:00",
       "competition_low": 140.79,
@@ -342,7 +342,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:38:31+00:00",
       "valid_until": "2026-11-21T23:38:31+00:00",
       "competition_low": 76.94,
@@ -406,7 +406,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T16:32:29+00:00",
       "valid_until": "2026-11-21T22:32:29+00:00",
       "competition_low": 20.99,
@@ -478,7 +478,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T16:32:29+00:00",
       "valid_until": "2026-11-21T22:32:29+00:00",
       "competition_low": 59.99,
@@ -542,7 +542,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:04:59+00:00",
       "valid_until": "2026-11-21T23:04:59+00:00",
       "competition_low": 38.35,
@@ -614,7 +614,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:38:31+00:00",
       "valid_until": "2026-11-21T23:38:31+00:00",
       "competition_low": 19.96,
@@ -707,7 +707,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T14:52:33+00:00",
       "valid_until": "2026-11-21T20:52:33+00:00",
       "competition_low": 45.26,
@@ -793,7 +793,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T16:00:50+00:00",
       "valid_until": "2026-11-21T22:00:50+00:00",
       "competition_low": 63.8,
@@ -808,7 +808,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-21T17:38:31+00:00",
+        "observed_at": "2026-11-21T18:10:56+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -1032,7 +1032,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T13:48:01+00:00",
       "valid_until": "2026-11-21T19:48:01+00:00",
       "competition_low": 85.99,
@@ -1047,7 +1047,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-21T17:38:31+00:00",
+        "observed_at": "2026-11-21T18:10:56+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -1200,9 +1200,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
-      "observed_at": "2026-11-21T14:19:29+00:00",
-      "valid_until": "2026-11-21T20:19:29+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
+      "observed_at": "2026-11-21T18:10:56+00:00",
+      "valid_until": "2026-11-22T00:10:56+00:00",
       "competition_low": 25.99,
       "estimated_resale": 25.21,
       "seller_count": 12,
@@ -1236,38 +1236,38 @@
           "seller": "igmmjm",
           "url": "https://www.ebay.co.uk/itm/377644804500",
           "delivered": 25.99,
-          "observed_at": "2026-11-21T14:19:29+00:00"
+          "observed_at": "2026-11-21T18:10:56+00:00"
         },
         {
           "item_id": "v1|398411504648|0",
           "seller": "alex_2118",
           "url": "https://www.ebay.co.uk/itm/398411504648",
           "delivered": 37.31,
-          "observed_at": "2026-11-21T14:19:29+00:00"
+          "observed_at": "2026-11-21T18:10:56+00:00"
         },
         {
           "item_id": "v1|236829591543|0",
           "seller": "glamour_online",
           "url": "https://www.ebay.co.uk/itm/236829591543",
           "delivered": 39.31,
-          "observed_at": "2026-11-21T14:19:29+00:00"
+          "observed_at": "2026-11-21T18:10:56+00:00"
         },
         {
           "item_id": "v1|168353077775|0",
           "seller": "the_perfume_kingdom",
           "url": "https://www.ebay.co.uk/itm/168353077775",
           "delivered": 39.99,
-          "observed_at": "2026-11-21T14:19:29+00:00"
+          "observed_at": "2026-11-21T18:10:56+00:00"
         },
         {
           "item_id": "v1|397564176064|0",
           "seller": "directbeautystore",
           "url": "https://www.ebay.co.uk/itm/397564176064",
           "delivered": 41.11,
-          "observed_at": "2026-11-21T14:19:29+00:00"
+          "observed_at": "2026-11-21T18:10:56+00:00"
         }
       ],
-      "last_research_at": "2026-11-21T14:19:29+00:00"
+      "last_research_at": "2026-11-21T18:10:56+00:00"
     },
     {
       "key": "browse-asks-v5:trainers:nike bq4567-001 uk 6:23e553fdbe3b",
@@ -1293,9 +1293,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
-      "observed_at": "2026-11-21T15:59:13+00:00",
-      "valid_until": "2026-11-21T21:59:13+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
+      "observed_at": "2026-11-21T18:10:56+00:00",
+      "valid_until": "2026-11-22T00:10:56+00:00",
       "competition_low": 73.99,
       "estimated_resale": 71.77,
       "seller_count": 1,
@@ -1328,10 +1328,10 @@
           "seller": "deestrainers",
           "url": "https://www.ebay.co.uk/itm/158318156230",
           "delivered": 73.99,
-          "observed_at": "2026-11-21T15:59:13+00:00"
+          "observed_at": "2026-11-21T18:10:56+00:00"
         }
       ],
-      "last_research_at": "2026-11-21T15:59:13+00:00"
+      "last_research_at": "2026-11-21T18:10:56+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:armani acqua di gio profondo parfum 100ml:509ee3dd1790",
@@ -1357,7 +1357,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T15:25:28+00:00",
       "valid_until": "2026-11-21T21:25:28+00:00",
       "competition_low": 40.04,
@@ -1451,7 +1451,7 @@
         ]
       },
       "first_seen": "2026-11-21T07:14:57+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T13:15:11+00:00",
       "valid_until": "2026-11-21T19:15:11+00:00",
       "competition_low": 172.36,
@@ -1500,8 +1500,8 @@
           "observed_at": "2026-11-21T13:15:11+00:00"
         }
       ],
-      "last_search_at": "2026-11-21T16:32:37+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-21T18:11:05+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 60.0
     },
     {
@@ -1525,7 +1525,7 @@
         ]
       },
       "first_seen": "2026-11-21T01:01:11+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T13:48:05+00:00",
       "valid_until": "2026-11-21T19:48:05+00:00",
       "competition_low": 165.0,
@@ -1578,80 +1578,6 @@
       ]
     },
     {
-      "key": "browse-asks-v5:lego:lego 40958:30259b0def7e",
-      "category": "lego",
-      "query": "LEGO 40958",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 40958",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "christmas",
-          "decoration",
-          "hanging",
-          "stocking"
-        ]
-      },
-      "first_seen": "2026-11-21T12:10:36+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
-      "observed_at": "2026-11-21T12:09:37+00:00",
-      "valid_until": "2026-11-21T18:09:37+00:00",
-      "competition_low": 32.93,
-      "estimated_resale": 31.94,
-      "seller_count": 7,
-      "low_supporting_sellers": 4,
-      "max_landed_buy": 12.89,
-      "target_status": "usable_configured_cost_target",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|398448661460|0",
-          "seller": "and_800274",
-          "url": "https://www.ebay.co.uk/itm/398448661460",
-          "delivered": 32.93,
-          "observed_at": "2026-11-21T12:09:37+00:00"
-        },
-        {
-          "item_id": "v1|940105935953|0",
-          "seller": "legs11o",
-          "url": "https://www.ebay.co.uk/itm/940105935953",
-          "delivered": 32.97,
-          "observed_at": "2026-11-21T12:09:37+00:00"
-        },
-        {
-          "item_id": "v1|407353867031|0",
-          "seller": "mad_mo_18",
-          "url": "https://www.ebay.co.uk/itm/407353867031",
-          "delivered": 33.13,
-          "observed_at": "2026-11-21T12:09:37+00:00"
-        },
-        {
-          "item_id": "v1|920146910767|0",
-          "seller": "chen911313",
-          "url": "https://www.ebay.co.uk/itm/920146910767",
-          "delivered": 34.96,
-          "observed_at": "2026-11-21T12:09:37+00:00"
-        },
-        {
-          "item_id": "v1|820262190509|0",
-          "seller": "gmac_online",
-          "url": "https://www.ebay.co.uk/itm/820262190509",
-          "delivered": 36.92,
-          "observed_at": "2026-11-21T12:09:37+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-21T17:05:09+00:00",
-      "last_search_sort": "newlyListed",
-      "last_item_price_filter": 12.89
-    },
-    {
       "key": "browse-asks-v5:lego:lego 75398:26241bf540a6",
       "category": "lego",
       "query": "LEGO 75398",
@@ -1672,7 +1598,7 @@
         ]
       },
       "first_seen": "2026-11-21T12:41:21+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T12:40:21+00:00",
       "valid_until": "2026-11-21T18:40:21+00:00",
       "competition_low": 104.17,
@@ -1721,8 +1647,8 @@
           "observed_at": "2026-11-21T12:40:21+00:00"
         }
       ],
-      "last_search_at": "2026-11-21T16:32:37+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-21T18:11:05+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 56.14
     },
     {
@@ -1749,7 +1675,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-09T22:17:03+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T12:41:49+00:00",
       "valid_until": "2026-11-21T18:41:49+00:00",
       "competition_low": 37.95,
@@ -1765,7 +1691,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|298740710028|0",
-        "observed_at": "2026-11-21T17:38:31+00:00",
+        "observed_at": "2026-11-21T18:10:56+00:00",
         "status": "conflict",
         "reasons": [
           "model aspect mismatch"
@@ -1926,7 +1852,7 @@
         ]
       },
       "first_seen": "2026-11-21T12:42:40+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T12:42:29+00:00",
       "valid_until": "2026-11-21T18:42:29+00:00",
       "competition_low": 15.55,
@@ -1998,7 +1924,7 @@
         ]
       },
       "first_seen": "2026-11-21T13:15:57+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T13:15:08+00:00",
       "valid_until": "2026-11-21T19:15:08+00:00",
       "competition_low": 37.0,
@@ -2074,7 +2000,7 @@
         ]
       },
       "first_seen": "2026-11-21T13:48:53+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T13:48:02+00:00",
       "valid_until": "2026-11-21T19:48:02+00:00",
       "competition_low": 2.99,
@@ -2118,7 +2044,7 @@
         ]
       },
       "first_seen": "2026-11-21T14:21:48+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T14:20:57+00:00",
       "valid_until": "2026-11-21T20:20:57+00:00",
       "competition_low": 11.25,
@@ -2194,7 +2120,7 @@
         ]
       },
       "first_seen": "2026-11-21T08:53:17+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T14:54:01+00:00",
       "valid_until": "2026-11-21T20:54:01+00:00",
       "competition_low": 125.49,
@@ -2243,8 +2169,8 @@
           "observed_at": "2026-11-21T14:54:01+00:00"
         }
       ],
-      "last_search_at": "2026-11-21T17:05:09+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-21T18:11:05+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 60.0
     },
     {
@@ -2263,7 +2189,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-21T14:54:48+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T14:53:58+00:00",
       "valid_until": "2026-11-21T20:53:58+00:00",
       "competition_low": 31.99,
@@ -2337,7 +2263,7 @@
         ]
       },
       "first_seen": "2026-11-21T14:54:48+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T14:53:58+00:00",
       "valid_until": "2026-11-21T20:53:58+00:00",
       "competition_low": 13.41,
@@ -2411,7 +2337,7 @@
         ]
       },
       "first_seen": "2026-11-21T15:28:23+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T15:27:20+00:00",
       "valid_until": "2026-11-21T21:27:20+00:00",
       "competition_low": 19.09,
@@ -2480,7 +2406,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-21T16:01:41+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T16:00:47+00:00",
       "valid_until": "2026-11-21T22:00:47+00:00",
       "competition_low": 43.41,
@@ -2531,7 +2457,7 @@
         ]
       },
       "first_seen": "2026-11-21T16:01:41+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T16:00:47+00:00",
       "valid_until": "2026-11-21T22:00:47+00:00",
       "competition_low": 4.85,
@@ -2592,7 +2518,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-21T16:34:20+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T16:33:40+00:00",
       "valid_until": "2026-11-21T22:33:40+00:00",
       "competition_low": 34.45,
@@ -2653,7 +2579,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-21T17:07:50+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:06:49+00:00",
       "valid_until": "2026-11-21T23:06:49+00:00",
       "competition_low": 54.85,
@@ -2698,7 +2624,7 @@
         ]
       },
       "first_seen": "2026-11-21T17:07:50+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:06:49+00:00",
       "valid_until": "2026-11-21T23:06:49+00:00",
       "competition_low": 49.99,
@@ -2772,7 +2698,7 @@
         ]
       },
       "first_seen": "2026-11-20T18:36:05+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:39:41+00:00",
       "valid_until": "2026-11-21T23:39:41+00:00",
       "competition_low": 112.34,
@@ -2845,7 +2771,7 @@
         ]
       },
       "first_seen": "2026-11-21T17:40:15+00:00",
-      "last_seen": "2026-11-21T17:40:15+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
       "observed_at": "2026-11-21T17:39:38+00:00",
       "valid_until": "2026-11-21T23:39:38+00:00",
       "competition_low": 16.25,
@@ -2896,6 +2822,200 @@
           "observed_at": "2026-11-21T17:39:38+00:00"
         }
       ]
+    },
+    {
+      "key": "browse-asks-v5:gaming:disney epic mickey rebrushed xbox series x:4f53cda18c2b",
+      "category": "gaming",
+      "query": "disney epic mickey rebrushed xbox series x",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "gaming",
+        "query": "disney epic mickey rebrushed xbox series x",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": []
+      },
+      "first_seen": "2026-11-21T18:13:45+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
+      "observed_at": "2026-11-21T18:12:43+00:00",
+      "valid_until": "2026-11-22T00:12:43+00:00",
+      "competition_low": 44.95,
+      "estimated_resale": 43.6,
+      "seller_count": 2,
+      "low_supporting_sellers": 2,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|407043091590|0",
+          "seller": "thegamecollectionoutlet",
+          "url": "https://www.ebay.co.uk/itm/407043091590",
+          "delivered": 44.95,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        },
+        {
+          "item_id": "v1|387273296918|0",
+          "seller": "shopto_outlet",
+          "url": "https://www.ebay.co.uk/itm/387273296918",
+          "delivered": 47.85,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 43217:65b30162a75d",
+      "category": "lego",
+      "query": "LEGO 43217",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 43217",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "disney",
+          "house",
+          "price",
+          "up"
+        ]
+      },
+      "first_seen": "2026-11-21T18:13:45+00:00",
+      "last_seen": "2026-11-21T18:13:45+00:00",
+      "observed_at": "2026-11-21T18:12:43+00:00",
+      "valid_until": "2026-11-22T00:12:43+00:00",
+      "competition_low": 21.98,
+      "estimated_resale": 21.32,
+      "seller_count": 11,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|267760713827|0",
+          "seller": "calums_collectibles",
+          "url": "https://www.ebay.co.uk/itm/267760713827",
+          "delivered": 21.98,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        },
+        {
+          "item_id": "v1|377665412083|0",
+          "seller": "kam-768498",
+          "url": "https://www.ebay.co.uk/itm/377665412083",
+          "delivered": 40.48,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        },
+        {
+          "item_id": "v1|377659130278|0",
+          "seller": "camlov_96",
+          "url": "https://www.ebay.co.uk/itm/377659130278",
+          "delivered": 45.68,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        },
+        {
+          "item_id": "v1|365264889424|0",
+          "seller": "m.ellis.2",
+          "url": "https://www.ebay.co.uk/itm/365264889424",
+          "delivered": 47.49,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        },
+        {
+          "item_id": "v1|287746938352|0",
+          "seller": "2015moviefan",
+          "url": "https://www.ebay.co.uk/itm/287746938352",
+          "delivered": 47.49,
+          "observed_at": "2026-11-21T18:12:43+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 40958:30259b0def7e",
+      "category": "lego",
+      "query": "LEGO 40958",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 40958",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "christmas",
+          "decoration",
+          "hanging",
+          "stocking"
+        ]
+      },
+      "first_seen": "2026-11-21T12:10:36+00:00",
+      "last_seen": "2026-11-21T17:40:15+00:00",
+      "observed_at": "2026-11-21T12:09:37+00:00",
+      "valid_until": "2026-11-21T18:09:37+00:00",
+      "competition_low": 32.93,
+      "estimated_resale": 31.94,
+      "seller_count": 7,
+      "low_supporting_sellers": 4,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|398448661460|0",
+          "seller": "and_800274",
+          "url": "https://www.ebay.co.uk/itm/398448661460",
+          "delivered": 32.93,
+          "observed_at": "2026-11-21T12:09:37+00:00"
+        },
+        {
+          "item_id": "v1|940105935953|0",
+          "seller": "legs11o",
+          "url": "https://www.ebay.co.uk/itm/940105935953",
+          "delivered": 32.97,
+          "observed_at": "2026-11-21T12:09:37+00:00"
+        },
+        {
+          "item_id": "v1|407353867031|0",
+          "seller": "mad_mo_18",
+          "url": "https://www.ebay.co.uk/itm/407353867031",
+          "delivered": 33.13,
+          "observed_at": "2026-11-21T12:09:37+00:00"
+        },
+        {
+          "item_id": "v1|920146910767|0",
+          "seller": "chen911313",
+          "url": "https://www.ebay.co.uk/itm/920146910767",
+          "delivered": 34.96,
+          "observed_at": "2026-11-21T12:09:37+00:00"
+        },
+        {
+          "item_id": "v1|820262190509|0",
+          "seller": "gmac_online",
+          "url": "https://www.ebay.co.uk/itm/820262190509",
+          "delivered": 36.92,
+          "observed_at": "2026-11-21T12:09:37+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-21T17:05:09+00:00",
+      "last_search_sort": "newlyListed",
+      "last_item_price_filter": 12.89
     },
     {
       "key": "browse-asks-v5:gaming:double dragon revive deluxe edition nintendo switch:4f53cda18c2b",
@@ -10880,146 +11000,6 @@
           "observed_at": "2026-11-20T00:23:40+00:00"
         }
       ]
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 72037:7e98a0094593",
-      "category": "lego",
-      "query": "LEGO 72037",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 72037",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "kart",
-          "mario"
-        ]
-      },
-      "first_seen": "2026-11-20T00:24:05+00:00",
-      "last_seen": "2026-11-20T06:17:33+00:00",
-      "observed_at": "2026-11-20T00:23:43+00:00",
-      "valid_until": "2026-11-20T06:23:43+00:00",
-      "competition_low": 99.99,
-      "estimated_resale": 96.99,
-      "seller_count": 29,
-      "low_supporting_sellers": 5,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "effective coupon competition unknown"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|128198175887|0",
-          "seller": "afchildfund",
-          "url": "https://www.ebay.co.uk/itm/128198175887",
-          "delivered": 99.99,
-          "observed_at": "2026-11-20T00:23:43+00:00"
-        },
-        {
-          "item_id": "v1|168855613257|0",
-          "seller": "loggyleo1991",
-          "url": "https://www.ebay.co.uk/itm/168855613257",
-          "delivered": 101.94,
-          "observed_at": "2026-11-20T00:23:43+00:00"
-        },
-        {
-          "item_id": "v1|267812005389|0",
-          "seller": "brown2cool86",
-          "url": "https://www.ebay.co.uk/itm/267812005389",
-          "delivered": 105.49,
-          "observed_at": "2026-11-20T00:23:43+00:00"
-        },
-        {
-          "item_id": "v1|407365215614|0",
-          "seller": "morg_385",
-          "url": "https://www.ebay.co.uk/itm/407365215614",
-          "delivered": 106.53,
-          "observed_at": "2026-11-20T00:23:43+00:00"
-        },
-        {
-          "item_id": "v1|960183225731|0",
-          "seller": "splattikai2012",
-          "url": "https://www.ebay.co.uk/itm/960183225731",
-          "delivered": 109.65,
-          "observed_at": "2026-11-20T00:23:43+00:00"
-        }
-      ]
-    },
-    {
-      "key": "browse-asks-v5:gaming:xbox wireless controller gears of war e day limited edition:4f53cda18c2b",
-      "category": "gaming",
-      "query": "xbox wireless controller gears of war e day limited edition",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "gaming",
-        "query": "xbox wireless controller gears of war e day limited edition",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": []
-      },
-      "first_seen": "2026-11-19T17:23:28+00:00",
-      "last_seen": "2026-11-20T05:45:08+00:00",
-      "observed_at": "2026-11-19T23:49:35+00:00",
-      "valid_until": "2026-11-20T05:49:35+00:00",
-      "competition_low": 102.88,
-      "estimated_resale": 99.79,
-      "seller_count": 3,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "insufficient independent price depth",
-        "lowest comparator detail awaiting_detail_budget"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": {
-        "status": "awaiting_detail_budget",
-        "reasons": [
-          "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-        ],
-        "sub_checks": [
-          {
-            "sub_check_failed": "other",
-            "expected": "verified_fields within detail budget",
-            "observed": "awaiting_detail_budget",
-            "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "no getItem this pass; not a parser failure"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "item_id": "v1|318938986804|0",
-          "seller": "boss4826",
-          "url": "https://www.ebay.co.uk/itm/318938986804",
-          "delivered": 102.88,
-          "observed_at": "2026-11-19T23:49:35+00:00"
-        },
-        {
-          "item_id": "v1|257815014659|0",
-          "seller": "thedemonbriggs",
-          "url": "https://www.ebay.co.uk/itm/257815014659",
-          "delivered": 103.39,
-          "observed_at": "2026-11-19T23:49:35+00:00"
-        },
-        {
-          "item_id": "v1|257779998797|0",
-          "seller": "mrseb20",
-          "url": "https://www.ebay.co.uk/itm/257779998797",
-          "delivered": 149.98,
-          "observed_at": "2026-11-19T23:49:35+00:00"
-        }
-      ]
     }
   ],
   "pricing_catalog": [],
@@ -12337,6 +12317,80 @@
     },
     {
       "kind": "active_ask",
+      "query": "disney epic mickey rebrushed xbox series x",
+      "category": "gaming",
+      "name_terms": [],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-21T18:12:43+00:00",
+      "date": "2026-11-21",
+      "sample_count": 2,
+      "listed_total_low": 44.95,
+      "listed_total_p25": 45.68,
+      "listed_total_median": 46.4,
+      "listed_total_p75": 47.12,
+      "listed_total_high": 47.85,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|407043091590|0",
+          "seller": "thegamecollectionoutlet",
+          "image": "https://i.ebayimg.com/images/g/4IcAAeSwknpqRlBK/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "advertised_discount",
+          "advertised_original_total": 49.99,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/407043091590",
+          "title": "Disney Epic Mickey: Rebrushed Xbox Series X NEW AND SEALED - FREE SHIPPING",
+          "declared_condition": "new",
+          "item_price": 44.95,
+          "shipping": 0.0,
+          "listed_total": 44.95
+        },
+        {
+          "item_id": "v1|387273296918|0",
+          "seller": "shopto_outlet",
+          "image": "https://i.ebayimg.com/images/g/~N0AAOSwk65ms3W~/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/387273296918",
+          "title": "Disney Epic Mickey: Rebrushed - Xbox Series X",
+          "declared_condition": "new",
+          "item_price": 47.85,
+          "shipping": 0.0,
+          "listed_total": 47.85
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 8
+      },
+      "query_aliases": [
+        "Disney Epic Mickey: Rebrushed (Xbox Series X)"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 77255",
       "category": "lego",
       "name_terms": [
@@ -12909,35 +12963,36 @@
     },
     {
       "kind": "active_ask",
-      "query": "LEGO 40958",
+      "query": "LEGO 43217",
       "category": "lego",
       "name_terms": [
-        "christmas",
-        "decoration",
-        "hanging",
-        "stocking"
+        "disney",
+        "house",
+        "price",
+        "up"
       ],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-21T12:09:37+00:00",
+      "observed_at": "2026-11-21T18:12:43+00:00",
       "date": "2026-11-21",
-      "sample_count": 7,
-      "listed_total_low": 32.93,
-      "listed_total_p25": 33.05,
-      "listed_total_median": 34.96,
-      "listed_total_p75": 37.45,
-      "listed_total_high": 44.5,
-      "status": "indicative_only",
+      "sample_count": 11,
+      "listed_total_low": 21.98,
+      "listed_total_p25": 46.59,
+      "listed_total_median": 47.5,
+      "listed_total_p75": 48.36,
+      "listed_total_high": 50.37,
+      "status": "wide_spread",
       "warnings": [
         "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
       ],
       "offers": [
         {
-          "item_id": "v1|398448661460|0",
-          "seller": "and_800274",
-          "image": "https://i.ebayimg.com/images/g/A8oAAeSwRnVqvZmk/s-l225.jpg",
+          "item_id": "v1|267760713827|0",
+          "seller": "calums_collectibles",
+          "image": "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12950,105 +13005,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/398448661460",
-          "title": "LEGO\u00ae Christmas Stocking (40958) | NEW & SEALED",
+          "url": "https://www.ebay.co.uk/itm/267760713827",
+          "title": "Lego Disney Up House  43217 Mini figures Only",
           "declared_condition": "new",
-          "item_price": 29.99,
-          "shipping": 2.94,
-          "listed_total": 32.93
+          "item_price": 19.36,
+          "shipping": 2.62,
+          "listed_total": 21.98
         },
         {
-          "item_id": "v1|940105935953|0",
-          "seller": "legs11o",
-          "image": "https://i.ebayimg.com/images/g/rnEAAeSwk8BqzxtI/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/940105935953",
-          "title": "LEGO 40958 Christmas Stocking NEW 342pcs",
-          "declared_condition": "new",
-          "item_price": 32.97,
-          "shipping": 0.0,
-          "listed_total": 32.97
-        },
-        {
-          "item_id": "v1|407353867031|0",
-          "seller": "mad_mo_18",
-          "image": "https://i.ebayimg.com/images/g/yDEAAeSw9Sdq84PH/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407353867031",
-          "title": "LEGO\u00ae 40958 Christmas Stocking  NEW & SEALED",
-          "declared_condition": "new",
-          "item_price": 29.75,
-          "shipping": 3.38,
-          "listed_total": 33.13
-        },
-        {
-          "item_id": "v1|920146910767|0",
-          "seller": "chen911313",
-          "image": "https://i.ebayimg.com/images/g/rbAAAeSw5OJq9mpO/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/920146910767",
-          "title": "LEGO 40958 Christmas Stocking Brand New Sealed",
-          "declared_condition": "new",
-          "item_price": 31.58,
-          "shipping": 3.38,
-          "listed_total": 34.96
-        },
-        {
-          "item_id": "v1|820262190509|0",
-          "seller": "gmac_online",
-          "image": "https://i.ebayimg.com/images/g/4PcAAeSwuIxq2J59/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/820262190509",
-          "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
-          "declared_condition": "new",
-          "item_price": 33.98,
-          "shipping": 2.94,
-          "listed_total": 36.92
-        },
-        {
-          "item_id": "v1|860079985875|0",
-          "seller": "brackles79",
-          "image": "https://i.ebayimg.com/images/g/Sk0AAeSw4-Zq3QKd/s-l225.jpg",
+          "item_id": "v1|377665412083|0",
+          "seller": "kam-768498",
+          "image": "https://i.ebayimg.com/images/g/Q8wAAeSw9LxrAdgc/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -13061,17 +13028,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/860079985875",
-          "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
+          "url": "https://www.ebay.co.uk/itm/377665412083",
+          "title": "LEGO Disney Up' House 43217 Complete Set 598 pcs Brick Separator Included",
           "declared_condition": "new",
-          "item_price": 37.99,
-          "shipping": 0.0,
-          "listed_total": 37.99
+          "item_price": 37.1,
+          "shipping": 3.38,
+          "listed_total": 40.48
         },
         {
-          "item_id": "v1|206705096674|0",
-          "seller": "j6511b",
-          "image": "https://i.ebayimg.com/images/g/Iz8AAeSwF3Bq8edF/s-l225.jpg",
+          "item_id": "v1|377659130278|0",
+          "seller": "camlov_96",
+          "image": "https://i.ebayimg.com/images/g/0p8AAeSw7fFq~w7O/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -13083,20 +13050,176 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206705096674",
-          "title": "LEGO 40958 Christmas Stocking Limited Edition Set 342 pcs 12+ Seasonal Brand New",
+          "url": "https://www.ebay.co.uk/itm/377659130278",
+          "title": "LEGO Disney: Up' House (43217)",
           "declared_condition": "new",
-          "item_price": 44.5,
+          "item_price": 42.3,
+          "shipping": 3.38,
+          "listed_total": 45.68
+        },
+        {
+          "item_id": "v1|365264889424|0",
+          "seller": "m.ellis.2",
+          "image": "https://i.ebayimg.com/images/g/hg0AAOSwYARnTjzV/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/365264889424",
+          "title": "LEGO Disney Up' House 43217 (New & Sealed) FREE SHIPPING \u2705",
+          "declared_condition": "new",
+          "item_price": 47.49,
           "shipping": 0.0,
-          "listed_total": 44.5
+          "listed_total": 47.49
+        },
+        {
+          "item_id": "v1|287746938352|0",
+          "seller": "2015moviefan",
+          "image": "https://i.ebayimg.com/images/g/vcUAAOSwky1nRvBN/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/287746938352",
+          "title": "Lego Disney 100 Up House Set 43217 New Sealed ",
+          "declared_condition": "new",
+          "item_price": 47.49,
+          "shipping": 0.0,
+          "listed_total": 47.49
+        },
+        {
+          "item_id": "v1|840135790141|0",
+          "seller": "suli85",
+          "image": "https://i.ebayimg.com/images/g/yQMAAOSwublnofbk/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/840135790141",
+          "title": "LEGO Disney: Up' House (43217) - BNIB",
+          "declared_condition": "new",
+          "item_price": 47.5,
+          "shipping": 0.0,
+          "listed_total": 47.5
+        },
+        {
+          "item_id": "v1|327463581263|0",
+          "seller": "scooby_doo",
+          "image": "https://i.ebayimg.com/images/g/09wAAeSwPslq1jdI/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/327463581263",
+          "title": "LEGO DISNEY: UP' HOUSE (43217) NEW AND FACTORY SEALED",
+          "declared_condition": "new",
+          "item_price": 44.38,
+          "shipping": 3.38,
+          "listed_total": 47.76
+        },
+        {
+          "item_id": "v1|840063171907|0",
+          "seller": "hum-792998",
+          "image": "https://i.ebayimg.com/images/g/zW8AAeSwYudq38c7/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/840063171907",
+          "title": "LEGO Disney 43217 Up House Building Set - Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 44.95,
+          "shipping": 3.38,
+          "listed_total": 48.33
+        },
+        {
+          "item_id": "v1|860131711845|0",
+          "seller": "joshs_bricks_and_pieces",
+          "image": "https://i.ebayimg.com/images/g/o68AAeSw9~lq82MO/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/860131711845",
+          "title": "LEGO 43217 Disney: 'Up' House Brand New Sealed",
+          "declared_condition": "new",
+          "item_price": 45.0,
+          "shipping": 3.38,
+          "listed_total": 48.38
+        },
+        {
+          "item_id": "v1|318113946156|0",
+          "seller": "elmas_emporium",
+          "image": "https://i.ebayimg.com/images/g/dm8AAeSwc~pp09tC/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/318113946156",
+          "title": "Mint Sealed Lego set - 43217 Disney 'Up' house",
+          "declared_condition": "new",
+          "item_price": 44.99,
+          "shipping": 5.15,
+          "listed_total": 50.14
         }
       ],
       "rejected": {
-        "identity_or_condition": 2,
-        "price_currency_or_shipping_unknown": 1
+        "identity_or_condition": 39
       },
       "query_aliases": [
-        "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C"
+        "LEGO Disney 43217 \"Up\" House - price at checkout - Free C&C"
       ]
     },
     {
@@ -13718,7 +13841,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-21T17:38:31+00:00",
+        "observed_at": "2026-11-21T18:10:56+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -14993,7 +15116,7 @@
       "rejected": {
         "identity_or_condition": 13
       },
-      "canonicalized_at": "2026-11-21T17:38:31+00:00",
+      "canonicalized_at": "2026-11-21T18:10:56+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Sonic Racing: CrossWorlds (PS5)"
@@ -15164,7 +15287,7 @@
       "rejected": {
         "identity_or_condition": 7
       },
-      "canonicalized_at": "2026-11-21T17:38:31+00:00",
+      "canonicalized_at": "2026-11-21T18:10:56+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "FINAL FANTASY TACTICS - The Ivalice Chronicles (PS5)"
@@ -15219,7 +15342,7 @@
       "rejected": {
         "identity_or_condition": 6
       },
-      "canonicalized_at": "2026-11-21T17:38:31+00:00",
+      "canonicalized_at": "2026-11-21T18:10:56+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Atomfall (Xbox Series X Game)"
@@ -15376,35 +15499,6 @@
     },
     {
       "kind": "active_ask",
-      "query": "fate samurai remnant ps4",
-      "category": "gaming",
-      "name_terms": [],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-21T12:09:37+00:00",
-      "date": "2026-11-21",
-      "sample_count": 0,
-      "listed_total_low": null,
-      "listed_total_p25": null,
-      "listed_total_median": null,
-      "listed_total_p75": null,
-      "listed_total_high": null,
-      "status": "no_exact_shipped_samples",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [],
-      "rejected": {
-        "identity_or_condition": 4
-      },
-      "query_aliases": [
-        "Fate/Samurai Remnant (PS4)"
-      ]
-    },
-    {
-      "kind": "active_ask",
       "query": "control resonant delayed dispatch ps5",
       "category": "gaming",
       "name_terms": [],
@@ -15432,9 +15526,9 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 19,
+    "indicative_asking_products": 20,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 19,
+    "ask_estimated_products": 20,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
     "above_budget_estimates": 5,
@@ -15443,7 +15537,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-21T17:40:25+00:00",
+  "generated_utc": "2026-11-21T18:13:55+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
@@ -15462,8 +15556,8 @@
       "item_price": 111.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/150x150/qt/55/5041520_1.jpg"
@@ -16183,8 +16277,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6YBlS/5036131_1/re/300x300/qt/55/5036131_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6YBlS/5036131_1/re/300x300/qt/55/5036131_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6YBlS/5036131_1/re/150x150/qt/55/5036131_1.jpg",
@@ -16910,8 +17004,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/F6L0B/5036304_1/re/300x300/qt/55/5036304_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/F6L0B/5036304_1/re/300x300/qt/55/5036304_1.jpg",
         "https://images.hotukdeals.com/threads/raw/F6L0B/5036304_1/re/150x150/qt/55/5036304_1.jpg",
@@ -17637,8 +17731,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hmKyk/5036353_1/re/300x300/qt/55/5036353_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hmKyk/5036353_1/re/300x300/qt/55/5036353_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hmKyk/5036353_1/re/150x150/qt/55/5036353_1.jpg",
@@ -18352,13 +18446,13 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg",
         "https://i.ebayimg.com/images/g/ciYAAeSw2dRq6lG2/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/0y0AAeSwZihq9tbg/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/EVQAAeSwlP5qebsr/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19073,8 +19167,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg",
@@ -19775,6 +19869,248 @@
       }
     },
     {
+      "title": "Disney Epic Mickey: Rebrushed (Xbox Series X)",
+      "url": "https://www.hotukdeals.com/deals/disney-epic-mickey-rebrushed-xbox-series-x-5042055",
+      "policy_key": "348060eb01c0f07ae31d981f",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 14.65,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/7EjO8/5042055_1/re/150x150/qt/55/5042055_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/disney-epic-mickey-rebrushed-xbox-series-x-5042055",
+      "landed_cost": null,
+      "breakeven_sell": 21.64,
+      "sell_for_minimum_profit": 31.08,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-21T18:12:41+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Disney+Epic+Mickey%3A+Rebrushed+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "disney epic mickey rebrushed xbox series x",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-21T18:12:43+00:00",
+        "date": "2026-11-21",
+        "sample_count": 2,
+        "listed_total_low": 44.95,
+        "listed_total_p25": 45.68,
+        "listed_total_median": 46.4,
+        "listed_total_p75": 47.12,
+        "listed_total_high": 47.85,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|407043091590|0",
+            "seller": "thegamecollectionoutlet",
+            "image": "https://i.ebayimg.com/images/g/4IcAAeSwknpqRlBK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 49.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407043091590",
+            "title": "Disney Epic Mickey: Rebrushed Xbox Series X NEW AND SEALED - FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 44.95,
+            "shipping": 0.0,
+            "listed_total": 44.95
+          },
+          {
+            "item_id": "v1|387273296918|0",
+            "seller": "shopto_outlet",
+            "image": "https://i.ebayimg.com/images/g/~N0AAOSwk65ms3W~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/387273296918",
+            "title": "Disney Epic Mickey: Rebrushed - Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 47.85,
+            "shipping": 0.0,
+            "listed_total": 47.85
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 8
+        },
+        "query_aliases": [
+          "Disney Epic Mickey: Rebrushed (Xbox Series X)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "disney epic mickey rebrushed xbox series x",
+        "observed_at": "2026-11-21T18:12:43+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 44.95,
+        "competition_high": 47.85,
+        "estimated_resale": 43.6,
+        "estimated_range": [
+          40.45,
+          44.95
+        ],
+        "suggested_listing": 44.94,
+        "quick_sale_model": 40.45,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          49.99,
+          49.99
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 14.65,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 18.6,
+        "max_landed_buy": 23.75,
+        "max_item_buy": null,
+        "delivery_headroom": 9.1,
+        "fees": 5.84,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 1.31,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 39.24,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 23.25,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|407043091590|0",
+            "seller": "thegamecollectionoutlet",
+            "image": "https://i.ebayimg.com/images/g/4IcAAeSwknpqRlBK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 49.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407043091590",
+            "title": "Disney Epic Mickey: Rebrushed Xbox Series X NEW AND SEALED - FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 44.95,
+            "shipping": 0.0,
+            "listed_total": 44.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|387273296918|0",
+            "seller": "shopto_outlet",
+            "image": "https://i.ebayimg.com/images/g/~N0AAOSwk65ms3W~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/387273296918",
+            "title": "Disney Epic Mickey: Rebrushed - Xbox Series X",
+            "declared_condition": "new",
+            "item_price": 47.85,
+            "shipping": 0.0,
+            "listed_total": 47.85,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "LEGO Speed Champions Lightning McQueen 77255",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-lightning-mcqueen-77255-5035953",
       "policy_key": "dbf2c582720e9175fd895ff6",
@@ -19789,8 +20125,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wSviF/5035953_1/re/300x300/qt/55/5035953_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wSviF/5035953_1/re/300x300/qt/55/5035953_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wSviF/5035953_1/re/150x150/qt/55/5035953_1.jpg",
@@ -20505,8 +20841,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/150x150/qt/55/5040878_1.jpg",
@@ -21168,9 +21504,9 @@
       }
     },
     {
-      "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
-      "policy_key": "4023ff1ead21e1852cd2d96d",
+      "title": "LEGO Disney 43217 \"Up\" House - price at checkout - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/lego-disney-43217-up-house-price-at-checkout-free-cc-5036813",
+      "policy_key": "202607271f9c3b2db40ba59c",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": null,
@@ -21178,22 +21514,24 @@
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 25.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "merchant": "Very",
+      "item_price": 34.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg"
+        "https://images.hotukdeals.com/threads/raw/TbO8R/5036813_1/re/300x300/qt/55/5036813_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/TbO8R/5036813_1/re/150x150/qt/55/5036813_1.jpg",
+        "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/1cwAAeSw9q9q~gm7/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
-      "breakeven_sell": 36.85,
-      "sell_for_minimum_profit": 48.82,
+      "breakeven_sell": 48.81,
+      "sell_for_minimum_profit": 65.58,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -21201,40 +21539,41 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-21T12:09:35+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Christmas+Stocking+Toy&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
+      "first_seen": "2026-11-18T01:20:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+43217+%22Up%22+House&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "LEGO 40958",
+        "query": "LEGO 43217",
         "category": "lego",
         "name_terms": [
-          "christmas",
-          "decoration",
-          "hanging",
-          "stocking"
+          "disney",
+          "house",
+          "price",
+          "up"
         ],
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-21T12:09:37+00:00",
+        "observed_at": "2026-11-21T18:12:43+00:00",
         "date": "2026-11-21",
-        "sample_count": 7,
-        "listed_total_low": 32.93,
-        "listed_total_p25": 33.05,
-        "listed_total_median": 34.96,
-        "listed_total_p75": 37.45,
-        "listed_total_high": 44.5,
-        "status": "indicative_only",
+        "sample_count": 11,
+        "listed_total_low": 21.98,
+        "listed_total_p25": 46.59,
+        "listed_total_median": 47.5,
+        "listed_total_p75": 48.36,
+        "listed_total_high": 50.37,
+        "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
         ],
         "offers": [
           {
-            "item_id": "v1|398448661460|0",
-            "seller": "and_800274",
-            "image": "https://i.ebayimg.com/images/g/A8oAAeSwRnVqvZmk/s-l225.jpg",
+            "item_id": "v1|267760713827|0",
+            "seller": "calums_collectibles",
+            "image": "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -21247,105 +21586,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398448661460",
-            "title": "LEGO\u00ae Christmas Stocking (40958) | NEW & SEALED",
+            "url": "https://www.ebay.co.uk/itm/267760713827",
+            "title": "Lego Disney Up House  43217 Mini figures Only",
             "declared_condition": "new",
-            "item_price": 29.99,
-            "shipping": 2.94,
-            "listed_total": 32.93
+            "item_price": 19.36,
+            "shipping": 2.62,
+            "listed_total": 21.98
           },
           {
-            "item_id": "v1|940105935953|0",
-            "seller": "legs11o",
-            "image": "https://i.ebayimg.com/images/g/rnEAAeSwk8BqzxtI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940105935953",
-            "title": "LEGO 40958 Christmas Stocking NEW 342pcs",
-            "declared_condition": "new",
-            "item_price": 32.97,
-            "shipping": 0.0,
-            "listed_total": 32.97
-          },
-          {
-            "item_id": "v1|407353867031|0",
-            "seller": "mad_mo_18",
-            "image": "https://i.ebayimg.com/images/g/yDEAAeSw9Sdq84PH/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407353867031",
-            "title": "LEGO\u00ae 40958 Christmas Stocking  NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 29.75,
-            "shipping": 3.38,
-            "listed_total": 33.13
-          },
-          {
-            "item_id": "v1|920146910767|0",
-            "seller": "chen911313",
-            "image": "https://i.ebayimg.com/images/g/rbAAAeSw5OJq9mpO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920146910767",
-            "title": "LEGO 40958 Christmas Stocking Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 31.58,
-            "shipping": 3.38,
-            "listed_total": 34.96
-          },
-          {
-            "item_id": "v1|820262190509|0",
-            "seller": "gmac_online",
-            "image": "https://i.ebayimg.com/images/g/4PcAAeSwuIxq2J59/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820262190509",
-            "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
-            "declared_condition": "new",
-            "item_price": 33.98,
-            "shipping": 2.94,
-            "listed_total": 36.92
-          },
-          {
-            "item_id": "v1|860079985875|0",
-            "seller": "brackles79",
-            "image": "https://i.ebayimg.com/images/g/Sk0AAeSw4-Zq3QKd/s-l225.jpg",
+            "item_id": "v1|377665412083|0",
+            "seller": "kam-768498",
+            "image": "https://i.ebayimg.com/images/g/Q8wAAeSw9LxrAdgc/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -21358,17 +21609,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860079985875",
-            "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
+            "url": "https://www.ebay.co.uk/itm/377665412083",
+            "title": "LEGO Disney Up' House 43217 Complete Set 598 pcs Brick Separator Included",
             "declared_condition": "new",
-            "item_price": 37.99,
-            "shipping": 0.0,
-            "listed_total": 37.99
+            "item_price": 37.1,
+            "shipping": 3.38,
+            "listed_total": 40.48
           },
           {
-            "item_id": "v1|206705096674|0",
-            "seller": "j6511b",
-            "image": "https://i.ebayimg.com/images/g/Iz8AAeSwF3Bq8edF/s-l225.jpg",
+            "item_id": "v1|377659130278|0",
+            "seller": "camlov_96",
+            "image": "https://i.ebayimg.com/images/g/0p8AAeSw7fFq~w7O/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -21380,20 +21631,176 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206705096674",
-            "title": "LEGO 40958 Christmas Stocking Limited Edition Set 342 pcs 12+ Seasonal Brand New",
+            "url": "https://www.ebay.co.uk/itm/377659130278",
+            "title": "LEGO Disney: Up' House (43217)",
             "declared_condition": "new",
-            "item_price": 44.5,
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68
+          },
+          {
+            "item_id": "v1|365264889424|0",
+            "seller": "m.ellis.2",
+            "image": "https://i.ebayimg.com/images/g/hg0AAOSwYARnTjzV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/365264889424",
+            "title": "LEGO Disney Up' House 43217 (New & Sealed) FREE SHIPPING \u2705",
+            "declared_condition": "new",
+            "item_price": 47.49,
             "shipping": 0.0,
-            "listed_total": 44.5
+            "listed_total": 47.49
+          },
+          {
+            "item_id": "v1|287746938352|0",
+            "seller": "2015moviefan",
+            "image": "https://i.ebayimg.com/images/g/vcUAAOSwky1nRvBN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287746938352",
+            "title": "Lego Disney 100 Up House Set 43217 New Sealed ",
+            "declared_condition": "new",
+            "item_price": 47.49,
+            "shipping": 0.0,
+            "listed_total": 47.49
+          },
+          {
+            "item_id": "v1|840135790141|0",
+            "seller": "suli85",
+            "image": "https://i.ebayimg.com/images/g/yQMAAOSwublnofbk/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840135790141",
+            "title": "LEGO Disney: Up' House (43217) - BNIB",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 0.0,
+            "listed_total": 47.5
+          },
+          {
+            "item_id": "v1|327463581263|0",
+            "seller": "scooby_doo",
+            "image": "https://i.ebayimg.com/images/g/09wAAeSwPslq1jdI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327463581263",
+            "title": "LEGO DISNEY: UP' HOUSE (43217) NEW AND FACTORY SEALED",
+            "declared_condition": "new",
+            "item_price": 44.38,
+            "shipping": 3.38,
+            "listed_total": 47.76
+          },
+          {
+            "item_id": "v1|840063171907|0",
+            "seller": "hum-792998",
+            "image": "https://i.ebayimg.com/images/g/zW8AAeSwYudq38c7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840063171907",
+            "title": "LEGO Disney 43217 Up House Building Set - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 44.95,
+            "shipping": 3.38,
+            "listed_total": 48.33
+          },
+          {
+            "item_id": "v1|860131711845|0",
+            "seller": "joshs_bricks_and_pieces",
+            "image": "https://i.ebayimg.com/images/g/o68AAeSw9~lq82MO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860131711845",
+            "title": "LEGO 43217 Disney: 'Up' House Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 45.0,
+            "shipping": 3.38,
+            "listed_total": 48.38
+          },
+          {
+            "item_id": "v1|318113946156|0",
+            "seller": "elmas_emporium",
+            "image": "https://i.ebayimg.com/images/g/dm8AAeSwc~pp09tC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318113946156",
+            "title": "Mint Sealed Lego set - 43217 Disney 'Up' house",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 5.15,
+            "listed_total": 50.14
           }
         ],
         "rejected": {
-          "identity_or_condition": 2,
-          "price_currency_or_shipping_unknown": 1
+          "identity_or_condition": 39
         },
         "query_aliases": [
-          "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C"
+          "LEGO Disney 43217 \"Up\" House - price at checkout - Free C&C"
         ]
       },
       "ask_estimate": {
@@ -21402,48 +21809,48 @@
         "detail_status": "not_required",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 40958",
-        "observed_at": "2026-11-21T12:09:37+00:00",
+        "query": "LEGO 43217",
+        "observed_at": "2026-11-21T18:12:43+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 7,
-        "seller_count": 7,
+        "sample_count": 11,
+        "seller_count": 11,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 4,
-        "confidence": "moderate",
-        "wide_spread": false,
-        "competition_low": 32.93,
-        "competition_high": 44.5,
-        "estimated_resale": 31.94,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 21.98,
+        "competition_high": 50.37,
+        "estimated_resale": 21.32,
         "estimated_range": [
-          29.63,
-          32.93
+          19.78,
+          21.98
         ],
-        "suggested_listing": 32.92,
-        "quick_sale_model": 29.63,
+        "suggested_listing": 21.97,
+        "quick_sale_model": 19.78,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
         "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
         "advertised_discount_competitors": 0,
         "same_promotion_references_excluded": 0,
         "acquisition_excluded": 0,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 25.0,
+        "item_price": 34.99,
         "delivery_known": false,
         "landed_cost": null,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": -4.1,
-        "max_landed_buy": 12.89,
+        "net_before_unknown_delivery": -22.96,
+        "max_landed_buy": 4.02,
         "max_item_buy": null,
-        "delivery_headroom": -12.11,
-        "fees": 4.79,
+        "delivery_headroom": -30.97,
+        "fees": 3.36,
         "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 0.96,
+        "returns_allowance": 0.64,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": false,
@@ -21459,14 +21866,15 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 28.74,
+        "review_stress_sale": 19.18,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 10.89,
+        "review_max_landed_buy": 2.03,
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -21474,9 +21882,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|398448661460|0",
-            "seller": "and_800274",
-            "image": "https://i.ebayimg.com/images/g/A8oAAeSwRnVqvZmk/s-l225.jpg",
+            "item_id": "v1|267760713827|0",
+            "seller": "calums_collectibles",
+            "image": "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -21489,110 +21897,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398448661460",
-            "title": "LEGO\u00ae Christmas Stocking (40958) | NEW & SEALED",
+            "url": "https://www.ebay.co.uk/itm/267760713827",
+            "title": "Lego Disney Up House  43217 Mini figures Only",
             "declared_condition": "new",
-            "item_price": 29.99,
-            "shipping": 2.94,
-            "listed_total": 32.93,
+            "item_price": 19.36,
+            "shipping": 2.62,
+            "listed_total": 21.98,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|940105935953|0",
-            "seller": "legs11o",
-            "image": "https://i.ebayimg.com/images/g/rnEAAeSwk8BqzxtI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940105935953",
-            "title": "LEGO 40958 Christmas Stocking NEW 342pcs",
-            "declared_condition": "new",
-            "item_price": 32.97,
-            "shipping": 0.0,
-            "listed_total": 32.97,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407353867031|0",
-            "seller": "mad_mo_18",
-            "image": "https://i.ebayimg.com/images/g/yDEAAeSw9Sdq84PH/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407353867031",
-            "title": "LEGO\u00ae 40958 Christmas Stocking  NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 29.75,
-            "shipping": 3.38,
-            "listed_total": 33.13,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920146910767|0",
-            "seller": "chen911313",
-            "image": "https://i.ebayimg.com/images/g/rbAAAeSw5OJq9mpO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920146910767",
-            "title": "LEGO 40958 Christmas Stocking Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 31.58,
-            "shipping": 3.38,
-            "listed_total": 34.96,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|820262190509|0",
-            "seller": "gmac_online",
-            "image": "https://i.ebayimg.com/images/g/4PcAAeSwuIxq2J59/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820262190509",
-            "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
-            "declared_condition": "new",
-            "item_price": 33.98,
-            "shipping": 2.94,
-            "listed_total": 36.92,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860079985875|0",
-            "seller": "brackles79",
-            "image": "https://i.ebayimg.com/images/g/Sk0AAeSw4-Zq3QKd/s-l225.jpg",
+            "item_id": "v1|377665412083|0",
+            "seller": "kam-768498",
+            "image": "https://i.ebayimg.com/images/g/Q8wAAeSw9LxrAdgc/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -21605,18 +21921,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860079985875",
-            "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
+            "url": "https://www.ebay.co.uk/itm/377665412083",
+            "title": "LEGO Disney Up' House 43217 Complete Set 598 pcs Brick Separator Included",
             "declared_condition": "new",
-            "item_price": 37.99,
-            "shipping": 0.0,
-            "listed_total": 37.99,
+            "item_price": 37.1,
+            "shipping": 3.38,
+            "listed_total": 40.48,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|206705096674|0",
-            "seller": "j6511b",
-            "image": "https://i.ebayimg.com/images/g/Iz8AAeSwF3Bq8edF/s-l225.jpg",
+            "item_id": "v1|377659130278|0",
+            "seller": "camlov_96",
+            "image": "https://i.ebayimg.com/images/g/0p8AAeSw7fFq~w7O/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -21628,92 +21944,183 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206705096674",
-            "title": "LEGO 40958 Christmas Stocking Limited Edition Set 342 pcs 12+ Seasonal Brand New",
+            "url": "https://www.ebay.co.uk/itm/377659130278",
+            "title": "LEGO Disney: Up' House (43217)",
             "declared_condition": "new",
-            "item_price": 44.5,
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|365264889424|0",
+            "seller": "m.ellis.2",
+            "image": "https://i.ebayimg.com/images/g/hg0AAOSwYARnTjzV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/365264889424",
+            "title": "LEGO Disney Up' House 43217 (New & Sealed) FREE SHIPPING \u2705",
+            "declared_condition": "new",
+            "item_price": 47.49,
             "shipping": 0.0,
-            "listed_total": 44.5,
+            "listed_total": 47.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287746938352|0",
+            "seller": "2015moviefan",
+            "image": "https://i.ebayimg.com/images/g/vcUAAOSwky1nRvBN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287746938352",
+            "title": "Lego Disney 100 Up House Set 43217 New Sealed ",
+            "declared_condition": "new",
+            "item_price": 47.49,
+            "shipping": 0.0,
+            "listed_total": 47.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840135790141|0",
+            "seller": "suli85",
+            "image": "https://i.ebayimg.com/images/g/yQMAAOSwublnofbk/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840135790141",
+            "title": "LEGO Disney: Up' House (43217) - BNIB",
+            "declared_condition": "new",
+            "item_price": 47.5,
+            "shipping": 0.0,
+            "listed_total": 47.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327463581263|0",
+            "seller": "scooby_doo",
+            "image": "https://i.ebayimg.com/images/g/09wAAeSwPslq1jdI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327463581263",
+            "title": "LEGO DISNEY: UP' HOUSE (43217) NEW AND FACTORY SEALED",
+            "declared_condition": "new",
+            "item_price": 44.38,
+            "shipping": 3.38,
+            "listed_total": 47.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840063171907|0",
+            "seller": "hum-792998",
+            "image": "https://i.ebayimg.com/images/g/zW8AAeSwYudq38c7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840063171907",
+            "title": "LEGO Disney 43217 Up House Building Set - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 44.95,
+            "shipping": 3.38,
+            "listed_total": 48.33,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860131711845|0",
+            "seller": "joshs_bricks_and_pieces",
+            "image": "https://i.ebayimg.com/images/g/o68AAeSw9~lq82MO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860131711845",
+            "title": "LEGO 43217 Disney: 'Up' House Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 45.0,
+            "shipping": 3.38,
+            "listed_total": 48.38,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|318113946156|0",
+            "seller": "elmas_emporium",
+            "image": "https://i.ebayimg.com/images/g/dm8AAeSwc~pp09tC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318113946156",
+            "title": "Mint Sealed Lego set - 43217 Disney 'Up' house",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 5.15,
+            "listed_total": 50.14,
             "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
-        "ok": true,
-        "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C",
-        "query": "LEGO 40958",
-        "kind": "active_ask",
-        "listing": 32.92,
-        "observed_at": "2026-11-21T12:09:37+00:00",
-        "valid_until": "2026-11-21T18:09:37+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/398448661460",
-          "https://www.ebay.co.uk/itm/940105935953",
-          "https://www.ebay.co.uk/itm/407353867031",
-          "https://www.ebay.co.uk/itm/920146910767",
-          "https://www.ebay.co.uk/itm/820262190509",
-          "https://www.ebay.co.uk/itm/860079985875",
-          "https://www.ebay.co.uk/itm/206705096674"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/398448661460",
-            "LEGO\u00ae Christmas Stocking (40958) | NEW & SEALED",
-            32.93,
-            2.94,
-            29.99,
-            "and_800274"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/940105935953",
-            "LEGO 40958 Christmas Stocking NEW 342pcs",
-            32.97,
-            0.0,
-            32.97,
-            "legs11o"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407353867031",
-            "LEGO\u00ae 40958 Christmas Stocking  NEW & SEALED",
-            33.13,
-            3.38,
-            29.75,
-            "mad_mo_18"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/920146910767",
-            "LEGO 40958 Christmas Stocking Brand New Sealed",
-            34.96,
-            3.38,
-            31.58,
-            "chen911313"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/820262190509",
-            "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
-            36.92,
-            2.94,
-            33.98,
-            "gmac_online"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/860079985875",
-            "LEGO Christmas Stocking Toy - Hanging Decoration 40958",
-            37.99,
-            0.0,
-            37.99,
-            "brackles79"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206705096674",
-            "LEGO 40958 Christmas Stocking Limited Edition Set 342 pcs 12+ Seasonal Brand New",
-            44.5,
-            0.0,
-            44.5,
-            "j6511b"
-          ]
-        ],
-        "category": "lego"
+        "ok": false,
+        "reason": "low_price_not_supported"
       }
     },
     {
@@ -21731,8 +22138,8 @@
       "item_price": 39.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CuyHB/5033889_1/re/300x300/qt/55/5033889_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CuyHB/5033889_1/re/300x300/qt/55/5033889_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CuyHB/5033889_1/re/150x150/qt/55/5033889_1.jpg",
@@ -23185,7 +23592,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-21T17:38:31+00:00",
+          "observed_at": "2026-11-21T18:10:56+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -23501,8 +23908,8 @@
       "item_price": 88.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/150x150/qt/55/5041794_1.jpg"
@@ -24222,8 +24629,8 @@
       "item_price": 107.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9lmZ2/5040981_1/re/300x300/qt/55/5040981_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9lmZ2/5040981_1/re/300x300/qt/55/5040981_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9lmZ2/5040981_1/re/150x150/qt/55/5040981_1.jpg"
@@ -24842,8 +25249,8 @@
       "item_price": 125.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/150x150/qt/55/5041394_1.jpg"
@@ -25452,8 +25859,8 @@
       "item_price": 135.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/300x300/qt/55/5041362_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/300x300/qt/55/5041362_1.jpg",
         "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/150x150/qt/55/5041362_1.jpg"
@@ -26316,7 +26723,7 @@
         "rejected": {
           "identity_or_condition": 13
         },
-        "canonicalized_at": "2026-11-21T17:38:31+00:00",
+        "canonicalized_at": "2026-11-21T18:10:56+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Sonic Racing: CrossWorlds (PS5)"
@@ -26702,7 +27109,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-21T17:38:31+00:00",
+        "canonicalized_at": "2026-11-21T18:10:56+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "FINAL FANTASY TACTICS - The Ivalice Chronicles (PS5)"
@@ -27087,7 +27494,7 @@
         "rejected": {
           "identity_or_condition": 6
         },
-        "canonicalized_at": "2026-11-21T17:38:31+00:00",
+        "canonicalized_at": "2026-11-21T18:10:56+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Atomfall (Xbox Series X Game)"
@@ -27287,45 +27694,6 @@
       }
     },
     {
-      "title": "adidas Originals Unisex Black Cap",
-      "url": "https://www.hotukdeals.com/deals/adidas-originals-unisex-cap-black-5042023",
-      "policy_key": "a3f921591112f3a9d0a8f9b5",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Zalando",
-      "item_price": 7.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/alCK1/5042023_1/re/150x150/qt/55/5042023_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/adidas-originals-unisex-cap-black-5042023",
-      "landed_cost": null,
-      "breakeven_sell": 13.97,
-      "sell_for_minimum_profit": 23.69,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-21T17:39:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Originals+Unisex+Black+Cap&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "BG Electrical Outdoor Double Switched Power Wall Plug Socket, Weatherproof Grey 13A, IP66 Rated Like New Amazon Resale Discount At Checkout",
       "url": "https://www.hotukdeals.com/deals/bg-electrical-outdoor-double-switched-power-wall-plug-socket-weatherproof-grey-13a-ip66-rated-like-new-amazon-resale-discount-at-checkout-5034483",
       "policy_key": "44b49a5eb2536385d10f5b0f",
@@ -27418,8 +27786,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg"
@@ -27580,8 +27948,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/150x150/qt/55/5039994_1.jpg",
@@ -27624,8 +27992,8 @@
       "item_price": 13.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/150x150/qt/55/5034322_1.jpg"
@@ -27666,8 +28034,8 @@
       "item_price": 13.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/150x150/qt/55/5040150_1.jpg"
@@ -27708,8 +28076,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/150x150/qt/55/5040340_1.jpg",
@@ -27752,8 +28120,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
@@ -27796,8 +28164,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg"
@@ -28223,8 +28591,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg",
@@ -28418,45 +28786,6 @@
       "first_seen": "2026-11-18T12:22:25+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Friends+Spinning+Flower+%26+Fairy+Teacup+Ride+%2842702%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Cotswold Inglecote Men's Leather Casual Fashion Designer Boat Shoes, Size 7 - Sold by Express Trainers",
-      "url": "https://www.hotukdeals.com/deals/cotswold-inglecote-mens-leather-casual-fashion-designer-boat-shoes-5042034",
-      "policy_key": "18e93699b2a3a2fc9cd104a4",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 19.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/weygB/5042034_1/re/150x150/qt/55/5042034_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/cotswold-inglecote-mens-leather-casual-fashion-designer-boat-shoes-5042034",
-      "landed_cost": null,
-      "breakeven_sell": 29.75,
-      "sell_for_minimum_profit": 39.47,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-21T17:39:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Cotswold+Inglecote+Men%27s+Leather+Casual+Fashion+Designer+Boat+Shoes%2C+Size+7&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -28727,6 +29056,48 @@
       }
     },
     {
+      "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C",
+      "url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
+      "policy_key": "4023ff1ead21e1852cd2d96d",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 25.0,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
+      "landed_cost": null,
+      "breakeven_sell": 36.85,
+      "sell_for_minimum_profit": 48.82,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-21T12:09:35+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Christmas+Stocking+Toy&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Star Wars AT-RT Attack 75444",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-at-rt-attack-75444-5038691",
       "policy_key": "4b0047538d5d1330a5a4bf0c",
@@ -28959,8 +29330,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -29131,8 +29502,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -29173,8 +29544,8 @@
       "item_price": 33.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg"
@@ -29215,8 +29586,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
@@ -29259,8 +29630,8 @@
       "item_price": 34.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/150x150/qt/55/5040440_1.jpg"
@@ -29301,8 +29672,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg",
@@ -29324,50 +29695,6 @@
       "priority": 10,
       "first_seen": "2026-11-19T20:03:37+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Harry+Potter+Enchanted+Flying+Ford+Anglia+76470&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Disney 43217 \"Up\" House - price at checkout - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-disney-43217-up-house-price-at-checkout-free-cc-5036813",
-      "policy_key": "202607271f9c3b2db40ba59c",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 34.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/TbO8R/5036813_1/re/300x300/qt/55/5036813_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/TbO8R/5036813_1/re/150x150/qt/55/5036813_1.jpg",
-        "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/1cwAAeSw9q9q~gm7/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 48.81,
-      "sell_for_minimum_profit": 65.58,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T01:20:57+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+43217+%22Up%22+House&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -29477,8 +29804,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/150x150/qt/55/5040214_1.jpg",
@@ -29604,8 +29931,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/150x150/qt/55/5041903_1.jpg",
@@ -29857,8 +30184,8 @@
       "item_price": 37.7,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
@@ -29984,8 +30311,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
@@ -30116,8 +30443,8 @@
       "item_price": 38.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
@@ -30140,6 +30467,45 @@
       "first_seen": "2026-11-20T18:35:25+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+DC+Batman+Logo+76330&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "adidas Tracefinder Men's Trail Running Shoes, Sizes 11.5/12/12.5",
+      "url": "https://www.hotukdeals.com/deals/adidas-tracefinder-11512125-5042070",
+      "policy_key": "2cc4ad049cd74e6fe1043523",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 38.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/inecn/5042070_1/re/150x150/qt/55/5042070_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/adidas-tracefinder-11512125-5042070",
+      "landed_cost": null,
+      "breakeven_sell": 52.79,
+      "sell_for_minimum_profit": 71.74,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-21T18:12:41+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Tracefinder+Men%27s+Trail+Running+Shoes%2C+Sizes+11.5%2F12%2F12.5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -30204,8 +30570,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg"
@@ -30290,8 +30656,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
@@ -30334,8 +30700,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
@@ -30376,8 +30742,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
@@ -30418,8 +30784,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
@@ -30831,8 +31197,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -30873,8 +31239,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
@@ -30961,8 +31327,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg",
@@ -31005,8 +31371,8 @@
       "item_price": 49.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
@@ -31049,8 +31415,8 @@
       "item_price": 51.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
@@ -31181,8 +31547,8 @@
       "item_price": 57.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
-      "image_verified_until": "2026-11-21T17:59:41.776988+00:00",
-      "image_checked_at": "2026-11-21T17:39:41.776988+00:00",
+      "image_verified_until": "2026-11-21T18:32:46.731409+00:00",
+      "image_checked_at": "2026-11-21T18:12:46.731409+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EWxAj/5036973_1/re/300x300/qt/55/5036973_1.jpg",
@@ -31458,6 +31824,45 @@
       }
     },
     {
+      "title": "Apple AirPods 5 with Wireless Charging Case, MKFT4ZM/A With \u00a320 Discount At Checkout",
+      "url": "https://www.hotukdeals.com/deals/apple-airpods-5-with-wireless-charging-case-mkft4zma-with-ps20-discount-at-checkout-5042069",
+      "policy_key": "3818306be650ee9b633a2ffb",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Costco",
+      "item_price": 114.98,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/yWMoL/5042069_1/re/150x150/qt/55/5042069_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/apple-airpods-5-with-wireless-charging-case-mkft4zma-with-ps20-discount-at-checkout-5042069",
+      "landed_cost": null,
+      "breakeven_sell": 146.73,
+      "sell_for_minimum_profit": 203.45,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-21T18:12:41+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Apple+AirPods+5+with+Wireless+Charging+Case%2C+MKFT4ZM%2FA+With+Discount+At+Checkout&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Lego Insiders Price and 2 x Lego Insiders Points Vincent van Gogh - The Starry Night 21333",
       "url": "https://www.hotukdeals.com/deals/lego-insiders-price-and-2-x-lego-insiders-points-vincent-van-gogh-the-starry-night-21333-5041409",
       "policy_key": "c0bc03c9f34c76ea02beac97",
@@ -31472,8 +31877,8 @@
       "item_price": 119.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
-      "image_verified_until": "2026-11-21T17:58:44.263569+00:00",
-      "image_checked_at": "2026-11-21T17:38:44.263569+00:00",
+      "image_verified_until": "2026-11-21T18:31:07.653382+00:00",
+      "image_checked_at": "2026-11-21T18:11:07.653382+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/150x150/qt/55/5041409_1.jpg"
@@ -32063,6 +32468,45 @@
       "priority": 0,
       "first_seen": "2026-11-21T17:06:47+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Performance+Everyday+Plus+Crew+Unisex+6+Pack&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "adidas Originals Unisex Black Cap",
+      "url": "https://www.hotukdeals.com/deals/adidas-originals-unisex-cap-black-5042023",
+      "policy_key": "a3f921591112f3a9d0a8f9b5",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Zalando",
+      "item_price": 7.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/alCK1/5042023_1/re/150x150/qt/55/5042023_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/adidas-originals-unisex-cap-black-5042023",
+      "landed_cost": null,
+      "breakeven_sell": 13.97,
+      "sell_for_minimum_profit": 23.69,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-21T17:39:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Originals+Unisex+Black+Cap&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -35241,6 +35685,45 @@
       }
     },
     {
+      "title": "Cotswold Inglecote Men's Leather Casual Fashion Designer Boat Shoes, Size 7 - Sold by Express Trainers",
+      "url": "https://www.hotukdeals.com/deals/cotswold-inglecote-mens-leather-casual-fashion-designer-boat-shoes-5042034",
+      "policy_key": "18e93699b2a3a2fc9cd104a4",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 19.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/weygB/5042034_1/re/150x150/qt/55/5042034_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/cotswold-inglecote-mens-leather-casual-fashion-designer-boat-shoes-5042034",
+      "landed_cost": null,
+      "breakeven_sell": 29.75,
+      "sell_for_minimum_profit": 39.47,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-21T17:39:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Cotswold+Inglecote+Men%27s+Leather+Casual+Fashion+Designer+Boat+Shoes%2C+Size+7&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Gothic 1 Remake - PlayStation 5 (PS5)",
       "url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
       "policy_key": "27c53efa7b27672276af58e7",
@@ -35454,36 +35937,7 @@
       "priority": 0,
       "first_seen": "2026-11-21T12:09:35+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Fate%2FSamurai+Remnant+%28PS4%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "fate samurai remnant ps4",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-21T12:09:37+00:00",
-        "date": "2026-11-21",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 4
-        },
-        "query_aliases": [
-          "Fate/Samurai Remnant (PS4)"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -37935,7 +38389,7 @@
       "policy_key": "f33f7e221448f7155f2ce2c1",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -39277,45 +39731,6 @@
       "priority": 0,
       "first_seen": "2026-11-16T07:18:21+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=EA+SPORTS+FC+27+Standard+Edition+Xbox+Series+X&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Star Wars Zero Company Standard Edition PS5 | Disc I VideoGame | English",
-      "url": "https://www.hotukdeals.com/deals/star-wars-zero-company-standard-edition-ps5-disc-i-videogame-english-5035360",
-      "policy_key": "f97fe809bc225a98a9af1d97",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 36.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/TNum3/5035360_1/re/150x150/qt/55/5035360_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-zero-company-standard-edition-ps5-disc-i-videogame-english-5035360",
-      "landed_cost": null,
-      "breakeven_sell": 48.02,
-      "sell_for_minimum_profit": 65.48,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-16T20:40:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars+Zero+Company+Standard+Edition+PS5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -40676,7 +41091,7 @@
       }
     },
     {
-      "title": "Xbox Wireless Controller \u2013 Heart Breaker Special Edition Series X|S, One, PCs, and Cloud-Enabled Devices",
+      "title": "Xbox Wireless Controller \u2013 Heart Breaker Special Edition Series X|S, One, PCs, and Cloud-Enabled Devices - Prime Exclusive",
       "url": "https://www.hotukdeals.com/deals/xbox-wireless-controller-heart-breaker-special-edition-series-xs-one-pcs-and-cloud-enabled-devices-5042018",
       "policy_key": "82102952af024560d0b3b5a7",
       "category": "gaming",
@@ -40708,7 +41123,7 @@
       "priority": 0,
       "first_seen": "2026-11-21T17:06:47+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Xbox+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -40720,7 +41135,7 @@
       "policy_key": "1ed850a56d05ca619a287f14",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -41372,45 +41787,6 @@
       "first_seen": "2026-11-20T21:50:53+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Metal+Gear+Solid+Delta+Snake+Eater+Deluxe+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Toms x Star Wars Cascada Princess Leia Waterproof Trainers - Womens, Size 3-3.5 w/code",
-      "url": "https://www.hotukdeals.com/deals/toms-x-star-wars-cascada-princess-leia-waterproof-trainers-womens-size-3-35-wcode-5040123",
-      "policy_key": "5a44ea55b39a6c6ae41bb815",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Secret Sales",
-      "item_price": 47.19,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/njDgW/5040123_1/re/150x150/qt/55/5040123_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/toms-x-star-wars-cascada-princess-leia-waterproof-trainers-womens-size-3-35-wcode-5040123",
-      "landed_cost": null,
-      "breakeven_sell": 62.8,
-      "sell_for_minimum_profit": 85.74,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-20T09:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Toms+x+Star+Wars+Cascada+Princess+Leia+Waterproof+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -43427,45 +43803,6 @@
       }
     },
     {
-      "title": "adidas Hyperboost Run Men\u2019s Running Shoes \u2013 Footwear White / Petrol Metallic / Lucid Red (Sizes 7.5 - 12) - Free Click and Collect - w/code",
-      "url": "https://www.hotukdeals.com/deals/adidas-hyperboost-run-mens-running-shoes-footwear-white-petrol-metallic-lucid-red-sizes-75-12-free-click-and-collect-wcode-5038478",
-      "policy_key": "a950a79c27e061a5729a4832",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "JD Sports",
-      "item_price": 63.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/6Hn9a/5038478_1/re/150x150/qt/55/5038478_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/adidas-hyperboost-run-mens-running-shoes-footwear-white-petrol-metallic-lucid-red-sizes-75-12-free-click-and-collect-wcode-5038478",
-      "landed_cost": null,
-      "breakeven_sell": 82.01,
-      "sell_for_minimum_profit": 105.13,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T07:51:35+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Hyperboost+Run+Men%E2%80%99s+Running+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Mens P-6000, Multiple Colours and Sizes - eg Grey And Red \u00a363.99 / \u00a365.99 Metallic Black etc - w/code",
       "url": "https://www.hotukdeals.com/deals/mens-p-6000-multiple-colours-and-sizes-eg-grey-and-red-ps6399-ps6599-metallic-black-wcode-5040723",
       "policy_key": "2cfbb7b843dbc65fcc84d6f8",
@@ -44590,45 +44927,6 @@
       }
     },
     {
-      "title": "Samsung Galaxy Buds4 Pro, Wireless Hi-Fi Bluetooth Headphones Sold By Amazon EU",
-      "url": "https://www.hotukdeals.com/deals/samsung-galaxy-buds4-pro-sold-by-amazon-eu-5039811",
-      "policy_key": "3706bc9fd1dc94456925b527",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 128.51,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/yE8Rz/5039811_1/re/150x150/qt/55/5039811_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/samsung-galaxy-buds4-pro-sold-by-amazon-eu-5039811",
-      "landed_cost": null,
-      "breakeven_sell": 163.41,
-      "sell_for_minimum_profit": 226.8,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-20T00:23:39+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Samsung+Galaxy+Buds4+Pro%2C+Wireless+Hi-Fi+Bluetooth+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Samsung Galaxy Buds Pro 4 - Black or White",
       "url": "https://www.hotukdeals.com/deals/samsung-galaxy-buds-pro-4-black-or-white-5041463",
       "policy_key": "e822198057b7ec99a00bec57",
@@ -44748,17 +45046,17 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 525,
+      "retailer_offers": 528,
       "known_landed_under_cap": 3,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
       "under_cap_without_model": 3,
-      "retailer_unknown_delivery": 520,
+      "retailer_unknown_delivery": 523,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 525,
+    "scanned": 528,
     "priced": 9,
-    "unpriced": 516,
+    "unpriced": 519,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -44772,24 +45070,24 @@
     "expiry_unknown": 9,
     "sold_valued": 0,
     "reference_only": 9,
-    "online_eligible": 475,
+    "online_eligible": 473,
     "under_cap_known_delivery": 3,
     "delivery_known": 5,
-    "ask_valued": 20,
+    "ask_valued": 21,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
     "above_budget_estimates": 5,
-    "above_budget_candidates": 43,
+    "above_budget_candidates": 42,
     "above_budget_researched": 5,
-    "above_budget_research_candidates": 43,
+    "above_budget_research_candidates": 42,
     "acquisition_by_source": {
-      "hotukdeals": 525
+      "hotukdeals": 528
     },
-    "qualified_delivery_unknown": 19,
+    "qualified_delivery_unknown": 20,
     "ask_delivery_known": 1,
-    "ask_unique_products": 19,
-    "ask_research_identities": 19,
-    "without_any_pricing": 496,
+    "ask_unique_products": 20,
+    "ask_research_identities": 20,
+    "without_any_pricing": 498,
     "pricing_coverage": {
       "fragrance": {
         "offers": 31,
@@ -44800,9 +45098,9 @@
       },
       "gaming": {
         "offers": 197,
-        "exact_identity": 119,
-        "estimated_offers": 3,
-        "estimated_products": 3,
+        "exact_identity": 118,
+        "estimated_offers": 4,
+        "estimated_products": 4,
         "supported_retailer_identities": 1
       },
       "lego": {
@@ -44810,17 +45108,17 @@
         "exact_identity": 101,
         "estimated_offers": 16,
         "estimated_products": 15,
-        "supported_retailer_identities": 11
+        "supported_retailer_identities": 10
       },
       "other": {
-        "offers": 15,
+        "offers": 20,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
       },
       "tech": {
-        "offers": 57,
+        "offers": 56,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -44834,7 +45132,7 @@
         "supported_retailer_identities": 1
       },
       "trainers": {
-        "offers": 76,
+        "offers": 75,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -44843,12 +45141,12 @@
     },
     "browse_usage": {
       "date": "2026-11-21",
-      "calls": 436,
+      "calls": 448,
       "by_purpose": {
-        "persistent-research": 68,
-        "item-details": 136,
-        "acquisition": 136,
-        "asking-affordable": 68,
+        "persistent-research": 70,
+        "item-details": 140,
+        "acquisition": 140,
+        "asking-affordable": 70,
         "asking-watch": 27,
         "asking-tools": 1
       }
@@ -44862,12 +45160,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 32,
+        "duplicates": 33,
         "old_dropped": 94,
         "age_unknown": 0,
-        "missing_price_or_category": 109,
-        "ambiguous_price": 7,
-        "page_requests": 13
+        "missing_price_or_category": 106,
+        "ambiguous_price": 5,
+        "page_requests": 12
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -44881,7 +45179,7 @@
             "lego": 1,
             "gaming": 1
           },
-          "candidates_with_samples": 15,
+          "candidates_with_samples": 16,
           "status": "ready",
           "errors": [],
           "tools_research": {
@@ -44896,12 +45194,10 @@
           },
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 1,
-            "cached": 4,
+            "queries": 0,
+            "cached": 5,
             "query_budget": 2,
-            "queries_by_category": {
-              "lego": 1
-            },
+            "queries_by_category": {},
             "candidates_with_samples": 5,
             "status": "ready",
             "errors": []
@@ -44910,13 +45206,13 @@
       },
       "capture_buffer": {
         "enabled": true,
-        "added": 243,
-        "duplicates": 57,
+        "added": 244,
+        "duplicates": 56,
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-21T17:30:24.360Z",
-        "last_success": "2026-11-21T17:30:24.360Z"
+        "last_attempt": "2026-11-21T18:10:24.078Z",
+        "last_success": "2026-11-21T18:10:24.078Z"
       },
       "ebay_acquisition": {
         "status": "ready",
@@ -44926,48 +45222,51 @@
         "purpose": "Official active Buy It Now acquisition; NEW only, not sold evidence",
         "query_budget": 4,
         "queries_by_category": {
-          "lego": 2,
-          "gaming": 1,
+          "lego": 3,
           "trainers": 1
         },
         "query_details": [
           {
-            "query": "LEGO 71808",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {},
-            "sort": "price",
-            "max_item_price": 1.67,
-            "max_landed_price": 1.67,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "final fantasy tactics the ivalice chronicles ps5",
-            "category": "gaming",
-            "samples": 0,
-            "rejected": {},
-            "sort": "price",
-            "max_item_price": 14.6,
-            "max_landed_price": 14.6,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 75407",
+            "query": "LEGO 21351",
             "category": "lego",
             "samples": 0,
             "rejected": {
-              "identity_or_condition": 2
+              "identity_or_condition": 4
             },
             "sort": "price",
-            "max_item_price": 16.19,
-            "max_landed_price": 16.19,
+            "max_item_price": 60.0,
+            "max_landed_price": 60.0,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Nike HQ2056-108",
+            "query": "LEGO 75398",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 6
+            },
+            "sort": "newlyListed",
+            "max_item_price": 56.14,
+            "max_landed_price": 56.14,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "LEGO 72050",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 1
+            },
+            "sort": "price",
+            "max_item_price": 60.0,
+            "max_landed_price": 60.0,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "Nike CW4555-402",
             "category": "trainers",
             "samples": 0,
             "rejected": {},
@@ -44981,11 +45280,11 @@
         "target_selection": {
           "contexts_examined": 150,
           "context_reasons": {
-            "not_usable": 143,
-            "eligible": 5,
-            "query_cooldown": 2
+            "not_usable": 144,
+            "eligible": 3,
+            "query_cooldown": 3
           },
-          "eligible_distinct_queries": 5,
+          "eligible_distinct_queries": 3,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -44994,7 +45293,7 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 71808",
+        "query": "LEGO 21351",
         "matched_shipped_samples": 0,
         "rejections": {},
         "watchlist_products": 205
@@ -45012,28 +45311,28 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 8,
-    "rescanned": 517,
-    "price_changed": 0,
-    "previous_success": "2026-11-21T17:07:50+00:00",
-    "gap_minutes": 31.8,
+    "new": 12,
+    "rescanned": 516,
+    "price_changed": 1,
+    "previous_success": "2026-11-21T17:40:15+00:00",
+    "gap_minutes": 32.4,
     "publication_holds": {
-      "eligible": 13,
-      "held": 512,
+      "eligible": 12,
+      "held": 516,
       "reasons": {
-        "no_supported_resale_estimate": 505,
+        "no_supported_resale_estimate": 507,
         "uncertain_competitor_coupon": 1,
-        "low_price_not_supported": 4,
-        "fewer_than_three_exact_independent_comparators": 2
+        "low_price_not_supported": 5,
+        "fewer_than_three_exact_independent_comparators": 3
       },
       "by_category": {
-        "trainers": 76,
-        "gaming": 196,
-        "lego": 114,
+        "lego": 115,
+        "tech": 56,
+        "trainers": 75,
         "tools": 23,
-        "tech": 57,
+        "gaming": 196,
         "fragrance": 31,
-        "other": 15
+        "other": 20
       }
     },
     "excluded_nonphysical": [
@@ -45247,16 +45546,16 @@
     ],
     "source_coverage": {
       "hotukdeals": {
-        "offers": 525,
-        "new": 8,
-        "estimated": 20,
+        "offers": 528,
+        "new": 12,
+        "estimated": 21,
         "actionable": 0
       }
     },
     "value_watchlist": {
-      "products": 139,
+      "products": 140,
       "identity_contexts": 150,
-      "usable_targets": 7,
+      "usable_targets": 6,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -45269,9 +45568,9 @@
           "usable_targets": 1
         },
         "lego": {
-          "products": 83,
+          "products": 84,
           "identity_contexts": 94,
-          "usable_targets": 6
+          "usable_targets": 5
         },
         "tech": {
           "products": 3,
@@ -45302,35 +45601,35 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 525,
-      "research_models_generated": 20,
-      "supported_market_estimates": 13,
-      "publication_qualified_cards": 13,
-      "route_eligible_cards": 13,
+      "offers_scanned": 528,
+      "research_models_generated": 21,
+      "supported_market_estimates": 12,
+      "publication_qualified_cards": 12,
+      "route_eligible_cards": 12,
       "route_eligibility_scope": "policy/format admission only; live availability, destination, limits and notification deduplication still apply",
       "buying_signals": 0,
       "opportunity_candidates": 0,
-      "research_watch_candidates": 13,
+      "research_watch_candidates": 12,
       "above_budget_priced_watch": 3,
-      "research_holds": 512,
+      "research_holds": 516,
       "hold_reasons": {
-        "no_supported_resale_estimate": 505,
+        "no_supported_resale_estimate": 507,
         "uncertain_competitor_coupon": 1,
-        "low_price_not_supported": 4,
-        "fewer_than_three_exact_independent_comparators": 2
+        "low_price_not_supported": 5,
+        "fewer_than_three_exact_independent_comparators": 3
       },
       "by_category": {
         "trainers": {
-          "offers": 76,
+          "offers": 75,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 76
+          "holds": 75
         },
         "lego": {
           "offers": 125,
-          "supported": 11,
-          "publication_qualified": 11,
-          "holds": 114
+          "supported": 10,
+          "publication_qualified": 10,
+          "holds": 115
         },
         "tools": {
           "offers": 24,
@@ -45351,20 +45650,20 @@
           "holds": 31
         },
         "tech": {
-          "offers": 57,
+          "offers": 56,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 57
+          "holds": 56
         },
         "other": {
-          "offers": 15,
+          "offers": 20,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 15
+          "holds": 20
         }
       },
       "inbound_known": 5,
-      "inbound_unknown": 520
+      "inbound_unknown": 523
     },
     "nearest_above_cap": {
       "title": "Lego Mario Kart \u2013 Luigi & Mach 8 72050 (Free Delivery For NSO Members)",
@@ -45403,14 +45702,14 @@
         "summary": "Sell: \u00a319.08 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a318.51. \u00b7 Net: At most \u2212\u00a32.83 at \u00a319.08 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a318.51 sale: \u2212\u00a33.31 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       },
       {
-        "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C",
-        "url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
-        "summary": "Sell: \u00a332.92 starting listing \u2014 competitor-based, not guaranteed. Conservative sale model \u00a331.94. \u00b7 Net: At most \u2212\u00a33.28 at \u00a332.92 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a331.94 sale: \u2212\u00a34.10 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
-      },
-      {
         "title": "LEGO Pok\u00e9mon Smart Play: Charmander and Geodude\u2019s Cavern Clash 72157",
         "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-charmander-and-geodudes-cavern-clash-72157-5039518",
         "summary": "Sell: \u00a316.24 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a315.76. \u00b7 Net: At most \u2212\u00a34.21 at \u00a316.24 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a315.76 sale: \u2212\u00a34.61 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
+      },
+      {
+        "title": "FINAL FANTASY TACTICS - The Ivalice Chronicles (PS5)",
+        "url": "https://www.hotukdeals.com/deals/final-fantasy-tactics-the-ivalice-chronicles-ps5-5041548",
+        "summary": "Sell: \u00a331.98 starting listing \u2014 competitor-based, not guaranteed. Conservative sale model \u00a331.03. \u00b7 Net: At most \u2212\u00a34.54 at \u00a331.98 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a331.03 sale: \u2212\u00a35.35 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       }
     ],
     "notification_delivery": {
@@ -45418,7 +45717,7 @@
       "product_messages_delivered": 0,
       "by_route": {}
     },
-    "review_candidates": 437,
+    "review_candidates": 436,
     "lego_image_validation": {
       "checked": 32,
       "cached": 33,
@@ -45428,20 +45727,20 @@
       "paused_hosts": {}
     },
     "pricing_labels": {
-      "exact_priced": 13,
-      "research_model_only": 7,
-      "unpriced": 505,
+      "exact_priced": 12,
+      "research_model_only": 9,
+      "unpriced": 507,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 465,
+    "images_available": 468,
     "lego_images_available": 67,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "44931139565",
+      "run_id": "44934073815",
       "event": "workflow_dispatch",
-      "parent_run_id": "44928045953"
+      "parent_run_id": "44931139565"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -45486,17 +45785,6 @@
           "title": "DEWALT DCV100-XJ 18V Li-Ion XR Cordless Compact Blower - Bare - Free C&C",
           "current_price": 59.99,
           "last_delivered_price": 59.99,
-          "pct_change": 0.0,
-          "would_deliver": false,
-          "reason": "price_change_under_10pct",
-          "is_repost": false
-        },
-        {
-          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
-          "url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
-          "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C",
-          "current_price": 25.0,
-          "last_delivered_price": 25.0,
           "pct_change": 0.0,
           "would_deliver": false,
           "reason": "price_change_under_10pct",
