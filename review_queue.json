@@ -16,8 +16,8 @@
       "item_price": 111.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/150x150/qt/55/5041520_1.jpg"
@@ -1236,8 +1236,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/150x150/qt/55/5039994_1.jpg",
@@ -2671,1410 +2671,6 @@
       }
     },
     {
-      "title": "LEGO Creator 3in1 Cute Animals: Playful Puppy Dog 31382",
-      "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-cute-animals-playful-puppy-dog-31382-5037076",
-      "policy_key": "7615208c35fb1e79ca93907a",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 14.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/300x300/qt/55/5037076_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/150x150/qt/55/5037076_1.jpg",
-        "https://i.ebayimg.com/images/g/1EcAAeSwxSxq-Zws/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/5PAAAeSw5H1q90OW/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 24.87,
-      "sell_for_minimum_profit": 34.44,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T09:11:00+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Cute+Animals%3A+Playful+Puppy+Dog+31382&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 31382",
-        "category": "lego",
-        "name_terms": [
-          "3in1",
-          "animals",
-          "creator",
-          "cute",
-          "dog",
-          "playful",
-          "puppy"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-21T22:36:02+00:00",
-        "date": "2026-11-21",
-        "sample_count": 45,
-        "listed_total_low": 15.56,
-        "listed_total_p25": 21.62,
-        "listed_total_median": 25.99,
-        "listed_total_p75": 29.0,
-        "listed_total_high": 47.19,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|860161219411|0",
-            "seller": "postmanpat333",
-            "image": "https://i.ebayimg.com/images/g/1EcAAeSwxSxq-Zws/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860161219411",
-            "title": "Lego 31382 Creator 3 in 1 Playful Puppy - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 12.94,
-            "shipping": 2.62,
-            "listed_total": 15.56
-          },
-          {
-            "item_id": "v1|407360752454|0",
-            "seller": "leg-1861",
-            "image": "https://i.ebayimg.com/images/g/5PAAAeSw5H1q90OW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407360752454",
-            "title": "LEGO Creator Playful Puppy 31382 8+ 336pcs",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.26,
-            "listed_total": 18.41
-          },
-          {
-            "item_id": "v1|900048507117|0",
-            "seller": "jamesmack1704",
-            "image": "https://i.ebayimg.com/images/g/YR0AAeSwMUxq4yT3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/900048507117",
-            "title": "LEGO 31382 Cute Animals Playful Puppy Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.62,
-            "listed_total": 18.77
-          },
-          {
-            "item_id": "v1|960145063377|0",
-            "seller": "splattikai2012",
-            "image": "https://i.ebayimg.com/images/g/PW4AAeSwA0dq6Kiz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960145063377",
-            "title": "LEGO Creator 3 in 1 Playful Puppy Dog (31382) bnib ",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 2.26,
-            "listed_total": 19.48
-          },
-          {
-            "item_id": "v1|920113102271|0",
-            "seller": "harley_4546",
-            "image": "https://i.ebayimg.com/images/g/NQwAAeSwlI5q7iw~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920113102271",
-            "title": "LEGO Creator 3 In 1 Playful Puppy 31382",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 2.26,
-            "listed_total": 19.48
-          },
-          {
-            "item_id": "v1|800551705025|0",
-            "seller": "brick_spotter",
-            "image": "https://i.ebayimg.com/images/g/aUIAAeSwgwRqixXR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800551705025",
-            "title": "LEGO Creator 31382 Cute Animals: Playful Puppy Dog Age 8+ 336pcs \u2705",
-            "declared_condition": "new",
-            "item_price": 16.95,
-            "shipping": 2.62,
-            "listed_total": 19.57
-          },
-          {
-            "item_id": "v1|227565847038|0",
-            "seller": "brick-rewind",
-            "image": "https://i.ebayimg.com/images/g/bIkAAeSwNLtqzmFL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227565847038",
-            "title": "LEGO 31382 Creator : Playful Puppy 336pcs 8+ New & sealed, Fast Dispatch",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 0.0,
-            "listed_total": 19.99
-          },
-          {
-            "item_id": "v1|267743812812|0",
-            "seller": "miaringo2010",
-            "image": "https://i.ebayimg.com/images/g/e8QAAeSwflRqbI-0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267743812812",
-            "title": "LEGO Creator. 31382 Playful Puppy. ",
-            "declared_condition": "new",
-            "item_price": 18.29,
-            "shipping": 2.26,
-            "listed_total": 20.55
-          },
-          {
-            "item_id": "v1|287696293334|0",
-            "seller": "pip0308",
-            "image": "https://i.ebayimg.com/images/g/NFUAAeSw7oNq5vzQ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287696293334",
-            "title": "Lego Creator 3 in 1 Playful Puppy Dog 31382 New & Sealed",
-            "declared_condition": "new",
-            "item_price": 17.97,
-            "shipping": 2.94,
-            "listed_total": 20.91
-          },
-          {
-            "item_id": "v1|267834324806|0",
-            "seller": "thecashexchangeltd",
-            "image": "https://i.ebayimg.com/images/g/skIAAeSwLKBq7Ii3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267834324806",
-            "title": "LEGO Creator : Playful Puppy 336pcs (31382) 8+ New&sealed - FREE DELIVERY",
-            "declared_condition": "new",
-            "item_price": 20.99,
-            "shipping": 0.0,
-            "listed_total": 20.99
-          },
-          {
-            "item_id": "v1|168273625331|0",
-            "seller": "leadhead35",
-            "image": "https://i.ebayimg.com/images/g/v7wAAeSwC~RpymQ6/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168273625331",
-            "title": "LEGO Creator 3 in 1 Cute Animals: Playful Puppy Dog (31382)",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 0.0,
-            "listed_total": 21.5
-          },
-          {
-            "item_id": "v1|188186289017|0",
-            "seller": "pre-lovedprinny",
-            "image": "https://i.ebayimg.com/images/g/F4EAAeSwlQNpvPd2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188186289017",
-            "title": "LEGO Creator 3-in-1 Playful Puppy 31382 - NEW SEALED - Dog, Squirrel, Duck",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.26,
-            "listed_total": 21.62
-          },
-          {
-            "item_id": "v1|168525299422|0",
-            "seller": "zeager25",
-            "image": "https://i.ebayimg.com/images/g/oxMAAeSwm21qT5qy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168525299422",
-            "title": "PLAYFUL PUPPY - LEGO Creator 3-in-1 (31382) New & Sealed",
-            "declared_condition": "new",
-            "item_price": 19.35,
-            "shipping": 2.62,
-            "listed_total": 21.97
-          },
-          {
-            "item_id": "v1|298134388732|0",
-            "seller": "reg_22_1",
-            "image": "https://i.ebayimg.com/images/g/y2cAAeSwvwZpubia/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298134388732",
-            "title": "LEGO Creator 31382 Cute Animals: Playful Puppy Dog Age 8+ 336pcs",
-            "declared_condition": "new",
-            "item_price": 20.42,
-            "shipping": 2.26,
-            "listed_total": 22.68
-          },
-          {
-            "item_id": "v1|407036242385|0",
-            "seller": "bricksbyfred",
-            "image": "https://i.ebayimg.com/images/g/lxQAAeSwoolqQr~Q/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407036242385",
-            "title": "LEGO Creator 3-in-1 31382 Playful Puppy Dog Set 336pcs (Age 8+)",
-            "declared_condition": "new",
-            "item_price": 20.43,
-            "shipping": 2.26,
-            "listed_total": 22.69
-          },
-          {
-            "item_id": "v1|227601256900|0",
-            "seller": "brickoutuk",
-            "image": "https://i.ebayimg.com/images/g/WpIAAeSw3y9p2lDU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227601256900",
-            "title": "LEGO 31382 Creator 3 in 1 Playful Puppy | Brand New & Sealed \u2705",
-            "declared_condition": "new",
-            "item_price": 20.43,
-            "shipping": 2.26,
-            "listed_total": 22.69
-          },
-          {
-            "item_id": "v1|840128720871|0",
-            "seller": "lanestreasuresshop",
-            "image": "https://i.ebayimg.com/images/g/QcwAAeSwq0Jq-LY-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840128720871",
-            "title": "LEGO Creator 31382 Playful Puppy 3-in-1 Set 336pcs Age 8+ Boxed",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76
-          },
-          {
-            "item_id": "v1|306863643082|0",
-            "seller": "ukgoodstrading",
-            "image": "https://i.ebayimg.com/images/g/FxEAAeSwC~Rp0pfg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306863643082",
-            "title": "LEGO Creator 31382 Cute Animals: Playful Puppy Dog Age 8+ 336pcs",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 3.87,
-            "listed_total": 23.86
-          },
-          {
-            "item_id": "v1|168866801153|0",
-            "seller": "zeager25",
-            "image": "https://i.ebayimg.com/images/g/I9cAAeSw2qZq-yIO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168866801153",
-            "title": "LEGO Creator 3-in-1 Playful Puppy 31382 - \ud835\udde1\ud835\uddd8\ud835\uddea & \ud835\udde6\ud835\uddd8\ud835\uddd4\ud835\udddf\ud835\uddd8\ud835\uddd7",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.62,
-            "listed_total": 24.12
-          },
-          {
-            "item_id": "v1|327450106469|0",
-            "seller": "teyfant1",
-            "image": "https://i.ebayimg.com/images/g/S3EAAeSwPWJq84lV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327450106469",
-            "title": "LEGO Creator 3 in 1 31382 Playful Puppy Dog Set 336 Pieces Age 8+",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 3.0,
-            "listed_total": 24.5
-          },
-          {
-            "item_id": "v1|358661352669|0",
-            "seller": "hmv_official_store",
-            "image": "https://i.ebayimg.com/images/g/k-0AAeSwuAJrAJYR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358661352669",
-            "title": "LEGO Creator Puppy Figurine (31382) Squirrel Duck 3-in-1 Building Toy Figure Set",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99
-          },
-          {
-            "item_id": "v1|397478579418|0",
-            "seller": "jadlamracing",
-            "image": "https://i.ebayimg.com/images/g/vaIAAeSwWUNq14DN/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397478579418",
-            "title": "LEGO Creator 31382 Cute Animals: Playful Puppy Dog Age 8+ 336pcs",
-            "declared_condition": "new",
-            "item_price": 25.95,
-            "shipping": 0.0,
-            "listed_total": 25.95
-          },
-          {
-            "item_id": "v1|227569420633|0",
-            "seller": "ukpricezilla",
-            "image": "https://i.ebayimg.com/images/g/VMoAAeSwWQFq0Zh6/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227569420633",
-            "title": "LEGO Creator 3in1 Cute Animals: Playful Puppy Dog 31382",
-            "declared_condition": "new",
-            "item_price": 25.99,
-            "shipping": 0.0,
-            "listed_total": 25.99
-          },
-          {
-            "item_id": "v1|297958328507|0",
-            "seller": "curiousmindsuk",
-            "image": "https://i.ebayimg.com/images/g/bhsAAeSw2iZpcixa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/297958328507",
-            "title": "Lego Creator 31382 Cute Animals: Playful Puppy Dog Toy for Ages 8 & Up",
-            "declared_condition": "new",
-            "item_price": 26.0,
-            "shipping": 0.0,
-            "listed_total": 26.0
-          },
-          {
-            "item_id": "v1|127742518689|0",
-            "seller": "fashion_tech_biz",
-            "image": "https://i.ebayimg.com/images/g/N7IAAeSwqkdptX0v/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127742518689",
-            "title": "LEGO Creator 3-in-1 Playful Puppy Dog 31382 Cute Animals Building Set",
-            "declared_condition": "new",
-            "item_price": 23.58,
-            "shipping": 2.94,
-            "listed_total": 26.52
-          },
-          {
-            "item_id": "v1|157762897828|0",
-            "seller": "injectionimports",
-            "image": "https://i.ebayimg.com/images/g/4tEAAeSwbodpuVb-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157762897828",
-            "title": "LEGO Creator 3-In-1 Playful Puppy Set 31382 New & Sealed FREE POST",
-            "declared_condition": "new",
-            "item_price": 26.97,
-            "shipping": 0.0,
-            "listed_total": 26.97
-          },
-          {
-            "item_id": "v1|267585183037|0",
-            "seller": "zatugames",
-            "image": "https://i.ebayimg.com/images/g/axgAAeSwFd1pnaR7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267585183037",
-            "title": "Lego LEGO Creator 31382 Cute Animals: Playful Puppy Do...  - Brand New",
-            "declared_condition": "new",
-            "item_price": 27.21,
-            "shipping": 0.0,
-            "listed_total": 27.21
-          },
-          {
-            "item_id": "v1|366221935034|0",
-            "seller": "e-bazaar-ltd",
-            "image": "https://i.ebayimg.com/images/g/yRcAAeSwrDZpvamc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366221935034",
-            "title": "LEGO Creator: Playful Puppy Dog - Model 31382 (8+ Years)",
-            "declared_condition": "new",
-            "item_price": 27.98,
-            "shipping": 0.0,
-            "listed_total": 27.98
-          },
-          {
-            "item_id": "v1|366116947366|0",
-            "seller": "wwsm2006",
-            "image": "https://i.ebayimg.com/images/g/Ue8AAeSwQ91q~s~X/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366116947366",
-            "title": "LEGO Creator 3-in-1 Playful Puppy Dog 31382 Cute Animals Building Set",
-            "declared_condition": "new",
-            "item_price": 27.99,
-            "shipping": 0.0,
-            "listed_total": 27.99
-          },
-          {
-            "item_id": "v1|336397915184|0",
-            "seller": "apan4898",
-            "image": "https://i.ebayimg.com/images/g/hMwAAeSwQ~dpb46K/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336397915184",
-            "title": "LEGO Creator 3 in 1 Cute Animals: Playful Puppy Dog (31382)",
-            "declared_condition": "new",
-            "item_price": 24.9,
-            "shipping": 3.55,
-            "listed_total": 28.45
-          },
-          {
-            "item_id": "v1|306714064176|0",
-            "seller": "workstation51",
-            "image": "https://i.ebayimg.com/images/g/DZEAAeSwOw9pairU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306714064176",
-            "title": "LEGO Creator 31382 Cute Animals: Playful Puppy Dog Age 8+ 336pcs",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 3.75,
-            "listed_total": 28.74
-          },
-          {
-            "item_id": "v1|306993720767|0",
-            "seller": "safari-island",
-            "image": "https://i.ebayimg.com/images/g/KOQAAeSw7-lqdevD/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306993720767",
-            "title": "LEGO Creator 3 in 1 - Cute Animals: Playful Puppy Dog / Duck / Squirrel - 31382",
-            "declared_condition": "new",
-            "item_price": 24.98,
-            "shipping": 3.99,
-            "listed_total": 28.97
-          },
-          {
-            "item_id": "v1|318030580793|0",
-            "seller": "phillipshobbies",
-            "image": "https://i.ebayimg.com/images/g/bK0AAeSwaeBpvFk0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318030580793",
-            "title": "LEGO Creator 3 in 1 Cute Animals: Playful Puppy Dog Construction Toy Set 31382",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 3.99,
-            "listed_total": 28.98
-          },
-          {
-            "item_id": "v1|306672600213|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/12cAAeSw1oBpSoLs/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306672600213",
-            "title": "LEGO 31382 Cute Animals: Playful Puppy Dog ",
-            "declared_condition": "new",
-            "item_price": 25.0,
-            "shipping": 4.0,
-            "listed_total": 29.0
-          },
-          {
-            "item_id": "v1|860128530960|0",
-            "seller": "muha398372",
-            "image": "https://i.ebayimg.com/images/g/u5EAAeSwrJZq8gme/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860128530960",
-            "title": "LEGO Creator 31382 3-in-1 Cute Animals: Playful Puppy Dog Set",
-            "declared_condition": "new",
-            "item_price": 29.81,
-            "shipping": 0.0,
-            "listed_total": 29.81
-          },
-          {
-            "item_id": "v1|318834671148|0",
-            "seller": "magicianscorner",
-            "image": "https://i.ebayimg.com/images/g/AUQAAeSwJhZqnZiV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/318834671148",
-            "title": "LEGO Creator 31382 Playful Puppy 3in1 Dog/Squirrel/Duck 336pc 8+",
-            "declared_condition": "new",
-            "item_price": 26.95,
-            "shipping": 2.94,
-            "listed_total": 29.89
-          },
-          {
-            "item_id": "v1|127652805462|0",
-            "seller": "maqiotoys",
-            "image": "https://i.ebayimg.com/images/g/LxQAAeSwSIBpe1x5/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127652805462",
-            "title": "Lego CREATOR 31382 Cute Animals Playful Puppy Dog 3 in 1",
-            "declared_condition": "new",
-            "item_price": 29.99,
-            "shipping": 0.0,
-            "listed_total": 29.99
-          },
-          {
-            "item_id": "v1|267717372066|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/LGEAAeSwrBNqSNU~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267717372066",
-            "title": "LEGO 31382 Creator 3in1 Cute Animals : Playful Puppy Dog Toy",
-            "declared_condition": "new",
-            "item_price": 29.99,
-            "shipping": 0.0,
-            "listed_total": 29.99
-          },
-          {
-            "item_id": "v1|157776105390|0",
-            "seller": "caca6011",
-            "image": "https://i.ebayimg.com/images/g/3~kAAeSwdbxpv8Vt/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/157776105390",
-            "title": "LEGO Creator 3\u2011in\u20111 Playful Puppy (31382) Cute Animals Building Set \u2022 Brand New",
-            "declared_condition": "new",
-            "item_price": 26.7,
-            "shipping": 3.38,
-            "listed_total": 30.08
-          },
-          {
-            "item_id": "v1|800893683923|0",
-            "seller": "ihaveit_music",
-            "image": "",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800893683923",
-            "title": "Lego - Creator 31382 Playful Puppy - Construction blocks - Q1823z",
-            "declared_condition": "new",
-            "item_price": 31.06,
-            "shipping": 0.0,
-            "listed_total": 31.06
-          },
-          {
-            "item_id": "v1|168207976708|0",
-            "seller": "planszowki",
-            "image": "https://i.ebayimg.com/images/g/q-0AAeSwMD1pqbH4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168207976708",
-            "title": "Lego\u00ae Creator 31382 Mischievous Puppy Genuine Quality Best Top",
-            "declared_condition": "new",
-            "item_price": 33.99,
-            "shipping": 0.0,
-            "listed_total": 33.99
-          },
-          {
-            "item_id": "v1|287090462186|0",
-            "seller": "toysntuck",
-            "image": "https://i.ebayimg.com/images/g/WEkAAeSwI0FprwwX/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287090462186",
-            "title": "Lego 31382 Creator Playful Puppy",
-            "declared_condition": "new",
-            "item_price": 34.0,
-            "shipping": 0.0,
-            "listed_total": 34.0
-          },
-          {
-            "item_id": "v1|137578740488|0",
-            "seller": "enchantedtoys",
-            "image": "https://i.ebayimg.com/images/g/UiYAAeSwknFqb4xm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137578740488",
-            "title": "LEGO Creator 3 in 1 - Cute Animals: Playful Puppy Dog / Duck / Squirrel - 31382",
-            "declared_condition": "new",
-            "item_price": 35.0,
-            "shipping": 0.0,
-            "listed_total": 35.0
-          },
-          {
-            "item_id": "v1|306810297378|0",
-            "seller": "reggie-007",
-            "image": "https://i.ebayimg.com/images/g/5ccAAeSwm0BprYu0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306810297378",
-            "title": "Lego LEGO Creator 31382 Cute Animals: Playful Puppy Dog - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 40.22,
-            "shipping": 2.94,
-            "listed_total": 43.16
-          },
-          {
-            "item_id": "v1|860072592383|0",
-            "seller": "worldedgeshop",
-            "image": "https://i.ebayimg.com/images/g/PjgAAeSwk6Vq2hnr/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860072592383",
-            "title": "LEGO Creator 3 in 1 Cute Animals: Playful Puppy Dog 31382",
-            "declared_condition": "new",
-            "item_price": 47.19,
-            "shipping": 0.0,
-            "listed_total": 47.19
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 5
-        },
-        "query_aliases": [
-          "LEGO Creator 3in1 Cute Animals: Playful Puppy Dog 31382"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 31382",
-        "observed_at": "2026-11-21T22:36:02+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 44,
-        "seller_count": 44,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": true,
-        "competition_low": 15.56,
-        "competition_high": 47.19,
-        "estimated_resale": 15.09,
-        "estimated_range": [
-          14.0,
-          15.56
-        ],
-        "suggested_listing": 15.55,
-        "quick_sale_model": 14.0,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 14.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -8.16,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -14.99,
-        "fees": 2.52,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.45,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 13.58,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|860161219411|0",
-            "seller": "postmanpat333",
-            "image": "https://i.ebayimg.com/images/g/1EcAAeSwxSxq-Zws/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860161219411",
-            "title": "Lego 31382 Creator 3 in 1 Playful Puppy - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 12.94,
-            "shipping": 2.62,
-            "listed_total": 15.56,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407360752454|0",
-            "seller": "leg-1861",
-            "image": "https://i.ebayimg.com/images/g/5PAAAeSw5H1q90OW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407360752454",
-            "title": "LEGO Creator Playful Puppy 31382 8+ 336pcs",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.26,
-            "listed_total": 18.41,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|900048507117|0",
-            "seller": "jamesmack1704",
-            "image": "https://i.ebayimg.com/images/g/YR0AAeSwMUxq4yT3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/900048507117",
-            "title": "LEGO 31382 Cute Animals Playful Puppy Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.62,
-            "listed_total": 18.77,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|960145063377|0",
-            "seller": "splattikai2012",
-            "image": "https://i.ebayimg.com/images/g/PW4AAeSwA0dq6Kiz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960145063377",
-            "title": "LEGO Creator 3 in 1 Playful Puppy Dog (31382) bnib ",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 2.26,
-            "listed_total": 19.48,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920113102271|0",
-            "seller": "harley_4546",
-            "image": "https://i.ebayimg.com/images/g/NQwAAeSwlI5q7iw~/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920113102271",
-            "title": "LEGO Creator 3 In 1 Playful Puppy 31382",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 2.26,
-            "listed_total": 19.48,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|800551705025|0",
-            "seller": "brick_spotter",
-            "image": "https://i.ebayimg.com/images/g/aUIAAeSwgwRqixXR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800551705025",
-            "title": "LEGO Creator 31382 Cute Animals: Playful Puppy Dog Age 8+ 336pcs \u2705",
-            "declared_condition": "new",
-            "item_price": 16.95,
-            "shipping": 2.62,
-            "listed_total": 19.57,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227565847038|0",
-            "seller": "brick-rewind",
-            "image": "https://i.ebayimg.com/images/g/bIkAAeSwNLtqzmFL/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227565847038",
-            "title": "LEGO 31382 Creator : Playful Puppy 336pcs 8+ New & sealed, Fast Dispatch",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 0.0,
-            "listed_total": 19.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267743812812|0",
-            "seller": "miaringo2010",
-            "image": "https://i.ebayimg.com/images/g/e8QAAeSwflRqbI-0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267743812812",
-            "title": "LEGO Creator. 31382 Playful Puppy. ",
-            "declared_condition": "new",
-            "item_price": 18.29,
-            "shipping": 2.26,
-            "listed_total": 20.55,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287696293334|0",
-            "seller": "pip0308",
-            "image": "https://i.ebayimg.com/images/g/NFUAAeSw7oNq5vzQ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287696293334",
-            "title": "Lego Creator 3 in 1 Playful Puppy Dog 31382 New & Sealed",
-            "declared_condition": "new",
-            "item_price": 17.97,
-            "shipping": 2.94,
-            "listed_total": 20.91,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267834324806|0",
-            "seller": "thecashexchangeltd",
-            "image": "https://i.ebayimg.com/images/g/skIAAeSwLKBq7Ii3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267834324806",
-            "title": "LEGO Creator : Playful Puppy 336pcs (31382) 8+ New&sealed - FREE DELIVERY",
-            "declared_condition": "new",
-            "item_price": 20.99,
-            "shipping": 0.0,
-            "listed_total": 20.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
-      }
-    },
-    {
       "title": "LEGO Creator 3in1 Wild Animals: Colourful Hummingbird 31384",
       "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-wild-animals-colourful-hummingbird-31384-5037065",
       "policy_key": "0be22e7efe3bcd10dff15f17",
@@ -4089,8 +2685,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/150x150/qt/55/5037065_1.jpg",
@@ -6783,8 +5379,8 @@
       "item_price": 19.93,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/150x150/qt/55/5037349_1.jpg",
@@ -8108,8 +6704,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
@@ -9139,8 +7735,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/150x150/qt/55/5041059_1.jpg",
@@ -10293,8 +8889,8 @@
       "item_price": 37.7,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
@@ -11477,8 +10073,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
@@ -13233,13 +11829,13 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg",
-        "https://i.ebayimg.com/images/g/84QAAeSwisVq805E/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/TIwAAeSwcXdqzpvQ/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/z~gAAeSw2kRrAhQr/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/84QAAeSwisVq805E/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -14035,8 +12631,8 @@
       "item_price": 49.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
@@ -15047,7 +13643,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-22T04:06:57+00:00",
+          "observed_at": "2026-11-22T04:39:49+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -15363,8 +13959,8 @@
       "item_price": 88.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/150x150/qt/55/5041794_1.jpg"
@@ -16084,8 +14680,8 @@
       "item_price": 125.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/150x150/qt/55/5041394_1.jpg"
@@ -16783,8 +15379,8 @@
       "item_price": 135.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/300x300/qt/55/5041362_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/300x300/qt/55/5041362_1.jpg",
         "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/150x150/qt/55/5041362_1.jpg"
@@ -17798,7 +16394,7 @@
         "rejected": {
           "identity_or_condition": 42
         },
-        "canonicalized_at": "2026-11-22T04:06:57+00:00",
+        "canonicalized_at": "2026-11-22T04:39:49+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Death Stranding Director's Cut - PS5"
@@ -18060,6 +16656,245 @@
       }
     },
     {
+      "title": "High on Life 2 (Playstation 5 / PS5)",
+      "url": "https://www.hotukdeals.com/deals/high-on-life-2-playstation-5-5035533",
+      "policy_key": "63445c1add20f5b6c33f7d77",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 27.49,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/iZhKo/5035533_1/re/150x150/qt/55/5035533_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/high-on-life-2-playstation-5-5035533",
+      "landed_cost": null,
+      "breakeven_sell": 36.8,
+      "sell_for_minimum_profit": 49.78,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-17T00:24:03+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=High+on+Life+2+%28Playstation+5+%2F+PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "high on life 2 ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T04:41:19+00:00",
+        "date": "2026-11-22",
+        "sample_count": 2,
+        "listed_total_low": 40.5,
+        "listed_total_p25": 42.15,
+        "listed_total_median": 43.8,
+        "listed_total_p75": 45.44,
+        "listed_total_high": 47.09,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|407213787709|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/ar4AAeSw0SxqvQWH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407213787709",
+            "title": "High on Life 2 (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 40.5,
+            "shipping": 0.0,
+            "listed_total": 40.5
+          },
+          {
+            "item_id": "v1|227413427146|0",
+            "seller": "thegamery",
+            "image": "https://i.ebayimg.com/images/g/0fAAAeSwS7RrAI25/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227413427146",
+            "title": "High on Life 2 (PS5)",
+            "declared_condition": "new",
+            "item_price": 47.09,
+            "shipping": 0.0,
+            "listed_total": 47.09
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 8
+        },
+        "query_aliases": [
+          "High on Life 2 (Playstation 5 / PS5)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "high on life 2 ps5",
+        "observed_at": "2026-11-22T04:41:19+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 40.5,
+        "competition_high": 47.09,
+        "estimated_resale": 39.28,
+        "estimated_range": [
+          36.45,
+          40.5
+        ],
+        "suggested_listing": 40.49,
+        "quick_sale_model": 36.45,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 27.49,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 2.1,
+        "max_landed_buy": 21.13,
+        "max_item_buy": null,
+        "delivery_headroom": -6.36,
+        "fees": 5.31,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 1.18,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 35.35,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 19.59,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|407213787709|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/ar4AAeSw0SxqvQWH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407213787709",
+            "title": "High on Life 2 (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 40.5,
+            "shipping": 0.0,
+            "listed_total": 40.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227413427146|0",
+            "seller": "thegamery",
+            "image": "https://i.ebayimg.com/images/g/0fAAAeSwS7RrAI25/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227413427146",
+            "title": "High on Life 2 (PS5)",
+            "declared_condition": "new",
+            "item_price": 47.09,
+            "shipping": 0.0,
+            "listed_total": 47.09,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "STAR WARS Zero Company (PS5)",
       "url": "https://www.hotukdeals.com/deals/star-wars-zero-company-ps5-5042250",
       "policy_key": "b2a22c2a5f7e8db910c79c79",
@@ -18282,7 +17117,7 @@
         "rejected": {
           "identity_or_condition": 14
         },
-        "canonicalized_at": "2026-11-22T04:06:57+00:00",
+        "canonicalized_at": "2026-11-22T04:39:49+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS Zero Company (PS5)",
@@ -18767,7 +17602,7 @@
         "rejected": {
           "identity_or_condition": 14
         },
-        "canonicalized_at": "2026-11-22T04:06:57+00:00",
+        "canonicalized_at": "2026-11-22T04:39:49+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS Zero Company (PS5)",
@@ -19106,12 +17941,15 @@
             "declared_condition": "new",
             "item_price": 81.82,
             "shipping": 0.0,
-            "listed_total": 81.82
+            "listed_total": 81.82,
+            "observed_at": "2026-11-22T04:08:26+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 1
         },
+        "canonicalized_at": "2026-11-22T04:39:49+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS Zero Company Standard Edition PS5 |Disc I VideoGame |English"
         ]
@@ -19216,6 +18054,7 @@
             "item_price": 81.82,
             "shipping": 0.0,
             "listed_total": 81.82,
+            "observed_at": "2026-11-22T04:08:26+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -19492,7 +18331,7 @@
         "rejected": {
           "identity_or_condition": 41
         },
-        "canonicalized_at": "2026-11-22T04:06:57+00:00",
+        "canonicalized_at": "2026-11-22T04:39:49+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "007 First Light PS5"
@@ -19811,7 +18650,39 @@
       "priority": 10,
       "first_seen": "2026-11-19T14:57:21+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Halloween+lego+Asda+40825&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 40825",
+        "category": "lego",
+        "name_terms": [
+          "asda",
+          "halloween"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T04:41:19+00:00",
+        "date": "2026-11-22",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 50
+        },
+        "query_aliases": [
+          "Halloween lego Asda 40825"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -20040,8 +18911,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg"
@@ -20168,8 +19039,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg",
@@ -20212,8 +19083,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg",
@@ -20256,8 +19127,8 @@
       "item_price": 13.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/150x150/qt/55/5040150_1.jpg"
@@ -20298,8 +19169,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/150x150/qt/55/5040340_1.jpg",
@@ -20342,8 +19213,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
@@ -20386,8 +19257,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg"
@@ -20407,6 +19278,50 @@
       "priority": 10,
       "first_seen": "2026-11-21T09:57:50+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+77257+McLaren+W1+Set+%28Free+C%26C%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Creator 3in1 Cute Animals: Playful Puppy Dog 31382",
+      "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-cute-animals-playful-puppy-dog-31382-5037076",
+      "policy_key": "7615208c35fb1e79ca93907a",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 14.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/300x300/qt/55/5037076_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Cv9Ya/5037076_1/re/150x150/qt/55/5037076_1.jpg",
+        "https://i.ebayimg.com/images/g/1EcAAeSwxSxq-Zws/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/5PAAAeSw5H1q90OW/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 24.87,
+      "sell_for_minimum_profit": 34.44,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-18T09:11:00+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Cute+Animals%3A+Playful+Puppy+Dog+31382&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -20514,8 +19429,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/150x150/qt/55/5040878_1.jpg",
@@ -20724,8 +19639,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/150x150/qt/55/5038670_1.jpg",
@@ -20768,8 +19683,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg",
@@ -21159,8 +20074,8 @@
       "item_price": 25.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg"
@@ -21201,8 +20116,8 @@
       "item_price": 25.08,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/150x150/qt/55/5038691_1.jpg",
@@ -21289,8 +20204,8 @@
       "item_price": 28.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg",
@@ -21419,8 +20334,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -21503,8 +20418,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg",
@@ -21547,8 +20462,8 @@
       "item_price": 32.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg",
@@ -21591,8 +20506,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -21633,8 +20548,8 @@
       "item_price": 33.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg"
@@ -21675,8 +20590,8 @@
       "item_price": 34.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/150x150/qt/55/5040440_1.jpg"
@@ -21717,8 +20632,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg",
@@ -21976,8 +20891,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/150x150/qt/55/5041903_1.jpg",
@@ -22400,8 +21315,8 @@
       "item_price": 38.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
@@ -22488,8 +21403,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg"
@@ -22574,8 +21489,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
@@ -22618,8 +21533,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
@@ -22660,8 +21575,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
@@ -22702,8 +21617,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
@@ -23068,8 +21983,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -23154,8 +22069,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
@@ -23242,8 +22157,8 @@
       "item_price": 51.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
@@ -23374,8 +22289,8 @@
       "item_price": 57.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
-      "image_verified_until": "2026-11-22T04:28:29.703512+00:00",
-      "image_checked_at": "2026-11-22T04:08:29.703512+00:00",
+      "image_verified_until": "2026-11-22T05:01:22.575625+00:00",
+      "image_checked_at": "2026-11-22T04:41:22.575625+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EWxAj/5036973_1/re/300x300/qt/55/5036973_1.jpg",
@@ -23621,8 +22536,8 @@
       "item_price": 119.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/150x150/qt/55/5041409_1.jpg"
@@ -30289,45 +29204,6 @@
       }
     },
     {
-      "title": "High on Life 2 (Playstation 5 / PS5)",
-      "url": "https://www.hotukdeals.com/deals/high-on-life-2-playstation-5-5035533",
-      "policy_key": "63445c1add20f5b6c33f7d77",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 27.49,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/iZhKo/5035533_1/re/150x150/qt/55/5035533_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/high-on-life-2-playstation-5-5035533",
-      "landed_cost": null,
-      "breakeven_sell": 36.8,
-      "sell_for_minimum_profit": 49.78,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-17T00:24:03+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=High+on+Life+2+%28Playstation+5+%2F+PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Cyberpunk 2077: Ultimate Edition (Xbox Series X / PS5)",
       "url": "https://www.hotukdeals.com/deals/cyberpunk-2077-ultimate-edition-xbox-series-x-ps5-5040830",
       "policy_key": "a6c8d7c0e8cdb8e721d2d9fa",
@@ -30702,8 +29578,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
-      "image_verified_until": "2026-11-22T04:27:09.670333+00:00",
-      "image_checked_at": "2026-11-22T04:07:09.670333+00:00",
+      "image_verified_until": "2026-11-22T04:59:59.883169+00:00",
+      "image_checked_at": "2026-11-22T04:39:59.883169+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/150x150/qt/55/5042272_1.jpg"
@@ -33194,34 +32070,7 @@
       "priority": 0,
       "first_seen": "2026-11-21T22:36:01+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Xbox+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "xbox wireless controller heart breaker special edition series x s one pcs and cloud enabled devices",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-21T22:36:02+00:00",
-        "date": "2026-11-21",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "Xbox Wireless Controller \u2013 Heart Breaker Special Edition Series X|S, One, PCs, and Cloud-Enabled Devices"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
