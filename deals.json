@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:00:01+00:00",
       "valid_until": "2026-11-22T14:00:01+00:00",
       "competition_low": 55.66,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-22T09:05:41+00:00",
+        "observed_at": "2026-11-22T09:38:09+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -270,9 +270,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
-      "observed_at": "2026-11-22T06:18:13+00:00",
-      "valid_until": "2026-11-22T12:18:13+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
+      "observed_at": "2026-11-22T09:38:09+00:00",
+      "valid_until": "2026-11-22T15:38:09+00:00",
       "competition_low": 140.79,
       "estimated_resale": 136.56,
       "seller_count": 2,
@@ -306,17 +306,17 @@
           "seller": "theperfumestop",
           "url": "https://www.ebay.co.uk/itm/335960836937",
           "delivered": 140.79,
-          "observed_at": "2026-11-22T06:18:13+00:00"
+          "observed_at": "2026-11-22T09:38:09+00:00"
         },
         {
           "item_id": "v1|168199494290|0",
           "seller": "the-brand-store",
           "url": "https://www.ebay.co.uk/itm/168199494290",
           "delivered": 150.0,
-          "observed_at": "2026-11-22T06:18:13+00:00"
+          "observed_at": "2026-11-22T09:38:09+00:00"
         }
       ],
-      "last_research_at": "2026-11-22T06:18:13+00:00"
+      "last_research_at": "2026-11-22T09:38:09+00:00"
     },
     {
       "key": "browse-asks-v5:trainers:nike hj5996-003 uk 6:57a8f7123f8a",
@@ -342,7 +342,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:32:23+00:00",
       "valid_until": "2026-11-22T14:32:23+00:00",
       "competition_low": 76.94,
@@ -406,7 +406,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T06:50:27+00:00",
       "valid_until": "2026-11-22T12:50:27+00:00",
       "competition_low": 20.99,
@@ -471,7 +471,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:28:32+00:00",
       "valid_until": "2026-11-22T13:28:32+00:00",
       "competition_low": 59.99,
@@ -535,7 +535,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:23:14+00:00",
       "valid_until": "2026-11-22T13:23:14+00:00",
       "competition_low": 38.35,
@@ -607,7 +607,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:28:32+00:00",
       "valid_until": "2026-11-22T13:28:32+00:00",
       "competition_low": 19.96,
@@ -700,7 +700,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:32:23+00:00",
       "valid_until": "2026-11-22T14:32:23+00:00",
       "competition_low": 45.26,
@@ -786,9 +786,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
-      "observed_at": "2026-11-22T07:23:14+00:00",
-      "valid_until": "2026-11-22T13:23:14+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
+      "observed_at": "2026-11-22T09:38:09+00:00",
+      "valid_until": "2026-11-22T15:38:09+00:00",
       "competition_low": 63.8,
       "estimated_resale": 61.88,
       "seller_count": 4,
@@ -801,7 +801,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-22T09:05:41+00:00",
+        "observed_at": "2026-11-22T09:38:09+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -973,31 +973,31 @@
           "seller": "micgre-699",
           "url": "https://www.ebay.co.uk/itm/800699196363",
           "delivered": 63.8,
-          "observed_at": "2026-11-22T07:23:14+00:00"
+          "observed_at": "2026-11-22T09:38:09+00:00"
         },
         {
           "item_id": "v1|377481642286|0",
           "seller": "smkicks18",
           "url": "https://www.ebay.co.uk/itm/377481642286",
           "delivered": 82.08,
-          "observed_at": "2026-11-22T07:23:14+00:00"
+          "observed_at": "2026-11-22T09:38:09+00:00"
         },
         {
           "item_id": "v1|267810578491|0",
           "seller": "jasperskicks",
           "url": "https://www.ebay.co.uk/itm/267810578491",
           "delivered": 83.88,
-          "observed_at": "2026-11-22T07:23:14+00:00"
+          "observed_at": "2026-11-22T09:38:09+00:00"
         },
         {
           "item_id": "v1|137874162168|0",
           "seller": "resellvaul08",
           "url": "https://www.ebay.co.uk/itm/137874162168",
           "delivered": 89.09,
-          "observed_at": "2026-11-22T07:23:14+00:00"
+          "observed_at": "2026-11-22T09:38:09+00:00"
         }
       ],
-      "last_research_at": "2026-11-22T07:23:14+00:00"
+      "last_research_at": "2026-11-22T09:38:09+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:boss bottled infinite edp 100ml:b08923c858e7",
@@ -1023,7 +1023,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:00:01+00:00",
       "valid_until": "2026-11-22T14:00:01+00:00",
       "competition_low": 25.99,
@@ -1116,7 +1116,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T09:05:41+00:00",
       "valid_until": "2026-11-22T15:05:41+00:00",
       "competition_low": 73.99,
@@ -1131,7 +1131,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|158318156230|0",
-        "observed_at": "2026-11-22T09:05:41+00:00",
+        "observed_at": "2026-11-22T09:38:09+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "DoesNotApply",
@@ -1381,7 +1381,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T09:05:41+00:00",
       "valid_until": "2026-11-22T15:05:41+00:00",
       "competition_low": 40.04,
@@ -1451,79 +1451,6 @@
       "last_research_at": "2026-11-22T09:05:41+00:00"
     },
     {
-      "key": "browse-asks-v5:lego:lego 42227:3c2d525f67be",
-      "category": "lego",
-      "query": "LEGO 42227",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 42227",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "jeep",
-          "rubicon",
-          "suv",
-          "wrangler"
-        ]
-      },
-      "first_seen": "2026-11-20T10:29:27+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
-      "observed_at": "2026-11-22T03:35:48+00:00",
-      "valid_until": "2026-11-22T09:35:48+00:00",
-      "competition_low": 33.98,
-      "estimated_resale": 32.96,
-      "seller_count": 35,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|407370276601|0",
-          "seller": "urbancart-22",
-          "url": "https://www.ebay.co.uk/itm/407370276601",
-          "delivered": 33.98,
-          "observed_at": "2026-11-22T03:35:48+00:00"
-        },
-        {
-          "item_id": "v1|257485643411|0",
-          "seller": "mmyhardware",
-          "url": "https://www.ebay.co.uk/itm/257485643411",
-          "delivered": 39.99,
-          "observed_at": "2026-11-22T03:35:48+00:00"
-        },
-        {
-          "item_id": "v1|267813482078|0",
-          "seller": "thecashexchangeltd",
-          "url": "https://www.ebay.co.uk/itm/267813482078",
-          "delivered": 39.99,
-          "observed_at": "2026-11-22T03:35:48+00:00"
-        },
-        {
-          "item_id": "v1|940045330829|0",
-          "seller": "bhavsbricks",
-          "url": "https://www.ebay.co.uk/itm/940045330829",
-          "delivered": 40.0,
-          "observed_at": "2026-11-22T03:35:48+00:00"
-        },
-        {
-          "item_id": "v1|147627939145|0",
-          "seller": "astah_98",
-          "url": "https://www.ebay.co.uk/itm/147627939145",
-          "delivered": 40.03,
-          "observed_at": "2026-11-22T03:35:48+00:00"
-        }
-      ]
-    },
-    {
       "key": "browse-asks-v5:lego:lego 60504:20184e522886",
       "category": "lego",
       "query": "LEGO 60504",
@@ -1547,7 +1474,7 @@
         ]
       },
       "first_seen": "2026-11-20T11:02:12+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T04:08:26+00:00",
       "valid_until": "2026-11-22T10:08:26+00:00",
       "competition_low": 66.48,
@@ -1618,7 +1545,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T04:09:14+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T04:08:26+00:00",
       "valid_until": "2026-11-22T10:08:26+00:00",
       "competition_low": 81.82,
@@ -1658,7 +1585,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T04:42:07+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T04:41:19+00:00",
       "valid_until": "2026-11-22T10:41:19+00:00",
       "competition_low": 40.5,
@@ -1710,7 +1637,7 @@
         ]
       },
       "first_seen": "2026-11-20T12:40:24+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T05:13:56+00:00",
       "valid_until": "2026-11-22T11:13:56+00:00",
       "competition_low": 47.93,
@@ -1759,8 +1686,8 @@
           "observed_at": "2026-11-22T05:13:56+00:00"
         }
       ],
-      "last_search_at": "2026-11-22T08:00:11+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-22T09:38:20+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 23.6
     },
     {
@@ -1779,7 +1706,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T05:14:31+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T05:13:56+00:00",
       "valid_until": "2026-11-22T11:13:56+00:00",
       "competition_low": 12.97,
@@ -1850,7 +1777,7 @@
         ]
       },
       "first_seen": "2026-11-20T13:12:53+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T05:46:47+00:00",
       "valid_until": "2026-11-22T11:46:47+00:00",
       "competition_low": 45.93,
@@ -1919,7 +1846,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T05:47:40+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T05:46:47+00:00",
       "valid_until": "2026-11-22T11:46:47+00:00",
       "competition_low": 32.52,
@@ -1975,7 +1902,7 @@
         ]
       },
       "first_seen": "2026-11-20T13:45:59+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T06:19:16+00:00",
       "valid_until": "2026-11-22T12:19:16+00:00",
       "competition_low": 38.38,
@@ -2044,7 +1971,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T06:19:50+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T06:19:16+00:00",
       "valid_until": "2026-11-22T12:19:16+00:00",
       "competition_low": 29.04,
@@ -2108,7 +2035,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T06:51:46+00:00",
       "valid_until": "2026-11-22T12:51:46+00:00",
       "competition_low": 85.99,
@@ -2123,7 +2050,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-22T09:05:41+00:00",
+        "observed_at": "2026-11-22T09:38:09+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -2276,7 +2203,7 @@
         ]
       },
       "first_seen": "2026-11-20T14:18:43+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T06:51:47+00:00",
       "valid_until": "2026-11-22T12:51:47+00:00",
       "competition_low": 16.27,
@@ -2349,7 +2276,7 @@
         ]
       },
       "first_seen": "2026-11-22T06:52:32+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:24:29+00:00",
       "valid_until": "2026-11-22T13:24:29+00:00",
       "competition_low": 124.9,
@@ -2423,7 +2350,7 @@
         ]
       },
       "first_seen": "2026-11-21T12:41:21+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:24:29+00:00",
       "valid_until": "2026-11-22T13:24:29+00:00",
       "competition_low": 104.17,
@@ -2497,7 +2424,7 @@
         ]
       },
       "first_seen": "2026-11-20T15:24:08+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:24:26+00:00",
       "valid_until": "2026-11-22T13:24:26+00:00",
       "competition_low": 21.08,
@@ -2575,7 +2502,7 @@
         ]
       },
       "first_seen": "2026-11-20T16:25:31+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:29:09+00:00",
       "valid_until": "2026-11-22T13:29:09+00:00",
       "competition_low": 50.0,
@@ -2650,7 +2577,7 @@
         ]
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:29:11+00:00",
       "valid_until": "2026-11-22T13:29:11+00:00",
       "competition_low": 97.84,
@@ -2727,7 +2654,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T09:06:53+00:00",
       "valid_until": "2026-11-22T15:06:53+00:00",
       "competition_low": 95.0,
@@ -2790,7 +2717,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T07:29:09+00:00",
       "valid_until": "2026-11-22T13:29:09+00:00",
       "competition_low": 29.42,
@@ -2864,7 +2791,7 @@
         ]
       },
       "first_seen": "2026-11-21T01:01:11+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:01:13+00:00",
       "valid_until": "2026-11-22T14:01:13+00:00",
       "competition_low": 165.0,
@@ -2937,7 +2864,7 @@
         ]
       },
       "first_seen": "2026-11-20T16:58:32+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:01:11+00:00",
       "valid_until": "2026-11-22T14:01:11+00:00",
       "competition_low": 56.41,
@@ -3016,7 +2943,7 @@
         ]
       },
       "first_seen": "2026-11-22T08:01:48+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:01:13+00:00",
       "valid_until": "2026-11-22T14:01:13+00:00",
       "competition_low": 124.9,
@@ -3085,7 +3012,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T08:01:48+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:01:11+00:00",
       "valid_until": "2026-11-22T14:01:11+00:00",
       "competition_low": 39.99,
@@ -3134,8 +3061,8 @@
           "observed_at": "2026-11-22T08:01:11+00:00"
         }
       ],
-      "last_search_at": "2026-11-22T08:32:33+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-22T09:38:20+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 20.84
     },
     {
@@ -3159,7 +3086,7 @@
         ]
       },
       "first_seen": "2026-11-20T18:03:34+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:34:02+00:00",
       "valid_until": "2026-11-22T14:34:02+00:00",
       "competition_low": 39.49,
@@ -3227,7 +3154,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T08:34:57+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T08:34:02+00:00",
       "valid_until": "2026-11-22T14:34:02+00:00",
       "competition_low": 52.13,
@@ -3275,7 +3202,7 @@
         ]
       },
       "first_seen": "2026-11-21T08:53:17+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T09:06:53+00:00",
       "valid_until": "2026-11-22T15:06:53+00:00",
       "competition_low": 125.49,
@@ -3324,8 +3251,8 @@
           "observed_at": "2026-11-22T09:06:53+00:00"
         }
       ],
-      "last_search_at": "2026-11-22T08:00:11+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-22T09:38:20+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 60.0
     },
     {
@@ -3348,7 +3275,7 @@
         ]
       },
       "first_seen": "2026-11-20T18:36:05+00:00",
-      "last_seen": "2026-11-22T09:07:28+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
       "observed_at": "2026-11-22T09:06:50+00:00",
       "valid_until": "2026-11-22T15:06:50+00:00",
       "competition_low": 42.82,
@@ -3397,6 +3324,151 @@
           "url": "https://www.ebay.co.uk/itm/406665481780",
           "delivered": 69.99,
           "observed_at": "2026-11-22T09:06:50+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 10309:f8444142f825",
+      "category": "lego",
+      "query": "LEGO 10309",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 10309",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "botanicals",
+          "succulents"
+        ]
+      },
+      "first_seen": "2026-11-20T19:08:32+00:00",
+      "last_seen": "2026-11-22T09:40:42+00:00",
+      "observed_at": "2026-11-22T09:39:48+00:00",
+      "valid_until": "2026-11-22T15:39:48+00:00",
+      "competition_low": 43.37,
+      "estimated_resale": 42.06,
+      "seller_count": 6,
+      "low_supporting_sellers": 2,
+      "max_landed_buy": 20.96,
+      "target_status": "usable_configured_cost_target",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|227016782115|0",
+          "seller": "yonli_79",
+          "url": "https://www.ebay.co.uk/itm/227016782115",
+          "delivered": 43.37,
+          "observed_at": "2026-11-22T09:39:48+00:00"
+        },
+        {
+          "item_id": "v1|257858397406|0",
+          "seller": "karwol1985",
+          "url": "https://www.ebay.co.uk/itm/257858397406",
+          "delivered": 45.68,
+          "observed_at": "2026-11-22T09:39:48+00:00"
+        },
+        {
+          "item_id": "v1|168778694127|0",
+          "seller": "lee-francis",
+          "url": "https://www.ebay.co.uk/itm/168778694127",
+          "delivered": 48.99,
+          "observed_at": "2026-11-22T09:39:48+00:00"
+        },
+        {
+          "item_id": "v1|127951743757|0",
+          "seller": "astrocas13",
+          "url": "https://www.ebay.co.uk/itm/127951743757",
+          "delivered": 53.28,
+          "observed_at": "2026-11-22T09:39:48+00:00"
+        },
+        {
+          "item_id": "v1|388794691574|0",
+          "seller": "40mkjo",
+          "url": "https://www.ebay.co.uk/itm/388794691574",
+          "delivered": 56.08,
+          "observed_at": "2026-11-22T09:39:48+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-21T00:27:12+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 20.96
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 42227:3c2d525f67be",
+      "category": "lego",
+      "query": "LEGO 42227",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 42227",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "jeep",
+          "rubicon",
+          "suv",
+          "wrangler"
+        ]
+      },
+      "first_seen": "2026-11-20T10:29:27+00:00",
+      "last_seen": "2026-11-22T09:07:28+00:00",
+      "observed_at": "2026-11-22T03:35:48+00:00",
+      "valid_until": "2026-11-22T09:35:48+00:00",
+      "competition_low": 33.98,
+      "estimated_resale": 32.96,
+      "seller_count": 35,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|407370276601|0",
+          "seller": "urbancart-22",
+          "url": "https://www.ebay.co.uk/itm/407370276601",
+          "delivered": 33.98,
+          "observed_at": "2026-11-22T03:35:48+00:00"
+        },
+        {
+          "item_id": "v1|257485643411|0",
+          "seller": "mmyhardware",
+          "url": "https://www.ebay.co.uk/itm/257485643411",
+          "delivered": 39.99,
+          "observed_at": "2026-11-22T03:35:48+00:00"
+        },
+        {
+          "item_id": "v1|267813482078|0",
+          "seller": "thecashexchangeltd",
+          "url": "https://www.ebay.co.uk/itm/267813482078",
+          "delivered": 39.99,
+          "observed_at": "2026-11-22T03:35:48+00:00"
+        },
+        {
+          "item_id": "v1|940045330829|0",
+          "seller": "bhavsbricks",
+          "url": "https://www.ebay.co.uk/itm/940045330829",
+          "delivered": 40.0,
+          "observed_at": "2026-11-22T03:35:48+00:00"
+        },
+        {
+          "item_id": "v1|147627939145|0",
+          "seller": "astah_98",
+          "url": "https://www.ebay.co.uk/itm/147627939145",
+          "delivered": 40.03,
+          "observed_at": "2026-11-22T03:35:48+00:00"
         }
       ]
     },
@@ -10171,78 +10243,6 @@
       ]
     },
     {
-      "key": "browse-asks-v5:lego:lego 10309:f8444142f825",
-      "category": "lego",
-      "query": "LEGO 10309",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 10309",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "botanicals",
-          "succulents"
-        ]
-      },
-      "first_seen": "2026-11-20T19:08:32+00:00",
-      "last_seen": "2026-11-21T01:01:11+00:00",
-      "observed_at": "2026-11-20T19:07:53+00:00",
-      "valid_until": "2026-11-21T01:07:53+00:00",
-      "competition_low": 43.37,
-      "estimated_resale": 42.06,
-      "seller_count": 6,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|227016782115|0",
-          "seller": "yonli_79",
-          "url": "https://www.ebay.co.uk/itm/227016782115",
-          "delivered": 43.37,
-          "observed_at": "2026-11-20T19:07:53+00:00"
-        },
-        {
-          "item_id": "v1|257858397406|0",
-          "seller": "karwol1985",
-          "url": "https://www.ebay.co.uk/itm/257858397406",
-          "delivered": 45.68,
-          "observed_at": "2026-11-20T19:07:53+00:00"
-        },
-        {
-          "item_id": "v1|168778694127|0",
-          "seller": "lee-francis",
-          "url": "https://www.ebay.co.uk/itm/168778694127",
-          "delivered": 48.99,
-          "observed_at": "2026-11-20T19:07:53+00:00"
-        },
-        {
-          "item_id": "v1|127951743757|0",
-          "seller": "astrocas13",
-          "url": "https://www.ebay.co.uk/itm/127951743757",
-          "delivered": 53.28,
-          "observed_at": "2026-11-20T19:07:53+00:00"
-        },
-        {
-          "item_id": "v1|388794691574|0",
-          "seller": "40mkjo",
-          "url": "https://www.ebay.co.uk/itm/388794691574",
-          "delivered": 56.08,
-          "observed_at": "2026-11-20T19:07:53+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-21T00:27:12+00:00",
-      "last_search_sort": "price",
-      "last_item_price_filter": 20.96
-    },
-    {
       "key": "browse-asks-v5:gaming:hellraiser revival day one edition ps5:4f53cda18c2b",
       "category": "gaming",
       "query": "hellraiser revival day one edition ps5",
@@ -12320,25 +12320,23 @@
     },
     {
       "kind": "active_ask",
-      "query": "LEGO 42227",
+      "query": "LEGO 10309",
       "category": "lego",
       "name_terms": [
-        "jeep",
-        "rubicon",
-        "suv",
-        "wrangler"
+        "botanicals",
+        "succulents"
       ],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-22T03:35:48+00:00",
+      "observed_at": "2026-11-22T09:39:48+00:00",
       "date": "2026-11-22",
-      "sample_count": 35,
-      "listed_total_low": 33.98,
-      "listed_total_p25": 45.68,
-      "listed_total_median": 56.66,
-      "listed_total_p75": 65.14,
-      "listed_total_high": 89.19,
+      "sample_count": 6,
+      "listed_total_low": 43.37,
+      "listed_total_p25": 46.51,
+      "listed_total_median": 51.14,
+      "listed_total_p75": 55.38,
+      "listed_total_high": 76.44,
       "status": "wide_spread",
       "warnings": [
         "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
@@ -12347,9 +12345,9 @@
       ],
       "offers": [
         {
-          "item_id": "v1|407370276601|0",
-          "seller": "urbancart-22",
-          "image": "https://i.ebayimg.com/images/g/dIQAAeSwIfpq~Kvy/s-l225.jpg",
+          "item_id": "v1|227016782115|0",
+          "seller": "yonli_79",
+          "image": "https://i.ebayimg.com/images/g/fXoAAeSwg6Bp7N0T/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12362,17 +12360,40 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407370276601",
-          "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227)",
+          "url": "https://www.ebay.co.uk/itm/227016782115",
+          "title": "LEGO 10309  Botanicals Succulents - Build 9 Small Artificial Plants - Home New",
           "declared_condition": "new",
-          "item_price": 33.98,
-          "shipping": 0.0,
-          "listed_total": 33.98
+          "item_price": 39.99,
+          "shipping": 3.38,
+          "listed_total": 43.37
         },
         {
-          "item_id": "v1|257485643411|0",
-          "seller": "mmyhardware",
-          "image": "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg",
+          "item_id": "v1|257858397406|0",
+          "seller": "karwol1985",
+          "image": "https://i.ebayimg.com/images/g/r4cAAeSw7o1q~W-9/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/257858397406",
+          "title": "LEGO Botanicals - 10309 - Succulents - Unopened Sealed Retired Set ",
+          "declared_condition": "new",
+          "item_price": 42.3,
+          "shipping": 3.38,
+          "listed_total": 45.68
+        },
+        {
+          "item_id": "v1|168778694127|0",
+          "seller": "lee-francis",
+          "image": "https://i.ebayimg.com/images/g/mksAAeSwxP1qyKo0/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12380,44 +12401,21 @@
           "advertised_original_total": null,
           "available_coupons": true,
           "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/257485643411",
-          "title": "LEGO Technic Jeep Wrangler Rubicon - 42227",
-          "declared_condition": "new",
-          "item_price": 39.99,
-          "shipping": 0.0,
-          "listed_total": 39.99
-        },
-        {
-          "item_id": "v1|267813482078|0",
-          "seller": "thecashexchangeltd",
-          "image": "https://i.ebayimg.com/images/g/wkIAAeSw9Fhqz3oa/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": true,
-          "buying_options": [
             "FIXED_PRICE"
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267813482078",
-          "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227) NEW & SEALED - FREE DELIVERY",
+          "url": "https://www.ebay.co.uk/itm/168778694127",
+          "title": "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
           "declared_condition": "new",
-          "item_price": 39.99,
+          "item_price": 48.99,
           "shipping": 0.0,
-          "listed_total": 39.99
+          "listed_total": 48.99
         },
         {
-          "item_id": "v1|940045330829|0",
-          "seller": "bhavsbricks",
-          "image": "https://i.ebayimg.com/images/g/YrcAAeSwrt9q282l/s-l225.jpg",
+          "item_id": "v1|127951743757|0",
+          "seller": "astrocas13",
+          "image": "https://i.ebayimg.com/images/g/LAcAAeSwXMRpkwMt/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12429,130 +12427,17 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/940045330829",
-          "title": "LEGO Technic Jeep Wrangler Rubicon SUV (42227) \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P\u2705",
+          "url": "https://www.ebay.co.uk/itm/127951743757",
+          "title": "Lego Botanicals Succulents 10309 Plants Official Retired \"NEW\" SEALED",
           "declared_condition": "new",
-          "item_price": 40.0,
-          "shipping": 0.0,
-          "listed_total": 40.0
-        },
-        {
-          "item_id": "v1|147627939145|0",
-          "seller": "astah_98",
-          "image": "https://i.ebayimg.com/images/g/CoQAAeSwpBlqyR0j/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/147627939145",
-          "title": "LEGO Technic Jeep Wrangler Rubicon SUV - Model 42227 (10+ Years)",
-          "declared_condition": "new",
-          "item_price": 37.09,
-          "shipping": 2.94,
-          "listed_total": 40.03
-        },
-        {
-          "item_id": "v1|287594242100|0",
-          "seller": "jcane_45",
-          "image": "https://i.ebayimg.com/images/g/Q0wAAeSwN55qrVB-/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/287594242100",
-          "title": "LEGO Technic 42227 Jeep Wrangler Rubicon SUV Set 723pcs Boxed 10+",
-          "declared_condition": "new",
-          "item_price": 39.13,
-          "shipping": 2.96,
-          "listed_total": 42.09
-        },
-        {
-          "item_id": "v1|168525741505|0",
-          "seller": "leadhead35",
-          "image": "https://i.ebayimg.com/images/g/BI4AAeSwg2pqT6MS/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/168525741505",
-          "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227)",
-          "declared_condition": "new",
-          "item_price": 42.3,
-          "shipping": 0.0,
-          "listed_total": 42.3
-        },
-        {
-          "item_id": "v1|267728532222|0",
-          "seller": "lego-lass",
-          "image": "https://i.ebayimg.com/images/g/DBcAAeSwt25qV51b/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267728532222",
-          "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227) Brand New unopened",
-          "declared_condition": "new",
-          "item_price": 39.7,
-          "shipping": 2.94,
-          "listed_total": 42.64
-        },
-        {
-          "item_id": "v1|307273298041|0",
-          "seller": "emanuelgab_99",
-          "image": "https://i.ebayimg.com/images/g/Hk0AAeSwN4Zq8O7G/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/307273298041",
-          "title": "Lego Technic Jeep Wrangler Rubicon 42227 BRANDNEW UNOPENED",
-          "declared_condition": "new",
-          "item_price": 42.3,
+          "item_price": 49.9,
           "shipping": 3.38,
-          "listed_total": 45.68
+          "listed_total": 53.28
         },
         {
-          "item_id": "v1|377650117925|0",
-          "seller": "brendon.p_6",
-          "image": "https://i.ebayimg.com/images/g/LKAAAeSwDNVq-uCG/s-l225.jpg",
+          "item_id": "v1|388794691574|0",
+          "seller": "40mkjo",
+          "image": "https://i.ebayimg.com/images/g/kPsAAeSwBhVoiku2/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -12565,19 +12450,42 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/377650117925",
-          "title": "LEGO Technic Jeep Wrangler Rubicon 42227 723 Pieces BRAND NEW + SEALED",
+          "url": "https://www.ebay.co.uk/itm/388794691574",
+          "title": "LEGO Botanicals Succulents Building Set 10309 Brand New",
           "declared_condition": "new",
-          "item_price": 42.3,
+          "item_price": 52.7,
           "shipping": 3.38,
-          "listed_total": 45.68
+          "listed_total": 56.08
+        },
+        {
+          "item_id": "v1|267841531283|0",
+          "seller": "j7806",
+          "image": "https://i.ebayimg.com/images/g/a~wAAeSwMjJq9aop/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/267841531283",
+          "title": "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
+          "declared_condition": "new",
+          "item_price": 73.5,
+          "shipping": 2.94,
+          "listed_total": 76.44
         }
       ],
       "rejected": {
-        "identity_or_condition": 3
+        "identity_or_condition": 18
       },
       "query_aliases": [
-        "LEGO Technic Jeep Wrangler Rubicon SUV 42227 (Discount at Checkout)"
+        "LEGO Botanicals Succulents 10309"
       ]
     },
     {
@@ -14228,7 +14136,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-22T09:05:41+00:00",
+        "observed_at": "2026-11-22T09:38:09+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -15285,7 +15193,7 @@
       "rejected": {
         "identity_or_condition": 39
       },
-      "canonicalized_at": "2026-11-22T09:05:41+00:00",
+      "canonicalized_at": "2026-11-22T09:38:09+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "LEGO Horizon Adventures PS5",
@@ -15458,7 +15366,7 @@
       "rejected": {
         "identity_or_condition": 31
       },
-      "canonicalized_at": "2026-11-22T09:05:41+00:00",
+      "canonicalized_at": "2026-11-22T09:38:09+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "The Last Of Us Part II (Remastered) PS5"
@@ -15560,7 +15468,7 @@
       "rejected": {
         "identity_or_condition": 20
       },
-      "canonicalized_at": "2026-11-22T09:05:41+00:00",
+      "canonicalized_at": "2026-11-22T09:38:09+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Rise Of The Ronin (PS5)"
@@ -15638,7 +15546,7 @@
       "rejected": {
         "identity_or_condition": 8
       },
-      "canonicalized_at": "2026-11-22T09:05:41+00:00",
+      "canonicalized_at": "2026-11-22T09:38:09+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "High on Life 2 (Playstation 5 / PS5)"
@@ -15693,7 +15601,7 @@
       "rejected": {
         "identity_or_condition": 49
       },
-      "canonicalized_at": "2026-11-22T09:05:41+00:00",
+      "canonicalized_at": "2026-11-22T09:38:09+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Ghost of Yotei (PS5)"
@@ -15749,7 +15657,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-22T09:05:41+00:00",
+      "canonicalized_at": "2026-11-22T09:38:09+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "STAR WARS Zero Company Standard Edition PS5 |Disc I VideoGame |English"
@@ -15789,42 +15697,13 @@
     },
     {
       "kind": "active_ask",
-      "query": "elden ring tarnished edition pegi 16 nintendo switch 2",
+      "query": "toy story retro roundup + toy story 3 complete edition double pack switch 2 game",
       "category": "gaming",
       "name_terms": [],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-22T09:06:50+00:00",
-      "date": "2026-11-22",
-      "sample_count": 0,
-      "listed_total_low": null,
-      "listed_total_p25": null,
-      "listed_total_median": null,
-      "listed_total_p75": null,
-      "listed_total_high": null,
-      "status": "no_exact_shipped_samples",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [],
-      "rejected": {
-        "identity_or_condition": 10
-      },
-      "query_aliases": [
-        "Elden Ring: Tarnished Edition (Nintendo Switch 2) - PEGI 16"
-      ]
-    },
-    {
-      "kind": "active_ask",
-      "query": "fc27 one edition xbox series x",
-      "category": "gaming",
-      "name_terms": [],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-22T03:35:48+00:00",
+      "observed_at": "2026-11-22T09:39:48+00:00",
       "date": "2026-11-22",
       "sample_count": 0,
       "listed_total_low": null,
@@ -15842,7 +15721,7 @@
         "identity_or_condition": 3
       },
       "query_aliases": [
-        "FC27 Xbox Series X / One Edition - Free C&C"
+        "Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack - Switch 2 Game"
       ]
     },
     {
@@ -15912,7 +15791,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-22T09:07:39+00:00",
+  "generated_utc": "2026-11-22T09:40:53+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
@@ -16168,8 +16047,8 @@
       "item_price": 111.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/150x150/qt/55/5041520_1.jpg"
@@ -16889,8 +16768,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/150x150/qt/55/5040340_1.jpg",
@@ -18840,8 +18719,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/150x150/qt/55/5041903_1.jpg",
@@ -19536,9 +19415,9 @@
       }
     },
     {
-      "title": "LEGO Technic Jeep Wrangler Rubicon SUV 42227 (Discount at Checkout)",
-      "url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-discount-at-checkout-5040371",
-      "policy_key": "f30935b67a857d6ab896b440",
+      "title": "LEGO Botanicals Succulents 10309",
+      "url": "https://www.hotukdeals.com/deals/lego-botanicals-succulents-10309-5038128",
+      "policy_key": "0beed761abb6d7a850e71d48",
       "category": "lego",
       "source": "hotukdeals",
       "price_basis": null,
@@ -19547,23 +19426,23 @@
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "Amazon",
-      "item_price": 37.7,
+      "item_price": 38.24,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
-        "https://i.ebayimg.com/images/g/dIQAAeSwIfpq~Kvy/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/150x150/qt/55/5038128_1.jpg",
+        "https://i.ebayimg.com/images/g/fXoAAeSwg6Bp7N0T/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/r4cAAeSw7o1q~W-9/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-discount-at-checkout-5040371",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-botanicals-succulents-10309-5038128",
       "landed_cost": null,
-      "breakeven_sell": 52.06,
-      "sell_for_minimum_profit": 70.13,
+      "breakeven_sell": 52.7,
+      "sell_for_minimum_profit": 71.03,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -19571,30 +19450,28 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-20T10:28:42+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Jeep+Wrangler+Rubicon+SUV+42227+%28Discount+at+Checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-19T00:23:07+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Botanicals+Succulents+10309&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "LEGO 42227",
+        "query": "LEGO 10309",
         "category": "lego",
         "name_terms": [
-          "jeep",
-          "rubicon",
-          "suv",
-          "wrangler"
+          "botanicals",
+          "succulents"
         ],
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-22T03:35:48+00:00",
+        "observed_at": "2026-11-22T09:39:48+00:00",
         "date": "2026-11-22",
-        "sample_count": 35,
-        "listed_total_low": 33.98,
-        "listed_total_p25": 45.68,
-        "listed_total_median": 56.66,
-        "listed_total_p75": 65.14,
-        "listed_total_high": 89.19,
+        "sample_count": 6,
+        "listed_total_low": 43.37,
+        "listed_total_p25": 46.51,
+        "listed_total_median": 51.14,
+        "listed_total_p75": 55.38,
+        "listed_total_high": 76.44,
         "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
@@ -19603,9 +19480,9 @@
         ],
         "offers": [
           {
-            "item_id": "v1|407370276601|0",
-            "seller": "urbancart-22",
-            "image": "https://i.ebayimg.com/images/g/dIQAAeSwIfpq~Kvy/s-l225.jpg",
+            "item_id": "v1|227016782115|0",
+            "seller": "yonli_79",
+            "image": "https://i.ebayimg.com/images/g/fXoAAeSwg6Bp7N0T/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19618,17 +19495,40 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407370276601",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227)",
+            "url": "https://www.ebay.co.uk/itm/227016782115",
+            "title": "LEGO 10309  Botanicals Succulents - Build 9 Small Artificial Plants - Home New",
             "declared_condition": "new",
-            "item_price": 33.98,
-            "shipping": 0.0,
-            "listed_total": 33.98
+            "item_price": 39.99,
+            "shipping": 3.38,
+            "listed_total": 43.37
           },
           {
-            "item_id": "v1|257485643411|0",
-            "seller": "mmyhardware",
-            "image": "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg",
+            "item_id": "v1|257858397406|0",
+            "seller": "karwol1985",
+            "image": "https://i.ebayimg.com/images/g/r4cAAeSw7o1q~W-9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257858397406",
+            "title": "LEGO Botanicals - 10309 - Succulents - Unopened Sealed Retired Set ",
+            "declared_condition": "new",
+            "item_price": 42.3,
+            "shipping": 3.38,
+            "listed_total": 45.68
+          },
+          {
+            "item_id": "v1|168778694127|0",
+            "seller": "lee-francis",
+            "image": "https://i.ebayimg.com/images/g/mksAAeSwxP1qyKo0/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19636,44 +19536,21 @@
             "advertised_original_total": null,
             "available_coupons": true,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257485643411",
-            "title": "LEGO Technic Jeep Wrangler Rubicon - 42227",
-            "declared_condition": "new",
-            "item_price": 39.99,
-            "shipping": 0.0,
-            "listed_total": 39.99
-          },
-          {
-            "item_id": "v1|267813482078|0",
-            "seller": "thecashexchangeltd",
-            "image": "https://i.ebayimg.com/images/g/wkIAAeSw9Fhqz3oa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
               "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267813482078",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227) NEW & SEALED - FREE DELIVERY",
+            "url": "https://www.ebay.co.uk/itm/168778694127",
+            "title": "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
             "declared_condition": "new",
-            "item_price": 39.99,
+            "item_price": 48.99,
             "shipping": 0.0,
-            "listed_total": 39.99
+            "listed_total": 48.99
           },
           {
-            "item_id": "v1|940045330829|0",
-            "seller": "bhavsbricks",
-            "image": "https://i.ebayimg.com/images/g/YrcAAeSwrt9q282l/s-l225.jpg",
+            "item_id": "v1|127951743757|0",
+            "seller": "astrocas13",
+            "image": "https://i.ebayimg.com/images/g/LAcAAeSwXMRpkwMt/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19685,130 +19562,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940045330829",
-            "title": "LEGO Technic Jeep Wrangler Rubicon SUV (42227) \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P\u2705",
+            "url": "https://www.ebay.co.uk/itm/127951743757",
+            "title": "Lego Botanicals Succulents 10309 Plants Official Retired \"NEW\" SEALED",
             "declared_condition": "new",
-            "item_price": 40.0,
-            "shipping": 0.0,
-            "listed_total": 40.0
-          },
-          {
-            "item_id": "v1|147627939145|0",
-            "seller": "astah_98",
-            "image": "https://i.ebayimg.com/images/g/CoQAAeSwpBlqyR0j/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147627939145",
-            "title": "LEGO Technic Jeep Wrangler Rubicon SUV - Model 42227 (10+ Years)",
-            "declared_condition": "new",
-            "item_price": 37.09,
-            "shipping": 2.94,
-            "listed_total": 40.03
-          },
-          {
-            "item_id": "v1|287594242100|0",
-            "seller": "jcane_45",
-            "image": "https://i.ebayimg.com/images/g/Q0wAAeSwN55qrVB-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287594242100",
-            "title": "LEGO Technic 42227 Jeep Wrangler Rubicon SUV Set 723pcs Boxed 10+",
-            "declared_condition": "new",
-            "item_price": 39.13,
-            "shipping": 2.96,
-            "listed_total": 42.09
-          },
-          {
-            "item_id": "v1|168525741505|0",
-            "seller": "leadhead35",
-            "image": "https://i.ebayimg.com/images/g/BI4AAeSwg2pqT6MS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168525741505",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227)",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 0.0,
-            "listed_total": 42.3
-          },
-          {
-            "item_id": "v1|267728532222|0",
-            "seller": "lego-lass",
-            "image": "https://i.ebayimg.com/images/g/DBcAAeSwt25qV51b/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267728532222",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227) Brand New unopened",
-            "declared_condition": "new",
-            "item_price": 39.7,
-            "shipping": 2.94,
-            "listed_total": 42.64
-          },
-          {
-            "item_id": "v1|307273298041|0",
-            "seller": "emanuelgab_99",
-            "image": "https://i.ebayimg.com/images/g/Hk0AAeSwN4Zq8O7G/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307273298041",
-            "title": "Lego Technic Jeep Wrangler Rubicon 42227 BRANDNEW UNOPENED",
-            "declared_condition": "new",
-            "item_price": 42.3,
+            "item_price": 49.9,
             "shipping": 3.38,
-            "listed_total": 45.68
+            "listed_total": 53.28
           },
           {
-            "item_id": "v1|377650117925|0",
-            "seller": "brendon.p_6",
-            "image": "https://i.ebayimg.com/images/g/LKAAAeSwDNVq-uCG/s-l225.jpg",
+            "item_id": "v1|388794691574|0",
+            "seller": "40mkjo",
+            "image": "https://i.ebayimg.com/images/g/kPsAAeSwBhVoiku2/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19821,19 +19585,42 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377650117925",
-            "title": "LEGO Technic Jeep Wrangler Rubicon 42227 723 Pieces BRAND NEW + SEALED",
+            "url": "https://www.ebay.co.uk/itm/388794691574",
+            "title": "LEGO Botanicals Succulents Building Set 10309 Brand New",
             "declared_condition": "new",
-            "item_price": 42.3,
+            "item_price": 52.7,
             "shipping": 3.38,
-            "listed_total": 45.68
+            "listed_total": 56.08
+          },
+          {
+            "item_id": "v1|267841531283|0",
+            "seller": "j7806",
+            "image": "https://i.ebayimg.com/images/g/a~wAAeSwMjJq9aop/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267841531283",
+            "title": "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 2.94,
+            "listed_total": 76.44
           }
         ],
         "rejected": {
-          "identity_or_condition": 3
+          "identity_or_condition": 18
         },
         "query_aliases": [
-          "LEGO Technic Jeep Wrangler Rubicon SUV 42227 (Discount at Checkout)"
+          "LEGO Botanicals Succulents 10309"
         ]
       },
       "ask_estimate": {
@@ -19842,51 +19629,48 @@
         "detail_status": "not_required",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 42227",
-        "observed_at": "2026-11-22T03:35:48+00:00",
+        "query": "LEGO 10309",
+        "observed_at": "2026-11-22T09:39:48+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 35,
-        "seller_count": 35,
+        "sample_count": 6,
+        "seller_count": 6,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
+        "low_price_supporting_sellers": 2,
+        "confidence": "limited",
         "wide_spread": true,
-        "competition_low": 33.98,
-        "competition_high": 89.19,
-        "estimated_resale": 32.96,
+        "competition_low": 43.37,
+        "competition_high": 76.44,
+        "estimated_resale": 42.06,
         "estimated_range": [
-          30.58,
-          33.98
+          39.03,
+          43.37
         ],
-        "suggested_listing": 33.97,
-        "quick_sale_model": 30.58,
+        "suggested_listing": 43.36,
+        "quick_sale_model": 39.03,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": [
-          76.53,
-          76.53
-        ],
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 1,
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
         "same_promotion_references_excluded": 0,
         "acquisition_excluded": 0,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 37.7,
+        "item_price": 38.24,
         "delivery_known": false,
         "landed_cost": null,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": -15.95,
-        "max_landed_buy": 13.75,
+        "net_before_unknown_delivery": -8.89,
+        "max_landed_buy": 20.96,
         "max_item_buy": null,
-        "delivery_headroom": -23.95,
-        "fees": 4.93,
+        "delivery_headroom": -17.28,
+        "fees": 6.16,
         "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 0.99,
+        "returns_allowance": 1.26,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": false,
@@ -19902,15 +19686,14 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 29.66,
+        "review_stress_sale": 37.85,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 11.75,
+        "review_max_landed_buy": 19.35,
         "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
@@ -19918,9 +19701,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|407370276601|0",
-            "seller": "urbancart-22",
-            "image": "https://i.ebayimg.com/images/g/dIQAAeSwIfpq~Kvy/s-l225.jpg",
+            "item_id": "v1|227016782115|0",
+            "seller": "yonli_79",
+            "image": "https://i.ebayimg.com/images/g/fXoAAeSwg6Bp7N0T/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -19933,111 +19716,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407370276601",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227)",
-            "declared_condition": "new",
-            "item_price": 33.98,
-            "shipping": 0.0,
-            "listed_total": 33.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|257485643411|0",
-            "seller": "mmyhardware",
-            "image": "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257485643411",
-            "title": "LEGO Technic Jeep Wrangler Rubicon - 42227",
+            "url": "https://www.ebay.co.uk/itm/227016782115",
+            "title": "LEGO 10309  Botanicals Succulents - Build 9 Small Artificial Plants - Home New",
             "declared_condition": "new",
             "item_price": 39.99,
-            "shipping": 0.0,
-            "listed_total": 39.99,
+            "shipping": 3.38,
+            "listed_total": 43.37,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|267813482078|0",
-            "seller": "thecashexchangeltd",
-            "image": "https://i.ebayimg.com/images/g/wkIAAeSw9Fhqz3oa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267813482078",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227) NEW & SEALED - FREE DELIVERY",
-            "declared_condition": "new",
-            "item_price": 39.99,
-            "shipping": 0.0,
-            "listed_total": 39.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|940045330829|0",
-            "seller": "bhavsbricks",
-            "image": "https://i.ebayimg.com/images/g/YrcAAeSwrt9q282l/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940045330829",
-            "title": "LEGO Technic Jeep Wrangler Rubicon SUV (42227) \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P\u2705",
-            "declared_condition": "new",
-            "item_price": 40.0,
-            "shipping": 0.0,
-            "listed_total": 40.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|147627939145|0",
-            "seller": "astah_98",
-            "image": "https://i.ebayimg.com/images/g/CoQAAeSwpBlqyR0j/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147627939145",
-            "title": "LEGO Technic Jeep Wrangler Rubicon SUV - Model 42227 (10+ Years)",
-            "declared_condition": "new",
-            "item_price": 37.09,
-            "shipping": 2.94,
-            "listed_total": 40.03,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287594242100|0",
-            "seller": "jcane_45",
-            "image": "https://i.ebayimg.com/images/g/Q0wAAeSwN55qrVB-/s-l225.jpg",
+            "item_id": "v1|257858397406|0",
+            "seller": "karwol1985",
+            "image": "https://i.ebayimg.com/images/g/r4cAAeSw7o1q~W-9/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -20050,79 +19740,8 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287594242100",
-            "title": "LEGO Technic 42227 Jeep Wrangler Rubicon SUV Set 723pcs Boxed 10+",
-            "declared_condition": "new",
-            "item_price": 39.13,
-            "shipping": 2.96,
-            "listed_total": 42.09,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168525741505|0",
-            "seller": "leadhead35",
-            "image": "https://i.ebayimg.com/images/g/BI4AAeSwg2pqT6MS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168525741505",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227)",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 0.0,
-            "listed_total": 42.3,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267728532222|0",
-            "seller": "lego-lass",
-            "image": "https://i.ebayimg.com/images/g/DBcAAeSwt25qV51b/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267728532222",
-            "title": "LEGO Technic: Jeep Wrangler Rubicon SUV (42227) Brand New unopened",
-            "declared_condition": "new",
-            "item_price": 39.7,
-            "shipping": 2.94,
-            "listed_total": 42.64,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|307273298041|0",
-            "seller": "emanuelgab_99",
-            "image": "https://i.ebayimg.com/images/g/Hk0AAeSwN4Zq8O7G/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/307273298041",
-            "title": "Lego Technic Jeep Wrangler Rubicon 42227 BRANDNEW UNOPENED",
+            "url": "https://www.ebay.co.uk/itm/257858397406",
+            "title": "LEGO Botanicals - 10309 - Succulents - Unopened Sealed Retired Set ",
             "declared_condition": "new",
             "item_price": 42.3,
             "shipping": 3.38,
@@ -20130,9 +19749,55 @@
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|377650117925|0",
-            "seller": "brendon.p_6",
-            "image": "https://i.ebayimg.com/images/g/LKAAAeSwDNVq-uCG/s-l225.jpg",
+            "item_id": "v1|168778694127|0",
+            "seller": "lee-francis",
+            "image": "https://i.ebayimg.com/images/g/mksAAeSwxP1qyKo0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168778694127",
+            "title": "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
+            "declared_condition": "new",
+            "item_price": 48.99,
+            "shipping": 0.0,
+            "listed_total": 48.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|127951743757|0",
+            "seller": "astrocas13",
+            "image": "https://i.ebayimg.com/images/g/LAcAAeSwXMRpkwMt/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127951743757",
+            "title": "Lego Botanicals Succulents 10309 Plants Official Retired \"NEW\" SEALED",
+            "declared_condition": "new",
+            "item_price": 49.9,
+            "shipping": 3.38,
+            "listed_total": 53.28,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|388794691574|0",
+            "seller": "40mkjo",
+            "image": "https://i.ebayimg.com/images/g/kPsAAeSwBhVoiku2/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -20145,19 +19810,107 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377650117925",
-            "title": "LEGO Technic Jeep Wrangler Rubicon 42227 723 Pieces BRAND NEW + SEALED",
+            "url": "https://www.ebay.co.uk/itm/388794691574",
+            "title": "LEGO Botanicals Succulents Building Set 10309 Brand New",
             "declared_condition": "new",
-            "item_price": 42.3,
+            "item_price": 52.7,
             "shipping": 3.38,
-            "listed_total": 45.68,
+            "listed_total": 56.08,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267841531283|0",
+            "seller": "j7806",
+            "image": "https://i.ebayimg.com/images/g/a~wAAeSwMjJq9aop/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267841531283",
+            "title": "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
+            "declared_condition": "new",
+            "item_price": 73.5,
+            "shipping": 2.94,
+            "listed_total": 76.44,
             "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
+        "ok": true,
+        "title": "LEGO Botanicals Succulents 10309",
+        "query": "LEGO 10309",
+        "kind": "active_ask",
+        "listing": 43.36,
+        "observed_at": "2026-11-22T09:39:48+00:00",
+        "valid_until": "2026-11-22T15:39:48+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/227016782115",
+          "https://www.ebay.co.uk/itm/257858397406",
+          "https://www.ebay.co.uk/itm/168778694127",
+          "https://www.ebay.co.uk/itm/127951743757",
+          "https://www.ebay.co.uk/itm/388794691574",
+          "https://www.ebay.co.uk/itm/267841531283"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/227016782115",
+            "LEGO 10309  Botanicals Succulents - Build 9 Small Artificial Plants - Home New",
+            43.37,
+            3.38,
+            39.99,
+            "yonli_79"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/257858397406",
+            "LEGO Botanicals - 10309 - Succulents - Unopened Sealed Retired Set ",
+            45.68,
+            3.38,
+            42.3,
+            "karwol1985"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/168778694127",
+            "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
+            48.99,
+            0.0,
+            48.99,
+            "lee-francis"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/127951743757",
+            "Lego Botanicals Succulents 10309 Plants Official Retired \"NEW\" SEALED",
+            53.28,
+            3.38,
+            49.9,
+            "astrocas13"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/388794691574",
+            "LEGO Botanicals Succulents Building Set 10309 Brand New",
+            56.08,
+            3.38,
+            52.7,
+            "40mkjo"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267841531283",
+            "LEGO Botanicals Succulents 10309 Set for Adults 9 Artificial Plants 771 Pieces",
+            76.44,
+            2.94,
+            73.5,
+            "j7806"
+          ]
+        ],
+        "category": "lego"
       }
     },
     {
@@ -20175,8 +19928,8 @@
       "item_price": 38.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
@@ -20789,8 +20542,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
@@ -22119,8 +21872,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
@@ -22834,8 +22587,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg",
@@ -24187,7 +23940,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-22T09:05:41+00:00",
+          "observed_at": "2026-11-22T09:38:09+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -24503,8 +24256,8 @@
       "item_price": 83.17,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FjIqc/5042421_1/re/300x300/qt/55/5042421_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FjIqc/5042421_1/re/300x300/qt/55/5042421_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FjIqc/5042421_1/re/150x150/qt/55/5042421_1.jpg"
@@ -24939,8 +24692,8 @@
       "item_price": 88.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/150x150/qt/55/5041794_1.jpg"
@@ -25660,8 +25413,8 @@
       "item_price": 125.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/150x150/qt/55/5041394_1.jpg"
@@ -26550,7 +26303,7 @@
         "rejected": {
           "identity_or_condition": 39
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "LEGO Horizon Adventures PS5",
@@ -27280,7 +27033,7 @@
         "rejected": {
           "identity_or_condition": 39
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "LEGO Horizon Adventures PS5",
@@ -27915,7 +27668,7 @@
         "rejected": {
           "identity_or_condition": 31
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "The Last Of Us Part II (Remastered) PS5"
@@ -28347,7 +28100,7 @@
         "rejected": {
           "identity_or_condition": 20
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Rise Of The Ronin (PS5)"
@@ -28617,7 +28370,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "High on Life 2 (Playstation 5 / PS5)"
@@ -28848,7 +28601,7 @@
         "rejected": {
           "identity_or_condition": 49
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Ghost of Yotei (PS5)"
@@ -29047,7 +28800,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS Zero Company Standard Edition PS5 |Disc I VideoGame |English"
@@ -29460,8 +29213,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg"
@@ -29588,8 +29341,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg",
@@ -29632,8 +29385,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/150x150/qt/55/5039994_1.jpg",
@@ -29676,8 +29429,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg",
@@ -29720,8 +29473,8 @@
       "item_price": 13.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/150x150/qt/55/5040150_1.jpg"
@@ -29762,8 +29515,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
@@ -29806,8 +29559,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg"
@@ -30022,8 +29775,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/150x150/qt/55/5040878_1.jpg",
@@ -30144,19 +29897,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 15.98,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/150x150/qt/55/5039148_1.jpg",
         "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
         "https://i.ebayimg.com/images/g/svUAAeSw5mFq-0k5/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-the-fast-and-the-furious-toyota-supra-mk4-77260-5039148",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 26.05,
       "sell_for_minimum_profit": 35.63,
@@ -30232,8 +29985,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/150x150/qt/55/5038670_1.jpg",
@@ -30262,6 +30015,45 @@
       }
     },
     {
+      "title": "Like a Dragon: Pirate Yakuza in Hawaii (PS5)",
+      "url": "https://www.hotukdeals.com/deals/like-a-dragon-pirate-yakuza-in-hawaii-ps5-5042568",
+      "policy_key": "04ece9e7a04faac187343261",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 16.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/s83N6/5042568_1/re/150x150/qt/55/5042568_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/like-a-dragon-pirate-yakuza-in-hawaii-ps5-5042568",
+      "landed_cost": null,
+      "breakeven_sell": 24.36,
+      "sell_for_minimum_profit": 33.8,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T09:39:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Like+a+Dragon%3A+Pirate+Yakuza+in+Hawaii+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO DC Batman v Superman Batmobile Set 76331",
       "url": "https://www.hotukdeals.com/deals/lego-dc-batman-v-superman-batmobile-set-76331-5038933",
       "policy_key": "09e1b07a71200e6bc9e4a01e",
@@ -30276,8 +30068,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg",
@@ -30697,45 +30489,6 @@
       }
     },
     {
-      "title": "Star Wars Outlaws Gold Edition (Nintendo Switch 2 Game)",
-      "url": "https://www.hotukdeals.com/deals/star-wars-outlaws-gold-edition-switch-2-5042521",
-      "policy_key": "00eac22992b1d806a9c8c258",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 24.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Fv611/5042521_1/re/150x150/qt/55/5042521_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-outlaws-gold-edition-switch-2-5042521",
-      "landed_cost": null,
-      "breakeven_sell": 33.85,
-      "sell_for_minimum_profit": 45.66,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-22T09:06:49+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars+Outlaws+Gold+Edition+%28Nintendo+Switch+2+Game%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Christmas Stocking Toy - Hanging Decoration 40958. Free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
       "policy_key": "4023ff1ead21e1852cd2d96d",
@@ -30750,8 +30503,8 @@
       "item_price": 25.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg",
@@ -30794,8 +30547,8 @@
       "item_price": 25.08,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/150x150/qt/55/5038691_1.jpg",
@@ -30868,6 +30621,74 @@
       }
     },
     {
+      "title": "Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack - Switch 2 Game",
+      "url": "https://www.hotukdeals.com/deals/toy-story-retro-roundup-toy-story-3-complete-edition-double-pack-switch-2-5042560",
+      "policy_key": "91cf248a79f8ff7151f35f18",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 27.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/oOpG2/5042560_1/re/150x150/qt/55/5042560_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/toy-story-retro-roundup-toy-story-3-complete-edition-double-pack-switch-2-5042560",
+      "landed_cost": null,
+      "breakeven_sell": 37.39,
+      "sell_for_minimum_profit": 50.62,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T09:39:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Toy+Story%3A+Retro+Roundup%21+%2B+Toy+Story+3+Complete+Edition+Double+Pack&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "toy story retro roundup + toy story 3 complete edition double pack switch 2 game",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T09:39:48+00:00",
+        "date": "2026-11-22",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 3
+        },
+        "query_aliases": [
+          "Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack - Switch 2 Game"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Festive Gingerbread House 40809",
       "url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5038732",
       "policy_key": "83b333ceee0be2cc503e0987",
@@ -30882,8 +30703,8 @@
       "item_price": 28.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg",
@@ -31012,8 +30833,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -31054,8 +30875,8 @@
       "item_price": 29.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg",
@@ -31098,8 +30919,8 @@
       "item_price": 32.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg",
@@ -31142,8 +30963,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -31184,8 +31005,8 @@
       "item_price": 33.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg"
@@ -31226,8 +31047,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/150x150/qt/55/5042449_1.jpg",
@@ -31270,8 +31091,8 @@
       "item_price": 34.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/150x150/qt/55/5040440_1.jpg"
@@ -31312,8 +31133,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg",
@@ -31488,8 +31309,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/150x150/qt/55/5040214_1.jpg",
@@ -31766,29 +31587,34 @@
       }
     },
     {
-      "title": "Elden Ring: Tarnished Edition (Nintendo Switch 2) - PEGI 16",
-      "url": "https://www.hotukdeals.com/deals/elden-ring-tarnished-edition-nintendo-switch-2-pegi-16-5042522",
-      "policy_key": "b600fa861d0bd3dbafaf29a8",
-      "category": "gaming",
+      "title": "LEGO Technic Jeep Wrangler Rubicon SUV 42227 (Discount at Checkout)",
+      "url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-discount-at-checkout-5040371",
+      "policy_key": "f30935b67a857d6ab896b440",
+      "category": "lego",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "Amazon",
-      "item_price": 36.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Dw7C6/5042522_1/re/150x150/qt/55/5042522_1.jpg",
+      "item_price": 37.7,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
+        "https://i.ebayimg.com/images/g/dIQAAeSwIfpq~Kvy/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/elden-ring-tarnished-edition-nintendo-switch-2-pegi-16-5042522",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-discount-at-checkout-5040371",
       "landed_cost": null,
-      "breakeven_sell": 48.02,
-      "sell_for_minimum_profit": 65.48,
+      "breakeven_sell": 52.06,
+      "sell_for_minimum_profit": 70.13,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -31796,38 +31622,9 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-22T09:06:49+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Elden+Ring%3A+Tarnished+Edition+%28Nintendo+Switch+2%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "elden ring tarnished edition pegi 16 nintendo switch 2",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-22T09:06:50+00:00",
-        "date": "2026-11-22",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 10
-        },
-        "query_aliases": [
-          "Elden Ring: Tarnished Edition (Nintendo Switch 2) - PEGI 16"
-        ]
-      },
+      "first_seen": "2026-11-20T10:28:42+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Jeep+Wrangler+Rubicon+SUV+42227+%28Discount+at+Checkout%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -31931,8 +31728,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/150x150/qt/55/5042449_1.jpg",
@@ -31954,50 +31751,6 @@
       "priority": 10,
       "first_seen": "2026-11-19T14:57:21+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+Leonardo+da+Vinci%27s+Flying+Machine+10363&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Botanicals Succulents 10309",
-      "url": "https://www.hotukdeals.com/deals/lego-botanicals-succulents-10309-5038128",
-      "policy_key": "0beed761abb6d7a850e71d48",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 38.24,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/300x300/qt/55/5038128_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/z5FHA/5038128_1/re/150x150/qt/55/5038128_1.jpg",
-        "https://i.ebayimg.com/images/g/fXoAAeSwg6Bp7N0T/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/r4cAAeSw7o1q~W-9/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 52.7,
-      "sell_for_minimum_profit": 71.03,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-19T00:23:07+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Botanicals+Succulents+10309&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -32093,6 +31846,45 @@
       }
     },
     {
+      "title": "EVOLAND Vibration Plate Exercise Machine, Fitness Vibration Trainer",
+      "url": "https://www.hotukdeals.com/deals/evoland-vibration-plate-exercise-machine-fitness-vibration-trainer-5042566",
+      "policy_key": "fec9ecabe412ff5fbe733399",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 39.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/9tPgq/5042566_1/re/150x150/qt/55/5042566_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/evoland-vibration-plate-exercise-machine-fitness-vibration-trainer-5042566",
+      "landed_cost": null,
+      "breakeven_sell": 52.86,
+      "sell_for_minimum_profit": 71.82,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T09:39:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=EVOLAND+Vibration+Plate+Exercise+Machine%2C+Fitness+Vibration+Trainer&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Pok\u00e9mon SMART Play: Eevee and Lapras\u2019s Treasure Hunt 72162",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-eevee-and-laprass-treasure-hunt-72162-5041622",
       "policy_key": "e83c45bcd8ce9b22992f1d3d",
@@ -32107,8 +31899,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg"
@@ -32193,8 +31985,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
@@ -32235,8 +32027,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
@@ -32277,8 +32069,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
@@ -32549,79 +32341,6 @@
       "priority": 10,
       "first_seen": "2026-11-16T18:31:57+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=FC27+Xbox+Series+X+%2F+One+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "fc27 one edition xbox series x",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-22T03:35:48+00:00",
-        "date": "2026-11-22",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 3
-        },
-        "query_aliases": [
-          "FC27 Xbox Series X / One Edition - Free C&C"
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Wednesday Nevermore Academy 76788",
-      "url": "https://www.hotukdeals.com/deals/lego-wednesday-nevermore-academy-76788-5035424",
-      "policy_key": "0b5318a584bbf186134f9523",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 44.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/BKPPc/5035424_1/re/300x300/qt/55/5035424_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/BKPPc/5035424_1/re/150x150/qt/55/5035424_1.jpg",
-        "https://i.ebayimg.com/images/g/X7MAAeSwytNq~HPh/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ZM4AAeSwvnxq5Emu/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 60.79,
-      "sell_for_minimum_profit": 82.35,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-16T21:44:24+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Wednesday+Nevermore+Academy+76788&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -32643,8 +32362,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -32773,8 +32492,8 @@
       "item_price": 49.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
@@ -32817,8 +32536,8 @@
       "item_price": 51.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
@@ -32905,8 +32624,8 @@
       "item_price": 57.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
-      "image_verified_until": "2026-11-22T09:26:54.460562+00:00",
-      "image_checked_at": "2026-11-22T09:06:54.460562+00:00",
+      "image_verified_until": "2026-11-22T09:59:52.108564+00:00",
+      "image_checked_at": "2026-11-22T09:39:52.108564+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EWxAj/5036973_1/re/300x300/qt/55/5036973_1.jpg",
@@ -33021,9 +32740,9 @@
       }
     },
     {
-      "title": "Emporio Armani Stronger With You For Men Intensely Eau de Parfum 100ml + 15ml",
-      "url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-for-men-intensely-eau-de-parfum-100ml-15ml-5042539",
-      "policy_key": "7ec5e5b5902702f8c223ece1",
+      "title": "Emporio Armani Stronger With You Intensely Eau de Parfum 150ml (with code)",
+      "url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-intensely-eau-de-parfum-150ml-with-code-5042575",
+      "policy_key": "2aade89ebe89c94e7c64f110",
       "category": "fragrance",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -33031,19 +32750,19 @@
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "John Lewis &amp; Partners",
-      "item_price": 64.75,
+      "merchant": "LOOKFANTASTIC",
+      "item_price": 74.97,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/4xl94/5042539_1/re/150x150/qt/55/5042539_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/TN4YN/5042575_1/re/150x150/qt/55/5042575_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-for-men-intensely-eau-de-parfum-100ml-15ml-5042539",
+      "image_source_url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-intensely-eau-de-parfum-150ml-with-code-5042575",
       "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
+      "breakeven_sell": 95.45,
+      "sell_for_minimum_profit": 131.36,
       "transport_scenario": {
         "profile": {
           "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
@@ -33051,33 +32770,142 @@
           "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
           "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
           "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": null,
-          "postage": null,
-          "status": "unvalidated",
+          "ml": 150,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
           "actual_parcel_verified": false,
           "scope": "UK domestic only; no international service",
           "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
           "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
           "packaging_assumption": 0.5,
           "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
+          "reason": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
         },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
+        "status": "conditional_tariff_scenario",
+        "breakeven": 95.45,
+        "required_resale": 131.36,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": null
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 74.97,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
       },
-      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
+      "outbound_transport_status": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
       "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
       "blockers": [
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-22T09:06:49+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Emporio+Armani+Stronger+With+You+For+Men+Intensely+Eau+de+Parfum+100ml+%2B+15ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-22T09:39:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Emporio+Armani+Stronger+With+You+Intensely+Eau+de+Parfum+150ml+%28with+code%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Emporio Armani Stronger With You Intensely Eau de Parfum 150ml (with code)",
+      "url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-intensely-eau-de-parfum-150ml-with-code-5042559",
+      "policy_key": "d79ac5a2563fd1a65557ca2a",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Escentual",
+      "item_price": 75.87,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/k69QI/5042559_1/re/150x150/qt/55/5042559_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-intensely-eau-de-parfum-150ml-with-code-5042559",
+      "landed_cost": null,
+      "breakeven_sell": 96.53,
+      "sell_for_minimum_profit": 132.88,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 150,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 96.53,
+        "required_resale": 132.88,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 75.87,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "150ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T09:39:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Emporio+Armani+Stronger+With+You+Intensely+Eau+de+Parfum+150ml+%28with+code%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Nike Alphafly 3 Carbon Running Shoes - Women's Sizes 5/5.5/6/6.5/7 w/Code",
+      "url": "https://www.hotukdeals.com/deals/nike-alphafly-3-carbon-running-shoes-womens-sizes-5556657-wcode-5042569",
+      "policy_key": "f0df37030510b916c24c5331",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Lovell Sports",
+      "item_price": 79.2,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/z0bz3/5042569_1/re/150x150/qt/55/5042569_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nike-alphafly-3-carbon-running-shoes-womens-sizes-5556657-wcode-5042569",
+      "landed_cost": null,
+      "breakeven_sell": 100.01,
+      "sell_for_minimum_profit": 130.86,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T09:39:47+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Alphafly+3+Carbon+Running+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -33216,8 +33044,8 @@
       "item_price": 119.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/150x150/qt/55/5041409_1.jpg"
@@ -34790,6 +34618,45 @@
       }
     },
     {
+      "title": "Atomic Heart - PS5",
+      "url": "https://www.hotukdeals.com/deals/atomic-heart-ps5-5042348",
+      "policy_key": "4751bbae4aa718f509ce022d",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "The Game Collection",
+      "item_price": 12.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/egPhG/5042348_1/re/150x150/qt/55/5042348_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/atomic-heart-ps5-5042348",
+      "landed_cost": null,
+      "breakeven_sell": 19.63,
+      "sell_for_minimum_profit": 29.08,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-22T00:15:26+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Atomic+Heart&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "PGA Tour 2K25 PS5 / XBOX SX / Nintendo Switch 2 - Free C&C",
       "url": "https://www.hotukdeals.com/deals/pga-tour-2k25-ps5-xbox-sx-nintendo-switch-2-free-cc-5039868",
       "policy_key": "71ec9963d618bf81966c51ff",
@@ -35435,6 +35302,45 @@
       "priority": 0,
       "first_seen": "2026-11-20T15:23:28+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Screamer+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "SnowRunner - Nintendo Switch 2",
+      "url": "https://www.hotukdeals.com/deals/snowrunner-nintendo-switch-2-5042364",
+      "policy_key": "17077954a60b1ecb7ee52394",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 14.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/57xBA/5042364_1/re/150x150/qt/55/5042364_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/snowrunner-nintendo-switch-2-5042364",
+      "landed_cost": null,
+      "breakeven_sell": 22.04,
+      "sell_for_minimum_profit": 31.48,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-22T00:52:36+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=SnowRunner&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -37416,70 +37322,6 @@
       }
     },
     {
-      "title": "Lynx Fine Fragrance Bodyspray & Bodywash Collection with Speaker Gift Set",
-      "url": "https://www.hotukdeals.com/deals/lynx-fine-fragrance-bodyspray-bodywash-collection-with-speaker-gift-set-5040971",
-      "policy_key": "1ac4b9438552aef4314c271f",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 20.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Bo4U5/5040971_1/re/150x150/qt/55/5040971_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lynx-fine-fragrance-bodyspray-bodywash-collection-with-speaker-gift-set-5040971",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": null,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-20T18:02:58+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lynx+Fine+Fragrance+Bodyspray+%26+Bodywash+Collection+with+Speaker+Gift+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Tales of Eternia Remastered PS5",
       "url": "https://www.hotukdeals.com/deals/tales-of-eternia-remastered-playstation-5-5040048",
       "policy_key": "cc1b142dbc26cb85a3ce724a",
@@ -39066,6 +38908,45 @@
       }
     },
     {
+      "title": "Two Point Hospital: Full Health Collection - Nintendo Switch 2 / PS5",
+      "url": "https://www.hotukdeals.com/deals/two-point-hospital-full-health-collection-nintendo-switch-2-ps5-5041349",
+      "policy_key": "48230cea0e985eab3071a9fc",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 24.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/IsY2G/5041349_1/re/150x150/qt/55/5041349_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/two-point-hospital-full-health-collection-nintendo-switch-2-ps5-5041349",
+      "landed_cost": null,
+      "breakeven_sell": 33.85,
+      "sell_for_minimum_profit": 45.66,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-21T00:28:07+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Two+Point+Hospital%3A+Full+Health+Collection&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Nike Chelsea 25/26 Womens Dri-FIT Stadium Away Shirt, Size XL",
       "url": "https://www.hotukdeals.com/deals/nike-chelsea-2526-womens-dri-fit-stadium-away-shirt-size-xl-5039422",
       "policy_key": "ab5e768e730ba6f778d52971",
@@ -39815,7 +39696,7 @@
       "policy_key": "51310904542b2535f99558e9",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -40058,8 +39939,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
-      "image_verified_until": "2026-11-22T09:25:53.203547+00:00",
-      "image_checked_at": "2026-11-22T09:05:53.203547+00:00",
+      "image_verified_until": "2026-11-22T09:58:22.690574+00:00",
+      "image_checked_at": "2026-11-22T09:38:22.690574+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/150x150/qt/55/5042272_1.jpg"
@@ -43353,6 +43234,45 @@
       }
     },
     {
+      "title": "WOOLNUT - Leather Case for AirPods Max: Tailor-Made Fit, Magnet for Low-Power Mode - Sold by WOOLNUT / FBA",
+      "url": "https://www.hotukdeals.com/deals/woolnut-airpod-max-case-5039654",
+      "policy_key": "437590ec2014013a78cc7711",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 47.2,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/DZLb9/5039654_1/re/150x150/qt/55/5039654_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/woolnut-airpod-max-case-5039654",
+      "landed_cost": null,
+      "breakeven_sell": 63.15,
+      "sell_for_minimum_profit": 86.44,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-19T21:08:39+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=WOOLNUT&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Yves Saint Laurent Black Opium Over Red Eau De Parfum 50ml (with code)",
       "url": "https://www.hotukdeals.com/deals/yves-saint-laurent-black-opium-over-red-eau-de-parfum-50ml-with-code-5041946",
       "policy_key": "4756a4b434c328dfb96f5ae1",
@@ -43531,45 +43451,6 @@
       "first_seen": "2026-11-19T07:51:35+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Ace+Combat+8%3A+Wings+of+Theve+%28Xbox+Series+X%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Nike Air Max SC Men's Shoes in Navy / White - various sizes",
-      "url": "https://www.hotukdeals.com/deals/nike-air-max-sc-various-sizes-5038396",
-      "policy_key": "1d57c221026e26eb2265d91b",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Nike",
-      "item_price": 47.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/30Fh5/5038396_1/re/150x150/qt/55/5038396_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nike-air-max-sc-various-sizes-5038396",
-      "landed_cost": null,
-      "breakeven_sell": 63.77,
-      "sell_for_minimum_profit": 87.1,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T07:19:55+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Air+Max+SC+Men%27s+Shoes+in+Navy+%2F+White&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -44246,45 +44127,6 @@
       "priority": 0,
       "first_seen": "2026-11-17T00:24:03+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PlayStation+5+DualSense+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "New Balance 950 Men Shoes",
-      "url": "https://www.hotukdeals.com/deals/new-balance-950-men-shoes-5040401",
-      "policy_key": "0509c2c4714be7b07e7030f8",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Foot Locker",
-      "item_price": 50.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/5CYmU/5040401_1/re/150x150/qt/55/5040401_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/new-balance-950-men-shoes-5040401",
-      "landed_cost": null,
-      "breakeven_sell": 66.22,
-      "sell_for_minimum_profit": 90.53,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-20T11:01:27+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=New+Balance+950+Men+Shoes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -45218,6 +45060,70 @@
       }
     },
     {
+      "title": "Emporio Armani Stronger With You For Men Intensely Eau de Parfum 100ml + 15ml",
+      "url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-for-men-intensely-eau-de-parfum-100ml-15ml-5042539",
+      "policy_key": "7ec5e5b5902702f8c223ece1",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "John Lewis &amp; Partners",
+      "item_price": 64.75,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/4xl94/5042539_1/re/150x150/qt/55/5042539_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/emporio-armani-stronger-with-you-for-men-intensely-eau-de-parfum-100ml-15ml-5042539",
+      "landed_cost": null,
+      "breakeven_sell": null,
+      "sell_for_minimum_profit": null,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": null,
+          "postage": null,
+          "status": "unvalidated",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
+        },
+        "status": "unvalidated",
+        "breakeven": null,
+        "required_resale": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null
+      },
+      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-22T09:06:49+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Emporio+Armani+Stronger+With+You+For+Men+Intensely+Eau+de+Parfum+100ml+%2B+15ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Nike React Vision Men's Trainers - \u00a358.49 via App w/UNiDAYS - Sizes 3.5 - 14 - Free Delivery for Members (Free Sign up)",
       "url": "https://www.hotukdeals.com/deals/nike-react-vision-mens-trainers-ps6175-wgift-cards-sizes-35-14-free-delivery-for-members-free-sign-up-5041464",
       "policy_key": "fe611883b3d1984ef6bf75e2",
@@ -45854,7 +45760,7 @@
       }
     },
     {
-      "title": "Beats Studio Buds+ Earbuds + 6 Months Free Apple Music | 36H Battery, Noise Cancelling - Transparent/Black/Ivory",
+      "title": "Beats Studio Buds+ Earbuds + 6 Months Free Apple Music (\u00a371.94 Value) | 36H Battery, Noise Cancelling - Transparent/Black/Ivory",
       "url": "https://www.hotukdeals.com/deals/beats-studio-buds-earbuds-36h-battery-noise-cancelling-6-months-free-apple-music-5042489",
       "policy_key": "c61f5b9fa77860a139083f7e",
       "category": "tech",
@@ -45885,7 +45791,7 @@
       ],
       "priority": 0,
       "first_seen": "2026-11-22T08:34:00+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Beats+Studio+Buds%2B+Earbuds+%2B+6+Months+Free+Apple+Music&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Beats+Studio+Buds%2B+Earbuds+%2B+6+Months+Free+Apple+Music+%28+Value%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -45989,73 +45895,6 @@
       "priority": 0,
       "first_seen": "2026-11-22T08:34:00+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Rabanne+1+Million+Elixir+Parfum+Intense+200ml+%28w%2FCode+%26+Advantage+Card+Offers+%2F+Selected+Accounts%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Jo Malone English Pear & Sweet Pea Cologne 100ml Body Cream & Candle Set - With Code",
-      "url": "https://www.hotukdeals.com/deals/jo-malone-english-pear-sweet-pea-cologne-100ml-body-cream-candle-set-5040980",
-      "policy_key": "3c1a66982193ca5827e8a9d2",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Hogies Online",
-      "item_price": 94.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Nolfe/5040980_1/re/150x150/qt/55/5040980_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/jo-malone-english-pear-sweet-pea-cologne-100ml-body-cream-candle-set-5040980",
-      "landed_cost": null,
-      "breakeven_sell": 119.42,
-      "sell_for_minimum_profit": 164.94,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 100,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 119.42,
-        "required_resale": 164.94,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 94.99,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-20T18:35:25+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jo+Malone+English+Pear+%26+Sweet+Pea+Cologne+100ml+Body+Cream+%26+Candle+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -46483,49 +46322,49 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 528,
-      "known_landed_under_cap": 4,
+      "retailer_offers": 527,
+      "known_landed_under_cap": 3,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
-      "under_cap_without_model": 4,
+      "under_cap_without_model": 3,
       "retailer_unknown_delivery": 522,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 529,
-    "priced": 9,
-    "unpriced": 520,
+    "scanned": 528,
+    "priced": 10,
+    "unpriced": 518,
     "affordable": 0,
     "A": 0,
     "B": 0,
-    "R": 9,
-    "rejected_reference": 9,
+    "R": 10,
+    "rejected_reference": 10,
     "rejected_sold": 0,
     "uncertain": 3,
     "stale": 4,
     "expired": 0,
     "expiry_checked": 0,
-    "expiry_unknown": 9,
+    "expiry_unknown": 10,
     "sold_valued": 0,
-    "reference_only": 9,
-    "online_eligible": 469,
-    "under_cap_known_delivery": 4,
-    "delivery_known": 7,
+    "reference_only": 10,
+    "online_eligible": 472,
+    "under_cap_known_delivery": 3,
+    "delivery_known": 6,
     "ask_valued": 24,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
     "above_budget_estimates": 5,
-    "above_budget_candidates": 44,
+    "above_budget_candidates": 46,
     "above_budget_researched": 5,
-    "above_budget_research_candidates": 44,
+    "above_budget_research_candidates": 46,
     "acquisition_by_source": {
-      "ebay_browse": 1,
-      "hotukdeals": 528
+      "hotukdeals": 527,
+      "ebay_browse": 1
     },
     "qualified_delivery_unknown": 22,
     "ask_delivery_known": 2,
     "ask_unique_products": 23,
     "ask_research_identities": 23,
-    "without_any_pricing": 497,
+    "without_any_pricing": 495,
     "pricing_coverage": {
       "fragrance": {
         "offers": 32,
@@ -46535,28 +46374,28 @@
         "supported_retailer_identities": 0
       },
       "gaming": {
-        "offers": 202,
-        "exact_identity": 122,
+        "offers": 206,
+        "exact_identity": 123,
         "estimated_offers": 7,
         "estimated_products": 6,
         "supported_retailer_identities": 3
       },
       "lego": {
-        "offers": 120,
-        "exact_identity": 100,
+        "offers": 119,
+        "exact_identity": 99,
         "estimated_offers": 15,
         "estimated_products": 15,
-        "supported_retailer_identities": 6
+        "supported_retailer_identities": 7
       },
       "other": {
-        "offers": 23,
+        "offers": 20,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
       },
       "tech": {
-        "offers": 55,
+        "offers": 54,
         "exact_identity": 1,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -46579,12 +46418,12 @@
     },
     "browse_usage": {
       "date": "2026-11-22",
-      "calls": 243,
+      "calls": 255,
       "by_purpose": {
-        "persistent-research": 38,
-        "item-details": 76,
-        "acquisition": 76,
-        "asking-affordable": 38,
+        "persistent-research": 40,
+        "item-details": 80,
+        "acquisition": 80,
+        "asking-affordable": 40,
         "asking-watch": 14,
         "asking-tools": 1
       }
@@ -46598,12 +46437,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 32,
+        "duplicates": 30,
         "old_dropped": 94,
         "age_unknown": 0,
-        "missing_price_or_category": 100,
-        "ambiguous_price": 3,
-        "page_requests": 10
+        "missing_price_or_category": 103,
+        "ambiguous_price": 4,
+        "page_requests": 11
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -46611,11 +46450,11 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 2,
-          "cached": 21,
+          "cached": 20,
           "query_budget": 2,
           "queries_by_category": {
-            "lego": 1,
-            "gaming": 1
+            "gaming": 1,
+            "lego": 1
           },
           "candidates_with_samples": 19,
           "status": "ready",
@@ -46632,13 +46471,10 @@
           },
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 2,
-            "cached": 3,
+            "queries": 0,
+            "cached": 5,
             "query_budget": 2,
-            "queries_by_category": {
-              "trainers": 1,
-              "lego": 1
-            },
+            "queries_by_category": {},
             "candidates_with_samples": 5,
             "status": "ready",
             "errors": []
@@ -46652,8 +46488,8 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-22T09:00:24.629Z",
-        "last_success": "2026-11-22T09:00:24.629Z"
+        "last_attempt": "2026-11-22T09:30:24.319Z",
+        "last_success": "2026-11-22T09:30:24.319Z"
       },
       "ebay_acquisition": {
         "status": "ready",
@@ -46669,49 +46505,49 @@
         },
         "query_details": [
           {
-            "query": "LEGO 75445",
+            "query": "LEGO 60506",
             "category": "lego",
             "samples": 0,
             "rejected": {
-              "identity_or_condition": 6
+              "identity_or_condition": 12
             },
-            "sort": "newlyListed",
-            "max_item_price": 22.45,
-            "max_landed_price": 22.45,
+            "sort": "price",
+            "max_item_price": 23.6,
+            "max_landed_price": 23.6,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "the last of us part ii remastered ps5",
+            "query": "resident evil requiem nintendo switch 2",
             "category": "gaming",
             "samples": 0,
-            "rejected": {},
+            "rejected": {
+              "identity_or_condition": 2
+            },
             "sort": "newlyListed",
-            "max_item_price": 12.48,
-            "max_landed_price": 12.48,
+            "max_item_price": 20.84,
+            "max_landed_price": 20.84,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "LEGO 75398",
+            "query": "LEGO 72050",
             "category": "lego",
             "samples": 0,
             "rejected": {
-              "identity_or_condition": 6
+              "identity_or_condition": 1
             },
             "sort": "newlyListed",
-            "max_item_price": 56.14,
-            "max_landed_price": 56.14,
+            "max_item_price": 60.0,
+            "max_landed_price": 60.0,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Nike HQ1416-001",
+            "query": "Nike HQ2056-108",
             "category": "trainers",
-            "samples": 2,
-            "rejected": {
-              "identity_or_condition": 48
-            },
+            "samples": 0,
+            "rejected": {},
             "sort": "price",
             "max_item_price": null,
             "max_landed_price": null,
@@ -46722,11 +46558,11 @@
         "target_selection": {
           "contexts_examined": 150,
           "context_reasons": {
-            "not_usable": 143,
-            "eligible": 4,
+            "not_usable": 142,
+            "eligible": 5,
             "query_cooldown": 3
           },
-          "eligible_distinct_queries": 4,
+          "eligible_distinct_queries": 5,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -46735,12 +46571,10 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 75445",
-        "matched_shipped_samples": 2,
-        "rejections": {
-          "identity_or_condition": 48
-        },
-        "watchlist_products": 208
+        "query": "LEGO 60506",
+        "matched_shipped_samples": 0,
+        "rejections": {},
+        "watchlist_products": 206
       },
       "reviewed_bridge": {
         "status": "ready",
@@ -46755,29 +46589,29 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 13,
-    "rescanned": 516,
+    "new": 18,
+    "rescanned": 510,
     "price_changed": 0,
-    "previous_success": "2026-11-22T08:34:57+00:00",
-    "gap_minutes": 31.9,
+    "previous_success": "2026-11-22T09:07:28+00:00",
+    "gap_minutes": 32.3,
     "publication_holds": {
-      "eligible": 10,
-      "held": 519,
+      "eligible": 11,
+      "held": 517,
       "reasons": {
-        "no_supported_resale_estimate": 505,
+        "no_supported_resale_estimate": 504,
         "uncertain_competitor_coupon": 3,
         "fewer_than_three_exact_independent_comparators": 3,
-        "low_price_not_supported": 7,
+        "low_price_not_supported": 6,
         "detail_check_pending": 1
       },
       "by_category": {
-        "tools": 23,
+        "tech": 54,
+        "other": 20,
         "trainers": 73,
+        "lego": 112,
+        "tools": 23,
         "fragrance": 32,
-        "tech": 55,
-        "lego": 114,
-        "other": 23,
-        "gaming": 199
+        "gaming": 203
       }
     },
     "excluded_nonphysical": [
@@ -47016,22 +46850,22 @@
         "reason": "Digital key/code/licence is not a physical resale item"
       },
       {
-        "title": "007 First Light PC Key",
-        "url": "https://www.hotukdeals.com/deals/007-first-light-pc-key-5042541",
-        "price": 28.99,
+        "title": "Alice: Madness Returns - PC/Steam",
+        "url": "https://www.hotukdeals.com/deals/alice-madness-returns-pcsteam-5042357",
+        "price": 1.79,
+        "merchant": "Steam",
+        "source": null,
+        "category": "digital",
+        "reason": "Digital/nonphysical format; physical delivery and resale economics do not apply"
+      },
+      {
+        "title": "Pokemon Pokopia - Expansion Pass Switch 2 (Europe & UK) Key",
+        "url": "https://www.hotukdeals.com/deals/pokemon-pokopia-expansion-pass-switch-2-europe-uk-key-5042579",
+        "price": 27.49,
         "merchant": "Loaded",
         "source": null,
         "category": "digital",
-        "reason": "Digital key/code/licence is not a physical resale item"
-      },
-      {
-        "title": "Heat (1995) 4K UHD Digital Download to Buy",
-        "url": "https://www.hotukdeals.com/deals/heat-1995-4k-uhd-digital-download-to-buy-5042509",
-        "price": 4.99,
-        "merchant": "Apple Store",
-        "source": null,
-        "category": "digital",
-        "reason": "Digital key/code/licence is not a physical resale item"
+        "reason": "Digital storefront format not confirmed physical"
       }
     ],
     "source_coverage": {
@@ -47042,8 +46876,8 @@
         "actionable": 0
       },
       "hotukdeals": {
-        "offers": 528,
-        "new": 13,
+        "offers": 527,
+        "new": 18,
         "estimated": 23,
         "actionable": 0
       }
@@ -47051,7 +46885,7 @@
     "value_watchlist": {
       "products": 141,
       "identity_contexts": 150,
-      "usable_targets": 8,
+      "usable_targets": 9,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -47066,7 +46900,7 @@
         "lego": {
           "products": 83,
           "identity_contexts": 92,
-          "usable_targets": 6
+          "usable_targets": 7
         },
         "tech": {
           "products": 1,
@@ -47097,22 +46931,22 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 529,
+      "offers_scanned": 528,
       "research_models_generated": 24,
-      "supported_market_estimates": 10,
-      "publication_qualified_cards": 10,
-      "route_eligible_cards": 10,
+      "supported_market_estimates": 11,
+      "publication_qualified_cards": 11,
+      "route_eligible_cards": 11,
       "route_eligibility_scope": "policy/format admission only; live availability, destination, limits and notification deduplication still apply",
       "buying_signals": 0,
       "opportunity_candidates": 0,
-      "research_watch_candidates": 10,
+      "research_watch_candidates": 11,
       "above_budget_priced_watch": 2,
-      "research_holds": 519,
+      "research_holds": 517,
       "hold_reasons": {
-        "no_supported_resale_estimate": 505,
+        "no_supported_resale_estimate": 504,
         "uncertain_competitor_coupon": 3,
         "fewer_than_three_exact_independent_comparators": 3,
-        "low_price_not_supported": 7,
+        "low_price_not_supported": 6,
         "detail_check_pending": 1
       },
       "by_category": {
@@ -47123,10 +46957,10 @@
           "holds": 73
         },
         "lego": {
-          "offers": 120,
-          "supported": 6,
-          "publication_qualified": 6,
-          "holds": 114
+          "offers": 119,
+          "supported": 7,
+          "publication_qualified": 7,
+          "holds": 112
         },
         "tools": {
           "offers": 24,
@@ -47135,10 +46969,10 @@
           "holds": 23
         },
         "gaming": {
-          "offers": 202,
+          "offers": 206,
           "supported": 3,
           "publication_qualified": 3,
-          "holds": 199
+          "holds": 203
         },
         "fragrance": {
           "offers": 32,
@@ -47147,19 +46981,19 @@
           "holds": 32
         },
         "tech": {
-          "offers": 55,
+          "offers": 54,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 55
+          "holds": 54
         },
         "other": {
-          "offers": 23,
+          "offers": 20,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 23
+          "holds": 20
         }
       },
-      "inbound_known": 7,
+      "inbound_known": 6,
       "inbound_unknown": 522
     },
     "nearest_above_cap": {
@@ -47214,19 +47048,19 @@
       "product_messages_delivered": 0,
       "by_route": {}
     },
-    "review_candidates": 433,
+    "review_candidates": 436,
     "lego_image_validation": {
       "checked": 32,
       "cached": 35,
       "verified": 69,
-      "pending": 51,
+      "pending": 50,
       "budget": 32,
       "paused_hosts": {}
     },
     "pricing_labels": {
-      "exact_priced": 10,
-      "research_model_only": 14,
-      "unpriced": 505,
+      "exact_priced": 11,
+      "research_model_only": 13,
+      "unpriced": 504,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
@@ -47235,9 +47069,9 @@
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "45005821180",
+      "run_id": "45008483867",
       "event": "workflow_dispatch",
-      "parent_run_id": "45003263704"
+      "parent_run_id": "45005821180"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -47310,6 +47144,17 @@
           "is_repost": false
         },
         {
+          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-botanicals-succulents-10309-5038128",
+          "url": "https://www.hotukdeals.com/deals/lego-botanicals-succulents-10309-5038128",
+          "title": "LEGO Botanicals Succulents 10309",
+          "current_price": 38.24,
+          "last_delivered_price": 38.24,
+          "pct_change": 0.0,
+          "would_deliver": false,
+          "reason": "price_change_under_10pct",
+          "is_repost": false
+        },
+        {
           "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/the-last-of-us-part-ii-remastered-ps5-5042351",
           "url": "https://www.hotukdeals.com/deals/the-last-of-us-part-ii-remastered-ps5-5042351",
           "title": "The Last Of Us Part II (Remastered) PS5",
@@ -47349,6 +47194,79 @@
     "pricing_observations": 0
   },
   "deals": [
+    {
+      "title": "Final Fantasy VII Rebirth (PC)",
+      "url": "https://www.hotukdeals.com/deals/final-fantasy-vii-pc-5042097",
+      "merchant": "Greenman Gaming",
+      "category": "other",
+      "grade": "R",
+      "buy": 6.0,
+      "target": 24.52,
+      "net": 8.88,
+      "roi": 147.9,
+      "worst": -0.56,
+      "worst_verified": false,
+      "confidence": 80,
+      "comp_age_days": 20,
+      "expired": false,
+      "intel": {
+        "retailer": "\u2754 Greenman Gaming: smaller retailer, check reviews and returns",
+        "fake": "\ud83d\udfe0 Medium fake/authenticity risk \u00b7 Keep the receipt.",
+        "cashback": "",
+        "history": "First time seen by MONEYHUNTER",
+        "camel": ""
+      },
+      "postage": 3.52,
+      "fees_basis": "eBay business standard fees incl 20% VAT, free-to-buyer postage, \u00a30.50 packaging, 3% returns; promotions/surcharges extra",
+      "max_buy": 6.88,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/final-fantasy-vii-pc-5042097",
+      "image_candidates": null,
+      "why": [
+        "Sell speed not proven",
+        "Sell-through not proven",
+        "No verified exit price"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/p2sca/5042097_1/re/150x150/qt/55/5042097_1.jpg",
+      "comp": "legacy_reference: \u00a324.52\u2013\u00a327.71: PriceCharting avg sold: boxed \u00a324.52 / sealed \u00a327.71 (USD\u00d70.745417 page rate); ~39 boxed sales/90d (https://www.pricecharting.com/game/pal-playstation-5/final-fantasy-",
+      "ebay_sold": "https://www.ebay.co.uk/sch/i.html?_nkw=Final+Fantasy+VII+Rebirth+%28PC%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "vinted": "https://www.vinted.co.uk/catalog?search_text=Final+Fantasy+VII+Rebirth+%28PC%29&order=price_low_to_high",
+      "delivery": "Retailer delivery, check ETA",
+      "days_to_sell": null,
+      "under_cap": false,
+      "identity_evidence": [],
+      "evidence_record_id": null,
+      "evidence_revision": null,
+      "evidence_type": "legacy_reference",
+      "sold_sources": [],
+      "floor_age_days": null,
+      "velocity_age_days": null,
+      "offer_observed_at": null,
+      "delivery_known": false,
+      "availability": "unknown",
+      "valuation_status": "reference_or_item_only_estimate",
+      "offer_verified": false,
+      "ask_context": null,
+      "ask_estimate": null,
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      },
+      "sold_90d": 39,
+      "publication_listing": 27.71,
+      "plan": {
+        "list": 27.71,
+        "target": 24.52,
+        "quick": 22.07,
+        "floor": 12.26,
+        "time_stop_day": 17,
+        "time_stop_rule": true,
+        "platforms": "eBay \u2192 eBay best offer \u2192 floor: No verified cash floor; best offer is not a floor"
+      }
+    },
     {
       "title": "Final Fantasy VII Rebirth (PS5)",
       "url": "https://www.hotukdeals.com/deals/final-fantasy-vii-rebirth-ps5-5039262",
@@ -47526,7 +47444,7 @@
         "rejected": {
           "identity_or_condition": 49
         },
-        "canonicalized_at": "2026-11-22T09:05:41+00:00",
+        "canonicalized_at": "2026-11-22T09:38:09+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Ghost of Yotei (PS5)"
