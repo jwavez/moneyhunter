@@ -16,8 +16,8 @@
       "item_price": 111.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/150x150/qt/55/5041520_1.jpg"
@@ -1236,8 +1236,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/150x150/qt/55/5039994_1.jpg",
@@ -2671,1307 +2671,6 @@
       }
     },
     {
-      "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-aston-martin-aramco-f1-amr24-race-car-77245-5036956",
-      "policy_key": "9bf37fa66caa89fbad65373a",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 13.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/150x150/qt/55/5036956_1.jpg",
-        "https://i.ebayimg.com/images/g/wegAAeSwtb9q~dGA/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/LYEAAeSwd2Zq-Zuv/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-aston-martin-aramco-f1-amr24-race-car-77245-5036956",
-      "landed_cost": null,
-      "breakeven_sell": 23.66,
-      "sell_for_minimum_profit": 33.25,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T07:41:00+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Aston+Martin+Aramco+F1+AMR24+Race+Car+77245&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 77245",
-        "category": "lego",
-        "name_terms": [
-          "amr24",
-          "aramco",
-          "aston",
-          "f1",
-          "martin",
-          "race"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-21T20:24:25+00:00",
-        "date": "2026-11-21",
-        "sample_count": 36,
-        "listed_total_low": 16.57,
-        "listed_total_p25": 19.01,
-        "listed_total_median": 21.3,
-        "listed_total_p75": 23.12,
-        "listed_total_high": 24.11,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|227620458233|0",
-            "seller": "ruairidhm23",
-            "image": "https://i.ebayimg.com/images/g/wegAAeSwtb9q~dGA/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227620458233",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 77245 New in Box",
-            "declared_condition": "new",
-            "item_price": 13.95,
-            "shipping": 2.62,
-            "listed_total": 16.57
-          },
-          {
-            "item_id": "v1|377647523941|0",
-            "seller": "lindsathomso-1",
-            "image": "https://i.ebayimg.com/images/g/LYEAAeSwd2Zq-Zuv/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377647523941",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car 77245",
-            "declared_condition": "new",
-            "item_price": 15.07,
-            "shipping": 2.26,
-            "listed_total": 17.33
-          },
-          {
-            "item_id": "v1|147690065366|0",
-            "seller": "ly_4768",
-            "image": "https://i.ebayimg.com/images/g/C2IAAeSwWBprAKZM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147690065366",
-            "title": "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car 269pcs",
-            "declared_condition": "new",
-            "item_price": 15.08,
-            "shipping": 2.62,
-            "listed_total": 17.7
-          },
-          {
-            "item_id": "v1|267850221739|0",
-            "seller": "steveandkel280707",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267850221739",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 17.99,
-            "shipping": 0.0,
-            "listed_total": 17.99
-          },
-          {
-            "item_id": "v1|377665634006|0",
-            "seller": "bkbudgetbuys",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377665634006",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 15.16,
-            "shipping": 3.01,
-            "listed_total": 18.17
-          },
-          {
-            "item_id": "v1|178558773700|0",
-            "seller": "rania4e",
-            "image": "https://i.ebayimg.com/images/g/CpsAAeSwwblq4hit/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178558773700",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245 Model Kit 269",
-            "declared_condition": "new",
-            "item_price": 18.27,
-            "shipping": 0.0,
-            "listed_total": 18.27
-          },
-          {
-            "item_id": "v1|227608156786|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/i9MAAeSwQIBq83HW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227608156786",
-            "title": "LEGO 77245 Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245, New",
-            "declared_condition": "new",
-            "item_price": 15.99,
-            "shipping": 2.94,
-            "listed_total": 18.93
-          },
-          {
-            "item_id": "v1|137906170924|0",
-            "seller": "geovo10",
-            "image": "https://i.ebayimg.com/images/g/3qkAAeSwZGpq7SZ7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137906170924",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 (77245) New Sealed Formula 1 \ud83d\ude9a\ud83d\udca8",
-            "declared_condition": "new",
-            "item_price": 18.95,
-            "shipping": 0.0,
-            "listed_total": 18.95
-          },
-          {
-            "item_id": "v1|287743698000|0",
-            "seller": "brick-cycle",
-            "image": "https://i.ebayimg.com/images/g/8foAAeSwXxJrAEFw/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287743698000",
-            "title": "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car Age 10+ 269pcs",
-            "declared_condition": "new",
-            "item_price": 18.99,
-            "shipping": 0.0,
-            "listed_total": 18.99
-          },
-          {
-            "item_id": "v1|227218046532|0",
-            "seller": "phil170868",
-            "image": "https://i.ebayimg.com/images/g/UAAAAeSwBAhpka3e/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227218046532",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car 77245",
-            "declared_condition": "new",
-            "item_price": 16.75,
-            "shipping": 2.26,
-            "listed_total": 19.01
-          },
-          {
-            "item_id": "v1|407268972830|0",
-            "seller": "tradeiq",
-            "image": "https://i.ebayimg.com/images/g/XswAAeSwnTlq4rHs/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407268972830",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245 Model Kit 269",
-            "declared_condition": "new",
-            "item_price": 19.08,
-            "shipping": 0.0,
-            "listed_total": 19.08
-          },
-          {
-            "item_id": "v1|398289064173|0",
-            "seller": "and_800274",
-            "image": "https://i.ebayimg.com/images/g/yFEAAeSwqWhqNa6r/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398289064173",
-            "title": "LEGO\u00ae Speed Champions 77245 Aston Martin Aramco F1 AMR24 | NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 16.99,
-            "shipping": 2.26,
-            "listed_total": 19.25
-          },
-          {
-            "item_id": "v1|820243280289|0",
-            "seller": "tedaw-66",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820243280289",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 17.21,
-            "shipping": 2.26,
-            "listed_total": 19.47
-          },
-          {
-            "item_id": "v1|168834704286|0",
-            "seller": "johay_42",
-            "image": "https://i.ebayimg.com/images/g/4WsAAeSwP6Zq6b7Z/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168834704286",
-            "title": "*BRAND NEW SEALED* LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24",
-            "declared_condition": "new",
-            "item_price": 17.22,
-            "shipping": 2.26,
-            "listed_total": 19.48
-          },
-          {
-            "item_id": "v1|336886699229|0",
-            "seller": "over_clock_expert",
-            "image": "https://i.ebayimg.com/images/g/t1sAAeSwntxq~14e/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336886699229",
-            "title": "LEGO 77245 Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245, New",
-            "declared_condition": "new",
-            "item_price": 17.0,
-            "shipping": 2.62,
-            "listed_total": 19.62
-          },
-          {
-            "item_id": "v1|398351898094|0",
-            "seller": "dodabricks",
-            "image": "https://i.ebayimg.com/images/g/CzsAAeSwIMRqmF~F/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398351898094",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 77245 269pc Age 10+",
-            "declared_condition": "new",
-            "item_price": 16.99,
-            "shipping": 2.69,
-            "listed_total": 19.68
-          },
-          {
-            "item_id": "v1|117427949918|0",
-            "seller": "mik_burto",
-            "image": "https://i.ebayimg.com/images/g/Ru8AAeSww5NqtFe4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/117427949918",
-            "title": "LEGO Aston Martin Aramco F1\u00ae AMR24 Race Car 77245 Speed Champions - BNIB",
-            "declared_condition": "new",
-            "item_price": 19.95,
-            "shipping": 0.91,
-            "listed_total": 20.86
-          },
-          {
-            "item_id": "v1|127779484458|0",
-            "seller": "lovebargains",
-            "image": "https://i.ebayimg.com/images/g/sUoAAeSw-2Bpybuj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127779484458",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245) New & Sealed",
-            "declared_condition": "new",
-            "item_price": 18.72,
-            "shipping": 2.26,
-            "listed_total": 20.98
-          },
-          {
-            "item_id": "v1|237125230069|0",
-            "seller": "emlu724cpo",
-            "image": "https://i.ebayimg.com/images/g/3uMAAeSw-zxq0Mdy/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/237125230069",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 19.35,
-            "shipping": 2.26,
-            "listed_total": 21.61
-          },
-          {
-            "item_id": "v1|287719653050|0",
-            "seller": "hermeshh",
-            "image": "https://i.ebayimg.com/images/g/zT4AAeSweCBq84gb/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287719653050",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1\u00ae AMR24 Race Car Building Set (77245)",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.26,
-            "listed_total": 21.62
-          },
-          {
-            "item_id": "v1|297962454340|0",
-            "seller": "bax8594",
-            "image": "https://i.ebayimg.com/images/g/ePIAAeSwJv1pgjcn/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/297962454340",
-            "title": "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car Age 10+ 269pcs",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.26,
-            "listed_total": 21.62
-          },
-          {
-            "item_id": "v1|278412376330|0",
-            "seller": "superhamz",
-            "image": "https://i.ebayimg.com/images/g/3P4AAeSwHQtquFaE/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/278412376330",
-            "title": "Lego Speed Champions - Aston Martin Aramco F1 AMR24 77245 Brand New",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 2.26,
-            "listed_total": 22.25
-          },
-          {
-            "item_id": "v1|227602850579|0",
-            "seller": "jacobprimedeals",
-            "image": "https://i.ebayimg.com/images/g/SBwAAeSwmalq7zw6/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227602850579",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245 269pcs 10+",
-            "declared_condition": "new",
-            "item_price": 19.99,
-            "shipping": 2.26,
-            "listed_total": 22.25
-          },
-          {
-            "item_id": "v1|198603777308|0",
-            "seller": "bricksntonic",
-            "image": "https://i.ebayimg.com/images/g/YIoAAeSw2rZqkvmi/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198603777308",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 20.42,
-            "shipping": 2.26,
-            "listed_total": 22.68
-          },
-          {
-            "item_id": "v1|306820860775|0",
-            "seller": "n4z470",
-            "image": "https://i.ebayimg.com/images/g/760AAeSwcrlptO~-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306820860775",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 22.89,
-            "shipping": 0.0,
-            "listed_total": 22.89
-          },
-          {
-            "item_id": "v1|277721564247|0",
-            "seller": "jdcj2013",
-            "image": "https://i.ebayimg.com/images/g/Uy4AAOSww7BnzwvQ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/277721564247",
-            "title": "LEGO Speed Champions Aston Martin Formula 1 Race Car F1 Set 77245 Age 9+",
-            "declared_condition": "new",
-            "item_price": 22.99,
-            "shipping": 0.0,
-            "listed_total": 22.99
-          },
-          {
-            "item_id": "v1|117455443927|0",
-            "seller": "axelfrombrest2012",
-            "image": "https://i.ebayimg.com/images/g/hIQAAeSwf4Bqx9MM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/117455443927",
-            "title": "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Set Sealed ",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 0.0,
-            "listed_total": 23.0
-          },
-          {
-            "item_id": "v1|206666569260|0",
-            "seller": "paul-callaghan14",
-            "image": "https://i.ebayimg.com/images/g/640AAeSwixZqTmRc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206666569260",
-            "title": "NEW LEGO Speed Champions - Aston Martin F1 Christmas Gift (77245) RRP \u00a323",
-            "declared_condition": "new",
-            "item_price": 23.5,
-            "shipping": 0.0,
-            "listed_total": 23.5
-          },
-          {
-            "item_id": "v1|127804844112|0",
-            "seller": "nusrif",
-            "image": "https://i.ebayimg.com/images/g/a18AAeSwvb1p24Db/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/127804844112",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.26,
-            "listed_total": 23.75
-          },
-          {
-            "item_id": "v1|227225429976|0",
-            "seller": "merseybargains",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227225429976",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.26,
-            "listed_total": 23.75
-          },
-          {
-            "item_id": "v1|198233839433|0",
-            "seller": "didouhl0",
-            "image": "https://i.ebayimg.com/images/g/G1YAAeSw7rhpx9j7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198233839433",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1\u00ae AMR24 Race Car Building Set (77245)",
-            "declared_condition": "new",
-            "item_price": 21.5,
-            "shipping": 2.26,
-            "listed_total": 23.76
-          },
-          {
-            "item_id": "v1|800297039795|0",
-            "seller": "hcs-hcs",
-            "image": "https://i.ebayimg.com/images/g/cfIAAeSwhyJqS3kK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/800297039795",
-            "title": "Lego Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car Age 10+ 269pcs",
-            "declared_condition": "new",
-            "item_price": 19.95,
-            "shipping": 3.98,
-            "listed_total": 23.93
-          },
-          {
-            "item_id": "v1|226764324046|0",
-            "seller": "leaste80",
-            "image": "https://i.ebayimg.com/images/g/gXQAAeSwh8loLGPA/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/226764324046",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 20.99,
-            "shipping": 2.94,
-            "listed_total": 23.93
-          },
-          {
-            "item_id": "v1|167894262707|0",
-            "seller": "online-home",
-            "image": "https://i.ebayimg.com/images/g/MHcAAeSwV9NpA1KP/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/167894262707",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 23.95,
-            "shipping": 0.0,
-            "listed_total": 23.95
-          },
-          {
-            "item_id": "v1|317516552020|0",
-            "seller": "mister_js_brick_house",
-            "image": "https://i.ebayimg.com/images/g/lJ8AAeSw9kppChze/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317516552020",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24  (77245) BRAND NEW and SEALED",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.62,
-            "listed_total": 24.11
-          },
-          {
-            "item_id": "v1|358032165484|0",
-            "seller": "suebullet",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358032165484",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 21.49,
-            "shipping": 2.62,
-            "listed_total": 24.11
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 14
-        },
-        "query_aliases": [
-          "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 77245",
-        "observed_at": "2026-11-21T20:24:25+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 36,
-        "seller_count": 36,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 5,
-        "confidence": "moderate",
-        "wide_spread": false,
-        "competition_low": 16.57,
-        "competition_high": 24.11,
-        "estimated_resale": 16.07,
-        "estimated_range": [
-          14.91,
-          16.57
-        ],
-        "suggested_listing": 16.56,
-        "quick_sale_model": 14.91,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 13.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -6.34,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -13.99,
-        "fees": 2.65,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.48,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 14.46,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|227620458233|0",
-            "seller": "ruairidhm23",
-            "image": "https://i.ebayimg.com/images/g/wegAAeSwtb9q~dGA/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227620458233",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 77245 New in Box",
-            "declared_condition": "new",
-            "item_price": 13.95,
-            "shipping": 2.62,
-            "listed_total": 16.57,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377647523941|0",
-            "seller": "lindsathomso-1",
-            "image": "https://i.ebayimg.com/images/g/LYEAAeSwd2Zq-Zuv/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377647523941",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car 77245",
-            "declared_condition": "new",
-            "item_price": 15.07,
-            "shipping": 2.26,
-            "listed_total": 17.33,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|147690065366|0",
-            "seller": "ly_4768",
-            "image": "https://i.ebayimg.com/images/g/C2IAAeSwWBprAKZM/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147690065366",
-            "title": "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car 269pcs",
-            "declared_condition": "new",
-            "item_price": 15.08,
-            "shipping": 2.62,
-            "listed_total": 17.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267850221739|0",
-            "seller": "steveandkel280707",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267850221739",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 17.99,
-            "shipping": 0.0,
-            "listed_total": 17.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377665634006|0",
-            "seller": "bkbudgetbuys",
-            "image": "https://i.ebayimg.com/images/g/ljgAAeSwxSNpaCxB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377665634006",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            "declared_condition": "new",
-            "item_price": 15.16,
-            "shipping": 3.01,
-            "listed_total": 18.17,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|178558773700|0",
-            "seller": "rania4e",
-            "image": "https://i.ebayimg.com/images/g/CpsAAeSwwblq4hit/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/178558773700",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245 Model Kit 269",
-            "declared_condition": "new",
-            "item_price": 18.27,
-            "shipping": 0.0,
-            "listed_total": 18.27,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227608156786|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/i9MAAeSwQIBq83HW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227608156786",
-            "title": "LEGO 77245 Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245, New",
-            "declared_condition": "new",
-            "item_price": 15.99,
-            "shipping": 2.94,
-            "listed_total": 18.93,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|137906170924|0",
-            "seller": "geovo10",
-            "image": "https://i.ebayimg.com/images/g/3qkAAeSwZGpq7SZ7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137906170924",
-            "title": "LEGO Speed Champions Aston Martin Aramco F1 (77245) New Sealed Formula 1 \ud83d\ude9a\ud83d\udca8",
-            "declared_condition": "new",
-            "item_price": 18.95,
-            "shipping": 0.0,
-            "listed_total": 18.95,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287743698000|0",
-            "seller": "brick-cycle",
-            "image": "https://i.ebayimg.com/images/g/8foAAeSwXxJrAEFw/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287743698000",
-            "title": "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car Age 10+ 269pcs",
-            "declared_condition": "new",
-            "item_price": 18.99,
-            "shipping": 0.0,
-            "listed_total": 18.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227218046532|0",
-            "seller": "phil170868",
-            "image": "https://i.ebayimg.com/images/g/UAAAAeSwBAhpka3e/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227218046532",
-            "title": "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car 77245",
-            "declared_condition": "new",
-            "item_price": 16.75,
-            "shipping": 2.26,
-            "listed_total": 19.01,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245",
-        "query": "LEGO 77245",
-        "kind": "active_ask",
-        "listing": 16.56,
-        "observed_at": "2026-11-21T20:24:25+00:00",
-        "valid_until": "2026-11-22T02:24:25+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/227620458233",
-          "https://www.ebay.co.uk/itm/377647523941",
-          "https://www.ebay.co.uk/itm/147690065366",
-          "https://www.ebay.co.uk/itm/267850221739",
-          "https://www.ebay.co.uk/itm/377665634006",
-          "https://www.ebay.co.uk/itm/178558773700",
-          "https://www.ebay.co.uk/itm/227608156786",
-          "https://www.ebay.co.uk/itm/137906170924",
-          "https://www.ebay.co.uk/itm/287743698000",
-          "https://www.ebay.co.uk/itm/227218046532"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/227620458233",
-            "LEGO Speed Champions Aston Martin Aramco F1 77245 New in Box",
-            16.57,
-            2.62,
-            13.95,
-            "ruairidhm23"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377647523941",
-            "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car 77245",
-            17.33,
-            2.26,
-            15.07,
-            "lindsathomso-1"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/147690065366",
-            "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car 269pcs",
-            17.7,
-            2.62,
-            15.08,
-            "ly_4768"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267850221739",
-            "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            17.99,
-            0.0,
-            17.99,
-            "steveandkel280707"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377665634006",
-            "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car (77245)",
-            18.17,
-            3.01,
-            15.16,
-            "bkbudgetbuys"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/178558773700",
-            "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245 Model Kit 269",
-            18.27,
-            0.0,
-            18.27,
-            "rania4e"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227608156786",
-            "LEGO 77245 Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245, New",
-            18.93,
-            2.94,
-            15.99,
-            "yonli_79"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/137906170924",
-            "LEGO Speed Champions Aston Martin Aramco F1 (77245) New Sealed Formula 1 \ud83d\ude9a\ud83d\udca8",
-            18.95,
-            0.0,
-            18.95,
-            "geovo10"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/287743698000",
-            "LEGO Speed Champions 77245 Aston Martin Aramco F1 AMR24 Race Car Age 10+ 269pcs",
-            18.99,
-            0.0,
-            18.99,
-            "brick-cycle"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227218046532",
-            "LEGO SPEED CHAMPIONS: Aston Martin Aramco F1 Amr24 Race Car 77245",
-            19.01,
-            2.26,
-            16.75,
-            "phil170868"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Creator 3in1 Cute Animals: Playful Puppy Dog 31382",
       "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-cute-animals-playful-puppy-dog-31382-5037076",
       "policy_key": "7615208c35fb1e79ca93907a",
@@ -5390,8 +4089,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/300x300/qt/55/5037065_1.jpg",
         "https://images.hotukdeals.com/threads/raw/keKAE/5037065_1/re/150x150/qt/55/5037065_1.jpg",
@@ -8084,8 +6783,8 @@
       "item_price": 19.93,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/300x300/qt/55/5037349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ulmsU/5037349_1/re/150x150/qt/55/5037349_1.jpg",
@@ -9409,8 +8108,8 @@
       "item_price": 24.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/300x300/qt/55/5037101_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/300x300/qt/55/5037101_1.jpg",
         "https://images.hotukdeals.com/threads/raw/55S4n/5037101_1/re/150x150/qt/55/5037101_1.jpg",
@@ -10262,8 +8961,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
@@ -11293,8 +9992,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
@@ -14234,6 +12933,900 @@
       }
     },
     {
+      "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
+      "policy_key": "d684a6162de3d0acf807c89c",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 49.49,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
+        "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
+      "landed_cost": null,
+      "breakeven_sell": 66.18,
+      "sell_for_minimum_profit": 89.89,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-20T09:24:11+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Andor+K-2SO+Security+Droid%2C+Fan+Gift+75434&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75434",
+        "category": "lego",
+        "name_terms": [
+          "2so",
+          "andor",
+          "droid",
+          "fan",
+          "gift",
+          "security"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T02:30:27+00:00",
+        "date": "2026-11-22",
+        "sample_count": 18,
+        "listed_total_low": 57.85,
+        "listed_total_p25": 70.42,
+        "listed_total_median": 77.94,
+        "listed_total_p75": 84.25,
+        "listed_total_high": 114.69,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206694993657|0",
+            "seller": "pantobird",
+            "image": "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206694993657",
+            "title": "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 5.15,
+            "listed_total": 57.85
+          },
+          {
+            "item_id": "v1|407378788038|0",
+            "seller": "buyingbricks",
+            "image": "https://i.ebayimg.com/images/g/JQIAAeSw8zNrAUaL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407378788038",
+            "title": "NEW Lego 75434 Star Wars K-2SO Security Droid Set",
+            "declared_condition": "new",
+            "item_price": 54.99,
+            "shipping": 3.38,
+            "listed_total": 58.37
+          },
+          {
+            "item_id": "v1|206711351357|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206711351357",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            "declared_condition": "new",
+            "item_price": 54.78,
+            "shipping": 4.06,
+            "listed_total": 58.84
+          },
+          {
+            "item_id": "v1|406260853741|0",
+            "seller": "totespilates",
+            "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406260853741",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          },
+          {
+            "item_id": "v1|377657019579|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 79.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377657019579",
+            "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            "declared_condition": "new",
+            "item_price": 69.98,
+            "shipping": 0.0,
+            "listed_total": 69.98
+          },
+          {
+            "item_id": "v1|227532670882|0",
+            "seller": "2rd_chance",
+            "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227532670882",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 3.75,
+            "listed_total": 71.75
+          },
+          {
+            "item_id": "v1|298346919810|0",
+            "seller": "jofos_2057",
+            "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346919810",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 70.38,
+            "shipping": 3.38,
+            "listed_total": 73.76
+          },
+          {
+            "item_id": "v1|236358264880|0",
+            "seller": "peterh7027",
+            "image": "https://i.ebayimg.com/images/g/0YwAAeSwuCto2wRm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236358264880",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+            "declared_condition": "new",
+            "item_price": 76.5,
+            "shipping": 0.0,
+            "listed_total": 76.5
+          },
+          {
+            "item_id": "v1|267339607998|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339607998",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            "declared_condition": "new",
+            "item_price": 76.96,
+            "shipping": 0.0,
+            "listed_total": 76.96
+          },
+          {
+            "item_id": "v1|206200149335|0",
+            "seller": "aclark_1",
+            "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206200149335",
+            "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            "declared_condition": "new",
+            "item_price": 75.53,
+            "shipping": 3.38,
+            "listed_total": 78.91
+          },
+          {
+            "item_id": "v1|157361738693|0",
+            "seller": "iguazu",
+            "image": "https://i.ebayimg.com/images/g/RZkAAeSwo1Bo5YdF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157361738693",
+            "title": "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            "declared_condition": "new",
+            "item_price": 74.54,
+            "shipping": 5.15,
+            "listed_total": 79.69
+          },
+          {
+            "item_id": "v1|206236098774|0",
+            "seller": "rarebrix",
+            "image": "https://i.ebayimg.com/images/g/juMAAeSwiIxq6h0W/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206236098774",
+            "title": "LEGO Star Wars: Andor K-2SO Security Droid 75434",
+            "declared_condition": "new",
+            "item_price": 80.95,
+            "shipping": 0.0,
+            "listed_total": 80.95
+          },
+          {
+            "item_id": "v1|327399102439|0",
+            "seller": "ihaveit_music",
+            "image": "https://i.ebayimg.com/images/g/8oYAAeSwYWVq-IMd/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327399102439",
+            "title": "Lego - - Star Wars Tm - K-2Soac Security Droid 75434 - construct - P2222z",
+            "declared_condition": "new",
+            "item_price": 80.96,
+            "shipping": 0.0,
+            "listed_total": 80.96
+          },
+          {
+            "item_id": "v1|358706479706|0",
+            "seller": "spg-models",
+            "image": "https://i.ebayimg.com/images/g/-QEAAeSwEiJqOA7f/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358706479706",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 6.65,
+            "listed_total": 85.35
+          },
+          {
+            "item_id": "v1|307228287807|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/s-4AAeSwpOJq1d2t/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 91.76,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307228287807",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figuur - Bouwbaar Robot Speelgoed voor",
+            "declared_condition": "new",
+            "item_price": 85.88,
+            "shipping": 0.0,
+            "listed_total": 85.88
+          },
+          {
+            "item_id": "v1|358799719209|0",
+            "seller": "gmac_online",
+            "image": "https://i.ebayimg.com/images/g/I9wAAeSwraVqV6Si/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358799719209",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Toy 75434",
+            "declared_condition": "new",
+            "item_price": 83.9,
+            "shipping": 3.38,
+            "listed_total": 87.28
+          },
+          {
+            "item_id": "v1|168207977238|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/gfkAAeSwMotpqbG0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207977238",
+            "title": "Lego\u00ae Star Wars 75434 K-2So Guardian Droid Genuine Quality Best",
+            "declared_condition": "new",
+            "item_price": 95.99,
+            "shipping": 0.0,
+            "listed_total": 95.99
+          },
+          {
+            "item_id": "v1|960175565955|0",
+            "seller": "nexgen00",
+            "image": "https://i.ebayimg.com/images/g/0E8AAeSwF3Bq8hjq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960175565955",
+            "title": "LEGO Star Wars K-2SO Security Droid 75434 Multicolor",
+            "declared_condition": "new",
+            "item_price": 114.69,
+            "shipping": 0.0,
+            "listed_total": 114.69
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 15
+        },
+        "query_aliases": [
+          "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75434",
+        "observed_at": "2026-11-22T02:30:27+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 18,
+        "seller_count": 18,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 4,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 57.85,
+        "competition_high": 114.69,
+        "estimated_resale": 56.11,
+        "estimated_range": [
+          52.06,
+          57.85
+        ],
+        "suggested_listing": 57.84,
+        "quick_sale_model": 52.06,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          79.99,
+          91.76
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 2,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 49.49,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -8.4,
+        "max_landed_buy": 29.35,
+        "max_item_buy": null,
+        "delivery_headroom": -20.14,
+        "fees": 8.05,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.68,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 50.49,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 31.09,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206694993657|0",
+            "seller": "pantobird",
+            "image": "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206694993657",
+            "title": "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 5.15,
+            "listed_total": 57.85,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407378788038|0",
+            "seller": "buyingbricks",
+            "image": "https://i.ebayimg.com/images/g/JQIAAeSw8zNrAUaL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407378788038",
+            "title": "NEW Lego 75434 Star Wars K-2SO Security Droid Set",
+            "declared_condition": "new",
+            "item_price": 54.99,
+            "shipping": 3.38,
+            "listed_total": 58.37,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206711351357|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206711351357",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            "declared_condition": "new",
+            "item_price": 54.78,
+            "shipping": 4.06,
+            "listed_total": 58.84,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|406260853741|0",
+            "seller": "totespilates",
+            "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406260853741",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377657019579|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 79.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377657019579",
+            "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            "declared_condition": "new",
+            "item_price": 69.98,
+            "shipping": 0.0,
+            "listed_total": 69.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227532670882|0",
+            "seller": "2rd_chance",
+            "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227532670882",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 3.75,
+            "listed_total": 71.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|298346919810|0",
+            "seller": "jofos_2057",
+            "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346919810",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 70.38,
+            "shipping": 3.38,
+            "listed_total": 73.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|236358264880|0",
+            "seller": "peterh7027",
+            "image": "https://i.ebayimg.com/images/g/0YwAAeSwuCto2wRm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236358264880",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+            "declared_condition": "new",
+            "item_price": 76.5,
+            "shipping": 0.0,
+            "listed_total": 76.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267339607998|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339607998",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            "declared_condition": "new",
+            "item_price": 76.96,
+            "shipping": 0.0,
+            "listed_total": 76.96,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206200149335|0",
+            "seller": "aclark_1",
+            "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206200149335",
+            "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            "declared_condition": "new",
+            "item_price": 75.53,
+            "shipping": 3.38,
+            "listed_total": 78.91,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
+        "query": "LEGO 75434",
+        "kind": "active_ask",
+        "listing": 57.84,
+        "observed_at": "2026-11-22T02:30:27+00:00",
+        "valid_until": "2026-11-22T08:30:27+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/206694993657",
+          "https://www.ebay.co.uk/itm/407378788038",
+          "https://www.ebay.co.uk/itm/206711351357",
+          "https://www.ebay.co.uk/itm/406260853741",
+          "https://www.ebay.co.uk/itm/377657019579",
+          "https://www.ebay.co.uk/itm/227532670882",
+          "https://www.ebay.co.uk/itm/298346919810",
+          "https://www.ebay.co.uk/itm/236358264880",
+          "https://www.ebay.co.uk/itm/267339607998",
+          "https://www.ebay.co.uk/itm/206200149335"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/206694993657",
+            "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+            57.85,
+            5.15,
+            52.7,
+            "pantobird"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407378788038",
+            "NEW Lego 75434 Star Wars K-2SO Security Droid Set",
+            58.37,
+            3.38,
+            54.99,
+            "buyingbricks"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206711351357",
+            "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            58.84,
+            4.06,
+            54.78,
+            "kenadams1177"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/406260853741",
+            "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            59.99,
+            0.0,
+            59.99,
+            "totespilates"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/377657019579",
+            "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            69.98,
+            0.0,
+            69.98,
+            "wwsm2006"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227532670882",
+            "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            71.75,
+            3.75,
+            68.0,
+            "2rd_chance"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/298346919810",
+            "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            73.76,
+            3.38,
+            70.38,
+            "jofos_2057"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/236358264880",
+            "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+            76.5,
+            0.0,
+            76.5,
+            "peterh7027"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267339607998",
+            "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            76.96,
+            0.0,
+            76.96,
+            "zatugames"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206200149335",
+            "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            78.91,
+            3.38,
+            75.53,
+            "aclark_1"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Harry Potter Hogwarts Castle: Hospital Wing 76463 - With Free c&c",
       "url": "https://www.hotukdeals.com/deals/lego-harry-potter-hogwarts-castle-hospital-wing-76463-5040413",
       "policy_key": "6fc953d8a93c50a170efe115",
@@ -14248,8 +13841,8 @@
       "item_price": 51.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
@@ -15208,8 +14801,8 @@
       "item_price": 57.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EWxAj/5036973_1/re/300x300/qt/55/5036973_1.jpg",
@@ -16286,7 +15879,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-22T01:56:31+00:00",
+          "observed_at": "2026-11-22T02:28:47+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -16602,8 +16195,8 @@
       "item_price": 88.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/150x150/qt/55/5041794_1.jpg"
@@ -17323,8 +16916,8 @@
       "item_price": 125.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/300x300/qt/55/5041394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qkcQV/5041394_1/re/150x150/qt/55/5041394_1.jpg"
@@ -18022,8 +17615,8 @@
       "item_price": 135.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/300x300/qt/55/5041362_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/300x300/qt/55/5041362_1.jpg",
         "https://images.hotukdeals.com/threads/raw/smylx/5041362_1/re/150x150/qt/55/5041362_1.jpg"
@@ -18838,8 +18431,8 @@
         "sample_count": 8,
         "listed_total_low": 22.95,
         "listed_total_p25": 25.91,
-        "listed_total_median": 29.09,
-        "listed_total_p75": 30.75,
+        "listed_total_median": 29.085,
+        "listed_total_p75": 30.7475,
         "listed_total_high": 32.27,
         "status": "indicative_only",
         "warnings": [
@@ -18867,7 +18460,8 @@
             "declared_condition": "new",
             "item_price": 22.95,
             "shipping": 0.0,
-            "listed_total": 22.95
+            "listed_total": 22.95,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|407341590423|0",
@@ -18889,7 +18483,8 @@
             "declared_condition": "new",
             "item_price": 25.79,
             "shipping": 0.0,
-            "listed_total": 25.79
+            "listed_total": 25.79,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|406934966128|0",
@@ -18911,7 +18506,8 @@
             "declared_condition": "new",
             "item_price": 25.95,
             "shipping": 0.0,
-            "listed_total": 25.95
+            "listed_total": 25.95,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|306600414563|0",
@@ -18933,7 +18529,8 @@
             "declared_condition": "new",
             "item_price": 28.18,
             "shipping": 0.0,
-            "listed_total": 28.18
+            "listed_total": 28.18,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|147686531514|0",
@@ -18956,7 +18553,8 @@
             "declared_condition": "new",
             "item_price": 29.99,
             "shipping": 0.0,
-            "listed_total": 29.99
+            "listed_total": 29.99,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|960092553544|0",
@@ -18979,7 +18577,8 @@
             "declared_condition": "new",
             "item_price": 28.0,
             "shipping": 2.72,
-            "listed_total": 30.72
+            "listed_total": 30.72,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|318498254139|0",
@@ -19001,7 +18600,8 @@
             "declared_condition": "new",
             "item_price": 30.83,
             "shipping": 0.0,
-            "listed_total": 30.83
+            "listed_total": 30.83,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           },
           {
             "item_id": "v1|800908961734|0",
@@ -19023,12 +18623,15 @@
             "declared_condition": "new",
             "item_price": 32.27,
             "shipping": 0.0,
-            "listed_total": 32.27
+            "listed_total": 32.27,
+            "observed_at": "2026-11-22T01:57:32+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 42
         },
+        "canonicalized_at": "2026-11-22T02:28:47+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Death Stranding Director's Cut - PS5"
         ]
@@ -19132,6 +18735,7 @@
             "item_price": 22.95,
             "shipping": 0.0,
             "listed_total": 22.95,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -19155,6 +18759,7 @@
             "item_price": 25.79,
             "shipping": 0.0,
             "listed_total": 25.79,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -19178,6 +18783,7 @@
             "item_price": 28.18,
             "shipping": 0.0,
             "listed_total": 28.18,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -19202,6 +18808,7 @@
             "item_price": 29.99,
             "shipping": 0.0,
             "listed_total": 29.99,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -19226,6 +18833,7 @@
             "item_price": 28.0,
             "shipping": 2.72,
             "listed_total": 30.72,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -19249,6 +18857,7 @@
             "item_price": 30.83,
             "shipping": 0.0,
             "listed_total": 30.83,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -19272,6 +18881,7 @@
             "item_price": 32.27,
             "shipping": 0.0,
             "listed_total": 32.27,
+            "observed_at": "2026-11-22T01:57:32+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -19410,7 +19020,7 @@
         "rejected": {
           "identity_or_condition": 2
         },
-        "canonicalized_at": "2026-11-22T01:56:31+00:00",
+        "canonicalized_at": "2026-11-22T02:28:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "The Cat in the Hat: Rainy Day Mayhem - PS5"
@@ -19693,7 +19303,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-22T01:56:31+00:00",
+        "canonicalized_at": "2026-11-22T02:28:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Starship Troopers: Ultimate Bug War (PS5)"
@@ -20031,7 +19641,7 @@
         "rejected": {
           "identity_or_condition": 14
         },
-        "canonicalized_at": "2026-11-22T01:56:31+00:00",
+        "canonicalized_at": "2026-11-22T02:28:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS Zero Company (PS5)",
@@ -20516,7 +20126,7 @@
         "rejected": {
           "identity_or_condition": 14
         },
-        "canonicalized_at": "2026-11-22T01:56:31+00:00",
+        "canonicalized_at": "2026-11-22T02:28:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "STAR WARS Zero Company (PS5)",
@@ -21045,7 +20655,7 @@
         "rejected": {
           "identity_or_condition": 41
         },
-        "canonicalized_at": "2026-11-22T01:56:31+00:00",
+        "canonicalized_at": "2026-11-22T02:28:47+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "007 First Light PS5"
@@ -21371,6 +20981,45 @@
       }
     },
     {
+      "title": "Nike Black Friday Extra 10% for Blue Light Holders",
+      "url": "https://www.hotukdeals.com/deals/nike-black-friday-extra-10-for-blue-light-holders-5042403",
+      "policy_key": "d90579f1e46f4df02603b650",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_description_unique_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Nike",
+      "item_price": 4.5,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/sBJFH/5042403_1/re/150x150/qt/55/5042403_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nike-black-friday-extra-10-for-blue-light-holders-5042403",
+      "landed_cost": null,
+      "breakeven_sell": 10.94,
+      "sell_for_minimum_profit": 20.66,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T02:30:25+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Black+Friday+Extra+10%25+for+Blue+Light+Holders&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Technic John Deere 1470H Wheeled Harvester Toy 42218 / LEGO Minecraft 21266 The Nether Lava Battle Set - free click and collect",
       "url": "https://www.hotukdeals.com/deals/lego-technic-john-deere-1470h-wheeled-harvester-toy-42218-free-click-and-collect-5036145",
       "policy_key": "0e5762efcb3fbd2cc0a9ae0f",
@@ -21593,8 +21242,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg"
@@ -21721,8 +21370,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg",
@@ -21765,8 +21414,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg",
@@ -21809,8 +21458,8 @@
       "item_price": 13.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/300x300/qt/55/5034322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Pqmgo/5034322_1/re/150x150/qt/55/5034322_1.jpg"
@@ -21851,8 +21500,8 @@
       "item_price": 13.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/150x150/qt/55/5040150_1.jpg"
@@ -21893,8 +21542,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/150x150/qt/55/5040340_1.jpg",
@@ -21923,6 +21572,50 @@
       }
     },
     {
+      "title": "LEGO Speed Champions Aston Martin Aramco F1 AMR24 Race Car 77245",
+      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-aston-martin-aramco-f1-amr24-race-car-77245-5036956",
+      "policy_key": "9bf37fa66caa89fbad65373a",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 13.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/150x150/qt/55/5036956_1.jpg",
+        "https://i.ebayimg.com/images/g/wegAAeSwtb9q~dGA/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-aston-martin-aramco-f1-amr24-race-car-77245-wvoucher-5040812",
+      "landed_cost": null,
+      "breakeven_sell": 23.66,
+      "sell_for_minimum_profit": 33.25,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-18T07:41:00+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Aston+Martin+Aramco+F1+AMR24+Race+Car+77245&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Speed Champions 77257 McLaren W1 Set (Free C&C)",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-77257-mclaren-w1-set-5041613",
       "policy_key": "9c3cefb6eac632b7ea5e8c87",
@@ -21937,8 +21630,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg"
@@ -22065,8 +21758,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/150x150/qt/55/5040878_1.jpg",
@@ -22319,8 +22012,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg",
@@ -22666,8 +22359,8 @@
       "item_price": 25.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg"
@@ -22706,19 +22399,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 25.08,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/150x150/qt/55/5038691_1.jpg",
         "https://i.ebayimg.com/images/g/saUAAeSwEJpp~ZVg/s-l225.jpg",
         "https://i.ebayimg.com/images/g/v6UAAeSwHKFqLWpj/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-at-rt-attack-75444-5038691",
       "landed_cost": null,
       "breakeven_sell": 36.95,
       "sell_for_minimum_profit": 48.97,
@@ -22796,8 +22489,8 @@
       "item_price": 28.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg",
@@ -22926,8 +22619,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -23098,8 +22791,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -23140,8 +22833,8 @@
       "item_price": 33.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg"
@@ -23182,8 +22875,8 @@
       "item_price": 34.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/150x150/qt/55/5040440_1.jpg"
@@ -23224,8 +22917,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg",
@@ -23400,8 +23093,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/150x150/qt/55/5040214_1.jpg",
@@ -23527,8 +23220,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/150x150/qt/55/5041903_1.jpg",
@@ -23780,8 +23473,8 @@
       "item_price": 37.7,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
@@ -23995,8 +23688,8 @@
       "item_price": 38.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
@@ -24083,8 +23776,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg"
@@ -24169,8 +23862,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
@@ -24213,8 +23906,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
@@ -24255,8 +23948,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
@@ -24297,8 +23990,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
@@ -24590,8 +24283,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -24676,8 +24369,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
@@ -24764,8 +24457,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
+      "image_verified_until": "2026-11-22T02:50:30.730715+00:00",
+      "image_checked_at": "2026-11-22T02:30:30.730715+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg",
@@ -24787,50 +24480,6 @@
       "priority": 10,
       "first_seen": "2026-11-20T11:01:27+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Coast+Guard+Rescue+Boat+%26+Helicopter+60504&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
-      "policy_key": "d684a6162de3d0acf807c89c",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 49.49,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-      "image_verified_until": "2026-11-22T02:17:35.810641+00:00",
-      "image_checked_at": "2026-11-22T01:57:35.810641+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
-        "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
-      "landed_cost": null,
-      "breakeven_sell": 66.18,
-      "sell_for_minimum_profit": 89.89,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-20T09:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Andor+K-2SO+Security+Droid%2C+Fan+Gift+75434&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -25143,8 +24792,8 @@
       "item_price": 119.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/300x300/qt/55/5041409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ChRn4/5041409_1/re/150x150/qt/55/5041409_1.jpg"
@@ -27960,45 +27609,6 @@
       "first_seen": "2026-11-20T00:23:39+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mafia+The+Old+Country+%28PS5+%2F+Xbox+Series+X%29+%2F%2F+or+Borderlands+4+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "The Grinch 2: Saving Christmas (Nintendo Switch)",
-      "url": "https://www.hotukdeals.com/deals/the-grinch-2-saving-christmas-nintendo-switch-5042366",
-      "policy_key": "778bd3a2199440fed5901ac8",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 15.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/SnP8L/5042366_1/re/150x150/qt/55/5042366_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/the-grinch-2-saving-christmas-nintendo-switch-5042366",
-      "landed_cost": null,
-      "breakeven_sell": 23.23,
-      "sell_for_minimum_profit": 32.67,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-22T00:52:36+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Grinch+2%3A+Saving+Christmas+%28Nintendo+Switch%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -31349,7 +30959,36 @@
       "priority": 0,
       "first_seen": "2026-11-22T00:52:36+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Octopath+Traveler%2FOctopath+Traveler+2-+Switch+2&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "octopath traveler octopath traveler 2 switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T02:30:27+00:00",
+        "date": "2026-11-22",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 30
+        },
+        "query_aliases": [
+          "Octopath Traveler/Octopath Traveler 2- Switch 2"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -32090,8 +31729,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
-      "image_verified_until": "2026-11-22T02:16:42.318553+00:00",
-      "image_checked_at": "2026-11-22T01:56:42.318553+00:00",
+      "image_verified_until": "2026-11-22T02:48:58.421132+00:00",
+      "image_checked_at": "2026-11-22T02:28:58.421132+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/150x150/qt/55/5042272_1.jpg"
@@ -33102,45 +32741,6 @@
       "priority": 0,
       "first_seen": "2026-11-21T11:36:37+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Black+Friday&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Footlocker Black Friday - Up to 50% Off Almost Everything + DFC - Nike V5 RNR / Air Force 1 \u00a347.5 / Vomero 18 & ON Cloudsoma \u00a366.50",
-      "url": "https://www.hotukdeals.com/deals/footlocker-black-friday-up-to-50-off-almost-everything-dfc-nike-v5-rnr-air-force-1-ps475-vomero-18-on-cloudsoma-ps6650-5038299",
-      "policy_key": "b8769a592ac32ab4459c7533",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Foot Locker",
-      "item_price": 36.1,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/ZhYic/5038299_1/re/150x150/qt/55/5038299_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/footlocker-black-friday-up-to-50-off-almost-everything-dfc-nike-v5-rnr-air-force-1-ps475-vomero-18-on-cloudsoma-ps6650-5038299",
-      "landed_cost": null,
-      "breakeven_sell": 49.33,
-      "sell_for_minimum_profit": 66.89,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "air force 1: kids' size (description)",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T03:02:50+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Footlocker+Black+Friday&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -35852,36 +35452,7 @@
       "priority": 0,
       "first_seen": "2026-11-21T09:57:50+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+PS5+Access+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "sony access controller ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-21T20:24:25+00:00",
-        "date": "2026-11-21",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 9
-        },
-        "query_aliases": [
-          "Sony PS5 Access Controller"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
