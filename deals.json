@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:10:43+00:00",
       "valid_until": "2026-11-23T03:10:43+00:00",
       "competition_low": 55.66,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-22T22:23:11+00:00",
+        "observed_at": "2026-11-22T22:56:45+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -270,7 +270,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:37:52+00:00",
       "valid_until": "2026-11-23T02:37:52+00:00",
       "competition_low": 140.79,
@@ -342,7 +342,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:18:25+00:00",
       "valid_until": "2026-11-23T03:18:25+00:00",
       "competition_low": 76.94,
@@ -406,7 +406,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:10:43+00:00",
       "valid_until": "2026-11-23T03:10:43+00:00",
       "competition_low": 20.99,
@@ -478,7 +478,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:37:52+00:00",
       "valid_until": "2026-11-23T02:37:52+00:00",
       "competition_low": 59.99,
@@ -542,7 +542,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:18:25+00:00",
       "valid_until": "2026-11-23T03:18:25+00:00",
       "competition_low": 38.35,
@@ -614,7 +614,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:49:45+00:00",
       "valid_until": "2026-11-23T03:49:45+00:00",
       "competition_low": 19.96,
@@ -707,9 +707,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
-      "observed_at": "2026-11-22T19:32:00+00:00",
-      "valid_until": "2026-11-23T01:32:00+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
+      "observed_at": "2026-11-22T22:56:45+00:00",
+      "valid_until": "2026-11-23T04:56:45+00:00",
       "competition_low": 44.19,
       "estimated_resale": 42.86,
       "seller_count": 4,
@@ -743,31 +743,31 @@
           "seller": "ukdaily-26",
           "url": "https://www.ebay.co.uk/itm/317822317409",
           "delivered": 44.19,
-          "observed_at": "2026-11-22T19:32:00+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         },
         {
           "item_id": "v1|960079633918|0",
           "seller": "dragonz40-6",
           "url": "https://www.ebay.co.uk/itm/960079633918",
           "delivered": 45.26,
-          "observed_at": "2026-11-22T19:32:00+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         },
         {
           "item_id": "v1|227322906695|0",
           "seller": "maggieg17",
           "url": "https://www.ebay.co.uk/itm/227322906695",
           "delivered": 61.3,
-          "observed_at": "2026-11-22T19:32:00+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         },
         {
           "item_id": "v1|800924275512|0",
           "seller": "ihaveit_music",
           "url": "https://www.ebay.co.uk/itm/800924275512",
           "delivered": 68.25,
-          "observed_at": "2026-11-22T19:32:00+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         }
       ],
-      "last_research_at": "2026-11-22T19:32:00+00:00"
+      "last_research_at": "2026-11-22T22:56:45+00:00"
     },
     {
       "key": "browse-asks-v5:trainers:nike iu7549-072 uk 7:e761a90aed60",
@@ -793,9 +793,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
-      "observed_at": "2026-11-22T20:04:26+00:00",
-      "valid_until": "2026-11-23T02:04:26+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
+      "observed_at": "2026-11-22T22:56:45+00:00",
+      "valid_until": "2026-11-23T04:56:45+00:00",
       "competition_low": 63.8,
       "estimated_resale": 61.88,
       "seller_count": 4,
@@ -808,7 +808,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-22T22:23:11+00:00",
+        "observed_at": "2026-11-22T22:56:45+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -980,31 +980,31 @@
           "seller": "micgre-699",
           "url": "https://www.ebay.co.uk/itm/800699196363",
           "delivered": 63.8,
-          "observed_at": "2026-11-22T20:04:26+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         },
         {
           "item_id": "v1|377481642286|0",
           "seller": "smkicks18",
           "url": "https://www.ebay.co.uk/itm/377481642286",
           "delivered": 82.08,
-          "observed_at": "2026-11-22T20:04:26+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         },
         {
           "item_id": "v1|267810578491|0",
           "seller": "jasperskicks",
           "url": "https://www.ebay.co.uk/itm/267810578491",
           "delivered": 83.88,
-          "observed_at": "2026-11-22T20:04:26+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         },
         {
           "item_id": "v1|137874162168|0",
           "seller": "resellvaul08",
           "url": "https://www.ebay.co.uk/itm/137874162168",
           "delivered": 89.09,
-          "observed_at": "2026-11-22T20:04:26+00:00"
+          "observed_at": "2026-11-22T22:56:45+00:00"
         }
       ],
-      "last_research_at": "2026-11-22T20:04:26+00:00"
+      "last_research_at": "2026-11-22T22:56:45+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:boss bottled infinite edp 100ml:b08923c858e7",
@@ -1030,7 +1030,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T22:23:11+00:00",
       "valid_until": "2026-11-23T04:23:11+00:00",
       "competition_low": 25.99,
@@ -1123,7 +1123,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:49:45+00:00",
       "valid_until": "2026-11-23T03:49:45+00:00",
       "competition_low": 73.99,
@@ -1138,7 +1138,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|158318156230|0",
-        "observed_at": "2026-11-22T22:23:11+00:00",
+        "observed_at": "2026-11-22T22:56:45+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "DoesNotApply",
@@ -1388,7 +1388,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:04:26+00:00",
       "valid_until": "2026-11-23T02:04:26+00:00",
       "competition_low": 40.04,
@@ -1481,7 +1481,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T22:25:02+00:00",
       "valid_until": "2026-11-23T04:25:02+00:00",
       "competition_low": 95.0,
@@ -1530,153 +1530,6 @@
       "last_research_at": "2026-11-22T22:23:11+00:00"
     },
     {
-      "key": "browse-asks-v5:lego:lego 43300:d8f0e348dbe2",
-      "category": "lego",
-      "query": "LEGO 43300",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 43300",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "adults",
-          "disney",
-          "for",
-          "pooh",
-          "winnie"
-        ]
-      },
-      "first_seen": "2026-11-22T10:45:38+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
-      "observed_at": "2026-11-22T16:48:06+00:00",
-      "valid_until": "2026-11-22T22:48:06+00:00",
-      "competition_low": 108.97,
-      "estimated_resale": 105.7,
-      "seller_count": 26,
-      "low_supporting_sellers": 4,
-      "max_landed_buy": 58.92,
-      "target_status": "usable_configured_cost_target",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|407375378804|0",
-          "seller": "harrybob_66",
-          "url": "https://www.ebay.co.uk/itm/407375378804",
-          "delivered": 108.97,
-          "observed_at": "2026-11-22T16:48:06+00:00"
-        },
-        {
-          "item_id": "v1|188757244960|0",
-          "seller": "qashe-73",
-          "url": "https://www.ebay.co.uk/itm/188757244960",
-          "delivered": 109.99,
-          "observed_at": "2026-11-22T16:48:06+00:00"
-        },
-        {
-          "item_id": "v1|327466921449|0",
-          "seller": "brickmas",
-          "url": "https://www.ebay.co.uk/itm/327466921449",
-          "delivered": 109.99,
-          "observed_at": "2026-11-22T16:48:06+00:00"
-        },
-        {
-          "item_id": "v1|366660401405|0",
-          "seller": "scr_5103",
-          "url": "https://www.ebay.co.uk/itm/366660401405",
-          "delivered": 114.95,
-          "observed_at": "2026-11-22T16:48:06+00:00"
-        },
-        {
-          "item_id": "v1|147355759572|0",
-          "seller": "mypinkworld86",
-          "url": "https://www.ebay.co.uk/itm/147355759572",
-          "delivered": 121.86,
-          "observed_at": "2026-11-22T16:48:06+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-22T21:49:55+00:00",
-      "last_search_sort": "price",
-      "last_item_price_filter": 58.92
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 40813:029b4b6cc167",
-      "category": "lego",
-      "query": "LEGO 40813",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 40813",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "cat",
-          "lucky"
-        ]
-      },
-      "first_seen": "2026-11-22T16:49:03+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
-      "observed_at": "2026-11-22T16:48:03+00:00",
-      "valid_until": "2026-11-22T22:48:03+00:00",
-      "competition_low": 24.99,
-      "estimated_resale": 24.24,
-      "seller_count": 27,
-      "low_supporting_sellers": 5,
-      "max_landed_buy": 6.47,
-      "target_status": "usable_configured_cost_target",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|358342770542|0",
-          "seller": "hmv_official_store",
-          "url": "https://www.ebay.co.uk/itm/358342770542",
-          "delivered": 24.99,
-          "observed_at": "2026-11-22T16:48:03+00:00"
-        },
-        {
-          "item_id": "v1|168857807723|0",
-          "seller": "elysicrocke_0",
-          "url": "https://www.ebay.co.uk/itm/168857807723",
-          "delivered": 25.48,
-          "observed_at": "2026-11-22T16:48:03+00:00"
-        },
-        {
-          "item_id": "v1|227614191230|0",
-          "seller": "yonli_79",
-          "url": "https://www.ebay.co.uk/itm/227614191230",
-          "delivered": 25.94,
-          "observed_at": "2026-11-22T16:48:03+00:00"
-        },
-        {
-          "item_id": "v1|156882895267|0",
-          "seller": "juo-18",
-          "url": "https://www.ebay.co.uk/itm/156882895267",
-          "delivered": 26.38,
-          "observed_at": "2026-11-22T16:48:03+00:00"
-        },
-        {
-          "item_id": "v1|317833840166|0",
-          "seller": "benmh6",
-          "url": "https://www.ebay.co.uk/itm/317833840166",
-          "delivered": 27.44,
-          "observed_at": "2026-11-22T16:48:03+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-22T21:18:36+00:00",
-      "last_search_sort": "price",
-      "last_item_price_filter": 6.47
-    },
-    {
       "key": "browse-asks-v5:lego:lego 75421:05de45aab21a",
       "category": "lego",
       "query": "LEGO 75421",
@@ -1697,7 +1550,7 @@
         ]
       },
       "first_seen": "2026-11-21T02:40:04+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T17:21:25+00:00",
       "valid_until": "2026-11-22T23:21:25+00:00",
       "competition_low": 45.68,
@@ -1770,7 +1623,7 @@
         ]
       },
       "first_seen": "2026-11-22T11:51:40+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T17:54:44+00:00",
       "valid_until": "2026-11-22T23:54:44+00:00",
       "competition_low": 105.48,
@@ -1819,8 +1672,8 @@
           "observed_at": "2026-11-22T17:54:44+00:00"
         }
       ],
-      "last_search_at": "2026-11-22T21:10:54+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-22T22:56:55+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 56.9
     },
     {
@@ -1843,7 +1696,7 @@
         ]
       },
       "first_seen": "2026-11-21T03:12:59+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T17:54:41+00:00",
       "valid_until": "2026-11-22T23:54:41+00:00",
       "competition_low": 20.43,
@@ -1887,7 +1740,7 @@
         ]
       },
       "first_seen": "2026-11-21T03:45:27+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T18:27:32+00:00",
       "valid_until": "2026-11-23T00:27:32+00:00",
       "competition_low": 43.6,
@@ -1936,8 +1789,8 @@
           "observed_at": "2026-11-22T18:27:32+00:00"
         }
       ],
-      "last_search_at": "2026-11-22T21:10:54+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-22T22:56:55+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 21.1
     },
     {
@@ -1961,7 +1814,7 @@
         ]
       },
       "first_seen": "2026-11-22T06:52:32+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T19:33:11+00:00",
       "valid_until": "2026-11-23T01:33:11+00:00",
       "competition_low": 124.9,
@@ -2039,7 +1892,7 @@
         ]
       },
       "first_seen": "2026-11-21T04:31:28+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T19:33:09+00:00",
       "valid_until": "2026-11-23T01:33:09+00:00",
       "competition_low": 15.56,
@@ -2107,7 +1960,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T19:33:47+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T19:33:09+00:00",
       "valid_until": "2026-11-23T01:33:09+00:00",
       "competition_low": 34.49,
@@ -2159,7 +2012,7 @@
         ]
       },
       "first_seen": "2026-11-21T12:41:21+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:06:09+00:00",
       "valid_until": "2026-11-23T02:06:09+00:00",
       "competition_low": 104.17,
@@ -2208,8 +2061,8 @@
           "observed_at": "2026-11-22T20:06:09+00:00"
         }
       ],
-      "last_search_at": "2026-11-22T20:38:03+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-22T22:56:55+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 56.14
     },
     {
@@ -2234,7 +2087,7 @@
         ]
       },
       "first_seen": "2026-11-21T05:04:29+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:06:06+00:00",
       "valid_until": "2026-11-23T02:06:06+00:00",
       "competition_low": 21.62,
@@ -2303,7 +2156,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T20:07:05+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:06:06+00:00",
       "valid_until": "2026-11-23T02:06:06+00:00",
       "competition_low": 41.75,
@@ -2357,7 +2210,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T20:40:02+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:39:18+00:00",
       "valid_until": "2026-11-23T02:39:18+00:00",
       "competition_low": 29.99,
@@ -2422,7 +2275,7 @@
         ]
       },
       "first_seen": "2026-11-22T20:40:02+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T20:39:18+00:00",
       "valid_until": "2026-11-23T02:39:18+00:00",
       "competition_low": 57.85,
@@ -2499,7 +2352,7 @@
         ]
       },
       "first_seen": "2026-11-21T08:53:17+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:12:09+00:00",
       "valid_until": "2026-11-23T03:12:09+00:00",
       "competition_low": 125.49,
@@ -2575,7 +2428,7 @@
         ]
       },
       "first_seen": "2026-11-21T05:37:35+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:12:05+00:00",
       "valid_until": "2026-11-23T03:12:05+00:00",
       "competition_low": 54.54,
@@ -2643,7 +2496,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T21:12:50+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:12:05+00:00",
       "valid_until": "2026-11-23T03:12:05+00:00",
       "competition_low": 27.84,
@@ -2718,7 +2571,7 @@
         ]
       },
       "first_seen": "2026-11-22T21:19:10+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:19:02+00:00",
       "valid_until": "2026-11-23T03:19:02+00:00",
       "competition_low": 12.94,
@@ -2796,7 +2649,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:51:33+00:00",
       "valid_until": "2026-11-23T03:51:33+00:00",
       "competition_low": 85.99,
@@ -2811,7 +2664,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-22T22:23:11+00:00",
+        "observed_at": "2026-11-22T22:56:45+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -2961,7 +2814,7 @@
         ]
       },
       "first_seen": "2026-11-21T06:10:22+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T21:51:33+00:00",
       "valid_until": "2026-11-23T03:51:33+00:00",
       "competition_low": 39.44,
@@ -3033,7 +2886,7 @@
         ]
       },
       "first_seen": "2026-11-21T06:42:51+00:00",
-      "last_seen": "2026-11-22T22:26:01+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
       "observed_at": "2026-11-22T22:24:59+00:00",
       "valid_until": "2026-11-23T04:24:59+00:00",
       "competition_low": 18.53,
@@ -3084,6 +2937,226 @@
           "observed_at": "2026-11-22T22:24:59+00:00"
         }
       ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 43300:d8f0e348dbe2",
+      "category": "lego",
+      "query": "LEGO 43300",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 43300",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "adults",
+          "disney",
+          "for",
+          "pooh",
+          "winnie"
+        ]
+      },
+      "first_seen": "2026-11-22T10:45:38+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
+      "observed_at": "2026-11-22T22:58:01+00:00",
+      "valid_until": "2026-11-23T04:58:01+00:00",
+      "competition_low": 108.97,
+      "estimated_resale": 105.7,
+      "seller_count": 26,
+      "low_supporting_sellers": 4,
+      "max_landed_buy": 58.92,
+      "target_status": "usable_configured_cost_target",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|407375378804|0",
+          "seller": "harrybob_66",
+          "url": "https://www.ebay.co.uk/itm/407375378804",
+          "delivered": 108.97,
+          "observed_at": "2026-11-22T22:58:01+00:00"
+        },
+        {
+          "item_id": "v1|188757244960|0",
+          "seller": "qashe-73",
+          "url": "https://www.ebay.co.uk/itm/188757244960",
+          "delivered": 109.99,
+          "observed_at": "2026-11-22T22:58:01+00:00"
+        },
+        {
+          "item_id": "v1|327466921449|0",
+          "seller": "brickmas",
+          "url": "https://www.ebay.co.uk/itm/327466921449",
+          "delivered": 109.99,
+          "observed_at": "2026-11-22T22:58:01+00:00"
+        },
+        {
+          "item_id": "v1|366660401405|0",
+          "seller": "scr_5103",
+          "url": "https://www.ebay.co.uk/itm/366660401405",
+          "delivered": 114.95,
+          "observed_at": "2026-11-22T22:58:01+00:00"
+        },
+        {
+          "item_id": "v1|147355759572|0",
+          "seller": "mypinkworld86",
+          "url": "https://www.ebay.co.uk/itm/147355759572",
+          "delivered": 121.86,
+          "observed_at": "2026-11-22T22:58:01+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-22T21:49:55+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 58.92
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 76924:6fc7f1de7bc1",
+      "category": "lego",
+      "query": "LEGO 76924",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 76924",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "63",
+          "amg",
+          "mercedes",
+          "sl"
+        ]
+      },
+      "first_seen": "2026-11-21T07:14:57+00:00",
+      "last_seen": "2026-11-22T22:58:39+00:00",
+      "observed_at": "2026-11-22T22:57:59+00:00",
+      "valid_until": "2026-11-23T04:57:59+00:00",
+      "competition_low": 3.2,
+      "estimated_resale": 3.1,
+      "seller_count": 9,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|127736860509|0",
+          "seller": "brickinawesome",
+          "url": "https://www.ebay.co.uk/itm/127736860509",
+          "delivered": 3.2,
+          "observed_at": "2026-11-22T22:57:59+00:00"
+        },
+        {
+          "item_id": "v1|800900430528|0",
+          "seller": "exquisitetaste2026",
+          "url": "https://www.ebay.co.uk/itm/800900430528",
+          "delivered": 33.0,
+          "observed_at": "2026-11-22T22:57:59+00:00"
+        },
+        {
+          "item_id": "v1|377659823725|0",
+          "seller": "pwli2005",
+          "url": "https://www.ebay.co.uk/itm/377659823725",
+          "delivered": 33.0,
+          "observed_at": "2026-11-22T22:57:59+00:00"
+        },
+        {
+          "item_id": "v1|860045282126|0",
+          "seller": "joshs_bricks_and_pieces",
+          "url": "https://www.ebay.co.uk/itm/860045282126",
+          "delivered": 33.38,
+          "observed_at": "2026-11-22T22:57:59+00:00"
+        },
+        {
+          "item_id": "v1|168862423370|0",
+          "seller": "archeuk",
+          "url": "https://www.ebay.co.uk/itm/168862423370",
+          "delivered": 33.98,
+          "observed_at": "2026-11-22T22:57:59+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 40813:029b4b6cc167",
+      "category": "lego",
+      "query": "LEGO 40813",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 40813",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "cat",
+          "lucky"
+        ]
+      },
+      "first_seen": "2026-11-22T16:49:03+00:00",
+      "last_seen": "2026-11-22T22:26:01+00:00",
+      "observed_at": "2026-11-22T16:48:03+00:00",
+      "valid_until": "2026-11-22T22:48:03+00:00",
+      "competition_low": 24.99,
+      "estimated_resale": 24.24,
+      "seller_count": 27,
+      "low_supporting_sellers": 5,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|358342770542|0",
+          "seller": "hmv_official_store",
+          "url": "https://www.ebay.co.uk/itm/358342770542",
+          "delivered": 24.99,
+          "observed_at": "2026-11-22T16:48:03+00:00"
+        },
+        {
+          "item_id": "v1|168857807723|0",
+          "seller": "elysicrocke_0",
+          "url": "https://www.ebay.co.uk/itm/168857807723",
+          "delivered": 25.48,
+          "observed_at": "2026-11-22T16:48:03+00:00"
+        },
+        {
+          "item_id": "v1|227614191230|0",
+          "seller": "yonli_79",
+          "url": "https://www.ebay.co.uk/itm/227614191230",
+          "delivered": 25.94,
+          "observed_at": "2026-11-22T16:48:03+00:00"
+        },
+        {
+          "item_id": "v1|156882895267|0",
+          "seller": "juo-18",
+          "url": "https://www.ebay.co.uk/itm/156882895267",
+          "delivered": 26.38,
+          "observed_at": "2026-11-22T16:48:03+00:00"
+        },
+        {
+          "item_id": "v1|317833840166|0",
+          "seller": "benmh6",
+          "url": "https://www.ebay.co.uk/itm/317833840166",
+          "delivered": 27.44,
+          "observed_at": "2026-11-22T16:48:03+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-22T21:18:36+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 6.47
     },
     {
       "key": "browse-asks-v5:lego:lego 71836:47d50d4995be",
@@ -10004,79 +10077,6 @@
       ]
     },
     {
-      "key": "browse-asks-v5:lego:lego 76924:6fc7f1de7bc1",
-      "category": "lego",
-      "query": "LEGO 76924",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 76924",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "63",
-          "amg",
-          "mercedes",
-          "sl"
-        ]
-      },
-      "first_seen": "2026-11-21T07:14:57+00:00",
-      "last_seen": "2026-11-21T13:13:45+00:00",
-      "observed_at": "2026-11-21T07:14:25+00:00",
-      "valid_until": "2026-11-21T13:14:25+00:00",
-      "competition_low": 3.2,
-      "estimated_resale": 3.1,
-      "seller_count": 9,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|127736860509|0",
-          "seller": "brickinawesome",
-          "url": "https://www.ebay.co.uk/itm/127736860509",
-          "delivered": 3.2,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        },
-        {
-          "item_id": "v1|800900430528|0",
-          "seller": "exquisitetaste2026",
-          "url": "https://www.ebay.co.uk/itm/800900430528",
-          "delivered": 33.0,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        },
-        {
-          "item_id": "v1|377659823725|0",
-          "seller": "pwli2005",
-          "url": "https://www.ebay.co.uk/itm/377659823725",
-          "delivered": 33.0,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        },
-        {
-          "item_id": "v1|860045282126|0",
-          "seller": "joshs_bricks_and_pieces",
-          "url": "https://www.ebay.co.uk/itm/860045282126",
-          "delivered": 33.38,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        },
-        {
-          "item_id": "v1|168862423370|0",
-          "seller": "archeuk",
-          "url": "https://www.ebay.co.uk/itm/168862423370",
-          "delivered": 33.98,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        }
-      ]
-    },
-    {
       "key": "browse-asks-v5:gaming:dead island 2 day one edition xbox series x xbox one:4f53cda18c2b",
       "category": "gaming",
       "query": "dead island 2 day one edition xbox series x xbox one",
@@ -12047,263 +12047,6 @@
     },
     {
       "kind": "active_ask",
-      "query": "LEGO 40813",
-      "category": "lego",
-      "name_terms": [
-        "cat",
-        "lucky"
-      ],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-22T16:48:03+00:00",
-      "date": "2026-11-22",
-      "sample_count": 27,
-      "listed_total_low": 24.99,
-      "listed_total_p25": 28.0,
-      "listed_total_median": 29.64,
-      "listed_total_p75": 36.84,
-      "listed_total_high": 50.62,
-      "status": "wide_spread",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|358342770542|0",
-          "seller": "hmv_official_store",
-          "image": "https://i.ebayimg.com/images/g/BUUAAeSwK1trAJVs/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/358342770542",
-          "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home Decor Building Toy",
-          "declared_condition": "new",
-          "item_price": 24.99,
-          "shipping": 0.0,
-          "listed_total": 24.99
-        },
-        {
-          "item_id": "v1|168857807723|0",
-          "seller": "elysicrocke_0",
-          "image": "https://i.ebayimg.com/images/g/a1MAAeSwjPtq9geV/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/168857807723",
-          "title": "LEGO 40813 Lucky Cat Seasonal Chinese Traditional Festivals 280pc 9+ 11cm",
-          "declared_condition": "new",
-          "item_price": 22.54,
-          "shipping": 2.94,
-          "listed_total": 25.48
-        },
-        {
-          "item_id": "v1|227614191230|0",
-          "seller": "yonli_79",
-          "image": "https://i.ebayimg.com/images/g/nWQAAeSwDNVq-Ic7/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227614191230",
-          "title": "LEGO 40813 Lucky Cat 40813, New and Sealed",
-          "declared_condition": "new",
-          "item_price": 23.0,
-          "shipping": 2.94,
-          "listed_total": 25.94
-        },
-        {
-          "item_id": "v1|156882895267|0",
-          "seller": "juo-18",
-          "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/156882895267",
-          "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-          "declared_condition": "new",
-          "item_price": 23.0,
-          "shipping": 3.38,
-          "listed_total": 26.38
-        },
-        {
-          "item_id": "v1|317833840166|0",
-          "seller": "benmh6",
-          "image": "https://i.ebayimg.com/images/g/oUAAAeSw5M9pgSoe/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/317833840166",
-          "title": "LEGO 40813 Lucky Cat",
-          "declared_condition": "new",
-          "item_price": 24.5,
-          "shipping": 2.94,
-          "listed_total": 27.44
-        },
-        {
-          "item_id": "v1|336439396495|0",
-          "seller": "rakushka04",
-          "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/336439396495",
-          "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-          "declared_condition": "new",
-          "item_price": 24.88,
-          "shipping": 2.94,
-          "listed_total": 27.82
-        },
-        {
-          "item_id": "v1|257344628346|0",
-          "seller": "paulreversepush",
-          "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/257344628346",
-          "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
-          "declared_condition": "new",
-          "item_price": 28.0,
-          "shipping": 0.0,
-          "listed_total": 28.0
-        },
-        {
-          "item_id": "v1|287739538774|0",
-          "seller": "vendasnackuk",
-          "image": "https://i.ebayimg.com/images/g/dvEAAeSwSLFq9cEF/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/287739538774",
-          "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-          "declared_condition": "new",
-          "item_price": 28.0,
-          "shipping": 0.0,
-          "listed_total": 28.0
-        },
-        {
-          "item_id": "v1|317761343050|0",
-          "seller": "phillipshobbies",
-          "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/317761343050",
-          "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
-          "declared_condition": "new",
-          "item_price": 24.99,
-          "shipping": 3.99,
-          "listed_total": 28.98
-        },
-        {
-          "item_id": "v1|306672596685|0",
-          "seller": "toytownstores",
-          "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/306672596685",
-          "title": "LEGO 40813 Lucky Cat ",
-          "declared_condition": "new",
-          "item_price": 25.0,
-          "shipping": 4.0,
-          "listed_total": 29.0
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 3
-      },
-      "query_aliases": [
-        "LEGO Lucky Cat 40813"
-      ]
-    },
-    {
-      "kind": "active_ask",
       "query": "LEGO 75444",
       "category": "lego",
       "name_terms": [
@@ -12556,6 +12299,243 @@
       },
       "query_aliases": [
         "LEGO Star Wars AT-RT Attack 75444"
+      ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "LEGO 76924",
+      "category": "lego",
+      "name_terms": [
+        "63",
+        "amg",
+        "mercedes",
+        "sl"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-22T22:57:59+00:00",
+      "date": "2026-11-22",
+      "sample_count": 9,
+      "listed_total_low": 3.2,
+      "listed_total_p25": 33.0,
+      "listed_total_median": 33.98,
+      "listed_total_p75": 35.27,
+      "listed_total_high": 35.35,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|127736860509|0",
+          "seller": "brickinawesome",
+          "image": "https://i.ebayimg.com/images/g/650AAeSwBhJpsxTo/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/127736860509",
+          "title": "NEW LEGO SPEED CHAMPION 6472285 3710 PLATE 1X4 MERCEDES SL63 AMG 76924",
+          "declared_condition": "new",
+          "item_price": 3.2,
+          "shipping": 0.0,
+          "listed_total": 3.2
+        },
+        {
+          "item_id": "v1|800900430528|0",
+          "seller": "exquisitetaste2026",
+          "image": "https://i.ebayimg.com/images/g/VP8AAeSwMFNq8z6Z/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/800900430528",
+          "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 Set 10+ 808pcs",
+          "declared_condition": "new",
+          "item_price": 33.0,
+          "shipping": 0.0,
+          "listed_total": 33.0
+        },
+        {
+          "item_id": "v1|377659823725|0",
+          "seller": "pwli2005",
+          "image": "https://i.ebayimg.com/images/g/4SkAAeSw6xpqnq-T/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/377659823725",
+          "title": "LEGO SPEED CHAMPIONS: Mercedes-Amg G 63 & Mercedes-Amg Sl 63 (76924) New & seal",
+          "declared_condition": "new",
+          "item_price": 33.0,
+          "shipping": 0.0,
+          "listed_total": 33.0
+        },
+        {
+          "item_id": "v1|860045282126|0",
+          "seller": "joshs_bricks_and_pieces",
+          "image": "https://i.ebayimg.com/images/g/cxAAAeSwRLRq0AD7/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/860045282126",
+          "title": "LEGO 76924 SPEED CHAMPIONS: Mercedes-Amg G 63 & Mercedes-Amg Sl 63 Brand New",
+          "declared_condition": "new",
+          "item_price": 30.0,
+          "shipping": 3.38,
+          "listed_total": 33.38
+        },
+        {
+          "item_id": "v1|168862423370|0",
+          "seller": "archeuk",
+          "image": "https://i.ebayimg.com/images/g/y8UAAeSwJuhq-Fpw/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/168862423370",
+          "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 Complete Set 808pc 10+ BNIB",
+          "declared_condition": "new",
+          "item_price": 33.98,
+          "shipping": 0.0,
+          "listed_total": 33.98
+        },
+        {
+          "item_id": "v1|205820835550|0",
+          "seller": "judmon-3780",
+          "image": "https://i.ebayimg.com/images/g/yeMAAeSwXY9pBpJ~/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/205820835550",
+          "title": "LEGO Speed Champions 76924 Mercedes-AMG G-Class G 63 Mercedes-AMG SL 63 Car Set",
+          "declared_condition": "new",
+          "item_price": 31.9,
+          "shipping": 2.94,
+          "listed_total": 34.84
+        },
+        {
+          "item_id": "v1|137624951801|0",
+          "seller": "coo_9496",
+          "image": "https://i.ebayimg.com/images/g/NIoAAeSwAg9ppbkL/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/137624951801",
+          "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & Mercedes-AMG SL 63",
+          "declared_condition": "new",
+          "item_price": 31.89,
+          "shipping": 3.38,
+          "listed_total": 35.27
+        },
+        {
+          "item_id": "v1|366792714322|0",
+          "seller": "embl_30",
+          "image": "https://i.ebayimg.com/images/g/gaIAAeSw3slq7ysY/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/366792714322",
+          "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 808-Piece Set",
+          "declared_condition": "new",
+          "item_price": 31.9,
+          "shipping": 3.38,
+          "listed_total": 35.28
+        },
+        {
+          "item_id": "v1|136950548941|0",
+          "seller": "brickandbits",
+          "image": "https://i.ebayimg.com/images/g/wPgAAeSwA89paJq3/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/136950548941",
+          "title": "LEGO 76924 Speed Champions Mercedes-AMG G 63 SL 63 Car Set - Brand New \ud83d\ude9a\ud83d\udca8",
+          "declared_condition": "new",
+          "item_price": 31.64,
+          "shipping": 3.71,
+          "listed_total": 35.35
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 39,
+        "price_currency_or_shipping_unknown": 2
+      },
+      "query_aliases": [
+        "LEGO Speed Champions Mercedes-AMG G 63 & Mercedes-AMG SL 63 - 76924"
       ]
     },
     {
@@ -13661,7 +13641,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-22T22:23:11+00:00",
+        "observed_at": "2026-11-22T22:56:45+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -14476,7 +14456,7 @@
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-22T16:48:06+00:00",
+      "observed_at": "2026-11-22T22:58:01+00:00",
       "date": "2026-11-22",
       "sample_count": 26,
       "listed_total_low": 108.97,
@@ -14822,6 +14802,35 @@
     },
     {
       "kind": "active_ask",
+      "query": "lego batman nintendo switch 2",
+      "category": "gaming",
+      "name_terms": [],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-22T22:57:59+00:00",
+      "date": "2026-11-22",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {
+        "identity_or_condition": 50
+      },
+      "query_aliases": [
+        "Lego Batman - Nintendo Switch 2"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "teenage mutant ninja turtles mutants unleashed xbox",
       "category": "gaming",
       "name_terms": [],
@@ -15040,7 +15049,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-22T22:26:13+00:00",
+  "generated_utc": "2026-11-22T22:58:49+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
@@ -15296,8 +15305,8 @@
       "item_price": 111.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/300x300/qt/55/5041520_1.jpg",
         "https://images.hotukdeals.com/threads/raw/a58lr/5041520_1/re/150x150/qt/55/5041520_1.jpg"
@@ -16017,8 +16026,8 @@
       "item_price": 10.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg"
@@ -16742,8 +16751,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/150x150/qt/55/5038670_1.jpg",
@@ -17452,8 +17461,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/300x300/qt/55/5038154_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/300x300/qt/55/5038154_1.jpg",
         "https://images.hotukdeals.com/threads/raw/i2bBm/5038154_1/re/150x150/qt/55/5038154_1.jpg",
@@ -18159,717 +18168,6 @@
       }
     },
     {
-      "title": "LEGO Lucky Cat 40813",
-      "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
-      "policy_key": "d241edd97a3b0b7011f3700b",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 21.5,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/150x150/qt/55/5042974_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
-      "landed_cost": null,
-      "breakeven_sell": 32.66,
-      "sell_for_minimum_profit": 42.96,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-22T16:48:02+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 40813",
-        "category": "lego",
-        "name_terms": [
-          "cat",
-          "lucky"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-22T16:48:03+00:00",
-        "date": "2026-11-22",
-        "sample_count": 27,
-        "listed_total_low": 24.99,
-        "listed_total_p25": 28.0,
-        "listed_total_median": 29.64,
-        "listed_total_p75": 36.84,
-        "listed_total_high": 50.62,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|358342770542|0",
-            "seller": "hmv_official_store",
-            "image": "https://i.ebayimg.com/images/g/BUUAAeSwK1trAJVs/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358342770542",
-            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home Decor Building Toy",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99
-          },
-          {
-            "item_id": "v1|168857807723|0",
-            "seller": "elysicrocke_0",
-            "image": "https://i.ebayimg.com/images/g/a1MAAeSwjPtq9geV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168857807723",
-            "title": "LEGO 40813 Lucky Cat Seasonal Chinese Traditional Festivals 280pc 9+ 11cm",
-            "declared_condition": "new",
-            "item_price": 22.54,
-            "shipping": 2.94,
-            "listed_total": 25.48
-          },
-          {
-            "item_id": "v1|227614191230|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/nWQAAeSwDNVq-Ic7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227614191230",
-            "title": "LEGO 40813 Lucky Cat 40813, New and Sealed",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 2.94,
-            "listed_total": 25.94
-          },
-          {
-            "item_id": "v1|156882895267|0",
-            "seller": "juo-18",
-            "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/156882895267",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 3.38,
-            "listed_total": 26.38
-          },
-          {
-            "item_id": "v1|317833840166|0",
-            "seller": "benmh6",
-            "image": "https://i.ebayimg.com/images/g/oUAAAeSw5M9pgSoe/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317833840166",
-            "title": "LEGO 40813 Lucky Cat",
-            "declared_condition": "new",
-            "item_price": 24.5,
-            "shipping": 2.94,
-            "listed_total": 27.44
-          },
-          {
-            "item_id": "v1|336439396495|0",
-            "seller": "rakushka04",
-            "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336439396495",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 24.88,
-            "shipping": 2.94,
-            "listed_total": 27.82
-          },
-          {
-            "item_id": "v1|257344628346|0",
-            "seller": "paulreversepush",
-            "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257344628346",
-            "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 28.0,
-            "shipping": 0.0,
-            "listed_total": 28.0
-          },
-          {
-            "item_id": "v1|287739538774|0",
-            "seller": "vendasnackuk",
-            "image": "https://i.ebayimg.com/images/g/dvEAAeSwSLFq9cEF/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287739538774",
-            "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-            "declared_condition": "new",
-            "item_price": 28.0,
-            "shipping": 0.0,
-            "listed_total": 28.0
-          },
-          {
-            "item_id": "v1|317761343050|0",
-            "seller": "phillipshobbies",
-            "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317761343050",
-            "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 3.99,
-            "listed_total": 28.98
-          },
-          {
-            "item_id": "v1|306672596685|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306672596685",
-            "title": "LEGO 40813 Lucky Cat ",
-            "declared_condition": "new",
-            "item_price": 25.0,
-            "shipping": 4.0,
-            "listed_total": 29.0
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 3
-        },
-        "query_aliases": [
-          "LEGO Lucky Cat 40813"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 40813",
-        "observed_at": "2026-11-22T16:48:03+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 27,
-        "seller_count": 27,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 5,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 24.99,
-        "competition_high": 50.62,
-        "estimated_resale": 24.24,
-        "estimated_range": [
-          22.49,
-          24.99
-        ],
-        "suggested_listing": 24.98,
-        "quick_sale_model": 22.49,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 21.5,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -7.03,
-        "max_landed_buy": 6.47,
-        "max_item_buy": null,
-        "delivery_headroom": -15.03,
-        "fees": 3.75,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.73,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 21.81,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 4.46,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|358342770542|0",
-            "seller": "hmv_official_store",
-            "image": "https://i.ebayimg.com/images/g/BUUAAeSwK1trAJVs/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/358342770542",
-            "title": "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home Decor Building Toy",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 0.0,
-            "listed_total": 24.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168857807723|0",
-            "seller": "elysicrocke_0",
-            "image": "https://i.ebayimg.com/images/g/a1MAAeSwjPtq9geV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168857807723",
-            "title": "LEGO 40813 Lucky Cat Seasonal Chinese Traditional Festivals 280pc 9+ 11cm",
-            "declared_condition": "new",
-            "item_price": 22.54,
-            "shipping": 2.94,
-            "listed_total": 25.48,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227614191230|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/nWQAAeSwDNVq-Ic7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227614191230",
-            "title": "LEGO 40813 Lucky Cat 40813, New and Sealed",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 2.94,
-            "listed_total": 25.94,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|156882895267|0",
-            "seller": "juo-18",
-            "image": "https://i.ebayimg.com/images/g/9l4AAOSw1ZdneY0V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/156882895267",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 23.0,
-            "shipping": 3.38,
-            "listed_total": 26.38,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|317833840166|0",
-            "seller": "benmh6",
-            "image": "https://i.ebayimg.com/images/g/oUAAAeSw5M9pgSoe/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317833840166",
-            "title": "LEGO 40813 Lucky Cat",
-            "declared_condition": "new",
-            "item_price": 24.5,
-            "shipping": 2.94,
-            "listed_total": 27.44,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|336439396495|0",
-            "seller": "rakushka04",
-            "image": "https://i.ebayimg.com/images/g/UUMAAeSwR-xplHTc/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336439396495",
-            "title": "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            "declared_condition": "new",
-            "item_price": 24.88,
-            "shipping": 2.94,
-            "listed_total": 27.82,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|257344628346|0",
-            "seller": "paulreversepush",
-            "image": "https://i.ebayimg.com/images/g/In4AAeSwyV5pgxp9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257344628346",
-            "title": "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 28.0,
-            "shipping": 0.0,
-            "listed_total": 28.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287739538774|0",
-            "seller": "vendasnackuk",
-            "image": "https://i.ebayimg.com/images/g/dvEAAeSwSLFq9cEF/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287739538774",
-            "title": "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-            "declared_condition": "new",
-            "item_price": 28.0,
-            "shipping": 0.0,
-            "listed_total": 28.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|317761343050|0",
-            "seller": "phillipshobbies",
-            "image": "https://i.ebayimg.com/images/g/UY4AAeSw8nNpZupz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317761343050",
-            "title": "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
-            "declared_condition": "new",
-            "item_price": 24.99,
-            "shipping": 3.99,
-            "listed_total": 28.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|306672596685|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/dzkAAeSw8oFpSoGh/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306672596685",
-            "title": "LEGO 40813 Lucky Cat ",
-            "declared_condition": "new",
-            "item_price": 25.0,
-            "shipping": 4.0,
-            "listed_total": 29.0,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Lucky Cat 40813",
-        "query": "LEGO 40813",
-        "kind": "active_ask",
-        "listing": 24.98,
-        "observed_at": "2026-11-22T16:48:03+00:00",
-        "valid_until": "2026-11-22T22:48:03+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/358342770542",
-          "https://www.ebay.co.uk/itm/168857807723",
-          "https://www.ebay.co.uk/itm/227614191230",
-          "https://www.ebay.co.uk/itm/156882895267",
-          "https://www.ebay.co.uk/itm/317833840166",
-          "https://www.ebay.co.uk/itm/336439396495",
-          "https://www.ebay.co.uk/itm/257344628346",
-          "https://www.ebay.co.uk/itm/287739538774",
-          "https://www.ebay.co.uk/itm/317761343050",
-          "https://www.ebay.co.uk/itm/306672596685"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/358342770542",
-            "LEGO Lucky Cat Figurine (40813) Maneki-neko Japanese Home Decor Building Toy",
-            24.99,
-            0.0,
-            24.99,
-            "hmv_official_store"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/168857807723",
-            "LEGO 40813 Lucky Cat Seasonal Chinese Traditional Festivals 280pc 9+ 11cm",
-            25.48,
-            2.94,
-            22.54,
-            "elysicrocke_0"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227614191230",
-            "LEGO 40813 Lucky Cat 40813, New and Sealed",
-            25.94,
-            2.94,
-            23.0,
-            "yonli_79"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/156882895267",
-            "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            26.38,
-            3.38,
-            23.0,
-            "juo-18"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/317833840166",
-            "LEGO 40813 Lucky Cat",
-            27.44,
-            2.94,
-            24.5,
-            "benmh6"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/336439396495",
-            "Lego 40813 Lucky Cat NEW & SEALED 2025",
-            27.82,
-            2.94,
-            24.88,
-            "rakushka04"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/257344628346",
-            "40813 Lucky Cat LEGO Chinese New Year Brand New & Sealed",
-            28.0,
-            0.0,
-            28.0,
-            "paulreversepush"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/287739538774",
-            "LEGO 40813 - Lucky Cat Chinese New Year Spring Festival Set - New & Sealed",
-            28.0,
-            0.0,
-            28.0,
-            "vendasnackuk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/317761343050",
-            "LEGO Lucky Cat Good Luck Decor Piece Building Kit Toy Building Set 40813 NEW",
-            28.98,
-            3.99,
-            24.99,
-            "phillipshobbies"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/306672596685",
-            "LEGO 40813 Lucky Cat ",
-            29.0,
-            4.0,
-            25.0,
-            "toytownstores"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Star Wars AT-RT Attack 75444",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-at-rt-attack-75444-5038691",
       "policy_key": "4b0047538d5d1330a5a4bf0c",
@@ -19482,6 +18780,576 @@
       }
     },
     {
+      "title": "LEGO Speed Champions Mercedes-AMG G 63 & Mercedes-AMG SL 63 - 76924",
+      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-mercedes-amg-g-63-mercedes-amg-sl-63-76924-5038673",
+      "policy_key": "4401939b3eb55a10541356c2",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 29.99,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg",
+        "https://i.ebayimg.com/images/g/650AAeSwBhJpsxTo/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/VP8AAeSwMFNq8z6Z/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 42.82,
+      "sell_for_minimum_profit": 57.2,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-19T09:33:43+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Mercedes-AMG+G+63+%26+Mercedes-AMG+SL+63&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 76924",
+        "category": "lego",
+        "name_terms": [
+          "63",
+          "amg",
+          "mercedes",
+          "sl"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T22:57:59+00:00",
+        "date": "2026-11-22",
+        "sample_count": 9,
+        "listed_total_low": 3.2,
+        "listed_total_p25": 33.0,
+        "listed_total_median": 33.98,
+        "listed_total_p75": 35.27,
+        "listed_total_high": 35.35,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|127736860509|0",
+            "seller": "brickinawesome",
+            "image": "https://i.ebayimg.com/images/g/650AAeSwBhJpsxTo/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127736860509",
+            "title": "NEW LEGO SPEED CHAMPION 6472285 3710 PLATE 1X4 MERCEDES SL63 AMG 76924",
+            "declared_condition": "new",
+            "item_price": 3.2,
+            "shipping": 0.0,
+            "listed_total": 3.2
+          },
+          {
+            "item_id": "v1|800900430528|0",
+            "seller": "exquisitetaste2026",
+            "image": "https://i.ebayimg.com/images/g/VP8AAeSwMFNq8z6Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800900430528",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 Set 10+ 808pcs",
+            "declared_condition": "new",
+            "item_price": 33.0,
+            "shipping": 0.0,
+            "listed_total": 33.0
+          },
+          {
+            "item_id": "v1|377659823725|0",
+            "seller": "pwli2005",
+            "image": "https://i.ebayimg.com/images/g/4SkAAeSw6xpqnq-T/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377659823725",
+            "title": "LEGO SPEED CHAMPIONS: Mercedes-Amg G 63 & Mercedes-Amg Sl 63 (76924) New & seal",
+            "declared_condition": "new",
+            "item_price": 33.0,
+            "shipping": 0.0,
+            "listed_total": 33.0
+          },
+          {
+            "item_id": "v1|860045282126|0",
+            "seller": "joshs_bricks_and_pieces",
+            "image": "https://i.ebayimg.com/images/g/cxAAAeSwRLRq0AD7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860045282126",
+            "title": "LEGO 76924 SPEED CHAMPIONS: Mercedes-Amg G 63 & Mercedes-Amg Sl 63 Brand New",
+            "declared_condition": "new",
+            "item_price": 30.0,
+            "shipping": 3.38,
+            "listed_total": 33.38
+          },
+          {
+            "item_id": "v1|168862423370|0",
+            "seller": "archeuk",
+            "image": "https://i.ebayimg.com/images/g/y8UAAeSwJuhq-Fpw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168862423370",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 Complete Set 808pc 10+ BNIB",
+            "declared_condition": "new",
+            "item_price": 33.98,
+            "shipping": 0.0,
+            "listed_total": 33.98
+          },
+          {
+            "item_id": "v1|205820835550|0",
+            "seller": "judmon-3780",
+            "image": "https://i.ebayimg.com/images/g/yeMAAeSwXY9pBpJ~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/205820835550",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G-Class G 63 Mercedes-AMG SL 63 Car Set",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 2.94,
+            "listed_total": 34.84
+          },
+          {
+            "item_id": "v1|137624951801|0",
+            "seller": "coo_9496",
+            "image": "https://i.ebayimg.com/images/g/NIoAAeSwAg9ppbkL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137624951801",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & Mercedes-AMG SL 63",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 3.38,
+            "listed_total": 35.27
+          },
+          {
+            "item_id": "v1|366792714322|0",
+            "seller": "embl_30",
+            "image": "https://i.ebayimg.com/images/g/gaIAAeSw3slq7ysY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366792714322",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 808-Piece Set",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 3.38,
+            "listed_total": 35.28
+          },
+          {
+            "item_id": "v1|136950548941|0",
+            "seller": "brickandbits",
+            "image": "https://i.ebayimg.com/images/g/wPgAAeSwA89paJq3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/136950548941",
+            "title": "LEGO 76924 Speed Champions Mercedes-AMG G 63 SL 63 Car Set - Brand New \ud83d\ude9a\ud83d\udca8",
+            "declared_condition": "new",
+            "item_price": 31.64,
+            "shipping": 3.71,
+            "listed_total": 35.35
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 39,
+          "price_currency_or_shipping_unknown": 2
+        },
+        "query_aliases": [
+          "LEGO Speed Champions Mercedes-AMG G 63 & Mercedes-AMG SL 63 - 76924"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 76924",
+        "observed_at": "2026-11-22T22:57:59+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 9,
+        "seller_count": 9,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 3.2,
+        "competition_high": 35.35,
+        "estimated_resale": 3.1,
+        "estimated_range": [
+          2.88,
+          3.2
+        ],
+        "suggested_listing": 3.19,
+        "quick_sale_model": 2.88,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 29.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -33.05,
+        "max_landed_buy": 0,
+        "max_item_buy": null,
+        "delivery_headroom": -29.99,
+        "fees": 0.78,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.09,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 2.79,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|127736860509|0",
+            "seller": "brickinawesome",
+            "image": "https://i.ebayimg.com/images/g/650AAeSwBhJpsxTo/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127736860509",
+            "title": "NEW LEGO SPEED CHAMPION 6472285 3710 PLATE 1X4 MERCEDES SL63 AMG 76924",
+            "declared_condition": "new",
+            "item_price": 3.2,
+            "shipping": 0.0,
+            "listed_total": 3.2,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|800900430528|0",
+            "seller": "exquisitetaste2026",
+            "image": "https://i.ebayimg.com/images/g/VP8AAeSwMFNq8z6Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800900430528",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 Set 10+ 808pcs",
+            "declared_condition": "new",
+            "item_price": 33.0,
+            "shipping": 0.0,
+            "listed_total": 33.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377659823725|0",
+            "seller": "pwli2005",
+            "image": "https://i.ebayimg.com/images/g/4SkAAeSw6xpqnq-T/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377659823725",
+            "title": "LEGO SPEED CHAMPIONS: Mercedes-Amg G 63 & Mercedes-Amg Sl 63 (76924) New & seal",
+            "declared_condition": "new",
+            "item_price": 33.0,
+            "shipping": 0.0,
+            "listed_total": 33.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860045282126|0",
+            "seller": "joshs_bricks_and_pieces",
+            "image": "https://i.ebayimg.com/images/g/cxAAAeSwRLRq0AD7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860045282126",
+            "title": "LEGO 76924 SPEED CHAMPIONS: Mercedes-Amg G 63 & Mercedes-Amg Sl 63 Brand New",
+            "declared_condition": "new",
+            "item_price": 30.0,
+            "shipping": 3.38,
+            "listed_total": 33.38,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168862423370|0",
+            "seller": "archeuk",
+            "image": "https://i.ebayimg.com/images/g/y8UAAeSwJuhq-Fpw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168862423370",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 Complete Set 808pc 10+ BNIB",
+            "declared_condition": "new",
+            "item_price": 33.98,
+            "shipping": 0.0,
+            "listed_total": 33.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|205820835550|0",
+            "seller": "judmon-3780",
+            "image": "https://i.ebayimg.com/images/g/yeMAAeSwXY9pBpJ~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/205820835550",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G-Class G 63 Mercedes-AMG SL 63 Car Set",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 2.94,
+            "listed_total": 34.84,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137624951801|0",
+            "seller": "coo_9496",
+            "image": "https://i.ebayimg.com/images/g/NIoAAeSwAg9ppbkL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137624951801",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & Mercedes-AMG SL 63",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 3.38,
+            "listed_total": 35.27,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366792714322|0",
+            "seller": "embl_30",
+            "image": "https://i.ebayimg.com/images/g/gaIAAeSw3slq7ysY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366792714322",
+            "title": "LEGO Speed Champions 76924 Mercedes-AMG G 63 & SL 63 808-Piece Set",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 3.38,
+            "listed_total": 35.28,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|136950548941|0",
+            "seller": "brickandbits",
+            "image": "https://i.ebayimg.com/images/g/wPgAAeSwA89paJq3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/136950548941",
+            "title": "LEGO 76924 Speed Champions Mercedes-AMG G 63 SL 63 Car Set - Brand New \ud83d\ude9a\ud83d\udca8",
+            "declared_condition": "new",
+            "item_price": 31.64,
+            "shipping": 3.71,
+            "listed_total": 35.35,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
       "title": "LEGO City Coast Guard Helicopter 60503",
       "url": "https://www.hotukdeals.com/deals/lego-city-coast-gaurd-helicopter-60503-5038656",
       "policy_key": "a5d917548787c9e4ca5afb49",
@@ -19496,8 +19364,8 @@
       "item_price": 32.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg",
@@ -20213,8 +20081,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/300x300/qt/55/5038069_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/300x300/qt/55/5038069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/oCBVw/5038069_1/re/150x150/qt/55/5038069_1.jpg",
@@ -21132,8 +21000,8 @@
       "item_price": 37.95,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/300x300/qt/55/5038231_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/300x300/qt/55/5038231_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6mcQL/5038231_1/re/150x150/qt/55/5038231_1.jpg",
@@ -22400,7 +22268,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-22T22:23:11+00:00",
+          "observed_at": "2026-11-22T22:56:45+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -22716,8 +22584,8 @@
       "item_price": 83.17,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FjIqc/5042421_1/re/300x300/qt/55/5042421_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FjIqc/5042421_1/re/300x300/qt/55/5042421_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FjIqc/5042421_1/re/150x150/qt/55/5042421_1.jpg"
@@ -23152,8 +23020,8 @@
       "item_price": 88.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/300x300/qt/55/5041794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mxsba/5041794_1/re/150x150/qt/55/5041794_1.jpg"
@@ -23873,8 +23741,8 @@
       "item_price": 93.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/300x300/qt/55/5042700_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/300x300/qt/55/5042700_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/150x150/qt/55/5042700_1.jpg"
@@ -24595,8 +24463,8 @@
       "item_price": 97.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3E4Kv/5042651_1/re/300x300/qt/55/5042651_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3E4Kv/5042651_1/re/300x300/qt/55/5042651_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3E4Kv/5042651_1/re/150x150/qt/55/5042651_1.jpg"
@@ -24631,7 +24499,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-22T16:48:06+00:00",
+        "observed_at": "2026-11-22T22:58:01+00:00",
         "date": "2026-11-22",
         "sample_count": 26,
         "listed_total_low": 108.97,
@@ -24885,7 +24753,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "LEGO 43300",
-        "observed_at": "2026-11-22T16:48:06+00:00",
+        "observed_at": "2026-11-22T22:58:01+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 26,
@@ -25201,8 +25069,8 @@
         "query": "LEGO 43300",
         "kind": "active_ask",
         "listing": 108.96,
-        "observed_at": "2026-11-22T16:48:06+00:00",
-        "valid_until": "2026-11-22T22:48:06+00:00",
+        "observed_at": "2026-11-22T22:58:01+00:00",
+        "valid_until": "2026-11-23T04:58:01+00:00",
         "sources": [
           "https://www.ebay.co.uk/itm/407375378804",
           "https://www.ebay.co.uk/itm/188757244960",
@@ -25627,6 +25495,82 @@
       }
     },
     {
+      "title": "Borderlands 4 Standard Edition (PS5)",
+      "url": "https://www.ebay.co.uk/itm/327147331603",
+      "policy_key": "aad0aea4ab4909bf12a31b49",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 25.02,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/Le8AAeSwlyBrAI25/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/327147331603",
+      "landed_cost": 25.02,
+      "breakeven_sell": 33.89,
+      "sell_for_minimum_profit": 45.7,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Borderlands+4+Standard+Edition+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "BorderLands 4 Standard Edition - PS5",
+      "url": "https://www.ebay.co.uk/itm/177333123227",
+      "policy_key": "8791aa8b59d5f6a7af4f5745",
+      "category": "gaming",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 41.85,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/q44AAeSwuoVomzn0/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/177333123227",
+      "landed_cost": 41.85,
+      "breakeven_sell": 53.75,
+      "sell_for_minimum_profit": 73.53,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=BorderLands+4+Standard+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Halloween lego Asda 40825",
       "url": "https://www.hotukdeals.com/deals/halloween-lego-asda-40825-5039159",
       "policy_key": "0c367fdf9a3f11f9ca06c9a4",
@@ -25891,8 +25835,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg",
@@ -26153,8 +26097,8 @@
       "item_price": 13.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/150x150/qt/55/5040150_1.jpg"
@@ -26195,8 +26139,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/150x150/qt/55/5040340_1.jpg",
@@ -26239,8 +26183,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
@@ -26283,8 +26227,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg"
@@ -26455,8 +26399,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/150x150/qt/55/5040878_1.jpg",
@@ -26558,6 +26502,45 @@
       "priority": 10,
       "first_seen": "2026-11-18T09:42:35+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Audi+Revolut+F1+Team+R26+Race+Car+77259%2C+Car+Model+Building+Kit%2C+Collectible+Driver+Minifigure%2C+216+pieces&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Timberland Exeter Full Zip Hoodie Green",
+      "url": "https://www.hotukdeals.com/deals/timberland-exeter-full-zip-hoodie-green-5043344",
+      "policy_key": "e494abd171606ef11adefc3e",
+      "category": "sportswear",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "JD Williams",
+      "item_price": 15.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/Ymjx2/5043344_1/re/150x150/qt/55/5043344_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/timberland-exeter-full-zip-hoodie-green-5043344",
+      "landed_cost": null,
+      "breakeven_sell": 23.11,
+      "sell_for_minimum_profit": 32.83,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Timberland+Exeter+Full+Zip+Hoodie+Green&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -26733,6 +26716,45 @@
       "first_seen": "2026-11-19T12:15:17+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+DC+Batman+v+Superman+Batmobile+Set+76331&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Under Armour Charge Surge 4 black trainers",
+      "url": "https://www.hotukdeals.com/deals/under-armour-charge-surge-4-black-trainers-5043327",
+      "policy_key": "d630aa7842260d2e43019b11",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "JD Williams",
+      "item_price": 17.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/gobAS/5043327_1/re/150x150/qt/55/5043327_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/under-armour-charge-surge-4-black-trainers-5043327",
+      "landed_cost": null,
+      "breakeven_sell": 26.12,
+      "sell_for_minimum_profit": 35.85,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Under+Armour+Charge+Surge+4+black+trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -26954,6 +26976,48 @@
       }
     },
     {
+      "title": "LEGO Lucky Cat 40813",
+      "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
+      "policy_key": "d241edd97a3b0b7011f3700b",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 21.5,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/150x150/qt/55/5042974_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
+      "landed_cost": null,
+      "breakeven_sell": 32.66,
+      "sell_for_minimum_profit": 42.96,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T16:48:02+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Lucky+Cat+40813&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Minecraft The Creeper 21276",
       "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-creeper-21276-5038123",
       "policy_key": "0f4f9be3d4545ce441071ed1",
@@ -27042,6 +27106,45 @@
       }
     },
     {
+      "title": "Under Armour Charged Bandit 3 Trail Running Trainers Black/Blue UK - 7,8 & 10",
+      "url": "https://www.hotukdeals.com/deals/under-armour-charged-bandit-3-trail-running-trainers-blackblue-uk-78-10-5043330",
+      "policy_key": "ba62c3106cef4c318ac0d1c4",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "JD Williams",
+      "item_price": 23.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/GsWZ8/5043330_1/re/150x150/qt/55/5043330_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/under-armour-charged-bandit-3-trail-running-trainers-blackblue-uk-78-10-5043330",
+      "landed_cost": null,
+      "breakeven_sell": 33.41,
+      "sell_for_minimum_profit": 44.61,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Under+Armour+Charged+Bandit+3+Trail+Running+Trainers+Black%2FBlue+UK&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Classic Creative Vehicles 11036",
       "url": "https://www.hotukdeals.com/deals/lego-classic-creative-vehicles-11036-5037101",
       "policy_key": "4e01a3b7cf49079ebcd94aa7",
@@ -27100,8 +27203,8 @@
       "item_price": 25.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg",
@@ -27271,8 +27374,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg"
@@ -27399,8 +27502,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -27427,34 +27530,29 @@
       }
     },
     {
-      "title": "LEGO Speed Champions Mercedes-AMG G 63 & Mercedes-AMG SL 63 - 76924",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-mercedes-amg-g-63-mercedes-amg-sl-63-76924-5038673",
-      "policy_key": "4401939b3eb55a10541356c2",
-      "category": "lego",
+      "title": "Lego Batman - Nintendo Switch 2",
+      "url": "https://www.hotukdeals.com/deals/lego-batman-switch-2-john-lewis-5043345",
+      "policy_key": "7f86207724904af97fb1ca64",
+      "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": null,
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "Amazon",
+      "merchant": "John Lewis &amp; Partners",
       "item_price": 29.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
+      "image_status": null,
+      "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg",
-        "https://i.ebayimg.com/images/g/650AAeSwBhJpsxTo/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/VP8AAeSwMFNq8z6Z/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/pwT8G/5043345_1/re/150x150/qt/55/5043345_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-batman-switch-2-john-lewis-5043345",
       "landed_cost": null,
-      "breakeven_sell": 42.82,
-      "sell_for_minimum_profit": 57.2,
+      "breakeven_sell": 39.75,
+      "sell_for_minimum_profit": 53.92,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -27462,9 +27560,38 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-19T09:33:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Mercedes-AMG+G+63+%26+Mercedes-AMG+SL+63&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Batman&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "lego batman nintendo switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-22T22:57:59+00:00",
+        "date": "2026-11-22",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 50
+        },
+        "query_aliases": [
+          "Lego Batman - Nintendo Switch 2"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -27485,8 +27612,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -27527,8 +27654,8 @@
       "item_price": 33.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg",
@@ -27557,84 +27684,6 @@
       }
     },
     {
-      "title": "Adidas Adistar 5 Trainers Carbon Multi",
-      "url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-carbon-multi-5043305",
-      "policy_key": "8d7379e18b693efc811a18ff",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "JD Williams",
-      "item_price": 34.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Lni8r/5043305_1/re/150x150/qt/55/5043305_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-carbon-multi-5043305",
-      "landed_cost": null,
-      "breakeven_sell": 46.78,
-      "sell_for_minimum_profit": 63.32,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-22T22:24:57+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Adistar+5+Trainers+Carbon+Multi&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Adidas Adistar 5 Trainers Multi Blue",
-      "url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-multi-blue-5043308",
-      "policy_key": "164973dd17ec17a1d8f05fed",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "JD Williams",
-      "item_price": 34.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/VHtPK/5043308_1/re/150x150/qt/55/5043308_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-multi-blue-5043308",
-      "landed_cost": null,
-      "breakeven_sell": 46.78,
-      "sell_for_minimum_profit": 63.32,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-22T22:24:57+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Adistar+5+Trainers+Multi+Blue&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Lego Icons Leonardo da Vinci\u2019s Flying Machine 10363 - With Code - Free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-icons-leonardo-da-vincis-flying-machine-10363-wcode-free-cc-5041013",
       "policy_key": "484a0033391eb937b23b4dc8",
@@ -27649,8 +27698,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/150x150/qt/55/5042449_1.jpg",
@@ -27693,8 +27742,8 @@
       "item_price": 34.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/150x150/qt/55/5040440_1.jpg"
@@ -27911,8 +27960,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/150x150/qt/55/5040214_1.jpg",
@@ -27994,8 +28043,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/150x150/qt/55/5041903_1.jpg",
@@ -28082,8 +28131,8 @@
       "item_price": 37.7,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
@@ -28165,8 +28214,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/150x150/qt/55/5042449_1.jpg",
@@ -28253,8 +28302,8 @@
       "item_price": 38.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
@@ -28341,8 +28390,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg"
@@ -28427,8 +28476,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
@@ -28471,8 +28520,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
@@ -28513,8 +28562,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
@@ -28555,8 +28604,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
@@ -28681,8 +28730,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/eQgNE/5042644_1/re/300x300/qt/55/5042644_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/eQgNE/5042644_1/re/300x300/qt/55/5042644_1.jpg",
         "https://images.hotukdeals.com/threads/raw/eQgNE/5042644_1/re/150x150/qt/55/5042644_1.jpg"
@@ -28892,8 +28941,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -28978,8 +29027,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
@@ -29052,6 +29101,45 @@
       }
     },
     {
+      "title": "Grand Theft Auto VI (Xbox Series X/S) - Xbox Live Key - Global - With Code - sold by sellkeyfast",
+      "url": "https://www.hotukdeals.com/deals/grand-theft-auto-vi-xbox-series-xs-xbox-live-key-global-sold-by-sellkeyfast-5043341",
+      "policy_key": "a7f1cfdeeb6c39bfda219c2e",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "G2A",
+      "item_price": 48.54,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/hmNEi/5043341_1/re/150x150/qt/55/5043341_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/grand-theft-auto-vi-xbox-series-xs-xbox-live-key-global-sold-by-sellkeyfast-5043341",
+      "landed_cost": null,
+      "breakeven_sell": 61.65,
+      "sell_for_minimum_profit": 84.58,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Grand+Theft+Auto+VI+%28Xbox+Series+X%2FS%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO City Coast Guard Rescue Boat & Helicopter 60504 w/code - free c+c",
       "url": "https://www.hotukdeals.com/deals/lego-city-coast-guard-rescue-boat-helicopter-60504-5040431",
       "policy_key": "fe7da1a9ebed521e318e6208",
@@ -29066,8 +29154,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg",
@@ -29096,6 +29184,70 @@
       }
     },
     {
+      "title": "Jean Paul Gaultier Le Male Giftset 125ml Eau de Toilette + 75ml Shower Gel w/coupon \u00a346.05 for JoyPlus members",
+      "url": "https://www.hotukdeals.com/deals/jean-paul-gaultier-le-male-giftset-125ml-eau-de-toilette-75ml-shower-gel-wcoupon-ps4605-for-joy-plus-members-5043342",
+      "policy_key": "190ed60b4f47b697f10a06cb",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Joybuy",
+      "item_price": 49.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/GzkeS/5043342_1/re/150x150/qt/55/5043342_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/jean-paul-gaultier-le-male-giftset-125ml-eau-de-toilette-75ml-shower-gel-wcoupon-ps4605-for-joy-plus-members-5043342",
+      "landed_cost": null,
+      "breakeven_sell": null,
+      "sell_for_minimum_profit": null,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": null,
+          "postage": null,
+          "status": "unvalidated",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
+        },
+        "status": "unvalidated",
+        "breakeven": null,
+        "required_resale": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null
+      },
+      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-22T22:57:58+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jean+Paul+Gaultier+Le+Male+Giftset+125ml+Eau+de+Toilette+%2B+75ml+Shower+Gel&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
       "policy_key": "d684a6162de3d0acf807c89c",
@@ -29110,8 +29262,8 @@
       "item_price": 49.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/150x150/qt/55/5043219_1.jpg",
@@ -29154,8 +29306,8 @@
       "item_price": 51.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
@@ -29286,8 +29438,8 @@
       "item_price": 57.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
-      "image_verified_until": "2026-11-22T22:45:03.692135+00:00",
-      "image_checked_at": "2026-11-22T22:25:03.692135+00:00",
+      "image_verified_until": "2026-11-22T23:18:02.361140+00:00",
+      "image_checked_at": "2026-11-22T22:58:02.361140+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EWxAj/5036973_1/re/300x300/qt/55/5036973_1.jpg",
@@ -33742,45 +33894,6 @@
       }
     },
     {
-      "title": "Cotswold Inglecote Men's Leather Casual Fashion Designer Boat Shoes, Size 7 - Sold by Express Trainers",
-      "url": "https://www.hotukdeals.com/deals/cotswold-inglecote-mens-leather-casual-fashion-designer-boat-shoes-5042034",
-      "policy_key": "18e93699b2a3a2fc9cd104a4",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 19.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/weygB/5042034_1/re/150x150/qt/55/5042034_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/cotswold-inglecote-mens-leather-casual-fashion-designer-boat-shoes-5042034",
-      "landed_cost": null,
-      "breakeven_sell": 29.75,
-      "sell_for_minimum_profit": 39.47,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-21T17:39:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Cotswold+Inglecote+Men%27s+Leather+Casual+Fashion+Designer+Boat+Shoes%2C+Size+7&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Gothic 1 Remake - PlayStation 5 (PS5)",
       "url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
       "policy_key": "27c53efa7b27672276af58e7",
@@ -34756,73 +34869,6 @@
       "priority": 0,
       "first_seen": "2026-11-22T10:12:18+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Paco+Rabanne+Paco+100ml+EDT&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "HUGO Deep Red - New Packaging - Eau de Parfum for Her \u2013 Ambery Clementine, Freesia & Sandalwood \u2013 Long-Lasting Fragrance - 75ml",
-      "url": "https://www.hotukdeals.com/deals/hugo-deep-red-new-packaging-eau-de-parfum-for-her-ambery-clementine-freesia-sandalwood-long-lasting-fragrance-75ml-5042297",
-      "policy_key": "2aac7065b7577233ce959e8d",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 22.22,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/DT9GY/5042297_1/re/150x150/qt/55/5042297_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/hugo-deep-red-new-packaging-eau-de-parfum-for-her-ambery-clementine-freesia-sandalwood-long-lasting-fragrance-75ml-5042297",
-      "landed_cost": null,
-      "breakeven_sell": 32.28,
-      "sell_for_minimum_profit": 42.92,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 75,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "75ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 32.28,
-        "required_resale": 42.92,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 22.22,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "75ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-21T23:09:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=HUGO+Deep+Red&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -36079,54 +36125,6 @@
       }
     },
     {
-      "title": "God of War Ragnarok PS5",
-      "url": "https://www.hotukdeals.com/deals/god-of-war-ragnarok-ps5-5036673",
-      "policy_key": "8fcf9200f7febad3d2bb3e70",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Smyths",
-      "item_price": 25.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/zOqNw/5036673_1/re/150x150/qt/55/5036673_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/god-of-war-ragnarok-ps5-5036673",
-      "landed_cost": null,
-      "breakeven_sell": 35.03,
-      "sell_for_minimum_profit": 47.31,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "Profit too small",
-        "Return too low",
-        "Sell speed not proven",
-        "Sell-through not proven",
-        "No verified exit price",
-        "No reviewed exact-variant sold evidence",
-        "Inbound delivery unknown",
-        "Availability not confirmed",
-        "Cash exit quote missing/stale",
-        "Velocity evidence missing/stale",
-        "Exact retailer offer identity/price not reviewed"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-18T01:20:57+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=God+of+War+Ragnarok+PS5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Octopath Traveller 0 - PS5/Xbox",
       "url": "https://www.hotukdeals.com/deals/octopath-traveller-0-ps5-5040023",
       "policy_key": "1de841748a9238cbc7324cc1",
@@ -36763,8 +36761,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
-      "image_verified_until": "2026-11-22T22:43:24.409253+00:00",
-      "image_checked_at": "2026-11-22T22:23:24.409253+00:00",
+      "image_verified_until": "2026-11-22T23:16:57.634870+00:00",
+      "image_checked_at": "2026-11-22T22:56:57.634870+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/300x300/qt/55/5042272_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KsHFi/5042272_1/re/150x150/qt/55/5042272_1.jpg"
@@ -37649,6 +37647,84 @@
       "first_seen": "2026-11-21T22:03:13+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=STAR+WARS+Zero+Company+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Adidas Adistar 5 Trainers Carbon Multi",
+      "url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-carbon-multi-5043305",
+      "policy_key": "8d7379e18b693efc811a18ff",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "JD Williams",
+      "item_price": 34.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/Lni8r/5043305_1/re/150x150/qt/55/5043305_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-carbon-multi-5043305",
+      "landed_cost": null,
+      "breakeven_sell": 46.78,
+      "sell_for_minimum_profit": 63.32,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-22T22:24:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Adistar+5+Trainers+Carbon+Multi&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Adidas Adistar 5 Trainers Multi Blue",
+      "url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-multi-blue-5043308",
+      "policy_key": "164973dd17ec17a1d8f05fed",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "JD Williams",
+      "item_price": 34.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/VHtPK/5043308_1/re/150x150/qt/55/5043308_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/adidas-adistar-5-trainers-multi-blue-5043308",
+      "landed_cost": null,
+      "breakeven_sell": 46.78,
+      "sell_for_minimum_profit": 63.32,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-22T22:24:57+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Adidas+Adistar+5+Trainers+Multi+Blue&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -43193,33 +43269,33 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 528,
+      "retailer_offers": 531,
       "known_landed_under_cap": 1,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
       "under_cap_without_model": 1,
-      "retailer_unknown_delivery": 525,
+      "retailer_unknown_delivery": 528,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 529,
-    "priced": 9,
-    "unpriced": 520,
+    "scanned": 534,
+    "priced": 8,
+    "unpriced": 526,
     "affordable": 0,
     "A": 0,
     "B": 0,
-    "R": 9,
-    "rejected_reference": 9,
+    "R": 8,
+    "rejected_reference": 8,
     "rejected_sold": 0,
     "uncertain": 2,
     "stale": 4,
     "expired": 0,
     "expiry_checked": 0,
-    "expiry_unknown": 9,
+    "expiry_unknown": 8,
     "sold_valued": 0,
-    "reference_only": 9,
-    "online_eligible": 463,
-    "under_cap_known_delivery": 1,
-    "delivery_known": 4,
+    "reference_only": 8,
+    "online_eligible": 469,
+    "under_cap_known_delivery": 3,
+    "delivery_known": 6,
     "ask_valued": 18,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
@@ -43228,14 +43304,14 @@
     "above_budget_researched": 6,
     "above_budget_research_candidates": 42,
     "acquisition_by_source": {
-      "ebay_browse": 1,
-      "hotukdeals": 528
+      "ebay_browse": 3,
+      "hotukdeals": 531
     },
     "qualified_delivery_unknown": 16,
     "ask_delivery_known": 2,
     "ask_unique_products": 18,
     "ask_research_identities": 18,
-    "without_any_pricing": 502,
+    "without_any_pricing": 508,
     "pricing_coverage": {
       "fragrance": {
         "offers": 33,
@@ -43245,8 +43321,8 @@
         "supported_retailer_identities": 0
       },
       "gaming": {
-        "offers": 193,
-        "exact_identity": 121,
+        "offers": 196,
+        "exact_identity": 123,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
@@ -43256,17 +43332,24 @@
         "exact_identity": 105,
         "estimated_offers": 15,
         "estimated_products": 15,
-        "supported_retailer_identities": 11
+        "supported_retailer_identities": 10
       },
       "other": {
-        "offers": 22,
+        "offers": 21,
+        "exact_identity": 0,
+        "estimated_offers": 0,
+        "estimated_products": 0,
+        "supported_retailer_identities": 0
+      },
+      "sportswear": {
+        "offers": 1,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
       },
       "tech": {
-        "offers": 54,
+        "offers": 55,
         "exact_identity": 3,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -43280,7 +43363,7 @@
         "supported_retailer_identities": 1
       },
       "trainers": {
-        "offers": 78,
+        "offers": 79,
         "exact_identity": 1,
         "estimated_offers": 1,
         "estimated_products": 1,
@@ -43289,13 +43372,13 @@
     },
     "browse_usage": {
       "date": "2026-11-22",
-      "calls": 581,
+      "calls": 594,
       "by_purpose": {
-        "persistent-research": 90,
-        "item-details": 180,
-        "acquisition": 180,
-        "asking-affordable": 90,
-        "asking-watch": 38,
+        "persistent-research": 92,
+        "item-details": 184,
+        "acquisition": 184,
+        "asking-affordable": 92,
+        "asking-watch": 39,
         "asking-tools": 3
       }
     },
@@ -43308,12 +43391,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 37,
+        "duplicates": 36,
         "old_dropped": 93,
         "age_unknown": 0,
-        "missing_price_or_category": 103,
+        "missing_price_or_category": 100,
         "ambiguous_price": 3,
-        "page_requests": 12
+        "page_requests": 11
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -43321,7 +43404,7 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 2,
-          "cached": 17,
+          "cached": 18,
           "query_budget": 2,
           "queries_by_category": {
             "lego": 1,
@@ -43346,7 +43429,7 @@
             "cached": 5,
             "query_budget": 2,
             "queries_by_category": {
-              "trainers": 1
+              "lego": 1
             },
             "candidates_with_samples": 6,
             "status": "ready",
@@ -43356,68 +43439,71 @@
       },
       "capture_buffer": {
         "enabled": true,
-        "added": 241,
-        "duplicates": 59,
+        "added": 240,
+        "duplicates": 60,
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-22T22:20:24.570Z",
-        "last_success": "2026-11-22T22:20:24.570Z"
+        "last_attempt": "2026-11-22T22:50:24.206Z",
+        "last_success": "2026-11-22T22:50:24.206Z"
       },
       "ebay_acquisition": {
         "status": "ready",
         "queries": 4,
-        "candidates": 1,
+        "candidates": 3,
         "errors": [],
         "purpose": "Official active Buy It Now acquisition; NEW only, not sold evidence",
         "query_budget": 4,
         "queries_by_category": {
-          "lego": 2,
-          "gaming": 1,
-          "trainers": 1
+          "lego": 3,
+          "gaming": 1
         },
         "query_details": [
           {
-            "query": "LEGO 60503",
+            "query": "LEGO 75398",
             "category": "lego",
             "samples": 0,
-            "rejected": {},
-            "sort": "newlyListed",
-            "max_item_price": 18.17,
-            "max_landed_price": 18.17,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "horizon zero dawn remastered ps5",
-            "category": "gaming",
-            "samples": 0,
             "rejected": {
-              "identity_or_condition": 1
+              "identity_or_condition": 6
             },
             "sort": "price",
-            "max_item_price": 11.19,
-            "max_landed_price": 11.19,
+            "max_item_price": 56.14,
+            "max_landed_price": 56.14,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "LEGO 42698",
+            "query": "LEGO 21062",
             "category": "lego",
             "samples": 0,
-            "rejected": {},
-            "sort": "price",
-            "max_item_price": 3.74,
-            "max_landed_price": 3.74,
+            "rejected": {
+              "identity_or_condition": 4
+            },
+            "sort": "newlyListed",
+            "max_item_price": 56.9,
+            "max_landed_price": 56.9,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Nike HQ1416-001",
-            "category": "trainers",
+            "query": "LEGO 75433",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 13
+            },
+            "sort": "price",
+            "max_item_price": 21.1,
+            "max_landed_price": 21.1,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "borderlands 4 standard edition ps5",
+            "category": "gaming",
             "samples": 2,
             "rejected": {
-              "identity_or_condition": 48
+              "identity_or_condition": 2
             },
             "sort": "price",
             "max_item_price": null,
@@ -43429,11 +43515,11 @@
         "target_selection": {
           "contexts_examined": 150,
           "context_reasons": {
-            "not_usable": 139,
-            "query_cooldown": 2,
-            "eligible": 9
+            "not_usable": 141,
+            "eligible": 6,
+            "query_cooldown": 3
           },
-          "eligible_distinct_queries": 9,
+          "eligible_distinct_queries": 6,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -43442,10 +43528,10 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 60503",
+        "query": "LEGO 75398",
         "matched_shipped_samples": 2,
         "rejections": {
-          "identity_or_condition": 48
+          "identity_or_condition": 2
         },
         "watchlist_products": 215
       },
@@ -43462,29 +43548,30 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 11,
-    "rescanned": 518,
-    "price_changed": 1,
-    "previous_success": "2026-11-22T21:52:33+00:00",
-    "gap_minutes": 32.4,
+    "new": 14,
+    "rescanned": 520,
+    "price_changed": 0,
+    "previous_success": "2026-11-22T22:26:01+00:00",
+    "gap_minutes": 32.0,
     "publication_holds": {
-      "eligible": 12,
-      "held": 517,
+      "eligible": 11,
+      "held": 523,
       "reasons": {
-        "no_supported_resale_estimate": 511,
+        "no_supported_resale_estimate": 516,
         "uncertain_competitor_coupon": 2,
         "detail_check_pending": 2,
-        "low_price_not_supported": 1,
+        "low_price_not_supported": 2,
         "fewer_than_three_exact_independent_comparators": 1
       },
       "by_category": {
-        "gaming": 193,
+        "other": 21,
+        "lego": 114,
+        "gaming": 196,
         "fragrance": 33,
-        "lego": 113,
-        "other": 22,
-        "tech": 54,
+        "trainers": 79,
+        "tech": 55,
         "tools": 24,
-        "trainers": 78
+        "sportswear": 1
       }
     },
     "excluded_nonphysical": [
@@ -43660,25 +43747,25 @@
         "reason": "Digital storefront format not confirmed physical"
       },
       {
-        "title": "Sifu PC Key / Xbox One (UK) Key \u00a38.99",
-        "url": "https://www.hotukdeals.com/deals/sifu-pc-key-xbox-onexbox-series-xspc-uk-key-ps899-5041561",
-        "price": 5.19,
-        "merchant": "Loaded",
+        "title": "Destiny 2 The Collection - PC Steam",
+        "url": "https://www.hotukdeals.com/deals/destiny-2-the-collection-pc-steam-5043343",
+        "price": 10.85,
+        "merchant": "ShopTo",
         "source": null,
         "category": "digital",
-        "reason": "Digital key/code/licence is not a physical resale item"
+        "reason": "Digital/nonphysical format; physical delivery and resale economics do not apply"
       }
     ],
     "source_coverage": {
       "ebay_browse": {
-        "offers": 1,
-        "new": 0,
+        "offers": 3,
+        "new": 2,
         "estimated": 1,
         "actionable": 0
       },
       "hotukdeals": {
-        "offers": 528,
-        "new": 11,
+        "offers": 531,
+        "new": 12,
         "estimated": 17,
         "actionable": 0
       }
@@ -43686,7 +43773,7 @@
     "value_watchlist": {
       "products": 145,
       "identity_contexts": 150,
-      "usable_targets": 11,
+      "usable_targets": 10,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -43701,7 +43788,7 @@
         "lego": {
           "products": 83,
           "identity_contexts": 88,
-          "usable_targets": 10
+          "usable_targets": 9
         },
         "tech": {
           "products": 1,
@@ -43732,36 +43819,36 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 529,
+      "offers_scanned": 534,
       "research_models_generated": 18,
-      "supported_market_estimates": 12,
-      "publication_qualified_cards": 12,
-      "route_eligible_cards": 12,
+      "supported_market_estimates": 11,
+      "publication_qualified_cards": 11,
+      "route_eligible_cards": 11,
       "route_eligibility_scope": "policy/format admission only; live availability, destination, limits and notification deduplication still apply",
       "buying_signals": 0,
       "opportunity_candidates": 0,
-      "research_watch_candidates": 12,
+      "research_watch_candidates": 11,
       "above_budget_priced_watch": 4,
-      "research_holds": 517,
+      "research_holds": 523,
       "hold_reasons": {
-        "no_supported_resale_estimate": 511,
+        "no_supported_resale_estimate": 516,
         "uncertain_competitor_coupon": 2,
         "detail_check_pending": 2,
-        "low_price_not_supported": 1,
+        "low_price_not_supported": 2,
         "fewer_than_three_exact_independent_comparators": 1
       },
       "by_category": {
         "trainers": {
-          "offers": 78,
+          "offers": 79,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 78
+          "holds": 79
         },
         "lego": {
           "offers": 124,
-          "supported": 11,
-          "publication_qualified": 11,
-          "holds": 113
+          "supported": 10,
+          "publication_qualified": 10,
+          "holds": 114
         },
         "tools": {
           "offers": 25,
@@ -43770,10 +43857,10 @@
           "holds": 24
         },
         "gaming": {
-          "offers": 193,
+          "offers": 196,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 193
+          "holds": 196
         },
         "fragrance": {
           "offers": 33,
@@ -43782,20 +43869,26 @@
           "holds": 33
         },
         "tech": {
-          "offers": 54,
+          "offers": 55,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 54
+          "holds": 55
         },
         "other": {
-          "offers": 22,
+          "offers": 21,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 22
+          "holds": 21
+        },
+        "sportswear": {
+          "offers": 1,
+          "supported": 0,
+          "publication_qualified": 0,
+          "holds": 1
         }
       },
-      "inbound_known": 4,
-      "inbound_unknown": 525
+      "inbound_known": 6,
+      "inbound_unknown": 528
     },
     "nearest_above_cap": {
       "title": "Lego Mario Kart \u2013 Luigi & Mach 8 72050 (Free Delivery For NSO Members)",
@@ -43849,7 +43942,7 @@
       "product_messages_delivered": 0,
       "by_route": {}
     },
-    "review_candidates": 431,
+    "review_candidates": 436,
     "lego_image_validation": {
       "checked": 32,
       "cached": 36,
@@ -43859,20 +43952,20 @@
       "paused_hosts": {}
     },
     "pricing_labels": {
-      "exact_priced": 12,
-      "research_model_only": 6,
-      "unpriced": 511,
+      "exact_priced": 11,
+      "research_model_only": 7,
+      "unpriced": 516,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 473,
+    "images_available": 478,
     "lego_images_available": 70,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "45077409148",
+      "run_id": "45080476048",
       "event": "workflow_dispatch",
-      "parent_run_id": "45074246910"
+      "parent_run_id": "45077409148"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -44271,79 +44364,6 @@
         "target": 17.31,
         "quick": 15.58,
         "floor": 8.65,
-        "time_stop_day": 17,
-        "time_stop_rule": true,
-        "platforms": "eBay \u2192 eBay best offer \u2192 floor: CeX / musicMagpie: exact tested cash quote required"
-      }
-    },
-    {
-      "title": "God of War Ragnarok PS5",
-      "url": "https://www.hotukdeals.com/deals/god-of-war-ragnarok-ps5-5036673",
-      "merchant": "Smyths",
-      "category": "gaming",
-      "grade": "R",
-      "buy": 25.99,
-      "target": 17.47,
-      "net": -13.65,
-      "roi": -52.5,
-      "worst": -22.15,
-      "worst_verified": false,
-      "confidence": 80,
-      "comp_age_days": 20,
-      "expired": false,
-      "intel": {
-        "retailer": "\u2705 Major UK retailer; verify resale/B2B terms and actual returns policy",
-        "fake": "\ud83d\udfe2 Low fake/authenticity risk \u00b7 Keep the receipt.",
-        "cashback": "",
-        "history": "Lowest seen by MONEYHUNTER (since 2026-11-22)",
-        "camel": ""
-      },
-      "postage": 2.7,
-      "fees_basis": "eBay business standard fees incl 20% VAT, free-to-buyer postage, \u00a30.50 packaging, 3% returns; promotions/surcharges extra",
-      "max_buy": 4.33,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/god-of-war-ragnarok-ps5-5036673",
-      "image_candidates": null,
-      "why": [
-        "Profit too small",
-        "Return too low",
-        "Sell speed not proven"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/zOqNw/5036673_1/re/150x150/qt/55/5036673_1.jpg",
-      "comp": "legacy_reference: \u00a317.47\u2013\u00a332.25: PriceCharting avg sold: boxed \u00a317.47 / sealed \u00a332.25 (USD\u00d70.745417 page rate); ~39 boxed sales/90d (https://www.pricecharting.com/game/pal-playstation-5/god-of-war-rag",
-      "ebay_sold": "https://www.ebay.co.uk/sch/i.html?_nkw=God+of+War+Ragnarok+PS5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "vinted": "https://www.vinted.co.uk/catalog?search_text=God+of+War+Ragnarok+PS5&order=price_low_to_high",
-      "delivery": "Captured RSS; delivery/current stock unverified",
-      "days_to_sell": null,
-      "under_cap": false,
-      "identity_evidence": [],
-      "evidence_record_id": null,
-      "evidence_revision": null,
-      "evidence_type": "legacy_reference",
-      "sold_sources": [],
-      "floor_age_days": null,
-      "velocity_age_days": null,
-      "offer_observed_at": null,
-      "delivery_known": false,
-      "availability": "unknown",
-      "valuation_status": "reference_or_item_only_estimate",
-      "offer_verified": false,
-      "ask_context": null,
-      "ask_estimate": null,
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      },
-      "sold_90d": 39,
-      "publication_listing": 32.25,
-      "plan": {
-        "list": 32.25,
-        "target": 17.47,
-        "quick": 15.72,
-        "floor": 8.73,
         "time_stop_day": 17,
         "time_stop_rule": true,
         "platforms": "eBay \u2192 eBay best offer \u2192 floor: CeX / musicMagpie: exact tested cash quote required"
