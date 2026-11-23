@@ -24,9 +24,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
-      "observed_at": "2026-11-23T00:01:49+00:00",
-      "valid_until": "2026-11-23T06:01:49+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
+      "observed_at": "2026-11-23T03:03:13+00:00",
+      "valid_until": "2026-11-23T09:03:13+00:00",
       "competition_low": 55.66,
       "estimated_resale": 53.99,
       "seller_count": 3,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-23T02:29:58+00:00",
+        "observed_at": "2026-11-23T03:03:13+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -227,24 +227,24 @@
           "seller": "barberskicks",
           "url": "https://www.ebay.co.uk/itm/336863771135",
           "delivered": 55.66,
-          "observed_at": "2026-11-23T00:01:49+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         },
         {
           "item_id": "v1|198739439897|0",
           "seller": "jpkicksuk",
           "url": "https://www.ebay.co.uk/itm/198739439897",
           "delivered": 76.94,
-          "observed_at": "2026-11-23T00:01:49+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         },
         {
           "item_id": "v1|860044398095|0",
           "seller": "weez4450",
           "url": "https://www.ebay.co.uk/itm/860044398095",
           "delivered": 108.07,
-          "observed_at": "2026-11-23T00:01:49+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         }
       ],
-      "last_research_at": "2026-11-23T00:01:49+00:00"
+      "last_research_at": "2026-11-23T03:03:13+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:armani acqua di gio profondo parfum 200ml:a411279dd030",
@@ -270,7 +270,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:01:49+00:00",
       "valid_until": "2026-11-23T06:01:49+00:00",
       "competition_low": 140.79,
@@ -342,7 +342,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:34:57+00:00",
       "valid_until": "2026-11-23T06:34:57+00:00",
       "competition_low": 76.94,
@@ -406,7 +406,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:34:57+00:00",
       "valid_until": "2026-11-23T06:34:57+00:00",
       "competition_low": 20.99,
@@ -478,7 +478,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T02:29:58+00:00",
       "valid_until": "2026-11-23T08:29:58+00:00",
       "competition_low": 59.99,
@@ -542,7 +542,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:08:03+00:00",
       "valid_until": "2026-11-23T07:08:03+00:00",
       "competition_low": 38.35,
@@ -614,7 +614,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:40:16+00:00",
       "valid_until": "2026-11-23T07:40:16+00:00",
       "competition_low": 19.96,
@@ -707,7 +707,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T02:29:58+00:00",
       "valid_until": "2026-11-23T08:29:58+00:00",
       "competition_low": 44.19,
@@ -793,7 +793,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:58:46+00:00",
       "valid_until": "2026-11-23T07:58:46+00:00",
       "competition_low": 63.8,
@@ -808,7 +808,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-23T02:29:58+00:00",
+        "observed_at": "2026-11-23T03:03:13+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -1030,7 +1030,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:58:46+00:00",
       "valid_until": "2026-11-23T07:58:46+00:00",
       "competition_low": 25.99,
@@ -1123,7 +1123,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:08:03+00:00",
       "valid_until": "2026-11-23T07:08:03+00:00",
       "competition_low": 73.99,
@@ -1138,7 +1138,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|158318156230|0",
-        "observed_at": "2026-11-23T02:29:58+00:00",
+        "observed_at": "2026-11-23T03:03:13+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "DoesNotApply",
@@ -1388,9 +1388,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
-      "observed_at": "2026-11-22T23:29:18+00:00",
-      "valid_until": "2026-11-23T05:29:18+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
+      "observed_at": "2026-11-23T03:03:13+00:00",
+      "valid_until": "2026-11-23T09:03:13+00:00",
       "competition_low": 40.04,
       "estimated_resale": 38.83,
       "seller_count": 6,
@@ -1424,38 +1424,38 @@
           "seller": "keekno_34",
           "url": "https://www.ebay.co.uk/itm/800859806474",
           "delivered": 40.04,
-          "observed_at": "2026-11-22T23:29:18+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         },
         {
           "item_id": "v1|188430940932|0",
           "seller": "jakan-7599",
           "url": "https://www.ebay.co.uk/itm/188430940932",
           "delivered": 55.0,
-          "observed_at": "2026-11-22T23:29:18+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         },
         {
           "item_id": "v1|860089269787|0",
           "seller": "hisoo84",
           "url": "https://www.ebay.co.uk/itm/860089269787",
           "delivered": 78.7,
-          "observed_at": "2026-11-22T23:29:18+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         },
         {
           "item_id": "v1|356894740904|0",
           "seller": "theperfumestop",
           "url": "https://www.ebay.co.uk/itm/356894740904",
           "delivered": 93.99,
-          "observed_at": "2026-11-22T23:29:18+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         },
         {
           "item_id": "v1|176800715669|0",
           "seller": "the-brand-store",
           "url": "https://www.ebay.co.uk/itm/176800715669",
           "delivered": 105.0,
-          "observed_at": "2026-11-22T23:29:18+00:00"
+          "observed_at": "2026-11-23T03:03:13+00:00"
         }
       ],
-      "last_research_at": "2026-11-22T23:29:18+00:00"
+      "last_research_at": "2026-11-23T03:03:13+00:00"
     },
     {
       "key": "browse-asks-v5:trainers:nike hq1416-001 uk 8:f940ddec4325",
@@ -1481,7 +1481,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:41:44+00:00",
       "valid_until": "2026-11-23T07:41:44+00:00",
       "competition_low": 95.0,
@@ -1507,7 +1507,7 @@
             "expected": "verified_fields within detail budget",
             "observed": "awaiting_detail_budget",
             "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "detail allocation window closed this scan"
+            "note": "no getItem this pass; not a parser failure"
           }
         ]
       },
@@ -1528,140 +1528,6 @@
         }
       ],
       "last_research_at": "2026-11-23T01:40:16+00:00"
-    },
-    {
-      "key": "browse-asks-v5:gaming:assassins creed shadows nintendo switch 2:4f53cda18c2b",
-      "category": "gaming",
-      "query": "assassins creed shadows nintendo switch 2",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "gaming",
-        "query": "assassins creed shadows nintendo switch 2",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": []
-      },
-      "first_seen": "2026-11-22T20:40:02+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
-      "observed_at": "2026-11-22T20:39:18+00:00",
-      "valid_until": "2026-11-23T02:39:18+00:00",
-      "competition_low": 29.99,
-      "estimated_resale": 29.09,
-      "seller_count": 4,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": null,
-      "target_status": "research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|168854435413|0",
-          "seller": "dpen6382",
-          "url": "https://www.ebay.co.uk/itm/168854435413",
-          "delivered": 29.99,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|237174883515|0",
-          "seller": "bargainkicksnlegobricks",
-          "url": "https://www.ebay.co.uk/itm/237174883515",
-          "delivered": 30.34,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|820194114262|0",
-          "seller": "currys_clearance",
-          "url": "https://www.ebay.co.uk/itm/820194114262",
-          "delivered": 36.12,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|198122404536|0",
-          "seller": "gamers-couch",
-          "url": "https://www.ebay.co.uk/itm/198122404536",
-          "delivered": 54.36,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        }
-      ]
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 75434:ac12c16cdf59",
-      "category": "lego",
-      "query": "LEGO 75434",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 75434",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "2so",
-          "droid",
-          "security"
-        ]
-      },
-      "first_seen": "2026-11-22T20:40:02+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
-      "observed_at": "2026-11-22T20:39:18+00:00",
-      "valid_until": "2026-11-23T02:39:18+00:00",
-      "competition_low": 57.85,
-      "estimated_resale": 56.11,
-      "seller_count": 18,
-      "low_supporting_sellers": 4,
-      "max_landed_buy": 29.35,
-      "target_status": "usable_configured_cost_target",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|206694993657|0",
-          "seller": "pantobird",
-          "url": "https://www.ebay.co.uk/itm/206694993657",
-          "delivered": 57.85,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|407378788038|0",
-          "seller": "buyingbricks",
-          "url": "https://www.ebay.co.uk/itm/407378788038",
-          "delivered": 58.37,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|206711351357|0",
-          "seller": "kenadams1177",
-          "url": "https://www.ebay.co.uk/itm/206711351357",
-          "delivered": 58.84,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|406260853741|0",
-          "seller": "totespilates",
-          "url": "https://www.ebay.co.uk/itm/406260853741",
-          "delivered": 59.99,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        },
-        {
-          "item_id": "v1|377657019579|0",
-          "seller": "wwsm2006",
-          "url": "https://www.ebay.co.uk/itm/377657019579",
-          "delivered": 69.98,
-          "observed_at": "2026-11-22T20:39:18+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-23T01:08:12+00:00",
-      "last_search_sort": "newlyListed",
-      "last_item_price_filter": 29.35
     },
     {
       "key": "browse-asks-v5:lego:lego 72050:0369eecdf780",
@@ -1687,7 +1553,7 @@
         ]
       },
       "first_seen": "2026-11-21T08:53:17+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T21:12:09+00:00",
       "valid_until": "2026-11-23T03:12:09+00:00",
       "competition_low": 125.49,
@@ -1763,7 +1629,7 @@
         ]
       },
       "first_seen": "2026-11-21T05:37:35+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T21:12:05+00:00",
       "valid_until": "2026-11-23T03:12:05+00:00",
       "competition_low": 54.54,
@@ -1831,7 +1697,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T21:12:50+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T21:12:05+00:00",
       "valid_until": "2026-11-23T03:12:05+00:00",
       "competition_low": 27.84,
@@ -1880,8 +1746,8 @@
           "observed_at": "2026-11-22T21:12:05+00:00"
         }
       ],
-      "last_search_at": "2026-11-23T01:40:27+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-23T03:03:23+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 11.19
     },
     {
@@ -1906,7 +1772,7 @@
         ]
       },
       "first_seen": "2026-11-22T21:19:10+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T21:19:02+00:00",
       "valid_until": "2026-11-23T03:19:02+00:00",
       "competition_low": 12.94,
@@ -1984,7 +1850,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T21:51:33+00:00",
       "valid_until": "2026-11-23T03:51:33+00:00",
       "competition_low": 85.99,
@@ -1999,7 +1865,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-23T02:29:58+00:00",
+        "observed_at": "2026-11-23T03:03:13+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -2149,7 +2015,7 @@
         ]
       },
       "first_seen": "2026-11-21T06:10:22+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T21:51:33+00:00",
       "valid_until": "2026-11-23T03:51:33+00:00",
       "competition_low": 39.44,
@@ -2221,7 +2087,7 @@
         ]
       },
       "first_seen": "2026-11-21T06:42:51+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T22:24:59+00:00",
       "valid_until": "2026-11-23T04:24:59+00:00",
       "competition_low": 18.53,
@@ -2295,7 +2161,7 @@
         ]
       },
       "first_seen": "2026-11-22T10:45:38+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T22:58:01+00:00",
       "valid_until": "2026-11-23T04:58:01+00:00",
       "competition_low": 108.97,
@@ -2344,8 +2210,8 @@
           "observed_at": "2026-11-22T22:58:01+00:00"
         }
       ],
-      "last_search_at": "2026-11-23T01:40:27+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-23T03:03:23+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 58.92
     },
     {
@@ -2369,7 +2235,7 @@
         ]
       },
       "first_seen": "2026-11-21T07:14:57+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T22:57:59+00:00",
       "valid_until": "2026-11-23T04:57:59+00:00",
       "competition_low": 3.2,
@@ -2443,7 +2309,7 @@
         ]
       },
       "first_seen": "2026-11-21T07:48:02+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-22T23:30:31+00:00",
       "valid_until": "2026-11-23T05:30:31+00:00",
       "competition_low": 10.26,
@@ -2515,7 +2381,7 @@
         ]
       },
       "first_seen": "2026-11-22T11:51:40+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:03:30+00:00",
       "valid_until": "2026-11-23T06:03:30+00:00",
       "competition_low": 105.48,
@@ -2591,7 +2457,7 @@
         ]
       },
       "first_seen": "2026-11-21T08:53:17+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:03:27+00:00",
       "valid_until": "2026-11-23T06:03:27+00:00",
       "competition_low": 17.0,
@@ -2659,7 +2525,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T00:04:23+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:03:27+00:00",
       "valid_until": "2026-11-23T06:03:27+00:00",
       "competition_low": 29.4,
@@ -2706,7 +2572,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T00:37:30+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:36:37+00:00",
       "valid_until": "2026-11-23T06:36:37+00:00",
       "competition_low": 33.88,
@@ -2759,7 +2625,7 @@
         ]
       },
       "first_seen": "2026-11-23T00:37:30+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:36:40+00:00",
       "valid_until": "2026-11-23T06:36:40+00:00",
       "competition_low": 156.71,
@@ -2832,7 +2698,7 @@
         ]
       },
       "first_seen": "2026-11-23T00:37:30+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T00:36:40+00:00",
       "valid_until": "2026-11-23T06:36:40+00:00",
       "competition_low": 138.76,
@@ -2906,7 +2772,7 @@
         ]
       },
       "first_seen": "2026-11-23T01:09:43+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:09:09+00:00",
       "valid_until": "2026-11-23T07:09:09+00:00",
       "competition_low": 47.76,
@@ -2979,7 +2845,7 @@
         ]
       },
       "first_seen": "2026-11-23T01:09:43+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:09:11+00:00",
       "valid_until": "2026-11-23T07:09:11+00:00",
       "competition_low": 85.35,
@@ -3053,7 +2919,7 @@
         ]
       },
       "first_seen": "2026-11-23T01:42:29+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:41:44+00:00",
       "valid_until": "2026-11-23T07:41:44+00:00",
       "competition_low": 87.28,
@@ -3128,7 +2994,7 @@
         ]
       },
       "first_seen": "2026-11-23T01:42:29+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:41:41+00:00",
       "valid_until": "2026-11-23T07:41:41+00:00",
       "competition_low": 73.76,
@@ -3215,7 +3081,7 @@
         ]
       },
       "first_seen": "2026-11-23T01:59:25+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:59:18+00:00",
       "valid_until": "2026-11-23T07:59:18+00:00",
       "competition_low": 26.44,
@@ -3284,7 +3150,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T01:59:25+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:59:18+00:00",
       "valid_until": "2026-11-23T07:59:18+00:00",
       "competition_low": 36.85,
@@ -3337,7 +3203,7 @@
         ]
       },
       "first_seen": "2026-11-23T01:59:25+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T01:59:21+00:00",
       "valid_until": "2026-11-23T07:59:21+00:00",
       "competition_low": 141.93,
@@ -3412,7 +3278,7 @@
         ]
       },
       "first_seen": "2026-11-20T18:36:05+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T02:31:41+00:00",
       "valid_until": "2026-11-23T08:31:41+00:00",
       "competition_low": 112.34,
@@ -3484,7 +3350,7 @@
         ]
       },
       "first_seen": "2026-11-23T02:32:36+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T02:31:38+00:00",
       "valid_until": "2026-11-23T08:31:38+00:00",
       "competition_low": 39.0,
@@ -3532,7 +3398,10 @@
           "delivered": 40.48,
           "observed_at": "2026-11-23T02:31:38+00:00"
         }
-      ]
+      ],
+      "last_search_at": "2026-11-23T03:03:23+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 17.82
     },
     {
       "key": "browse-asks-v5:lego:lego 21061:ff90e58e187c",
@@ -3556,7 +3425,7 @@
         ]
       },
       "first_seen": "2026-11-23T02:32:36+00:00",
-      "last_seen": "2026-11-23T02:32:36+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
       "observed_at": "2026-11-23T02:31:41+00:00",
       "valid_until": "2026-11-23T08:31:41+00:00",
       "competition_low": 149.99,
@@ -3607,6 +3476,218 @@
           "observed_at": "2026-11-23T02:31:41+00:00"
         }
       ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 31386:c157f77ffcd4",
+      "category": "lego",
+      "query": "LEGO 31386",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 31386",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "9+",
+          "animals",
+          "creator",
+          "in",
+          "lion",
+          "majestic",
+          "model",
+          "wild",
+          "years"
+        ]
+      },
+      "first_seen": "2026-11-23T03:05:47+00:00",
+      "last_seen": "2026-11-23T03:05:47+00:00",
+      "observed_at": "2026-11-23T03:04:53+00:00",
+      "valid_until": "2026-11-23T09:04:53+00:00",
+      "competition_low": 32.49,
+      "estimated_resale": 31.51,
+      "seller_count": 38,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|860168661094|0",
+          "seller": "agenticec-0",
+          "url": "https://www.ebay.co.uk/itm/860168661094",
+          "delivered": 32.49,
+          "observed_at": "2026-11-23T03:04:53+00:00"
+        },
+        {
+          "item_id": "v1|860134527029|0",
+          "seller": "sjwtcg",
+          "url": "https://www.ebay.co.uk/itm/860134527029",
+          "delivered": 43.08,
+          "observed_at": "2026-11-23T03:04:53+00:00"
+        },
+        {
+          "item_id": "v1|117536965337|0",
+          "seller": "fowky84",
+          "url": "https://www.ebay.co.uk/itm/117536965337",
+          "delivered": 43.38,
+          "observed_at": "2026-11-23T03:04:53+00:00"
+        },
+        {
+          "item_id": "v1|900109225679|0",
+          "seller": "al_968541",
+          "url": "https://www.ebay.co.uk/itm/900109225679",
+          "delivered": 44.99,
+          "observed_at": "2026-11-23T03:04:53+00:00"
+        },
+        {
+          "item_id": "v1|227617306312|0",
+          "seller": "gr8bargains",
+          "url": "https://www.ebay.co.uk/itm/227617306312",
+          "delivered": 45.37,
+          "observed_at": "2026-11-23T03:04:53+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:gaming:assassins creed shadows nintendo switch 2:4f53cda18c2b",
+      "category": "gaming",
+      "query": "assassins creed shadows nintendo switch 2",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "gaming",
+        "query": "assassins creed shadows nintendo switch 2",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": []
+      },
+      "first_seen": "2026-11-22T20:40:02+00:00",
+      "last_seen": "2026-11-23T02:32:36+00:00",
+      "observed_at": "2026-11-22T20:39:18+00:00",
+      "valid_until": "2026-11-23T02:39:18+00:00",
+      "competition_low": 29.99,
+      "estimated_resale": 29.09,
+      "seller_count": 4,
+      "low_supporting_sellers": 2,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|168854435413|0",
+          "seller": "dpen6382",
+          "url": "https://www.ebay.co.uk/itm/168854435413",
+          "delivered": 29.99,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|237174883515|0",
+          "seller": "bargainkicksnlegobricks",
+          "url": "https://www.ebay.co.uk/itm/237174883515",
+          "delivered": 30.34,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|820194114262|0",
+          "seller": "currys_clearance",
+          "url": "https://www.ebay.co.uk/itm/820194114262",
+          "delivered": 36.12,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|198122404536|0",
+          "seller": "gamers-couch",
+          "url": "https://www.ebay.co.uk/itm/198122404536",
+          "delivered": 54.36,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 75434:ac12c16cdf59",
+      "category": "lego",
+      "query": "LEGO 75434",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 75434",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "2so",
+          "droid",
+          "security"
+        ]
+      },
+      "first_seen": "2026-11-22T20:40:02+00:00",
+      "last_seen": "2026-11-23T02:32:36+00:00",
+      "observed_at": "2026-11-22T20:39:18+00:00",
+      "valid_until": "2026-11-23T02:39:18+00:00",
+      "competition_low": 57.85,
+      "estimated_resale": 56.11,
+      "seller_count": 18,
+      "low_supporting_sellers": 4,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|206694993657|0",
+          "seller": "pantobird",
+          "url": "https://www.ebay.co.uk/itm/206694993657",
+          "delivered": 57.85,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|407378788038|0",
+          "seller": "buyingbricks",
+          "url": "https://www.ebay.co.uk/itm/407378788038",
+          "delivered": 58.37,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|206711351357|0",
+          "seller": "kenadams1177",
+          "url": "https://www.ebay.co.uk/itm/206711351357",
+          "delivered": 58.84,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|406260853741|0",
+          "seller": "totespilates",
+          "url": "https://www.ebay.co.uk/itm/406260853741",
+          "delivered": 59.99,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        },
+        {
+          "item_id": "v1|377657019579|0",
+          "seller": "wwsm2006",
+          "url": "https://www.ebay.co.uk/itm/377657019579",
+          "delivered": 69.98,
+          "observed_at": "2026-11-22T20:39:18+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-23T01:08:12+00:00",
+      "last_search_sort": "newlyListed",
+      "last_item_price_filter": 29.35
     },
     {
       "key": "browse-asks-v5:lego:lego 75398:26241bf540a6",
@@ -10919,109 +11000,47 @@
       "last_search_at": "2026-11-21T14:19:38+00:00",
       "last_search_sort": "price",
       "last_item_price_filter": 60.0
-    },
-    {
-      "key": "browse-asks-v5:gaming:marvels spider man miles morales ps5:4f53cda18c2b",
-      "category": "gaming",
-      "query": "marvels spider man miles morales ps5",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "gaming",
-        "query": "marvels spider man miles morales ps5",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": []
-      },
-      "first_seen": "2026-11-21T07:14:57+00:00",
-      "last_seen": "2026-11-21T13:13:45+00:00",
-      "observed_at": "2026-11-21T07:14:25+00:00",
-      "valid_until": "2026-11-21T13:14:25+00:00",
-      "competition_low": 29.0,
-      "estimated_resale": 28.13,
-      "seller_count": 2,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|305933831801|0",
-          "seller": "manortel",
-          "url": "https://www.ebay.co.uk/itm/305933831801",
-          "delivered": 29.0,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        },
-        {
-          "item_id": "v1|167823687527|0",
-          "seller": "del-6090",
-          "url": "https://www.ebay.co.uk/itm/167823687527",
-          "delivered": 32.72,
-          "observed_at": "2026-11-21T07:14:25+00:00"
-        }
-      ]
     }
   ],
   "pricing_catalog": [],
   "asking_catalog": [
     {
       "kind": "active_ask",
-      "query": "Nike HQ1416-001 UK 8",
-      "category": "trainers",
-      "name_terms": [],
+      "query": "LEGO 31386",
+      "category": "lego",
+      "name_terms": [
+        "9+",
+        "animals",
+        "creator",
+        "in",
+        "lion",
+        "majestic",
+        "model",
+        "wild",
+        "years"
+      ],
       "identity": {
-        "condition": "new",
-        "brand": "Nike",
-        "style_code": "HQ1416-001",
-        "uk_size": 8.0,
-        "department": "men"
+        "condition": "new"
       },
-      "observed_at": "2026-11-23T01:41:44+00:00",
+      "observed_at": "2026-11-23T03:04:53+00:00",
       "date": "2026-11-23",
-      "sample_count": 2,
-      "listed_total_low": 95.0,
-      "listed_total_p25": 97.22,
-      "listed_total_median": 99.44,
-      "listed_total_p75": 101.66,
-      "listed_total_high": 103.88,
-      "status": "small_sample",
+      "sample_count": 38,
+      "listed_total_low": 32.49,
+      "listed_total_p25": 48.66,
+      "listed_total_median": 55.4,
+      "listed_total_p75": 63.72,
+      "listed_total_high": 87.28,
+      "status": "wide_spread",
       "warnings": [
         "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
       ],
       "offers": [
         {
-          "item_id": "v1|366573418864|0",
-          "seller": "sportswear.outlet",
-          "image": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "advertised_discount",
-          "advertised_original_total": 100.0,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/366573418864",
-          "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-          "declared_condition": "new",
-          "item_price": 95.0,
-          "shipping": 0.0,
-          "listed_total": 95.0
-        },
-        {
-          "item_id": "v1|298300063168|0",
-          "seller": "luxf8445",
-          "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
+          "item_id": "v1|860168661094|0",
+          "seller": "agenticec-0",
+          "image": "https://i.ebayimg.com/images/g/qqcAAeSwAcJrA31y/s-l225.jpg",
           "country": "GB",
           "currency": "GBP",
           "condition_id": "1000",
@@ -11033,36 +11052,221 @@
           ],
           "end_at": null,
           "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/298300063168",
-          "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
+          "url": "https://www.ebay.co.uk/itm/860168661094",
+          "title": "LEGO Creator 3-in-1 Wild Animals: Majestic Lion - Model 31386 (9+ Years)",
           "declared_condition": "new",
-          "item_price": 99.99,
-          "shipping": 3.89,
-          "listed_total": 103.88
+          "item_price": 32.49,
+          "shipping": 0.0,
+          "listed_total": 32.49
+        },
+        {
+          "item_id": "v1|860134527029|0",
+          "seller": "sjwtcg",
+          "image": "https://i.ebayimg.com/images/g/A1AAAeSwpU9q9Iim/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/860134527029",
+          "title": "LEGO Creator 3-in-1 Majestic Lion Set 31386 839 Pieces - New & Sealed ",
+          "declared_condition": "new",
+          "item_price": 39.7,
+          "shipping": 3.38,
+          "listed_total": 43.08
+        },
+        {
+          "item_id": "v1|117536965337|0",
+          "seller": "fowky84",
+          "image": "https://i.ebayimg.com/images/g/7UMAAeSwWrJrA519/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/117536965337",
+          "title": "LEGO Creator: Wild Animals: Majestic Lion (31386) BRAND NEW, SEALED",
+          "declared_condition": "new",
+          "item_price": 40.0,
+          "shipping": 3.38,
+          "listed_total": 43.38
+        },
+        {
+          "item_id": "v1|900109225679|0",
+          "seller": "al_968541",
+          "image": "https://i.ebayimg.com/images/g/h~4AAeSwN09qXxvE/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/900109225679",
+          "title": "LEGO Creator: Wild Animals: Majestic Lion (31386)",
+          "declared_condition": "new",
+          "item_price": 44.99,
+          "shipping": 0.0,
+          "listed_total": 44.99
+        },
+        {
+          "item_id": "v1|227617306312|0",
+          "seller": "gr8bargains",
+          "image": "https://i.ebayimg.com/images/g/3DAAAeSwALdqTvjG/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/227617306312",
+          "title": "Lego Creator 31386 Wild Animals: Majestic Lion - Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 41.99,
+          "shipping": 3.38,
+          "listed_total": 45.37
+        },
+        {
+          "item_id": "v1|237159926223|0",
+          "seller": "charlomouse",
+          "image": "https://i.ebayimg.com/images/g/jJEAAeSwdCNq6Y~c/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/237159926223",
+          "title": "Lego 31386 3 In 1 Creator Majestic Lion. Sealed, Box Not Perfect.",
+          "declared_condition": "new",
+          "item_price": 42.35,
+          "shipping": 3.38,
+          "listed_total": 45.73
+        },
+        {
+          "item_id": "v1|960229307348|0",
+          "seller": "duck_face_banana",
+          "image": "https://i.ebayimg.com/images/g/~dkAAeSwc9drAsab/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/960229307348",
+          "title": "New & Sealed  Lego Creator 3 In 1 Majestic Lion Set 31386 - 839 Pieces",
+          "declared_condition": "new",
+          "item_price": 42.99,
+          "shipping": 3.38,
+          "listed_total": 46.37
+        },
+        {
+          "item_id": "v1|168424390254|0",
+          "seller": "true_toys",
+          "image": "https://i.ebayimg.com/images/g/E7oAAeSwHjNqcJ3q/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/168424390254",
+          "title": "LEGO Creator Wild Animals: Majestic Lion 31386 Construction Buikding Set",
+          "declared_condition": "new",
+          "item_price": 47.49,
+          "shipping": 0.0,
+          "listed_total": 47.49
+        },
+        {
+          "item_id": "v1|840048654830|0",
+          "seller": "assorted_goods2020",
+          "image": "https://i.ebayimg.com/images/g/cI4AAeSwwlRq2jG6/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/840048654830",
+          "title": "LEGO Creator: Wild Animals: Majestic Lion (31386) A",
+          "declared_condition": "new",
+          "item_price": 44.99,
+          "shipping": 2.94,
+          "listed_total": 47.93
+        },
+        {
+          "item_id": "v1|800722768341|0",
+          "seller": "winha70",
+          "image": "https://i.ebayimg.com/images/g/HMUAAeSwMpBquPQ3/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/800722768341",
+          "title": "Lego Creator Majestic Lion 31386",
+          "declared_condition": "new",
+          "item_price": 45.42,
+          "shipping": 2.94,
+          "listed_total": 48.36
         }
       ],
       "rejected": {
-        "identity_or_condition": 31
+        "identity_or_condition": 4
       },
-      "detail_required": true,
-      "lowest_detail": {
-        "status": "awaiting_detail_budget",
-        "reasons": [
-          "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-        ],
-        "sub_checks": [
-          {
-            "sub_check_failed": "other",
-            "expected": "verified_fields within detail budget",
-            "observed": "awaiting_detail_budget",
-            "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "detail allocation window closed this scan"
-          }
-        ]
-      },
-      "detail_status": "awaiting_detail_budget",
       "query_aliases": [
-        "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)"
+        "LEGO Creator 3-in-1 Wild Animals: Majestic Lion - Model 31386 (9+ Years)"
       ]
     },
     {
@@ -13886,7 +14090,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-23T02:29:58+00:00",
+        "observed_at": "2026-11-23T03:03:13+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -14514,266 +14718,6 @@
       },
       "query_aliases": [
         "LEGO Technic Batmobile Tumbler - Model 42239 (12+ Years)"
-      ]
-    },
-    {
-      "kind": "active_ask",
-      "query": "LEGO 21062",
-      "category": "lego",
-      "name_terms": [
-        "architecture",
-        "fountain",
-        "trevi"
-      ],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-23T00:03:30+00:00",
-      "date": "2026-11-23",
-      "sample_count": 16,
-      "listed_total_low": 105.48,
-      "listed_total_p25": 120.0,
-      "listed_total_median": 137.88,
-      "listed_total_p75": 146.55,
-      "listed_total_high": 165.99,
-      "status": "wide_spread",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|336864438906|0",
-          "seller": "carogr-98",
-          "image": "https://i.ebayimg.com/images/g/NZYAAeSwNRxq37Ri/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/336864438906",
-          "title": "LEGO Architecture Trevi Fountain 21062 Complete Set 1880 pcs 18+ (2025)",
-          "declared_condition": "new",
-          "item_price": 99.49,
-          "shipping": 5.99,
-          "listed_total": 105.48
-        },
-        {
-          "item_id": "v1|960179518888|0",
-          "seller": "mark.skillen",
-          "image": "https://i.ebayimg.com/images/g/kZUAAeSwJ7Vq817Q/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/960179518888",
-          "title": "LEGO Architecture Trevi Fountain 21062 1880 pcs Building Set 18+ w/ Box",
-          "declared_condition": "new",
-          "item_price": 104.7,
-          "shipping": 3.89,
-          "listed_total": 108.59
-        },
-        {
-          "item_id": "v1|377659950811|0",
-          "seller": "ss_ldn",
-          "image": "https://i.ebayimg.com/images/g/rTEAAeSwqPJq~3hY/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/377659950811",
-          "title": "LEGO Architecture Trevi Fountain 21062",
-          "declared_condition": "new",
-          "item_price": 118.68,
-          "shipping": 0.0,
-          "listed_total": 118.68
-        },
-        {
-          "item_id": "v1|900098617908|0",
-          "seller": "wwsm2006",
-          "image": "https://i.ebayimg.com/images/g/wYgAAeSwrupq~uv2/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "advertised_discount",
-          "advertised_original_total": 139.99,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/900098617908",
-          "title": "LEGO Architecture Trevi Fountain Rome Display Set 21062 1880 Pieces",
-          "declared_condition": "new",
-          "item_price": 119.98,
-          "shipping": 0.0,
-          "listed_total": 119.98
-        },
-        {
-          "item_id": "v1|317045566837|0",
-          "seller": "freddie1625",
-          "image": "https://i.ebayimg.com/images/g/uxgAAeSw85ZoY9vo/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/317045566837",
-          "title": "LEGO Architecture Trevi Fountain 21062 Building Kit",
-          "declared_condition": "new",
-          "item_price": 115.1,
-          "shipping": 4.9,
-          "listed_total": 120.0
-        },
-        {
-          "item_id": "v1|206577108655|0",
-          "seller": "razigiftsandthings",
-          "image": "https://i.ebayimg.com/images/g/IbQAAeSwfsNqs~Dg/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206577108655",
-          "title": "LEGO Architecture Trevi Fountain 21062 Model Set Rome Monument",
-          "declared_condition": "new",
-          "item_price": 115.1,
-          "shipping": 6.76,
-          "listed_total": 121.86
-        },
-        {
-          "item_id": "v1|267851179075|0",
-          "seller": "resna95",
-          "image": "https://i.ebayimg.com/images/g/HQwAAeSwb6ZrA0u9/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267851179075",
-          "title": "LEGO Architecture 21062 Trevi Fountain - BLACK FRIDAY OFFER",
-          "declared_condition": "new",
-          "item_price": 125.49,
-          "shipping": 6.76,
-          "listed_total": 132.25
-        },
-        {
-          "item_id": "v1|397519414692|0",
-          "seller": "bagandsaveuk",
-          "image": "https://i.ebayimg.com/images/g/TH8AAeSwbFxpcLG0/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/397519414692",
-          "title": "Lego Architecture Trevi Fountain Set 21062 NEW",
-          "declared_condition": "new",
-          "item_price": 129.0,
-          "shipping": 6.76,
-          "listed_total": 135.76
-        },
-        {
-          "item_id": "v1|267726745240|0",
-          "seller": "toyemporium_org_uk",
-          "image": "https://i.ebayimg.com/images/g/oBEAAeSwS~JqVTOU/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/267726745240",
-          "title": "LEGO 21062 Architecture Trevi Fountain - Baroque Monument with Palazzo Poli F...",
-          "declared_condition": "new",
-          "item_price": 140.0,
-          "shipping": 0.0,
-          "listed_total": 140.0
-        },
-        {
-          "item_id": "v1|198675304466|0",
-          "seller": "rarebrix",
-          "image": "https://i.ebayimg.com/images/g/5kUAAeSwqpFq6h7M/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/198675304466",
-          "title": "LEGO Architecture Trevi Fountain Model, Italian Landmark Rome Memorabilia 21062",
-          "declared_condition": "new",
-          "item_price": 139.95,
-          "shipping": 2.99,
-          "listed_total": 142.94
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 9
-      },
-      "query_aliases": [
-        "LEGO Architecture Trevi Fountain 21062"
       ]
     },
     {
@@ -16179,6 +16123,33 @@
     },
     {
       "kind": "active_ask",
+      "query": "call of duty modern warfare 4 + 5 hours double xp code in box nintendo switch 2",
+      "category": "gaming",
+      "name_terms": [],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-23T03:04:53+00:00",
+      "date": "2026-11-23",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {},
+      "query_aliases": [
+        "Call of Duty Modern Warfare 4 (+ 5 hours Double XP) - Nintendo Switch 2 (Code in Box)"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 42228",
       "category": "lego",
       "name_terms": [
@@ -16332,106 +16303,95 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 22,
+    "indicative_asking_products": 21,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 22,
+    "ask_estimated_products": 21,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 9,
+    "above_budget_estimates": 7,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-23T02:32:45+00:00",
+  "generated_utc": "2026-11-23T03:05:55+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
     {
-      "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-      "url": "https://www.ebay.co.uk/itm/366573418864",
-      "policy_key": "6585bffbfd8634697afb758a",
-      "category": "trainers",
-      "source": "ebay_browse",
-      "price_basis": null,
+      "title": "LEGO Creator 3-in-1 Wild Animals: Majestic Lion - Model 31386 (9+ Years)",
+      "url": "https://www.hotukdeals.com/deals/lego-creator-3-in-1-wild-animals-majestic-lion-model-31386-9-years-5043474",
+      "policy_key": "a6d52d9e9c4ffb4c6b51f062",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 95.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/366573418864",
-      "landed_cost": 95.0,
-      "breakeven_sell": 112.83,
-      "sell_for_minimum_profit": 155.93,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
+      "merchant": "Costco",
+      "item_price": 24.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg"
       ],
-      "priority": 15,
-      "first_seen": "2026-11-22T07:29:08+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=UK+8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
+      "thumb": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3-in-1-wild-animals-majestic-lion-model-31386-9-years-5043474",
+      "landed_cost": null,
+      "breakeven_sell": 36.83,
+      "sell_for_minimum_profit": 48.81,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-23T03:04:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3-in-1+Wild+Animals%3A+Majestic+Lion&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "Nike HQ1416-001 UK 8",
-        "category": "trainers",
-        "name_terms": [],
+        "query": "LEGO 31386",
+        "category": "lego",
+        "name_terms": [
+          "9+",
+          "animals",
+          "creator",
+          "in",
+          "lion",
+          "majestic",
+          "model",
+          "wild",
+          "years"
+        ],
         "identity": {
-          "condition": "new",
-          "brand": "Nike",
-          "style_code": "HQ1416-001",
-          "uk_size": 8.0,
-          "department": "men"
+          "condition": "new"
         },
-        "observed_at": "2026-11-23T01:41:44+00:00",
+        "observed_at": "2026-11-23T03:04:53+00:00",
         "date": "2026-11-23",
-        "sample_count": 2,
-        "listed_total_low": 95.0,
-        "listed_total_p25": 97.22,
-        "listed_total_median": 99.44,
-        "listed_total_p75": 101.66,
-        "listed_total_high": 103.88,
-        "status": "small_sample",
+        "sample_count": 38,
+        "listed_total_low": 32.49,
+        "listed_total_p25": 48.66,
+        "listed_total_median": 55.4,
+        "listed_total_p75": 63.72,
+        "listed_total_high": 87.28,
+        "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
         ],
         "offers": [
           {
-            "item_id": "v1|366573418864|0",
-            "seller": "sportswear.outlet",
-            "image": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 100.0,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366573418864",
-            "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-            "declared_condition": "new",
-            "item_price": 95.0,
-            "shipping": 0.0,
-            "listed_total": 95.0
-          },
-          {
-            "item_id": "v1|298300063168|0",
-            "seller": "luxf8445",
-            "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
+            "item_id": "v1|860168661094|0",
+            "seller": "agenticec-0",
+            "image": "https://i.ebayimg.com/images/g/qqcAAeSwAcJrA31y/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -16443,89 +16403,277 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298300063168",
-            "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
+            "url": "https://www.ebay.co.uk/itm/860168661094",
+            "title": "LEGO Creator 3-in-1 Wild Animals: Majestic Lion - Model 31386 (9+ Years)",
             "declared_condition": "new",
-            "item_price": 99.99,
-            "shipping": 3.89,
-            "listed_total": 103.88
+            "item_price": 32.49,
+            "shipping": 0.0,
+            "listed_total": 32.49
+          },
+          {
+            "item_id": "v1|860134527029|0",
+            "seller": "sjwtcg",
+            "image": "https://i.ebayimg.com/images/g/A1AAAeSwpU9q9Iim/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860134527029",
+            "title": "LEGO Creator 3-in-1 Majestic Lion Set 31386 839 Pieces - New & Sealed ",
+            "declared_condition": "new",
+            "item_price": 39.7,
+            "shipping": 3.38,
+            "listed_total": 43.08
+          },
+          {
+            "item_id": "v1|117536965337|0",
+            "seller": "fowky84",
+            "image": "https://i.ebayimg.com/images/g/7UMAAeSwWrJrA519/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117536965337",
+            "title": "LEGO Creator: Wild Animals: Majestic Lion (31386) BRAND NEW, SEALED",
+            "declared_condition": "new",
+            "item_price": 40.0,
+            "shipping": 3.38,
+            "listed_total": 43.38
+          },
+          {
+            "item_id": "v1|900109225679|0",
+            "seller": "al_968541",
+            "image": "https://i.ebayimg.com/images/g/h~4AAeSwN09qXxvE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900109225679",
+            "title": "LEGO Creator: Wild Animals: Majestic Lion (31386)",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 0.0,
+            "listed_total": 44.99
+          },
+          {
+            "item_id": "v1|227617306312|0",
+            "seller": "gr8bargains",
+            "image": "https://i.ebayimg.com/images/g/3DAAAeSwALdqTvjG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227617306312",
+            "title": "Lego Creator 31386 Wild Animals: Majestic Lion - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 41.99,
+            "shipping": 3.38,
+            "listed_total": 45.37
+          },
+          {
+            "item_id": "v1|237159926223|0",
+            "seller": "charlomouse",
+            "image": "https://i.ebayimg.com/images/g/jJEAAeSwdCNq6Y~c/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237159926223",
+            "title": "Lego 31386 3 In 1 Creator Majestic Lion. Sealed, Box Not Perfect.",
+            "declared_condition": "new",
+            "item_price": 42.35,
+            "shipping": 3.38,
+            "listed_total": 45.73
+          },
+          {
+            "item_id": "v1|960229307348|0",
+            "seller": "duck_face_banana",
+            "image": "https://i.ebayimg.com/images/g/~dkAAeSwc9drAsab/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960229307348",
+            "title": "New & Sealed  Lego Creator 3 In 1 Majestic Lion Set 31386 - 839 Pieces",
+            "declared_condition": "new",
+            "item_price": 42.99,
+            "shipping": 3.38,
+            "listed_total": 46.37
+          },
+          {
+            "item_id": "v1|168424390254|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/E7oAAeSwHjNqcJ3q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168424390254",
+            "title": "LEGO Creator Wild Animals: Majestic Lion 31386 Construction Buikding Set",
+            "declared_condition": "new",
+            "item_price": 47.49,
+            "shipping": 0.0,
+            "listed_total": 47.49
+          },
+          {
+            "item_id": "v1|840048654830|0",
+            "seller": "assorted_goods2020",
+            "image": "https://i.ebayimg.com/images/g/cI4AAeSwwlRq2jG6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840048654830",
+            "title": "LEGO Creator: Wild Animals: Majestic Lion (31386) A",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 2.94,
+            "listed_total": 47.93
+          },
+          {
+            "item_id": "v1|800722768341|0",
+            "seller": "winha70",
+            "image": "https://i.ebayimg.com/images/g/HMUAAeSwMpBquPQ3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800722768341",
+            "title": "Lego Creator Majestic Lion 31386",
+            "declared_condition": "new",
+            "item_price": 45.42,
+            "shipping": 2.94,
+            "listed_total": 48.36
           }
         ],
         "rejected": {
-          "identity_or_condition": 31
+          "identity_or_condition": 4
         },
-        "detail_required": true,
-        "lowest_detail": {
-          "status": "awaiting_detail_budget",
-          "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ],
-          "sub_checks": [
-            {
-              "sub_check_failed": "other",
-              "expected": "verified_fields within detail budget",
-              "observed": "awaiting_detail_budget",
-              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-              "note": "detail allocation window closed this scan"
-            }
-          ]
-        },
-        "detail_status": "awaiting_detail_budget",
         "query_aliases": [
-          "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)"
+          "LEGO Creator 3-in-1 Wild Animals: Majestic Lion - Model 31386 (9+ Years)"
         ]
       },
       "ask_estimate": {
         "model": "competitor-asks-v1",
-        "category": "trainers",
-        "detail_status": "awaiting_detail_budget",
+        "category": "lego",
+        "detail_status": "not_required",
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "Nike HQ1416-001 UK 8",
-        "observed_at": "2026-11-23T01:41:44+00:00",
+        "query": "LEGO 31386",
+        "observed_at": "2026-11-23T03:04:53+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
+        "sample_count": 38,
+        "seller_count": 38,
         "unknown_seller_samples": 0,
         "low_price_supporting_sellers": 1,
         "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 103.88,
-        "competition_high": 103.88,
-        "estimated_resale": 100.76,
+        "wide_spread": true,
+        "competition_low": 32.49,
+        "competition_high": 87.28,
+        "estimated_resale": 31.51,
         "estimated_range": [
-          93.49,
-          103.88
+          29.24,
+          32.49
         ],
-        "suggested_listing": 103.87,
-        "quick_sale_model": 93.49,
+        "suggested_listing": 32.48,
+        "quick_sale_model": 29.24,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
+        "advertised_original_range": [
+          59.99,
+          76.07
+        ],
         "discount_overlap": false,
         "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
+        "advertised_discount_competitors": 2,
         "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 1,
+        "acquisition_excluded": 0,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 95.0,
-        "delivery_known": true,
-        "landed_cost": 95.0,
-        "net": -10.65,
-        "roi": -11.2,
-        "net_before_unknown_delivery": null,
-        "max_landed_buy": 60.0,
-        "max_item_buy": 60.0,
-        "delivery_headroom": -35.0,
-        "fees": 9.37,
-        "outbound_postage": 3.52,
+        "item_price": 24.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -4.45,
+        "max_landed_buy": 12.54,
+        "max_item_buy": null,
+        "delivery_headroom": -12.45,
+        "fees": 4.73,
+        "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 3.02,
+        "returns_allowance": 0.95,
         "estimated_opportunity": false,
         "worth_reviewing": false,
-        "above_budget": true,
+        "above_budget": false,
         "policy": {
           "community_index": 0,
           "cap": 60.0,
@@ -16538,26 +16686,25 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 90.68,
-        "review_stress_net": -24.87,
-        "review_stress_roi": -26.2,
+        "review_stress_sale": 28.35,
+        "review_stress_net": null,
+        "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 60.0,
-        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "review_max_landed_buy": 10.54,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
         "checks": [
           "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
           "Check current retailer stock, checkout price and exact variant before buying"
         ],
         "sources": [
           {
-            "item_id": "v1|298300063168|0",
-            "seller": "luxf8445",
-            "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
+            "item_id": "v1|860168661094|0",
+            "seller": "agenticec-0",
+            "image": "https://i.ebayimg.com/images/g/qqcAAeSwAcJrA31y/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -16569,19 +16716,230 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298300063168",
-            "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
+            "url": "https://www.ebay.co.uk/itm/860168661094",
+            "title": "LEGO Creator 3-in-1 Wild Animals: Majestic Lion - Model 31386 (9+ Years)",
             "declared_condition": "new",
-            "item_price": 99.99,
-            "shipping": 3.89,
-            "listed_total": 103.88,
+            "item_price": 32.49,
+            "shipping": 0.0,
+            "listed_total": 32.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860134527029|0",
+            "seller": "sjwtcg",
+            "image": "https://i.ebayimg.com/images/g/A1AAAeSwpU9q9Iim/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860134527029",
+            "title": "LEGO Creator 3-in-1 Majestic Lion Set 31386 839 Pieces - New & Sealed ",
+            "declared_condition": "new",
+            "item_price": 39.7,
+            "shipping": 3.38,
+            "listed_total": 43.08,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|117536965337|0",
+            "seller": "fowky84",
+            "image": "https://i.ebayimg.com/images/g/7UMAAeSwWrJrA519/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117536965337",
+            "title": "LEGO Creator: Wild Animals: Majestic Lion (31386) BRAND NEW, SEALED",
+            "declared_condition": "new",
+            "item_price": 40.0,
+            "shipping": 3.38,
+            "listed_total": 43.38,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900109225679|0",
+            "seller": "al_968541",
+            "image": "https://i.ebayimg.com/images/g/h~4AAeSwN09qXxvE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900109225679",
+            "title": "LEGO Creator: Wild Animals: Majestic Lion (31386)",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 0.0,
+            "listed_total": 44.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227617306312|0",
+            "seller": "gr8bargains",
+            "image": "https://i.ebayimg.com/images/g/3DAAAeSwALdqTvjG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227617306312",
+            "title": "Lego Creator 31386 Wild Animals: Majestic Lion - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 41.99,
+            "shipping": 3.38,
+            "listed_total": 45.37,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|237159926223|0",
+            "seller": "charlomouse",
+            "image": "https://i.ebayimg.com/images/g/jJEAAeSwdCNq6Y~c/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237159926223",
+            "title": "Lego 31386 3 In 1 Creator Majestic Lion. Sealed, Box Not Perfect.",
+            "declared_condition": "new",
+            "item_price": 42.35,
+            "shipping": 3.38,
+            "listed_total": 45.73,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960229307348|0",
+            "seller": "duck_face_banana",
+            "image": "https://i.ebayimg.com/images/g/~dkAAeSwc9drAsab/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960229307348",
+            "title": "New & Sealed  Lego Creator 3 In 1 Majestic Lion Set 31386 - 839 Pieces",
+            "declared_condition": "new",
+            "item_price": 42.99,
+            "shipping": 3.38,
+            "listed_total": 46.37,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168424390254|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/E7oAAeSwHjNqcJ3q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168424390254",
+            "title": "LEGO Creator Wild Animals: Majestic Lion 31386 Construction Buikding Set",
+            "declared_condition": "new",
+            "item_price": 47.49,
+            "shipping": 0.0,
+            "listed_total": 47.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840048654830|0",
+            "seller": "assorted_goods2020",
+            "image": "https://i.ebayimg.com/images/g/cI4AAeSwwlRq2jG6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840048654830",
+            "title": "LEGO Creator: Wild Animals: Majestic Lion (31386) A",
+            "declared_condition": "new",
+            "item_price": 44.99,
+            "shipping": 2.94,
+            "listed_total": 47.93,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|800722768341|0",
+            "seller": "winha70",
+            "image": "https://i.ebayimg.com/images/g/HMUAAeSwMpBquPQ3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800722768341",
+            "title": "Lego Creator Majestic Lion 31386",
+            "declared_condition": "new",
+            "item_price": 45.42,
+            "shipping": 2.94,
+            "listed_total": 48.36,
             "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
         "ok": false,
-        "reason": "detail_check_pending"
+        "reason": "low_price_not_supported"
       }
     },
     {
@@ -16599,8 +16957,8 @@
       "item_price": 10.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg"
@@ -17324,8 +17682,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg",
@@ -17943,8 +18301,8 @@
       "item_price": 22.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jdm4U/5043461_1/re/300x300/qt/55/5043461_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jdm4U/5043461_1/re/300x300/qt/55/5043461_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jdm4U/5043461_1/re/150x150/qt/55/5043461_1.jpg"
@@ -19856,8 +20214,8 @@
       "item_price": 32.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg",
@@ -20573,8 +20931,8 @@
       "item_price": 33.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/150x150/qt/55/5043412_1.jpg"
@@ -21290,8 +21648,8 @@
       "item_price": 33.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg",
@@ -22250,8 +22608,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/150x150/qt/55/5043415_1.jpg"
@@ -22871,8 +23229,8 @@
       "item_price": 55.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/150x150/qt/55/5043458_1.jpg"
@@ -23710,7 +24068,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-23T02:29:58+00:00",
+          "observed_at": "2026-11-23T03:03:13+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -24026,8 +24384,8 @@
       "item_price": 64.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/njq2r/5043454_1/re/300x300/qt/55/5043454_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/njq2r/5043454_1/re/300x300/qt/55/5043454_1.jpg",
         "https://images.hotukdeals.com/threads/raw/njq2r/5043454_1/re/150x150/qt/55/5043454_1.jpg"
@@ -24740,8 +25098,8 @@
       "item_price": 89.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LI3aa/5043402_1/re/300x300/qt/55/5043402_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LI3aa/5043402_1/re/300x300/qt/55/5043402_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LI3aa/5043402_1/re/150x150/qt/55/5043402_1.jpg"
@@ -25447,726 +25805,6 @@
       }
     },
     {
-      "title": "LEGO Architecture Trevi Fountain 21062",
-      "url": "https://www.hotukdeals.com/deals/lego-architecture-trevi-fountain-21062-5042700",
-      "policy_key": "9649022693bad6f5dab75fb3",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Joybuy",
-      "item_price": 93.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/300x300/qt/55/5042700_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/300x300/qt/55/5042700_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/150x150/qt/55/5042700_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/fAVlh/5042700_1/re/300x300/qt/55/5042700_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-architecture-trevi-fountain-21062-5042700",
-      "landed_cost": null,
-      "breakeven_sell": 118.29,
-      "sell_for_minimum_profit": 162.83,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-22T11:50:42+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Architecture+Trevi+Fountain+21062&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 21062",
-        "category": "lego",
-        "name_terms": [
-          "architecture",
-          "fountain",
-          "trevi"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-23T00:03:30+00:00",
-        "date": "2026-11-23",
-        "sample_count": 16,
-        "listed_total_low": 105.48,
-        "listed_total_p25": 120.0,
-        "listed_total_median": 137.88,
-        "listed_total_p75": 146.55,
-        "listed_total_high": 165.99,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|336864438906|0",
-            "seller": "carogr-98",
-            "image": "https://i.ebayimg.com/images/g/NZYAAeSwNRxq37Ri/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336864438906",
-            "title": "LEGO Architecture Trevi Fountain 21062 Complete Set 1880 pcs 18+ (2025)",
-            "declared_condition": "new",
-            "item_price": 99.49,
-            "shipping": 5.99,
-            "listed_total": 105.48
-          },
-          {
-            "item_id": "v1|960179518888|0",
-            "seller": "mark.skillen",
-            "image": "https://i.ebayimg.com/images/g/kZUAAeSwJ7Vq817Q/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960179518888",
-            "title": "LEGO Architecture Trevi Fountain 21062 1880 pcs Building Set 18+ w/ Box",
-            "declared_condition": "new",
-            "item_price": 104.7,
-            "shipping": 3.89,
-            "listed_total": 108.59
-          },
-          {
-            "item_id": "v1|377659950811|0",
-            "seller": "ss_ldn",
-            "image": "https://i.ebayimg.com/images/g/rTEAAeSwqPJq~3hY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377659950811",
-            "title": "LEGO Architecture Trevi Fountain 21062",
-            "declared_condition": "new",
-            "item_price": 118.68,
-            "shipping": 0.0,
-            "listed_total": 118.68
-          },
-          {
-            "item_id": "v1|900098617908|0",
-            "seller": "wwsm2006",
-            "image": "https://i.ebayimg.com/images/g/wYgAAeSwrupq~uv2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 139.99,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/900098617908",
-            "title": "LEGO Architecture Trevi Fountain Rome Display Set 21062 1880 Pieces",
-            "declared_condition": "new",
-            "item_price": 119.98,
-            "shipping": 0.0,
-            "listed_total": 119.98
-          },
-          {
-            "item_id": "v1|317045566837|0",
-            "seller": "freddie1625",
-            "image": "https://i.ebayimg.com/images/g/uxgAAeSw85ZoY9vo/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317045566837",
-            "title": "LEGO Architecture Trevi Fountain 21062 Building Kit",
-            "declared_condition": "new",
-            "item_price": 115.1,
-            "shipping": 4.9,
-            "listed_total": 120.0
-          },
-          {
-            "item_id": "v1|206577108655|0",
-            "seller": "razigiftsandthings",
-            "image": "https://i.ebayimg.com/images/g/IbQAAeSwfsNqs~Dg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206577108655",
-            "title": "LEGO Architecture Trevi Fountain 21062 Model Set Rome Monument",
-            "declared_condition": "new",
-            "item_price": 115.1,
-            "shipping": 6.76,
-            "listed_total": 121.86
-          },
-          {
-            "item_id": "v1|267851179075|0",
-            "seller": "resna95",
-            "image": "https://i.ebayimg.com/images/g/HQwAAeSwb6ZrA0u9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267851179075",
-            "title": "LEGO Architecture 21062 Trevi Fountain - BLACK FRIDAY OFFER",
-            "declared_condition": "new",
-            "item_price": 125.49,
-            "shipping": 6.76,
-            "listed_total": 132.25
-          },
-          {
-            "item_id": "v1|397519414692|0",
-            "seller": "bagandsaveuk",
-            "image": "https://i.ebayimg.com/images/g/TH8AAeSwbFxpcLG0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397519414692",
-            "title": "Lego Architecture Trevi Fountain Set 21062 NEW",
-            "declared_condition": "new",
-            "item_price": 129.0,
-            "shipping": 6.76,
-            "listed_total": 135.76
-          },
-          {
-            "item_id": "v1|267726745240|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/oBEAAeSwS~JqVTOU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267726745240",
-            "title": "LEGO 21062 Architecture Trevi Fountain - Baroque Monument with Palazzo Poli F...",
-            "declared_condition": "new",
-            "item_price": 140.0,
-            "shipping": 0.0,
-            "listed_total": 140.0
-          },
-          {
-            "item_id": "v1|198675304466|0",
-            "seller": "rarebrix",
-            "image": "https://i.ebayimg.com/images/g/5kUAAeSwqpFq6h7M/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198675304466",
-            "title": "LEGO Architecture Trevi Fountain Model, Italian Landmark Rome Memorabilia 21062",
-            "declared_condition": "new",
-            "item_price": 139.95,
-            "shipping": 2.99,
-            "listed_total": 142.94
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 9
-        },
-        "query_aliases": [
-          "LEGO Architecture Trevi Fountain 21062"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 21062",
-        "observed_at": "2026-11-23T00:03:30+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 16,
-        "seller_count": 16,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 2,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 105.48,
-        "competition_high": 165.99,
-        "estimated_resale": 102.31,
-        "estimated_range": [
-          94.93,
-          105.48
-        ],
-        "suggested_listing": 105.47,
-        "quick_sale_model": 94.93,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": [
-          139.99,
-          139.99
-        ],
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 1,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 93.0,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -13.34,
-        "max_landed_buy": 56.9,
-        "max_item_buy": null,
-        "delivery_headroom": -36.1,
-        "fees": 14.29,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 3.07,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": true,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 92.07,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 60.0,
-        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|336864438906|0",
-            "seller": "carogr-98",
-            "image": "https://i.ebayimg.com/images/g/NZYAAeSwNRxq37Ri/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336864438906",
-            "title": "LEGO Architecture Trevi Fountain 21062 Complete Set 1880 pcs 18+ (2025)",
-            "declared_condition": "new",
-            "item_price": 99.49,
-            "shipping": 5.99,
-            "listed_total": 105.48,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|960179518888|0",
-            "seller": "mark.skillen",
-            "image": "https://i.ebayimg.com/images/g/kZUAAeSwJ7Vq817Q/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/960179518888",
-            "title": "LEGO Architecture Trevi Fountain 21062 1880 pcs Building Set 18+ w/ Box",
-            "declared_condition": "new",
-            "item_price": 104.7,
-            "shipping": 3.89,
-            "listed_total": 108.59,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377659950811|0",
-            "seller": "ss_ldn",
-            "image": "https://i.ebayimg.com/images/g/rTEAAeSwqPJq~3hY/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377659950811",
-            "title": "LEGO Architecture Trevi Fountain 21062",
-            "declared_condition": "new",
-            "item_price": 118.68,
-            "shipping": 0.0,
-            "listed_total": 118.68,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|900098617908|0",
-            "seller": "wwsm2006",
-            "image": "https://i.ebayimg.com/images/g/wYgAAeSwrupq~uv2/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 139.99,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/900098617908",
-            "title": "LEGO Architecture Trevi Fountain Rome Display Set 21062 1880 Pieces",
-            "declared_condition": "new",
-            "item_price": 119.98,
-            "shipping": 0.0,
-            "listed_total": 119.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|317045566837|0",
-            "seller": "freddie1625",
-            "image": "https://i.ebayimg.com/images/g/uxgAAeSw85ZoY9vo/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/317045566837",
-            "title": "LEGO Architecture Trevi Fountain 21062 Building Kit",
-            "declared_condition": "new",
-            "item_price": 115.1,
-            "shipping": 4.9,
-            "listed_total": 120.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206577108655|0",
-            "seller": "razigiftsandthings",
-            "image": "https://i.ebayimg.com/images/g/IbQAAeSwfsNqs~Dg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206577108655",
-            "title": "LEGO Architecture Trevi Fountain 21062 Model Set Rome Monument",
-            "declared_condition": "new",
-            "item_price": 115.1,
-            "shipping": 6.76,
-            "listed_total": 121.86,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267851179075|0",
-            "seller": "resna95",
-            "image": "https://i.ebayimg.com/images/g/HQwAAeSwb6ZrA0u9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267851179075",
-            "title": "LEGO Architecture 21062 Trevi Fountain - BLACK FRIDAY OFFER",
-            "declared_condition": "new",
-            "item_price": 125.49,
-            "shipping": 6.76,
-            "listed_total": 132.25,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|397519414692|0",
-            "seller": "bagandsaveuk",
-            "image": "https://i.ebayimg.com/images/g/TH8AAeSwbFxpcLG0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/397519414692",
-            "title": "Lego Architecture Trevi Fountain Set 21062 NEW",
-            "declared_condition": "new",
-            "item_price": 129.0,
-            "shipping": 6.76,
-            "listed_total": 135.76,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267726745240|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/oBEAAeSwS~JqVTOU/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267726745240",
-            "title": "LEGO 21062 Architecture Trevi Fountain - Baroque Monument with Palazzo Poli F...",
-            "declared_condition": "new",
-            "item_price": 140.0,
-            "shipping": 0.0,
-            "listed_total": 140.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|198675304466|0",
-            "seller": "rarebrix",
-            "image": "https://i.ebayimg.com/images/g/5kUAAeSwqpFq6h7M/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198675304466",
-            "title": "LEGO Architecture Trevi Fountain Model, Italian Landmark Rome Memorabilia 21062",
-            "declared_condition": "new",
-            "item_price": 139.95,
-            "shipping": 2.99,
-            "listed_total": 142.94,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Architecture Trevi Fountain 21062",
-        "query": "LEGO 21062",
-        "kind": "active_ask",
-        "listing": 105.47,
-        "observed_at": "2026-11-23T00:03:30+00:00",
-        "valid_until": "2026-11-23T06:03:30+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/336864438906",
-          "https://www.ebay.co.uk/itm/960179518888",
-          "https://www.ebay.co.uk/itm/377659950811",
-          "https://www.ebay.co.uk/itm/900098617908",
-          "https://www.ebay.co.uk/itm/317045566837",
-          "https://www.ebay.co.uk/itm/206577108655",
-          "https://www.ebay.co.uk/itm/267851179075",
-          "https://www.ebay.co.uk/itm/397519414692",
-          "https://www.ebay.co.uk/itm/267726745240",
-          "https://www.ebay.co.uk/itm/198675304466"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/336864438906",
-            "LEGO Architecture Trevi Fountain 21062 Complete Set 1880 pcs 18+ (2025)",
-            105.48,
-            5.99,
-            99.49,
-            "carogr-98"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/960179518888",
-            "LEGO Architecture Trevi Fountain 21062 1880 pcs Building Set 18+ w/ Box",
-            108.59,
-            3.89,
-            104.7,
-            "mark.skillen"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377659950811",
-            "LEGO Architecture Trevi Fountain 21062",
-            118.68,
-            0.0,
-            118.68,
-            "ss_ldn"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/900098617908",
-            "LEGO Architecture Trevi Fountain Rome Display Set 21062 1880 Pieces",
-            119.98,
-            0.0,
-            119.98,
-            "wwsm2006"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/317045566837",
-            "LEGO Architecture Trevi Fountain 21062 Building Kit",
-            120.0,
-            4.9,
-            115.1,
-            "freddie1625"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206577108655",
-            "LEGO Architecture Trevi Fountain 21062 Model Set Rome Monument",
-            121.86,
-            6.76,
-            115.1,
-            "razigiftsandthings"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267851179075",
-            "LEGO Architecture 21062 Trevi Fountain - BLACK FRIDAY OFFER",
-            132.25,
-            6.76,
-            125.49,
-            "resna95"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/397519414692",
-            "Lego Architecture Trevi Fountain Set 21062 NEW",
-            135.76,
-            6.76,
-            129.0,
-            "bagandsaveuk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/267726745240",
-            "LEGO 21062 Architecture Trevi Fountain - Baroque Monument with Palazzo Poli F...",
-            140.0,
-            0.0,
-            140.0,
-            "toyemporium_org_uk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/198675304466",
-            "LEGO Architecture Trevi Fountain Model, Italian Landmark Rome Memorabilia 21062",
-            142.94,
-            2.99,
-            139.95,
-            "rarebrix"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Star Wars Offworld Sandcrawler and Mudhorn - Model 75453",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-offworld-sandcrawler-and-mudhorn-model-75453-5043450",
       "policy_key": "065306c82d2050f5e0dde970",
@@ -26181,8 +25819,8 @@
       "item_price": 99.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ueO1k/5043450_1/re/300x300/qt/55/5043450_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ueO1k/5043450_1/re/300x300/qt/55/5043450_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ueO1k/5043450_1/re/150x150/qt/55/5043450_1.jpg"
@@ -26800,8 +26438,8 @@
       "item_price": 104.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/VYIig/5043407_1/re/300x300/qt/55/5043407_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/VYIig/5043407_1/re/300x300/qt/55/5043407_1.jpg",
         "https://images.hotukdeals.com/threads/raw/VYIig/5043407_1/re/150x150/qt/55/5043407_1.jpg"
@@ -27417,8 +27055,8 @@
       "item_price": 105.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/IOdmb/5043403_1/re/300x300/qt/55/5043403_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/IOdmb/5043403_1/re/300x300/qt/55/5043403_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IOdmb/5043403_1/re/150x150/qt/55/5043403_1.jpg"
@@ -28039,8 +27677,8 @@
       "item_price": 124.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iY3RK/5043401_1/re/300x300/qt/55/5043401_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iY3RK/5043401_1/re/300x300/qt/55/5043401_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iY3RK/5043401_1/re/150x150/qt/55/5043401_1.jpg"
@@ -28659,8 +28297,8 @@
       "item_price": 147.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NmLwv/5043420_1/re/300x300/qt/55/5043420_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NmLwv/5043420_1/re/300x300/qt/55/5043420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NmLwv/5043420_1/re/150x150/qt/55/5043420_1.jpg"
@@ -29587,6 +29225,48 @@
       }
     },
     {
+      "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
+      "url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
+      "policy_key": "2e14a53bc4124a63c746e4c2",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Costco",
+      "item_price": 19.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/e0JgT/5043476_1/re/300x300/qt/55/5043476_1.jpg",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/e0JgT/5043476_1/re/300x300/qt/55/5043476_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/e0JgT/5043476_1/re/150x150/qt/55/5043476_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/e0JgT/5043476_1/re/300x300/qt/55/5043476_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
+      "landed_cost": null,
+      "breakeven_sell": 30.85,
+      "sell_for_minimum_profit": 40.43,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-23T03:04:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Pixar+Blaze%27s+Horse+Ranch&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Halloween lego Asda 40825",
       "url": "https://www.hotukdeals.com/deals/halloween-lego-asda-40825-5039159",
       "policy_key": "0c367fdf9a3f11f9ca06c9a4",
@@ -29939,8 +29619,8 @@
       "item_price": 13.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/StOVt/5040812_1/re/300x300/qt/55/5040812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/IBybo/5036956_1/re/300x300/qt/55/5036956_1.jpg",
@@ -29983,8 +29663,8 @@
       "item_price": 14.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg",
@@ -30716,8 +30396,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
         "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/150x150/qt/55/5042974_1.jpg"
@@ -30846,8 +30526,8 @@
       "item_price": 22.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/150x150/qt/55/5043394_1.jpg"
@@ -30932,8 +30612,8 @@
       "item_price": 25.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg",
@@ -31064,8 +30744,8 @@
       "item_price": 28.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/150x150/qt/55/5043414_1.jpg"
@@ -31145,8 +30825,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg",
@@ -31275,8 +30955,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -31317,8 +30997,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -31359,8 +31039,8 @@
       "item_price": 33.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/150x150/qt/55/5043391_1.jpg"
@@ -31401,8 +31081,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
@@ -31517,50 +31197,6 @@
       }
     },
     {
-      "title": "LEGO Disney 43217 \"Up\" House - price at checkout - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-disney-43217-up-house-price-at-checkout-free-cc-5036813",
-      "policy_key": "202607271f9c3b2db40ba59c",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 34.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/TbO8R/5036813_1/re/300x300/qt/55/5036813_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/TbO8R/5036813_1/re/150x150/qt/55/5036813_1.jpg",
-        "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Q8wAAeSw9LxrAdgc/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 48.81,
-      "sell_for_minimum_profit": 65.58,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T01:20:57+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+43217+%22Up%22+House&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Technic Ferrari FXX K - 42212",
       "url": "https://www.hotukdeals.com/deals/lego-technic-ferrari-fxx-k-42212-5038119",
       "policy_key": "c87bb9ab3f029cff4aa32f90",
@@ -31663,8 +31299,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
@@ -31746,8 +31382,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WUlkd/5040352_1/re/300x300/qt/55/5040352_1.jpg",
@@ -31834,8 +31470,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/150x150/qt/55/5043384_1.jpg"
@@ -32051,8 +31687,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
@@ -32139,8 +31775,8 @@
       "item_price": 38.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
@@ -32227,8 +31863,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg",
@@ -32315,8 +31951,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
@@ -32359,8 +31995,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
@@ -32401,8 +32037,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
@@ -32443,8 +32079,8 @@
       "item_price": 40.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
@@ -32513,48 +32149,6 @@
       }
     },
     {
-      "title": "LEGO Up-Scaled Santa Minifigure - Christmas Toy 40820 (\u00a336.25 w/email sign up) LEGO 40958 Christmas Stocking \u00a325 - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-up-scaled-santa-minifigure-christmas-toy-40820-ps3625-wmail-sign-up-lego-40958-christmas-stocking-ps25-5036842",
-      "policy_key": "5922441f3d0f7a59e97170fd",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 41.25,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/CBCPM/5036842_1/re/300x300/qt/55/5036842_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/CBCPM/5036842_1/re/150x150/qt/55/5036842_1.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 56.31,
-      "sell_for_minimum_profit": 76.07,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T01:52:19+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Up-Scaled+Santa+Minifigure&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Architecture Paris \u2013 City of Love 21064",
       "url": "https://www.hotukdeals.com/deals/lego-architecture-paris-city-of-love-21064-5043399",
       "policy_key": "159b4b09b6bd2d57382f3504",
@@ -32569,8 +32163,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/150x150/qt/55/5043399_1.jpg"
@@ -32780,8 +32374,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -32808,6 +32402,45 @@
       }
     },
     {
+      "title": "Call of Duty: Modern Warfare 4 - Xbox Series X",
+      "url": "https://www.hotukdeals.com/deals/call-of-duty-modern-warfare-4-xbox-series-x-5043473",
+      "policy_key": "290a19ae50adcd5b376eceb2",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Smyths",
+      "item_price": 47.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/vZ1UA/5043473_1/re/150x150/qt/55/5043473_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/call-of-duty-modern-warfare-4-xbox-series-x-5043473",
+      "landed_cost": null,
+      "breakeven_sell": 61.0,
+      "sell_for_minimum_profit": 83.67,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T03:04:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Call+of+Duty%3A+Modern+Warfare+4&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Lego City Classic Beach Tram 60506",
       "url": "https://www.hotukdeals.com/deals/lego-city-classic-beach-tram-60506-5040552",
       "policy_key": "f03600a7eadbfb8abf7a9f43",
@@ -32822,8 +32455,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
@@ -32852,50 +32485,6 @@
       }
     },
     {
-      "title": "LEGO Star Wars 75458 Imperial Remnant AT-RT Driver Helmet - \u00a343 w/email sign up (Black Friday Price Guarantee) Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-75458-imperial-remnant-at-rt-driver-helmet-ps43-wemail-sign-up-black-friday-price-guarantee-free-cc-5036832",
-      "policy_key": "dfbc6712965ac55e4f5caf42",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 48.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/IyMGA/5036832_1/re/300x300/qt/55/5036832_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/IyMGA/5036832_1/re/150x150/qt/55/5036832_1.jpg",
-        "https://i.ebayimg.com/images/g/N2oAAeSwId5qsTyA/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/VJMAAeSwz4pq2kNX/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 64.39,
-      "sell_for_minimum_profit": 87.4,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-18T01:20:57+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+75458+Imperial+Remnant+AT-RT+Driver+Helmet&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO City Coast Guard Rescue Boat & Helicopter 60504 w/code - free c+c",
       "url": "https://www.hotukdeals.com/deals/lego-city-coast-guard-rescue-boat-helicopter-60504-5040431",
       "policy_key": "fe7da1a9ebed521e318e6208",
@@ -32910,8 +32499,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/150x150/qt/55/5043433_1.jpg",
@@ -32954,8 +32543,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/150x150/qt/55/5043409_1.jpg"
@@ -32996,8 +32585,8 @@
       "item_price": 49.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/150x150/qt/55/5043219_1.jpg",
@@ -33040,8 +32629,8 @@
       "item_price": 51.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
@@ -33114,6 +32703,72 @@
       }
     },
     {
+      "title": "Call of Duty Modern Warfare 4 (+ 5 hours Double XP) - Nintendo Switch 2 (Code in Box)",
+      "url": "https://www.hotukdeals.com/deals/call-of-duty-modern-warfare-4-5-hours-douple-xp-nintendo-switch-2-code-in-box-5043478",
+      "policy_key": "19d0d41b0481d74687726a7f",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 52.49,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 66.32,
+      "sell_for_minimum_profit": 91.11,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T03:04:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Call+of+Duty+Modern+Warfare+4+%28%2B+5+hours+Double+XP%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "call of duty modern warfare 4 + 5 hours double xp code in box nintendo switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-23T03:04:53+00:00",
+        "date": "2026-11-23",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Call of Duty Modern Warfare 4 (+ 5 hours Double XP) - Nintendo Switch 2 (Code in Box)"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Star Wars R2-D2 Set 75379",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-r2-d2-set-75379-5043389",
       "policy_key": "947302dbdca81204cd6e7e6b",
@@ -33128,8 +32783,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/150x150/qt/55/5043389_1.jpg"
@@ -33214,8 +32869,8 @@
       "item_price": 57.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
-      "image_verified_until": "2026-11-23T02:51:43.105912+00:00",
-      "image_checked_at": "2026-11-23T02:31:43.105912+00:00",
+      "image_verified_until": "2026-11-23T03:24:56.401918+00:00",
+      "image_checked_at": "2026-11-23T03:04:56.401918+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EWxAj/5036973_1/re/300x300/qt/55/5036973_1.jpg",
@@ -33344,8 +32999,8 @@
       "item_price": 59.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ux2b6/5043362_1/re/300x300/qt/55/5043362_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ux2b6/5043362_1/re/300x300/qt/55/5043362_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ux2b6/5043362_1/re/150x150/qt/55/5043362_1.jpg"
@@ -33425,8 +33080,8 @@
       "item_price": 89.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/7Ejuh/5043410_1/re/300x300/qt/55/5043410_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/7Ejuh/5043410_1/re/300x300/qt/55/5043410_1.jpg",
         "https://images.hotukdeals.com/threads/raw/7Ejuh/5043410_1/re/150x150/qt/55/5043410_1.jpg"
@@ -33467,8 +33122,8 @@
       "item_price": 99.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RDgqV/5043408_1/re/300x300/qt/55/5043408_1.jpg",
-      "image_verified_until": "2026-11-23T02:50:12.267829+00:00",
-      "image_checked_at": "2026-11-23T02:30:12.267829+00:00",
+      "image_verified_until": "2026-11-23T03:23:25.473185+00:00",
+      "image_checked_at": "2026-11-23T03:03:25.473185+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RDgqV/5043408_1/re/300x300/qt/55/5043408_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RDgqV/5043408_1/re/150x150/qt/55/5043408_1.jpg"
@@ -33563,6 +33218,45 @@
       "priority": 10,
       "first_seen": "2026-11-16T15:46:14+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCS391+165mm+18V+Li-Ion+XR+Cordless+Circular+Saw&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "KingSpec 1TB NVMe SSD Up to 3500MB/s PCIe Gen3 x4 M.2 2280 Internal Solid State Drive for Laptop and Desktop",
+      "url": "https://www.hotukdeals.com/deals/kingspec-1tb-nvme-ssd-up-to-3500mbs-pcie-gen3-x4-m2-2280-internal-solid-state-drive-for-laptop-and-desktop-5043485",
+      "policy_key": "c6ef0bed44843f1c0bb6f7b1",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 103.61,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/A2SrT/5043485_1/re/150x150/qt/55/5043485_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/kingspec-1tb-nvme-ssd-up-to-3500mbs-pcie-gen3-x4-m2-2280-internal-solid-state-drive-for-laptop-and-desktop-5043485",
+      "landed_cost": null,
+      "breakeven_sell": 132.71,
+      "sell_for_minimum_profit": 183.82,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T03:04:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=KingSpec+1TB+NVMe+SSD+Up+to+3500MB%2Fs+PCIe+Gen3+x4+M.2+2280+Internal+Solid+State+Drive+for+Laptop+and+Desktop&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -35223,7 +34917,7 @@
       "policy_key": "031798456b14f82e8f179fe8",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -47289,17 +46983,17 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 526,
+      "retailer_offers": 525,
       "known_landed_under_cap": 0,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
       "under_cap_without_model": 0,
-      "retailer_unknown_delivery": 523,
+      "retailer_unknown_delivery": 522,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 527,
+    "scanned": 525,
     "priced": 8,
-    "unpriced": 519,
+    "unpriced": 517,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -47315,23 +47009,22 @@
     "reference_only": 8,
     "online_eligible": 473,
     "under_cap_known_delivery": 0,
-    "delivery_known": 4,
-    "ask_valued": 22,
+    "delivery_known": 3,
+    "ask_valued": 21,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 9,
-    "above_budget_candidates": 52,
-    "above_budget_researched": 11,
-    "above_budget_research_candidates": 52,
+    "above_budget_estimates": 7,
+    "above_budget_candidates": 51,
+    "above_budget_researched": 9,
+    "above_budget_research_candidates": 51,
     "acquisition_by_source": {
-      "ebay_browse": 1,
-      "hotukdeals": 526
+      "hotukdeals": 525
     },
     "qualified_delivery_unknown": 21,
-    "ask_delivery_known": 1,
-    "ask_unique_products": 22,
-    "ask_research_identities": 22,
-    "without_any_pricing": 497,
+    "ask_delivery_known": 0,
+    "ask_unique_products": 21,
+    "ask_research_identities": 21,
+    "without_any_pricing": 496,
     "pricing_coverage": {
       "fragrance": {
         "offers": 32,
@@ -47341,28 +47034,28 @@
         "supported_retailer_identities": 0
       },
       "gaming": {
-        "offers": 194,
-        "exact_identity": 119,
+        "offers": 196,
+        "exact_identity": 121,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
       },
       "lego": {
-        "offers": 129,
-        "exact_identity": 111,
+        "offers": 127,
+        "exact_identity": 110,
         "estimated_offers": 19,
         "estimated_products": 19,
-        "supported_retailer_identities": 8
+        "supported_retailer_identities": 7
       },
       "other": {
-        "offers": 18,
+        "offers": 16,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
       },
       "tech": {
-        "offers": 54,
+        "offers": 55,
         "exact_identity": 3,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -47376,21 +47069,21 @@
         "supported_retailer_identities": 1
       },
       "trainers": {
-        "offers": 79,
-        "exact_identity": 1,
-        "estimated_offers": 1,
-        "estimated_products": 1,
+        "offers": 78,
+        "exact_identity": 0,
+        "estimated_offers": 0,
+        "estimated_products": 0,
         "supported_retailer_identities": 0
       }
     },
     "browse_usage": {
       "date": "2026-11-23",
-      "calls": 83,
+      "calls": 95,
       "by_purpose": {
-        "persistent-research": 12,
-        "item-details": 24,
-        "acquisition": 24,
-        "asking-affordable": 12,
+        "persistent-research": 14,
+        "item-details": 28,
+        "acquisition": 28,
+        "asking-affordable": 14,
         "asking-watch": 11
       }
     },
@@ -47403,12 +47096,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 46,
+        "duplicates": 41,
         "old_dropped": 97,
         "age_unknown": 0,
-        "missing_price_or_category": 96,
+        "missing_price_or_category": 101,
         "ambiguous_price": 3,
-        "page_requests": 9
+        "page_requests": 8
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -47416,13 +47109,13 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 2,
-          "cached": 15,
+          "cached": 17,
           "query_budget": 2,
           "queries_by_category": {
-            "lego": 1,
-            "gaming": 1
+            "gaming": 1,
+            "lego": 1
           },
-          "candidates_with_samples": 13,
+          "candidates_with_samples": 14,
           "status": "ready",
           "errors": [],
           "tools_research": {
@@ -47437,13 +47130,11 @@
           },
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 2,
+            "queries": 0,
             "cached": 9,
             "query_budget": 2,
-            "queries_by_category": {
-              "lego": 2
-            },
-            "candidates_with_samples": 9,
+            "queries_by_category": {},
+            "candidates_with_samples": 7,
             "status": "ready",
             "errors": []
           }
@@ -47451,66 +47142,67 @@
       },
       "capture_buffer": {
         "enabled": true,
-        "added": 240,
-        "duplicates": 60,
+        "added": 239,
+        "duplicates": 61,
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-23T02:20:24.397Z",
-        "last_success": "2026-11-23T02:20:24.397Z"
+        "last_attempt": "2026-11-23T03:00:24.481Z",
+        "last_success": "2026-11-23T03:00:24.481Z"
       },
       "ebay_acquisition": {
         "status": "ready",
         "queries": 4,
-        "candidates": 1,
+        "candidates": 0,
         "errors": [],
         "purpose": "Official active Buy It Now acquisition; NEW only, not sold evidence",
         "query_budget": 4,
         "queries_by_category": {
-          "lego": 3,
-          "tech": 1
+          "lego": 2,
+          "gaming": 1,
+          "trainers": 1
         },
         "query_details": [
           {
-            "query": "LEGO 21034",
+            "query": "LEGO 11502",
             "category": "lego",
             "samples": 0,
             "rejected": {},
             "sort": "price",
-            "max_item_price": 7.64,
-            "max_landed_price": 7.64,
+            "max_item_price": 17.82,
+            "max_landed_price": 17.82,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "LEGO 42239",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {
-              "identity_or_condition": 2
-            },
-            "sort": "price",
-            "max_item_price": 60.0,
-            "max_landed_price": 60.0,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 72050",
-            "category": "lego",
+            "query": "horizon zero dawn remastered ps5",
+            "category": "gaming",
             "samples": 0,
             "rejected": {
               "identity_or_condition": 1
             },
             "sort": "price",
-            "max_item_price": 60.0,
-            "max_landed_price": 60.0,
+            "max_item_price": 11.19,
+            "max_landed_price": 11.19,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Sony WFC710N pink",
-            "category": "tech",
+            "query": "LEGO 43300",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 7
+            },
+            "sort": "newlyListed",
+            "max_item_price": 58.92,
+            "max_landed_price": 58.92,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "Nike HQ2056-108",
+            "category": "trainers",
             "samples": 0,
             "rejected": {},
             "sort": "price",
@@ -47524,10 +47216,10 @@
           "contexts_examined": 150,
           "context_reasons": {
             "not_usable": 140,
-            "eligible": 4,
-            "query_cooldown": 6
+            "query_cooldown": 3,
+            "eligible": 7
           },
-          "eligible_distinct_queries": 4,
+          "eligible_distinct_queries": 7,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -47536,10 +47228,10 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 21034",
+        "query": "LEGO 11502",
         "matched_shipped_samples": 0,
         "rejections": {},
-        "watchlist_products": 220
+        "watchlist_products": 221
       },
       "reviewed_bridge": {
         "status": "ready",
@@ -47554,28 +47246,28 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 2,
-    "rescanned": 525,
+    "new": 6,
+    "rescanned": 519,
     "price_changed": 0,
-    "previous_success": "2026-11-23T01:59:25+00:00",
-    "gap_minutes": 32.2,
+    "previous_success": "2026-11-23T02:32:35+00:00",
+    "gap_minutes": 32.3,
     "publication_holds": {
-      "eligible": 9,
-      "held": 518,
+      "eligible": 8,
+      "held": 517,
       "reasons": {
-        "no_supported_resale_estimate": 505,
-        "low_price_not_supported": 6,
+        "no_supported_resale_estimate": 504,
+        "low_price_not_supported": 7,
         "uncertain_competitor_coupon": 5,
-        "detail_check_pending": 2
+        "detail_check_pending": 1
       },
       "by_category": {
-        "trainers": 79,
-        "gaming": 194,
-        "lego": 121,
-        "tech": 54,
-        "other": 18,
+        "tools": 20,
+        "other": 16,
         "fragrance": 32,
-        "tools": 20
+        "trainers": 78,
+        "gaming": 196,
+        "tech": 55,
+        "lego": 120
       }
     },
     "excluded_nonphysical": [
@@ -47716,15 +47408,9 @@
       }
     ],
     "source_coverage": {
-      "ebay_browse": {
-        "offers": 1,
-        "new": 0,
-        "estimated": 1,
-        "actionable": 0
-      },
       "hotukdeals": {
-        "offers": 526,
-        "new": 2,
+        "offers": 525,
+        "new": 6,
         "estimated": 21,
         "actionable": 0
       }
@@ -47732,7 +47418,7 @@
     "value_watchlist": {
       "products": 147,
       "identity_contexts": 150,
-      "usable_targets": 11,
+      "usable_targets": 10,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -47740,14 +47426,14 @@
           "usable_targets": 0
         },
         "gaming": {
-          "products": 41,
-          "identity_contexts": 41,
+          "products": 40,
+          "identity_contexts": 40,
           "usable_targets": 1
         },
         "lego": {
-          "products": 91,
-          "identity_contexts": 94,
-          "usable_targets": 10
+          "products": 92,
+          "identity_contexts": 95,
+          "usable_targets": 9
         },
         "tech": {
           "products": 1,
@@ -47778,35 +47464,35 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 527,
-      "research_models_generated": 22,
-      "supported_market_estimates": 9,
-      "publication_qualified_cards": 9,
-      "route_eligible_cards": 9,
+      "offers_scanned": 525,
+      "research_models_generated": 21,
+      "supported_market_estimates": 8,
+      "publication_qualified_cards": 8,
+      "route_eligible_cards": 8,
       "route_eligibility_scope": "policy/format admission only; live availability, destination, limits and notification deduplication still apply",
       "buying_signals": 0,
       "opportunity_candidates": 0,
-      "research_watch_candidates": 9,
-      "above_budget_priced_watch": 3,
-      "research_holds": 518,
+      "research_watch_candidates": 8,
+      "above_budget_priced_watch": 2,
+      "research_holds": 517,
       "hold_reasons": {
-        "no_supported_resale_estimate": 505,
-        "low_price_not_supported": 6,
+        "no_supported_resale_estimate": 504,
+        "low_price_not_supported": 7,
         "uncertain_competitor_coupon": 5,
-        "detail_check_pending": 2
+        "detail_check_pending": 1
       },
       "by_category": {
         "trainers": {
-          "offers": 79,
+          "offers": 78,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 79
+          "holds": 78
         },
         "lego": {
-          "offers": 129,
-          "supported": 8,
-          "publication_qualified": 8,
-          "holds": 121
+          "offers": 127,
+          "supported": 7,
+          "publication_qualified": 7,
+          "holds": 120
         },
         "tools": {
           "offers": 21,
@@ -47815,10 +47501,10 @@
           "holds": 20
         },
         "gaming": {
-          "offers": 194,
+          "offers": 196,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 194
+          "holds": 196
         },
         "fragrance": {
           "offers": 32,
@@ -47827,20 +47513,20 @@
           "holds": 32
         },
         "tech": {
-          "offers": 54,
+          "offers": 55,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 54
+          "holds": 55
         },
         "other": {
-          "offers": 18,
+          "offers": 16,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 18
+          "holds": 16
         }
       },
-      "inbound_known": 4,
-      "inbound_unknown": 523
+      "inbound_known": 3,
+      "inbound_unknown": 522
     },
     "routing_destinations": {
       "opportunities": {
@@ -47885,35 +47571,33 @@
     ],
     "notification_delivery": {
       "mode": "live",
-      "product_messages_delivered": 1,
-      "by_route": {
-        "research-watch": 1
-      }
+      "product_messages_delivered": 0,
+      "by_route": {}
     },
     "review_candidates": 439,
     "lego_image_validation": {
       "checked": 32,
-      "cached": 34,
-      "verified": 72,
-      "pending": 57,
+      "cached": 35,
+      "verified": 73,
+      "pending": 54,
       "budget": 32,
       "paused_hosts": {}
     },
     "pricing_labels": {
-      "exact_priced": 9,
+      "exact_priced": 8,
       "research_model_only": 13,
-      "unpriced": 505,
+      "unpriced": 504,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
     "images_available": 468,
-    "lego_images_available": 72,
+    "lego_images_available": 73,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "45100522926",
+      "run_id": "45103635486",
       "event": "workflow_dispatch",
-      "parent_run_id": "45097532669"
+      "parent_run_id": "45100522926"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -47946,10 +47630,10 @@
           "url": "https://www.hotukdeals.com/deals/lego-botanicals-sunflower-bouquet-11502-5043412",
           "title": "LEGO Botanicals Sunflower Bouquet 11502",
           "current_price": 33.37,
-          "last_delivered_price": null,
-          "pct_change": null,
-          "would_deliver": true,
-          "reason": "first_delivery",
+          "last_delivered_price": 33.37,
+          "pct_change": 0.0,
+          "would_deliver": false,
+          "reason": "price_change_under_10pct",
           "is_repost": false
         },
         {
@@ -47969,17 +47653,6 @@
           "title": "LEGO Creator 3in1 Fierce Dinosaur Figure Building Toy 31379 - Free C&C",
           "current_price": 10.0,
           "last_delivered_price": 10.0,
-          "pct_change": 0.0,
-          "would_deliver": false,
-          "reason": "price_change_under_10pct",
-          "is_repost": false
-        },
-        {
-          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-architecture-trevi-fountain-21062-5042700",
-          "url": "https://www.hotukdeals.com/deals/lego-architecture-trevi-fountain-21062-5042700",
-          "title": "LEGO Architecture Trevi Fountain 21062",
-          "current_price": 93.0,
-          "last_delivered_price": 93.0,
           "pct_change": 0.0,
           "would_deliver": false,
           "reason": "price_change_under_10pct",
