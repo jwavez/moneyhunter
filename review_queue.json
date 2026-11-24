@@ -2,59 +2,62 @@
   "schema_version": 1,
   "candidates": [
     {
-      "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-      "url": "https://www.ebay.co.uk/itm/188906912962",
-      "policy_key": "4c41315d94ef6b2b0fb09b15",
-      "category": "tools",
-      "source": "ebay_browse",
-      "price_basis": null,
+      "title": "LEGO Icons Ford Model T - 11376",
+      "url": "https://www.hotukdeals.com/deals/lego-icons-ford-model-t-11376-5045518",
+      "policy_key": "1fbd7dda543d8212ee4bfc37",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 85.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/188906912962",
-      "landed_cost": 85.99,
-      "breakeven_sell": 105.96,
-      "sell_for_minimum_profit": 144.92,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
+      "merchant": "Amazon France",
+      "item_price": 72.93,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/150x150/qt/55/5045518_1.jpg"
       ],
-      "priority": 15,
-      "first_seen": "2026-11-08T18:31:12+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "thumb": "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-ford-model-t-11376-5045518",
+      "landed_cost": null,
+      "breakeven_sell": 94.25,
+      "sell_for_minimum_profit": 129.2,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-24T15:18:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+Ford+Model+T&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
       "ask_context": {
         "kind": "active_ask",
-        "query": "DeWalt DCV100 bare tool 18V",
-        "category": "tools",
-        "name_terms": [],
+        "query": "LEGO 11376",
+        "category": "lego",
+        "name_terms": [
+          "ford",
+          "icons",
+          "model"
+        ],
         "identity": {
-          "condition": "new",
-          "brand": "DeWalt",
-          "model": "DCV100",
-          "voltage": 18,
-          "contents": "bare tool; no battery/charger",
-          "region": "GB listing; warranty unverified"
+          "condition": "new"
         },
-        "observed_at": "2026-11-24T14:11:36+00:00",
+        "observed_at": "2026-11-24T15:18:37+00:00",
         "date": "2026-11-24",
-        "sample_count": 3,
-        "listed_total_low": 85.99,
-        "listed_total_p25": 85.99,
-        "listed_total_median": 85.99,
-        "listed_total_p75": 108.14,
-        "listed_total_high": 130.29,
+        "sample_count": 11,
+        "listed_total_low": 107.55,
+        "listed_total_p25": 114.06,
+        "listed_total_median": 127.42,
+        "listed_total_p75": 133.24,
+        "listed_total_high": 167.55,
         "status": "wide_spread",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
@@ -63,9 +66,9 @@
         ],
         "offers": [
           {
-            "item_id": "v1|188906912962|0",
-            "seller": "soauto",
-            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "item_id": "v1|237203591020|0",
+            "seller": "mkms-63",
+            "image": "https://i.ebayimg.com/images/g/EI8AAeSwrH1rBXry/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -77,17 +80,17 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188906912962",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "url": "https://www.ebay.co.uk/itm/237203591020",
+            "title": "LEGO Icons 11376 Ford Model T Set - New and sealed ",
             "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99
+            "item_price": 103.66,
+            "shipping": 3.89,
+            "listed_total": 107.55
           },
           {
-            "item_id": "v1|197018344217|0",
-            "seller": "nn4-online",
-            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "item_id": "v1|398055862732|0",
+            "seller": "ajcarter74",
+            "image": "https://i.ebayimg.com/images/g/rDMAAeSwDDJprBtn/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -95,21 +98,44 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE"
+              "FIXED_PRICE",
+              "BEST_OFFER"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/197018344217",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "url": "https://www.ebay.co.uk/itm/398055862732",
+            "title": "LEGO\u00ae Icons Ford Vintage Model T (11376) Classic Collectors  Display Set",
             "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99
+            "item_price": 104.69,
+            "shipping": 3.4,
+            "listed_total": 108.09
           },
           {
-            "item_id": "v1|398384737619|0",
-            "seller": "theonli0",
-            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "item_id": "v1|298035728681|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/DwAAAeSw0-ZrBXtN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 119.99,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298035728681",
+            "title": "LEGO Icons Ford Model T Vintage Car Kit 11376 Classic Collectors Set",
+            "declared_condition": "new",
+            "item_price": 111.98,
+            "shipping": 0.0,
+            "listed_total": 111.98
+          },
+          {
+            "item_id": "v1|860110315878|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/ipoAAeSwg2Fq6j0e/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -121,85 +147,230 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398384737619",
-            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "url": "https://www.ebay.co.uk/itm/860110315878",
+            "title": "LEGO Icons 11376 Ford Model T Set for Adults",
             "declared_condition": "new",
-            "item_price": 130.29,
+            "item_price": 116.13,
             "shipping": 0.0,
-            "listed_total": 130.29
+            "listed_total": 116.13
+          },
+          {
+            "item_id": "v1|267772310806|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/ClwAAeSw9XJqlbor/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267772310806",
+            "title": "LEGO LEGO Icons: Ford Model T (11376) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 119.26,
+            "shipping": 3.49,
+            "listed_total": 122.75
+          },
+          {
+            "item_id": "v1|298132802662|0",
+            "seller": "user_7563927",
+            "image": "https://i.ebayimg.com/images/g/ZhoAAeSwMA9puS9V/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298132802662",
+            "title": "LEGO Icons Ford Model T Vintage Car Kit 11376 Classic Collectors Set",
+            "declared_condition": "new",
+            "item_price": 119.99,
+            "shipping": 7.43,
+            "listed_total": 127.42
+          },
+          {
+            "item_id": "v1|336487211708|0",
+            "seller": "nemo-shopping",
+            "image": "https://i.ebayimg.com/images/g/gmAAAeSwK9Zpua1L/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336487211708",
+            "title": "Lego ICONS Ford Model T 11376",
+            "declared_condition": "new",
+            "item_price": 120.29,
+            "shipping": 8.36,
+            "listed_total": 128.65
+          },
+          {
+            "item_id": "v1|860120757956|0",
+            "seller": "jadesshop",
+            "image": "https://i.ebayimg.com/images/g/QQ8AAeSwndNq7qVS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860120757956",
+            "title": "LEGO Icons 11376 Ford Model T Set for Adults Vintage Car Display Home Office",
+            "declared_condition": "new",
+            "item_price": 131.97,
+            "shipping": 0.0,
+            "listed_total": 131.97
+          },
+          {
+            "item_id": "v1|137223763820|0",
+            "seller": "farooqislam1986",
+            "image": "https://i.ebayimg.com/images/g/arEAAeSwHpNp3VHa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137223763820",
+            "title": "LEGO Icons 11376 Ford Model T Set for Adults Brand New",
+            "declared_condition": "new",
+            "item_price": 134.5,
+            "shipping": 0.0,
+            "listed_total": 134.5
+          },
+          {
+            "item_id": "v1|267850800055|0",
+            "seller": "j7806",
+            "image": "https://i.ebayimg.com/images/g/kEEAAeSwOsNrAs4m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267850800055",
+            "title": "LEGO Icons Ford Model T 11376",
+            "declared_condition": "new",
+            "item_price": 141.1,
+            "shipping": 4.9,
+            "listed_total": 146.0
+          },
+          {
+            "item_id": "v1|287714651100|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/1OwAAeSwfuZq-JFb/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 168.72,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287714651100",
+            "title": "LEGO Icons Ford Model T 11376",
+            "declared_condition": "new",
+            "item_price": 167.55,
+            "shipping": 0.0,
+            "listed_total": 167.55
           }
         ],
-        "rejected": {},
-        "detail_required": true,
-        "lowest_detail": {
-          "status": "awaiting_detail_budget",
-          "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ],
-          "sub_checks": [
-            {
-              "sub_check_failed": "other",
-              "expected": "verified_fields within detail budget",
-              "observed": "awaiting_detail_budget",
-              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-              "note": "detail allocation window closed this scan"
-            }
-          ]
+        "rejected": {
+          "identity_or_condition": 12
         },
-        "detail_status": "awaiting_detail_budget",
         "query_aliases": [
-          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
+          "LEGO Icons Ford Model T - 11376"
         ]
       },
       "ask_estimate": {
         "model": "competitor-asks-v1",
-        "category": "tools",
-        "detail_status": "awaiting_detail_budget",
-        "competitor_coupon_unknown": false,
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": true,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "DeWalt DCV100 bare tool 18V",
-        "observed_at": "2026-11-24T14:11:36+00:00",
+        "query": "LEGO 11376",
+        "observed_at": "2026-11-24T15:18:37+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 2,
-        "seller_count": 2,
+        "sample_count": 11,
+        "seller_count": 11,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
+        "low_price_supporting_sellers": 4,
+        "confidence": "limited",
         "wide_spread": true,
-        "competition_low": 85.99,
-        "competition_high": 130.29,
-        "estimated_resale": 83.41,
+        "competition_low": 107.55,
+        "competition_high": 167.55,
+        "estimated_resale": 104.32,
         "estimated_range": [
-          77.39,
-          85.99
+          96.79,
+          107.55
         ],
-        "suggested_listing": 85.98,
-        "quick_sale_model": 77.39,
+        "suggested_listing": 107.54,
+        "quick_sale_model": 96.79,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 0,
+        "advertised_original_range": [
+          119.99,
+          168.72
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 2,
         "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 1,
+        "acquisition_excluded": 0,
         "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 85.99,
-        "delivery_known": true,
-        "landed_cost": 85.99,
-        "net": -19.91,
-        "roi": -23.2,
-        "net_before_unknown_delivery": null,
-        "max_landed_buy": 47.2,
-        "max_item_buy": 47.2,
-        "delivery_headroom": -38.79,
-        "fees": 7.74,
-        "outbound_postage": 6.59,
+        "item_price": 72.93,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 8.41,
+        "max_landed_buy": 58.1,
+        "max_item_buy": null,
+        "delivery_headroom": -14.83,
+        "fees": 14.56,
+        "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 2.5,
+        "returns_allowance": 3.13,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": true,
@@ -215,16 +386,16 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 75.06,
-        "review_stress_net": -27.28,
-        "review_stress_roi": -31.7,
+        "review_stress_sale": 93.88,
+        "review_stress_net": null,
+        "review_stress_roi": null,
         "review_stress_passed": false,
         "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 53.37,
+        "review_max_landed_buy": 60.0,
         "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
         "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Low competing offers advertise coupons; check effective competition before buying",
+          "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
           "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
           "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
@@ -232,9 +403,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|197018344217|0",
-            "seller": "nn4-online",
-            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "item_id": "v1|237203591020|0",
+            "seller": "mkms-63",
+            "image": "https://i.ebayimg.com/images/g/EI8AAeSwrH1rBXry/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -246,18 +417,18 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/197018344217",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "url": "https://www.ebay.co.uk/itm/237203591020",
+            "title": "LEGO Icons 11376 Ford Model T Set - New and sealed ",
             "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99,
+            "item_price": 103.66,
+            "shipping": 3.89,
+            "listed_total": 107.55,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|398384737619|0",
-            "seller": "theonli0",
-            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "item_id": "v1|398055862732|0",
+            "seller": "ajcarter74",
+            "image": "https://i.ebayimg.com/images/g/rDMAAeSwDDJprBtn/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -265,373 +436,46 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE"
+              "FIXED_PRICE",
+              "BEST_OFFER"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398384737619",
-            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "url": "https://www.ebay.co.uk/itm/398055862732",
+            "title": "LEGO\u00ae Icons Ford Vintage Model T (11376) Classic Collectors  Display Set",
             "declared_condition": "new",
-            "item_price": 130.29,
-            "shipping": 0.0,
-            "listed_total": 130.29,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "detail_check_pending"
-      }
-    },
-    {
-      "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-      "url": "https://www.ebay.co.uk/itm/197018344217",
-      "policy_key": "5a78d02ed8d9da7477d0e8d7",
-      "category": "tools",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 85.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/197018344217",
-      "landed_cost": 85.99,
-      "breakeven_sell": 105.96,
-      "sell_for_minimum_profit": 144.92,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-08T18:31:12+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "DeWalt DCV100 bare tool 18V",
-        "category": "tools",
-        "name_terms": [],
-        "identity": {
-          "condition": "new",
-          "brand": "DeWalt",
-          "model": "DCV100",
-          "voltage": 18,
-          "contents": "bare tool; no battery/charger",
-          "region": "GB listing; warranty unverified"
-        },
-        "observed_at": "2026-11-24T14:11:36+00:00",
-        "date": "2026-11-24",
-        "sample_count": 3,
-        "listed_total_low": 85.99,
-        "listed_total_p25": 85.99,
-        "listed_total_median": 85.99,
-        "listed_total_p75": 108.14,
-        "listed_total_high": 130.29,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|188906912962|0",
-            "seller": "soauto",
-            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188906912962",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99
-          },
-          {
-            "item_id": "v1|197018344217|0",
-            "seller": "nn4-online",
-            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/197018344217",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99
-          },
-          {
-            "item_id": "v1|398384737619|0",
-            "seller": "theonli0",
-            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398384737619",
-            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
-            "declared_condition": "new",
-            "item_price": 130.29,
-            "shipping": 0.0,
-            "listed_total": 130.29
-          }
-        ],
-        "rejected": {},
-        "detail_required": true,
-        "lowest_detail": {
-          "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-24T14:43:22+00:00",
-          "status": "verified_fields",
-          "reasons": [],
-          "gtin": "5035048616116",
-          "mpn": "DCV100-XJ",
-          "aspects": [
-            {
-              "type": "STRING",
-              "name": "Manufacturer Part Number",
-              "value": "DCV100-XJ"
-            },
-            {
-              "type": "STRING",
-              "name": "EAN",
-              "value": "5035048616116"
-            },
-            {
-              "type": "STRING",
-              "name": "Noise Level",
-              "value": "96 dB"
-            },
-            {
-              "type": "STRING",
-              "name": "Brand",
-              "value": "DEWALT"
-            },
-            {
-              "type": "STRING",
-              "name": "Type",
-              "value": "Handheld Leaf Blower"
-            },
-            {
-              "type": "STRING",
-              "name": "Power Source",
-              "value": "Battery"
-            },
-            {
-              "type": "STRING",
-              "name": "Voltage",
-              "value": "18 V"
-            },
-            {
-              "type": "STRING",
-              "name": "Model",
-              "value": "DeWalt DCV100-XJ"
-            },
-            {
-              "type": "STRING",
-              "name": "MPN",
-              "value": "DCV100-XJ"
-            },
-            {
-              "type": "STRING",
-              "name": "Features",
-              "value": "Lightweight"
-            },
-            {
-              "type": "STRING",
-              "name": "Power",
-              "value": "1600 W"
-            },
-            {
-              "type": "STRING",
-              "name": "Item Weight",
-              "value": "1.3 kg"
-            },
-            {
-              "type": "STRING",
-              "name": "Colour",
-              "value": "Yellow"
-            }
-          ],
-          "checked_item_price": 85.99,
-          "identity_query": "DeWalt DCV100 bare tool 18V",
-          "condition_id": "1000",
-          "availability": [
-            {
-              "deliveryOptions": [
-                "SHIP_TO_HOME"
-              ],
-              "estimatedAvailabilityStatus": "IN_STOCK",
-              "estimatedAvailableQuantity": 2,
-              "estimatedSoldQuantity": 0,
-              "estimatedRemainingQuantity": 2
-            }
-          ],
-          "source_url": "https://www.ebay.co.uk/itm/188906912962",
-          "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-          "fixed_shipping": 0.0,
-          "sub_checks": [],
-          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
-          "getitem_fields_present": [
-            "title",
-            "conditionId",
-            "price",
-            "shippingOptions",
-            "estimatedAvailabilities",
-            "localizedAspects",
-            "mpn",
-            "gtin"
-          ],
-          "getitem_fields_missing": [
-            "itemEndDate"
-          ]
-        },
-        "detail_status": "verified_fields",
-        "query_aliases": [
-          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "tools",
-        "detail_status": "verified_fields",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "DeWalt DCV100 bare tool 18V",
-        "observed_at": "2026-11-24T14:11:36+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 2,
-        "seller_count": 2,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": true,
-        "competition_low": 85.99,
-        "competition_high": 130.29,
-        "estimated_resale": 83.41,
-        "estimated_range": [
-          77.39,
-          85.99
-        ],
-        "suggested_listing": 85.98,
-        "quick_sale_model": 77.39,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 1,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 85.99,
-        "delivery_known": true,
-        "landed_cost": 85.99,
-        "net": -19.91,
-        "roi": -23.2,
-        "net_before_unknown_delivery": null,
-        "max_landed_buy": 47.2,
-        "max_item_buy": 47.2,
-        "delivery_headroom": -38.79,
-        "fees": 7.74,
-        "outbound_postage": 6.59,
-        "packaging": 0.5,
-        "returns_allowance": 2.5,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": true,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 75.06,
-        "review_stress_net": -27.28,
-        "review_stress_roi": -31.7,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 53.37,
-        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|188906912962|0",
-            "seller": "soauto",
-            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188906912962",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99,
+            "item_price": 104.69,
+            "shipping": 3.4,
+            "listed_total": 108.09,
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|398384737619|0",
-            "seller": "theonli0",
-            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "item_id": "v1|298035728681|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/DwAAAeSw0-ZrBXtN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 119.99,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298035728681",
+            "title": "LEGO Icons Ford Model T Vintage Car Kit 11376 Classic Collectors Set",
+            "declared_condition": "new",
+            "item_price": 111.98,
+            "shipping": 0.0,
+            "listed_total": 111.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860110315878|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/ipoAAeSwg2Fq6j0e/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -643,393 +487,161 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398384737619",
-            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "url": "https://www.ebay.co.uk/itm/860110315878",
+            "title": "LEGO Icons 11376 Ford Model T Set for Adults",
             "declared_condition": "new",
-            "item_price": 130.29,
+            "item_price": 116.13,
             "shipping": 0.0,
-            "listed_total": 130.29,
+            "listed_total": 116.13,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267772310806|0",
+            "seller": "bricktopia_collectables",
+            "image": "https://i.ebayimg.com/images/g/ClwAAeSw9XJqlbor/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267772310806",
+            "title": "LEGO LEGO Icons: Ford Model T (11376) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 119.26,
+            "shipping": 3.49,
+            "listed_total": 122.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|298132802662|0",
+            "seller": "user_7563927",
+            "image": "https://i.ebayimg.com/images/g/ZhoAAeSwMA9puS9V/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298132802662",
+            "title": "LEGO Icons Ford Model T Vintage Car Kit 11376 Classic Collectors Set",
+            "declared_condition": "new",
+            "item_price": 119.99,
+            "shipping": 7.43,
+            "listed_total": 127.42,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|336487211708|0",
+            "seller": "nemo-shopping",
+            "image": "https://i.ebayimg.com/images/g/gmAAAeSwK9Zpua1L/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336487211708",
+            "title": "Lego ICONS Ford Model T 11376",
+            "declared_condition": "new",
+            "item_price": 120.29,
+            "shipping": 8.36,
+            "listed_total": 128.65,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860120757956|0",
+            "seller": "jadesshop",
+            "image": "https://i.ebayimg.com/images/g/QQ8AAeSwndNq7qVS/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860120757956",
+            "title": "LEGO Icons 11376 Ford Model T Set for Adults Vintage Car Display Home Office",
+            "declared_condition": "new",
+            "item_price": 131.97,
+            "shipping": 0.0,
+            "listed_total": 131.97,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137223763820|0",
+            "seller": "farooqislam1986",
+            "image": "https://i.ebayimg.com/images/g/arEAAeSwHpNp3VHa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137223763820",
+            "title": "LEGO Icons 11376 Ford Model T Set for Adults Brand New",
+            "declared_condition": "new",
+            "item_price": 134.5,
+            "shipping": 0.0,
+            "listed_total": 134.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267850800055|0",
+            "seller": "j7806",
+            "image": "https://i.ebayimg.com/images/g/kEEAAeSwOsNrAs4m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267850800055",
+            "title": "LEGO Icons Ford Model T 11376",
+            "declared_condition": "new",
+            "item_price": 141.1,
+            "shipping": 4.9,
+            "listed_total": 146.0,
             "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
         "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
-      }
-    },
-    {
-      "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
-      "url": "https://www.ebay.co.uk/itm/398384737619",
-      "policy_key": "ad661adf25d67b845a80c273",
-      "category": "tools",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 130.29,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/398384737619",
-      "landed_cost": 130.29,
-      "breakeven_sell": 156.12,
-      "sell_for_minimum_profit": 215.15,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-08T18:31:12+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dewalt+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "DeWalt DCV100 bare tool 18V",
-        "category": "tools",
-        "name_terms": [],
-        "identity": {
-          "condition": "new",
-          "brand": "DeWalt",
-          "model": "DCV100",
-          "voltage": 18,
-          "contents": "bare tool; no battery/charger",
-          "region": "GB listing; warranty unverified"
-        },
-        "observed_at": "2026-11-24T14:11:36+00:00",
-        "date": "2026-11-24",
-        "sample_count": 3,
-        "listed_total_low": 85.99,
-        "listed_total_p25": 85.99,
-        "listed_total_median": 85.99,
-        "listed_total_p75": 108.14,
-        "listed_total_high": 130.29,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|188906912962|0",
-            "seller": "soauto",
-            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188906912962",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99
-          },
-          {
-            "item_id": "v1|197018344217|0",
-            "seller": "nn4-online",
-            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/197018344217",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99
-          },
-          {
-            "item_id": "v1|398384737619|0",
-            "seller": "theonli0",
-            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/398384737619",
-            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
-            "declared_condition": "new",
-            "item_price": 130.29,
-            "shipping": 0.0,
-            "listed_total": 130.29
-          }
-        ],
-        "rejected": {},
-        "detail_required": true,
-        "lowest_detail": {
-          "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-24T14:43:22+00:00",
-          "status": "verified_fields",
-          "reasons": [],
-          "gtin": "5035048616116",
-          "mpn": "DCV100-XJ",
-          "aspects": [
-            {
-              "type": "STRING",
-              "name": "Manufacturer Part Number",
-              "value": "DCV100-XJ"
-            },
-            {
-              "type": "STRING",
-              "name": "EAN",
-              "value": "5035048616116"
-            },
-            {
-              "type": "STRING",
-              "name": "Noise Level",
-              "value": "96 dB"
-            },
-            {
-              "type": "STRING",
-              "name": "Brand",
-              "value": "DEWALT"
-            },
-            {
-              "type": "STRING",
-              "name": "Type",
-              "value": "Handheld Leaf Blower"
-            },
-            {
-              "type": "STRING",
-              "name": "Power Source",
-              "value": "Battery"
-            },
-            {
-              "type": "STRING",
-              "name": "Voltage",
-              "value": "18 V"
-            },
-            {
-              "type": "STRING",
-              "name": "Model",
-              "value": "DeWalt DCV100-XJ"
-            },
-            {
-              "type": "STRING",
-              "name": "MPN",
-              "value": "DCV100-XJ"
-            },
-            {
-              "type": "STRING",
-              "name": "Features",
-              "value": "Lightweight"
-            },
-            {
-              "type": "STRING",
-              "name": "Power",
-              "value": "1600 W"
-            },
-            {
-              "type": "STRING",
-              "name": "Item Weight",
-              "value": "1.3 kg"
-            },
-            {
-              "type": "STRING",
-              "name": "Colour",
-              "value": "Yellow"
-            }
-          ],
-          "checked_item_price": 85.99,
-          "identity_query": "DeWalt DCV100 bare tool 18V",
-          "condition_id": "1000",
-          "availability": [
-            {
-              "deliveryOptions": [
-                "SHIP_TO_HOME"
-              ],
-              "estimatedAvailabilityStatus": "IN_STOCK",
-              "estimatedAvailableQuantity": 2,
-              "estimatedSoldQuantity": 0,
-              "estimatedRemainingQuantity": 2
-            }
-          ],
-          "source_url": "https://www.ebay.co.uk/itm/188906912962",
-          "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-          "fixed_shipping": 0.0,
-          "sub_checks": [],
-          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
-          "getitem_fields_present": [
-            "title",
-            "conditionId",
-            "price",
-            "shippingOptions",
-            "estimatedAvailabilities",
-            "localizedAspects",
-            "mpn",
-            "gtin"
-          ],
-          "getitem_fields_missing": [
-            "itemEndDate"
-          ]
-        },
-        "detail_status": "verified_fields",
-        "query_aliases": [
-          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "tools",
-        "detail_status": "verified_fields",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "DeWalt DCV100 bare tool 18V",
-        "observed_at": "2026-11-24T14:11:36+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 2,
-        "seller_count": 2,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 2,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 85.99,
-        "competition_high": 85.99,
-        "estimated_resale": 83.41,
-        "estimated_range": [
-          77.39,
-          85.99
-        ],
-        "suggested_listing": 85.98,
-        "quick_sale_model": 77.39,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 1,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 130.29,
-        "delivery_known": true,
-        "landed_cost": 130.29,
-        "net": -64.21,
-        "roi": -49.3,
-        "net_before_unknown_delivery": null,
-        "max_landed_buy": 47.2,
-        "max_item_buy": 47.2,
-        "delivery_headroom": -83.09,
-        "fees": 7.74,
-        "outbound_postage": 6.59,
-        "packaging": 0.5,
-        "returns_allowance": 2.5,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": true,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 75.06,
-        "review_stress_net": -71.58,
-        "review_stress_roi": -54.9,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 53.37,
-        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|188906912962|0",
-            "seller": "soauto",
-            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/188906912962",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|197018344217|0",
-            "seller": "nn4-online",
-            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/197018344217",
-            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
-            "declared_condition": "new",
-            "item_price": 85.99,
-            "shipping": 0.0,
-            "listed_total": 85.99,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "fewer_than_three_exact_independent_comparators"
+        "reason": "uncertain_competitor_coupon"
       }
     },
     {
@@ -1047,8 +659,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/300x300/qt/55/5045382_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/300x300/qt/55/5045382_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/150x150/qt/55/5045382_1.jpg"
@@ -1723,8 +1335,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/300x300/qt/55/5045322_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/300x300/qt/55/5045322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/150x150/qt/55/5045322_1.jpg"
@@ -2770,8 +2382,8 @@
       "item_price": 18.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/300x300/qt/55/5038215_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/300x300/qt/55/5038215_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zz6KG/5038215_1/re/150x150/qt/55/5038215_1.jpg",
@@ -4651,8 +4263,8 @@
       "item_price": 26.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/300x300/qt/55/5045346_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/300x300/qt/55/5045346_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/150x150/qt/55/5045346_1.jpg"
@@ -5241,8 +4853,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg",
@@ -6881,8 +6493,8 @@
       "item_price": 36.09,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/300x300/qt/55/5038144_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/300x300/qt/55/5038144_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Jz63j/5038144_1/re/150x150/qt/55/5038144_1.jpg",
@@ -7933,8 +7545,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/300x300/qt/55/5045185_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/300x300/qt/55/5045185_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/150x150/qt/55/5045185_1.jpg"
@@ -8687,6 +8299,612 @@
       }
     },
     {
+      "title": "LEGO Ninjago Arc Dragon of Focus 71836",
+      "url": "https://www.hotukdeals.com/deals/lego-ninjago-arc-dragon-of-focus-71836-5038192",
+      "policy_key": "76d5d1a023b704897f5c7522",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 57.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/150x150/qt/55/5038192_1.jpg",
+        "https://i.ebayimg.com/images/g/1gsAAeSwj99q0JrE/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/NsYAAeSwhDRpaCw2/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-ninjago-arc-dragon-of-focus-71836-5038192",
+      "landed_cost": null,
+      "breakeven_sell": 76.36,
+      "sell_for_minimum_profit": 104.14,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-19T00:55:07+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ninjago+Arc+Dragon+of+Focus+71836&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 71836",
+        "category": "lego",
+        "name_terms": [
+          "arc",
+          "dragon",
+          "focus",
+          "ninjago"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-24T15:18:35+00:00",
+        "date": "2026-11-24",
+        "sample_count": 8,
+        "listed_total_low": 71.68,
+        "listed_total_p25": 78.53,
+        "listed_total_median": 82.77,
+        "listed_total_p75": 86.77,
+        "listed_total_high": 100.28,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|407291871437|0",
+            "seller": "rina-09",
+            "image": "https://i.ebayimg.com/images/g/1gsAAeSwj99q0JrE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407291871437",
+            "title": "LEGO Ninjago Dragons Rising 71836 Arc Dragon of Focus Building Kit",
+            "declared_condition": "new",
+            "item_price": 68.3,
+            "shipping": 3.38,
+            "listed_total": 71.68
+          },
+          {
+            "item_id": "v1|880133786682|0",
+            "seller": "gillfly68",
+            "image": "https://i.ebayimg.com/images/g/NsYAAeSwhDRpaCw2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880133786682",
+            "title": "Lego Ninjago 71836 Arc Dragon of Focus",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 3.71,
+            "listed_total": 77.2
+          },
+          {
+            "item_id": "v1|168777514401|0",
+            "seller": "abbeygrails",
+            "image": "https://i.ebayimg.com/images/g/~B8AAeSwuNBqx9gB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168777514401",
+            "title": "LEGO 71836 Ninjago Arc Dragon of Focus 869pcs - Sealed - New",
+            "declared_condition": "new",
+            "item_price": 74.99,
+            "shipping": 3.99,
+            "listed_total": 78.98
+          },
+          {
+            "item_id": "v1|198707059026|0",
+            "seller": "anwo-54",
+            "image": "https://i.ebayimg.com/images/g/Zd4AAeSwUhNqy7gh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198707059026",
+            "title": "LEGO Ninjago Dragons Rising 71836 Arc Dragon of Focus Building Kit New Sealed",
+            "declared_condition": "new",
+            "item_price": 78.0,
+            "shipping": 3.71,
+            "listed_total": 81.71
+          },
+          {
+            "item_id": "v1|297138635841|0",
+            "seller": "curiousmindsuk",
+            "image": "https://i.ebayimg.com/images/g/K-IAAOSw7xBn3pZs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/297138635841",
+            "title": "Lego Ninjago 71836 Arc Dragon of Focus",
+            "declared_condition": "new",
+            "item_price": 83.83,
+            "shipping": 0.0,
+            "listed_total": 83.83
+          },
+          {
+            "item_id": "v1|117432739722|0",
+            "seller": "katymairs",
+            "image": "https://i.ebayimg.com/images/g/7Z4AAeSw~fxqt-bp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117432739722",
+            "title": "LEGO 71836 Ninjago: Arc Dragon of Focus. Brand New & Sealed. ",
+            "declared_condition": "new",
+            "item_price": 79.95,
+            "shipping": 4.27,
+            "listed_total": 84.22
+          },
+          {
+            "item_id": "v1|267585169127|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/unkAAeSwqVVpnaNw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267585169127",
+            "title": "Lego Ninjago 71836 Arc Dragon of Focus  - Brand New",
+            "declared_condition": "new",
+            "item_price": 94.41,
+            "shipping": 0.0,
+            "listed_total": 94.41
+          },
+          {
+            "item_id": "v1|198578149003|0",
+            "seller": "brmoo150",
+            "image": "https://i.ebayimg.com/images/g/oAYAAeSwva1qg3Xa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198578149003",
+            "title": "LEGO Nin Dragons Rising 71836 Arc Dragon of Focus Building Kit + 4 Free gifts ",
+            "declared_condition": "new",
+            "item_price": 94.29,
+            "shipping": 5.99,
+            "listed_total": 100.28
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 14
+        },
+        "query_aliases": [
+          "LEGO Ninjago Arc Dragon of Focus 71836"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 71836",
+        "observed_at": "2026-11-24T15:18:35+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 8,
+        "seller_count": 8,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 71.68,
+        "competition_high": 100.28,
+        "estimated_resale": 69.52,
+        "estimated_range": [
+          64.51,
+          71.68
+        ],
+        "suggested_listing": 71.67,
+        "quick_sale_model": 64.51,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 57.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -5.72,
+        "max_landed_buy": 37.33,
+        "max_item_buy": null,
+        "delivery_headroom": -20.66,
+        "fees": 9.87,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 2.09,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 62.56,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 41.46,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|407291871437|0",
+            "seller": "rina-09",
+            "image": "https://i.ebayimg.com/images/g/1gsAAeSwj99q0JrE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407291871437",
+            "title": "LEGO Ninjago Dragons Rising 71836 Arc Dragon of Focus Building Kit",
+            "declared_condition": "new",
+            "item_price": 68.3,
+            "shipping": 3.38,
+            "listed_total": 71.68,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880133786682|0",
+            "seller": "gillfly68",
+            "image": "https://i.ebayimg.com/images/g/NsYAAeSwhDRpaCw2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880133786682",
+            "title": "Lego Ninjago 71836 Arc Dragon of Focus",
+            "declared_condition": "new",
+            "item_price": 73.49,
+            "shipping": 3.71,
+            "listed_total": 77.2,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168777514401|0",
+            "seller": "abbeygrails",
+            "image": "https://i.ebayimg.com/images/g/~B8AAeSwuNBqx9gB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168777514401",
+            "title": "LEGO 71836 Ninjago Arc Dragon of Focus 869pcs - Sealed - New",
+            "declared_condition": "new",
+            "item_price": 74.99,
+            "shipping": 3.99,
+            "listed_total": 78.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198707059026|0",
+            "seller": "anwo-54",
+            "image": "https://i.ebayimg.com/images/g/Zd4AAeSwUhNqy7gh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198707059026",
+            "title": "LEGO Ninjago Dragons Rising 71836 Arc Dragon of Focus Building Kit New Sealed",
+            "declared_condition": "new",
+            "item_price": 78.0,
+            "shipping": 3.71,
+            "listed_total": 81.71,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|297138635841|0",
+            "seller": "curiousmindsuk",
+            "image": "https://i.ebayimg.com/images/g/K-IAAOSw7xBn3pZs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/297138635841",
+            "title": "Lego Ninjago 71836 Arc Dragon of Focus",
+            "declared_condition": "new",
+            "item_price": 83.83,
+            "shipping": 0.0,
+            "listed_total": 83.83,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|117432739722|0",
+            "seller": "katymairs",
+            "image": "https://i.ebayimg.com/images/g/7Z4AAeSw~fxqt-bp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117432739722",
+            "title": "LEGO 71836 Ninjago: Arc Dragon of Focus. Brand New & Sealed. ",
+            "declared_condition": "new",
+            "item_price": 79.95,
+            "shipping": 4.27,
+            "listed_total": 84.22,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267585169127|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/unkAAeSwqVVpnaNw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267585169127",
+            "title": "Lego Ninjago 71836 Arc Dragon of Focus  - Brand New",
+            "declared_condition": "new",
+            "item_price": 94.41,
+            "shipping": 0.0,
+            "listed_total": 94.41,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198578149003|0",
+            "seller": "brmoo150",
+            "image": "https://i.ebayimg.com/images/g/oAYAAeSwva1qg3Xa/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198578149003",
+            "title": "LEGO Nin Dragons Rising 71836 Arc Dragon of Focus Building Kit + 4 Free gifts ",
+            "declared_condition": "new",
+            "item_price": 94.29,
+            "shipping": 5.99,
+            "listed_total": 100.28,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Ninjago Arc Dragon of Focus 71836",
+        "query": "LEGO 71836",
+        "kind": "active_ask",
+        "listing": 71.67,
+        "observed_at": "2026-11-24T15:18:35+00:00",
+        "valid_until": "2026-11-24T21:18:35+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/407291871437",
+          "https://www.ebay.co.uk/itm/880133786682",
+          "https://www.ebay.co.uk/itm/168777514401",
+          "https://www.ebay.co.uk/itm/198707059026",
+          "https://www.ebay.co.uk/itm/297138635841",
+          "https://www.ebay.co.uk/itm/117432739722",
+          "https://www.ebay.co.uk/itm/267585169127",
+          "https://www.ebay.co.uk/itm/198578149003"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/407291871437",
+            "LEGO Ninjago Dragons Rising 71836 Arc Dragon of Focus Building Kit",
+            71.68,
+            3.38,
+            68.3,
+            "rina-09"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/880133786682",
+            "Lego Ninjago 71836 Arc Dragon of Focus",
+            77.2,
+            3.71,
+            73.49,
+            "gillfly68"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/168777514401",
+            "LEGO 71836 Ninjago Arc Dragon of Focus 869pcs - Sealed - New",
+            78.98,
+            3.99,
+            74.99,
+            "abbeygrails"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/198707059026",
+            "LEGO Ninjago Dragons Rising 71836 Arc Dragon of Focus Building Kit New Sealed",
+            81.71,
+            3.71,
+            78.0,
+            "anwo-54"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/297138635841",
+            "Lego Ninjago 71836 Arc Dragon of Focus",
+            83.83,
+            0.0,
+            83.83,
+            "curiousmindsuk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/117432739722",
+            "LEGO 71836 Ninjago: Arc Dragon of Focus. Brand New & Sealed. ",
+            84.22,
+            4.27,
+            79.95,
+            "katymairs"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267585169127",
+            "Lego Ninjago 71836 Arc Dragon of Focus  - Brand New",
+            94.41,
+            0.0,
+            94.41,
+            "zatugames"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/198578149003",
+            "LEGO Nin Dragons Rising 71836 Arc Dragon of Focus Building Kit + 4 Free gifts ",
+            100.28,
+            5.99,
+            94.29,
+            "brmoo150"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "DEWALT DCV100-XJ 18V Li-Ion XR Cordless Compact Blower - Bare - Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcv100-xj-18v-li-ion-xr-cordless-compact-blower-bare-free-cc-5037920",
       "policy_key": "a142deeee766b6f4e60057a1",
@@ -8819,7 +9037,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-24T14:43:22+00:00",
+          "observed_at": "2026-11-24T15:17:10+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -9135,8 +9353,8 @@
       "item_price": 61.02,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAWAI/5045300_1/re/300x300/qt/55/5045300_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAWAI/5045300_1/re/300x300/qt/55/5045300_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAWAI/5045300_1/re/150x150/qt/55/5045300_1.jpg"
@@ -9339,8 +9557,8 @@
       "item_price": 65.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KYXLV/5045210_1/re/300x300/qt/55/5045210_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KYXLV/5045210_1/re/300x300/qt/55/5045210_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KYXLV/5045210_1/re/150x150/qt/55/5045210_1.jpg"
@@ -10132,8 +10350,8 @@
       "item_price": 70.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/300x300/qt/55/5045402_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/300x300/qt/55/5045402_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/150x150/qt/55/5045402_1.jpg"
@@ -11253,8 +11471,8 @@
       "item_price": 74.06,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zoPB2/5044974_1/re/300x300/qt/55/5044974_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zoPB2/5044974_1/re/300x300/qt/55/5044974_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zoPB2/5044974_1/re/150x150/qt/55/5044974_1.jpg"
@@ -12206,8 +12424,8 @@
       "item_price": 93.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZAwb8/5044699_1/re/300x300/qt/55/5044699_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZAwb8/5044699_1/re/300x300/qt/55/5044699_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZAwb8/5044699_1/re/150x150/qt/55/5044699_1.jpg"
@@ -13508,8 +13726,8 @@
       "item_price": 99.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/VZJbL/5045078_1/re/300x300/qt/55/5045078_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/VZJbL/5045078_1/re/300x300/qt/55/5045078_1.jpg",
         "https://images.hotukdeals.com/threads/raw/VZJbL/5045078_1/re/150x150/qt/55/5045078_1.jpg"
@@ -13542,20 +13760,43 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-24T09:14:19+00:00",
+        "observed_at": "2026-11-24T15:18:37+00:00",
         "date": "2026-11-24",
         "sample_count": 30,
-        "listed_total_low": 100.94,
+        "listed_total_low": 100.45,
         "listed_total_p25": 109.59,
         "listed_total_median": 124.75,
-        "listed_total_p75": 132.15,
-        "listed_total_high": 142.66,
+        "listed_total_p75": 130.15,
+        "listed_total_high": 140.06,
         "status": "indicative_only",
         "warnings": [
           "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
           "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
         ],
         "offers": [
+          {
+            "item_id": "v1|377673011312|0",
+            "seller": "freemantrade",
+            "image": "https://i.ebayimg.com/images/g/W0AAAeSwAedrBYl2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377673011312",
+            "title": "LEGO Super Mario 72037 Mario Kart - Age 18+ - 1972pcs - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 94.9,
+            "shipping": 5.55,
+            "listed_total": 100.45
+          },
           {
             "item_id": "v1|820391895186|0",
             "seller": "orboflight",
@@ -13645,29 +13886,6 @@
             "item_price": 99.5,
             "shipping": 5.99,
             "listed_total": 105.49
-          },
-          {
-            "item_id": "v1|880088906070|0",
-            "seller": "jayjay8717",
-            "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880088906070",
-            "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-            "declared_condition": "new",
-            "item_price": 97.41,
-            "shipping": 8.27,
-            "listed_total": 105.68
           },
           {
             "item_id": "v1|237199000896|0",
@@ -13835,7 +14053,7 @@
             "condition_id": "1000",
             "discount_status": "unknown",
             "advertised_original_total": null,
-            "available_coupons": true,
+            "available_coupons": false,
             "buying_options": [
               "FIXED_PRICE",
               "BEST_OFFER"
@@ -14002,6 +14220,29 @@
             "promotion_id": null,
             "url": "https://www.ebay.co.uk/itm/267844380873",
             "title": "LEGO Super Mario: Mario Kart Standard Kart 72037, Brand New & Sealed..",
+            "declared_condition": "new",
+            "item_price": 120.3,
+            "shipping": 6.76,
+            "listed_total": 127.06
+          },
+          {
+            "item_id": "v1|168883964387|0",
+            "seller": "animatronic89",
+            "image": "https://i.ebayimg.com/images/g/DwQAAeSw~b9rBXIA/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168883964387",
+            "title": "LEGO Super Mario Kart, Mario & Standard Kart Set Sealed 72037",
             "declared_condition": "new",
             "item_price": 120.3,
             "shipping": 6.76,
@@ -14210,29 +14451,6 @@
             "item_price": 133.3,
             "shipping": 6.76,
             "listed_total": 140.06
-          },
-          {
-            "item_id": "v1|267840957035|0",
-            "seller": "anastacia_ann",
-            "image": "https://i.ebayimg.com/images/g/~ooAAeSwe2Rq9L3V/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267840957035",
-            "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037 RRP \u00a3150 \ud83d\udca5new unopened\ud83d\udca5",
-            "declared_condition": "new",
-            "item_price": 135.9,
-            "shipping": 6.76,
-            "listed_total": 142.66
           }
         ],
         "rejected": {
@@ -14249,24 +14467,24 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "LEGO 72037",
-        "observed_at": "2026-11-24T09:14:19+00:00",
+        "observed_at": "2026-11-24T15:18:37+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 30,
         "seller_count": 30,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 10,
+        "low_price_supporting_sellers": 8,
         "confidence": "moderate",
         "wide_spread": false,
-        "competition_low": 100.94,
-        "competition_high": 142.66,
-        "estimated_resale": 97.91,
+        "competition_low": 100.45,
+        "competition_high": 140.06,
+        "estimated_resale": 97.43,
         "estimated_range": [
-          90.84,
-          100.94
+          90.4,
+          100.45
         ],
-        "suggested_listing": 100.93,
-        "quick_sale_model": 90.84,
+        "suggested_listing": 100.44,
+        "quick_sale_model": 90.4,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
@@ -14282,14 +14500,14 @@
         "landed_cost": null,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": -24.01,
-        "max_landed_buy": 54.27,
+        "net_before_unknown_delivery": -24.4,
+        "max_landed_buy": 53.99,
         "max_item_buy": null,
-        "delivery_headroom": -45.72,
-        "fees": 13.7,
+        "delivery_headroom": -46.0,
+        "fees": 13.63,
         "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 2.94,
+        "returns_allowance": 2.92,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": true,
@@ -14305,7 +14523,7 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 88.11,
+        "review_stress_sale": 87.68,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
@@ -14320,6 +14538,30 @@
           "Check current retailer stock, checkout price and exact variant before buying"
         ],
         "sources": [
+          {
+            "item_id": "v1|377673011312|0",
+            "seller": "freemantrade",
+            "image": "https://i.ebayimg.com/images/g/W0AAAeSwAedrBYl2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377673011312",
+            "title": "LEGO Super Mario 72037 Mario Kart - Age 18+ - 1972pcs - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 94.9,
+            "shipping": 5.55,
+            "listed_total": 100.45,
+            "same_acquisition_promotion": false
+          },
           {
             "item_id": "v1|820391895186|0",
             "seller": "orboflight",
@@ -14412,30 +14654,6 @@
             "item_price": 99.5,
             "shipping": 5.99,
             "listed_total": 105.49,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|880088906070|0",
-            "seller": "jayjay8717",
-            "image": "https://i.ebayimg.com/images/g/xCUAAeSwx89q7cC1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880088906070",
-            "title": "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-            "declared_condition": "new",
-            "item_price": 97.41,
-            "shipping": 8.27,
-            "listed_total": 105.68,
             "same_acquisition_promotion": false
           },
           {
@@ -14563,15 +14781,15 @@
         "title": "LEGO Mario Kart \u2013 Mario & Standard Kart 72037 (Free C&C)",
         "query": "LEGO 72037",
         "kind": "active_ask",
-        "listing": 100.93,
-        "observed_at": "2026-11-24T09:14:19+00:00",
-        "valid_until": "2026-11-24T15:14:19+00:00",
+        "listing": 100.44,
+        "observed_at": "2026-11-24T15:18:37+00:00",
+        "valid_until": "2026-11-24T21:18:37+00:00",
         "sources": [
+          "https://www.ebay.co.uk/itm/377673011312",
           "https://www.ebay.co.uk/itm/820391895186",
           "https://www.ebay.co.uk/itm/168855613257",
           "https://www.ebay.co.uk/itm/960183225731",
           "https://www.ebay.co.uk/itm/267812005389",
-          "https://www.ebay.co.uk/itm/880088906070",
           "https://www.ebay.co.uk/itm/237199000896",
           "https://www.ebay.co.uk/itm/257832261751",
           "https://www.ebay.co.uk/itm/336910317768",
@@ -14579,6 +14797,14 @@
           "https://www.ebay.co.uk/itm/168799491990"
         ],
         "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/377673011312",
+            "LEGO Super Mario 72037 Mario Kart - Age 18+ - 1972pcs - Brand New and Sealed",
+            100.45,
+            5.55,
+            94.9,
+            "freemantrade"
+          ],
           [
             "https://www.ebay.co.uk/itm/820391895186",
             "LEGO Super Mario 72037 Mario Kart - Age 18+ - 1972pcs - Brand New and Sealed",
@@ -14610,14 +14836,6 @@
             5.99,
             99.5,
             "brown2cool86"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/880088906070",
-            "LEGO Super Mario Kart 72037 Mario & Standard Kart 1972 Pieces NEW SEALED 18+",
-            105.68,
-            8.27,
-            97.41,
-            "jayjay8717"
           ],
           [
             "https://www.ebay.co.uk/itm/237199000896",
@@ -14678,8 +14896,8 @@
       "item_price": 124.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/300x300/qt/55/5045468_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/300x300/qt/55/5045468_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/150x150/qt/55/5045468_1.jpg"
@@ -15592,8 +15810,8 @@
       "item_price": 124.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/A3he5/5044084_1/re/300x300/qt/55/5044084_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/A3he5/5044084_1/re/300x300/qt/55/5044084_1.jpg",
         "https://images.hotukdeals.com/threads/raw/A3he5/5044084_1/re/150x150/qt/55/5044084_1.jpg"
@@ -16622,7 +16840,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-24T14:43:22+00:00",
+        "canonicalized_at": "2026-11-24T15:17:10+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Ace Combat 8: Wings of Theve (Xbox Series X)"
@@ -16828,45 +17046,6 @@
       }
     },
     {
-      "title": "OtterBox All Day Watch Band for Apple Watch 40/41/42mm, Green/Blue",
-      "url": "https://www.hotukdeals.com/deals/otterbox-all-day-watch-band-for-apple-watch-404142mm-greenblue-5045488",
-      "policy_key": "a11b67bac8be42124cfa7edf",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 5.5,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/xcLri/5045488_1/re/150x150/qt/55/5045488_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/otterbox-all-day-watch-band-for-apple-watch-404142mm-greenblue-5045488",
-      "landed_cost": null,
-      "breakeven_sell": 11.74,
-      "sell_for_minimum_profit": 21.6,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-24T14:45:22+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=OtterBox+All+Day+Watch+Band+for+Apple+Watch+40%2F41%2F42mm%2C+Green%2FBlue&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
       "policy_key": "50d640c7bd6bbe55588983cf",
@@ -16881,8 +17060,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg"
@@ -16921,19 +17100,19 @@
       "offer_ambiguity": null,
       "merchant": "Argos",
       "item_price": 10.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg",
         "https://i.ebayimg.com/images/g/KqMAAeSwEkVq~td6/s-l225.jpg",
         "https://i.ebayimg.com/images/g/XqMAAeSwkE1pmFlB/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-creater-3-in-1-fierce-dinosaur-5043263",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 18.89,
       "sell_for_minimum_profit": 28.46,
@@ -17050,8 +17229,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/150x150/qt/55/5044887_1.jpg"
@@ -17092,8 +17271,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/150x150/qt/55/5044887_1.jpg",
@@ -17116,45 +17295,6 @@
       "first_seen": "2026-11-19T19:31:23+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pok%C3%A9mon+Smart+Play%3A+Charmander+and+Geodude%E2%80%99s+Cavern+Clash+72157&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "adidas Mens MUFC Manchester United 24/25 Tiro T-Shirt Night Indigo/Bright Red, Size 2XL",
-      "url": "https://www.hotukdeals.com/deals/adidas-mens-mufc-manchester-united-2425-tiro-t-shirt-night-indigobright-red-size-2xl-5045513",
-      "policy_key": "28d31d4a2e2ef915ea492a23",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "MandM",
-      "item_price": 12.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/MqwHp/5045513_1/re/150x150/qt/55/5045513_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/adidas-mens-mufc-manchester-united-2425-tiro-t-shirt-night-indigobright-red-size-2xl-5045513",
-      "landed_cost": null,
-      "breakeven_sell": 21.25,
-      "sell_for_minimum_profit": 30.97,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-24T14:45:22+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Mens+MUFC+Manchester+United+24%2F25+Tiro+T-Shirt+Night+Indigo%2FBright+Red%2C+Size+2XL&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -17263,8 +17403,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JXuiS/5044619_1/re/300x300/qt/55/5044619_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JXuiS/5044619_1/re/300x300/qt/55/5044619_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JXuiS/5044619_1/re/150x150/qt/55/5044619_1.jpg"
@@ -17421,72 +17561,6 @@
       }
     },
     {
-      "title": "The Crew Motorfest Limited Edition (Exclusive to Amazon.co.uk) (PS5)",
-      "url": "https://www.hotukdeals.com/deals/the-crew-motorfest-limited-edition-exclusive-to-amazoncouk-ps5-5045486",
-      "policy_key": "05e5eae17978e4754632f95f",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 14.39,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/EHy7M/5045486_1/re/150x150/qt/55/5045486_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/the-crew-motorfest-limited-edition-exclusive-to-amazoncouk-ps5-5045486",
-      "landed_cost": null,
-      "breakeven_sell": 21.33,
-      "sell_for_minimum_profit": 30.78,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-24T14:45:22+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Crew+Motorfest+Limited+Edition+%28Exclusive+to+Amazon.co.uk%29+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "the crew motorfest limited edition exclusive to amazoncouk ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-24T14:45:23+00:00",
-        "date": "2026-11-24",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "The Crew Motorfest Limited Edition (Exclusive to Amazon.co.uk) (PS5)"
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Speed Champions 77260 The Fast and The Furious Toyota Supra MK4",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-77260the-fast-and-the-furious-toyota-supra-mk4-5043529",
       "policy_key": "3c84fce55bff16c67d11e8a6",
@@ -17501,8 +17575,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/150x150/qt/55/5043529_1.jpg",
@@ -17545,8 +17619,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg"
@@ -17587,8 +17661,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/150x150/qt/55/5043728_1.jpg",
@@ -17713,8 +17787,8 @@
       "item_price": 15.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
@@ -17757,8 +17831,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
@@ -17845,8 +17919,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
@@ -17933,8 +18007,8 @@
       "item_price": 18.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg",
@@ -17977,8 +18051,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/150x150/qt/55/5043476_1.jpg",
@@ -18065,8 +18139,8 @@
       "item_price": 22.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/150x150/qt/55/5043394_1.jpg",
@@ -18109,8 +18183,8 @@
       "item_price": 24.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg",
@@ -18227,6 +18301,73 @@
       }
     },
     {
+      "title": "BOSS Man - Eau de Toilette for Him - Ambery Fragrance - 100ml (\u00a324.26 / \u00a321.71 max S&S)",
+      "url": "https://www.hotukdeals.com/deals/boss-man-eau-de-toilette-for-him-ambery-fragrance-100ml-5045517",
+      "policy_key": "de357ff178a95daea744c61b",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 25.54,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/JXuqL/5045517_1/re/150x150/qt/55/5045517_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/boss-man-eau-de-toilette-for-him-ambery-fragrance-100ml-5045517",
+      "landed_cost": null,
+      "breakeven_sell": 36.25,
+      "sell_for_minimum_profit": 48.49,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 100,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 36.25,
+        "required_resale": 48.49,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 25.54,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-24T15:18:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=BOSS+Man&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Festive Gingerbread House 40809",
       "url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5038732",
       "policy_key": "83b333ceee0be2cc503e0987",
@@ -18285,8 +18426,8 @@
       "item_price": 28.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/150x150/qt/55/5043414_1.jpg",
@@ -18368,8 +18509,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -18440,6 +18581,45 @@
       }
     },
     {
+      "title": "UGREEN FineTrack Duo2 Bluetooth Tracker Tag, iOS & Android ( Prime / USB-C Charging / Apple Find My & Google Find Hub ) @UGREEN/FBA",
+      "url": "https://www.hotukdeals.com/deals/ugreen-finetrack-duo2-bluetooth-tracker-tag-ios-android-prime-usb-c-charging-apple-find-my-google-find-hub-at-ugreenfba-5045554",
+      "policy_key": "18ce488b2f33d4d7527af2d5",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 30.39,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/9bDIm/5045554_1/re/150x150/qt/55/5045554_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ugreen-finetrack-duo2-bluetooth-tracker-tag-ios-android-prime-usb-c-charging-apple-find-my-google-find-hub-at-ugreenfba-5045554",
+      "landed_cost": null,
+      "breakeven_sell": 42.42,
+      "sell_for_minimum_profit": 57.42,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-24T15:18:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=UGREEN+FineTrack+Duo2+Bluetooth+Tracker+Tag%2C+iOS+%26+Android+%28+Prime+%2F+USB-C+Charging+%2F+Apple+Find+My+%26+Google+Find+Hub+%29+%40UGREEN%2FFBA&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO City Coast Guard Helicopter 60503",
       "url": "https://www.hotukdeals.com/deals/lego-city-coast-gaurd-helicopter-60503-5038656",
       "policy_key": "a5d917548787c9e4ca5afb49",
@@ -18498,8 +18678,8 @@
       "item_price": 33.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/150x150/qt/55/5043412_1.jpg",
@@ -18542,8 +18722,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -18563,45 +18743,6 @@
       "priority": 10,
       "first_seen": "2026-11-19T06:15:32+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Super+Mario+72046+Game+Boy&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Mercedes AMG Petronas adidas F1 Special Edition Monza Berreda Decode Lux Trainer (Sizes 7 to 9) - W/Code",
-      "url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-monza-berreda-decode-lux-trainer-sizes-7-to-9-wcode-5045496",
-      "policy_key": "ab1546d844f5bb7ff159a9bb",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "F1 Store",
-      "item_price": 33.6,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/VyLC4/5045496_1/re/150x150/qt/55/5045496_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-monza-berreda-decode-lux-trainer-sizes-7-to-9-wcode-5045496",
-      "landed_cost": null,
-      "breakeven_sell": 46.29,
-      "sell_for_minimum_profit": 62.64,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-24T14:45:22+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mercedes+AMG+Petronas+adidas+F1+Special+Edition+Monza+Berreda+Decode+Lux+Trainer+%28Sizes+7+to+9%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -18667,8 +18808,8 @@
       "item_price": 33.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/150x150/qt/55/5043391_1.jpg",
@@ -18711,8 +18852,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg",
@@ -18753,19 +18894,19 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 34.19,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
-        "https://i.ebayimg.com/images/g/F6oAAeSw935q7M~W/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/F6oAAeSw935q7M~W/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/2-AAAeSwv~hrBGjv/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-leonardo-da-vincis-flying-machine-10363-wvoucher-5042449",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 47.86,
       "sell_for_minimum_profit": 64.24,
@@ -18799,8 +18940,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -19015,8 +19156,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg"
@@ -19057,8 +19198,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
@@ -19101,8 +19242,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
@@ -19231,19 +19372,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 37.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
-        "https://i.ebayimg.com/images/g/F6oAAeSw935q7M~W/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/F6oAAeSw935q7M~W/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/2-AAAeSwv~hrBGjv/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-leonardo-da-vincis-flying-machine-10363-wvoucher-5042449",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 52.4,
       "sell_for_minimum_profit": 70.61,
@@ -19277,8 +19418,8 @@
       "item_price": 38.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/150x150/qt/55/5044396_1.jpg",
@@ -19579,8 +19720,8 @@
       "item_price": 41.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
@@ -19623,8 +19764,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/150x150/qt/55/5043415_1.jpg",
@@ -19667,8 +19808,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/150x150/qt/55/5043545_1.jpg",
@@ -19711,8 +19852,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -19753,8 +19894,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/150x150/qt/55/5043399_1.jpg",
@@ -19797,8 +19938,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/150x150/qt/55/5044089_1.jpg",
@@ -19841,8 +19982,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/150x150/qt/55/5043504_1.jpg",
@@ -19884,8 +20025,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/150x150/qt/55/5043608_1.jpg",
@@ -19928,8 +20069,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -20014,8 +20155,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
@@ -20058,8 +20199,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/150x150/qt/55/5043409_1.jpg",
@@ -20102,8 +20243,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -20188,8 +20329,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg",
@@ -20232,8 +20373,8 @@
       "item_price": 50.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/150x150/qt/55/5045008_1.jpg"
@@ -20274,8 +20415,8 @@
       "item_price": 51.43,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/150x150/qt/55/5044267_1.jpg"
@@ -20360,8 +20501,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/150x150/qt/55/5044623_1.jpg"
@@ -20402,8 +20543,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/150x150/qt/55/5043616_1.jpg",
@@ -20446,8 +20587,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/150x150/qt/55/5045008_1.jpg",
@@ -20490,8 +20631,8 @@
       "item_price": 55.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/150x150/qt/55/5043458_1.jpg",
@@ -20520,89 +20661,6 @@
       }
     },
     {
-      "title": "Mercedes AMG Petronas adidas F1 Special Edition Singapore GP Trainers (Sizes 6 to 9) W/Code",
-      "url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-singapore-gp-trainers-sizes-6-to-9-wcode-5045499",
-      "policy_key": "179549515b5253fe198ea894",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "F1 Store",
-      "item_price": 56.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/NnB72/5045499_1/re/150x150/qt/55/5045499_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-singapore-gp-trainers-sizes-6-to-9-wcode-5045499",
-      "landed_cost": null,
-      "breakeven_sell": 73.51,
-      "sell_for_minimum_profit": 100.01,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-24T14:45:22+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mercedes+AMG+Petronas+adidas+F1+Special+Edition+Singapore+GP+Trainers+%28Sizes+6+to+9%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Ninjago Arc Dragon of Focus 71836",
-      "url": "https://www.hotukdeals.com/deals/lego-ninjago-arc-dragon-of-focus-71836-5038192",
-      "policy_key": "76d5d1a023b704897f5c7522",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 57.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/300x300/qt/55/5038192_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/AdWkL/5038192_1/re/150x150/qt/55/5038192_1.jpg",
-        "https://i.ebayimg.com/images/g/1gsAAeSwj99q0JrE/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/NsYAAeSwhDRpaCw2/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 76.36,
-      "sell_for_minimum_profit": 104.14,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-19T00:55:07+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Ninjago+Arc+Dragon+of+Focus+71836&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Technic 2 Fast 2 Furious Nissan Skyline GT-R (R34) Speedster 42210 (Used / Like New) - At Checkout By Amazon Resale",
       "url": "https://www.hotukdeals.com/deals/lego-technic-2-fast-2-furious-nissan-skyline-gt-r-r34-speedster-42210-5043607",
       "policy_key": "808a1af5bb696c640b88f424",
@@ -20617,8 +20675,8 @@
       "item_price": 59.34,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
-      "image_verified_until": "2026-11-24T15:05:27.972260+00:00",
-      "image_checked_at": "2026-11-24T14:45:27.972260+00:00",
+      "image_verified_until": "2026-11-24T15:38:38.675649+00:00",
+      "image_checked_at": "2026-11-24T15:18:38.675649+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/150x150/qt/55/5043607_1.jpg"
@@ -20659,8 +20717,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -20863,44 +20921,6 @@
       "priority": 5,
       "first_seen": "2026-11-24T09:14:14+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Britney+Spears+Midnight+Fantasy+Eau+de+Parfum+30ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Puma Mens Anzarun Lite Trainers (Sizes 3-10) - With Code & Free Delivery via the App",
-      "url": "https://www.hotukdeals.com/deals/puma-mens-anzarun-lite-trainers-sizes-3-10-with-code-free-delivery-via-the-app-5043794",
-      "policy_key": "5541495667b8508dc092aeb3",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Puma",
-      "item_price": 16.1,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/b3S3L/5043794_1/re/150x150/qt/55/5043794_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/puma-mens-anzarun-lite-trainers-sizes-3-10-with-code-free-delivery-via-the-app-5043794",
-      "landed_cost": 16.1,
-      "breakeven_sell": 25.03,
-      "sell_for_minimum_profit": 34.75,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 5,
-      "first_seen": "2026-11-23T09:43:52+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Puma+Mens+Anzarun+Lite+Trainers+%28Sizes+3-10%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -21768,8 +21788,8 @@
       "item_price": 7.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/300x300/qt/55/5044826_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/300x300/qt/55/5044826_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/150x150/qt/55/5044826_1.jpg"
@@ -22797,6 +22817,45 @@
       "priority": 0,
       "first_seen": "2026-11-22T12:57:07+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Amazon+Basics+Wireless+Bluetooth+5.1+On-Ear+Headphones%2C+35h+Playtime%2C+Lightweight%2C+Adjustable%2C+Black&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "adidas Mens MUFC Manchester United 24/25 Tiro T-Shirt Night Indigo/Bright Red, Size 2XL",
+      "url": "https://www.hotukdeals.com/deals/adidas-mens-mufc-manchester-united-2425-tiro-t-shirt-night-indigobright-red-size-2xl-5045513",
+      "policy_key": "28d31d4a2e2ef915ea492a23",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "MandM",
+      "item_price": 12.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/MqwHp/5045513_1/re/150x150/qt/55/5045513_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/adidas-mens-mufc-manchester-united-2425-tiro-t-shirt-night-indigobright-red-size-2xl-5045513",
+      "landed_cost": null,
+      "breakeven_sell": 21.25,
+      "sell_for_minimum_profit": 30.97,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-24T14:45:22+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=adidas+Mens+MUFC+Manchester+United+24%2F25+Tiro+T-Shirt+Night+Indigo%2FBright+Red%2C+Size+2XL&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -25115,6 +25174,72 @@
       }
     },
     {
+      "title": "CHERRY XTRFY MX 3.1 Mechanical Keyboard (MX2A Brown Switch)",
+      "url": "https://www.hotukdeals.com/deals/cherry-xtrfy-mx-31-mechanical-keyboard-mx2a-brown-switch-5045432",
+      "policy_key": "9b5cf192770c75e93d38fe77",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Scan",
+      "item_price": 19.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/cQKZq/5045432_1/re/150x150/qt/55/5045432_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/cherry-xtrfy-mx-31-mechanical-keyboard-mx2a-brown-switch-5045432",
+      "landed_cost": null,
+      "breakeven_sell": 27.95,
+      "sell_for_minimum_profit": 37.39,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-24T13:37:48+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=CHERRY+XTRFY+MX+3.1+Mechanical+Keyboard+%28MX2A+Brown+Switch%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "cherry xtrfy mx 31 mechanical keyboard mx2a brown switch",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-24T13:37:49+00:00",
+        "date": "2026-11-24",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "CHERRY XTRFY MX 3.1 Mechanical Keyboard (MX2A Brown Switch)"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Gothic 1 Remake - PlayStation 5 (PS5)",
       "url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
       "policy_key": "27c53efa7b27672276af58e7",
@@ -26327,8 +26452,8 @@
       "item_price": 24.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zZNO0/5045263_1/re/300x300/qt/55/5045263_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zZNO0/5045263_1/re/300x300/qt/55/5045263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zZNO0/5045263_1/re/150x150/qt/55/5045263_1.jpg"
@@ -28857,6 +28982,45 @@
       }
     },
     {
+      "title": "Mercedes AMG Petronas adidas F1 Special Edition Monza Berreda Decode Lux Trainer (Sizes 7 to 9) - W/Code",
+      "url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-monza-berreda-decode-lux-trainer-sizes-7-to-9-wcode-5045496",
+      "policy_key": "ab1546d844f5bb7ff159a9bb",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "F1 Store",
+      "item_price": 33.6,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/VyLC4/5045496_1/re/150x150/qt/55/5045496_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-monza-berreda-decode-lux-trainer-sizes-7-to-9-wcode-5045496",
+      "landed_cost": null,
+      "breakeven_sell": 46.29,
+      "sell_for_minimum_profit": 62.64,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-24T14:45:22+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mercedes+AMG+Petronas+adidas+F1+Special+Edition+Monza+Berreda+Decode+Lux+Trainer+%28Sizes+7+to+9%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "STAR WARS Zero Company (PS5)",
       "url": "https://www.hotukdeals.com/deals/star-wars-zero-company-ps5-5042250",
       "policy_key": "b2a22c2a5f7e8db910c79c79",
@@ -29318,6 +29482,45 @@
       "priority": 0,
       "first_seen": "2026-11-19T17:23:22+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Marvel%27s+Wolverine+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Pok\u00e9mon Legends: Z-A - Switch 2 - \u00a334.16 w/ unique newsletter code",
+      "url": "https://www.hotukdeals.com/deals/pokemon-legends-z-a-switch-2-w-unique-newsletter-code-5045418",
+      "policy_key": "dd3fe7dbd35296ddef8022c9",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "The Game Collection",
+      "item_price": 37.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/4xd8v/5045418_1/re/150x150/qt/55/5045418_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/pokemon-legends-z-a-switch-2-w-unique-newsletter-code-5045418",
+      "landed_cost": null,
+      "breakeven_sell": 49.14,
+      "sell_for_minimum_profit": 67.08,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "legends z-a: different edition (switch 2)",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-24T13:37:48+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Pok%C3%A9mon+Legends%3A+Z-A&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -32281,6 +32484,45 @@
       }
     },
     {
+      "title": "Mercedes AMG Petronas adidas F1 Special Edition Singapore GP Trainers (Sizes 6 to 9) W/Code",
+      "url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-singapore-gp-trainers-sizes-6-to-9-wcode-5045499",
+      "policy_key": "179549515b5253fe198ea894",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "F1 Store",
+      "item_price": 56.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/NnB72/5045499_1/re/150x150/qt/55/5045499_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/mercedes-amg-petronas-adidas-f1-special-edition-singapore-gp-trainers-sizes-6-to-9-wcode-5045499",
+      "landed_cost": null,
+      "breakeven_sell": 73.51,
+      "sell_for_minimum_profit": 100.01,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-24T14:45:22+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mercedes+AMG+Petronas+adidas+F1+Special+Edition+Singapore+GP+Trainers+%28Sizes+6+to+9%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Xbox Wireless Controller \u2013 Heart Breaker Special Edition Series X|S, One, PCs, and Cloud-Enabled Devices - Sold & Shipped by Amazon EU",
       "url": "https://www.hotukdeals.com/deals/xbox-wireless-controller-heart-breaker-special-edition-series-xs-one-pcs-and-cloud-enabled-devices-5038672",
       "policy_key": "fd63882770d4448ed2314943",
@@ -32513,7 +32755,7 @@
           "colour": "pink",
           "edition": "standard"
         },
-        "observed_at": "2026-11-24T09:14:16+00:00",
+        "observed_at": "2026-11-24T15:18:35+00:00",
         "date": "2026-11-24",
         "sample_count": 0,
         "listed_total_low": null,
@@ -32687,70 +32929,6 @@
       "priority": 0,
       "first_seen": "2026-11-22T07:29:08+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mens+Nike+Air+Max+90+Drift+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Bleu De Chanel Eau De Toilette 50ml, 150ml \u00a3101.84 / Eau de Parfum 50ml \u00a369.92, 100ml \u00a397.28, 150ml \u00a3118.56 - With Code",
-      "url": "https://www.hotukdeals.com/deals/bleu-de-chanel-eau-de-toilette-50ml-150ml-ps10184-eau-de-parfum-50ml-ps6992-100ml-ps9728-150ml-ps11856-with-code-5043703",
-      "policy_key": "07331a36b3cbb5058bee984a",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Boots",
-      "item_price": 60.8,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/O04R2/5043703_1/re/150x150/qt/55/5043703_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/bleu-de-chanel-eau-de-toilette-50ml-150ml-ps10184-eau-de-parfum-50ml-ps6992-100ml-ps9728-150ml-ps11856-with-code-5043703",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": null,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-23T09:09:50+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bleu+De+Chanel+Eau+De+Toilette+50ml%2C+150ml+%2F+Eau+de+Parfum+50ml+%2C+100ml+%2C+150ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -33084,8 +33262,8 @@
       "item_price": 70.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/y6n0e/5045145_1/re/300x300/qt/55/5045145_1.jpg",
-      "image_verified_until": "2026-11-24T15:03:33.515838+00:00",
-      "image_checked_at": "2026-11-24T14:43:33.515838+00:00",
+      "image_verified_until": "2026-11-24T15:37:22.988970+00:00",
+      "image_checked_at": "2026-11-24T15:17:22.988970+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/y6n0e/5045145_1/re/300x300/qt/55/5045145_1.jpg",
         "https://images.hotukdeals.com/threads/raw/y6n0e/5045145_1/re/150x150/qt/55/5045145_1.jpg"
