@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:23:17+00:00",
       "valid_until": "2026-11-24T07:23:17+00:00",
       "competition_low": 55.66,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-24T02:30:43+00:00",
+        "observed_at": "2026-11-24T03:03:50+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -270,7 +270,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T02:30:43+00:00",
       "valid_until": "2026-11-24T08:30:43+00:00",
       "competition_low": 140.79,
@@ -342,7 +342,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:57:01+00:00",
       "valid_until": "2026-11-24T07:57:01+00:00",
       "competition_low": 76.94,
@@ -406,9 +406,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
-      "observed_at": "2026-11-23T23:10:14+00:00",
-      "valid_until": "2026-11-24T05:10:14+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
+      "observed_at": "2026-11-24T03:03:50+00:00",
+      "valid_until": "2026-11-24T09:03:50+00:00",
       "competition_low": 20.99,
       "estimated_resale": 20.36,
       "seller_count": 2,
@@ -442,17 +442,17 @@
           "seller": "ukretailhub",
           "url": "https://www.ebay.co.uk/itm/860170390130",
           "delivered": 20.99,
-          "observed_at": "2026-11-23T23:10:14+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         },
         {
           "item_id": "v1|198689357337|0",
           "seller": "swiftships2you",
           "url": "https://www.ebay.co.uk/itm/198689357337",
           "delivered": 22.02,
-          "observed_at": "2026-11-23T23:10:14+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         }
       ],
-      "last_research_at": "2026-11-23T23:10:14+00:00"
+      "last_research_at": "2026-11-24T03:03:50+00:00"
     },
     {
       "key": "browse-asks-v5:trainers:nike io1914-235 uk 3.5:c8d034984033",
@@ -478,7 +478,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:50:31+00:00",
       "valid_until": "2026-11-24T06:50:31+00:00",
       "competition_low": 59.99,
@@ -542,7 +542,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T23:43:16+00:00",
       "valid_until": "2026-11-24T05:43:16+00:00",
       "competition_low": 38.35,
@@ -614,7 +614,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:16:13+00:00",
       "valid_until": "2026-11-24T06:16:13+00:00",
       "competition_low": 19.96,
@@ -706,7 +706,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:23:17+00:00",
       "valid_until": "2026-11-24T07:23:17+00:00",
       "competition_low": 44.19,
@@ -792,9 +792,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
-      "observed_at": "2026-11-23T23:43:16+00:00",
-      "valid_until": "2026-11-24T05:43:16+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
+      "observed_at": "2026-11-24T03:03:50+00:00",
+      "valid_until": "2026-11-24T09:03:50+00:00",
       "competition_low": 63.8,
       "estimated_resale": 61.88,
       "seller_count": 5,
@@ -807,7 +807,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-24T02:30:43+00:00",
+        "observed_at": "2026-11-24T03:03:50+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -979,38 +979,38 @@
           "seller": "micgre-699",
           "url": "https://www.ebay.co.uk/itm/800699196363",
           "delivered": 63.8,
-          "observed_at": "2026-11-23T23:43:16+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         },
         {
           "item_id": "v1|377481642286|0",
           "seller": "smkicks18",
           "url": "https://www.ebay.co.uk/itm/377481642286",
           "delivered": 82.08,
-          "observed_at": "2026-11-23T23:43:16+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         },
         {
           "item_id": "v1|267810578491|0",
           "seller": "jasperskicks",
           "url": "https://www.ebay.co.uk/itm/267810578491",
           "delivered": 83.88,
-          "observed_at": "2026-11-23T23:43:16+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         },
         {
           "item_id": "v1|137874162168|0",
           "seller": "resellvaul08",
           "url": "https://www.ebay.co.uk/itm/137874162168",
           "delivered": 89.09,
-          "observed_at": "2026-11-23T23:43:16+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         },
         {
           "item_id": "v1|800779110762|0",
           "seller": "kkcreps",
           "url": "https://www.ebay.co.uk/itm/800779110762",
           "delivered": 89.79,
-          "observed_at": "2026-11-23T23:43:16+00:00"
+          "observed_at": "2026-11-24T03:03:50+00:00"
         }
       ],
-      "last_research_at": "2026-11-23T23:43:16+00:00"
+      "last_research_at": "2026-11-24T03:03:50+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:boss bottled infinite edp 100ml:b08923c858e7",
@@ -1036,7 +1036,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:50:31+00:00",
       "valid_until": "2026-11-24T06:50:31+00:00",
       "competition_low": 25.99,
@@ -1129,7 +1129,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T02:30:43+00:00",
       "valid_until": "2026-11-24T08:30:43+00:00",
       "competition_low": 73.99,
@@ -1144,7 +1144,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|158318156230|0",
-        "observed_at": "2026-11-24T02:30:43+00:00",
+        "observed_at": "2026-11-24T03:03:50+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "DoesNotApply",
@@ -1394,7 +1394,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:57:01+00:00",
       "valid_until": "2026-11-24T07:57:01+00:00",
       "competition_low": 28.26,
@@ -1487,7 +1487,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:58:59+00:00",
       "valid_until": "2026-11-24T07:58:59+00:00",
       "competition_low": 95.0,
@@ -1513,7 +1513,7 @@
             "expected": "verified_fields within detail budget",
             "observed": "awaiting_detail_budget",
             "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "detail allocation window closed this scan"
+            "note": "no getItem this pass; not a parser failure"
           }
         ]
       },
@@ -1534,118 +1534,6 @@
         }
       ],
       "last_research_at": "2026-11-24T00:16:13+00:00"
-    },
-    {
-      "key": "browse-asks-v5:gaming:expeditions a mudrunner game nintendo switch:4f53cda18c2b",
-      "category": "gaming",
-      "query": "expeditions a mudrunner game nintendo switch",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "gaming",
-        "query": "expeditions a mudrunner game nintendo switch",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": []
-      },
-      "first_seen": "2026-11-23T20:53:01+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
-      "observed_at": "2026-11-23T20:52:20+00:00",
-      "valid_until": "2026-11-24T02:52:20+00:00",
-      "competition_low": 31.0,
-      "estimated_resale": 30.07,
-      "seller_count": 1,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|307272006914|0",
-          "seller": "rarewaves-outlet",
-          "url": "https://www.ebay.co.uk/itm/307272006914",
-          "delivered": 31.0,
-          "observed_at": "2026-11-23T20:52:20+00:00"
-        }
-      ]
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 40812:f98d7b4794df",
-      "category": "lego",
-      "query": "LEGO 40812",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 40812",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "christmas",
-          "ornaments",
-          "snowman"
-        ]
-      },
-      "first_seen": "2026-11-23T20:53:01+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
-      "observed_at": "2026-11-23T20:52:20+00:00",
-      "valid_until": "2026-11-24T02:52:20+00:00",
-      "competition_low": 11.25,
-      "estimated_resale": 10.91,
-      "seller_count": 46,
-      "low_supporting_sellers": 3,
-      "max_landed_buy": 0,
-      "target_status": "no_positive_ceiling",
-      "checks": [
-        "No positive Strong landed acquisition ceiling"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|227628260453|0",
-          "seller": "collectedthingsuk",
-          "url": "https://www.ebay.co.uk/itm/227628260453",
-          "delivered": 11.25,
-          "observed_at": "2026-11-23T20:52:20+00:00"
-        },
-        {
-          "item_id": "v1|407369170639|0",
-          "seller": "winwo10",
-          "url": "https://www.ebay.co.uk/itm/407369170639",
-          "delivered": 11.99,
-          "observed_at": "2026-11-23T20:52:20+00:00"
-        },
-        {
-          "item_id": "v1|147692646506|0",
-          "seller": "rbcoms",
-          "url": "https://www.ebay.co.uk/itm/147692646506",
-          "delivered": 12.21,
-          "observed_at": "2026-11-23T20:52:20+00:00"
-        },
-        {
-          "item_id": "v1|407346231628|0",
-          "seller": "everyday_3ssentials",
-          "url": "https://www.ebay.co.uk/itm/407346231628",
-          "delivered": 12.4,
-          "observed_at": "2026-11-23T20:52:20+00:00"
-        },
-        {
-          "item_id": "v1|820326031125|0",
-          "seller": "fastgbdeals",
-          "url": "https://www.ebay.co.uk/itm/820326031125",
-          "delivered": 12.41,
-          "observed_at": "2026-11-23T20:52:20+00:00"
-        }
-      ]
     },
     {
       "key": "browse-asks-v5:lego:lego 76419:9cc99886c05c",
@@ -1669,7 +1557,7 @@
         ]
       },
       "first_seen": "2026-11-23T21:26:17+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T21:25:24+00:00",
       "valid_until": "2026-11-24T03:25:24+00:00",
       "competition_low": 110.0,
@@ -1741,7 +1629,7 @@
         ]
       },
       "first_seen": "2026-11-23T21:26:17+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T21:25:21+00:00",
       "valid_until": "2026-11-24T03:25:21+00:00",
       "competition_low": 15.89,
@@ -1815,7 +1703,7 @@
         ]
       },
       "first_seen": "2026-11-23T09:11:08+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T21:58:43+00:00",
       "valid_until": "2026-11-24T03:58:43+00:00",
       "competition_low": 70.37,
@@ -1884,7 +1772,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T04:43:49+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T21:58:43+00:00",
       "valid_until": "2026-11-24T03:58:43+00:00",
       "competition_low": 61.85,
@@ -1945,7 +1833,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T21:59:37+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T21:58:40+00:00",
       "valid_until": "2026-11-24T03:58:40+00:00",
       "competition_low": 25.89,
@@ -2005,7 +1893,7 @@
         ]
       },
       "first_seen": "2026-11-23T21:59:37+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T21:58:40+00:00",
       "valid_until": "2026-11-24T03:58:40+00:00",
       "competition_low": 19.09,
@@ -2084,7 +1972,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T22:32:29+00:00",
       "valid_until": "2026-11-24T04:32:29+00:00",
       "competition_low": 85.99,
@@ -2099,7 +1987,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-24T02:30:43+00:00",
+        "observed_at": "2026-11-24T03:03:50+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -2249,7 +2137,7 @@
         ]
       },
       "first_seen": "2026-11-23T10:19:13+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T22:32:32+00:00",
       "valid_until": "2026-11-24T04:32:32+00:00",
       "competition_low": 5.99,
@@ -2322,7 +2210,7 @@
         ]
       },
       "first_seen": "2026-11-23T22:33:43+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T22:32:29+00:00",
       "valid_until": "2026-11-24T04:32:29+00:00",
       "competition_low": 49.99,
@@ -2390,7 +2278,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T22:33:43+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T22:32:29+00:00",
       "valid_until": "2026-11-24T04:32:29+00:00",
       "competition_low": 34.95,
@@ -2430,7 +2318,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T22:39:27+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T22:39:20+00:00",
       "valid_until": "2026-11-24T04:39:20+00:00",
       "competition_low": 11.25,
@@ -2475,7 +2363,7 @@
         ]
       },
       "first_seen": "2026-11-23T22:39:27+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T22:39:20+00:00",
       "valid_until": "2026-11-24T04:39:20+00:00",
       "competition_low": 15.19,
@@ -2543,7 +2431,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T23:12:30+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T23:11:43+00:00",
       "valid_until": "2026-11-24T05:11:43+00:00",
       "competition_low": 68.99,
@@ -2590,7 +2478,7 @@
         ]
       },
       "first_seen": "2026-11-23T23:12:30+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T23:11:43+00:00",
       "valid_until": "2026-11-24T05:11:43+00:00",
       "competition_low": 39.07,
@@ -2659,7 +2547,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-23T23:45:33+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T23:44:46+00:00",
       "valid_until": "2026-11-24T05:44:46+00:00",
       "competition_low": 23.38,
@@ -2713,7 +2601,7 @@
         ]
       },
       "first_seen": "2026-11-23T23:45:33+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-23T23:44:46+00:00",
       "valid_until": "2026-11-24T05:44:46+00:00",
       "competition_low": 4.49,
@@ -2781,7 +2669,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-24T00:19:36+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:18:24+00:00",
       "valid_until": "2026-11-24T06:18:24+00:00",
       "competition_low": 79.43,
@@ -2825,7 +2713,7 @@
         ]
       },
       "first_seen": "2026-11-24T00:19:36+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:18:24+00:00",
       "valid_until": "2026-11-24T06:18:24+00:00",
       "competition_low": 17.62,
@@ -2874,8 +2762,8 @@
           "observed_at": "2026-11-24T00:18:24+00:00"
         }
       ],
-      "last_search_at": "2026-11-24T00:50:39+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-24T03:03:58+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 0.5
     },
     {
@@ -2899,7 +2787,7 @@
         ]
       },
       "first_seen": "2026-11-23T12:29:49+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:51:52+00:00",
       "valid_until": "2026-11-24T06:51:52+00:00",
       "competition_low": 101.84,
@@ -2975,7 +2863,7 @@
         ]
       },
       "first_seen": "2026-11-23T12:29:49+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:51:52+00:00",
       "valid_until": "2026-11-24T06:51:52+00:00",
       "competition_low": 12.25,
@@ -3050,7 +2938,7 @@
         ]
       },
       "first_seen": "2026-11-24T00:52:34+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:51:50+00:00",
       "valid_until": "2026-11-24T06:51:50+00:00",
       "competition_low": 39.99,
@@ -3099,8 +2987,8 @@
           "observed_at": "2026-11-24T00:51:50+00:00"
         }
       ],
-      "last_search_at": "2026-11-24T01:23:26+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-24T03:03:58+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 18.62
     },
     {
@@ -3119,7 +3007,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-24T00:52:34+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T00:51:50+00:00",
       "valid_until": "2026-11-24T06:51:50+00:00",
       "competition_low": 40.25,
@@ -3166,7 +3054,7 @@
         ]
       },
       "first_seen": "2026-11-23T13:02:58+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:25:18+00:00",
       "valid_until": "2026-11-24T07:25:18+00:00",
       "competition_low": 83.63,
@@ -3241,7 +3129,7 @@
         ]
       },
       "first_seen": "2026-11-24T01:26:21+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:25:14+00:00",
       "valid_until": "2026-11-24T07:25:14+00:00",
       "competition_low": 23.96,
@@ -3316,7 +3204,7 @@
         ]
       },
       "first_seen": "2026-11-23T13:37:11+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:58:59+00:00",
       "valid_until": "2026-11-24T07:58:59+00:00",
       "competition_low": 91.95,
@@ -3365,8 +3253,8 @@
           "observed_at": "2026-11-24T01:58:59+00:00"
         }
       ],
-      "last_search_at": "2026-11-24T01:23:26+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-24T03:03:58+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 49.07
     },
     {
@@ -3393,7 +3281,7 @@
         ]
       },
       "first_seen": "2026-11-24T02:00:00+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:58:55+00:00",
       "valid_until": "2026-11-24T07:58:55+00:00",
       "competition_low": 13.06,
@@ -3461,7 +3349,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-24T02:00:00+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T01:58:55+00:00",
       "valid_until": "2026-11-24T07:58:55+00:00",
       "competition_low": 79.99,
@@ -3536,7 +3424,7 @@
         ]
       },
       "first_seen": "2026-11-24T02:33:08+00:00",
-      "last_seen": "2026-11-24T02:33:08+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
       "observed_at": "2026-11-24T02:32:15+00:00",
       "valid_until": "2026-11-24T08:32:15+00:00",
       "competition_low": 2.99,
@@ -3585,6 +3473,191 @@
           "url": "https://www.ebay.co.uk/itm/237199834148",
           "delivered": 19.83,
           "observed_at": "2026-11-24T02:32:15+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 75434:086b8e5f6da8",
+      "category": "lego",
+      "query": "LEGO 75434",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 75434",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "2so",
+          "andor",
+          "droid",
+          "fan",
+          "gift",
+          "security"
+        ]
+      },
+      "first_seen": "2026-11-24T03:06:52+00:00",
+      "last_seen": "2026-11-24T03:06:52+00:00",
+      "observed_at": "2026-11-24T03:05:45+00:00",
+      "valid_until": "2026-11-24T09:05:45+00:00",
+      "competition_low": 57.85,
+      "estimated_resale": 56.11,
+      "seller_count": 16,
+      "low_supporting_sellers": 3,
+      "max_landed_buy": 29.35,
+      "target_status": "usable_configured_cost_target",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|206694993657|0",
+          "seller": "pantobird",
+          "url": "https://www.ebay.co.uk/itm/206694993657",
+          "delivered": 57.85,
+          "observed_at": "2026-11-24T03:05:45+00:00"
+        },
+        {
+          "item_id": "v1|206711351357|0",
+          "seller": "kenadams1177",
+          "url": "https://www.ebay.co.uk/itm/206711351357",
+          "delivered": 58.84,
+          "observed_at": "2026-11-24T03:05:45+00:00"
+        },
+        {
+          "item_id": "v1|406260853741|0",
+          "seller": "totespilates",
+          "url": "https://www.ebay.co.uk/itm/406260853741",
+          "delivered": 59.99,
+          "observed_at": "2026-11-24T03:05:45+00:00"
+        },
+        {
+          "item_id": "v1|377657019579|0",
+          "seller": "wwsm2006",
+          "url": "https://www.ebay.co.uk/itm/377657019579",
+          "delivered": 69.98,
+          "observed_at": "2026-11-24T03:05:45+00:00"
+        },
+        {
+          "item_id": "v1|227532670882|0",
+          "seller": "2rd_chance",
+          "url": "https://www.ebay.co.uk/itm/227532670882",
+          "delivered": 71.75,
+          "observed_at": "2026-11-24T03:05:45+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:gaming:expeditions a mudrunner game nintendo switch:4f53cda18c2b",
+      "category": "gaming",
+      "query": "expeditions a mudrunner game nintendo switch",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "gaming",
+        "query": "expeditions a mudrunner game nintendo switch",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": []
+      },
+      "first_seen": "2026-11-23T20:53:01+00:00",
+      "last_seen": "2026-11-24T02:33:08+00:00",
+      "observed_at": "2026-11-23T20:52:20+00:00",
+      "valid_until": "2026-11-24T02:52:20+00:00",
+      "competition_low": 31.0,
+      "estimated_resale": 30.07,
+      "seller_count": 1,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|307272006914|0",
+          "seller": "rarewaves-outlet",
+          "url": "https://www.ebay.co.uk/itm/307272006914",
+          "delivered": 31.0,
+          "observed_at": "2026-11-23T20:52:20+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 40812:f98d7b4794df",
+      "category": "lego",
+      "query": "LEGO 40812",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 40812",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "christmas",
+          "ornaments",
+          "snowman"
+        ]
+      },
+      "first_seen": "2026-11-23T20:53:01+00:00",
+      "last_seen": "2026-11-24T02:33:08+00:00",
+      "observed_at": "2026-11-23T20:52:20+00:00",
+      "valid_until": "2026-11-24T02:52:20+00:00",
+      "competition_low": 11.25,
+      "estimated_resale": 10.91,
+      "seller_count": 46,
+      "low_supporting_sellers": 3,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [
+        "No positive Strong landed acquisition ceiling"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|227628260453|0",
+          "seller": "collectedthingsuk",
+          "url": "https://www.ebay.co.uk/itm/227628260453",
+          "delivered": 11.25,
+          "observed_at": "2026-11-23T20:52:20+00:00"
+        },
+        {
+          "item_id": "v1|407369170639|0",
+          "seller": "winwo10",
+          "url": "https://www.ebay.co.uk/itm/407369170639",
+          "delivered": 11.99,
+          "observed_at": "2026-11-23T20:52:20+00:00"
+        },
+        {
+          "item_id": "v1|147692646506|0",
+          "seller": "rbcoms",
+          "url": "https://www.ebay.co.uk/itm/147692646506",
+          "delivered": 12.21,
+          "observed_at": "2026-11-23T20:52:20+00:00"
+        },
+        {
+          "item_id": "v1|407346231628|0",
+          "seller": "everyday_3ssentials",
+          "url": "https://www.ebay.co.uk/itm/407346231628",
+          "delivered": 12.4,
+          "observed_at": "2026-11-23T20:52:20+00:00"
+        },
+        {
+          "item_id": "v1|820326031125|0",
+          "seller": "fastgbdeals",
+          "url": "https://www.ebay.co.uk/itm/820326031125",
+          "delivered": 12.41,
+          "observed_at": "2026-11-23T20:52:20+00:00"
         }
       ]
     },
@@ -10762,439 +10835,10 @@
       "last_search_at": "2026-11-22T16:13:28+00:00",
       "last_search_sort": "price",
       "last_item_price_filter": 22.3
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 43288:74ff145e4183",
-      "category": "lego",
-      "query": "LEGO 43288",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 43288",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "disney",
-          "flowerpot",
-          "sallys"
-        ]
-      },
-      "first_seen": "2026-11-22T10:45:38+00:00",
-      "last_seen": "2026-11-22T16:15:43+00:00",
-      "observed_at": "2026-11-22T10:44:53+00:00",
-      "valid_until": "2026-11-22T16:44:53+00:00",
-      "competition_low": 34.99,
-      "estimated_resale": 33.94,
-      "seller_count": 13,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|860058678679|0",
-          "seller": "muzy_b9",
-          "url": "https://www.ebay.co.uk/itm/860058678679",
-          "delivered": 34.99,
-          "observed_at": "2026-11-22T10:44:53+00:00"
-        },
-        {
-          "item_id": "v1|800938132976|0",
-          "seller": "patr-4549",
-          "url": "https://www.ebay.co.uk/itm/800938132976",
-          "delivered": 38.0,
-          "observed_at": "2026-11-22T10:44:53+00:00"
-        },
-        {
-          "item_id": "v1|206715368248|0",
-          "seller": "dragon_eggz",
-          "url": "https://www.ebay.co.uk/itm/206715368248",
-          "delivered": 40.04,
-          "observed_at": "2026-11-22T10:44:53+00:00"
-        },
-        {
-          "item_id": "v1|880043581315|0",
-          "seller": "twinniesworld",
-          "url": "https://www.ebay.co.uk/itm/880043581315",
-          "delivered": 43.16,
-          "observed_at": "2026-11-22T10:44:53+00:00"
-        },
-        {
-          "item_id": "v1|206414203621|0",
-          "seller": "rarebrix",
-          "url": "https://www.ebay.co.uk/itm/206414203621",
-          "delivered": 47.95,
-          "observed_at": "2026-11-22T10:44:53+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-22T16:13:28+00:00",
-      "last_search_sort": "price",
-      "last_item_price_filter": 14.57
     }
   ],
   "pricing_catalog": [],
   "asking_catalog": [
-    {
-      "kind": "active_ask",
-      "query": "Nike HQ1416-001 UK 8",
-      "category": "trainers",
-      "name_terms": [],
-      "identity": {
-        "condition": "new",
-        "brand": "Nike",
-        "style_code": "HQ1416-001",
-        "uk_size": 8.0,
-        "department": "men"
-      },
-      "observed_at": "2026-11-24T01:58:59+00:00",
-      "date": "2026-11-24",
-      "sample_count": 2,
-      "listed_total_low": 95.0,
-      "listed_total_p25": 97.22,
-      "listed_total_median": 99.44,
-      "listed_total_p75": 101.66,
-      "listed_total_high": 103.88,
-      "status": "small_sample",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|366573418864|0",
-          "seller": "sportswear.outlet",
-          "image": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "advertised_discount",
-          "advertised_original_total": 100.0,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/366573418864",
-          "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-          "declared_condition": "new",
-          "item_price": 95.0,
-          "shipping": 0.0,
-          "listed_total": 95.0
-        },
-        {
-          "item_id": "v1|298300063168|0",
-          "seller": "luxf8445",
-          "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/298300063168",
-          "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
-          "declared_condition": "new",
-          "item_price": 99.99,
-          "shipping": 3.89,
-          "listed_total": 103.88
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 32
-      },
-      "detail_required": true,
-      "lowest_detail": {
-        "status": "awaiting_detail_budget",
-        "reasons": [
-          "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-        ],
-        "sub_checks": [
-          {
-            "sub_check_failed": "other",
-            "expected": "verified_fields within detail budget",
-            "observed": "awaiting_detail_budget",
-            "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "detail allocation window closed this scan"
-          }
-        ]
-      },
-      "detail_status": "awaiting_detail_budget",
-      "query_aliases": [
-        "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)"
-      ]
-    },
-    {
-      "kind": "active_ask",
-      "query": "LEGO 40812",
-      "category": "lego",
-      "name_terms": [
-        "christmas",
-        "ornaments",
-        "snowman"
-      ],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-23T20:52:20+00:00",
-      "date": "2026-11-23",
-      "sample_count": 46,
-      "listed_total_low": 11.25,
-      "listed_total_p25": 13.57,
-      "listed_total_median": 16.27,
-      "listed_total_p75": 21.01,
-      "listed_total_high": 31.71,
-      "status": "wide_spread",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|227628260453|0",
-          "seller": "collectedthingsuk",
-          "image": "https://i.ebayimg.com/images/g/-I0AAeSw4wxq30Pj/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227628260453",
-          "title": "LEGO 40812: Snowman Christmas Tree Ornaments Building Set 168 Pieces Ages 6+",
-          "declared_condition": "new",
-          "item_price": 8.99,
-          "shipping": 2.26,
-          "listed_total": 11.25
-        },
-        {
-          "item_id": "v1|407369170639|0",
-          "seller": "winwo10",
-          "image": "https://i.ebayimg.com/images/g/G5MAAeSw3y9q-w2q/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407369170639",
-          "title": "LEGO Snowman Ornaments 40812 Seasonal Christmas Hanging Set + LEGO passport",
-          "declared_condition": "new",
-          "item_price": 9.73,
-          "shipping": 2.26,
-          "listed_total": 11.99
-        },
-        {
-          "item_id": "v1|147692646506|0",
-          "seller": "rbcoms",
-          "image": "https://i.ebayimg.com/images/g/VRUAAeSwEPdrAEvB/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/147692646506",
-          "title": "LEGO 40812 Snowman Ornaments Christmas Decor - Brand New & Sealed",
-          "declared_condition": "new",
-          "item_price": 9.95,
-          "shipping": 2.26,
-          "listed_total": 12.21
-        },
-        {
-          "item_id": "v1|407346231628|0",
-          "seller": "everyday_3ssentials",
-          "image": "https://i.ebayimg.com/images/g/SBsAAeSw1~xq7tH8/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407346231628",
-          "title": "LEGO Snowman Ornaments 40812 Christmas Hanging Set 168pcs Age 6+",
-          "declared_condition": "new",
-          "item_price": 12.4,
-          "shipping": 0.0,
-          "listed_total": 12.4
-        },
-        {
-          "item_id": "v1|820326031125|0",
-          "seller": "fastgbdeals",
-          "image": "https://i.ebayimg.com/images/g/pNMAAeSwqxRq7nmm/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/820326031125",
-          "title": "LEGO Snowman Ornaments 40812 Building Set 168 Pieces Christmas Tree Decor",
-          "declared_condition": "new",
-          "item_price": 12.41,
-          "shipping": 0.0,
-          "listed_total": 12.41
-        },
-        {
-          "item_id": "v1|377552279266|0",
-          "seller": "aura_prime",
-          "image": "https://i.ebayimg.com/images/g/FCEAAeSwSURqxmYg/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/377552279266",
-          "title": "LEGO Snowman Ornaments 40812 Toys for 6+ Year Old Girls & Boys Christmas Gift",
-          "declared_condition": "new",
-          "item_price": 12.5,
-          "shipping": 0.0,
-          "listed_total": 12.5
-        },
-        {
-          "item_id": "v1|298714732557|0",
-          "seller": "he-874228",
-          "image": "https://i.ebayimg.com/images/g/cnsAAeSwwuZqusci/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/298714732557",
-          "title": "LEGO Snowman Christmas Tree Ornaments Building Set 168 Pieces 40812",
-          "declared_condition": "new",
-          "item_price": 10.26,
-          "shipping": 2.26,
-          "listed_total": 12.52
-        },
-        {
-          "item_id": "v1|206692685659|0",
-          "seller": "euroasiatrad",
-          "image": "https://i.ebayimg.com/images/g/IVIAAeSwZX9q9K3S/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206692685659",
-          "title": "LEGO Snowman Ornaments 40812 | Toys for 6+ Year Old Girls & Boys, Crafts Kit, 2 ",
-          "declared_condition": "new",
-          "item_price": 13.0,
-          "shipping": 0.0,
-          "listed_total": 13.0
-        },
-        {
-          "item_id": "v1|920082706989|0",
-          "seller": "fashiongoodsandstuff",
-          "image": "https://i.ebayimg.com/images/g/pekAAeSwqPRq4kOx/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/920082706989",
-          "title": "LEGO Snowman Ornaments Toy -Christmas decoration Kit 168pcs - 40812",
-          "declared_condition": "new",
-          "item_price": 10.8,
-          "shipping": 2.26,
-          "listed_total": 13.06
-        },
-        {
-          "item_id": "v1|407339176719|0",
-          "seller": "hopandglowco",
-          "image": "https://i.ebayimg.com/images/g/rJoAAeSwgSpq6w-s/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407339176719",
-          "title": "LEGO 40812 Snowman Ornaments Christmas Decor Kids Brand New Packaged",
-          "declared_condition": "new",
-          "item_price": 10.8,
-          "shipping": 2.26,
-          "listed_total": 13.06
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 3
-      },
-      "query_aliases": [
-        "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C"
-      ]
-    },
     {
       "kind": "active_ask",
       "query": "LEGO 72157",
@@ -13552,6 +13196,265 @@
     },
     {
       "kind": "active_ask",
+      "query": "LEGO 75434",
+      "category": "lego",
+      "name_terms": [
+        "2so",
+        "andor",
+        "droid",
+        "fan",
+        "gift",
+        "security"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-24T03:05:45+00:00",
+      "date": "2026-11-24",
+      "sample_count": 16,
+      "listed_total_low": 57.85,
+      "listed_total_p25": 71.31,
+      "listed_total_median": 77.94,
+      "listed_total_p75": 85.48,
+      "listed_total_high": 114.69,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|206694993657|0",
+          "seller": "pantobird",
+          "image": "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/206694993657",
+          "title": "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+          "declared_condition": "new",
+          "item_price": 52.7,
+          "shipping": 5.15,
+          "listed_total": 57.85
+        },
+        {
+          "item_id": "v1|206711351357|0",
+          "seller": "kenadams1177",
+          "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/206711351357",
+          "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+          "declared_condition": "new",
+          "item_price": 54.78,
+          "shipping": 4.06,
+          "listed_total": 58.84
+        },
+        {
+          "item_id": "v1|406260853741|0",
+          "seller": "totespilates",
+          "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/406260853741",
+          "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+          "declared_condition": "new",
+          "item_price": 59.99,
+          "shipping": 0.0,
+          "listed_total": 59.99
+        },
+        {
+          "item_id": "v1|377657019579|0",
+          "seller": "wwsm2006",
+          "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "advertised_discount",
+          "advertised_original_total": 79.99,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/377657019579",
+          "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+          "declared_condition": "new",
+          "item_price": 69.98,
+          "shipping": 0.0,
+          "listed_total": 69.98
+        },
+        {
+          "item_id": "v1|227532670882|0",
+          "seller": "2rd_chance",
+          "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/227532670882",
+          "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+          "declared_condition": "new",
+          "item_price": 68.0,
+          "shipping": 3.75,
+          "listed_total": 71.75
+        },
+        {
+          "item_id": "v1|298346919810|0",
+          "seller": "jofos_2057",
+          "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/298346919810",
+          "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 70.38,
+          "shipping": 3.38,
+          "listed_total": 73.76
+        },
+        {
+          "item_id": "v1|236358264880|0",
+          "seller": "peterh7027",
+          "image": "https://i.ebayimg.com/images/g/0YwAAeSwuCto2wRm/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/236358264880",
+          "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+          "declared_condition": "new",
+          "item_price": 76.5,
+          "shipping": 0.0,
+          "listed_total": 76.5
+        },
+        {
+          "item_id": "v1|267339607998|0",
+          "seller": "zatugames",
+          "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/267339607998",
+          "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+          "declared_condition": "new",
+          "item_price": 76.96,
+          "shipping": 0.0,
+          "listed_total": 76.96
+        },
+        {
+          "item_id": "v1|206200149335|0",
+          "seller": "aclark_1",
+          "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/206200149335",
+          "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+          "declared_condition": "new",
+          "item_price": 75.53,
+          "shipping": 3.38,
+          "listed_total": 78.91
+        },
+        {
+          "item_id": "v1|157361738693|0",
+          "seller": "iguazu",
+          "image": "https://i.ebayimg.com/images/g/RZkAAeSwo1Bo5YdF/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/157361738693",
+          "title": "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+          "declared_condition": "new",
+          "item_price": 74.54,
+          "shipping": 5.15,
+          "listed_total": 79.69
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 15
+      },
+      "query_aliases": [
+        "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 76463",
       "category": "lego",
       "name_terms": [
@@ -13911,7 +13814,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-24T02:30:43+00:00",
+        "observed_at": "2026-11-24T03:03:50+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -15897,7 +15800,7 @@
       "rejected": {
         "identity_or_condition": 17
       },
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Darksiders III - Xbox One - New - w/code - sold by musicmagpie Shop"
@@ -15950,7 +15853,7 @@
         }
       ],
       "rejected": {},
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Warrior Cats Clans of the Forest - PS5 - Free C&C"
@@ -16005,7 +15908,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Dragon Quest III HD-2D Remake (Xbox Series X)"
@@ -16107,7 +16010,7 @@
       "rejected": {
         "identity_or_condition": 7
       },
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "DRAGON QUEST I & II HD-2D Remake (Xbox Series X)"
@@ -16162,7 +16065,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Hunter x Hunter Nen x Impact Limited Edition PS5"
@@ -16383,7 +16286,7 @@
       "rejected": {
         "identity_or_condition": 19
       },
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Call of Duty: Modern Warfare 4 - Xbox Series X (Free C&C)"
@@ -16505,7 +16408,7 @@
         ]
       },
       "detail_status": "awaiting_detail_budget",
-      "canonicalized_at": "2026-11-24T02:30:43+00:00",
+      "canonicalized_at": "2026-11-24T03:03:50+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Xbox Wireless Controller \u2013 Forza Horizon 6 Limited Edition"
@@ -16631,979 +16534,55 @@
       "query_aliases": [
         "Sony WF-C710N Wireless Noise Cancelling Earbuds - All Colours w/code Blue Light Code"
       ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "Sony WFC710N pink",
+      "category": "tech",
+      "name_terms": [],
+      "identity": {
+        "condition": "new",
+        "brand": "Sony",
+        "model": "WFC710N",
+        "colour": "pink",
+        "edition": "standard"
+      },
+      "observed_at": "2026-11-24T03:05:45+00:00",
+      "date": "2026-11-24",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {},
+      "query_aliases": [
+        "Sony WF-C710N Wireless Noise Cancelling Earbuds - Pink"
+      ]
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 28,
+    "indicative_asking_products": 27,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 28,
+    "ask_estimated_products": 27,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 8,
+    "above_budget_estimates": 7,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-24T02:33:21+00:00",
+  "generated_utc": "2026-11-24T03:07:05+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
-    {
-      "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-      "url": "https://www.ebay.co.uk/itm/366573418864",
-      "policy_key": "6585bffbfd8634697afb758a",
-      "category": "trainers",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 95.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/366573418864",
-      "landed_cost": 95.0,
-      "breakeven_sell": 112.83,
-      "sell_for_minimum_profit": 155.93,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-22T07:29:08+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=UK+8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "small_sample",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "Nike HQ1416-001 UK 8",
-        "category": "trainers",
-        "name_terms": [],
-        "identity": {
-          "condition": "new",
-          "brand": "Nike",
-          "style_code": "HQ1416-001",
-          "uk_size": 8.0,
-          "department": "men"
-        },
-        "observed_at": "2026-11-24T01:58:59+00:00",
-        "date": "2026-11-24",
-        "sample_count": 2,
-        "listed_total_low": 95.0,
-        "listed_total_p25": 97.22,
-        "listed_total_median": 99.44,
-        "listed_total_p75": 101.66,
-        "listed_total_high": 103.88,
-        "status": "small_sample",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|366573418864|0",
-            "seller": "sportswear.outlet",
-            "image": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 100.0,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366573418864",
-            "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-            "declared_condition": "new",
-            "item_price": 95.0,
-            "shipping": 0.0,
-            "listed_total": 95.0
-          },
-          {
-            "item_id": "v1|298300063168|0",
-            "seller": "luxf8445",
-            "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298300063168",
-            "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
-            "declared_condition": "new",
-            "item_price": 99.99,
-            "shipping": 3.89,
-            "listed_total": 103.88
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 32
-        },
-        "detail_required": true,
-        "lowest_detail": {
-          "status": "awaiting_detail_budget",
-          "reasons": [
-            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
-          ],
-          "sub_checks": [
-            {
-              "sub_check_failed": "other",
-              "expected": "verified_fields within detail budget",
-              "observed": "awaiting_detail_budget",
-              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-              "note": "detail allocation window closed this scan"
-            }
-          ]
-        },
-        "detail_status": "awaiting_detail_budget",
-        "query_aliases": [
-          "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "trainers",
-        "detail_status": "awaiting_detail_budget",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "Nike HQ1416-001 UK 8",
-        "observed_at": "2026-11-24T01:58:59+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 1,
-        "seller_count": 1,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 103.88,
-        "competition_high": 103.88,
-        "estimated_resale": 100.76,
-        "estimated_range": [
-          93.49,
-          103.88
-        ],
-        "suggested_listing": 103.87,
-        "quick_sale_model": 93.49,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 1,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 95.0,
-        "delivery_known": true,
-        "landed_cost": 95.0,
-        "net": -10.65,
-        "roi": -11.2,
-        "net_before_unknown_delivery": null,
-        "max_landed_buy": 60.0,
-        "max_item_buy": 60.0,
-        "delivery_headroom": -35.0,
-        "fees": 9.37,
-        "outbound_postage": 3.52,
-        "packaging": 0.5,
-        "returns_allowance": 3.02,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": true,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 90.68,
-        "review_stress_net": -24.87,
-        "review_stress_roi": -26.2,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 60.0,
-        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|298300063168|0",
-            "seller": "luxf8445",
-            "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298300063168",
-            "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
-            "declared_condition": "new",
-            "item_price": 99.99,
-            "shipping": 3.89,
-            "listed_total": 103.88,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "detail_check_pending"
-      }
-    },
-    {
-      "title": "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
-      "policy_key": "50d640c7bd6bbe55588983cf",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Currys",
-      "item_price": 7.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
-      "landed_cost": null,
-      "breakeven_sell": 16.47,
-      "sell_for_minimum_profit": 26.06,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-23T19:46:14+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+40812+Snowman+Ornaments+Christmas+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 40812",
-        "category": "lego",
-        "name_terms": [
-          "christmas",
-          "ornaments",
-          "snowman"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-23T20:52:20+00:00",
-        "date": "2026-11-23",
-        "sample_count": 46,
-        "listed_total_low": 11.25,
-        "listed_total_p25": 13.57,
-        "listed_total_median": 16.27,
-        "listed_total_p75": 21.01,
-        "listed_total_high": 31.71,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|227628260453|0",
-            "seller": "collectedthingsuk",
-            "image": "https://i.ebayimg.com/images/g/-I0AAeSw4wxq30Pj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227628260453",
-            "title": "LEGO 40812: Snowman Christmas Tree Ornaments Building Set 168 Pieces Ages 6+",
-            "declared_condition": "new",
-            "item_price": 8.99,
-            "shipping": 2.26,
-            "listed_total": 11.25
-          },
-          {
-            "item_id": "v1|407369170639|0",
-            "seller": "winwo10",
-            "image": "https://i.ebayimg.com/images/g/G5MAAeSw3y9q-w2q/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407369170639",
-            "title": "LEGO Snowman Ornaments 40812 Seasonal Christmas Hanging Set + LEGO passport",
-            "declared_condition": "new",
-            "item_price": 9.73,
-            "shipping": 2.26,
-            "listed_total": 11.99
-          },
-          {
-            "item_id": "v1|147692646506|0",
-            "seller": "rbcoms",
-            "image": "https://i.ebayimg.com/images/g/VRUAAeSwEPdrAEvB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147692646506",
-            "title": "LEGO 40812 Snowman Ornaments Christmas Decor - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 9.95,
-            "shipping": 2.26,
-            "listed_total": 12.21
-          },
-          {
-            "item_id": "v1|407346231628|0",
-            "seller": "everyday_3ssentials",
-            "image": "https://i.ebayimg.com/images/g/SBsAAeSw1~xq7tH8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407346231628",
-            "title": "LEGO Snowman Ornaments 40812 Christmas Hanging Set 168pcs Age 6+",
-            "declared_condition": "new",
-            "item_price": 12.4,
-            "shipping": 0.0,
-            "listed_total": 12.4
-          },
-          {
-            "item_id": "v1|820326031125|0",
-            "seller": "fastgbdeals",
-            "image": "https://i.ebayimg.com/images/g/pNMAAeSwqxRq7nmm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820326031125",
-            "title": "LEGO Snowman Ornaments 40812 Building Set 168 Pieces Christmas Tree Decor",
-            "declared_condition": "new",
-            "item_price": 12.41,
-            "shipping": 0.0,
-            "listed_total": 12.41
-          },
-          {
-            "item_id": "v1|377552279266|0",
-            "seller": "aura_prime",
-            "image": "https://i.ebayimg.com/images/g/FCEAAeSwSURqxmYg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377552279266",
-            "title": "LEGO Snowman Ornaments 40812 Toys for 6+ Year Old Girls & Boys Christmas Gift",
-            "declared_condition": "new",
-            "item_price": 12.5,
-            "shipping": 0.0,
-            "listed_total": 12.5
-          },
-          {
-            "item_id": "v1|298714732557|0",
-            "seller": "he-874228",
-            "image": "https://i.ebayimg.com/images/g/cnsAAeSwwuZqusci/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298714732557",
-            "title": "LEGO Snowman Christmas Tree Ornaments Building Set 168 Pieces 40812",
-            "declared_condition": "new",
-            "item_price": 10.26,
-            "shipping": 2.26,
-            "listed_total": 12.52
-          },
-          {
-            "item_id": "v1|206692685659|0",
-            "seller": "euroasiatrad",
-            "image": "https://i.ebayimg.com/images/g/IVIAAeSwZX9q9K3S/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206692685659",
-            "title": "LEGO Snowman Ornaments 40812 | Toys for 6+ Year Old Girls & Boys, Crafts Kit, 2 ",
-            "declared_condition": "new",
-            "item_price": 13.0,
-            "shipping": 0.0,
-            "listed_total": 13.0
-          },
-          {
-            "item_id": "v1|920082706989|0",
-            "seller": "fashiongoodsandstuff",
-            "image": "https://i.ebayimg.com/images/g/pekAAeSwqPRq4kOx/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920082706989",
-            "title": "LEGO Snowman Ornaments Toy -Christmas decoration Kit 168pcs - 40812",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.26,
-            "listed_total": 13.06
-          },
-          {
-            "item_id": "v1|407339176719|0",
-            "seller": "hopandglowco",
-            "image": "https://i.ebayimg.com/images/g/rJoAAeSwgSpq6w-s/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407339176719",
-            "title": "LEGO 40812 Snowman Ornaments Christmas Decor Kids Brand New Packaged",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.26,
-            "listed_total": 13.06
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 3
-        },
-        "query_aliases": [
-          "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 40812",
-        "observed_at": "2026-11-23T20:52:20+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 46,
-        "seller_count": 46,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 3,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 11.25,
-        "competition_high": 31.71,
-        "estimated_resale": 10.91,
-        "estimated_range": [
-          10.12,
-          11.25
-        ],
-        "suggested_listing": 11.24,
-        "quick_sale_model": 10.12,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 7.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -4.65,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -7.99,
-        "fees": 1.95,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.33,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 9.81,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|227628260453|0",
-            "seller": "collectedthingsuk",
-            "image": "https://i.ebayimg.com/images/g/-I0AAeSw4wxq30Pj/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227628260453",
-            "title": "LEGO 40812: Snowman Christmas Tree Ornaments Building Set 168 Pieces Ages 6+",
-            "declared_condition": "new",
-            "item_price": 8.99,
-            "shipping": 2.26,
-            "listed_total": 11.25,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407369170639|0",
-            "seller": "winwo10",
-            "image": "https://i.ebayimg.com/images/g/G5MAAeSw3y9q-w2q/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407369170639",
-            "title": "LEGO Snowman Ornaments 40812 Seasonal Christmas Hanging Set + LEGO passport",
-            "declared_condition": "new",
-            "item_price": 9.73,
-            "shipping": 2.26,
-            "listed_total": 11.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|147692646506|0",
-            "seller": "rbcoms",
-            "image": "https://i.ebayimg.com/images/g/VRUAAeSwEPdrAEvB/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147692646506",
-            "title": "LEGO 40812 Snowman Ornaments Christmas Decor - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 9.95,
-            "shipping": 2.26,
-            "listed_total": 12.21,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407346231628|0",
-            "seller": "everyday_3ssentials",
-            "image": "https://i.ebayimg.com/images/g/SBsAAeSw1~xq7tH8/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407346231628",
-            "title": "LEGO Snowman Ornaments 40812 Christmas Hanging Set 168pcs Age 6+",
-            "declared_condition": "new",
-            "item_price": 12.4,
-            "shipping": 0.0,
-            "listed_total": 12.4,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|820326031125|0",
-            "seller": "fastgbdeals",
-            "image": "https://i.ebayimg.com/images/g/pNMAAeSwqxRq7nmm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820326031125",
-            "title": "LEGO Snowman Ornaments 40812 Building Set 168 Pieces Christmas Tree Decor",
-            "declared_condition": "new",
-            "item_price": 12.41,
-            "shipping": 0.0,
-            "listed_total": 12.41,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377552279266|0",
-            "seller": "aura_prime",
-            "image": "https://i.ebayimg.com/images/g/FCEAAeSwSURqxmYg/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377552279266",
-            "title": "LEGO Snowman Ornaments 40812 Toys for 6+ Year Old Girls & Boys Christmas Gift",
-            "declared_condition": "new",
-            "item_price": 12.5,
-            "shipping": 0.0,
-            "listed_total": 12.5,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|298714732557|0",
-            "seller": "he-874228",
-            "image": "https://i.ebayimg.com/images/g/cnsAAeSwwuZqusci/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/298714732557",
-            "title": "LEGO Snowman Christmas Tree Ornaments Building Set 168 Pieces 40812",
-            "declared_condition": "new",
-            "item_price": 10.26,
-            "shipping": 2.26,
-            "listed_total": 12.52,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206692685659|0",
-            "seller": "euroasiatrad",
-            "image": "https://i.ebayimg.com/images/g/IVIAAeSwZX9q9K3S/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206692685659",
-            "title": "LEGO Snowman Ornaments 40812 | Toys for 6+ Year Old Girls & Boys, Crafts Kit, 2 ",
-            "declared_condition": "new",
-            "item_price": 13.0,
-            "shipping": 0.0,
-            "listed_total": 13.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920082706989|0",
-            "seller": "fashiongoodsandstuff",
-            "image": "https://i.ebayimg.com/images/g/pekAAeSwqPRq4kOx/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920082706989",
-            "title": "LEGO Snowman Ornaments Toy -Christmas decoration Kit 168pcs - 40812",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.26,
-            "listed_total": 13.06,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407339176719|0",
-            "seller": "hopandglowco",
-            "image": "https://i.ebayimg.com/images/g/rJoAAeSwgSpq6w-s/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407339176719",
-            "title": "LEGO 40812 Snowman Ornaments Christmas Decor Kids Brand New Packaged",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.26,
-            "listed_total": 13.06,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C",
-        "query": "LEGO 40812",
-        "kind": "active_ask",
-        "listing": 11.24,
-        "observed_at": "2026-11-23T20:52:20+00:00",
-        "valid_until": "2026-11-24T02:52:20+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/227628260453",
-          "https://www.ebay.co.uk/itm/407369170639",
-          "https://www.ebay.co.uk/itm/147692646506",
-          "https://www.ebay.co.uk/itm/407346231628",
-          "https://www.ebay.co.uk/itm/820326031125",
-          "https://www.ebay.co.uk/itm/377552279266",
-          "https://www.ebay.co.uk/itm/298714732557",
-          "https://www.ebay.co.uk/itm/206692685659",
-          "https://www.ebay.co.uk/itm/920082706989",
-          "https://www.ebay.co.uk/itm/407339176719"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/227628260453",
-            "LEGO 40812: Snowman Christmas Tree Ornaments Building Set 168 Pieces Ages 6+",
-            11.25,
-            2.26,
-            8.99,
-            "collectedthingsuk"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407369170639",
-            "LEGO Snowman Ornaments 40812 Seasonal Christmas Hanging Set + LEGO passport",
-            11.99,
-            2.26,
-            9.73,
-            "winwo10"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/147692646506",
-            "LEGO 40812 Snowman Ornaments Christmas Decor - Brand New & Sealed",
-            12.21,
-            2.26,
-            9.95,
-            "rbcoms"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407346231628",
-            "LEGO Snowman Ornaments 40812 Christmas Hanging Set 168pcs Age 6+",
-            12.4,
-            0.0,
-            12.4,
-            "everyday_3ssentials"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/820326031125",
-            "LEGO Snowman Ornaments 40812 Building Set 168 Pieces Christmas Tree Decor",
-            12.41,
-            0.0,
-            12.41,
-            "fastgbdeals"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377552279266",
-            "LEGO Snowman Ornaments 40812 Toys for 6+ Year Old Girls & Boys Christmas Gift",
-            12.5,
-            0.0,
-            12.5,
-            "aura_prime"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/298714732557",
-            "LEGO Snowman Christmas Tree Ornaments Building Set 168 Pieces 40812",
-            12.52,
-            2.26,
-            10.26,
-            "he-874228"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206692685659",
-            "LEGO Snowman Ornaments 40812 | Toys for 6+ Year Old Girls & Boys, Crafts Kit, 2 ",
-            13.0,
-            0.0,
-            13.0,
-            "euroasiatrad"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/920082706989",
-            "LEGO Snowman Ornaments Toy -Christmas decoration Kit 168pcs - 40812",
-            13.06,
-            2.26,
-            10.8,
-            "fashiongoodsandstuff"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407339176719",
-            "LEGO 40812 Snowman Ornaments Christmas Decor Kids Brand New Packaged",
-            13.06,
-            2.26,
-            10.8,
-            "hopandglowco"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
     {
       "title": "LEGO Pok\u00e9mon Smart Play: Charmander and Geodude\u2019s Cavern Clash 72157",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-charmander-and-geodudes-cavern-clash-72157-5039518",
@@ -17619,8 +16598,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/300x300/qt/55/5039518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cOppq/5039518_1/re/150x150/qt/55/5039518_1.jpg",
@@ -18340,8 +17319,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/150x150/qt/55/5039994_1.jpg",
@@ -19065,8 +18044,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg",
@@ -19781,13 +18760,13 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/150x150/qt/55/5043529_1.jpg",
         "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/svUAAeSw5mFq-0k5/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/QcoAAeSwh-pqJKDi/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -20405,8 +19384,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg"
@@ -21124,13 +20103,13 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/150x150/qt/55/5043728_1.jpg",
         "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/svUAAeSw5mFq-0k5/s-l225.jpg"
+        "https://i.ebayimg.com/images/g/QcoAAeSwh-pqJKDi/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21748,8 +20727,8 @@
       "item_price": 15.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8NR4i/5039148_1/re/300x300/qt/55/5039148_1.jpg",
@@ -22372,8 +21351,8 @@
       "item_price": 27.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8PSlJ/5044843_1/re/300x300/qt/55/5044843_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8PSlJ/5044843_1/re/300x300/qt/55/5044843_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8PSlJ/5044843_1/re/150x150/qt/55/5044843_1.jpg"
@@ -23093,8 +22072,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
@@ -23816,8 +22795,8 @@
       "item_price": 34.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg",
@@ -24538,8 +23517,8 @@
       "item_price": 37.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
@@ -25261,8 +24240,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/150x150/qt/55/5043399_1.jpg",
@@ -25860,6 +24839,722 @@
       "publication_proof": {
         "ok": false,
         "reason": "low_price_not_supported"
+      }
+    },
+    {
+      "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
+      "policy_key": "d684a6162de3d0acf807c89c",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 49.49,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
+        "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/JQIAAeSw8zNrAUaL/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
+      "landed_cost": null,
+      "breakeven_sell": 66.18,
+      "sell_for_minimum_profit": 89.89,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-20T09:24:11+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Andor+K-2SO+Security+Droid%2C+Fan+Gift+75434&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75434",
+        "category": "lego",
+        "name_terms": [
+          "2so",
+          "andor",
+          "droid",
+          "fan",
+          "gift",
+          "security"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-24T03:05:45+00:00",
+        "date": "2026-11-24",
+        "sample_count": 16,
+        "listed_total_low": 57.85,
+        "listed_total_p25": 71.31,
+        "listed_total_median": 77.94,
+        "listed_total_p75": 85.48,
+        "listed_total_high": 114.69,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206694993657|0",
+            "seller": "pantobird",
+            "image": "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206694993657",
+            "title": "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 5.15,
+            "listed_total": 57.85
+          },
+          {
+            "item_id": "v1|206711351357|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206711351357",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            "declared_condition": "new",
+            "item_price": 54.78,
+            "shipping": 4.06,
+            "listed_total": 58.84
+          },
+          {
+            "item_id": "v1|406260853741|0",
+            "seller": "totespilates",
+            "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406260853741",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          },
+          {
+            "item_id": "v1|377657019579|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 79.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377657019579",
+            "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            "declared_condition": "new",
+            "item_price": 69.98,
+            "shipping": 0.0,
+            "listed_total": 69.98
+          },
+          {
+            "item_id": "v1|227532670882|0",
+            "seller": "2rd_chance",
+            "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227532670882",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 3.75,
+            "listed_total": 71.75
+          },
+          {
+            "item_id": "v1|298346919810|0",
+            "seller": "jofos_2057",
+            "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346919810",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 70.38,
+            "shipping": 3.38,
+            "listed_total": 73.76
+          },
+          {
+            "item_id": "v1|236358264880|0",
+            "seller": "peterh7027",
+            "image": "https://i.ebayimg.com/images/g/0YwAAeSwuCto2wRm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236358264880",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+            "declared_condition": "new",
+            "item_price": 76.5,
+            "shipping": 0.0,
+            "listed_total": 76.5
+          },
+          {
+            "item_id": "v1|267339607998|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339607998",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            "declared_condition": "new",
+            "item_price": 76.96,
+            "shipping": 0.0,
+            "listed_total": 76.96
+          },
+          {
+            "item_id": "v1|206200149335|0",
+            "seller": "aclark_1",
+            "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206200149335",
+            "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            "declared_condition": "new",
+            "item_price": 75.53,
+            "shipping": 3.38,
+            "listed_total": 78.91
+          },
+          {
+            "item_id": "v1|157361738693|0",
+            "seller": "iguazu",
+            "image": "https://i.ebayimg.com/images/g/RZkAAeSwo1Bo5YdF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157361738693",
+            "title": "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            "declared_condition": "new",
+            "item_price": 74.54,
+            "shipping": 5.15,
+            "listed_total": 79.69
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 15
+        },
+        "query_aliases": [
+          "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75434",
+        "observed_at": "2026-11-24T03:05:45+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 16,
+        "seller_count": 16,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 3,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 57.85,
+        "competition_high": 114.69,
+        "estimated_resale": 56.11,
+        "estimated_range": [
+          52.06,
+          57.85
+        ],
+        "suggested_listing": 57.84,
+        "quick_sale_model": 52.06,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          79.99,
+          91.76
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 2,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 49.49,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -8.4,
+        "max_landed_buy": 29.35,
+        "max_item_buy": null,
+        "delivery_headroom": -20.14,
+        "fees": 8.05,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.68,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 50.49,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 31.09,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206694993657|0",
+            "seller": "pantobird",
+            "image": "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206694993657",
+            "title": "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+            "declared_condition": "new",
+            "item_price": 52.7,
+            "shipping": 5.15,
+            "listed_total": 57.85,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206711351357|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206711351357",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            "declared_condition": "new",
+            "item_price": 54.78,
+            "shipping": 4.06,
+            "listed_total": 58.84,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|406260853741|0",
+            "seller": "totespilates",
+            "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406260853741",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377657019579|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 79.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377657019579",
+            "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            "declared_condition": "new",
+            "item_price": 69.98,
+            "shipping": 0.0,
+            "listed_total": 69.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227532670882|0",
+            "seller": "2rd_chance",
+            "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227532670882",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 3.75,
+            "listed_total": 71.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|298346919810|0",
+            "seller": "jofos_2057",
+            "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346919810",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 70.38,
+            "shipping": 3.38,
+            "listed_total": 73.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|236358264880|0",
+            "seller": "peterh7027",
+            "image": "https://i.ebayimg.com/images/g/0YwAAeSwuCto2wRm/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236358264880",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+            "declared_condition": "new",
+            "item_price": 76.5,
+            "shipping": 0.0,
+            "listed_total": 76.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267339607998|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339607998",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            "declared_condition": "new",
+            "item_price": 76.96,
+            "shipping": 0.0,
+            "listed_total": 76.96,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206200149335|0",
+            "seller": "aclark_1",
+            "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206200149335",
+            "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            "declared_condition": "new",
+            "item_price": 75.53,
+            "shipping": 3.38,
+            "listed_total": 78.91,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|157361738693|0",
+            "seller": "iguazu",
+            "image": "https://i.ebayimg.com/images/g/RZkAAeSwo1Bo5YdF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157361738693",
+            "title": "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            "declared_condition": "new",
+            "item_price": 74.54,
+            "shipping": 5.15,
+            "listed_total": 79.69,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
+        "query": "LEGO 75434",
+        "kind": "active_ask",
+        "listing": 57.84,
+        "observed_at": "2026-11-24T03:05:45+00:00",
+        "valid_until": "2026-11-24T09:05:45+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/206694993657",
+          "https://www.ebay.co.uk/itm/206711351357",
+          "https://www.ebay.co.uk/itm/406260853741",
+          "https://www.ebay.co.uk/itm/377657019579",
+          "https://www.ebay.co.uk/itm/227532670882",
+          "https://www.ebay.co.uk/itm/298346919810",
+          "https://www.ebay.co.uk/itm/236358264880",
+          "https://www.ebay.co.uk/itm/267339607998",
+          "https://www.ebay.co.uk/itm/206200149335",
+          "https://www.ebay.co.uk/itm/157361738693"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/206694993657",
+            "LEGO Star Wars K-2SO Security Droid 75434 new sealed boxed",
+            57.85,
+            5.15,
+            52.7,
+            "pantobird"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206711351357",
+            "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            58.84,
+            4.06,
+            54.78,
+            "kenadams1177"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/406260853741",
+            "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            59.99,
+            0.0,
+            59.99,
+            "totespilates"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/377657019579",
+            "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            69.98,
+            0.0,
+            69.98,
+            "wwsm2006"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227532670882",
+            "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            71.75,
+            3.75,
+            68.0,
+            "2rd_chance"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/298346919810",
+            "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            73.76,
+            3.38,
+            70.38,
+            "jofos_2057"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/236358264880",
+            "LEGO Star Wars 75434 K-2SO Security Droid Figure, 845 pieces 10+, Lego 75434",
+            76.5,
+            0.0,
+            76.5,
+            "peterh7027"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267339607998",
+            "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            76.96,
+            0.0,
+            76.96,
+            "zatugames"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206200149335",
+            "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            78.91,
+            3.38,
+            75.53,
+            "aclark_1"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/157361738693",
+            "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            79.69,
+            5.15,
+            74.54,
+            "iguazu"
+          ]
+        ],
+        "category": "lego"
       }
     },
     {
@@ -26618,7 +26313,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-24T02:30:43+00:00",
+          "observed_at": "2026-11-24T03:03:50+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -26934,8 +26629,8 @@
       "item_price": 60.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CQQtX/5043702_1/re/300x300/qt/55/5043702_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CQQtX/5043702_1/re/300x300/qt/55/5043702_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CQQtX/5043702_1/re/150x150/qt/55/5043702_1.jpg"
@@ -27656,8 +27351,8 @@
       "item_price": 69.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/sixPs/5044081_1/re/300x300/qt/55/5044081_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/sixPs/5044081_1/re/300x300/qt/55/5044081_1.jpg",
         "https://images.hotukdeals.com/threads/raw/sixPs/5044081_1/re/150x150/qt/55/5044081_1.jpg"
@@ -28379,8 +28074,8 @@
       "item_price": 71.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/s1yko/5044139_1/re/300x300/qt/55/5044139_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/s1yko/5044139_1/re/300x300/qt/55/5044139_1.jpg",
         "https://images.hotukdeals.com/threads/raw/s1yko/5044139_1/re/150x150/qt/55/5044139_1.jpg"
@@ -29097,8 +28792,8 @@
       "item_price": 89.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mwbQu/5044088_1/re/300x300/qt/55/5044088_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mwbQu/5044088_1/re/300x300/qt/55/5044088_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mwbQu/5044088_1/re/150x150/qt/55/5044088_1.jpg"
@@ -29809,8 +29504,8 @@
       "item_price": 93.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZAwb8/5044699_1/re/300x300/qt/55/5044699_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZAwb8/5044699_1/re/300x300/qt/55/5044699_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZAwb8/5044699_1/re/150x150/qt/55/5044699_1.jpg"
@@ -30527,8 +30222,8 @@
       "item_price": 106.24,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/5YKDM/5043851_1/re/300x300/qt/55/5043851_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5YKDM/5043851_1/re/300x300/qt/55/5043851_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5YKDM/5043851_1/re/150x150/qt/55/5043851_1.jpg"
@@ -31142,8 +30837,8 @@
       "item_price": 124.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/A3he5/5044084_1/re/300x300/qt/55/5044084_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/A3he5/5044084_1/re/300x300/qt/55/5044084_1.jpg",
         "https://images.hotukdeals.com/threads/raw/A3he5/5044084_1/re/150x150/qt/55/5044084_1.jpg"
@@ -31835,7 +31530,7 @@
         "rejected": {
           "identity_or_condition": 17
         },
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Darksiders III - Xbox One - New - w/code - sold by musicmagpie Shop"
@@ -32032,7 +31727,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Warrior Cats Clans of the Forest - PS5 - Free C&C"
@@ -32230,7 +31925,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Dragon Quest III HD-2D Remake (Xbox Series X)"
@@ -32478,7 +32173,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "DRAGON QUEST I & II HD-2D Remake (Xbox Series X)"
@@ -32727,7 +32422,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Hunter x Hunter Nen x Impact Limited Edition PS5"
@@ -33320,7 +33015,7 @@
         "rejected": {
           "identity_or_condition": 19
         },
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Call of Duty: Modern Warfare 4 - Xbox Series X (Free C&C)"
@@ -33657,7 +33352,7 @@
           ]
         },
         "detail_status": "awaiting_detail_budget",
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Xbox Wireless Controller \u2013 Forza Horizon 6 Limited Edition"
@@ -33974,7 +33669,7 @@
           ]
         },
         "detail_status": "awaiting_detail_budget",
-        "canonicalized_at": "2026-11-24T02:30:43+00:00",
+        "canonicalized_at": "2026-11-24T03:03:50+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Xbox Wireless Controller \u2013 Forza Horizon 6 Limited Edition"
@@ -34222,6 +33917,48 @@
       }
     },
     {
+      "title": "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
+      "policy_key": "50d640c7bd6bbe55588983cf",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Currys",
+      "item_price": 7.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
+      "landed_cost": null,
+      "breakeven_sell": 16.47,
+      "sell_for_minimum_profit": 26.06,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T19:46:14+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+40812+Snowman+Ornaments+Christmas+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Creator 3in1 Fierce Dinosaur Figure Building Toy 31379 - Free C&C",
       "url": "https://www.hotukdeals.com/deals/lego-creater-3-in-1-fierce-dinosaur-5043263",
       "policy_key": "5b6da64c0694b2594bb098cf",
@@ -34236,8 +33973,8 @@
       "item_price": 10.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg",
@@ -34402,8 +34139,8 @@
       "item_price": 13.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/JXuiS/5044619_1/re/300x300/qt/55/5044619_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/JXuiS/5044619_1/re/300x300/qt/55/5044619_1.jpg",
         "https://images.hotukdeals.com/threads/raw/JXuiS/5044619_1/re/150x150/qt/55/5044619_1.jpg"
@@ -34656,8 +34393,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg"
@@ -34742,8 +34479,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
@@ -34913,8 +34650,8 @@
       "item_price": 18.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg"
@@ -34955,8 +34692,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/150x150/qt/55/5043476_1.jpg",
@@ -35041,19 +34778,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 21.5,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
         "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/150x150/qt/55/5042974_1.jpg",
         "https://i.ebayimg.com/images/g/BUUAAeSwK1trAJVs/s-l225.jpg",
         "https://i.ebayimg.com/images/g/a1MAAeSwjPtq9geV/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 32.66,
       "sell_for_minimum_profit": 42.96,
@@ -35087,8 +34824,8 @@
       "item_price": 22.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/150x150/qt/55/5043394_1.jpg",
@@ -35131,8 +34868,8 @@
       "item_price": 24.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg",
@@ -35351,8 +35088,8 @@
       "item_price": 28.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/150x150/qt/55/5043414_1.jpg",
@@ -35434,8 +35171,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg",
@@ -35522,8 +35259,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -35652,8 +35389,8 @@
       "item_price": 33.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/150x150/qt/55/5043412_1.jpg",
@@ -35696,8 +35433,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -35782,8 +35519,8 @@
       "item_price": 33.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/150x150/qt/55/5043391_1.jpg",
@@ -35826,8 +35563,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg",
@@ -35870,8 +35607,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -36081,8 +35818,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/150x150/qt/55/5043384_1.jpg",
@@ -36125,8 +35862,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/150x150/qt/55/5043808_1.jpg",
@@ -36471,8 +36208,8 @@
       "item_price": 38.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/150x150/qt/55/5044396_1.jpg"
@@ -36771,8 +36508,8 @@
       "item_price": 41.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg"
@@ -36813,8 +36550,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/150x150/qt/55/5043415_1.jpg",
@@ -36857,8 +36594,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/150x150/qt/55/5043545_1.jpg",
@@ -36901,8 +36638,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/150x150/qt/55/5044089_1.jpg"
@@ -36943,8 +36680,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/150x150/qt/55/5043504_1.jpg",
@@ -36986,8 +36723,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/150x150/qt/55/5043608_1.jpg",
@@ -37030,8 +36767,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -37116,8 +36853,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
@@ -37160,8 +36897,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/150x150/qt/55/5043409_1.jpg",
@@ -37190,50 +36927,6 @@
       }
     },
     {
-      "title": "LEGO Star Wars Andor K-2SO Security Droid, Fan Gift 75434 w/code",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-andor-k-2so-security-droid-fan-gift-75434-5040209",
-      "policy_key": "d684a6162de3d0acf807c89c",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 49.49,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
-        "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/JQIAAeSw8zNrAUaL/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 66.18,
-      "sell_for_minimum_profit": 89.89,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-20T09:24:11+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Andor+K-2SO+Security+Droid%2C+Fan+Gift+75434&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)",
       "url": "https://www.hotukdeals.com/deals/lego-harry-potter-knockturn-alley-wizarding-shops-model-76471-8-years-5043647",
       "policy_key": "557e443dbaaabe18214a964f",
@@ -37248,8 +36941,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg"
@@ -37290,8 +36983,8 @@
       "item_price": 51.43,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/150x150/qt/55/5044267_1.jpg"
@@ -37332,8 +37025,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/150x150/qt/55/5044623_1.jpg"
@@ -37374,8 +37067,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
@@ -37418,8 +37111,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/150x150/qt/55/5043389_1.jpg",
@@ -37462,8 +37155,8 @@
       "item_price": 55.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/150x150/qt/55/5043458_1.jpg",
@@ -37550,8 +37243,8 @@
       "item_price": 59.34,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
-      "image_verified_until": "2026-11-24T02:52:18.706894+00:00",
-      "image_checked_at": "2026-11-24T02:32:18.706894+00:00",
+      "image_verified_until": "2026-11-24T03:25:49.488205+00:00",
+      "image_checked_at": "2026-11-24T03:05:49.488205+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/150x150/qt/55/5043607_1.jpg"
@@ -37592,8 +37285,8 @@
       "item_price": 66.64,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bN95R/5044085_1/re/300x300/qt/55/5044085_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bN95R/5044085_1/re/300x300/qt/55/5044085_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bN95R/5044085_1/re/150x150/qt/55/5044085_1.jpg"
@@ -38632,8 +38325,8 @@
       "item_price": 7.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/300x300/qt/55/5044826_1.jpg",
-      "image_verified_until": "2026-11-24T02:50:55.019084+00:00",
-      "image_checked_at": "2026-11-24T02:30:55.019084+00:00",
+      "image_verified_until": "2026-11-24T03:24:01.002851+00:00",
+      "image_checked_at": "2026-11-24T03:04:01.002851+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/300x300/qt/55/5044826_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/150x150/qt/55/5044826_1.jpg"
@@ -42257,45 +41950,6 @@
       "first_seen": "2026-11-19T08:29:06+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gothic+1+Remake&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "JACKETOWN Men's Hoodies Flannel Jacket Windproof Thick Warm Coat Plaid Shirt Fleece Sold by CongHuiQiang / FBA",
-      "url": "https://www.hotukdeals.com/deals/jacketown-mens-hoodies-flannel-jacket-windproof-thick-warm-coat-plaid-shirt-fleece-for-man-sweatshirt-lined-with-zipper-hooded-pockets-5044520",
-      "policy_key": "c271e08a280ddcbcd8d20673",
-      "category": "sportswear",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 19.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/VURT2/5044520_1/re/150x150/qt/55/5044520_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/jacketown-mens-hoodies-flannel-jacket-windproof-thick-warm-coat-plaid-shirt-fleece-for-man-sweatshirt-lined-with-zipper-hooded-pockets-5044520",
-      "landed_cost": null,
-      "breakeven_sell": 29.18,
-      "sell_for_minimum_profit": 38.9,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-23T18:39:58+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=JACKETOWN+Men%27s+Hoodies+Flannel+Jacket+Windproof+Thick+Warm+Coat+Plaid+Shirt+Fleece&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -49781,7 +49435,38 @@
       "priority": 0,
       "first_seen": "2026-11-22T18:27:31+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WF-C710N+Wireless+Noise+Cancelling+Earbuds&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Sony WFC710N pink",
+        "category": "tech",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Sony",
+          "model": "WFC710N",
+          "colour": "pink",
+          "edition": "standard"
+        },
+        "observed_at": "2026-11-24T03:05:45+00:00",
+        "date": "2026-11-24",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Sony WF-C710N Wireless Noise Cancelling Earbuds - Pink"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -51224,12 +50909,12 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 529,
+      "retailer_offers": 530,
       "known_landed_under_cap": 5,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
       "under_cap_without_model": 5,
-      "retailer_unknown_delivery": 521,
+      "retailer_unknown_delivery": 522,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
     "scanned": 530,
@@ -51248,25 +50933,24 @@
     "expiry_unknown": 8,
     "sold_valued": 0,
     "reference_only": 8,
-    "online_eligible": 474,
+    "online_eligible": 472,
     "under_cap_known_delivery": 5,
-    "delivery_known": 9,
-    "ask_valued": 32,
+    "delivery_known": 8,
+    "ask_valued": 31,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 8,
-    "above_budget_candidates": 44,
-    "above_budget_researched": 9,
-    "above_budget_research_candidates": 44,
+    "above_budget_estimates": 7,
+    "above_budget_candidates": 43,
+    "above_budget_researched": 8,
+    "above_budget_research_candidates": 43,
     "acquisition_by_source": {
-      "ebay_browse": 1,
-      "hotukdeals": 529
+      "hotukdeals": 530
     },
     "qualified_delivery_unknown": 31,
-    "ask_delivery_known": 1,
-    "ask_unique_products": 28,
-    "ask_research_identities": 28,
-    "without_any_pricing": 490,
+    "ask_delivery_known": 0,
+    "ask_unique_products": 27,
+    "ask_research_identities": 27,
+    "without_any_pricing": 491,
     "pricing_coverage": {
       "fragrance": {
         "offers": 32,
@@ -51290,14 +50974,14 @@
         "supported_retailer_identities": 14
       },
       "other": {
-        "offers": 21,
+        "offers": 23,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
         "supported_retailer_identities": 0
       },
       "sportswear": {
-        "offers": 2,
+        "offers": 1,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -51318,21 +51002,21 @@
         "supported_retailer_identities": 1
       },
       "trainers": {
-        "offers": 75,
-        "exact_identity": 1,
-        "estimated_offers": 1,
-        "estimated_products": 1,
+        "offers": 74,
+        "exact_identity": 0,
+        "estimated_offers": 0,
+        "estimated_products": 0,
         "supported_retailer_identities": 0
       }
     },
     "browse_usage": {
       "date": "2026-11-24",
-      "calls": 66,
+      "calls": 78,
       "by_purpose": {
-        "persistent-research": 10,
-        "item-details": 20,
-        "acquisition": 20,
-        "asking-affordable": 10,
+        "persistent-research": 12,
+        "item-details": 24,
+        "acquisition": 24,
+        "asking-affordable": 12,
         "asking-watch": 6
       }
     },
@@ -51345,7 +51029,7 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 36,
+        "duplicates": 35,
         "old_dropped": 98,
         "age_unknown": 0,
         "missing_price_or_category": 105,
@@ -51358,7 +51042,7 @@
         "research": {
           "purpose": "indicative current asks only; not sold valuation",
           "queries": 2,
-          "cached": 21,
+          "cached": 22,
           "query_budget": 2,
           "queries_by_category": {
             "tech": 1,
@@ -51380,10 +51064,10 @@
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
             "queries": 0,
-            "cached": 9,
+            "cached": 8,
             "query_budget": 2,
             "queries_by_category": {},
-            "candidates_with_samples": 8,
+            "candidates_with_samples": 7,
             "status": "ready",
             "errors": []
           }
@@ -51396,59 +51080,61 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-24T02:30:24.344Z",
-        "last_success": "2026-11-24T02:30:24.344Z"
+        "last_attempt": "2026-11-24T03:00:24.194Z",
+        "last_success": "2026-11-24T03:00:24.194Z"
       },
       "ebay_acquisition": {
         "status": "ready",
         "queries": 4,
-        "candidates": 1,
+        "candidates": 0,
         "errors": [],
         "purpose": "Official active Buy It Now acquisition; NEW only, not sold evidence",
         "query_budget": 4,
         "queries_by_category": {
           "lego": 3,
-          "gaming": 1
+          "tech": 1
         },
         "query_details": [
           {
-            "query": "LEGO 71808",
+            "query": "LEGO 77258",
             "category": "lego",
             "samples": 0,
             "rejected": {},
-            "sort": "price",
-            "max_item_price": 1.67,
-            "max_landed_price": 1.67,
+            "sort": "newlyListed",
+            "max_item_price": 0.5,
+            "max_landed_price": 0.5,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "LEGO 72423",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {},
-            "sort": "price",
-            "max_item_price": 44.26,
-            "max_landed_price": 44.26,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 75416",
+            "query": "LEGO 10363",
             "category": "lego",
             "samples": 0,
             "rejected": {
-              "identity_or_condition": 1
+              "identity_or_condition": 3
             },
             "sort": "newlyListed",
-            "max_item_price": 36.58,
-            "max_landed_price": 36.58,
+            "max_item_price": 18.62,
+            "max_landed_price": 18.62,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "battlefield 6 standard edition disc videogame english discount ps5",
-            "category": "gaming",
+            "query": "LEGO 21370",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 3
+            },
+            "sort": "price",
+            "max_item_price": 49.07,
+            "max_landed_price": 49.07,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "Sony WFC710N glass blue",
+            "category": "tech",
             "samples": 0,
             "rejected": {},
             "sort": "price",
@@ -51474,7 +51160,7 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 71808",
+        "query": "LEGO 77258",
         "matched_shipped_samples": 0,
         "rejections": {},
         "watchlist_products": 223
@@ -51492,29 +51178,29 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 1,
-    "rescanned": 529,
+    "new": 3,
+    "rescanned": 527,
     "price_changed": 0,
-    "previous_success": "2026-11-24T02:00:00+00:00",
-    "gap_minutes": 32.2,
+    "previous_success": "2026-11-24T02:33:08+00:00",
+    "gap_minutes": 32.6,
     "publication_holds": {
       "eligible": 15,
       "held": 515,
       "reasons": {
-        "no_supported_resale_estimate": 498,
+        "no_supported_resale_estimate": 499,
         "low_price_not_supported": 9,
         "fewer_than_three_exact_independent_comparators": 4,
-        "detail_check_pending": 4
+        "detail_check_pending": 3
       },
       "by_category": {
-        "trainers": 75,
-        "tools": 18,
-        "lego": 109,
-        "other": 21,
-        "sportswear": 2,
         "tech": 59,
+        "tools": 18,
+        "gaming": 199,
         "fragrance": 32,
-        "gaming": 199
+        "other": 23,
+        "trainers": 74,
+        "sportswear": 1,
+        "lego": 109
       }
     },
     "excluded_nonphysical": [
@@ -51673,23 +51359,17 @@
       }
     ],
     "source_coverage": {
-      "ebay_browse": {
-        "offers": 1,
-        "new": 0,
-        "estimated": 1,
-        "actionable": 0
-      },
       "hotukdeals": {
-        "offers": 529,
-        "new": 1,
+        "offers": 530,
+        "new": 3,
         "estimated": 31,
         "actionable": 0
       }
     },
     "value_watchlist": {
-      "products": 144,
+      "products": 143,
       "identity_contexts": 150,
-      "usable_targets": 10,
+      "usable_targets": 11,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -51702,9 +51382,9 @@
           "usable_targets": 0
         },
         "lego": {
-          "products": 94,
+          "products": 93,
           "identity_contexts": 100,
-          "usable_targets": 10
+          "usable_targets": 11
         },
         "tools": {
           "products": 1,
@@ -51731,7 +51411,7 @@
     },
     "publication_stages": {
       "offers_scanned": 530,
-      "research_models_generated": 32,
+      "research_models_generated": 31,
       "supported_market_estimates": 15,
       "publication_qualified_cards": 15,
       "route_eligible_cards": 15,
@@ -51742,23 +51422,23 @@
       "above_budget_priced_watch": 5,
       "research_holds": 515,
       "hold_reasons": {
-        "no_supported_resale_estimate": 498,
+        "no_supported_resale_estimate": 499,
         "low_price_not_supported": 9,
         "fewer_than_three_exact_independent_comparators": 4,
-        "detail_check_pending": 4
+        "detail_check_pending": 3
       },
       "by_category": {
         "trainers": {
-          "offers": 75,
+          "offers": 74,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 75
+          "holds": 74
         },
         "sportswear": {
-          "offers": 2,
+          "offers": 1,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 2
+          "holds": 1
         },
         "lego": {
           "offers": 123,
@@ -51791,14 +51471,14 @@
           "holds": 59
         },
         "other": {
-          "offers": 21,
+          "offers": 23,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 21
+          "holds": 23
         }
       },
-      "inbound_known": 9,
-      "inbound_unknown": 521
+      "inbound_known": 8,
+      "inbound_unknown": 522
     },
     "routing_destinations": {
       "opportunities": {
@@ -51831,14 +51511,14 @@
         "summary": "Sell: \u00a319.08 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a318.51. \u00b7 Net: At most \u2212\u00a32.83 at \u00a319.08 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a318.51 sale: \u2212\u00a33.31 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       },
       {
-        "title": "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C",
-        "url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
-        "summary": "Sell: \u00a311.24 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a310.91. \u00b7 Net: At most \u2212\u00a34.38 at \u00a311.24 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a310.91 sale: \u2212\u00a34.65 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
-      },
-      {
         "title": "LEGO Pok\u00e9mon Smart Play: Charmander and Geodude\u2019s Cavern Clash 72157",
         "url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-charmander-and-geodudes-cavern-clash-72157-5039518",
         "summary": "Sell: \u00a315.18 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a314.73. \u00b7 Net: At most \u2212\u00a35.10 at \u00a315.18 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a314.73 sale: \u2212\u00a35.47 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
+      },
+      {
+        "title": "LEGO Speed Champions F1 ACADEMY LEGO Race Car 77258",
+        "url": "https://www.hotukdeals.com/deals/lego-speed-champions-f1-academy-lego-race-car-77258-5044812",
+        "summary": "Sell: \u00a317.61 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a317.09. \u00b7 Net: At most \u2212\u00a36.06 at \u00a317.61 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a317.09 sale: \u2212\u00a36.49 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       }
     ],
     "notification_delivery": {
@@ -51846,46 +51526,35 @@
       "product_messages_delivered": 0,
       "by_route": {}
     },
-    "review_candidates": 436,
+    "review_candidates": 434,
     "lego_image_validation": {
       "checked": 32,
       "cached": 34,
-      "verified": 69,
-      "pending": 54,
+      "verified": 70,
+      "pending": 53,
       "budget": 32,
       "paused_hosts": {}
     },
     "pricing_labels": {
       "exact_priced": 15,
-      "research_model_only": 17,
-      "unpriced": 498,
+      "research_model_only": 16,
+      "unpriced": 499,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 474,
-    "lego_images_available": 69,
+    "images_available": 475,
+    "lego_images_available": 70,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "45312890628",
+      "run_id": "45316804600",
       "event": "workflow_dispatch",
-      "parent_run_id": "45308744211"
+      "parent_run_id": "45312890628"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
       "report_line": "re-posts allowed: 0 (price change \u226510%)",
       "items": [
-        {
-          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
-          "url": "https://www.hotukdeals.com/deals/lego-40812-snowman-ornaments-christmas-set-free-cc-5044576",
-          "title": "LEGO 40812 Snowman Ornaments Christmas Set - Free C&C",
-          "current_price": 7.99,
-          "last_delivered_price": 7.99,
-          "pct_change": 0.0,
-          "would_deliver": false,
-          "reason": "price_change_under_10pct",
-          "is_repost": false
-        },
         {
           "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-speed-champions-f1-academy-lego-race-car-77258-5044812",
           "url": "https://www.hotukdeals.com/deals/lego-speed-champions-f1-academy-lego-race-car-77258-5044812",
