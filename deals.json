@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:58:18+00:00",
       "valid_until": "2026-11-25T10:58:18+00:00",
       "competition_low": 55.66,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-25T04:58:18+00:00",
+        "observed_at": "2026-11-25T05:30:40+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -270,7 +270,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:24:54+00:00",
       "valid_until": "2026-11-25T10:24:54+00:00",
       "competition_low": 140.79,
@@ -349,9 +349,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
-      "observed_at": "2026-11-25T02:47:55+00:00",
-      "valid_until": "2026-11-25T08:47:55+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
+      "observed_at": "2026-11-25T05:30:40+00:00",
+      "valid_until": "2026-11-25T11:30:40+00:00",
       "competition_low": 76.94,
       "estimated_resale": 74.63,
       "seller_count": 1,
@@ -384,10 +384,10 @@
           "seller": "jpkicksuk",
           "url": "https://www.ebay.co.uk/itm/198739441730",
           "delivered": 76.94,
-          "observed_at": "2026-11-25T02:47:55+00:00"
+          "observed_at": "2026-11-25T05:30:40+00:00"
         }
       ],
-      "last_research_at": "2026-11-25T02:47:55+00:00"
+      "last_research_at": "2026-11-25T05:30:40+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:boss bottled edt 100ml:61f83c661c2b",
@@ -413,7 +413,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:58:18+00:00",
       "valid_until": "2026-11-25T10:58:18+00:00",
       "competition_low": 20.99,
@@ -485,7 +485,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:24:54+00:00",
       "valid_until": "2026-11-25T10:24:54+00:00",
       "competition_low": 59.99,
@@ -549,9 +549,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
-      "observed_at": "2026-11-25T02:05:55+00:00",
-      "valid_until": "2026-11-25T08:05:55+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
+      "observed_at": "2026-11-25T05:30:40+00:00",
+      "valid_until": "2026-11-25T11:30:40+00:00",
       "competition_low": 38.35,
       "estimated_resale": 37.19,
       "seller_count": 2,
@@ -585,17 +585,17 @@
           "seller": "brookeysbargains",
           "url": "https://www.ebay.co.uk/itm/318020220571",
           "delivered": 38.35,
-          "observed_at": "2026-11-25T02:05:55+00:00"
+          "observed_at": "2026-11-25T05:30:40+00:00"
         },
         {
           "item_id": "v1|188975317830|0",
           "seller": "unineedltd",
           "url": "https://www.ebay.co.uk/itm/188975317830",
           "delivered": 74.79,
-          "observed_at": "2026-11-25T02:05:55+00:00"
+          "observed_at": "2026-11-25T05:30:40+00:00"
         }
       ],
-      "last_research_at": "2026-11-25T02:05:55+00:00"
+      "last_research_at": "2026-11-25T05:30:40+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:boss bottled aftershave lotion 100ml:8b9765bf057c",
@@ -621,7 +621,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:38:45+00:00",
       "valid_until": "2026-11-25T08:38:45+00:00",
       "competition_low": 19.96,
@@ -714,7 +714,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:19:02+00:00",
       "valid_until": "2026-11-25T09:19:02+00:00",
       "competition_low": 44.19,
@@ -800,7 +800,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:51:48+00:00",
       "valid_until": "2026-11-25T09:51:48+00:00",
       "competition_low": 63.8,
@@ -815,7 +815,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-25T04:58:18+00:00",
+        "observed_at": "2026-11-25T05:30:40+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -1044,7 +1044,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:47:55+00:00",
       "valid_until": "2026-11-25T08:47:55+00:00",
       "competition_low": 25.99,
@@ -1137,7 +1137,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:19:02+00:00",
       "valid_until": "2026-11-25T09:19:02+00:00",
       "competition_low": 73.99,
@@ -1152,7 +1152,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|158318156230|0",
-        "observed_at": "2026-11-25T04:58:18+00:00",
+        "observed_at": "2026-11-25T05:30:40+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "DoesNotApply",
@@ -1402,7 +1402,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:51:48+00:00",
       "valid_until": "2026-11-25T09:51:48+00:00",
       "competition_low": 28.26,
@@ -1495,7 +1495,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:59:27+00:00",
       "valid_until": "2026-11-25T10:59:27+00:00",
       "competition_low": 95.0,
@@ -1544,80 +1544,6 @@
       "last_research_at": "2026-11-24T09:46:02+00:00"
     },
     {
-      "key": "browse-asks-v5:lego:lego 43013:718da294a45b",
-      "category": "lego",
-      "query": "LEGO 43013",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 43013",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "editions",
-          "football",
-          "highlights",
-          "kylian",
-          "mbappe"
-        ]
-      },
-      "first_seen": "2026-11-24T23:22:08+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
-      "observed_at": "2026-11-24T23:21:24+00:00",
-      "valid_until": "2026-11-25T05:21:24+00:00",
-      "competition_low": 15.0,
-      "estimated_resale": 14.55,
-      "seller_count": 37,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": 0,
-      "target_status": "no_positive_ceiling",
-      "checks": [
-        "No positive Strong landed acquisition ceiling"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|168884819189|0",
-          "seller": "qteqltd",
-          "url": "https://www.ebay.co.uk/itm/168884819189",
-          "delivered": 15.0,
-          "observed_at": "2026-11-24T23:21:24+00:00"
-        },
-        {
-          "item_id": "v1|168612729265|0",
-          "seller": "hermioodle",
-          "url": "https://www.ebay.co.uk/itm/168612729265",
-          "delivered": 15.54,
-          "observed_at": "2026-11-24T23:21:24+00:00"
-        },
-        {
-          "item_id": "v1|407351724135|0",
-          "seller": "db8mt-10",
-          "url": "https://www.ebay.co.uk/itm/407351724135",
-          "delivered": 18.41,
-          "observed_at": "2026-11-24T23:21:24+00:00"
-        },
-        {
-          "item_id": "v1|377613108478|0",
-          "seller": "hoan-974",
-          "url": "https://www.ebay.co.uk/itm/377613108478",
-          "delivered": 18.46,
-          "observed_at": "2026-11-24T23:21:24+00:00"
-        },
-        {
-          "item_id": "v1|227614417826|0",
-          "seller": "yonli_79",
-          "url": "https://www.ebay.co.uk/itm/227614417826",
-          "delivered": 18.93,
-          "observed_at": "2026-11-24T23:21:24+00:00"
-        }
-      ]
-    },
-    {
       "key": "browse-asks-v5:lego:lego 10696:efe1bfe71125",
       "category": "lego",
       "query": "LEGO 10696",
@@ -1643,7 +1569,7 @@
         ]
       },
       "first_seen": "2026-11-24T23:54:38+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-24T23:53:59+00:00",
       "valid_until": "2026-11-25T05:53:59+00:00",
       "competition_low": 22.88,
@@ -1712,7 +1638,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-24T23:54:38+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-24T23:53:59+00:00",
       "valid_until": "2026-11-25T05:53:59+00:00",
       "competition_low": 34.75,
@@ -1763,7 +1689,7 @@
         ]
       },
       "first_seen": "2026-11-24T12:00:07+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T00:27:22+00:00",
       "valid_until": "2026-11-25T06:27:22+00:00",
       "competition_low": 105.99,
@@ -1803,7 +1729,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T00:28:27+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T00:27:19+00:00",
       "valid_until": "2026-11-25T06:27:19+00:00",
       "competition_low": 29.4,
@@ -1854,7 +1780,7 @@
         ]
       },
       "first_seen": "2026-11-25T00:28:27+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T00:27:19+00:00",
       "valid_until": "2026-11-25T06:27:19+00:00",
       "competition_low": 36.92,
@@ -1903,8 +1829,8 @@
           "observed_at": "2026-11-25T00:27:19+00:00"
         }
       ],
-      "last_search_at": "2026-11-25T04:25:03+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-25T05:30:48+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 16.14
     },
     {
@@ -1928,7 +1854,7 @@
         ]
       },
       "first_seen": "2026-11-24T10:54:31+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T01:00:57+00:00",
       "valid_until": "2026-11-25T07:00:57+00:00",
       "competition_low": 83.49,
@@ -2003,7 +1929,7 @@
         ]
       },
       "first_seen": "2026-11-25T01:01:53+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T01:00:54+00:00",
       "valid_until": "2026-11-25T07:00:54+00:00",
       "competition_low": 64.73,
@@ -2082,7 +2008,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:48:23+00:00",
       "valid_until": "2026-11-25T08:48:23+00:00",
       "competition_low": 85.99,
@@ -2097,7 +2023,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-25T04:58:18+00:00",
+        "observed_at": "2026-11-25T05:30:40+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -2248,7 +2174,7 @@
         ]
       },
       "first_seen": "2026-11-24T13:05:14+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T01:34:20+00:00",
       "valid_until": "2026-11-25T07:34:20+00:00",
       "competition_low": 78.7,
@@ -2327,7 +2253,7 @@
         ]
       },
       "first_seen": "2026-11-25T01:35:16+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T01:34:17+00:00",
       "valid_until": "2026-11-25T07:34:17+00:00",
       "competition_low": 35.28,
@@ -2402,7 +2328,7 @@
         ]
       },
       "first_seen": "2026-11-24T07:35:22+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:07:21+00:00",
       "valid_until": "2026-11-25T08:07:21+00:00",
       "competition_low": 60.98,
@@ -2470,7 +2396,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T02:08:04+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:07:18+00:00",
       "valid_until": "2026-11-25T08:07:18+00:00",
       "competition_low": 43.6,
@@ -2544,7 +2470,7 @@
         ]
       },
       "first_seen": "2026-11-25T02:08:04+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:07:18+00:00",
       "valid_until": "2026-11-25T08:07:18+00:00",
       "competition_low": 25.0,
@@ -2619,7 +2545,7 @@
         ]
       },
       "first_seen": "2026-11-24T14:12:42+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:40:22+00:00",
       "valid_until": "2026-11-25T08:40:22+00:00",
       "competition_low": 12.25,
@@ -2687,7 +2613,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T02:41:10+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:40:19+00:00",
       "valid_until": "2026-11-25T08:40:19+00:00",
       "competition_low": 24.43,
@@ -2750,7 +2676,7 @@
         ]
       },
       "first_seen": "2026-11-25T02:41:10+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:40:19+00:00",
       "valid_until": "2026-11-25T08:40:19+00:00",
       "competition_low": 88.04,
@@ -2790,7 +2716,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T02:48:27+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:48:20+00:00",
       "valid_until": "2026-11-25T08:48:20+00:00",
       "competition_low": 23.95,
@@ -2853,7 +2779,7 @@
         ]
       },
       "first_seen": "2026-11-25T02:48:27+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T02:48:20+00:00",
       "valid_until": "2026-11-25T08:48:20+00:00",
       "competition_low": 8.82,
@@ -2925,7 +2851,7 @@
         ]
       },
       "first_seen": "2026-11-25T03:21:09+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:20:25+00:00",
       "valid_until": "2026-11-25T09:20:25+00:00",
       "competition_low": 40.99,
@@ -2974,8 +2900,8 @@
           "observed_at": "2026-11-25T03:20:25+00:00"
         }
       ],
-      "last_search_at": "2026-11-25T03:51:58+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-25T05:30:48+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 19.43
     },
     {
@@ -2998,7 +2924,7 @@
         ]
       },
       "first_seen": "2026-11-23T06:56:57+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:53:25+00:00",
       "valid_until": "2026-11-25T09:53:25+00:00",
       "competition_low": 107.55,
@@ -3075,7 +3001,7 @@
         ]
       },
       "first_seen": "2026-11-25T03:54:15+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T03:53:23+00:00",
       "valid_until": "2026-11-25T09:53:23+00:00",
       "competition_low": 44.99,
@@ -3147,7 +3073,7 @@
         ]
       },
       "first_seen": "2026-11-24T09:15:15+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:26:41+00:00",
       "valid_until": "2026-11-25T10:26:41+00:00",
       "competition_low": 100.45,
@@ -3218,7 +3144,7 @@
         ]
       },
       "first_seen": "2026-11-25T04:27:36+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:26:37+00:00",
       "valid_until": "2026-11-25T10:26:37+00:00",
       "competition_low": 32.43,
@@ -3286,7 +3212,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T05:00:00+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:59:24+00:00",
       "valid_until": "2026-11-25T10:59:24+00:00",
       "competition_low": 19.99,
@@ -3335,7 +3261,7 @@
         ]
       },
       "first_seen": "2026-11-25T05:00:00+00:00",
-      "last_seen": "2026-11-25T05:00:00+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
       "observed_at": "2026-11-25T04:59:24+00:00",
       "valid_until": "2026-11-25T10:59:24+00:00",
       "competition_low": 56.07,
@@ -3382,6 +3308,199 @@
           "url": "https://www.ebay.co.uk/itm/198819145624",
           "delivered": 63.36,
           "observed_at": "2026-11-25T04:59:24+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-25T05:30:48+00:00",
+      "last_search_sort": "price",
+      "last_item_price_filter": 28.31
+    },
+    {
+      "key": "browse-asks-v5:gaming:gothic 1 remake ps5:4f53cda18c2b",
+      "category": "gaming",
+      "query": "gothic 1 remake ps5",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "gaming",
+        "query": "gothic 1 remake ps5",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": []
+      },
+      "first_seen": "2026-11-25T05:33:20+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
+      "observed_at": "2026-11-25T05:32:22+00:00",
+      "valid_until": "2026-11-25T11:32:22+00:00",
+      "competition_low": 47.94,
+      "estimated_resale": 46.5,
+      "seller_count": 1,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|227413427365|0",
+          "seller": "thegamery",
+          "url": "https://www.ebay.co.uk/itm/227413427365",
+          "delivered": 47.94,
+          "observed_at": "2026-11-25T05:32:22+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 76471:3318fcb300b6",
+      "category": "lego",
+      "query": "LEGO 76471",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 76471",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "8+",
+          "alley",
+          "harry",
+          "knockturn",
+          "model",
+          "potter",
+          "shops",
+          "wizarding",
+          "years"
+        ]
+      },
+      "first_seen": "2026-11-25T05:33:20+00:00",
+      "last_seen": "2026-11-25T05:33:20+00:00",
+      "observed_at": "2026-11-25T05:32:22+00:00",
+      "valid_until": "2026-11-25T11:32:22+00:00",
+      "competition_low": 60.0,
+      "estimated_resale": 58.2,
+      "seller_count": 29,
+      "low_supporting_sellers": 2,
+      "max_landed_buy": 30.58,
+      "target_status": "usable_configured_cost_target",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|168884816182|0",
+          "seller": "qteqltd",
+          "url": "https://www.ebay.co.uk/itm/168884816182",
+          "delivered": 60.0,
+          "observed_at": "2026-11-25T05:32:22+00:00"
+        },
+        {
+          "item_id": "v1|257742827821|0",
+          "seller": "rowla.jos",
+          "url": "https://www.ebay.co.uk/itm/257742827821",
+          "delivered": 65.77,
+          "observed_at": "2026-11-25T05:32:22+00:00"
+        },
+        {
+          "item_id": "v1|407324565821|0",
+          "seller": "lubainb80",
+          "url": "https://www.ebay.co.uk/itm/407324565821",
+          "delivered": 66.47,
+          "observed_at": "2026-11-25T05:32:22+00:00"
+        },
+        {
+          "item_id": "v1|820354356947|0",
+          "seller": "ri47964",
+          "url": "https://www.ebay.co.uk/itm/820354356947",
+          "delivered": 66.81,
+          "observed_at": "2026-11-25T05:32:22+00:00"
+        },
+        {
+          "item_id": "v1|840069317595|0",
+          "seller": "assorted_goods2020",
+          "url": "https://www.ebay.co.uk/itm/840069317595",
+          "delivered": 66.93,
+          "observed_at": "2026-11-25T05:32:22+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 43013:718da294a45b",
+      "category": "lego",
+      "query": "LEGO 43013",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 43013",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "editions",
+          "football",
+          "highlights",
+          "kylian",
+          "mbappe"
+        ]
+      },
+      "first_seen": "2026-11-24T23:22:08+00:00",
+      "last_seen": "2026-11-25T05:00:00+00:00",
+      "observed_at": "2026-11-24T23:21:24+00:00",
+      "valid_until": "2026-11-25T05:21:24+00:00",
+      "competition_low": 15.0,
+      "estimated_resale": 14.55,
+      "seller_count": 37,
+      "low_supporting_sellers": 2,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [
+        "No positive Strong landed acquisition ceiling"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|168884819189|0",
+          "seller": "qteqltd",
+          "url": "https://www.ebay.co.uk/itm/168884819189",
+          "delivered": 15.0,
+          "observed_at": "2026-11-24T23:21:24+00:00"
+        },
+        {
+          "item_id": "v1|168612729265|0",
+          "seller": "hermioodle",
+          "url": "https://www.ebay.co.uk/itm/168612729265",
+          "delivered": 15.54,
+          "observed_at": "2026-11-24T23:21:24+00:00"
+        },
+        {
+          "item_id": "v1|407351724135|0",
+          "seller": "db8mt-10",
+          "url": "https://www.ebay.co.uk/itm/407351724135",
+          "delivered": 18.41,
+          "observed_at": "2026-11-24T23:21:24+00:00"
+        },
+        {
+          "item_id": "v1|377613108478|0",
+          "seller": "hoan-974",
+          "url": "https://www.ebay.co.uk/itm/377613108478",
+          "delivered": 18.46,
+          "observed_at": "2026-11-24T23:21:24+00:00"
+        },
+        {
+          "item_id": "v1|227614417826|0",
+          "seller": "yonli_79",
+          "url": "https://www.ebay.co.uk/itm/227614417826",
+          "delivered": 18.93,
+          "observed_at": "2026-11-24T23:21:24+00:00"
         }
       ]
     },
@@ -10731,158 +10850,6 @@
       "last_search_at": "2026-11-23T20:17:48+00:00",
       "last_search_sort": "price",
       "last_item_price_filter": 18.17
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 72152:e1f9c9a00858",
-      "category": "lego",
-      "query": "LEGO 72152",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 72152",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "18+",
-          "ball",
-          "model",
-          "pikachu",
-          "poke",
-          "years"
-        ]
-      },
-      "first_seen": "2026-11-23T07:30:20+00:00",
-      "last_seen": "2026-11-23T19:46:59+00:00",
-      "observed_at": "2026-11-23T14:09:40+00:00",
-      "valid_until": "2026-11-23T20:09:40+00:00",
-      "competition_low": 121.86,
-      "estimated_resale": 118.2,
-      "seller_count": 38,
-      "low_supporting_sellers": 10,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|940088461591|0",
-          "seller": "lawcoll182",
-          "url": "https://www.ebay.co.uk/itm/940088461591",
-          "delivered": 121.86,
-          "observed_at": "2026-11-23T14:09:40+00:00"
-        },
-        {
-          "item_id": "v1|860168754718|0",
-          "seller": "agenticec-0",
-          "url": "https://www.ebay.co.uk/itm/860168754718",
-          "delivered": 122.99,
-          "observed_at": "2026-11-23T14:09:40+00:00"
-        },
-        {
-          "item_id": "v1|920155987067|0",
-          "seller": "brick_exchange",
-          "url": "https://www.ebay.co.uk/itm/920155987067",
-          "delivered": 126.0,
-          "observed_at": "2026-11-23T14:09:40+00:00"
-        },
-        {
-          "item_id": "v1|800939465468|0",
-          "seller": "pureglowmart",
-          "url": "https://www.ebay.co.uk/itm/800939465468",
-          "delivered": 126.53,
-          "observed_at": "2026-11-23T14:09:40+00:00"
-        },
-        {
-          "item_id": "v1|800774986370|0",
-          "seller": "marqet_co_uk",
-          "url": "https://www.ebay.co.uk/itm/800774986370",
-          "delivered": 127.49,
-          "observed_at": "2026-11-23T14:09:40+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-23T17:30:37+00:00",
-      "last_search_sort": "price",
-      "last_item_price_filter": 60.0
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 42231:78370ffb8c2d",
-      "category": "lego",
-      "query": "LEGO 42231",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 42231",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "18+",
-          "charger",
-          "dodge",
-          "fast",
-          "furious",
-          "model",
-          "years"
-        ]
-      },
-      "first_seen": "2026-11-23T07:30:20+00:00",
-      "last_seen": "2026-11-23T19:14:13+00:00",
-      "observed_at": "2026-11-23T13:35:55+00:00",
-      "valid_until": "2026-11-23T19:35:55+00:00",
-      "competition_low": 90.99,
-      "estimated_resale": 88.26,
-      "seller_count": 34,
-      "low_supporting_sellers": 1,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [
-        "insufficient independent price depth"
-      ],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|920167326606|0",
-          "seller": "macmayoruk",
-          "url": "https://www.ebay.co.uk/itm/920167326606",
-          "delivered": 90.99,
-          "observed_at": "2026-11-23T13:35:55+00:00"
-        },
-        {
-          "item_id": "v1|800935004804|0",
-          "seller": "ryary.uk.dqpo6pslm",
-          "url": "https://www.ebay.co.uk/itm/800935004804",
-          "delivered": 104.99,
-          "observed_at": "2026-11-23T13:35:55+00:00"
-        },
-        {
-          "item_id": "v1|407252762796|0",
-          "seller": "bikerdon-87",
-          "url": "https://www.ebay.co.uk/itm/407252762796",
-          "delivered": 109.65,
-          "observed_at": "2026-11-23T13:35:55+00:00"
-        },
-        {
-          "item_id": "v1|900085698849|0",
-          "seller": "gmtoys",
-          "url": "https://www.ebay.co.uk/itm/900085698849",
-          "delivered": 110.69,
-          "observed_at": "2026-11-23T13:35:55+00:00"
-        },
-        {
-          "item_id": "v1|198810591638|0",
-          "seller": "skunkarella",
-          "url": "https://www.ebay.co.uk/itm/198810591638",
-          "delivered": 111.75,
-          "observed_at": "2026-11-23T13:35:55+00:00"
-        }
-      ]
     }
   ],
   "pricing_catalog": [],
@@ -11246,268 +11213,6 @@
       },
       "query_aliases": [
         "LEGO 10696 (484 pieces) Classic The Creative Brick Box, Toy and Storage Set with Bricks, Wheels, Windows"
-      ]
-    },
-    {
-      "kind": "active_ask",
-      "query": "LEGO 43013",
-      "category": "lego",
-      "name_terms": [
-        "editions",
-        "football",
-        "highlights",
-        "kylian",
-        "mbappe"
-      ],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-24T23:21:24+00:00",
-      "date": "2026-11-24",
-      "sample_count": 37,
-      "listed_total_low": 15.0,
-      "listed_total_p25": 22.89,
-      "listed_total_median": 25.72,
-      "listed_total_p75": 29.99,
-      "listed_total_high": 52.71,
-      "status": "wide_spread",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|168884819189|0",
-          "seller": "qteqltd",
-          "image": "https://i.ebayimg.com/images/g/j4EAAeSwhk9rBf0o/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/168884819189",
-          "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-          "declared_condition": "new",
-          "item_price": 15.0,
-          "shipping": 0.0,
-          "listed_total": 15.0
-        },
-        {
-          "item_id": "v1|168612729265|0",
-          "seller": "hermioodle",
-          "image": "https://i.ebayimg.com/images/g/pqwAAeSwplVqPQ8O/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/168612729265",
-          "title": "LEGO\u00ae Editions Football Legends Kylian Mbapp\u00e9 (Mbappe) edi004 43013 New",
-          "declared_condition": "new",
-          "item_price": 13.99,
-          "shipping": 1.55,
-          "listed_total": 15.54
-        },
-        {
-          "item_id": "v1|407351724135|0",
-          "seller": "db8mt-10",
-          "image": "https://i.ebayimg.com/images/g/-t8AAeSwbnpq8kOr/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407351724135",
-          "title": "LEGO BrickHeadz Kylian Mbapp\u00e9 Football Highlights Set 43013 490pcs",
-          "declared_condition": "new",
-          "item_price": 16.15,
-          "shipping": 2.26,
-          "listed_total": 18.41
-        },
-        {
-          "item_id": "v1|377613108478|0",
-          "seller": "hoan-974",
-          "image": "https://i.ebayimg.com/images/g/-5EAAeSwLlJq52w9/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/377613108478",
-          "title": "lego editions football 43013 mbappe - unopened",
-          "declared_condition": "new",
-          "item_price": 16.2,
-          "shipping": 2.26,
-          "listed_total": 18.46
-        },
-        {
-          "item_id": "v1|227614417826|0",
-          "seller": "yonli_79",
-          "image": "https://i.ebayimg.com/images/g/MR0AAeSwvG9q-MCx/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227614417826",
-          "title": "LEGO 43013 Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013, New and Sealed",
-          "declared_condition": "new",
-          "item_price": 15.99,
-          "shipping": 2.94,
-          "listed_total": 18.93
-        },
-        {
-          "item_id": "v1|377332358068|0",
-          "seller": "edgeb_14",
-          "image": "https://i.ebayimg.com/images/g/IJoAAeSwgGxqUBpa/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/377332358068",
-          "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-          "declared_condition": "new",
-          "item_price": 19.5,
-          "shipping": 0.0,
-          "listed_total": 19.5
-        },
-        {
-          "item_id": "v1|227587643686|0",
-          "seller": "j10-onestop",
-          "image": "https://i.ebayimg.com/images/g/WdUAAeSwYONq4ljd/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227587643686",
-          "title": "Lego Editions 43013 Kylian Mbappe Football  Highlights - NEW & SEALED",
-          "declared_condition": "new",
-          "item_price": 14.98,
-          "shipping": 4.8,
-          "listed_total": 19.78
-        },
-        {
-          "item_id": "v1|336821318760|0",
-          "seller": "toys.99",
-          "image": "https://i.ebayimg.com/images/g/CDsAAeSwNA5qvXau/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/336821318760",
-          "title": "LEGO\u00ae Editions Kylian Mbapp\u00e9 \u2013 Football Highlights (43013) !NEW!",
-          "declared_condition": "new",
-          "item_price": 19.36,
-          "shipping": 2.26,
-          "listed_total": 21.62
-        },
-        {
-          "item_id": "v1|137956152948|0",
-          "seller": "1velour83",
-          "image": "https://i.ebayimg.com/images/g/IgEAAeSw~VprBGdz/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/137956152948",
-          "title": "LEGO Icons 43013 Kylian Mbapp\u00e9 Football Highlights Set Limited Ed 490 pcs 10+",
-          "declared_condition": "new",
-          "item_price": 21.99,
-          "shipping": 0.0,
-          "listed_total": 21.99
-        },
-        {
-          "item_id": "v1|407358017030|0",
-          "seller": "naschou_60",
-          "image": "https://i.ebayimg.com/images/g/NNAAAeSwjQtq9bD-/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/407358017030",
-          "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-          "declared_condition": "new",
-          "item_price": 22.89,
-          "shipping": 0.0,
-          "listed_total": 22.89
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 6
-      },
-      "query_aliases": [
-        "LEGO Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013"
       ]
     },
     {
@@ -13395,6 +13100,273 @@
     },
     {
       "kind": "active_ask",
+      "query": "LEGO 76471",
+      "category": "lego",
+      "name_terms": [
+        "8+",
+        "alley",
+        "harry",
+        "knockturn",
+        "model",
+        "potter",
+        "shops",
+        "wizarding",
+        "years"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-25T05:32:22+00:00",
+      "date": "2026-11-25",
+      "sample_count": 29,
+      "listed_total_low": 60.0,
+      "listed_total_p25": 69.99,
+      "listed_total_median": 80.15,
+      "listed_total_p75": 87.17,
+      "listed_total_high": 103.19,
+      "status": "wide_spread",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+        "Wide spread: variants/outliers may remain; no values silently discarded."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|168884816182|0",
+          "seller": "qteqltd",
+          "image": "https://i.ebayimg.com/images/g/jxEAAeSwIkhrBfxZ/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/168884816182",
+          "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 60.0,
+          "shipping": 0.0,
+          "listed_total": 60.0
+        },
+        {
+          "item_id": "v1|257742827821|0",
+          "seller": "rowla.jos",
+          "image": "https://i.ebayimg.com/images/g/k8AAAeSwKkJqqFaY/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/257742827821",
+          "title": "Lego 76471 Harry Potter Knockturn Alley Wizarding Shops Brand New And Sealed",
+          "declared_condition": "new",
+          "item_price": 62.06,
+          "shipping": 3.71,
+          "listed_total": 65.77
+        },
+        {
+          "item_id": "v1|407324565821|0",
+          "seller": "lubainb80",
+          "image": "https://i.ebayimg.com/images/g/VD4AAeSwUdlq40kZ/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/407324565821",
+          "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 63.09,
+          "shipping": 3.38,
+          "listed_total": 66.47
+        },
+        {
+          "item_id": "v1|820354356947|0",
+          "seller": "ri47964",
+          "image": "https://i.ebayimg.com/images/g/jUIAAeSw025q-Hqh/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/820354356947",
+          "title": "LEGO Harry Potter 76471",
+          "declared_condition": "new",
+          "item_price": 63.1,
+          "shipping": 3.71,
+          "listed_total": 66.81
+        },
+        {
+          "item_id": "v1|840069317595|0",
+          "seller": "assorted_goods2020",
+          "image": "https://i.ebayimg.com/images/g/k04AAeSwRONq4kh6/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/840069317595",
+          "title": "LEGO Harry Potter: Knockturn Alley\u2122 Wizarding Shops (76471) - (RRP: \u00a379.99)",
+          "declared_condition": "new",
+          "item_price": 63.99,
+          "shipping": 2.94,
+          "listed_total": 66.93
+        },
+        {
+          "item_id": "v1|327470103159|0",
+          "seller": "greanes2",
+          "image": "https://i.ebayimg.com/images/g/pUQAAeSw1~lrAs~g/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/327470103159",
+          "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 BNIB",
+          "declared_condition": "new",
+          "item_price": 67.26,
+          "shipping": 0.0,
+          "listed_total": 67.26
+        },
+        {
+          "item_id": "v1|198775411318|0",
+          "seller": "jgeeson",
+          "image": "https://i.ebayimg.com/images/g/1H8AAeSw2RFq7NRU/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/198775411318",
+          "title": "LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops New Sealed",
+          "declared_condition": "new",
+          "item_price": 63.1,
+          "shipping": 5.15,
+          "listed_total": 68.25
+        },
+        {
+          "item_id": "v1|178551245951|0",
+          "seller": "jafwh1544-hgkhryc7",
+          "image": "https://i.ebayimg.com/images/g/vigAAeSwzvFqwRyC/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/178551245951",
+          "title": "LEGO\u00a0Harry Potter: Knockturn Alley Wizarding Shop 76471",
+          "declared_condition": "new",
+          "item_price": 69.99,
+          "shipping": 0.0,
+          "listed_total": 69.99
+        },
+        {
+          "item_id": "v1|860155962714|0",
+          "seller": "cjworldonline-ltd",
+          "image": "https://i.ebayimg.com/images/g/PhoAAeSwfZ5q~fLJ/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": true,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/860155962714",
+          "title": "BOX BEND LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops Age 8+ 788pcs",
+          "declared_condition": "new",
+          "item_price": 69.99,
+          "shipping": 0.0,
+          "listed_total": 69.99
+        },
+        {
+          "item_id": "v1|940001313878|0",
+          "seller": "derek80derek",
+          "image": "https://i.ebayimg.com/images/g/v~MAAeSwaEdqyRbR/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/940001313878",
+          "title": "LEGO Harry Potter: Knockturn Alley  Wizarding Shops 76471 New",
+          "declared_condition": "new",
+          "item_price": 67.99,
+          "shipping": 3.38,
+          "listed_total": 71.37
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 21
+      },
+      "query_aliases": [
+        "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)"
+      ]
+    },
+    {
+      "kind": "active_ask",
       "query": "LEGO 43024",
       "category": "lego",
       "name_terms": [
@@ -13757,7 +13729,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-25T04:58:18+00:00",
+        "observed_at": "2026-11-25T05:30:40+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -15824,7 +15796,7 @@
       "rejected": {
         "identity_or_condition": 3
       },
-      "canonicalized_at": "2026-11-25T04:58:18+00:00",
+      "canonicalized_at": "2026-11-25T05:30:40+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Blades of Fire Day One Edition (PS5)"
@@ -15872,12 +15844,15 @@
           "declared_condition": "new",
           "item_price": 19.99,
           "shipping": 0.0,
-          "listed_total": 19.99
+          "listed_total": 19.99,
+          "observed_at": "2026-11-25T04:59:24+00:00"
         }
       ],
       "rejected": {
         "identity_or_condition": 49
       },
+      "canonicalized_at": "2026-11-25T05:30:40+00:00",
+      "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Final Fantasy XVI (PS5)"
       ]
@@ -15979,7 +15954,7 @@
       "rejected": {
         "identity_or_condition": 13
       },
-      "canonicalized_at": "2026-11-25T04:58:18+00:00",
+      "canonicalized_at": "2026-11-25T05:30:40+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Alan Wake 2 Deluxe Edition - PS5"
@@ -16082,10 +16057,62 @@
       "rejected": {
         "identity_or_condition": 47
       },
-      "canonicalized_at": "2026-11-25T04:58:18+00:00",
+      "canonicalized_at": "2026-11-25T05:30:40+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Final Fantasy VII Rebirth (PS5)"
+      ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "gothic 1 remake ps5",
+      "category": "gaming",
+      "name_terms": [],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-25T05:32:22+00:00",
+      "date": "2026-11-25",
+      "sample_count": 1,
+      "listed_total_low": 47.94,
+      "listed_total_p25": 47.94,
+      "listed_total_median": 47.94,
+      "listed_total_p75": 47.94,
+      "listed_total_high": 47.94,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|227413427365|0",
+          "seller": "thegamery",
+          "image": "https://i.ebayimg.com/images/g/UIcAAeSw3b9rBcOf/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/227413427365",
+          "title": "Gothic 1 Remake (PS5)",
+          "declared_condition": "new",
+          "item_price": 47.94,
+          "shipping": 0.0,
+          "listed_total": 47.94
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 7
+      },
+      "query_aliases": [
+        "Gothic 1 Remake - PlayStation 5 (PS5)"
       ]
     },
     {
@@ -16203,7 +16230,7 @@
         ]
       },
       "detail_status": "awaiting_detail_budget",
-      "canonicalized_at": "2026-11-25T04:58:18+00:00",
+      "canonicalized_at": "2026-11-25T05:30:40+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Sony DualSense PS5 Wireless Controller - Midnight Black"
@@ -16294,33 +16321,6 @@
     },
     {
       "kind": "active_ask",
-      "query": "death stranding 2 on the beach sold by nimadva ltd fba ps5",
-      "category": "gaming",
-      "name_terms": [],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-24T23:21:24+00:00",
-      "date": "2026-11-24",
-      "sample_count": 0,
-      "listed_total_low": null,
-      "listed_total_p25": null,
-      "listed_total_median": null,
-      "listed_total_p75": null,
-      "listed_total_high": null,
-      "status": "no_exact_shipped_samples",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [],
-      "rejected": {},
-      "query_aliases": [
-        "Death Stranding 2: On The Beach (PS5) - Sold by Nimadva LTD / FBA"
-      ]
-    },
-    {
-      "kind": "active_ask",
       "query": "gears of war e day pegi 18 xbox series x",
       "category": "gaming",
       "name_terms": [],
@@ -16377,9 +16377,9 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 26,
+    "indicative_asking_products": 27,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 26,
+    "ask_estimated_products": 27,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
     "above_budget_estimates": 8,
@@ -16388,7 +16388,7 @@
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-25T05:00:13+00:00",
+  "generated_utc": "2026-11-25T05:33:29+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
@@ -16644,8 +16644,8 @@
       "item_price": 12.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KsVWg/5046041_1/re/300x300/qt/55/5046041_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KsVWg/5046041_1/re/300x300/qt/55/5046041_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KsVWg/5046041_1/re/150x150/qt/55/5046041_1.jpg"
@@ -17355,727 +17355,6 @@
       }
     },
     {
-      "title": "LEGO Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013",
-      "url": "https://www.hotukdeals.com/deals/lego-editions-kylian-mbappe-football-highlights-43013-5046012",
-      "policy_key": "56ec716b17e805dd724a062f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 15.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/150x150/qt/55/5046012_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-editions-kylian-mbappe-football-highlights-43013-5046012",
-      "landed_cost": null,
-      "breakeven_sell": 26.06,
-      "sell_for_minimum_profit": 35.64,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-24T23:21:23+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Editions+Kylian+Mbapp%C3%A9&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 43013",
-        "category": "lego",
-        "name_terms": [
-          "editions",
-          "football",
-          "highlights",
-          "kylian",
-          "mbappe"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-24T23:21:24+00:00",
-        "date": "2026-11-24",
-        "sample_count": 37,
-        "listed_total_low": 15.0,
-        "listed_total_p25": 22.89,
-        "listed_total_median": 25.72,
-        "listed_total_p75": 29.99,
-        "listed_total_high": 52.71,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|168884819189|0",
-            "seller": "qteqltd",
-            "image": "https://i.ebayimg.com/images/g/j4EAAeSwhk9rBf0o/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168884819189",
-            "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 15.0,
-            "shipping": 0.0,
-            "listed_total": 15.0
-          },
-          {
-            "item_id": "v1|168612729265|0",
-            "seller": "hermioodle",
-            "image": "https://i.ebayimg.com/images/g/pqwAAeSwplVqPQ8O/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168612729265",
-            "title": "LEGO\u00ae Editions Football Legends Kylian Mbapp\u00e9 (Mbappe) edi004 43013 New",
-            "declared_condition": "new",
-            "item_price": 13.99,
-            "shipping": 1.55,
-            "listed_total": 15.54
-          },
-          {
-            "item_id": "v1|407351724135|0",
-            "seller": "db8mt-10",
-            "image": "https://i.ebayimg.com/images/g/-t8AAeSwbnpq8kOr/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407351724135",
-            "title": "LEGO BrickHeadz Kylian Mbapp\u00e9 Football Highlights Set 43013 490pcs",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.26,
-            "listed_total": 18.41
-          },
-          {
-            "item_id": "v1|377613108478|0",
-            "seller": "hoan-974",
-            "image": "https://i.ebayimg.com/images/g/-5EAAeSwLlJq52w9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377613108478",
-            "title": "lego editions football 43013 mbappe - unopened",
-            "declared_condition": "new",
-            "item_price": 16.2,
-            "shipping": 2.26,
-            "listed_total": 18.46
-          },
-          {
-            "item_id": "v1|227614417826|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/MR0AAeSwvG9q-MCx/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227614417826",
-            "title": "LEGO 43013 Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013, New and Sealed",
-            "declared_condition": "new",
-            "item_price": 15.99,
-            "shipping": 2.94,
-            "listed_total": 18.93
-          },
-          {
-            "item_id": "v1|377332358068|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/IJoAAeSwgGxqUBpa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377332358068",
-            "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 19.5,
-            "shipping": 0.0,
-            "listed_total": 19.5
-          },
-          {
-            "item_id": "v1|227587643686|0",
-            "seller": "j10-onestop",
-            "image": "https://i.ebayimg.com/images/g/WdUAAeSwYONq4ljd/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227587643686",
-            "title": "Lego Editions 43013 Kylian Mbappe Football  Highlights - NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 14.98,
-            "shipping": 4.8,
-            "listed_total": 19.78
-          },
-          {
-            "item_id": "v1|336821318760|0",
-            "seller": "toys.99",
-            "image": "https://i.ebayimg.com/images/g/CDsAAeSwNA5qvXau/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336821318760",
-            "title": "LEGO\u00ae Editions Kylian Mbapp\u00e9 \u2013 Football Highlights (43013) !NEW!",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.26,
-            "listed_total": 21.62
-          },
-          {
-            "item_id": "v1|137956152948|0",
-            "seller": "1velour83",
-            "image": "https://i.ebayimg.com/images/g/IgEAAeSw~VprBGdz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137956152948",
-            "title": "LEGO Icons 43013 Kylian Mbapp\u00e9 Football Highlights Set Limited Ed 490 pcs 10+",
-            "declared_condition": "new",
-            "item_price": 21.99,
-            "shipping": 0.0,
-            "listed_total": 21.99
-          },
-          {
-            "item_id": "v1|407358017030|0",
-            "seller": "naschou_60",
-            "image": "https://i.ebayimg.com/images/g/NNAAAeSwjQtq9bD-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407358017030",
-            "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 22.89,
-            "shipping": 0.0,
-            "listed_total": 22.89
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 6
-        },
-        "query_aliases": [
-          "LEGO Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 43013",
-        "observed_at": "2026-11-24T23:21:24+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 37,
-        "seller_count": 37,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 2,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 15.0,
-        "competition_high": 52.71,
-        "estimated_resale": 14.55,
-        "estimated_range": [
-          13.5,
-          15.0
-        ],
-        "suggested_listing": 14.99,
-        "quick_sale_model": 13.5,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": [
-          26.99,
-          37.02
-        ],
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 2,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 15.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -9.61,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -15.99,
-        "fees": 2.44,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.44,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 13.09,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|168884819189|0",
-            "seller": "qteqltd",
-            "image": "https://i.ebayimg.com/images/g/j4EAAeSwhk9rBf0o/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168884819189",
-            "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 15.0,
-            "shipping": 0.0,
-            "listed_total": 15.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|168612729265|0",
-            "seller": "hermioodle",
-            "image": "https://i.ebayimg.com/images/g/pqwAAeSwplVqPQ8O/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168612729265",
-            "title": "LEGO\u00ae Editions Football Legends Kylian Mbapp\u00e9 (Mbappe) edi004 43013 New",
-            "declared_condition": "new",
-            "item_price": 13.99,
-            "shipping": 1.55,
-            "listed_total": 15.54,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407351724135|0",
-            "seller": "db8mt-10",
-            "image": "https://i.ebayimg.com/images/g/-t8AAeSwbnpq8kOr/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407351724135",
-            "title": "LEGO BrickHeadz Kylian Mbapp\u00e9 Football Highlights Set 43013 490pcs",
-            "declared_condition": "new",
-            "item_price": 16.15,
-            "shipping": 2.26,
-            "listed_total": 18.41,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377613108478|0",
-            "seller": "hoan-974",
-            "image": "https://i.ebayimg.com/images/g/-5EAAeSwLlJq52w9/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377613108478",
-            "title": "lego editions football 43013 mbappe - unopened",
-            "declared_condition": "new",
-            "item_price": 16.2,
-            "shipping": 2.26,
-            "listed_total": 18.46,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227614417826|0",
-            "seller": "yonli_79",
-            "image": "https://i.ebayimg.com/images/g/MR0AAeSwvG9q-MCx/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227614417826",
-            "title": "LEGO 43013 Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013, New and Sealed",
-            "declared_condition": "new",
-            "item_price": 15.99,
-            "shipping": 2.94,
-            "listed_total": 18.93,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|377332358068|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/IJoAAeSwgGxqUBpa/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377332358068",
-            "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 19.5,
-            "shipping": 0.0,
-            "listed_total": 19.5,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227587643686|0",
-            "seller": "j10-onestop",
-            "image": "https://i.ebayimg.com/images/g/WdUAAeSwYONq4ljd/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227587643686",
-            "title": "Lego Editions 43013 Kylian Mbappe Football  Highlights - NEW & SEALED",
-            "declared_condition": "new",
-            "item_price": 14.98,
-            "shipping": 4.8,
-            "listed_total": 19.78,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|336821318760|0",
-            "seller": "toys.99",
-            "image": "https://i.ebayimg.com/images/g/CDsAAeSwNA5qvXau/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/336821318760",
-            "title": "LEGO\u00ae Editions Kylian Mbapp\u00e9 \u2013 Football Highlights (43013) !NEW!",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.26,
-            "listed_total": 21.62,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|137956152948|0",
-            "seller": "1velour83",
-            "image": "https://i.ebayimg.com/images/g/IgEAAeSw~VprBGdz/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/137956152948",
-            "title": "LEGO Icons 43013 Kylian Mbapp\u00e9 Football Highlights Set Limited Ed 490 pcs 10+",
-            "declared_condition": "new",
-            "item_price": 21.99,
-            "shipping": 0.0,
-            "listed_total": 21.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407358017030|0",
-            "seller": "naschou_60",
-            "image": "https://i.ebayimg.com/images/g/NNAAAeSwjQtq9bD-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407358017030",
-            "title": "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            "declared_condition": "new",
-            "item_price": 22.89,
-            "shipping": 0.0,
-            "listed_total": 22.89,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013",
-        "query": "LEGO 43013",
-        "kind": "active_ask",
-        "listing": 14.99,
-        "observed_at": "2026-11-24T23:21:24+00:00",
-        "valid_until": "2026-11-25T05:21:24+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/168884819189",
-          "https://www.ebay.co.uk/itm/168612729265",
-          "https://www.ebay.co.uk/itm/407351724135",
-          "https://www.ebay.co.uk/itm/377613108478",
-          "https://www.ebay.co.uk/itm/227614417826",
-          "https://www.ebay.co.uk/itm/377332358068",
-          "https://www.ebay.co.uk/itm/227587643686",
-          "https://www.ebay.co.uk/itm/336821318760",
-          "https://www.ebay.co.uk/itm/137956152948",
-          "https://www.ebay.co.uk/itm/407358017030"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/168884819189",
-            "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            15.0,
-            0.0,
-            15.0,
-            "qteqltd"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/168612729265",
-            "LEGO\u00ae Editions Football Legends Kylian Mbapp\u00e9 (Mbappe) edi004 43013 New",
-            15.54,
-            1.55,
-            13.99,
-            "hermioodle"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407351724135",
-            "LEGO BrickHeadz Kylian Mbapp\u00e9 Football Highlights Set 43013 490pcs",
-            18.41,
-            2.26,
-            16.15,
-            "db8mt-10"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377613108478",
-            "lego editions football 43013 mbappe - unopened",
-            18.46,
-            2.26,
-            16.2,
-            "hoan-974"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227614417826",
-            "LEGO 43013 Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013, New and Sealed",
-            18.93,
-            2.94,
-            15.99,
-            "yonli_79"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/377332358068",
-            "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            19.5,
-            0.0,
-            19.5,
-            "edgeb_14"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227587643686",
-            "Lego Editions 43013 Kylian Mbappe Football  Highlights - NEW & SEALED",
-            19.78,
-            4.8,
-            14.98,
-            "j10-onestop"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/336821318760",
-            "LEGO\u00ae Editions Kylian Mbapp\u00e9 \u2013 Football Highlights (43013) !NEW!",
-            21.62,
-            2.26,
-            19.36,
-            "toys.99"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/137956152948",
-            "LEGO Icons 43013 Kylian Mbapp\u00e9 Football Highlights Set Limited Ed 490 pcs 10+",
-            21.99,
-            0.0,
-            21.99,
-            "1velour83"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407358017030",
-            "LEGO Editions : Kylian Mbapp\u00e9 Football Highlights 490pcs (43013)10+ New&sealed",
-            22.89,
-            0.0,
-            22.89,
-            "naschou_60"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
       "url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
       "policy_key": "2e14a53bc4124a63c746e4c2",
@@ -18090,8 +17369,8 @@
       "item_price": 19.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/150x150/qt/55/5043476_1.jpg",
@@ -18710,8 +17989,8 @@
       "item_price": 22.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/150x150/qt/55/5043394_1.jpg",
@@ -19430,8 +18709,8 @@
       "item_price": 24.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg",
@@ -20058,8 +19337,8 @@
       "item_price": 33.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/150x150/qt/55/5043412_1.jpg",
@@ -20777,8 +20056,8 @@
       "item_price": 33.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/150x150/qt/55/5043391_1.jpg",
@@ -21389,8 +20668,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg"
@@ -22102,8 +21381,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
@@ -22817,8 +22096,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/150x150/qt/55/5043545_1.jpg",
@@ -23437,8 +22716,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/150x150/qt/55/5043504_1.jpg",
@@ -23631,6 +22910,732 @@
       }
     },
     {
+      "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)",
+      "url": "https://www.hotukdeals.com/deals/lego-harry-potter-knockturn-alley-wizarding-shops-model-76471-8-years-5043647",
+      "policy_key": "557e443dbaaabe18214a964f",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Costco",
+      "item_price": 49.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg",
+        "https://i.ebayimg.com/images/g/5awAAeSwGERq4cna/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/xZwAAeSwIBFrA4F5/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-knockturn-alley-wizarding-shops-model-76471-8-years-5043647",
+      "landed_cost": null,
+      "breakeven_sell": 66.77,
+      "sell_for_minimum_profit": 90.73,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T08:03:00+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Harry+Potter+Knockturn+Alley+Wizarding+Shops&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 76471",
+        "category": "lego",
+        "name_terms": [
+          "8+",
+          "alley",
+          "harry",
+          "knockturn",
+          "model",
+          "potter",
+          "shops",
+          "wizarding",
+          "years"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T05:32:22+00:00",
+        "date": "2026-11-25",
+        "sample_count": 29,
+        "listed_total_low": 60.0,
+        "listed_total_p25": 69.99,
+        "listed_total_median": 80.15,
+        "listed_total_p75": 87.17,
+        "listed_total_high": 103.19,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|168884816182|0",
+            "seller": "qteqltd",
+            "image": "https://i.ebayimg.com/images/g/jxEAAeSwIkhrBfxZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168884816182",
+            "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 60.0,
+            "shipping": 0.0,
+            "listed_total": 60.0
+          },
+          {
+            "item_id": "v1|257742827821|0",
+            "seller": "rowla.jos",
+            "image": "https://i.ebayimg.com/images/g/k8AAAeSwKkJqqFaY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257742827821",
+            "title": "Lego 76471 Harry Potter Knockturn Alley Wizarding Shops Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 62.06,
+            "shipping": 3.71,
+            "listed_total": 65.77
+          },
+          {
+            "item_id": "v1|407324565821|0",
+            "seller": "lubainb80",
+            "image": "https://i.ebayimg.com/images/g/VD4AAeSwUdlq40kZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407324565821",
+            "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 63.09,
+            "shipping": 3.38,
+            "listed_total": 66.47
+          },
+          {
+            "item_id": "v1|820354356947|0",
+            "seller": "ri47964",
+            "image": "https://i.ebayimg.com/images/g/jUIAAeSw025q-Hqh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820354356947",
+            "title": "LEGO Harry Potter 76471",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 3.71,
+            "listed_total": 66.81
+          },
+          {
+            "item_id": "v1|840069317595|0",
+            "seller": "assorted_goods2020",
+            "image": "https://i.ebayimg.com/images/g/k04AAeSwRONq4kh6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840069317595",
+            "title": "LEGO Harry Potter: Knockturn Alley\u2122 Wizarding Shops (76471) - (RRP: \u00a379.99)",
+            "declared_condition": "new",
+            "item_price": 63.99,
+            "shipping": 2.94,
+            "listed_total": 66.93
+          },
+          {
+            "item_id": "v1|327470103159|0",
+            "seller": "greanes2",
+            "image": "https://i.ebayimg.com/images/g/pUQAAeSw1~lrAs~g/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327470103159",
+            "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 BNIB",
+            "declared_condition": "new",
+            "item_price": 67.26,
+            "shipping": 0.0,
+            "listed_total": 67.26
+          },
+          {
+            "item_id": "v1|198775411318|0",
+            "seller": "jgeeson",
+            "image": "https://i.ebayimg.com/images/g/1H8AAeSw2RFq7NRU/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198775411318",
+            "title": "LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops New Sealed",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 5.15,
+            "listed_total": 68.25
+          },
+          {
+            "item_id": "v1|178551245951|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/vigAAeSwzvFqwRyC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178551245951",
+            "title": "LEGO\u00a0Harry Potter: Knockturn Alley Wizarding Shop 76471",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99
+          },
+          {
+            "item_id": "v1|860155962714|0",
+            "seller": "cjworldonline-ltd",
+            "image": "https://i.ebayimg.com/images/g/PhoAAeSwfZ5q~fLJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860155962714",
+            "title": "BOX BEND LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops Age 8+ 788pcs",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99
+          },
+          {
+            "item_id": "v1|940001313878|0",
+            "seller": "derek80derek",
+            "image": "https://i.ebayimg.com/images/g/v~MAAeSwaEdqyRbR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/940001313878",
+            "title": "LEGO Harry Potter: Knockturn Alley  Wizarding Shops 76471 New",
+            "declared_condition": "new",
+            "item_price": 67.99,
+            "shipping": 3.38,
+            "listed_total": 71.37
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 21
+        },
+        "query_aliases": [
+          "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 76471",
+        "observed_at": "2026-11-25T05:32:22+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 29,
+        "seller_count": 29,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 60.0,
+        "competition_high": 103.19,
+        "estimated_resale": 58.2,
+        "estimated_range": [
+          54.0,
+          60.0
+        ],
+        "suggested_listing": 59.99,
+        "quick_sale_model": 54.0,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 49.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -7.17,
+        "max_landed_buy": 30.58,
+        "max_item_buy": null,
+        "delivery_headroom": -19.41,
+        "fees": 8.34,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.75,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 52.38,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 32.82,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|168884816182|0",
+            "seller": "qteqltd",
+            "image": "https://i.ebayimg.com/images/g/jxEAAeSwIkhrBfxZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168884816182",
+            "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 60.0,
+            "shipping": 0.0,
+            "listed_total": 60.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257742827821|0",
+            "seller": "rowla.jos",
+            "image": "https://i.ebayimg.com/images/g/k8AAAeSwKkJqqFaY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257742827821",
+            "title": "Lego 76471 Harry Potter Knockturn Alley Wizarding Shops Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 62.06,
+            "shipping": 3.71,
+            "listed_total": 65.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407324565821|0",
+            "seller": "lubainb80",
+            "image": "https://i.ebayimg.com/images/g/VD4AAeSwUdlq40kZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407324565821",
+            "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 63.09,
+            "shipping": 3.38,
+            "listed_total": 66.47,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|820354356947|0",
+            "seller": "ri47964",
+            "image": "https://i.ebayimg.com/images/g/jUIAAeSw025q-Hqh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820354356947",
+            "title": "LEGO Harry Potter 76471",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 3.71,
+            "listed_total": 66.81,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840069317595|0",
+            "seller": "assorted_goods2020",
+            "image": "https://i.ebayimg.com/images/g/k04AAeSwRONq4kh6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840069317595",
+            "title": "LEGO Harry Potter: Knockturn Alley\u2122 Wizarding Shops (76471) - (RRP: \u00a379.99)",
+            "declared_condition": "new",
+            "item_price": 63.99,
+            "shipping": 2.94,
+            "listed_total": 66.93,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327470103159|0",
+            "seller": "greanes2",
+            "image": "https://i.ebayimg.com/images/g/pUQAAeSw1~lrAs~g/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327470103159",
+            "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 BNIB",
+            "declared_condition": "new",
+            "item_price": 67.26,
+            "shipping": 0.0,
+            "listed_total": 67.26,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198775411318|0",
+            "seller": "jgeeson",
+            "image": "https://i.ebayimg.com/images/g/1H8AAeSw2RFq7NRU/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198775411318",
+            "title": "LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops New Sealed",
+            "declared_condition": "new",
+            "item_price": 63.1,
+            "shipping": 5.15,
+            "listed_total": 68.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|178551245951|0",
+            "seller": "jafwh1544-hgkhryc7",
+            "image": "https://i.ebayimg.com/images/g/vigAAeSwzvFqwRyC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178551245951",
+            "title": "LEGO\u00a0Harry Potter: Knockturn Alley Wizarding Shop 76471",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860155962714|0",
+            "seller": "cjworldonline-ltd",
+            "image": "https://i.ebayimg.com/images/g/PhoAAeSwfZ5q~fLJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860155962714",
+            "title": "BOX BEND LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops Age 8+ 788pcs",
+            "declared_condition": "new",
+            "item_price": 69.99,
+            "shipping": 0.0,
+            "listed_total": 69.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|940001313878|0",
+            "seller": "derek80derek",
+            "image": "https://i.ebayimg.com/images/g/v~MAAeSwaEdqyRbR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/940001313878",
+            "title": "LEGO Harry Potter: Knockturn Alley  Wizarding Shops 76471 New",
+            "declared_condition": "new",
+            "item_price": 67.99,
+            "shipping": 3.38,
+            "listed_total": 71.37,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)",
+        "query": "LEGO 76471",
+        "kind": "active_ask",
+        "listing": 59.99,
+        "observed_at": "2026-11-25T05:32:22+00:00",
+        "valid_until": "2026-11-25T11:32:22+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/168884816182",
+          "https://www.ebay.co.uk/itm/257742827821",
+          "https://www.ebay.co.uk/itm/407324565821",
+          "https://www.ebay.co.uk/itm/820354356947",
+          "https://www.ebay.co.uk/itm/840069317595",
+          "https://www.ebay.co.uk/itm/327470103159",
+          "https://www.ebay.co.uk/itm/198775411318",
+          "https://www.ebay.co.uk/itm/178551245951",
+          "https://www.ebay.co.uk/itm/860155962714",
+          "https://www.ebay.co.uk/itm/940001313878"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/168884816182",
+            "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+            60.0,
+            0.0,
+            60.0,
+            "qteqltd"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/257742827821",
+            "Lego 76471 Harry Potter Knockturn Alley Wizarding Shops Brand New And Sealed",
+            65.77,
+            3.71,
+            62.06,
+            "rowla.jos"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/407324565821",
+            "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 Brand New & Sealed",
+            66.47,
+            3.38,
+            63.09,
+            "lubainb80"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/820354356947",
+            "LEGO Harry Potter 76471",
+            66.81,
+            3.71,
+            63.1,
+            "ri47964"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/840069317595",
+            "LEGO Harry Potter: Knockturn Alley\u2122 Wizarding Shops (76471) - (RRP: \u00a379.99)",
+            66.93,
+            2.94,
+            63.99,
+            "assorted_goods2020"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327470103159",
+            "LEGO Harry Potter Knockturn Alley Wizarding Shops 76471 BNIB",
+            67.26,
+            0.0,
+            67.26,
+            "greanes2"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/198775411318",
+            "LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops New Sealed",
+            68.25,
+            5.15,
+            63.1,
+            "jgeeson"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/178551245951",
+            "LEGO\u00a0Harry Potter: Knockturn Alley Wizarding Shop 76471",
+            69.99,
+            0.0,
+            69.99,
+            "jafwh1544-hgkhryc7"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/860155962714",
+            "BOX BEND LEGO Harry Potter 76471 Knockturn Alley Wizarding Shops Age 8+ 788pcs",
+            69.99,
+            0.0,
+            69.99,
+            "cjworldonline-ltd"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/940001313878",
+            "LEGO Harry Potter: Knockturn Alley  Wizarding Shops 76471 New",
+            71.37,
+            3.38,
+            67.99,
+            "derek80derek"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Editions Formula 1 Ayrton Senna Helmet - Model 43024 (14+ Years)",
       "url": "https://www.hotukdeals.com/deals/lego-editions-formula-1-ayrton-senna-helmet-model-43024-14-years-5043616",
       "policy_key": "9be257ccb7275b7da064689f",
@@ -23645,8 +23650,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/150x150/qt/55/5043616_1.jpg",
@@ -24488,7 +24493,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-25T04:58:18+00:00",
+          "observed_at": "2026-11-25T05:30:40+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -24804,8 +24809,8 @@
       "item_price": 59.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/P4GBk/5046087_1/re/300x300/qt/55/5046087_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/P4GBk/5046087_1/re/300x300/qt/55/5046087_1.jpg",
         "https://images.hotukdeals.com/threads/raw/P4GBk/5046087_1/re/150x150/qt/55/5046087_1.jpg"
@@ -25522,8 +25527,8 @@
       "item_price": 61.02,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAWAI/5045300_1/re/300x300/qt/55/5045300_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAWAI/5045300_1/re/300x300/qt/55/5045300_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAWAI/5045300_1/re/150x150/qt/55/5045300_1.jpg"
@@ -25726,8 +25731,8 @@
       "item_price": 65.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KYXLV/5045210_1/re/300x300/qt/55/5045210_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KYXLV/5045210_1/re/300x300/qt/55/5045210_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KYXLV/5045210_1/re/150x150/qt/55/5045210_1.jpg"
@@ -26341,8 +26346,8 @@
       "item_price": 70.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/300x300/qt/55/5045402_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/300x300/qt/55/5045402_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/150x150/qt/55/5045402_1.jpg"
@@ -27058,8 +27063,8 @@
       "item_price": 72.93,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/150x150/qt/55/5045518_1.jpg"
@@ -27679,8 +27684,8 @@
       "item_price": 74.06,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/zoPB2/5044974_1/re/300x300/qt/55/5044974_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zoPB2/5044974_1/re/300x300/qt/55/5044974_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zoPB2/5044974_1/re/150x150/qt/55/5044974_1.jpg"
@@ -28301,8 +28306,8 @@
       "item_price": 99.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/VZJbL/5045078_1/re/300x300/qt/55/5045078_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/VZJbL/5045078_1/re/300x300/qt/55/5045078_1.jpg",
         "https://images.hotukdeals.com/threads/raw/VZJbL/5045078_1/re/150x150/qt/55/5045078_1.jpg"
@@ -29017,8 +29022,8 @@
       "item_price": 124.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/300x300/qt/55/5045468_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/300x300/qt/55/5045468_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/150x150/qt/55/5045468_1.jpg"
@@ -29737,7 +29742,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-25T04:58:18+00:00",
+        "canonicalized_at": "2026-11-25T05:30:40+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Blades of Fire Day One Edition (PS5)"
@@ -29953,12 +29958,15 @@
             "declared_condition": "new",
             "item_price": 19.99,
             "shipping": 0.0,
-            "listed_total": 19.99
+            "listed_total": 19.99,
+            "observed_at": "2026-11-25T04:59:24+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 49
         },
+        "canonicalized_at": "2026-11-25T05:30:40+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Final Fantasy XVI (PS5)"
         ]
@@ -30062,6 +30070,7 @@
             "item_price": 19.99,
             "shipping": 0.0,
             "listed_total": 19.99,
+            "observed_at": "2026-11-25T04:59:24+00:00",
             "same_acquisition_promotion": false
           }
         ]
@@ -30202,7 +30211,7 @@
         "rejected": {
           "identity_or_condition": 13
         },
-        "canonicalized_at": "2026-11-25T04:58:18+00:00",
+        "canonicalized_at": "2026-11-25T05:30:40+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Alan Wake 2 Deluxe Edition - PS5"
@@ -30506,7 +30515,7 @@
         "rejected": {
           "identity_or_condition": 47
         },
-        "canonicalized_at": "2026-11-25T04:58:18+00:00",
+        "canonicalized_at": "2026-11-25T05:30:40+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Final Fantasy VII Rebirth (PS5)"
@@ -30674,6 +30683,200 @@
       }
     },
     {
+      "title": "Gothic 1 Remake - PlayStation 5 (PS5)",
+      "url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
+      "policy_key": "27c53efa7b27672276af58e7",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 19.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/YxSbF/5038516_1/re/150x150/qt/55/5038516_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
+      "landed_cost": null,
+      "breakeven_sell": 27.95,
+      "sell_for_minimum_profit": 37.39,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-19T08:29:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gothic+1+Remake&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "gothic 1 remake ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T05:32:22+00:00",
+        "date": "2026-11-25",
+        "sample_count": 1,
+        "listed_total_low": 47.94,
+        "listed_total_p25": 47.94,
+        "listed_total_median": 47.94,
+        "listed_total_p75": 47.94,
+        "listed_total_high": 47.94,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|227413427365|0",
+            "seller": "thegamery",
+            "image": "https://i.ebayimg.com/images/g/UIcAAeSw3b9rBcOf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227413427365",
+            "title": "Gothic 1 Remake (PS5)",
+            "declared_condition": "new",
+            "item_price": 47.94,
+            "shipping": 0.0,
+            "listed_total": 47.94
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 7
+        },
+        "query_aliases": [
+          "Gothic 1 Remake - PlayStation 5 (PS5)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "gothic 1 remake ps5",
+        "observed_at": "2026-11-25T05:32:22+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 47.94,
+        "competition_high": 47.94,
+        "estimated_resale": 46.5,
+        "estimated_range": [
+          43.14,
+          47.94
+        ],
+        "suggested_listing": 47.93,
+        "quick_sale_model": 43.14,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 19.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 15.71,
+        "max_landed_buy": 25.5,
+        "max_item_buy": null,
+        "delivery_headroom": 5.51,
+        "fees": 6.2,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 1.4,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 41.85,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 25.7,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|227413427365|0",
+            "seller": "thegamery",
+            "image": "https://i.ebayimg.com/images/g/UIcAAeSw3b9rBcOf/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227413427365",
+            "title": "Gothic 1 Remake (PS5)",
+            "declared_condition": "new",
+            "item_price": 47.94,
+            "shipping": 0.0,
+            "listed_total": 47.94,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "Sony DualSense PS5 Wireless Controller - Midnight Black",
       "url": "https://www.hotukdeals.com/deals/sony-dualsense-ps5-wireless-controller-midnight-black-5046097",
       "policy_key": "fcddbd20dc4d9e71cb7cee86",
@@ -30822,7 +31025,7 @@
           ]
         },
         "detail_status": "awaiting_detail_budget",
-        "canonicalized_at": "2026-11-25T04:58:18+00:00",
+        "canonicalized_at": "2026-11-25T05:30:40+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Sony DualSense PS5 Wireless Controller - Midnight Black"
@@ -31004,8 +31207,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg",
@@ -31048,8 +31251,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/300x300/qt/55/5045382_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/300x300/qt/55/5045382_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/150x150/qt/55/5045382_1.jpg"
@@ -31090,8 +31293,8 @@
       "item_price": 10.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg",
@@ -31173,8 +31376,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/300x300/qt/55/5045322_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/300x300/qt/55/5045322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/150x150/qt/55/5045322_1.jpg"
@@ -31259,8 +31462,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/150x150/qt/55/5044887_1.jpg"
@@ -31301,8 +31504,8 @@
       "item_price": 12.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/300x300/qt/55/5044887_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9kDLl/5044887_1/re/150x150/qt/55/5044887_1.jpg",
@@ -31563,8 +31766,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/150x150/qt/55/5043529_1.jpg",
@@ -31607,8 +31810,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg",
@@ -31651,8 +31854,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/150x150/qt/55/5043728_1.jpg",
@@ -31777,8 +31980,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
@@ -31800,6 +32003,48 @@
       "priority": 10,
       "first_seen": "2026-11-23T12:28:56+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+DC+Batman+v+Superman+Batmobile+Set+76331&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013",
+      "url": "https://www.hotukdeals.com/deals/lego-editions-kylian-mbappe-football-highlights-43013-5046012",
+      "policy_key": "56ec716b17e805dd724a062f",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 15.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/150x150/qt/55/5046012_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-editions-kylian-mbappe-football-highlights-43013-5046012",
+      "landed_cost": null,
+      "breakeven_sell": 26.06,
+      "sell_for_minimum_profit": 35.64,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-24T23:21:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Editions+Kylian+Mbapp%C3%A9&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -31865,8 +32110,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
@@ -31909,8 +32154,8 @@
       "item_price": 18.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg",
@@ -32085,8 +32330,8 @@
       "item_price": 26.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/300x300/qt/55/5045346_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/300x300/qt/55/5045346_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/150x150/qt/55/5045346_1.jpg"
@@ -32171,8 +32416,8 @@
       "item_price": 28.45,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/150x150/qt/55/5043414_1.jpg",
@@ -32254,8 +32499,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg",
@@ -32298,8 +32543,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -32384,8 +32629,8 @@
       "item_price": 30.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iy5wJ/5045794_1/re/300x300/qt/55/5045794_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iy5wJ/5045794_1/re/300x300/qt/55/5045794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iy5wJ/5045794_1/re/150x150/qt/55/5045794_1.jpg"
@@ -32470,8 +32715,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -32556,8 +32801,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg",
@@ -32644,8 +32889,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -32860,8 +33105,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
@@ -32904,8 +33149,8 @@
       "item_price": 37.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/300x300/qt/55/5045934_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/300x300/qt/55/5045934_1.jpg",
         "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/150x150/qt/55/5045934_1.jpg"
@@ -33043,8 +33288,8 @@
       "item_price": 38.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/150x150/qt/55/5044396_1.jpg",
@@ -33345,8 +33590,8 @@
       "item_price": 41.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
@@ -33389,8 +33634,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/150x150/qt/55/5043415_1.jpg",
@@ -33433,8 +33678,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -33475,8 +33720,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/150x150/qt/55/5043399_1.jpg",
@@ -33519,8 +33764,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/150x150/qt/55/5044089_1.jpg",
@@ -33563,8 +33808,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/150x150/qt/55/5043608_1.jpg",
@@ -33607,8 +33852,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -33693,8 +33938,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/300x300/qt/55/5045185_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/300x300/qt/55/5045185_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/150x150/qt/55/5045185_1.jpg"
@@ -33735,8 +33980,8 @@
       "item_price": 48.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
@@ -33779,8 +34024,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/150x150/qt/55/5043409_1.jpg",
@@ -33823,8 +34068,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -33895,50 +34140,6 @@
       }
     },
     {
-      "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)",
-      "url": "https://www.hotukdeals.com/deals/lego-harry-potter-knockturn-alley-wizarding-shops-model-76471-8-years-5043647",
-      "policy_key": "557e443dbaaabe18214a964f",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Costco",
-      "item_price": 49.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg",
-        "https://i.ebayimg.com/images/g/5awAAeSwGERq4cna/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/xZwAAeSwIBFrA4F5/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-knockturn-alley-wizarding-shops-model-76471-8-years-5043647",
-      "landed_cost": null,
-      "breakeven_sell": 66.77,
-      "sell_for_minimum_profit": 90.73,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-23T08:03:00+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Harry+Potter+Knockturn+Alley+Wizarding+Shops&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Star Wars R2-D2 - 75379",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-r2-d2-75379-5045008",
       "policy_key": "dfca6850dd24cfb3fc9756b1",
@@ -33953,8 +34154,8 @@
       "item_price": 50.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/150x150/qt/55/5045008_1.jpg"
@@ -33995,8 +34196,8 @@
       "item_price": 51.43,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/150x150/qt/55/5044267_1.jpg"
@@ -34081,8 +34282,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/150x150/qt/55/5044623_1.jpg",
@@ -34125,8 +34326,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/150x150/qt/55/5045008_1.jpg",
@@ -34169,8 +34370,8 @@
       "item_price": 55.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/150x150/qt/55/5043458_1.jpg",
@@ -34213,8 +34414,8 @@
       "item_price": 59.34,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
-      "image_verified_until": "2026-11-25T05:19:28.152843+00:00",
-      "image_checked_at": "2026-11-25T04:59:28.152843+00:00",
+      "image_verified_until": "2026-11-25T05:52:26.405270+00:00",
+      "image_checked_at": "2026-11-25T05:32:26.405270+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/150x150/qt/55/5043607_1.jpg"
@@ -34255,8 +34456,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -34297,8 +34498,8 @@
       "item_price": 69.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cUvrB/5045598_1/re/300x300/qt/55/5045598_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cUvrB/5045598_1/re/300x300/qt/55/5045598_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cUvrB/5045598_1/re/150x150/qt/55/5045598_1.jpg"
@@ -35396,8 +35597,8 @@
       "item_price": 7.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/300x300/qt/55/5044826_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/300x300/qt/55/5044826_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xOxZY/5044826_1/re/150x150/qt/55/5044826_1.jpg"
@@ -38626,45 +38827,6 @@
       }
     },
     {
-      "title": "Gothic 1 Remake - PlayStation 5 (PS5)",
-      "url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
-      "policy_key": "27c53efa7b27672276af58e7",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 19.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/YxSbF/5038516_1/re/150x150/qt/55/5038516_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/gothic-1-remake-playstation-5-5038516",
-      "landed_cost": null,
-      "breakeven_sell": 27.95,
-      "sell_for_minimum_profit": 37.39,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T08:29:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Gothic+1+Remake&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Marvel Cosmic Invasion - PS5 - Delayed Dispatch",
       "url": "https://www.hotukdeals.com/deals/marvel-cosmic-invasion-ps5-5044278",
       "policy_key": "6821bfffca3dc540f279bb9c",
@@ -41541,34 +41703,7 @@
       "priority": 0,
       "first_seen": "2026-11-19T14:57:21+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Death+Stranding+2%3A+On+The+Beach+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "death stranding 2 on the beach sold by nimadva ltd fba ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-24T23:21:24+00:00",
-        "date": "2026-11-24",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "Death Stranding 2: On The Beach (PS5) - Sold by Nimadva LTD / FBA"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -46900,8 +47035,8 @@
       "item_price": 70.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/y6n0e/5045145_1/re/300x300/qt/55/5045145_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
-      "image_checked_at": "2026-11-25T04:58:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
+      "image_checked_at": "2026-11-25T05:30:50.415926+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/y6n0e/5045145_1/re/300x300/qt/55/5045145_1.jpg",
         "https://images.hotukdeals.com/threads/raw/y6n0e/5045145_1/re/150x150/qt/55/5045145_1.jpg"
@@ -48152,17 +48287,17 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 526,
+      "retailer_offers": 527,
       "known_landed_under_cap": 3,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
       "under_cap_without_model": 3,
-      "retailer_unknown_delivery": 520,
+      "retailer_unknown_delivery": 521,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 527,
+    "scanned": 528,
     "priced": 7,
-    "unpriced": 520,
+    "unpriced": 521,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -48176,10 +48311,10 @@
     "expiry_unknown": 7,
     "sold_valued": 0,
     "reference_only": 7,
-    "online_eligible": 471,
+    "online_eligible": 470,
     "under_cap_known_delivery": 3,
     "delivery_known": 7,
-    "ask_valued": 27,
+    "ask_valued": 28,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
     "above_budget_estimates": 8,
@@ -48187,13 +48322,13 @@
     "above_budget_researched": 8,
     "above_budget_research_candidates": 50,
     "acquisition_by_source": {
-      "hotukdeals": 526,
+      "hotukdeals": 527,
       "ebay_browse": 1
     },
-    "qualified_delivery_unknown": 26,
+    "qualified_delivery_unknown": 27,
     "ask_delivery_known": 1,
-    "ask_unique_products": 26,
-    "ask_research_identities": 26,
+    "ask_unique_products": 27,
+    "ask_research_identities": 27,
     "without_any_pricing": 494,
     "pricing_coverage": {
       "fragrance": {
@@ -48204,10 +48339,10 @@
         "supported_retailer_identities": 0
       },
       "gaming": {
-        "offers": 202,
-        "exact_identity": 131,
-        "estimated_offers": 5,
-        "estimated_products": 5,
+        "offers": 201,
+        "exact_identity": 130,
+        "estimated_offers": 6,
+        "estimated_products": 6,
         "supported_retailer_identities": 0
       },
       "lego": {
@@ -48218,7 +48353,7 @@
         "supported_retailer_identities": 10
       },
       "other": {
-        "offers": 23,
+        "offers": 25,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -48255,12 +48390,12 @@
     },
     "browse_usage": {
       "date": "2026-11-25",
-      "calls": 134,
+      "calls": 146,
       "by_purpose": {
-        "persistent-research": 20,
-        "item-details": 40,
-        "acquisition": 40,
-        "asking-affordable": 20,
+        "persistent-research": 22,
+        "item-details": 44,
+        "acquisition": 44,
+        "asking-affordable": 22,
         "asking-watch": 13,
         "asking-tools": 1
       }
@@ -48274,11 +48409,11 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 30,
+        "duplicates": 28,
         "old_dropped": 100,
         "age_unknown": 0,
-        "missing_price_or_category": 103,
-        "ambiguous_price": 10,
+        "missing_price_or_category": 104,
+        "ambiguous_price": 11,
         "page_requests": 11
       },
       "ebay": {
@@ -48293,7 +48428,7 @@
             "lego": 1,
             "gaming": 1
           },
-          "candidates_with_samples": 19,
+          "candidates_with_samples": 20,
           "status": "ready",
           "errors": [],
           "tools_research": {
@@ -48308,12 +48443,10 @@
           },
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 1,
-            "cached": 7,
+            "queries": 0,
+            "cached": 8,
             "query_budget": 2,
-            "queries_by_category": {
-              "trainers": 1
-            },
+            "queries_by_category": {},
             "candidates_with_samples": 8,
             "status": "ready",
             "errors": []
@@ -48327,8 +48460,8 @@
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-25T04:50:24.430Z",
-        "last_success": "2026-11-25T04:50:24.430Z"
+        "last_attempt": "2026-11-25T05:30:24.412Z",
+        "last_success": "2026-11-25T05:30:24.412Z"
       },
       "ebay_acquisition": {
         "status": "ready",
@@ -48343,49 +48476,45 @@
         },
         "query_details": [
           {
-            "query": "LEGO 72037",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {
-              "identity_or_condition": 7
-            },
-            "sort": "price",
-            "max_item_price": 53.99,
-            "max_landed_price": 53.99,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 76450",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {
-              "identity_or_condition": 4
-            },
-            "sort": "price",
-            "max_item_price": 33.32,
-            "max_landed_price": 33.32,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 10696",
+            "query": "LEGO 43024",
             "category": "lego",
             "samples": 0,
             "rejected": {},
-            "sort": "newlyListed",
-            "max_item_price": 4.75,
-            "max_landed_price": 4.75,
+            "sort": "price",
+            "max_item_price": 28.31,
+            "max_landed_price": 28.31,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "Nike HQ1416-001",
-            "category": "trainers",
-            "samples": 2,
+            "query": "LEGO 72046",
+            "category": "lego",
+            "samples": 0,
             "rejected": {
-              "identity_or_condition": 48
+              "identity_or_condition": 3
             },
+            "sort": "price",
+            "max_item_price": 19.43,
+            "max_landed_price": 19.43,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "LEGO 11502",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {},
+            "sort": "price",
+            "max_item_price": 16.14,
+            "max_landed_price": 16.14,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "Nike IQ0157-001",
+            "category": "trainers",
+            "samples": 0,
+            "rejected": {},
             "sort": "price",
             "max_item_price": null,
             "max_landed_price": null,
@@ -48396,11 +48525,11 @@
         "target_selection": {
           "contexts_examined": 150,
           "context_reasons": {
-            "not_usable": 143,
-            "eligible": 4,
-            "query_cooldown": 3
+            "not_usable": 142,
+            "query_cooldown": 3,
+            "eligible": 5
           },
-          "eligible_distinct_queries": 4,
+          "eligible_distinct_queries": 5,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -48409,11 +48538,9 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 72037",
-        "matched_shipped_samples": 2,
-        "rejections": {
-          "identity_or_condition": 48
-        },
+        "query": "LEGO 43024",
+        "matched_shipped_samples": 0,
+        "rejections": {},
         "watchlist_products": 212
       },
       "reviewed_bridge": {
@@ -48429,30 +48556,30 @@
         "status": "reviewed exact cash quotes only"
       }
     },
-    "new": 0,
-    "rescanned": 527,
+    "new": 4,
+    "rescanned": 524,
     "price_changed": 0,
-    "previous_success": "2026-11-25T04:27:35+00:00",
-    "gap_minutes": 31.8,
+    "previous_success": "2026-11-25T05:00:00+00:00",
+    "gap_minutes": 32.4,
     "publication_holds": {
       "eligible": 11,
-      "held": 516,
+      "held": 517,
       "reasons": {
         "no_supported_resale_estimate": 500,
         "uncertain_competitor_coupon": 3,
         "low_price_not_supported": 7,
-        "fewer_than_three_exact_independent_comparators": 4,
+        "fewer_than_three_exact_independent_comparators": 5,
         "detail_check_pending": 2
       },
       "by_category": {
-        "lego": 110,
-        "gaming": 202,
         "sportswear": 3,
-        "other": 23,
-        "tools": 16,
         "trainers": 68,
+        "tools": 16,
         "tech": 61,
-        "fragrance": 33
+        "fragrance": 33,
+        "lego": 110,
+        "other": 25,
+        "gaming": 201
       }
     },
     "excluded_nonphysical": [
@@ -48627,16 +48754,16 @@
         "actionable": 0
       },
       "hotukdeals": {
-        "offers": 526,
-        "new": 0,
-        "estimated": 26,
+        "offers": 527,
+        "new": 4,
+        "estimated": 27,
         "actionable": 0
       }
     },
     "value_watchlist": {
       "products": 143,
       "identity_contexts": 150,
-      "usable_targets": 8,
+      "usable_targets": 9,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -48644,14 +48771,14 @@
           "usable_targets": 0
         },
         "gaming": {
-          "products": 39,
-          "identity_contexts": 39,
+          "products": 40,
+          "identity_contexts": 40,
           "usable_targets": 0
         },
         "lego": {
-          "products": 90,
-          "identity_contexts": 97,
-          "usable_targets": 8
+          "products": 89,
+          "identity_contexts": 96,
+          "usable_targets": 9
         },
         "tools": {
           "products": 1,
@@ -48677,8 +48804,8 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 527,
-      "research_models_generated": 27,
+      "offers_scanned": 528,
+      "research_models_generated": 28,
       "supported_market_estimates": 11,
       "publication_qualified_cards": 11,
       "route_eligible_cards": 11,
@@ -48687,12 +48814,12 @@
       "opportunity_candidates": 0,
       "research_watch_candidates": 11,
       "above_budget_priced_watch": 2,
-      "research_holds": 516,
+      "research_holds": 517,
       "hold_reasons": {
         "no_supported_resale_estimate": 500,
         "uncertain_competitor_coupon": 3,
         "low_price_not_supported": 7,
-        "fewer_than_three_exact_independent_comparators": 4,
+        "fewer_than_three_exact_independent_comparators": 5,
         "detail_check_pending": 2
       },
       "by_category": {
@@ -48715,10 +48842,10 @@
           "holds": 110
         },
         "gaming": {
-          "offers": 202,
+          "offers": 201,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 202
+          "holds": 201
         },
         "tools": {
           "offers": 17,
@@ -48739,14 +48866,14 @@
           "holds": 61
         },
         "other": {
-          "offers": 23,
+          "offers": 25,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 23
+          "holds": 25
         }
       },
       "inbound_known": 7,
-      "inbound_unknown": 520
+      "inbound_unknown": 521
     },
     "routing_destinations": {
       "opportunities": {
@@ -48774,6 +48901,11 @@
         "summary": "Sell: \u00a322.87 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a322.19. \u00b7 Net: At most +\u00a30.42 at \u00a322.87 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a322.19 sale: \u2212\u00a30.15 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       },
       {
+        "title": "LEGO Harry Potter Knockturn Alley Wizarding Shops - Model 76471 (8+ Years)",
+        "url": "https://www.hotukdeals.com/deals/lego-harry-potter-knockturn-alley-wizarding-shops-model-76471-8-years-5043647",
+        "summary": "Sell: \u00a359.99 starting listing \u2014 INDICATIVE ONLY; limited/unverified comparators. Conservative sale model \u00a358.20. \u00b7 Net: At most \u2212\u00a35.67 at \u00a359.99 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a358.20 sale: \u2212\u00a37.17 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
+      },
+      {
         "title": "LEGO Architecture London Skyline Model 21034",
         "url": "https://www.hotukdeals.com/deals/lego-architecture-london-skyline-model-21034-5043394",
         "summary": "Sell: \u00a324.99 starting listing \u2014 competitor-based, not guaranteed. Conservative sale model \u00a324.25. \u00b7 Net: At most \u2212\u00a37.89 at \u00a324.99 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a324.25 sale: \u2212\u00a38.51 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
@@ -48782,19 +48914,12 @@
         "title": "LEGO Super Mario 72046 Game Boy (Free C&C)",
         "url": "https://www.hotukdeals.com/deals/lego-super-mario-72046-gameboy-5045054",
         "summary": "Sell: \u00a340.98 starting listing \u2014 competitor-based, not guaranteed. Conservative sale model \u00a339.76. \u00b7 Net: At most \u2212\u00a37.54 at \u00a340.98 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a339.76 sale: \u2212\u00a38.56 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
-      },
-      {
-        "title": "LEGO Super Mario Game Boy 72046",
-        "url": "https://www.hotukdeals.com/deals/lego-super-mario-game-boy-72046-5043384",
-        "summary": "Sell: \u00a340.98 starting listing \u2014 competitor-based, not guaranteed. Conservative sale model \u00a339.76. \u00b7 Net: At most \u2212\u00a37.54 at \u00a340.98 sale BEFORE UNKNOWN inbound delivery; actual net/ROI UNKNOWN. Conservative \u00a339.76 sale: \u2212\u00a38.56 before unknown deliv \u00b7 Decision: SKIP \u2014 estimated loss even before unknown inbound delivery."
       }
     ],
     "notification_delivery": {
       "mode": "live",
-      "product_messages_delivered": 1,
-      "by_route": {
-        "research-watch": 1
-      }
+      "product_messages_delivered": 0,
+      "by_route": {}
     },
     "review_candidates": 431,
     "lego_image_validation": {
@@ -48807,19 +48932,19 @@
     },
     "pricing_labels": {
       "exact_priced": 11,
-      "research_model_only": 16,
+      "research_model_only": 17,
       "unpriced": 500,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
-    "images_available": 476,
+    "images_available": 477,
     "lego_images_available": 71,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "45550312802",
+      "run_id": "45554044325",
       "event": "workflow_dispatch",
-      "parent_run_id": "45546586225"
+      "parent_run_id": "45550312802"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -48842,17 +48967,6 @@
           "title": "LEGO 10696 (484 pieces) Classic The Creative Brick Box, Toy and Storage Set with Bricks, Wheels, Windows",
           "current_price": 12.9,
           "last_delivered_price": 12.9,
-          "pct_change": 0.0,
-          "would_deliver": false,
-          "reason": "price_change_under_10pct",
-          "is_repost": false
-        },
-        {
-          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-editions-kylian-mbappe-football-highlights-43013-5046012",
-          "url": "https://www.hotukdeals.com/deals/lego-editions-kylian-mbappe-football-highlights-43013-5046012",
-          "title": "LEGO Editions Kylian Mbapp\u00e9 \u2013 Football Highlights 43013",
-          "current_price": 15.99,
-          "last_delivered_price": 15.99,
           "pct_change": 0.0,
           "would_deliver": false,
           "reason": "price_change_under_10pct",
@@ -48907,10 +49021,10 @@
           "url": "https://www.hotukdeals.com/deals/lego-editions-formula-1-ayrton-senna-helmet-model-43024-14-years-5043616",
           "title": "LEGO Editions Formula 1 Ayrton Senna Helmet - Model 43024 (14+ Years)",
           "current_price": 54.99,
-          "last_delivered_price": null,
-          "pct_change": null,
-          "would_deliver": true,
-          "reason": "first_delivery",
+          "last_delivered_price": 54.99,
+          "pct_change": 0.0,
+          "would_deliver": false,
+          "reason": "price_change_under_10pct",
           "is_repost": false
         },
         {
@@ -49083,7 +49197,7 @@
         "rejected": {
           "identity_or_condition": 47
         },
-        "canonicalized_at": "2026-11-25T04:58:18+00:00",
+        "canonicalized_at": "2026-11-25T05:30:40+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Final Fantasy VII Rebirth (PS5)"
@@ -49507,7 +49621,7 @@
       "max_buy": 4.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/300x300/qt/55/5045934_1.jpg",
-      "image_verified_until": "2026-11-25T05:18:30.788164+00:00",
+      "image_verified_until": "2026-11-25T05:50:50.415926+00:00",
       "image_basis": "Own offer/feed product image",
       "image_source_url": "https://www.hotukdeals.com/deals/lego-animal-crossing-timmy-tommys-fun-day-out-77059-5045934",
       "image_candidates": [
