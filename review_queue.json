@@ -2,6 +2,663 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+      "url": "https://www.ebay.co.uk/itm/188906912962",
+      "policy_key": "4c41315d94ef6b2b0fb09b15",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 85.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/188906912962",
+      "landed_cost": 85.99,
+      "breakeven_sell": 105.96,
+      "sell_for_minimum_profit": 144.92,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T18:31:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCV100",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-25T02:48:23+00:00",
+        "date": "2026-11-25",
+        "sample_count": 3,
+        "listed_total_low": 85.99,
+        "listed_total_p25": 85.99,
+        "listed_total_median": 85.99,
+        "listed_total_p75": 108.14,
+        "listed_total_high": 130.29,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29
+          }
+        ],
+        "rejected": {},
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "observed_at": "2026-11-25T02:48:23+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 85.99,
+        "competition_high": 130.29,
+        "estimated_resale": 83.41,
+        "estimated_range": [
+          77.39,
+          85.99
+        ],
+        "suggested_listing": 85.98,
+        "quick_sale_model": 77.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 85.99,
+        "delivery_known": true,
+        "landed_cost": 85.99,
+        "net": -19.91,
+        "roi": -23.2,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 47.2,
+        "max_item_buy": 47.2,
+        "delivery_headroom": -38.79,
+        "fees": 7.74,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 2.5,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 75.06,
+        "review_stress_net": -27.28,
+        "review_stress_roi": -31.7,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 53.37,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
+      "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+      "url": "https://www.ebay.co.uk/itm/197018344217",
+      "policy_key": "5a78d02ed8d9da7477d0e8d7",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 85.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/197018344217",
+      "landed_cost": 85.99,
+      "breakeven_sell": 105.96,
+      "sell_for_minimum_profit": 144.92,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T18:31:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCV100",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-25T02:48:23+00:00",
+        "date": "2026-11-25",
+        "sample_count": 3,
+        "listed_total_low": 85.99,
+        "listed_total_p25": 85.99,
+        "listed_total_median": 85.99,
+        "listed_total_p75": 108.14,
+        "listed_total_high": 130.29,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29
+          }
+        ],
+        "rejected": {},
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|188906912962|0",
+          "observed_at": "2026-11-25T02:38:45+00:00",
+          "status": "verified_fields",
+          "reasons": [],
+          "gtin": "5035048616116",
+          "mpn": "DCV100-XJ",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Manufacturer Part Number",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "5035048616116"
+            },
+            {
+              "type": "STRING",
+              "name": "Noise Level",
+              "value": "96 dB"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "DEWALT"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Handheld Leaf Blower"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Source",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18 V"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "DeWalt DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Lightweight"
+            },
+            {
+              "type": "STRING",
+              "name": "Power",
+              "value": "1600 W"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Weight",
+              "value": "1.3 kg"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Yellow"
+            }
+          ],
+          "checked_item_price": 85.99,
+          "identity_query": "DeWalt DCV100 bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 2,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 2
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/188906912962",
+          "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "fixed_shipping": 0.0,
+          "sub_checks": [],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "verified_fields",
+        "query_aliases": [
+          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "verified_fields",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "observed_at": "2026-11-25T02:48:23+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 85.99,
+        "competition_high": 130.29,
+        "estimated_resale": 83.41,
+        "estimated_range": [
+          77.39,
+          85.99
+        ],
+        "suggested_listing": 85.98,
+        "quick_sale_model": 77.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 85.99,
+        "delivery_known": true,
+        "landed_cost": 85.99,
+        "net": -19.91,
+        "roi": -23.2,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 47.2,
+        "max_item_buy": 47.2,
+        "delivery_headroom": -38.79,
+        "fees": 7.74,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 2.5,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 75.06,
+        "review_stress_net": -27.28,
+        "review_stress_roi": -31.7,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 53.37,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
       "url": "https://www.ebay.co.uk/itm/366573418864",
       "policy_key": "6585bffbfd8634697afb758a",
@@ -236,6 +893,380 @@
       "publication_proof": {
         "ok": false,
         "reason": "detail_check_pending"
+      }
+    },
+    {
+      "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+      "url": "https://www.ebay.co.uk/itm/398384737619",
+      "policy_key": "ad661adf25d67b845a80c273",
+      "category": "tools",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 130.29,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/398384737619",
+      "landed_cost": 130.29,
+      "breakeven_sell": 156.12,
+      "sell_for_minimum_profit": 215.15,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-08T18:31:12+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Dewalt+Power+Tools+DCV100+XR+Compact+Jobsite+Blower+18V+Bare+Unit&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "category": "tools",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "DeWalt",
+          "model": "DCV100",
+          "voltage": 18,
+          "contents": "bare tool; no battery/charger",
+          "region": "GB listing; warranty unverified"
+        },
+        "observed_at": "2026-11-25T02:48:23+00:00",
+        "date": "2026-11-25",
+        "sample_count": 3,
+        "listed_total_low": 85.99,
+        "listed_total_p25": 85.99,
+        "listed_total_median": 85.99,
+        "listed_total_p75": 108.14,
+        "listed_total_high": 130.29,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99
+          },
+          {
+            "item_id": "v1|398384737619|0",
+            "seller": "theonli0",
+            "image": "https://i.ebayimg.com/images/g/oOIAAeSwj0lqpDgW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/398384737619",
+            "title": "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit",
+            "declared_condition": "new",
+            "item_price": 130.29,
+            "shipping": 0.0,
+            "listed_total": 130.29
+          }
+        ],
+        "rejected": {},
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|188906912962|0",
+          "observed_at": "2026-11-25T02:38:45+00:00",
+          "status": "verified_fields",
+          "reasons": [],
+          "gtin": "5035048616116",
+          "mpn": "DCV100-XJ",
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Manufacturer Part Number",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "5035048616116"
+            },
+            {
+              "type": "STRING",
+              "name": "Noise Level",
+              "value": "96 dB"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "DEWALT"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Handheld Leaf Blower"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Source",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Voltage",
+              "value": "18 V"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "DeWalt DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "MPN",
+              "value": "DCV100-XJ"
+            },
+            {
+              "type": "STRING",
+              "name": "Features",
+              "value": "Lightweight"
+            },
+            {
+              "type": "STRING",
+              "name": "Power",
+              "value": "1600 W"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Weight",
+              "value": "1.3 kg"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Yellow"
+            }
+          ],
+          "checked_item_price": 85.99,
+          "identity_query": "DeWalt DCV100 bare tool 18V",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 2,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 2
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/188906912962",
+          "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "fixed_shipping": 0.0,
+          "sub_checks": [],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "mpn",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "verified_fields",
+        "query_aliases": [
+          "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+          "Dewalt Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tools",
+        "detail_status": "verified_fields",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "DeWalt DCV100 bare tool 18V",
+        "observed_at": "2026-11-25T02:48:23+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 85.99,
+        "competition_high": 85.99,
+        "estimated_resale": 83.41,
+        "estimated_range": [
+          77.39,
+          85.99
+        ],
+        "suggested_listing": 85.98,
+        "quick_sale_model": 77.39,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 130.29,
+        "delivery_known": true,
+        "landed_cost": 130.29,
+        "net": -64.21,
+        "roi": -49.3,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 47.2,
+        "max_item_buy": 47.2,
+        "delivery_headroom": -83.09,
+        "fees": 7.74,
+        "outbound_postage": 6.59,
+        "packaging": 0.5,
+        "returns_allowance": 2.5,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 75.06,
+        "review_stress_net": -71.58,
+        "review_stress_roi": -54.9,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 53.37,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|188906912962|0",
+            "seller": "soauto",
+            "image": "https://i.ebayimg.com/images/g/p8oAAeSwVDVqoQLO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188906912962",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|197018344217|0",
+            "seller": "nn4-online",
+            "image": "https://i.ebayimg.com/images/g/HZYAAeSwGDJqlwn3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/197018344217",
+            "title": "DEWALT Power Tools DCV100 XR Compact Jobsite Blower 18V Bare Unit - DCV100-XJ",
+            "declared_condition": "new",
+            "item_price": 85.99,
+            "shipping": 0.0,
+            "listed_total": 85.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
       }
     },
     {
@@ -2737,6 +3768,1044 @@
       }
     },
     {
+      "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
+      "url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
+      "policy_key": "2e14a53bc4124a63c746e4c2",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Costco",
+      "item_price": 19.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
+      "image_verified_until": "2026-11-25T03:00:23.193357+00:00",
+      "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/150x150/qt/55/5043476_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
+      "landed_cost": null,
+      "breakeven_sell": 30.85,
+      "sell_for_minimum_profit": 40.43,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T03:04:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Pixar+Blaze%27s+Horse+Ranch&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 43304",
+        "category": "lego",
+        "name_terms": [
+          "4+",
+          "blazes",
+          "disney",
+          "horse",
+          "model",
+          "pixar",
+          "ranch",
+          "years"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T02:48:20+00:00",
+        "date": "2026-11-25",
+        "sample_count": 29,
+        "listed_total_low": 8.82,
+        "listed_total_p25": 34.94,
+        "listed_total_median": 41.99,
+        "listed_total_p75": 48.99,
+        "listed_total_high": 61.53,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|178476958870|0",
+            "seller": "mando_371",
+            "image": "https://i.ebayimg.com/images/g/YLwAAeSwi01qnxaN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178476958870",
+            "title": "Lego Disney Toy Story Winged Horse Animal 43304",
+            "declared_condition": "new",
+            "item_price": 6.99,
+            "shipping": 1.83,
+            "listed_total": 8.82
+          },
+          {
+            "item_id": "v1|178476952247|0",
+            "seller": "mando_371",
+            "image": "https://i.ebayimg.com/images/g/V5MAAeSwxoJqnxWI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178476952247",
+            "title": "Lego Disney Toy Story Blaze\u2019s Pet Pig Animal 43304",
+            "declared_condition": "new",
+            "item_price": 9.99,
+            "shipping": 1.83,
+            "listed_total": 11.82
+          },
+          {
+            "item_id": "v1|178476866305|0",
+            "seller": "mando_371",
+            "image": "https://i.ebayimg.com/images/g/284AAeSw~iRqnwth/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178476866305",
+            "title": "Lego Disney Toy Story Bullseye Horse Animal 43304",
+            "declared_condition": "new",
+            "item_price": 19.99,
+            "shipping": 3.68,
+            "listed_total": 23.67
+          },
+          {
+            "item_id": "v1|880146501339|0",
+            "seller": "brick-head",
+            "image": "https://i.ebayimg.com/images/g/KQQAAeSw3QVrBCSw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880146501339",
+            "title": "LEGO 43304 Disney Toy Story 5 Blaze's Horse Ranch Woody Jessie NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 29.95,
+            "shipping": 0.0,
+            "listed_total": 29.95
+          },
+          {
+            "item_id": "v1|168882932324|0",
+            "seller": "nonynana",
+            "image": "https://i.ebayimg.com/images/g/CPoAAeSwCW1rBMAB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168882932324",
+            "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 0.0,
+            "listed_total": 29.99
+          },
+          {
+            "item_id": "v1|237204554092|0",
+            "seller": "mkms-63",
+            "image": "https://i.ebayimg.com/images/g/zI4AAeSwHwlrBeS~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237204554092",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch - New",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 2.94,
+            "listed_total": 30.68
+          },
+          {
+            "item_id": "v1|227629774395|0",
+            "seller": "batem_holl",
+            "image": "https://i.ebayimg.com/images/g/za0AAeSwEmVrBWtk/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227629774395",
+            "title": "LEGO Disney\u2122 Toy Story 5 - Blaze's Horse Ranch Set 43304",
+            "declared_condition": "new",
+            "item_price": 28.0,
+            "shipping": 2.85,
+            "listed_total": 30.85
+          },
+          {
+            "item_id": "v1|307050403918|0",
+            "seller": "r23564",
+            "image": "https://i.ebayimg.com/images/g/iDEAAeSw909qTpBy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307050403918",
+            "title": "LEGO Disney Toy Story 5 43304 Blaze's Horse Ranch Set 209pcs Age 4+",
+            "declared_condition": "new",
+            "item_price": 32.0,
+            "shipping": 2.94,
+            "listed_total": 34.94
+          },
+          {
+            "item_id": "v1|327291613445|0",
+            "seller": "sale_itpick2020",
+            "image": "https://i.ebayimg.com/images/g/OLIAAeSwgUdqbxrG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327291613445",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch for Ages 4+",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 3.38,
+            "listed_total": 35.27
+          },
+          {
+            "item_id": "v1|178492697863|0",
+            "seller": "mavetik",
+            "image": "https://i.ebayimg.com/images/g/7ZYAAeSw2MBqpo~E/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178492697863",
+            "title": "LEGO\u00ae Disney Pixar Toy Story 5 \u2013 Blaze\u2019s Horse Ranch 43304 \u2013 209 Pieces",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 3.99,
+            "listed_total": 35.98
+          },
+          {
+            "item_id": "v1|336841005246|0",
+            "seller": "erebusbakar",
+            "image": "https://i.ebayimg.com/images/g/TekAAeSwH0NqzMF9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336841005246",
+            "title": "Lego 43304 Blaze\u2019s Horse Ranch - Brand New & Sealed - Disney Toy Story 5",
+            "declared_condition": "new",
+            "item_price": 34.99,
+            "shipping": 2.94,
+            "listed_total": 37.93
+          },
+          {
+            "item_id": "v1|358804441146|0",
+            "seller": "ancz06",
+            "image": "https://i.ebayimg.com/images/g/3ZYAAeSwzDRqWSOW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358804441146",
+            "title": "LEGO Disney 43304 Blaze's Horse Ranch Toy Story 5 \u2013 Brand New",
+            "declared_condition": "new",
+            "item_price": 35.02,
+            "shipping": 2.94,
+            "listed_total": 37.96
+          },
+          {
+            "item_id": "v1|137581373630|0",
+            "seller": "brandmarket786",
+            "image": "https://i.ebayimg.com/images/g/UhkAAeSw~oJqcIzr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137581373630",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch for Ages 4+",
+            "declared_condition": "new",
+            "item_price": 39.95,
+            "shipping": 0.0,
+            "listed_total": 39.95
+          },
+          {
+            "item_id": "v1|227502212118|0",
+            "seller": "brickoutuk",
+            "image": "https://i.ebayimg.com/images/g/yfAAAeSwALdqRrp3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227502212118",
+            "title": "LEGO Disney 43304 Toy Story 5 Blaze's Horse Ranch | Brand New & Sealed \u2705",
+            "declared_condition": "new",
+            "item_price": 38.2,
+            "shipping": 2.94,
+            "listed_total": 41.14
+          },
+          {
+            "item_id": "v1|336562859951|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/FGgAAeSwt~pq~xvH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336562859951",
+            "title": "LEGO Disney 43304 Toy Story 5: Blaze's Horse Ranch Age 4+ 209pcs",
+            "declared_condition": "new",
+            "item_price": 41.99,
+            "shipping": 0.0,
+            "listed_total": 41.99
+          },
+          {
+            "item_id": "v1|227429423191|0",
+            "seller": "daxs-toys",
+            "image": "https://i.ebayimg.com/images/g/-cQAAeSwYelqVNUT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227429423191",
+            "title": "LEGO Disney Pixar Toy Story 5 Blaze's Horse Ranch Barn Playset 43304 Brand New ",
+            "declared_condition": "new",
+            "item_price": 39.99,
+            "shipping": 3.99,
+            "listed_total": 43.98
+          },
+          {
+            "item_id": "v1|287667853518|0",
+            "seller": "pricepal",
+            "image": "https://i.ebayimg.com/images/g/qKIAAeSwyEtq2ldA/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287667853518",
+            "title": "LEGO Disney & Pixar 43304 Toy Story 5 Blaze's Horse Ranch Set",
+            "declared_condition": "new",
+            "item_price": 44.89,
+            "shipping": 0.0,
+            "listed_total": 44.89
+          },
+          {
+            "item_id": "v1|278175817275|0",
+            "seller": "bhavsbricks",
+            "image": "https://i.ebayimg.com/images/g/jHgAAeSwwnxqU8b7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/278175817275",
+            "title": "Lego Disney Toy Story 5 Blaze's Horse Ranch (43304) \ud83d\ude9aFree Same Day Dispatch\u2705",
+            "declared_condition": "new",
+            "item_price": 45.0,
+            "shipping": 0.0,
+            "listed_total": 45.0
+          },
+          {
+            "item_id": "v1|267702878139|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/J34AAeSwWW5qM8oo/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267702878139",
+            "title": "Lego Disney Pixar 43304 Blaze's Horse Ranch  - Brand New",
+            "declared_condition": "new",
+            "item_price": 45.81,
+            "shipping": 0.0,
+            "listed_total": 45.81
+          },
+          {
+            "item_id": "v1|800935292559|0",
+            "seller": "ukemall",
+            "image": "https://i.ebayimg.com/images/g/lI0AAeSwTh5q~fw2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800935292559",
+            "title": "LEGO Disney and Pixar Toy Story 5 Blaze\u2019s Horse Ranch 43304",
+            "declared_condition": "new",
+            "item_price": 47.76,
+            "shipping": 0.0,
+            "listed_total": 47.76
+          },
+          {
+            "item_id": "v1|298275440672|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/Ul4AAeSweu9qgE82/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298275440672",
+            "title": "LEGO Disney Pixar Toy Story 5 Blaze's Horse Ranch Barn Playset 43304",
+            "declared_condition": "new",
+            "item_price": 47.99,
+            "shipping": 0.0,
+            "listed_total": 47.99
+          },
+          {
+            "item_id": "v1|267654280756|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/PkUAAeSwnflp8ktJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267654280756",
+            "title": "LEGO 43304 Disney Pixar Blaze's Horse Ranch Toy - incl. Woody & Jessie Minifi...",
+            "declared_condition": "new",
+            "item_price": 48.99,
+            "shipping": 0.0,
+            "listed_total": 48.99
+          },
+          {
+            "item_id": "v1|278243980910|0",
+            "seller": "dontneeddowant",
+            "image": "https://i.ebayimg.com/images/g/fdkAAeSwcGlqcOPW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/278243980910",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch",
+            "declared_condition": "new",
+            "item_price": 45.0,
+            "shipping": 4.25,
+            "listed_total": 49.25
+          },
+          {
+            "item_id": "v1|298476039166|0",
+            "seller": "curiousmindsuk",
+            "image": "https://i.ebayimg.com/images/g/79wAAeSwNhtqR7Aw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298476039166",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch for Ages 4+",
+            "declared_condition": "new",
+            "item_price": 49.99,
+            "shipping": 0.0,
+            "listed_total": 49.99
+          },
+          {
+            "item_id": "v1|860106650804|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/iSsAAeSw8Xlq6NvV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860106650804",
+            "title": "LEGO Disney & Pixar 43304 Toy Story 5 Blaze's Horse Ranch Set",
+            "declared_condition": "new",
+            "item_price": 52.69,
+            "shipping": 0.0,
+            "listed_total": 52.69
+          },
+          {
+            "item_id": "v1|237172351901|0",
+            "seller": "dapperdot",
+            "image": "https://i.ebayimg.com/images/g/E8MAAeSw~75q8ST7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237172351901",
+            "title": "LEGO Disney and Pixar Toy Story 5 Blaze\u2019s Horse Ranch 43304",
+            "declared_condition": "new",
+            "item_price": 55.57,
+            "shipping": 0.0,
+            "listed_total": 55.57
+          },
+          {
+            "item_id": "v1|168207976784|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/phMAAeSwMD1pqbEI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207976784",
+            "title": "Lego\u00ae Disney Pixar 43304 Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 55.99,
+            "shipping": 0.0,
+            "listed_total": 55.99
+          },
+          {
+            "item_id": "v1|287305097466|0",
+            "seller": "toysntuck",
+            "image": "https://i.ebayimg.com/images/g/3HoAAeSwa5xp9IiT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287305097466",
+            "title": "Lego 43304 Disney Toy Story Blaze's Horse Ranch",
+            "declared_condition": "new",
+            "item_price": 58.0,
+            "shipping": 0.0,
+            "listed_total": 58.0
+          },
+          {
+            "item_id": "v1|860126340184|0",
+            "seller": "primehaven99",
+            "image": "https://i.ebayimg.com/images/g/9dAAAeSwPXVq8STZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860126340184",
+            "title": "LEGO Disney and Pixar Toy Story 5 Blaze\u2019s Horse Ranch 43304",
+            "declared_condition": "new",
+            "item_price": 61.53,
+            "shipping": 0.0,
+            "listed_total": 61.53
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 10
+        },
+        "query_aliases": [
+          "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 43304",
+        "observed_at": "2026-11-25T02:48:20+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 27,
+        "seller_count": 27,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 8.82,
+        "competition_high": 61.53,
+        "estimated_resale": 8.55,
+        "estimated_range": [
+          7.93,
+          8.82
+        ],
+        "suggested_listing": 8.81,
+        "quick_sale_model": 7.93,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 19.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -18.5,
+        "max_landed_buy": 0,
+        "max_item_buy": null,
+        "delivery_headroom": -19.99,
+        "fees": 1.51,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.26,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 7.69,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|178476958870|0",
+            "seller": "mando_371",
+            "image": "https://i.ebayimg.com/images/g/YLwAAeSwi01qnxaN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178476958870",
+            "title": "Lego Disney Toy Story Winged Horse Animal 43304",
+            "declared_condition": "new",
+            "item_price": 6.99,
+            "shipping": 1.83,
+            "listed_total": 8.82,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880146501339|0",
+            "seller": "brick-head",
+            "image": "https://i.ebayimg.com/images/g/KQQAAeSw3QVrBCSw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880146501339",
+            "title": "LEGO 43304 Disney Toy Story 5 Blaze's Horse Ranch Woody Jessie NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 29.95,
+            "shipping": 0.0,
+            "listed_total": 29.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168882932324|0",
+            "seller": "nonynana",
+            "image": "https://i.ebayimg.com/images/g/CPoAAeSwCW1rBMAB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168882932324",
+            "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 0.0,
+            "listed_total": 29.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|237204554092|0",
+            "seller": "mkms-63",
+            "image": "https://i.ebayimg.com/images/g/zI4AAeSwHwlrBeS~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237204554092",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch - New",
+            "declared_condition": "new",
+            "item_price": 27.74,
+            "shipping": 2.94,
+            "listed_total": 30.68,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227629774395|0",
+            "seller": "batem_holl",
+            "image": "https://i.ebayimg.com/images/g/za0AAeSwEmVrBWtk/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227629774395",
+            "title": "LEGO Disney\u2122 Toy Story 5 - Blaze's Horse Ranch Set 43304",
+            "declared_condition": "new",
+            "item_price": 28.0,
+            "shipping": 2.85,
+            "listed_total": 30.85,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|307050403918|0",
+            "seller": "r23564",
+            "image": "https://i.ebayimg.com/images/g/iDEAAeSw909qTpBy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307050403918",
+            "title": "LEGO Disney Toy Story 5 43304 Blaze's Horse Ranch Set 209pcs Age 4+",
+            "declared_condition": "new",
+            "item_price": 32.0,
+            "shipping": 2.94,
+            "listed_total": 34.94,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327291613445|0",
+            "seller": "sale_itpick2020",
+            "image": "https://i.ebayimg.com/images/g/OLIAAeSwgUdqbxrG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327291613445",
+            "title": "Lego Disney Pixar 43304 Toy Story 5: Blaze's Horse Ranch for Ages 4+",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 3.38,
+            "listed_total": 35.27,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|178492697863|0",
+            "seller": "mavetik",
+            "image": "https://i.ebayimg.com/images/g/7ZYAAeSw2MBqpo~E/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178492697863",
+            "title": "LEGO\u00ae Disney Pixar Toy Story 5 \u2013 Blaze\u2019s Horse Ranch 43304 \u2013 209 Pieces",
+            "declared_condition": "new",
+            "item_price": 31.99,
+            "shipping": 3.99,
+            "listed_total": 35.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|336841005246|0",
+            "seller": "erebusbakar",
+            "image": "https://i.ebayimg.com/images/g/TekAAeSwH0NqzMF9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336841005246",
+            "title": "Lego 43304 Blaze\u2019s Horse Ranch - Brand New & Sealed - Disney Toy Story 5",
+            "declared_condition": "new",
+            "item_price": 34.99,
+            "shipping": 2.94,
+            "listed_total": 37.93,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|358804441146|0",
+            "seller": "ancz06",
+            "image": "https://i.ebayimg.com/images/g/3ZYAAeSwzDRqWSOW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358804441146",
+            "title": "LEGO Disney 43304 Blaze's Horse Ranch Toy Story 5 \u2013 Brand New",
+            "declared_condition": "new",
+            "item_price": 35.02,
+            "shipping": 2.94,
+            "listed_total": 37.96,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
       "title": "LEGO Architecture London Skyline Model 21034",
       "url": "https://www.hotukdeals.com/deals/lego-architecture-london-skyline-model-21034-5043394",
       "policy_key": "1c558db1d830dede9e65326e",
@@ -2755,9 +4824,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/150x150/qt/55/5043394_1.jpg",
-        "https://i.ebayimg.com/images/g/97YAAeSww05qoURU/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/o2cAAeSwpZhp2rNI/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/150x150/qt/55/5043394_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/2Ux9U/5043394_1/re/300x300/qt/55/5043394_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -4245,9 +6312,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg",
-        "https://i.ebayimg.com/images/g/~WsAAeSwRhtrBh4p/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/TcQAAeSwJzFrBLv8/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -5521,9 +7586,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/150x150/qt/55/5043412_1.jpg",
-        "https://i.ebayimg.com/images/g/0CwAAeSwUWBrAHzG/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/U0sAAeSwwixq0LY4/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/150x150/qt/55/5043412_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/1VOMF/5043412_1/re/300x300/qt/55/5043412_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -6683,19 +8746,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 33.98,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg",
-        "https://i.ebayimg.com/images/g/jisAAeSwWhdqhLnn/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/OFYAAeSwyhhrBLH1/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/150x150/qt/55/5041487_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/vcItv/5041487_1/re/300x300/qt/55/5041487_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-marvel-spider-man-prison-transport-chase-76349-5041487",
       "landed_cost": null,
       "breakeven_sell": 47.61,
       "sell_for_minimum_profit": 63.89,
@@ -7886,9 +9947,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/150x150/qt/55/5043415_1.jpg",
-        "https://i.ebayimg.com/images/g/v7MAAeSw2bNrBLmT/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/FtgAAeSwy2dq-04C/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/150x150/qt/55/5043415_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -8763,8 +10822,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/150x150/qt/55/5043504_1.jpg",
-        "https://i.ebayimg.com/images/g/IbcAAeSwRR5q3st2/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/150x150/qt/55/5043504_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -8971,9 +11029,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/150x150/qt/55/5043458_1.jpg",
-        "https://i.ebayimg.com/images/g/JFsAAeSw7qVq5HuM/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/7x8AAeSwpaBqob2I/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/150x150/qt/55/5043458_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/6sF16/5043458_1/re/300x300/qt/55/5043458_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -17384,7 +19440,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-25T02:38:45+00:00",
+        "canonicalized_at": "2026-11-25T02:47:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Blades of Fire Day One Edition (PS5)"
@@ -17601,7 +19657,8 @@
             "declared_condition": "new",
             "item_price": 24.43,
             "shipping": 0.0,
-            "listed_total": 24.43
+            "listed_total": 24.43,
+            "observed_at": "2026-11-25T02:40:19+00:00"
           },
           {
             "item_id": "v1|960178059154|0",
@@ -17624,7 +19681,8 @@
             "declared_condition": "new",
             "item_price": 27.21,
             "shipping": 2.72,
-            "listed_total": 29.93
+            "listed_total": 29.93,
+            "observed_at": "2026-11-25T02:40:19+00:00"
           },
           {
             "item_id": "v1|880049989705|0",
@@ -17646,12 +19704,15 @@
             "declared_condition": "new",
             "item_price": 35.99,
             "shipping": 2.7,
-            "listed_total": 38.69
+            "listed_total": 38.69,
+            "observed_at": "2026-11-25T02:40:19+00:00"
           }
         ],
         "rejected": {
           "identity_or_condition": 13
         },
+        "canonicalized_at": "2026-11-25T02:47:55+00:00",
+        "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Alan Wake 2 Deluxe Edition - PS5"
         ]
@@ -17755,6 +19816,7 @@
             "item_price": 24.43,
             "shipping": 0.0,
             "listed_total": 24.43,
+            "observed_at": "2026-11-25T02:40:19+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -17779,6 +19841,7 @@
             "item_price": 27.21,
             "shipping": 2.72,
             "listed_total": 29.93,
+            "observed_at": "2026-11-25T02:40:19+00:00",
             "same_acquisition_promotion": false
           },
           {
@@ -17802,6 +19865,306 @@
             "item_price": 35.99,
             "shipping": 2.7,
             "listed_total": 38.69,
+            "observed_at": "2026-11-25T02:40:19+00:00",
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
+      "title": "Final Fantasy VII Rebirth (PS5)",
+      "url": "https://www.hotukdeals.com/deals/final-fantasy-vii-rebirth-ps5-5039262",
+      "policy_key": "c23003b655863e82e0431402",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "The Game Collection",
+      "item_price": 19.95,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/tj0ZC/5039262_1/re/150x150/qt/55/5039262_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/final-fantasy-vii-rebirth-ps5-5039262",
+      "landed_cost": null,
+      "breakeven_sell": 27.9,
+      "sell_for_minimum_profit": 37.34,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "Profit too small",
+        "Return too low",
+        "Sell speed not proven",
+        "Sell-through not proven",
+        "No verified exit price",
+        "No reviewed exact-variant sold evidence",
+        "Inbound delivery unknown",
+        "Availability not confirmed",
+        "Cash exit quote missing/stale",
+        "Velocity evidence missing/stale",
+        "Exact retailer offer identity/price not reviewed"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-19T16:02:19+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Final+Fantasy+VII+Rebirth+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "final fantasy vii rebirth ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T02:48:20+00:00",
+        "date": "2026-11-25",
+        "sample_count": 3,
+        "listed_total_low": 23.95,
+        "listed_total_p25": 31.7,
+        "listed_total_median": 39.44,
+        "listed_total_p75": 40.61,
+        "listed_total_high": 41.77,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206391179698|0",
+            "seller": "thegamecollectionoutlet",
+            "image": "https://i.ebayimg.com/images/g/YgUAAeSwkvhq~xYz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 44.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206391179698",
+            "title": "Final Fantasy VII Rebirth (PS5) BRAND NEW AND SEALED - FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 23.95,
+            "shipping": 0.0,
+            "listed_total": 23.95
+          },
+          {
+            "item_id": "v1|326914415490|0",
+            "seller": "geddawilliams76",
+            "image": "https://i.ebayimg.com/images/g/z24AAeSwcdBpQINn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/326914415490",
+            "title": "Final Fantasy VII Rebirth PS5 PlayStation 5",
+            "declared_condition": "new",
+            "item_price": 36.5,
+            "shipping": 2.94,
+            "listed_total": 39.44
+          },
+          {
+            "item_id": "v1|407313033124|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/zuUAAeSwZMlq6Tj1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407313033124",
+            "title": "Final Fantasy VII: Rebirth (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 41.77,
+            "shipping": 0.0,
+            "listed_total": 41.77
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 47
+        },
+        "query_aliases": [
+          "Final Fantasy VII Rebirth (PS5)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "final fantasy vii rebirth ps5",
+        "observed_at": "2026-11-25T02:48:20+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 23.95,
+        "competition_high": 41.77,
+        "estimated_resale": 23.23,
+        "estimated_range": [
+          21.55,
+          23.95
+        ],
+        "suggested_listing": 23.94,
+        "quick_sale_model": 21.55,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          44.99,
+          44.99
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 19.95,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -3.96,
+        "max_landed_buy": 7.99,
+        "max_item_buy": null,
+        "delivery_headroom": -11.96,
+        "fees": 3.34,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.7,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 20.9,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 5.98,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206391179698|0",
+            "seller": "thegamecollectionoutlet",
+            "image": "https://i.ebayimg.com/images/g/YgUAAeSwkvhq~xYz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 44.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206391179698",
+            "title": "Final Fantasy VII Rebirth (PS5) BRAND NEW AND SEALED - FREE SHIPPING",
+            "declared_condition": "new",
+            "item_price": 23.95,
+            "shipping": 0.0,
+            "listed_total": 23.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|326914415490|0",
+            "seller": "geddawilliams76",
+            "image": "https://i.ebayimg.com/images/g/z24AAeSwcdBpQINn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/326914415490",
+            "title": "Final Fantasy VII Rebirth PS5 PlayStation 5",
+            "declared_condition": "new",
+            "item_price": 36.5,
+            "shipping": 2.94,
+            "listed_total": 39.44,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|407313033124|0",
+            "seller": "hitcouk",
+            "image": "https://i.ebayimg.com/images/g/zuUAAeSwZMlq6Tj1/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407313033124",
+            "title": "Final Fantasy VII: Rebirth (PS5) - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 41.77,
+            "shipping": 0.0,
+            "listed_total": 41.77,
             "same_acquisition_promotion": false
           }
         ]
@@ -18032,7 +20395,7 @@
         "rejected": {
           "identity_or_condition": 6
         },
-        "canonicalized_at": "2026-11-25T02:38:45+00:00",
+        "canonicalized_at": "2026-11-25T02:47:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Dune: Awakening Day One Edition (PS5)"
@@ -18512,7 +20875,7 @@
           ]
         },
         "detail_status": "awaiting_detail_budget",
-        "canonicalized_at": "2026-11-25T02:38:45+00:00",
+        "canonicalized_at": "2026-11-25T02:47:55+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Sony DualSense PS5 Wireless Controller - Midnight Black"
@@ -18698,9 +21061,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg",
-        "https://i.ebayimg.com/images/g/O0oAAeSw1wBq3zXK/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/-I0AAeSw4wxq30Pj/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18784,9 +21145,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg",
-        "https://i.ebayimg.com/images/g/Oi8AAeSwN~NrBZpq/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/LngAAeSwjSppzpD4/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -18903,19 +21262,17 @@
       "offer_ambiguity": null,
       "merchant": "Currys",
       "item_price": 11.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg",
-        "https://i.ebayimg.com/images/g/gX4AAeSw6WBrBeC-/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/enUAAeSwA-tqkbvs/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/150x150/qt/55/5041490_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/pQBkb/5041490_1/re/300x300/qt/55/5041490_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-31380-3-in-1-retro-gaming-console-set-free-cc-5041490",
       "landed_cost": null,
       "breakeven_sell": 21.27,
       "sell_for_minimum_profit": 30.85,
@@ -19033,19 +21390,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 12.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/150x150/qt/55/5039994_1.jpg",
         "https://i.ebayimg.com/images/g/JDgAAeSwBqVrAHa4/s-l225.jpg",
         "https://i.ebayimg.com/images/g/ubUAAeSw7ZVrAGVH/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/iE2EI/5039994_1/re/300x300/qt/55/5039994_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-creator-3in1-retro-camera-to-video-camera-to-tv-set-31147-5039994",
       "landed_cost": null,
       "breakeven_sell": 22.46,
       "sell_for_minimum_profit": 32.04,
@@ -19077,19 +21434,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 12.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/150x150/qt/55/5039384_1.jpg",
         "https://i.ebayimg.com/images/g/MC4AAeSwfrdrAIVw/s-l225.jpg",
         "https://i.ebayimg.com/images/g/51QAAeSw6uBpNd3~/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/CBhob/5039384_1/re/300x300/qt/55/5039384_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-ninjago-kais-elemental-fire-mech-71808-5039384",
       "landed_cost": null,
       "breakeven_sell": 22.46,
       "sell_for_minimum_profit": 32.04,
@@ -19121,17 +21478,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 13.4,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/150x150/qt/55/5040150_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/KJ2AT/5040150_1/re/300x300/qt/55/5040150_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-ferrari-sf-24-f1-race-car-77242-5040150",
       "landed_cost": null,
       "breakeven_sell": 22.96,
       "sell_for_minimum_profit": 32.54,
@@ -19163,19 +21520,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 13.49,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
         "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/150x150/qt/55/5040340_1.jpg",
         "https://i.ebayimg.com/images/g/JyMAAeSwLolrBILO/s-l225.jpg",
         "https://i.ebayimg.com/images/g/Z7EAAeSwxmxq~2ki/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/AyDTn/5040340_1/re/300x300/qt/55/5040340_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-oracle-red-bull-racing-rb20-f1-race-car-77243-5040340",
       "landed_cost": null,
       "breakeven_sell": 23.06,
       "sell_for_minimum_profit": 32.65,
@@ -19246,19 +21603,17 @@
       "offer_ambiguity": null,
       "merchant": "Currys",
       "item_price": 14.39,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg",
-        "https://i.ebayimg.com/images/g/TGMAAeSw7mRq8kvC/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/7xIAAeSwtGFqwkqr/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/150x150/qt/55/5041613_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/YjJsU/5041613_1/re/300x300/qt/55/5041613_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-77257-mclaren-w1-set-5041613",
       "landed_cost": null,
       "breakeven_sell": 24.14,
       "sell_for_minimum_profit": 33.72,
@@ -19296,9 +21651,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/150x150/qt/55/5043529_1.jpg",
-        "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/QcoAAeSwh-pqJKDi/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/150x150/qt/55/5043529_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19340,9 +21693,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg",
-        "https://i.ebayimg.com/images/g/BiYAAeSwyRprBDa-/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/1R4AAeSwhypq0DxQ/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19384,9 +21735,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/150x150/qt/55/5043728_1.jpg",
-        "https://i.ebayimg.com/images/g/hCIAAeSwQvlq0PB1/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/QcoAAeSwh-pqJKDi/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/150x150/qt/55/5043728_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19422,18 +21771,18 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 14.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/150x150/qt/55/5040878_1.jpg",
         "https://i.ebayimg.com/images/g/ZVsAAeSwCNZq0O4R/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/vRhLT/5040878_1/re/300x300/qt/55/5040878_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-time-machine-from-back-to-the-future-77256-5040878",
       "landed_cost": null,
       "breakeven_sell": 24.87,
       "sell_for_minimum_profit": 34.44,
@@ -19510,9 +21859,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
-        "https://i.ebayimg.com/images/g/zs0AAeSwZ-RrAy48/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Y7YAAeSwZLVq4RAR/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19548,19 +21895,19 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 16.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
         "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/150x150/qt/55/5038670_1.jpg",
         "https://i.ebayimg.com/images/g/7JkAAeSwf-FrBXBN/s-l225.jpg",
         "https://i.ebayimg.com/images/g/oj8AAeSwaUZq~~hz/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/aAtYN/5038670_1/re/300x300/qt/55/5038670_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-friends-advent-calendar-2026-christmas-toy-42698-5038670",
       "landed_cost": null,
       "breakeven_sell": 26.07,
       "sell_for_minimum_profit": 35.65,
@@ -19598,9 +21945,9 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg",
-        "https://i.ebayimg.com/images/g/zs0AAeSwZ-RrAy48/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/150x150/qt/55/5038933_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
       "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
@@ -19642,9 +21989,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg",
-        "https://i.ebayimg.com/images/g/leEAAeSwT7xpoCFv/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/1K8AAeSweR9ph6p5/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -19668,50 +22013,6 @@
       }
     },
     {
-      "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
-      "url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
-      "policy_key": "2e14a53bc4124a63c746e4c2",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Costco",
-      "item_price": 19.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_verified_until": "2026-11-25T03:00:23.193357+00:00",
-      "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/150x150/qt/55/5043476_1.jpg",
-        "https://i.ebayimg.com/images/g/YLwAAeSwi01qnxaN/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/V5MAAeSwxoJqnxWI/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
-      "landed_cost": null,
-      "breakeven_sell": 30.85,
-      "sell_for_minimum_profit": 40.43,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-23T03:04:51+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Pixar+Blaze%27s+Horse+Ranch&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Lucky Cat 40813",
       "url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
       "policy_key": "d241edd97a3b0b7011f3700b",
@@ -19724,19 +22025,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 21.5,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/150x150/qt/55/5042974_1.jpg",
-        "https://i.ebayimg.com/images/g/BUUAAeSwK1trAJVs/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/a1MAAeSwjPtq9geV/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/150x150/qt/55/5042974_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-lucky-cat-40813-5042974",
       "landed_cost": null,
       "breakeven_sell": 32.66,
       "sell_for_minimum_profit": 42.96,
@@ -19768,19 +22067,17 @@
       "offer_ambiguity": null,
       "merchant": "Argos",
       "item_price": 25.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg",
-        "https://i.ebayimg.com/images/g/A8oAAeSwRnVqvZmk/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/rnEAAeSwk8BqzxtI/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/150x150/qt/55/5041759_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/1xNY8/5041759_1/re/300x300/qt/55/5041759_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-christmas-stocking-toy-hanging-decoration-40958-from-argos-5041759",
       "landed_cost": null,
       "breakeven_sell": 36.85,
       "sell_for_minimum_profit": 48.82,
@@ -19812,19 +22109,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 25.08,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/150x150/qt/55/5038691_1.jpg",
         "https://i.ebayimg.com/images/g/saUAAeSwEJpp~ZVg/s-l225.jpg",
         "https://i.ebayimg.com/images/g/v6UAAeSwHKFqLWpj/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/6sy4t/5038691_1/re/300x300/qt/55/5038691_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-at-rt-attack-75444-5038691",
       "landed_cost": null,
       "breakeven_sell": 36.95,
       "sell_for_minimum_profit": 48.97,
@@ -19898,19 +22195,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 28.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
         "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/150x150/qt/55/5038732_1.jpg",
         "https://i.ebayimg.com/images/g/-2wAAeSwSxVq8xG~/s-l225.jpg",
         "https://i.ebayimg.com/images/g/z9oAAeSwDy9q~yHV/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/naWMa/5038732_1/re/300x300/qt/55/5038732_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-festive-gingerbread-house-40809-5038732",
       "landed_cost": null,
       "breakeven_sell": 40.44,
       "sell_for_minimum_profit": 53.87,
@@ -19948,9 +22245,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/150x150/qt/55/5043414_1.jpg",
-        "https://i.ebayimg.com/images/g/zTcAAeSw9D9quo4k/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Uh8AAeSwy0lq9PWn/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/150x150/qt/55/5043414_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/FHjV1/5043414_1/re/300x300/qt/55/5043414_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -20031,9 +22326,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg",
-        "https://i.ebayimg.com/images/g/kJ4AAeSwgChq1QHk/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/QfAAAeSwgyhq6zAi/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/150x150/qt/55/5042646_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/LuCHK/5042646_1/re/300x300/qt/55/5042646_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -20111,19 +22404,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 29.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/150x150/qt/55/5038673_1.jpg",
         "https://i.ebayimg.com/images/g/650AAeSwBhJpsxTo/s-l225.jpg",
         "https://i.ebayimg.com/images/g/gaIAAeSw3slq7ysY/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/m0gVH/5038673_1/re/300x300/qt/55/5038673_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-mercedes-amg-g-63-mercedes-amg-sl-63-76924-5038673",
       "landed_cost": null,
       "breakeven_sell": 42.82,
       "sell_for_minimum_profit": 57.2,
@@ -20197,19 +22490,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 32.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
         "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/150x150/qt/55/5038656_1.jpg",
         "https://i.ebayimg.com/images/g/Ba8AAeSwvEhrAhV4/s-l225.jpg",
         "https://i.ebayimg.com/images/g/ihwAAeSwKjZqqArx/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/G5ILA/5038656_1/re/300x300/qt/55/5038656_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-city-coast-gaurd-helicopter-60503-5038656",
       "landed_cost": null,
       "breakeven_sell": 46.42,
       "sell_for_minimum_profit": 62.23,
@@ -20289,9 +22582,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/150x150/qt/55/5043391_1.jpg",
-        "https://i.ebayimg.com/images/g/QNwAAeSwNN1q-Jjs/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/jyMAAeSwMiZqtnjp/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/150x150/qt/55/5043391_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/kaLyR/5043391_1/re/300x300/qt/55/5043391_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -20333,9 +22624,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg",
-        "https://i.ebayimg.com/images/g/a~cAAeSwLDBq7fDy/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/VJIAAeSwtctqtqWZ/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -20371,19 +22660,17 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 34.19,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg",
-        "https://i.ebayimg.com/images/g/F6oAAeSw935q7M~W/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/2-AAAeSwv~hrBGjv/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/150x150/qt/55/5041013_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/yc59F/5041013_1/re/300x300/qt/55/5041013_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-leonardo-da-vincis-flying-machine-10363-wcode-free-cc-5041013",
       "landed_cost": null,
       "breakeven_sell": 47.86,
       "sell_for_minimum_profit": 64.24,
@@ -20457,17 +22744,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon Germany",
       "item_price": 34.87,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/150x150/qt/55/5040440_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/pYOo0/5040440_1/re/300x300/qt/55/5040440_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-up-scaled-santa-minifigure-40820-5040440",
       "landed_cost": null,
       "breakeven_sell": 48.67,
       "sell_for_minimum_profit": 65.38,
@@ -20499,19 +22786,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 34.98,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/150x150/qt/55/5039573_1.jpg",
         "https://i.ebayimg.com/images/g/YxoAAeSwP6Zq8hnT/s-l225.jpg",
         "https://i.ebayimg.com/images/g/kdcAAeSw5VNrA2Gm/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/5HJJr/5039573_1/re/300x300/qt/55/5039573_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-enchanted-flying-ford-anglia-76470-5039573",
       "landed_cost": null,
       "breakeven_sell": 48.8,
       "sell_for_minimum_profit": 65.57,
@@ -20543,19 +22830,19 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 35.1,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/150x150/qt/55/5041059_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/300x300/qt/55/5040214_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/150x150/qt/55/5040214_1.jpg",
-        "https://i.ebayimg.com/images/g/KDEAAeSwj7pqsTsu/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/3ekAAeSwcrJq9kEl/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/rhMoI/5040214_1/re/150x150/qt/55/5040214_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/bXdIi/5041059_1/re/300x300/qt/55/5041059_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-pixar-wall-e-and-eve-43279-wvoucher-5041059",
       "landed_cost": null,
       "breakeven_sell": 48.95,
       "sell_for_minimum_profit": 65.77,
@@ -20587,19 +22874,19 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 35.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/150x150/qt/55/5041903_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WUlkd/5040352_1/re/300x300/qt/55/5040352_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/WUlkd/5040352_1/re/150x150/qt/55/5040352_1.jpg",
-        "https://i.ebayimg.com/images/g/-kIAAeSwmLZq2N1A/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/P84AAeSwXxJrAY6e/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/WUlkd/5040352_1/re/150x150/qt/55/5040352_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/Q6TdS/5041903_1/re/300x300/qt/55/5041903_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-anzellan-starship-75445-wvoucher-5041903",
       "landed_cost": null,
       "breakeven_sell": 50.01,
       "sell_for_minimum_profit": 67.26,
@@ -20674,18 +22961,16 @@
       "merchant": "Amazon",
       "item_price": 35.99,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T02:58:58.418844+00:00",
-      "image_checked_at": "2026-11-25T02:38:58.418844+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/150x150/qt/55/5043384_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-super-mario-72046-gameboy-5045054",
+      "thumb": "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-super-mario-game-boy-72046-5043384",
       "landed_cost": null,
       "breakeven_sell": 50.01,
       "sell_for_minimum_profit": 67.26,
@@ -20718,18 +23003,16 @@
       "merchant": "Amazon",
       "item_price": 35.99,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T02:58:58.418844+00:00",
-      "image_checked_at": "2026-11-25T02:38:58.418844+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/150x150/qt/55/5043808_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-super-mario-72046-gameboy-5045054",
+      "thumb": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-super-mario-game-boy-72046-set-for-adults-nintendo-display-model-kit-2-cartridges-5043808",
       "landed_cost": null,
       "breakeven_sell": 50.01,
       "sell_for_minimum_profit": 67.26,
@@ -20761,19 +23044,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 37.7,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
         "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/150x150/qt/55/5040371_1.jpg",
         "https://i.ebayimg.com/images/g/90EAAeSwnxFrBBPS/s-l225.jpg",
         "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/zQV61/5040371_1/re/300x300/qt/55/5040371_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-discount-at-checkout-5040371",
       "landed_cost": null,
       "breakeven_sell": 52.06,
       "sell_for_minimum_profit": 70.13,
@@ -20805,19 +23088,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 37.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/150x150/qt/55/5042449_1.jpg",
         "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/300x300/qt/55/5039130_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg",
-        "https://i.ebayimg.com/images/g/F6oAAeSw935q7M~W/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/2-AAAeSwv~hrBGjv/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/5SSKc/5039130_1/re/150x150/qt/55/5039130_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/Seirj/5042449_1/re/300x300/qt/55/5042449_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-leonardo-da-vincis-flying-machine-10363-wvoucher-5042449",
       "landed_cost": null,
       "breakeven_sell": 52.4,
       "sell_for_minimum_profit": 70.61,
@@ -20855,9 +23138,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/150x150/qt/55/5044396_1.jpg",
-        "https://i.ebayimg.com/images/g/jF8AAeSw5ahqwDJW/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/W8IAAeSwq3Zq-3G7/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/150x150/qt/55/5044396_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -20893,19 +23174,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 38.63,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg",
-        "https://i.ebayimg.com/images/g/XusAAeSwCzBprFzZ/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/XnEAAeSwUu9qRWiC/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/150x150/qt/55/5041004_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/0pNxq/5041004_1/re/300x300/qt/55/5041004_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-dc-batman-logo-76330-5041004",
       "landed_cost": null,
       "breakeven_sell": 53.18,
       "sell_for_minimum_profit": 71.69,
@@ -20937,19 +23216,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 39.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg",
-        "https://i.ebayimg.com/images/g/R2IAAeSwHuRq2ppu/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/~kIAAeSwP2Vq~UAn/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/150x150/qt/55/5041622_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/GTe1F/5041622_1/re/300x300/qt/55/5041622_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-smart-play-eevee-and-laprass-treasure-hunt-72162-5041622",
       "landed_cost": null,
       "breakeven_sell": 54.8,
       "sell_for_minimum_profit": 73.96,
@@ -20981,19 +23258,19 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 40.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:24.206631+00:00",
+      "image_checked_at": "2026-11-25T02:48:24.206631+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/150x150/qt/55/5040527_1.jpg",
         "https://i.ebayimg.com/images/g/1~sAAeSwT5hrAHEN/s-l225.jpg",
         "https://i.ebayimg.com/images/g/fyIAAeSwDKVq-No2/s-l225.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/8ihir/5040527_1/re/300x300/qt/55/5040527_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-munchlax-72150-5040527",
       "landed_cost": null,
       "breakeven_sell": 54.81,
       "sell_for_minimum_profit": 73.98,
@@ -21025,17 +23302,17 @@
       "offer_ambiguity": null,
       "merchant": "Currys",
       "item_price": 40.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/150x150/qt/55/5041857_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/jGXSk/5041857_1/re/300x300/qt/55/5041857_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-40820-up-scaled-santa-minifigure-set-5041857",
       "landed_cost": null,
       "breakeven_sell": 56.0,
       "sell_for_minimum_profit": 75.64,
@@ -21067,17 +23344,17 @@
       "offer_ambiguity": null,
       "merchant": "Smyths",
       "item_price": 40.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/150x150/qt/55/5041853_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/RP7vr/5041853_1/re/300x300/qt/55/5041853_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-40820-up-scaled-santa-minifigure-set-5041853",
       "landed_cost": null,
       "breakeven_sell": 56.0,
       "sell_for_minimum_profit": 75.64,
@@ -21109,17 +23386,17 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 40.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
         "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/150x150/qt/55/5041862_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/82jjP/5041862_1/re/300x300/qt/55/5041862_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/up-scaled-lego-santa-minifigure-christmas-toy-decoration-40820-free-cc-5041862",
       "landed_cost": null,
       "breakeven_sell": 56.0,
       "sell_for_minimum_profit": 75.64,
@@ -21157,9 +23434,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
-        "https://i.ebayimg.com/images/g/LncAAeSwFitq1Ns7/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/UkAAAeSwI55q8e9t/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21201,9 +23476,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/150x150/qt/55/5043545_1.jpg",
-        "https://i.ebayimg.com/images/g/XTYAAeSw3JRq48mk/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ZvQAAeSwtWdrA1Is/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/150x150/qt/55/5043545_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21287,9 +23560,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/150x150/qt/55/5043399_1.jpg",
-        "https://i.ebayimg.com/images/g/9sQAAeSwaRppyTDA/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/jvIAAeSw4U9pZQme/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/150x150/qt/55/5043399_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21331,9 +23602,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/150x150/qt/55/5044089_1.jpg",
-        "https://i.ebayimg.com/images/g/QKgAAeSwD0Rq8c27/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/lMAAAeSwXm5qng5D/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/150x150/qt/55/5044089_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21375,9 +23644,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/150x150/qt/55/5043608_1.jpg",
-        "https://i.ebayimg.com/images/g/l3sAAeSwyttq-cov/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/vPoAAeSwZ59pQX40/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/150x150/qt/55/5043608_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21455,19 +23722,17 @@
       "offer_ambiguity": null,
       "merchant": "Amazon",
       "item_price": 48.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg",
-        "https://i.ebayimg.com/images/g/mp8AAeSw8m1q6qGZ/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/w5UAAeSw16Bq8Gfk/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/150x150/qt/55/5040552_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/TcPsa/5040552_1/re/300x300/qt/55/5040552_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-city-classic-beach-tram-60506-5040552",
       "landed_cost": null,
       "breakeven_sell": 64.39,
       "sell_for_minimum_profit": 87.4,
@@ -21547,9 +23812,9 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/150x150/qt/55/5043433_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/300x300/qt/55/5040431_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg",
-        "https://i.ebayimg.com/images/g/z~gAAeSw2kRrAhQr/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/kqliS/5040431_1/re/150x150/qt/55/5040431_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/lqLol/5043433_1/re/300x300/qt/55/5043433_1.jpg",
       "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
@@ -21591,9 +23856,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/150x150/qt/55/5043409_1.jpg",
-        "https://i.ebayimg.com/images/g/ctcAAeSwSzpqtk8J/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/2rAAAeSwtiNq-skw/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/150x150/qt/55/5043409_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/TbF45/5043409_1/re/300x300/qt/55/5043409_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21671,19 +23934,19 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 49.49,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/150x150/qt/55/5043219_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/300x300/qt/55/5040209_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg",
-        "https://i.ebayimg.com/images/g/bvQAAeSwRalq9bSn/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/JQIAAeSw8zNrAUaL/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/GWC1Y/5040209_1/re/150x150/qt/55/5040209_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/PI0aS/5043219_1/re/300x300/qt/55/5043219_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-k-2so-security-droid-75434-5043219",
       "landed_cost": null,
       "breakeven_sell": 66.18,
       "sell_for_minimum_profit": 89.89,
@@ -21721,9 +23984,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg",
-        "https://i.ebayimg.com/images/g/5awAAeSwGERq4cna/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/xZwAAeSwIBFrA4F5/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21843,19 +24104,19 @@
       "offer_ambiguity": null,
       "merchant": "Very",
       "item_price": 51.74,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/150x150/qt/55/5041117_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/300x300/qt/55/5040413_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg",
-        "https://i.ebayimg.com/images/g/l-MAAeSwQOlp8ZrN/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/ne8AAeSwva1qiXMP/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/3pC5n/5040413_1/re/150x150/qt/55/5040413_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/rcDNK/5041117_1/re/300x300/qt/55/5041117_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-harry-potter-hogwarts-castle-hospital-wing-76463-with-voucher-5041117",
       "landed_cost": null,
       "breakeven_sell": 68.88,
       "sell_for_minimum_profit": 93.66,
@@ -21893,9 +24154,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/150x150/qt/55/5044623_1.jpg",
-        "https://i.ebayimg.com/images/g/9dsAAeSwOZxq5Gri/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/5SIAAeSwNuRqjw~e/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/150x150/qt/55/5044623_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21937,9 +24196,7 @@
       "image_checked_at": "2026-11-25T02:40:23.193357+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/150x150/qt/55/5043616_1.jpg",
-        "https://i.ebayimg.com/images/g/LncAAeSwFitq1Ns7/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/UkAAAeSwI55q8e9t/s-l225.jpg"
+        "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/150x150/qt/55/5043616_1.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -21976,18 +24233,16 @@
       "merchant": "Amazon",
       "item_price": 54.99,
       "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-25T02:58:58.418844+00:00",
-      "image_checked_at": "2026-11-25T02:38:58.418844+00:00",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
+      "image_verified_until": "2026-11-25T03:08:06.584762+00:00",
+      "image_checked_at": "2026-11-25T02:48:06.584762+00:00",
       "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/150x150/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/150x150/qt/55/5043389_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-r2-d2-75379-5045008",
+      "thumb": "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-r2-d2-set-75379-5043389",
       "landed_cost": null,
       "breakeven_sell": 72.76,
       "sell_for_minimum_profit": 99.11,
@@ -23827,45 +26082,6 @@
       "priority": 0,
       "first_seen": "2026-11-23T16:58:52+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=MindsEye+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Call of Duty: Black Ops 7 - Cross-Gen Bundle PS4 and PS5 - Free C&C Limited Locations",
-      "url": "https://www.hotukdeals.com/deals/call-of-duty-black-ops-7-cross-gen-bundle-ps4-and-ps5-free-cc-limited-locations-5046081",
-      "policy_key": "7e7dbf98352b2954e1aac928",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Smyths",
-      "item_price": 9.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/UGIIh/5046081_1/re/150x150/qt/55/5046081_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/call-of-duty-black-ops-7-cross-gen-bundle-ps4-and-ps5-free-cc-limited-locations-5046081",
-      "landed_cost": null,
-      "breakeven_sell": 16.13,
-      "sell_for_minimum_profit": 25.59,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-25T01:00:52+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Call+of+Duty%3A+Black+Ops+7&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -26389,54 +28605,6 @@
       "first_seen": "2026-11-24T16:25:09+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=CONOPU+HEPA+Air+Purifier+with+Fragrance%2C+Portable+for+Bedroom+and+Living+Room&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Final Fantasy VII Rebirth (PS5)",
-      "url": "https://www.hotukdeals.com/deals/final-fantasy-vii-rebirth-ps5-5039262",
-      "policy_key": "c23003b655863e82e0431402",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "The Game Collection",
-      "item_price": 19.95,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/tj0ZC/5039262_1/re/150x150/qt/55/5039262_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/final-fantasy-vii-rebirth-ps5-5039262",
-      "landed_cost": null,
-      "breakeven_sell": 27.9,
-      "sell_for_minimum_profit": 37.34,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "Profit too small",
-        "Return too low",
-        "Sell speed not proven",
-        "Sell-through not proven",
-        "No verified exit price",
-        "No reviewed exact-variant sold evidence",
-        "Inbound delivery unknown",
-        "Availability not confirmed",
-        "Cash exit quote missing/stale",
-        "Velocity evidence missing/stale",
-        "Exact retailer offer identity/price not reviewed"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T16:02:19+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Final+Fantasy+VII+Rebirth+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
