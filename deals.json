@@ -24,7 +24,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T23:05:51+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:38:31+00:00",
       "valid_until": "2026-11-25T21:38:31+00:00",
       "competition_low": 55.66,
@@ -40,7 +40,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|336863771135|0",
-        "observed_at": "2026-11-25T16:11:45+00:00",
+        "observed_at": "2026-11-25T16:45:37+00:00",
         "status": "conflict",
         "reasons": [
           "style-colour code mismatch",
@@ -270,7 +270,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:38:31+00:00",
       "valid_until": "2026-11-25T21:38:31+00:00",
       "competition_low": 140.79,
@@ -349,7 +349,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T16:11:45+00:00",
       "valid_until": "2026-11-25T22:11:45+00:00",
       "competition_low": 76.94,
@@ -413,7 +413,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T16:11:45+00:00",
       "valid_until": "2026-11-25T22:11:45+00:00",
       "competition_low": 20.99,
@@ -485,7 +485,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-08T08:02:34+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:05:21+00:00",
       "valid_until": "2026-11-25T21:05:21+00:00",
       "competition_low": 59.99,
@@ -549,9 +549,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
-      "observed_at": "2026-11-25T12:52:59+00:00",
-      "valid_until": "2026-11-25T18:52:59+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
+      "observed_at": "2026-11-25T16:45:37+00:00",
+      "valid_until": "2026-11-25T22:45:37+00:00",
       "competition_low": 38.35,
       "estimated_resale": 37.19,
       "seller_count": 2,
@@ -585,17 +585,17 @@
           "seller": "brookeysbargains",
           "url": "https://www.ebay.co.uk/itm/318020220571",
           "delivered": 38.35,
-          "observed_at": "2026-11-25T12:52:59+00:00"
+          "observed_at": "2026-11-25T16:45:37+00:00"
         },
         {
           "item_id": "v1|188975317830|0",
           "seller": "unineedltd",
           "url": "https://www.ebay.co.uk/itm/188975317830",
           "delivered": 74.79,
-          "observed_at": "2026-11-25T12:52:59+00:00"
+          "observed_at": "2026-11-25T16:45:37+00:00"
         }
       ],
-      "last_research_at": "2026-11-25T12:52:59+00:00"
+      "last_research_at": "2026-11-25T16:45:37+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:boss bottled aftershave lotion 100ml:8b9765bf057c",
@@ -621,7 +621,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T13:24:19+00:00",
       "valid_until": "2026-11-25T19:24:19+00:00",
       "competition_low": 19.96,
@@ -714,7 +714,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-07T21:54:26+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T14:32:16+00:00",
       "valid_until": "2026-11-25T20:32:16+00:00",
       "competition_low": 44.19,
@@ -800,7 +800,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T14:31:09+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T14:32:16+00:00",
       "valid_until": "2026-11-25T20:32:16+00:00",
       "competition_low": 63.8,
@@ -815,7 +815,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|800699196363|0",
-        "observed_at": "2026-11-25T16:11:45+00:00",
+        "observed_at": "2026-11-25T16:45:37+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": null,
@@ -1044,7 +1044,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T13:58:15+00:00",
       "valid_until": "2026-11-25T19:58:15+00:00",
       "competition_low": 25.99,
@@ -1137,9 +1137,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-19T23:50:02+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
-      "observed_at": "2026-11-25T13:58:15+00:00",
-      "valid_until": "2026-11-25T19:58:15+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
+      "observed_at": "2026-11-25T16:45:37+00:00",
+      "valid_until": "2026-11-25T22:45:37+00:00",
       "competition_low": 73.99,
       "estimated_resale": 71.77,
       "seller_count": 1,
@@ -1152,7 +1152,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|158318156230|0",
-        "observed_at": "2026-11-25T16:11:45+00:00",
+        "observed_at": "2026-11-25T16:45:37+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "DoesNotApply",
@@ -1373,10 +1373,10 @@
           "seller": "deestrainers",
           "url": "https://www.ebay.co.uk/itm/158318156230",
           "delivered": 73.99,
-          "observed_at": "2026-11-25T13:58:15+00:00"
+          "observed_at": "2026-11-25T16:45:37+00:00"
         }
       ],
-      "last_research_at": "2026-11-25T13:58:15+00:00"
+      "last_research_at": "2026-11-25T16:45:37+00:00"
     },
     {
       "key": "browse-asks-v5:fragrance:armani acqua di gio profondo parfum 100ml:509ee3dd1790",
@@ -1402,7 +1402,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-20T09:56:42+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:05:21+00:00",
       "valid_until": "2026-11-25T21:05:21+00:00",
       "competition_low": 28.26,
@@ -1495,9 +1495,9 @@
         "name_terms": []
       },
       "first_seen": "2026-11-22T07:29:18+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
-      "observed_at": "2026-11-25T15:06:56+00:00",
-      "valid_until": "2026-11-25T21:06:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
+      "observed_at": "2026-11-25T16:47:38+00:00",
+      "valid_until": "2026-11-25T22:47:38+00:00",
       "competition_low": 95.0,
       "estimated_resale": 92.15,
       "seller_count": 2,
@@ -1521,7 +1521,7 @@
             "expected": "verified_fields within detail budget",
             "observed": "awaiting_detail_budget",
             "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
-            "note": "no getItem this pass; not a parser failure"
+            "note": "detail allocation window closed this scan"
           }
         ]
       },
@@ -1531,94 +1531,17 @@
           "seller": "sportswear.outlet",
           "url": "https://www.ebay.co.uk/itm/366573418864",
           "delivered": 95.0,
-          "observed_at": "2026-11-25T15:06:56+00:00"
+          "observed_at": "2026-11-25T16:47:38+00:00"
         },
         {
           "item_id": "v1|298300063168|0",
           "seller": "luxf8445",
           "url": "https://www.ebay.co.uk/itm/298300063168",
           "delivered": 103.88,
-          "observed_at": "2026-11-25T15:06:56+00:00"
+          "observed_at": "2026-11-25T16:47:38+00:00"
         }
       ],
       "last_research_at": "2026-11-24T09:46:02+00:00"
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 43014:701443a81f39",
-      "category": "lego",
-      "query": "LEGO 43014",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 43014",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "charles",
-          "editions",
-          "ferrari",
-          "helmet",
-          "hp",
-          "leclerc",
-          "scuderia"
-        ]
-      },
-      "first_seen": "2026-11-25T10:29:48+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
-      "observed_at": "2026-11-25T10:29:07+00:00",
-      "valid_until": "2026-11-25T16:29:07+00:00",
-      "competition_low": 53.99,
-      "estimated_resale": 52.37,
-      "seller_count": 25,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": 27.11,
-      "target_status": "usable_configured_cost_target",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|147694579796|0",
-          "seller": "g_messer95",
-          "url": "https://www.ebay.co.uk/itm/147694579796",
-          "delivered": 53.99,
-          "observed_at": "2026-11-25T10:29:07+00:00"
-        },
-        {
-          "item_id": "v1|327470344220|0",
-          "seller": "absolutely_free",
-          "url": "https://www.ebay.co.uk/itm/327470344220",
-          "delivered": 56.08,
-          "observed_at": "2026-11-25T10:29:07+00:00"
-        },
-        {
-          "item_id": "v1|257848047842|0",
-          "seller": "rowla.jos",
-          "url": "https://www.ebay.co.uk/itm/257848047842",
-          "delivered": 59.72,
-          "observed_at": "2026-11-25T10:29:07+00:00"
-        },
-        {
-          "item_id": "v1|920115248274|0",
-          "seller": "mardulk-0",
-          "url": "https://www.ebay.co.uk/itm/920115248274",
-          "delivered": 59.99,
-          "observed_at": "2026-11-25T10:29:07+00:00"
-        },
-        {
-          "item_id": "v1|920157269800|0",
-          "seller": "originalquality4you",
-          "url": "https://www.ebay.co.uk/itm/920157269800",
-          "delivered": 59.99,
-          "observed_at": "2026-11-25T10:29:07+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-25T15:38:41+00:00",
-      "last_search_sort": "newlyListed",
-      "last_item_price_filter": 27.11
     },
     {
       "key": "browse-asks-v5:gaming:anima gate of memories i ii remaster ps5:4f53cda18c2b",
@@ -1636,7 +1559,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T11:03:28+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T11:02:21+00:00",
       "valid_until": "2026-11-25T17:02:21+00:00",
       "competition_low": 35.99,
@@ -1701,7 +1624,7 @@
         ]
       },
       "first_seen": "2026-11-25T11:03:28+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T11:02:21+00:00",
       "valid_until": "2026-11-25T17:02:21+00:00",
       "competition_low": 40.99,
@@ -1774,7 +1697,7 @@
         ]
       },
       "first_seen": "2026-11-25T11:36:35+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T11:35:43+00:00",
       "valid_until": "2026-11-25T17:35:43+00:00",
       "competition_low": 25.4,
@@ -1823,8 +1746,8 @@
           "observed_at": "2026-11-25T11:35:43+00:00"
         }
       ],
-      "last_search_at": "2026-11-25T15:05:30+00:00",
-      "last_search_sort": "price",
+      "last_search_at": "2026-11-25T16:45:47+00:00",
+      "last_search_sort": "newlyListed",
       "last_item_price_filter": 6.78
     },
     {
@@ -1850,7 +1773,7 @@
         ]
       },
       "first_seen": "2026-11-23T06:23:35+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:09:21+00:00",
       "valid_until": "2026-11-25T18:09:21+00:00",
       "competition_low": 104.17,
@@ -1926,7 +1849,7 @@
         ]
       },
       "first_seen": "2026-11-25T12:10:25+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:09:18+00:00",
       "valid_until": "2026-11-25T18:09:18+00:00",
       "competition_low": 41.6,
@@ -1998,7 +1921,7 @@
         ]
       },
       "first_seen": "2026-11-24T12:00:07+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:43:06+00:00",
       "valid_until": "2026-11-25T18:43:06+00:00",
       "competition_low": 105.99,
@@ -2040,7 +1963,7 @@
         ]
       },
       "first_seen": "2026-11-25T12:44:14+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:43:02+00:00",
       "valid_until": "2026-11-25T18:43:02+00:00",
       "competition_low": 45.68,
@@ -2109,7 +2032,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T12:44:14+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:43:02+00:00",
       "valid_until": "2026-11-25T18:43:02+00:00",
       "competition_low": 20.95,
@@ -2170,7 +2093,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T12:53:41+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:53:35+00:00",
       "valid_until": "2026-11-25T18:53:35+00:00",
       "competition_low": 16.65,
@@ -2218,7 +2141,7 @@
         ]
       },
       "first_seen": "2026-11-25T12:53:41+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T12:53:35+00:00",
       "valid_until": "2026-11-25T18:53:35+00:00",
       "competition_low": 18.4,
@@ -2267,8 +2190,8 @@
           "observed_at": "2026-11-25T12:53:35+00:00"
         }
       ],
-      "last_search_at": "2026-11-25T15:05:30+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-25T16:45:47+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 1.11
     },
     {
@@ -2296,7 +2219,7 @@
         ]
       },
       "first_seen": "2026-11-25T13:27:31+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T13:26:16+00:00",
       "valid_until": "2026-11-25T19:26:16+00:00",
       "competition_low": 3.99,
@@ -2370,7 +2293,7 @@
         ]
       },
       "first_seen": "2026-11-24T13:05:14+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T14:00:18+00:00",
       "valid_until": "2026-11-25T20:00:18+00:00",
       "competition_low": 68.74,
@@ -2445,7 +2368,7 @@
         ]
       },
       "first_seen": "2026-11-25T14:01:32+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T14:00:15+00:00",
       "valid_until": "2026-11-25T20:00:15+00:00",
       "competition_low": 40.48,
@@ -2494,8 +2417,8 @@
           "observed_at": "2026-11-25T14:00:15+00:00"
         }
       ],
-      "last_search_at": "2026-11-25T14:32:25+00:00",
-      "last_search_sort": "newlyListed",
+      "last_search_at": "2026-11-25T16:45:47+00:00",
+      "last_search_sort": "price",
       "last_item_price_filter": 19.01
     },
     {
@@ -2522,7 +2445,7 @@
         ]
       },
       "first_seen": "2026-11-25T07:45:27+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T14:33:48+00:00",
       "valid_until": "2026-11-25T20:33:48+00:00",
       "competition_low": 4.49,
@@ -2567,7 +2490,7 @@
         ]
       },
       "first_seen": "2026-11-25T14:34:42+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T14:33:45+00:00",
       "valid_until": "2026-11-25T20:33:45+00:00",
       "competition_low": 40.03,
@@ -2645,7 +2568,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-18T21:18:56+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:06:52+00:00",
       "valid_until": "2026-11-25T21:06:52+00:00",
       "competition_low": 85.99,
@@ -2660,7 +2583,7 @@
       "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-25T16:11:45+00:00",
+        "observed_at": "2026-11-25T16:45:37+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -2805,7 +2728,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T15:07:51+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:06:53+00:00",
       "valid_until": "2026-11-25T21:06:53+00:00",
       "competition_low": 56.09,
@@ -2850,7 +2773,7 @@
         ]
       },
       "first_seen": "2026-11-25T15:07:51+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:06:53+00:00",
       "valid_until": "2026-11-25T21:06:53+00:00",
       "competition_low": 42.56,
@@ -2925,7 +2848,7 @@
         ]
       },
       "first_seen": "2026-11-24T14:12:42+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:40:06+00:00",
       "valid_until": "2026-11-25T21:40:06+00:00",
       "competition_low": 12.25,
@@ -2993,7 +2916,7 @@
         "name_terms": []
       },
       "first_seen": "2026-11-25T15:41:01+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:40:03+00:00",
       "valid_until": "2026-11-25T21:40:03+00:00",
       "competition_low": 39.95,
@@ -3041,7 +2964,7 @@
         ]
       },
       "first_seen": "2026-11-25T15:41:01+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T15:40:03+00:00",
       "valid_until": "2026-11-25T21:40:03+00:00",
       "competition_low": 56.07,
@@ -3114,7 +3037,7 @@
         ]
       },
       "first_seen": "2026-11-23T06:56:57+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T16:13:45+00:00",
       "valid_until": "2026-11-25T22:13:45+00:00",
       "competition_low": 107.55,
@@ -3189,7 +3112,7 @@
         ]
       },
       "first_seen": "2026-11-25T16:14:56+00:00",
-      "last_seen": "2026-11-25T16:14:56+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
       "observed_at": "2026-11-25T16:13:41+00:00",
       "valid_until": "2026-11-25T22:13:41+00:00",
       "competition_low": 29.99,
@@ -3241,6 +3164,138 @@
           "observed_at": "2026-11-25T16:13:41+00:00"
         }
       ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 72151:ccececa015f0",
+      "category": "lego",
+      "query": "LEGO 72151",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 72151",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "adults",
+          "eevee",
+          "figure",
+          "for",
+          "kit",
+          "model"
+        ]
+      },
+      "first_seen": "2026-11-25T16:48:52+00:00",
+      "last_seen": "2026-11-25T16:48:52+00:00",
+      "observed_at": "2026-11-25T16:47:35+00:00",
+      "valid_until": "2026-11-25T22:47:35+00:00",
+      "competition_low": 43.5,
+      "estimated_resale": 42.19,
+      "seller_count": 2,
+      "low_supporting_sellers": 1,
+      "max_landed_buy": null,
+      "target_status": "research_only",
+      "checks": [
+        "insufficient independent price depth",
+        "effective coupon competition unknown"
+      ],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|128170329493|0",
+          "seller": "ry-pow12312",
+          "url": "https://www.ebay.co.uk/itm/128170329493",
+          "delivered": 43.5,
+          "observed_at": "2026-11-25T16:47:35+00:00"
+        },
+        {
+          "item_id": "v1|236657289330|0",
+          "seller": "inco-29",
+          "url": "https://www.ebay.co.uk/itm/236657289330",
+          "delivered": 48.34,
+          "observed_at": "2026-11-25T16:47:35+00:00"
+        }
+      ]
+    },
+    {
+      "key": "browse-asks-v5:lego:lego 43014:701443a81f39",
+      "category": "lego",
+      "query": "LEGO 43014",
+      "identity": {
+        "condition": "new"
+      },
+      "identity_snapshot": {
+        "category": "lego",
+        "query": "LEGO 43014",
+        "identity": {
+          "condition": "new"
+        },
+        "name_terms": [
+          "charles",
+          "editions",
+          "ferrari",
+          "helmet",
+          "hp",
+          "leclerc",
+          "scuderia"
+        ]
+      },
+      "first_seen": "2026-11-25T10:29:48+00:00",
+      "last_seen": "2026-11-25T16:14:56+00:00",
+      "observed_at": "2026-11-25T10:29:07+00:00",
+      "valid_until": "2026-11-25T16:29:07+00:00",
+      "competition_low": 53.99,
+      "estimated_resale": 52.37,
+      "seller_count": 25,
+      "low_supporting_sellers": 2,
+      "max_landed_buy": null,
+      "target_status": "stale_research_only",
+      "checks": [],
+      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
+      "lowest_detail": null,
+      "sources": [
+        {
+          "item_id": "v1|147694579796|0",
+          "seller": "g_messer95",
+          "url": "https://www.ebay.co.uk/itm/147694579796",
+          "delivered": 53.99,
+          "observed_at": "2026-11-25T10:29:07+00:00"
+        },
+        {
+          "item_id": "v1|327470344220|0",
+          "seller": "absolutely_free",
+          "url": "https://www.ebay.co.uk/itm/327470344220",
+          "delivered": 56.08,
+          "observed_at": "2026-11-25T10:29:07+00:00"
+        },
+        {
+          "item_id": "v1|257848047842|0",
+          "seller": "rowla.jos",
+          "url": "https://www.ebay.co.uk/itm/257848047842",
+          "delivered": 59.72,
+          "observed_at": "2026-11-25T10:29:07+00:00"
+        },
+        {
+          "item_id": "v1|920115248274|0",
+          "seller": "mardulk-0",
+          "url": "https://www.ebay.co.uk/itm/920115248274",
+          "delivered": 59.99,
+          "observed_at": "2026-11-25T10:29:07+00:00"
+        },
+        {
+          "item_id": "v1|920157269800|0",
+          "seller": "originalquality4you",
+          "url": "https://www.ebay.co.uk/itm/920157269800",
+          "delivered": 59.99,
+          "observed_at": "2026-11-25T10:29:07+00:00"
+        }
+      ],
+      "last_search_at": "2026-11-25T15:38:41+00:00",
+      "last_search_sort": "newlyListed",
+      "last_item_price_filter": 27.11
     },
     {
       "key": "browse-asks-v5:gaming:bendy and the dark revival ps5:4f53cda18c2b",
@@ -10821,86 +10876,186 @@
           "observed_at": "2026-11-23T23:11:43+00:00"
         }
       ]
-    },
-    {
-      "key": "browse-asks-v5:lego:lego 76470:bac6e90c1eeb",
-      "category": "lego",
-      "query": "LEGO 76470",
-      "identity": {
-        "condition": "new"
-      },
-      "identity_snapshot": {
-        "category": "lego",
-        "query": "LEGO 76470",
-        "identity": {
-          "condition": "new"
-        },
-        "name_terms": [
-          "anglia",
-          "enchanted",
-          "flying",
-          "ford",
-          "harry",
-          "potter"
-        ]
-      },
-      "first_seen": "2026-11-23T23:12:30+00:00",
-      "last_seen": "2026-11-24T04:46:24+00:00",
-      "observed_at": "2026-11-23T23:11:43+00:00",
-      "valid_until": "2026-11-24T05:11:43+00:00",
-      "competition_low": 39.07,
-      "estimated_resale": 37.89,
-      "seller_count": 48,
-      "low_supporting_sellers": 2,
-      "max_landed_buy": null,
-      "target_status": "stale_research_only",
-      "checks": [],
-      "cost_basis": "Configured business fees/postage/packaging/returns, not an actual parcel quote. Financial search ceiling only; not purchase approval.",
-      "lowest_detail": null,
-      "sources": [
-        {
-          "item_id": "v1|366823200968|0",
-          "seller": "retweetsmerchandise",
-          "url": "https://www.ebay.co.uk/itm/366823200968",
-          "delivered": 39.07,
-          "observed_at": "2026-11-23T23:11:43+00:00"
-        },
-        {
-          "item_id": "v1|237199877758|0",
-          "seller": "jamiiverse0",
-          "url": "https://www.ebay.co.uk/itm/237199877758",
-          "delivered": 42.56,
-          "observed_at": "2026-11-23T23:11:43+00:00"
-        },
-        {
-          "item_id": "v1|147689733996|0",
-          "seller": "rbcoms",
-          "url": "https://www.ebay.co.uk/itm/147689733996",
-          "delivered": 43.33,
-          "observed_at": "2026-11-23T23:11:43+00:00"
-        },
-        {
-          "item_id": "v1|237180026578|0",
-          "seller": "natwill2782",
-          "url": "https://www.ebay.co.uk/itm/237180026578",
-          "delivered": 44.99,
-          "observed_at": "2026-11-23T23:11:43+00:00"
-        },
-        {
-          "item_id": "v1|840107623740|0",
-          "seller": "nes2208",
-          "url": "https://www.ebay.co.uk/itm/840107623740",
-          "delivered": 45.68,
-          "observed_at": "2026-11-23T23:11:43+00:00"
-        }
-      ],
-      "last_search_at": "2026-11-24T04:10:23+00:00",
-      "last_search_sort": "newlyListed",
-      "last_item_price_filter": 17.86
     }
   ],
   "pricing_catalog": [],
   "asking_catalog": [
+    {
+      "kind": "active_ask",
+      "query": "LEGO 72151",
+      "category": "lego",
+      "name_terms": [
+        "adults",
+        "eevee",
+        "figure",
+        "for",
+        "kit",
+        "model"
+      ],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-25T16:47:35+00:00",
+      "date": "2026-11-25",
+      "sample_count": 2,
+      "listed_total_low": 43.5,
+      "listed_total_p25": 44.71,
+      "listed_total_median": 45.92,
+      "listed_total_p75": 47.13,
+      "listed_total_high": 48.34,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|128170329493|0",
+          "seller": "ry-pow12312",
+          "image": "https://i.ebayimg.com/images/g/6SUAAeSwt3xqmBV9/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": true,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/128170329493",
+          "title": "LEGO 72151 Pokemon Eevee Building Kit \u2013 Brand New & Sealed",
+          "declared_condition": "new",
+          "item_price": 43.5,
+          "shipping": 0.0,
+          "listed_total": 43.5
+        },
+        {
+          "item_id": "v1|236657289330|0",
+          "seller": "inco-29",
+          "image": "https://i.ebayimg.com/images/g/U40AAeSwWZ5poL4b/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/236657289330",
+          "title": "LEGO 72151 Pokemon Eevee Building Kit",
+          "declared_condition": "new",
+          "item_price": 45.4,
+          "shipping": 2.94,
+          "listed_total": 48.34
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 48
+      },
+      "query_aliases": [
+        "LEGO Pokemon Eevee Figure Model Kit for Adults 72151"
+      ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "Nike HQ1416-001 UK 8",
+      "category": "trainers",
+      "name_terms": [],
+      "identity": {
+        "condition": "new",
+        "brand": "Nike",
+        "style_code": "HQ1416-001",
+        "uk_size": 8.0,
+        "department": "men"
+      },
+      "observed_at": "2026-11-25T16:47:38+00:00",
+      "date": "2026-11-25",
+      "sample_count": 2,
+      "listed_total_low": 95.0,
+      "listed_total_p25": 97.22,
+      "listed_total_median": 99.44,
+      "listed_total_p75": 101.66,
+      "listed_total_high": 103.88,
+      "status": "small_sample",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [
+        {
+          "item_id": "v1|366573418864|0",
+          "seller": "sportswear.outlet",
+          "image": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "advertised_discount",
+          "advertised_original_total": 100.0,
+          "available_coupons": true,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/366573418864",
+          "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
+          "declared_condition": "new",
+          "item_price": 95.0,
+          "shipping": 0.0,
+          "listed_total": 95.0
+        },
+        {
+          "item_id": "v1|298300063168|0",
+          "seller": "luxf8445",
+          "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
+          "country": "GB",
+          "currency": "GBP",
+          "condition_id": "1000",
+          "discount_status": "unknown",
+          "advertised_original_total": null,
+          "available_coupons": false,
+          "buying_options": [
+            "FIXED_PRICE"
+          ],
+          "end_at": null,
+          "promotion_id": null,
+          "url": "https://www.ebay.co.uk/itm/298300063168",
+          "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
+          "declared_condition": "new",
+          "item_price": 99.99,
+          "shipping": 3.89,
+          "listed_total": 103.88
+        }
+      ],
+      "rejected": {
+        "identity_or_condition": 32
+      },
+      "detail_required": true,
+      "lowest_detail": {
+        "status": "awaiting_detail_budget",
+        "reasons": [
+          "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+        ],
+        "sub_checks": [
+          {
+            "sub_check_failed": "other",
+            "expected": "verified_fields within detail budget",
+            "observed": "awaiting_detail_budget",
+            "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+            "note": "detail allocation window closed this scan"
+          }
+        ]
+      },
+      "detail_status": "awaiting_detail_budget",
+      "query_aliases": [
+        "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)"
+      ]
+    },
     {
       "kind": "active_ask",
       "query": "LEGO 11509",
@@ -13442,271 +13597,6 @@
     },
     {
       "kind": "active_ask",
-      "query": "LEGO 43014",
-      "category": "lego",
-      "name_terms": [
-        "charles",
-        "editions",
-        "ferrari",
-        "helmet",
-        "hp",
-        "leclerc",
-        "scuderia"
-      ],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-25T10:29:07+00:00",
-      "date": "2026-11-25",
-      "sample_count": 25,
-      "listed_total_low": 53.99,
-      "listed_total_p25": 66.48,
-      "listed_total_median": 72.0,
-      "listed_total_p75": 79.99,
-      "listed_total_high": 84.99,
-      "status": "wide_spread",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-        "Wide spread: variants/outliers may remain; no values silently discarded."
-      ],
-      "offers": [
-        {
-          "item_id": "v1|147694579796|0",
-          "seller": "g_messer95",
-          "image": "https://i.ebayimg.com/images/g/KFcAAeSwsL9rBH~X/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/147694579796",
-          "title": "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-          "declared_condition": "new",
-          "item_price": 50.61,
-          "shipping": 3.38,
-          "listed_total": 53.99
-        },
-        {
-          "item_id": "v1|327470344220|0",
-          "seller": "absolutely_free",
-          "image": "https://i.ebayimg.com/images/g/c5wAAeSwcmtrAvQR/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/327470344220",
-          "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-          "declared_condition": "new",
-          "item_price": 52.7,
-          "shipping": 3.38,
-          "listed_total": 56.08
-        },
-        {
-          "item_id": "v1|257848047842|0",
-          "seller": "rowla.jos",
-          "image": "https://i.ebayimg.com/images/g/U5IAAeSw7X5q9PQ1/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/257848047842",
-          "title": "Lego 43014 Scuderia Ferrari HP Charles Leclerc Helmet Brand New And Sealed",
-          "declared_condition": "new",
-          "item_price": 56.34,
-          "shipping": 3.38,
-          "listed_total": 59.72
-        },
-        {
-          "item_id": "v1|920115248274|0",
-          "seller": "mardulk-0",
-          "image": "https://i.ebayimg.com/images/g/nLoAAeSwPKNqrQCK/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/920115248274",
-          "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-          "declared_condition": "new",
-          "item_price": 59.99,
-          "shipping": 0.0,
-          "listed_total": 59.99
-        },
-        {
-          "item_id": "v1|920157269800|0",
-          "seller": "originalquality4you",
-          "image": "https://i.ebayimg.com/images/g/wfYAAeSw8R1q~dyp/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/920157269800",
-          "title": "\ud83d\udd25 Brand New SEALED | LEGO F1 Ferrari Leclerc Helmet | 43014 | RRP \u00a380!!\ud83d\udd25 ",
-          "declared_condition": "new",
-          "item_price": 59.99,
-          "shipping": 0.0,
-          "listed_total": 59.99
-        },
-        {
-          "item_id": "v1|306908633386|0",
-          "seller": "toytownstores",
-          "image": "https://i.ebayimg.com/images/g/y9wAAeSwK4lp9Io0/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/306908633386",
-          "title": "LEGO 43014 Scuderia Ferrari HP Charles Leclerc Helmet",
-          "declared_condition": "new",
-          "item_price": 60.0,
-          "shipping": 4.0,
-          "listed_total": 64.0
-        },
-        {
-          "item_id": "v1|206684571367|0",
-          "seller": "hvrrison",
-          "image": "https://i.ebayimg.com/images/g/2-AAAeSwh41q8ITk/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/206684571367",
-          "title": "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-          "declared_condition": "new",
-          "item_price": 63.1,
-          "shipping": 3.38,
-          "listed_total": 66.48
-        },
-        {
-          "item_id": "v1|900025379522|0",
-          "seller": "pjh040670",
-          "image": "https://i.ebayimg.com/images/g/aV4AAeSwASdqwWV0/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/900025379522",
-          "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-          "declared_condition": "new",
-          "item_price": 63.1,
-          "shipping": 3.38,
-          "listed_total": 66.48
-        },
-        {
-          "item_id": "v1|278209715688|0",
-          "seller": "vantage97rsr",
-          "image": "https://i.ebayimg.com/images/g/rzMAAeSw2AdqYc7z/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "advertised_discount",
-          "advertised_original_total": 82.98,
-          "available_coupons": true,
-          "buying_options": [
-            "FIXED_PRICE"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/278209715688",
-          "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-          "declared_condition": "new",
-          "item_price": 63.99,
-          "shipping": 2.99,
-          "listed_total": 66.98
-        },
-        {
-          "item_id": "v1|227607472815|0",
-          "seller": "walkimki",
-          "image": "https://i.ebayimg.com/images/g/iyQAAeSw~O9q8vs7/s-l225.jpg",
-          "country": "GB",
-          "currency": "GBP",
-          "condition_id": "1000",
-          "discount_status": "unknown",
-          "advertised_original_total": null,
-          "available_coupons": false,
-          "buying_options": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "end_at": null,
-          "promotion_id": null,
-          "url": "https://www.ebay.co.uk/itm/227607472815",
-          "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-          "declared_condition": "new",
-          "item_price": 63.1,
-          "shipping": 5.21,
-          "listed_total": 68.31
-        }
-      ],
-      "rejected": {
-        "identity_or_condition": 25
-      },
-      "query_aliases": [
-        "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014"
-      ]
-    },
-    {
-      "kind": "active_ask",
       "query": "DeWalt DCV100 bare tool 18V",
       "category": "tools",
       "name_terms": [],
@@ -13804,7 +13694,7 @@
       "detail_required": true,
       "lowest_detail": {
         "item_id": "v1|188906912962|0",
-        "observed_at": "2026-11-25T16:11:45+00:00",
+        "observed_at": "2026-11-25T16:45:37+00:00",
         "status": "verified_fields",
         "reasons": [],
         "gtin": "5035048616116",
@@ -15073,7 +14963,7 @@
       "rejected": {
         "identity_or_condition": 1
       },
-      "canonicalized_at": "2026-11-25T16:11:45+00:00",
+      "canonicalized_at": "2026-11-25T16:45:37+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Sword Art Online Fractured Daydream (Xbox Series X)"
@@ -15198,7 +15088,7 @@
       "rejected": {
         "identity_or_condition": 11
       },
-      "canonicalized_at": "2026-11-25T16:11:45+00:00",
+      "canonicalized_at": "2026-11-25T16:45:37+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Like a Dragon: Pirate Yakuza in Hawaii (PS5)",
@@ -15324,7 +15214,7 @@
       "rejected": {
         "identity_or_condition": 8
       },
-      "canonicalized_at": "2026-11-25T16:11:45+00:00",
+      "canonicalized_at": "2026-11-25T16:45:37+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Anima: Gate of Memories I & II Remaster (PS5)"
@@ -15379,11 +15269,40 @@
       "rejected": {
         "identity_or_condition": 12
       },
-      "canonicalized_at": "2026-11-25T16:11:45+00:00",
+      "canonicalized_at": "2026-11-25T16:45:37+00:00",
       "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
       "query_aliases": [
         "Mortal Shell II - PS5",
         "Mortal Shell II PS5"
+      ]
+    },
+    {
+      "kind": "active_ask",
+      "query": "resident evil 2 deluxe edition nintendo switch 2",
+      "category": "gaming",
+      "name_terms": [],
+      "identity": {
+        "condition": "new"
+      },
+      "observed_at": "2026-11-25T16:47:35+00:00",
+      "date": "2026-11-25",
+      "sample_count": 0,
+      "listed_total_low": null,
+      "listed_total_p25": null,
+      "listed_total_median": null,
+      "listed_total_p75": null,
+      "listed_total_high": null,
+      "status": "no_exact_shipped_samples",
+      "warnings": [
+        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+      ],
+      "offers": [],
+      "rejected": {
+        "identity_or_condition": 5
+      },
+      "query_aliases": [
+        "Resident Evil 2 Deluxe Edition - Nintendo Switch 2"
       ]
     },
     {
@@ -15420,33 +15339,6 @@
       },
       "query_aliases": [
         "LEGO Ninjago 71858 Four Weapons Blacksmith 15th Anniversary Building Set"
-      ]
-    },
-    {
-      "kind": "active_ask",
-      "query": "512gb sandisk microsd express card for with senior or student discounts nintendo switch 2",
-      "category": "gaming",
-      "name_terms": [],
-      "identity": {
-        "condition": "new"
-      },
-      "observed_at": "2026-11-25T16:13:45+00:00",
-      "date": "2026-11-25",
-      "sample_count": 0,
-      "listed_total_low": null,
-      "listed_total_p25": null,
-      "listed_total_median": null,
-      "listed_total_p75": null,
-      "listed_total_high": null,
-      "status": "no_exact_shipped_samples",
-      "warnings": [
-        "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-        "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-      ],
-      "offers": [],
-      "rejected": {},
-      "query_aliases": [
-        "512GB SANDISK microSD Express Card for Nintendo Switch 2 with Senior or Student Discounts"
       ]
     },
     {
@@ -15563,13 +15455,13 @@
     },
     {
       "kind": "active_ask",
-      "query": "playstation ace combat 8 wings of theve ps5",
+      "query": "512gb sandisk microsd express card for with senior or student discounts nintendo switch 2",
       "category": "gaming",
       "name_terms": [],
       "identity": {
         "condition": "new"
       },
-      "observed_at": "2026-11-25T10:29:07+00:00",
+      "observed_at": "2026-11-25T16:13:45+00:00",
       "date": "2026-11-25",
       "sample_count": 0,
       "listed_total_low": null,
@@ -15583,11 +15475,9 @@
         "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
       ],
       "offers": [],
-      "rejected": {
-        "identity_or_condition": 7
-      },
+      "rejected": {},
       "query_aliases": [
-        "PLAYSTATION Ace Combat 8: Wings of Theve - PS5"
+        "512GB SANDISK microSD Express Card for Nintendo Switch 2 with Senior or Student Discounts"
       ]
     },
     {
@@ -15619,21 +15509,508 @@
     }
   ],
   "pricing_status": {
-    "indicative_asking_products": 21,
+    "indicative_asking_products": 22,
     "automatic_asking_estimates": true,
-    "ask_estimated_products": 21,
+    "ask_estimated_products": 22,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 5,
+    "above_budget_estimates": 6,
     "automatic_sold_feed": false,
     "products": 0,
     "sold_observations": 0,
     "blocker": "No fresh directly verified exact-product sold observations imported; active asks are not sold data"
   },
-  "generated_utc": "2026-11-25T16:15:08+00:00",
+  "generated_utc": "2026-11-25T16:48:59+00:00",
   "price_cap": 60.0,
   "schema_version": 3,
   "review_queue": [
+    {
+      "title": "LEGO Pokemon Eevee Figure Model Kit for Adults 72151",
+      "url": "https://www.hotukdeals.com/deals/lego-pokemon-eevee-figure-model-kit-for-adults-72151-5046899",
+      "policy_key": "3bdc0967f22b7577ea57ba35",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 37.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uFOX0/5046899_1/re/300x300/qt/55/5046899_1.jpg",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/uFOX0/5046899_1/re/300x300/qt/55/5046899_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/uFOX0/5046899_1/re/150x150/qt/55/5046899_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/uFOX0/5046899_1/re/300x300/qt/55/5046899_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-pokemon-eevee-figure-model-kit-for-adults-72151-5046899",
+      "landed_cost": null,
+      "breakeven_sell": 52.4,
+      "sell_for_minimum_profit": 70.61,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-25T16:47:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Pokemon+Eevee+Figure+Model+Kit+for+Adults+72151&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 72151",
+        "category": "lego",
+        "name_terms": [
+          "adults",
+          "eevee",
+          "figure",
+          "for",
+          "kit",
+          "model"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T16:47:35+00:00",
+        "date": "2026-11-25",
+        "sample_count": 2,
+        "listed_total_low": 43.5,
+        "listed_total_p25": 44.71,
+        "listed_total_median": 45.92,
+        "listed_total_p75": 47.13,
+        "listed_total_high": 48.34,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|128170329493|0",
+            "seller": "ry-pow12312",
+            "image": "https://i.ebayimg.com/images/g/6SUAAeSwt3xqmBV9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128170329493",
+            "title": "LEGO 72151 Pokemon Eevee Building Kit \u2013 Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 43.5,
+            "shipping": 0.0,
+            "listed_total": 43.5
+          },
+          {
+            "item_id": "v1|236657289330|0",
+            "seller": "inco-29",
+            "image": "https://i.ebayimg.com/images/g/U40AAeSwWZ5poL4b/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236657289330",
+            "title": "LEGO 72151 Pokemon Eevee Building Kit",
+            "declared_condition": "new",
+            "item_price": 45.4,
+            "shipping": 2.94,
+            "listed_total": 48.34
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 48
+        },
+        "query_aliases": [
+          "LEGO Pokemon Eevee Figure Model Kit for Adults 72151"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": true,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 72151",
+        "observed_at": "2026-11-25T16:47:35+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 2,
+        "seller_count": 2,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 43.5,
+        "competition_high": 48.34,
+        "estimated_resale": 42.19,
+        "estimated_range": [
+          39.15,
+          43.5
+        ],
+        "suggested_listing": 43.49,
+        "quick_sale_model": 39.15,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 37.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -8.54,
+        "max_landed_buy": 21.03,
+        "max_item_buy": null,
+        "delivery_headroom": -16.96,
+        "fees": 6.18,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.27,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 37.97,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 19.45,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Low competing offers advertise coupons; check effective competition before buying",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|128170329493|0",
+            "seller": "ry-pow12312",
+            "image": "https://i.ebayimg.com/images/g/6SUAAeSwt3xqmBV9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128170329493",
+            "title": "LEGO 72151 Pokemon Eevee Building Kit \u2013 Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 43.5,
+            "shipping": 0.0,
+            "listed_total": 43.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|236657289330|0",
+            "seller": "inco-29",
+            "image": "https://i.ebayimg.com/images/g/U40AAeSwWZ5poL4b/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236657289330",
+            "title": "LEGO 72151 Pokemon Eevee Building Kit",
+            "declared_condition": "new",
+            "item_price": 45.4,
+            "shipping": 2.94,
+            "listed_total": 48.34,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "uncertain_competitor_coupon"
+      }
+    },
+    {
+      "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
+      "url": "https://www.ebay.co.uk/itm/366573418864",
+      "policy_key": "6585bffbfd8634697afb758a",
+      "category": "trainers",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 95.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/366573418864",
+      "landed_cost": 95.0,
+      "breakeven_sell": 112.83,
+      "sell_for_minimum_profit": 155.93,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-22T07:29:08+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=UK+8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Nike HQ1416-001 UK 8",
+        "category": "trainers",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Nike",
+          "style_code": "HQ1416-001",
+          "uk_size": 8.0,
+          "department": "men"
+        },
+        "observed_at": "2026-11-25T16:47:38+00:00",
+        "date": "2026-11-25",
+        "sample_count": 2,
+        "listed_total_low": 95.0,
+        "listed_total_p25": 97.22,
+        "listed_total_median": 99.44,
+        "listed_total_p75": 101.66,
+        "listed_total_high": 103.88,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|366573418864|0",
+            "seller": "sportswear.outlet",
+            "image": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 100.0,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366573418864",
+            "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
+            "declared_condition": "new",
+            "item_price": 95.0,
+            "shipping": 0.0,
+            "listed_total": 95.0
+          },
+          {
+            "item_id": "v1|298300063168|0",
+            "seller": "luxf8445",
+            "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298300063168",
+            "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
+            "declared_condition": "new",
+            "item_price": 99.99,
+            "shipping": 3.89,
+            "listed_total": 103.88
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 32
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "trainers",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "Nike HQ1416-001 UK 8",
+        "observed_at": "2026-11-25T16:47:38+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 103.88,
+        "competition_high": 103.88,
+        "estimated_resale": 100.76,
+        "estimated_range": [
+          93.49,
+          103.88
+        ],
+        "suggested_listing": 103.87,
+        "quick_sale_model": 93.49,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 95.0,
+        "delivery_known": true,
+        "landed_cost": 95.0,
+        "net": -10.65,
+        "roi": -11.2,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 60.0,
+        "max_item_buy": 60.0,
+        "delivery_headroom": -35.0,
+        "fees": 9.37,
+        "outbound_postage": 3.52,
+        "packaging": 0.5,
+        "returns_allowance": 3.02,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 90.68,
+        "review_stress_net": -24.87,
+        "review_stress_roi": -26.2,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|298300063168|0",
+            "seller": "luxf8445",
+            "image": "https://i.ebayimg.com/images/g/cK0AAeSw3Utp~d6W/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298300063168",
+            "title": "Nike Air Max 90 Drift Triple Black Men\u2019s Trainers - Size UK 8 - HQ1416-001",
+            "declared_condition": "new",
+            "item_price": 99.99,
+            "shipping": 3.89,
+            "listed_total": 103.88,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
     {
       "title": "LEGO Botanicals Flowering Cactus 11509 - sold by Amazon EU",
       "url": "https://www.hotukdeals.com/deals/lego-botanicals-flowering-cactus-11509-5046640",
@@ -15649,8 +16026,8 @@
       "item_price": 16.75,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wdtK7/5046640_1/re/300x300/qt/55/5046640_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wdtK7/5046640_1/re/300x300/qt/55/5046640_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wdtK7/5046640_1/re/150x150/qt/55/5046640_1.jpg"
@@ -16366,8 +16743,8 @@
       "item_price": 18.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg",
@@ -17556,8 +17933,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/150x150/qt/55/5043808_1.jpg",
@@ -18277,8 +18654,8 @@
       "item_price": 39.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lV0Np/5046611_1/re/300x300/qt/55/5046611_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lV0Np/5046611_1/re/300x300/qt/55/5046611_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lV0Np/5046611_1/re/150x150/qt/55/5046611_1.jpg"
@@ -18893,8 +19270,8 @@
       "item_price": 40.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Jqv0Y/5046718_1/re/300x300/qt/55/5046718_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Jqv0Y/5046718_1/re/300x300/qt/55/5046718_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Jqv0Y/5046718_1/re/150x150/qt/55/5046718_1.jpg"
@@ -19610,8 +19987,8 @@
       "item_price": 41.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
@@ -20334,8 +20711,8 @@
       "item_price": 43.53,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6Mz8G/5046287_1/re/300x300/qt/55/5046287_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6Mz8G/5046287_1/re/300x300/qt/55/5046287_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6Mz8G/5046287_1/re/150x150/qt/55/5046287_1.jpg"
@@ -20949,8 +21326,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/300x300/qt/55/5044089_1.jpg",
         "https://images.hotukdeals.com/threads/raw/FDVS7/5044089_1/re/150x150/qt/55/5044089_1.jpg",
@@ -21668,8 +22045,8 @@
       "item_price": 44.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/300x300/qt/55/5043608_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mvn1Y/5043608_1/re/150x150/qt/55/5043608_1.jpg",
@@ -22286,8 +22663,8 @@
       "item_price": 48.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6Mz8G/5046287_1/re/300x300/qt/55/5046287_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6Mz8G/5046287_1/re/300x300/qt/55/5046287_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6Mz8G/5046287_1/re/150x150/qt/55/5046287_1.jpg",
@@ -22889,731 +23266,6 @@
       }
     },
     {
-      "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-      "url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-charles-leclerc-helmet-43014-5046426",
-      "policy_key": "cb82c7411399475dc083f435",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 53.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/300x300/qt/55/5046426_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/300x300/qt/55/5046426_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/150x150/qt/55/5046426_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/300x300/qt/55/5046426_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-charles-leclerc-helmet-43014-5046426",
-      "landed_cost": null,
-      "breakeven_sell": 71.57,
-      "sell_for_minimum_profit": 97.43,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-25T10:29:06+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Editions+Scuderia+Ferrari+HP+Charles+Leclerc+Helmet+43014&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 43014",
-        "category": "lego",
-        "name_terms": [
-          "charles",
-          "editions",
-          "ferrari",
-          "helmet",
-          "hp",
-          "leclerc",
-          "scuderia"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-25T10:29:07+00:00",
-        "date": "2026-11-25",
-        "sample_count": 25,
-        "listed_total_low": 53.99,
-        "listed_total_p25": 66.48,
-        "listed_total_median": 72.0,
-        "listed_total_p75": 79.99,
-        "listed_total_high": 84.99,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|147694579796|0",
-            "seller": "g_messer95",
-            "image": "https://i.ebayimg.com/images/g/KFcAAeSwsL9rBH~X/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147694579796",
-            "title": "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-            "declared_condition": "new",
-            "item_price": 50.61,
-            "shipping": 3.38,
-            "listed_total": 53.99
-          },
-          {
-            "item_id": "v1|327470344220|0",
-            "seller": "absolutely_free",
-            "image": "https://i.ebayimg.com/images/g/c5wAAeSwcmtrAvQR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327470344220",
-            "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-            "declared_condition": "new",
-            "item_price": 52.7,
-            "shipping": 3.38,
-            "listed_total": 56.08
-          },
-          {
-            "item_id": "v1|257848047842|0",
-            "seller": "rowla.jos",
-            "image": "https://i.ebayimg.com/images/g/U5IAAeSw7X5q9PQ1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257848047842",
-            "title": "Lego 43014 Scuderia Ferrari HP Charles Leclerc Helmet Brand New And Sealed",
-            "declared_condition": "new",
-            "item_price": 56.34,
-            "shipping": 3.38,
-            "listed_total": 59.72
-          },
-          {
-            "item_id": "v1|920115248274|0",
-            "seller": "mardulk-0",
-            "image": "https://i.ebayimg.com/images/g/nLoAAeSwPKNqrQCK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920115248274",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 0.0,
-            "listed_total": 59.99
-          },
-          {
-            "item_id": "v1|920157269800|0",
-            "seller": "originalquality4you",
-            "image": "https://i.ebayimg.com/images/g/wfYAAeSw8R1q~dyp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920157269800",
-            "title": "\ud83d\udd25 Brand New SEALED | LEGO F1 Ferrari Leclerc Helmet | 43014 | RRP \u00a380!!\ud83d\udd25 ",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 0.0,
-            "listed_total": 59.99
-          },
-          {
-            "item_id": "v1|306908633386|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/y9wAAeSwK4lp9Io0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306908633386",
-            "title": "LEGO 43014 Scuderia Ferrari HP Charles Leclerc Helmet",
-            "declared_condition": "new",
-            "item_price": 60.0,
-            "shipping": 4.0,
-            "listed_total": 64.0
-          },
-          {
-            "item_id": "v1|206684571367|0",
-            "seller": "hvrrison",
-            "image": "https://i.ebayimg.com/images/g/2-AAAeSwh41q8ITk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206684571367",
-            "title": "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 3.38,
-            "listed_total": 66.48
-          },
-          {
-            "item_id": "v1|900025379522|0",
-            "seller": "pjh040670",
-            "image": "https://i.ebayimg.com/images/g/aV4AAeSwASdqwWV0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/900025379522",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 3.38,
-            "listed_total": 66.48
-          },
-          {
-            "item_id": "v1|278209715688|0",
-            "seller": "vantage97rsr",
-            "image": "https://i.ebayimg.com/images/g/rzMAAeSw2AdqYc7z/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 82.98,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/278209715688",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 63.99,
-            "shipping": 2.99,
-            "listed_total": 66.98
-          },
-          {
-            "item_id": "v1|227607472815|0",
-            "seller": "walkimki",
-            "image": "https://i.ebayimg.com/images/g/iyQAAeSw~O9q8vs7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227607472815",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 5.21,
-            "listed_total": 68.31
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 25
-        },
-        "query_aliases": [
-          "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 43014",
-        "observed_at": "2026-11-25T10:29:07+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 25,
-        "seller_count": 25,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 2,
-        "confidence": "limited",
-        "wide_spread": true,
-        "competition_low": 53.99,
-        "competition_high": 84.99,
-        "estimated_resale": 52.37,
-        "estimated_range": [
-          48.59,
-          53.99
-        ],
-        "suggested_listing": 53.98,
-        "quick_sale_model": 48.59,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": [
-          82.98,
-          82.98
-        ],
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 1,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 53.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -16.03,
-        "max_landed_buy": 27.11,
-        "max_item_buy": null,
-        "delivery_headroom": -26.88,
-        "fees": 7.55,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 1.57,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 47.13,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 27.96,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|147694579796|0",
-            "seller": "g_messer95",
-            "image": "https://i.ebayimg.com/images/g/KFcAAeSwsL9rBH~X/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/147694579796",
-            "title": "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-            "declared_condition": "new",
-            "item_price": 50.61,
-            "shipping": 3.38,
-            "listed_total": 53.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327470344220|0",
-            "seller": "absolutely_free",
-            "image": "https://i.ebayimg.com/images/g/c5wAAeSwcmtrAvQR/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327470344220",
-            "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-            "declared_condition": "new",
-            "item_price": 52.7,
-            "shipping": 3.38,
-            "listed_total": 56.08,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|257848047842|0",
-            "seller": "rowla.jos",
-            "image": "https://i.ebayimg.com/images/g/U5IAAeSw7X5q9PQ1/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/257848047842",
-            "title": "Lego 43014 Scuderia Ferrari HP Charles Leclerc Helmet Brand New And Sealed",
-            "declared_condition": "new",
-            "item_price": 56.34,
-            "shipping": 3.38,
-            "listed_total": 59.72,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920115248274|0",
-            "seller": "mardulk-0",
-            "image": "https://i.ebayimg.com/images/g/nLoAAeSwPKNqrQCK/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920115248274",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 0.0,
-            "listed_total": 59.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920157269800|0",
-            "seller": "originalquality4you",
-            "image": "https://i.ebayimg.com/images/g/wfYAAeSw8R1q~dyp/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920157269800",
-            "title": "\ud83d\udd25 Brand New SEALED | LEGO F1 Ferrari Leclerc Helmet | 43014 | RRP \u00a380!!\ud83d\udd25 ",
-            "declared_condition": "new",
-            "item_price": 59.99,
-            "shipping": 0.0,
-            "listed_total": 59.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|306908633386|0",
-            "seller": "toytownstores",
-            "image": "https://i.ebayimg.com/images/g/y9wAAeSwK4lp9Io0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/306908633386",
-            "title": "LEGO 43014 Scuderia Ferrari HP Charles Leclerc Helmet",
-            "declared_condition": "new",
-            "item_price": 60.0,
-            "shipping": 4.0,
-            "listed_total": 64.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206684571367|0",
-            "seller": "hvrrison",
-            "image": "https://i.ebayimg.com/images/g/2-AAAeSwh41q8ITk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206684571367",
-            "title": "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 3.38,
-            "listed_total": 66.48,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|900025379522|0",
-            "seller": "pjh040670",
-            "image": "https://i.ebayimg.com/images/g/aV4AAeSwASdqwWV0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/900025379522",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 3.38,
-            "listed_total": 66.48,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|278209715688|0",
-            "seller": "vantage97rsr",
-            "image": "https://i.ebayimg.com/images/g/rzMAAeSw2AdqYc7z/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "advertised_discount",
-            "advertised_original_total": 82.98,
-            "available_coupons": true,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/278209715688",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 63.99,
-            "shipping": 2.99,
-            "listed_total": 66.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|227607472815|0",
-            "seller": "walkimki",
-            "image": "https://i.ebayimg.com/images/g/iyQAAeSw~O9q8vs7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/227607472815",
-            "title": "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            "declared_condition": "new",
-            "item_price": 63.1,
-            "shipping": 5.21,
-            "listed_total": 68.31,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-        "query": "LEGO 43014",
-        "kind": "active_ask",
-        "listing": 53.98,
-        "observed_at": "2026-11-25T10:29:07+00:00",
-        "valid_until": "2026-11-25T16:29:07+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/147694579796",
-          "https://www.ebay.co.uk/itm/327470344220",
-          "https://www.ebay.co.uk/itm/257848047842",
-          "https://www.ebay.co.uk/itm/920115248274",
-          "https://www.ebay.co.uk/itm/920157269800",
-          "https://www.ebay.co.uk/itm/306908633386",
-          "https://www.ebay.co.uk/itm/206684571367",
-          "https://www.ebay.co.uk/itm/900025379522",
-          "https://www.ebay.co.uk/itm/278209715688",
-          "https://www.ebay.co.uk/itm/227607472815"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/147694579796",
-            "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-            53.99,
-            3.38,
-            50.61,
-            "g_messer95"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/327470344220",
-            "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-            56.08,
-            3.38,
-            52.7,
-            "absolutely_free"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/257848047842",
-            "Lego 43014 Scuderia Ferrari HP Charles Leclerc Helmet Brand New And Sealed",
-            59.72,
-            3.38,
-            56.34,
-            "rowla.jos"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/920115248274",
-            "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            59.99,
-            0.0,
-            59.99,
-            "mardulk-0"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/920157269800",
-            "\ud83d\udd25 Brand New SEALED | LEGO F1 Ferrari Leclerc Helmet | 43014 | RRP \u00a380!!\ud83d\udd25 ",
-            59.99,
-            0.0,
-            59.99,
-            "originalquality4you"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/306908633386",
-            "LEGO 43014 Scuderia Ferrari HP Charles Leclerc Helmet",
-            64.0,
-            4.0,
-            60.0,
-            "toytownstores"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/206684571367",
-            "LEGO Editions F1 43014 Scuderia Ferrari HP Charles Leclerc Helmet Age 14+ 886pcs",
-            66.48,
-            3.38,
-            63.1,
-            "hvrrison"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/900025379522",
-            "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            66.48,
-            3.38,
-            63.1,
-            "pjh040670"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/278209715688",
-            "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            66.98,
-            2.99,
-            63.99,
-            "vantage97rsr"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/227607472815",
-            "LEGO Editions | Scuderia Ferrari HP Charles Leclerc Helmet (43014)",
-            68.31,
-            5.21,
-            63.1,
-            "walkimki"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "DEWALT DCV100-XJ 18V Li-Ion XR Cordless Compact Blower - Bare - Free C&C",
       "url": "https://www.hotukdeals.com/deals/dewalt-dcv100-xj-18v-li-ion-xr-cordless-compact-blower-bare-free-cc-5037920",
       "policy_key": "a142deeee766b6f4e60057a1",
@@ -23746,7 +23398,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|188906912962|0",
-          "observed_at": "2026-11-25T16:11:45+00:00",
+          "observed_at": "2026-11-25T16:45:37+00:00",
           "status": "verified_fields",
           "reasons": [],
           "gtin": "5035048616116",
@@ -24062,8 +23714,8 @@
       "item_price": 70.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/300x300/qt/55/5045402_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/300x300/qt/55/5045402_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pto7f/5045402_1/re/150x150/qt/55/5045402_1.jpg"
@@ -24682,8 +24334,8 @@
       "item_price": 72.93,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/300x300/qt/55/5045518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6woL2/5045518_1/re/150x150/qt/55/5045518_1.jpg"
@@ -25303,8 +24955,8 @@
       "item_price": 75.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bNyWf/5046147_1/re/300x300/qt/55/5046147_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bNyWf/5046147_1/re/300x300/qt/55/5046147_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bNyWf/5046147_1/re/150x150/qt/55/5046147_1.jpg"
@@ -26023,8 +25675,8 @@
       "item_price": 83.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/kpFz3/5046216_1/re/300x300/qt/55/5046216_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/kpFz3/5046216_1/re/300x300/qt/55/5046216_1.jpg",
         "https://images.hotukdeals.com/threads/raw/kpFz3/5046216_1/re/150x150/qt/55/5046216_1.jpg"
@@ -26231,8 +25883,8 @@
       "item_price": 124.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/300x300/qt/55/5045468_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/300x300/qt/55/5045468_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qGOsD/5045468_1/re/150x150/qt/55/5045468_1.jpg"
@@ -26925,7 +26577,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-25T16:11:45+00:00",
+        "canonicalized_at": "2026-11-25T16:45:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Sword Art Online Fractured Daydream (Xbox Series X)"
@@ -27193,7 +26845,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-25T16:11:45+00:00",
+        "canonicalized_at": "2026-11-25T16:45:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Like a Dragon: Pirate Yakuza in Hawaii (PS5)",
@@ -27534,7 +27186,7 @@
         "rejected": {
           "identity_or_condition": 11
         },
-        "canonicalized_at": "2026-11-25T16:11:45+00:00",
+        "canonicalized_at": "2026-11-25T16:45:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Like a Dragon: Pirate Yakuza in Hawaii (PS5)",
@@ -27875,7 +27527,7 @@
         "rejected": {
           "identity_or_condition": 8
         },
-        "canonicalized_at": "2026-11-25T16:11:45+00:00",
+        "canonicalized_at": "2026-11-25T16:45:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Anima: Gate of Memories I & II Remaster (PS5)"
@@ -28158,7 +27810,7 @@
         "rejected": {
           "identity_or_condition": 12
         },
-        "canonicalized_at": "2026-11-25T16:11:45+00:00",
+        "canonicalized_at": "2026-11-25T16:45:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Mortal Shell II - PS5",
@@ -28357,7 +28009,7 @@
         "rejected": {
           "identity_or_condition": 12
         },
-        "canonicalized_at": "2026-11-25T16:11:45+00:00",
+        "canonicalized_at": "2026-11-25T16:45:37+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Mortal Shell II - PS5",
@@ -28474,37 +28126,104 @@
       }
     },
     {
-      "title": "UK 8 - Nike Air Max 90 Drift Men's - Triple Black (HQ1416-001)",
-      "url": "https://www.ebay.co.uk/itm/366573418864",
-      "policy_key": "6585bffbfd8634697afb758a",
-      "category": "trainers",
-      "source": "ebay_browse",
-      "price_basis": null,
+      "title": "Resident Evil 2 Deluxe Edition - Nintendo Switch 2",
+      "url": "https://www.hotukdeals.com/deals/resident-evil-2-deluxe-edition-nintendo-switch-2-5046913",
+      "policy_key": "031f08b21e46fbe41246fdcf",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 95.0,
+      "merchant": "Currys",
+      "item_price": 29.69,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://i.ebayimg.com/images/g/aZcAAeSwYttqanXq/s-l225.jpg",
-      "image_basis": "Own Browse listing image",
-      "image_source_url": "https://www.ebay.co.uk/itm/366573418864",
-      "landed_cost": 95.0,
-      "breakeven_sell": 112.83,
-      "sell_for_minimum_profit": 155.93,
+      "thumb": "https://images.hotukdeals.com/threads/raw/P3pGy/5046913_1/re/150x150/qt/55/5046913_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/resident-evil-2-deluxe-edition-nintendo-switch-2-5046913",
+      "landed_cost": 29.69,
+      "breakeven_sell": 39.39,
+      "sell_for_minimum_profit": 53.42,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "landed",
       "blockers": [
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-22T07:29:08+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=UK+8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-25T16:47:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resident+Evil+2+Deluxe+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "resident evil 2 deluxe edition nintendo switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T16:47:35+00:00",
+        "date": "2026-11-25",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 5
+        },
+        "query_aliases": [
+          "Resident Evil 2 Deluxe Edition - Nintendo Switch 2"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Resident Evil 4 Gold Edition - Nintendo Switch 2",
+      "url": "https://www.hotukdeals.com/deals/resident-evil-4-gold-edition-nintendo-switch-2-5046915",
+      "policy_key": "121f90e0dd9592ebf68cd76e",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Currys",
+      "item_price": 38.69,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/6chNr/5046915_1/re/150x150/qt/55/5046915_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/resident-evil-4-gold-edition-nintendo-switch-2-5046915",
+      "landed_cost": 38.69,
+      "breakeven_sell": 50.02,
+      "sell_for_minimum_profit": 68.3,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-25T16:47:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Resident+Evil+4+Gold+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -28526,8 +28245,8 @@
       "item_price": 5.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/orOBc/5046342_1/re/300x300/qt/55/5046342_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/orOBc/5046342_1/re/300x300/qt/55/5046342_1.jpg",
         "https://images.hotukdeals.com/threads/raw/orOBc/5046342_1/re/150x150/qt/55/5046342_1.jpg"
@@ -28568,8 +28287,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg",
@@ -28612,8 +28331,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/300x300/qt/55/5045382_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/300x300/qt/55/5045382_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6RWS3/5045382_1/re/150x150/qt/55/5045382_1.jpg"
@@ -28737,8 +28456,8 @@
       "item_price": 11.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/300x300/qt/55/5045322_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/300x300/qt/55/5045322_1.jpg",
         "https://images.hotukdeals.com/threads/raw/h5N1t/5045322_1/re/150x150/qt/55/5045322_1.jpg",
@@ -28869,8 +28588,8 @@
       "item_price": 12.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KsVWg/5046041_1/re/300x300/qt/55/5046041_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KsVWg/5046041_1/re/300x300/qt/55/5046041_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KsVWg/5046041_1/re/150x150/qt/55/5046041_1.jpg"
@@ -29129,8 +28848,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GqC3w/5046242_1/re/300x300/qt/55/5046242_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GqC3w/5046242_1/re/300x300/qt/55/5046242_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GqC3w/5046242_1/re/150x150/qt/55/5046242_1.jpg"
@@ -29171,8 +28890,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/150x150/qt/55/5043529_1.jpg",
@@ -29215,8 +28934,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg",
@@ -29259,8 +28978,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/150x150/qt/55/5043728_1.jpg",
@@ -29385,8 +29104,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
@@ -29429,8 +29148,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/300x300/qt/55/5046012_1.jpg",
         "https://images.hotukdeals.com/threads/raw/jwpyV/5046012_1/re/150x150/qt/55/5046012_1.jpg"
@@ -29515,8 +29234,8 @@
       "item_price": 16.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1HJhS/5038933_1/re/300x300/qt/55/5038933_1.jpg",
@@ -29559,8 +29278,8 @@
       "item_price": 17.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4DLhy/5046153_1/re/300x300/qt/55/5046153_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4DLhy/5046153_1/re/300x300/qt/55/5046153_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4DLhy/5046153_1/re/150x150/qt/55/5046153_1.jpg"
@@ -29599,19 +29318,19 @@
       "offer_ambiguity": null,
       "merchant": "Costco",
       "item_price": 19.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/150x150/qt/55/5043476_1.jpg",
         "https://i.ebayimg.com/images/g/YLwAAeSwi01qnxaN/s-l225.jpg",
         "https://i.ebayimg.com/images/g/V5MAAeSwxoJqnxWI/s-l225.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/ayb7P/5043476_1/re/300x300/qt/55/5043476_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 30.85,
       "sell_for_minimum_profit": 40.43,
@@ -29624,6 +29343,45 @@
       "priority": 10,
       "first_seen": "2026-11-23T03:04:51+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Pixar+Blaze%27s+Horse+Ranch&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "PAW Patrol Dino World PS5",
+      "url": "https://www.hotukdeals.com/deals/paw-patrol-dino-world-ps5-5046911",
+      "policy_key": "c9c1cc5bf5ce3e266a4bde06",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Smyths",
+      "item_price": 19.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/0I6sy/5046911_1/re/150x150/qt/55/5046911_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/paw-patrol-dino-world-ps5-5046911",
+      "landed_cost": null,
+      "breakeven_sell": 27.95,
+      "sell_for_minimum_profit": 37.39,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-25T16:47:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PAW+Patrol+Dino+World+PS5&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -29733,8 +29491,8 @@
       "item_price": 24.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ya48I/5046148_1/re/300x300/qt/55/5046148_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ya48I/5046148_1/re/300x300/qt/55/5046148_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ya48I/5046148_1/re/150x150/qt/55/5046148_1.jpg"
@@ -29775,8 +29533,8 @@
       "item_price": 24.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/300x300/qt/55/5043474_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lQEkv/5043474_1/re/150x150/qt/55/5043474_1.jpg",
@@ -29907,8 +29665,8 @@
       "item_price": 26.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/300x300/qt/55/5045346_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/300x300/qt/55/5045346_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MVjVL/5045346_1/re/150x150/qt/55/5045346_1.jpg",
@@ -30078,8 +29836,8 @@
       "item_price": 29.44,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/300x300/qt/55/5038271_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xiEzo/5038271_1/re/150x150/qt/55/5038271_1.jpg"
@@ -30164,8 +29922,8 @@
       "item_price": 30.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iy5wJ/5045794_1/re/300x300/qt/55/5045794_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iy5wJ/5045794_1/re/300x300/qt/55/5045794_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iy5wJ/5045794_1/re/150x150/qt/55/5045794_1.jpg"
@@ -30294,8 +30052,8 @@
       "item_price": 33.56,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/300x300/qt/55/5038345_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Zvhra/5038345_1/re/150x150/qt/55/5038345_1.jpg"
@@ -30424,8 +30182,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg",
@@ -30512,8 +30270,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -30723,8 +30481,8 @@
       "item_price": 35.94,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PgHz4/5046167_1/re/300x300/qt/55/5046167_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PgHz4/5046167_1/re/300x300/qt/55/5046167_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PgHz4/5046167_1/re/150x150/qt/55/5046167_1.jpg"
@@ -30765,8 +30523,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8PChE/5046766_1/re/300x300/qt/55/5046766_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8PChE/5046766_1/re/300x300/qt/55/5046766_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8PChE/5046766_1/re/150x150/qt/55/5046766_1.jpg",
@@ -30809,8 +30567,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/150x150/qt/55/5045054_1.jpg",
@@ -30853,8 +30611,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
@@ -30897,8 +30655,8 @@
       "item_price": 37.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/300x300/qt/55/5045934_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/300x300/qt/55/5045934_1.jpg",
         "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/150x150/qt/55/5045934_1.jpg"
@@ -31036,8 +30794,8 @@
       "item_price": 38.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/300x300/qt/55/5044396_1.jpg",
         "https://images.hotukdeals.com/threads/raw/GRvcf/5044396_1/re/150x150/qt/55/5044396_1.jpg",
@@ -31124,8 +30882,8 @@
       "item_price": 39.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/PgHz4/5046167_1/re/300x300/qt/55/5046167_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/PgHz4/5046167_1/re/300x300/qt/55/5046167_1.jpg",
         "https://images.hotukdeals.com/threads/raw/PgHz4/5046167_1/re/150x150/qt/55/5046167_1.jpg",
@@ -31212,8 +30970,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8PChE/5046766_1/re/300x300/qt/55/5046766_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8PChE/5046766_1/re/300x300/qt/55/5046766_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8PChE/5046766_1/re/150x150/qt/55/5046766_1.jpg"
@@ -31468,8 +31226,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/300x300/qt/55/5043545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OOCmg/5043545_1/re/150x150/qt/55/5043545_1.jpg",
@@ -31512,8 +31270,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -31598,8 +31356,8 @@
       "item_price": 44.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/300x300/qt/55/5043504_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fbAhZ/5043504_1/re/150x150/qt/55/5043504_1.jpg",
@@ -31641,8 +31399,8 @@
       "item_price": 46.27,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/300x300/qt/55/5038275_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8RUpE/5038275_1/re/150x150/qt/55/5038275_1.jpg"
@@ -31727,8 +31485,8 @@
       "item_price": 48.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/300x300/qt/55/5045185_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/300x300/qt/55/5045185_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6OCIs/5045185_1/re/150x150/qt/55/5045185_1.jpg",
@@ -31815,8 +31573,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -31901,8 +31659,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/300x300/qt/55/5043647_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Wq1hN/5043647_1/re/150x150/qt/55/5043647_1.jpg",
@@ -31945,8 +31703,8 @@
       "item_price": 49.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/rfOMy/5046251_1/re/300x300/qt/55/5046251_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/rfOMy/5046251_1/re/300x300/qt/55/5046251_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rfOMy/5046251_1/re/150x150/qt/55/5046251_1.jpg"
@@ -31987,8 +31745,8 @@
       "item_price": 50.57,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/150x150/qt/55/5045008_1.jpg",
@@ -32031,8 +31789,8 @@
       "item_price": 51.43,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/300x300/qt/55/5044267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bcOTQ/5044267_1/re/150x150/qt/55/5044267_1.jpg"
@@ -32103,6 +31861,48 @@
       }
     },
     {
+      "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
+      "url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-charles-leclerc-helmet-43014-5046426",
+      "policy_key": "cb82c7411399475dc083f435",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 53.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/300x300/qt/55/5046426_1.jpg",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/300x300/qt/55/5046426_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/150x150/qt/55/5046426_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/bVdxu/5046426_1/re/300x300/qt/55/5046426_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-charles-leclerc-helmet-43014-5046426",
+      "landed_cost": null,
+      "breakeven_sell": 71.57,
+      "sell_for_minimum_profit": 97.43,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-25T10:29:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Editions+Scuderia+Ferrari+HP+Charles+Leclerc+Helmet+43014&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Ideas Peanuts: Snoopy's Doghouse 21368",
       "url": "https://www.hotukdeals.com/deals/lego-ideas-peanuts-snoopys-doghouse-21368-5044623",
       "policy_key": "f8cf8f9511e66cd1288f7029",
@@ -32117,8 +31917,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/150x150/qt/55/5044623_1.jpg",
@@ -32161,8 +31961,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/150x150/qt/55/5043616_1.jpg",
@@ -32205,8 +32005,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KXjyJ/5045008_1/re/300x300/qt/55/5045008_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2GpY2/5043389_1/re/300x300/qt/55/5043389_1.jpg",
@@ -32293,8 +32093,8 @@
       "item_price": 59.34,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
-      "image_verified_until": "2026-11-25T16:33:46.299536+00:00",
-      "image_checked_at": "2026-11-25T16:13:46.299536+00:00",
+      "image_verified_until": "2026-11-25T17:07:39.587200+00:00",
+      "image_checked_at": "2026-11-25T16:47:39.587200+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/300x300/qt/55/5043607_1.jpg",
         "https://images.hotukdeals.com/threads/raw/sBtnn/5043607_1/re/150x150/qt/55/5043607_1.jpg"
@@ -32335,8 +32135,8 @@
       "item_price": 59.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/P4GBk/5046087_1/re/300x300/qt/55/5046087_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/P4GBk/5046087_1/re/300x300/qt/55/5046087_1.jpg",
         "https://images.hotukdeals.com/threads/raw/P4GBk/5046087_1/re/150x150/qt/55/5046087_1.jpg"
@@ -32377,8 +32177,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -32419,8 +32219,8 @@
       "item_price": 64.78,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xd06E/5046761_1/re/300x300/qt/55/5046761_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xd06E/5046761_1/re/300x300/qt/55/5046761_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xd06E/5046761_1/re/150x150/qt/55/5046761_1.jpg"
@@ -32497,8 +32297,8 @@
       "item_price": 69.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/cUvrB/5045598_1/re/300x300/qt/55/5045598_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/cUvrB/5045598_1/re/300x300/qt/55/5045598_1.jpg",
         "https://images.hotukdeals.com/threads/raw/cUvrB/5045598_1/re/150x150/qt/55/5045598_1.jpg"
@@ -32558,72 +32358,6 @@
       "first_seen": "2026-11-24T13:37:48+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+Mechanics+Set+184pc+DWMT45184-1&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "512GB SANDISK microSD Express Card for Nintendo Switch 2 with Senior or Student Discounts",
-      "url": "https://www.hotukdeals.com/deals/512gb-sandisk-microsd-express-card-for-nintendo-switch-2-with-senior-or-student-discounts-5046507",
-      "policy_key": "9a12f62aebf5f44bbe069546",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "SanDisk",
-      "item_price": 95.2,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/qQlmX/5046507_1/re/150x150/qt/55/5046507_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/512gb-sandisk-microsd-express-card-for-nintendo-switch-2-with-senior-or-student-discounts-5046507",
-      "landed_cost": null,
-      "breakeven_sell": 116.74,
-      "sell_for_minimum_profit": 161.71,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-25T16:13:40+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=512GB+SANDISK+microSD+Express+Card+for+Nintendo+Switch+2+with+Senior+or+Student+Discounts&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "512gb sandisk microsd express card for with senior or student discounts nintendo switch 2",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-25T16:13:45+00:00",
-        "date": "2026-11-25",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {},
-        "query_aliases": [
-          "512GB SANDISK microSD Express Card for Nintendo Switch 2 with Senior or Student Discounts"
-        ]
-      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -33257,8 +32991,8 @@
       "item_price": 6.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1Rn3g/5046650_1/re/300x300/qt/55/5046650_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1Rn3g/5046650_1/re/300x300/qt/55/5046650_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1Rn3g/5046650_1/re/150x150/qt/55/5046650_1.jpg"
@@ -33299,8 +33033,8 @@
       "item_price": 6.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DVhDr/5046585_1/re/300x300/qt/55/5046585_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
-      "image_checked_at": "2026-11-25T16:11:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
+      "image_checked_at": "2026-11-25T16:45:49.266937+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DVhDr/5046585_1/re/300x300/qt/55/5046585_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DVhDr/5046585_1/re/150x150/qt/55/5046585_1.jpg"
@@ -37424,45 +37158,6 @@
       }
     },
     {
-      "title": "Nice Day For Fishing (PS5)",
-      "url": "https://www.hotukdeals.com/deals/nice-day-for-fishing-playstation-5-5044944",
-      "policy_key": "4406376450a6724f3ced8c9a",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 22.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/zHk8F/5044944_1/re/150x150/qt/55/5044944_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nice-day-for-fishing-playstation-5-5044944",
-      "landed_cost": null,
-      "breakeven_sell": 30.32,
-      "sell_for_minimum_profit": 40.71,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-24T07:00:46+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nice+Day+For+Fishing+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Starship Troopers: Ultimate Bug War (PS5)",
       "url": "https://www.hotukdeals.com/deals/starship-troopers-ultimate-bug-war-ps5-5041841",
       "policy_key": "b037efbc28bb5d11bbf999f7",
@@ -37775,7 +37470,7 @@
       }
     },
     {
-      "title": "Charlotte Tilbury 70% off Perfume Sale - eg Star Confidence, 50ml",
+      "title": "Charlotte Tilbury 70% off Perfume Sale - e.g. Star Confidence, 50ml",
       "url": "https://www.hotukdeals.com/deals/charlotte-tilbury-70-off-perfumes-5046540",
       "policy_key": "95b28fd97d9c6809bd6f1d0a",
       "category": "fragrance",
@@ -42240,45 +41935,6 @@
       }
     },
     {
-      "title": "Xbox Wireless Controller \u2013 Pulse Red / Shock Blue / Velocity Green",
-      "url": "https://www.hotukdeals.com/deals/xbox-wireless-controller-carbon-black-series-xs-white-red-blue-and-green-ps4249-5038640",
-      "policy_key": "1ed850a56d05ca619a287f14",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 42.49,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/ZYVzL/5038640_1/re/150x150/qt/55/5038640_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/xbox-wireless-controller-carbon-black-series-xs-white-red-blue-and-green-ps4249-5038640",
-      "landed_cost": null,
-      "breakeven_sell": 54.51,
-      "sell_for_minimum_profit": 74.58,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-19T09:33:43+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Xbox+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Playstation 5 DualSense Wireless Controller PS5\u2013 Midnight Black + USB Cable for PC",
       "url": "https://www.hotukdeals.com/deals/dualsense-wireless-controller-midnight-black-usb-cable-for-pc-5040000",
       "policy_key": "d951dfbd104be528eadcf1ff",
@@ -42662,36 +42318,7 @@
       "priority": 0,
       "first_seen": "2026-11-19T22:45:15+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PLAYSTATION+Ace+Combat+8%3A+Wings+of+Theve&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "playstation ace combat 8 wings of theve ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-25T10:29:07+00:00",
-        "date": "2026-11-25",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 7
-        },
-        "query_aliases": [
-          "PLAYSTATION Ace Combat 8: Wings of Theve - PS5"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -44964,73 +44591,6 @@
       }
     },
     {
-      "title": "Yves Saint Laurent Black Opium Eau de Parfum 90ml (with code)",
-      "url": "https://www.hotukdeals.com/deals/yves-saint-laurent-black-opium-eau-de-parfum-90ml-with-code-5044935",
-      "policy_key": "9afbfc2cc88f18c056ad307e",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "John Lewis &amp; Partners",
-      "item_price": 75.9,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/O8SuJ/5044935_1/re/150x150/qt/55/5044935_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/yves-saint-laurent-black-opium-eau-de-parfum-90ml-with-code-5044935",
-      "landed_cost": null,
-      "breakeven_sell": 96.57,
-      "sell_for_minimum_profit": 132.93,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": 90,
-          "postage": 3.75,
-          "status": "conditional_tariff_scenario",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "90ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
-        },
-        "status": "conditional_tariff_scenario",
-        "breakeven": 96.57,
-        "required_resale": 132.93,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null,
-        "inbound_known": false,
-        "cost": 75.9,
-        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
-      },
-      "outbound_transport_status": "90ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-24T07:00:46+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Yves+Saint+Laurent+Black+Opium+Eau+de+Parfum+90ml+%28with+code%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Beats Solo 4 Wireless Bluetooth Headphones - Black, Pink or Blue",
       "url": "https://www.hotukdeals.com/deals/beats-solo-4-wireless-bluetooth-headphones-black-pink-or-blue-5045740",
       "policy_key": "66d4cadbc513393fda4e917c",
@@ -45485,6 +45045,72 @@
       }
     },
     {
+      "title": "512GB SANDISK microSD Express Card for Nintendo Switch 2 with Senior or Student Discounts",
+      "url": "https://www.hotukdeals.com/deals/512gb-sandisk-microsd-express-card-for-nintendo-switch-2-with-senior-or-student-discounts-5046507",
+      "policy_key": "9a12f62aebf5f44bbe069546",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "SanDisk",
+      "item_price": 95.2,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/qQlmX/5046507_1/re/150x150/qt/55/5046507_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/512gb-sandisk-microsd-express-card-for-nintendo-switch-2-with-senior-or-student-discounts-5046507",
+      "landed_cost": null,
+      "breakeven_sell": 116.74,
+      "sell_for_minimum_profit": 161.71,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-25T16:13:40+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=512GB+SANDISK+microSD+Express+Card+for+Nintendo+Switch+2+with+Senior+or+Student+Discounts&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "512gb sandisk microsd express card for with senior or student discounts nintendo switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-25T16:13:45+00:00",
+        "date": "2026-11-25",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "512GB SANDISK microSD Express Card for Nintendo Switch 2 with Senior or Student Discounts"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Sony WF-1000XM5 True Wireless Active Noise Cancelling Earbuds- Refurbished, 1 year warranty w. code at Sony Store Online",
       "url": "https://www.hotukdeals.com/deals/sony-wf-1000xm5-true-wireless-active-noise-cancelling-earbuds-refurbished-1-year-warranty-w-code-at-sony-store-online-5045311",
       "policy_key": "8ec095c5ee9c3ff9fe21c0a0",
@@ -45893,17 +45519,17 @@
   ],
   "stats": {
     "retailer_revaluation": {
-      "retailer_offers": 521,
-      "known_landed_under_cap": 3,
+      "retailer_offers": 523,
+      "known_landed_under_cap": 5,
       "under_cap_revalued_independently": 0,
       "under_cap_supported": 0,
-      "under_cap_without_model": 3,
+      "under_cap_without_model": 5,
       "retailer_unknown_delivery": 517,
       "method": "All-seller NEW UK shipped competition; excludes only acquisition URLs/item IDs and own seller; cheaper independent promotions retained; not a BUY."
     },
-    "scanned": 522,
+    "scanned": 524,
     "priced": 6,
-    "unpriced": 516,
+    "unpriced": 518,
     "affordable": 0,
     "A": 0,
     "B": 0,
@@ -45917,25 +45543,25 @@
     "expiry_unknown": 6,
     "sold_valued": 0,
     "reference_only": 6,
-    "online_eligible": 466,
-    "under_cap_known_delivery": 3,
-    "delivery_known": 5,
-    "ask_valued": 24,
+    "online_eligible": 467,
+    "under_cap_known_delivery": 5,
+    "delivery_known": 7,
+    "ask_valued": 25,
     "estimated_opportunities": 0,
     "worth_reviewing": 0,
-    "above_budget_estimates": 5,
-    "above_budget_candidates": 48,
-    "above_budget_researched": 8,
-    "above_budget_research_candidates": 48,
+    "above_budget_estimates": 6,
+    "above_budget_candidates": 47,
+    "above_budget_researched": 9,
+    "above_budget_research_candidates": 47,
     "acquisition_by_source": {
-      "hotukdeals": 521,
-      "ebay_browse": 1
+      "ebay_browse": 1,
+      "hotukdeals": 523
     },
     "qualified_delivery_unknown": 24,
-    "ask_delivery_known": 0,
-    "ask_unique_products": 21,
-    "ask_research_identities": 21,
-    "without_any_pricing": 492,
+    "ask_delivery_known": 1,
+    "ask_unique_products": 22,
+    "ask_research_identities": 22,
+    "without_any_pricing": 493,
     "pricing_coverage": {
       "fragrance": {
         "offers": 32,
@@ -45945,21 +45571,21 @@
         "supported_retailer_identities": 0
       },
       "gaming": {
-        "offers": 196,
-        "exact_identity": 125,
+        "offers": 198,
+        "exact_identity": 127,
         "estimated_offers": 6,
         "estimated_products": 4,
         "supported_retailer_identities": 1
       },
       "lego": {
-        "offers": 132,
-        "exact_identity": 113,
+        "offers": 133,
+        "exact_identity": 114,
         "estimated_offers": 17,
         "estimated_products": 16,
-        "supported_retailer_identities": 8
+        "supported_retailer_identities": 7
       },
       "other": {
-        "offers": 18,
+        "offers": 17,
         "exact_identity": 0,
         "estimated_offers": 0,
         "estimated_products": 0,
@@ -45989,20 +45615,20 @@
       "trainers": {
         "offers": 68,
         "exact_identity": 1,
-        "estimated_offers": 0,
-        "estimated_products": 0,
+        "estimated_offers": 1,
+        "estimated_products": 1,
         "supported_retailer_identities": 0
       }
     },
     "browse_usage": {
       "date": "2026-11-25",
-      "calls": 415,
+      "calls": 428,
       "by_purpose": {
-        "persistent-research": 62,
-        "item-details": 124,
-        "acquisition": 124,
-        "asking-affordable": 62,
-        "asking-watch": 40,
+        "persistent-research": 64,
+        "item-details": 128,
+        "acquisition": 128,
+        "asking-affordable": 64,
+        "asking-watch": 41,
         "asking-tools": 3
       }
     },
@@ -46015,12 +45641,12 @@
         "feeds_ok": 18,
         "feeds_failed": 0,
         "feed_items": 540,
-        "duplicates": 32,
+        "duplicates": 35,
         "old_dropped": 103,
         "age_unknown": 0,
-        "missing_price_or_category": 108,
+        "missing_price_or_category": 105,
         "ambiguous_price": 12,
-        "page_requests": 9
+        "page_requests": 8
       },
       "ebay": {
         "status": "token OK, active listings only (no Insights entitlement confirmed)",
@@ -46049,14 +45675,13 @@
           },
           "above_budget_research": {
             "purpose": "indicative current asks only; not sold valuation",
-            "queries": 2,
-            "cached": 6,
+            "queries": 1,
+            "cached": 8,
             "query_budget": 2,
             "queries_by_category": {
-              "lego": 1,
-              "gaming": 1
+              "trainers": 1
             },
-            "candidates_with_samples": 5,
+            "candidates_with_samples": 6,
             "status": "ready",
             "errors": []
           }
@@ -46064,13 +45689,13 @@
       },
       "capture_buffer": {
         "enabled": true,
-        "added": 249,
-        "duplicates": 51,
+        "added": 248,
+        "duplicates": 52,
         "invalid": 0,
         "status": "ok",
         "grades_computed": false,
-        "last_attempt": "2026-11-25T16:10:23.803Z",
-        "last_success": "2026-11-25T16:10:23.803Z"
+        "last_attempt": "2026-11-25T16:40:23.853Z",
+        "last_success": "2026-11-25T16:40:23.853Z"
       },
       "ebay_acquisition": {
         "status": "ready",
@@ -46085,49 +45710,45 @@
         },
         "query_details": [
           {
-            "query": "LEGO 43024",
+            "query": "LEGO 75433",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {
+              "identity_or_condition": 13
+            },
+            "sort": "price",
+            "max_item_price": 19.01,
+            "max_landed_price": 19.01,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "LEGO 11041",
+            "category": "lego",
+            "samples": 0,
+            "rejected": {},
+            "sort": "newlyListed",
+            "max_item_price": 6.78,
+            "max_landed_price": 6.78,
+            "target_status": "usable_configured_cost_target",
+            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
+          },
+          {
+            "query": "LEGO 11509",
             "category": "lego",
             "samples": 0,
             "rejected": {},
             "sort": "price",
-            "max_item_price": 28.31,
-            "max_landed_price": 28.31,
+            "max_item_price": 1.11,
+            "max_landed_price": 1.11,
             "target_status": "usable_configured_cost_target",
             "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
           },
           {
-            "query": "LEGO 11373",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {
-              "identity_or_condition": 2
-            },
-            "sort": "price",
-            "max_item_price": 22.3,
-            "max_landed_price": 22.3,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "LEGO 72046",
-            "category": "lego",
-            "samples": 0,
-            "rejected": {
-              "identity_or_condition": 3
-            },
-            "sort": "newlyListed",
-            "max_item_price": 19.43,
-            "max_landed_price": 19.43,
-            "target_status": "usable_configured_cost_target",
-            "ceiling_basis": "Item-price filter is necessary only; post-check fixed delivery; revalue against independent competition before any signal"
-          },
-          {
-            "query": "Nike HQ1416-001",
+            "query": "Nike IQ0157-001",
             "category": "trainers",
-            "samples": 2,
-            "rejected": {
-              "identity_or_condition": 48
-            },
+            "samples": 0,
+            "rejected": {},
             "sort": "price",
             "max_item_price": null,
             "max_landed_price": null,
@@ -46138,11 +45759,11 @@
         "target_selection": {
           "contexts_examined": 150,
           "context_reasons": {
-            "not_usable": 141,
-            "query_cooldown": 2,
-            "eligible": 7
+            "not_usable": 142,
+            "query_cooldown": 3,
+            "eligible": 5
           },
-          "eligible_distinct_queries": 7,
+          "eligible_distinct_queries": 5,
           "duplicate_contexts_collapsed": 0,
           "selection_limit": 3,
           "selected_price_queries": 3,
@@ -46151,12 +45772,10 @@
         "price_led_queries": 3,
         "research_discovery_queries": 1,
         "persistent_watchlist": 150,
-        "query": "LEGO 43024",
-        "matched_shipped_samples": 2,
-        "rejections": {
-          "identity_or_condition": 48
-        },
-        "watchlist_products": 219
+        "query": "LEGO 75433",
+        "matched_shipped_samples": 0,
+        "rejections": {},
+        "watchlist_products": 222
       },
       "reviewed_bridge": {
         "status": "ready",
@@ -46172,28 +45791,29 @@
       }
     },
     "new": 11,
-    "rescanned": 511,
+    "rescanned": 513,
     "price_changed": 0,
-    "previous_success": "2026-11-25T15:41:01+00:00",
-    "gap_minutes": 32.7,
+    "previous_success": "2026-11-25T16:14:56+00:00",
+    "gap_minutes": 32.6,
     "publication_holds": {
-      "eligible": 10,
-      "held": 512,
+      "eligible": 9,
+      "held": 515,
       "reasons": {
-        "no_supported_resale_estimate": 498,
+        "no_supported_resale_estimate": 499,
         "low_price_not_supported": 6,
-        "uncertain_competitor_coupon": 4,
-        "fewer_than_three_exact_independent_comparators": 4
+        "uncertain_competitor_coupon": 5,
+        "fewer_than_three_exact_independent_comparators": 4,
+        "detail_check_pending": 1
       },
       "by_category": {
-        "tools": 12,
-        "trainers": 68,
-        "lego": 124,
-        "sportswear": 2,
-        "other": 18,
+        "lego": 126,
+        "other": 17,
         "tech": 61,
-        "gaming": 195,
-        "fragrance": 32
+        "trainers": 68,
+        "fragrance": 32,
+        "tools": 12,
+        "gaming": 197,
+        "sportswear": 2
       }
     },
     "excluded_nonphysical": [
@@ -46241,24 +45861,6 @@
         "source": null,
         "category": "digital",
         "reason": "Digital key/code/licence is not a physical resale item"
-      },
-      {
-        "title": "\u00a350 PlayStation Store Gift Card",
-        "url": "https://www.hotukdeals.com/deals/ps50-playstation-store-gift-card-ps4599-5044996",
-        "price": 45.99,
-        "merchant": "Loaded",
-        "source": null,
-        "category": "digital",
-        "reason": "Digital key/code/licence is not a physical resale item"
-      },
-      {
-        "title": "Spend \u00a350 or More, Get \u00a35 Wallet Credit (Account Specific)",
-        "url": "https://www.hotukdeals.com/deals/spend-ps50-or-more-get-ps5-wall-credit-account-specific-5044982",
-        "price": 50.0,
-        "merchant": "Playstation Store",
-        "source": null,
-        "category": "digital",
-        "reason": "Digital storefront format not confirmed physical"
       },
       {
         "title": "Tomb Raider: Definitive Survivor Trilogy - Xbox One Key - Europe - Sold By Digital Imperium",
@@ -46405,19 +46007,10 @@
         "reason": "Digital/nonphysical format; physical delivery and resale economics do not apply"
       },
       {
-        "title": "God of War steam game",
-        "url": "https://www.hotukdeals.com/deals/god-of-war-5046849",
-        "price": 15.99,
-        "merchant": "Steam",
-        "source": null,
-        "category": "digital",
-        "reason": "Digital/nonphysical format; physical delivery and resale economics do not apply"
-      },
-      {
-        "title": "Styx: Blades of Greed (Quartz Edition \u00a311.27) - PC Steam",
-        "url": "https://www.hotukdeals.com/deals/styx-blades-of-greed-quartz-edition-ps1127-pc-steam-5046821",
-        "price": 9.89,
-        "merchant": "Gamesplanet ",
+        "title": "[PC-GOG] Theme Hospital - PEGI 12 - Windows / macOS",
+        "url": "https://www.hotukdeals.com/deals/pc-gog-theme-hospital-pegi-12-windows-macos-5046760",
+        "price": 0.85,
+        "merchant": "GOG",
         "source": null,
         "category": "digital",
         "reason": "Digital/nonphysical format; physical delivery and resale economics do not apply"
@@ -46427,20 +46020,20 @@
       "ebay_browse": {
         "offers": 1,
         "new": 0,
-        "estimated": 0,
+        "estimated": 1,
         "actionable": 0
       },
       "hotukdeals": {
-        "offers": 521,
+        "offers": 523,
         "new": 11,
         "estimated": 24,
         "actionable": 0
       }
     },
     "value_watchlist": {
-      "products": 140,
+      "products": 139,
       "identity_contexts": 150,
-      "usable_targets": 9,
+      "usable_targets": 8,
       "by_category": {
         "fragrance": {
           "products": 7,
@@ -46453,9 +46046,9 @@
           "usable_targets": 0
         },
         "lego": {
-          "products": 87,
+          "products": 86,
           "identity_contexts": 97,
-          "usable_targets": 9
+          "usable_targets": 8
         },
         "tools": {
           "products": 1,
@@ -46481,22 +46074,23 @@
       "reserved_tools": 2
     },
     "publication_stages": {
-      "offers_scanned": 522,
-      "research_models_generated": 24,
-      "supported_market_estimates": 10,
-      "publication_qualified_cards": 10,
-      "route_eligible_cards": 9,
+      "offers_scanned": 524,
+      "research_models_generated": 25,
+      "supported_market_estimates": 9,
+      "publication_qualified_cards": 9,
+      "route_eligible_cards": 8,
       "route_eligibility_scope": "policy/format admission only; live availability, destination, limits and notification deduplication still apply",
       "buying_signals": 0,
       "opportunity_candidates": 0,
-      "research_watch_candidates": 9,
+      "research_watch_candidates": 8,
       "above_budget_priced_watch": 1,
-      "research_holds": 512,
+      "research_holds": 515,
       "hold_reasons": {
-        "no_supported_resale_estimate": 498,
+        "no_supported_resale_estimate": 499,
         "low_price_not_supported": 6,
-        "uncertain_competitor_coupon": 4,
-        "fewer_than_three_exact_independent_comparators": 4
+        "uncertain_competitor_coupon": 5,
+        "fewer_than_three_exact_independent_comparators": 4,
+        "detail_check_pending": 1
       },
       "by_category": {
         "trainers": {
@@ -46512,10 +46106,10 @@
           "holds": 2
         },
         "lego": {
-          "offers": 132,
-          "supported": 8,
-          "publication_qualified": 8,
-          "holds": 124
+          "offers": 133,
+          "supported": 7,
+          "publication_qualified": 7,
+          "holds": 126
         },
         "tools": {
           "offers": 13,
@@ -46524,10 +46118,10 @@
           "holds": 12
         },
         "gaming": {
-          "offers": 196,
+          "offers": 198,
           "supported": 1,
           "publication_qualified": 1,
-          "holds": 195
+          "holds": 197
         },
         "fragrance": {
           "offers": 32,
@@ -46542,13 +46136,13 @@
           "holds": 61
         },
         "other": {
-          "offers": 18,
+          "offers": 17,
           "supported": 0,
           "publication_qualified": 0,
-          "holds": 18
+          "holds": 17
         }
       },
-      "inbound_known": 5,
+      "inbound_known": 7,
       "inbound_unknown": 517
     },
     "routing_destinations": {
@@ -46597,30 +46191,30 @@
       "product_messages_delivered": 0,
       "by_route": {}
     },
-    "review_candidates": 432,
+    "review_candidates": 433,
     "lego_image_validation": {
       "checked": 32,
       "cached": 36,
-      "verified": 72,
-      "pending": 60,
+      "verified": 71,
+      "pending": 62,
       "budget": 32,
       "paused_hosts": {}
     },
     "pricing_labels": {
-      "exact_priced": 10,
-      "research_model_only": 14,
-      "unpriced": 498,
+      "exact_priced": 9,
+      "research_model_only": 16,
+      "unpriced": 499,
       "approximate_priced": null,
       "label_note": "approximate_priced renamed to research_model_only (Task 16 Part D); exact_priced requires publication.allowed supported selling/listing price"
     },
     "images_available": 460,
-    "lego_images_available": 72,
+    "lego_images_available": 71,
     "delivery_mode": "live",
     "execution": {
       "revision": "46781f85db7c7c71b6ad24f4273500ed70741c9f",
-      "run_id": "45651675350",
+      "run_id": "45657354180",
       "event": "workflow_dispatch",
-      "parent_run_id": "45647416996"
+      "parent_run_id": "45651675350"
     },
     "seen_price_change": {
       "reposts_allowed": 0,
@@ -46643,17 +46237,6 @@
           "title": "LEGO Botanicals Flowering Cactus 11509 - sold by Amazon EU",
           "current_price": 16.75,
           "last_delivered_price": 16.75,
-          "pct_change": 0.0,
-          "would_deliver": false,
-          "reason": "price_change_under_10pct",
-          "is_repost": false
-        },
-        {
-          "identity": "w:ask-model-v1:https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-charles-leclerc-helmet-43014-5046426",
-          "url": "https://www.hotukdeals.com/deals/lego-editions-scuderia-ferrari-hp-charles-leclerc-helmet-43014-5046426",
-          "title": "LEGO Editions Scuderia Ferrari HP Charles Leclerc Helmet 43014",
-          "current_price": 53.99,
-          "last_delivered_price": 53.99,
           "pct_change": 0.0,
           "would_deliver": false,
           "reason": "price_change_under_10pct",
@@ -47051,7 +46634,7 @@
       "max_buy": 4.25,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/onKez/5045934_1/re/300x300/qt/55/5045934_1.jpg",
-      "image_verified_until": "2026-11-25T16:31:58.246045+00:00",
+      "image_verified_until": "2026-11-25T17:05:49.266937+00:00",
       "image_basis": "Own offer/feed product image",
       "image_source_url": "https://www.hotukdeals.com/deals/lego-animal-crossing-timmy-tommys-fun-day-out-77059-5045934",
       "image_candidates": [
