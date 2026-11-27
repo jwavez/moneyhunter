@@ -2,6 +2,581 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+      "url": "https://www.ebay.co.uk/itm/880147354688",
+      "policy_key": "258f078d1f2eaa152d34d44e",
+      "category": "tech",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 109.77,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/880147354688",
+      "landed_cost": 109.77,
+      "breakeven_sell": 140.31,
+      "sell_for_minimum_profit": 194.45,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-27T08:13:42+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bose+SoundLink+Flex+SE+2nd+Gen+Portable+Bluetooth+Speaker+IP67+Blue+Dusk&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "category": "tech",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Bose",
+          "model": "SoundLink Flex 2nd Gen",
+          "colour": "blue dusk",
+          "edition": "standard"
+        },
+        "observed_at": "2026-11-27T15:01:09+00:00",
+        "date": "2026-11-27",
+        "sample_count": 4,
+        "listed_total_low": 100.0,
+        "listed_total_p25": 101.87,
+        "listed_total_median": 106.13,
+        "listed_total_p75": 127.61,
+        "listed_total_high": 181.15,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|307299298027|0",
+            "seller": "ejj_ltd",
+            "image": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307299298027",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 0.0,
+            "listed_total": 100.0
+          },
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49
+          },
+          {
+            "item_id": "v1|880147354688|0",
+            "seller": "primepickwarehouse",
+            "image": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880147354688",
+            "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+            "declared_condition": "new",
+            "item_price": 109.77,
+            "shipping": 0.0,
+            "listed_total": 109.77
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 7
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|307299298027|0",
+          "observed_at": "2026-11-27T14:59:27+00:00",
+          "status": "conflict",
+          "reasons": [
+            "model aspect mismatch",
+            "colour mismatch"
+          ],
+          "gtin": "0017817852487",
+          "mpn": null,
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Includes Rechargable Battery",
+              "value": "Yes"
+            },
+            {
+              "type": "STRING",
+              "name": "Audio Output Mode",
+              "value": "Stereo"
+            },
+            {
+              "type": "STRING",
+              "name": "Package Dimensions LxWxH",
+              "value": "8.6x3.78x2.74 Inches"
+            },
+            {
+              "type": "STRING",
+              "name": "Part Number",
+              "value": "887612-0160"
+            },
+            {
+              "type": "STRING",
+              "name": "Specific Uses For Product",
+              "value": "Outdoor, Travel"
+            },
+            {
+              "type": "STRING",
+              "name": "Number Of Lithium Ion Cells",
+              "value": "1"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Installation Device Type",
+              "value": "Installed In Vessel"
+            },
+            {
+              "type": "STRING",
+              "name": "Speaker Type",
+              "value": "Outdoor"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Rosewood Mauve"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Package Quantity",
+              "value": "1"
+            },
+            {
+              "type": "STRING",
+              "name": "Maximum Range",
+              "value": "30.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Contains Battery Or Cell",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Ships Globally",
+              "value": "Yes"
+            },
+            {
+              "type": "STRING",
+              "name": "ISBN",
+              "value": "0017817852487"
+            },
+            {
+              "type": "STRING",
+              "name": "Batteries Required?",
+              "value": "Yes"
+            },
+            {
+              "type": "STRING",
+              "name": "Bluetooth Range",
+              "value": "9.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Plug Type",
+              "value": "No Plug"
+            },
+            {
+              "type": "STRING",
+              "name": "Style",
+              "value": "With Microphone"
+            },
+            {
+              "type": "STRING",
+              "name": "Frequency Response",
+              "value": "20.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Assembly Instructions",
+              "value": "No Assembly Required"
+            },
+            {
+              "type": "STRING",
+              "name": "Audio Driver Type",
+              "value": "Dynamic Driver"
+            },
+            {
+              "type": "STRING",
+              "name": "Model Name",
+              "value": "Bose Soundlink Flex Portable Bluetooth Speaker (2Nd Gen)"
+            },
+            {
+              "type": "STRING",
+              "name": "Series Number",
+              "value": "2"
+            },
+            {
+              "type": "STRING",
+              "name": "Control Method",
+              "value": "Application"
+            },
+            {
+              "type": "STRING",
+              "name": "Is Waterproof",
+              "value": "True"
+            },
+            {
+              "type": "STRING",
+              "name": "Model Number",
+              "value": "887612-0200"
+            },
+            {
+              "type": "STRING",
+              "name": "Weight",
+              "value": "1.63 Pounds"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Bose"
+            },
+            {
+              "type": "STRING",
+              "name": "Speakers Maximum Output Power",
+              "value": "7.5"
+            },
+            {
+              "type": "STRING",
+              "name": "Speaker Connectivity",
+              "value": "Wireless"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Portable Speaker System"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "0017817852487"
+            },
+            {
+              "type": "STRING",
+              "name": "Speakers Nominal Output Power",
+              "value": "15.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "Bose SoundLink Flex"
+            },
+            {
+              "type": "STRING",
+              "name": "Set Name",
+              "value": "Bose Soundlink Flex Bluetooth Speaker Color Set"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Weight",
+              "value": "52.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Eu Spare Part Availability Duration",
+              "value": "7.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Number Of Power Levels",
+              "value": "1"
+            },
+            {
+              "type": "STRING",
+              "name": "Country of Origin",
+              "value": "Malaysia"
+            },
+            {
+              "type": "STRING",
+              "name": "Connectivity Technology",
+              "value": "Bluetooth"
+            }
+          ],
+          "checked_item_price": 100.0,
+          "identity_query": "Bose SoundLink Flex 2nd Gen blue dusk",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/307299298027",
+          "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "fixed_shipping": 0.0,
+          "sub_checks": [
+            {
+              "sub_check_failed": "title_model_number_missing",
+              "expected": "SoundLink Flex 2nd Gen",
+              "observed": "Bose SoundLink Flex",
+              "reason": "model aspect mismatch"
+            },
+            {
+              "sub_check_failed": "variation_mismatch",
+              "expected": "blue dusk",
+              "observed": "rosewood mauve",
+              "reason": "colour mismatch"
+            }
+          ],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "mpn",
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "conflict",
+        "query_aliases": [
+          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
+          "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tech",
+        "detail_status": "conflict",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "observed_at": "2026-11-27T15:01:09+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 100.0,
+        "competition_high": 181.15,
+        "estimated_resale": 97.0,
+        "estimated_range": [
+          90.0,
+          100.0
+        ],
+        "suggested_listing": 99.99,
+        "quick_sale_model": 90.0,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 109.77,
+        "delivery_known": true,
+        "landed_cost": 109.77,
+        "net": -35.12,
+        "roi": -32.0,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 53.32,
+        "max_item_buy": 53.32,
+        "delivery_headroom": -56.45,
+        "fees": 15.9,
+        "outbound_postage": 3.04,
+        "packaging": 0.5,
+        "returns_allowance": 2.91,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 87.3,
+        "review_stress_net": -42.99,
+        "review_stress_roi": -39.2,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: conflict; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|307299298027|0",
+            "seller": "ejj_ltd",
+            "image": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307299298027",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 0.0,
+            "listed_total": 100.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_failed"
+      }
+    },
+    {
       "title": "LEGO Creator 3in1 Space Shuttle 31134",
       "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-space-shuttle-31134-5046343",
       "policy_key": "dd0f89c49c5d23f8b7091493",
@@ -16,8 +591,8 @@
       "item_price": 5.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/iVnNs/5046343_1/re/300x300/qt/55/5046343_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/iVnNs/5046343_1/re/300x300/qt/55/5046343_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iVnNs/5046343_1/re/150x150/qt/55/5046343_1.jpg",
@@ -1507,8 +2082,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/150x150/qt/55/5049642_1.jpg"
@@ -2709,8 +3284,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/150x150/qt/55/5049586_1.jpg"
@@ -3740,8 +4315,8 @@
       "item_price": 13.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/300x300/qt/55/5049525_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/300x300/qt/55/5049525_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/150x150/qt/55/5049525_1.jpg"
@@ -5965,6 +6540,809 @@
       }
     },
     {
+      "title": "LEGO Classic Creative Dinosaurs 11041",
+      "url": "https://www.hotukdeals.com/deals/lego-classic-creative-dinosaurs-11041-5043840",
+      "policy_key": "fe877ce0178a1816df5011c5",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 18.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg",
+        "https://i.ebayimg.com/images/g/leEAAeSwT7xpoCFv/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/1K8AAeSweR9ph6p5/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-classic-creative-dinosaurs-11041-5043840",
+      "landed_cost": null,
+      "breakeven_sell": 29.65,
+      "sell_for_minimum_profit": 39.24,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-23T10:17:53+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Classic+Creative+Dinosaurs+11041&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 11041",
+        "category": "lego",
+        "name_terms": [
+          "classic",
+          "creative",
+          "dinosaurs"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-27T15:01:07+00:00",
+        "date": "2026-11-27",
+        "sample_count": 14,
+        "listed_total_low": 27.48,
+        "listed_total_p25": 32.83,
+        "listed_total_median": 35.26,
+        "listed_total_p75": 37.12,
+        "listed_total_high": 47.79,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|117115336027|0",
+            "seller": "i_am_a_star7",
+            "image": "https://i.ebayimg.com/images/g/1K8AAeSweR9ph6p5/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117115336027",
+            "title": "Lego Classic Creative Dinosaurs Set 11041, Brand New, Sealed",
+            "declared_condition": "new",
+            "item_price": 24.1,
+            "shipping": 3.38,
+            "listed_total": 27.48
+          },
+          {
+            "item_id": "v1|287123849585|0",
+            "seller": "emacitystore",
+            "image": "https://i.ebayimg.com/images/g/Mv0AAeSwDI1phLm2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287123849585",
+            "title": "Lego Classic 11041 Creative Dinosaurs Set - BRAND NEW & SEALED! \u2705",
+            "declared_condition": "new",
+            "item_price": 28.99,
+            "shipping": 0.0,
+            "listed_total": 28.99
+          },
+          {
+            "item_id": "v1|376983196528|0",
+            "seller": "toykabin",
+            "image": "https://i.ebayimg.com/images/g/4usAAeSwtkBpmue4/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/376983196528",
+            "title": "NEW LEGO Classic Creative Dinosaurs 11041 Box bricks Jurassic Dino 450 pieces XL",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 0.0,
+            "listed_total": 29.99
+          },
+          {
+            "item_id": "v1|168865891512|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/XUsAAeSw~adq-qV9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168865891512",
+            "title": "LEGO Classic Creative Dinosaurs Building Toy Set 11041",
+            "declared_condition": "new",
+            "item_price": 32.49,
+            "shipping": 0.0,
+            "listed_total": 32.49
+          },
+          {
+            "item_id": "v1|306873685556|0",
+            "seller": "ukgoodstrading",
+            "image": "https://i.ebayimg.com/images/g/bhUAAeSwZQpp2XPH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/306873685556",
+            "title": "LEGO Classic Creative Dinosaurs Set 11041 with T Rex, Triceratops Figures New ",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 3.87,
+            "listed_total": 33.86
+          },
+          {
+            "item_id": "v1|307268145885|0",
+            "seller": "safari-island",
+            "image": "https://i.ebayimg.com/images/g/LykAAeSwc19q7IuW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307268145885",
+            "title": "LEGO Classic - Creative Dinosaurs - 11041",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 3.99,
+            "listed_total": 33.98
+          },
+          {
+            "item_id": "v1|257556465388|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/vf8AAeSwtiZqKGCl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257556465388",
+            "title": "LEGO 11041 Classic Creative Dinosaurs Set - Includes T. Rex, and Triceratops ...",
+            "declared_condition": "new",
+            "item_price": 34.99,
+            "shipping": 0.0,
+            "listed_total": 34.99
+          },
+          {
+            "item_id": "v1|327480242960|0",
+            "seller": "ihaveit_music",
+            "image": "",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327480242960",
+            "title": "Lego - Classic 11041 - Creative Dinosaurs - Construction blocks - Q1823z",
+            "declared_condition": "new",
+            "item_price": 35.53,
+            "shipping": 0.0,
+            "listed_total": 35.53
+          },
+          {
+            "item_id": "v1|267321167008|0",
+            "seller": "brickspeedtrading",
+            "image": "https://i.ebayimg.com/images/g/WbcAAeSwDGtocM2c/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267321167008",
+            "title": "LEGO Classic 11041 Creative Dinosaurs Age 5+ 450pcs",
+            "declared_condition": "new",
+            "item_price": 31.79,
+            "shipping": 4.19,
+            "listed_total": 35.98
+          },
+          {
+            "item_id": "v1|127799070361|0",
+            "seller": "maqiotoys",
+            "image": "https://i.ebayimg.com/images/g/1DQAAeSw7ztp1l4Y/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127799070361",
+            "title": "Lego CLASSIC 11041 Creative Dinosaurs",
+            "declared_condition": "new",
+            "item_price": 35.99,
+            "shipping": 0.0,
+            "listed_total": 35.99
+          },
+          {
+            "item_id": "v1|840033951041|0",
+            "seller": "thepuzzledsweetshop",
+            "image": "https://i.ebayimg.com/images/g/FTIAAeSwWwZq2f30/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840033951041",
+            "title": "Lego - Creative Dinosaurs 11041",
+            "declared_condition": "new",
+            "item_price": 33.74,
+            "shipping": 3.75,
+            "listed_total": 37.49
+          },
+          {
+            "item_id": "v1|168207977664|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/NPkAAeSwTB9pqbIG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207977664",
+            "title": "Lego\u00ae Classic 11041 Creative Dinosaurs Genuine Quality Best Top",
+            "declared_condition": "new",
+            "item_price": 39.99,
+            "shipping": 0.0,
+            "listed_total": 39.99
+          },
+          {
+            "item_id": "v1|375916428725|0",
+            "seller": "toysntuck",
+            "image": "https://i.ebayimg.com/images/g/1sAAAeSwCTFpswM~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/375916428725",
+            "title": "Lego 11041 Classic Creative Dinosaurs",
+            "declared_condition": "new",
+            "item_price": 40.0,
+            "shipping": 0.0,
+            "listed_total": 40.0
+          },
+          {
+            "item_id": "v1|960161584246|0",
+            "seller": "theorienthoney",
+            "image": "https://i.ebayimg.com/images/g/BosAAeSw-rZq7bPC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960161584246",
+            "title": "LEGO Classic Creative Dinosaurs 11041 11041",
+            "declared_condition": "new",
+            "item_price": 47.79,
+            "shipping": 0.0,
+            "listed_total": 47.79
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 3
+        },
+        "query_aliases": [
+          "LEGO Classic Creative Dinosaurs 11041"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 11041",
+        "observed_at": "2026-11-27T15:01:07+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 14,
+        "seller_count": 14,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 3,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 27.48,
+        "competition_high": 47.79,
+        "estimated_resale": 26.65,
+        "estimated_range": [
+          24.73,
+          27.48
+        ],
+        "suggested_listing": 27.47,
+        "quick_sale_model": 24.73,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 18.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -2.51,
+        "max_landed_buy": 8.48,
+        "max_item_buy": null,
+        "delivery_headroom": -10.51,
+        "fees": 4.08,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.8,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 23.98,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 6.47,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|117115336027|0",
+            "seller": "i_am_a_star7",
+            "image": "https://i.ebayimg.com/images/g/1K8AAeSweR9ph6p5/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117115336027",
+            "title": "Lego Classic Creative Dinosaurs Set 11041, Brand New, Sealed",
+            "declared_condition": "new",
+            "item_price": 24.1,
+            "shipping": 3.38,
+            "listed_total": 27.48,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287123849585|0",
+            "seller": "emacitystore",
+            "image": "https://i.ebayimg.com/images/g/Mv0AAeSwDI1phLm2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287123849585",
+            "title": "Lego Classic 11041 Creative Dinosaurs Set - BRAND NEW & SEALED! \u2705",
+            "declared_condition": "new",
+            "item_price": 28.99,
+            "shipping": 0.0,
+            "listed_total": 28.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|376983196528|0",
+            "seller": "toykabin",
+            "image": "https://i.ebayimg.com/images/g/4usAAeSwtkBpmue4/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/376983196528",
+            "title": "NEW LEGO Classic Creative Dinosaurs 11041 Box bricks Jurassic Dino 450 pieces XL",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 0.0,
+            "listed_total": 29.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168865891512|0",
+            "seller": "true_toys",
+            "image": "https://i.ebayimg.com/images/g/XUsAAeSw~adq-qV9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168865891512",
+            "title": "LEGO Classic Creative Dinosaurs Building Toy Set 11041",
+            "declared_condition": "new",
+            "item_price": 32.49,
+            "shipping": 0.0,
+            "listed_total": 32.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|306873685556|0",
+            "seller": "ukgoodstrading",
+            "image": "https://i.ebayimg.com/images/g/bhUAAeSwZQpp2XPH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/306873685556",
+            "title": "LEGO Classic Creative Dinosaurs Set 11041 with T Rex, Triceratops Figures New ",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 3.87,
+            "listed_total": 33.86,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|307268145885|0",
+            "seller": "safari-island",
+            "image": "https://i.ebayimg.com/images/g/LykAAeSwc19q7IuW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307268145885",
+            "title": "LEGO Classic - Creative Dinosaurs - 11041",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 3.99,
+            "listed_total": 33.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257556465388|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/vf8AAeSwtiZqKGCl/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257556465388",
+            "title": "LEGO 11041 Classic Creative Dinosaurs Set - Includes T. Rex, and Triceratops ...",
+            "declared_condition": "new",
+            "item_price": 34.99,
+            "shipping": 0.0,
+            "listed_total": 34.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327480242960|0",
+            "seller": "ihaveit_music",
+            "image": "",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327480242960",
+            "title": "Lego - Classic 11041 - Creative Dinosaurs - Construction blocks - Q1823z",
+            "declared_condition": "new",
+            "item_price": 35.53,
+            "shipping": 0.0,
+            "listed_total": 35.53,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267321167008|0",
+            "seller": "brickspeedtrading",
+            "image": "https://i.ebayimg.com/images/g/WbcAAeSwDGtocM2c/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267321167008",
+            "title": "LEGO Classic 11041 Creative Dinosaurs Age 5+ 450pcs",
+            "declared_condition": "new",
+            "item_price": 31.79,
+            "shipping": 4.19,
+            "listed_total": 35.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|127799070361|0",
+            "seller": "maqiotoys",
+            "image": "https://i.ebayimg.com/images/g/1DQAAeSw7ztp1l4Y/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/127799070361",
+            "title": "Lego CLASSIC 11041 Creative Dinosaurs",
+            "declared_condition": "new",
+            "item_price": 35.99,
+            "shipping": 0.0,
+            "listed_total": 35.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Classic Creative Dinosaurs 11041",
+        "query": "LEGO 11041",
+        "kind": "active_ask",
+        "listing": 27.47,
+        "observed_at": "2026-11-27T15:01:07+00:00",
+        "valid_until": "2026-11-27T21:01:07+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/117115336027",
+          "https://www.ebay.co.uk/itm/287123849585",
+          "https://www.ebay.co.uk/itm/376983196528",
+          "https://www.ebay.co.uk/itm/168865891512",
+          "https://www.ebay.co.uk/itm/306873685556",
+          "https://www.ebay.co.uk/itm/307268145885",
+          "https://www.ebay.co.uk/itm/257556465388",
+          "https://www.ebay.co.uk/itm/327480242960",
+          "https://www.ebay.co.uk/itm/267321167008",
+          "https://www.ebay.co.uk/itm/127799070361"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/117115336027",
+            "Lego Classic Creative Dinosaurs Set 11041, Brand New, Sealed",
+            27.48,
+            3.38,
+            24.1,
+            "i_am_a_star7"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287123849585",
+            "Lego Classic 11041 Creative Dinosaurs Set - BRAND NEW & SEALED! \u2705",
+            28.99,
+            0.0,
+            28.99,
+            "emacitystore"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/376983196528",
+            "NEW LEGO Classic Creative Dinosaurs 11041 Box bricks Jurassic Dino 450 pieces XL",
+            29.99,
+            0.0,
+            29.99,
+            "toykabin"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/168865891512",
+            "LEGO Classic Creative Dinosaurs Building Toy Set 11041",
+            32.49,
+            0.0,
+            32.49,
+            "true_toys"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/306873685556",
+            "LEGO Classic Creative Dinosaurs Set 11041 with T Rex, Triceratops Figures New ",
+            33.86,
+            3.87,
+            29.99,
+            "ukgoodstrading"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/307268145885",
+            "LEGO Classic - Creative Dinosaurs - 11041",
+            33.98,
+            3.99,
+            29.99,
+            "safari-island"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/257556465388",
+            "LEGO 11041 Classic Creative Dinosaurs Set - Includes T. Rex, and Triceratops ...",
+            34.99,
+            0.0,
+            34.99,
+            "toyemporium_org_uk"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327480242960",
+            "Lego - Classic 11041 - Creative Dinosaurs - Construction blocks - Q1823z",
+            35.53,
+            0.0,
+            35.53,
+            "ihaveit_music"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267321167008",
+            "LEGO Classic 11041 Creative Dinosaurs Age 5+ 450pcs",
+            35.98,
+            4.19,
+            31.79,
+            "brickspeedtrading"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/127799070361",
+            "Lego CLASSIC 11041 Creative Dinosaurs",
+            35.99,
+            0.0,
+            35.99,
+            "maqiotoys"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Large Creative Brick Box (10698)",
       "url": "https://www.hotukdeals.com/deals/lego-large-creative-brick-box-10698-5049821",
       "policy_key": "9d3c465f679cfc0c99ab219a",
@@ -5979,8 +7357,8 @@
       "item_price": 26.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/150x150/qt/55/5049821_1.jpg"
@@ -6734,8 +8112,8 @@
       "item_price": 27.73,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/150x150/qt/55/5049819_1.jpg"
@@ -8009,8 +9387,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/150x150/qt/55/5043808_1.jpg",
@@ -8842,8 +10220,8 @@
       "item_price": 39.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/u5fsP/5046301_1/re/300x300/qt/55/5046301_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/u5fsP/5046301_1/re/300x300/qt/55/5046301_1.jpg",
         "https://images.hotukdeals.com/threads/raw/u5fsP/5046301_1/re/150x150/qt/55/5046301_1.jpg",
@@ -10074,6 +11452,1024 @@
       }
     },
     {
+      "title": "LEGO Icons Road Bike 11380 - With Code",
+      "url": "https://www.hotukdeals.com/deals/lego-icons-road-bike-11380-5048601",
+      "policy_key": "b93505dbf53a6e2002d9ede2",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 79.2,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/Xm2zO/5048601_1/re/300x300/qt/55/5048601_1.jpg",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/Xm2zO/5048601_1/re/300x300/qt/55/5048601_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/Xm2zO/5048601_1/re/150x150/qt/55/5048601_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/Xm2zO/5048601_1/re/300x300/qt/55/5048601_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-icons-road-bike-11380-5048601",
+      "landed_cost": null,
+      "breakeven_sell": 101.76,
+      "sell_for_minimum_profit": 139.71,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-26T20:36:36+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+Road+Bike+11380&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 11380",
+        "category": "lego",
+        "name_terms": [
+          "bike",
+          "icons",
+          "road"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-27T15:01:09+00:00",
+        "date": "2026-11-27",
+        "sample_count": 28,
+        "listed_total_low": 94.99,
+        "listed_total_p25": 104.69,
+        "listed_total_median": 109.99,
+        "listed_total_p75": 120.6,
+        "listed_total_high": 187.9,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206678128699|0",
+            "seller": "frexexpress",
+            "image": "https://i.ebayimg.com/images/g/5H0AAeSwlg5q7M4n/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206678128699",
+            "title": "LEGO Icons Road Bike 11380 New Sealed Adult Building Set 1015pcs 18+",
+            "declared_condition": "new",
+            "item_price": 94.99,
+            "shipping": 0.0,
+            "listed_total": 94.99
+          },
+          {
+            "item_id": "v1|137686958448|0",
+            "seller": "r.k.gamecollector",
+            "image": "https://i.ebayimg.com/images/g/FhQAAeSwGGJqlwLH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137686958448",
+            "title": "LEGO Icons Road Bike 11380 Adult Building Set 1015 Pieces",
+            "declared_condition": "new",
+            "item_price": 92.22,
+            "shipping": 3.89,
+            "listed_total": 96.11
+          },
+          {
+            "item_id": "v1|800696674036|0",
+            "seller": "safahmed0",
+            "image": "https://i.ebayimg.com/images/g/fNgAAeSwQ59qsabX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800696674036",
+            "title": "LEGO Icons Road Bike 11380 Brand New Sealed Box",
+            "declared_condition": "new",
+            "item_price": 97.5,
+            "shipping": 0.0,
+            "listed_total": 97.5
+          },
+          {
+            "item_id": "v1|178519102399|0",
+            "seller": "swojak1976",
+            "image": "https://i.ebayimg.com/images/g/MM8AAeSwOXdqspeq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178519102399",
+            "title": "LEGO Road Bike 11380 ",
+            "declared_condition": "new",
+            "item_price": 94.3,
+            "shipping": 3.89,
+            "listed_total": 98.19
+          },
+          {
+            "item_id": "v1|147684492974|0",
+            "seller": "brick_top_lego",
+            "image": "https://i.ebayimg.com/images/g/ZsQAAeSwuxBq~Cwr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147684492974",
+            "title": "LEGO Icons Road Bike 11380  | New and Sealed",
+            "declared_condition": "new",
+            "item_price": 94.3,
+            "shipping": 5.99,
+            "listed_total": 100.29
+          },
+          {
+            "item_id": "v1|147639891233|0",
+            "seller": "va-318489",
+            "image": "https://i.ebayimg.com/images/g/9ScAAeSw58pqnAyW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147639891233",
+            "title": "LEGO Icons Road Bike 11380 Vehicles Set 18+ 1015 Pieces Complete Set Box",
+            "declared_condition": "new",
+            "item_price": 94.3,
+            "shipping": 5.99,
+            "listed_total": 100.29
+          },
+          {
+            "item_id": "v1|237184092843|0",
+            "seller": "shahbricks",
+            "image": "https://i.ebayimg.com/images/g/xEcAAeSwzvJq-YF6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237184092843",
+            "title": "LEGO Icons Road Bike 11380 New Sealed Adult Building Set 1015pcs 18+",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 4.67,
+            "listed_total": 104.67
+          },
+          {
+            "item_id": "v1|860110316160|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/ga4AAeSwv31q6j0r/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860110316160",
+            "title": "LEGO Icons 11380 Road Bike Set for Adults",
+            "declared_condition": "new",
+            "item_price": 104.69,
+            "shipping": 0.0,
+            "listed_total": 104.69
+          },
+          {
+            "item_id": "v1|336675251205|0",
+            "seller": "markmcl20",
+            "image": "https://i.ebayimg.com/images/g/Uh0AAeSwA6RqKcxK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336675251205",
+            "title": "LEGO ICONS: Road Bike (11380) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 104.95,
+            "shipping": 0.0,
+            "listed_total": 104.95
+          },
+          {
+            "item_id": "v1|366760903946|0",
+            "seller": "e-bazaar-ltd",
+            "image": "https://i.ebayimg.com/images/g/~hEAAeSw4bRq3mP0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366760903946",
+            "title": "LEGO Icons 11380 Road Bike Set for Adults",
+            "declared_condition": "new",
+            "item_price": 105.99,
+            "shipping": 0.0,
+            "listed_total": 105.99
+          },
+          {
+            "item_id": "v1|920033329228|0",
+            "seller": "zimcart_ltd",
+            "image": "https://i.ebayimg.com/images/g/3DIAAeSwtHBqzSUP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920033329228",
+            "title": "LEGO Icons Road Bike - DIY Building Set for Adults 11380",
+            "declared_condition": "new",
+            "item_price": 109.0,
+            "shipping": 0.0,
+            "listed_total": 109.0
+          },
+          {
+            "item_id": "v1|336803652710|0",
+            "seller": "ebs-de-emporium",
+            "image": "https://i.ebayimg.com/images/g/n78AAeSwMYBqr8LF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336803652710",
+            "title": "LEGO ICONS: Road Bike (11380) - BRAND NEW / Sealed",
+            "declared_condition": "new",
+            "item_price": 109.0,
+            "shipping": 0.0,
+            "listed_total": 109.0
+          },
+          {
+            "item_id": "v1|267702878356|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/NHsAAeSwEHxqM8ny/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267702878356",
+            "title": "Lego 11380 Icons Road Bike  - Brand New",
+            "declared_condition": "new",
+            "item_price": 109.88,
+            "shipping": 0.0,
+            "listed_total": 109.88
+          },
+          {
+            "item_id": "v1|406964495375|0",
+            "seller": "jadlamracing",
+            "image": "https://i.ebayimg.com/images/g/w2kAAeSwqIZrBgAo/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406964495375",
+            "title": "LEGO Icons 11380 Road Bike Age 18+ 1015pcs",
+            "declared_condition": "new",
+            "item_price": 109.99,
+            "shipping": 0.0,
+            "listed_total": 109.99
+          },
+          {
+            "item_id": "v1|406919402780|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/ZycAAeSwtK1qAdgF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406919402780",
+            "title": "LEGO ICONS: Road Bike (11380)",
+            "declared_condition": "new",
+            "item_price": 109.99,
+            "shipping": 0.0,
+            "listed_total": 109.99
+          },
+          {
+            "item_id": "v1|227457843256|0",
+            "seller": "holambb711",
+            "image": "https://i.ebayimg.com/images/g/E1QAAeSwgblqbiF2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227457843256",
+            "title": "LEGO Icons Road Bike Adult Model Set 11380 Cycling Gift 1015pcs",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 5.99,
+            "listed_total": 110.69
+          },
+          {
+            "item_id": "v1|168473039132|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/MpsAAeSwx8pqNQWG/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168473039132",
+            "title": "LEGO\u00ae Icons 11380 Road Bike",
+            "declared_condition": "new",
+            "item_price": 110.99,
+            "shipping": 0.0,
+            "listed_total": 110.99
+          },
+          {
+            "item_id": "v1|287558591431|0",
+            "seller": "orbitstock",
+            "image": "https://i.ebayimg.com/images/g/dPsAAeSwsx9qlwSz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287558591431",
+            "title": "LEGO ICONS: Road Bike (11380)",
+            "declared_condition": "new",
+            "item_price": 109.89,
+            "shipping": 3.92,
+            "listed_total": 113.81
+          },
+          {
+            "item_id": "v1|117478876281|0",
+            "seller": "rzhomestore",
+            "image": "https://i.ebayimg.com/images/g/Q28AAeSwY5Zq1Glp/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/117478876281",
+            "title": "LEGO Icons Road Bike 11380 Bicycle Display Model Adult Building Kit Set New",
+            "declared_condition": "new",
+            "item_price": 114.99,
+            "shipping": 0.0,
+            "listed_total": 114.99
+          },
+          {
+            "item_id": "v1|267832662543|0",
+            "seller": "williamedwards",
+            "image": "https://i.ebayimg.com/images/g/7kcAAeSwX-1q6oxT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267832662543",
+            "title": "Lego Icons Road Bike 11380 Bicycle Racing Cycle Model Building Set for Adults",
+            "declared_condition": "new",
+            "item_price": 118.99,
+            "shipping": 0.0,
+            "listed_total": 118.99
+          },
+          {
+            "item_id": "v1|358910265660|0",
+            "seller": "majesticsunltd",
+            "image": "https://i.ebayimg.com/images/g/GUIAAeSw6qlqekkQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358910265660",
+            "title": "LEGO Icons 11380 Road Bike Age 18+ 1015pcs",
+            "declared_condition": "new",
+            "item_price": 116.88,
+            "shipping": 3.65,
+            "listed_total": 120.53
+          },
+          {
+            "item_id": "v1|137817136482|0",
+            "seller": "8891anna",
+            "image": "https://i.ebayimg.com/images/g/mRUAAeSwcH1qxIlU/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137817136482",
+            "title": "Lego Icons Road Bike 11380 - BNIB Sealed",
+            "declared_condition": "new",
+            "item_price": 114.06,
+            "shipping": 6.76,
+            "listed_total": 120.82
+          },
+          {
+            "item_id": "v1|960037973522|0",
+            "seller": "brick-and-wheel-deals",
+            "image": "https://i.ebayimg.com/images/g/E~QAAeSwVI5qx649/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960037973522",
+            "title": "LEGO Icons 11380 Road Bike Bicycle Cycling Model 1015 Pieces New Sealed BNIB",
+            "declared_condition": "new",
+            "item_price": 117.18,
+            "shipping": 7.08,
+            "listed_total": 124.26
+          },
+          {
+            "item_id": "v1|377248031423|0",
+            "seller": "toysntuck",
+            "image": "https://i.ebayimg.com/images/g/AKEAAeSw9CJqKCvd/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377248031423",
+            "title": "Lego 11380 Icons Road Bike",
+            "declared_condition": "new",
+            "item_price": 136.0,
+            "shipping": 0.0,
+            "listed_total": 136.0
+          },
+          {
+            "item_id": "v1|178204208825|0",
+            "seller": "booghe_toys",
+            "image": "https://i.ebayimg.com/images/g/YysAAeSwbtBqJtlH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178204208825",
+            "title": "LEGO Icons Road Bike 11380 Adult Building Set 1015 Pieces Ages 18+",
+            "declared_condition": "new",
+            "item_price": 153.03,
+            "shipping": 0.0,
+            "listed_total": 153.03
+          },
+          {
+            "item_id": "v1|267846717093|0",
+            "seller": "j7806",
+            "image": "https://i.ebayimg.com/images/g/i68AAeSwgd9q~V69/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267846717093",
+            "title": "LEGO Icons 11380 Road Bike Age 18+ 1015pcs",
+            "declared_condition": "new",
+            "item_price": 156.7,
+            "shipping": 4.9,
+            "listed_total": 161.6
+          },
+          {
+            "item_id": "v1|327435765007|0",
+            "seller": "fawad555",
+            "image": "https://i.ebayimg.com/images/g/Dd4AAeSwmexq6NFL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327435765007",
+            "title": "LEGO Icons 11380 Road Bike Age 18+ 1015pcs",
+            "declared_condition": "new",
+            "item_price": 161.9,
+            "shipping": 7.0,
+            "listed_total": 168.9
+          },
+          {
+            "item_id": "v1|307241503583|0",
+            "seller": "london-appliance-bargain",
+            "image": "https://i.ebayimg.com/images/g/IMwAAeSwcKJq2AsN/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307241503583",
+            "title": "LEGO Icons 11380 Road Bike 1015 Pieces Adults Model Building Brand New Sealed UK",
+            "declared_condition": "new",
+            "item_price": 187.9,
+            "shipping": 0.0,
+            "listed_total": 187.9
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 17
+        },
+        "query_aliases": [
+          "LEGO Icons Road Bike 11380 - With Code"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": true,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 11380",
+        "observed_at": "2026-11-27T15:01:09+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 28,
+        "seller_count": 28,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 6,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 94.99,
+        "competition_high": 187.9,
+        "estimated_resale": 92.14,
+        "estimated_range": [
+          85.49,
+          94.99
+        ],
+        "suggested_listing": 94.98,
+        "quick_sale_model": 85.49,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 79.2,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -8.03,
+        "max_landed_buy": 50.83,
+        "max_item_buy": null,
+        "delivery_headroom": -28.37,
+        "fees": 12.92,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 2.76,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 82.92,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 57.7,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Low competing offers advertise coupons; check effective competition before buying",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206678128699|0",
+            "seller": "frexexpress",
+            "image": "https://i.ebayimg.com/images/g/5H0AAeSwlg5q7M4n/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206678128699",
+            "title": "LEGO Icons Road Bike 11380 New Sealed Adult Building Set 1015pcs 18+",
+            "declared_condition": "new",
+            "item_price": 94.99,
+            "shipping": 0.0,
+            "listed_total": 94.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137686958448|0",
+            "seller": "r.k.gamecollector",
+            "image": "https://i.ebayimg.com/images/g/FhQAAeSwGGJqlwLH/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137686958448",
+            "title": "LEGO Icons Road Bike 11380 Adult Building Set 1015 Pieces",
+            "declared_condition": "new",
+            "item_price": 92.22,
+            "shipping": 3.89,
+            "listed_total": 96.11,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|800696674036|0",
+            "seller": "safahmed0",
+            "image": "https://i.ebayimg.com/images/g/fNgAAeSwQ59qsabX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800696674036",
+            "title": "LEGO Icons Road Bike 11380 Brand New Sealed Box",
+            "declared_condition": "new",
+            "item_price": 97.5,
+            "shipping": 0.0,
+            "listed_total": 97.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|178519102399|0",
+            "seller": "swojak1976",
+            "image": "https://i.ebayimg.com/images/g/MM8AAeSwOXdqspeq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/178519102399",
+            "title": "LEGO Road Bike 11380 ",
+            "declared_condition": "new",
+            "item_price": 94.3,
+            "shipping": 3.89,
+            "listed_total": 98.19,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147684492974|0",
+            "seller": "brick_top_lego",
+            "image": "https://i.ebayimg.com/images/g/ZsQAAeSwuxBq~Cwr/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147684492974",
+            "title": "LEGO Icons Road Bike 11380  | New and Sealed",
+            "declared_condition": "new",
+            "item_price": 94.3,
+            "shipping": 5.99,
+            "listed_total": 100.29,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147639891233|0",
+            "seller": "va-318489",
+            "image": "https://i.ebayimg.com/images/g/9ScAAeSw58pqnAyW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147639891233",
+            "title": "LEGO Icons Road Bike 11380 Vehicles Set 18+ 1015 Pieces Complete Set Box",
+            "declared_condition": "new",
+            "item_price": 94.3,
+            "shipping": 5.99,
+            "listed_total": 100.29,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|237184092843|0",
+            "seller": "shahbricks",
+            "image": "https://i.ebayimg.com/images/g/xEcAAeSwzvJq-YF6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237184092843",
+            "title": "LEGO Icons Road Bike 11380 New Sealed Adult Building Set 1015pcs 18+",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 4.67,
+            "listed_total": 104.67,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|860110316160|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/ga4AAeSwv31q6j0r/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860110316160",
+            "title": "LEGO Icons 11380 Road Bike Set for Adults",
+            "declared_condition": "new",
+            "item_price": 104.69,
+            "shipping": 0.0,
+            "listed_total": 104.69,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|336675251205|0",
+            "seller": "markmcl20",
+            "image": "https://i.ebayimg.com/images/g/Uh0AAeSwA6RqKcxK/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336675251205",
+            "title": "LEGO ICONS: Road Bike (11380) New & Sealed",
+            "declared_condition": "new",
+            "item_price": 104.95,
+            "shipping": 0.0,
+            "listed_total": 104.95,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366760903946|0",
+            "seller": "e-bazaar-ltd",
+            "image": "https://i.ebayimg.com/images/g/~hEAAeSw4bRq3mP0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366760903946",
+            "title": "LEGO Icons 11380 Road Bike Set for Adults",
+            "declared_condition": "new",
+            "item_price": 105.99,
+            "shipping": 0.0,
+            "listed_total": 105.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "uncertain_competitor_coupon"
+      }
+    },
+    {
       "title": "LEGO Harry Potter Diagon Alley Wizarding Shops 76444 - Sold by Currys Clearance W/Code",
       "url": "https://www.hotukdeals.com/deals/lego-harry-potter-diagon-alley-wizarding-shops-76444-sold-by-currys-clearance-wcode-5047773",
       "policy_key": "a435f898b4e2abab4122ad20",
@@ -10088,11 +12484,13 @@
       "item_price": 93.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/150x150/qt/55/5047773_1.jpg"
+        "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/150x150/qt/55/5047773_1.jpg",
+        "https://i.ebayimg.com/images/g/jLoAAeSw7Khq~2yu/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/rzMAAeSwVeZq-I3G/s-l225.jpg"
       ],
       "thumb": "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
       "image_basis": "Own offer/feed product image",
@@ -11417,8 +13815,8 @@
       "item_price": 99.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SHscY/5049790_1/re/300x300/qt/55/5049790_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SHscY/5049790_1/re/300x300/qt/55/5049790_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SHscY/5049790_1/re/150x150/qt/55/5049790_1.jpg"
@@ -12610,8 +15008,8 @@
       "item_price": 107.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CFNuL/5049033_1/re/300x300/qt/55/5049033_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CFNuL/5049033_1/re/300x300/qt/55/5049033_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CFNuL/5049033_1/re/150x150/qt/55/5049033_1.jpg"
@@ -12902,8 +15300,8 @@
       "item_price": 119.69,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/OsAT3/5049045_1/re/300x300/qt/55/5049045_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/OsAT3/5049045_1/re/300x300/qt/55/5049045_1.jpg",
         "https://images.hotukdeals.com/threads/raw/OsAT3/5049045_1/re/150x150/qt/55/5049045_1.jpg"
@@ -13827,6 +16225,337 @@
       }
     },
     {
+      "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+      "url": "https://www.ebay.co.uk/itm/307299298027",
+      "policy_key": "b01f03594a24ded1c6d77d2c",
+      "category": "tech",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 100.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/307299298027",
+      "landed_cost": 100.0,
+      "breakeven_sell": 128.26,
+      "sell_for_minimum_profit": 177.59,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-27T08:13:42+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bose+SoundLink+Flex+Portable+Bluetooth+Speaker+2nd+Gen+in+Blue+Dusk&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "category": "tech",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Bose",
+          "model": "SoundLink Flex 2nd Gen",
+          "colour": "blue dusk",
+          "edition": "standard"
+        },
+        "observed_at": "2026-11-27T15:01:09+00:00",
+        "date": "2026-11-27",
+        "sample_count": 4,
+        "listed_total_low": 100.0,
+        "listed_total_p25": 101.87,
+        "listed_total_median": 106.13,
+        "listed_total_p75": 127.61,
+        "listed_total_high": 181.15,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|307299298027|0",
+            "seller": "ejj_ltd",
+            "image": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307299298027",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 0.0,
+            "listed_total": 100.0
+          },
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49
+          },
+          {
+            "item_id": "v1|880147354688|0",
+            "seller": "primepickwarehouse",
+            "image": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880147354688",
+            "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+            "declared_condition": "new",
+            "item_price": 109.77,
+            "shipping": 0.0,
+            "listed_total": 109.77
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 7
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
+          "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tech",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "observed_at": "2026-11-27T15:01:09+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 102.49,
+        "competition_high": 181.15,
+        "estimated_resale": 99.41,
+        "estimated_range": [
+          92.24,
+          102.49
+        ],
+        "suggested_listing": 102.48,
+        "quick_sale_model": 92.24,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 100.0,
+        "delivery_known": true,
+        "landed_cost": 100.0,
+        "net": -23.4,
+        "roi": -23.4,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 54.71,
+        "max_item_buy": 54.71,
+        "delivery_headroom": -45.29,
+        "fees": 16.29,
+        "outbound_postage": 3.04,
+        "packaging": 0.5,
+        "returns_allowance": 2.98,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 89.46,
+        "review_stress_net": -31.46,
+        "review_stress_roi": -31.5,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880147354688|0",
+            "seller": "primepickwarehouse",
+            "image": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880147354688",
+            "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+            "declared_condition": "new",
+            "item_price": 109.77,
+            "shipping": 0.0,
+            "listed_total": 109.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
       "title": "Grime II Definitive Edition (PS5)",
       "url": "https://www.hotukdeals.com/deals/grime-ii-definitive-edition-playstation-5-ps5-5043657",
       "policy_key": "7e44d58115135776e60eb5ea",
@@ -13932,7 +16661,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-27T14:25:32+00:00",
+        "canonicalized_at": "2026-11-27T14:59:27+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Grime II Definitive Edition (PS5)"
@@ -14072,6 +16801,218 @@
       }
     },
     {
+      "title": "PS5 DualSense Wireless Controller \u2013 Marathon Limited Edition - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/playstation5-dualsense-wireless-controller-marathon-limited-edition-5042134",
+      "policy_key": "7f7d49e024b2e0f41c686504",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 48.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/l5nzh/5042134_1/re/150x150/qt/55/5042134_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/playstation5-dualsense-wireless-controller-marathon-limited-edition-5042134",
+      "landed_cost": null,
+      "breakeven_sell": 62.19,
+      "sell_for_minimum_profit": 85.32,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-21T19:19:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PS5+DualSense+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "dualsense wireless controller marathon limited edition ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-27T15:01:07+00:00",
+        "date": "2026-11-27",
+        "sample_count": 1,
+        "listed_total_low": 108.58,
+        "listed_total_p25": 108.58,
+        "listed_total_median": 108.58,
+        "listed_total_p75": 108.58,
+        "listed_total_high": 108.58,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|407220688849|0",
+            "seller": "jditechsales",
+            "image": "https://i.ebayimg.com/images/g/dycAAeSwY~Nqzo8Q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407220688849",
+            "title": "PlayStation 5 PS5 DualSense Wireless Controller Marathon Limited Edition",
+            "declared_condition": "new",
+            "item_price": 104.69,
+            "shipping": 3.89,
+            "listed_total": 108.58
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 8
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "PS5 DualSense Wireless Controller \u2013 Marathon Limited Edition - Free C&C"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "dualsense wireless controller marathon limited edition ps5",
+        "observed_at": "2026-11-27T15:01:07+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 108.58,
+        "competition_high": 108.58,
+        "estimated_resale": 105.32,
+        "estimated_range": [
+          97.72,
+          108.58
+        ],
+        "suggested_listing": 108.57,
+        "quick_sale_model": 97.72,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 48.99,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": 36.54,
+        "max_landed_buy": 60.0,
+        "max_item_buy": null,
+        "delivery_headroom": 11.01,
+        "fees": 13.43,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 3.16,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 94.78,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|407220688849|0",
+            "seller": "jditechsales",
+            "image": "https://i.ebayimg.com/images/g/dycAAeSwY~Nqzo8Q/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407220688849",
+            "title": "PlayStation 5 PS5 DualSense Wireless Controller Marathon Limited Edition",
+            "declared_condition": "new",
+            "item_price": 104.69,
+            "shipping": 3.89,
+            "listed_total": 108.58,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
       "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
       "url": "https://www.hotukdeals.com/deals/bose-soundlink-flex-portable-bluetooth-speaker-2nd-gen-blue-dusk-5049011",
       "policy_key": "2f163ba7b2e4f2e7e64062ad",
@@ -14117,7 +17058,7 @@
           "colour": "blue dusk",
           "edition": "standard"
         },
-        "observed_at": "2026-11-27T13:19:40+00:00",
+        "observed_at": "2026-11-27T15:01:09+00:00",
         "date": "2026-11-27",
         "sample_count": 4,
         "listed_total_low": 100.0,
@@ -14228,7 +17169,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|307299298027|0",
-          "observed_at": "2026-11-27T14:25:32+00:00",
+          "observed_at": "2026-11-27T14:59:27+00:00",
           "status": "conflict",
           "reasons": [
             "model aspect mismatch",
@@ -14486,7 +17427,9 @@
         },
         "detail_status": "conflict",
         "query_aliases": [
-          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk"
+          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
+          "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk"
         ]
       },
       "ask_estimate": {
@@ -14496,7 +17439,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "Bose SoundLink Flex 2nd Gen blue dusk",
-        "observed_at": "2026-11-27T13:19:40+00:00",
+        "observed_at": "2026-11-27T15:01:09+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 4,
@@ -14670,6 +17613,45 @@
       }
     },
     {
+      "title": "DEWALT DCB182-XJ 18V 4.0Ah Li-Ion XR Battery",
+      "url": "https://www.hotukdeals.com/deals/dewalt-dcb-182-4-ah-18v-battery-5049891",
+      "policy_key": "67a6b951a18e94a37305508d",
+      "category": "tools",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Screwfix",
+      "item_price": 37.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/sCcSn/5049891_1/re/150x150/qt/55/5049891_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/dewalt-dcb-182-4-ah-18v-battery-5049891",
+      "landed_cost": null,
+      "breakeven_sell": 51.6,
+      "sell_for_minimum_profit": 68.81,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 20,
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DEWALT+DCB182-XJ+18V+4.0Ah+Li-Ion+XR+Battery&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Sony WH-CH530 Wireless Bluetooth Headphones - EE One Up Exclusive",
       "url": "https://www.hotukdeals.com/deals/sony-wh-ch530-wireless-bluetooth-headphones-ee-one-up-exclusive-5049193",
       "policy_key": "ae38e81232c0bfacb2a81c3d",
@@ -14708,129 +17690,39 @@
       }
     },
     {
-      "title": "LEGO Technic Jeep Wrangler Rubicon - 42227",
-      "url": "https://www.ebay.co.uk/itm/257485643411",
-      "policy_key": "4915e770db25940ec41aa1e7",
-      "category": "lego",
-      "source": "ebay_browse",
-      "price_basis": null,
+      "title": "Star Wars: Jedi: Fallen Order - Xbox One - Used / Very Good - w/Code - Sold by musicMagpie",
+      "url": "https://www.hotukdeals.com/deals/star-wars-jedi-fallen-order-xbox-one-used-very-good-wcode-auto-applied-at-checkout-sold-by-musicmagpie-5049905",
+      "policy_key": "b3a321b3911655734fddec42",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "eBay",
-      "item_price": 39.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/150x150/qt/55/5048070_1.jpg",
-        "https://i.ebayimg.com/images/g/qasAAeSwzrlp9OEn/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/90EAAeSwnxFrBBPS/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-wvoucher-5048070",
-      "landed_cost": 39.99,
-      "breakeven_sell": 54.8,
-      "sell_for_minimum_profit": 73.96,
+      "item_price": 5.59,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/fzlZC/5049905_1/re/150x150/qt/55/5049905_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-jedi-fallen-order-xbox-one-used-very-good-wcode-auto-applied-at-checkout-sold-by-musicmagpie-5049905",
+      "landed_cost": null,
+      "breakeven_sell": 10.95,
+      "sell_for_minimum_profit": 20.39,
       "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
+      "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
-        "No exact reviewed sold observations"
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
       ],
-      "priority": 15,
-      "first_seen": "2026-11-20T11:34:18+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Jeep+Wrangler+Rubicon&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Technic Jeep Wrangler Rubicon SUV (42227) \ud83d\ude9aSame Day Dispatch\ud83d\udce6Free P&P\u2705",
-      "url": "https://www.ebay.co.uk/itm/940045330829",
-      "policy_key": "9af2d79682c684646ab47fbc",
-      "category": "lego",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 40.0,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/150x150/qt/55/5048070_1.jpg",
-        "https://i.ebayimg.com/images/g/YrcAAeSwrt9q282l/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/90EAAeSwnxFrBBPS/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-wvoucher-5048070",
-      "landed_cost": 40.0,
-      "breakeven_sell": 54.81,
-      "sell_for_minimum_profit": 73.98,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-20T11:34:18+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Technic+Jeep+Wrangler+Rubicon+SUV+%2842227%29+%F0%9F%9A%9ASame+Day+Dispatch%F0%9F%93%A6Free+P%26P%E2%9C%85&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Lego Technic 42227 Jeep Wrangler Rubicon SUV Car Toy for Ages 10 & Up",
-      "url": "https://www.ebay.co.uk/itm/298100856710",
-      "policy_key": "c216bd5dd53c4a8a8e7033d4",
-      "category": "lego",
-      "source": "ebay_browse",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 56.66,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/150x150/qt/55/5048070_1.jpg",
-        "https://i.ebayimg.com/images/g/UoQAAeSwH8pprWmL/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/90EAAeSwnxFrBBPS/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/uRj4s/5048070_1/re/300x300/qt/55/5048070_1.jpg",
-      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-technic-jeep-wrangler-rubicon-suv-42227-wvoucher-5048070",
-      "landed_cost": 56.66,
-      "breakeven_sell": 74.76,
-      "sell_for_minimum_profit": 101.92,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "landed",
-      "blockers": [
-        "No exact reviewed sold observations"
-      ],
-      "priority": 15,
-      "first_seen": "2026-11-27T13:53:29+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Technic+42227+Jeep+Wrangler+Rubicon+SUV+Car+Toy+for+Ages+10+%26+Up&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "priority": 10,
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars%3A+Jedi%3A+Fallen+Order&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -14851,8 +17743,8 @@
       "item_price": 5.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/300x300/qt/55/5048365_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/300x300/qt/55/5048365_1.jpg",
         "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/150x150/qt/55/5048365_1.jpg",
@@ -15140,6 +18032,45 @@
       }
     },
     {
+      "title": "Star Wars Outlaws (PS5) Used Very Good - W/Code - Sold by musicMagpie Shop",
+      "url": "https://www.hotukdeals.com/deals/star-wars-outlaws-ps5-used-very-good-wcode-sold-by-musicmagpie-shop-5049896",
+      "policy_key": "dd21603b4b0bfe8ced558c74",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 10.6,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/1MUch/5049896_1/re/150x150/qt/55/5049896_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/star-wars-outlaws-ps5-used-very-good-wcode-sold-by-musicmagpie-shop-5049896",
+      "landed_cost": null,
+      "breakeven_sell": 16.86,
+      "sell_for_minimum_profit": 26.31,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Star+Wars+Outlaws+%28PS5%29+Used+Very+Good&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO City Police Prisoner Transport Van Toy 60479 - With Code",
       "url": "https://www.hotukdeals.com/deals/lego-city-police-prisoner-transport-van-toy-60479-ps1079-5047304",
       "policy_key": "373ca443d02d89ebd50204ad",
@@ -15154,8 +18085,8 @@
       "item_price": 10.79,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NmePa/5047955_1/re/300x300/qt/55/5047955_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NmePa/5047955_1/re/300x300/qt/55/5047955_1.jpg",
         "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/300x300/qt/55/5047304_1.jpg",
@@ -15198,8 +18129,8 @@
       "item_price": 11.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/300x300/qt/55/5049189_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/300x300/qt/55/5049189_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/150x150/qt/55/5049189_1.jpg"
@@ -15219,41 +18150,7 @@
       "priority": 10,
       "first_seen": "2026-11-27T08:47:48+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Siege+of+Mandalore+Battle+Pack+75449&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 75449",
-        "category": "lego",
-        "name_terms": [
-          "battle",
-          "mandalore",
-          "pack",
-          "siege"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-27T08:47:49+00:00",
-        "date": "2026-11-27",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 50
-        },
-        "query_aliases": [
-          "LEGO Star Wars Siege of Mandalore Battle Pack 75449"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -15441,24 +18338,24 @@
       "policy_key": "b4985d40ed5ab6bace9a828d",
       "category": "lego",
       "source": "hotukdeals",
-      "price_basis": null,
+      "price_basis": "rss_merchant_price",
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
       "merchant": "Argos",
       "item_price": 13.81,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/W7CmB/5047410_1/re/300x300/qt/55/5047410_1.jpg",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/W7CmB/5047410_1/re/300x300/qt/55/5047410_1.jpg",
         "https://images.hotukdeals.com/threads/raw/W7CmB/5047410_1/re/150x150/qt/55/5047410_1.jpg"
       ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
+      "thumb": "https://images.hotukdeals.com/threads/raw/W7CmB/5047410_1/re/300x300/qt/55/5047410_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-77257-mclaren-w1-77253-bugatti-vision-ps1395-77260-fast-furious-toyota-supra-mk4-ps1440-w-code-free-cc-5047410",
       "landed_cost": null,
       "breakeven_sell": 23.45,
       "sell_for_minimum_profit": 33.03,
@@ -15621,8 +18518,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
@@ -15709,8 +18606,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
@@ -15778,45 +18675,6 @@
       }
     },
     {
-      "title": "PS5: Final Fantasy XVI - Used - w/code - Sold by musicMagpie Shop",
-      "url": "https://www.hotukdeals.com/deals/ps5-final-fantasy-xvi-used-wcode-sold-by-musicmagpie-shop-5049867",
-      "policy_key": "7aed4756d452e61f9bc133f6",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "eBay",
-      "item_price": 15.6,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/Hh2Ig/5049867_1/re/150x150/qt/55/5049867_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/ps5-final-fantasy-xvi-used-wcode-sold-by-musicmagpie-shop-5049867",
-      "landed_cost": null,
-      "breakeven_sell": 22.76,
-      "sell_for_minimum_profit": 32.21,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-27T14:27:30+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PS5%3A+Final+Fantasy+XVI&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO DC Batman v Superman Batmobile Set 76331",
       "url": "https://www.hotukdeals.com/deals/lego-dc-batman-v-superman-batmobile-set-76331-5044069",
       "policy_key": "7c169eaaa91000ec6db61aaf",
@@ -15875,8 +18733,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/300x300/qt/55/5048649_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/300x300/qt/55/5048649_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/150x150/qt/55/5048649_1.jpg",
@@ -15993,50 +18851,6 @@
       }
     },
     {
-      "title": "LEGO Classic Creative Dinosaurs 11041",
-      "url": "https://www.hotukdeals.com/deals/lego-classic-creative-dinosaurs-11041-5043840",
-      "policy_key": "fe877ce0178a1816df5011c5",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 18.99,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/300x300/qt/55/5043840_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/YwiPx/5043840_1/re/150x150/qt/55/5043840_1.jpg",
-        "https://i.ebayimg.com/images/g/leEAAeSwT7xpoCFv/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/1K8AAeSweR9ph6p5/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 29.65,
-      "sell_for_minimum_profit": 39.24,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-23T10:17:53+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Classic+Creative+Dinosaurs+11041&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO Disney Pixar Blaze's Horse Ranch - Model 43304 (4+ Years)",
       "url": "https://www.hotukdeals.com/deals/lego-disney-pixar-blazes-horse-ranch-model-43304-4-years-5043476",
       "policy_key": "2e14a53bc4124a63c746e4c2",
@@ -16095,8 +18909,8 @@
       "item_price": 20.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/150x150/qt/55/5047792_1.jpg"
@@ -16176,8 +18990,8 @@
       "item_price": 21.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2rldu/5048312_1/re/300x300/qt/55/5048312_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2rldu/5048312_1/re/300x300/qt/55/5048312_1.jpg",
         "https://images.hotukdeals.com/threads/raw/04w0F/5042974_1/re/300x300/qt/55/5042974_1.jpg",
@@ -16264,8 +19078,8 @@
       "item_price": 22.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/300x300/qt/55/5048043_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/300x300/qt/55/5048043_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/150x150/qt/55/5048043_1.jpg",
@@ -16350,17 +19164,17 @@
       "offer_ambiguity": null,
       "merchant": "Argos",
       "item_price": 23.4,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/UWJRn/5047704_1/re/300x300/qt/55/5047704_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/UWJRn/5047704_1/re/300x300/qt/55/5047704_1.jpg",
         "https://images.hotukdeals.com/threads/raw/UWJRn/5047704_1/re/150x150/qt/55/5047704_1.jpg"
       ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/UWJRn/5047704_1/re/300x300/qt/55/5047704_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-architecture-21034-london-ps2340-architecture-21064-paris-city-of-love-ps4410-w-code-2-x-nectar-points-free-cc-5047704",
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
       "landed_cost": null,
       "breakeven_sell": 34.94,
       "sell_for_minimum_profit": 46.14,
@@ -16482,8 +19296,8 @@
       "item_price": 27.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/150x150/qt/55/5049252_1.jpg"
@@ -16503,6 +19317,45 @@
       "priority": 10,
       "first_seen": "2026-11-27T09:21:47+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+75328+The+Mandalorian+Helmet+Set+for+Adults&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Vans Men's Atwood Canvas Trainers - Black Size 10",
+      "url": "https://www.hotukdeals.com/deals/vans-mens-atwood-canvas-trainers-black-5049879",
+      "policy_key": "6868f014b850e0a79a7b330d",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 27.46,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/eKTkk/5049879_1/re/150x150/qt/55/5049879_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/vans-mens-atwood-canvas-trainers-black-5049879",
+      "landed_cost": null,
+      "breakeven_sell": 38.83,
+      "sell_for_minimum_profit": 52.19,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Vans+Men%27s+Atwood+Canvas+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -16568,8 +19421,8 @@
       "item_price": 28.77,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/300x300/qt/55/5048487_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/300x300/qt/55/5048487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/150x150/qt/55/5048487_1.jpg"
@@ -16649,8 +19502,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/150x150/qt/55/5049821_1.jpg",
@@ -16737,8 +19590,8 @@
       "item_price": 29.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/51ujz/5047783_1/re/300x300/qt/55/5047783_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/51ujz/5047783_1/re/300x300/qt/55/5047783_1.jpg",
         "https://images.hotukdeals.com/threads/raw/51ujz/5047783_1/re/150x150/qt/55/5047783_1.jpg"
@@ -16994,8 +19847,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -17205,8 +20058,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Vzqzv/5045054_1/re/300x300/qt/55/5045054_1.jpg",
@@ -17249,8 +20102,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Dc2Up/5043808_1/re/300x300/qt/55/5043808_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lqGuK/5043384_1/re/300x300/qt/55/5043384_1.jpg",
@@ -17335,8 +20188,8 @@
       "item_price": 36.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/300x300/qt/55/5049459_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/300x300/qt/55/5049459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/150x150/qt/55/5049459_1.jpg"
@@ -17516,8 +20369,8 @@
       "item_price": 39.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/s4Uc1/5049545_1/re/300x300/qt/55/5049545_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/s4Uc1/5049545_1/re/300x300/qt/55/5049545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lV0Np/5046611_1/re/300x300/qt/55/5046611_1.jpg",
@@ -17648,8 +20501,8 @@
       "item_price": 40.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/150x150/qt/55/5048977_1.jpg",
@@ -17804,6 +20657,73 @@
       }
     },
     {
+      "title": "Yves Saint Laurent Y Eau de Parfum 60ml - With Code",
+      "url": "https://www.hotukdeals.com/deals/yves-saint-laurent-y-eau-de-parfum-60ml-with-code-5049903",
+      "policy_key": "82e9927e5a9463fb3903d0c9",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Parfumdreams",
+      "item_price": 41.56,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/06Yyg/5049903_1/re/150x150/qt/55/5049903_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/yves-saint-laurent-y-eau-de-parfum-60ml-with-code-5049903",
+      "landed_cost": null,
+      "breakeven_sell": 55.43,
+      "sell_for_minimum_profit": 75.35,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 60,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "60ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 55.43,
+        "required_resale": 75.35,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 41.56,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "60ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Yves+Saint+Laurent+Y+Eau+de+Parfum+60ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO EDITIONS Ayrton Senna Helmet (43024) In-store, Haydock",
       "url": "https://www.hotukdeals.com/deals/lego-icons-ayrton-senna-helmet-43024-instore-costco-national-5044106",
       "policy_key": "5165528d8b47925d61f4bd2d",
@@ -17862,8 +20782,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
@@ -17950,8 +20870,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -17992,8 +20912,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/XJaEe/5048060_1/re/300x300/qt/55/5048060_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/XJaEe/5048060_1/re/300x300/qt/55/5048060_1.jpg",
         "https://images.hotukdeals.com/threads/raw/WodEU/5043399_1/re/300x300/qt/55/5043399_1.jpg",
@@ -18294,8 +21214,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -18336,8 +21256,8 @@
       "item_price": 49.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/300x300/qt/55/5049057_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/300x300/qt/55/5049057_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/150x150/qt/55/5049057_1.jpg"
@@ -18378,8 +21298,8 @@
       "item_price": 49.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/150x150/qt/55/5049023_1.jpg"
@@ -18638,8 +21558,8 @@
       "item_price": 56.69,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/vlAG9/5047987_1/re/300x300/qt/55/5047987_1.jpg",
-      "image_verified_until": "2026-11-27T14:47:34.126490+00:00",
-      "image_checked_at": "2026-11-27T14:27:34.126490+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/vlAG9/5047987_1/re/300x300/qt/55/5047987_1.jpg",
         "https://images.hotukdeals.com/threads/raw/vlAG9/5047987_1/re/150x150/qt/55/5047987_1.jpg",
@@ -18768,8 +21688,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:21:10.574559+00:00",
+      "image_checked_at": "2026-11-27T15:01:10.574559+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -18796,9 +21716,9 @@
       }
     },
     {
-      "title": "Nike Running Vomero Plus trainers in pink with code",
-      "url": "https://www.hotukdeals.com/deals/nike-running-vomero-plus-trainers-in-pink-5049840",
-      "policy_key": "795fe7885eb4f020ba7a56fe",
+      "title": "Timberland Parker Street Trainer for Men in Dark Brown",
+      "url": "https://www.hotukdeals.com/deals/timberland-parker-street-trainer-for-men-in-dark-brown-5049874",
+      "policy_key": "64d1e7f30637a05e97954e94",
       "category": "trainers",
       "source": "hotukdeals",
       "price_basis": "rss_merchant_price",
@@ -18806,19 +21726,19 @@
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "ASOS",
-      "item_price": 61.87,
+      "merchant": "Timberland",
+      "item_price": 66.0,
       "image_status": null,
       "image_verified_url": null,
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/hloa7/5049840_1/re/150x150/qt/55/5049840_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/epwJO/5049874_1/re/150x150/qt/55/5049874_1.jpg",
       "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nike-running-vomero-plus-trainers-in-pink-5049840",
+      "image_source_url": "https://www.hotukdeals.com/deals/timberland-parker-street-trainer-for-men-in-dark-brown-5049874",
       "landed_cost": null,
-      "breakeven_sell": 80.64,
-      "sell_for_minimum_profit": 103.33,
+      "breakeven_sell": 85.66,
+      "sell_for_minimum_profit": 109.9,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "item-only lower bound; delivery unknown",
       "blockers": [
@@ -18826,8 +21746,75 @@
         "Inbound delivery unknown"
       ],
       "priority": 10,
-      "first_seen": "2026-11-27T14:27:30+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Running+Vomero+Plus+trainers+in+pink&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Timberland+Parker+Street+Trainer+for+Men+in+Dark+Brown&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Tom Ford Eau D'Ombr\u00e9 Leather Eau de Toilette 100ml - With Code",
+      "url": "https://www.hotukdeals.com/deals/tom-ford-eau-dombre-leather-100ml-with-code-5049894",
+      "policy_key": "6fc0aa6d02dbfabb56b79b39",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Parfumdreams",
+      "item_price": 76.16,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/DGnMw/5049894_1/re/150x150/qt/55/5049894_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/tom-ford-eau-dombre-leather-100ml-with-code-5049894",
+      "landed_cost": null,
+      "breakeven_sell": 96.88,
+      "sell_for_minimum_profit": 133.36,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 100,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 96.88,
+        "required_resale": 133.36,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 76.16,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T15:01:06+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Tom+Ford+Eau+D%27Ombr%C3%A9+Leather+Eau+de+Toilette+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -18906,45 +21893,6 @@
       "priority": 10,
       "first_seen": "2026-11-20T16:24:40+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Makita+BL18120+18v+LXT+High+Capacity+12ah+Battery+1915J2-8&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "AeroClip 2 Open-Ear Clip-On Earbuds with a free Soundcore Anker Select 4 Go Bluetooth Speaker - Sold by AnkerDirect UK / FBA",
-      "url": "https://www.hotukdeals.com/deals/aeroclip-2-open-ear-clip-on-earbuds-for-crystal-clear-calls-with-a-free-soundcore-anker-select-4-go-ultra-portable-bluetooth-speaker-5049852",
-      "policy_key": "3f99555b0766e07a2c0ba9b9",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 135.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/m7q5h/5049852_1/re/150x150/qt/55/5049852_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/aeroclip-2-open-ear-clip-on-earbuds-for-crystal-clear-calls-with-a-free-soundcore-anker-select-4-go-ultra-portable-bluetooth-speaker-5049852",
-      "landed_cost": null,
-      "breakeven_sell": 171.41,
-      "sell_for_minimum_profit": 238.0,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-27T14:27:30+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=AeroClip+2+Open-Ear+Clip-On+Earbuds+with+a+free+Soundcore+Anker+Select+4+Go+Bluetooth+Speaker&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -20457,6 +23405,45 @@
       }
     },
     {
+      "title": "Pokemon Hoodie for Boys, Hooded Sweatshirt 7-8 Years - Sold by Get Trend / FBA",
+      "url": "https://www.hotukdeals.com/deals/pokemon-hoodie-for-boys-teens-hooded-sweatshirt-5048705",
+      "policy_key": "641dffb72c3f7a51b7906076",
+      "category": "sportswear",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 10.53,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/f8eXu/5048705_1/re/150x150/qt/55/5048705_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/pokemon-hoodie-for-boys-teens-hooded-sweatshirt-5048705",
+      "landed_cost": null,
+      "breakeven_sell": 17.68,
+      "sell_for_minimum_profit": 27.4,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-26T22:16:18+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Pokemon+Hoodie+for+Boys%2C+Hooded+Sweatshirt+7-8+Years&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Persona 5 Tactica, Xbox One / Series X - Used Very Good - w/Code, Sold by musicMagpie Shop",
       "url": "https://www.hotukdeals.com/deals/persona-5-tactica-used-very-good-wcode-sold-by-musicmagpie-shop-5042438",
       "policy_key": "606b702de2ad1f8488c780c1",
@@ -20744,8 +23731,8 @@
       "item_price": 12.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/lkDTf/5049507_1/re/300x300/qt/55/5049507_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/lkDTf/5049507_1/re/300x300/qt/55/5049507_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lkDTf/5049507_1/re/150x150/qt/55/5049507_1.jpg"
@@ -21006,8 +23993,8 @@
       "item_price": 14.89,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/y3OMG/5049665_1/re/300x300/qt/55/5049665_1.jpg",
-      "image_verified_until": "2026-11-27T14:45:43.703979+00:00",
-      "image_checked_at": "2026-11-27T14:25:43.703979+00:00",
+      "image_verified_until": "2026-11-27T15:19:37.826684+00:00",
+      "image_checked_at": "2026-11-27T14:59:37.826684+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/y3OMG/5049665_1/re/300x300/qt/55/5049665_1.jpg",
         "https://images.hotukdeals.com/threads/raw/y3OMG/5049665_1/re/150x150/qt/55/5049665_1.jpg"
@@ -21222,6 +24209,45 @@
       "priority": 0,
       "first_seen": "2026-11-26T16:44:15+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Demon%E2%80%99s+Souls+%28PS5%29+Used&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "PS5: Final Fantasy XVI - Used - w/code - Sold by musicMagpie Shop",
+      "url": "https://www.hotukdeals.com/deals/ps5-final-fantasy-xvi-used-wcode-sold-by-musicmagpie-shop-5049867",
+      "policy_key": "7aed4756d452e61f9bc133f6",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 15.6,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/Hh2Ig/5049867_1/re/150x150/qt/55/5049867_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/ps5-final-fantasy-xvi-used-wcode-sold-by-musicmagpie-shop-5049867",
+      "landed_cost": null,
+      "breakeven_sell": 22.76,
+      "sell_for_minimum_profit": 32.21,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-27T14:27:30+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PS5%3A+Final+Fantasy+XVI&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -24518,7 +27544,7 @@
       "policy_key": "2242833f7ef1c95a7f4f3a49",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
@@ -28213,45 +31239,6 @@
       }
     },
     {
-      "title": "PS5 DualSense Wireless Controller \u2013 Marathon Limited Edition - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/playstation5-dualsense-wireless-controller-marathon-limited-edition-5042134",
-      "policy_key": "7f7d49e024b2e0f41c686504",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 48.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/l5nzh/5042134_1/re/150x150/qt/55/5042134_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/playstation5-dualsense-wireless-controller-marathon-limited-edition-5042134",
-      "landed_cost": null,
-      "breakeven_sell": 62.19,
-      "sell_for_minimum_profit": 85.32,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-21T19:19:34+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PS5+DualSense+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "Call of Duty: Modern Warfare 4 - PS5/Xbox/Nintendo",
       "url": "https://www.hotukdeals.com/deals/call-of-duty-modern-warfare-4-xboxplaystationnintendo-5045243",
       "policy_key": "925272352e74da65e4ddeeb2",
@@ -28557,70 +31544,6 @@
       "priority": 0,
       "first_seen": "2026-11-27T08:47:48+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Mens+Mens+Nike+P-6000+Trainers%2C+Sizes+6-12&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Givenchy L'Interdit Rouge Eau de Parfum 50ml + 12.5ml + Mascara Gift Set",
-      "url": "https://www.hotukdeals.com/deals/givenchy-linterdit-rouge-eau-de-parfum-50ml-125ml-mascara-gift-set-5048488",
-      "policy_key": "1d7e29faac27e96ec98dbab5",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Escentual",
-      "item_price": 54.0,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/zTczn/5048488_1/re/150x150/qt/55/5048488_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/givenchy-linterdit-rouge-eau-de-parfum-50ml-125ml-mascara-gift-set-5048488",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": null,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-26T18:56:20+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Givenchy+L%27Interdit+Rouge+Eau+de+Parfum+50ml+%2B+12.5ml+%2B+Mascara+Gift+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -29067,6 +31990,45 @@
       "priority": 0,
       "first_seen": "2026-11-27T07:05:45+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Grand+Theft+Auto+VI+%28GTA+6%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Nike Running Vomero Plus Women trainers in pink with code",
+      "url": "https://www.hotukdeals.com/deals/nike-running-vomero-plus-trainers-in-pink-5049840",
+      "policy_key": "795fe7885eb4f020ba7a56fe",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "ASOS",
+      "item_price": 61.87,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/hloa7/5049840_1/re/150x150/qt/55/5049840_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nike-running-vomero-plus-trainers-in-pink-5049840",
+      "landed_cost": null,
+      "breakeven_sell": 80.64,
+      "sell_for_minimum_profit": 103.33,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-27T14:27:30+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Running+Vomero+Plus+Women+trainers+in+pink&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -30447,6 +33409,45 @@
       }
     },
     {
+      "title": "AeroClip 2 Open-Ear Clip-On Earbuds with a free Soundcore Anker Select 4 Go Bluetooth Speaker - Sold by AnkerDirect UK / FBA",
+      "url": "https://www.hotukdeals.com/deals/aeroclip-2-open-ear-clip-on-earbuds-for-crystal-clear-calls-with-a-free-soundcore-anker-select-4-go-ultra-portable-bluetooth-speaker-5049852",
+      "policy_key": "3f99555b0766e07a2c0ba9b9",
+      "category": "tech",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 135.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/m7q5h/5049852_1/re/150x150/qt/55/5049852_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/aeroclip-2-open-ear-clip-on-earbuds-for-crystal-clear-calls-with-a-free-soundcore-anker-select-4-go-ultra-portable-bluetooth-speaker-5049852",
+      "landed_cost": null,
+      "breakeven_sell": 171.41,
+      "sell_for_minimum_profit": 238.0,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-27T14:27:30+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=AeroClip+2+Open-Ear+Clip-On+Earbuds+with+a+free+Soundcore+Anker+Select+4+Go+Bluetooth+Speaker&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Sony WH-1000XM4C Wireless Noise Cancelling Headphones - checkout price",
       "url": "https://www.hotukdeals.com/deals/sony-headphones-xm4c-5049731",
       "policy_key": "dd12a0add267351356671966",
@@ -30479,45 +33480,6 @@
       "priority": 0,
       "first_seen": "2026-11-27T13:19:37+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sony+WH-1000XM4C+Wireless+Noise+Cancelling+Headphones&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "FLIR One Thermal Imaging Camera for Android USB-C, 240x180 MSX (\u00a3145.99 for iPhone)",
-      "url": "https://www.hotukdeals.com/deals/flir-one-thermal-imaging-camera-for-android-usb-c-240x180-msx-5047861",
-      "policy_key": "0239731f6836caa407ab18a5",
-      "category": "tech",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 143.31,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/IxMVS/5047861_1/re/150x150/qt/55/5047861_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/flir-one-thermal-imaging-camera-for-android-usb-c-240x180-msx-5047861",
-      "landed_cost": null,
-      "breakeven_sell": 181.66,
-      "sell_for_minimum_profit": 252.35,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-26T11:07:47+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=FLIR+One+Thermal+Imaging+Camera+for+Android+USB-C%2C+240x180+MSX+%28+for+iPhone%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
