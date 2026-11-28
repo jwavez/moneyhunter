@@ -2,6 +2,825 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "LEGO 75428 STAR WARS BATTLE DROID WITH STAP - BNIB - Free P&P",
+      "url": "https://www.ebay.co.uk/itm/336901954481",
+      "policy_key": "1b6f40a56cb8566ce0ee55e6",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 119.95,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/150x150/qt/55/5050106_1.jpg",
+        "https://i.ebayimg.com/images/g/DqkAAeSwI1Jq~Ffe/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-battle-droid-with-stap-75428-5050106",
+      "landed_cost": 119.95,
+      "breakeven_sell": 150.57,
+      "sell_for_minimum_profit": 208.03,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-28T04:14:01+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+75428+STAR+WARS+BATTLE+DROID+WITH+STAP&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75428",
+        "category": "lego",
+        "name_terms": [
+          "battle",
+          "bnib",
+          "droid",
+          "stap"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T04:14:06+00:00",
+        "date": "2026-11-28",
+        "sample_count": 19,
+        "listed_total_low": 9.99,
+        "listed_total_p25": 109.93,
+        "listed_total_median": 114.8,
+        "listed_total_p75": 119.97,
+        "listed_total_high": 245.18,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|358625483820|0",
+            "seller": "tommy-town",
+            "image": "https://i.ebayimg.com/images/g/b7YAAeSwqExqHXsQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358625483820",
+            "title": "Lego Star Wars (6178pb051) Modified 6x12 Tile For 75428 Battle Droid with STAP",
+            "declared_condition": "new",
+            "item_price": 9.99,
+            "shipping": 0.0,
+            "listed_total": 9.99
+          },
+          {
+            "item_id": "v1|800960220771|0",
+            "seller": "ar_tin329",
+            "image": "https://i.ebayimg.com/images/g/Av4AAeSwIOlrBXNE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800960220771",
+            "title": "LEGO Star Wars: Battle Droid with STAP 75428 Brand New & Sealed [To be Retired]",
+            "declared_condition": "new",
+            "item_price": 99.99,
+            "shipping": 3.89,
+            "listed_total": 103.88
+          },
+          {
+            "item_id": "v1|257858263147|0",
+            "seller": "rowla.jos",
+            "image": "https://i.ebayimg.com/images/g/jA4AAeSwVqBq67xB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257858263147",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap Speeder Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 104.18,
+            "shipping": 4.27,
+            "listed_total": 108.45
+          },
+          {
+            "item_id": "v1|366836835074|0",
+            "seller": "ell_58774",
+            "image": "https://i.ebayimg.com/images/g/atcAAeSwmlRrBpPu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366836835074",
+            "title": "LEGO Star Wars Battle Droid with STAP, Unopened, Set 75428 1088pcs 12+",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 3.89,
+            "listed_total": 108.59
+          },
+          {
+            "item_id": "v1|920172171814|0",
+            "seller": "mitc25952",
+            "image": "https://i.ebayimg.com/images/g/TWYAAeSwAcJrAxa7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920172171814",
+            "title": "LEGO Star Wars 75428 Battle Droid with STAP",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 4.27,
+            "listed_total": 108.97
+          },
+          {
+            "item_id": "v1|147696046145|0",
+            "seller": "brickman80",
+            "image": "https://i.ebayimg.com/images/g/mhcAAeSwIRZrAeAb/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147696046145",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap Speeder Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 105.99,
+            "shipping": 4.9,
+            "listed_total": 110.89
+          },
+          {
+            "item_id": "v1|168478536734|0",
+            "seller": "samedaydespatch",
+            "image": "https://i.ebayimg.com/images/g/RZoAAeSwt5BqN78I/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168478536734",
+            "title": "LEGO 75428 Star Wars Battle Droid With STAP, New & sealed, MINT CONDITION  (517)",
+            "declared_condition": "new",
+            "item_price": 109.85,
+            "shipping": 4.9,
+            "listed_total": 114.75
+          },
+          {
+            "item_id": "v1|168890723432|0",
+            "seller": "samedaydespatch",
+            "image": "https://i.ebayimg.com/images/g/RZoAAeSwt5BqN78I/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168890723432",
+            "title": "LEGO 75428 Star Wars Battle Droid With STAP, New & sealed, MINT CONDITION  (611)",
+            "declared_condition": "new",
+            "item_price": 109.85,
+            "shipping": 4.9,
+            "listed_total": 114.75
+          },
+          {
+            "item_id": "v1|168478533839|0",
+            "seller": "samedaydespatch",
+            "image": "https://i.ebayimg.com/images/g/bFgAAeSwpfdqN73R/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168478533839",
+            "title": "LEGO 75428 Star Wars Battle Droid With STAP, New & Sealed, MINT CONDITION (518)",
+            "declared_condition": "new",
+            "item_price": 109.85,
+            "shipping": 4.9,
+            "listed_total": 114.75
+          },
+          {
+            "item_id": "v1|960239480263|0",
+            "seller": "gt5658",
+            "image": "https://i.ebayimg.com/images/g/jzQAAeSwBTprBgW6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960239480263",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap Speeder Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 109.9,
+            "shipping": 4.9,
+            "listed_total": 114.8
+          },
+          {
+            "item_id": "v1|327233585335|0",
+            "seller": "ajt-39",
+            "image": "https://i.ebayimg.com/images/g/FrYAAeSwY5FqPnk~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327233585335",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap",
+            "declared_condition": "new",
+            "item_price": 115.09,
+            "shipping": 0.0,
+            "listed_total": 115.09
+          },
+          {
+            "item_id": "v1|206729562104|0",
+            "seller": "aidanking135",
+            "image": "https://i.ebayimg.com/images/g/PjQAAeSwjiBrCN-u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206729562104",
+            "title": "Lego 75428 Battle Droid\u2122 with STAP",
+            "declared_condition": "new",
+            "item_price": 113.02,
+            "shipping": 4.9,
+            "listed_total": 117.92
+          },
+          {
+            "item_id": "v1|800974690993|0",
+            "seller": "brandonsnr",
+            "image": "https://i.ebayimg.com/images/g/eQgAAeSw1wJrCd6l/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800974690993",
+            "title": "LEGO 75428 Star Wars: Battle Droid With STAP | New & Sealed",
+            "declared_condition": "new",
+            "item_price": 109.99,
+            "shipping": 8.36,
+            "listed_total": 118.35
+          },
+          {
+            "item_id": "v1|336901954481|0",
+            "seller": "fy-bricks",
+            "image": "https://i.ebayimg.com/images/g/DqkAAeSwI1Jq~Ffe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336901954481",
+            "title": "LEGO 75428 STAR WARS BATTLE DROID WITH STAP - BNIB - Free P&P",
+            "declared_condition": "new",
+            "item_price": 119.95,
+            "shipping": 0.0,
+            "listed_total": 119.95
+          },
+          {
+            "item_id": "v1|820402943609|0",
+            "seller": "asvaitk0",
+            "image": "https://i.ebayimg.com/images/g/WUIAAeSwriFrCLHb/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820402943609",
+            "title": "Lego 75428 Battle Droid\u2122 with STAP",
+            "declared_condition": "new",
+            "item_price": 115.1,
+            "shipping": 4.9,
+            "listed_total": 120.0
+          },
+          {
+            "item_id": "v1|236905568785|0",
+            "seller": "jameseastbourne",
+            "image": "https://i.ebayimg.com/images/g/cS4AAeSwhVFqQoGq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236905568785",
+            "title": "LEGO Star Wars Episode I Battle Droid with STAP 75428 | Brand New in Sealed Box",
+            "declared_condition": "new",
+            "item_price": 119.99,
+            "shipping": 4.9,
+            "listed_total": 124.89
+          },
+          {
+            "item_id": "v1|940094317722|0",
+            "seller": "nobubblesdave",
+            "image": "https://i.ebayimg.com/images/g/49YAAeSwtAFq-bDJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/940094317722",
+            "title": "LEGO Star Wars Battle Droid With STAP - 75428 - rare version signed by designer",
+            "declared_condition": "new",
+            "item_price": 125.5,
+            "shipping": 4.9,
+            "listed_total": 130.4
+          },
+          {
+            "item_id": "v1|137403057897|0",
+            "seller": "andysbricks",
+            "image": "https://i.ebayimg.com/images/g/Rm4AAeSw~bpqKn1L/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137403057897",
+            "title": "LEGO 75428 - Star Wars Battle Droid With STAP - BRAND NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 139.99,
+            "shipping": 0.0,
+            "listed_total": 139.99
+          },
+          {
+            "item_id": "v1|820256392677|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/H0MAAeSwPppq13JU/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 248.4,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820256392677",
+            "title": "LEGO Star Wars Battle Droid con STAP 75428",
+            "declared_condition": "new",
+            "item_price": 245.18,
+            "shipping": 0.0,
+            "listed_total": 245.18
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 9
+        },
+        "query_aliases": [
+          "LEGO 75428 STAR WARS BATTLE DROID WITH STAP - BNIB - Free P&P"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75428",
+        "observed_at": "2026-11-28T04:14:06+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 16,
+        "seller_count": 16,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 9.99,
+        "competition_high": 245.18,
+        "estimated_resale": 9.69,
+        "estimated_range": [
+          8.99,
+          9.99
+        ],
+        "suggested_listing": 9.98,
+        "quick_sale_model": 8.99,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          248.4,
+          248.4
+        ],
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 119.95,
+        "delivery_known": true,
+        "landed_cost": 119.95,
+        "net": -117.51,
+        "roi": -98.0,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 0,
+        "max_item_buy": 0.0,
+        "delivery_headroom": -119.95,
+        "fees": 1.67,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.29,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 8.72,
+        "review_stress_net": -118.32,
+        "review_stress_roi": -98.6,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|358625483820|0",
+            "seller": "tommy-town",
+            "image": "https://i.ebayimg.com/images/g/b7YAAeSwqExqHXsQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358625483820",
+            "title": "Lego Star Wars (6178pb051) Modified 6x12 Tile For 75428 Battle Droid with STAP",
+            "declared_condition": "new",
+            "item_price": 9.99,
+            "shipping": 0.0,
+            "listed_total": 9.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|800960220771|0",
+            "seller": "ar_tin329",
+            "image": "https://i.ebayimg.com/images/g/Av4AAeSwIOlrBXNE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/800960220771",
+            "title": "LEGO Star Wars: Battle Droid with STAP 75428 Brand New & Sealed [To be Retired]",
+            "declared_condition": "new",
+            "item_price": 99.99,
+            "shipping": 3.89,
+            "listed_total": 103.88,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|257858263147|0",
+            "seller": "rowla.jos",
+            "image": "https://i.ebayimg.com/images/g/jA4AAeSwVqBq67xB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/257858263147",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap Speeder Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 104.18,
+            "shipping": 4.27,
+            "listed_total": 108.45,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366836835074|0",
+            "seller": "ell_58774",
+            "image": "https://i.ebayimg.com/images/g/atcAAeSwmlRrBpPu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366836835074",
+            "title": "LEGO Star Wars Battle Droid with STAP, Unopened, Set 75428 1088pcs 12+",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 3.89,
+            "listed_total": 108.59,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|920172171814|0",
+            "seller": "mitc25952",
+            "image": "https://i.ebayimg.com/images/g/TWYAAeSwAcJrAxa7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920172171814",
+            "title": "LEGO Star Wars 75428 Battle Droid with STAP",
+            "declared_condition": "new",
+            "item_price": 104.7,
+            "shipping": 4.27,
+            "listed_total": 108.97,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147696046145|0",
+            "seller": "brickman80",
+            "image": "https://i.ebayimg.com/images/g/mhcAAeSwIRZrAeAb/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147696046145",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap Speeder Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 105.99,
+            "shipping": 4.9,
+            "listed_total": 110.89,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|168478536734|0",
+            "seller": "samedaydespatch",
+            "image": "https://i.ebayimg.com/images/g/RZoAAeSwt5BqN78I/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168478536734",
+            "title": "LEGO 75428 Star Wars Battle Droid With STAP, New & sealed, MINT CONDITION  (517)",
+            "declared_condition": "new",
+            "item_price": 109.85,
+            "shipping": 4.9,
+            "listed_total": 114.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960239480263|0",
+            "seller": "gt5658",
+            "image": "https://i.ebayimg.com/images/g/jzQAAeSwBTprBgW6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960239480263",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap Speeder Brand New And Sealed",
+            "declared_condition": "new",
+            "item_price": 109.9,
+            "shipping": 4.9,
+            "listed_total": 114.8,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327233585335|0",
+            "seller": "ajt-39",
+            "image": "https://i.ebayimg.com/images/g/FrYAAeSwY5FqPnk~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327233585335",
+            "title": "LEGO Star Wars 75428 Battle Droid with Stap",
+            "declared_condition": "new",
+            "item_price": 115.09,
+            "shipping": 0.0,
+            "listed_total": 115.09,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206729562104|0",
+            "seller": "aidanking135",
+            "image": "https://i.ebayimg.com/images/g/PjQAAeSwjiBrCN-u/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206729562104",
+            "title": "Lego 75428 Battle Droid\u2122 with STAP",
+            "declared_condition": "new",
+            "item_price": 113.02,
+            "shipping": 4.9,
+            "listed_total": 117.92,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "low_price_not_supported"
+      }
+    },
+    {
       "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
       "url": "https://www.ebay.co.uk/itm/880147354688",
       "policy_key": "258f078d1f2eaa152d34d44e",
@@ -157,7 +976,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|307299298027|0",
-          "observed_at": "2026-11-28T03:37:50+00:00",
+          "observed_at": "2026-11-28T04:11:34+00:00",
           "status": "conflict",
           "reasons": [
             "model aspect mismatch",
@@ -591,8 +1410,8 @@
       "item_price": 12.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
         "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/150x150/qt/55/5049604_1.jpg",
@@ -1712,8 +2531,8 @@
       "item_price": 12.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CK8zC/5050459_1/re/300x300/qt/55/5050459_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CK8zC/5050459_1/re/300x300/qt/55/5050459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CK8zC/5050459_1/re/150x150/qt/55/5050459_1.jpg"
@@ -3106,8 +3925,8 @@
       "item_price": 13.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/300x300/qt/55/5050160_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/300x300/qt/55/5050160_1.jpg",
         "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/150x150/qt/55/5050160_1.jpg"
@@ -4418,8 +5237,8 @@
       "item_price": 14.23,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/150x150/qt/55/5050420_1.jpg"
@@ -5698,8 +6517,8 @@
       "item_price": 15.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/300x300/qt/55/5050434_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/300x300/qt/55/5050434_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/150x150/qt/55/5050434_1.jpg"
@@ -7087,8 +7906,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/300x300/qt/55/5044069_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dTRxZ/5044069_1/re/150x150/qt/55/5044069_1.jpg",
@@ -8342,8 +9161,8 @@
       "item_price": 24.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/300x300/qt/55/5050349_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/300x300/qt/55/5050349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/150x150/qt/55/5050349_1.jpg"
@@ -9249,8 +10068,8 @@
       "item_price": 34.19,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/300x300/qt/55/5043550_1.jpg",
         "https://images.hotukdeals.com/threads/raw/NsICw/5043550_1/re/150x150/qt/55/5043550_1.jpg",
@@ -10270,712 +11089,6 @@
       }
     },
     {
-      "title": "LEGO Disney Disney and Pixar \u2018Up\u2019 House Building Toy 43217",
-      "url": "https://www.hotukdeals.com/deals/lego-disney-disney-and-pixar-up-house-building-toy-43217-5050277",
-      "policy_key": "dcdcbd6b9c2c4ad27742c425",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 34.99,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/150x150/qt/55/5050277_1.jpg",
-        "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/Q8wAAeSw9LxrAdgc/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-disney-and-pixar-up-house-building-toy-43217-5050277",
-      "landed_cost": null,
-      "breakeven_sell": 48.81,
-      "sell_for_minimum_profit": 65.58,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-27T20:44:22+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Disney+and+Pixar+%E2%80%98Up%E2%80%99+House+Building+Toy+43217&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "wide_spread",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 43217",
-        "category": "lego",
-        "name_terms": [
-          "disney",
-          "house",
-          "pixar",
-          "up"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-27T21:54:03+00:00",
-        "date": "2026-11-27",
-        "sample_count": 14,
-        "listed_total_low": 21.98,
-        "listed_total_p25": 46.04,
-        "listed_total_median": 47.49,
-        "listed_total_p75": 47.93,
-        "listed_total_high": 49.53,
-        "status": "wide_spread",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
-          "Wide spread: variants/outliers may remain; no values silently discarded."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|267760713827|0",
-            "seller": "calums_collectibles",
-            "image": "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267760713827",
-            "title": "Lego Disney Up House  43217 Mini figures Only",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.62,
-            "listed_total": 21.98
-          },
-          {
-            "item_id": "v1|920190581552|0",
-            "seller": "char4905",
-            "image": "https://i.ebayimg.com/images/g/gGAAAeSwOGlrCV2A/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920190581552",
-            "title": "Brand New LEGO Disney: Up' House (43217)",
-            "declared_condition": "new",
-            "item_price": 41.26,
-            "shipping": 3.38,
-            "listed_total": 44.64
-          },
-          {
-            "item_id": "v1|860181937030|0",
-            "seller": "krishaw_2",
-            "image": "https://i.ebayimg.com/images/g/SlkAAeSw9INrCWco/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860181937030",
-            "title": "LEGO 43217 Disney Up House 100% Complete Set",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24
-          },
-          {
-            "item_id": "v1|267853389981|0",
-            "seller": "singingbambina",
-            "image": "https://i.ebayimg.com/images/g/XwkAAeSw66xrBYKw/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267853389981",
-            "title": "LEGO Disney 43217 Up' House Complete Set 598pcs  Sealed box",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 3.71,
-            "listed_total": 46.01
-          },
-          {
-            "item_id": "v1|198815748375|0",
-            "seller": "booboobricks",
-            "image": "https://i.ebayimg.com/images/g/Ud0AAeSwY2NrADn3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198815748375",
-            "title": "LEGO Disney - 43217 - The UP House - NEW",
-            "declared_condition": "new",
-            "item_price": 42.75,
-            "shipping": 3.38,
-            "listed_total": 46.13
-          },
-          {
-            "item_id": "v1|206730470725|0",
-            "seller": "catsdestash",
-            "image": "https://i.ebayimg.com/images/g/3JcAAeSwkuBrCX1r/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206730470725",
-            "title": "LEGO Disney Up' House 43217 598pcs Set 9+ Brick Separator Included",
-            "declared_condition": "new",
-            "item_price": 42.99,
-            "shipping": 3.38,
-            "listed_total": 46.37
-          },
-          {
-            "item_id": "v1|365264889424|0",
-            "seller": "m.ellis.2",
-            "image": "https://i.ebayimg.com/images/g/hg0AAOSwYARnTjzV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/365264889424",
-            "title": "LEGO Disney Up' House 43217 (New & Sealed) FREE SHIPPING \u2705",
-            "declared_condition": "new",
-            "item_price": 47.49,
-            "shipping": 0.0,
-            "listed_total": 47.49
-          },
-          {
-            "item_id": "v1|287746938352|0",
-            "seller": "2015moviefan",
-            "image": "https://i.ebayimg.com/images/g/vcUAAOSwky1nRvBN/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287746938352",
-            "title": "Lego Disney 100 Up House Set 43217 New Sealed ",
-            "declared_condition": "new",
-            "item_price": 47.49,
-            "shipping": 0.0,
-            "listed_total": 47.49
-          },
-          {
-            "item_id": "v1|840135790141|0",
-            "seller": "suli85",
-            "image": "https://i.ebayimg.com/images/g/yQMAAOSwublnofbk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840135790141",
-            "title": "LEGO Disney: Up' House (43217) - BNIB",
-            "declared_condition": "new",
-            "item_price": 47.5,
-            "shipping": 0.0,
-            "listed_total": 47.5
-          },
-          {
-            "item_id": "v1|327463581263|0",
-            "seller": "scooby_doo",
-            "image": "https://i.ebayimg.com/images/g/09wAAeSwPslq1jdI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327463581263",
-            "title": "LEGO DISNEY: UP' HOUSE (43217) NEW AND FACTORY SEALED",
-            "declared_condition": "new",
-            "item_price": 44.38,
-            "shipping": 3.38,
-            "listed_total": 47.76
-          },
-          {
-            "item_id": "v1|168890486016|0",
-            "seller": "launicsales",
-            "image": "https://i.ebayimg.com/images/g/bJYAAeSwHx5rCa-Z/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168890486016",
-            "title": "LEGO DISNEY PIXAR 100 YEARS. UP HOUSE. 43217. ",
-            "declared_condition": "new",
-            "item_price": 47.99,
-            "shipping": 0.0,
-            "listed_total": 47.99
-          },
-          {
-            "item_id": "v1|840063171907|0",
-            "seller": "hum-792998",
-            "image": "https://i.ebayimg.com/images/g/zW8AAeSwYudq38c7/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840063171907",
-            "title": "LEGO Disney 43217 Up House Building Set - Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 44.95,
-            "shipping": 3.38,
-            "listed_total": 48.33
-          },
-          {
-            "item_id": "v1|860131711845|0",
-            "seller": "joshs_bricks_and_pieces",
-            "image": "https://i.ebayimg.com/images/g/o68AAeSw9~lq82MO/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860131711845",
-            "title": "LEGO 43217 Disney: 'Up' House Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 45.0,
-            "shipping": 3.38,
-            "listed_total": 48.38
-          },
-          {
-            "item_id": "v1|880096041612|0",
-            "seller": "louise24*123",
-            "image": "https://i.ebayimg.com/images/g/ADQAAeSwLKBq8LX5/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880096041612",
-            "title": "LEGO Disney Up' House (43217) brand new in box. Christmas gift \ud83c\udf81.   ",
-            "declared_condition": "new",
-            "item_price": 44.38,
-            "shipping": 5.15,
-            "listed_total": 49.53
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 36
-        },
-        "query_aliases": [
-          "LEGO Disney Disney and Pixar \u2018Up\u2019 House Building Toy 43217"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 43217",
-        "observed_at": "2026-11-27T21:54:03+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 14,
-        "seller_count": 14,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": true,
-        "competition_low": 21.98,
-        "competition_high": 49.53,
-        "estimated_resale": 21.32,
-        "estimated_range": [
-          19.78,
-          21.98
-        ],
-        "suggested_listing": 21.97,
-        "quick_sale_model": 19.78,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": true,
-        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 34.99,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -22.96,
-        "max_landed_buy": 4.02,
-        "max_item_buy": null,
-        "delivery_headroom": -30.97,
-        "fees": 3.36,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.64,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 19.18,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 2.03,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|267760713827|0",
-            "seller": "calums_collectibles",
-            "image": "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267760713827",
-            "title": "Lego Disney Up House  43217 Mini figures Only",
-            "declared_condition": "new",
-            "item_price": 19.36,
-            "shipping": 2.62,
-            "listed_total": 21.98,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920190581552|0",
-            "seller": "char4905",
-            "image": "https://i.ebayimg.com/images/g/gGAAAeSwOGlrCV2A/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920190581552",
-            "title": "Brand New LEGO Disney: Up' House (43217)",
-            "declared_condition": "new",
-            "item_price": 41.26,
-            "shipping": 3.38,
-            "listed_total": 44.64,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|860181937030|0",
-            "seller": "krishaw_2",
-            "image": "https://i.ebayimg.com/images/g/SlkAAeSw9INrCWco/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/860181937030",
-            "title": "LEGO 43217 Disney Up House 100% Complete Set",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|267853389981|0",
-            "seller": "singingbambina",
-            "image": "https://i.ebayimg.com/images/g/XwkAAeSw66xrBYKw/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267853389981",
-            "title": "LEGO Disney 43217 Up' House Complete Set 598pcs  Sealed box",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 3.71,
-            "listed_total": 46.01,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|198815748375|0",
-            "seller": "booboobricks",
-            "image": "https://i.ebayimg.com/images/g/Ud0AAeSwY2NrADn3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198815748375",
-            "title": "LEGO Disney - 43217 - The UP House - NEW",
-            "declared_condition": "new",
-            "item_price": 42.75,
-            "shipping": 3.38,
-            "listed_total": 46.13,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|206730470725|0",
-            "seller": "catsdestash",
-            "image": "https://i.ebayimg.com/images/g/3JcAAeSwkuBrCX1r/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/206730470725",
-            "title": "LEGO Disney Up' House 43217 598pcs Set 9+ Brick Separator Included",
-            "declared_condition": "new",
-            "item_price": 42.99,
-            "shipping": 3.38,
-            "listed_total": 46.37,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|365264889424|0",
-            "seller": "m.ellis.2",
-            "image": "https://i.ebayimg.com/images/g/hg0AAOSwYARnTjzV/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/365264889424",
-            "title": "LEGO Disney Up' House 43217 (New & Sealed) FREE SHIPPING \u2705",
-            "declared_condition": "new",
-            "item_price": 47.49,
-            "shipping": 0.0,
-            "listed_total": 47.49,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287746938352|0",
-            "seller": "2015moviefan",
-            "image": "https://i.ebayimg.com/images/g/vcUAAOSwky1nRvBN/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287746938352",
-            "title": "Lego Disney 100 Up House Set 43217 New Sealed ",
-            "declared_condition": "new",
-            "item_price": 47.49,
-            "shipping": 0.0,
-            "listed_total": 47.49,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|840135790141|0",
-            "seller": "suli85",
-            "image": "https://i.ebayimg.com/images/g/yQMAAOSwublnofbk/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840135790141",
-            "title": "LEGO Disney: Up' House (43217) - BNIB",
-            "declared_condition": "new",
-            "item_price": 47.5,
-            "shipping": 0.0,
-            "listed_total": 47.5,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327463581263|0",
-            "seller": "scooby_doo",
-            "image": "https://i.ebayimg.com/images/g/09wAAeSwPslq1jdI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327463581263",
-            "title": "LEGO DISNEY: UP' HOUSE (43217) NEW AND FACTORY SEALED",
-            "declared_condition": "new",
-            "item_price": 44.38,
-            "shipping": 3.38,
-            "listed_total": 47.76,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
-      }
-    },
-    {
       "title": "LEGO Star Wars Brick-Built Star Wars Logo 75407",
       "url": "https://www.hotukdeals.com/deals/lego-star-wars-brick-built-star-wars-logo-75407-5050163",
       "policy_key": "b51ff8a07dab325f6a247026",
@@ -10990,8 +11103,8 @@
       "item_price": 37.35,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/300x300/qt/55/5050163_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/300x300/qt/55/5050163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/150x150/qt/55/5050163_1.jpg"
@@ -11909,8 +12022,8 @@
       "item_price": 41.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
@@ -14257,6 +14370,875 @@
       }
     },
     {
+      "title": "LEGO Star Wars K-2SO Security Droid 75434 - With Code - Free C&C",
+      "url": "https://www.hotukdeals.com/deals/lego-star-wars-k-2so-security-droid-75434-with-code-free-cc-5049023",
+      "policy_key": "a24f8f5b7a2b979dbe74ebd1",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 49.5,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/150x150/qt/55/5049023_1.jpg",
+        "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/mwIAAeSwUERqrQNI/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-k-2so-security-droid-75434-with-code-free-cc-5049023",
+      "landed_cost": null,
+      "breakeven_sell": 66.2,
+      "sell_for_minimum_profit": 89.91,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T05:24:53+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+K-2SO+Security+Droid+75434&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 75434",
+        "category": "lego",
+        "name_terms": [
+          "2so",
+          "droid",
+          "security"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T04:14:02+00:00",
+        "date": "2026-11-28",
+        "sample_count": 17,
+        "listed_total_low": 58.84,
+        "listed_total_p25": 71.75,
+        "listed_total_median": 79.69,
+        "listed_total_p75": 85.88,
+        "listed_total_high": 114.69,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|206711351357|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206711351357",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            "declared_condition": "new",
+            "item_price": 54.78,
+            "shipping": 4.06,
+            "listed_total": 58.84
+          },
+          {
+            "item_id": "v1|406260853741|0",
+            "seller": "totespilates",
+            "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406260853741",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          },
+          {
+            "item_id": "v1|840164399360|0",
+            "seller": "vilpi-17",
+            "image": "https://i.ebayimg.com/images/g/mwIAAeSwUERqrQNI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840164399360",
+            "title": "LEGO Star Wars: Andor K-2SO Security Droid 75434",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99
+          },
+          {
+            "item_id": "v1|377657019579|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 79.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377657019579",
+            "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            "declared_condition": "new",
+            "item_price": 69.98,
+            "shipping": 0.0,
+            "listed_total": 69.98
+          },
+          {
+            "item_id": "v1|227532670882|0",
+            "seller": "2rd_chance",
+            "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227532670882",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 3.75,
+            "listed_total": 71.75
+          },
+          {
+            "item_id": "v1|298346919810|0",
+            "seller": "jofos_2057",
+            "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346919810",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 70.38,
+            "shipping": 3.38,
+            "listed_total": 73.76
+          },
+          {
+            "item_id": "v1|267339607998|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339607998",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            "declared_condition": "new",
+            "item_price": 74.45,
+            "shipping": 0.0,
+            "listed_total": 74.45
+          },
+          {
+            "item_id": "v1|206200149335|0",
+            "seller": "aclark_1",
+            "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206200149335",
+            "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            "declared_condition": "new",
+            "item_price": 75.53,
+            "shipping": 3.38,
+            "listed_total": 78.91
+          },
+          {
+            "item_id": "v1|157361738693|0",
+            "seller": "iguazu",
+            "image": "https://i.ebayimg.com/images/g/RZkAAeSwo1Bo5YdF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157361738693",
+            "title": "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            "declared_condition": "new",
+            "item_price": 74.54,
+            "shipping": 5.15,
+            "listed_total": 79.69
+          },
+          {
+            "item_id": "v1|267693493553|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/lmAAAeSwCKtqJwT~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267693493553",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Model Kit incl. an Informa...",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 0.0,
+            "listed_total": 79.99
+          },
+          {
+            "item_id": "v1|327399102439|0",
+            "seller": "ihaveit_music",
+            "image": "https://i.ebayimg.com/images/g/8oYAAeSwYWVq-IMd/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327399102439",
+            "title": "Lego - - Star Wars Tm - K-2Soac Security Droid 75434 - construct - P2222z",
+            "declared_condition": "new",
+            "item_price": 80.96,
+            "shipping": 0.0,
+            "listed_total": 80.96
+          },
+          {
+            "item_id": "v1|358706479706|0",
+            "seller": "spg-models",
+            "image": "https://i.ebayimg.com/images/g/-QEAAeSwEiJqOA7f/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358706479706",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 78.7,
+            "shipping": 6.65,
+            "listed_total": 85.35
+          },
+          {
+            "item_id": "v1|307228287807|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/s-4AAeSwpOJq1d2t/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 91.76,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307228287807",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figuur - Bouwbaar Robot Speelgoed voor",
+            "declared_condition": "new",
+            "item_price": 85.88,
+            "shipping": 0.0,
+            "listed_total": 85.88
+          },
+          {
+            "item_id": "v1|358799719209|0",
+            "seller": "gmac_online",
+            "image": "https://i.ebayimg.com/images/g/I9wAAeSwraVqV6Si/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358799719209",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Toy 75434",
+            "declared_condition": "new",
+            "item_price": 83.9,
+            "shipping": 3.38,
+            "listed_total": 87.28
+          },
+          {
+            "item_id": "v1|377681566669|0",
+            "seller": "ihaveit_music",
+            "image": "",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377681566669",
+            "title": "Lego - Star Wars 75434 K-2SO Sentry Droid - Construction blocks - Q1823z",
+            "declared_condition": "new",
+            "item_price": 93.31,
+            "shipping": 0.0,
+            "listed_total": 93.31
+          },
+          {
+            "item_id": "v1|168207977238|0",
+            "seller": "planszowki",
+            "image": "https://i.ebayimg.com/images/g/gfkAAeSwMotpqbG0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168207977238",
+            "title": "Lego\u00ae Star Wars 75434 K-2So Guardian Droid Genuine Quality Best",
+            "declared_condition": "new",
+            "item_price": 95.99,
+            "shipping": 0.0,
+            "listed_total": 95.99
+          },
+          {
+            "item_id": "v1|960175565955|0",
+            "seller": "nexgen00",
+            "image": "https://i.ebayimg.com/images/g/0E8AAeSwF3Bq8hjq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960175565955",
+            "title": "LEGO Star Wars K-2SO Security Droid 75434 Multicolor",
+            "declared_condition": "new",
+            "item_price": 114.69,
+            "shipping": 0.0,
+            "listed_total": 114.69
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 16
+        },
+        "query_aliases": [
+          "LEGO Star Wars K-2SO Security Droid 75434 - With Code - Free C&C"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 75434",
+        "observed_at": "2026-11-28T04:14:02+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 16,
+        "seller_count": 16,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 3,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 58.84,
+        "competition_high": 114.69,
+        "estimated_resale": 57.07,
+        "estimated_range": [
+          52.95,
+          58.84
+        ],
+        "suggested_listing": 58.83,
+        "quick_sale_model": 52.95,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          79.99,
+          91.76
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 2,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 49.5,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -7.61,
+        "max_landed_buy": 29.92,
+        "max_item_buy": null,
+        "delivery_headroom": -19.58,
+        "fees": 8.18,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 1.71,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 51.36,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 31.89,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206711351357|0",
+            "seller": "kenadams1177",
+            "image": "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206711351357",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            "declared_condition": "new",
+            "item_price": 54.78,
+            "shipping": 4.06,
+            "listed_total": 58.84,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|406260853741|0",
+            "seller": "totespilates",
+            "image": "https://i.ebayimg.com/images/g/YPkAAeSwu9xo3-t2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406260853741",
+            "title": "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|840164399360|0",
+            "seller": "vilpi-17",
+            "image": "https://i.ebayimg.com/images/g/mwIAAeSwUERqrQNI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840164399360",
+            "title": "LEGO Star Wars: Andor K-2SO Security Droid 75434",
+            "declared_condition": "new",
+            "item_price": 59.99,
+            "shipping": 0.0,
+            "listed_total": 59.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|377657019579|0",
+            "seller": "wwsm2006",
+            "image": "https://i.ebayimg.com/images/g/UhMAAeSwxaNq~ghe/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 79.99,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377657019579",
+            "title": "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            "declared_condition": "new",
+            "item_price": 69.98,
+            "shipping": 0.0,
+            "listed_total": 69.98,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227532670882|0",
+            "seller": "2rd_chance",
+            "image": "https://i.ebayimg.com/images/g/BKcAAeSwZydqomSx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227532670882",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            "declared_condition": "new",
+            "item_price": 68.0,
+            "shipping": 3.75,
+            "listed_total": 71.75,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|298346919810|0",
+            "seller": "jofos_2057",
+            "image": "https://i.ebayimg.com/images/g/NrEAAeSwPXpqEhnQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346919810",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            "declared_condition": "new",
+            "item_price": 70.38,
+            "shipping": 3.38,
+            "listed_total": 73.76,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267339607998|0",
+            "seller": "zatugames",
+            "image": "https://i.ebayimg.com/images/g/UIoAAeSwzNhogJNY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267339607998",
+            "title": "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            "declared_condition": "new",
+            "item_price": 74.45,
+            "shipping": 0.0,
+            "listed_total": 74.45,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206200149335|0",
+            "seller": "aclark_1",
+            "image": "https://i.ebayimg.com/images/g/qzwAAeSwRo9pNE2m/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206200149335",
+            "title": "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            "declared_condition": "new",
+            "item_price": 75.53,
+            "shipping": 3.38,
+            "listed_total": 78.91,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|157361738693|0",
+            "seller": "iguazu",
+            "image": "https://i.ebayimg.com/images/g/RZkAAeSwo1Bo5YdF/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157361738693",
+            "title": "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            "declared_condition": "new",
+            "item_price": 74.54,
+            "shipping": 5.15,
+            "listed_total": 79.69,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267693493553|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/lmAAAeSwCKtqJwT~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267693493553",
+            "title": "LEGO Star Wars 75434 K-2SO Security Droid Figure - Model Kit incl. an Informa...",
+            "declared_condition": "new",
+            "item_price": 79.99,
+            "shipping": 0.0,
+            "listed_total": 79.99,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Star Wars K-2SO Security Droid 75434 - With Code - Free C&C",
+        "query": "LEGO 75434",
+        "kind": "active_ask",
+        "listing": 58.83,
+        "observed_at": "2026-11-28T04:14:02+00:00",
+        "valid_until": "2026-11-28T10:14:02+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/206711351357",
+          "https://www.ebay.co.uk/itm/406260853741",
+          "https://www.ebay.co.uk/itm/840164399360",
+          "https://www.ebay.co.uk/itm/377657019579",
+          "https://www.ebay.co.uk/itm/227532670882",
+          "https://www.ebay.co.uk/itm/298346919810",
+          "https://www.ebay.co.uk/itm/267339607998",
+          "https://www.ebay.co.uk/itm/206200149335",
+          "https://www.ebay.co.uk/itm/157361738693",
+          "https://www.ebay.co.uk/itm/267693493553"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/206711351357",
+            "LEGO Star Wars K-2SO Security Droid Building Kit 75434 New Sealed",
+            58.84,
+            4.06,
+            54.78,
+            "kenadams1177"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/406260853741",
+            "LEGO Star Wars K-2SO Security Droid Building Kit (75434) NEW AND SEALED - \ud83d\ude9aP&P",
+            59.99,
+            0.0,
+            59.99,
+            "totespilates"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/840164399360",
+            "LEGO Star Wars: Andor K-2SO Security Droid 75434",
+            59.99,
+            0.0,
+            59.99,
+            "vilpi-17"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/377657019579",
+            "LEGO Star Wars K-2SO Security Droid Andor Display Set 75434",
+            69.98,
+            0.0,
+            69.98,
+            "wwsm2006"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227532670882",
+            "LEGO Star Wars 75434 K-2SO Security Droid Figure - Posable Play & Display Buildi",
+            71.75,
+            3.75,
+            68.0,
+            "2rd_chance"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/298346919810",
+            "Lego Star Wars 75434 K-2SO Security Droid - Brand New & Sealed",
+            73.76,
+            3.38,
+            70.38,
+            "jofos_2057"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267339607998",
+            "Lego Star Wars 75434 K-2SO Security Droid  - Brand New",
+            74.45,
+            0.0,
+            74.45,
+            "zatugames"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206200149335",
+            "Lego Star Wars : K-2SO Security Droid (75434) BRAND NEW & SEALED Set",
+            78.91,
+            3.38,
+            75.53,
+            "aclark_1"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/157361738693",
+            "LEGO Star Wars Rogue One 75434 K-2SO Security Droid NEW & SEALED  845 pieces",
+            79.69,
+            5.15,
+            74.54,
+            "iguazu"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267693493553",
+            "LEGO Star Wars 75434 K-2SO Security Droid Figure - Model Kit incl. an Informa...",
+            79.99,
+            0.0,
+            79.99,
+            "toyemporium_org_uk"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Creator 3in1 Iconic Pirate Ship 31387",
       "url": "https://www.hotukdeals.com/deals/lego-creator-3in1-iconic-pirate-ship-31387-5050429",
       "policy_key": "4652a279688c36a7176fe466",
@@ -14271,8 +15253,8 @@
       "item_price": 64.8,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MdyNA/5050429_1/re/300x300/qt/55/5050429_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MdyNA/5050429_1/re/300x300/qt/55/5050429_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MdyNA/5050429_1/re/150x150/qt/55/5050429_1.jpg"
@@ -15103,8 +16085,8 @@
       "item_price": 83.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/150x150/qt/55/5050106_1.jpg"
@@ -15922,8 +16904,8 @@
       "item_price": 93.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/150x150/qt/55/5047773_1.jpg",
@@ -17676,7 +18658,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-28T03:37:50+00:00",
+        "canonicalized_at": "2026-11-28T04:11:34+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Call of the Elder Gods: Miskatonic Edition (PS5)"
@@ -17898,7 +18880,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-28T03:37:50+00:00",
+        "canonicalized_at": "2026-11-28T04:11:34+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "LEGO Batman: Legacy of The Dark Knight Standard Edition (PS5)"
@@ -18119,7 +19101,7 @@
         "rejected": {
           "identity_or_condition": 7
         },
-        "canonicalized_at": "2026-11-28T03:37:50+00:00",
+        "canonicalized_at": "2026-11-28T04:11:34+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Assassin's Creed Black Flag Resynced (Xbox Series X)"
@@ -18415,7 +19397,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|307299298027|0",
-          "observed_at": "2026-11-28T03:37:50+00:00",
+          "observed_at": "2026-11-28T04:11:34+00:00",
           "status": "conflict",
           "reasons": [
             "model aspect mismatch",
@@ -18859,6 +19841,48 @@
       }
     },
     {
+      "title": "Lego Star Wars (6178pb051) Modified 6x12 Tile For 75428 Battle Droid with STAP",
+      "url": "https://www.ebay.co.uk/itm/358625483820",
+      "policy_key": "c15fda01ff69d076ca16b93e",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 9.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/150x150/qt/55/5050106_1.jpg",
+        "https://i.ebayimg.com/images/g/b7YAAeSwqExqHXsQ/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-battle-droid-with-stap-75428-5050106",
+      "landed_cost": 9.99,
+      "breakeven_sell": 18.88,
+      "sell_for_minimum_profit": 28.45,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-28T04:14:01+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Star+Wars+%286178pb051%29+Modified+6x12+Tile+For+75428+Battle+Droid+with+STAP&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Sony WH-CH530 Wireless Bluetooth Headphones - EE One Up Exclusive",
       "url": "https://www.hotukdeals.com/deals/sony-wh-ch530-wireless-bluetooth-headphones-ee-one-up-exclusive-5049193",
       "policy_key": "ae38e81232c0bfacb2a81c3d",
@@ -19087,8 +20111,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/150x150/qt/55/5049642_1.jpg",
@@ -19131,8 +20155,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/150x150/qt/55/5050162_1.jpg"
@@ -19173,8 +20197,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/150x150/qt/55/5050162_1.jpg",
@@ -19240,50 +20264,6 @@
       "priority": 10,
       "first_seen": "2026-11-24T13:04:34+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Harry+Potter+Flying+Ford+Anglia+76424+Sold+%26+Shipped+By+Amazon+EU&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Creator 3in1 Fierce Dinosaur Figure Building Toy 31379 - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-creater-3-in-1-fierce-dinosaur-5043263",
-      "policy_key": "5b6da64c0694b2594bb098cf",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 10.0,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/300x300/qt/55/5043263_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/ZTObu/5043263_1/re/150x150/qt/55/5043263_1.jpg",
-        "https://i.ebayimg.com/images/g/LngAAeSwjSppzpD4/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/orgAAeSwHTZpe9TF/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 18.89,
-      "sell_for_minimum_profit": 28.46,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-22T21:19:01+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Creator+3in1+Fierce+Dinosaur+Figure+Building+Toy+31379&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -19388,8 +20368,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/150x150/qt/55/5049586_1.jpg",
@@ -19432,8 +20412,8 @@
       "item_price": 11.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/300x300/qt/55/5049189_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/300x300/qt/55/5049189_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/150x150/qt/55/5049189_1.jpg"
@@ -19562,8 +20542,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg",
@@ -19650,8 +20630,8 @@
       "item_price": 13.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/300x300/qt/55/5049525_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/300x300/qt/55/5049525_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/150x150/qt/55/5049525_1.jpg",
@@ -19779,8 +20759,8 @@
       "item_price": 14.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Tb2EV/5050309_1/re/300x300/qt/55/5050309_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Tb2EV/5050309_1/re/300x300/qt/55/5050309_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Tb2EV/5050309_1/re/150x150/qt/55/5050309_1.jpg"
@@ -19907,8 +20887,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/150x150/qt/55/5050420_1.jpg",
@@ -19951,8 +20931,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg"
@@ -19993,8 +20973,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
@@ -20081,8 +21061,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
@@ -20164,8 +21144,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/300x300/qt/55/5048649_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/300x300/qt/55/5048649_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/150x150/qt/55/5048649_1.jpg",
@@ -20208,8 +21188,8 @@
       "item_price": 16.75,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg",
@@ -20384,8 +21364,8 @@
       "item_price": 20.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/150x150/qt/55/5047792_1.jpg"
@@ -20683,8 +21663,8 @@
       "item_price": 26.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/150x150/qt/55/5049821_1.jpg",
@@ -20771,8 +21751,8 @@
       "item_price": 27.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/150x150/qt/55/5049252_1.jpg"
@@ -20813,8 +21793,8 @@
       "item_price": 27.73,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/150x150/qt/55/5049819_1.jpg",
@@ -20887,6 +21867,81 @@
       }
     },
     {
+      "title": "Playstation Astro Bot, PS5, Amazon EU",
+      "url": "https://www.hotukdeals.com/deals/playstation-astro-bot-ps5-amazon-eu-5050486",
+      "policy_key": "bca9e6843f5039930d461dd3",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 28.67,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/RKmzR/5050486_1/re/150x150/qt/55/5050486_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/playstation-astro-bot-ps5-amazon-eu-5050486",
+      "landed_cost": null,
+      "breakeven_sell": 38.2,
+      "sell_for_minimum_profit": 51.73,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "Profit too small",
+        "Return too low",
+        "Sell speed not proven",
+        "Sell-through not proven",
+        "No verified exit price",
+        "No reviewed exact-variant sold evidence",
+        "Inbound delivery unknown",
+        "Availability not confirmed",
+        "Cash exit quote missing/stale",
+        "Velocity evidence missing/stale",
+        "Exact retailer offer identity/price not reviewed"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-28T04:14:01+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Playstation+Astro+Bot%2C+PS5%2C+Amazon+EU&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "playstation astro bot amazon eu ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T04:14:02+00:00",
+        "date": "2026-11-28",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {},
+        "query_aliases": [
+          "Playstation Astro Bot, PS5, Amazon EU"
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Pok\u00e9mon Eevee 72151 - Used: Like New",
       "url": "https://www.hotukdeals.com/deals/lego-pokemon-eevee-72151-5048487",
       "policy_key": "1f772f035294fc348229cb84",
@@ -20901,8 +21956,8 @@
       "item_price": 28.77,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/300x300/qt/55/5048487_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/300x300/qt/55/5048487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/150x150/qt/55/5048487_1.jpg"
@@ -21009,8 +22064,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/04xmc/5047544_1/re/300x300/qt/55/5047544_1.jpg",
@@ -21053,8 +22108,8 @@
       "item_price": 29.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/150x150/qt/55/5050238_1.jpg",
@@ -21141,8 +22196,8 @@
       "item_price": 30.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/150x150/qt/55/5050238_1.jpg"
@@ -21169,6 +22224,73 @@
       }
     },
     {
+      "title": "Jimmy Choo Blossom Eau de Parfum 100ml",
+      "url": "https://www.hotukdeals.com/deals/jimmy-choo-blossom-eau-de-parfum-100ml-5050485",
+      "policy_key": "148c9b1331519f4cb243d41d",
+      "category": "fragrance",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Joybuy",
+      "item_price": 31.73,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/XL6vf/5050485_1/re/150x150/qt/55/5050485_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/jimmy-choo-blossom-eau-de-parfum-100ml-5050485",
+      "landed_cost": null,
+      "breakeven_sell": 43.66,
+      "sell_for_minimum_profit": 58.88,
+      "transport_scenario": {
+        "profile": {
+          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
+          "checked_at": "2026-11-07",
+          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
+          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
+          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
+          "ml": 100,
+          "postage": 3.75,
+          "status": "conditional_tariff_scenario",
+          "actual_parcel_verified": false,
+          "scope": "UK domestic only; no international service",
+          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
+          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
+          "packaging_assumption": 0.5,
+          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
+          "reason": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval."
+        },
+        "status": "conditional_tariff_scenario",
+        "breakeven": 43.66,
+        "required_resale": 58.88,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": null,
+        "inbound_known": false,
+        "cost": 31.73,
+        "basis": "CONDITIONAL scenario; published online tariff + configured packaging allowance, not actual verified parcel costs; inbound delivery UNKNOWN: required prices are minimums and profit is an upper bound"
+      },
+      "outbound_transport_status": "100ml fits the published bottle-volume limit ONLY. Packaging, formulation/classification, weight, dimensions, destination and counter acceptance remain unverified; tariff scenario is NOT shipping approval.",
+      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-28T04:14:01+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Jimmy+Choo+Blossom+Eau+de+Parfum+100ml&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "Lego Super Mario Game Boy Model Kit for Adults 72046 - Using Code - Free Click & Collect",
       "url": "https://www.hotukdeals.com/deals/game-boy-model-kit-for-adults-72046-using-code-free-click-collect-5050180",
       "policy_key": "5166420111ad0fc7db3aabd6",
@@ -21183,8 +22305,8 @@
       "item_price": 32.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg"
@@ -21352,8 +22474,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -21374,6 +22496,50 @@
       "first_seen": "2026-11-23T07:29:17+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Icons+The+Lord+of+the+Rings%3A+Sauron%27s+Helmet+11373+%28Used+%2F+Like+New%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Disney Disney and Pixar \u2018Up\u2019 House Building Toy 43217",
+      "url": "https://www.hotukdeals.com/deals/lego-disney-disney-and-pixar-up-house-building-toy-43217-5050277",
+      "policy_key": "dcdcbd6b9c2c4ad27742c425",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 34.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/150x150/qt/55/5050277_1.jpg",
+        "https://i.ebayimg.com/images/g/vvkAAeSwFfJqhD~s/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/Q8wAAeSw9LxrAdgc/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-disney-disney-and-pixar-up-house-building-toy-43217-5050277",
+      "landed_cost": null,
+      "breakeven_sell": 48.81,
+      "sell_for_minimum_profit": 65.58,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T20:44:22+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Disney+Disney+and+Pixar+%E2%80%98Up%E2%80%99+House+Building+Toy+43217&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -21563,8 +22729,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg",
@@ -21607,8 +22773,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg",
@@ -21651,8 +22817,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg",
@@ -21737,8 +22903,8 @@
       "item_price": 36.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/300x300/qt/55/5050075_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/300x300/qt/55/5050075_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/150x150/qt/55/5050075_1.jpg"
@@ -21779,8 +22945,8 @@
       "item_price": 36.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/300x300/qt/55/5049459_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/300x300/qt/55/5049459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/150x150/qt/55/5049459_1.jpg"
@@ -21960,8 +23126,8 @@
       "item_price": 39.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/s4Uc1/5049545_1/re/300x300/qt/55/5049545_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/s4Uc1/5049545_1/re/300x300/qt/55/5049545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lV0Np/5046611_1/re/300x300/qt/55/5046611_1.jpg",
@@ -22048,8 +23214,8 @@
       "item_price": 39.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/150x150/qt/55/5050267_1.jpg"
@@ -22090,8 +23256,8 @@
       "item_price": 39.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/150x150/qt/55/5050267_1.jpg",
@@ -22178,8 +23344,8 @@
       "item_price": 40.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/150x150/qt/55/5048977_1.jpg",
@@ -22222,8 +23388,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
@@ -22310,8 +23476,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -22610,8 +23776,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -22652,8 +23818,8 @@
       "item_price": 49.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/300x300/qt/55/5049057_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/300x300/qt/55/5049057_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/150x150/qt/55/5049057_1.jpg",
@@ -22675,50 +23841,6 @@
       "priority": 10,
       "first_seen": "2026-11-27T06:32:00+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Downtown+Tram+and+Station+60423&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Star Wars K-2SO Security Droid 75434 - With Code - Free C&C",
-      "url": "https://www.hotukdeals.com/deals/lego-star-wars-k-2so-security-droid-75434-with-code-free-cc-5049023",
-      "policy_key": "a24f8f5b7a2b979dbe74ebd1",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 49.5,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/150x150/qt/55/5049023_1.jpg",
-        "https://i.ebayimg.com/images/g/rEEAAeSw2RFq8DWR/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/mwIAAeSwUERqrQNI/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-star-wars-k-2so-security-droid-75434-with-code-free-cc-5049023",
-      "landed_cost": null,
-      "breakeven_sell": 66.2,
-      "sell_for_minimum_profit": 89.91,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-27T05:24:53+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+K-2SO+Security+Droid+75434&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -22870,8 +23992,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/150x150/qt/55/5049914_1.jpg",
@@ -22914,8 +24036,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
@@ -22958,8 +24080,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/150x150/qt/55/5049914_1.jpg"
@@ -23218,8 +24340,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-28T03:59:48.103938+00:00",
-      "image_checked_at": "2026-11-28T03:39:48.103938+00:00",
+      "image_verified_until": "2026-11-28T04:34:07.586385+00:00",
+      "image_checked_at": "2026-11-28T04:14:07.586385+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -23299,8 +24421,8 @@
       "item_price": 89.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hSRTR/5050272_1/re/300x300/qt/55/5050272_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hSRTR/5050272_1/re/300x300/qt/55/5050272_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hSRTR/5050272_1/re/150x150/qt/55/5050272_1.jpg"
@@ -24355,8 +25477,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QPn1Y/5050331_1/re/300x300/qt/55/5050331_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QPn1Y/5050331_1/re/300x300/qt/55/5050331_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QPn1Y/5050331_1/re/150x150/qt/55/5050331_1.jpg"
@@ -24728,8 +25850,8 @@
       "item_price": 9.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/24JHL/5050425_1/re/300x300/qt/55/5050425_1.jpg",
-      "image_verified_until": "2026-11-28T03:58:02.273039+00:00",
-      "image_checked_at": "2026-11-28T03:38:02.273039+00:00",
+      "image_verified_until": "2026-11-28T04:31:47.613551+00:00",
+      "image_checked_at": "2026-11-28T04:11:47.613551+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/24JHL/5050425_1/re/300x300/qt/55/5050425_1.jpg",
         "https://images.hotukdeals.com/threads/raw/24JHL/5050425_1/re/150x150/qt/55/5050425_1.jpg"
@@ -25273,70 +26395,6 @@
       "priority": 0,
       "first_seen": "2026-11-26T21:09:42+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=The+Red+Zone%3A+40-80%25+Off+Clearance+e.g+Merino+Gloves&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Sol de Janeiro Bum Bum Jet Set, Cream & Fragrance gift set / Beija Flor / Bom Dia / Bum Bum 62 / Delicia Drench - with code",
-      "url": "https://www.hotukdeals.com/deals/sol-de-janeiro-bum-bum-jet-set-beija-flor-bom-dia-bum-bum-62-delicia-drench-with-code-5049173",
-      "policy_key": "b3da9da6b770df83dcdd9625",
-      "category": "fragrance",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "LOOKFANTASTIC",
-      "item_price": 13.5,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/fC2CT/5049173_1/re/150x150/qt/55/5049173_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/sol-de-janeiro-bum-bum-jet-set-beija-flor-bom-dia-bum-bum-62-delicia-drench-with-code-5049173",
-      "landed_cost": null,
-      "breakeven_sell": null,
-      "sell_for_minimum_profit": null,
-      "transport_scenario": {
-        "profile": {
-          "service": "Royal Mail Tracked 48 online \u2014 UK small parcel",
-          "checked_at": "2026-11-07",
-          "rate_source": "https://www.royalmail.com/sending/uk/tracked-48",
-          "rules_source": "https://www.postoffice.co.uk/mail/what-can-i-send",
-          "royal_mail_rules_source": "https://personal.help.royalmail.com/app/answers/detail/a_id/96",
-          "ml": null,
-          "postage": null,
-          "status": "unvalidated",
-          "actual_parcel_verified": false,
-          "scope": "UK domestic only; no international service",
-          "requirements": "One bottle in original retail packaging, cushioned strong outer with leak containment; ID8000 label and sender return address; present at Post Office counter \u2014 NOT collection or postbox. Confirm packed weight <=2kg and dimensions <=45 x 35 x 16cm. Published rule allows at most 4 items <=150ml each; this scenario assumes ONE.",
-          "liability": "Published cover up to \u00a375 or item value, whichever lower; exclusions/claim conditions apply. Not proof perfume breakage, leakage or full resale value is insured.",
-          "packaging_assumption": 0.5,
-          "packaging_basis": "Configured allowance only, not a verified protective-packaging quote",
-          "reason": "Bottle volume not uniquely stated: no applicable postage scenario"
-        },
-        "status": "unvalidated",
-        "breakeven": null,
-        "required_resale": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": null
-      },
-      "outbound_transport_status": "Bottle volume not uniquely stated: no applicable postage scenario",
-      "cost_basis": "Conditional published Royal Mail tariff scenario, not actual verified parcel costs",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 0,
-      "first_seen": "2026-11-27T09:21:47+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Sol+de+Janeiro+Bum+Bum+Jet+Set%2C+Cream+%26+Fragrance+gift+set+%2F+Beija+Flor+%2F+Bom+Dia+%2F+Bum+Bum+62+%2F+Delicia+Drench&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -31319,36 +32377,7 @@
       "priority": 0,
       "first_seen": "2026-11-27T21:54:02+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PlayStation+PS5+DualSense+Wireless+Controller&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "playstation dualsense wireless controller white ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-27T21:54:03+00:00",
-        "date": "2026-11-27",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 50
-        },
-        "query_aliases": [
-          "PlayStation PS5 DualSense Wireless Controller - White"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -32169,7 +33198,7 @@
       "policy_key": "cb22dd7d7a2378aefd68844a",
       "category": "gaming",
       "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
