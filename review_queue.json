@@ -16,8 +16,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/300x300/qt/55/5044576_1.jpg",
         "https://images.hotukdeals.com/threads/raw/T6EHb/5044576_1/re/150x150/qt/55/5044576_1.jpg",
@@ -1369,447 +1369,6 @@
       }
     },
     {
-      "title": "LEGO City Police Prisoner Transport Van Toy 60479 - With Code",
-      "url": "https://www.hotukdeals.com/deals/lego-city-police-prisoner-transport-van-toy-60479-ps1079-5047304",
-      "policy_key": "373ca443d02d89ebd50204ad",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 10.79,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/300x300/qt/55/5047304_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/300x300/qt/55/5047304_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/150x150/qt/55/5047304_1.jpg",
-        "https://i.ebayimg.com/images/g/tZIAAeSwvnpqdeBm/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/kogAAeSwIuxq~cuq/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/300x300/qt/55/5047304_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-city-police-prisoner-transport-van-toy-60479-ps1079-5047304",
-      "landed_cost": null,
-      "breakeven_sell": 19.83,
-      "sell_for_minimum_profit": 29.41,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-25T23:39:20+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Police+Prisoner+Transport+Van+Toy+60479&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 60479",
-        "category": "lego",
-        "name_terms": [
-          "city",
-          "police",
-          "prisoner",
-          "transport",
-          "van"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-28T12:22:54+00:00",
-        "date": "2026-11-28",
-        "sample_count": 5,
-        "listed_total_low": 11.99,
-        "listed_total_p25": 12.0,
-        "listed_total_median": 13.0,
-        "listed_total_p75": 13.42,
-        "listed_total_high": 13.42,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|377401453960|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/tZIAAeSwvnpqdeBm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377401453960",
-            "title": "LEGO City:Police Prisoner Transport Van (60479)6+ New&sealed 198pcs",
-            "declared_condition": "new",
-            "item_price": 11.99,
-            "shipping": 0.0,
-            "listed_total": 11.99
-          },
-          {
-            "item_id": "v1|128203113274|0",
-            "seller": "ckkeyclearance",
-            "image": "https://i.ebayimg.com/images/g/kogAAeSwIuxq~cuq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128203113274",
-            "title": "LEGO City Police Prisoner Transport Van 60479",
-            "declared_condition": "new",
-            "item_price": 12.0,
-            "shipping": 0.0,
-            "listed_total": 12.0
-          },
-          {
-            "item_id": "v1|940020573382|0",
-            "seller": "supercrazykids",
-            "image": "https://i.ebayimg.com/images/g/qbsAAeSwi0hq03y-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940020573382",
-            "title": "Lego City Police Prisoner Transport Van 60479 Xmas Gift Ideas",
-            "declared_condition": "new",
-            "item_price": 13.0,
-            "shipping": 0.0,
-            "listed_total": 13.0
-          },
-          {
-            "item_id": "v1|820380208858|0",
-            "seller": "dre._2861",
-            "image": "https://i.ebayimg.com/images/g/oh0AAeSws0BrAX8B/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820380208858",
-            "title": "Lego City Police Prisoner Transport van 60479",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.62,
-            "listed_total": 13.42
-          },
-          {
-            "item_id": "v1|407388223110|0",
-            "seller": "loustoyshack",
-            "image": "https://i.ebayimg.com/images/g/tycAAeSwhk9rBuXZ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407388223110",
-            "title": "LEGO City Police Prisoner Transport Van 60479",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.62,
-            "listed_total": 13.42
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 45
-        },
-        "query_aliases": [
-          "LEGO City Police Prisoner Transport Van Toy 60479 - With Code"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 60479",
-        "observed_at": "2026-11-28T12:22:54+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 5,
-        "seller_count": 5,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 3,
-        "confidence": "moderate",
-        "wide_spread": false,
-        "competition_low": 11.99,
-        "competition_high": 13.42,
-        "estimated_resale": 11.63,
-        "estimated_range": [
-          10.79,
-          11.99
-        ],
-        "suggested_listing": 11.98,
-        "quick_sale_model": 10.79,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 10.79,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -6.85,
-        "max_landed_buy": 0,
-        "max_item_buy": null,
-        "delivery_headroom": -10.79,
-        "fees": 2.05,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 0.35,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 10.46,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 0,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|377401453960|0",
-            "seller": "edgeb_14",
-            "image": "https://i.ebayimg.com/images/g/tZIAAeSwvnpqdeBm/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/377401453960",
-            "title": "LEGO City:Police Prisoner Transport Van (60479)6+ New&sealed 198pcs",
-            "declared_condition": "new",
-            "item_price": 11.99,
-            "shipping": 0.0,
-            "listed_total": 11.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|128203113274|0",
-            "seller": "ckkeyclearance",
-            "image": "https://i.ebayimg.com/images/g/kogAAeSwIuxq~cuq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/128203113274",
-            "title": "LEGO City Police Prisoner Transport Van 60479",
-            "declared_condition": "new",
-            "item_price": 12.0,
-            "shipping": 0.0,
-            "listed_total": 12.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|940020573382|0",
-            "seller": "supercrazykids",
-            "image": "https://i.ebayimg.com/images/g/qbsAAeSwi0hq03y-/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/940020573382",
-            "title": "Lego City Police Prisoner Transport Van 60479 Xmas Gift Ideas",
-            "declared_condition": "new",
-            "item_price": 13.0,
-            "shipping": 0.0,
-            "listed_total": 13.0,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|820380208858|0",
-            "seller": "dre._2861",
-            "image": "https://i.ebayimg.com/images/g/oh0AAeSws0BrAX8B/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/820380208858",
-            "title": "Lego City Police Prisoner Transport van 60479",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.62,
-            "listed_total": 13.42,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|407388223110|0",
-            "seller": "loustoyshack",
-            "image": "https://i.ebayimg.com/images/g/tycAAeSwhk9rBuXZ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407388223110",
-            "title": "LEGO City Police Prisoner Transport Van 60479",
-            "declared_condition": "new",
-            "item_price": 10.8,
-            "shipping": 2.62,
-            "listed_total": 13.42,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": true,
-        "title": "LEGO City Police Prisoner Transport Van Toy 60479 - With Code",
-        "query": "LEGO 60479",
-        "kind": "active_ask",
-        "listing": 11.98,
-        "observed_at": "2026-11-28T12:22:54+00:00",
-        "valid_until": "2026-11-28T18:22:54+00:00",
-        "sources": [
-          "https://www.ebay.co.uk/itm/377401453960",
-          "https://www.ebay.co.uk/itm/128203113274",
-          "https://www.ebay.co.uk/itm/940020573382",
-          "https://www.ebay.co.uk/itm/820380208858",
-          "https://www.ebay.co.uk/itm/407388223110"
-        ],
-        "comparators": [
-          [
-            "https://www.ebay.co.uk/itm/377401453960",
-            "LEGO City:Police Prisoner Transport Van (60479)6+ New&sealed 198pcs",
-            11.99,
-            0.0,
-            11.99,
-            "edgeb_14"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/128203113274",
-            "LEGO City Police Prisoner Transport Van 60479",
-            12.0,
-            0.0,
-            12.0,
-            "ckkeyclearance"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/940020573382",
-            "Lego City Police Prisoner Transport Van 60479 Xmas Gift Ideas",
-            13.0,
-            0.0,
-            13.0,
-            "supercrazykids"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/820380208858",
-            "Lego City Police Prisoner Transport van 60479",
-            13.42,
-            2.62,
-            10.8,
-            "dre._2861"
-          ],
-          [
-            "https://www.ebay.co.uk/itm/407388223110",
-            "LEGO City Police Prisoner Transport Van 60479",
-            13.42,
-            2.62,
-            10.8,
-            "loustoyshack"
-          ]
-        ],
-        "category": "lego"
-      }
-    },
-    {
       "title": "LEGO Speed Champions Williams Racing FW46 F1 77249 \u00a313.49 with Code",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-williams-racing-fw46-f1-77249-ps1349-with-save10-5047306",
       "policy_key": "61f5d71f78a0616fbd4cf465",
@@ -1824,8 +1383,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1emc6/5047306_1/re/300x300/qt/55/5047306_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1emc6/5047306_1/re/300x300/qt/55/5047306_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1emc6/5047306_1/re/150x150/qt/55/5047306_1.jpg",
@@ -3068,6 +2627,203 @@
       }
     },
     {
+      "title": "World of Goo 2 (Nintendo Switch Game)",
+      "url": "https://www.hotukdeals.com/deals/world-of-goo-2-nintendo-switch-5051075",
+      "policy_key": "4f743821fa3efbbe98b4a05b",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 14.9,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/tjvBG/5051075_1/re/150x150/qt/55/5051075_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/world-of-goo-2-nintendo-switch-5051075",
+      "landed_cost": null,
+      "breakeven_sell": 21.94,
+      "sell_for_minimum_profit": 31.38,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-28T18:38:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=World+of+Goo+2+%28Nintendo+Switch+Game%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "small_sample",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "world of goo 2 nintendo switch",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T18:38:24+00:00",
+        "date": "2026-11-28",
+        "sample_count": 1,
+        "listed_total_low": 22.51,
+        "listed_total_p25": 22.51,
+        "listed_total_median": 22.51,
+        "listed_total_p75": 22.51,
+        "listed_total_high": 22.51,
+        "status": "small_sample",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|820329170287|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/VxAAAeSwcPtq77Su/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 30.46,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820329170287",
+            "title": "World of Goo 2 (Nintendo Switch) (Nintendo Switch)",
+            "declared_condition": "new",
+            "item_price": 22.51,
+            "shipping": 0.0,
+            "listed_total": 22.51
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 3
+        },
+        "query_aliases": [
+          "World of Goo 2 (Nintendo Switch Game)"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "gaming",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "world of goo 2 nintendo switch",
+        "observed_at": "2026-11-28T18:38:24+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 1,
+        "seller_count": 1,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 1,
+        "confidence": "low",
+        "wide_spread": false,
+        "competition_low": 22.51,
+        "competition_high": 22.51,
+        "estimated_resale": 21.83,
+        "estimated_range": [
+          20.25,
+          22.51
+        ],
+        "suggested_listing": 22.5,
+        "quick_sale_model": 20.25,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": [
+          30.46,
+          30.46
+        ],
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 1,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 14.9,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -0.09,
+        "max_landed_buy": 6.81,
+        "max_item_buy": null,
+        "delivery_headroom": -8.09,
+        "fees": 3.17,
+        "outbound_postage": 2.7,
+        "packaging": 0.5,
+        "returns_allowance": 0.65,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 19.64,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 4.81,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|820329170287|0",
+            "seller": "rarewaves-outlet",
+            "image": "https://i.ebayimg.com/images/g/VxAAAeSwcPtq77Su/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "advertised_discount",
+            "advertised_original_total": 30.46,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820329170287",
+            "title": "World of Goo 2 (Nintendo Switch) (Nintendo Switch)",
+            "declared_condition": "new",
+            "item_price": 22.51,
+            "shipping": 0.0,
+            "listed_total": 22.51,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "fewer_than_three_exact_independent_comparators"
+      }
+    },
+    {
       "title": "LEGO Speed Champions F1 ACADEMY LEGO Race Car 77258",
       "url": "https://www.hotukdeals.com/deals/lego-speed-champions-f1-academy-lego-race-car-77258-5044812",
       "policy_key": "3a2604a1e771cf2091177357",
@@ -3082,8 +2838,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/300x300/qt/55/5044812_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9u7Bv/5044812_1/re/150x150/qt/55/5044812_1.jpg",
@@ -4420,8 +4176,8 @@
       "item_price": 17.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BPVbB/5050930_1/re/300x300/qt/55/5050930_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BPVbB/5050930_1/re/300x300/qt/55/5050930_1.jpg",
         "https://images.hotukdeals.com/threads/raw/BPVbB/5050930_1/re/150x150/qt/55/5050930_1.jpg"
@@ -5588,8 +5344,8 @@
       "item_price": 20.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/150x150/qt/55/5047792_1.jpg"
@@ -6559,8 +6315,8 @@
       "item_price": 22.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/otO9k/5047628_1/re/300x300/qt/55/5047628_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/otO9k/5047628_1/re/300x300/qt/55/5047628_1.jpg",
         "https://images.hotukdeals.com/threads/raw/otO9k/5047628_1/re/150x150/qt/55/5047628_1.jpg",
@@ -7153,6 +6909,1419 @@
       }
     },
     {
+      "title": "LEGO Minecraft The Creeper Action Figure Building Set 21276 with code",
+      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-creeper-action-figure-building-set-21276-5048043",
+      "policy_key": "02e6e9c12f09e2459d4a895a",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Argos",
+      "item_price": 22.5,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/300x300/qt/55/5048043_1.jpg",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/300x300/qt/55/5048043_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/150x150/qt/55/5048043_1.jpg",
+        "https://i.ebayimg.com/images/g/cXoAAeSwMixq7aUQ/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/wl0AAeSwMc9q42AN/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/300x300/qt/55/5048043_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-minecraft-the-creeper-action-figure-building-set-21276-5048043",
+      "landed_cost": null,
+      "breakeven_sell": 33.86,
+      "sell_for_minimum_profit": 44.64,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-26T12:47:51+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Creeper+Action+Figure+Building+Set+21276&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 21276",
+        "category": "lego",
+        "name_terms": [
+          "action",
+          "creeper",
+          "figure",
+          "minecraft"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T18:38:24+00:00",
+        "date": "2026-11-28",
+        "sample_count": 41,
+        "listed_total_low": 27.18,
+        "listed_total_p25": 30.93,
+        "listed_total_median": 34.86,
+        "listed_total_p75": 39.97,
+        "listed_total_high": 48.35,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|227065851089|0",
+            "seller": "yonli_79",
+            "image": "https://i.ebayimg.com/images/g/cXoAAeSwMixq7aUQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227065851089",
+            "title": "LEGO Minecraft The Creeper 21276 ,New",
+            "declared_condition": "new",
+            "item_price": 23.8,
+            "shipping": 3.38,
+            "listed_total": 27.18
+          },
+          {
+            "item_id": "v1|147556950725|0",
+            "seller": "precious_toys",
+            "image": "https://i.ebayimg.com/images/g/sYkAAeSwFG1qEX8p/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147556950725",
+            "title": "Lego 21276 Minecraft: The Creeper - Brand New",
+            "declared_condition": "new",
+            "item_price": 27.8,
+            "shipping": 0.0,
+            "listed_total": 27.8
+          },
+          {
+            "item_id": "v1|137959653000|0",
+            "seller": "geovo10",
+            "image": "https://i.ebayimg.com/images/g/CWIAAeSwfOVrBe4S/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137959653000",
+            "title": "LEGO Minecraft: The Creeper (21276) Brand New - Sealed FAST POST\ud83d\ude9a\ud83d\udca8",
+            "declared_condition": "new",
+            "item_price": 24.95,
+            "shipping": 2.94,
+            "listed_total": 27.89
+          },
+          {
+            "item_id": "v1|237061421192|0",
+            "seller": "precious_collections",
+            "image": "https://i.ebayimg.com/images/g/h8cAAeSwE-FqHao3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237061421192",
+            "title": "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 24.98,
+            "shipping": 2.94,
+            "listed_total": 27.92
+          },
+          {
+            "item_id": "v1|298173679608|0",
+            "seller": "cantseethelight",
+            "image": "https://i.ebayimg.com/images/g/Yz4AAeSwlBhpyY0f/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298173679608",
+            "title": "LEGO Minecraft 21276 The Creeper \u2013 Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 28.5,
+            "shipping": 0.0,
+            "listed_total": 28.5
+          },
+          {
+            "item_id": "v1|287254971771|0",
+            "seller": "simon-judes",
+            "image": "https://i.ebayimg.com/images/g/PSoAAeSwd6Np0nxh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287254971771",
+            "title": "LEGO Minecraft The Creeper, Set 21276",
+            "declared_condition": "new",
+            "item_price": 25.68,
+            "shipping": 2.94,
+            "listed_total": 28.62
+          },
+          {
+            "item_id": "v1|366837877849|0",
+            "seller": "sha_75793",
+            "image": "https://i.ebayimg.com/images/g/7ygAAeSwAGtrBxjV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366837877849",
+            "title": "LEGO Minecraft: The Creeper - 21276 - Brand New",
+            "declared_condition": "new",
+            "item_price": 25.25,
+            "shipping": 3.38,
+            "listed_total": 28.63
+          },
+          {
+            "item_id": "v1|880085313201|0",
+            "seller": "hadleybricks",
+            "image": "https://i.ebayimg.com/images/g/5WIAAeSwMstq7Fwj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880085313201",
+            "title": "LEGO Minecraft The Creeper 21276 Buildable Figure 665 Pieces Sealed Set",
+            "declared_condition": "new",
+            "item_price": 24.99,
+            "shipping": 3.75,
+            "listed_total": 28.74
+          },
+          {
+            "item_id": "v1|236793918397|0",
+            "seller": "manba18",
+            "image": "https://i.ebayimg.com/images/g/p7sAAeSw7LZp9idw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236793918397",
+            "title": "LEGO Minecraft The Creeper 21276",
+            "declared_condition": "new",
+            "item_price": 26.69,
+            "shipping": 3.38,
+            "listed_total": 30.07
+          },
+          {
+            "item_id": "v1|198443433912|0",
+            "seller": "bnfamily13",
+            "image": "https://i.ebayimg.com/images/g/CpYAAeSwiRFqN7fy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198443433912",
+            "title": "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 26.69,
+            "shipping": 3.38,
+            "listed_total": 30.07
+          },
+          {
+            "item_id": "v1|267649682763|0",
+            "seller": "lyndsay.0137",
+            "image": "https://i.ebayimg.com/images/g/aqcAAeSwwelp68Hc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267649682763",
+            "title": "Lego Minecraft The Creeper 21276 Brand New 665 pcs",
+            "declared_condition": "new",
+            "item_price": 27.99,
+            "shipping": 2.94,
+            "listed_total": 30.93
+          },
+          {
+            "item_id": "v1|298346369092|0",
+            "seller": "vix0_34",
+            "image": "https://i.ebayimg.com/images/g/axEAAeSwnflqEdrI/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298346369092",
+            "title": "LEGO Minecraft the Creeper Buildable Figure 21276",
+            "declared_condition": "new",
+            "item_price": 28.0,
+            "shipping": 2.94,
+            "listed_total": 30.94
+          },
+          {
+            "item_id": "v1|227377643545|0",
+            "seller": "gr8bargains",
+            "image": "https://i.ebayimg.com/images/g/9FYAAeSw8FhpDpdR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227377643545",
+            "title": "LEGO Minecraft the Creeper 21276 Building Kit 2025 Edition - BRAND NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 28.01,
+            "shipping": 2.94,
+            "listed_total": 30.95
+          },
+          {
+            "item_id": "v1|277612559015|0",
+            "seller": "tonyj2000",
+            "image": "https://i.ebayimg.com/images/g/DjwAAeSwX2VpUnQv/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277612559015",
+            "title": "\ud83c\udf81Lego Minecraft the Creeper 21276 - 2025 Edition | New & Sealed | Fast Shipping",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 0.0,
+            "listed_total": 31.9
+          },
+          {
+            "item_id": "v1|188505803125|0",
+            "seller": "connect-it-123",
+            "image": "https://i.ebayimg.com/images/g/mbcAAeSwJKZqLS2~/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188505803125",
+            "title": "LEGO Minecraft 21276 The Creeper Set 665 Pieces 10+ - New & Sealed",
+            "declared_condition": "new",
+            "item_price": 29.82,
+            "shipping": 3.38,
+            "listed_total": 33.2
+          },
+          {
+            "item_id": "v1|336729288686|0",
+            "seller": "ds_bargains",
+            "image": "https://i.ebayimg.com/images/g/I0sAAeSw459qdEhZ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/336729288686",
+            "title": "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 29.99,
+            "shipping": 3.65,
+            "listed_total": 33.64
+          },
+          {
+            "item_id": "v1|198215543504|0",
+            "seller": "mark14fraser",
+            "image": "https://i.ebayimg.com/images/g/3s0AAeSw5RBpwCSB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198215543504",
+            "title": "LEGO - MINECRAFT - ( SET 21276 - THE CREEPER ) - BRAND NEW",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 2.94,
+            "listed_total": 34.83
+          },
+          {
+            "item_id": "v1|236527022640|0",
+            "seller": "jonatyeun",
+            "image": "https://i.ebayimg.com/images/g/tvsAAeSwSJ9pQAbv/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236527022640",
+            "title": "LEGO Minecraft the Creeper 21276",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 2.94,
+            "listed_total": 34.84
+          },
+          {
+            "item_id": "v1|168107205079|0",
+            "seller": "mdal-80",
+            "image": "https://i.ebayimg.com/images/g/CRkAAeSwlQFpdK4H/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168107205079",
+            "title": "New & Sealed LEGO Minecraft Set 21276 - The Creeper 665 Pcs",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 2.94,
+            "listed_total": 34.84
+          },
+          {
+            "item_id": "v1|267557779415|0",
+            "seller": "danste09",
+            "image": "https://i.ebayimg.com/images/g/ilIAAeSwlrFpd0Mw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267557779415",
+            "title": "LEGO Minecraft 21276 The Creeper Set 665 Pieces 10+ - New & Sealed",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 2.94,
+            "listed_total": 34.84
+          },
+          {
+            "item_id": "v1|306823414131|0",
+            "seller": "chrisk752009",
+            "image": "https://i.ebayimg.com/images/g/Dt8AAeSwlD9ptrAw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/306823414131",
+            "title": "LEGO Minecraft the Creeper Set 21276",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 2.96,
+            "listed_total": 34.86
+          },
+          {
+            "item_id": "v1|147145470406|0",
+            "seller": "mikeynma",
+            "image": "https://i.ebayimg.com/images/g/hi0AAeSwiONpigo9/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147145470406",
+            "title": "LEGO Minecraft The Creeper Figure Building Toy Set 21276",
+            "declared_condition": "new",
+            "item_price": 31.9,
+            "shipping": 3.38,
+            "listed_total": 35.28
+          },
+          {
+            "item_id": "v1|318858163909|0",
+            "seller": "magicianscorner",
+            "image": "https://i.ebayimg.com/images/g/JbgAAeSwx9pqpGjE/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/318858163909",
+            "title": "LEGO Minecraft 21276 The Creeper Posable Figure Set 665pc 10+ (2024)",
+            "declared_condition": "new",
+            "item_price": 32.95,
+            "shipping": 2.94,
+            "listed_total": 35.89
+          },
+          {
+            "item_id": "v1|277761915624|0",
+            "seller": "jdcj2013",
+            "image": "https://i.ebayimg.com/images/g/XQYAAeSwbkVporu5/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/277761915624",
+            "title": "LEGO Minecraft The Creeper Set 21276  TNT",
+            "declared_condition": "new",
+            "item_price": 35.99,
+            "shipping": 0.0,
+            "listed_total": 35.99
+          },
+          {
+            "item_id": "v1|389514350763|0",
+            "seller": "giftsgoingfast",
+            "image": "https://i.ebayimg.com/images/g/e~AAAeSwwc1o7xXA/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/389514350763",
+            "title": "NEW Lego 21276 Minecraft The Creeper Poseable Mob Figure Hidden Compartment \ud83d\udc7e\ud83d\udca5",
+            "declared_condition": "new",
+            "item_price": 32.99,
+            "shipping": 3.38,
+            "listed_total": 36.37
+          },
+          {
+            "item_id": "v1|860104182290|0",
+            "seller": "muha398372",
+            "image": "https://i.ebayimg.com/images/g/sncAAeSwquRq56RP/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860104182290",
+            "title": "LEGO Minecraft 21276 The Creeper Set",
+            "declared_condition": "new",
+            "item_price": 36.57,
+            "shipping": 0.0,
+            "listed_total": 36.57
+          },
+          {
+            "item_id": "v1|377165581100|0",
+            "seller": "contactr_32",
+            "image": "https://i.ebayimg.com/images/g/-ZwAAeSwATdp-x8N/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377165581100",
+            "title": "LEGO Minecraft 21276 The Creeper \u2013 Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 31.89,
+            "shipping": 5.21,
+            "listed_total": 37.1
+          },
+          {
+            "item_id": "v1|168048425944|0",
+            "seller": "ashley*81",
+            "image": "https://i.ebayimg.com/images/g/YukAAeSwmtxpVoX7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168048425944",
+            "title": "LEGO Minecraft the Creeper Set 21276",
+            "declared_condition": "new",
+            "item_price": 35.0,
+            "shipping": 2.94,
+            "listed_total": 37.94
+          },
+          {
+            "item_id": "v1|860060020287|0",
+            "seller": "jadesshop",
+            "image": "https://i.ebayimg.com/images/g/6mIAAeSwSA5q1Yry/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": true,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860060020287",
+            "title": "LEGO Minecraft 21276 The Creeper Set Buildable Display Figure Movable Legs Head",
+            "declared_condition": "new",
+            "item_price": 37.97,
+            "shipping": 0.0,
+            "listed_total": 37.97
+          },
+          {
+            "item_id": "v1|407037551871|0",
+            "seller": "marlekell-9",
+            "image": "https://i.ebayimg.com/images/g/rskAAeSw3fxqQ5N-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407037551871",
+            "title": "LEGO Minecraft 21276 The Creeper 665-Piece Posable Set, Age 10+",
+            "declared_condition": "new",
+            "item_price": 35.33,
+            "shipping": 2.94,
+            "listed_total": 38.27
+          },
+          {
+            "item_id": "v1|157679988077|0",
+            "seller": "injectionimports",
+            "image": "https://i.ebayimg.com/images/g/eM0AAeSwayVpj0sq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/157679988077",
+            "title": "LEGO Minecraft The Creeper Set 21276 New & Sealed FREE POST",
+            "declared_condition": "new",
+            "item_price": 39.97,
+            "shipping": 0.0,
+            "listed_total": 39.97
+          },
+          {
+            "item_id": "v1|307197379817|0",
+            "seller": "dextro39",
+            "image": "https://i.ebayimg.com/images/g/AkwAAeSw3btqtaeW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307197379817",
+            "title": "LEGO Minecraft The Creeper Figure Building Toy 21276",
+            "declared_condition": "new",
+            "item_price": 37.09,
+            "shipping": 2.94,
+            "listed_total": 40.03
+          },
+          {
+            "item_id": "v1|237165114244|0",
+            "seller": "pi_7134",
+            "image": "https://i.ebayimg.com/images/g/oacAAeSwfC9q7Gnk/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237165114244",
+            "title": "Minecraft Creeper LEGO brand new sealed box 21276 age 10+",
+            "declared_condition": "new",
+            "item_price": 37.1,
+            "shipping": 2.96,
+            "listed_total": 40.06
+          },
+          {
+            "item_id": "v1|168426679003|0",
+            "seller": "24sportscar",
+            "image": "https://i.ebayimg.com/images/g/TpQAAeSwaU9pQmeB/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/168426679003",
+            "title": "LEGO MINECRAFT 21276 The Creeper Factory  Sealed Set Age 10+  665 Pieces",
+            "declared_condition": "new",
+            "item_price": 38.0,
+            "shipping": 4.0,
+            "listed_total": 42.0
+          },
+          {
+            "item_id": "v1|146856721528|0",
+            "seller": "mahammadminhaz786",
+            "image": "https://i.ebayimg.com/images/g/1lgAAeSwB~Jo1zIJ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/146856721528",
+            "title": "LEGO Minecraft The Creeper (21276) 665 Piece Buildable Action Figure Brand New",
+            "declared_condition": "new",
+            "item_price": 43.03,
+            "shipping": 0.0,
+            "listed_total": 43.03
+          },
+          {
+            "item_id": "v1|287741993048|0",
+            "seller": "howleys",
+            "image": "https://i.ebayimg.com/images/g/9CcAAeSwlaJq~014/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287741993048",
+            "title": "Lego Minecraft 21276 The Creeper With Pig And TNT 665 Piece Set",
+            "declared_condition": "new",
+            "item_price": 43.99,
+            "shipping": 0.0,
+            "listed_total": 43.99
+          },
+          {
+            "item_id": "v1|128118649916|0",
+            "seller": "dmo_vault",
+            "image": "https://i.ebayimg.com/images/g/rGMAAeSw-TtqxQec/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/128118649916",
+            "title": "LEGO Minecraft The Creeper 21276 665 Pieces New & Sealed",
+            "declared_condition": "new",
+            "item_price": 45.0,
+            "shipping": 0.0,
+            "listed_total": 45.0
+          },
+          {
+            "item_id": "v1|960142429891|0",
+            "seller": "abub_4250",
+            "image": "https://i.ebayimg.com/images/g/1NcAAeSwkiFq58iw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960142429891",
+            "title": "LEGO Minecraft The Creeper 21276 Creeper Character Set 665pcs Brick Separator",
+            "declared_condition": "new",
+            "item_price": 45.41,
+            "shipping": 0.0,
+            "listed_total": 45.41
+          },
+          {
+            "item_id": "v1|286616581645|0",
+            "seller": "toysntuck",
+            "image": "https://i.ebayimg.com/images/g/SVMAAeSwpDhprxLL/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/286616581645",
+            "title": "Lego 21276 Minecraft The Creeper",
+            "declared_condition": "new",
+            "item_price": 46.0,
+            "shipping": 0.0,
+            "listed_total": 46.0
+          },
+          {
+            "item_id": "v1|860146943926|0",
+            "seller": "far_uk_06",
+            "image": "https://i.ebayimg.com/images/g/nNkAAeSwT3tq-i8r/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860146943926",
+            "title": "LEGO Minecraft The Creeper 21276",
+            "declared_condition": "new",
+            "item_price": 46.4,
+            "shipping": 0.0,
+            "listed_total": 46.4
+          },
+          {
+            "item_id": "v1|116986892229|0",
+            "seller": "keth_blag",
+            "image": "https://i.ebayimg.com/images/g/sd8AAeSw0RxpanJn/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/116986892229",
+            "title": "LEGO Minecraft The Creeper 21276 NEW",
+            "declared_condition": "new",
+            "item_price": 45.41,
+            "shipping": 2.94,
+            "listed_total": 48.35
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 9
+        },
+        "query_aliases": [
+          "LEGO Minecraft The Creeper Action Figure Building Set 21276 with code"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 21276",
+        "observed_at": "2026-11-28T18:38:24+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 41,
+        "seller_count": 41,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 8,
+        "confidence": "limited",
+        "wide_spread": true,
+        "competition_low": 27.18,
+        "competition_high": 48.35,
+        "estimated_resale": 26.36,
+        "estimated_range": [
+          24.46,
+          27.18
+        ],
+        "suggested_listing": 27.17,
+        "quick_sale_model": 24.46,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 22.5,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -6.26,
+        "max_landed_buy": 8.23,
+        "max_item_buy": null,
+        "delivery_headroom": -14.27,
+        "fees": 4.04,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.79,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 23.72,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 6.24,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|227065851089|0",
+            "seller": "yonli_79",
+            "image": "https://i.ebayimg.com/images/g/cXoAAeSwMixq7aUQ/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227065851089",
+            "title": "LEGO Minecraft The Creeper 21276 ,New",
+            "declared_condition": "new",
+            "item_price": 23.8,
+            "shipping": 3.38,
+            "listed_total": 27.18,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147556950725|0",
+            "seller": "precious_toys",
+            "image": "https://i.ebayimg.com/images/g/sYkAAeSwFG1qEX8p/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147556950725",
+            "title": "Lego 21276 Minecraft: The Creeper - Brand New",
+            "declared_condition": "new",
+            "item_price": 27.8,
+            "shipping": 0.0,
+            "listed_total": 27.8,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|137959653000|0",
+            "seller": "geovo10",
+            "image": "https://i.ebayimg.com/images/g/CWIAAeSwfOVrBe4S/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137959653000",
+            "title": "LEGO Minecraft: The Creeper (21276) Brand New - Sealed FAST POST\ud83d\ude9a\ud83d\udca8",
+            "declared_condition": "new",
+            "item_price": 24.95,
+            "shipping": 2.94,
+            "listed_total": 27.89,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|237061421192|0",
+            "seller": "precious_collections",
+            "image": "https://i.ebayimg.com/images/g/h8cAAeSwE-FqHao3/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237061421192",
+            "title": "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 24.98,
+            "shipping": 2.94,
+            "listed_total": 27.92,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|298173679608|0",
+            "seller": "cantseethelight",
+            "image": "https://i.ebayimg.com/images/g/Yz4AAeSwlBhpyY0f/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/298173679608",
+            "title": "LEGO Minecraft 21276 The Creeper \u2013 Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 28.5,
+            "shipping": 0.0,
+            "listed_total": 28.5,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|287254971771|0",
+            "seller": "simon-judes",
+            "image": "https://i.ebayimg.com/images/g/PSoAAeSwd6Np0nxh/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287254971771",
+            "title": "LEGO Minecraft The Creeper, Set 21276",
+            "declared_condition": "new",
+            "item_price": 25.68,
+            "shipping": 2.94,
+            "listed_total": 28.62,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|366837877849|0",
+            "seller": "sha_75793",
+            "image": "https://i.ebayimg.com/images/g/7ygAAeSwAGtrBxjV/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366837877849",
+            "title": "LEGO Minecraft: The Creeper - 21276 - Brand New",
+            "declared_condition": "new",
+            "item_price": 25.25,
+            "shipping": 3.38,
+            "listed_total": 28.63,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880085313201|0",
+            "seller": "hadleybricks",
+            "image": "https://i.ebayimg.com/images/g/5WIAAeSwMstq7Fwj/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880085313201",
+            "title": "LEGO Minecraft The Creeper 21276 Buildable Figure 665 Pieces Sealed Set",
+            "declared_condition": "new",
+            "item_price": 24.99,
+            "shipping": 3.75,
+            "listed_total": 28.74,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|236793918397|0",
+            "seller": "manba18",
+            "image": "https://i.ebayimg.com/images/g/p7sAAeSw7LZp9idw/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236793918397",
+            "title": "LEGO Minecraft The Creeper 21276",
+            "declared_condition": "new",
+            "item_price": 26.69,
+            "shipping": 3.38,
+            "listed_total": 30.07,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198443433912|0",
+            "seller": "bnfamily13",
+            "image": "https://i.ebayimg.com/images/g/CpYAAeSwiRFqN7fy/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198443433912",
+            "title": "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            "declared_condition": "new",
+            "item_price": 26.69,
+            "shipping": 3.38,
+            "listed_total": 30.07,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "LEGO Minecraft The Creeper Action Figure Building Set 21276 with code",
+        "query": "LEGO 21276",
+        "kind": "active_ask",
+        "listing": 27.17,
+        "observed_at": "2026-11-28T18:38:24+00:00",
+        "valid_until": "2026-11-29T00:38:24+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/227065851089",
+          "https://www.ebay.co.uk/itm/147556950725",
+          "https://www.ebay.co.uk/itm/137959653000",
+          "https://www.ebay.co.uk/itm/237061421192",
+          "https://www.ebay.co.uk/itm/298173679608",
+          "https://www.ebay.co.uk/itm/287254971771",
+          "https://www.ebay.co.uk/itm/366837877849",
+          "https://www.ebay.co.uk/itm/880085313201",
+          "https://www.ebay.co.uk/itm/236793918397",
+          "https://www.ebay.co.uk/itm/198443433912"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/227065851089",
+            "LEGO Minecraft The Creeper 21276 ,New",
+            27.18,
+            3.38,
+            23.8,
+            "yonli_79"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/147556950725",
+            "Lego 21276 Minecraft: The Creeper - Brand New",
+            27.8,
+            0.0,
+            27.8,
+            "precious_toys"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/137959653000",
+            "LEGO Minecraft: The Creeper (21276) Brand New - Sealed FAST POST\ud83d\ude9a\ud83d\udca8",
+            27.89,
+            2.94,
+            24.95,
+            "geovo10"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/237061421192",
+            "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            27.92,
+            2.94,
+            24.98,
+            "precious_collections"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/298173679608",
+            "LEGO Minecraft 21276 The Creeper \u2013 Brand New and Sealed",
+            28.5,
+            0.0,
+            28.5,
+            "cantseethelight"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/287254971771",
+            "LEGO Minecraft The Creeper, Set 21276",
+            28.62,
+            2.94,
+            25.68,
+            "simon-judes"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/366837877849",
+            "LEGO Minecraft: The Creeper - 21276 - Brand New",
+            28.63,
+            3.38,
+            25.25,
+            "sha_75793"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/880085313201",
+            "LEGO Minecraft The Creeper 21276 Buildable Figure 665 Pieces Sealed Set",
+            28.74,
+            3.75,
+            24.99,
+            "hadleybricks"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/236793918397",
+            "LEGO Minecraft The Creeper 21276",
+            30.07,
+            3.38,
+            26.69,
+            "manba18"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/198443433912",
+            "LEGO Minecraft 21276 The Creeper - Brand New and Sealed",
+            30.07,
+            3.38,
+            26.69,
+            "bnfamily13"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO Classic Large Creative Brick Box 10698 (790 Pieces)",
       "url": "https://www.hotukdeals.com/deals/lego-classic-large-creative-brick-box-10698-790-pieces-ps2899-at-amazon-5047544",
       "policy_key": "9cea5b233dab8440764d7056",
@@ -7167,8 +8336,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/04xmc/5047544_1/re/300x300/qt/55/5047544_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/04xmc/5047544_1/re/300x300/qt/55/5047544_1.jpg",
         "https://images.hotukdeals.com/threads/raw/04xmc/5047544_1/re/150x150/qt/55/5047544_1.jpg",
@@ -7927,8 +9096,8 @@
       "item_price": 29.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/51ujz/5047783_1/re/300x300/qt/55/5047783_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/51ujz/5047783_1/re/300x300/qt/55/5047783_1.jpg",
         "https://images.hotukdeals.com/threads/raw/51ujz/5047783_1/re/150x150/qt/55/5047783_1.jpg",
@@ -11074,8 +12243,8 @@
       "item_price": 87.74,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hCXjA/5050758_1/re/300x300/qt/55/5050758_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hCXjA/5050758_1/re/300x300/qt/55/5050758_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hCXjA/5050758_1/re/150x150/qt/55/5050758_1.jpg"
@@ -11887,8 +13056,8 @@
       "item_price": 93.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/150x150/qt/55/5047773_1.jpg",
@@ -11930,11 +13099,11 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-28T12:22:58+00:00",
+        "observed_at": "2026-11-28T18:38:27+00:00",
         "date": "2026-11-28",
-        "sample_count": 41,
-        "listed_total_low": 117.33,
-        "listed_total_p25": 141.1,
+        "sample_count": 40,
+        "listed_total_low": 128.95,
+        "listed_total_p25": 141.61,
         "listed_total_median": 153.06,
         "listed_total_p75": 169.99,
         "listed_total_high": 205.79,
@@ -11946,9 +13115,9 @@
         ],
         "offers": [
           {
-            "item_id": "v1|168858515749|0",
-            "seller": "johay_42",
-            "image": "https://i.ebayimg.com/images/g/1WAAAeSwSj9q9oQq/s-l225.jpg",
+            "item_id": "v1|267857201427|0",
+            "seller": "efang71",
+            "image": "https://i.ebayimg.com/images/g/848AAeSwv9ZrCvNW/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -11956,17 +13125,16 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168858515749",
-            "title": "LEGO Harry Potter Diagon Alley Wizarding Shops 76444 2750pcs Age 18+",
+            "url": "https://www.ebay.co.uk/itm/267857201427",
+            "title": "LEGO Harry Potter: Diagon Alley Wizarding Shops 76444",
             "declared_condition": "new",
-            "item_price": 109.9,
-            "shipping": 7.43,
-            "listed_total": 117.33
+            "item_price": 128.95,
+            "shipping": 0.0,
+            "listed_total": 128.95
           },
           {
             "item_id": "v1|880154085890|0",
@@ -12012,29 +13180,6 @@
             "item_price": 123.42,
             "shipping": 8.36,
             "listed_total": 131.78
-          },
-          {
-            "item_id": "v1|327479541225|0",
-            "seller": "beth-260404",
-            "image": "https://i.ebayimg.com/images/g/JZUAAeSwgfZrCQXQ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327479541225",
-            "title": "LEGO Harry Potter Diagon Alley Wizarding Shops 76444 Set 2750pcs 18+",
-            "declared_condition": "new",
-            "item_price": 125.5,
-            "shipping": 6.76,
-            "listed_total": 132.26
           },
           {
             "item_id": "v1|880046878091|0",
@@ -12560,9 +13705,9 @@
             "listed_total": 167.99
           },
           {
-            "item_id": "v1|405425911315|0",
-            "seller": "toybarnhaus",
-            "image": "https://i.ebayimg.com/images/g/8xEAAOSw4CNnXEJV/s-l225.jpg",
+            "item_id": "v1|267847759259|0",
+            "seller": "williamedwards",
+            "image": "https://i.ebayimg.com/images/g/3UcAAeSw7Ehq~owo/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -12574,8 +13719,8 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/405425911315",
-            "title": "LEGO Harry Potter: Diagon Alley\u2122 Wizarding Shops (76444)",
+            "url": "https://www.ebay.co.uk/itm/267847759259",
+            "title": "LEGO Harry Potter Diagon Alley 76444 Wizarding Shops Construction Building Toys",
             "declared_condition": "new",
             "item_price": 169.99,
             "shipping": 0.0,
@@ -12626,9 +13771,9 @@
             "listed_total": 169.99
           },
           {
-            "item_id": "v1|267847759259|0",
-            "seller": "williamedwards",
-            "image": "https://i.ebayimg.com/images/g/3UcAAeSw7Ehq~owo/s-l225.jpg",
+            "item_id": "v1|405425911315|0",
+            "seller": "toybarnhaus",
+            "image": "https://i.ebayimg.com/images/g/8xEAAOSw4CNnXEJV/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -12640,8 +13785,8 @@
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267847759259",
-            "title": "LEGO Harry Potter Diagon Alley 76444 Wizarding Shops Construction Building Toys",
+            "url": "https://www.ebay.co.uk/itm/405425911315",
+            "title": "LEGO Harry Potter: Diagon Alley\u2122 Wizarding Shops (76444)",
             "declared_condition": "new",
             "item_price": 169.99,
             "shipping": 0.0,
@@ -12803,28 +13948,6 @@
             "listed_total": 188.97
           },
           {
-            "item_id": "v1|840033959174|0",
-            "seller": "thepuzzledsweetshop",
-            "image": "https://i.ebayimg.com/images/g/HNsAAeSwHIdq2f6M/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840033959174",
-            "title": "Lego - Harry Potter: Diagon Alley Wizarding Shops 76444",
-            "declared_condition": "new",
-            "item_price": 191.24,
-            "shipping": 3.75,
-            "listed_total": 194.99
-          },
-          {
             "item_id": "v1|267567719003|0",
             "seller": "williamedwards",
             "image": "https://i.ebayimg.com/images/g/GCoAAeSwreJphCam/s-l225.jpg",
@@ -12844,6 +13967,28 @@
             "declared_condition": "new",
             "item_price": 194.99,
             "shipping": 0.0,
+            "listed_total": 194.99
+          },
+          {
+            "item_id": "v1|840033959174|0",
+            "seller": "thepuzzledsweetshop",
+            "image": "https://i.ebayimg.com/images/g/HNsAAeSwHIdq2f6M/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/840033959174",
+            "title": "Lego - Harry Potter: Diagon Alley Wizarding Shops 76444",
+            "declared_condition": "new",
+            "item_price": 191.24,
+            "shipping": 3.75,
             "listed_total": 194.99
           },
           {
@@ -12871,7 +14016,7 @@
           }
         ],
         "rejected": {
-          "identity_or_condition": 8,
+          "identity_or_condition": 9,
           "price_currency_or_shipping_unknown": 1
         },
         "query_aliases": [
@@ -12882,27 +14027,27 @@
         "model": "competitor-asks-v1",
         "category": "lego",
         "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
+        "competitor_coupon_unknown": true,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "LEGO 76444",
-        "observed_at": "2026-11-28T12:22:58+00:00",
+        "observed_at": "2026-11-28T18:38:27+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
-        "sample_count": 39,
-        "seller_count": 39,
+        "sample_count": 38,
+        "seller_count": 38,
         "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
+        "low_price_supporting_sellers": 11,
+        "confidence": "limited",
         "wide_spread": true,
-        "competition_low": 117.33,
+        "competition_low": 128.95,
         "competition_high": 205.79,
-        "estimated_resale": 113.81,
+        "estimated_resale": 125.08,
         "estimated_range": [
-          105.59,
-          117.33
+          116.05,
+          128.95
         ],
-        "suggested_listing": 117.32,
-        "quick_sale_model": 105.59,
+        "suggested_listing": 128.94,
+        "quick_sale_model": 116.05,
         "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
         "regular_price_reference": null,
         "regular_price_status": "Not established; unmarked offers may also be discounted",
@@ -12921,14 +14066,14 @@
         "landed_cost": null,
         "net": null,
         "roi": null,
-        "net_before_unknown_delivery": -4.31,
+        "net_before_unknown_delivery": 5.09,
         "max_landed_buy": 60.0,
         "max_item_buy": null,
         "delivery_headroom": -33.58,
-        "fees": 15.84,
+        "fees": 17.37,
         "outbound_postage": 4.79,
         "packaging": 0.5,
-        "returns_allowance": 3.41,
+        "returns_allowance": 3.75,
         "estimated_opportunity": false,
         "worth_reviewing": false,
         "above_budget": true,
@@ -12944,7 +14089,7 @@
           "review_stress_roi": 0.1,
           "watch_ceiling": 150.0
         },
-        "review_stress_sale": 102.42,
+        "review_stress_sale": 112.57,
         "review_stress_net": null,
         "review_stress_roi": null,
         "review_stress_passed": false,
@@ -12952,7 +14097,7 @@
         "review_max_landed_buy": 60.0,
         "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
         "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Low competing offers advertise coupons; check effective competition before buying",
           "eBay acquisition listing identity missing; self-exclusion not confirmed",
           "Inbound delivery unknown; profit is only an upper bound",
           "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
@@ -12962,9 +14107,9 @@
         ],
         "sources": [
           {
-            "item_id": "v1|168858515749|0",
-            "seller": "johay_42",
-            "image": "https://i.ebayimg.com/images/g/1WAAAeSwSj9q9oQq/s-l225.jpg",
+            "item_id": "v1|267857201427|0",
+            "seller": "efang71",
+            "image": "https://i.ebayimg.com/images/g/848AAeSwv9ZrCvNW/s-l225.jpg",
             "country": "GB",
             "currency": "GBP",
             "condition_id": "1000",
@@ -12972,17 +14117,16 @@
             "advertised_original_total": null,
             "available_coupons": false,
             "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
+              "FIXED_PRICE"
             ],
             "end_at": null,
             "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/168858515749",
-            "title": "LEGO Harry Potter Diagon Alley Wizarding Shops 76444 2750pcs Age 18+",
+            "url": "https://www.ebay.co.uk/itm/267857201427",
+            "title": "LEGO Harry Potter: Diagon Alley Wizarding Shops 76444",
             "declared_condition": "new",
-            "item_price": 109.9,
-            "shipping": 7.43,
-            "listed_total": 117.33,
+            "item_price": 128.95,
+            "shipping": 0.0,
+            "listed_total": 128.95,
             "same_acquisition_promotion": false
           },
           {
@@ -13030,30 +14174,6 @@
             "item_price": 123.42,
             "shipping": 8.36,
             "listed_total": 131.78,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|327479541225|0",
-            "seller": "beth-260404",
-            "image": "https://i.ebayimg.com/images/g/JZUAAeSwgfZrCQXQ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/327479541225",
-            "title": "LEGO Harry Potter Diagon Alley Wizarding Shops 76444 Set 2750pcs 18+",
-            "declared_condition": "new",
-            "item_price": 125.5,
-            "shipping": 6.76,
-            "listed_total": 132.26,
             "same_acquisition_promotion": false
           },
           {
@@ -13196,12 +14316,36 @@
             "shipping": 6.76,
             "listed_total": 137.46,
             "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|177948721951|0",
+            "seller": "beano268",
+            "image": "https://i.ebayimg.com/images/g/JEUAAeSwqGNpsYF7/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/177948721951",
+            "title": "LEGO HARRY POTTER DRAGON ALLEY 76444",
+            "declared_condition": "new",
+            "item_price": 141.1,
+            "shipping": 0.0,
+            "listed_total": 141.1,
+            "same_acquisition_promotion": false
           }
         ]
       },
       "publication_proof": {
         "ok": false,
-        "reason": "low_price_not_supported"
+        "reason": "uncertain_competitor_coupon"
       }
     },
     {
@@ -13219,8 +14363,8 @@
       "item_price": 100.79,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Z6xLw/5050773_1/re/300x300/qt/55/5050773_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Z6xLw/5050773_1/re/300x300/qt/55/5050773_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Z6xLw/5050773_1/re/150x150/qt/55/5050773_1.jpg"
@@ -13257,7 +14401,7 @@
         "identity": {
           "condition": "new"
         },
-        "observed_at": "2026-11-28T12:22:58+00:00",
+        "observed_at": "2026-11-28T18:38:27+00:00",
         "date": "2026-11-28",
         "sample_count": 9,
         "listed_total_low": 65.69,
@@ -13406,28 +14550,6 @@
             "listed_total": 134.98
           },
           {
-            "item_id": "v1|267738723463|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/nU0AAeSwKzZqZPd0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267738723463",
-            "title": "LEGO 75454 Star Wars Imperial Remnant AT-AT\u2122 with INT-4",
-            "declared_condition": "new",
-            "item_price": 139.99,
-            "shipping": 0.0,
-            "listed_total": 139.99
-          },
-          {
             "item_id": "v1|407040490045|0",
             "seller": "toybarnhaus",
             "image": "https://i.ebayimg.com/images/g/aSQAAeSwAnNqRQ5w/s-l225.jpg",
@@ -13444,6 +14566,28 @@
             "promotion_id": null,
             "url": "https://www.ebay.co.uk/itm/407040490045",
             "title": "LEGO Star Wars: Imperial Remnant AT-AT\u2122 with INT-4 (75454)",
+            "declared_condition": "new",
+            "item_price": 139.99,
+            "shipping": 0.0,
+            "listed_total": 139.99
+          },
+          {
+            "item_id": "v1|267738723463|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/nU0AAeSwKzZqZPd0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267738723463",
+            "title": "LEGO 75454 Star Wars Imperial Remnant AT-AT\u2122 with INT-4",
             "declared_condition": "new",
             "item_price": 139.99,
             "shipping": 0.0,
@@ -13487,7 +14631,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "LEGO 75454",
-        "observed_at": "2026-11-28T12:22:58+00:00",
+        "observed_at": "2026-11-28T18:38:27+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 9,
@@ -13699,29 +14843,6 @@
             "same_acquisition_promotion": false
           },
           {
-            "item_id": "v1|267738723463|0",
-            "seller": "toyemporium_org_uk",
-            "image": "https://i.ebayimg.com/images/g/nU0AAeSwKzZqZPd0/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267738723463",
-            "title": "LEGO 75454 Star Wars Imperial Remnant AT-AT\u2122 with INT-4",
-            "declared_condition": "new",
-            "item_price": 139.99,
-            "shipping": 0.0,
-            "listed_total": 139.99,
-            "same_acquisition_promotion": false
-          },
-          {
             "item_id": "v1|407040490045|0",
             "seller": "toybarnhaus",
             "image": "https://i.ebayimg.com/images/g/aSQAAeSwAnNqRQ5w/s-l225.jpg",
@@ -13738,6 +14859,29 @@
             "promotion_id": null,
             "url": "https://www.ebay.co.uk/itm/407040490045",
             "title": "LEGO Star Wars: Imperial Remnant AT-AT\u2122 with INT-4 (75454)",
+            "declared_condition": "new",
+            "item_price": 139.99,
+            "shipping": 0.0,
+            "listed_total": 139.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267738723463|0",
+            "seller": "toyemporium_org_uk",
+            "image": "https://i.ebayimg.com/images/g/nU0AAeSwKzZqZPd0/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267738723463",
+            "title": "LEGO 75454 Star Wars Imperial Remnant AT-AT\u2122 with INT-4",
             "declared_condition": "new",
             "item_price": 139.99,
             "shipping": 0.0,
@@ -13903,7 +15047,7 @@
         "rejected": {
           "identity_or_condition": 4
         },
-        "canonicalized_at": "2026-11-28T18:02:37+00:00",
+        "canonicalized_at": "2026-11-28T18:36:36+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Dementium The Ward - PS5"
@@ -14210,7 +15354,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-28T18:02:37+00:00",
+        "canonicalized_at": "2026-11-28T18:36:36+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Barbie: Horse Trails (Xbox Series X)"
@@ -14430,7 +15574,7 @@
           }
         ],
         "rejected": {},
-        "canonicalized_at": "2026-11-28T18:02:37+00:00",
+        "canonicalized_at": "2026-11-28T18:36:36+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Onimusha Way of the Sword Premium Deluxe Steelbook (Xbox Series X)"
@@ -14651,7 +15795,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-28T18:02:37+00:00",
+        "canonicalized_at": "2026-11-28T18:36:36+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Sonic Racing: CrossWorlds - Year One Edition (PS5)"
@@ -14942,7 +16086,7 @@
         "rejected": {
           "identity_or_condition": 19
         },
-        "canonicalized_at": "2026-11-28T18:02:37+00:00",
+        "canonicalized_at": "2026-11-28T18:36:36+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Call of Duty: Modern Warfare 4 - Xbox Series X (Free C&C)",
@@ -15282,7 +16426,7 @@
         "rejected": {
           "identity_or_condition": 19
         },
-        "canonicalized_at": "2026-11-28T18:02:37+00:00",
+        "canonicalized_at": "2026-11-28T18:36:36+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Call of Duty: Modern Warfare 4 - Xbox Series X (Free C&C)",
@@ -15471,38 +16615,129 @@
       }
     },
     {
-      "title": "Skechers Women's Courtside Slip-Ins Trainers (2 Styles / Sizes 3-8) - With Code",
-      "url": "https://www.hotukdeals.com/deals/skechers-womens-courtside-slip-ins-trainers-2-styles-sizes-3-8-with-code-free-delivery-5051064",
-      "policy_key": "89b5131a2526313c0af3689d",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
+      "title": "Lego Speed Champions 77257 Mclaren W1 Boxed & Sealed Set 287 Pcs",
+      "url": "https://www.ebay.co.uk/itm/900095951554",
+      "policy_key": "35dd84638ae556f6b9a112b4",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
       "identity_evidence": [],
       "primary_offer_status": null,
       "secondary_offer_note": null,
       "offer_ambiguity": null,
-      "merchant": "Express Trainers",
-      "item_price": 29.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/zqsXk/5051064_1/re/150x150/qt/55/5051064_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/skechers-womens-courtside-slip-ins-trainers-2-styles-sizes-3-8-with-code-free-delivery-5051064",
-      "landed_cost": 29.99,
-      "breakeven_sell": 41.91,
-      "sell_for_minimum_profit": 56.48,
+      "merchant": "eBay",
+      "item_price": 19.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+        "https://i.ebayimg.com/images/g/LDEAAeSwn1Jqgcms/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/TGMAAeSw7mRq8kvC/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/eIAAAeSwv2hqDJc6/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-mclaren-w1-77257-wvoucher-5050222",
+      "landed_cost": 23.639999999999997,
+      "breakeven_sell": 35.22,
+      "sell_for_minimum_profit": 46.55,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 25,
+      "first_seen": "2026-11-28T18:38:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Speed+Champions+77257+Mclaren+W1+Boxed+%26+Sealed+Set+287+Pcs&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Speed Champion McLaren W1 77257 Construction Set",
+      "url": "https://www.ebay.co.uk/itm/168834249196",
+      "policy_key": "0187eb689e706c5faf763363",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 20.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+        "https://i.ebayimg.com/images/g/wE4AAeSwzDRqcJ8D/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/TGMAAeSw7mRq8kvC/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/eIAAAeSwv2hqDJc6/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-mclaren-w1-77257-wvoucher-5050222",
+      "landed_cost": 20.99,
+      "breakeven_sell": 32.05,
+      "sell_for_minimum_profit": 42.1,
       "outbound_transport_status": "configured rate; verify acceptance",
       "cost_basis": "landed",
       "blockers": [
         "No exact reviewed sold observations"
       ],
       "priority": 15,
-      "first_seen": "2026-11-28T18:04:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Skechers+Women%27s+Courtside+Slip-Ins+Trainers+%282+Styles+%2F+Sizes+3-8%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
+      "first_seen": "2026-11-12T11:38:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champion+McLaren+W1+77257+Construction+Set&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "LEGO Speed Champions : McLaren W1 (77257) 9+ New&sealed 287pcs",
+      "url": "https://www.ebay.co.uk/itm/960118758560",
+      "policy_key": "d111b25c8771b946309a9f0a",
+      "category": "lego",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 22.99,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+        "https://i.ebayimg.com/images/g/mDIAAeSwtPpq31iE/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/TGMAAeSw7mRq8kvC/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/eIAAAeSwv2hqDJc6/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/v9xae/5050222_1/re/300x300/qt/55/5050222_1.jpg",
+      "image_basis": "Reference product image for same exact LEGO set, not actual listing-condition evidence",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-mclaren-w1-77257-wvoucher-5050222",
+      "landed_cost": 22.99,
+      "breakeven_sell": 34.44,
+      "sell_for_minimum_profit": 45.46,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-12T11:38:34+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+%3A+McLaren+W1+%2877257%29+9%2B+New%26sealed+287pcs&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -15567,8 +16802,8 @@
       "item_price": 5.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/y1fJD/5050506_1/re/300x300/qt/55/5050506_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/y1fJD/5050506_1/re/300x300/qt/55/5050506_1.jpg",
         "https://images.hotukdeals.com/threads/raw/y1fJD/5050506_1/re/150x150/qt/55/5050506_1.jpg"
@@ -15697,8 +16932,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/150x150/qt/55/5049642_1.jpg",
@@ -15741,8 +16976,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/150x150/qt/55/5050162_1.jpg",
@@ -15785,8 +17020,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
         "https://images.hotukdeals.com/threads/raw/S0viL/5047101_1/re/300x300/qt/55/5047101_1.jpg",
@@ -15898,6 +17133,50 @@
       }
     },
     {
+      "title": "LEGO City Police Prisoner Transport Van Toy 60479 - With Code",
+      "url": "https://www.hotukdeals.com/deals/lego-city-police-prisoner-transport-van-toy-60479-ps1079-5047304",
+      "policy_key": "373ca443d02d89ebd50204ad",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 10.79,
+      "image_status": "pending_photo",
+      "image_verified_url": "",
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/300x300/qt/55/5047304_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/rfVbX/5047304_1/re/150x150/qt/55/5047304_1.jpg",
+        "https://i.ebayimg.com/images/g/tZIAAeSwvnpqdeBm/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/kogAAeSwIuxq~cuq/s-l225.jpg"
+      ],
+      "thumb": "",
+      "image_basis": "",
+      "image_source_url": "",
+      "landed_cost": null,
+      "breakeven_sell": 19.83,
+      "sell_for_minimum_profit": 29.41,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-25T23:39:20+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+Police+Prisoner+Transport+Van+Toy+60479&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "LEGO Minecraft The Pale Garden 21586",
       "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-pale-garden-21586-5049586",
       "policy_key": "44468b5ffbf3a127e825ce17",
@@ -15912,8 +17191,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/150x150/qt/55/5049586_1.jpg",
@@ -16130,8 +17409,8 @@
       "item_price": 12.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m6rNh/5050571_1/re/300x300/qt/55/5050571_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m6rNh/5050571_1/re/300x300/qt/55/5050571_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m6rNh/5050571_1/re/150x150/qt/55/5050571_1.jpg"
@@ -16172,8 +17451,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Hhm8m/5047297_1/re/300x300/qt/55/5047297_1.jpg",
@@ -16216,8 +17495,8 @@
       "item_price": 13.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/300x300/qt/55/5050160_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/300x300/qt/55/5050160_1.jpg",
         "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/150x150/qt/55/5050160_1.jpg",
@@ -16346,8 +17625,8 @@
       "item_price": 14.23,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/150x150/qt/55/5050420_1.jpg",
@@ -16433,8 +17712,8 @@
       "item_price": 14.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/x0ImH/5050673_1/re/300x300/qt/55/5050673_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/x0ImH/5050673_1/re/300x300/qt/55/5050673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/x0ImH/5050673_1/re/150x150/qt/55/5050673_1.jpg"
@@ -16475,8 +17754,8 @@
       "item_price": 14.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/x0ImH/5050673_1/re/300x300/qt/55/5050673_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/x0ImH/5050673_1/re/300x300/qt/55/5050673_1.jpg",
         "https://images.hotukdeals.com/threads/raw/x0ImH/5050673_1/re/150x150/qt/55/5050673_1.jpg",
@@ -16605,8 +17884,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0klDi/5047230_1/re/300x300/qt/55/5047230_1.jpg",
@@ -16649,8 +17928,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/UEIft/5050578_1/re/300x300/qt/55/5050578_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/UEIft/5050578_1/re/300x300/qt/55/5050578_1.jpg",
         "https://images.hotukdeals.com/threads/raw/UEIft/5050578_1/re/150x150/qt/55/5050578_1.jpg"
@@ -16691,8 +17970,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg",
@@ -16735,8 +18014,8 @@
       "item_price": 15.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/300x300/qt/55/5050434_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/300x300/qt/55/5050434_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/150x150/qt/55/5050434_1.jpg",
@@ -16779,8 +18058,8 @@
       "item_price": 15.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DK3jh/5050836_1/re/300x300/qt/55/5050836_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DK3jh/5050836_1/re/300x300/qt/55/5050836_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DK3jh/5050836_1/re/150x150/qt/55/5050836_1.jpg"
@@ -16865,8 +18144,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/m6rNh/5050571_1/re/300x300/qt/55/5050571_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/m6rNh/5050571_1/re/300x300/qt/55/5050571_1.jpg",
         "https://images.hotukdeals.com/threads/raw/m6rNh/5050571_1/re/150x150/qt/55/5050571_1.jpg",
@@ -16909,8 +18188,8 @@
       "item_price": 16.75,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wdtK7/5046640_1/re/300x300/qt/55/5046640_1.jpg",
@@ -17066,45 +18345,6 @@
       }
     },
     {
-      "title": "Patrick Lyon Cupsole Low Top Mens Trainers - Black/White (Sizes 7 - 10) - w/code",
-      "url": "https://www.hotukdeals.com/deals/patrick-lyon-cupsole-low-top-mens-trainers-blackwhite-sizes-7-10-wcode-5051052",
-      "policy_key": "a58af9157b244b33e2c5448e",
-      "category": "trainers",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Get The Label",
-      "item_price": 20.7,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/WUUeG/5051052_1/re/150x150/qt/55/5051052_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/patrick-lyon-cupsole-low-top-mens-trainers-blackwhite-sizes-7-10-wcode-5051052",
-      "landed_cost": null,
-      "breakeven_sell": 30.62,
-      "sell_for_minimum_profit": 40.68,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-28T18:04:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Patrick+Lyon+Cupsole+Low+Top+Mens+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "DeWalt Combi Drill Driver DCD778 18V XR, Body Only (Refurbished Excellent) with code - Sold by iForceMarket (UK Mainland)",
       "url": "https://www.hotukdeals.com/deals/dewalt-combi-drill-driver-dcd778-18v-body-only-5049419",
       "policy_key": "cf4074f3d9cc548ee7ed289a",
@@ -17138,50 +18378,6 @@
       "first_seen": "2026-11-27T10:29:21+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=DeWalt+Combi+Drill+Driver+DCD778+18V+XR%2C+Body+Only+%28Refurbished+Excellent%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "LEGO Minecraft The Creeper Action Figure Building Set 21276 with code",
-      "url": "https://www.hotukdeals.com/deals/lego-minecraft-the-creeper-action-figure-building-set-21276-5048043",
-      "policy_key": "02e6e9c12f09e2459d4a895a",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Argos",
-      "item_price": 22.5,
-      "image_status": "pending_photo",
-      "image_verified_url": "",
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/300x300/qt/55/5048043_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/0xwEV/5048043_1/re/150x150/qt/55/5048043_1.jpg",
-        "https://i.ebayimg.com/images/g/cXoAAeSwMixq7aUQ/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/wl0AAeSwMc9q42AN/s-l225.jpg"
-      ],
-      "thumb": "",
-      "image_basis": "",
-      "image_source_url": "",
-      "landed_cost": null,
-      "breakeven_sell": 33.86,
-      "sell_for_minimum_profit": 44.64,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-26T12:47:51+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Minecraft+The+Creeper+Action+Figure+Building+Set+21276&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -17244,8 +18440,8 @@
       "item_price": 24.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/300x300/qt/55/5050349_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/300x300/qt/55/5050349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/150x150/qt/55/5050349_1.jpg",
@@ -17288,8 +18484,8 @@
       "item_price": 26.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/150x150/qt/55/5049821_1.jpg",
@@ -17376,8 +18572,8 @@
       "item_price": 27.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/150x150/qt/55/5049252_1.jpg"
@@ -17418,8 +18614,8 @@
       "item_price": 27.73,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/150x150/qt/55/5049819_1.jpg",
@@ -17462,8 +18658,8 @@
       "item_price": 27.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/J4WJk/5050508_1/re/300x300/qt/55/5050508_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/J4WJk/5050508_1/re/300x300/qt/55/5050508_1.jpg",
         "https://images.hotukdeals.com/threads/raw/J4WJk/5050508_1/re/150x150/qt/55/5050508_1.jpg"
@@ -17629,8 +18825,8 @@
       "item_price": 30.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/150x150/qt/55/5050238_1.jpg",
@@ -17652,45 +18848,6 @@
       "priority": 10,
       "first_seen": "2026-11-27T20:09:27+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Speed+Champions+Jaguar+Project+7+%26+Land+Rover+Defender+77264&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Operation Night Strikers Assault Edition - Nintendo Switch Game",
-      "url": "https://www.hotukdeals.com/deals/operation-night-strikers-assault-edition-nintendo-switch-game-5016553",
-      "policy_key": "692ac2dce0cc9cf943e2eced",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 31.92,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/NQIqE/5016553_1/re/150x150/qt/55/5016553_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/operation-night-strikers-assault-edition-nintendo-switch-game-5016553",
-      "landed_cost": null,
-      "breakeven_sell": 42.03,
-      "sell_for_minimum_profit": 57.1,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-28T18:04:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Operation+Night+Strikers+Assault+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -17795,8 +18952,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -17837,8 +18994,8 @@
       "item_price": 34.83,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/300x300/qt/55/5050505_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/300x300/qt/55/5050505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/150x150/qt/55/5050505_1.jpg"
@@ -17879,8 +19036,8 @@
       "item_price": 34.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/150x150/qt/55/5050277_1.jpg",
@@ -17962,8 +19119,8 @@
       "item_price": 35.1,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/HsjHz/5050518_1/re/300x300/qt/55/5050518_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/HsjHz/5050518_1/re/300x300/qt/55/5050518_1.jpg",
         "https://images.hotukdeals.com/threads/raw/HsjHz/5050518_1/re/150x150/qt/55/5050518_1.jpg"
@@ -18252,8 +19409,8 @@
       "item_price": 36.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/300x300/qt/55/5050075_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/300x300/qt/55/5050075_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/150x150/qt/55/5050075_1.jpg",
@@ -18380,8 +19537,8 @@
       "item_price": 37.35,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/300x300/qt/55/5050163_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/300x300/qt/55/5050163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/150x150/qt/55/5050163_1.jpg",
@@ -18609,8 +19766,8 @@
       "item_price": 39.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/300x300/qt/55/5050505_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/300x300/qt/55/5050505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/150x150/qt/55/5050505_1.jpg",
@@ -18653,8 +19810,8 @@
       "item_price": 39.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/300x300/qt/55/5050505_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/300x300/qt/55/5050505_1.jpg",
         "https://images.hotukdeals.com/threads/raw/woeNV/5050505_1/re/150x150/qt/55/5050505_1.jpg",
@@ -18697,8 +19854,8 @@
       "item_price": 39.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SCrbV/5050628_1/re/300x300/qt/55/5050628_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SCrbV/5050628_1/re/300x300/qt/55/5050628_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SCrbV/5050628_1/re/150x150/qt/55/5050628_1.jpg"
@@ -18763,74 +19920,6 @@
       "first_seen": "2026-11-25T15:06:51+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Anzellan+Starship+75445&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
-      "title": "Nintendo Samsung microSD Express Card for Nintendo Switch 2 (256GB)",
-      "url": "https://www.hotukdeals.com/deals/nintendo-samsung-microsd-express-card-for-nintendo-switch-2-5051008",
-      "policy_key": "0b5cb5dbbbc49d96dde2573f",
-      "category": "gaming",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Amazon",
-      "item_price": 39.99,
-      "image_status": null,
-      "image_verified_url": null,
-      "image_verified_until": null,
-      "image_checked_at": null,
-      "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/ioZdV/5051008_1/re/150x150/qt/55/5051008_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/nintendo-samsung-microsd-express-card-for-nintendo-switch-2-5051008",
-      "landed_cost": null,
-      "breakeven_sell": 51.56,
-      "sell_for_minimum_profit": 70.44,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-28T18:04:37+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nintendo+Samsung+microSD+Express+Card+for+Nintendo+Switch+2+%28256GB%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "nintendo samsung microsd express card for 256gb nintendo switch 2",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-28T18:04:39+00:00",
-        "date": "2026-11-28",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 6
-        },
-        "query_aliases": [
-          "Nintendo Samsung microSD Express Card for Nintendo Switch 2 (256GB)"
-        ]
-      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -18983,8 +20072,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -19069,8 +20158,8 @@
       "item_price": 43.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/9p5jK/5050989_1/re/300x300/qt/55/5050989_1.jpg",
-      "image_verified_until": "2026-11-28T18:22:48.605405+00:00",
-      "image_checked_at": "2026-11-28T18:02:48.605405+00:00",
+      "image_verified_until": "2026-11-28T18:56:45.619059+00:00",
+      "image_checked_at": "2026-11-28T18:36:45.619059+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/9p5jK/5050989_1/re/300x300/qt/55/5050989_1.jpg",
         "https://images.hotukdeals.com/threads/raw/9p5jK/5050989_1/re/150x150/qt/55/5050989_1.jpg"
@@ -19238,8 +20327,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -19498,8 +20587,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
         "https://images.hotukdeals.com/threads/raw/f1CQY/5044623_1/re/300x300/qt/55/5044623_1.jpg",
@@ -19586,8 +20675,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/150x150/qt/55/5049914_1.jpg",
@@ -19716,8 +20805,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-28T18:24:42.927481+00:00",
-      "image_checked_at": "2026-11-28T18:04:42.927481+00:00",
+      "image_verified_until": "2026-11-28T18:58:28.163825+00:00",
+      "image_checked_at": "2026-11-28T18:38:28.163825+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -19966,6 +21055,44 @@
       "priority": 5,
       "first_seen": "2026-11-27T11:37:35+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nike+Club+French+Terry+open+hem+joggers+in+light+grey%2C+All+Sizes&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Skechers Women's Courtside Slip-Ins Trainers (2 Styles / Sizes 3-8) - With Code",
+      "url": "https://www.hotukdeals.com/deals/skechers-womens-courtside-slip-ins-trainers-2-styles-sizes-3-8-with-code-free-delivery-5051064",
+      "policy_key": "89b5131a2526313c0af3689d",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Express Trainers",
+      "item_price": 29.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/zqsXk/5051064_1/re/150x150/qt/55/5051064_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/skechers-womens-courtside-slip-ins-trainers-2-styles-sizes-3-8-with-code-free-delivery-5051064",
+      "landed_cost": 29.99,
+      "breakeven_sell": 41.91,
+      "sell_for_minimum_profit": 56.48,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-28T18:04:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Skechers+Women%27s+Courtside+Slip-Ins+Trainers+%282+Styles+%2F+Sizes+3-8%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -20874,36 +22001,7 @@
       "priority": 0,
       "first_seen": "2026-11-23T15:17:48+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=WWE+2K24&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "no_exact_shipped_samples",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "wwe 2k24 standard edition ps5",
-        "category": "gaming",
-        "name_terms": [],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-28T12:22:54+00:00",
-        "date": "2026-11-28",
-        "sample_count": 0,
-        "listed_total_low": null,
-        "listed_total_p25": null,
-        "listed_total_median": null,
-        "listed_total_p75": null,
-        "listed_total_high": null,
-        "status": "no_exact_shipped_samples",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [],
-        "rejected": {
-          "identity_or_condition": 8
-        },
-        "query_aliases": [
-          "WWE 2K24 - PS5 Standard Edition"
-        ]
-      },
+      "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -22890,6 +23988,45 @@
       "priority": 0,
       "first_seen": "2026-11-27T09:21:47+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=PlayStation+DualSense+Wireless+Controller+Midnight+Black&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "exact_identity_not_supported",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Patrick Lyon Cupsole Low Top Mens Trainers - Black/White (Sizes 7 - 10) - w/code",
+      "url": "https://www.hotukdeals.com/deals/patrick-lyon-cupsole-low-top-mens-trainers-blackwhite-sizes-7-10-wcode-5051052",
+      "policy_key": "a58af9157b244b33e2c5448e",
+      "category": "trainers",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Get The Label",
+      "item_price": 20.7,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/WUUeG/5051052_1/re/150x150/qt/55/5051052_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/patrick-lyon-cupsole-low-top-mens-trainers-blackwhite-sizes-7-10-wcode-5051052",
+      "landed_cost": null,
+      "breakeven_sell": 30.62,
+      "sell_for_minimum_profit": 40.68,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-28T18:04:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Patrick+Lyon+Cupsole+Low+Top+Mens+Trainers&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "exact_identity_not_supported",
       "publication_proof": {
         "ok": false,
@@ -25368,6 +26505,45 @@
       }
     },
     {
+      "title": "Operation Night Strikers Assault Edition - Nintendo Switch Game",
+      "url": "https://www.hotukdeals.com/deals/operation-night-strikers-assault-edition-nintendo-switch-game-5016553",
+      "policy_key": "692ac2dce0cc9cf943e2eced",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 31.92,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/NQIqE/5016553_1/re/150x150/qt/55/5016553_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/operation-night-strikers-assault-edition-nintendo-switch-game-5016553",
+      "landed_cost": null,
+      "breakeven_sell": 42.03,
+      "sell_for_minimum_profit": 57.1,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-28T18:04:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Operation+Night+Strikers+Assault+Edition&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
       "title": "adidas Terrex Anylander Hiking Shoes. Black",
       "url": "https://www.hotukdeals.com/deals/adidas-terrex-anylander-hiking-shoes-black-5050330",
       "policy_key": "2860eb155391aed31f3172df",
@@ -27109,6 +28285,74 @@
       "first_seen": "2026-11-27T10:29:21+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=CONTROL+Resonant&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Nintendo Samsung microSD Express Card for Nintendo Switch 2 (256GB)",
+      "url": "https://www.hotukdeals.com/deals/nintendo-samsung-microsd-express-card-for-nintendo-switch-2-5051008",
+      "policy_key": "0b5cb5dbbbc49d96dde2573f",
+      "category": "gaming",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Amazon",
+      "item_price": 39.99,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://images.hotukdeals.com/threads/raw/ioZdV/5051008_1/re/150x150/qt/55/5051008_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/nintendo-samsung-microsd-express-card-for-nintendo-switch-2-5051008",
+      "landed_cost": null,
+      "breakeven_sell": 51.56,
+      "sell_for_minimum_profit": 70.44,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 0,
+      "first_seen": "2026-11-28T18:04:37+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Nintendo+Samsung+microSD+Express+Card+for+Nintendo+Switch+2+%28256GB%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "nintendo samsung microsd express card for 256gb nintendo switch 2",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T18:04:39+00:00",
+        "date": "2026-11-28",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 6
+        },
+        "query_aliases": [
+          "Nintendo Samsung microSD Express Card for Nintendo Switch 2 (256GB)"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
@@ -31006,7 +32250,7 @@
       "image_verified_until": null,
       "image_checked_at": null,
       "image_candidates": null,
-      "thumb": "https://images.hotukdeals.com/threads/raw/ksEOV/5050854_1/re/150x150/qt/55/5050854_1.jpg",
+      "thumb": "https://images.hotukdeals.com/threads/raw/f6F7h/5050854_1/re/150x150/qt/55/5050854_1.jpg",
       "image_basis": "Own offer/feed product image",
       "image_source_url": "https://www.hotukdeals.com/deals/sony-wf-1000xm6-wireless-noise-cancelling-headphones-refurb-5050854",
       "landed_cost": null,
