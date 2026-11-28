@@ -2,6 +2,1702 @@
   "schema_version": 1,
   "candidates": [
     {
+      "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+      "url": "https://www.ebay.co.uk/itm/880147354688",
+      "policy_key": "258f078d1f2eaa152d34d44e",
+      "category": "tech",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 109.77,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/880147354688",
+      "landed_cost": 109.77,
+      "breakeven_sell": 140.31,
+      "sell_for_minimum_profit": 194.45,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 15,
+      "first_seen": "2026-11-27T08:13:42+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bose+SoundLink+Flex+SE+2nd+Gen+Portable+Bluetooth+Speaker+IP67+Blue+Dusk&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "category": "tech",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Bose",
+          "model": "SoundLink Flex 2nd Gen",
+          "colour": "blue dusk",
+          "edition": "standard"
+        },
+        "observed_at": "2026-11-28T02:00:00+00:00",
+        "date": "2026-11-28",
+        "sample_count": 4,
+        "listed_total_low": 100.0,
+        "listed_total_p25": 101.87,
+        "listed_total_median": 106.13,
+        "listed_total_p75": 127.61,
+        "listed_total_high": 181.15,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|307299298027|0",
+            "seller": "ejj_ltd",
+            "image": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307299298027",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 0.0,
+            "listed_total": 100.0
+          },
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49
+          },
+          {
+            "item_id": "v1|880147354688|0",
+            "seller": "primepickwarehouse",
+            "image": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880147354688",
+            "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+            "declared_condition": "new",
+            "item_price": 109.77,
+            "shipping": 0.0,
+            "listed_total": 109.77
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 7
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "item_id": "v1|307299298027|0",
+          "observed_at": "2026-11-28T01:58:19+00:00",
+          "status": "conflict",
+          "reasons": [
+            "model aspect mismatch",
+            "colour mismatch"
+          ],
+          "gtin": "0017817852487",
+          "mpn": null,
+          "aspects": [
+            {
+              "type": "STRING",
+              "name": "Includes Rechargable Battery",
+              "value": "Yes"
+            },
+            {
+              "type": "STRING",
+              "name": "Audio Output Mode",
+              "value": "Stereo"
+            },
+            {
+              "type": "STRING",
+              "name": "Package Dimensions LxWxH",
+              "value": "8.6x3.78x2.74 Inches"
+            },
+            {
+              "type": "STRING",
+              "name": "Part Number",
+              "value": "887612-0160"
+            },
+            {
+              "type": "STRING",
+              "name": "Specific Uses For Product",
+              "value": "Outdoor, Travel"
+            },
+            {
+              "type": "STRING",
+              "name": "Number Of Lithium Ion Cells",
+              "value": "1"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Installation Device Type",
+              "value": "Installed In Vessel"
+            },
+            {
+              "type": "STRING",
+              "name": "Speaker Type",
+              "value": "Outdoor"
+            },
+            {
+              "type": "STRING",
+              "name": "Colour",
+              "value": "Rosewood Mauve"
+            },
+            {
+              "type": "STRING",
+              "name": "Item Package Quantity",
+              "value": "1"
+            },
+            {
+              "type": "STRING",
+              "name": "Maximum Range",
+              "value": "30.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Contains Battery Or Cell",
+              "value": "Battery"
+            },
+            {
+              "type": "STRING",
+              "name": "Ships Globally",
+              "value": "Yes"
+            },
+            {
+              "type": "STRING",
+              "name": "ISBN",
+              "value": "0017817852487"
+            },
+            {
+              "type": "STRING",
+              "name": "Batteries Required?",
+              "value": "Yes"
+            },
+            {
+              "type": "STRING",
+              "name": "Bluetooth Range",
+              "value": "9.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Power Plug Type",
+              "value": "No Plug"
+            },
+            {
+              "type": "STRING",
+              "name": "Style",
+              "value": "With Microphone"
+            },
+            {
+              "type": "STRING",
+              "name": "Frequency Response",
+              "value": "20.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Assembly Instructions",
+              "value": "No Assembly Required"
+            },
+            {
+              "type": "STRING",
+              "name": "Audio Driver Type",
+              "value": "Dynamic Driver"
+            },
+            {
+              "type": "STRING",
+              "name": "Model Name",
+              "value": "Bose Soundlink Flex Portable Bluetooth Speaker (2Nd Gen)"
+            },
+            {
+              "type": "STRING",
+              "name": "Series Number",
+              "value": "2"
+            },
+            {
+              "type": "STRING",
+              "name": "Control Method",
+              "value": "Application"
+            },
+            {
+              "type": "STRING",
+              "name": "Is Waterproof",
+              "value": "True"
+            },
+            {
+              "type": "STRING",
+              "name": "Model Number",
+              "value": "887612-0200"
+            },
+            {
+              "type": "STRING",
+              "name": "Weight",
+              "value": "1.63 Pounds"
+            },
+            {
+              "type": "STRING",
+              "name": "Brand",
+              "value": "Bose"
+            },
+            {
+              "type": "STRING",
+              "name": "Speakers Maximum Output Power",
+              "value": "7.5"
+            },
+            {
+              "type": "STRING",
+              "name": "Speaker Connectivity",
+              "value": "Wireless"
+            },
+            {
+              "type": "STRING",
+              "name": "Type",
+              "value": "Portable Speaker System"
+            },
+            {
+              "type": "STRING",
+              "name": "EAN",
+              "value": "0017817852487"
+            },
+            {
+              "type": "STRING",
+              "name": "Speakers Nominal Output Power",
+              "value": "15.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Model",
+              "value": "Bose SoundLink Flex"
+            },
+            {
+              "type": "STRING",
+              "name": "Set Name",
+              "value": "Bose Soundlink Flex Bluetooth Speaker Color Set"
+            },
+            {
+              "type": "STRING",
+              "name": "Battery Weight",
+              "value": "52.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Eu Spare Part Availability Duration",
+              "value": "7.0"
+            },
+            {
+              "type": "STRING",
+              "name": "Number Of Power Levels",
+              "value": "1"
+            },
+            {
+              "type": "STRING",
+              "name": "Country of Origin",
+              "value": "Malaysia"
+            },
+            {
+              "type": "STRING",
+              "name": "Connectivity Technology",
+              "value": "Bluetooth"
+            }
+          ],
+          "checked_item_price": 100.0,
+          "identity_query": "Bose SoundLink Flex 2nd Gen blue dusk",
+          "condition_id": "1000",
+          "availability": [
+            {
+              "deliveryOptions": [
+                "SHIP_TO_HOME"
+              ],
+              "estimatedAvailabilityStatus": "IN_STOCK",
+              "estimatedAvailableQuantity": 1,
+              "estimatedSoldQuantity": 0,
+              "estimatedRemainingQuantity": 1
+            }
+          ],
+          "source_url": "https://www.ebay.co.uk/itm/307299298027",
+          "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "fixed_shipping": 0.0,
+          "sub_checks": [
+            {
+              "sub_check_failed": "title_model_number_missing",
+              "expected": "SoundLink Flex 2nd Gen",
+              "observed": "Bose SoundLink Flex",
+              "reason": "model aspect mismatch"
+            },
+            {
+              "sub_check_failed": "variation_mismatch",
+              "expected": "blue dusk",
+              "observed": "rosewood mauve",
+              "reason": "colour mismatch"
+            }
+          ],
+          "meaning": "Declared listing fields checked, NOT authenticity, sold evidence or checkout guarantee",
+          "getitem_fields_present": [
+            "title",
+            "conditionId",
+            "price",
+            "shippingOptions",
+            "estimatedAvailabilities",
+            "localizedAspects",
+            "gtin"
+          ],
+          "getitem_fields_missing": [
+            "mpn",
+            "itemEndDate"
+          ]
+        },
+        "detail_status": "conflict",
+        "query_aliases": [
+          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
+          "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tech",
+        "detail_status": "conflict",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "observed_at": "2026-11-28T02:00:00+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 100.0,
+        "competition_high": 181.15,
+        "estimated_resale": 97.0,
+        "estimated_range": [
+          90.0,
+          100.0
+        ],
+        "suggested_listing": 99.99,
+        "quick_sale_model": 90.0,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": true,
+        "discount_note": "Same promotion or equally cheap competition exists; no exclusive edge implied",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 109.77,
+        "delivery_known": true,
+        "landed_cost": 109.77,
+        "net": -35.12,
+        "roi": -32.0,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 53.32,
+        "max_item_buy": 53.32,
+        "delivery_headroom": -56.45,
+        "fees": 15.9,
+        "outbound_postage": 3.04,
+        "packaging": 0.5,
+        "returns_allowance": 2.91,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 87.3,
+        "review_stress_net": -42.99,
+        "review_stress_roi": -39.2,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: conflict; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|307299298027|0",
+            "seller": "ejj_ltd",
+            "image": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307299298027",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 0.0,
+            "listed_total": 100.0,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_failed"
+      }
+    },
+    {
+      "title": "Lego Speed Champions Lightning Mcqueen 77255",
+      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-lightning-mcqueen-77255-5049604",
+      "policy_key": "6fe127376b0602cdb90a4df3",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "",
+      "item_price": 12.5,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/150x150/qt/55/5049604_1.jpg",
+        "https://i.ebayimg.com/images/g/Ce8AAeSwI3Jq5pv9/s-l225.jpg",
+        "https://i.ebayimg.com/images/g/drQAAeSwvTxqbh32/s-l225.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-lightning-mcqueen-77255-5049604",
+      "landed_cost": null,
+      "breakeven_sell": 21.88,
+      "sell_for_minimum_profit": 31.46,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T12:11:32+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Speed+Champions+Lightning+Mcqueen+77255&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "indicative_only",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "LEGO 77255",
+        "category": "lego",
+        "name_terms": [
+          "lightning",
+          "mcqueen"
+        ],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T01:59:57+00:00",
+        "date": "2026-11-28",
+        "sample_count": 28,
+        "listed_total_low": 16.25,
+        "listed_total_p25": 17.99,
+        "listed_total_median": 18.41,
+        "listed_total_p75": 19.54,
+        "listed_total_high": 20.55,
+        "status": "indicative_only",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|267856414210|0",
+            "seller": "click.123",
+            "image": "https://i.ebayimg.com/images/g/bE8AAeSwF95rCcWM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267856414210",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 13.99,
+            "shipping": 2.26,
+            "listed_total": 16.25
+          },
+          {
+            "item_id": "v1|267851007591|0",
+            "seller": "nvj123nicoleta",
+            "image": "https://i.ebayimg.com/images/g/SCAAAeSw42JrAxQ2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267851007591",
+            "title": "LEGO Speed Champions Cars Lightning McQueen 77255 270 pcs Set 9+Brand new ",
+            "declared_condition": "new",
+            "item_price": 13.99,
+            "shipping": 2.26,
+            "listed_total": 16.25
+          },
+          {
+            "item_id": "v1|147633999723|0",
+            "seller": "d4vep",
+            "image": "https://i.ebayimg.com/images/g/drQAAeSwvTxqbh32/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147633999723",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Set, Brand New, Sealed Set",
+            "declared_condition": "new",
+            "item_price": 14.54,
+            "shipping": 2.26,
+            "listed_total": 16.8
+          },
+          {
+            "item_id": "v1|227344325964|0",
+            "seller": "yonli_79",
+            "image": "https://i.ebayimg.com/images/g/Sn8AAeSwFVVrCeMc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227344325964",
+            "title": "LEGO 77255 Speed Champions Lightning McQueen 77255,New",
+            "declared_condition": "new",
+            "item_price": 13.98,
+            "shipping": 2.94,
+            "listed_total": 16.92
+          },
+          {
+            "item_id": "v1|327391420629|0",
+            "seller": "thingsforsale2016",
+            "image": "https://i.ebayimg.com/images/g/vPUAAeSw2VhqxNrs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327391420629",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars Lightning McQueen - New - Sealed",
+            "declared_condition": "new",
+            "item_price": 15.08,
+            "shipping": 2.26,
+            "listed_total": 17.34
+          },
+          {
+            "item_id": "v1|960184951856|0",
+            "seller": "nat_2869",
+            "image": "https://i.ebayimg.com/images/g/x-AAAeSwbQhq9Rfz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960184951856",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Disney Pixar Cars Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 15.08,
+            "shipping": 2.26,
+            "listed_total": 17.34
+          },
+          {
+            "item_id": "v1|358166513483|0",
+            "seller": "hikari2025",
+            "image": "https://i.ebayimg.com/images/g/MmsAAeSwku5pepb-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358166513483",
+            "title": "LEGO Speed Champions Lightning McQueen 77255 BRAND NEW IN BOX \u2705",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 0.0,
+            "listed_total": 17.99
+          },
+          {
+            "item_id": "v1|206579355876|0",
+            "seller": "frexexpress",
+            "image": "https://i.ebayimg.com/images/g/tVAAAeSwIGNqexIs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206579355876",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 0.0,
+            "listed_total": 17.99
+          },
+          {
+            "item_id": "v1|307214106868|0",
+            "seller": "cheungk2",
+            "image": "https://i.ebayimg.com/images/g/WRwAAeSwiM1pWsi2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307214106868",
+            "title": "LEGO Speed Champions Lightning Mcqueen (77255) Brand New",
+            "declared_condition": "new",
+            "item_price": 15.99,
+            "shipping": 2.26,
+            "listed_total": 18.25
+          },
+          {
+            "item_id": "v1|198755489574|0",
+            "seller": "alereaso0",
+            "image": "https://i.ebayimg.com/images/g/epkAAeSw1Nlq47O6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198755489574",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Disney Pixar Cars Set 270pcs 9+",
+            "declared_condition": "new",
+            "item_price": 16.14,
+            "shipping": 2.26,
+            "listed_total": 18.4
+          },
+          {
+            "item_id": "v1|820007457082|0",
+            "seller": "gius_8522",
+            "image": "https://i.ebayimg.com/images/g/SF4AAeSwUiNqgPzi/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/820007457082",
+            "title": "LEGO Speed Champions | Lightning McQueen (77255)",
+            "declared_condition": "new",
+            "item_price": 16.14,
+            "shipping": 2.26,
+            "listed_total": 18.4
+          },
+          {
+            "item_id": "v1|406556026612|0",
+            "seller": "steadily.sourced",
+            "image": "https://i.ebayimg.com/images/g/DEwAAeSwJMBpWkt6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/406556026612",
+            "title": "LEGO Speed Champions 77255 \u2013 Lightning McQueen Brand New Factory Sealed",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|227242327075|0",
+            "seller": "nisa1282",
+            "image": "https://i.ebayimg.com/images/g/OLYAAeSw4hlpV9mq/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227242327075",
+            "title": "LEGO 77255 - Speed Champions Lightning McQueen **New & Sealed**",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|136938024948|0",
+            "seller": "esky2022",
+            "image": "https://i.ebayimg.com/images/g/sqsAAeSwZappYs-N/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/136938024948",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|137959335508|0",
+            "seller": "aa844840",
+            "image": "https://i.ebayimg.com/images/g/qNEAAeSwETNrBcth/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137959335508",
+            "title": "LEGO Speed Champions Cars Lightning McQueen 77255 270pcs 9+",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.26,
+            "listed_total": 18.41
+          },
+          {
+            "item_id": "v1|407388237232|0",
+            "seller": "loustoyshack",
+            "image": "https://i.ebayimg.com/images/g/tVYAAeSwZNNrBucX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/407388237232",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 16.15,
+            "shipping": 2.62,
+            "listed_total": 18.77
+          },
+          {
+            "item_id": "v1|267677888017|0",
+            "seller": "girls-club-bargains",
+            "image": "https://i.ebayimg.com/images/g/A8sAAeSwXSNqELTT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267677888017",
+            "title": "LEGO Speed Champions Disney Lightning McQueen Car Toy (77255) BNIB",
+            "declared_condition": "new",
+            "item_price": 16.79,
+            "shipping": 2.26,
+            "listed_total": 19.05
+          },
+          {
+            "item_id": "v1|198693323544|0",
+            "seller": "walltowallventure",
+            "image": "https://i.ebayimg.com/images/g/e8oAAeSwWvFqxRTz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198693323544",
+            "title": "LEGO Speed Champions Lightning McQueen Race Car Toy 77255",
+            "declared_condition": "new",
+            "item_price": 19.36,
+            "shipping": 0.0,
+            "listed_total": 19.36
+          },
+          {
+            "item_id": "v1|377347006763|0",
+            "seller": "footie_oliv",
+            "image": "https://i.ebayimg.com/images/g/aMAAAeSwAbdqWNZD/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/377347006763",
+            "title": "LEGO Speed Champions Cars Lightning McQueen 77255 270pcs 9+ Brick Separator",
+            "declared_condition": "new",
+            "item_price": 17.21,
+            "shipping": 2.26,
+            "listed_total": 19.47
+          },
+          {
+            "item_id": "v1|237208595856|0",
+            "seller": "statto3082",
+            "image": "https://i.ebayimg.com/images/g/caoAAeSwNJJrB~uO/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/237208595856",
+            "title": "LEGO Speed Champions Cars 77255 Lightning McQueen 270pcs 9+ Build Together",
+            "declared_condition": "new",
+            "item_price": 17.22,
+            "shipping": 2.26,
+            "listed_total": 19.48
+          },
+          {
+            "item_id": "v1|236877253226|0",
+            "seller": "xmouse",
+            "image": "https://i.ebayimg.com/images/g/bZgAAeSwJHtpyWyW/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/236877253226",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 19.5,
+            "shipping": 0.0,
+            "listed_total": 19.5
+          },
+          {
+            "item_id": "v1|188529414014|0",
+            "seller": "stockera",
+            "image": "https://i.ebayimg.com/images/g/IjcAAeSw8D1qNBNT/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/188529414014",
+            "title": "LEGO Speed Champions | Lightning McQueen (77255)",
+            "declared_condition": "new",
+            "item_price": 16.0,
+            "shipping": 3.65,
+            "listed_total": 19.65
+          },
+          {
+            "item_id": "v1|198785956669|0",
+            "seller": "r.d.salesonline",
+            "image": "https://i.ebayimg.com/images/g/KKcAAeSwejxq80no/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198785956669",
+            "title": "LEGO Speed Champions Lightning McQueen Car Toy 77255",
+            "declared_condition": "new",
+            "item_price": 19.95,
+            "shipping": 0.0,
+            "listed_total": 19.95
+          },
+          {
+            "item_id": "v1|366760370192|0",
+            "seller": "stecou98",
+            "image": "https://i.ebayimg.com/images/g/NCsAAeSwh69q3gOu/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/366760370192",
+            "title": "Lego Lightning McQueen from \u2018Cars\u2019 (77255) 270 pieces  Brand New in Box Freepost",
+            "declared_condition": "new",
+            "item_price": 19.95,
+            "shipping": 0.0,
+            "listed_total": 19.95
+          },
+          {
+            "item_id": "v1|287121156738|0",
+            "seller": "lucky-you0",
+            "image": "https://i.ebayimg.com/images/g/dLEAAeSwi-ZpiO1e/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/287121156738",
+            "title": "LEGO Speed Champions | Lightning McQueen (77255)",
+            "declared_condition": "new",
+            "item_price": 19.99,
+            "shipping": 0.0,
+            "listed_total": 19.99
+          },
+          {
+            "item_id": "v1|920026880259|0",
+            "seller": "ag_cash_gen",
+            "image": "https://i.ebayimg.com/images/g/6swAAeSwsNpqykOY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/920026880259",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 19.99,
+            "shipping": 0.0,
+            "listed_total": 19.99
+          },
+          {
+            "item_id": "v1|860148978332|0",
+            "seller": "matm_2865",
+            "image": "https://i.ebayimg.com/images/g/uDkAAeSwYeRq-vsC/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/860148978332",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Cars Set 270pcs Age 9+ Box",
+            "declared_condition": "new",
+            "item_price": 18.29,
+            "shipping": 2.26,
+            "listed_total": 20.55
+          },
+          {
+            "item_id": "v1|137762489809|0",
+            "seller": "klickityklick1720",
+            "image": "https://i.ebayimg.com/images/g/thMAAeSwf8FqsRXX/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/137762489809",
+            "title": "LEGO Speed Champions Lightning McQueen 77255 - NEW & SEALED",
+            "declared_condition": "new",
+            "item_price": 18.29,
+            "shipping": 2.26,
+            "listed_total": 20.55
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 22
+        },
+        "query_aliases": [
+          "Lego Speed Champions Lightning Mcqueen 77255"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "lego",
+        "detail_status": "not_required",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "LEGO 77255",
+        "observed_at": "2026-11-28T01:59:57+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 28,
+        "seller_count": 28,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 6,
+        "confidence": "moderate",
+        "wide_spread": false,
+        "competition_low": 16.25,
+        "competition_high": 20.55,
+        "estimated_resale": 15.76,
+        "estimated_range": [
+          14.62,
+          16.25
+        ],
+        "suggested_listing": 16.24,
+        "quick_sale_model": 14.62,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 0,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 12.5,
+        "delivery_known": false,
+        "landed_cost": null,
+        "net": null,
+        "roi": null,
+        "net_before_unknown_delivery": -5.11,
+        "max_landed_buy": 0,
+        "max_item_buy": null,
+        "delivery_headroom": -12.5,
+        "fees": 2.61,
+        "outbound_postage": 4.79,
+        "packaging": 0.5,
+        "returns_allowance": 0.47,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": false,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 14.18,
+        "review_stress_net": null,
+        "review_stress_roi": null,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 0,
+        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
+        "checks": [
+          "Inbound delivery unknown; profit is only an upper bound",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|267856414210|0",
+            "seller": "click.123",
+            "image": "https://i.ebayimg.com/images/g/bE8AAeSwF95rCcWM/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267856414210",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 13.99,
+            "shipping": 2.26,
+            "listed_total": 16.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|267851007591|0",
+            "seller": "nvj123nicoleta",
+            "image": "https://i.ebayimg.com/images/g/SCAAAeSw42JrAxQ2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/267851007591",
+            "title": "LEGO Speed Champions Cars Lightning McQueen 77255 270 pcs Set 9+Brand new ",
+            "declared_condition": "new",
+            "item_price": 13.99,
+            "shipping": 2.26,
+            "listed_total": 16.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|147633999723|0",
+            "seller": "d4vep",
+            "image": "https://i.ebayimg.com/images/g/drQAAeSwvTxqbh32/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/147633999723",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Set, Brand New, Sealed Set",
+            "declared_condition": "new",
+            "item_price": 14.54,
+            "shipping": 2.26,
+            "listed_total": 16.8,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|227344325964|0",
+            "seller": "yonli_79",
+            "image": "https://i.ebayimg.com/images/g/Sn8AAeSwFVVrCeMc/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/227344325964",
+            "title": "LEGO 77255 Speed Champions Lightning McQueen 77255,New",
+            "declared_condition": "new",
+            "item_price": 13.98,
+            "shipping": 2.94,
+            "listed_total": 16.92,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|327391420629|0",
+            "seller": "thingsforsale2016",
+            "image": "https://i.ebayimg.com/images/g/vPUAAeSw2VhqxNrs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/327391420629",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars Lightning McQueen - New - Sealed",
+            "declared_condition": "new",
+            "item_price": 15.08,
+            "shipping": 2.26,
+            "listed_total": 17.34,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|960184951856|0",
+            "seller": "nat_2869",
+            "image": "https://i.ebayimg.com/images/g/x-AAAeSwbQhq9Rfz/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/960184951856",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Disney Pixar Cars Brand New Sealed",
+            "declared_condition": "new",
+            "item_price": 15.08,
+            "shipping": 2.26,
+            "listed_total": 17.34,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|358166513483|0",
+            "seller": "hikari2025",
+            "image": "https://i.ebayimg.com/images/g/MmsAAeSwku5pepb-/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/358166513483",
+            "title": "LEGO Speed Champions Lightning McQueen 77255 BRAND NEW IN BOX \u2705",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 0.0,
+            "listed_total": 17.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|206579355876|0",
+            "seller": "frexexpress",
+            "image": "https://i.ebayimg.com/images/g/tVAAAeSwIGNqexIs/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206579355876",
+            "title": "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            "declared_condition": "new",
+            "item_price": 17.99,
+            "shipping": 0.0,
+            "listed_total": 17.99,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|307214106868|0",
+            "seller": "cheungk2",
+            "image": "https://i.ebayimg.com/images/g/WRwAAeSwiM1pWsi2/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307214106868",
+            "title": "LEGO Speed Champions Lightning Mcqueen (77255) Brand New",
+            "declared_condition": "new",
+            "item_price": 15.99,
+            "shipping": 2.26,
+            "listed_total": 18.25,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|198755489574|0",
+            "seller": "alereaso0",
+            "image": "https://i.ebayimg.com/images/g/epkAAeSw1Nlq47O6/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/198755489574",
+            "title": "LEGO Speed Champions 77255 Lightning McQueen Disney Pixar Cars Set 270pcs 9+",
+            "declared_condition": "new",
+            "item_price": 16.14,
+            "shipping": 2.26,
+            "listed_total": 18.4,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": true,
+        "title": "Lego Speed Champions Lightning Mcqueen 77255",
+        "query": "LEGO 77255",
+        "kind": "active_ask",
+        "listing": 16.24,
+        "observed_at": "2026-11-28T01:59:57+00:00",
+        "valid_until": "2026-11-28T07:59:57+00:00",
+        "sources": [
+          "https://www.ebay.co.uk/itm/267856414210",
+          "https://www.ebay.co.uk/itm/267851007591",
+          "https://www.ebay.co.uk/itm/147633999723",
+          "https://www.ebay.co.uk/itm/227344325964",
+          "https://www.ebay.co.uk/itm/327391420629",
+          "https://www.ebay.co.uk/itm/960184951856",
+          "https://www.ebay.co.uk/itm/358166513483",
+          "https://www.ebay.co.uk/itm/206579355876",
+          "https://www.ebay.co.uk/itm/307214106868",
+          "https://www.ebay.co.uk/itm/198755489574"
+        ],
+        "comparators": [
+          [
+            "https://www.ebay.co.uk/itm/267856414210",
+            "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            16.25,
+            2.26,
+            13.99,
+            "click.123"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/267851007591",
+            "LEGO Speed Champions Cars Lightning McQueen 77255 270 pcs Set 9+Brand new ",
+            16.25,
+            2.26,
+            13.99,
+            "nvj123nicoleta"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/147633999723",
+            "LEGO Speed Champions 77255 Lightning McQueen Set, Brand New, Sealed Set",
+            16.8,
+            2.26,
+            14.54,
+            "d4vep"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/227344325964",
+            "LEGO 77255 Speed Champions Lightning McQueen 77255,New",
+            16.92,
+            2.94,
+            13.98,
+            "yonli_79"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/327391420629",
+            "LEGO Speed Champions 77255 Disney Pixar Cars Lightning McQueen - New - Sealed",
+            17.34,
+            2.26,
+            15.08,
+            "thingsforsale2016"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/960184951856",
+            "LEGO Speed Champions 77255 Lightning McQueen Disney Pixar Cars Brand New Sealed",
+            17.34,
+            2.26,
+            15.08,
+            "nat_2869"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/358166513483",
+            "LEGO Speed Champions Lightning McQueen 77255 BRAND NEW IN BOX \u2705",
+            17.99,
+            0.0,
+            17.99,
+            "hikari2025"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/206579355876",
+            "LEGO Speed Champions 77255 Disney Pixar Cars: Lightning McQueen Age 9+ 270pcs",
+            17.99,
+            0.0,
+            17.99,
+            "frexexpress"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/307214106868",
+            "LEGO Speed Champions Lightning Mcqueen (77255) Brand New",
+            18.25,
+            2.26,
+            15.99,
+            "cheungk2"
+          ],
+          [
+            "https://www.ebay.co.uk/itm/198755489574",
+            "LEGO Speed Champions 77255 Lightning McQueen Disney Pixar Cars Set 270pcs 9+",
+            18.4,
+            2.26,
+            16.14,
+            "alereaso0"
+          ]
+        ],
+        "category": "lego"
+      }
+    },
+    {
       "title": "LEGO City F1 Pit Stop & Pit Crew with Ferrari Car 60443",
       "url": "https://www.hotukdeals.com/deals/lego-city-f1-pit-stop-pit-crew-with-ferrari-car-60443-5050459",
       "policy_key": "5cad14df6827affe9b67dea2",
@@ -16,8 +1712,8 @@
       "item_price": 12.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CK8zC/5050459_1/re/300x300/qt/55/5050459_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CK8zC/5050459_1/re/300x300/qt/55/5050459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CK8zC/5050459_1/re/150x150/qt/55/5050459_1.jpg"
@@ -34,7 +1730,7 @@
         "No exact reviewed sold observations",
         "Inbound delivery unknown"
       ],
-      "priority": 20,
+      "priority": 10,
       "first_seen": "2026-11-28T01:25:58+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+City+F1+Pit+Stop+%26+Pit+Crew+with+Ferrari+Car+60443&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "wide_spread",
@@ -1410,8 +3106,8 @@
       "item_price": 13.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/300x300/qt/55/5050160_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/300x300/qt/55/5050160_1.jpg",
         "https://images.hotukdeals.com/threads/raw/d9pSr/5050160_1/re/150x150/qt/55/5050160_1.jpg"
@@ -2722,8 +4418,8 @@
       "item_price": 14.23,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/150x150/qt/55/5050420_1.jpg"
@@ -4002,8 +5698,8 @@
       "item_price": 14.97,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/Tb2EV/5050309_1/re/300x300/qt/55/5050309_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/Tb2EV/5050309_1/re/300x300/qt/55/5050309_1.jpg",
         "https://images.hotukdeals.com/threads/raw/Tb2EV/5050309_1/re/150x150/qt/55/5050309_1.jpg"
@@ -5299,8 +6995,8 @@
       "item_price": 15.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/300x300/qt/55/5050434_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/300x300/qt/55/5050434_1.jpg",
         "https://images.hotukdeals.com/threads/raw/RMZKw/5050434_1/re/150x150/qt/55/5050434_1.jpg"
@@ -6688,8 +8384,8 @@
       "item_price": 24.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/300x300/qt/55/5050349_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/300x300/qt/55/5050349_1.jpg",
         "https://images.hotukdeals.com/threads/raw/gqmJX/5050349_1/re/150x150/qt/55/5050349_1.jpg"
@@ -7595,8 +9291,8 @@
       "item_price": 30.37,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/150x150/qt/55/5050238_1.jpg"
@@ -8828,646 +10524,6 @@
       }
     },
     {
-      "title": "Lego Super Mario Game Boy Model Kit for Adults 72046 - Using Code - Free Click & Collect",
-      "url": "https://www.hotukdeals.com/deals/game-boy-model-kit-for-adults-72046-using-code-free-click-collect-5050180",
-      "policy_key": "5166420111ad0fc7db3aabd6",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": "rss_merchant_price",
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "Very",
-      "item_price": 32.39,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/game-boy-model-kit-for-adults-72046-using-code-free-click-collect-5050180",
-      "landed_cost": null,
-      "breakeven_sell": 45.7,
-      "sell_for_minimum_profit": 61.22,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-27T19:35:23+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Super+Mario+Game+Boy+Model+Kit+for+Adults+72046&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "indicative_only",
-      "ask_context": {
-        "kind": "active_ask",
-        "query": "LEGO 72046",
-        "category": "lego",
-        "name_terms": [
-          "adults",
-          "boy",
-          "for",
-          "game",
-          "kit",
-          "mario",
-          "model",
-          "using"
-        ],
-        "identity": {
-          "condition": "new"
-        },
-        "observed_at": "2026-11-27T19:35:23+00:00",
-        "date": "2026-11-27",
-        "sample_count": 11,
-        "listed_total_low": 37.1,
-        "listed_total_p25": 44.34,
-        "listed_total_median": 45.23,
-        "listed_total_p75": 45.24,
-        "listed_total_high": 45.37,
-        "status": "indicative_only",
-        "warnings": [
-          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
-          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
-        ],
-        "offers": [
-          {
-            "item_id": "v1|267514867373|0",
-            "seller": "longie70",
-            "image": "https://i.ebayimg.com/images/g/KecAAeSwylhpQq5O/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267514867373",
-            "title": "LEGO 72046 Nintendo Game Boy Age 18+ 421pcs new sealed  ",
-            "declared_condition": "new",
-            "item_price": 37.1,
-            "shipping": 0.0,
-            "listed_total": 37.1
-          },
-          {
-            "item_id": "v1|880146351217|0",
-            "seller": "shuk-48",
-            "image": "https://i.ebayimg.com/images/g/7SkAAeSwNWtrA4jq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880146351217",
-            "title": "LEGO Nintendo Game Boy 72046 Retro Gaming Console Display Model 421 Pieces",
-            "declared_condition": "new",
-            "item_price": 39.17,
-            "shipping": 3.38,
-            "listed_total": 42.55
-          },
-          {
-            "item_id": "v1|287753787994|0",
-            "seller": "pokemonworld_25",
-            "image": "https://i.ebayimg.com/images/g/xHMAAeSwl~FrBLq3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287753787994",
-            "title": "LEGO Super Mario Game Boy, DIY Model Kit for Adults 72046",
-            "declared_condition": "new",
-            "item_price": 39.99,
-            "shipping": 3.71,
-            "listed_total": 43.7
-          },
-          {
-            "item_id": "v1|287654237811|0",
-            "seller": "supercrazykids",
-            "image": "https://i.ebayimg.com/images/g/86cAAeSwfm1q04zx/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287654237811",
-            "title": "Lego Game Boy 72046 Xmas Gift Idea",
-            "declared_condition": "new",
-            "item_price": 44.99,
-            "shipping": 0.0,
-            "listed_total": 44.99
-          },
-          {
-            "item_id": "v1|236833421185|0",
-            "seller": "inco-29",
-            "image": "https://i.ebayimg.com/images/g/lUoAAeSwxxFpoMZZ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/236833421185",
-            "title": "lego super mario game boy 72046",
-            "declared_condition": "new",
-            "item_price": 42.25,
-            "shipping": 2.94,
-            "listed_total": 45.19
-          },
-          {
-            "item_id": "v1|198299319434|0",
-            "seller": "mark14fraser",
-            "image": "https://i.ebayimg.com/images/g/Y-EAAeSw~adp51lb/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198299319434",
-            "title": "LEGO - SUPER MARIO - ( SET 72046 - GAME BOY ) - BRAND NEW",
-            "declared_condition": "new",
-            "item_price": 42.29,
-            "shipping": 2.94,
-            "listed_total": 45.23
-          },
-          {
-            "item_id": "v1|920153885791|0",
-            "seller": "oncetwicenice",
-            "image": "https://i.ebayimg.com/images/g/QPgAAeSwJ~1q~MHI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920153885791",
-            "title": "LEGO Set 72046 - Nintendo: Game Boy - Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24
-          },
-          {
-            "item_id": "v1|366818723455|0",
-            "seller": "x_rach90",
-            "image": "https://i.ebayimg.com/images/g/qbgAAeSwcndq~VNS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366818723455",
-            "title": "Lego Nintendo Game Boy 72046 Brand New Still Sealed.",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24
-          },
-          {
-            "item_id": "v1|287759872216|0",
-            "seller": "cefas28",
-            "image": "https://i.ebayimg.com/images/g/EGAAAeSwSr1rBE2K/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287759872216",
-            "title": "LEGO Nintendo Game Boy 72046",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24
-          },
-          {
-            "item_id": "v1|840162108163|0",
-            "seller": "balmaeliza",
-            "image": "https://i.ebayimg.com/images/g/b0AAAeSwDIJrBakn/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840162108163",
-            "title": "LEGO Nintendo Game Boy 72046 ~ Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 41.99,
-            "shipping": 3.38,
-            "listed_total": 45.37
-          },
-          {
-            "item_id": "v1|407169130831|0",
-            "seller": "jumaam",
-            "image": "https://i.ebayimg.com/images/g/hKwAAeSwuVhqjZy4/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/407169130831",
-            "title": "LEGO 72046 | Nintendo Game Boy 421 pcs | Brand New In Box Sealed",
-            "declared_condition": "new",
-            "item_price": 41.99,
-            "shipping": 3.38,
-            "listed_total": 45.37
-          }
-        ],
-        "rejected": {
-          "identity_or_condition": 38,
-          "multi_variant_listing": 1
-        },
-        "query_aliases": [
-          "Lego Super Mario Game Boy Model Kit for Adults 72046 - Using Code - Free Click & Collect"
-        ]
-      },
-      "ask_estimate": {
-        "model": "competitor-asks-v1",
-        "category": "lego",
-        "detail_status": "not_required",
-        "competitor_coupon_unknown": false,
-        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
-        "query": "LEGO 72046",
-        "observed_at": "2026-11-27T19:35:23+00:00",
-        "condition": "new (seller declared)",
-        "region": "GB",
-        "sample_count": 11,
-        "seller_count": 11,
-        "unknown_seller_samples": 0,
-        "low_price_supporting_sellers": 1,
-        "confidence": "low",
-        "wide_spread": false,
-        "competition_low": 37.1,
-        "competition_high": 45.37,
-        "estimated_resale": 35.98,
-        "estimated_range": [
-          33.39,
-          37.1
-        ],
-        "suggested_listing": 37.09,
-        "quick_sale_model": 33.39,
-        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
-        "regular_price_reference": null,
-        "regular_price_status": "Not established; unmarked offers may also be discounted",
-        "advertised_original_range": null,
-        "discount_overlap": false,
-        "discount_note": "No exclusive discount advantage verified",
-        "advertised_discount_competitors": 0,
-        "same_promotion_references_excluded": 0,
-        "acquisition_excluded": 0,
-        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
-        "item_price": 32.39,
-        "delivery_known": false,
-        "landed_cost": null,
-        "net": null,
-        "roi": null,
-        "net_before_unknown_delivery": -8.12,
-        "max_landed_buy": 16.27,
-        "max_item_buy": null,
-        "delivery_headroom": -16.12,
-        "fees": 5.34,
-        "outbound_postage": 4.79,
-        "packaging": 0.5,
-        "returns_allowance": 1.08,
-        "estimated_opportunity": false,
-        "worth_reviewing": false,
-        "above_budget": false,
-        "policy": {
-          "community_index": 0,
-          "cap": 60.0,
-          "strong_net": 8,
-          "strong_roi": 0.4,
-          "review_net": 10.0,
-          "review_roi": 0.2,
-          "review_stress_drop": 0.1,
-          "review_stress_net": 5.0,
-          "review_stress_roi": 0.1,
-          "watch_ceiling": 150.0
-        },
-        "review_stress_sale": 32.38,
-        "review_stress_net": null,
-        "review_stress_roi": null,
-        "review_stress_passed": false,
-        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
-        "review_max_landed_buy": 14.27,
-        "signal": "ASK-BASED RESALE ESTIMATE \u2014 NOT A BUY",
-        "checks": [
-          "Fewer than five independent sellers or fewer than two supporting the low price",
-          "Inbound delivery unknown; profit is only an upper bound",
-          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
-          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
-          "Check current retailer stock, checkout price and exact variant before buying"
-        ],
-        "sources": [
-          {
-            "item_id": "v1|267514867373|0",
-            "seller": "longie70",
-            "image": "https://i.ebayimg.com/images/g/KecAAeSwylhpQq5O/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/267514867373",
-            "title": "LEGO 72046 Nintendo Game Boy Age 18+ 421pcs new sealed  ",
-            "declared_condition": "new",
-            "item_price": 37.1,
-            "shipping": 0.0,
-            "listed_total": 37.1,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|880146351217|0",
-            "seller": "shuk-48",
-            "image": "https://i.ebayimg.com/images/g/7SkAAeSwNWtrA4jq/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/880146351217",
-            "title": "LEGO Nintendo Game Boy 72046 Retro Gaming Console Display Model 421 Pieces",
-            "declared_condition": "new",
-            "item_price": 39.17,
-            "shipping": 3.38,
-            "listed_total": 42.55,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287753787994|0",
-            "seller": "pokemonworld_25",
-            "image": "https://i.ebayimg.com/images/g/xHMAAeSwl~FrBLq3/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287753787994",
-            "title": "LEGO Super Mario Game Boy, DIY Model Kit for Adults 72046",
-            "declared_condition": "new",
-            "item_price": 39.99,
-            "shipping": 3.71,
-            "listed_total": 43.7,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287654237811|0",
-            "seller": "supercrazykids",
-            "image": "https://i.ebayimg.com/images/g/86cAAeSwfm1q04zx/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287654237811",
-            "title": "Lego Game Boy 72046 Xmas Gift Idea",
-            "declared_condition": "new",
-            "item_price": 44.99,
-            "shipping": 0.0,
-            "listed_total": 44.99,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|236833421185|0",
-            "seller": "inco-29",
-            "image": "https://i.ebayimg.com/images/g/lUoAAeSwxxFpoMZZ/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/236833421185",
-            "title": "lego super mario game boy 72046",
-            "declared_condition": "new",
-            "item_price": 42.25,
-            "shipping": 2.94,
-            "listed_total": 45.19,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|198299319434|0",
-            "seller": "mark14fraser",
-            "image": "https://i.ebayimg.com/images/g/Y-EAAeSw~adp51lb/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/198299319434",
-            "title": "LEGO - SUPER MARIO - ( SET 72046 - GAME BOY ) - BRAND NEW",
-            "declared_condition": "new",
-            "item_price": 42.29,
-            "shipping": 2.94,
-            "listed_total": 45.23,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|920153885791|0",
-            "seller": "oncetwicenice",
-            "image": "https://i.ebayimg.com/images/g/QPgAAeSwJ~1q~MHI/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/920153885791",
-            "title": "LEGO Set 72046 - Nintendo: Game Boy - Brand New Sealed",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|366818723455|0",
-            "seller": "x_rach90",
-            "image": "https://i.ebayimg.com/images/g/qbgAAeSwcndq~VNS/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/366818723455",
-            "title": "Lego Nintendo Game Boy 72046 Brand New Still Sealed.",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|287759872216|0",
-            "seller": "cefas28",
-            "image": "https://i.ebayimg.com/images/g/EGAAAeSwSr1rBE2K/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/287759872216",
-            "title": "LEGO Nintendo Game Boy 72046",
-            "declared_condition": "new",
-            "item_price": 42.3,
-            "shipping": 2.94,
-            "listed_total": 45.24,
-            "same_acquisition_promotion": false
-          },
-          {
-            "item_id": "v1|840162108163|0",
-            "seller": "balmaeliza",
-            "image": "https://i.ebayimg.com/images/g/b0AAAeSwDIJrBakn/s-l225.jpg",
-            "country": "GB",
-            "currency": "GBP",
-            "condition_id": "1000",
-            "discount_status": "unknown",
-            "advertised_original_total": null,
-            "available_coupons": false,
-            "buying_options": [
-              "FIXED_PRICE"
-            ],
-            "end_at": null,
-            "promotion_id": null,
-            "url": "https://www.ebay.co.uk/itm/840162108163",
-            "title": "LEGO Nintendo Game Boy 72046 ~ Brand New & Sealed",
-            "declared_condition": "new",
-            "item_price": 41.99,
-            "shipping": 3.38,
-            "listed_total": 45.37,
-            "same_acquisition_promotion": false
-          }
-        ]
-      },
-      "publication_proof": {
-        "ok": false,
-        "reason": "low_price_not_supported"
-      }
-    },
-    {
       "title": "LEGO Disney Disney and Pixar \u2018Up\u2019 House Building Toy 43217",
       "url": "https://www.hotukdeals.com/deals/lego-disney-disney-and-pixar-up-house-building-toy-43217-5050277",
       "policy_key": "dcdcbd6b9c2c4ad27742c425",
@@ -9482,8 +10538,8 @@
       "item_price": 34.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/300x300/qt/55/5050277_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KKEos/5050277_1/re/150x150/qt/55/5050277_1.jpg",
@@ -10188,8 +11244,8 @@
       "item_price": 37.35,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/300x300/qt/55/5050163_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/300x300/qt/55/5050163_1.jpg",
         "https://images.hotukdeals.com/threads/raw/8OO84/5050163_1/re/150x150/qt/55/5050163_1.jpg"
@@ -11107,8 +12163,8 @@
       "item_price": 39.59,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/150x150/qt/55/5050267_1.jpg"
@@ -11763,8 +12819,8 @@
       "item_price": 41.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/150x150/qt/55/5044106_1.jpg",
@@ -13016,8 +14072,8 @@
       "item_price": 64.8,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/MdyNA/5050429_1/re/300x300/qt/55/5050429_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/MdyNA/5050429_1/re/300x300/qt/55/5050429_1.jpg",
         "https://images.hotukdeals.com/threads/raw/MdyNA/5050429_1/re/150x150/qt/55/5050429_1.jpg"
@@ -13848,8 +14904,8 @@
       "item_price": 83.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/300x300/qt/55/5050106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/UAhV4/5050106_1/re/150x150/qt/55/5050106_1.jpg"
@@ -14667,8 +15723,8 @@
       "item_price": 93.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/300x300/qt/55/5047773_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KrJE3/5047773_1/re/150x150/qt/55/5047773_1.jpg",
@@ -15985,6 +17041,337 @@
       }
     },
     {
+      "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+      "url": "https://www.ebay.co.uk/itm/307299298027",
+      "policy_key": "b01f03594a24ded1c6d77d2c",
+      "category": "tech",
+      "source": "ebay_browse",
+      "price_basis": null,
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "eBay",
+      "item_price": 100.0,
+      "image_status": null,
+      "image_verified_url": null,
+      "image_verified_until": null,
+      "image_checked_at": null,
+      "image_candidates": null,
+      "thumb": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+      "image_basis": "Own Browse listing image",
+      "image_source_url": "https://www.ebay.co.uk/itm/307299298027",
+      "landed_cost": 100.0,
+      "breakeven_sell": 128.26,
+      "sell_for_minimum_profit": 177.59,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "landed",
+      "blockers": [
+        "No exact reviewed sold observations"
+      ],
+      "priority": 5,
+      "first_seen": "2026-11-27T08:13:42+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Bose+SoundLink+Flex+Portable+Bluetooth+Speaker+2nd+Gen+in+Blue+Dusk&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "wide_spread",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "category": "tech",
+        "name_terms": [],
+        "identity": {
+          "condition": "new",
+          "brand": "Bose",
+          "model": "SoundLink Flex 2nd Gen",
+          "colour": "blue dusk",
+          "edition": "standard"
+        },
+        "observed_at": "2026-11-28T02:00:00+00:00",
+        "date": "2026-11-28",
+        "sample_count": 4,
+        "listed_total_low": 100.0,
+        "listed_total_p25": 101.87,
+        "listed_total_median": 106.13,
+        "listed_total_p75": 127.61,
+        "listed_total_high": 181.15,
+        "status": "wide_spread",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred.",
+          "Wide spread: variants/outliers may remain; no values silently discarded."
+        ],
+        "offers": [
+          {
+            "item_id": "v1|307299298027|0",
+            "seller": "ejj_ltd",
+            "image": "https://i.ebayimg.com/images/g/XjgAAeSwd8NrBZOx/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE",
+              "BEST_OFFER"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/307299298027",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+            "declared_condition": "new",
+            "item_price": 100.0,
+            "shipping": 0.0,
+            "listed_total": 100.0
+          },
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49
+          },
+          {
+            "item_id": "v1|880147354688|0",
+            "seller": "primepickwarehouse",
+            "image": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880147354688",
+            "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+            "declared_condition": "new",
+            "item_price": 109.77,
+            "shipping": 0.0,
+            "listed_total": 109.77
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15
+          }
+        ],
+        "rejected": {
+          "identity_or_condition": 7
+        },
+        "detail_required": true,
+        "lowest_detail": {
+          "status": "awaiting_detail_budget",
+          "reasons": [
+            "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices"
+          ],
+          "sub_checks": [
+            {
+              "sub_check_failed": "other",
+              "expected": "verified_fields within detail budget",
+              "observed": "awaiting_detail_budget",
+              "reason": "Bounded getItem verification pending; cheap ask retained, not replaced by higher prices",
+              "note": "detail allocation window closed this scan"
+            }
+          ]
+        },
+        "detail_status": "awaiting_detail_budget",
+        "query_aliases": [
+          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
+          "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk"
+        ]
+      },
+      "ask_estimate": {
+        "model": "competitor-asks-v1",
+        "category": "tech",
+        "detail_status": "awaiting_detail_budget",
+        "competitor_coupon_unknown": false,
+        "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
+        "query": "Bose SoundLink Flex 2nd Gen blue dusk",
+        "observed_at": "2026-11-28T02:00:00+00:00",
+        "condition": "new (seller declared)",
+        "region": "GB",
+        "sample_count": 3,
+        "seller_count": 3,
+        "unknown_seller_samples": 0,
+        "low_price_supporting_sellers": 2,
+        "confidence": "low",
+        "wide_spread": true,
+        "competition_low": 102.49,
+        "competition_high": 181.15,
+        "estimated_resale": 99.41,
+        "estimated_range": [
+          92.24,
+          102.49
+        ],
+        "suggested_listing": 102.48,
+        "quick_sale_model": 92.24,
+        "quick_sale_basis": "90% of lowest competing ask; no sales speed measured",
+        "regular_price_reference": null,
+        "regular_price_status": "Not established; unmarked offers may also be discounted",
+        "advertised_original_range": null,
+        "discount_overlap": false,
+        "discount_note": "No exclusive discount advantage verified",
+        "advertised_discount_competitors": 0,
+        "same_promotion_references_excluded": 0,
+        "acquisition_excluded": 1,
+        "acquisition_identity_status": "Exact known listing/seller IDs excluded; missing acquisition links/seller cannot be resolved from RSS",
+        "item_price": 100.0,
+        "delivery_known": true,
+        "landed_cost": 100.0,
+        "net": -23.4,
+        "roi": -23.4,
+        "net_before_unknown_delivery": null,
+        "max_landed_buy": 54.71,
+        "max_item_buy": 54.71,
+        "delivery_headroom": -45.29,
+        "fees": 16.29,
+        "outbound_postage": 3.04,
+        "packaging": 0.5,
+        "returns_allowance": 2.98,
+        "estimated_opportunity": false,
+        "worth_reviewing": false,
+        "above_budget": true,
+        "policy": {
+          "community_index": 0,
+          "cap": 60.0,
+          "strong_net": 8,
+          "strong_roi": 0.4,
+          "review_net": 10.0,
+          "review_roi": 0.2,
+          "review_stress_drop": 0.1,
+          "review_stress_net": 5.0,
+          "review_stress_roi": 0.1,
+          "watch_ceiling": 150.0
+        },
+        "review_stress_sale": 89.46,
+        "review_stress_net": -31.46,
+        "review_stress_roi": -31.5,
+        "review_stress_passed": false,
+        "review_stress_basis": "Illustrative 10% resale drop, not a forecast or measured turnover; \u00a35 net AND 10% ROI required",
+        "review_max_landed_buy": 60.0,
+        "signal": "ABOVE BUDGET \u2014 WATCH ONLY",
+        "checks": [
+          "Fewer than five independent sellers or fewer than two supporting the low price",
+          "Lowest comparator details unverified/conflicting: awaiting_detail_budget; cheap observation retained, no buying signal",
+          "\u00a38 net / 40% ROI / \u00a360 landed strong policy not demonstrated",
+          "Manual review stress test not passed: 10% lower resale must still leave \u00a35 net and 10% ROI",
+          "ABOVE BUDGET \u2014 WATCH ONLY; no purchase approval",
+          "Check current retailer stock, checkout price and exact variant before buying"
+        ],
+        "sources": [
+          {
+            "item_id": "v1|206613429444|0",
+            "seller": "mirapid",
+            "image": "https://i.ebayimg.com/images/g/c6UAAeSw7ppqow9Z/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/206613429444",
+            "title": "Bose Soundlink Flex SE 2nd Gen Bluetooth Speaker - Blue Dusk Sealed New Boxed \ud83d\udd35",
+            "declared_condition": "new",
+            "item_price": 102.49,
+            "shipping": 0.0,
+            "listed_total": 102.49,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|880147354688|0",
+            "seller": "primepickwarehouse",
+            "image": "https://i.ebayimg.com/images/g/3HUAAeSw3g5rBIJY/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/880147354688",
+            "title": "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk",
+            "declared_condition": "new",
+            "item_price": 109.77,
+            "shipping": 0.0,
+            "listed_total": 109.77,
+            "same_acquisition_promotion": false
+          },
+          {
+            "item_id": "v1|900117854425|0",
+            "seller": "carousel-store",
+            "image": "https://i.ebayimg.com/images/g/TrgAAeSwcOZrBZFR/s-l225.jpg",
+            "country": "GB",
+            "currency": "GBP",
+            "condition_id": "1000",
+            "discount_status": "unknown",
+            "advertised_original_total": null,
+            "available_coupons": false,
+            "buying_options": [
+              "FIXED_PRICE"
+            ],
+            "end_at": null,
+            "promotion_id": null,
+            "url": "https://www.ebay.co.uk/itm/900117854425",
+            "title": "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) \u2014 Blue Dusk, IP67 Water",
+            "declared_condition": "new",
+            "item_price": 173.2,
+            "shipping": 7.95,
+            "listed_total": 181.15,
+            "same_acquisition_promotion": false
+          }
+        ]
+      },
+      "publication_proof": {
+        "ok": false,
+        "reason": "detail_check_pending"
+      }
+    },
+    {
       "title": "Call of the Elder Gods: Miskatonic Edition (PS5)",
       "url": "https://www.hotukdeals.com/deals/call-of-the-elder-gods-miskatonic-edition-ps5-5042742",
       "policy_key": "c178432eef96524a2aa8caa8",
@@ -16090,7 +17477,7 @@
         "rejected": {
           "identity_or_condition": 1
         },
-        "canonicalized_at": "2026-11-28T01:23:32+00:00",
+        "canonicalized_at": "2026-11-28T01:58:19+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Call of the Elder Gods: Miskatonic Edition (PS5)"
@@ -16359,7 +17746,7 @@
         "rejected": {
           "identity_or_condition": 20
         },
-        "canonicalized_at": "2026-11-28T01:23:32+00:00",
+        "canonicalized_at": "2026-11-28T01:58:19+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Rise of the Ronin - PS5 (Free C&C)"
@@ -16629,7 +18016,7 @@
         "rejected": {
           "identity_or_condition": 5
         },
-        "canonicalized_at": "2026-11-28T01:23:32+00:00",
+        "canonicalized_at": "2026-11-28T01:58:19+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "Super Bomberman Collection \u2013 PS5"
@@ -16851,7 +18238,7 @@
         "rejected": {
           "identity_or_condition": 3
         },
-        "canonicalized_at": "2026-11-28T01:23:32+00:00",
+        "canonicalized_at": "2026-11-28T01:58:19+00:00",
         "migration_basis": "Real source observations; oldest clock retained, per-offer times preserved",
         "query_aliases": [
           "LEGO Batman: Legacy of The Dark Knight Standard Edition (PS5)"
@@ -17012,7 +18399,7 @@
           "colour": "blue dusk",
           "edition": "standard"
         },
-        "observed_at": "2026-11-28T00:51:57+00:00",
+        "observed_at": "2026-11-28T02:00:00+00:00",
         "date": "2026-11-28",
         "sample_count": 4,
         "listed_total_low": 100.0,
@@ -17123,7 +18510,7 @@
         "detail_required": true,
         "lowest_detail": {
           "item_id": "v1|307299298027|0",
-          "observed_at": "2026-11-28T01:23:32+00:00",
+          "observed_at": "2026-11-28T01:58:19+00:00",
           "status": "conflict",
           "reasons": [
             "model aspect mismatch",
@@ -17381,7 +18768,9 @@
         },
         "detail_status": "conflict",
         "query_aliases": [
-          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk"
+          "Bose SoundLink Flex Portable Bluetooth Speaker (2nd Gen) - Blue Dusk",
+          "Bose SoundLink Flex Portable Bluetooth Speaker 2nd Gen in Blue Dusk - BNIB!",
+          "Bose SoundLink Flex SE 2nd Gen Portable Bluetooth Speaker IP67 Blue Dusk"
         ]
       },
       "ask_estimate": {
@@ -17391,7 +18780,7 @@
         "competitor_coupon_unknown": false,
         "basis": "Current competitor asking totals incl fixed shipping; estimated, NOT sold or guaranteed",
         "query": "Bose SoundLink Flex 2nd Gen blue dusk",
-        "observed_at": "2026-11-28T00:51:57+00:00",
+        "observed_at": "2026-11-28T02:00:00+00:00",
         "condition": "new (seller declared)",
         "region": "GB",
         "sample_count": 4,
@@ -17617,8 +19006,8 @@
       "item_price": 5.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/300x300/qt/55/5048365_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/300x300/qt/55/5048365_1.jpg",
         "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/150x150/qt/55/5048365_1.jpg",
@@ -17705,8 +19094,8 @@
       "item_price": 5.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/300x300/qt/55/5048365_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/HHuJF/5048365_1/re/300x300/qt/55/5048365_1.jpg",
         "https://images.hotukdeals.com/threads/raw/iVnNs/5046343_1/re/300x300/qt/55/5046343_1.jpg",
@@ -17793,8 +19182,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/300x300/qt/55/5049642_1.jpg",
         "https://images.hotukdeals.com/threads/raw/mJT1n/5049642_1/re/150x150/qt/55/5049642_1.jpg",
@@ -17837,8 +19226,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/150x150/qt/55/5050162_1.jpg"
@@ -17879,8 +19268,8 @@
       "item_price": 8.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/300x300/qt/55/5050162_1.jpg",
         "https://images.hotukdeals.com/threads/raw/BGYv8/5050162_1/re/150x150/qt/55/5050162_1.jpg",
@@ -18094,8 +19483,8 @@
       "item_price": 10.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/300x300/qt/55/5049586_1.jpg",
         "https://images.hotukdeals.com/threads/raw/n9oiy/5049586_1/re/150x150/qt/55/5049586_1.jpg",
@@ -18138,8 +19527,8 @@
       "item_price": 11.58,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/300x300/qt/55/5049189_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/300x300/qt/55/5049189_1.jpg",
         "https://images.hotukdeals.com/threads/raw/EkbDz/5049189_1/re/150x150/qt/55/5049189_1.jpg"
@@ -18210,50 +19599,6 @@
       }
     },
     {
-      "title": "Lego Speed Champions Lightning Mcqueen 77255",
-      "url": "https://www.hotukdeals.com/deals/lego-speed-champions-lightning-mcqueen-77255-5049604",
-      "policy_key": "6fe127376b0602cdb90a4df3",
-      "category": "lego",
-      "source": "hotukdeals",
-      "price_basis": null,
-      "identity_evidence": [],
-      "primary_offer_status": null,
-      "secondary_offer_note": null,
-      "offer_ambiguity": null,
-      "merchant": "",
-      "item_price": 12.5,
-      "image_status": "verified",
-      "image_verified_url": "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
-      "image_candidates": [
-        "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
-        "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/150x150/qt/55/5049604_1.jpg",
-        "https://i.ebayimg.com/images/g/Ce8AAeSwI3Jq5pv9/s-l225.jpg",
-        "https://i.ebayimg.com/images/g/drQAAeSwvTxqbh32/s-l225.jpg"
-      ],
-      "thumb": "https://images.hotukdeals.com/threads/raw/3Glqb/5049604_1/re/300x300/qt/55/5049604_1.jpg",
-      "image_basis": "Own offer/feed product image",
-      "image_source_url": "https://www.hotukdeals.com/deals/lego-speed-champions-lightning-mcqueen-77255-5049604",
-      "landed_cost": null,
-      "breakeven_sell": 21.88,
-      "sell_for_minimum_profit": 31.46,
-      "outbound_transport_status": "configured rate; verify acceptance",
-      "cost_basis": "item-only lower bound; delivery unknown",
-      "blockers": [
-        "No exact reviewed sold observations",
-        "Inbound delivery unknown"
-      ],
-      "priority": 10,
-      "first_seen": "2026-11-27T12:11:32+00:00",
-      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Speed+Champions+Lightning+Mcqueen+77255&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
-      "publication_proof": {
-        "ok": false,
-        "reason": "no_supported_resale_estimate"
-      }
-    },
-    {
       "title": "LEGO 10696 (484 pieces) Classic The Creative Brick Box, Toy and Storage Set with Bricks, Wheels, Windows",
       "url": "https://www.hotukdeals.com/deals/lego-10696-484-pieces-classic-the-creative-brick-box-toy-and-storage-set-with-bricks-wheels-windows-5046041",
       "policy_key": "d67934c5babc64e107e763cb",
@@ -18312,8 +19657,8 @@
       "item_price": 13.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg",
@@ -18400,8 +19745,8 @@
       "item_price": 13.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/300x300/qt/55/5049525_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/300x300/qt/55/5049525_1.jpg",
         "https://images.hotukdeals.com/threads/raw/bnwhO/5049525_1/re/150x150/qt/55/5049525_1.jpg",
@@ -18615,8 +19960,8 @@
       "item_price": 14.98,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/300x300/qt/55/5050420_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tef6h/5050420_1/re/150x150/qt/55/5050420_1.jpg",
@@ -18659,8 +20004,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg"
@@ -18701,8 +20046,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lMsup/5043529_1/re/300x300/qt/55/5043529_1.jpg",
@@ -18789,8 +20134,8 @@
       "item_price": 14.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tJEai/5048923_1/re/300x300/qt/55/5048923_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0sADn/5043728_1/re/300x300/qt/55/5043728_1.jpg",
@@ -18916,8 +20261,8 @@
       "item_price": 16.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/300x300/qt/55/5048649_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/300x300/qt/55/5048649_1.jpg",
         "https://images.hotukdeals.com/threads/raw/1Rjv6/5048649_1/re/150x150/qt/55/5048649_1.jpg",
@@ -18960,8 +20305,8 @@
       "item_price": 16.75,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/300x300/qt/55/5050077_1.jpg",
         "https://images.hotukdeals.com/threads/raw/yk1OH/5050077_1/re/150x150/qt/55/5050077_1.jpg",
@@ -19136,8 +20481,8 @@
       "item_price": 20.3,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/300x300/qt/55/5047792_1.jpg",
         "https://images.hotukdeals.com/threads/raw/DZesG/5047792_1/re/150x150/qt/55/5047792_1.jpg"
@@ -19435,8 +20780,8 @@
       "item_price": 26.63,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/150x150/qt/55/5049821_1.jpg",
@@ -19523,8 +20868,8 @@
       "item_price": 27.42,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/300x300/qt/55/5049252_1.jpg",
         "https://images.hotukdeals.com/threads/raw/CWnoV/5049252_1/re/150x150/qt/55/5049252_1.jpg"
@@ -19565,8 +20910,8 @@
       "item_price": 27.73,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/300x300/qt/55/5049819_1.jpg",
         "https://images.hotukdeals.com/threads/raw/2DnE4/5049819_1/re/150x150/qt/55/5049819_1.jpg",
@@ -19653,8 +20998,8 @@
       "item_price": 28.77,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/300x300/qt/55/5048487_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/300x300/qt/55/5048487_1.jpg",
         "https://images.hotukdeals.com/threads/raw/ToiEm/5048487_1/re/150x150/qt/55/5048487_1.jpg"
@@ -19761,8 +21106,8 @@
       "item_price": 28.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/2Qv74/5049821_1/re/300x300/qt/55/5049821_1.jpg",
         "https://images.hotukdeals.com/threads/raw/04xmc/5047544_1/re/300x300/qt/55/5047544_1.jpg",
@@ -19849,8 +21194,8 @@
       "item_price": 29.4,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/300x300/qt/55/5050238_1.jpg",
         "https://images.hotukdeals.com/threads/raw/49tbU/5050238_1/re/150x150/qt/55/5050238_1.jpg",
@@ -19916,6 +21261,48 @@
       "priority": 10,
       "first_seen": "2026-11-24T19:27:52+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=LEGO+Star+Wars+Hutt+Palace+Sentry+Droid+Showdown+75451&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
+      "ask_status": "awaiting_query_budget",
+      "publication_proof": {
+        "ok": false,
+        "reason": "no_supported_resale_estimate"
+      }
+    },
+    {
+      "title": "Lego Super Mario Game Boy Model Kit for Adults 72046 - Using Code - Free Click & Collect",
+      "url": "https://www.hotukdeals.com/deals/game-boy-model-kit-for-adults-72046-using-code-free-click-collect-5050180",
+      "policy_key": "5166420111ad0fc7db3aabd6",
+      "category": "lego",
+      "source": "hotukdeals",
+      "price_basis": "rss_merchant_price",
+      "identity_evidence": [],
+      "primary_offer_status": null,
+      "secondary_offer_note": null,
+      "offer_ambiguity": null,
+      "merchant": "Very",
+      "item_price": 32.39,
+      "image_status": "verified",
+      "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
+      "image_candidates": [
+        "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
+        "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg"
+      ],
+      "thumb": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
+      "image_basis": "Own offer/feed product image",
+      "image_source_url": "https://www.hotukdeals.com/deals/game-boy-model-kit-for-adults-72046-using-code-free-click-collect-5050180",
+      "landed_cost": null,
+      "breakeven_sell": 45.7,
+      "sell_for_minimum_profit": 61.22,
+      "outbound_transport_status": "configured rate; verify acceptance",
+      "cost_basis": "item-only lower bound; delivery unknown",
+      "blockers": [
+        "No exact reviewed sold observations",
+        "Inbound delivery unknown"
+      ],
+      "priority": 10,
+      "first_seen": "2026-11-27T19:35:23+00:00",
+      "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Lego+Super+Mario+Game+Boy+Model+Kit+for+Adults+72046&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
       "ask_status": "awaiting_query_budget",
       "publication_proof": {
         "ok": false,
@@ -20108,8 +21495,8 @@
       "item_price": 34.29,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/300x300/qt/55/5043603_1.jpg",
         "https://images.hotukdeals.com/threads/raw/wjXJs/5043603_1/re/150x150/qt/55/5043603_1.jpg"
@@ -20319,8 +21706,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg",
@@ -20363,8 +21750,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg",
@@ -20407,8 +21794,8 @@
       "item_price": 35.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/300x300/qt/55/5050180_1.jpg",
         "https://images.hotukdeals.com/threads/raw/4Peeh/5050180_1/re/150x150/qt/55/5050180_1.jpg",
@@ -20493,8 +21880,8 @@
       "item_price": 36.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/300x300/qt/55/5050075_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/300x300/qt/55/5050075_1.jpg",
         "https://images.hotukdeals.com/threads/raw/SxTAS/5050075_1/re/150x150/qt/55/5050075_1.jpg"
@@ -20535,8 +21922,8 @@
       "item_price": 36.9,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/300x300/qt/55/5049459_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/300x300/qt/55/5049459_1.jpg",
         "https://images.hotukdeals.com/threads/raw/xj37B/5049459_1/re/150x150/qt/55/5049459_1.jpg"
@@ -20716,8 +22103,8 @@
       "item_price": 39.0,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/s4Uc1/5049545_1/re/300x300/qt/55/5049545_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/s4Uc1/5049545_1/re/300x300/qt/55/5049545_1.jpg",
         "https://images.hotukdeals.com/threads/raw/lV0Np/5046611_1/re/300x300/qt/55/5046611_1.jpg",
@@ -20804,8 +22191,8 @@
       "item_price": 39.87,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/300x300/qt/55/5050267_1.jpg",
         "https://images.hotukdeals.com/threads/raw/YVFEJ/5050267_1/re/150x150/qt/55/5050267_1.jpg",
@@ -20892,8 +22279,8 @@
       "item_price": 40.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/150x150/qt/55/5048977_1.jpg",
@@ -20936,8 +22323,8 @@
       "item_price": 42.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/qOiqS/5048977_1/re/300x300/qt/55/5048977_1.jpg",
         "https://images.hotukdeals.com/threads/raw/dPmVI/5043415_1/re/300x300/qt/55/5043415_1.jpg",
@@ -21024,8 +22411,8 @@
       "item_price": 43.85,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/300x300/qt/55/5045323_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6spU5/5045323_1/re/150x150/qt/55/5045323_1.jpg"
@@ -21368,8 +22755,8 @@
       "item_price": 49.16,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/300x300/qt/55/5045326_1.jpg",
         "https://images.hotukdeals.com/threads/raw/k7jei/5045326_1/re/150x150/qt/55/5045326_1.jpg"
@@ -21410,8 +22797,8 @@
       "item_price": 49.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/300x300/qt/55/5049057_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/300x300/qt/55/5049057_1.jpg",
         "https://images.hotukdeals.com/threads/raw/6PDjM/5049057_1/re/150x150/qt/55/5049057_1.jpg",
@@ -21454,8 +22841,8 @@
       "item_price": 49.5,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/300x300/qt/55/5049023_1.jpg",
         "https://images.hotukdeals.com/threads/raw/KPd21/5049023_1/re/150x150/qt/55/5049023_1.jpg",
@@ -21628,8 +23015,8 @@
       "item_price": 54.39,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/150x150/qt/55/5049914_1.jpg",
@@ -21672,8 +23059,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/pv0pZ/5044106_1/re/300x300/qt/55/5044106_1.jpg",
         "https://images.hotukdeals.com/threads/raw/fTcCv/5043616_1/re/300x300/qt/55/5043616_1.jpg",
@@ -21716,8 +23103,8 @@
       "item_price": 54.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/300x300/qt/55/5049914_1.jpg",
         "https://images.hotukdeals.com/threads/raw/0fppc/5049914_1/re/150x150/qt/55/5049914_1.jpg"
@@ -21976,8 +23363,8 @@
       "item_price": 61.49,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
-      "image_verified_until": "2026-11-28T01:46:03.140584+00:00",
-      "image_checked_at": "2026-11-28T01:26:03.140584+00:00",
+      "image_verified_until": "2026-11-28T02:20:01.159922+00:00",
+      "image_checked_at": "2026-11-28T02:00:01.159922+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/300x300/qt/55/5045330_1.jpg",
         "https://images.hotukdeals.com/threads/raw/tW5Uv/5045330_1/re/150x150/qt/55/5045330_1.jpg"
@@ -22057,8 +23444,8 @@
       "item_price": 89.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/hSRTR/5050272_1/re/300x300/qt/55/5050272_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/hSRTR/5050272_1/re/300x300/qt/55/5050272_1.jpg",
         "https://images.hotukdeals.com/threads/raw/hSRTR/5050272_1/re/150x150/qt/55/5050272_1.jpg"
@@ -23113,8 +24500,8 @@
       "item_price": 7.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/QPn1Y/5050331_1/re/300x300/qt/55/5050331_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/QPn1Y/5050331_1/re/300x300/qt/55/5050331_1.jpg",
         "https://images.hotukdeals.com/threads/raw/QPn1Y/5050331_1/re/150x150/qt/55/5050331_1.jpg"
@@ -23457,8 +24844,8 @@
       "item_price": 9.99,
       "image_status": "verified",
       "image_verified_url": "https://images.hotukdeals.com/threads/raw/24JHL/5050425_1/re/300x300/qt/55/5050425_1.jpg",
-      "image_verified_until": "2026-11-28T01:43:45.536515+00:00",
-      "image_checked_at": "2026-11-28T01:23:45.536515+00:00",
+      "image_verified_until": "2026-11-28T02:18:31.020228+00:00",
+      "image_checked_at": "2026-11-28T01:58:31.020228+00:00",
       "image_candidates": [
         "https://images.hotukdeals.com/threads/raw/24JHL/5050425_1/re/300x300/qt/55/5050425_1.jpg",
         "https://images.hotukdeals.com/threads/raw/24JHL/5050425_1/re/150x150/qt/55/5050425_1.jpg"
@@ -24573,7 +25960,36 @@
       "priority": 0,
       "first_seen": "2026-11-23T00:36:36+00:00",
       "sold_search": "https://www.ebay.co.uk/sch/i.html?_nkw=Kingdom+Come%3A+Deliverance+II+%28PS5%29&LH_Sold=1&LH_Complete=1&LH_PrefLoc=1",
-      "ask_status": "awaiting_query_budget",
+      "ask_status": "no_exact_shipped_samples",
+      "ask_context": {
+        "kind": "active_ask",
+        "query": "kingdom come deliverance ii pegi 18 ps5",
+        "category": "gaming",
+        "name_terms": [],
+        "identity": {
+          "condition": "new"
+        },
+        "observed_at": "2026-11-28T01:59:57+00:00",
+        "date": "2026-11-28",
+        "sample_count": 0,
+        "listed_total_low": null,
+        "listed_total_p25": null,
+        "listed_total_median": null,
+        "listed_total_p75": null,
+        "listed_total_high": null,
+        "status": "no_exact_shipped_samples",
+        "warnings": [
+          "Active asking totals, NOT sold prices or a resale prediction. Buyer-only fees may be additional.",
+          "Title-derived identity with product-name filters, not independently reviewed. No demand, velocity or cash floor inferred."
+        ],
+        "offers": [],
+        "rejected": {
+          "identity_or_condition": 21
+        },
+        "query_aliases": [
+          "Kingdom Come: Deliverance II (PS5) - PEGI 18 - Free Click & Collect"
+        ]
+      },
       "publication_proof": {
         "ok": false,
         "reason": "no_supported_resale_estimate"
